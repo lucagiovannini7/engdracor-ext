@@ -1,0 +1,860 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title type="main">The tragedy of Chrononhotonthologos</title><title type="sub"> being the most tragical tragedy, that ever was tragediz'd by any company of tragedians. Written by Benjamin Bounce, Esq;.</title><author><persName><surname>Carey</surname><forename>Henry</forename><idno type="VIAF">14965532</idno></persName></author><respStmt><resp>Transformation into valid TEI P5, improving markup, filling <gi>gap</gi>s, proofreading, and expanding header.</resp><persName xml:id="JJ"><surname>Jokisch</surname><forename>Jan</forename><idno type="ORCID">0009-0003-1026-2995</idno></persName></respStmt></titleStmt>
+<extent><measure quantity="32" unit="KB">About 32 kilobytes.</measure></extent><publicationStmt><authority ref="#JJ">Jan Jokisch</authority><date>2024 December</date><idno type="ECCO_Drama">K051011.000</idno><idno type="DLPS">004834793</idno><idno type="ESTC">T57992</idno><idno type="DocNo">CW115811076</idno><idno type="TCP">K051011.000</idno>
+<idno type="GaleDocNo">CW3315811076</idno><idno type="ContentSet">ECLL</idno><idno type="ImageSetID">1034000600</idno><availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability></publicationStmt><sourceDesc><biblFull><titleStmt><title type="245">The tragedy of Chrononhotonthologos: being the most tragical tragedy, that ever was tragediz'd by any company of tragedians. Written by Benjamin Bounce, Esq;.</title><title type="alt">Chrononhotonthologos</title><author>Carey, Henry, 1687?-1743.</author></titleStmt>
+<extent>30,[2]p. : ill.,engr.music ; 8⁰.</extent><publicationStmt><publisher>printed for J. Shuckburgh, and L. Gilliver, J. Jackson; and sold by A. Dodd, and E. Nutt,</publisher><date>[1734]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Benjamin Bounce = Henry Carey.</note><note>With a final leaf of epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT57992.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
+</biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
+<front>
+<div1 type="frontispiece">
+<pb facs="1" ana="y"/>
+<pb facs="2"/>
+<p><figure>
+</figure></p>
+</div1>
+<div1 type="titlepage">
+<pb facs="3" ana="y"/>
+<p>THE TRAGEDY OF Chrononhotonthologos: BEING The most Tragical Tragedy, that ever was Tragediz'd by any Company of TRAGEDIANS.</p>
+<p>Written by BENJAMIN BOUNCE, <abbr>Esq</abbr></p>
+<quote>Qui capit ille facit.</quote>
+<p>LONDON: Printed for <hi>J. Shuckburgh,</hi> and <hi>L. Gilliver,</hi> in <hi>Fleet-Street, J. Jackson,</hi> in <hi>Pall-Mall</hi>; and sold by <hi>A. Dodd,</hi> without <hi>Temple-Bar,</hi> and <hi>F. Nutt,</hi> at the <hi>Royal-Exchange.</hi> [Price Six Pence.]</p>
+</div1>
+<div1 type="prologue">
+<pb facs="4"/>
+<head>PROLOGUE.</head>
+<stage>Spoken by Mr. W. MILLS.</stage>
+<l>TO Night our comic MUSE the Buskin wears,</l>
+<l>And gives her self no small Romantic Airs;</l>
+<l>Struts in Heroics, and in pompous Verse,</l>
+<l>Does the minutest Incidents rehearse;</l>
+<l>In Ridicule's strict Retrospect displays,</l>
+<l>The Poetasters of these modern Days:</l>
+<l>When the big bellowing Bombast rends our Ears,</l>
+<l>Which stript of Sound, quite void of Sense appears:</l>
+<l>Or when the Fiddle Faddle Numbers flow,</l>
+<l>Serenely dull, Elaborately low:</l>
+<l>Either Extreme, when vain Pretenders take,</l>
+<l>The Actor suffers for the Author's sake.</l>
+<l>The quite tir'd Audience lose whole Hours, yet pay</l>
+<l>To go un-pleas'd and un-improv'd away:</l>
+<l>This being our Scheme, we hope you will excuse</l>
+<l>The wild Excursion of the wanton Muse;</l>
+<l>Who out of Frolic wears a mimic Mask,</l>
+<l>And sets herself so whimsical a Task:</l>
+<l>'Tis meant to please, but if it should offend,</l>
+<l>It's very short, and soon will have an End.</l>
+</div1>
+<div1 type="dramatispersonae">
+<pb facs="5"/>
+<head>Dramatis Personae.</head>
+<list>
+<label><hi>Chrononhotonthologos,</hi> King of <hi>Queerumania,</hi></label>
+<item>Mr. <hi>Winstone.</hi></item>
+<label><hi>Bombardinion,</hi> his General,</label>
+<item>Mr. <hi>Ridout.</hi></item>
+<label><hi>Aldiborontiphoscophornio,</hi> Courtier.</label>
+<item>Mr. <hi>Cross.</hi></item>
+<label><hi>Rigdum Funnidos,</hi> Courtier.</label>
+<item>Mr. <hi>Oates.</hi></item>
+<label>Captain of the Guards,</label>
+<item>Mr. <hi>Woodburn.</hi></item>
+<label>Doctor,</label>
+<item>Mr. <hi>Gray.</hi></item>
+<label>Cook,</label>
+<item>Mr. <hi>H. Tench.</hi></item>
+<label>King of the Fidlers,</label>
+<item>Mr. <hi>Davis.</hi></item>
+<label>King of the Antipodes,</label>
+<item>Mr. <hi>Jannot.</hi></item>
+<label><hi>Dumb,</hi> Master of the Ceremonies,</label>
+<item>Mr. <hi>Gray.</hi></item>
+<label>Signor <hi>Scacciatinello,</hi></label>
+<item>Master. <hi>Arne.</hi></item>
+<label>Signora <hi>Sicarina,</hi></label>
+<item>Miss <hi>Jones.</hi></item>
+</list>
+<list>
+<label><hi>Eadladinida,</hi> Queen of Queerumania,</label>
+<item>Mrs. <hi>Shireburne.</hi></item>
+<label><hi>Tatlanthe,</hi> her Favourite,</label>
+<item>Mrs. <hi>Charke.</hi></item>
+<label>Two Ladies of the Court,</label>
+<item><list>
+<item>Miss <hi>Oates.</hi></item>
+<item>Miss <hi>Dancy.</hi></item>
+</list></item>
+<label>Venus,</label>
+<item>Mrs. <hi>Clark.</hi></item>
+<label>Cupid,</label>
+<item>Master. <hi>Arne.</hi></item>
+</list>
+</div1>
+<set><p>SCENE Queerumania.</p></set>
+<div1 type="tunesofthesongs">
+<pb facs="6"/>
+<head>The Tunes of y<span rend="sup">e</span> Songs.</head>
+<l>See Venus does attend thee.</l>
+<l>(My Dilding my Dolding.)</l>
+<notatedMusic/>
+<l>Take this Magic Wand in Hand.</l>
+<l>(Dance o'er the Lady Lee.)</l>
+<notatedMusic/>
+<l>Are you a Widow or are you a Wife.</l>
+<l>(Gilly flower Gentle Rosemary.)</l>
+<notatedMusic/>
+<l>Marriage may become a Curse.</l>
+<l>(Swedes March.)</l>
+<notatedMusic/>
+</div1>
+</front>
+<body>
+<head><pb facs="7"/>
+THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
+<div1 type="scene">
+<head>SCENE, <stage>An Antichamber in the Palace.</stage></head>
+<stage>Enter RIGDUM-FUNNIDOS, and <hi>Aldiborontiphoscophornio.</hi></stage>
+<sp>
+<speaker>Rigdum-Funnidos.</speaker>
+<l>ALdiborontiphoscophornio!</l>
+<l>Where left you <hi>Chrononhotonthologos?</hi></l>
+</sp>
+<sp>
+<speaker>Aldiborontiphoscophornio.</speaker>
+<l>Fatigu'd with the tremendous Toils of War,</l>
+<l>Within his Tent, on downy Couch succumbent,</l>
+<l>Himself he unfatigues with gentle Slumbers;</l>
+<l>Lull'd by the chearful Trumpets gladsome Clangor,</l>
+<l>The Noise of Drums and Thunder of Artillery,</l>
+<l>He sleeps Supine amidst the Din of War:</l>
+<l><pb n="10" facs="8"/>And yet 'tis not definitively Sleep;</l>
+<l>Rather a kind of Doze, a waking Slumber,</l>
+<l>That sheds a Stupefaction o'er his Senses;</l>
+<l>For now He nods and snores; anon he starts,</l>
+<l>Then nods and snores again: If this be Sleep,</l>
+<l>Tell me, ye Gods! what mortal Man's awake!</l>
+<l>What says my Friend to this?</l>
+</sp>
+<sp>
+<speaker>Rigdum-Funnidos.</speaker>
+<p>—Say! I say he sleeps Dog-sleep, what a Plague wou'd you have me say?</p>
+</sp>
+<sp>
+<speaker>Aldiboronti.</speaker>
+<l>O impious Thought! O curst Insinuation!</l>
+<l>As if great <hi>Chrononhotonthologos</hi></l>
+<l>To Animals detestable and vile,</l>
+<l>Had ought the least Similitude!</l>
+</sp>
+<sp>
+<speaker>Rigdum.</speaker>
+<p>My dear Friend! you entirely misapprehend me; I did not call the King, Dog by Craft, I was only going to tell you the Soldiers have just receiv'd their Pay, and are all as drunk as so many Swabbers.</p>
+</sp>
+<sp>
+<speaker>Aldiboronti.</speaker>
+<l>Give Orders instantly, that no more Money</l>
+<l>Be issued to the Troops: Mean time, my Friend!</l>
+<l>Let all the Baths be fill'd with Seas of Coffee,</l>
+<l>To stupify their Souls into Sobriety.</l>
+</sp>
+<sp>
+<speaker>Rigdum.</speaker>
+<p>I fancy you had better banish the Sutlers, and blow the <hi>Geneva</hi> Casks to the Devil.</p>
+</sp>
+<gap resp="oxf" extent="2 pages" disp="〈2 pages missing〉" reason="missing"/>
+<sp>
+<pb n="13" facs="9"/>
+<l>Have burst the solid Entrails of the Earth.</l>
+<l>Gushing such <hi>Cataracts</hi> of <hi>Forces</hi> forth,</l>
+<l>This World is too incopious to contain 'em:</l>
+<l>Armies, on Armies, march in Form stupendous;</l>
+<l>Not like our Earthly Legions, Rank by Rank,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Teer o'er Teer, high pil'd from Earth to Heaven:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> lazing Bullet, Bigger than the Sun,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> from a huge and monstrous Culverin,</l>
+<l>Has laid your Royal <hi>Citadel</hi> in Ashes.</l>
+</sp>
+<sp>
+<speaker>King.</speaker>
+<l>Peace Coward! were they wedg'd like Golden Ingots,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> pent so close, as to admit no <hi>Vacuum.</hi></l>
+<l>One look from <hi>Chrononhotonthologos</hi></l>
+<l>Shall scare them into Nothing. <hi>Rigdum Funnidos,</hi></l>
+<l>Bid <hi>Bombardinion</hi> draw his Legions forth,</l>
+<l>And meet us in the Plains of <hi>Queerumania.</hi></l>
+<l>This very now ourselves shall there conjoin him;</l>
+<l>Mean Time, bid all the Priests prepare their Temples</l>
+<l>For Rites of Triumph: Let the Singing Singers.</l>
+<l>With vocal Voices, most Vociferous,</l>
+<l>In sweet Vociferation, out vociferize</l>
+<l>Ev'n Sound itself; So be it as we have order'd.</l>
+<stage>Exeunt.</stage>
+</sp>
+</div1>
+<div1 type="scene">
+<head>SCENE <stage>a magnificent Apartment.</stage></head>
+<stage>Enter Queen <hi>Fadladinida, Tatlanthe,</hi> and two <hi>Ladies.</hi></stage>
+<sp>
+<speaker>Queen.</speaker>
+<l>—Day's Curtain drawn, the Morn begins to rise,</l>
+<l>And waking Nature rubs her sleepy Eyes.</l>
+<l><pb n="14" facs="10"/>The pretty little fleecy bleating Flocks,</l>
+<l>In Baa'as harmonious warble thro' the Rocks:</l>
+<l>Night gathers up her Shades in sable Shrouds,</l>
+<l>And whispering Oziers rattle to the Clouds.</l>
+<l>What think you, Ladies, if <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> we kill,</l>
+<l>At Basset, Ombre, Pi<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>quet or Quadrille.</l>
+</sp>
+<sp>
+<speaker>Titlanthe</speaker>
+<l>—Your Majesty was pleas'd to order Tea.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—My Mind is alter'd Bring some Ratafia.</l>
+<stage>They are serv'd round with a Dram.</stage>
+<l>I have a famous Fidler sent from <hi>France,</hi></l>
+<l>Bid him come in, What think ye of a Dance?</l>
+</sp>
+<stage>Enter King of the Fidlers.</stage>
+<sp>
+<l>—Thus to your Majesty says the suppliant Muse:</l>
+<l>Wou'd you a <hi>Solo,</hi> or <hi>Sonata</hi> chuse</l>
+<l>Or bold <hi>Concerto,</hi> or soft <hi>Siciliana,</hi></l>
+<l><hi>Alla Francese overo in Gusto Romano?</hi></l>
+<l>When you Command, 'tis done as soon as spoke.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>A civil Fellow!—play us the <hi>Black Joak.</hi></l>
+<stage>Queen and Ladies Dance the <hi>Black Joak,</hi></stage>
+<l>So much for Dancing; now lets rest a while.</l>
+<l>Bring in the Tea-Things, does the Kettle boil?</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—The Water bubbles and the Tea-Cups skip.</l>
+<l>Through eager Hope to kiss your Royal Lip.</l>
+<stage>Tea brought in.</stage>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—Come Ladies, will you please to chuse your Tea;</l>
+<l>Or Green Imperial, or <hi>Pekoe</hi> Bohea?</l>
+</sp>
+<sp>
+<pb n="15" facs="11"/>
+<speaker>1st Lady.</speaker>
+<l>—Never, no, never sure on Earth was seen,</l>
+<l>So <hi>gracious, sweet</hi> and <hi>affable</hi> a Queen.</l>
+</sp>
+<sp>
+<speaker>2d Lady.</speaker>
+<l>—She is an <hi>Angel.</hi></l>
+</sp>
+<sp>
+<speaker>1st Lady.</speaker>
+<l>—She's a <hi>Goddess</hi> rather.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>She's <hi>Angel, Queen,</hi> and <hi>Goddess</hi> altogether.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—Away! you Flatter me.</l>
+</sp>
+<sp>
+<speaker>1st Lady.</speaker>
+<l>—We don't indeed,</l>
+<l>Your <hi>Merit</hi> does our <hi>Praise</hi> by far exceed.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—You make me blush: Pray help me to a <hi>Fan.</hi></l>
+</sp>
+<sp>
+<speaker>1st Lady.</speaker>
+<l>—That Blush becomes you.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Wou'd I were a <hi>Man.</hi></l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>'ll hear no more of this as I'm a <hi>Sinner.</hi></l>
+<stage>Enter Dumb Master of the Ceremonies, makes Signs of Eating.</stage>
+<l>Dear me! that's true, I never thought of <hi>Dinner</hi>:</l>
+<l>But 'twill be over Ladies very soon,</l>
+<l>Mean time, my Friend, play t'other little Tune.</l>
+<stage>Musick plays, they all Dance off.</stage>
+</sp>
+</div1>
+<div1 type="scene">
+<pb n="16" facs="12"/>
+<head>SCENE <stage>Another Apartment.</stage></head>
+<stage>Enter <hi>Rigdum Funnidos</hi> and <hi>Aldiboronti,</hi> &amp;c.</stage>
+<sp>
+<speaker>Rigdum</speaker>
+<p>—'Egad we're in the wrong Box! Who the Devil wou'd have thought that this same <hi>Chrononhotonthologos</hi> shou'd beat that mortal sight of <hi>Tippodeans</hi>; why, there's not a Mother's Child of 'em to be seen. 'Egad they <hi>footed</hi> it away as fast as their <hi>Hands</hi> cou'd carry 'em; but they have left their <hi>King</hi> behind 'em, we have <hi>him</hi> safe, that's one Comfort.</p>
+</sp>
+<sp>
+<speaker>Aldibo.</speaker>
+<l>—Would he were still at amplest Liberty.</l>
+<l>For, O! my dearest <hi>Rigdum Funnidos,</hi></l>
+<l>I have a <hi>Riddle</hi> to <hi>unriddle</hi> to thee,</l>
+<l>Shall make thee <hi>stare</hi> thy self into a <hi>Statue.</hi></l>
+<l>Our Queen's in <hi>Love</hi> with this <hi>Antipodean.</hi></l>
+</sp>
+<sp>
+<speaker>Rigdum Fun.</speaker>
+<p>—The Devil she his? Well, I see Mischie is going forward with a Vengeance.</p>
+</sp>
+<sp>
+<speaker>Aldibo.</speaker>
+<l>But lo! the Conqueror comes all crown'd with Conquest.</l>
+<l>A solemn Triumph graces his Return:</l>
+<l>Let's grasp the Forelock of this apt Occasion.</l>
+<l>To greet the <hi>Victor,</hi> is his Flow of <hi>Glory.</hi></l>
+</sp>
+<stage>A Grand Triumph.</stage>
+<stage><pb n="17" facs="13"/>Enter <hi>King in Triumph, &amp;c.</hi> met by <hi>Rigdum</hi> and <hi>Aldiboronti.</hi></stage>
+<sp>
+<speaker>Aldiboronti.</speaker>
+<l>—All hail! to <hi>Chrononhotonthologos,</hi></l>
+<l>Thrice trebly welcome to your Loyal Subjects</l>
+<l>My self and faithful <hi>Rigdum Funnidos</hi></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> in a Labyrinth of Love and Loyalty,</l>
+<l>Intreat you to inspect our inmost Souls,</l>
+<l>And read in them what Tongue can never utter.</l>
+</sp>
+<sp>
+<speaker>King.</speaker>
+<l>—<hi>Aldiborontiphoscophornio,</hi></l>
+<l>To thee and gentle <hi>Rigdum Funnidos</hi>;</l>
+<l>Our Gratulations flow in Streams unbounded:</l>
+<l>Our bounty's Debtor to your Loyalty,</l>
+<l>Which shall with Int'rest be repaid, e'er long,</l>
+<l>But where's our Queen? where's <hi>Fadladinida</hi>;</l>
+<l>She should be foremost in this gladsome Train,</l>
+<l>To grace our Triumph; but I see she slights me,</l>
+<l>This haughty Queen shall be no longer mine,</l>
+<l>I'll have a <hi>sweet</hi> and <hi>gentle Concubine.</hi></l>
+</sp>
+<sp>
+<speaker>Rigdum,</speaker>
+<stage>(aside.)</stage>
+<p>—Now my dear sweet <hi>Phoscophorny,</hi> for a swinging Lye to bring the Queen off: and I'll run with it this Minute to her, that we may be all in a Story.</p>
+<stage>(They whisper importantly, and <hi>Rigdum Funnidos</hi> goes out.)</stage>
+</sp>
+<sp>
+<speaker>Aldiboronti.</speaker>
+<l>—Speak not, great <hi>Chrononhotonthologos,</hi></l>
+<l>In Accents so injuriously severe</l>
+<l>Of <hi>Fadladinida,</hi> your faithful Queen:</l>
+<l><pb n="18" facs="14"/>By me she sends an Embassy of Love,</l>
+<l>Sweet Blandishments and kind Congratulations;</l>
+<l>But, cannot, O! she cannot come Her self.</l>
+</sp>
+<sp>
+<speaker>King.</speaker>
+<l>—Our Rage is turn'd to Fear: What ails the Queen?</l>
+</sp>
+<sp>
+<speaker>Aldiboronti.</speaker>
+<l>A sudden <hi>Diarrhaea</hi>'s rapid Force,</l>
+<l>So stimulates the Peristtaltic Motion,</l>
+<l>That all conclude her Royal Life in danger.</l>
+</sp>
+<sp>
+<speaker>King.</speaker>
+<l>Bid the Physicians of the Earth assemble,</l>
+<l>In Consultation solemn and sedate:</l>
+<l>More to corroborate their sage Resolves,</l>
+<l>Call from their Graves the Learned Men of old:</l>
+<l><hi>Galen, Hipocrates,</hi> and <hi>Paracelsus</hi>;</l>
+<l>Doctors, Apothecaries, Surgeons, Chymists,</l>
+<l>All! all! attend and see they bring their Med'cines,</l>
+<l>Whole Magazines of gallipotted Nostrums.</l>
+<l>Materializ'd in <hi>Pharmaceutic</hi> Order.</l>
+<l>The Man that cures our Queen shall have our Empire.</l>
+<stage>(Exeunt Omnes.)</stage>
+</sp>
+</div1>
+<div1 type="scene">
+<stage>Enter <hi>Talanthe,</hi> and Queen.</stage>
+<sp>
+<speaker>Queen.</speaker>
+<l>—Hey ho! my Heart.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—What ails my gracious Queen?</l>
+</sp>
+<sp>
+<pb n="19" facs="15"/>
+<speaker>Queen.</speaker>
+<l>—O would to <hi>Venus</hi> I had never seen</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Seen what, my Royal Mistress!</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—Too! too much.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Did it affright you,</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—No, 'tis nothing such.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—What was it, Madam?</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—Really I don't know.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—It must be something!</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—No;</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Or, nothing;</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—No.</l>
+<l>—O, my <hi>Tatlanthe,</hi> have you never seen?</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Can I guess what, unless you tell? my Queen!</l>
+</sp>
+<sp>
+<pb n="20" facs="16"/>
+<speaker>Queen.</speaker>
+<l>—The King I mean.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Just now return'd from War:</l>
+<l>He rides like <hi>Mars</hi> in his Triumphal Car.</l>
+<l>Conquest precedes with Laurels in his Hand,</l>
+<l>Behind him Fame does on her Tripos stand</l>
+<l>Her Golden Trump shrill thro' the Air she sounds,</l>
+<l>Which rends the Earth, and thence to Heaven rebounds.</l>
+<l>Trophies and Spoils innumerable grace,</l>
+<l>This Triumph which all Triumphs does deface:</l>
+<l>Haste then, great Qucen! your Hero thus to meet,</l>
+<l>Who longs to lay His Laurels at your Feet.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—Art mad, <hi>Tatlanthe,</hi> I meant no such thing,</l>
+<l>Your Talk's distasteful.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Didn't you name the King?</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—I did, <hi>Tatlanthe,</hi> but it was not thine,</l>
+<l>The charming King, I mean, is only mine.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—Who else, who else, but such a charming Fair</l>
+<l>In <hi>Chrononhotonthologos</hi> should share:</l>
+<l>The Queen of Beauty, and the God of Arms,</l>
+<l>In him and you united blend their Charms.</l>
+<l>Oh! had you seen him, how he dealt out Death,</l>
+<l>And at one stroke robb'd Thousands of their Breath.</l>
+<l>While on the Slaughter'd Heaps himself did rise,</l>
+<l>In Pyramids of Conquest to the Skies;</l>
+<l><pb n="21" facs="17"/>The Gods all hail'd, and fain would have him stay;</l>
+<l>But your bright Charms have call'd him thence aaway.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—This does my utmost Indignation raise,</l>
+<l>You are too pertly Lavish in his Praise;</l>
+<l>Leave me for ever!</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<stage>(Kneeling.)</stage>
+<l>—O what shall I say?</l>
+<l>Do not, great Queen, your Anger thus display,</l>
+<l>O frown me dead, let me not live to hear</l>
+<l>My gracious Queen, and Mistress so severe;</l>
+<l>I've made some horrible Mistake, no doubt,</l>
+<l>Oh! tell me what it is!</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>No, find it out.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>—No, I will never leave you, here I'll grow,</l>
+<l>'Till you some Token of Forgiveness show:</l>
+<l>O all ye Powers above, come down, come down!</l>
+<l>And from her Brow dispel that angry Frown.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—<hi>Tatlanthe</hi> rise, you have prevail'd at last,</l>
+<l>Offend no more, and I'll excuse what's past.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe,</speaker>
+<stage>(aside.)</stage>
+<p>Why what a Fool was I not to perceive her Passion for the topsy turvy King, the Gentleman that carries his Head where his Pocket should be; but I must tack about I see.</p>
+<stage><pb n="22" facs="18"/>To the Queen.</stage>
+<l>Excuse me, <hi>gracious</hi> Madam! if <hi>my</hi> Heart</l>
+<l>Bears Sympathy with yours in ev'ry Part;</l>
+<l>With you alike, I sorrow, and rejoice,</l>
+<l>Approve your Passion, and commend your Choice,</l>
+<l>The Captive King.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>—That's he! that's he! that's he!</l>
+<l>I'd die ten Thousand Deaths to set him free:</l>
+<l>Oh! my <hi>Tatlanthe!</hi> have you seen his Face:</l>
+<l>His Air, his Shape, his Mein, with what a Grace;</l>
+<l>Quite upside down, in a new way he stands,</l>
+<l>How prettily he foots it with his Hands!</l>
+<l>Well, I must have him if I Live or die,</l>
+<l>To Prison, and his Charming Arms I sly.</l>
+<stage>(Exeunt.)</stage>
+</sp>
+</div1>
+<div1 type="scene">
+<head>SCENE <stage>a Prison.</stage></head>
+<stage>The King of the <hi>Antipodes</hi> discover'd sleeping on a Couch.</stage>
+<stage>Enter <hi>Queen.</hi></stage>
+<sp>
+<l>Is this a Place, Oh! all ye Gods above,</l>
+<l>This a Reception for the Man I love?</l>
+<l>See in what charming Attitude he sleeps,</l>
+<l>While Nature's Self at his Confinement weeps.</l>
+<l>Rise, Lovely Monarch! see your Friend appear,</l>
+<l>No <hi>Chrononhotonthologos</hi> is here;</l>
+<l>Command your Freedom, by this sacred Ring,</l>
+<l>Then command me; what say's my charming King.</l>
+</sp>
+<stage><pb n="23" facs="19"/>She puts the Ring in his Mouth; he makes an odd Kind of Noise.</stage>
+<sp>
+<l>Ah! wretched Queen! how hapless is thy Lot,</l>
+<l>To love a Man that understands thee not!</l>
+<l>O lovely <hi>Venus,</hi> Goddess all Divine;</l>
+<l>And gentle <hi>Cupid,</hi> that sweet Son of thine.</l>
+<l>Assist, assist me, with your sacred Art,</l>
+<l>And teach me to obtain this Stranger's Heart.</l>
+</sp>
+<stage>Venus descends in her Chariot with <hi>Cupid,</hi> and Sings.</stage>
+<sp>
+<lg type="song">
+<l>See <hi>Venus</hi> does attend thee</l>
+<l><hi>My Dilding, my Dolding,</hi></l>
+<l>Love's Goddess will befriend thee,</l>
+<l><hi>Lilly bright and shinee.</hi></l>
+<l>With Pity and Compassion,</l>
+<l><hi>My Dilding, my Dolding,</hi></l>
+<l>She sees thy tender Passion,</l>
+<l><hi>Lilly, &amp;c.</hi></l>
+<stage>Da Capo.</stage>
+</lg>
+</sp>
+<stage>Air Changes.</stage>
+<sp>
+<lg type="song">
+<l>To thee I yeld my Pow'r divine,</l>
+<l><hi>Dance over the Lady Lee,</hi></l>
+<l>Demand what e'er thou wilt, 'tis thine,</l>
+<l><hi>My gay Lady.</hi></l>
+<l>Take this magic Wand in Hand,</l>
+<l><hi>Dance, &amp;c.</hi></l>
+<l>All the World's at thy Command,</l>
+<l><hi>My gay, &amp;c.</hi></l>
+<stage>Da Capo.</stage>
+</lg>
+</sp>
+<sp>
+<pb n="24" facs="20"/>
+<lg type="song">
+<lg>
+<stage><hi>Cupid</hi> sings.</stage>
+<l>Are you a Widow, or are you a Wife,</l>
+<l><hi>Gilly Flow'r, gentle Rosemary.</hi></l>
+<l>Or are you a Maiden, so fair and so bright,</l>
+<l><hi>As the Dew that flies over the Mulberry Tree.</hi></l>
+</lg>
+<lg>
+<stage>Queen.</stage>
+<l>Would I were a Widow, as I am a Wife,</l>
+<l><hi>Gilly Flow'r,</hi> &amp;c.</l>
+<l>For I'm to my Sorrow a Maiden as bright,</l>
+<l><hi>As the Dew,</hi> &amp;c.</l>
+</lg>
+<lg>
+<stage>Cupid.</stage>
+<l>You shall be a Widow before it is Night,</l>
+<l><hi>Gilly Flow'r,</hi> &amp;c.</l>
+<l>No longer a Maiden, so fair and so bright,</l>
+<l><hi>As the Dew,</hi> &amp;c.</l>
+<l>Two jolly Young Husbands your Person shall share,</l>
+<l><hi>Gilly Flow'r,</hi> &amp;c.</l>
+<l>And twenty fine Babies your Body shall bear,</l>
+<l><hi>As the Dew,</hi> &amp;c.</l>
+</lg>
+<lg>
+<stage>Queen.</stage>
+<l>O thanks Mr. <hi>Cupid</hi>! for this your good News,</l>
+<l><hi>Gilly Flow'r,</hi> &amp;c.</l>
+<l>What Woman alive would such Offers refuse,</l>
+<l><hi>While the Dew,</hi> &amp;c.</l>
+</lg>
+</lg>
+<stage><hi>Venus</hi> and <hi>Cupid</hi> re-ascend.</stage>
+</sp>
+</div1>
+<div1 type="scene">
+<pb n="25" facs="21"/>
+<head>SCENE <stage>Bombardinions Tent.</stage></head>
+<stage>King, <hi>and Bombardinion</hi> at a Banquet.</stage>
+<sp>
+<speaker>Bomb.</speaker>
+<l>This Honour, Royal Sir! so royalizes</l>
+<l>The Royalty of your most Royal Actions,</l>
+<l>The Dumb can only utter forth your Praise,</l>
+<l>For we who speak, want Words to tell our Meaning.</l>
+<l>Here! fill the Goblet with <hi>Phalernian</hi> Wine,</l>
+<l>And while our Monarch drinks, bid the shrill Trumpet</l>
+<l>Tell all the Gods that we propine their Healths.</l>
+<stage>Trumpets sound.</stage>
+</sp>
+<sp>
+<speaker>King.</speaker>
+<l>—Hold <hi>Bombardinion,</hi> I esteem it fit,</l>
+<l>With so much Wine, to eat a little Bit.</l>
+</sp>
+<sp>
+<speaker>Bomb.</speaker>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ee that the Table instantly be spread,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ith all that Art and Nature can produce.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>raverse from Pole to Pole; sail round the World,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ring every Eatable that can be eat:</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>he King shall eat, tho' all Mankind be starv'd.</l>
+</sp>
+<sp>
+<speaker>Cook.</speaker>
+<p>And it please your Honour, there's some cold <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>rk in the Pantry, I'll hash it for his Majesty <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> a Minute. <stage>Exit in a Hurry.</stage></p>
+</sp>
+<sp>
+<pb n="26" facs="22"/>
+<speaker>King.</speaker>
+<l>Hash'd Pork! shall <hi>Chrononhotonthologos</hi></l>
+<l>Be fed with Swine's Flesh, and at second Hand?</l>
+<l>Now, by the Gods! Thou dost insult us, General!</l>
+</sp>
+<sp>
+<speaker>Bomb.</speaker>
+<l>The Gods can witness, that I little thought</l>
+<l>Your Majesty, to Pork, had such aversion.</l>
+</sp>
+<sp>
+<speaker>King</speaker>
+<l>Away thou Traytor! Dost thou mock thy Master? <stage>Strikes him.</stage></l>
+</sp>
+<sp>
+<speaker>Bomb.</speaker>
+<l>A Blow! Shall <hi>Bombardinion</hi> take a Blow?</l>
+<l>Blush! Blush thou Sun! start back thou rapid Ocean:</l>
+<l>Hills! Vales! Seas! Mountains! all commixing crumble,</l>
+<l>And into <hi>Chaos</hi> pulverize the World:</l>
+<l>For <hi>Bombardinion</hi> has receiv'd a Blow,</l>
+<l>And <hi>Chrononhotonthologos</hi> shall Die. <stage>Draws.</stage></l>
+</sp>
+<sp>
+<speaker>King.</speaker>
+<l>What means the Traytor? <stage>Draws.</stage></l>
+</sp>
+<sp>
+<speaker>Bomb.</speaker>
+<l>—Traytor in thy Teeth,</l>
+<l>Thus I defy Thee!</l>
+<stage>They fight, he kills the King</stage>
+<l>Ha! What have I done?</l>
+<l>Go, call a Coach, and let a Coach be call'd,</l>
+<l>And let the Man that calls it be the Caller;</l>
+<l><pb n="27" facs="23"/>And, in his calling, let him nothing call,</l>
+<l>But Coach! Coach! Coach! O for a Coach-ye Gods!</l>
+<stage>Exit Raving.</stage>
+<stage>Returns with a Doctor.</stage>
+<l>—How fares your Majesty?</l>
+</sp>
+<sp>
+<speaker>Doctor.</speaker>
+<l>My Lord he's Dead.</l>
+</sp>
+<sp>
+<speaker>Bomb.</speaker>
+<l>Ha! Dead! impossible! it cannot be;</l>
+<l>I'd not believe it tho' himself should Swear it.</l>
+<l>Go join his Body to his Soul again,</l>
+<l>Or, by this Hand, thy Soul shall quit thy Body.</l>
+</sp>
+<sp>
+<speaker>Doctor.</speaker>
+<l>My Lord, he is past the power of Physick,</l>
+<l>His Soul has left this World.</l>
+</sp>
+<sp>
+<speaker>Bomb.</speaker>
+<l>Then go to to'ther World and fetch it back.</l>
+<stage>Kills him.</stage>
+<l>And if I find thou triflest with me there,</l>
+<l>I'll chace thy Shade through Myriads of Orbs,</l>
+<l>And drive thee far beyond the Verge of Nature.</l>
+<l>Ha!—Call'st thou <hi>Chrononhotonthologos?</hi></l>
+<l>I come! your Faithful <hi>Bombardinion</hi> comes:</l>
+<l>He comes in Worlds unknown to make new Wars</l>
+<l>And gain thee Empires, num'rous as the Stars.</l>
+<stage>Kills himself.</stage>
+</sp>
+<stage>Enter Queen and others.</stage>
+<sp>
+<speaker>Aldiboron.</speaker>
+<l>—O horrid! horrible, and horrid'st horror!</l>
+<l>Our King, our General: Our Doctor dead.</l>
+<l><pb n="28" facs="24"/>All dead! Stone dead, irrecoverably dead!</l>
+<l>Oh!— <stage>All Groan a Tragedy Groan.</stage></l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>My Husband dead! Ye Gods, what is't you mean,</l>
+<l>To make a Widow of a Virgin Queen?</l>
+<l>For, to my great Misfortune, he, poor King,</l>
+<l>Has left me so, and that's a wretched Thing.</l>
+<stage>To Tatlanthe</stage>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>Why then, dear Madam! make no farther Pother,</l>
+<l>Were I your Majesty, I'd try another.</l>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>I think 'tis best to follow thy Advice.
+<stage>Simp'ring.</stage></l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>I'll fit you with a Husband in a Trice:</l>
+<l>Here's <hi>Ridgum Funnidos,</hi> a proper Man,</l>
+<l>If any one can please a Queen, he can.</l>
+</sp>
+<sp>
+<speaker>Rigdum. Fun.</speaker>
+<p>Ay, that I can, and please your Majesty; so Ceremonies apart. Let's proceed to Business. <stage>Kisses the Queen.</stage></p>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>Oh! but the Mourning takes up all my Care:</l>
+<l>I'm at a Loss what colour'd Weeds to wear.</l>
+</sp>
+<sp>
+<speaker>Rigdum Fun.</speaker>
+<l>Never talk of Mourning, Madam,</l>
+<l>One Ounce of Mirth is worth a Pound of Sorrow,</l>
+<l>Let's bed to Night and then we'll wed to Morrow.</l>
+<l>I'll make thee a great Man, my little <hi>Phoscophony.</hi>
+<stage>To <hi>Aldi.</hi> aside.</stage></l>
+</sp>
+<sp>
+<pb n="29" facs="25"/>
+<speaker>Aldibo.</speaker>
+<l>I scorn thy Bounty, I'll be King, or nothing.</l>
+<l>Draw Miscreant! Draw!</l>
+<stage>Rigdum runs behind the Queen.</stage>
+</sp>
+<sp>
+<speaker>Queen.</speaker>
+<l>Well, Gentlemen, to make the Matter easy,</l>
+<l>I'll have you both, and that, I hope, will please ye. <stage>Takes each by the Hand.</stage></l>
+<l>And now, <hi>Tatlanthe</hi> thou art all my care:</l>
+<l>Where shall I find thee such another Pair.</l>
+<l>Pity, that one has serv'd so long, so well,</l>
+<l>Shou'd die a Virgin, and lead Apes in Hell.</l>
+<l>Chuse for your self, dear Girl, our Empire round,</l>
+<l>Your Portion is Twelve Hundred Thousand Pound.</l>
+</sp>
+<sp>
+<speaker>Tatlanthe.</speaker>
+<l>Thanks to your Majesty, give me the Money,</l>
+<l>Let me alone to find myself a Honey.</l>
+<lg type="song">
+<stage>Tatlanthe Sings.</stage>
+<l>Marriage may become a Curse,</l>
+<l>Husbands may but teaze me;</l>
+<l>So, for better or for worse,</l>
+<l>No Man e'er shall seize me.</l>
+<l>Changing, Ranging at my Pleasure,</l>
+<l>Men in Plenty for my Treasure.</l>
+<l>I myself, will keep the Purse,</l>
+<l>And pay them as they please me.</l>
+</lg>
+</sp>
+<sp>
+<pb n="30" facs="26"/>
+<lg>
+<stage>Queen Sings.</stage>
+<l>Troth, my Girl, thou'rt in the Right,</l>
+<l>And thy Scheme I'll borrow;</l>
+<l>'Tis a Thought that's new and bright,</l>
+<l>Wedlock brings but Sorrow.</l>
+</lg>
+<stage>To Aldi. and Rigd.</stage>
+<l>Gentlemen! I'm not for Marriage,</l>
+<l>But, according to your Carriage,</l>
+<l>As you both behave to Night,</l>
+<l>You shall be paid to Morrow.</l>
+</sp>
+</div1>
+<trailer>FINIS.</trailer>
+</body>
+<back>
+<div1 type="epilogue">
+<pb facs="27"/>
+<head>EPILOGUE,</head>
+<stage>Spoken by Mrs SHIREBURNE.</stage>
+<l>CUSTOM commands that I should something say</l>
+<l>In Favour of the Poet, and the Play:</l>
+<l>Criticks! on you, our Author does depend,</l>
+<l>Be you his Champions, and his Cause defend;</l>
+<l>You know his Drift, if wrongheads should misplace it;</l>
+<l>I'm bid to say, <hi>Qui capit ille facit.</hi></l>
+<l>Whate'er you please to censure or correct,</l>
+<l>We shall amend with Pleasure and Respect:</l>
+<l>But to our Failings, some Indulgence give,</l>
+<l>And with one gen'rous Plaudit, bid us live.</l>
+</div1>
+</back>
+</text>
+
+</TEI>

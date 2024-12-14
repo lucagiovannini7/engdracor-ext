@@ -1,0 +1,2611 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title type="main">The virgin queen</title><title type="sub">a drama in five acts; attempted as a sequel to Shakespeare's Tempest</title><author><persName><surname>Waldron</surname><forename>Francis Godolphin</forename><idno type="VIAF">30370446</idno></persName></author><respStmt><resp>Transformation into valid TEI P5, improving markup, filling <gi>gap</gi>s, proofreading, and expanding header.</resp><persName xml:id="JJ"><surname>Jokisch</surname><forename>Jan</forename><idno type="ORCID">0009-0003-1026-2995</idno></persName></respStmt></titleStmt>
+<extent><measure quantity="97" unit="KB">About 97 kilobytes.</measure></extent><publicationStmt><authority ref="#JJ">Jan Jokisch</authority><date>2024 December</date><idno type="ECCO_Drama">K046628.000</idno><idno type="DLPS">004903454</idno><idno type="ESTC">T50920</idno><idno type="DocNo">CW116957905</idno><idno type="TCP">K046628.000</idno>
+<idno type="GaleDocNo">CW3316957905</idno><idno type="ContentSet">ECLL</idno><idno type="ImageSetID">1185200300</idno><availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability></publicationStmt><sourceDesc><biblFull><titleStmt><title type="245">The virgin queen, a drama in five acts; attempted as a sequel to Shakespeare's Tempest:</title><author>Waldron, F. G. (Francis Godolphin), 1744-1818.</author></titleStmt>
+<extent>[4],104p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author,</publisher><date>1797.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Dedication signed: Francis Godolphin Waldron.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT50920.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
+</biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
+<front>
+<div1 type="titlepage">
+<pb facs="1" ana="y"/>
+<p>THE VIRGIN QUEEN, A DRAMA <hi>IN FIVE ACTS;</hi> ATTEMPTED AS A SEQUEL TO SHAKSPEARE'S TEMPEST.</p>
+<l>O, for a muse of fire, that would ascend</l>
+<l>The brightest heaven of invention!</l>
+<bibl>SHAKSPEARE.</bibl>
+<p>PRINTED FOR THE AUTHOR.</p>
+<p>1797.</p>
+<p><hi>Entered at Stationers' Hall.</hi></p>
+</div1>
+<div1 type="dedication">
+<pb facs="2"/>
+<head>TO <hi>HIS GRACE</hi> FRANCIS GODOLPHIN, DUKE of LEEDS.</head>
+<opener><salute>MY LORD,</salute></opener>
+<p>THE honour I have in being, by baptism, your Grace's namesake, a consequence of my being distantly related to FRANCIS Earl of GODOLPHIN, has emboldened me to dedicate to your Grace this weak essay at an imitation of our immortal SHAKSPEARE.</p>
+<p><pb facs="3"/>Having, my Lord, no incentive to the liberty I presume to take, but my respect for your Grace's taste and virtues, I should only sully the purity of my motive, were I to expatiate on them.</p>
+<closer><signed>I have the honour to be, My Lord, Your Grace's Most humble, And most obedient Servant, <hi>FRANCIS GODOLPHIN WALDRON.</hi></signed>
+<dateline><hi>Cross-court, Bow-street, Covent-garden.</hi>
+<date>May 1, 1797.</date></dateline></closer>
+</div1>
+<div1 type="halftitle">
+<pb facs="4"/>
+<p>THE VIRGIN QUEEN.</p>
+</div1>
+<div1 type="dramatispersonae">
+<pb facs="5"/>
+<head>PERSONS of the DRAMA.</head>
+<list>
+<item>Alonso, <hi>king of Naples,</hi></item>
+<item>Ferdinand, <hi>son to Alonso.</hi></item>
+<item>Sebastian, <hi>brother to Alonso.</hi></item>
+<item>Abdallah, <hi>king of Tunis.</hi></item>
+<item>Prospero, <hi>duke of Milan.</hi></item>
+<item>Antonio, <hi>brother to Prospero.</hi></item>
+</list>
+<list>
+<head>lords, attending on the king of Naples.</head>
+<item>Gonzalo,</item>
+<item>Adrian,</item>
+<item>Francisco,</item>
+</list>
+<list>
+<item>Stephano, <hi>a drunken butler.</hi></item>
+<item>Ariel, <hi>a spirit.</hi></item>
+<item>Trinculo, <hi>a jester.</hi></item>
+<item>Caliban, <hi>a savage.</hi></item>
+</list>
+<list>
+<head>of the king of Naples' ship.</head>
+<item>Master,</item>
+<item>Boatswain,</item>
+</list>
+<list>
+<item>Claribel, <hi>queen of Tunis.</hi></item>
+<item>Hyrea, <hi>a sorceress.</hi></item>
+<item>Miranda, <hi>betroth'd to Ferdinand.</hi></item>
+<item>Sycorax, <hi>a spirit.</hi></item>
+<item><hi>Spirits, Mariners, &amp;c.</hi></item>
+</list>
+</div1>
+<set><p>The SCENE is dispersed.</p></set>
+<div1 type="proem">
+<pb facs="6"/>
+<head>PROEM.</head>
+<lg>
+<l>GRAVE Prospero, who charm'd in days of yore,</l>
+<l>Was deeply read in magick's wond'rous lore;</l>
+<l>Could call forth spirits from the vasty deep,</l>
+<l>And their dread power in strong subjection keep;</l>
+<l>Marshal the dapper elves, and fairies trim,</l>
+<l>By moonlight sporting near the fountain-brim;</l>
+<l>In spell-bound service airy forms enroll,</l>
+<l>Who ride the rainbow, glance from pole to pole;</l>
+<l>And fiends of fire, more fervid than the sun,</l>
+<l>Through realms of thrilling ice compel to run:</l>
+<l>Wielded Jove's bolt, bade cloud-capt mountains quake,</l>
+<l>And the great globe unto its center shake;</l>
+<l>Commanding the rude surge to dash the skies,</l>
+<l>From their dark beds of clay the dead arise!</l>
+<l>What could he not, whom such a Master drew?</l>
+<l>To Nature, in his boldest fictions, true!</l>
+<l>Whose Ariel, Caliban, ghosts, witches, elves,</l>
+<l>Seem Nature's children nearly as ourselves!</l>
+<l><pb facs="7"/>But what can the weak Prospero of these scenes,</l>
+<l>Divested of all wonder-working means?</l>
+<l>Pity, kind Reader! the rude lack of skill</l>
+<l>Which traced the potent Sage with feeble quill!</l>
+<l>Nor grieve, benignant Spirit! in thy sphere,</l>
+<l>Sweet Shakspeare! to my heart of heart most dear!</l>
+<l>That e'en the humblest of the scenick train</l>
+<l>Should dare to ape thy mighty magick-strain;</l>
+<l>But rather, with thy wonted goodness mild,</l>
+<l>Forgive, and oh! inspire him, Fancy's Child!</l>
+</lg>
+</div1>
+</front>
+<body>
+<div1 type="play">
+<pb facs="8"/>
+<head>THE VIRGIN QUEEN.</head>
+<div2 n="1" type="act">
+<head>ACT I.</head>
+<div3 n="1" type="scene">
+<head>SCENE I. <stage>PROSPERO'S ISLE.</stage></head>
+<stage>Ariel <hi>descends, singing.</hi></stage>
+<sp>
+<speaker>ARIEL</speaker>
+<stage>SINGS.</stage>
+<lg type="song">
+<l>SPIRITS, who the curl'd clouds ride,</l>
+<l>Down slope sun-beams deftly glide;</l>
+<l>Through the fissure of the rock,</l>
+<l>Rifted by the light'ning's shock,</l>
+<l>Fiends, from neither fires ascend;</l>
+<l>Nymphs, who on blue Neptune 'tend,</l>
+<l>From the sea's pearl-paved bed,</l>
+<l>Rear each coral-crowned head;</l>
+<l>Elves, the mountain leave, or dell:</l>
+<l>Lift Ariel's call!</l>
+<l>Assemble all</l>
+<l>At your potent master's cell!</l>
+</lg>
+</sp>
+<stage><pb n="6" facs="9"/><hi>Enter Spirits, Fiends, Nymphs, and Elves.</hi></stage>
+<sp>
+<speaker>ARIEL</speaker>
+<stage>SPEAKS.</stage>
+<l>YE various ministers of Prospero's power,</l>
+<l>The spell bound servitors of his high will!</l>
+<l>By whom the mighty worker hath perform'd</l>
+<l>Deeds, far beyond the stretch of human thought;</l>
+<l>Soon shall our master's staff be buried low,</l>
+<l>His magick-volume in the deep sea drown'd:</l>
+<l>Strait he'll embark; attend him till on board,</l>
+<l>And your last, duteous homage to him pay:</l>
+<l>Then to the elements be ever free</l>
+<l>T'enjoy his boon, your dear-lov'd liberty!</l>
+</sp>
+<sp>
+<speaker>ARIEL</speaker>
+<stage>SINGS.</stage>
+<lg type="song" part="I">
+<l>PURE Spirit, fiend, mild nymph, and say,</l>
+<l>Your duty done, make holiday!</l>
+<l>And each enjoy their full desire;</l>
+<l>Pervade the earth, or sea, or fire!</l>
+<l>Or, on light pennon, upward fly,</l>
+<l>To wanton in the summer sky!</l>
+<l>Pure spirit, fiend, mild nymph, and say,</l>
+<l>Your duty done, make holiday!</l>
+</lg>
+</sp>
+<sp>
+<lg type="song" part="F">
+<head><hi>Burthen.</hi></head>
+<l>Make holiday!</l>
+</lg></sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 n="2" type="scene">
+<pb n="7" facs="10"/>
+<head>SCENE II. <stage>ANOTHER PART OF THE ISLAND.</stage></head>
+<stage><hi>Enter</hi> Boatswain, Trinculo, <hi>and Meriners.</hi></stage>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>YARE! yare!—bear a hand with that stowage; here's a fresh breeze sprung up, and as fair for Italy as heart can wish.</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>And where's the wonder o'that?—did not the fairy promise old grey-beard as much?—and your true fairies are no courtiers.</p>
+</sp>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>A fairy promise?—why, what a plague, are we to be puff'd along by the devil and his imps! I don't know what to make of this conjuration! and as for duke Prospero, I'm a lubber if I think him a jot better than an old wizard!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Between ourselves, boatswain, I take him to be a kind of friar Bacon, or doctor Faustus; that I heard so many tales about, in England: and like them, he has sold himself to the devil in the next world, that he may be able to play
+<pb n="8" facs="11"/>the devil in this: which he did, with a vengeance, when he wreck'd us on this isle of devils!</p>
+</sp>
+<stage>Sudden darkness.</stage>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>Avast!—I wish he be not at some of his diabolical tricks again!—'twas as clear a morn as ever shone but now; and, lo! on a sudden, how it is overcast!</p>
+<stage>Lightning, Thunder, Wind, &amp;c.</stage>
+<p>And see!—and hark!—heigh, how it rumbles!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<l>'Mass! I fear mischief's a-foot! and here comes</l>
+<l>Stephano in a parlous taking.</l>
+</sp>
+<stage><hi>Enter</hi> Stephano.</stage>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Oh, oh, oh! deliver me from such a sight again!—boatswain! Trinculo! I have been so scared!</p>
+</sp>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<l>With what, I trow?</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>The conjuring duke has been sinking his necromancy-book to the bottom of the red-sea
+<pb n="9" facs="12"/>here—it can be no other!—breaking his magical-stick, and burying it half-way to Belzebub; which has caused such a clatter among the elements, that I thought dooms-day was come, at least!</p>
+</sp>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>I'm no seaman, if I relish this same witchcraft!—and the old magick-monger is going aboard too!—I wish we get safe to port!—I doubt it:—I'd as lief sail with a corpse as a conjuror!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>By'r lady, boatswain, I'm of your mind! I shall never dare to walk the deck after dark, Stephano, much less keep watch there all night, as he once said we should, for dread of spirits, and hobgoblins.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>The bare thought of it gives me the shaking palsy, fellow Trinculo!—he were fitter to watch o'nights himself, and let servant-monster be his mate: then, if any goblins should board us, they could gibber with them in their own infernal dialect.</p>
+</sp>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>He don't intend, I hope, to take that landshark
+<pb n="10" facs="13"/>aboard;—an' he do not keep him in an iron cage, he'll devour all the ship's provisions, and tear us to pieces for more.</p>
+</sp>
+<sp>
+<speaker>TRINCULO,</speaker>
+<p>Who? Caliban? not he, o'my troth!—though he be a monster, he's a tame one; and no glutton neither:—give him but the bottle, you stop his mouth at once.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Now you talk of the bottle, Trinculo, I think a sup of it would do me no harm, after the panick I have been in; what say ye to some sack, boys, before we set sail?</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Ay, and after too; for I quake horribly with apprehension.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Follow, then; — the rock, my wine-cellar, is in our way to where the ship rides: and our word shall be, no night-watching! for fear of spirits and hobgoblins!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Ay, spirits and hobgoblins!—'mercy on us! say I, and send us all safe to Naples!</p>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 n="3" type="scene">
+<pb n="11" facs="14"/>
+<head>SCENE III. <stage>ANOTHER PART OF THE ISLAND.</stage></head>
+<stage><hi>Enter</hi> Prospero, Ferdinand, Miranda, <hi>and</hi> Caliban.</stage>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>No, 'pr'ythee, Prosper, do not leave me here</l>
+<l>'Mong'st fiends and spirits; who, when thou'rt not by</l>
+<l>To shield him, will lone Caliban devour!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Be satisfied;—there's nought to apprehend.</l>
+<l>In Neptune's bed my magick-volume sunk,</l>
+<l>And many fathoms earth'd my broken staff,</l>
+<l>Upon this isle no spirit will abide</l>
+<l>Of good or evil, to delight or fear:—</l>
+<l>Puppets and elves shall gambol here no more,</l>
+<l>In sportive ringlets, by pale Hecate's gleam;—</l>
+<l>No more shall hideous spectres scare thee home,</l>
+<l>Loit'ring and grumbling at thy bidden task;—</l>
+<l>For, when I leave thee, thou'lt be more alone</l>
+<l>Than when, with Ariel pent i'th' cloven pine,</l>
+<l>A shapeless, helpless thing, I prowling found thee.</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Which loneliness I now mislike and dread,</l>
+<l>More than thy sprites and fiends; custom'd to sort</l>
+<l>With monkies, apes, baboons, I felt not, ere</l>
+<l><pb n="12" facs="15"/>My noble lord came here, it's irksomeness;</l>
+<l>But thou hast taught it me: then leave me not,</l>
+<l>I pr'ythee!—take me hence!—I'll lick thy feet,</l>
+<l>And ever be obedient to controul.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>What says Miranda? does my child approve</l>
+<l>We take our late offending vassal hence?</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Speak for me, mistress! I'll be naught no more.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>I think, dear sir! the creature's much reform'd</l>
+<l>Since your forgiveness of his last offence;</l>
+<l>And, by commixture with so many men,</l>
+<l>He hourly humanizes: pity 'twere</l>
+<l>In lonesome wretchedness to leave him now,</l>
+<l>The speechless brutes his sole society,</l>
+<l>Perforce a savage to become again.</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Thanks! mistress! thanks!—thou smooth-fac'd man, speak too!</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>'Please you, sir, take him hence; I dare engage</l>
+<l>He'll do you duteous service in return.</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Good now, my king, be mov'd!</l>
+</sp>
+<sp>
+<pb n="13" facs="16"/>
+<speaker>PROSPERO.</speaker>
+<l>I am content;</l>
+<l>But, have a care! look you deserve this grace!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Yea, that I will, in sooth, my noble lord!</l>
+<l>In the new world thou goest to, will I dig</l>
+<l>For hidden springs, to slake my master's thirst;</l>
+<l>Rend thee down fewel; scoop thee a trim cell;</l>
+<l>And be in all things meet thy vassal true!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Enough;—endeavour to do well, good deeds</l>
+<l>Will follow, and beget thee farther favour.</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Yet grant one other boon, and I am sped!</l>
+<l>'Stead of this rugged hide, to 'ray me now</l>
+<l>In some sleek garment of my bounteous lord;</l>
+<l>Or still yon dolts thy slave will moon-calf call!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>'Twere not amiss; thou may'st:—but tarry not.</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>I thank thy greatness!—I'll return anon,</l>
+<l>And be thy lowly foot-licker for aye!</l>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<pb n="14" facs="17"/>
+<speaker>PROSPERO.</speaker>
+<l>Miranda! solace ever of my woes!</l>
+<l>Beloved Milan thou wilt soon revisit;</l>
+<l>Whence, with thy hapless sire, thou wert outcast</l>
+<l>By dire ambition, source of ev'ry ill!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>I scarce can guess what 'tis ambition means;</l>
+<l>If ill, I must disclaim it: for all mine</l>
+<l>Is center'd in my sire's and Ferd'nand's love!</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Thou sweetest flow'r that e'er in desert grew!</l>
+<l>In whom the dignity of crowned queens</l>
+<l>With rural innocence and beauty joins,</l>
+<l>Here let me breathe forth—</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Hush! our friends approach.—</l>
+<l>The sugar'd prattle of chaste love, my son!</l>
+<l>Howe'er th' enraptur'd maid it may delight,</l>
+<l>Or glad the doating parent's list'ning ear,</l>
+<l>To each one else insipid is, and dull!</l>
+</sp>
+<stage><hi>Enter</hi> Gonzalo.</stage>
+<sp>
+<speaker>GONZALO.</speaker>
+<l>My good lord Prospero, I've search'd up and down</l>
+<l>This isle of yours, for somewhat to take home;</l>
+<l><pb n="15" facs="18"/>Some seld-seen rarity, as travellers use:</l>
+<l>But, faith and troth, my lord, for aught I see,</l>
+<l>Naples or Milan nothing hence can get,</l>
+<l>Or valuable, or curious to behold.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Yes, my Gonzalo! honour'd friend! to whom</l>
+<l>That now I live thence to return I owe!</l>
+<l>One thing, at least, to wonder at we'll take;</l>
+<l>The mis-created knave you saw ere while,</l>
+<l>I now intend—</l>
+</sp>
+<sp>
+<speaker>GONZALO.</speaker>
+<l>Not to take home, I hope!</l>
+<l>There were too many monsters, native there,</l>
+<l>Else had you ne'er him found, or Milan lost.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>That we no more will think on, good old lord!</l>
+<l>A fault forgiv'n should also be forgot;</l>
+<l>Or, like a half-heal'd wound, 'twill fester still,</l>
+<l>And rankle at the core.</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Consummate goodness!</l>
+</sp>
+<sp>
+<speaker>GONZALO.</speaker>
+<l>I'th' name of all that's savage! what comes here?</l>
+<l>The thing we spake of, surely, new-attir'd!</l>
+<stage><pb n="16" facs="19"/><hi>Enter</hi> Caliban.</stage>
+<l>Why, how now, sirrah? wherefore this fine change,</l>
+<l>From a rough skin to an embroider'd silk?</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>I crav'd this robe, that by yon scoffing apes</l>
+<l>I might no more be slouted at, and mock'd;—</l>
+<l>They call'd me servant-monster, moon-calf, fish!</l>
+<l>Perchance they'll think I am more man-like now;</l>
+<l>It may be but I am not near so warm:</l>
+<l>A shaggy hide, from the chill breeze to 'fend,</l>
+<l>Is far more worth than 'broider'd silken robe.</l>
+</sp>
+<stage><hi>Enter</hi> Alonso, Sebastian, <hi>and</hi> Anthonio.</stage>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Welcome, great king! welcome and health to all!</l>
+<l>The earth-dividing sea, now smiling calm,</l>
+<l>By swarthy Africk and fair Europe beach'd,</l>
+<l>Our good keel soon shall plough; soon we, I trust,</l>
+<l>Lost Italy regain!</l>
+</sp>
+<sp>
+<speaker>ALONZO.</speaker>
+<l>'Till we arrive,</l>
+<l>Most injur'd Prospero! each hour's a year;</l>
+<l>So much this beauteous maid I wish to see</l>
+<l>My Ferd'nand's bride, thee to thy right restor'd.</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>Nor shall I know a happy moment, sir!</l>
+<l><pb n="17" facs="20"/>'Till I, in Milan, formally have made</l>
+<l>A public resignation of your seat;</l>
+<l>Which that I e'er usurp'd sore smites my heart!</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>No soul in Italy but will rejoice</l>
+<l>To see my much-lov'd brother, Naples' king,</l>
+<l>With Milan's rightful duke, and their 'troth'd heirs!</l>
+</sp>
+<stage><hi>Enter</hi> Adrian, <hi>and</hi> Francisco.</stage>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Now, sirs, I pray, is all in readiness?</l>
+</sp>
+<sp>
+<speaker>ADRIAN.</speaker>
+<l>All, all, great sir!</l>
+</sp>
+<sp>
+<speaker>FRANCISCO.</speaker>
+<l>Our brave, refitted, ship,</l>
+<l>With unfurl'd sails, that swell before the breeze,</l>
+<l>Seems, like the mettled racer, ere he start,</l>
+<l>Hardly held in, impatient of delay!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Here, then, I bid adieu to solitude!—</l>
+<l>Farewell the desert wild, the sandy beach,</l>
+<l>Where oft, from dawn to dusky e'en, I strain'd</l>
+<l>My anxious eye-balls to descry a sail;</l>
+<l>Farewell my humble cave, whose flinty bed</l>
+<l><pb n="18" facs="21"/>My aged body hardiness hath taught,</l>
+<l>But ne'er subdued the feelings of my mind:</l>
+<l>While some, whose limbs enervate upon down,</l>
+<l>Suffer their hearts to harden into stone.</l>
+<l>Farewell Adversity;—O, tutor sage!</l>
+<l>Still may I practise what of thee I learn'd.</l>
+<l>Farewell my sorrows all!—hail! smiling Peace!</l>
+<l>And laud we Heaven for this our blest release!</l>
+<stage><hi>Exeunt all but</hi> Caliban.</stage>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Now shall I see the wond'rous, yearn'd for place,</l>
+<l>Where many Prospers, and Mirandas dwell:</l>
+<l>He calls it Milan:—I opine 'tis Heaven!</l>
+<l>It must, it must! for many such as she</l>
+<l>Would make a Heaven e'en of this desert isle!</l>
+</sp>
+<stage><hi>Enter</hi> Boatswain, Stephano, <hi>and</hi> Trinculo.</stage>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>Come, bear a hand, ye bibbers! the king and company are just about to embark.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>I told you, Trinculo, I'd get my bottle out of the pool;—here, lay to—</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>'Thank you, boy! a good voyage to us, and no hobgoblins!</p>
+<stage>[Drinks.]</stage>
+</sp>
+<sp>
+<pb n="19" facs="22"/>
+<speaker>STEPHANO.</speaker>
+<p>Who have we here? my man-monster! and in a guarded jerkin?</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>The goblins stripp'd us, last night, of our share of the frippery; how cam'st thou still so bedeck'd, mooncalf?</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>I am no monster! nor no moon-calf, fools!</l>
+<l>Yon' great ones, wiser far than ye! say I'm</l>
+<l>A proper man! then henceforth flout no more!</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Trinculo, the wenches in Italy must look to their hearts now, and we may wear the willow; for there'll be no making love to any purpose, while Signior Caliban is by.</p>
+</sp>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>Belay this prating, and make for the beach; or ye'll be left astern.</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Come along, Ban!—and, when we are aboard, I'll teach you how to pare your pig-nut nails, against you go a-wooing.</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Haste thou, vile patch! or here be left alone;</l>
+<l>Then, as for food ye faint, ye'll wish in vain</l>
+<l><pb n="20" facs="23"/>For my long nails, such dainties to unearth:</l>
+<l>Prizing what, dolt-like, now ye dare deride!</l>
+</sp>
+<stage><hi>Exit</hi> Caliban.</stage>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Say'st thou so, bully monster? lead the way then; we are for no such dainties: lead on, Moon-calf! farewell, crab-island! Naples a-hoy!—a brisk gale, and no hobgoblins!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<l>Ay, Stephano! a brisk gale, and no hobgoblins!</l>
+<stage>Exeunt.</stage>
+</sp>
+</div3>
+<div3 n="4" type="scene">
+<head>SCENE IV. <stage>THE BEACH.</stage></head>
+<stage>The Ship in view.</stage>
+<stage><hi>Enter</hi> Ariel, <hi>attended by other Spirits; meeting</hi> Prospero, Miranda, Alonso, Ferdinand, Gonzalo, Anthonio, Sebastian, Adrian <hi>and</hi> Francisco.</stage>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>HAIL, noble master! still I greet you so;</l>
+<l>Though, by your bounty, and your art abjur'd,</l>
+<l>I now am free as the surrounding air!</l>
+<l><pb n="21" facs="24"/>Summon'd by Ariel, the obedient winds</l>
+<l>To waft you to fair Italy attend.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>My dainty chick! my bird! that cancels all</l>
+<l>The kindnesses I e'er have shewn to thee!</l>
+<l>Are we assembled all, my loving friends?</l>
+<l>Where is our servant, Caliban?</l>
+</sp>
+<stage><hi>Enter</hi> Caliban, Boatswain, Stephano, <hi>and</hi> Trinculo.</stage>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Here, lord!</l>
+<l>Thy foot-licker is here—O, Setebos!</l>
+<l>What glorious thing is yon', as mountain huge!</l>
+<l>Doth firmly rest upon th' unstable sea?</l>
+<l>Fanning, with flickering top, the welkin's cheek!</l>
+<l>'Tis sure some god, is come to bear us hence</l>
+<l>To Milan; which I rightly judg'd was Heaven!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>None now are wanting; instant' we'll embark:</l>
+<l>And, Heaven permitting, Italy soon reach.</l>
+<l>Now, my lov'd Ariel, a last adieu!</l>
+<l>As mountain-air, or thought unlimited,</l>
+<l>To the elements, and through unbounded space,</l>
+<l>Delicate spirit! be thou ever free!</l>
+</sp>
+<sp>
+<pb n="22" facs="25"/>
+<speaker>ARIEL.</speaker>
+<l>One word, my honour'd master! ere we part.—</l>
+<l>Thy grateful servant would, were't possible,</l>
+<l>Assure thy voyage clear of doubt or dread;</l>
+<l>But that is not permitted! all he can</l>
+<l>Is to advise, and hope his fears are vain.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>What means my gentle Ariel?—spirit, speak!</l>
+</sp>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>Returning from my quest of favouring winds,</l>
+<l>As, near the summit of a burning mount,</l>
+<l>E'en now, I was descending to this spot;</l>
+<l>A sulph'rous demon, issuing from it's vent,</l>
+<l>Pour'd most unwelcome tidings in mine ear!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Say on, if they import or mine or me!</l>
+</sp>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>The spirit of that foul witch, Sycorax,</l>
+<l>Who died, thou know'st, upon this isle, great sir!</l>
+<l>From the blue lake of sire, wherein 'twas plung'd,</l>
+<l>Will soon be loos'd, till the dread day of doom!</l>
+<l>Pow'r she will have to cleave th' intrenchant air,</l>
+<l>And gird with trackless zone both land and sea;</l>
+<l>But, as her passions ever earthly were,</l>
+<l><pb n="23" facs="26"/>And she was native of dark Africk's clime,</l>
+<l>On earth, in Africk only, can she harm.</l>
+<l>For that her son's your slave, the fiend beware!</l>
+<l>Touch not at land, sir! 'till your port you gain;</l>
+<l>Where once arriv'd, you may abide secure.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Thanks for thy caution, virtue's constant friend!</l>
+<l>Though, surely, I can have no cause of fear.</l>
+<l>Heaven knows I foster'd carefully her son;</l>
+<l>That, at his earnest suit, I take him hence,</l>
+<l>From solitude to free him, not enslave;</l>
+<l>Nor will I basely leave him now, albeit</l>
+<l>With hags and fiends no longer can I cope:</l>
+<l>But, on th' Omnipotent, most firm, rely!</l>
+<l>Who, if the variegated earth we tread,</l>
+<l>Or plough the printless bosom of the deep,</l>
+<l>Is equally our pilot, guide, and guard!</l>
+<l>All-ruling! ever-watchful! good and just!</l>
+</sp>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>Now, sir, embark; and, as I wish, be blest!</l>
+<l>Farewell, sweet mistress! ever mild-and pure!</l>
+<l>Farewell, good master! cheerily on board!</l>
+<l>That I corporeal were, t' embrace my lord!</l>
+<l>Approach, ye spirits!—'would I mortal were</l>
+<l>One moment, to distil the tender tear!</l>
+</sp>
+<stage><pb n="24" facs="27"/><hi>Whilst</hi> Prospero, <hi>&amp;c. embark,</hi> Ariel <hi>sings, and the other Spirits bear the burthen of the Ditty.</hi></stage>
+<sp>
+<speaker>ARIEL</speaker>
+<stage>SINGS.</stage>
+<lg type="song" part="I">
+<l>NO more by moonlight shall be seen,</l>
+<l>Upon this isle's enamell'd green,</l>
+<l>Or on the yellow sands and shelves,</l>
+<l>In sportive dance, the fairy-elves;</l>
+<l>Since thy low dell, and rock-roof'd cell,</l>
+<l>Thou now forsak'st. Farewell! Farewell!</l>
+</lg>
+</sp>
+<sp>
+<lg type="song" part="M">
+<head><hi>Burthen,</hi></head>
+<l>Farewell! Farewell!</l>
+</lg>
+</sp>
+<sp>
+<lg type="song" part="M">
+<l>To bid adieu, lov'd master, hark!</l>
+<l>Thy faithful watch-dogs hoarsely bark;</l>
+<l>And thy departure blithe to cheer,</l>
+<l>Loud crows the shrill-ton'd chanticlere.</l>
+<l>A parting knell, with tuneful shell,</l>
+<l>The sea-nymphs found; ding, ding, dong, bell!</l>
+</lg>
+</sp>
+<sp>
+<lg type="song" part="F">
+<head><hi>Burthen,</hi></head>
+<l>Ding, ding, dong, bell!</l>
+</lg>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<trailer>END OF ACT THE FIRST.</trailer>
+</div2>
+<div2 n="2" type="act">
+<pb n="25" facs="28"/>
+<head>ACT II.</head>
+<div3 n="1" type="scene">
+<head>SCENE I. <stage>A CABIN IN THE KING OF NAPLES' SHIP AT SEA</stage></head>
+<stage><hi>Enter</hi> Anthonio, <hi>and</hi> Sebastian.</stage>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>TUSH! tell not me; i'th' night we might have done't:</l>
+<l>Instead of this, 'would I had stay'd behind,</l>
+<l>In yon' lone isle to reign, a rock my throne,</l>
+<l>And been both lord and subject to myself!</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>But, will you hear? think not I mean you should,</l>
+<l>Through Milan-streets, page Prospero's proud heels;</l>
+<l>Like captive king in Roman victor's train.</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>Nor will I ever, come what may instead!</l>
+<l>Death! to be hooted by a senseless rabble,</l>
+<l>The scorn of slaves who knelt i' th' mire to me!</l>
+<l>Deserted and despis'd! no refuge left,</l>
+<l>Unless to shave my crown, turn whining monk,</l>
+<l>And supplicate for scanty dole of bread!</l>
+</sp>
+<sp>
+<pb n="26" facs="29"/>
+<speaker>SEBASTIAN.</speaker>
+<l>You apprehend too quickly; I no more</l>
+<l>Than you mean tamely to return, and live</l>
+<l>Obscure in Naples, where I thought to rule;</l>
+<l>And yet intend: as thou may'st still in Milan.</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>At length thou speak'st; say on! I am all attention!</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>Vainly 'gainst Prosp'ro's art we had contended;</l>
+<l>But, mark our fortune! ere on board he came,</l>
+<l>His wand he brake, and drown'd his magick book:</l>
+<l>Foregoing, nay abjuring, most fool-like,</l>
+<l>The only means by which we had been foil'd!</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>'Tis true!</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>We're equal now! and, by a deed,</l>
+<l>The world, were't known, might villainy miscall,</l>
+<l>Ere we arrive at Italy's lov'd shore,</l>
+<l><pb n="27" facs="30"/>We'll lay in an eternal, dreamless, sleep,</l>
+<l>Alonso, Prosp'ro, Ferdinand, nay all!</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>Impossible! so closely we're observ'd!</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN</speaker>
+<l>Go to! to men like us resolv'd, 'tis easy!</l>
+<l>For, in the night, whose next morn lights us home,</l>
+<l>Can we but get the boat, nay even a plank</l>
+<l>Whereon to float ourselves, to th' crew unknown;</l>
+<l>We'll sink or fire the ship, whence none can 'scape!</l>
+<l>Then to th' amazed multitude on shore,</l>
+<l>With hypocritick wailing, tell a tale</l>
+<l>Of wreck, and deaths; and reign compleatly blest!</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>My Delphick oracle! it shall be done!</l>
+<l>I' th' ship shall they find death, i' th' sea a grave,</l>
+<l>Where they may ever rest! here break we off—</l>
+<l>Our faces mask in smiles, and 'tend the king,</l>
+<l>Lest our retirement should be marvell'd at;</l>
+<l>Confirming th' adage as we play our parts—</l>
+<l>Fair visages oft cover foulest hearts!</l>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 n="2" type="scene">
+<pb n="28" facs="31"/>
+<head>SCENE II. <stage>THE DECK.</stage></head>
+<stage>Stephano, Trinculo, <hi>and</hi> Caliban.</stage>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>NOW, Ban! how do you stomach sailing? is't not rare to skim like a gull thus, 'twixt wind and water? how dost like it, eh?</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>I like it much! This is a brave, sine god!</l>
+<l>And bears us daintily;—how swift he is!</l>
+<l>He scuds the ocean fleet as fawn the earth!</l>
+<l>O, that my dam were living to behold him!</l>
+<l>Grim Setebos she would renounce with scorn;</l>
+<l>Low, prostrate, fall with me; and thus adore!</l>
+</sp>
+<stage>[kneeling.]</stage>
+<sp>
+<speaker>TRINCULO.</speaker>
+<l>What's i' the wind, now, 'trow?</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Thou unmatch'd wonder!—miracle of pow'r!</l>
+<l>Hear thy vow'd vassal's pray'r, and grant his suit!</l>
+<l>Give me but vengeance on my tyrant lord,</l>
+<l>(Whom, tho' I feign'd repentance, I detest!)</l>
+<l><pb n="29" facs="32"/>And in these arms his daughter once to clip,</l>
+<l>I'll ever be thy bond-slave worshipper!</l>
+</sp>
+<stage>Rising.</stage>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>So! the apostate has got him a new idol, Stephano; you may return to your dog and bush again; he'll worship you no more.</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<p>What means this giddiness?—I cannot stand!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>And note, if the moon-calf be not drunk too!</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Out, you ninny!—'tis only the ship's motion makes him stagger so; as it did me erewhile.</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>By'r lady, and so it may;—but a sherris-sack was mix'd with the ship's motion when you caught the staggers.</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Sure I'm become what they call drunk again!</l>
+<l>But know not how;—for, save mere element,</l>
+<l>Nought have I swallow'd since I left the island.</l>
+</sp>
+<sp>
+<pb n="30" facs="33"/>
+<speaker>TRINCULO.</speaker>
+<l>How he reels!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>I pr'ythee shew where I may lie and sleep,</l>
+<l>That Prosper see me not: else he will chide!</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Why, surely, the shallow-brain'd ideot thinks himself drunk indeed!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>A rare conceit!—we'll humour it;—and, while he is napping, if we can find the old necromancer in the mood, try to get off keeping watch here at night.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Agreed.—Come along, you drunken owl! and we'll lead you where you may roost in safety, 'till your are sober.</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<p>But am I drunk in sooth?—I pr'yshee, say!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Drunk, quotha? there's a question!—ay-reeling-ripe, as when the piping sairy led us by
+<pb n="31" facs="34"/>the ears into the pool; then, indeed, it was with sack: now, only with the ship's motion:—but a small matter will turn a weak head!</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Give me sack now! for I can but be drunk!</l>
+<l>'Twill drown my fear, and make me full of mirth;</l>
+<l>I may as well be jocund-drunk, as sad:—</l>
+<l>Give me some sack, I pr'ythee, ere I sleep!</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Here's a flaggon for you, fish!—the king in the cabin can't drink better.</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>'Tis passing good! a king 'twill make of me!</l>
+<l>This shall my pillow be;—I'll drink and sleep;</l>
+<l>Nor dread sour Prosper, while of this I've store.</l>
+<stage>SINGS.</stage>
+<lg type="song">
+<l>I gather'd ripe clusters of grapes from the vine,</l>
+<l>Then champ'd 'em, and swill'd 'em, rejoic'd so to dine;</l>
+<l>Yet, like a dull ass, was raid, beaten, and jeer'd,</l>
+<l>Of adder, ape, urchin, and goblin afear'd!</l>
+<l>But, liquor celestial now, plenteous, I quaff,</l>
+<l>At adder, ape, urchin, and goblin can laugh;</l>
+<l>Ho, ho, ho; ho, ho, ho! I now should not fear,</l>
+<l>Though Prosper and all his curst spirits were here.</l>
+</lg>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 n="3" type="scene">
+<pb n="32" facs="35"/>
+<head>SCENE III. <stage>THE KING'S CABIN.</stage></head>
+<stage><hi>Enter</hi> Ferdinand.</stage>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>HOW blest a change hath in few hours been wrought,</l>
+<l>From dread of death to views of happiest life!</l>
+<l>My royal sire preserv'd; a most rare bride</l>
+<l>By heav'n, her father, and herself bestow'd:</l>
+<l>What could I more have wish'd? how this deserve?</l>
+</sp>
+<stage><hi>Enter</hi> Miranda.</stage>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>My life, my lord, my Ferdinand! where art thou?</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>What means my love? and why this war of white</l>
+<l>Against the damask roses of thy cheek?</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Thou wilt not marvel when thou shalt have heard!—</l>
+<l>Yet, can it be? can beauteous, godlike man,</l>
+<l>Who bears his great creator's face and form,</l>
+<l><pb n="33" facs="36"/>The continent of an immortal soul,</l>
+<l>His heavenly nature by such deeds debase!</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Thou talk'st in riddles, dearest! be more plain.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Those villain lords,—I tremble while I speak,—</l>
+<l>Anthonio and Sebastian, I've o'erheard</l>
+<l>Plot a most savage cruelty; and doom</l>
+<l>Us all to perish, that themselves may reign!</l>
+<l>Resolving, ere we reach th' intended port,</l>
+<l>(For their own safety taking first good care)</l>
+<l>To burn or sink the ship, and all therein.</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Well might'st thou, trembling, wonder such could be!</l>
+<l>Yet, fear no harm; their foul intent foreknown,</l>
+<l>Shall make us guard from that, and ev'ry ill:</l>
+<l>Nor think, O purest maid! for they are base,</l>
+<l>That the whole race of mankind is the same.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>That were, sweet love! too simple even in me;</l>
+<l>Tho' all unread i'th' peopled world's great book.</l>
+<l>Our isle's small page hath school'd me better lore!</l>
+<l>My father comes! shield him, all gracious heaven!</l>
+</sp>
+<stage><pb n="34" facs="37"/><hi>Enter</hi> Prospero.</stage>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Wherefore these looks and accents of alarm?</l>
+<l>Say, hath there chanc'd any unused event?</l>
+<l>Or know you aught to come gives cause of fear?</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>I trust there's none, sir;—but, those treach'rous</l>
+<l>Lords, Sebastian and Anthonio, link'd in vice!</l>
+<l>Miranda hath o'erheard, remorseless, doom</l>
+<l>Their nearest blood, Alonso, thee, nay all!</l>
+<l>By sea, or-fire, to unprepar'd-for death!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>And are these wretches men? of women born?</l>
+<l>Of kin and kind with us?—retire, retire!</l>
+<l>Stay not to see my weakness, should I weep</l>
+<l>To think my mother such a monster bore!</l>
+<l>Nor he frail Nature's only blot and shame!</l>
+<l>Retire, my children;—nay, I pray you go!—</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Miranda, come!—let us obey thy sire;</l>
+<l>And warn, while absent from him, all our friends,</l>
+<l>To guard against those villains' dire design.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>My father! O, my father! guard him, heaven!</l>
+<stage><hi>Exeunt</hi> Ferdinand, <hi>and</hi> Miranda.</stage>
+</sp>
+<sp>
+<pb n="35" facs="38"/>
+<speaker>PROSPERO.</speaker>
+<l>O monstrous! monstrous! wicked, horrid pair!</l>
+<l>Worse than the beast I rear'd; who, tho'hell-born,</l>
+<l>More human is than these most cursed fiends!</l>
+<l>Their plot, thus timely known, must prove abortive;</l>
+<l>But the intention I'll severely punish!</l>
+</sp>
+<stage><hi>Enter</hi> Trinculo, <hi>and</hi> Stephano.</stage>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>There, there he is!—we have caught him alone at last.—Now to try if we can get off keeping watch!—He seems but in a crabbed humour tho;—if I had not taken a cheering draught, I should not dare to accost him.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>He can't conjure the cramp into us now, you know;—so, we may venture safe enough:— hem!—may it please your highness—</p>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>How now! what means this bold intrusion, slaves!</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<l>Heaven defend us from cramp, ague, and palsy!</l>
+</sp>
+<stage>They both fall upon their knees.</stage>
+<sp>
+<pb n="36" facs="39"/>
+<speaker>TRINCULO.</speaker>
+<p>And may t'other place keep lock'd-up all the ghosts, devils, and hobgoblins!</p>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Hence, drunken fools! upon the deck; away!</l>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>O lord! that's the very place we want to shun! —it's almost sunset;—and I would not stay upon deck when 'tis dark to be duke of Milan.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Nor I, though I might marry your highness's fair daughter.</p>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>What say the brainless dolts of duke and daughter?</l>
+<l>Foul drunkards, hence! and consort with the monster.</l>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>The monster is now sleeping off his drunkenness;—good your grace! let him watch while we sleep off ours.</p>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Has he! has Caliban been drunk again?</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>So drunk, an't please you! that we were forc'd
+<pb n="37" facs="40"/>to lead him to his kennel; where he lay, cursing your highness, and swallowing sack, 'till he fell fast asleep.</p>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Haste!—'rouse, and drag th' incorrigible hither!</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<l>Here will be sad work, I doubt, Trinculo,</l>
+<stage>Aside to each other.</stage>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>O for a whirlwind now, to carry us out of his unmerciful clutches!</p>
+</sp>
+<stage><hi>Exeunt</hi> Stephano <hi>and</hi> Trinculo.</stage>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Foul abstract of his dam, and hellish sire!</l>
+<l>Nor kindness nor severity avail,</l>
+<l>To root out native evil from this beast!</l>
+<l>Then let him suffer with these wretched knaves,</l>
+<l>And that more-guilty, for less-ignorant pair!</l>
+<l>Who, for our safety on this watry waste,</l>
+<l>Shall day and night upon the deck abide:</l>
+<l>And, when we Naples reach, the bloody lords</l>
+<l>I will consign to shame! the savage drive</l>
+<l>Into some wild, from haunt of men remote!</l>
+</sp>
+<stage><pb n="38" facs="41"/><hi>Enter</hi> Stephano, Trinculo, <hi>and</hi> Caliban.</stage>
+<sp>
+<stage>Caliban singing.</stage>
+<lg type="song">
+<l>LET's troul a jocund catch!</l>
+<l>Laugh, drink, and sing,</l>
+<l>'Till the welkin ring!</l>
+<l>I'll firing no more fetch;</l>
+<l>But Prosper brain,</l>
+<l>And henceforth reign,</l>
+<l>Mine own great lord and king!</l>
+</lg>
+<lg>
+<l>Whither dost lead me!—what, doth Prosper sleep?</l>
+<l>And shall we quell the hated tyrant now?</l>
+</lg>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Approach, thou earth! thou drunken, murd'rous slave!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Thou ly'st! I am no slave;—but flee as thou!</l>
+<l>If I perchance am drunk, 'twas this huge god,</l>
+<l>Whose man-sed belly we are now within,</l>
+<l>Did make me so while I did worship him.</l>
+<l>Must I be ever thus for nothing chid!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>That was the plea before—a fancied god!</l>
+<l>E'en this dull sot, as senseless as thyself;</l>
+<l>Who, with his mate and thee, conspir'd my death!</l>
+<l><pb n="39" facs="42"/>Thy ignorance pitying, I then forgave;—</l>
+<l>But for this wilful trespass, on the deck,</l>
+<l>Hag-seed! besure thou 'bide, from now till morn.</l>
+<l>Pack you both with him, sirrahs! and partake</l>
+<l>Alike the punishment as the offence!—</l>
+<l>I hop'd my fallen brother t'have reclaim'd,</l>
+<l>And humaniz'd this wretched, wayward brute;</l>
+<l>It may not be:—heaven's ruler governs all!</l>
+<l>And, tho' through seeming labyrinths he leads,</l>
+<l>The blest event still justifies his ways!</l>
+<stage><hi>Exit</hi> Prospero.</stage>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>So, we must e'en go upon deck at last! in spite of all our wise schemes to prevent it!—if the devil or his dam should pay us a visit in the night, what will become of us, Stephano?</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Oh, never heed!—the monster is to be with us;—and companions in distress make sorrow the less:—I don't care for the old one himself, when I am in good company: do you, mooncalf?</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Peace, ye dull fools! I will no more endure</l>
+<l>This scurvy jesting;—ye are base and false!</l>
+<l><pb n="40" facs="43"/>Ye first, like fiends, seduce, and then betray!</l>
+<l>Beware, soul traitors, how henceforth ye mock;</l>
+<l>Lest into both I strike my sharpen'd fangs,</l>
+<l>And 'gainst each other dash ye, mongrels, dead!</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<l>What a bloody-minded savage!</l>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>'Mass! I'm as much afraid of him now, as I was before of hobgoblins.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Fellow Trinculo, we'll watch 'till he's asleep again; then muzzle, and lash him to the main-mast: where he may growl his fill, and we not fear him.</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>A match!—I'll make the muzzle, and you shall put it on.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Come, servant-monster! don't fall out with your man-i'-the-moon-god! I'll warrant you get no harm upon deck;—you shall have my cloak to sleep on, and Trinculo's to cover you; with your skin full of sack to keep the cold out: and tomorrow we'll devise some rare revenge against this old crabstock, Prospero.</p>
+</sp>
+<sp>
+<pb n="41" facs="44"/>
+<speaker>CALIBAN.</speaker>
+<l>The thought of that would make me brave the night,</l>
+<l>Tho' rent-up rocks 'mid yesty waves o'erdash'd,</l>
+<l>And livid light'ning scath'd my unsty'd head!</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Cheer up, then!—and, to drive away care, I'll troul the catch you are so fond of.—I made it myself, when I was in the bilboes with some more jolly lads; for railing, in our cups, against duke Anthonio: who was proxy for the tawny-moor king of Tunis, at our princess Claribel's marriage at Naples.</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>I remember it!—you said, tho' his skin was whiter, you believ'd his heart was as dingy as king Abdallah's face—so, sing away, boy! and we'll bear the burthen.</p>
+</sp>
+<sp>
+<speaker>STEPHANO</speaker>
+<stage>SINGS.</stage>
+<lg type="song" part="I">
+<l>Flout 'em, and scout 'em—scout 'em and flout 'em,</l>
+<l>thought is free;</l>
+<l>Maul 'em and gaul 'em—vile names to call 'em,</l>
+<l>let's agree:</l>
+<l>We care for no king—the duke's a base thing,</l>
+<l>worse then we;</l>
+<l>In spite of his grace, we'll sing to his face</l>
+<l>Liberty!</l>
+<l><pb n="42" facs="45"/>O sweet liberty! sing, boys, merrily;</l>
+<l>O, rare liberty!</l>
+<l>We'll drink and be free, like fish in the sea:</l>
+<l>O, rare liberty!</l>
+</lg>
+</sp>
+<sp>
+<lg type="song" part="F">
+<head><hi>Burthen,</hi></head>
+<l>O, sweet liberty! &amp;c.</l>
+<l>O, rare liberty! &amp;c.</l>
+</lg>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<trailer>END OF THE SECOND ACT.</trailer>
+</div2>
+<div2 n="3" type="act">
+<pb n="43" facs="46"/>
+<head>ACT III.</head>
+<div3 n="1" type="scene">
+<head>SCENE I. <stage>THE DECK, <hi>by moonlight.</hi></stage></head>
+<stage><hi>On one part,</hi> Sebastian <hi>and</hi> Anthonio, <hi>walking to and fro; at another,</hi> Stephano <hi>and</hi> Trinculo, <hi>at work;</hi> Caliban <hi>asleep near them: a Mariner, keeping watch.</hi></stage>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>WELL, sir, how relish you this treatment, pray?</l>
+<l>Is not your gentle brother wond'rous kind,</l>
+<l>In suff'ring us to pass the chilly night</l>
+<l>Thus upon deck, whilst he lies warm below?</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>O, kind indeed! as you say, wond'rous kind!</l>
+<l>A precious sample of fraternal love!</l>
+<l>To be dragg'd here at his imperious will,</l>
+<l>And left to consort with these wretched slaves!</l>
+<l>But, list! yon' mariner, who keeps the watch;</l>
+<l>E'en now was singing; let's attend the lay:</l>
+<l>It may compose, at least divert our thoughts.</l>
+</sp>
+<sp>
+<speaker>MARINER</speaker>
+<stage>SINGS.</stage>
+<lg type="song">
+<lg>
+<l>WHEN the seaman quits the shore,</l>
+<l>Let him think on home no more;</l>
+<l>For, of those who tempt the main,</l>
+<l>But a part see home again!</l>
+<l><pb n="44" facs="47"/>Some are wreck'd, some tempest-tost,</l>
+<l>To the bottom plung'd and lost!</l>
+<l>Seamen, when you quit the shore,</l>
+<l>Think on home and friends no more!</l>
+</lg>
+<lg>
+<l>When the raging tempests blow,</l>
+<l>High we're mounted, dash'd down low!</l>
+<l>'Mong'st the stars now, trembling, peep;</l>
+<l>Now explore the yawning deep!</l>
+<l>Some arise, some there remain,</l>
+<l>Ne'er behold the light again!</l>
+<l>Seamen, when you quit the shore,</l>
+<l>Think on home and friends no more!</l>
+</lg>
+<lg>
+<l>When the sea's with calmness crown'd,</l>
+<l>And the heavens smile around:</l>
+<l>Even then disease may rage,</l>
+<l>Death alike snatch youth and age!</l>
+<l>Warfare, famine, fire, and drought,</l>
+<l>Millions to their end have brought!</l>
+<l>Seamen, when you quit the shore,</l>
+<l>Think on home and friends no more!</l>
+</lg>
+</lg>
+</sp>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>This artless ditty has more pow'r to sooth.</l>
+<l>Then many an intricate, and labour'd strain.</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>'Thas calm'd me for the present: let's repose!</l>
+</sp>
+<stage>They retire.</stage>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Well sung, i'faith! though it almost lull'd me asleep.—Come, Trinculo, have not you</p>
+</sp>
+<pb facs="48"/>
+<gap extent="16 pages" disp="〈16 pages missing〉" reason="missing"/>
+<!-- https://books.google.de/books?id=v_4kAAAAMAAJ -->
+<sp>
+<pb n="61" facs="49"/>
+<speaker>CALIBAN.</speaker>
+<l>Ho, ho, ho, ho! thy sword is blunt, old man!</l>
+<l>Now could I grind thy pithless bones to dust;</l>
+<l>Rend ye to shreds, or tread ye into clay!</l>
+<l>But, get ye gone!—ye may as soon wound air,</l>
+<l>Water, or fire, as charmed Caliban!</l>
+<l>The spirit of my dam is strong in me!</l>
+<l>Hath callous made me to weak mortals' blows;</l>
+<l>And your united force I stand, and dare!</l>
+<l>Ho, ho, ho, ho! what, are ye all aseard?</l>
+</sp>
+<sp>
+<speaker>GONZALO.</speaker>
+<l>By'r lakin! I yet never was before;</l>
+<l>But my old blood's now curdled in my veins.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Put up your swords, good sirs! they're but as straws;</l>
+<l>A charmed life, in aid of strength, now given,</l>
+<l>This beast hath pow'r to bring us all to nought!</l>
+<l>My life alone fell Sycorax doth seek;</l>
+<l>And that, to save you, will I gladly yield!</l>
+<l>Thou more-than-devil! speak thy dam's behest;</l>
+<l>Which, though destruction follow, I obey!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Make straight to land, dread Sycorax commands!</l>
+<l>What there shall hap I know not;—but, I have hope</l>
+<l><pb n="62" facs="50"/>All but thy daughter will my dam destroy!</l>
+<l>My frustrate purpose then will I effect,</l>
+<l>And people th' unknown clime with Calibans!</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Peace, monster, peace! heav'n ne'er will that permit.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Patience, my son! my life alone is sought;</l>
+<l>And what's a life, compared with chastity,</l>
+<l>Connubial crown! we come and go as fast,</l>
+<l>As mill-sail shadows course each other o'er</l>
+<l>The sunny earth, in swift successive round!</l>
+<l>Nor can I perish, but by that decree,</l>
+<l>To which who would not chearfully resign!</l>
+<l>For land, ho! pilot; fearless I'll ashore,</l>
+<l>To prove the utmost malice of the fiend!</l>
+<l>Lament not, should I sall;—they are not ills,</l>
+<l>Tho' they appear such, righteous heaven wills</l>
+</sp>
+<stage>THE SCENE CLOSES.</stage>
+</div3>
+<div3 type="scene">
+<pb n="63" facs="51"/><head><stage>AN AERIAL SCENE.</stage></head>
+<stage><hi>Enter</hi> Ariel, <hi>meeting other Spirits.</hi></stage>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>'Tis done, my pure co-mates! the word is giv'n?</l>
+<l>For land! heroically Prosp'ro said;</l>
+<l>And even now the vessel swiftly sails</l>
+<l>To the enchanted shore it ne'er shall leave:</l>
+<l>Where, to his grief, Alonso soon shall find</l>
+<l>His daughter, and her moorish lord, enthrall'd</l>
+<l>By a vile forc'ress, Hyrca, leagued with Sycorax!</l>
+<l>Now is the time to prove, celestial bands!</l>
+<l>If hellish fiends to us superior are;—</l>
+<l>Long have they vaunted, with their burning breath</l>
+<l>To dim and scorch our bright ethereal forms;</l>
+<l>To hazard that, without good cause, were fond:</l>
+<l>But, now, to shield fair virtue is good cause!</l>
+<l>By art, or force, then let's essay the deed;</l>
+<l>And to good Prosp'ro's rescue instant fly.—</l>
+<l>In phalanx firm, with heav'nly armour dight;</l>
+<l>Virtue the word! for virtue strongly fight!</l>
+</sp>
+<sp>
+<pb n="64" facs="52"/>
+<speaker>ARIEL</speaker>
+<stage>SINGS.</stage>
+<lg type="song" part="I">
+<l>VIRTUE's the word!</l>
+<l>Sound the trumpet of heaven!</l>
+<l>Draw th' adamant sword,</l>
+<l>Temper'd seven times seven!</l>
+<l>To war against hell,</l>
+<l>And its votaries quell,</l>
+<l>Draw th' adamant sword!</l>
+<l>Sound the trumpet of heaven!</l>
+</lg>
+</sp>
+<sp>
+<lg type="song" part="F">
+<head>Burthen.</head>
+<l>Virtue's the word! &amp;c.</l>
+</lg>
+</sp>
+</div3>
+<trailer>END OF ACT THE THIRD.</trailer>
+</div2>
+<div2 n="4" type="act">
+<pb n="65" facs="53"/>
+<head>ACT IV.</head>
+<div3 n="1" type="scene">
+<head>SCENE I. <stage>A GROVE IN PROSPERO'S ISLE; THE SEA IN VIEW.</stage></head>
+<stage><hi>The Spirit of</hi> Sycorax <hi>descends.</hi></stage>
+<sp>
+<speaker>SYCORAX.</speaker>
+<l>HERE may I shun the blaze of day!</l>
+<l>In these my well-known purlieus stray;</l>
+<l>While the doom'd vessel steers to land,</l>
+<l>Which I'll destroy on Hyrca's strand!</l>
+<l>In this dark grove, my mortal frame</l>
+<l>A prey to death erewhile became;</l>
+<l>And here remain'd my darling boy,</l>
+<l>Young Caliban! born to annoy</l>
+<l>All those who are not of his kind;</l>
+<l>With mother's form, and father's mind!</l>
+<l>In yon' riv'n pine I left the elf,</l>
+<l>Close pent, who would not yield himself</l>
+<l>To my desires; for I was shy</l>
+<l>O' th' amorous seamen, sailing by,</l>
+<l>And scared them hence! I so disdain'd</l>
+<l>All mortal commerce, since I gain'd</l>
+<l>A spirit for my paramour!</l>
+<l>Whose love I lost on Africk's shore,</l>
+<l>By one deed, which the moors thought good,</l>
+<l>And therefore left me in this wood;</l>
+<l>Tho' by their laws condemn'd to die,</l>
+<l>For murder, lust, and sorcery!—</l>
+<l><pb n="66" facs="54"/>When I had stol'n, for sacrifice</l>
+<l>To Setebos, a child; the cries</l>
+<l>Of it's sad parents, wide misled,</l>
+<l>Made me restore it to their bed:</l>
+<l>Fool that I was! but, sweet it smil'd,</l>
+<l>And, for the moment, clean beguil'd</l>
+<l>My wayward nature! soften'd then</l>
+<l>To tenderness, unknown by men;</l>
+<l>Who dragg'd me, with unfeeling fangs,</l>
+<l>Here, to endure sharp labour's pangs</l>
+<l>For unborn Caliban!—What light</l>
+<l>So sudden dazzles?—'tis the sprite</l>
+<l>I here left wedg'd; who bears a wand,</l>
+<l>Of potency I can't withstand!</l>
+<l>To Barbary's coast,—in yon black cloud,</l>
+<l>Which thither speeds, and will enshroud</l>
+<l>From sunny rays my bat-like eyes,—</l>
+<l>I'll hasten; and, in time, apprize</l>
+<l>Hyrca, that Prosp'ro, and his crew,</l>
+<l>Approach: ere night the deed I'll do!</l>
+</sp>
+<stage>Exit, ascending.</stage>
+<stage><hi>Enter</hi> Ariel, <hi>with a wand, and other Spirits.</hi></stage>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>Thus far, pure friends, success our skill hath crown'd;</l>
+<l>And art, to force preferr'd, well steaded us!</l>
+<l>The pliant ground yields not more ready way</l>
+<l>To the blind pioneer, the sleeky mole;</l>
+<l><pb n="67" facs="55"/>Nor to th' insinuating worm's more pervious,</l>
+<l>Than unto us, in our dispersed search</l>
+<l>Of this most precious staff; which my good hap</l>
+<l>Chanc'd first to 'light on: no less thanks still due</l>
+<l>To each, who freely earth'd his radiant form,</l>
+<l>And help'd, when found, it's parts to reunite;</l>
+<l>Restoring and augmenting its lost pow'r!</l>
+<l>This wand retriev'd, good Prosp'ro's sure support,</l>
+<l>For his drown'd book, all fearless, we'll explore</l>
+<l>The vast abyss of the ne'er-sounded sea!</l>
+<l>Should we recover that, our toil's o'erpaid;</l>
+<l>And he again from hellish fiends secure!</l>
+<l>Now to the briny ooze; more noisome far</l>
+<l>Then vap'rous mine, flint, slime, or clogging clay;</l>
+<l>And apt to soil our skiey-tinctur'd wings:</l>
+<l>Which must be close compress'd, as deep we dive,</l>
+<l>And range through groves of coral; where the nymphs,</l>
+<l>And sea-born shepherds, 'neath their moist alcoves,</l>
+<l>Repeat their vows, and pour forth all their loves!</l>
+</sp>
+<sp>
+<pb n="68" facs="56"/>
+<speaker>ARIEL</speaker>
+<stage>SINGS.</stage>
+<lg type="song">
+<lg>
+<l>WE'LL view the wonders of the deep!</l>
+<l>The pearl-spread plains,</l>
+<l>The finny swains,</l>
+<l>And green-hair'd mermaids coy, who keep</l>
+<l>The herds and flocks,</l>
+<l>That graze the rocks;</l>
+<l>The web-foot sea-beeves, kine, and sheep!</l>
+</lg>
+<lg>
+<l>Then sadly mark each drown'd man's skull!</l>
+<l>And bleached bones,</l>
+<l>Like pebble-stones;</l>
+<l>Of which blue Neptune's bed is full!</l>
+<l>When gain'd our prize,</l>
+<l>To air we'll rise;</l>
+<l>And Sycorax' fell decree annul!</l>
+</lg>
+</lg>
+</sp>
+<stage>Exeunt, towards the sea.</stage>
+</div3>
+<div3 n="2" type="scene">
+<pb n="69" facs="57"/>
+<head>SCENE II. <stage>A BEAUTIFUL COUNTRY.</stage></head>
+<stage>Abdallah, <hi>King of Tunis, discovered in a sumptuous Pavilion.</hi></stage>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>NIGHT'S curtain is withdrawn, and the clear morn</l>
+<l>Blushes like bashful bride from couch upris'n;</l>
+<l>Whose yellow tresses, all dishevell'd, throw</l>
+<l>A golden glare around, creating day!</l>
+<l>But what is day after drear nights like mine,</l>
+<l>From my sweet bride withheld, my Claribel!</l>
+<l>Yet, wherefore do I thus indulge despair?</l>
+<l>Still may I hope to be deliver'd hence;</l>
+<l>Still hope I shall regain my crown and throne;</l>
+<l>From which, as in a dream, my queen and self,</l>
+<l>By Hyrca's sorcery, were hither brought:</l>
+<l>Me for her brutal lust, detested hag!</l>
+<l>And my fair bride her low-degraded slave!</l>
+<l>But, soft! I hear the hasteful step of love!</l>
+<l>'Tis Claribel! fly sorrow from my breast!</l>
+<l>For where she comes nought can abide but joy!</l>
+</sp>
+<stage><pb n="70" facs="58"/><hi>Enter</hi> Claribel.</stage>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>My dear Abdallah! mine and Tunis' lord!</l>
+<l>Fain would I greet thee with a happy day;</l>
+<l>But the fell sorceress, Hyrca, wild with ire,</l>
+<l>That her foul passion still you treat with scorn,</l>
+<l>Since midnight hath been working spells and charms,</l>
+<l>The prelude of our doom'd destruction nigh!</l>
+</sp>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>Were't but myself her wicked pow'r could reach,</l>
+<l>I'd meet her utmost fury with a smile;</l>
+<l>Yielding my firm and unpolluted flesh</l>
+<l>By fiery pincers to be burnt and torn!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>And thinks my love that only him would harm?</l>
+<l>Thou know'st whate'er of ill should thee betide,</l>
+<l>Must wound the love-fraught heart of Claribel!</l>
+<l>But, for some hope to mitigate this fear,</l>
+<l>As on the ocean's marge e'en now I gaz'd,</l>
+<l>I saw a gallant vessel furl her sails;</l>
+<l>Whilst from her boat stept divers on the shore:</l>
+<l>And see, dear lord! already they approach.</l>
+</sp>
+<stage><hi>Enter</hi> Prospero, <hi>and</hi> Miranda.</stage>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>'Beseech you, sir! venture no farther on.</l>
+</sp>
+<sp>
+<pb n="71" facs="59"/>
+<speaker>PROSPERO.</speaker>
+<l>Fear nothing, sweet! lo, yonder is a pair,</l>
+<l>Of human form, and most majestic port;</l>
+<l>I will accost them!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Rather, sir, avoid them!</l>
+<l>They're spirits! and, tho' one seems fair and good,</l>
+<l>That, with so dark a hue, is sure a fiend!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Collect thyself, my child!—'tis but the tinct</l>
+<l>Peculiar to the race in Africk born,</l>
+<l>Upon whose coast we now in safety tread;</l>
+<l>E'en such a one, yet courteous as ourselves,</l>
+<l>Did Ferd'nand's sister, Claribel, late wed:</l>
+<l>Should this man prove but good as Fame speaks him,</l>
+<l>And from fell Sycorax' malice Heav'n doth shield,</l>
+<l>We cannot doubt of succour in our need.</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Heard you, Abdallah, what this stranger said?</l>
+</sp>
+<sp>
+<speaker>ABDLLAH.</speaker>
+<l>Dearest! I did; and am abforb'd in wonder!</l>
+<l>'Please you, grave sir! approach; and you, fair maid!</l>
+<l>Nor lack for aught, save what we also want.</l>
+</sp>
+<stage><pb n="72" facs="60"/><hi>Enter</hi> Ferdinand, <hi>his sword drawn; and, soon after,</hi> Alonso, Adrian, <hi>and</hi> Francisco.</stage>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>The beast no longer seems invulnerable,</l>
+<l>But shuns my sword! and, with his foul compeers,</l>
+<l>Growling, a different track from us pursues.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>To share my fortunes since ye all persist,</l>
+<l>As yet, 'thank Heav'n! we are not only safe,</l>
+<l>But landed on a seeming plenteous spot;</l>
+<l>Where are inhabitants, of manners mild</l>
+<l>As their soft climate's sweet salubrious air.</l>
+</sp>
+<sp>
+<speaker>ALONSO.</speaker>
+<l>The moorish king, Abdallah, and my child!</l>
+<l>'Tis sure enchanted ground!—are we in Tunis?</l>
+<l>Do we but dream? or, is it witchcraft all!</l>
+</sp>
+<sp>
+<speaker>GONZALO.</speaker>
+<l>Witchcraft, I doubt! and these but devils, sir,</l>
+<l>Tho' in your children's forms!</l>
+</sp>
+<sp>
+<speaker>ALONSO.</speaker>
+<l>Art thou my child?</l>
+<l>An insubstantial shade? or wicked fiend!</l>
+</sp>
+<sp>
+<speaker>Ferdinand.</speaker>
+<stage><hi>embracing</hi> Claribel.</stage>
+<l>Shade art thou none, but Claribel herself!—</l>
+<l>No fiend had ever pow'r to look so fair!</l>
+</sp>
+<sp>
+<pb n="73" facs="61"/>
+<speaker>Claribel.</speaker>
+<stage><hi>kneeling to</hi> Alonso.</stage>
+<l>Astonishment hath held me dumb till now!—</l>
+<l>'Tis your own Claribel, your wretched child!</l>
+</sp>
+<sp>
+<speaker>ALONSO.</speaker>
+<l>Ha! wherefore wretched? speak, ungrateful king!</l>
+<l>Did I deprive our Europe of those charms,</l>
+<l>To have my child in Tunis wretched made!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Oh, no!—alack, sir, we are far from thence!</l>
+</sp>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>Great king of Naples! my most honour'd sire!</l>
+<l>Whom to behold again was past my hope—</l>
+<l>Fly, with your goodly company, this place;</l>
+<l>And rescue hence your Claribel and son!</l>
+<l>But, if that may not be, secure yourselves.</l>
+</sp>
+<sp>
+<speaker>ALONSO.</speaker>
+<l>Explain, my son! declare what ill awaits!</l>
+</sp>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>Here bides a potent sorceress; by whose art</l>
+<l>From Tunis we were hither strangely brought,</l>
+<l>Soon as your royal fleet had homeward sail'd;</l>
+<l>Myself the object of her foul desire,</l>
+<l>My virgin-queen in bondage basely held!</l>
+<l><pb n="74" facs="62"/>Her the vile witch would elsewhere fain have stay'd,</l>
+<l>But had not pow'r; and, though till now debarr'd</l>
+<l>Due nuptial rites, on each returning morn</l>
+<l>Like th' eastern sun she glads my longing eye!</l>
+<l>For even witchcraft can't divide the pair,</l>
+<l>Whose love-link'd hearts are holily conjoin'd!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Mysterious Heav'n sure pointed out the path,</l>
+<l>To free from hence this twain! my mind's at rest!</l>
+<l>Let us, my friends, strait victual home our ship;</l>
+<l>And, nought impeding, quickly re-embark—</l>
+<l>Come, I'll instruct you, sirs, how to ensnare</l>
+<l>The antelope, and dappled, bounding fawn;</l>
+<l>Whilst younger Ferdinand doth agile climb</l>
+<l>The trees and cliffs, for birdlings therein nested.</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Miranda, sweet! stay thou with Claribel,</l>
+<l>Thy Ferdinand's lov'd sister, and now thine;</l>
+<l>I must accompany our sires and friends,</l>
+<l>Swift as the roe-buck to outstrip our game!</l>
+</sp>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>I'll guide you, strait, to where you'll plenteous find</l>
+<l>The finn'd and feather'd race; unto the haunts</l>
+<l>O' th' clamb'ring kid, and lowly, and timid hare;</l>
+<l><pb n="75" facs="63" ana="y"/>Or, if a nobler game you would pursue,</l>
+<l>The bear, fierce buffalo, and tusked boar.</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Lead on, great sir! 'twill be a royal chace,</l>
+<l>Wherein a king doth rouse for us our game!</l>
+<l>Stay with yon' fair one, chuck! nor fear mischance.</l>
+<l>This wond'rous meeting Heav'n, I'm sure, design'd</l>
+<l>The foretaste of still greater bliss in store!</l>
+</sp>
+<stage><hi>Exeunt all but</hi> Claribel <hi>and</hi> Miranda.</stage>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Stranger! with whom my Ferdinand seems charm'd,</l>
+<l>Say, whence and who thou art?—a queen?— his bride?</l>
+<l>That, since my nuptials, he hath woo'd and wed?</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Answer me first.—Why did you kiss my love?</l>
+<l>I much admir'd, 'till then, your angel-face!</l>
+<l>Are you an angel, or of woman-kind?</l>
+<l>For nought to judge by saw I e'er before;</l>
+<l><pb n="76" facs="64"/>Except the mocking shadow of myself,</l>
+<l>And Ariel, my grave sire's angelick sprite;</l>
+<l>You most resemble me, tho' fairer far!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Thy speech is passing strange! but, if't be sooth,</l>
+<l>Thy innocence deceives thee overmuch.</l>
+<l>No more can I, a woman like thyself,</l>
+<l>Compare with thee, true type of Beauty's queen!</l>
+<l>Than can with Ferdinand, the moor, my lord;</l>
+<l>Whom, ne'ertheless, past health and life I love!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>What, that dark creature!—'tis impossible;—</l>
+<l>As soon the swan might on the raven dote!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>I thought like thee when first I saw the moor,</l>
+<l>And almost loath'd where duty bade me love.</l>
+<l>But my Abdallah has a snow-white soul,</l>
+<l>Which o'er his hue a beamy lustre throws!</l>
+<l>He won the heart Alonso could not give,</l>
+<l>And chang'd my mere obedience into choice:</l>
+<l>Then be not jealous, fairest! thou'st no cause;</l>
+<l>Much as a sister should, I Ferd'nand love;</l>
+<l>But not a jot, sweet! more.</l>
+</sp>
+<sp>
+<pb n="77" facs="65"/>
+<speaker>MIRANDA.</speaker>
+<l>Jealous! what's that?</l>
+<l>Is it a Naples, or a Tunis word?</l>
+<l>I know not what it means;—but am content!</l>
+<l>So kind you look, and fair you speak, I'm sure</l>
+<l>You cannot mean to do me any wrong.</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Come, then, sweet heart! and, in th' adjacent bow'r,</l>
+<l>Repose thee 'till our lords and sires return;</l>
+<l>Taste of the pine, or more nutritious fig;</l>
+<l>Whilst the pomegranate and sharp citron's juice,</l>
+<l>Temp'ring each other, form our pleasing draught.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Shew me, I pray, to the clear, running stream;</l>
+<l>With, if you have't, a little new-drawn milk;</l>
+<l>Some berries, cracknels, or ripe ears of corn;</l>
+<l>And, our creator thanking first, then thee</l>
+<l>For thy great goodness to a stranger maid;</l>
+<l>I'll break my fast, nor covet better fare!</l>
+</sp>
+<stage><hi>Enter</hi> Caliban, Anthonio, <hi>and</hi> Sebastian.</stage>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>They're out of sight and hearing far enow;</l>
+<l>And I, securely, may my mistress seize.</l>
+</sp>
+<sp>
+<pb n="78" facs="66"/>
+<speaker>ANTHONIO.</speaker>
+<l>Ha! beauteous Claribel! my long belov'd!</l>
+<l>Whom I, in Naples, for another wedded;</l>
+<l>Hopeless I e'er should clasp thee thus, my own!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>What means Anthonio?—surely you but jest.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>The villain lords, and that abhorred beast!</l>
+<l>Fly, fly, fair queen! or we're for ever lost!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Stay, gaudy goldfinch! flit not hence so soon!</l>
+<l>Nor thou, sweet mistress!</l>
+</sp>
+<sp>
+<speaker>MIRANDA and CLARIBEL.</speaker>
+<l>Ah!</l>
+</sp>
+<stage>screaming.</stage>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>I have ye fast!</l>
+</sp>
+<stage>Seizing the females.</stage>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>My uncle! dear Sebastian! guard your neice</l>
+<l>From this grim monster! good Anthonio, help—</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>To bear thee hence, my matchless Claribel!</l>
+<l>Thy father doom'd thee to a Moor's embrace,</l>
+<l><pb n="79" facs="67"/>And left thee, 'mid'st barbarians, a sold slave;</l>
+<l>I will enfranchise strait and make thee mine!</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN</speaker>
+<l>And with Sebastian shall Miranda share</l>
+<l>The joys of life, and splendour of a crown!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>But whom shall I have, if you each take one?</l>
+<l>My mistress have I ever hunger'd for!</l>
+<l>Sty'd in a rock with her, on acorns fed;</l>
+<l>Sea-brine, or stagnant, mantled-pool to drink;</l>
+<l>On her alone I, gluttoning, could have gorg'd:</l>
+<l>And nothing lack'd, having my nonpareil!</l>
+</sp>
+<stage>Attempting to clasp Miranda.</stage>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Save me, Anthonio! save your helpless niece!</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>My charge is here; Sebastian's your protector:</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>Forego your hold!—Miranda must be mine!</l>
+<l>The other female, if Anthonio list,</l>
+<l>Thou'rt free to take; but this I'll guard with life!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>'Tis well there is another to appease me;</l>
+<l>Else her I'd have, or will, or nill ye, fool!</l>
+<l><pb n="80" facs="68"/>This is as red and white, and finer far!</l>
+<l>Wilt thou be mine, my jay, my parroquet?</l>
+<l>Thou'rt wond'rous gaudy; I shall love thee much!</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>Stand off, base brute! this is my lovely prize;—</l>
+<l>Miranda, only, you came here in quest of;—</l>
+<l>Her you must have, or none!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Oh, ho, oh, ho!</l>
+</sp>
+<stage>Roaring tremendously with anger.</stage>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Heav'n, what a contest!</l>
+</sp>
+<sp>
+<speaker>MIRANDA:</speaker>
+<l>No way to escape?</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>What, am I both denied?—then, both I'll have!</l>
+<l>Your holds forego, and quit them strait to me;</l>
+<l>Or, by my dam's god, Setebos, I swear,</l>
+<l>I'll flay ye quick! and rend you joint from joint!</l>
+</sp>
+<stage>[Caliban seizing the men the semales get free.]</stage>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Fly, fly!—Abdallah!</l>
+</sp>
+<sp>
+<pb n="81" facs="69"/>
+<speaker>MIRANDA.</speaker>
+<l>Ferd'nand! father! friends!</l>
+</sp>
+<stage>Exeunt severally.</stage>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Let loose, ye barnacles!—they both are flown!</l>
+</sp>
+<sp>
+<speaker>ANTHONIO.</speaker>
+<l>We hold thee not!—'tis thou detainest us!</l>
+<l>Darting your talons through our robes and skins,</l>
+<l>Which you can scarce withdraw!</l>
+</sp>
+<sp>
+<speaker>SEBASTIAN.</speaker>
+<l>I'm struck to th' bone!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Thus, then, I wrench them forth!</l>
+</sp>
+<sp>
+<speaker>ANTHONIO AND SEBASTIAN.</speaker>
+<l>Oh!—</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Howl ye? dogs!</l>
+<l>If I could tarry I would give ye cause;</l>
+<l>And into atoms tear your quivering hearts!</l>
+</sp>
+<stage>Exeunt severally.</stage>
+</div3>
+<div3 n="3" type="scene">
+<pb n="82" facs="70"/>
+<head>SCENE III. <stage>THE SEA-BEACH.</stage></head>
+<stage><hi>Enter</hi> Trinculo, <hi>and</hi> Stephano <hi>with his Bottle.</hi></stage>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>WHAT a tedious time these lubbers are, making the boat fast!—'would they were come! my belly cries cupboard most voraciously; and I dare not stir a foot up the country to look for food by myself, for fear of tumbling into such a pit as Caliban talk'd of in his fleep; which that fury, Sycorax, may have dug for the cross old duke!</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>By the mass, Trinculo, I would not stand in his shoes, though they be made of velvet, for his whole dukedom! I warrant she and her imps will give him a warm reception! boiling in lead or oil is the least he can expect!</p>
+</sp>
+<stage><hi>Enter</hi> Master, Boatswain, <hi>and</hi> Mariners.</stage>
+<sp>
+<speaker>MASTER.</speaker>
+<p>Come, my hearts! now the ship's moor'd, and the boat haul'd ashore, let's take a landcruise in chace of some provision.</p>
+</sp>
+<sp>
+<pb n="83" facs="71"/>
+<speaker>TRINCULO.</speaker>
+<p>I'faith, master, my belly clings together like an empty satchel! if we had not found land here, we should have been pretty sharp set before we reach'd Naples; and forc'd to draw lots for a slice of one another.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Not whilst we had such sack as this aboard; he that could not sail all the world over, with this for his comfort, ought never to taste good liquor while he breath'd at nostrils.</p>
+</sp>
+<sp>
+<speaker>MASTER.</speaker>
+<p>That may do with you, honest butler; but we want something more substantial.—Come, let us go in a body, in case of meeting wild beasts, or savages; and see what this land produces:— tend to the Boatswain's whistle!</p>
+</sp>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<stage>[Blows his whistle.]</stage>
+<p>Come, bear a hand, bear a hand, my hearts! a heigh!</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>You may bear a hand by yourself, for me!— I shall neither bear a hand, nor budge a foot, while this lasts.—I don't care for roaming any farther up this coast, for fear of meeting that
+<pb n="84" facs="72"/>she-devil, Sycorax; or that devil's imp, her son!—should he find nothing else eatable ashore, he'll make no bones of one or two of us!</p>
+</sp>
+<sp>
+<speaker>MASTER.</speaker>
+<p>For that reason, we ought to keep all together; that we may make the better defence against him.</p>
+</sp>
+<sp>
+<speaker>BOATSWAIN.</speaker>
+<p>Come, heave a head, you lubber! let us steer upward; it looks like a plentiful country:—if inhabited, we may not only get provision, but a willing wench into the bargain.</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>That thought 'rouses me—a wench, a heigh! O, that I could but meet my queen, that was to be, the sour duke's sweet daughter; I am in a rare cue for courtship!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Mass! I am in a better for a meal's meat! and would exchange the daintiest duke's daughter in Christendom, ay, and Barbary to boot, for a good belly-full!</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>As the old conjuror is certainly made away with, by this time; if we can but 'scape witchcraft
+<pb n="85" facs="73"/>and cannibals, and my queen and I settle preliminaries, who knows but I may erect a new monarchy here:—if so, look to be great men, all of you!</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<l>O, rare! king Stephano for ever!</l>
+</sp>
+<sp>
+<speaker>STEPHANO </speaker>
+<stage>SINGS.</stage>
+<lg type="song" part="I">
+<lg>
+<l>THE Pilot shall be my prime-minister;</l>
+<l>A jewel, a gem, the state-billows to stem:</l>
+<l>Should any thing happen that's sinister,</l>
+<l>I snug may cry, hem! while you him all condemn.</l>
+</lg>
+<lg>
+<l>The Boatswain shall be my head-trumpeter;</l>
+<l>His whistle so shrill, he can pipe with good skill:</l>
+<l>Queen 'Randa, should any dare frump at her,</l>
+<l>The Master, at will, shall imprison or kill.</l>
+</lg>
+<lg>
+<l>For a Fool I'm provided in Trinculo;</l>
+<l>While I my sack quaff, he may quibble and laugh,</l>
+<l>Nor ever fear being <hi>in vinculo:</hi></l>
+<l>So toss off the draff, and away let us raff.</l>
+</lg>
+</lg>
+</sp>
+<sp>
+<speaker>ALL.</speaker>
+<lg type="song" part="F">
+<l>For a Fool we're provided in Trinculo;</l>
+<l>While we our sack quaff, he may quibble and laugh,</l>
+<l>Nor ever fear being <hi>in vinculo:</hi></l>
+<l>So toss off the draff, and away let us raff.</l>
+</lg>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<trailer>END OF ACT THE FOURTH.</trailer>
+</div2>
+<div2 n="5" type="act">
+<pb n="86" facs="74"/>
+<head>ACT V.</head>
+<div3 n="1" type="scene">
+<head>SCENE I. <stage>A RETIRED GROVE.</stage></head>
+<stage><hi>Enter</hi> Caliban,</stage>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>WHERE can my mistress and that jay be hid?</l>
+<l>I can find neither! and could tear myself</l>
+<l>For letting them, so dolt-like, both escape!</l>
+<l>Had I kept either, she might have suffic'd;</l>
+<l>Though my own mistress liefer would I clip!</l>
+<l>Nor can I spy my dam! I hop'd t' have seen</l>
+<l>The wond'rous spirit, when we reach'd the land,</l>
+<l>Destroy that tyrant Prosper! or, while-ere,</l>
+<l>I had done's upon the sea! but, what comes now?</l>
+<l>Methinks I hear a foot-fall in yon dell;</l>
+<l>Perchance it is my mistress;—that it may!</l>
+<l>I will enbush me! then, should she approach,</l>
+<l>Like cat-a-mountain springing, seize my prey!</l>
+</sp>
+<stage><hi>Enter</hi> Miranda.</stage>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Whither, ah whither shall I bend my steps,</l>
+<l>To seek my straying father and dear lord?</l>
+<l>Or hide me from—Protect me, heav'n! I'm caught!</l>
+</sp>
+<sp>
+<pb n="87" facs="75"/>
+<speaker>CALIBAN.</speaker>
+<l>'Scape if thou can'st again! thou now art mine,</l>
+<l>'Spite of those chattering and deceitful apes;</l>
+<l>Who would have talk'd me out of thee, my right!</l>
+<l>Or that much finer, but less beauteous, she.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Be gentle, Caliban!—gripe not so hard!</l>
+<l>Lest with your talons my frail skin you tear!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>I cannot harm thee!—tho' I meant thee scathe,</l>
+<l>In punishment for thy late scornful flouts!</l>
+<l>Be thou but kind, I will be so to thee!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Alack, alack! when was I otherwise?</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Full oft to me! although I ever lov'd</l>
+<l>And fondled thee!—when first into my isle</l>
+<l>Prosper, a puling babe, Miranda brought;</l>
+<l>Weeping through hunger, shiv'ring with bleak winds;</l>
+<l>I lick'd the tears from thy frore, blubber'd cheeks,</l>
+<l>Nousled and chafed thee in my hairy arms,</l>
+<l>Hugging thee close as the dam ape her cub;</l>
+<l>Fed thee with eggs;—into thy coral mouth</l>
+<l><pb n="88" facs="76"/>From the goat's dug press'd the warm, fost'ring milk;</l>
+<l>Of thistle-down and goss'mer made thy bed;</l>
+<l>Then hush'd and lullaby'd thee to thy sleep,</l>
+<l>And lack'd my own that thine might be secure.</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>I ever strove to thank thee for't; and still,</l>
+<l>As from my father speech and sense I learn'd,</l>
+<l>Delighted in imparting both to thee!</l>
+<l>I never laid upon thee harsh command;</l>
+<l>Assisted always to trim up our cell;</l>
+<l>And in each look, word, deed, was ever kind!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>But kinder far to Ferdinand! though he</l>
+<l>Ne'er nurs'd, nor stroak'd, nor fed, nor fondled thee!</l>
+<l>In our lime-grove I lurk'd behind a bush,</l>
+<l>And saw the lack-beard kiss that down-like hand;</l>
+<l>I could have claw'd his lips off, had I dar'd!</l>
+<l>But now, from Prosper's magick-pow'r set free,</l>
+<l>Him and my rival, wench, I laugh to scorn;</l>
+<l>Here have thee, and will keep thee all my own!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>O, Ferdinand! my love! where art thou stray'd?</l>
+<l>Haste, and deliver me from this vile thrall!</l>
+</sp>
+<sp>
+<pb n="89" facs="77"/>
+<speaker>CALIBAN.</speaker>
+<l>'Twere death, should Ferd'nand interrupt me now!</l>
+<l>Though I seem'd fearful late, and shunn'd his sword,</l>
+<l>'Twas but in craft, to compass what hath happ'd;</l>
+<l>Then stint this din, and let thine eyes soft beam;</l>
+<l>Nor scorn, nor flout, for I'm not smooth as he!</l>
+<l>In beauty what I lack I have in strength;</l>
+<l>More needful, to protect and get thee food!</l>
+<l>I'll fetch thee, mistress! nests of callow birds;</l>
+<l>The rathe lamb roast by fire of scented wood;</l>
+<l>Gather th' empurpled grape for thy repast;</l>
+<l>And weave a flow'ry garland, thee to crown</l>
+<l>Queen of this unknown clime and me, for aye!</l>
+<l>Give me the honey of thy lips in lieu,</l>
+<l>And let me clip thee!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Monster! stand aloof!</l>
+<l>I feel strange courage, and unusual strength;</l>
+<l>Nor longer fear thee or thy brutal force!</l>
+<l>A heavenly inspiration doth assure</l>
+<l>No ill shall 'gainst a spotless maid prevail!</l>
+<l>The Lybian lion at my feet would crouch,</l>
+<l>Tho' hunger-driv'n, if what I've read be true;</l>
+<l>Nor murkiest fiends, nor thou, more dreadful yet,</l>
+<l>Can soil or harm troth-plighted, clear virginity!</l>
+</sp>
+<stage><pb n="90" facs="78"/><hi>Enter</hi> Stephano <hi>and</hi> Claribel.</stage>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Go to! I know you are queen of Tunis;— the fitter to be my spouse:—for, I intend to be king of this new-discover'd country.</p>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Hence, rudesby! nor insult me more, bold slave!</l>
+<l>Who, thus inebriated, dost forget</l>
+<l>The due respect unto thy sov'reign's child!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>Ah, my sweet friend! meet we again in woe?</l>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Bully monster! hast thou been looking for a consort too, and lighted upon my queen o'the island, that was to be?—all's one!—madam Claribel will serve my turn, and she is a queen ready-made to my hands.</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>This is no time for jests! avaunt, dull ass!—</l>
+<l>Lo! who are these? some of my dam's grim goblins!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>My brave Abdallah comes to rescue us!—</l>
+<l>Fierce Hyrca too? still do I fear we're lost!</l>
+</sp>
+<stage><pb n="91" facs="79"/><hi>Enter</hi> Hyrca, <hi>with a wand, and</hi> Abdallah.</stage>
+<sp>
+<speaker>HYRCA.</speaker>
+<l>Ungrateful moor! is this my love's return?</l>
+<l>Was't not enough to wed curst Claribel!</l>
+<l>But you must now with guilty wretches plot</l>
+<l>To leave fond Hyrca sighing to the winds!</l>
+<l>Who, by her art, safe brought thee to this spot;</l>
+<l>Which an elyzium to us well might prove,</l>
+<l>Would'st thou but—</l>
+</sp>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>What! submit to thy embrace?</l>
+<l>Forsake my Claribel, my beauteous bride!</l>
+<l>For thee? foul sorceress! form'd to loath, not love!</l>
+<l>How can'st thou hope it? in the mirror view</l>
+<l>Thy form forbidding, which 'gainst love would plead,</l>
+<l>Tho' no deformity of mind thou ow'd'st;</l>
+<l>Crying aloud,—look on fair Claribel!</l>
+</sp>
+<sp>
+<speaker>HYRCA.</speaker>
+<l>Rather, thou scornful!—which thou mayst repent—</l>
+<l>View in the glass or stream thy swarthy hue,</l>
+<l>With each peculiarity of clime;</l>
+<l>And, wond'ring say,—how thus can Hyrca doat?</l>
+<l><pb n="92" facs="80"/>Or this thy fair-faced moppet but endure!</l>
+<l>Then yet be wise;—your new-found friends are seiz'd,</l>
+<l>And Sycorax will vengeance on them wreak!</l>
+<l>Would'st thou not share their fate, throw by this scorn;</l>
+<l>Receive my proffer'd love; quit Claribel;</l>
+<l>Or thou their studied torments shalt partake!</l>
+</sp>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>Wert thou more fair (could heav'n a fairer make)</l>
+<l>Than e'en my beauteous Claribel herself;</l>
+<l>With art more potent than all hell in league;</l>
+<l>For her alone I live! for her would die!</l>
+</sp>
+<sp>
+<speaker>HYRCA:</speaker>
+<l>And die thou shalt! my love I blow to air!</l>
+<l>Insatiate fury and revenge possess me!</l>
+<l>That face, thou think'st so fair, shalt thou see scarr'd;</l>
+<l>Those eyes, you call twin-stars—</l>
+</sp>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>Hear me, fell fiend!—</l>
+</sp>
+<sp>
+<speaker>HYRCA.</speaker>
+<l>Speak not! thou shalt not! with this touch thou'rt dumb!</l>
+<l>Whilst slighted Hyrca hath the power of speech,</l>
+<l><pb n="93" facs="81"/>Abdallah's voice shall but in groans be heard,</l>
+<l>In concert with, detested rival! thine;</l>
+<l>As you both struggle in the pangs of death!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<stage>kneeling.</stage>
+<l>Oh! mercy! mercy!</l>
+</sp>
+<sp>
+<speaker>HYRCA.</speaker>
+<l>Hence! I know it not!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>Spare, spare my lord! let only Claribel die,</l>
+<l>The lamb, that licks the butcher's bloody hand,</l>
+<l>Shall not submit more patient to the knife!</l>
+</sp>
+<stage>[Thunder heard, and a vast glare of light seen.]</stage>
+<sp>
+<speaker>HYRCA.</speaker>
+<l>Hark! I am summon'd Sycorax to attend!</l>
+<l>The ship now blazes on the fatal strand,</l>
+<l>Appointed signal of her freight's dread doom.—</l>
+<l>Thou, stranger-maid, must share their destin'd fate!</l>
+</sp>
+<sp>
+<speaker>MIRANDA.</speaker>
+<l>If my lov'd Ferdinand and father fall,</l>
+<l>'Twill be Miranda's greatest bliss to die!</l>
+</sp>
+<sp>
+<speaker>HYRCA.</speaker>
+<l>Unto the burning vessel strait repair,</l>
+<l>And in its flames to perish, Moor! prepare;</l>
+<l><pb n="94" facs="82"/>Love, Pity, Mercy, hence! Revenge now reigns!</l>
+<l>Sycorax and Hyrca stalk the sanguine plains!</l>
+</sp>
+<stage><hi>Exit</hi> Hyrca, <hi>waving her wand, and charming</hi> Abdallah, Claribel, Miranda <hi>and</hi> Caliban <hi>to follow.</hi>—Caliban <hi>and</hi> Stephano <hi>remain.</hi></stage>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Come, mooncalf, now the she-fire-drake is gone, have a sup of my bottle; she scared me out of my seven senses with her quaint jarring, or she should not have taken away my queen-elect.</p>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>We, too, must follow!—felt you not her charm?</l>
+<l>Me it pulls hard;—did I not wish to go,</l>
+<l>It would compel:—but, 'tis my heav'n-on-earth,</l>
+<l>That I, at length, shall see my mighty dam</l>
+<l>Dash tyrant Prosper to the flinty earth;</l>
+<l>On his vile trunk I'll stamp, rend wide his gorge;</l>
+<l>Avenging my long thraldom with his blood!</l>
+</sp>
+<stage><hi>Exit</hi> Caliban.</stage>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Go thy ways for a blood-thirsty, and most monstrous monster! when I was pot-valiant once, indeed, I had some notion of knocking out the old conjuror's brains myself;—but, now that
+<pb n="95" facs="83"/>I am sober, I can't bear the thought of murder! no, not even manslaughter! so, that I may n't be an accessary, I'll e'en go look after our ship, the fury said was o' fire; and, if it be not burnt, get aboard again, as fast as I can paddle the boat, or oar myself to it!</p>
+</sp>
+<stage>[Drinks till his bottle is empty.]</stage>
+<stage><hi>Enter</hi> Trinculo.</stage>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Oh, Stephano! Stephano! what will become of us, Stephano? we are undone for ever! left upon this outlandish place, to live upon hips and haws, crab-apples, and pignuts, as long as such trash will keep life and soul together!</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Why, what a murrain! the ship is not really burnt; is it, Trinculo?</p>
+</sp>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Every stick and thread of it! as we were going aboard, to wash down our wild breakfast with a draught of sack; not being able to find the boat again, we waited 'till the tide should ebb, and leave the ship aground; which it had no sooner done, than a legion of devils slew over our heads, set fire to her, and, in a moment, tore her all to pieces, like a handful of lighted flax!</p>
+</sp>
+<sp>
+<pb n="96" facs="84"/>
+<speaker>STEPHANO.</speaker>
+<p>Mayhap they'll make lighted flax of us next!— what a villainous voyage we have made on't!— my wine is all gone,—I am dry as tinder, and shall burn like touchwood! this is all owing to the duke's drowning his magical book, and breaking his conjuring stick:—if he had but them, safe and sound, he'd be a match for the old-one himself!</p>
+</sp>
+<stage>[Thunder, &amp;c.]</stage>
+<sp>
+<speaker>TRINCULO.</speaker>
+<p>Oh, lord! oh, lord! the devils are coming here now!</p>
+</sp>
+<sp>
+<speaker>STEPHANO.</speaker>
+<p>Are they? why then they may burn my wooden bottle, for there's nothing in it; and the devil take the hindmost!</p>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 n="2" type="scene">
+<pb n="97" facs="85"/>
+<head>SCENE II. <stage>THE BEACH.</stage></head>
+<stage><hi>The Remains of the Ship burning;</hi> Sycorax <hi>and other Fiends encircling the Fire.</hi></stage>
+<sp>
+<lg type="song" part="I">
+<head>A DANCE and CHORUS.</head>
+<l>AROUND! and around!</l>
+<l>Let the welkin resound,</l>
+<l>To heighten our pleasures!</l>
+<l>About the burnt ship</l>
+<l>Let us gambol, and skip;</l>
+<l>While, in mystical measures,</l>
+<l>We beat the charm'd ground!</l>
+</lg>
+</sp>
+<sp>
+<stage><hi>After some magical ceremonies,</hi> SYCORAX SINGS.</stage>
+<lg type="song" part="M">
+<l>MY victims come! let Silence reign!</l>
+<l>Unless the bird of night,</l>
+<l>To add to their affright,</l>
+<l>By day to cry shall deign!</l>
+<l>Or sheeted ghosts howl, yell, and moan;</l>
+<l>Or deadly mandrakes shriek and groan;</l>
+<l>To aggravate their pain!</l>
+</lg>
+</sp>
+<sp>
+<lg type="song" part="F">
+<stage>Chorus of Fiends.</stage>
+<l>Let Silence reign!</l>
+</lg>
+</sp>
+<stage><hi>Enter</hi> Hyrca, <hi>charming</hi> Abdallah, Claribel, Miranda <hi>and</hi> Caliban <hi>to follow her; at the same time Enter, on the opposite side, impelled by fiends,</hi> Prospero, Alonso, Ferdinand, Gonzalo, Adrian, <hi>and</hi> Francifco.</stage>
+<sp>
+<pb n="98" facs="86"/>
+<speaker>SYCORAX</speaker>
+<stage>SPEAKS.</stage>
+<l>Welcome, my friend, and darling son!</l>
+<l>These wretches' line is nearly spun!</l>
+<l>For, lo! their frames no more can bear;</l>
+<l>With stony eyes they, speechless, glare!</l>
+<l>Now, Hyrca, shall we vengeance due</l>
+<l>Wreak on this curst, devoted crew!</l>
+<l>Done is ev'ry charm and spell,</l>
+<l>Of melody, or dismal yell;</l>
+<l>With mystick incantations dire,</l>
+<l>As we circled hell-stol'n fire!</l>
+<l>And crackling flames to ashes turn'd</l>
+<l>The vessel we have, joyful, burn'd!</l>
+<l>Now speak, proud tyrant, ere thy breath</l>
+<l>For aye expire in horrid death!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Nor this, nor direst deeds of hell combin'd,</l>
+<l>Can shake, or alter my still stedfast breast!</l>
+<l>Conscious I have in nought offended yet,</l>
+<l>More than inherent frailty of weak man,</l>
+<l>I know just Heav'n will not permit my fall;</l>
+<l>But, by inscrutable, mysterious ways,</l>
+<l>T' accomplish some outweighing good dependent:</l>
+<l>Convinc'd of that, I bow me to my fate!—</l>
+<l>Yet, if you know what means the gentle word,</l>
+<l>Have pity on my children, and lov'd friends;</l>
+<l>And let my death dread Sycorax appease!</l>
+</sp>
+<sp>
+<pb n="99" facs="87"/>
+<speaker>SYCORAX.</speaker>
+<l>Thy death appease, fall'n tyrant? no!</l>
+<l>Thy friends unto thee first I'll show</l>
+<l>In torments, worse than regicide,</l>
+<l>Or zealous martyr ever tried;</l>
+<l>At which if thou dar'st once repine,</l>
+<l>Their pangs shall be delight to thine!</l>
+<l>And, what I know will irk thee more</l>
+<l>Than tortures manifold and sore,</l>
+<l>Ere thy vile thread of life be spun,</l>
+<l>Thy daughter will I give my son!</l>
+</sp>
+<sp>
+<speaker>CALIBAN.</speaker>
+<l>Ho! ho! ho! ho! I thank thee, gentle dam!</l>
+<l>Soon shall she bring brave brood of Calibans!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<stage>Kneeling.</stage>
+<l>All righteous Providence, permit not this!</l>
+<l>In thee, Most High! confiding, I resign'd</l>
+<l>My potent magick, which had now bested;—</l>
+<l>Let not thy servant perish for much faith!</l>
+<l>But, if pure chastity seem good to thee,</l>
+<l>Send down some guardian Angel to defend,</l>
+<l>And from perdition snatch a spotless maid!</l>
+</sp>
+<stage>Grand Harmonious Musick is heard.</stage>
+<stage>Ariel <hi>descends, bearing a wand and book, attended by other Spirits.</hi></stage>
+<sp>
+<stage>THEY SING.</stage>
+<lg type="song">
+<l>VIRTUE is the High One's care!</l>
+<l>Who to shield it from vile lust,</l>
+<l>Sends his Spirits of pure air,</l>
+<l>From the mansions of the just!</l>
+</lg>
+</sp>
+<stage><pb n="100" facs="88"/><hi>The Fire sinks;</hi> Sycorax, Hyrca, Caliban, <hi>and Fiends, go off howling amidst Thunder, &amp;c.</hi></stage>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>All hail, my Heav'n-tried master! Prospero hail!</l>
+<l>To recompense your former kindnesses,</l>
+<l>Hath Ariel div'd i'th' oozy Neptune's bed;</l>
+<l>Your precious magick-volume rescued thence:</l>
+<l>And into Tellus' bosom deeply pierc'd,</l>
+<l>Your broken, buried wand recovering;</l>
+<l>With th' aid of these, my fellow ministers,</l>
+<l>Firm re-united, and of greater force.</l>
+<l>Accept them, master! from your grateful sprite;</l>
+<l>You now again have power: still use it right!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Heaven heard my prayer! to Heaven thanks first are due!</l>
+<l>Next unto thee, my kind, my gentle Ariel!</l>
+<l>And these pure Spirits, who vouchsafed their aid!</l>
+<l>My children! lov'd Gonzalo! dear friends all!</l>
+<l>Like monumental marble thus enfix'd,</l>
+<l>Move! speak! embrace! ye now, again, are free!</l>
+</sp>
+<stage>Waving his Wand.</stage>
+<sp>
+<speaker>ABDALLAH.</speaker>
+<l>My queen!</l>
+</sp>
+<sp>
+<speaker>CLARIBEL.</speaker>
+<l>My lord!</l>
+</sp>
+<sp>
+<pb n="101" facs="89"/>
+<speaker>MIRANDA.</speaker>
+<l>My Ferdinand!</l>
+</sp>
+<sp>
+<speaker>FERDINAND.</speaker>
+<l>Sweet love!</l>
+</sp>
+<sp>
+<speaker>ALONSO.</speaker>
+<l>Thou wond'rous man! who hast unlock'd our spell,</l>
+<l>How can we thank or praise thee as we ought!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Your thanks and praises offer up to Heaven!</l>
+<l>Nor Prospero, nor e'en Ariel, now hath freed you;</l>
+<l>But the Most High! before whose throne all bow!</l>
+</sp>
+<sp>
+<speaker>GONZALO.</speaker>
+<l>My joints are old and stiff; but to my God</l>
+<l>No youth with a more supple knee shall bend!</l>
+</sp>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>Ye favour'd friends!—restoring first this King,</l>
+<l>And Virgin Queen, unto afflicted Tunis,—</l>
+<l>In Italy you'll soon be fully blest!</l>
+<l>Where, by my means inform'd of these events,</l>
+<l>Gentle and simple, old and young, now throng,</l>
+<l>Numerous as sands the shore, to greet this train.</l>
+</sp>
+<sp>
+<pb n="102" facs="90"/>
+<speaker>PROSPERO.</speaker>
+<l>But that, my chick! exceeds my utmost art.</l>
+<l>Our ship destroy'd, we here must patient wait</l>
+<l>'Till Heaven hath granted means for our return.</l>
+</sp>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>That Heaven hath done! the sadly home-bound fleet,</l>
+<l>Conducted here by me, now joyful waits</l>
+<l>To bear you safely hence.</l>
+<stage>[The Fleet appears.]</stage>
+<l>Once more embark!</l>
+<l>Ye scatter'd remnants I'm allow'd to save,</l>
+<l>Haste, and be rescued from a living grave!</l>
+<l>All but th' usurping duke, and regicide!</l>
+<l>Here for their crimes they're ever doom'd to bide,</l>
+<l>And echo with their groans, on this strange shore,</l>
+<l>Hyrca's dire shrieks, curst Caliban's fell roar!</l>
+<l>Whilst Sycorax, replung'd i' th' lake of fire,</l>
+<l>Shall ne'er be freed till Nature's self expire!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Must then my wretched brother here be left?</l>
+<l>Him and Sebastian I could now forgive!</l>
+</sp>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>It may not be!—Heaven's merciful, but just!</l>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>Heaven's will be done!</l>
+</sp>
+<sp>
+<pb n="103" facs="91"/>
+<speaker>ARIEL.</speaker>
+<l>Here bend the wond'ring crew.</l>
+</sp>
+<stage><hi>Enter</hi> Master Boatswain, <hi>Mariners,</hi> Stephano, <hi>and</hi> Trinculo.</stage>
+<sp>
+<speaker>ARIEL.</speaker>
+<l>Now farewell all!—my duty thus complete,</l>
+<l>I will but tend to Italy the fleet,</l>
+<l>And see my master past all perils' power;</l>
+<l>Then seek repose i' th' bell of some sweet flower!</l>
+</sp>
+<sp>
+<speaker>ARIEL</speaker>
+<stage>SINGS.</stage>
+<lg type="song">
+<l>FROM Bondage free,</l>
+<l>Sweet Liberty</l>
+<l>Shall Ariel hence enjoy!</l>
+<l>I'th' Bee's quaint Cell,</l>
+<l>Or Musk-rose dwell;</l>
+<l>Upon the Goss'mer toy!</l>
+<l>Then, sportive, fly</l>
+<l>To th' azure Sky;</l>
+<l>Outsoar the Eagle far:</l>
+<l>In Sun-beams play,</l>
+<l>The live-long Day;</l>
+<l>And shine at Night a Star!</l>
+</lg>
+</sp>
+<sp>
+<speaker>PROSPERO.</speaker>
+<l>My gentle friends! ere we depart,</l>
+<l>A word or two on magick-art.</l>
+<l>Though the dread demons of this hour,</l>
+<l>To hell and sorcery ow'd their pow'r;</l>
+<l><pb n="104" facs="92"/>Let not all magick be decried,</l>
+<l>As hellish and unsanctified.</l>
+<l>Virtue's our magick-staff! our book</l>
+<l>Pure Piety!—with Faith who look</l>
+<l>Thereon, may antres vast explore;</l>
+<l>Or, fearless, hear hoarse Neptune roar:</l>
+<l>Pervade the endless, endless skies;</l>
+<l>See system upon system rise:</l>
+<l>Soar to the center of all space;</l>
+<l>Kneel at the Throne of Heavenly Grace!</l>
+</sp>
+<sp>
+<lg type="song">
+<head>HYMN, <hi>By the attendant Spirits.</hi></head>
+<l>HAIL, Virtue! eldest born of Light!</l>
+<l>Whose ray illumes the darkest cell!</l>
+<l>Whose presence makes e'en Heaven more bright!</l>
+<l>With Faith and Piety still dwell!</l>
+</lg>
+</sp>
+</div3>
+</div2>
+<trailer>THE END.</trailer>
+</div1>
+</body>
+</text>
+</TEI>

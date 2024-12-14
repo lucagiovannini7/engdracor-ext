@@ -1,0 +1,3345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title type="main">The female officer</title><title type="sub"> or the humours of the army, a comedy. Altered from Shadwell.</title><author><persName><surname>Kemble</surname><forename>John Philip</forename><idno type="VIAF">74763759</idno></persName></author><respStmt><resp>Transformation into valid TEI P5, improving markup, filling <gi>gap</gi>s, proofreading, and expanding header.</resp><persName xml:id="JJ"><surname>Jokisch</surname><forename>Jan</forename><idno type="ORCID">0009-0003-1026-2995</idno></persName></respStmt></titleStmt>
+<extent><measure quantity="154" unit="KB">About 154 kilobytes.</measure></extent><publicationStmt><authority ref="#JJ">Jan Jokisch</authority><date>2024 December</date><idno type="ECCO_Drama">K000958.000</idno><idno type="DLPS">004774056</idno><idno type="ESTC">N1526</idno><idno type="DocNo">CW116877807</idno><idno type="TCP">K000958.000</idno>
+<idno type="GaleDocNo">CW3316877807</idno><idno type="ContentSet">ECLL</idno><idno type="ImageSetID">1240700300</idno><availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability></publicationStmt><sourceDesc><biblFull><titleStmt><title type="245">The female officer: or the humours of the army, a comedy. Altered from Shadwell.</title><author>Kemble, John Philip, 1757-1823.</author><author>Shadwell, Thomas, 1642?-1692.</author></titleStmt>
+<extent>[2],62p. ; 12⁰.</extent><publicationStmt><publisher>printed by James Hoey,</publisher><date>1763.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Altered from Thomas Shadwell's 'The humours of the army' by J. P. Kemble.</note><note>Reproduction of original from the Huntington Library.</note><note>English Short Title Catalog, ESTCN1526.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
+</biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
+<front>
+<div1 type="titlepage">
+<pb facs="1" ana="y"/>
+<p>THE FEMALE OFFICER, OR THE HUMOURS of the ARMY, A COMEDY.</p>
+<p>Altered from SHADWELL.</p>
+<p>DUBLIN: Printed by JAMES HOEY, at the <hi>Mercury in Skinner-Row,</hi> MDCC LXIII.</p>
+</div1>
+<div1 type="dramatispersonae">
+<pb facs="2"/>
+<head>Dramatis Personae.</head>
+<list>
+<head>MEN.</head>
+<item><label>Major O'ROURK,</label> Mr. BARRY.</item>
+<item><label>Brigadier CONQUEST,</label> Mr. HEAPHY.</item>
+<item><label>Colonel MAGKENTOSH,</label> Mr. GLOVER.</item>
+<item><label>Major CADWALLADER,</label> Mr. MESSINK.</item>
+<item><label>Captain WILDISH,</label> Mr. REDDISH.</item>
+<item><label>Captain HEARTY,</label> Mr. HEATTON.</item>
+<item><label>WILLMOT,</label> Mr. T. BARRY.</item>
+<item><label>Major BUCK,</label> Mr. AUSTIN.</item>
+<item><label>SURLY,</label> Mr. MORRIS.</item>
+<item><label>Ensign RAGG,</label> Mr. OLIVER.</item>
+<item><label>Ensign STANDARD,</label> Mr. ADCOCK.</item>
+<item><label>BISKETT,</label> Mr. HARTRY.</item>
+<item><label>Serjeant FILE-OFF,</label> Mr. SPARKS.</item>
+<item><label>Captain LA CUNETTE,</label> Mr. HAMILTON.</item>
+</list>
+<list>
+<head>WOMEN.</head>
+<item><label>Mrs. CONQUEST,</label> Mrs. ADCOCK.</item>
+<item><label>VICTORIA,</label> Mrs. BARRY.</item>
+<item><label>LUCINDA,</label> Miss MASON.</item>
+<item><label>CLARA,</label> Miss WILLIS.</item>
+<item><label>The FEMALE OFFICER,</label> Mrs. DANCER.</item>
+</list>
+<p>SOLDIERS, TRULLS, &amp;c, &amp;c.</p>
+</div1>
+</front>
+<body>
+<div1 type="play">
+<pb facs="3"/>
+<head>The HUMOURS of the ARMY.</head>
+<div2 n="1" type="act">
+<head>ACT I.</head>
+<div3 type="scene">
+<head>SCENE <stage><hi>The</hi> CAMP.</stage></head>
+<stage><hi>Enter</hi> Captain Hearty, <hi>and</hi> Captain Wildish.</stage>
+<sp>
+<speaker>Hearty.</speaker>
+<p>A Good Day to my dear Friend, what News have you?</p>
+</sp>
+<sp>
+<speaker>Wildish.</speaker>
+<p>I have been with the General to reconnoitre the Enemy, they have not disturb'd our Foragers, but lie within their own Camp very quiet.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Sure if the Marquiss <hi>De Bay</hi> had a true Intelligence of the Weakness of our Intrenchments, and the Mortality of our Men, he would have attack'd us before now.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>In all the Campaigns I have served on these Frontiers, I never knew it so sickly; the General continues very much out of Order at <hi>Estremoz,</hi> they think both the Major Generals will die, and my Brigadier was carried to <hi>Elvas</hi> last Night.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Then at present Brigadier General <hi>Conquest</hi> commands our Forces.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Most certainly.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>The Death of half a Dozen of these great Men, would make a fine Alteration in our Titles.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>I will assure you, Brigadier General <hi>Conquest</hi> could observe you were not at his Levee this Morning.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Why? I was upon the Piquet where you know, Drinking hard is the main Part of the Duty—besides, I never appear at the General's but upon Business, for I can't slatter, and have a Stiffness between my Shoulders, that makes me incapable of Bowing low;
+<pb n="2" facs="4"/>the Noise of the Peace gives me no prospect of rising, being pretty well assured the youngest Captain of an old Regiment, must wait for another War to get a better Title.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Why? I was once of the Gang of those silly Fellows, whose Ambition climb'd no higher than a Company in an old Regiment, which gave me a very distant Prospect of being provided for in Peace, when 'twas fifty to one I was knock'd on the Head before the War was over.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Human Nature has always imprinted in us a Desire for Something above us, so gives us a Rotation of Uneasiness; and scarce in an Age do we meet with a Man that sits down pleased with his Condition, but we all lay Schemes, and make the present Time a Plague to us, in seeking after the next Plague, which is still to make us but the more miserable</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>The Fever, or the Bullet converts us to Dust and Ashes, and our next Heirs are left at Liberty to play the Fool after the same Manner; but hang these dismal Reflections.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Is there no Courier from <hi>Lisbon,</hi> or News of a Packet from <hi>England.</hi></p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>We hourly expect one—since our Forces have been ill, the <hi>Portugueze</hi> avoid us, and what is strange, none of their Men have the Distemper amongst them.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Their Beads, the Priest's Blessing, and their Garlick are strong Preservatives of Health—But see, either my Sight fails me, or that Officer coming this Way, is my dear Major <hi>Buck.</hi></p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>And with him a clever Parcel of Recruits.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>They come to our Regiment very apropos, for we have scarce Men enough to mount the Guard.</p>
+</sp>
+<stage>Enter Major <hi>Buck, Wilmot</hi> in Granadier's Cloaths, Serjeant <hi>File-off,</hi> several other Recruits with two Soldier's Wives.</stage>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Dear <hi>Charles!</hi></p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Dear Major!</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Dear <hi>Frank</hi> <stage>(to <hi>Wildish,</hi>)</stage> I'm intirely yours!</p>
+</sp>
+<sp>
+<pb n="3" facs="5"/>
+<speaker>Wild</speaker>
+<p>Dear Boy! I'm over-joy'd to see you well.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>I am very much surpriz'd to find you so; for on our March, we heard a raging Sickness had swept most of you away.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>The Distemper and false Musters have taken off most of our Men; but prithee what news from <hi>England?</hi> I know thou art a concise pretty Fellow, that can abbreviate an Account, without giving us Cause to ask impertinent Questions.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>I left all our Friends well at <hi>London,</hi> paid my Taylor's Bill, which was due last Voyage, adjusted my Accounts with our Rogue of an Agent, gave Security to St. <hi>Martin</hi>'s Parish for my Washerwoman's Bastard, mounted my Post-Horse at Noon-Day, reach'd <hi>Falmouth</hi> the Moment the <hi>Mercury,</hi> honest Captain <hi>Green,</hi> was failing, which had on Board my strapping Recruits, reached <hi>Lisbon</hi> in five Days; and after a fatiguing March of ten more, am this moment arrived to my great Satisfaction, having met with my two best Friends.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Well, But prithee—</p>
+</sp>
+<stage>(pulling him.)</stage>
+<sp>
+<speaker>Wild.</speaker>
+<p>P'shaw <hi>Hearty!</hi> Hold thy Tongue, and let me ask him some Questions—</p>
+</sp>
+<stage>(pulling him.)</stage>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Looky' Gentlemen! These hailing Digressions of yours will very much prolong the Time my Story might be told in; come not within Arm's Length of me, and I will give you all the News, all the Scandal, all the Fashions and all the Pleasures of the Town.</p>
+</sp>
+<sp>
+<speaker><hi>Heart.</hi> and <hi>Wild.</hi></speaker>
+<p>Agreed then.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>First I left our Royal Mistress in a very good State of Health, reigning intirely in the Hearts of her People, whose Representatives are doing Wonders; and by their well timed Zeal, and vast Supplies, shew the World they are still able to Balance <hi>Europe</hi>'s Power?</p>
+</sp>
+<sp>
+<speaker><hi>Heart.</hi> and <hi>Wild.</hi></speaker>
+<p>Very good.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>The Taxes are paid chearfully, there's no Discount upon <hi>Exchequer</hi> Bills, and honest Soldiers are trusted by every Body. St <hi>James</hi>'s Coffee-House is full of grave Statesmen, whimsical Gentry, and coxcombly Physicians. <hi>Young Man</hi>'s is filled with Military
+<pb n="4" facs="6"/>Beau's Sea Gentlemen, and Admiralty Clerks. <hi>Garraway</hi>'s with Knaves, Aldermen, Agents, Commissioners of <hi>Excise,</hi> and now and then a straggling Beau. And the <hi>Court of Request</hi> with Country Gentlemen, Petitioners, Freeholders, Sheriffs, and Politicians that hate Business. The Women of Quality have that discerning Taste of good Sense, that they always crowd the front Boxes at a good Play: And our rakelly young Fellows, live as much by their Wits as ever; and to avoid the clinkling Dun of a Box-keeper, at the End of one Act, they Sneak to the opposite Side 'till the End of another; then call the Box-keeper saucy Rascal, ridicule the Poet, laugh at the Actors, march to the Opera, and spunge away the rest of the Evening. The Women of the Town take their Places in the Pit, with their wonted Assurance. The middle Gallery is filled with the middle Part of the City: And your high exalted Galleries are graced with handsom Footmen, that wear their Master's Linen, and their Mistresses Favours.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>P'thaw! These are Generals, make haste and come to Particulars.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Why! About three Months since in a Rencounter with a Lady, I got a Wound in my Constitution, which was patched up by <hi>Bucheir.</hi></p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>With whose help, I suppose, you slatter yourself you are sound.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>As a military Constitution can be: In short I levee'd all the Generals, and rising Statesmen, I taked and broke Windows, talk'd Politicks, beat the Watch, and bilk'd Coachmen, went into Mourning for my Father, and was drawn into half a Dozen Duels on my Friends Account, and kill'd no Body, won Money at Gaming, and yet used no false Dice; I went through all the Pleasures of the Town, without being a Bubble to any of them; saw all the handsome Women, without falling in Love; and am come to serve under our General without Reluctancy.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Mighty concise truly.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Our Regiment is incamped on the Right of the Rear Line; you had best give Order, that your Men pitch your Tent next mine.</p>
+</sp>
+<sp>
+<pb n="5" facs="7"/>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>My Baggage will be here immediately.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Are there any new Fashions?</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>This is my last new Coat, made exactly after the Manner of Beau <hi>Whimsey</hi>'s: This is the smart new fashion Cock — and this is the genteel walking Air; we salute thus—we ogle as we us'd to do; we have cut off all the superstitious Ceremonies that attended our Love Passions, improve every Opportunity, come slap dash Alamode <hi>de Paris</hi> to the Question at once; give the Women no Time to think of the Spirit, and you are sure of their Persons.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Who came over in the Packet with you?</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Half a Dozen very wretched Volunteers, with prodigious strong Recommendations; and a Couple of small Ware Pedlars, who call themselves <hi>Lisbon</hi> Merchants, of whom I bought these Baubles.</p>
+</sp>
+<stage><hi>Enter as from Horseback,</hi> Victoria <hi>and</hi> Belinda.</stage>
+<sp>
+<speaker>Vict.</speaker>
+<p>Did you observe, <hi>Belinda,</hi> the profound Respect we were received with, as we rid along the Line; my <hi>Spanish</hi> Jennet, was himself proud of my Father's Commanding the <hi>British</hi> Forces, and carried me with an Air of Greatness.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>I never saw the Brigadier look better than he does to Day, the Morning is extreamly fine.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>I think our whole Family are pretty well seasoned with the Country, and could I disengage myself from the mean spirited Creature my Father has provided for a Husband, you and I should pass our Time most pleasantly.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Prithee pluck up a Spirit, and tell him down right; you won't be married.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>He has been in every thing else the best of Fathers, and if possible, I'll strive to oblige him in this; though, if it were not for my Mother's violence, I believe I might persuade him from it, <stage>(<hi>espying Major Buck.</hi>)</stage> Dear Child, what pretty Fellow is that with <hi>Wildish</hi> and <hi>Hearty?</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>'Tis Major <hi>Buck</hi>—I suppose just arrived from <hi>England,</hi> he will be the Talk of the Camp for one Month.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Prithee, why so?</p>
+</sp>
+<sp>
+<pb n="6" facs="8"/>
+<speaker>Bel.</speaker>
+<p>For rakish Exploits—in <hi>Lisbon</hi> every Street us'd to be alarm'd by him; his Father died since he has been in <hi>England,</hi> and has left him a thousand Pounds a Year, which will give him the Opportunity of committing a Thousand more Vices than he us'd to do.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>He's really a pretty Fellow, Why could not my Father have picked out such a Man for me.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Oh fie, Child! He's the wickedest young Fellow in the World, and won't suffer any Body to speak in the Behalf of a virtuous Woman.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>If he is a Man of Sense that Wildness and Gayety will wear off.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Oh! Never! Never! He's a nauseous Fellow, I can't help thinking the <hi>Santista,</hi> Mr. <hi>Bisket,</hi> a much more agreeable Man than he.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Now you rally me <hi>Belinda,</hi> I am but just come to bear the fight of him, and fear I never can be brought to like him.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Mr. <hi>Bisket</hi>'s assable Temper and good Nature, will soon work upon you.</p>
+</sp>
+<stage>The Gentlemen talk.</stage>
+<sp>
+<speaker>Wild.</speaker>
+<p>These are pretty Baubles for a Man of an Estate to Murder Money with?</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Very pretty Trifles truly.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>What charming Creatures are these?</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>One is your old Friend <hi>Belinda,</hi> the Daughter of your late Colonel, who left her to the Care of the Brigadier: And the other is Brigadier General <hi>Conquest</hi>'s Daughter, who with her Mother was sent for from <hi>Lisbon</hi> on his late Illness; they say she is to be married to Mr. <hi>Bisket,</hi> the <hi>Santista,</hi> who supplies the Army with Bread and Forage.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>I protest she has fine brilliant piercing Eyes, and therefore I'll forbid the Banes; she gives me a pretty thrilling Pain about my Heart; she sets my Soul on Fire, and I must have her: Serjeant, prepare the Men for an Attack, I am resolved to countermine <hi>Bisket,</hi> blow up all his Outworks, and take that fair Citadel Sword in Hand.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Most heroickly express'd.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Now will I fix myself in a very languishing Posture, fire both my Eyes at her, and I'll lay my
+<pb n="7" facs="9"/>Life on't, one of them shall do Execution in some Corner of her Heart; ha, Faith she returns the Ogle! I am sure she must be a Prize—
+<stage>(Kisses her Hand.)</stage> Oh these dear charming Eyes have captivated my very Soul!</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Prithee be more modest, consider her Father is your General.</p>
+</sp>
+<stage>(Holding him.)</stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>Impudent Creature to take no Notice of me.
+<stage>(Aside.) (Victoria.)</stage> Did you ever see any Thing so saucy?</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Nor so agreeable, upon my Word.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Why! Sure you can't like so profligate a Fellow!</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>I am not desperately in Love with him, but should not be mighty uneasy were he to deliver me from my frightful Coxcomb.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Why, It was but this Moment you were talking of Duty and Gratitude to Parents.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>It's probable, the next Moment I shall talk of them again; but, Child, I'm Flesh and Blood, and a handsome young Fellow, will give me some fluttering Airs, and a Palpitation about my Heart, in spite of my Duty and resigned Will.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>He's a satyrical ugly Fellow that writes Lampoons; I was sorry to see you return his Ogle, in a Week's Time, he'll swear he has been intriguing with you.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>That certainly will secure my Reputation; for you and I know, what a Red Coat says of our Sex goes for Nothing.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>I'm vex'd to see her have so little Spleen;
+<stage>(Aside.)</stage> come, <hi>Victoria,</hi> your Mother expects us to drink Tea with her.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>One look more and I go.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Faugh upon the Fellow.</p>
+</sp>
+<stage>(Exeunt Women.)</stage>
+<sp>
+<speaker>Wild.</speaker>
+<p>So, very well, you have drove 'em away; I suppose they'll tell the Mother of your Rudeness, she acquaints the Brigadier General, he sends you out upon the next dangerous Attack, and off goes a Cannon, and a pretty Fellow within half a Minute of one another.</p>
+</sp>
+<sp>
+<pb n="8" facs="10"/>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Why? that very Accident will prove I died for Love of her.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p><hi>Ergo,</hi> your saucy Love was the Occasion of your Death.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>But prithee. <hi>Wildish,</hi> doest thou believe when I shall have aquainted the General with the Death of my Father, that my Estate will not be a more prevailing Argument, than <hi>Bisket</hi>'s Riches?</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>No! The old Woman hates a Soldier, and the Brigadier General loves Money so much, that I believe he cannot have the Heart to part with any to his Daughter; they say all Things are agreed on, and he is expected up from <hi>Lisbon</hi> on purpose to marry her.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>He is to give her no Money, and the Lover has sent her Silk for Wedding Cloaths.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Heark'e I'll take her stark Naked, and settle all I have upon her! I'll immediately go to the General, I have a Packet for him.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>'Tis your Duty to acquaint him with your Arrival, and you must give in a list of your Recruits.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>I warrant you imagine all those tall handsome Fellows must be Part of your Company.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Most certainly.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>No, no, The Regiment is to draw Cuts for them; therefore if you have any Fancy to a particular Man, write Servant against him in the List.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Why, I have one clever Fellow, I should be much concerned should I lose him. March forward, <hi>Straitup.</hi></p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>A well built Fellow of <hi>Ireland,</hi> I suppose?</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>No, Sir—I'm of <hi>England.</hi></p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>The Fellow has the Air and Mein of a Gentleman.</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p><stage>(Aside.)</stage> I'm sorry he thinks so.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>What was the Reason of your coming into the Army, Friend?</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>Why, Sir, Besides, having had a Bastard laid to me, I had committed some Roguery in the Country, was afraid of being hanged, and so listed myself for a Soldier.</p>
+</sp>
+<sp>
+<pb n="9" facs="11"/>
+<speaker>Wild.</speaker>
+<p>Which, Friend, is only a Reprieve from Death, and the next Attack may sign your dead Warrant.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>If this Fellow falls to my Lot, I'll make a Corporal of him.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Were he mine, I'd give him Serjeant's Pay, and his Duty should be Combing my Wigs, and Pimping for me.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>The Account he gives you of himself is fictitious, and I am informed by his Comrades, he has something of the Gentleman in him; for he lifts up his Eyes when they steal a Pig, cut the Throat of a <hi>Portuguese,</hi> or build a Sconce.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Heark'e, Friend; if you have any Notion of Conscience, you had better have staid in <hi>England</hi> to have been lawfully hanged.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>See yonder's the General alighted from his Horse. That <hi>Portuguese</hi> Nobleman's House is his Quarters.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck</hi></speaker>
+<p>Serjeant, march the Men to yonder Gate, Come, my Friends, will you introduce me?</p>
+</sp>
+<sp>
+<speaker><hi>Wild.</hi> and <hi>Heart.</hi></speaker>
+<p>With all our Hearts.</p>
+</sp>
+<stage>Exeunt.</stage>
+<sp>
+<speaker>File off.</speaker>
+<p>Fall into the Rank, you.</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>Oh! for a happy Hour to encounter the Enemy in, that I may be rid of this weary Load of Clay, which clings round my Immortal Soul.</p>
+</sp>
+<sp>
+<speaker>Fill off.</speaker>
+<p>Fall back you—Silence there—Heark'e, Women, be dumb, or you shall all be muster'd as Harlots—whipt out of the Camp, without the Preferment of being made Nurses to the Hospital.</p>
+</sp>
+<sp>
+<speaker>1st <hi>Soldier</hi>'s-<hi>Wife.</hi></speaker>
+<p>Why, Serjeant, you shall be Judge now; this ragged face Hussey here, has the Assurance to say, that she is more my Husband's lawful Wife than I.</p>
+</sp>
+<sp>
+<speaker>2d <hi>Soldier</hi>'s-<hi>Wife.</hi></speaker>
+<p>Your Husband! that's confident indeed. Have not I lain with him the whole March? Carried his Knapsack from <hi>Lisbon?</hi> And what is the main Sign of a Wife, but doing all his Drudgery? Nay, and to prove I am so, not one Day has past over his Head, but he has beat me.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>A very convincing proof of conjugal Love. Therefore, Mrs. <hi>Sneaker,</hi> let me advise you to choose a
+<pb n="10" facs="12"/>new Husband, or hire yourself out to a Company of Grenadiers, in order to wash their Linen.</p>
+</sp>
+<sp>
+<speaker>1st <hi>Trull.</hi></speaker>
+<p>If you please, Serjeant, I'll take up with <hi>Staitup</hi> here?</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>Be gone, Insolence, or I'll spurn thee from me!</p>
+</sp>
+<sp>
+<speaker>1st <hi>Trull.</hi></speaker>
+<p>What, Offer to strike a Woman? you an't married too, Sirrah!</p>
+</sp>
+<sp>
+<speaker>2d <hi>Trull.</hi></speaker>
+<p>Ay! Or refuse a Woman that asks him the Question.</p>
+</sp>
+<sp>
+<speaker>1st <hi>Trull.</hi></speaker>
+<p>Or dare to live in Camp without a lawful Wife.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>Look'e, Campaigners! This Gentleman Soldier is but a young Beginner, I will not have him baulk'd: Therefore withdraw your saucy Conversation, till he has been long enough in the Army, to be as impudent as yourselves; I say, leaping over a Sword is a serious Ceremony, and the Laws of your spiritual Court military, tell you no Wife ought to be turn'd off till the end of a Campaign. Nor no Man ought to be drawn into the Noose unwillingly, lest the Point of that Sword which most religiously, join'd him, should be the Cause of most barbarously unjoining of him.</p>
+</sp>
+<sp>
+<speaker>1st <hi>Trull.</hi></speaker>
+<p>Nay, That's very true, noble Serjeant, a provoking Tongue, and a froward Woman will run a Man into strange Desperations: I can't help owning it was the Death of my seventh Husband.</p>
+</sp>
+<sp>
+<speaker>1st <hi>Sold.</hi></speaker>
+<p>Ay, and your eighth too, <hi>Moll,</hi> to my Knowledge.</p>
+</sp>
+<sp>
+<speaker>1st <hi>Trull.</hi></speaker>
+<p>No, Indeed <hi>Roger,</hi> he was hanged for Sheep Stealing.</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>What a hellish Crew are I most unfortunately thrown myself among?</p>
+</sp>
+<stage>Aside.</stage>
+<sp>
+<speaker>File-off.</speaker>
+<p>Come, 'Tis Time enough to talk of Settling yourself, when you are got into your Tents—Silence—March.</p>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 type="scene">
+<head><stage>SCENE <hi>Draws to Brigadier General</hi> Conquest's <hi>Quarters.</hi></stage></head>
+<stage><hi>Enter the</hi> Brigadier General, <hi>Colonel</hi> Mackentosh, <hi>Major</hi> Cadwallader, <hi>and Major</hi> O'Rourk.</stage>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>The <hi>Portuguese</hi> are more afraid of us
+<pb n="11" facs="13"/>than of the <hi>Spaniards;</hi> the General would scarce give me Audience to Day.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot knows, her own Countrymen are prout enough, but then indeet they have a Reason for't; but truly the Brigadier General scruple't seeing of you, because he was afraid of getting the Sickness, a cout Soultier is neither afrait of a Pullet, the Pelly-Ack, nor a Feaver: And I declare it he that runs away from the Defle, should be brought to a Court Martial, and condemnt for a Cowart.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>'Tis a vary malancholy Tale, Sir, that we must die here like a parsal of Duggs, when we maight Gallantly have our Brains knockt out in the Bad of Honour.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Buy my Shoul 'tes a deplorable Story, that we must tay suddenly of a lingering Shackness, when we might march away to the Enemy, and have Time to repent of our Shins.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Waunds Mon, wan wad thank you studdy'd to talk mistically on purpose; I have heard mare Iricisims fram you, than a whole Gang of the Nation, Sir.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Come, Cornel, praise for a Man her Toings, and not for her Speakings; here is our Frient the Major, has Murtert his share this Campaint.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Hang your Words, Truth and Honesty may be express'd by Signs, never find fault with a Man that does not speak as you do.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Why, By St. <hi>Patrick,</hi> the Colonel is a very straange Man; for if I do spaak, he does find saut upon my Words; and by my Shoul, if I am dumb, he is angry upon vat I am a thinking: But I believe he vill be after owning vhen I have bean out on a Paarty with him, I have vrit as goot a Hant vid my Swoart on the Skull of a <hi>Spaniard,</hi> as if I was a most scholastick Man.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>May the Deel claw my Wem, Major <hi>O'Rourk,</hi> an I find fault with your Braavery; but your an uncouth comical Fellow, Sir, and were twa Bullets hurl'd through my Craig, Sir, I must bag my lauging Time.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Look her there now, Kiss and Frients like loving Brother Officers.</p>
+</sp>
+<sp>
+<pb n="12" facs="14"/>
+<speaker>Mac.</speaker>
+<p>Waunds, Sir, I'll slabber no Man, an he must be an antimate Frant that I vouchsafe to gave my Hont too.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Well! Cot knows, I have known it otherwise with your Countrymen, I have seen 'em crinch and palaver like a Whore to a Cully, Sir, or like a Wiset that has her Mint to Coucholt her Huspant.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>An ay Coult caatch my Countrymen, at an Cencerity, Sir, waunds I'd be a Satazen of the World; but of aw your Kingdoms, there's neen so hopeful gallant Lads; and gued Faith whan I gat any Secrats, Sir, I'll trust 'em with none but the bonny Boys of <hi>NorthBritain.</hi></p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>That's the Indiscretion of being National Abroad; the honest <hi>Englishman</hi> makes a Friendship with all Mankind, never supports the Villain of his own Country, and always stands by the honest Man, be he <hi>Turk, Jew,</hi> or <hi>Infidel.</hi></p>
+</sp>
+<stage><hi>Enter Engineer</hi> Luconnel.</stage>
+<sp>
+<speaker>Luc.</speaker>
+<p>Gentlemens, your Serviteurs ten thousand Time ever; my goot General I have make a de very grat a Discovery of de Situation, of vat you call the Camp of de Enemy, dere is de Plang of every Ting.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen <hi>Con.</hi></speaker>
+<p>Have you show'd it the <hi>Portuguese</hi> General?</p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>I have taken pain to represent de Ting to him; put you know very vell, how dey make de ridicule upon de Engineer, for dey never taken de Town, dey has no Siege, dey lauf at de Fortification, and de Engineer is of no more Use among dem, den de Protestant, dey don't care if dey were bot Hang'd.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Splutter her Nails, to their praise be it spoke, Sir; for in the Tays of coot Kingt <hi>Catwallater,</hi> whose Heir at Law is the Shentillmans that stants here; there was no Fortifications put your Mountains, and your pig Rivers; there was none of your cowartly Tings calt Canons, and Powter, and Pullets; there was her Enemy wit her proat Swort, and here was her Assailant with as coot a won, ant in a few Stroakes, they always mayt an Ent of her Pattle; but now a Days, goot lack, while her is looking for her Enemy there, here is a cowartly
+<pb n="13" facs="15"/>Pullet Steals upon her Shoulters, throws her Heat upon the Crownt, and so her has not one plow for her Life.</p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>I find you have just so little Notion of de Fortification, as de <hi>Portuguese</hi> demselves.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Sir, An ye had served so lang under 'em as I have done, theyad maak you know they were a wise People, whan the mat with sicka ratch'd Matematacians, as your sal, Sir, geud Faith, thayr in the rat to laugh at you, Sir, I'll say that for your Countrymen, your all Engineers, or Barbars, especially when you gang to le <hi>Englant</hi> for your Religion.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cots knows your Refu-g's are the Refuss of the Kingtom of <hi>France:</hi> there's no Poty loss 'em, and tank our Stars, thare is known of them in <hi>Wales.</hi></p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>Jerney blew; because no body care to live dere, but yoursalfs and your Goats.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>So a fine Parcel of Nations thrown on their Backs truly?</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Geud Sir, I'll flatter no Mon.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Nor I, put when I am in a Pashon.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Oh! By my shoul, dear Joy, dere is a great Deal of Solidity in your conversations, when you are holding your Tongues about de <hi>French:</hi> By my Shoul dey are a shad People, dey have no Potatoes, a growing upon dem<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>Jerney blew Gentlemens, if I hat you in <hi>France,</hi> I make you change your Opinion, and your Religion too, it vas a my Conscience make me leave a de Kingdom, or I hat been long Time fore dis de Marschal of <hi>France.</hi></p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>An you war a Laakey, Sir, the Mercury in your Bones would make you talk like a <hi>French</hi> Count.</p>
+</sp>
+<stage><hi>Enter</hi> Servant.</stage>
+<sp>
+<speaker>Ser.</speaker>
+<p>May it please your Honour Major <hi>Buck</hi> this Moment arrived from <hi>England,</hi> is to wait on you.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Come, Gentlemen, shall we hear what News?</p>
+</sp>
+<stage>(Exit.)</stage>
+<stage><pb n="14" facs="16"/>
+<hi>Captain</hi> La Cunette <hi>going first, Colonel</hi> Mackentosh <hi>takes bold of him.</hi></stage>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>I'll give you Leave to jump down my Throat, Sir, before you shall gang in the Front of me.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p><stage>(He takes Capt. <hi>La Cunette</hi> by the Shoulders.)</stage> Heark'e, you Cozen-in-Law, tost thou know my Name is <hi>Catwalater,</hi> and that the Parchment of my Petrige, ish long enough to reach from <hi>Toloon</hi> to <hi>Callice,</hi> and that my Ancestors were Shentilmen, pefore your Kingdom was pepult: Now you know this, pray keep your Distance.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p><stage>(Takes hold of Capt. <hi>La Cunette.)</hi></stage> Arah, by my Shoul I will be after coming before you.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Poor filly Shentilmens, 'tis not vort my Vile to cut all your Troats for your Folly—Besides, in <hi>France,</hi> de great Shentilman always come last; ha! dat is very goot.</p>
+</sp>
+</div3>
+</div2>
+<div2 n="2" type="act">
+<head>ACT II.</head>
+<div3 type="scene">
+<stage>Brigadier General <hi>Conquest's</hi> Quarters.</stage>
+<stage><hi>Enter Brigadier General</hi> Conquest, <hi>and Major</hi> Buck.</stage>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>I Am glad to hear, Sir, every Thing is so quiet in <hi>England,</hi> and that all our Friends are well. I have order'd Colonel <hi>Mackentosh,</hi> to take Care of the Distribution of your Men: I dine about Two, and shall be glad of your Company.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>You are extreamly obliging.</p>
+</sp>
+<stage><hi>Enter Mrs.</hi> Conquest, Victoria, <hi>and</hi> Belinda.</stage>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Oh! my dear! I am inform'd there is a Packet come; have you no Letters for me?</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Not one.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p><stage>(Aside.)</stage> The nearer I come to that charming Angel, the more piercing are her Eyes.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Is this the Officer that is arrived from <hi>England?</hi></p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Yes, that's Major <hi>Buck.</hi></p>
+</sp>
+<sp>
+<pb n="15" facs="17"/>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>We Women are very inquisitive Mortals?</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Ay, Major, you must expect to be ask'd a Million of impertinent Questions.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>We shall only enquire after new Fashions, new Songs, new Amours—</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>And new Country Dances, Sir.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p><stage>(Aside.)</stage> So she will be acquainted with him, I find.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>There are abundance of each, Madam. As to new Fashions, indeed they have not flourish'd with that Life and Vigour, since the Death of the <hi>Pewterer</hi>'s Wife in <hi>Bedlam,</hi> as they did before: But there are some fashionable Creatures at the other End of the Town, that give great Hopes of their being very odd and whimsical; for their Head Dresses are no bigger than the Skull caps they us'd to wear; their Petticoats are up to their Knees; their Stays up to their Chins; and their Fanns up to their Nostrils; and the mody Shrug makes 'em wear their Shoulders up to their Ears; their Lappets reach down to the Fringing of their Petticoats, which are widen'd with abundance of Whalebone: They stoop forward when they should walk upright; they shuffle along a tip Toe, courtesy on one Side, smile on those they would ridicule, and look very grave on their intimate Acquaintance.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Very diverting, good Sir.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>I warrant you, <hi>Victoria</hi> will have all these whimsical Representations of the Sex, by Tomorrow Noon.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Shall we go to our Chamber, <hi>Victoria?</hi></p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Presently, my Dear. Pray, Sir, what new entertaining Musick have you in <hi>England?</hi></p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>As to new Songs, Madam, there is Abundance of them, that have very little Wit in them, set to most excellent <hi>Italian</hi> Tunes: Every Body that goes to the <hi>Opera,</hi> beats Time, tho' not one in a Hundred knows when to do it, and their not understanding the Language, makes 'em ignorant of the Business; so, between the Tune, and the Words, they go away as unedified, as a <hi>Libertine</hi> from a <hi>Presbyterian</hi> Meeting.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p><stage>(Aside.)</stage> How he Eyes her! unmannerly Fellow, he never Looks at me!</p>
+</sp>
+<sp>
+<pb n="16" facs="18"/>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>And good now, Major, what Scandal is stirring? What Reputations are blown upon, and who has the finest Equipage?</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck</hi></speaker>
+<p>Madam, the Citizen's Wives pay as much for handsome young Fellows, as ever they did; there are Women of Figure fond of Gamesters, and Courtiers that take as much Pride in keeping Strumpets, that all the Town has had, as those Strumpets take in making Cullies of 'em; they give 'em fine Cloaths, fine Equipages, and they spend 'em a fine Deal of Money. Harlots keep visiting Days, as well as Women of Honour; they appear at the Church, and the Play-House, with a very modest Assurance; to be call'd my Lord <hi>Whatd'callm</hi>'s Mistress, is as genteel and more Modish a Name, than my Lord <hi>Whata'callm</hi>'s Wife: And at the End of an <hi>Opere,</hi> you often hear my Lord-Duke's Footman call'd for, Mrs. <hi>Simper</hi> having order'd her Flambeaux to be lighted.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Why! then the Town is as wicked now, as it was, when I made a Figure in the Side Box?</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>I doubt, Major, you are too satyrical upon our poor Sex?</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Oh! Madam! When I have an Opportunity, I can tell you Abundance of generous kind noble Acts, that have been done by the virtuous Part of your Sex.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p><stage>(Aside.)</stage> So, they are intimate already.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>You have said nothing of Country Dances yet, Major?</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>As to Dancing, Madam, all the Time of the Parliament's Sitting, Mr. <hi>Bays</hi>'s grand Dance is practis'd over in the <hi>Court of Request;</hi> where Party Men go Sides all, Whig and Tory Back to Back, Beaus and Politicians right Hand and left, your Waiters for Preferment and Men of Interest run the Hay, Republicans go the Figure of Eight, and Lawyers lead you down two Couple.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p><stage>(Aside.)</stage> I must be miserable, for I find she does nothing but Eye him.</p>
+</sp>
+<stage>An Alarm Gun.</stage>
+<stage><hi>Enter Colonel</hi> Mackentosh.</stage>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Waunds, Sir, the Enemy are on their
+<pb n="17" facs="19"/>March towards us, and the Gun is fired for us, to make ready to receive 'em.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Why! by the Account I have this Morning, we have not fifteen Hundred <hi>English</hi> Men that are fit to bear Arms?</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>The Deel jump down my Throat, Sir, an we do no bang aw the <hi>Spanish</hi> Army, and the <hi>Portugueze</hi> General will let us attack 'em.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>There spoke the true Spirit of a <hi>Britain.</hi></p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Would these Women were safe at <hi>Lisbon</hi> again.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p><stage>(Aside.)</stage> Now, notwithstanding the share of Honour I am like to get by Beating the Enemy; methinks I had rather be sent with a Detachment to guard the General's Baggage there.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Don't be concern'd for us, my Dear; I have not attended you so many Campaigns in <hi>Flanders,</hi> to be frighted with a foolish Alarm here: Courage, my Girl!</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Oh! Madam; I am too much my Father's Daughter to fear.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p><stage>(Aside.)</stage> Her Courage unmans me; and I shall now be careful of my Life, in Hopes of preserving Her's.</p>
+</sp>
+<stage><hi>Enter Mr.</hi> Bisket, <hi>and</hi> Charlot.</stage>
+<sp>
+<speaker>Bisk.</speaker>
+<p>General, your most devoted; Ladies, your most humble,
+<stage>(to <hi>Victoria.)</hi></stage> Madam, this Journey is on your Account.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p><stage>(Aside.)</stage> So, I suppose this is my rascally Rival.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p><stage>(Aside.)</stage> I am glad he's come, I'll hasten the Match, and be reveng'd on that false Devil Major <hi>Buck.</hi></p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>General, this young Gentleman came over in the last Packet, and has Letters from <hi>England</hi> for you: Mr. <hi>Hickumbuz,</hi> come forward, that I may introduce you to the General—that's Brigadier General <hi>Conquest,</hi> and this is Mr. <hi>Hickumbuz.</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>An agreeable young Fellow.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>This Packet of Letters is from my Lady <hi>Lovemore,</hi> Sir; and this is for your Lady, whom I expected to have seen at <hi>Lisbon.</hi></p>
+</sp>
+<sp>
+<pb n="18" facs="20"/>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Pray, Sir, give it me; I hope my Lady was well when you left <hi>England.</hi></p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>She was at my coming away in a most agreeable State of Health, and particularly order'd me to let Mrs. <hi>Victoria</hi> know, she had a great Share in her Heart.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>I am pleas'd to hear my Aunt is well, Sir.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Did not I tell you, Mr. <hi>Hickumbuz,</hi> you would be kindly receiv'd—Heark'e! How may you like my Mistress—Ha!</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>So well, that I believe I shall make Love to her.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Sir, the Letters you brought are much in your Favour; my Sister tells me, you are her Husband's near Relation, and begs I would provide for you in my Regiment; there happens to be a Vacancy of a youngest Lieutenant of Grenadiers in your Company, Major <hi>Buck;</hi> order my Secretary to sill up the Commission the General left, with his Name.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Heark'e, Mr. <hi>Hickumbuz,</hi> it was my Interest got it, don't forget that Sum you promis'd me, my Dear.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>P'shaw! 'tis too late now; I'm an Officer, therefore know your Distance, and don't be saucy, Merchant.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Pert and military enought.</p>
+</sp>
+<stage><hi>Enter Major</hi> O'Rourk.</stage>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>By my Shoul my Nobility General, there is an Aid de Camp come from the General of the <hi>Portugueze,</hi> vid an Order to desire that veder he shees you or not, he may spaak vid you out of Hand.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Waunds, I houpe it is a Resalution to fight the Enemy: Geud Faith, I yern to be banging their Lugs for 'em.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Well, I'll go and hear what Resolutions are to be taken. Mr. <hi>Bisket,</hi> I leave you in Possession of my Family, and if we engage the Enemy. I expect you should retire with the Woman to <hi>Elvas.</hi> Come, Colonel, you shall go with me to the General's?</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>By <hi>Edenborough</hi> Cross, I houpe, we shall perswade him to give Battle.</p>
+</sp>
+<sp>
+<pb n="19" facs="21"/>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>By my Shoul, when de Fait is over, I will swear we have had a Battle.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Adieu—Women.</p>
+</sp>
+<stage><hi>Exeunt</hi> Conquest, Mackentosh, <hi>and</hi> O'Rourk.</stage>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>We have had so many false Alarms, that I'm in no Fear of Danger: However, <hi>Belinda,</hi> let's pack up our Implements for a March.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Come, <hi>Victoria.</hi></p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Madam! I am the proper Animal deputed to take Care of her adorable Person?</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Major, your most humble Servant. Young Gentleman, when the Hurry is over, we shall be glad of seeing you, for I must have a great Deal of Talk with you about my Sister. Come, <hi>Belinda.</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>You won't stay, <hi>Victoria?</hi></p>
+</sp>
+<stage><hi>Exeunt Mrs.</hi> Conquest, <hi>and</hi> Belinda.</stage>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Madam! permit me to participate of the last Joint of your Ladyship's little Finger.</p>
+</sp>
+<stage>He takes hold of her Hand.</stage>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p><stage>(Rushing in between 'em)</stage> Pardon the Freedom I take, dear Madam.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>I protest very rude and comical.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>But I'm oblig'd to improve every Opportunity, and break through those Forms of awful Adoration, which is due to so much Beauty, and tell you I am desperately in Love with you, and we both must be for ever miserable, should you marry that Coxcomb.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Bear Witness, Mr. <hi>Hickumbuz.</hi></p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p><stage>(Aside.)</stage> I'll swear, his Impudence is very agreeable.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Mr. <hi>Bisket,</hi> if you'll take my Advice in this Affair, a Word in your Ear.</p>
+</sp>
+<stage>They go aside.</stage>
+<sp>
+<speaker>Vict.</speaker>
+<p>You Gentlemen in Red have a Notion, the greatest Favour you can do our Sex is, to tell us you're desperately in Love with us; but we know your fashionable Ways of talking too well to believe you—Besides, I'm already engag'd to that Gentleman, whom you this Moment shew'd so much Rudeness to.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>'Tis in your Power, Madam, to save both our Lives, for I never can suffer so fine a Creature to be thrown away on so arrant a Puppy: Therefore, I
+<pb n="20" facs="22"/>shall, if you persist, first cut his Throat, and then my own.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>If the Passion you prosess for me is sincere, I slatter myself you will do nothing, that may call either my Reputation or your Prudence in Question; all I can now say is, I wish I could come off my Engagements with Honour.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p><stage>(To <hi>Charlot)</hi></stage> Why look'e, Mr. <hi>Hickumbuz,</hi> as you say, I ought to demand Satisfaction of him.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Nay, more, Sir—a Word in your Ear.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Oh heavenly Sound! Leave the Management of that Affair to n.e, and expect all the Invention that is in the Power of a warm, desiring, wishing Lover to perform!</p>
+</sp>
+<stage><hi>Enter</hi> Belinda.</stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>Hell and Tortures—Are they so close <stage>(goes before 'em.)</stage> <hi>Victoria,</hi> your Mother is very angry that you stay so long.
+<stage>(Leading her away.)</stage></p>
+</sp>
+<stage><hi>(Exeunt</hi> Belinda, <hi>and</hi> Victoria.</stage>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>The Malice of that Creature, if she lives long enough, will qualify her for a Witch—but till she deals with the Devil. I may out wit her.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p><stage>(To <hi>Charlot.</hi>)</stage> Oh Fellow Traveller! your Servant for that—I won't run the Hazard of Fighting for a Mistress I'm already sure of; but if ever I catch him in the Way of Trade, and I don't over-reach him, may I be a Bankrupt.</p>
+</sp>
+<stage>Exit, staring at Major <hi>Buck.</hi></stage>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Go thy Ways for an egregious Coxcomb, <stage>(to Charlot.)</stage> Sir I sind I am obliged to you, for the Opportunity of telling my Passion to my Mistress, 'tis a very good Foundation for our future Friendship; and since the General has order'd you my Lieutenant, I shall be proud of every Opportunity of serving you.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>You in every Action shew so much the Gentleman, that I think it a great Happiness of falling under your Command: I come very raw into the Service, and know little of the Discipline of the Army, nor can I tell what true Courage is, but am sure I have Resolution enough to do every Thing I am commanded.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Thou shewest a Spirit that's noble, and next to my Mistress shalt share my Heart; I would have
+<pb n="21" facs="23"/>you improve your Acquaintance with the General's Wise, which may give me an Opportunity of telling my Passion to my dear, dear <hi>Victoria.</hi></p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>I have been a Page, Sir, in which Office we learn the whole Language of the Eyes; and I am much mistaken, if the fair Lady you adore, burns not with an equal Passion for you.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Your Pages are very apt to slatter, my Dear; but doest thou really think she met my Glances with any manner of Warmth?</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>I saw the little Cupids dancing in her Eyes; and still, the more she look'd the more she sigh'd, the more she warm'd, and so, of course, she more desired.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>My dear Boy! Thou firest my Blood: Look'e, I'll give you the Prosits of the Company; thy Man shall have Serjeant's Pay; thy Washerwoman shall be in the Muster Roll as a Soldier; and thou thyself shalt do no Duty, provided thou assistest me in gaining the Affections of that dear soft bewitching Creature, <hi>Victoria.</hi></p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Believe me, Sir, She's yours, and will herself contrive Means to tell you all her Mind.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Say'st thou so, my Boy—I'll go to the Secretary, and take out your Commission; meet me at my Tent in half an Hour, and I'll present you to the Company; my Serjeant will soon teach you to Exercise, your Gallantry will recommend you to the General; and I'm intirely devoted to your Interest. I hope you have a sharp Servant to take care of your Baggage: Look Big upon your Brother Officers, and pray have no Quarrels without my being your Second —Adieu, my Dear Boy.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Char.</speaker>
+<p>His Generosity and Friendship much obliges me — But, Oh! my Dear <hi>Wilmot!</hi> What have I suffered for thee? Fatiguing Journeys, a Tempestuous Voyage, and all those Dangers which my Sex are unaccustom'd too; will not this atone for the III Usage thou hast met with from me? — Let me once more read the dismal Letter, that Cause of all my Woe and Hardships.</p>
+<stage>Takes out the Letter, Reads.</stage>
+<pb n="22" facs="24"/>
+<p>False, Unkind and Perjur'd <hi>Charlotte.</hi><lb/>
+<hi>TOO</hi> long I've bore mith Torment at my Heart your Wounding, Piercing, Killing Usage; I have now got so much the better of my Love as to find out your Pride, your insolence and false Coquetting Airs; I have tore you from my Soul, and would have you doat on every foolish Coxcomb, which no more shall give me Pain. I am this Moment going on Board the <hi>Packet</hi> for <hi>Portugal.</hi> I have bought such a Post in our Army there, as will soon give me an Opportunity of rushing amidst the thickest shower of Bullets, one of which I hope, will take that possession of my Heart, which I once design'd for you; I believe my Death will soon be known to you, and you may expect the Upbraiding of my Ghost:<lb/>
+Adieu for Ever,<lb/>
+WILLMOT.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Too well I have deserved this Barbarous Usage; Curse the Folly of my Sex, which led me unto that false Notion of believing I could secure to myself, that Lover which I us'd most scurvily:</p>
+<stage>Enter her Maid <hi>Clara</hi> in a Footman <hi>'s</hi> Habit.</stage>
+<p>Well, Dear <hi>Clara,</hi> what News of <hi>Willmot?</hi></p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Oh! Madam, I have walk'd thro' all the Camp, enquired at the Head of each Regiment, but can hear no tydings of him.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Break! Stubborn Heart, break—no Tydings of him—why then he has given us a false Account of his Voyage, and nought but Misery can ere attend me.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Remember, Madam, with how many Tears and moving Words, I beg'd you not to leave your Native Country; I wish when you had sent me to your Aunt for that Letter to Brigadier General <hi>Conquest,</hi> that I had told her it was not for a Friend but yourself.</p>
+</sp>
+<sp>
+<pb n="23" facs="25"/>
+<speaker>Char.</speaker>
+<p>Then you had for ever forfeited my Love, nothing grieves me now, but the Hardships thou art like to meet with.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Fear not me, my dearest Lady; if you can support yourself under the Difficulties, I shall hear them with Pleasure.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Come on then, the General has already promis'd me a Lieutenancy; and since <hi>Willmot</hi> has so barbarously resented the Weakness of my Sex, I'll now Revenge it on all his; my Captain is indeed a Gallant Man, his Friendship is what I most shall covet, but for the rest stand clear.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>I yet comfort myself with the Hopes of hearing of your Lover.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>No, <hi>Clara,</hi> I'll shake him from my Heart; put on all the saucy Airs of a real Man, and make my Brother Officers stand in fear of me.</p>
+</sp>
+<stage>Enter Lieut. <hi>Surly.</hi></stage>
+<sp>
+<speaker>Sur.</speaker>
+<p>Brother, your Servant, as I may say.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>From whence, good Sir, does your Familiarity proceed?</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>So, so, a pert Boy, some Man of Quality's Bastard, I suppose,
+<stage>(Aside.)</stage>—Look'ye, Child, I met my Captain, who inform'd me you were to be youngest Lieutenant to our Granadiers; if so I'm to be your Commanding Officer.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>The longest Sword must decide that.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Very good—you are beginning to mutiny already, prithee, Child, didst thou ever serve?</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>I had Lodgings near <hi>Charing-Cross;</hi> I kept a Bank at a Gaming Table; I have broke Windows with Field Officers; and have been tossing Subalterns in Blankets.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Heark'e, dear Boy, what might thy Commission cost thee?</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>I gain'd it by my Merit.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>No, no, my Child; it was a confounded modest fort of Assurance, call'd Impudence, that got it thee.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Sir.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>That smooth Countenance of thine is not made for Frowning; if thou valuest thy Life, or thy Commission, thou most be more civiliz'd, or thou wilt be
+<pb n="24" facs="30"/>the Thirteenth young handsome Impertinent Fellow we have run thro' the Body this Campaign; lookey, if you'll go to the Sutler's, we'll Kiss and Friends over a Dram of <hi>Geneva;</hi> thou shalt have a Pipe of Tobacco out of my Box here, or if thou hast an Antipathy to Smoaking, I can give thee a Chew of the best Oronoko in the Universe, which is an Offer that many a Sub wou'd jump at.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Faugh upon thy nasty Weed, Sir, you have us'd me Ill, and therefore I demand Satisfaction—</p>
+</sp>
+<stage>She draws.</stage>
+<sp>
+<speaker>Sur.</speaker>
+<p>Ha, ha, prithee Babe, put up thy Sprat Spit, 'tis fit only to make a Busk for thy Mistress.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Sir, my Master never puts up any thing till he has Satisfaction—</p>
+<stage>(Lord! how I tremble. (Aside.</stage>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Ha, ha, What then thy Master is a Knight Errant and thou art his Dwarf.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>These Affronts are so gross, they put me past Patience— <stage>(Aside.)</stage> (Oh! yonder's Company a coming.) <stage>(to him)</stage> Villain have at thy Heart.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Nay, if I must lug out, remember, young Fellow, it was thy own Fault, thou art guilty of SelfMurder, therefore come on to the Hilt of my Sword.</p>
+</sp>
+<stage>Draws.</stage>
+<stage><hi>Enter</hi> Cadwallader <hi>and</hi> Luconnel.</stage>
+<sp>
+<speaker>Cad.</speaker>
+<p>What is the meaning of her drawing her Sworts, have you no poty's Troats to cut put your hone?</p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>Jerney Divel Gentlemens vat is de meaning of your Animosity, are you mad to kill yourselves, ven de vant two tre Tousand Gentry Country People to vight de Enemy?</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Holt your Tongue, mint your puissness, and leave 'em to my known self; come, what is your Quarrel?</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Why, Major, your Servant the Young Lad, has a mind to have his Throat cut, I suppose, he provok'd me a long Time before I drew.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Well come, what has her to say for herself now?</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>I have been most scandalously abus'd by him, and without he begs my Pardon, I can't put it up.</p>
+</sp>
+<sp>
+<pb n="25" facs="31"/>
+<speaker>Cad.</speaker>
+<p>Beg her parten, why, I suppose, in all Quarrels, every poty is in Fault, and 'tis your Tutys, and for your Honours to peg one another's Partens.</p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>But he dat give de Injury should aska de Pardon first.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>What do's her mean py crouting in her Worts to interrupt her, am I not Juge upon the Quarrels, I will decite it for you, or I will cut all your Throats: Young Gentlemen, when you have been at our Traite as long as myself you vill have more Wit than to Fight for nothing.</p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>'Tis very well against de Enemy, dere is de very great a Satisfaction in Plunder de Camp, Burn de Town, Ravish de Women, and so fort; but for one Friend to an oder make a push shoes against de Body; 'tis a great jest begar.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cott knows, you are always a trushing yourself into Gentleman's Puissnesses, have a care of your provoking me into a Passion, get her gone quickly, or I protest I will pe in her Poty.</p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>I am sorry I can't stay no longer vid you, but I am in great haste to goe take Care and raise a de Battery for fear de Enemy should attack us.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Cad.</speaker>
+<p>'Tis a goot Excuse for saveing your Lives; come, put up your Sworts, shake Hants, Kiss and Frients.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>On your Account Sir I do forgive him, but let him take care how he affronts me hereafter.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>So I find I must either own myself in a Fault, or cut the Boy's Throat.</p>
+</sp>
+<stage><hi>Enter Serjeant</hi> File-off.</stage>
+<sp>
+<speaker>File.</speaker>
+<p><stage>(to <hi>Char.</hi>)</stage> Sir, Major <hi>Buck</hi> is in his Tent, and wants to speak with you.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>When you have another Quarrel, pray pe sure to kiss and Frients pefore you draw your Sworts.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Sur.</speaker>
+<p>Brother, your Servant, come, Serjeant, go to the Sutler's, and I'll give you a Dram for your welcome to Camp; which had you rather have <hi>Rum</hi> or <hi>Geneva.</hi></p>
+<stage><hi>Exeunt</hi> Surly <hi>and</hi> File-off.</stage>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Dear Madam, I tremble every Joint of me, what could you mean by running yourself into all this Danger.</p>
+</sp>
+<sp>
+<pb n="26" facs="32"/>
+<speaker>Char.</speaker>
+<p>This, Child, was the Way to secure myself from Quarrels.</p>
+<lg>
+<l>For he, they say, is Brave who makes a Noise,</l>
+<l>Your Gallant Fighters are your Blustering Boys.</l>
+</lg>
+</sp>
+</div3>
+</div2>
+<div2 n="3" type="act">
+<head>ACT III.</head>
+<div3 type="scene">
+<stage>Brigadier General <hi>Conquest</hi>'s Quarters.</stage>
+<stage><hi>Enter Mrs.</hi> Conquest <hi>and</hi> Belinda.</stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>MADAM; I have known him long. He was an Officer in my Father's Regiment. He has been the ruin of half our Sex.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>And do you say <hi>Victoria</hi> seem'd to receive his Addresses?</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>With glowing Cheeks and a consenting Eye.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Cunning Creature! She always has pretended to shew excess of Duty in every Thing.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>But to me, Madam, who knew the inmate Secrets of her Heart, she has express'd much Hatred to the Husband you have provided for her.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Dissembling Hussey! I'll make her consent, I warrant you. I think Mr. <hi>Bisket</hi> is an extraordinary Match for her, He's worth Twenty Thousand Pound, is Santista to the whole Army, and has a Prospect of getting Forty more—But if the Peace comes, and he loses this Post, he's the richest Merchant in <hi>Lisbon;</hi> and will maintain her like a Princess—Rather than she should marry a Rake'lly Officer, I'd wish her Dead. I know too well the Plague of trudging after a Soldier. 'Tis indeed a State of Laced Cloaths and Starving, but there's little of the <hi>Love</hi> and <hi>Cherish</hi> in it.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Too well I know it Madam: it broke my poor Mother's Heart. But this is the most Profligate Rake the Army ever bred: He is well vers'd in all Intriguing,
+<pb n="27" facs="33"/>and by his Usage of Mr. <hi>Bisket,</hi> if you hasten not the Match, most certainly he will break it off.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>I'll be too Cunning for him: And if the <hi>Spaniards</hi> don't disturb us, my Husband's Chaplain shall Marry 'em this Evening.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p><stage>(Aside.)</stage> Were it once done, I should be Happy.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Where is <hi>Victoria</hi> now?</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>In her Chamber; providing for our Journey to <hi>Elvas</hi> if there should be occasion.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>I would have you take no Notice to my Husband of what has passed; his Heat of Temper may occasion some Mischief. I'll prepare her myself for the Matter; first acquaint her with my Resolutions, and then her Father shall lay his commands on her.—</p>
+</sp>
+<stage><hi>Exit</hi> Mrs. <hi>Conquest.</hi></stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>Which I fear she'll be very averse to. Since Major <hi>Buck</hi> has basely slighted me, this Revenge will be some Satisfaction to me: And so long as I prevent his marrying any Body else, some lucky turn may make him mine. For tho' now I hate him for despising me, one kind Look will soon get the better of my weak Resolves. I am vex'd this Coxcomb <hi>Bisket</hi> should give 'em an Opportunity of talking together. See where the Fool comes!</p>
+</sp>
+<stage><hi>Enter</hi> Bisket.</stage>
+<sp>
+<speaker>Bis.</speaker>
+<p>Adorable Mrs. <hi>Belinda!</hi> I am your most devoted Shoe-Leather. I must beg you to lay your Head to mine, and help me to Revenge myself in some manner or another upon the Major. He took my Mistress from me in a most Audacious manner: Ridiculed my Parts and Person before her, and I protest, for aught I know, he has made such an Impression on her, to my Prejudice, that all the sine Things Vows, and Oaths, which I shall say to her for a Month, I fear, will scarce set her at Rights again.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>I can tell you, if before to-morrow Morning you are not Married to her, she will be the Major's Wife.</p>
+</sp>
+<sp>
+<speaker>Bis.</speaker>
+<p>I protest you bring my Heart to my Mouth —Tho' upon second Thoughts, if the Major has a Fancy to her, I had much rather he should sall in Love with her before I have her, than afterwards—
+<pb n="28" facs="34"/>Tho' I am pretty well assur'd she cannot be false to my person.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>You must not tell the General what has happen'd, but press him to have the Wedding Celebrated to Night.</p>
+</sp>
+<sp>
+<speaker>Bis.</speaker>
+<p>He and I are agreed upon all Matters; and I have deposited six Thousand Pounds, to be laid out in <hi>England,</hi> which was to be her Jointure. A great deal of Money to give for a Wife, especially should she prove a Jade—Ha, Mrs. <hi>Belinda.</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>I would advise you not to be out of her Sight, till you are Married to her.</p>
+</sp>
+<sp>
+<speaker>Bis.</speaker>
+<p>Ay, and I'll watch her Waters after I'm Married to her: And I will have an Eye upon the Major's heavy Cannon, for fear he should lay Siege to her.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Come, you must go and Attack her yourself, Let her have no Correspondence with the Enemy, and she must fall into your Hands.</p>
+</sp>
+<sp>
+<speaker>Bis.</speaker>
+<p>I'll find out all her Mines and take her Glacis, Sword in Hand.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>By Conversing with Military Men, you are become a perfect Soldier.</p>
+</sp>
+<sp>
+<speaker>Bis.</speaker>
+<p>Ay, if I could but Fight, or be in a Passion big enough to draw a Sword, I could soon Cammand an Army.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Come along and try to Command your Mistress.</p>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 type="scene">
+<head>SCENE <stage><hi>Draws and discovers</hi> Victoria.</stage></head>
+<sp>
+<speaker>Vict.</speaker>
+<p>Well! This agreeable Major runs so in my Head, that I am prodigiously Divided; betwixt Hoping, and Fearing and Wishing; Desiring, Suspecting and Doubting. Let me see. I warrant you they'll pretend to say, I have given my Word to have this Coxcomb <hi>Bisket.</hi> 'Twas all Compulsion—And I never can consent to have him.</p>
+</sp>
+<stage><hi>Enter Mrs.</hi> Conquest.</stage>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>See, <hi>Victoria,</hi> are you prepared for a March?</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Ready on the first Alarm, Madam.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>How came you to let that Saucy Major Talk to you with so much Freedom just now?</p>
+</sp>
+<sp>
+<pb n="29" facs="35"/>
+<speaker>Vict.</speaker>
+<p>To me, Madam?</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Ay, to you, Madam. Come, come, <hi>Victoria,</hi> he's a Dangerous Fellow: He has us'd Mr. <hi>Bisket</hi> very ill, and if your Father was to know it, a terrible Quarrel would ensue. I would have you prepare yourself, to be married this Night.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>So soon, Madam!</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Come, come, Mr. <hi>Bisket</hi> is a Prize not to be neglected.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Oh, dear Madam! He's so disagreeable a Coxcomb, that I shall be for ever Miserable if I have him.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Your Disobedience surprises me; have not your Father and I agreed upon the Matter? Don't we know what's best for silly Girls, who are not fit Judges for themselves? One must have a great share of Experience, abundance of Knowledge, and prudent Management before we know what's best for us. Mr. <hi>Bisket</hi> is no Fool.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>But he has a great want of Sense.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>You are a fine Judge of Sense: a Rake'lly drest Fellow, with a Laced Coat, Hat and Feather, is all the Notion you have of a Man of Sense</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>No, Madam; I reckon a Man of Sense, is one who! a read the World as well as Books, and knows how to discern betwixt the good and evil of it; and has so true a Notion of himself, as never to launch out into conceited Praises of his own Perfections; he has Honour enough to scorn to do an ill Thing, and Courage to resent an Injury from an impertinent Coxcomb; he knows how to put a true value upon Virtue; he has Religion enough to keep his Marriage vow Sacred, and Discretion enough to make a Woman his Friend, as well as Wise.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>So so, a fine Character truly; and where do you expect to find such a Husband as this— Your Father laid out all his ready Money to buy the Regiment, if there should come a Peace—'tis a young one: He'll be broke, and half pay will not maintain us—Here you'll be at the Head of the Factory; keep your Chaise and your Litter; be visited by the Envoy, and sit next the Consul's Lady.</p>
+</sp>
+<sp>
+<pb n="30" facs="36"/>
+<speaker>Vict.</speaker>
+<p>And Dine with my Book-keepers, and <hi>Newfound-Land</hi> Chaplains; know how to buy a Bargain of Stock-Fish; Go on Board an <hi>India-Man</hi> and beg Coffee and Calicoes: Be pent up all the Sultry Weather in a Quinito of my own; where none but the Worshipful Wretch my Husband and a Portuguese Gardener must come near me.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>On your Duty, I command you to hold your Tongue: Here would be fine Work if your Father was to hear you; 'tis my Resolution, you shall be Married to Night: if you dare disobey, you shall be turned out of Doors before to Morrow.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>You know, Madam, I have always been most Obedient; but when I tell you this Man is my greatest aversion, sure you will not Sacrifice me to him.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>You may set your Heart upon him if you please: I know all Things depend upon Resolution; and therefore resolve and be happy forthwith.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Well, Madam, to shew you how much my Duty gets the better of my Inclinations, I'll bury myself in this Monument of your own choosing. But since I must be Sacrific'd to this Creature, I have one Request to beg of you, Madam.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Thou can'st ask nothing in Reason, my Dear Child, but I will grant it you.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>I fear (tho' my Resolution's Strong,) when I come to the fatal Ceremony, I shall want Spirits to support me through it. It's probable were I not to see the Author of my Woe till I was made his Wise, I might in Time bear the Sight of him, tho' not Love him.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>That's Vapours; meer Fancy Child— But to Humour you the Chaplain shall Marry you in the Dark.—</p>
+<stage><hi>Enter</hi> Belinda <hi>and</hi> Bisket.</stage>
+<p>Oh <hi>Belinda!</hi> My Daughter is very good—If the General returns, you may prepare this Evening for your Wedding, Mr. <hi>Bisket.</hi></p>
+</sp>
+<sp>
+<speaker>Bis.</speaker>
+<p>Excellent News, my dear Mother-in-Law! At the coming in of the <hi>Brazil</hi>-Fleet, I will give you an Ingot of Gold to make a—<hi>Chocolate Mill</hi> on— Thank my Stars! The Ceremony of Courtship is over;
+<pb n="31" facs="37"/>it has crack'd more Brains than Projecting and Poetry has done. Dear Angel
+<stage>(to <hi>Victoria.</hi>)</stage> Let me Salute the hard Knuckles of your soft Hand.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p><stage>(Ironically.)</stage> You have such Winning ways with you, there's no denying any Thing.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Ah! thy words are as Sweet as the best <hi>Lisbon</hi> Sugar. Adso, tho' we Merchants are obliged to wear these Dresses in the Way of Trade, yet upon so joyful an Occasion as this, I may be allow'd to jump into a lac'd Coat, and a full-bottom'd Wig. Madam <hi>Victoria.</hi> I'll give you my Person in the handsomest manner I can; and in half an Hour, shew a most compleat Bridegroom. Adieu, deary, for an Age I may say, a Moment is to me.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>This is very joyful Tydings my dear <hi>Victoria,</hi> that you have so true a Sense of Happiness, as to choose the Man of all the World that is most capable of making you so.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>My good Mother has us'd so many prevailing Arguments with me, that I can no longer stand in my own Light.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>She is the best of Daughters—I'll go and enquire if there's no Tydings of your Father. I know not any Thing will so much rejoice his Heart, as this Wedding.</p>
+</sp>
+<stage><hi>Exit Mrs.</hi> Conquest.</stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>I'm pleas'd to hear your Will is so resign'd— I was desperately afraid, what Major <hi>Buck</hi> said to you this Day, would have made some Impression on you: For know, I love him to Desperation: And could I fix him mine, I've Vanity to think, I've Charms enough to cure him of his rakish and inconstant Temper. Indeed I was a little Jealous of you, and therefore persuaded your Mother to hasten the Match: For which, my Dear, I hope you'll thank me now.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p><stage>(Aside.)</stage> This is Friendship with a Vengeance —(to her.) I suppose his Pretensions to me were only Gallantry. But were they sincere, my being married to another will be a Means of making him your's: I, you need not doubt, will contribute all I can towards it.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Let me embrace my dear, my prudent, and my Bosom Friend.</p>
+</sp>
+<sp>
+<pb n="32" facs="38"/>
+<speaker>Vict.</speaker>
+<p><stage>(Aside.)</stage> Dissembling Witch—<stage>(to her.)</stage> When next I meet the Major, I'll find a Way to tell him how much you love him.</p>
+</sp>
+<stage><hi>Enter Captain</hi> Hearty.</stage>
+<sp>
+<speaker>Hearty.</speaker>
+<p>Your Servant, Ladies. I suppose, Madam, I was not to have overheard that last Sentence of yours.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Yes truly, Sir, 'tis no Secret. <hi>Belinda</hi> is desperately in Love with Major <hi>Buck,</hi> I only promis'd her my Assistance in forwarding the Match.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>I in Love with that Fellow: I wonder at your Assurance, <hi>Victoria:</hi> I protest I blush for you. I'll go tell your Mother what an idle Girl you are.</p>
+</sp>
+<stage><hi>(Exit</hi> Belinda.</stage>
+<sp>
+<speaker>Hearty.</speaker>
+<p>You have put the Lady into some Disorder by this Confession.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Not half so much as she has put me into, by her Hypocrisy and false Friendship. 'Twas but some few Minutes since my Mother forc'd from me my Word to marry <hi>Bisket;</hi> which Ceremony is to be perform'd this Evening. All the Favour she would grant me, was to marry in the Dark. If my Imagination's strong, I shall fancy 'tis not he. Were I to see him, sure I am, my saultring Tongue would ne'er consent I should be his: I sacrifice my Ease, my Quiet, and my Peace of Mind, to my rigid Parents harsh Commands.</p>
+</sp>
+<sp>
+<speaker>Hearty.</speaker>
+<p>The Law of Nature never meant we should take Duty in that ridiculous Sense: This would be dismal News to poor Major <hi>Buck,</hi> whose Happiness and Peace of Mind depends on one kind Look from you.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>'Tis now too late! my Word is past: Besides, how can I be certain he's sincere? This may only be a loose Air he gives himself; a Gallantry that often happens, with Men of his Character.</p>
+</sp>
+<sp>
+<speaker>Hearty.</speaker>
+<p>I dare answer for him—'Tis your Person now he doats on: But I'm well assur'd, when he's acquainted with the Beauties of your Mind, he more and more will love you: Give me but Hopes you like him, and for all the Time's so short, I'll engage the Major delivers you from this wretched Coxcomb; and with your Father's Consent to.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>In this Exigency, I think I may be allowed to
+<pb n="33" facs="39"/>say, I do not hate the Major—And could wish—I can say no more.</p>
+</sp>
+<sp>
+<speaker>Hearty.</speaker>
+<p>'Tis enough; I'll instantly to the Major, and you soon will hear from him.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>My Prayers will attend you.</p>
+</sp>
+<stage><hi>(Exeunt</hi> severally.</stage>
+</div3>
+<div3 type="scene">
+<head><stage><hi>SCENE</hi> changes to the Camp.</stage></head>
+<stage>Enter two Ensigns, Serjeant <hi>File-off</hi> following.</stage>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>Pox on't, I shall die of this Pinch-Office. There's all my two Months Subsist gone upon that last Card; our Dog of an Agent will advance nothing without <hi>Cent per Cent.</hi> Oh, for a Battle! to send a Pound of Lead into my Body, or a Pound of Gold into my Pocket.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>If we had but dined before we had been stripp'd, I should have had a Stomach for fighting, but I'm always a damned Coward with an empty Belly.</p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>Ha, Serjeant! How long have you been come up to Camp.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>This Day, Sir.</p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>Let me see, Serjeant? As I remember, I owe you four <hi>Crusades,</hi> if you can give me six more, I'll give you a <hi>Moeda.</hi></p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p><stage>(Aside.)</stage> A good lucky Thought of his: the Devil a Farthing he owes me—but however, I'll put the Old Soldier upon him
+<stage>(to him.)</stage> Noble Ensign, your Servant. You may let it alone if you please. I am not in haste
+<stage>(pulling out his Money.)</stage></p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>I am ashamed, Serjeant, it has been so long due.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>Sir, your Servant, there's six <hi>Crusades,</hi> Sir.</p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p><stage>(He takes 'em)</stage> Very well, Serjeant, and there's a,
+<stage>(feeling in his Pocket.)</stage> Adso! I thought I had a <hi>Moeda:</hi> Here, take my Key, and bid my Man give you one out of my green Purse, and bring me the Key again.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>Sir, your Servant.</p>
+</sp>
+<stage><hi>(Exit</hi> Serjeant.</stage>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Thou art an excellent Soldier Brother Rugcarrier, and for this one Invention, ought to command an Army. Those are the greatest Generals that have the best Turns, Tricks, and Stratagems; and to overreach is to over-come. But heark'e, shall we go and eat with this Money.</p>
+</sp>
+<sp>
+<pb n="34" facs="40"/>
+<speaker>1. Ensi.</speaker>
+<p>No, as Fortune got it us, we will venture it <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> upon a Card; pinch it to <hi>Trantleva</hi> be paid— Purchase half a Dozen of <hi>Almudes</hi> of Wine; send my Man to steal a Sheep; and so keep a Table till all our Money is gone.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Ha, Brother <hi>Surly,</hi> well met.</p>
+</sp>
+<stage><hi>Enter</hi> Surly.</stage>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>My Fingers itch to be venturing of it: I'll bring you Word before the Bauker is got through the Pack, how it is like to go with me.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Sur.</speaker>
+<p>What then your Head will always run upon Gaming: Cou'd you but taste the Pleasure of smoaking <hi>Tobacco,</hi> and drinking Drams, you'd never run the Hazard of starving as you do. I have the best Notion of living that any Man in Camp has; I can get drunk for six <hi>Vintins,</hi> and when I have a Stomach, six Whiffs of <hi>Mundungus</hi> take it away, as effectually as a couple of Pound of Beef would do.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Heark<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e, Brother <hi>Surly,</hi> I know a Soldier that has a Parcel of right <hi>French</hi> Brandy to sell, which I suppose he has stolen, for he offers it for a <hi>Crusade</hi> a Gallon.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Ay? why I can sell it to the Sutler for five; I'll go and buy it all.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Hold, hold, the Fellow is not willing to be discover'd, and therefore will trust no Body but myself; Look'e, give me Money for ten Gallons, and send your Man about half an Hour hence to my Tent for it.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>With all my Heart
+<stage>(giving him a Moeda.)</stage> and pray take care you have very good Measure.</p>
+</sp>
+<stage><hi>(Exit</hi> Surly.</stage>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Ay, ay. I have taken Care to get the Measure of your empty Head, and now Fortune assist me.</p>
+</sp>
+<stage>Exit.</stage>
+<stage>Enter Captain <hi>Wildish.</hi></stage>
+<sp>
+<speaker>Wild.</speaker>
+<p>This damn'd Agent of ours will ruin the Regiment; what an Abstract is here? Peace and half Pay, will be a much better Subsist— <stage>(reads.)</stage> To Poundage —hum. The Royal Hospital—hum. To 13-1-2 of 127-11-6. For Tents—hum. To a Charge on the Regiment for Arms sent by the Ordnance, and by Money paid to the Commissary of Stores for his Civility,
+<pb n="35" facs="41"/>in not changing those Arms for worse—hum. To sick Men sent to the Hospital—hum. Paid the <hi>Santista</hi> for you—hum. To the Widow's Man—By a Man allow'd the Judge Advocate—hum: that's for his Assistance in hanging half a Dozen more. To a Man allow'd the Commissary of the Musters; that is not ill given, it may save me half a Dozen in the Muster Roll. By a Man for the Colonel—Another for the Agent in <hi>England,</hi> and Poundage for myself, to ballance this Account. You owe me twenty two Pounds, four Shillings and Six pence, to be stop'd out of the next two Months Subsist; what a Bead-roll of Articles is here!</p>
+</sp>
+<stage>Enter Captain <hi>Hearty.</hi></stage>
+<sp>
+<speaker>Heart.</speaker>
+<p>What art thou meditating on, dear <hi>Wildish?</hi></p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Why my Abstract; which is as full of roguish Articles as a Taylor's Bill, or a Chancery Suit, and yet there's no quarrelling with this Fellow, without flying in the Face of the Colonel; we may as well ask for a new Cloathing once in three Years, or an Account of the off Reckonings every twelve Months.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Pho—hang the sordid Pelf, good Soldiers, like good Poets, shou'd always be very poor; we fight for Honour, and they scribble for Fame. Did you see Major <hi>Buck</hi> this Way?</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>He's in his Tent.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Come along with me to him, there is an Affair on Foot will make him have an Occasion for all his Friends.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Some Woman in the Case, I suppose.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>No less a Person than <hi>Victoria;</hi> come along and I'll tell you more.</p>
+</sp>
+<stage>Exeunt.</stage>
+<stage>Enter <hi>Willmot,</hi> still drest like a <hi>Soldier,</hi> two <hi>Soldiers</hi> following of him.</stage>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>Of all the Comrades that ever I had, thou art the dullest Dog, that's certain; he can neither play at <hi>All Fours, Put,</hi> nor <hi>One and Thirty.</hi></p>
+</sp>
+<sp>
+<speaker>2. Sold.</speaker>
+<p>Why, how easily might we have robb'd the <hi>Portuguese</hi> and his Wife just now, I'm sure his Cloaths wou'd have pay'd for the Trouble of murdering him, and I think the Woman was well worth ravishing.</p>
+</sp>
+<sp>
+<pb n="36" facs="42"/>
+<speaker>1. Sold.</speaker>
+<p>I have given ready Money for worse, many a time.</p>
+</sp>
+<sp>
+<speaker>2. Sold.</speaker>
+<p>Why, he would not let me steal the Sheep there, tho' it was one of the fattest I ever stole in my Life.</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>Ay, and then he told Corporal <hi>Primer</hi> I was a Bed with his Wife, and made the Fellow come and catch me there: If he had not been a good-natur'd Man, and an old Comrade of mine, it might have occasioned a Quarrel betwixt us.</p>
+</sp>
+<sp>
+<speaker>2. Sold.</speaker>
+<p>Ay, 'tis a mischievous dogged Cur, a Fellow of few Words and many Blows.</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>Ay, ay, he'll never make a good Soldier, I gad, he's only fit for an Officer.</p>
+</sp>
+<sp>
+<speaker>2. Sold.</speaker>
+<p>For nothing else in the whole World, I sagers.</p>
+</sp>
+<sp>
+<speaker>Willm.</speaker>
+<p>Impertinent Rascals, why do you follow me, you Villains?</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>Heark'e, Brother, keep good Words in your head, or—</p>
+</sp>
+<sp>
+<speaker>Willm.</speaker>
+<p>Or what, you Dog?</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>Will you stand by me, <hi>Roger?</hi></p>
+</sp>
+<sp>
+<speaker>2. Sold.</speaker>
+<p>No Faith, not I—this Morning gave me enough of him, I did but call him a Son of a Whore, and told him he ly'd, and he laid me on, as if he had been exercising of me.</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>What is he so proud, that he won't take jocular, merry Language, when he's sick, I faith he shall go to the Hospital, and that will be Plague enough.</p>
+</sp>
+<stage>Enter Major <hi>O'Rourk.</hi></stage>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Arrah, by my Shoul, dear Joys, what a plague maakes you stand running about from your Regiments, can't you stay in your Tents, Sirs, and then you may go where you please about your Puisnesses.</p>
+</sp>
+<stage>Enter <hi>Cadwallader.</hi></stage>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Whell, what is her Uproar here?</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>Why, an please your noble Honour, we was afraid that my Comrade here had a mind to desert, he came to the Camp but this Morning, and he stroles out at every Corner of it; I fancy he's either troubled in Mind, or is a Papish in his Heart.</p>
+</sp>
+<sp>
+<pb n="37" facs="43"/>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Heark'e, by St. <hi>Patrick,</hi> now if you run away, whether you are ever catch'd or not, by my Shoul I will see you hang'd.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>You are too rash in your Judgments, stant you py tere and here me recite this Affair; come, you Soultier, speak for your self.</p>
+</sp>
+<sp>
+<speaker>Willm.</speaker>
+<p>Sir, I am as true to the Service as any Body, and will never flinch my Duty when 'tis commanded me; these two Villains would run me into murdering and thieving, which my Conscience and Honesty abhors.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Cot knows, if you can make Proof of that, you shall pe mate a Corporal, and these two Rogues shall pe hangt.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Oh! by my Shoule, if you have never so little Inside into that Matter, I wou'd have you swear it heartily, and arrah, they shall not be discharged from their Tuty till they have hangt themselves half an Hour.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Splutter her Nails, will you leave her alone with this Puisness, pray now.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Arrah, by my Shoule, Major, I doe only hold my Tongue as a stander-by, and vat I have beer saying is of no Service to you, for by St. <hi>Patrick</hi> I did nean nothing by it, for all I have talkt so much to the Purpose.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Well. 'tis a thousand Pittys the greatest Part of the Worlt are not dumb, then I shoult have an Opertuni<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> of doing every Poty Justice: You, Sirs, what is your Answer?</p>
+</sp>
+<sp>
+<speaker>2. Sold.</speaker>
+<p>Why all that we have to say for ourselves, an pl<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ase your Honours, we are Gentlemen Soldiers, and h<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ve been so long in the Service, we're weary on't; our Officers have so good an Opinion of us, that in Case o<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> an Attack, we shou'd be the Men pick'd to have our Br<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ns knock'd out first.</p>
+</sp>
+<sp>
+<speaker><hi>1. S<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>d.</hi></speaker>
+<p>So as we are Men of Courage, I hope your Honou<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> will take our Words before his there, that has not yet <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>gnaliz'd himself.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Why, look you, I will decite the Matter thus, you are <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> a Parcel of Rogues, therefore kiss and Frients, and go t<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> your Tutys.</p>
+</sp>
+<stage>Exit <hi>Cadwallader.</hi></stage>
+<sp>
+<pb n="38" facs="44"/>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>By my Shoule I should have decided it just so, tho' I had not been after hearing one Word of the Matter.</p>
+</sp>
+<stage>Enter Captain <hi>La Cunette.</hi></stage>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Serviteur, Major, is de General return'd yet from de Counseill of War.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Arrah, I am resolved not to be possitive in any Thing, I know nothing on't, therefore I can't swear what the General is a doing on, but I believe in my Conscience there will be no Battle till we are altogether runing away from one another.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Vill you just take a de valk to de Battery I have mait; for tho' you are no Ingenier, you may give a de Judgement veder you tink it vill doe execution if de Enemy make a de Attack upon us.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>By my Shoulvation, Sir, I vid give nothing for a Battery that vill not be after doeing execution veder de Enemy attack us or not, but I vill give you my Opinion of it before I do see it, that I may not be surpriz'd with the Shite of it.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Come to de Place den presentalee.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p><stage>(Takes him by the Shoulder.)</stage> A<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ah, pride<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>, dear Joy, I will go last before you.</p>
+</sp>
+<stage>Exeunt Major <hi>O'Rourk,</hi> and Captain <hi>La Cunette.</hi></stage>
+<sp>
+<speaker>1. Sold.</speaker>
+<p><hi>Roger,</hi> I believe you and I had best make off the Premisses, for my Comrade there looks with anevil Eye upon us—</p>
+</sp>
+<sp>
+<speaker>2. Sold.</speaker>
+<p>Ay, his Countenance is a little upon the horrid; therefore march.</p>
+</sp>
+<stage>Exeunt two <hi>Sodiers.</hi></stage>
+<sp>
+<speaker>Willm.</speaker>
+<p>I that cou'd never taste the Pleasures o Life, in all the gaudy Show and Greatness that I one was Master on, must think it, in my present State, despicable one, and yet I dare not hasten Death, or SelfMurder is a horrid Sin.</p>
+<l>Oh! for a happy Action in the Field,</l>
+<l>To Death we there most lawfully may yie.</l>
+</sp>
+</div3>
+</div2>
+<div2 n="4" type="act">
+<pb n="39" facs="45"/>
+<head>ACT IV.</head>
+<div3 type="scene">
+<head><hi>SCENE</hi> <stage>the Camp.</stage></head>
+<stage>Enter Major <hi>Buck,</hi> Captain <hi>Wildish, Hearty, Charlotte,</hi> Serjeant <hi>File-off</hi> and <hi>Servant.</hi></stage>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p><stage>(to the Servant.)</stage> LOok'e, Sirrah, if you make any Mistake in the delivery of this Letter, I shall demolish your Carcass.</p>
+</sp>
+<sp>
+<speaker>Serv.</speaker>
+<p>Sir, I'll most punctually follow your Orders.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p><stage>(to <hi>Charlotte.</hi>)</stage> Sir, the General, before he left the Camp, Sign'd some Commissions that were vacant, and left it to Brigadier General <hi>Conquest</hi> to insert the Names of whom he thought fit; this by his Order entitles you to be youngest Lieutenant of Granadiers, I have presented you to my Company, and wish you Joy of your Commission.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>And I, Sir.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>And I, Sir.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>I fear our great scarcity of Officers will occasion your coming immediately upon Duty, the Instructions I have already given you, will be some help to you, but my Serjeant shall attend you till you have got a true Knowledge of our Discipline; in an Hour's Time, I wou'd have you meet me at the General's, where, I believe, I shall have occasion for your Service.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>With a great deal of Satisfaction I shall obey your Orders. Gentlemen, your Servant—Come, Serjeant.</p>
+</sp>
+<stage>Exeunt <hi>Charlotte</hi> and <hi>Serjeant.</hi></stage>
+<sp>
+<speaker>Heart.</speaker>
+<p>A pretty pert young Fellow.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>By the Civility of Major <hi>Buck,</hi> I sancy 'tis a Wench of his, that he has fob'd upon the General for an Officer.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>He has a very Womanish Face.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Upon my Honour, I never saw him before to Day, he's a Relation, I think, of Mrs. <hi>Conquest,</hi>
+<pb n="40" facs="46"/>he is Mannerly, and industriously willing to know his Duty, which made me take a Fancy to the Boy.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Shall we go and view yonder Battery, that our conceited <hi>French</hi> Engineer makes such a-do about.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>With all my Heart, so we keep within view of my Servant.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>You'll soon know whether he succeeds in the delivery of your Letter or not.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>If he does the Lady's mine, in spite of that envious Creature <hi>Belinda.</hi></p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Good Luck attend you.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>He has the Lady of his Side, which is half the Battle.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>And myself to Command her, which is the other half.</p>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+<div3 type="scene">
+<head><stage><hi>SCENE</hi> Draws to Brig. Gen. <hi>Conquest's</hi> House.</stage></head>
+<stage>Enter <hi>Belinda.</hi></stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>I find by <hi>Victoria</hi>'s exposing me to Captain <hi>Heart<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>,</hi> her consenting to have <hi>Bisket,</hi> is all Hypocrisy, I'm resolv'd to watch her well, and no Messenger from Major <hi>Buck</hi> shall enter here without my Examination; what a miserable Passion Love is, like Poverty, it forces us to many mean Actions we are asnamed on; I have some Remorse on <hi>Victoria</hi>'s Account—and think it shocking that she must be forc'd to marry the Man she hates, but what would I not do to gain my Major <hi>Buck.</hi></p>
+</sp>
+<stage>Enter Major <hi>Buck's</hi> Footman.</stage>
+<sp>
+<speaker>Foot.</speaker>
+<p><stage>(Aside.)</stage> This must be the Lady, by the Description my Master has given me—Madam, if your Name's <hi>Victoria,</hi> I was ordered to deliver this Letter into your own Hands.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p><stage>(Aside.)</stage> Ha! 'tis Major <hi>Buck</hi>—his Footman —opening a Letter directed to <hi>Victoria</hi> is Barbarous —but the little God of Love must Answer for every Action that Passion hurries us to—</p>
+<stage>she Reads.</stage>
+<p>MADAM,<lb/>
+CAPTAIN <hi>Hearty</hi> has given me some Hopes of your not liking the Coxcomb your Parents have provided as a Husband for you; I beg you would give me leave to put
+<pb n="41" facs="47"/>it out of the Power of their making you Miserable; <hi>Hearty</hi> has informed me they have agreed you shall Marry in the Dark, and if you give me the least Hopes—I'll personate the <hi>Santista,</hi> and your Father shall give you to me; and as it will be his own Act and Deed, I doubt not of his being soon reconcil'd to us, for all my Estate stall be settled as he thinks fit; If you agree not to this, I am the miserablest Wretch now living.<lb/>
+I am, Your Admirer,<lb/>
+MAJOR BUCK.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Heark'e, Friend—tell the Major I like his Plot exceedingly well, and will punctually observe his Letter—there's something for your Pains—
+<stage>(gives him Money.)</stage></p>
+</sp>
+<sp>
+<speaker>Foot.</speaker>
+<p><stage>(Aside)</stage> —By this Light a <hi>Moeda.</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>If you meet any of the Family, deny your Business here and to whom you belong.</p>
+</sp>
+<sp>
+<speaker>Foot.</speaker>
+<p>I was ordered by my Master, Madam, to Foreswear every Thing—Lying handsomely was the first Qualification he took a liking to me for.</p>
+</sp>
+<stage>Exit Footman.</stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>Admirable cunning Witch, I'll spoil their Dark Intrigue, and fit 'em with Hypocrisy; and since he will Personate this <hi>Bisket,</hi> I'll be his <hi>Victoria,</hi> and make him mine in spite of all his cunning Plots.</p>
+</sp>
+<stage>Exit.</stage>
+</div3>
+<div3 type="scene">
+<head><stage><hi>SCENE</hi> Draws to the Camp.</stage></head>
+<stage>Enter Brigadier General <hi>Conquest, Mackentosh,</hi> and <hi>Cadwallader.</hi></stage>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>I knew it must be a Feint of the Enemy; they had only a mind to change the Situation of their Camp, for the better conveniency of Forage.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Af the <hi>Portuguese</hi> General were of my Mind, and the <hi>Spaniards</hi> wonnot Attack us, bred we would Attack them.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot knows, if I was within Arms length of a Tozen of my Enemies, here I wot has them, and there I wot has them, till they lookt like a Plew Apron.</p>
+</sp>
+<sp>
+<pb n="42" facs="48"/>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Your Bravery, Gentlemen, wants some Conduct to govern it, the Consequence of a Battle, were we beaten, might be the ruin of <hi>Portugal,</hi> for the Enemy wou'd March immediately to <hi>Lisbon.</hi></p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>B<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t an we lay'd about us with a gued Will, we wanno leave <hi>Lags</hi> enow for them to March thither with, Sir.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>And py my good will many of them shou't go thither without their Heads.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>If the whole Army had your Gallantry and Resolution, much might be done, but in a Number of Men there are always some Bashful on<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Gued Faith, I'll answer for our own Regiment, not a Man of us will duck his Head at a Cannon Ball.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Splutter her Nails I have a Company of pol<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <hi>Prittains</hi> shall make Toasted Cheese of 'em, and devour 'em when they have ton.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>I hope before the Campaign is over, we shall have occasion to Try their Courage—have you many Criminals for the Court-Martial.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Only a Fellow that committed a Rape, with Thieves and a Deserter.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Indeed we want Men, so that it 'tis for the goot of the Service to Hang no Poty.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>They are Summon'd to appear at my Quarters, and you are President.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Yes, gend Sir, and 'tis now about the Time of meeting, and they can pack out Officers that are well enough to make a Bord.</p>
+</sp>
+<stage>Enter Major <hi>Buck, Wildish, Hearty, O'Rourk, La Cunette,</hi> and <hi>Footman.</hi></stage>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p><stage>(to his <hi>Fostmon,</hi>)</stage> thou hast perform'd wonders, and she was very much pleas'd.</p>
+</sp>
+<sp>
+<speaker>Serv.</speaker>
+<p>Prodigiously overjoy'd, Sir.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p><stage>(E<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ing of them.)</stage> So, Gentlemen, you may Sleep in whole Skins, for this Night.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck</hi></speaker>
+<p><stage>(Aside)</stage> I am very glad on't, for methinks I'd willingly be married before I'm knock'd on the Head.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk</hi></speaker>
+<p>By my Shoule, I did lay a Vager with my nownself, dat dere vid be no Battle, and fait now I have won.</p>
+</sp>
+<sp>
+<pb n="43" facs="49"/>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Wall, Sir,— <stage>(to ORourk.)</stage> than you will be stall at your <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ricism, waunds, Sir, I naver mat a Man of Sance that came out of your country, but Major <hi>Buck,</hi> there.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>He is de very pritty Gentilman, he love de Ingenneer very well.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>Arrah, by my Shoul now I have catch'd you, dear joy, for he was born at <hi>Mac Farty,</hi> in the County of <hi>Tipperary,</hi> as well as my self, he did Suck of the same Nurse, he did Eat his Potatoes out of the same Backside, and his Bonny Clabber came from my Moder's Bull: Den how de Devil shou'd he have more Sence den I, by St. <hi>Patrick,</hi> he only speaks his vords one way, and I do speak them an oder vay, but we do mean de same Ting.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Exactly, my dear Country man.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>You are merry Gentlemen truly.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Jerny Divil if de Enemy no make a de Attack, vat vil de Battery signisie.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Jast as much, Sir, as if they had made an Attack, it would have been of no use.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot knows, then it wout have pin like him self.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>You are de Gentilmens Soultiers, dat know hou to mount de <hi>Brech,</hi> beat a de Parley, Exchange a de Hostage, make a de Article, and take a de Town, but you know noting of de Fortifications, I am de Gentilman, dat can make a de Hornwork, and de Crownwork before de curtain, de single Tenaille, de double Tenaille, de Fort, de Citadell, de Mine, and de Draw-Brige, begar, clap a de Ravelin upon de Ravelin, and keep a de Town from a Surrenter, ten Undred Thousand Year.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>If I hat a Prittain in my Company, shout tell me such a story, I know what I wot tell him.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>I have seen him throw a Bomb into a Snuff-Box.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Will you justify this to any Shentleman's face, Sir.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Tis very true begar.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Ay and seen him shoot a Cannon Ball point
+<pb n="44" facs="50"/>blank between a Spanish Horse's Legs, and take away nothing but his Tale.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Are you a Man of Honour, Sir, and tell such a parcel of what shall I call 'em.</p>
+</sp>
+<sp>
+<speaker>Capt <hi>La C.</hi></speaker>
+<p>I remember de Ting ver well, it was upon de Wager.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>But I shall never forget his Blowing up the Citadel without springing a Mine, or having any Gun-Powder to do it with.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Oh I had served twenty Citadels so before dat.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Plow up the Citadel without Gun Powder, dere is my Glove—any Shentleman that will pretent to insist upon the truth of this Tings, by St. <hi>Tavit,</hi> I will have his Plout.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>What do you mean by that?</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>I toe mean, Sir, that every Soultier ought to pe a Man of Honour, that will stant to every Ting he says, or peg Parten for telling of Lyes; who takes up my Glove?</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Prithee <hi>Cadwallader,</hi> take up the Glove your self, or I shall confine you, don't you perceive these Gentlemen are merry.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Can you not find out, Man, that they talk these storys to laugh at tha <hi>French man,</hi> and not affront you, Sir, but you would be a better Man than you are, if you could govern your Passions better.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Why if the General to think me in the wrong, Cot knows, I will eat my Glove my self, and kiss you all rount, put the <hi>Frenchman</hi> here.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Ha, ha, for all dat, I cannot help tinking my self de greatest Ingeneer in de hole Vorld, notwithstanding your Vauborn, Cohorn, and dem Gentlemen</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Wounds, Sir, an I cannot help thinking another Thing.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>Vat is that, my good Colonel?</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>That you are the conceitedest sally Fellow, that your Country ever bred, Sir, and ge<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>d faith, they have b<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ed abundance.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk</hi></speaker>
+<p>By my Shoul, and so they have, Sir, arrah, I know several of his Countrymen, dat have
+<pb n="45" facs="51"/>been Born and Bred in <hi>Ireland,</hi> and dey have been very silly Fellows, but very great Matematicians, by my Shoul.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Well said, my dear Countryman.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Will these Animosities and Country Reflections never cease, for shame Gentlemen, be more united amongst yourselves, if you're so mutinous when Sober, shure you're very quarrelsome in your Drink.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Geud faith, Sir, Sober or Drunk I'le always speak Truth, an I would have Flatter'd, Sir, I woul't have a Regiment afore now.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>An I whot have pin as unjust as other People, I wot have pin very Rich.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. Con.</speaker>
+<p>Are all these Gentlemen upon the Court-Martial.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Ary Soul on 'm, Sir.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>The more haste you make to dispatch it in, the more time we shall have for Mirth; generous Wine is the great preservative of our Healths, in these sickly Times, and I'll give you a Bottle of the best in <hi>Portugal,</hi>—come, Gentlemen, let us March, — <stage>(he goes out, the rest of the Company following him.)</stage></p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p><stage>(To Major <hi>Buck.</hi>)</stage> by my Shoul, my dear Major, I was very glad to see you, before I did hear you was come from <hi>England</hi></p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p><stage>(Mimtcking of him,)</stage> <hi>Arrah,</hi> my dear Countryman, I will be after kissing of you for your Friendships.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>If I was to live a Hundred Years, by my Shoul I would tay to Morrow, that I might serve you.</p>
+</sp>
+<stage>Exeunt.</stage>
+<stage><hi>Enter Serjeant</hi> File-off, Charlotte, Clara, Willmot, <hi>and other Soldiers.</hi></stage>
+<sp>
+<speaker>File off.</speaker>
+<p>So, Sir, March 'em this way—take long strides, turn out your Toes—keep the distance of your Pike from 'em, and once in four Steps look back with a scornful Countenance,—very well, now halt, face about upon one Heel, stick your Pike in the Ground, shake your Head,—and with a terrible Voice, cry Silence.</p>
+</sp>
+<sp>
+<pb n="46" facs="52"/>
+<speaker>Char.</speaker>
+<p>Silence.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>Now pull out your Snuff-Box, walk pragmatically two or three Times along the Front, give your half Pike to your Foot-Boy—and Erect your Cane with a sort of a Flourish—now you may if you please Swear a Hundred Oaths at each Soldier— tho' of late that part of the Discipline is left off, for the more Substantial one of Caning,—see that every Soldier stands Erect, turns out his Toes and lets his Firelock hang easy on his Shoulder—now, Sir, give your self a few Military Airs.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p><stage>(Strikes one of the Fellows.)</stage> Is that a Posture for a Gentleman Soldier, Sirrah, (to another.) who cockt your Cap for you. Dog, ha!—(to another) I'll teach you to roll your Neckcloth better Villain, (to another) how dare you appear without powder'd Hair, and a clean Shirt, do you think you five Pence a Day is allow'd you only to Eat and Drink with, Rascal— to <hi>Willmot</hi>—what the Devil for a Fellow have we got here, clap your Piece thus, Sirrah, your Hand here, and hold up your Head, or I'll knock it off your Shoulders.</p>
+</sp>
+<sp>
+<speaker>Wilm.</speaker>
+<p>This is a worse Plague than any I have yet met with.</p>
+</sp>
+<stage>Aside.</stage>
+<sp>
+<speaker>File off.</speaker>
+<p>Upon my Honour, Sir, you take Notice of every Thing as exactly, as if you had been a Major this thirty Years.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>What's the meaning of your Lock being so rusty, Sirrah.</p>
+</sp>
+<sp>
+<speaker>Sold.</speaker>
+<p>Why I stood Centry in the Rain, I'm put upon double Duty, and had not Time to clean it.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p><stage>(Beats him.)</stage> do you mutter, Sirrah, how dare you pretend to give a Reason for any Thing I have a mind to find Fault with.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>No General Officer could have said a more Soldier like Thing, than that.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>I find my Mistress is resolved to be Revenged upon the whole Sex—</p>
+</sp>
+<stage>Aside.</stage>
+<sp>
+<speaker>File-off.</speaker>
+<p>Now, Sir, pray try if you can Remember the Exercise.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Silence — Clap your Right Hand to your Firelocks.</p>
+</sp>
+<sp>
+<pb n="47" facs="53"/>
+<speaker>File-off.</speaker>
+<p><stage>(To the Soldiers)</stage> altogether there.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Porse your Firelocks—to <hi>Wilmot</hi>— Villain, I'll stick you if thou do'st not mind the Words of Command.</p>
+</sp>
+<sp>
+<speaker>Wilm.</speaker>
+<p>I wish he would, that I might be eas'd of his Damn'd Impertinence.</p>
+</sp>
+<stage>Aside.</stage>
+<sp>
+<speaker>Char.</speaker>
+<p>Rest your Fire locks, Fools, Blockheads, Dogs, do it all together.</p>
+</sp>
+<sp>
+<speaker>File off.</speaker>
+<p>That Passion of Yours is very graceful, and is one of the politest Parts of the Art Military.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p><stage>(beats <hi>Wilmot.</hi>)</stage> Villain, I'll have thee tied Neck and Heels immediately, thou awkward Dog.</p>
+</sp>
+<sp>
+<speaker>Wilm.</speaker>
+<p>My Soul's above taking a Blow from such a Rascal as thou art <stage>(presenting his Piece.)</stage> therefore at they Heart.</p>
+</sp>
+<stage>The Serjeant knocks the Piece out of his Hand, and they seize him.</stage>
+<sp>
+<speaker>File-off.</speaker>
+<p>What is the Fellow mad, mutinying against your Officer, and Conspiring his Death, thou wilt be Shot, my Dear.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Oh! Heavens what an Escape was here.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>If you please, Sir, we'll carry him to the <hi>Prova's,</hi> the Court Martial sits immediately, he may be Condemn'd to Day and Shot to morrow.</p>
+</sp>
+<sp>
+<speaker>Wilm.</speaker>
+<p>The sooner the better, I'm weary of my Life, and wish to lose it.</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>Nay I can come in as a witness to prove he is a bloody minded Dog.</p>
+</sp>
+<sp>
+<speaker>2d Sold.</speaker>
+<p>And I heard him say when <hi>Roger</hi> and I were talking politickly of our coming from <hi>England</hi> to support the <hi>Portuguese</hi> against Arbitrary Power and Popery, and to maintain them in Liberty and Property and so forth, he made Answer they might go and he Damn'd.</p>
+</sp>
+<sp>
+<speaker>1. Sold.</speaker>
+<p>No, he did not say so bad as that, neither, he only wish'd 'em all at the Devil.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Drag him along murdering Rascal, I'll see the End of him.</p>
+</sp>
+<sp>
+<speaker>Wilm.</speaker>
+<p>As I would of thee if was I at Liberty.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Pray hold him fast.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>Here—you two March before him, —and you two follow him if he offers to make his Escape, shoot him Dead on the Spot.</p>
+</sp>
+<sp>
+<pb n="48" facs="54"/>
+<speaker>1. Sold.</speaker>
+<p>As a Herring Serjeant, I warrant you— I have an old Ninimosity against him, and therefore will be sure to lodge my Bullets as near his Heart as I can.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p><stage>(At the Head of 'em)</stage> march.</p>
+</sp>
+<stage>Exeunt all but <hi>Charlotte</hi> and <hi>Clara.</hi></stage>
+<sp>
+<speaker>Clara.</speaker>
+<p>'Tis well he is secur'd, I tremble every Joint of me; what, dear Madam, could provoke you to run this Hazard.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Revenge, Revenge, my dear <hi>Clara,</hi> I'm weary of my Life, and since I've lost my <hi>Willmot,</hi> I'll conspire the Death of all his Sex.</p>
+</sp>
+<sp>
+<speaker>Clara.</speaker>
+<p>And so die in the Attempt; pray give o'er these bloody-minded Resolutions, confess yourself a Woman, and let's take the first Opportunity of returning to <hi>England.</hi></p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>I'm resolv'd to signalize myself before I leave the Army, and let the World see how much they are mistaken in my Sex's Cowardice. Come along, <hi>Clara</hi> I'll gain a Regiment, and make thee a Captain.</p>
+</sp>
+<sp>
+<speaker>Clara.</speaker>
+<p>Nay, Madam, I vow I think your Courage inspires me.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>'Tis about the Time I promised my Captain to attend him at the General's, come along, my Girl.</p>
+<l>How well, how great 'twill look in after Story,</l>
+<l>When they shall read a Woman gain'd this Glory,</l>
+<l>To fight, to vanquish, govern and command,</l>
+<l>And like a Hero dy'd with Sword in Hand.</l>
+</sp>
+<stage>Exeunt.</stage>
+<stage>Enter Second <hi>Ensign.</hi></stage>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Why, here now have I taken Money for Brandy, and gone and lost it at the Pinch-Office; nay, Brandy won't setch it again: I must lug out my Livelyhood the Moment Brother <hi>Surly</hi> comes, that's certain —why the Devil should I grudge fighting with him for thirty Shillings, when every Day I venture my Life for Two and Six pence.</p>
+</sp>
+<stage><hi>Enter</hi> Surly.</stage>
+<sp>
+<speaker>Sur.</speaker>
+<p>Oh! your Servant, Sir; well, where's the Brandy.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Why, hav'ent—you—got it—I—
+<pb n="49" facs="55"/>I—and you hant it; my Dog of a Servant; and so you have not got it.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Lookee, Sir, I'm well assur'd neither you nor I have it; you have lost my Money at the Pinch-Office, brag'd of over-reaching me, and made me the laughing Stock of the Company; therefore draw.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Draw—ay, with all my Heart; and you positively have not had the Brandy; why then, I'll make it my Bargain, if I kill you, it shall be in full of all Accounts: I'll give your Executors and Administrators no farther Satisfaction—then Witness my Hand, and so forth.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>I'll give you a Receipt in full for your Jest immediately; come, Sir—<hi>as they are going to fight, enter first</hi> Ensign, <hi>his Hat full of Money, goes between 'em.</hi></p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>What, because the Enemy won't fight with us, we must quarrel amongst ourselves, must we? Put up your Swords, or I swear by the Pinch-Office I'll throw a Handful in your Faces, and demolish your Countenances, so that you shall lose the Use of 'em.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Ha! Gold <stage>(throwing away his Sword)</stage> Sir, I beg my Life with all my Heart, I'm sorry I have offended you: my dear Comrade, I adore thee; put on my Hat, you'll catch cold.</p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>None of your coaxing—here, take a Pocket full, and pay your Debts.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>There, Sir, <stage>(to <hi>Surly.</hi>)</stage> there's your paultry Sum, I scorn to be in any Man's Debt, I love to pay every Body his own, and no Body can charge me with doing any Thing that's unlike a Man of Honour, and an Officer.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>Why, Brother, your Friend and Servant, and so forth.</p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>Do you know of any Body that has a mind to part with a Regiment; I'll either buy a Regiment, or go and keep a Bank.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>By all means keep a Bank: If we thrive, there will be Money enough to buy two Regiments.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>And if you don't.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Why we shall be just in the same Condition we were in an Hour ago.</p>
+</sp>
+<stage>Enter Serjeant <hi>File-off.</hi></stage>
+<sp>
+<pb n="50" facs="56"/>
+<speaker>1. Ensi.</speaker>
+<p>Oh! Serjeant, did you go to my Man.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>Ay, Sir, and he told me you had bamboard me, and he was sure, I was bit: For there had not been a <hi>Moeda</hi> in your green Purse since the last Pay-Day.</p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>An impudent Dog, to disgrace his Master so; I'll pay him his Wages, and force him to carry Arms. —Here, Serjeant, I never let a Man come twice after me for Money.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>I always said you were an honourable Gentleman—there is a Court-Martial at the General's Quarters. I was order'd by the President to desire you would all attend there immediately: I suppose you have been summon'd already.</p>
+</sp>
+<sp>
+<speaker>1. Ensi.</speaker>
+<p>Adso, must I spend none of my Money till the Court-Martial is over; that will be a devilish Self-denial; but come along.</p>
+</sp>
+<sp>
+<speaker>2. Ensi.</speaker>
+<p>Let's be serious, we are to be Judges of Life and Death.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>And to hang, draw and quarter with ourselves.</p>
+</sp>
+<stage>Exeunt.</stage>
+</div3>
+</div2>
+<div2 n="5" type="act">
+<head>ACT V.</head>
+<div3 type="scene">
+<head><hi>SCENE</hi> <stage>the General's.</stage></head>
+<stage><hi>Enter Mrs.</hi> Conquest <hi>and</hi> Belinda.</stage>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>I Have told the General my Resolution, and he's well pleas'd they should be marry'd this Night; he thinks it a very silly Whim of the Girl to have the Ceremony perform'd in the Dark; but however I have persuaded him to consent to it.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Since 'tis her Fancy, I would by no means have you against it,
+<stage>(aside.)</stage> <hi>'tis the only Stratagem I have, or can propose, to make</hi> Major Buck <hi>mine.</hi></p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>After the Court-martial, my Husband has invited all the Officers to sup with him; he'll steal out and have the Ceremony perform'd, and then surprize them with the Wedding.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Then I hope Mirth will crown the Evening,
+<stage>(Aside.)</stage> and much Company will favour my Design.</p>
+</sp>
+<stage>Enter <hi>Bisket</hi> drest like a Fop.</stage>
+<sp>
+<speaker>Bisk.</speaker>
+<p>How do you like me now, my dear Mother inLaw—won't
+<pb n="51" facs="57"/>this Sight win her Heart, <hi>Belinda▪</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Your Dress is very elegant.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Do but smell how I'm perfum'd.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Ah! dear Son-in Law, don't come near me, your Perfumes strike me dead, I'm all over Vapours.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Heigh day! good lack! why then my Essence is become a Nuisance, I am sorry I put myself to the Charge of offending you, and wish with all my Heart I had come as I us'd to do.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Your natural Smell will soon get the better of those stinking Sweets.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>I vow I hope they will; I protest I thought Perfumes had been a Mark of Gentility.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Well, the General has agreed to all our Proposals, your Mistress has consented, and therefore you may in a few Hours prepare to be happy. <hi>I must about my Family Affairs.</hi></p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Bisk.</speaker>
+<p>I don't care how-soon the Ceremony is over, —for I met that terrible-looking Fellow, my Rival, just now, and he cast such an inveterate Eye at me, that my poor Heart has flutter'd up and down, like a wild Jack-Daw in a Wicker Cage, ever since.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Oh! there's no fear of him, I'll take care he shall not molest you, 'tis your Mistress's Pleasure you should marry in the Dark, the Company is to be surpriz'd with your good Fortune, for you are to steal out one by one—I'll tell you when 'tis your Cue.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Adad very pretty, that will be wiping the Major's Nose with one of my own Handkerchiefs. Thou art a delicate Creature, Mrs. <hi>Belinda,</hi> and for your good Offices, I protest when my Wife dies, you shall be my second, if you please,
+<stage>(Aside.)</stage> <hi>tho' I'd as lieve be married to the Devil.</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Well, when that Day comes, I shall claim your Promises, <stage>(Aside.)</stage> <hi>tho' Death to me would be much pleasanter to me than such a Coxcomb</hi>— <stage>(to him.)</stage> Come, Sir, we'll go to your Mistress, keep close to her, lest she changes her Mind.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Oh! when she sees me thus compleatly drest, 'twill be impossible for her to deny me any thing; methinks I do look very bewitchingly, <hi>Belinda.</hi></p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>I have much a-do, to keep from admiring you.</p>
+</sp>
+<sp>
+<pb n="52" facs="58"/>
+<speaker>Bisk.</speaker>
+<p>Say'st thou so, poor Girl; why then I won't look lovely on you, but squint when I turn towards you.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Come, keep your fine Words, and look for your <hi>Victoria.</hi></p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>I protest and so I will.</p>
+</sp>
+<stage>Exeunt.</stage>
+<stage>Enter the <hi>Provost,</hi> several Criminals, <hi>Willmot</hi> in Chains, with a Guard, and Soldiers Wives.</stage>
+<stage><hi>Before they come in, they cry</hi> "make Way there."</stage>
+<!-- just a guess-->
+<sp>
+<speaker>Prov.</speaker>
+<p>Stand by, have a nice Eye upon that dogget Fellow, he has a very hanging Look.</p>
+</sp>
+<sp>
+<speaker>1. Trull.</speaker>
+<p>Ah! my dear Husband, I'm the unfortunatest Woman in the World, to be married to eleven, and to have 'em all come to untimely Ends, 'tis a great Grief.</p>
+</sp>
+<sp>
+<speaker>2. Trull.</speaker>
+<p>No, no, 'tis no Misfortune to you, it's what you have been us'd to, and use is a second Nature; but I that have had thirteen Husbands, and the last only to come to an ill end, 'tis a terrible, dismal, horrid Story, so it is.</p>
+</sp>
+<sp>
+<speaker>1. Crim.</speaker>
+<p>Prithee hold thy Tongue, I'd rather die than be sent sick to the Hospital; as for you, Moll, an I'm condem'd, I bequeath you to my Comrade.</p>
+</sp>
+<sp>
+<speaker>2. Trull.</speaker>
+<p>Ah, good now, don't, dear Salt Petre, any Body but he my good Husband.</p>
+</sp>
+<sp>
+<speaker>1. Crim.</speaker>
+<p>Hold your Tongue, Fool, 'tis my last Will and Testament, and I will have it obey'd, or I won't die quietly.</p>
+</sp>
+<sp>
+<speaker>2. Trull.</speaker>
+<p>Cries.</p>
+</sp>
+<sp>
+<speaker>2. Crim</speaker>
+<p>Well, <hi>Alice,</hi> my last dying Speech is e'en marry whom you will, all my Comfort is, when I'm once hang'd, I can't be married to you again.</p>
+</sp>
+<sp>
+<speaker>1. Trull.</speaker>
+<p>Ah, ah, I knew you were nigh your end, by your talking so light headedly about the Wise of your Bosom.</p>
+</sp>
+<sp>
+<speaker>1. Crim.</speaker>
+<p>Well, hanging to me is a strange thing, I'm like a Fish out of Water—and don't know whether I should repent of my Sins before I'm condemn'd, or after.</p>
+</sp>
+<sp>
+<speaker>2. Crim.</speaker>
+<p>Ah, the sooner you begin the better, for you have a woundy many to answer for; now thank my Stars, my Conscience is not much troubled, I have only the common Army Sins, of whoring, drinking, thieving, murder, lie at my Door.</p>
+</sp>
+<sp>
+<pb n="53" facs="59"/>
+<speaker>Willm.</speaker>
+<p>Oh! horrid—such wicked Wretches I never met with; the Misery of suffering with 'em, is more than the Pains of Death can be—well, Fellow, what do we stand here for; why don't you lead on?</p>
+</sp>
+<sp>
+<speaker>Prov.</speaker>
+<p>I loiter the Time away, that you may prepare yourself for dying, for you will be hang'd, Friend, very suddenly.</p>
+</sp>
+<sp>
+<speaker>Willm.</speaker>
+<p>Make haste, and lead me to it; I wish for't, that I may be rid of thee, Rascal.</p>
+</sp>
+<sp>
+<speaker>Prov.</speaker>
+<p>Lookee, an you don't give good Words, you shan't be hang'd this Week, nay, may be never.</p>
+</sp>
+<sp>
+<speaker>1. Crim.</speaker>
+<p>The Devil's in the Fellow I think, for provoking of him; would I was over Head and Ears in Death, and then I should be out of my Pain.</p>
+</sp>
+<sp>
+<speaker>2. Trull.</speaker>
+<p>I'm sure I shall have no Comfort of my Life till 'tis over with you, either one way or other.</p>
+</sp>
+<sp>
+<speaker>Prov.</speaker>
+<p>Come—march on— <stage>(they go out in the Order they came in, and the Women cry)</stage></p>
+</sp>
+</div3>
+<div3 type="scene">
+<head><stage>SCENE draws to the Generals.</stage></head>
+<stage>A Table and Chairs for the Court-Martial.</stage>
+<stage>Enter Judge Advocate, and his Clerk.</stage>
+<sp>
+<speaker>Judge.</speaker>
+<p>Come, take out the Copy of all the Courts-Martial, and lay the Articles of War, and the Book to swear Witnesses with, in their proper order; we have but little Business To-day, no intricate perplexing Matters, nothing but down right Sentence of Death; it will be soon over.</p>
+</sp>
+<sp>
+<speaker>Clerk.</speaker>
+<p>Ah, there's a great deal of Pleasure in our Trade, where a Man's Life depends upon one single Article; a Sentence of Death is given in a Moment, but when they come to fending and proving, it occasions a great deal of Writing.</p>
+</sp>
+<stage>Enter Colonel <hi>Mackentosh,</hi> Major <hi>O'Rourki,</hi> Major <hi>Buck, Cadwallader, Wildish, Hearty,</hi> Captain <hi>LaCunette, Surly, Rag, Standard,</hi> and three other Officers, to make up the Court-Martial.</stage>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Come, bonny Lads—tak your Sessions according to'll your Qualities; our Officers are so sackly, that we were forc't to summons aw you Subalterns; come, seat your sals. Wall, Mr. <hi>Judge,</hi> lat us begin as soon as you please.</p>
+</sp>
+<sp>
+<speaker>Judge.</speaker>
+<p>Gentlemen, you are by Virtue of a Warrant,
+<pb n="54" facs="60"/>sign'd by the General, to enquire into all Complaints and Misdemeanours that shall come before you; and upon Witness, or Confession of the Party, you are to proceed to give judgment, according to the Articles of War. You have already been sworn, Gentlemen, and may proceed</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Have you a List of the Prisoners, and their Crimes.</p>
+</sp>
+<sp>
+<speaker>Clerk.</speaker>
+<p>It lies before your Honour.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Here, give it me, I will look it over.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p><stage>(Snatches it from him.)</stage> waunds, that's when I have done with it, Sir.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Coot now, what a Passion hur is in; if we were not upon Pussiness, hur cout be in as great a Passion as herself, Cot knows.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Well, my Ladds, an you thank fat we'll gang upon the Affairs.</p>
+</sp>
+<sp>
+<speaker>Aito.</speaker>
+<p>As soon as you please.</p>
+</sp>
+<sp>
+<speaker>Judge.</speaker>
+<p>Call in <hi>John Tinder-Box,</hi> and the Witnesses against him.</p>
+</sp>
+<stage><hi>Enter one</hi> Criminal, <hi>and two</hi> Witnesses.</stage>
+<sp>
+<speaker>Clerk.</speaker>
+<p><stage>(To the Witnesses.)</stage> Come here, you.
+<stage>(He makes as if he swears 'em.)</stage></p>
+</sp>
+<sp>
+<speaker>Judge.</speaker>
+<p>Friend—what have you to say against the Prisoner?—stand forward.</p>
+</sp>
+<sp>
+<speaker>1. Wit.</speaker>
+<p><hi>Exce'entissimos</hi> Esta Ladrono, Diabolo Soldada <hi>vincoe, me a causaitomar um porca &amp; todos: neos couses—per mangero—se senhor procerto.</hi></p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>By my Shoule, dear Joy, I do not think he is a good Vitness; for, as de Fellow must be try'd by the Laws of his own Country, so it ought to be upon de Allegatory of de Vitnesses of his own Country too.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Well said, Country-man.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Look here now, this is a nice Point, and a very knotty Part of the Law.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>Geud Sir, and you understand <hi>Portugueze</hi> as wile as oy, you'd find the Prisoner that is before you has been a Rogue, that has stole aw the Fellow's Vittals; I think we should agree to hang him; what Desance have you to mak for your sal, Sir?</p>
+</sp>
+<sp>
+<speaker>Crim.</speaker>
+<p>Why, and please your Judge-ship, none at all, but that he's a <hi>Papish.</hi></p>
+</sp>
+<sp>
+<pb n="55" facs="61"/>
+<speaker>Cadw.</speaker>
+<p>Well, that is a pretty Court Reason too.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>And your Hatred to his Religion made you steal his Provisions.</p>
+</sp>
+<sp>
+<speaker>Crimi.</speaker>
+<p>I plunder'd him out of pure Zeal, noble Major; besides, I must have starv'd if I had not don't; so I plead the General Statute, which is, Necessity has no Law.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>Wild.</hi></speaker>
+<p>Why, are you not paid your Subsist?</p>
+</sp>
+<sp>
+<speaker>Crim.</speaker>
+<p>Why, not enough to subsist on: One Year indeed I have a new Coat; next Year I make a Waistcoat on't; the third Year a Pair of Breeches; and after that, it makes a Cap; the Commissary of the Stores makes my Captain pay <hi>Four</hi> and <hi>Six-pence</hi> for an <hi>Irish</hi> Pair of Shoes, worth <hi>Half</hi> a <hi>Crown;</hi> and he stops but <hi>Five Shillings</hi> oat of my Subsist for 'em.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>Hearty.</hi></speaker>
+<p>The Fellow looks as if he'd tell us our own.</p>
+</sp>
+<sp>
+<speaker>Crim.</speaker>
+<p>I have heard of Contingencies, and People's doing Justice; but I never met with any Thing but Stoppages and Hardships.</p>
+</sp>
+<sp>
+<speaker>Judge.</speaker>
+<p>Friend, the Court has been so favourable, as to give you the Liberty of justifying yourself, instead of which you are accusing other Folks.</p>
+</sp>
+<sp>
+<speaker>Crim.</speaker>
+<p>No, Sir; I'm only shewing you, that their stealing from me, is the main Cause of my stealing from others.</p>
+</sp>
+<sp>
+<speaker>Capt. <hi>La C.</hi></speaker>
+<p>He is a damn'd Rogue; he ought to be hang't for speaking against all de Perquisites of de Army.</p>
+</sp>
+<sp>
+<speaker>Cadw.</speaker>
+<p>Cot knows you are a Man of pritty Conscience, to hang a Gentleman Soultier for speaking Truth.</p>
+</sp>
+<sp>
+<speaker>Judge.</speaker>
+<p><stage>(To the other Witness.)</stage> Are you a Witness, Friend?</p>
+</sp>
+<sp>
+<speaker>2. Witn.</speaker>
+<p>I'm the Interpreter to this <hi>Portugueze,</hi> and will swear any Thing he says.</p>
+</sp>
+<sp>
+<speaker>Col. <hi>Mac.</hi></speaker>
+<p>You may all withdraw, Sir; charge the <hi>Provost</hi> with his Prisoner there.</p>
+</sp>
+<sp>
+<speaker>Crim</speaker>
+<p><stage>(to the Clerk.)</stage> Sir, here's half a Crusade for you, only to tell me how you think it will go with me.</p>
+</sp>
+<sp>
+<speaker>Clerk.</speaker>
+<p>Why, Friend, you know I'm Sworn to Secresy, but provided you'll never declare it to any Body, I will tell you.</p>
+</sp>
+<sp>
+<pb n="56" facs="62"/>
+<speaker>Crim.</speaker>
+<p>Not I, upon my Soul, Sir.</p>
+</sp>
+<sp>
+<speaker>Clerk.</speaker>
+<p>Then you'll certainly be hang'd, as I'm now alive.</p>
+</sp>
+<sp>
+<speaker>Crim.</speaker>
+<p>Sir, I thank you, it shall go no further for me.</p>
+</sp>
+<stage>(<hi>Exeunt</hi> Criminal <hi>and</hi> Witnesses.)</stage>
+<sp>
+<speaker>Judge.</speaker>
+<p>Call in <hi>Straitup,</hi> and the Witnesses against him.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>That's your sine Gentleman I think, Major <hi>Buck.</hi></p>
+</sp>
+<sp>
+<speaker>Maj. <hi>Buck.</hi></speaker>
+<p>Yes truly a very sine Fellow he would have Murdered his Officer.</p>
+</sp>
+<stage><hi>Enter</hi> Willmot, Charlotte, <hi>and</hi> File-off.</stage>
+<sp>
+<speaker>Judge.</speaker>
+<p>Stand there, Sir, what have you to say against the Prisoner?</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>As I was upon my Duty, exercising some Soldiers, this Fellow behaved himself very awkwardly, and with an air of stubbornness, for which I very gently corrected him; he immediately presented his Piece at me, and if it had not been for the Serjeant here, had shot me through the Head.</p>
+</sp>
+<sp>
+<speaker>File-off.</speaker>
+<p>Yes had I not prevented him, he had lodg'd a brace of Bullets in my Officer's Skull.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Wounds, Sir, this was an insolency that an you had ran him through the Body, Sir, or cut him to pieces, ye had been justified, but we'll take care to see him hang'd, as an Example to aw bloody Rogues.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot knows I am for roasting him alive, hat you the Desle pefore your Eyes, you Villain you</p>
+</sp>
+<sp>
+<speaker>O'Rourk.</speaker>
+<p>By my shoul he sholt be twenty Years hanging upon a Gibbet, and then he will die a lingering Death.</p>
+</sp>
+<sp>
+<speaker>La Cu.</speaker>
+<p>Jerney blew, serve him like de Protestant in <hi>France.</hi></p>
+</sp>
+<sp>
+<speaker>Willm.</speaker>
+<p>Gentlemen, I'm sensible this Court has great Power, and therefore are Judges of Life and Death; I have long been weary of my Life, and wished to have lost it nobly in the Field; I was never us'd to Blows, and therefore the insolence of this young Fellow provok'd the Passion, which led me into that rash Action; and since your Sentence is pass'd on me, I'll die contented,—but know I'm a Gentleman of a plentiful Estate, and good Family, in <hi>Cornwall;</hi> I was imposed
+<pb n="57" facs="63"/>on by an ungrateful Woman, whom I long had lov'd, her usage forc'd me from my native Country, and was the cause of this my shameful Sentence! O cruel barbarous <hi>Charlotte!</hi></p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Oh Heavens! what do I here:</p>
+</sp>
+<stage>she swoons in the Serjeant's Arms.</stage>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p><stage>(Rises.)</stage> What ails the young Fellow?</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p><stage>(Recovers.)</stage> Oh! <hi>Willmot, Willmot,</hi> wretched, most wretched <hi>Charlotte!</hi></p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>Ha, did she say <hi>Charlotte,</hi> Fool that I was, not to find her out; 'tis she, 'tis she, the perjur'd, charming, false deluding, <hi>Charlotte.</hi></p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>'Tis indeed a Woman, and a very soft bewitching one.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Waunds an Women begin to turn Officers, 'tis Time for Men to gang Hame about their affairs.</p>
+</sp>
+<sp>
+<speaker>Judge.</speaker>
+<p>The Clock has struck One, so we must adjourn the Court till to-morrow at Ten.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>By my Shoul, 'tis high Time to adjourn a Court, ven so intricate an Affair as this comes upon us.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot knows, 'tis a point in Law, put if I was alone py my shelf, I could decite it to poth theirs Satisfactions.</p>
+</sp>
+<sp>
+<speaker>La Cu.</speaker>
+<p>'Tis de very knotty point, a begar ve don't know veder he's to be married or hang'd.</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>Her sits are very strong, for Heaven's sake, call the Ladies and acquaint the General with this accident, to him I'm known.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>That shall be my Arrant.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>if you have an Opportunity, acquaint <hi>Victoria</hi> with our design.</p>
+</sp>
+<stage>Aside.</stage>
+<sp>
+<speaker>Wild.</speaker>
+<p>You may assure yourself I will.</p>
+</sp>
+<stage>Exit Wildish.</stage>
+<sp>
+<speaker>Char.</speaker>
+<p><stage>(Recovers.)</stage> Oh! where's my <hi>Willmot?</hi></p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>Here, perfidious Charmer!</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Have I run all the Hazards in the World to find thee out, repented of my ill usage to thee, and thus far followed you to take away your Life, 'tis a grief I never can survive.</p>
+</sp>
+<stage><hi>Enter</hi> Clara.</stage>
+<sp>
+<speaker>Cla.</speaker>
+<p>—Oh! Heavens what ails my dear Lady.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Oh! <hi>Clara,</hi> see there my <hi>Wilmot,</hi> no sooner
+<pb n="58" facs="64"/>found than lost, and 'tis by my prosecution he must suffer Death.</p>
+</sp>
+<sp>
+<speaker>Cla.</speaker>
+<p>Say not so, my dear Lady.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Waunds, Madam, an that be your Grief; we shall never hang a Man for a Woman, an you had been a real Officer, geud faith aw his Estate shou'd not have bought his Life.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>And is he not to suffer Death?</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>An you dono kall him with kindness, he may live till he's weary of you.</p>
+</sp>
+<sp>
+<speaker>Maj. <hi>O'Rourk.</hi></speaker>
+<p>By my Shoul, that is all our opinions.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Nay, and it is mine too.</p>
+</sp>
+<stage><hi>Enter Brigadier General</hi> Conquest, <hi>Mrs.</hi> Conquest, Belinda, <hi>and afterwards</hi> Wildish, <hi>and</hi> Victoria.</stage>
+<sp>
+<speaker>Wild.</speaker>
+<p><stage>(to Victoria.)</stage> nothing can redeem you but that.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p><hi>Willmot,</hi> my dear Friend, it is with wonder and surprise, I've heard your Story.</p>
+</sp>
+<sp>
+<speaker>Wilm.</speaker>
+<p>See there, Sir, is your Niece <hi>Charlotte.</hi></p>
+</sp>
+<sp>
+<speaker>Women.</speaker>
+<p>Charlotte!</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>I'm all amazement, come to my Arms, my dearest Child.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Cousin, this is romantick truly.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Have you serv'd me so, Mad-cap; you are under my Command now, and I'll take care to give you a Post for Life; there, <hi>Willmot,</hi> lift her under you, and if she offers to desert, the Court Martial she brought you too, is still in being.</p>
+<p>Come, Gentlemen, this is a joyful Day, you have been Judging on Life and Death; you now shall at the same Table, try the Cause over a Bottle: Some Wine here, pray use no Ceremony, you all are welcome.</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Observe, Madam, how he eyes her <stage>(to Mrs. <hi>Conquest.</hi>)</stage> if you hasten not the Match, he certainly will find means to break it off, and then she's miserable.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>The Chaplain is in the Parlour waiting for 'em, it shall be done immediately.</p>
+</sp>
+<stage><hi>Enter</hi> Bisket.</stage>
+<sp>
+<speaker>Bis.</speaker>
+<p>A Woman my Friend, Mr. <hi>Hickumbuz,</hi> a Woman at last, and my Cousin that is to be; adad, if, I had known that as we Travel'd, I should have made use of the Opportunity of lying in the same Room with her.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p><stage>(to her Husband.)</stage> My dear, I have particular Reasons, for hastening the Marriage, the Chaplain
+<pb n="59" facs="65"/>waits for you in the Alcove, and the Room is darken'd.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>It shall be done forthwith—
+<stage>(to them.)</stage> come, Gentlemen, pray, drink about, Colonel <hi>Mackintosh,</hi> my Service to you, this Couple's health.
+<stage>(pointing to <hi>Wilmot</hi> and Charlotte.)</stage>—I must beg your Pardons, for a Moment, I'll wait on you again, before the Bottle goes round, and we will be very merry
+<stage>(<hi>to</hi> Bisket unobserv'd.)</stage> do you follow me to the Alcove, the Chaplain waits for you.</p>
+</sp>
+<stage><hi>(Exit</hi> Brig. Gen. <hi>Conquest.</hi></stage>
+<sp>
+<speaker>Bisk.</speaker>
+<p>He shan't wait long for me, I warrant you.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>So my Father's gone, they need not have bid me counterfeit a Swoon; Heaven knows, I soon shall do it naturally.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>The General's gone, with a cue for me.</p>
+</sp>
+<stage>Exit.</stage>
+<stage>Victoria swoons away in her Mother's Arms.</stage>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Ha, what ails the Child!</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Her swooning away was a lucky accident, and Major <hi>Buck,</hi> now must certainly be mine.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Bisk.</speaker>
+<p>So, so, she comes to herself,
+<stage>(speaks to her.)</stage> I'll go to Father, you'll follow, deary.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Immediately.</p>
+</sp>
+<sp>
+<speaker>Bisk.</speaker>
+<p>Ah! <hi>Bisket,</hi> thou art a happy Dog.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Mrs <hi>Con.</hi></speaker>
+<p>So how is it, my dear?</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Her Pulse are very quick.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Oh! I must have a little Air, or I shall faint again.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Your Father waits for you.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>The open Air, Madam, or I shall die.</p>
+</sp>
+<stage>Mrs. Conquest and Charlotte lead her out.</stage>
+<sp>
+<speaker>Mac.</speaker>
+<p>The Women are all bewitch'd with swooning away, come, Mr. <hi>Willmot,</hi> will you drink a Bottle, at the same Table you had like to be condemned at?</p>
+</sp>
+<sp>
+<speaker>Wil.</speaker>
+<p>There is a strange turn in my affairs, truly.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot knows, the Tuty of a Husbant, is as grevious, as that of a Granadier, there is a goot deal of slavery in poth Services.</p>
+</sp>
+<sp>
+<speaker>O'Rourk.</speaker>
+<p>By my Shoul, Mr. <hi>Willmot,</hi> I can by my own knowledge, foretel, that your Life hither too, has been a very odd sort of a one.</p>
+</sp>
+<sp>
+<speaker>Luc.</speaker>
+<p>Begar, de Shentilman come into the Army, to
+<pb n="60" facs="66"/>avoid his Mastress—'tis very like a my case, for I come here to avoid my Wife begar, and she is de Officer when ever she pleasses.</p>
+</sp>
+<sp>
+<speaker>Wild.</speaker>
+<p>Come, <hi>Hearty,</hi> here's success to Maj. <hi>Buck.</hi></p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>We shall either be very merry, or blown up, my Heart aches for him.</p>
+</sp>
+<sp>
+<speaker>O'Rourk.</speaker>
+<p>By my Shoul, he is my Townsman, and my Heart does ache for him always, vedere he is in Danger or not.</p>
+</sp>
+<sp>
+<speaker>La Cu.</speaker>
+<p>He is de very pretty Gentleman, he has de very good understanding, and he seemed very much pleased vid my Battery, he has a pretty smattering in the Mattematicks, allons <hi>Bouvont Chante</hi>
+<stage>he Sings.</stage></p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot pless hur, what a silly Language is here, come hur will Sing hur a <hi>Welsh</hi> Song, set to the Musick of <hi>Wales.</hi>
+<stage>be Sings.</stage></p>
+</sp>
+<sp>
+<speaker>O'Rourk.</speaker>
+<p>By my Shoul, dear Joy, where is de <hi>English</hi> of that now.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Cot knows, 'tis an Original, and you have no <hi>English</hi> that can express it.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Well, of aw your Songs, there's neen like the Bag Pipe <hi>Tweedales</hi> of <hi>Sawny</hi> and <hi>Jockey.</hi></p>
+</sp>
+<sp>
+<speaker>Enter Mrs.</speaker>
+<p>Conquest, Victoria, <hi>and</hi> Charlotte.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>So, my Dear, I'm glad to see you recover'd, your Father, and Mr. <hi>Bisket</hi> wait impatiently for you in the Alcove, the Rooms are darken'd on purpose as you desir'd.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>What will be the end of this Day's Work, and what has Major <hi>Buck</hi> done, to save me from this Coxcomb ha—</p>
+<stage>Enter Major <hi>Buck,</hi> be smiles on her, and sleals to bis Place at the Table.</stage>
+<p>He seems pleas'd, and comes from the Parlour; then sure I may venture to advance, Madam,
+<stage>(to <hi>her Mother.</hi>)</stage> I hope you'll attend me to my Father.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Most willingly, my Dear.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>And my Dear Cousin too.
+<stage>they go towards the Stage Door. Brig. Gen. <hi>Conquest</hi> speaks without.</stage></p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>You would have the Frolick of being married in the Dark, but I'll lead you to the light, and we will be very merry.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>What says my Husband?</p>
+</sp>
+<stage><pb n="61" facs="67"/>
+He enters with <hi>Bisket</hi> in one Hand, and <hi>Belinda</hi> in the other.</stage>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Hell and Furies, what a mistake is this?</p>
+</sp>
+<sp>
+<speaker>Bel.</speaker>
+<p>Torment and Confusion, am I outwitted, Condemn'd to this Coxcomb.</p>
+</sp>
+<sp>
+<speaker>Bis.</speaker>
+<p>Ah, Gemini, I have brought my Hogs to a Fair Market, Couzen'd by such a—so so Creature, when my Head run of nothing but the beautiful <hi>Victoria,</hi> I'll go and hang myself, and so be dvorc'd.</p>
+</sp>
+<stage>Exit Bisk.</stage>
+<sp>
+<speaker>Bel.</speaker>
+<p>See how the Monster Triumphs in his Looks, I'll go where I may never see him more.</p>
+</sp>
+<stage>Exit.</stage>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Who can unfold this trickish Riddle?</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>I fear <hi>Victoria</hi> is deeply concern'd in this Plot, I know she hated <hi>Bisket</hi> mortally.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Did she so, why then I'm glad she missed him.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>Ha! there's some Hope for me, so I must Beg your Pardon, when I tell you I was the cause of this Mistake, I doated on your Daughter, but by the ill-natured Contrivances of <hi>Belinda,</hi> found it was impossible to make my Addresses known; hearing your Daughter desir'd to be married in the Dark, I directed a Letter for her, but took care it should fall into <hi>Belinda</hi>'s Hands, wherein I offer'd to personate the Santista, she believing I would drop into the Snare I lay'd for her, which was the only means I e'er could Hope to save <hi>Victoria</hi> from the Man she hates.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>I did indeed design <hi>Bisket</hi> for my Daughter's Husband, but since you have order'd it otherwise, Sir, I shall be proud of your Alliance I knew your Father well, and your behaviour in the Army has not lessen'd my Esteem of your Family, here, <hi>Victoria,</hi> since he has taken this Pains about you, I think he deserves you.</p>
+</sp>
+<sp>
+<speaker>Major <hi>Buck.</hi></speaker>
+<p>I receive her with all the Joy Imaginable.</p>
+</sp>
+<sp>
+<speaker>Vict.</speaker>
+<p>Very much with my Inclinations I am sure.</p>
+</sp>
+<sp>
+<speaker>Mrs. <hi>Con.</hi></speaker>
+<p>Nay, since it is so, I wish you happy.</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>May ye be as happy, as 'tis possible for married Folks to be.</p>
+</sp>
+<stage><pb n="62" facs="68" ana="y"/>
+<hi>Enter</hi> Messenger.</stage>
+<sp>
+<speaker>Mess.</speaker>
+<p>Sir, I was sent Express from the Generals at <hi>Estermas</hi> with this Packet.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p><stage>(Reads.)</stage> Ha!—then the show is over, and there's no more Work for us. Gentlemen here's an Order to proclaim a Gessation of Arms for four Months, between <hi>Britain, France,</hi> and <hi>Spain.</hi></p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>Wounds, Sir, then I'll gang to <hi>Edinburgh,</hi> and live cheap upon half pay.</p>
+</sp>
+<sp>
+<speaker>O'Rourk.</speaker>
+<p>By my Shoule, I will go into the County of <hi>Tipperary,</hi> where I can live cheaper than you, for fait now I can live for nothing.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>I will go to my Seat in <hi>Wales,</hi> and keep my hant in with Shooting of Hares and Rabbits, and WildFowls, I will fatten myself up with <hi>Welsh</hi> Ale, and pray for another War.</p>
+</sp>
+<sp>
+<speaker>La Cu.</speaker>
+<p>Vat must the poor <hi>French</hi> Gentilman do?</p>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<p>You must take Lodgings in <hi>Scho,</hi> Sir, make Perriwigs, and shave for two Pence.</p>
+</sp>
+<sp>
+<speaker>Heart.</speaker>
+<p>Thank our Stars, <hi>Wildish,</hi> ours is an old Regiment, and we shall be turn'd adrist at last.</p>
+</sp>
+<sp>
+<speaker>Sur.</speaker>
+<p>We poor Subs have but a dismal prospect.</p>
+</sp>
+<sp>
+<speaker>Char.</speaker>
+<p>Well, Brother Lieutenant, 'ts better than fighting of Duels tho'.</p>
+</sp>
+<sp>
+<speaker>Cad.</speaker>
+<p>Truly, fair Laty, it was a goot Jest, that I mait up the matter, or he woot have pin too strong for you.</p>
+</sp>
+<sp>
+<speaker>1 Ensign.</speaker>
+<p>Come, Brother, let's steal off, for I am very uneasy with all this money in my Pocket.</p>
+</sp>
+<sp>
+<speaker>Brig. Gen. <hi>Con.</hi></speaker>
+<p>Come, Gentlemen, after so long a War, 'tis high Time that we should all retire, that our Nation may Recruit the Blood and Treasure they have lost.</p>
+<lg>
+<l>The Turns and Tosses that we meet abroad,</l>
+<l>In our Retirement Pleasure will afford:</l>
+<l><hi>Britons</hi> have gain'd in War a glovious Name,</l>
+<l>And Soldiers will be eccbo'd out by Fame.</l>
+<l>But since the Nation's Welfare to encrease,</l>
+<l>All bostile Jars and warlike Acts must cease,</l>
+<l>The Scns of <hi>Mars</hi> shall be rever'd in Peace.</l>
+</lg>
+</sp>
+</div3>
+</div2>
+<trailer>FINIS.</trailer>
+</div1>
+</body>
+<back>
+</back>
+</text>
+</TEI>

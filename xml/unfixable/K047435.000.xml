@@ -1,0 +1,1489 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title type="main">The widow's vow</title><title type="sub"> A farce, in two acts, as it is acted at the Theatre Royal, Hay-market.</title><author><persName><surname>Inchbald</surname><forename>Elizabeth</forename><idno type="VIAF">59084053</idno></persName></author><respStmt><resp>Transformation into valid TEI P5, improving markup, filling <gi>gap</gi>s, proofreading, and expanding header.</resp><persName xml:id="JJ"><surname>Jokisch</surname><forename>Jan</forename><idno type="ORCID">0009-0003-1026-2995</idno></persName></respStmt></titleStmt>
+<extent><measure quantity="89" unit="KB">About 89 kilobytes.</measure></extent><publicationStmt><authority ref="#JJ">Jan Jokisch</authority><date>2024 December</date><idno type="ECCO_Drama">K047435.000</idno><idno type="DLPS">004904256</idno><idno type="ESTC">T52491</idno><idno type="DocNo">CW113637458</idno><idno type="TCP">K047435.000</idno>
+<idno type="GaleDocNo">CW3313637458</idno><idno type="ContentSet">ECLL</idno><idno type="ImageSetID">0635900400</idno><availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability></publicationStmt><sourceDesc><biblFull><titleStmt><title type="245">The widow's vow: A farce, in two acts, as it is acted at the Theatre Royal, Hay-market.</title><author>Inchbald, Mrs., 1753-1821.</author></titleStmt>
+<extent>[8],35,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1786.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Elizabeth Inchbald.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52491.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
+</biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
+<front>
+<div1 type="halftitle">
+<pb facs="1"/>
+<pb facs="2"/>
+<p>THE WIDOW's VOW.</p>
+<p>Price ONE SHILLING.</p>
+</div1>
+<div1 type="titlepage">
+<pb facs="3" ana="y"/>
+<p>THE WIDOW's VOW. A FARCE, IN TWO ACTS, AS IT IS ACTED AT THE THEATRE ROYAL, <hi>HAY-MARKET.</hi></p>
+<p>LONDON: <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>INTED FOR G. G. J. AND J. ROBINSON, PATER-NOSTER-ROW. 1786.</p>
+</div1>
+<div1 type="prologue">
+<pb facs="4"/>
+<head>PROLOGUE,</head>
+<byline>Written by Mr. HOLCROFT,</byline>
+<byline>Spoken by Mr. BANNISTER, jun.</byline>
+<sp>
+<lg>
+<l>PROLOGUES, with caustic touch, have often tried</l>
+<l>To probe your spleen, prove knaves and fools allied;</l>
+<l>Have twisted words and wit ten thousand ways,</l>
+<l>To shew that these are most degenerate days!</l>
+</lg>
+<lg>
+<l>A different task be ours.—We'll prove that you</l>
+<l>Are wise and happy. Nay! tho' strange, 'tis true!</l>
+</lg>
+<lg>
+<l>First on your <hi>safety</hi> think! now belles appear</l>
+<l>By ample bulwarks guarded, front and rear!</l>
+<l>Now male and female amble, side by side,</l>
+<l>Exempt from harm, by breast-works fortify'd!</l>
+<l>Here polygons defend Miss Molly's breast!</l>
+<l>There horn-works hush the husband's fears to rest!</l>
+<l>By ramparts, daily rais'd, he's freed from cares;</l>
+<l>If he'll but grant sufficient for repairs.</l>
+</lg>
+<lg>
+<l>Our strength thus prov'd, proceed we to disclose</l>
+<l>How new-made wealth thro' new-made channels flows!</l>
+<l>How rich we are, in medal-rust and rare things!</l>
+<l>In copper coins, gilt pence and—Queen-Anne-farthings!</l>
+<l>How shells, stuff'd monkies, and Cremonas old,</l>
+<l>In hand of Auctioneer, are current gold!</l>
+<l>He "Going! going!" cries. "The hammer's up!</l>
+<l>"This fine antique! this Roman—<hi>caudle-cup!"</hi></l>
+<l>A gem so rare makes connoisseurs turn pale,</l>
+<l>Fearful, alike, to purchase or to fail!</l>
+<l>Hope trembles, starts, from lip to lip rebounds,</l>
+<l>Till down she's knock'd by—Ah!—one thousand pounds!</l>
+<l>The envied purchaser, with joy e<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ate,</l>
+<l>Pays for his prize by—felling his estate!</l>
+<l><pb facs="5"/>While <hi>Smirk,</hi> in florid style, words nicely plac'd,</l>
+<l>Protests theee lot does, <hi>anner</hi> to his taste!<stage><hi>Mimick<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/></hi></stage></l>
+</lg>
+<lg>
+<l>Yes! sure you're happy! and should rest content,</l>
+<l>Now landscapes are reduced fifteen per cent:</l>
+<l>And Claude's and Titian's new-found wonders may</l>
+<l>By new-made Peers be bought—if new-made Peers to pay.</l>
+</lg>
+<stage>Assuming sorrow.</stage>
+<lg>
+<l>One thing, indeed, may well your peace invade,</l>
+<l>Pawnbrokers! threaten you to leave off trade!<stage><hi>W<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t</hi></stage></l>
+</lg>
+<stage>Returning to his former chearful tone.</stage>
+<lg>
+<l>All things considered, now, while safety smiles,</l>
+<l>And wealth inundates thus our Queen of isles;</l>
+<l>While Vickery head defects so soon repairs,</l>
+<l>And half unpeoples Greenland of her bears;</l>
+<l>While exhibitions, galas and reviews,</l>
+<l>Lisle-street, Vauxhall, the Abbey, Handel, Hughes,</l>
+<l>Flutes, fiddles, trombos, double-drums, bassoons,</l>
+<l>Mara, the speaking-figure, fish-balloons,</l>
+<l>Earth-baths, live-eagles, such as never flew,</l>
+<l><hi>L' Hercule du Roy!</hi> and General Jackoo!</l>
+<l>While these create a round of such delight,</l>
+<l>Sure, we may hope, you will not frown to-night!</l>
+<l>While farces numerous as these go down,</l>
+<l>Our farce may in its turn amuse the town;</l>
+<l>And, smiling thus on Folly's vast career,</l>
+<l>Sure not on us, alone, you'll be severe!</l>
+</lg>
+</sp>
+</div1>
+<div1 type="note">
+<pb facs="6"/>
+<head>ADVERTISEMENT.</head>
+<p><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>he AUTHOR of the WIDOW's VOW is indebted for the Plot of her Piece, and for the Plot only, to <hi>L' He<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>s<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Erreur,</hi> a French Comedy of one Act, by M. PATRAT, but to the Excellence of the English <hi>Performers</hi> alone is she indebted for its very flattering Success.</p>
+</div1>
+<div1 type="dramatispersonae">
+<pb facs="7"/>
+<head>DRAMATIS PERSONAE.</head>
+<list>
+<item><label>Don Antonio,</label> Mr. PARSONS,</item>
+<item><label>Marquis,</label> Mr. BANNISTER, jun.</item>
+<item><label>Carlos,</label> Mr. R. PALMER.</item>
+<item><label>Servant,</label> Mr. LYON.</item>
+<item><label>Jerome,</label> Mr. EDWIN.</item>
+<item><label>Countess,</label> Mrs. BATES.</item>
+<item><label>Donna Isabella,</label> Mrs. RILEY.</item>
+<item><label>Inis</label> Miss BRANCIN.</item>
+<item><label>Ursula</label> Mrs. EDWIN.</item>
+<item><label>Flora</label> Mrs. WELLS.</item>
+</list>
+</div1>
+<set><p><hi>Scene a Village in Spain.</hi></p></set>
+</front>
+<body>
+<div1 type="play">
+<pb facs="8"/>
+<head>THE WIDOW's VOW.</head>
+<div2 n="1" type="act">
+<head>ACT I.</head>
+<div3 n="1" type="scene">
+<head><hi>SCENE I.</hi> <stage>A Hall in a Castle.</stage></head>
+<stage><hi>Enter</hi> JEROME <hi>and</hi> FLORA.</stage>
+<sp>
+<speaker><gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>RA.</speaker>
+<p>I Can't go at present, Mr. Jerome, for I expect my Lady every moment to ring, if I should be out of the way she will be an<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> and as I am but new in her service—</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</speaker>
+<p>She angry! Oh you don't know her—When you have been a day or two with you'll find she is never angry—She is best tempered creature—and were it not for aversion to us men, she would not have a <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>.</p>
+</sp>
+<sp>
+<pb n="2" facs="9"/>
+<speaker>FLORA.</speaker>
+<p>Do you consider that as a fault, b<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Jerome?</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>To be sure I do—For my par<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> think she had much better be too fond of us, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> the rest of her sex are.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Pray, Mr. Jerome, what caused <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> aversion to the men?</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>I'll tell you, Flora, if it wo'nt <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> you melancholy.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Oh, no, Mr. Jerome—I like a <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦lancholy story—I like dearly to cry, when it is <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> on my own account.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Well then—When my Lady was <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦ly fifteen she fell deep in love with a fine ha<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> some young fellow, inferior to her both in <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> and fortune; but my good old Lord, her fa<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> who doated upon her, was afraid a disapp<gap resp="pdcc" extent="4 letters" disp="••••" reason="illegible"/>¦ment might break her heart, and so c<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>nsente<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> her having him; but he proved so bad a husb<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> that my poor old Master soon died with grief.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Poor man!</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Don't cry yet, there's someth<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/> worse to come—My Lady, on this, took such dislike to her husband, that he died of <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> too.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Indeed, Mr. Jerome, this is <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> moving. <stage>cries.</stage></p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>On this—</p>
+</sp>
+<sp>
+<pb n="3" facs="10"/>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>I hope there is nothing worse to <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</speaker>
+<p>On this, my Lady made a vow to <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> herself up from the whole sex.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>Well, that is more affecting than any <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ROME.</speaker>
+<p>And she immediately retired to this <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>y castle, where, except the house of Donna <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>lla next door, we have not a neighbour for <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>; and even there we are strangers—for my <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> I have never so much as seen Donna Isabella, <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>changed a word with any of the servants since <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> came to the place—though indeed they have <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>een here above eight days.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ORA.</speaker>
+<p>But how long has my Lady kept this <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> of avoiding all your sex?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ROME.</speaker>
+<p>Eighteen months.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ORA.</speaker>
+<p>Eighteen weeks! what a time!</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ROME.</speaker>
+<p>Months.</p>
+</sp>
+<sp>
+<speaker><hi><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ORA.</hi></speaker>
+<p>Months! she has certainly lost her <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ROME.</speaker>
+<p>Not she.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ORA.</speaker>
+<p>O but I am sure she must have lost <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> of them.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ROME.</speaker>
+<p>I tell you no.—But I must leave you <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> Mrs. Flora, for yonder is Don Antonio, and <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ieve he is coming this way.</p>
+</sp>
+<sp>
+<pb n="4" facs="11"/>
+<speaker>FLORA.</speaker>
+<p>I thought no man was admitted in the castle but you, Mr. Jerome?</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Yes; Don Antonio lives here—then he is my Lady's uncle; and you know th<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> can be no fear of her falling in love with him, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> he is a relation.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>But <hi>you</hi> are no relation, Mr. j<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>¦rome.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Why, as you say, she might f<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>l<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> love with me—Stranger things have happened and to tell you the truth, she does not seem <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦sitive she shan't, for she bids me keep out of <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> sight as much as possible, for fear I should put <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> in mind of that handsome villain that brought <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> to this retirement.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Here comes the old Gentleman!</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Then I must go, for he'il be with wan<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> to say something to you—he is for ever ru<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> after all the maids—I am sorry to leave you—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> am, indeed, Flora; indeed I am—Oh it woul<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> a happy thing for me if I could bring m<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>se<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> care as little for the women, as my Lady does <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> the men. <stage><hi>Exit Jero<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage></p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>A fine sweetheart, truly, I have go and if this old fright proves another, I'll be <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> with him.</p>
+</sp>
+<stage>Enter Antonis—She courtesys</stage>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Hah!—what!—what is all this <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> what have we here?—what have we here? <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>
+<pb n="5" facs="12"/>
+<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>retty girl—a very pretty girl indeed!—My <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>iece's new maid, I suppose—Aye, aye, I had the <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ther sent about her business—She must be like <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>er mistress forsooth, and have nothing to say to a <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>an— <stage>going up to Flora</stage> My dear, come this way▪ I think your's is a new face—</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Yes, Sir—and I think your's is an old <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>e.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Hem—hem.—Pray what is your <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>me?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>A very good name—and I intend ne<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>r to change it for a bad one.—</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Look in my face—What do you <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ush for?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>For you.</p>
+</sp>
+<sp>
+<speaker>ANTONIO</speaker>
+<p>Come, come, no pertness—but let <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> bid you welcome to the castle. <stage><hi>offers to salute <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>.</hi></stage></p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>No, indeed you shan't.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>I will bid you welcome to the <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>stle. <stage>after a struggle he salutes her.</stage></p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Upon my word, Sir, you are very <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>—How would you like I should serve <hi>you</hi> <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>▪</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Do—Do—serve me so—you are very <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>come.</p>
+</sp>
+<stage><pb n="6" facs="13"/><hi>Eater</hi> JEROME.</stage>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Flora, there's a young woman at the gate, who says she lives with Dona Isabella, and wants to speak to you upon some particular business—Can your Honor spare her with no inconvenience to yourself?</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Yes—Yes—she may go— <stage><hi>Exi<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Flora and Jerome</hi></stage> A young woman at the gate, now do I want to bid <hi>her</hi> welcome to the cast<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> a maid of Donna Isabella, our neighbour—by the bye I must bring about an acquaintance with Donna Isabella and the Countess my niece, if I can, for I am told Isabella is a very beautiful lady—and I should like to bid <hi>her</hi> welcome to the castle—but, notwithstanding all the pains I have takes, ever since she has arrived, to procure a sight of her, I have not been able—I would, however, fo<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/> myself into the house, but it seems she has a young brother, the Marquis, come down on a vi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>t to her within these three days, and he might take upon him to resent my gallantry—and I can't say I am fond of resentments, rage and hatred—no, no, the <hi>soster</hi> passions possess me wholly. <stage><hi>Exi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage></p>
+</sp>
+</div3>
+<div3 n="2" type="scene">
+<head>SCENE II. <stage><hi>A Chamber at</hi> DONNA ISABELLA's.</stage></head>
+<stage><hi>Enter</hi> ISABELLA <hi>followed by the</hi> MARQUIS.</stage>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>But my dear sister, did not you seduce me to this melancholy spot, on a promise <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>
+<pb n="7" facs="14"/>
+<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ou would procure me an introduction to the rich <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>idow, the charming Countess?—Interest first <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>rompted my wishes, but since I have beheld her, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> is love.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Beheld her!</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Yes, beheld her—walking in her <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>rden—sitting negligently in an arbor.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>But how?—How contrive to see <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>?—</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>From the top of our house, through <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>elescope—but, my dear sister, do bring us a <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>le nearer, or I'll purchase a speaking trumpet, <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> make love to her through it, though my <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ssion be heard by every soul within a quarter of <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ile.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>I tell you I have great hopes.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>But why not accept of her ac<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>intance, and prevail on her yourself to see <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>SABEL.</speaker>
+<p>I tell you again, the letters I expect <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>n her uncle at Madrid will have more weight <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>n volumes I could say—She dare not disobey <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>, and <hi>must</hi> see you.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>And yet I would not compel her to <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Unless she consents to my acquaintance free<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> without being constrained by force, or de<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ed by stratagem, I had rather have recourse <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>he top of the house and my telescope again.</p>
+</sp>
+<sp>
+<pb n="8" facs="15"/>
+<speaker>ISABEL.</speaker>
+<p>Do not let your scrupulous honor overcome all your future prospects—Notwithstanding these letters will strongly recommend you, yet it will be with her own consent only she will yield to the recommendation.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>But when do you expect the letters?</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Every instant—my servants are no<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> gone to the Post-office.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I'll fly and see if they are <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦turned.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Do; for as soon as the letters are <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦rived, I would not have you lose a moment <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> away, and know your fate at once—yet if she <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> but see you I think with such a person as your<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> there can be little to fear.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>But they tell me she is so auste<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> since this rigid vow—so awful—she will petr<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/> me with a look.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Pshaw—away, and see if the lette<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> are come.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I will, and if they are, and I g<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/> admittance, I'm resolved I will obtain <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> husband within a week, in return, my dear sist<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> for your kindness to me. <stage><hi>Exit Marqu<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage></p>
+</sp>
+<stage><hi>Enter</hi> INIS.</stage>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Well, Inis—I am impatient to he<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>▪ What success?</p>
+</sp>
+<sp>
+<pb n="9" facs="16"/>
+<speaker>INIS.</speaker>
+<p>Delightful, Madam—I have been intro<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ced to the young Countess—I first communi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ted the intelligence of the pretended plot form<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>g against her to her waiting-woman, who was <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>fficiently alarmed at it, to take me to her Lady <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>mediately.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Well.</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>And so, Madam, as soon as I was in<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>duced I fell a crying—I thought that was the <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>st way.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Very well.</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>And then, before I discovered what I had say, I made her promise not to betray me, <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ch she did most solemnly, and without the <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>st reluctance—and now, Madam, says I, I <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> servant with your neighbour, Donna Isabella, <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ighty Lady, who turns every thing serious and <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ed into ridicule; and she has resolved to make <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>t of you for pretending an aversion to men, <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> for that purpose she has procured recom<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ndations for you to receive the visits of the <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ng Marquis her brother, but instead of him, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> purposes to come herself, disguised as a man, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>vail on you to consent to be married to her, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> then throw off the mask, and make you and <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> vow the jest of the whole kingdom.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>This is all right—go on.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NIS.</speaker>
+<p>On this she thanked me a thousand times <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> the discovery.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>SABEL.</speaker>
+<p>But did she say she would receive <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>?</p>
+</sp>
+<sp>
+<pb n="10" facs="17"/>
+<speaker>INIS.</speaker>
+<p>Oh yes—she has promised to receive you on my account, that my divulging the scheme may not be detected.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>And she is absolutely resolved to receive <hi>me</hi> under the title of my brother?</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>You may depend upon it—but how are you to proceed now?</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Send my brother to her immediately.</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>Your brother!</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Yes—The Countess, from what you have told her, will suppose him a woman, receive him, and consequently suffer a thousand endearing familiarities; till, charmed by the graces of his mind and person, she shall love him without <hi>knowing</hi> it, and, when she detects the impostor, be unable to part with him.</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>And if she is like me, she'll think it the happiest day of her life—but have you prepared your brother how to act his part?</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>He has nothing to <hi>act,</hi> being the very person he represents, and therefore shall not know of the art by which he is introduced—for, except being a little too attentive to dress and etiquette, a circumstance which, with his youthful appearance, favours our design, he is one of the mo<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> amiable young men in the world, and the le<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> idea of imposition would shock his honour, and put an end to my scheme.</p>
+</sp>
+<sp>
+<pb n="11" facs="18"/>
+<speaker>INIS.</speaker>
+<p>Then he is not to know he is to be taken for a woman.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Certainly not—Hush, here he is, now for my credentials. <stage>taking out letters from her packet.</stage></p>
+</sp>
+<stage><hi>Enter</hi> MARQUIS.</stage>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Oh, my dear sister, there are no letters arrived.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Yes, here they are— <stage><hi>Gives a packet <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>f letters</hi></stage> my maid has just brought them me.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>O with what joy I receive them—they are all right?—There will be no mistake I <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ope?—Nothing to make me appear ridiculous?—I would not appear ridiculous for the world.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>All is right—No, no.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>They are addressed to her uncle!</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Yes, because it will be far more de<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>icate to be introduced through his means—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ut there is one enclosed to her.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>D'ye think she'll see me?</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Yes; I dare say—There is little doubt <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>f it.</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>By my dream last night, I'd lay my life he will.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Why, what did you dream?</p>
+</sp>
+<sp>
+<pb n="12" facs="19"/>
+<speaker>INIS.</speaker>
+<p>I dreamt she ordered her servants to drag your Lordship by force out of the house, and duck you in the great fish-pond for a whole hour.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Is that a sign?—</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>O yes—Dreams always go by contraries.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p><stage>Going, returns.</stage> But I know she is so haughty and reserved, that, <hi>should</hi> she admit me, I shall appear confused and awkward.—</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>So much the better—she expects you'll be awkward.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Expects I shall be awkward!</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Pshaw, pshaw—Hesitate no longe<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> with your fears, but away—you know your first court must be to the uncle, and when you hav<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> been a little time in the house your apprehension will vanish.—Away, away.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>But if she should not condescen<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> to see me?</p>
+</sp>
+<sp>
+<speaker>INIS.</speaker>
+<p>Oh, my Lord, you may depend upon <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> she will, because of my dream.</p>
+</sp>
+<stage><hi>Exit Marquis on one side and Isabella and Inis <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> the other.</hi></stage>
+</div3>
+<div3 n="3" type="scene">
+<pb n="13" facs="20"/>
+<head><hi>SCENE III.</hi> <stage>The Hall in the Castle.</stage></head>
+<stage><hi>Enter</hi> FLORA <hi>and</hi> JEROME.</stage>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>Ha, ha, ha, ha.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</speaker>
+<p>Ha, ha, ha, ha—But is all this matter act?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>As true as I am alive, Jerome—I have <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e nothing but laugh ever since I heard it—But <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ou think, Jerome, she'll be drest all over like <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>n?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</speaker>
+<p>To be sure.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>What, every thing?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</speaker>
+<p>Yes——Every thing—Egad, I long to <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> a peep at her!</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>Aye, and so would Antonio too, if he <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>.—</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</speaker>
+<p>Aye, that he would—he'd be so fond <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e young Marquis there would be no keeping away from her—but he does not knew of it, say?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>No; no soul knows of it yet but my <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> and I, and now I have told it to you; and <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> to tell it to all the servants as soon as she <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>es, that they may not think my Lady has <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>en her vow, by admitting a man—Lord, I <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>der how I should look in men's clothes!</p>
+</sp>
+<sp>
+<pb n="14" facs="21"/>
+<speaker>JEROME.</speaker>
+<p>There's the Priest's old great clo<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> doublet, and jack-boots hanging up behind t<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> door, if you have a mind to try, and I'll step <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> of the way till you have put them on.</p>
+</sp>
+<stage><hi>A loud rapping at the doo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Here she is—Here she is—Oh dea<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Oh dear—how ashamed I am for her.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>And I wish I may die if so ben't <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<stage><hi>Covering his ey<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage>
+<sp>
+<speaker>FLORA.</speaker>
+<p>And yet somehow I long to see her</p>
+</sp>
+<stage><hi>Another rappin<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Run, Jerome, run.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>This moment <stage>turning back</stage> bu<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> am so afraid I shall laugh.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>O no—Don't laugh—if you do y<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> will spoil all, and my Lady will never forgi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> you.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Well—I won't—I won't, if I <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> help it—I'll look so—just so, if I can—as s<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ri<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> as a judge—will that do?<stage>looking serious.</stage></p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Yes; that will do. <stage><hi>Rapping agai<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage></p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p><stage>Going.</stage> Ha, ha, ha, ha—I can't b<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> laughing a little though—but not before he<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> I'll be as serious as a judge before her. <stage><gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/></stage> Egad I am afraid—I am afraid I shall laugh.</p>
+</sp>
+<stage><hi>Exit, stifling a laug<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Now where shall I run to have a pe<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> at her?—in here. <stage><hi>Exit Flo<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage></p>
+</sp>
+<stage><pb n="15" facs="22"/><hi><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>er</hi> JEROME, <hi>bowing before the</hi> MARQUIS, <hi><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ith his face on one side, as if he was afraid to look <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t him for fear he should laugh.</hi></stage>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ARQUIS.</speaker>
+<p>Let Don Antonio know I have let<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> for him.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</speaker>
+<p>Yes, your Honour—Lordship. <stage><hi>Lift-<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>p his eyes, looking at him with side glances, and <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> d<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>fficulty stifling a laugh.</hi></stage> Your Honour, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Lordship—Let Don Antonio—know—you <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ve—letters—for—him. <stage>Suppressing a laugh.</stage></p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ARQUIS.</speaker>
+<p>Yes; is not that plain?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ROME.</speaker>
+<p>Yes. <stage>still suppressing a laugh.</stage> And <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> be very glad to wait upon your Honour.</p>
+</sp>
+<stage>Laughs right out and exit.</stage>
+<sp>
+<speaker><hi><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ARQUIS.</hi></speaker>
+<p>A strange fellow this—How my <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t beats!</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p><stage>from a door.</stage> Oh that she would <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> turn this way, that I might see her face—Oh <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>mpudent slut.</p>
+</sp>
+<stage><hi>Enter</hi> JEROME <hi>with a grin on his face.</hi></stage>
+<sp>
+<speaker><hi><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>EROME.</hi></speaker>
+<p>Noble Lord, Don Antonio will be <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> immediately. <stage><hi>Then laughs and stares at him <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> head to foot.</hi></stage> Here he is.</p>
+</sp>
+<stage><hi>Enter</hi> ANTONIO.</stage>
+<stage><hi>The Marquis bows very respectfully whilst Je<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> is laughing and making faces behind.</hi></stage>
+<sp>
+<pb n="16" facs="23"/>
+<speaker>MARQUIS.</speaker>
+<p>Letters, my Lord, from your b<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦ther at Madrid.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Signior. <stage>Taking the letters.</stage></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p><stage>aside while Antonio reads.</stage> Heave<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> whence this palpitation? If such are the feelin<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> of my bosom on knowing myself in the same ho<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> with her, what must be my agitation on a ne<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> approach!</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>My letters inform me it is the M<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦quis who does me the honour of this visit—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Lord, your Lordship—</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Ha, ha, ha.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>What's the matter with you?</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Sir, I was only—</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Only what? Leave the room.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p><stage>Aside.</stage> Well I thought the <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Don would have found out a woman in any d<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦guise. <stage><hi>E<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage></p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>My Lord, you may command <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> services and friendship, but I fear you will not <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> them so highly as I could wish, as you must be <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> barred the acquaintance and society of my niec<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> You are no stranger to the vow she has taken <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I am not—and yet I flatter my <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> the manner in which I am spoken of in these <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>¦ters—</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Be certain, Sir, my niece shall <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦ceive them, urged with all my authority for an <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>¦<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>view.
+<pb n="17" facs="24"/>
+Will your Lordship take a turn in the <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>den while I deliver them and enforce their con<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ts?</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I will—and should you prove suc<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ful, Don Antonio, I shall ever retain the deep<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> sense of the obligation. <stage>Exit Marquis.</stage></p>
+</sp>
+<stage><hi>Enter the</hi> COUNTESS.</stage>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Niece, I was this moment coming <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ou, to bring you these letters from your uncle Madrid, which you will find recommend, in <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> strongest manner, to your acquaintance, no <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>r than the young Marquis our neighbour—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e a youth as ever I saw.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>OUNTESS.</speaker>
+<p>Ha, ha, ha—is he arrived?—</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Now in the house—What is the <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ter?—Did you hear of his intended visit?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>OUNTESS.</speaker>
+<p>Yes—Ha, ha, ha—how does he <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Delightfully—I don't think I ever <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> handsomer man.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>OUNTESS.</speaker>
+<p><hi>Man!</hi>—Ha, ha, ha, I dare say he <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>s a little awkward?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Aukward! No; he is as elegant in <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>eportment, and as fine, as finished a young <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>w as ever I saw.</p>
+</sp>
+<sp>
+<pb n="18" facs="25"/>
+<speaker>COUNTESS.</speaker>
+<p><stage>After looking over the letter.</stage> Cer¦tainly, I shall comply with my uncle's request—Let his Lordship be admitted.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Niece, I always knew you could no<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> keep your vow—I always knew the very first ma<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> that came in your way—crash it would go direct¦ly, but let me persuade you to break it by degrees and not let the world say you made no strugg<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> first.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Struggle! Now, my dear Uncle with all your deep discernment, particularly i<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> regard to our sex, to see you at last imposed upo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> delights me.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Imposed upon!</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Yes; for this self-same Marqu<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> is a woman.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>A woman!</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Yes; this "fine, elegant cre<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>¦ture."</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>That is, then, the very reason w<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> I thought her so—"a fine creature,"—now that <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> intuition, instinct, love without knowing it—But, my dear niece, are you sure you are r<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ght▪ Are you sure you don't deceive me? Don't di<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>¦appoint me—I can't bear a disappointment in <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> matter like this—I am vastly pleased, and a di<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>¦appointment might be fatal.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>I assure you again a woman—<gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> to the Marquis—and has undertaken this sche<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>
+<pb n="19" facs="26"/>
+<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>rely to make love to me, and turn me into ridi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>le.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Now I think of it again, she <hi>was</hi> de<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ish awkward—and I believe wore her sword on <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> wrong side.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>It is she herself depend upon it.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>To be sure it is—and I'll be hang'd <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t did not strike me to be a woman the moment <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>id my eyes on her—for she came up to me <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ping and sliding, and tossing her head, just as <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> fine ladies do. <stage>Mimicks.</stage> Well—But what you intend to do? I know what I intend to <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>I shall carry on the scheme, and <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>end to be deceived, till I turn the joke she <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>gns for me, on herself.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Yes; and I intend to have <hi>my</hi> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e too.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>But you must keep the secret.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>I wo'nt say a word.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Take his Lordship into the sa<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>, and I'll wait upon him immediately.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Aye, my dear—and you need not <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> in a hurry—Egad, I like the joke of all <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>gs.</p>
+</sp>
+<stage>Exit.</stage>
+<stage><pb n="20" facs="27"/><hi>Enter</hi> JEROME <hi>and</hi> FLORA.</stage>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Dear my Lady, have you seen her?</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Not yet.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Well, I declare she looks as like man!</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>I shall certainly laugh in h<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> face.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Oh no, don't laugh—Never g<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> your mind to laughing—I did not even smile, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> kept my countenance as steady—just thus—D<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> not I, Flora? Oh—'tis such a weakness to laugh Look just so—as I do now—</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>I must away to the trial, howeve<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> come with me to the door, Flora.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>And be sure you don't laugh Think on me, and keep your countenance—you can.</p>
+</sp>
+<stage><hi>Exit Countess and Flora on one side and Jerom<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> the other.</hi></stage>
+</div3>
+<trailer>END OF THE FIRST ACT.</trailer>
+</div2>
+<div2 n="2" type="act">
+<pb n="21" facs="28"/>
+<head>ACT II.</head>
+<div3 n="1" type="scene">
+<head><hi>SCENE I.</hi> <stage>The Hall in the Castle.</stage></head>
+<stage><hi>Enter</hi> FLORA.</stage>
+<sp>
+<p>DEAR me, what a pretty footman she has brought with her!—he made me such a fine was I past—and looked so grand—here he is.</p>
+</sp>
+<stage><hi>Enter</hi> CARLOS <hi>and bows—She courtesies.</hi></stage>
+<sp>
+<speaker>FLORA.</speaker>
+<p>O Lord, I hope this is not a woman <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>! but I dare say it is—Lord what a pity! but <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> talk to him, and I shall soon be able to find <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t—and if he does not fall in love with me, I'll <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>nclude it can't be a man. <stage>aside.</stage></p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>A very pretty girl. <stage>aside.</stage> Your <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>mble servant, my dear angel.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Too conceited for a man. <stage>aside.</stage></p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>May I venture, on so slight an ac<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>aintance to protest to you—</p>
+</sp>
+<sp>
+<pb n="22" facs="29"/>
+<speaker>FLORA.</speaker>
+<p>No—he protests—'tis a man. <stage>aside</stage></p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>Permit me to assure you—</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Sir!</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>What thus takes up your atten¦tion?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>A doubt I have.</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>Do you entertain any doubts o<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> me?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Yes—Indeed I do.</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>What are they?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>I have been trying to put this bunc<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> of ribbons into a right form for my Lady's ha<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> and I hardly know how.</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>Let me try. <stage>She gives the ribbons.</stage></p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Now shall I see by the dexterity whether it is a woman or not. <stage>aside</stage></p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>There—I'll be hanged if I have no done it to a nicety. <stage>Returns the ribbons.</stage></p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>'Tis a woman, pshaw.</p>
+</sp>
+<stage>Aside and sighing</stage>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>Now I must beg a kiss for my pain<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<stage>Kisses her.</stage>
+<sp>
+<speaker>FLORA.</speaker>
+<p>No—it must be a man.</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>My charming—</p>
+</sp>
+<sp>
+<pb n="23" facs="30"/>
+<speaker>FLORA.</speaker>
+<p>For Heaven's sake go about your <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>siness, for here comes a fellow-servant of <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e.</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>I am going into the grove, will you <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e there presently?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Yes—perhaps I may—only begone <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>.</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>But you'll come?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Yes—I think I will.</p>
+</sp>
+<sp>
+<speaker>CARLOS.</speaker>
+<p>I shall wait for you. <stage>Exit.</stage></p>
+</sp>
+<stage><hi>Enter</hi> URSULA.</stage>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>RSULA.</speaker>
+<p>So, Mrs. Flora, I give you joy of <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> new sweetheart—For shame, for shame, I what passed.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>Lord bless you—it is only a wo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>RSULA.</speaker>
+<p>A woman!</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>Aye, in mens' clothes, like the mas<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> and so there could be no harm you know.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>RSULA.</speaker>
+<p>I did not know the servant was a <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>an too!</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>LORA.</speaker>
+<p>Why, I am not sure of it—but I <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>g it so when I let him kiss me, and I thought <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>hen I promised to meet him in the grove—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> will e'en go—for I dare say 'tis only a wo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<sp>
+<pb n="24" facs="31"/>
+<speaker>URSULA.</speaker>
+<p>Aye, now I think of it again, I a<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> sure it is not a man—Do you suppose a Lady i<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> disguise, would take a man-servant to atten<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> her?</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>Very true; and I wish, Ursula, yo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> would go instead of me to the grove, for I am s<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> busy just at this time—</p>
+</sp>
+<sp>
+<speaker>URSULA.</speaker>
+<p>And yet old Jerome says, and I ne¦ver knew Jerome mistaken in my life, he says i<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> is a man—however, <hi>I</hi> am not afraid of him if i<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> is, and I <hi>will</hi> go instead of you.</p>
+</sp>
+<sp>
+<speaker>FLORA.</speaker>
+<p>No, Ursula—I will go after all—<gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> if it <hi>should</hi> prove a man, and he should behav<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> rude to you, oh! my dear Ursula, I should nev<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> be happy, that I did not take it all upon myself.</p>
+</sp>
+<stage>Exeunt separate</stage>
+</div3>
+<div3 n="2" type="scene">
+<head><hi>SCENE II.</hi> <stage>A Parlour in the Castle.</stage></head>
+<stage><hi>The</hi> COUNTESS, <hi>the</hi> MARQUIS, <hi>and</hi> DO<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> ANTONIO <hi>discovered sitting.</hi></stage>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>And so, my Lord, you once thoug<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> of the army—Do you think you should sta<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> your ground in a battle. <stage>Laughing to himself.</stage></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Sir!<stage>Surprized.</stage></p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p><stage>Aside.</stage> Damn me but she ha<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> good leg.</p>
+</sp>
+<sp>
+<pb n="25" facs="32"/>
+<speaker>COUNTESS.</speaker>
+<p>Your Lordship seems formed for <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> service of a softer Deity; an occupation less <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>lous than that of war.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Aye, that you do.</p>
+</sp>
+<sp>
+<speaker>MARQUIS</speaker>
+<p>Pardon me, Madam, the Deity you <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>de to, I fear may be yet more fatal, unless you <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> kindly fight on my side.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Ha, ha, ha, I can't help laughing <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ink what a pretty soldier you would make—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> look vastly like a solder to be sure.—Ha, ha.</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ARQUIS.</speaker>
+<p>Why not, Sir?<stage>Angrily.</stage></p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Nay, no offence—Damn me if I <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ld not like to command a whole regiment of—and I would go upon some new atchieve<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ts—For instance, say the enemy were Hot<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ts, I would undertake to poison them all by <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>scent of perfumes from my army—or in case <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> repulse, would engage at any time to raise a <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> and escape pursuit, only by commanding <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>y man to shake his head, and discharge the <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>der.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Upon my word, Sir, you are very <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ant. <stage>Forcing a smile.</stage></p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>I am very glad your Lordship thinks <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<stage><pb n="26" facs="33"/><hi>Enter</hi> SERVANT.</stage>
+<sp>
+<speaker>SERVANT.</speaker>
+<p><stage>To Antonio.</stage> Sir, you are wanted by a gentleman in the parlour.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Pshaw—I'm busy—Who is it?— <stage>Servant whispers.</stage> Well then I must com<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <stage>Exit Servant.</stage> My Lord I take my leave for <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> minute, but I shall soon be back. <stage>Aside.</stage> H<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> like a man she looks—Impudent hussey, <stage><hi>Ex<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Your uncle's behaviour, Mada<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> has something in it rather extraordinary—I hop<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> I have not in any means offended him?</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>I can conceal my knowledge <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> her no longer, <stage>Aside.</stage> Oh no, my dear, <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> at all.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>My dear!<stage>Aside.</stage></p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>I declare I like you so well—<gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> much better than I expected—I can no long<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> treat you with cold reserve—Come sit dow<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<stage><hi>They si<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>How kind is this!<stage><hi>Drawing <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> chair near to her.</hi></stage></p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p><stage><hi>Looking at him from head to fo<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage> Ha, ha, ha, ha, ha. I protest I can't help laug<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>¦ing—Ha, ha, ha, ha, ha.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Ha, ha, ha, ha—I protest <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> more can I—Sure fate directed me to this heav<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>
+<pb n="27" facs="34"/>
+<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>pot, where ceremony has no share in polite<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>And did you suppose I should use <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> ceremony with such a sweet, sweet fellow as <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>?</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Egad, I'll use no ceremony either. <stage><hi><gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ide.</hi></stage> Thus, on my knees, let me pour my <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ks.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Oh you artful creature!<stage><hi>Stroking <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>heek.</hi></stage></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Art! I disclaim it—and so do you. <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ou are all pure nature.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Well, I positively do think you <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> of the cleverest of your whole sex.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Thank you—Thank you—my <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> creature-<stage>Kissing her hand.</stage></p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>OUNTESS.</speaker>
+<p>So negligent—so easy—not the <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> awkward or embarrassed!</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Egad, I think you as little embar<gap resp="pdcc" extent="4 letters" disp="••••" reason="illegible"/>ed to the full. <stage>Aside.</stage> My dear Madam, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> charming society has inspired me. <stage><hi>Salutes</hi> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>OUNTESS.</speaker>
+<p>Now, if you were really a <hi>man,</hi> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>t would you <hi>deserve</hi> for that?</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Madam!<stage>Astonished.</stage></p>
+</sp>
+<sp>
+<pb n="28" facs="35"/>
+<speaker>COUNTESS.</speaker>
+<p>I say, if you were <hi>really</hi> a m<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> what would you deserve for that freedom?</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p><hi>Really</hi> a man! Why?—What? Don't I look like a man?</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Yes—that you do—and a <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> pretty man—Come, come, don't be frightened▪ shake hands—I forgive you—forgive you all <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> impertinence—and, carry the jest as far as <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> will, I am resolved not to be angry.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I am very much obliged to you▪ infinitely obliged to you—I assure you this fav<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>—this honour.—I don't know what to say—<gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> absolutely puts me out of countenance. <stage><hi>Asi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage></p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>What confused?—Come, <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> your gaiety—Come, come—</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Come, come, then. <stage><hi>seizing <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/></hi></stage></p>
+</sp>
+<stage><hi>Enter</hi> DON ANTONIO.</stage>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Hah!—What! Struggling?</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Oh, Uncle, I have been so <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> used by this Gentleman, that I must beg you <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> resent his behaviour.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>How!</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Certainly, my dear, if you <hi>have</hi> <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> used ill.</p>
+</sp>
+<sp>
+<pb n="29" facs="36"/>
+<speaker>COUNTESS.</speaker>
+<p>Most scandalously—Frighten her a <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>le. <stage>Aside to Antonio.</stage></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Upon my honour, Sir—</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Zounds, Sir, my niece is one of the <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>st reserved, prudent young women—and who<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ver offers an insult to her, it is my place, and <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>sistent but with my honour, to resent it.—How <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ite she looks. <stage>Aside.</stage></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Sir, I shall not draw my sword be<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e the Countess, and therefore I beg you will <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> up your's.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>And so I will, my poor Lady—I <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> it has frightened you—Here, Niece, have you <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> hartshorn or drops at hand—the poor thing <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>errified out of her life. Come, come, my poor <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e creature—Poor thing—Poor rogue. <stage><hi>He <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> up to sooth him, and the Marquis gives him a <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>.</hi></stage></p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Don Antonio, this insolence shall <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ive the correction it deserves. <stage>Draws.</stage></p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>She is not in earnest, sure. <stage>Aside.</stage></p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>I have received many a blow from <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ady, but never such a one as this!</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Do you dare to call me a Lady <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>n, Sir?</p>
+</sp>
+<sp>
+<pb n="30" facs="37"/>
+<speaker>ANTONIO.</speaker>
+<p>A Lady, oh no—you are a tyge<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> a fury—</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I never met with such usage!—Damnation!</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>What a profligate she is! I d<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> not think such a word could come out of a woman mouth!</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>How, Sir!—Dare to say that aga<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> and I'll nail you to the wall.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p><stage>Retreating.</stage> Why, what <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> this about? I won't fight—I only drew <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> to frighten you.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>To frighten me!—Did you <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> was to be frightened?</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Why not? You see I am.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Yes, I see, and scorn you for it.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Why, Uncle, the tables are fa<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> turned upon you.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Yes, Niece, and I'm much oblig<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> to you, for your advice in the business—But <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> may depend upon it, I shall take care h<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>w attempt to frighten one of your sex again.</p>
+</sp>
+<stage>Going.</stage>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Come back, Sir, I insist upon yo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> coming back, and recalling what you have sa<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>d▪
+<pb n="31" facs="38"/>
+<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ist upon your begging me pardon for your im<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>inent insinuation.—</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>What insinuation?—That I think <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> a female?—I am sure there is no offence <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>nt in that—for, when I suppose you a wo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>, I suppose you what I like better than any<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>g in the world; what I am never happy with<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> and what I even make myself poor, de<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ed, and ridiculous, in the daily pursuit of.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>And pray, Sir, in what, do I ap<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> like a woman?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>And pray, Sir, in what, does any <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>our modern coxcombs appear like a man? <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> yet they don't scruple to call themselves <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Then you will not recall your <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>iments and beg my pardon?</p>
+</sp>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Beg your pardon?—No—Yes, yes <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ut on your petticoats, and I'll fall at your feet <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>oon as you please.—</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I'll bear this no longer—Draw.</p>
+</sp>
+<stage>Marquis draws.</stage>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>NTONIO.</speaker>
+<p>Here Jerome, Jerome, come and <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>end me, where it would be a dishonour to de<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> myself.</p>
+</sp>
+<stage><pb n="32" facs="39"/><hi>Enter</hi> JEROME.</stage>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>See, Jerome, how my life is a<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> sailed.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Aye, your Honour, I always tol<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> you the women would be the death of you <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> last.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>You too, rascal!—</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Well, I declare with her sword i<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> her hand, she is as fine a creature as ever I saw!—Oh you audacious minx.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Scoundrel—</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Sure, your Honour, she must be t<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Maid of Orleans.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I am no maid, Sir.</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>I am sorry for your misfortune.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Don Antonio, this treatment <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> suppose you inflict as a just recompence for <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> presumption in daring to hope for an alliance <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> your family, spite of the prejudice which I kn<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> the Countess had conceived—I cannot deny t<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> justice of the accusation—I came into he ho<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> with the vain hope—</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>By no means <hi>vain</hi>—I am ready <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> comply, be your hopes what they will.</p>
+</sp>
+<sp>
+<pb n="33" facs="40"/>
+<speaker>MARQUIS.</speaker>
+<p>Can I believe what you say real?</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Certainly—Were you going to say <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> hoped to marry me? If you were, call the <gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>est, and we'll be married immediately.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Aye, if that is what your Lord<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>p wants, the Priest shall tack you together in <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> minutes.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>This sudden consent staggers me—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> was not prepared for it—one likes a little pre<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ation before marriage as well as before death.</p>
+</sp>
+<stage>Aside.</stage>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>What! you are cast down—<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>med—want to recant—but I won't let you—<gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>shall</hi> marry me—I insist upon it.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>What, directly?</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Yes, directly—I am in a hurry.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I believe this is mere trifling—<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>ar you will marry me</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>I do swear.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>You are witness to the oath.</p>
+</sp>
+<sp>
+<speaker>ANTONIO AND JEROME.</speaker>
+<p>We are witness.</p>
+</sp>
+<stage><hi><gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/></hi> SERVANT <hi>with</hi> DONNA ISABELLA <hi>veiled.</hi></stage>
+<sp>
+<speaker><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ERVANT.</speaker>
+<p>A Lady, Madam, who says she is <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> to the Marquis.</p>
+</sp>
+<sp>
+<pb n="34" facs="41"/>
+<speaker>COUNTESS.</speaker>
+<p>Has the Marquis more sisters th<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> one?</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>No.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Then this, I suppose, is your br<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>¦ther?</p>
+</sp>
+<sp>
+<speaker>JEROME.</speaker>
+<p>Aye, in womens' clothes—O de<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> another fine sight!</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>Oh Heavens, if it is a man, ta<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> him out of the room or I shall faint.</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>Sister Isabella, when I shall rela<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> to you the strange reception I have met with <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> this house, you will be amazed—but I think y<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> will sincerely rejoice at the final event of my vi<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> when I tell you it is a solemn promise from t<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Lady to become my wife.</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>I give you joy most unfeigned</p>
+</sp>
+<stage><hi>Pulls off her vei<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/></hi></stage>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>It is a <hi>woman.</hi></p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Aye, that it is—Madam, let me <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> you welcome to the castle. <stage><hi>Goes and salutes <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/></hi></stage></p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p><stage>To the Marquis.</stage> Why, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> are you— <stage>After trembling as if much terrified</stage> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <hi>you</hi> a woman?</p>
+</sp>
+<sp>
+<speaker>ISABEL.</speaker>
+<p>Countess, I knew you never wo<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> have consented to have seen the Marquis, had <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> been introduced into the house as a man, therei<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> I formed this stratagem, unknown to him, <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> to bring you together.</p>
+</sp>
+<sp>
+<pb n="35" facs="42"/>
+<speaker>MARQUIS.</speaker>
+<p><stage>To the Countess.</stage> Do not droop, <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> dearest wife.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>And are you really the Marquis? <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>at a strange blunder have I made!</p>
+</sp>
+<sp>
+<speaker>MARQUIS.</speaker>
+<p>I am the Marquis—and it shall be <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> future care to banish for ever from your me<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>y, the recollection of that marriage which has <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>n the source of so much woe to you.</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>Donna Isabella, we are all infinite<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>bliged to you for this stratagem, by which you <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e induced the Countess, innocently to break a <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>, which she could not have kept without draw<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> upon herself both ridicule and melancholy—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> dear Niece, depend upon it, there is but <hi>one</hi> <gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> a woman is authorized to take.</p>
+</sp>
+<sp>
+<speaker>COUNTESS.</speaker>
+<p>And what vow is that <hi>one</hi> Uncle?</p>
+</sp>
+<sp>
+<speaker>ANTONIO.</speaker>
+<p>A vow to LOVE, HONOUR and OBEY.</p>
+</sp>
+<stage>Exeunt omnes.</stage>
+</div3>
+</div2>
+<trailer>THE END.</trailer>
+</div1>
+</body>
+<back>
+<div1 type="publisher'sadvertisement">
+<pb facs="43"/>
+<head>Just published, by G. G. J. and J. ROBINSON</head>
+<p>I'LL TELL YOU WHAT▪ A COMEDY, in FIVE ACTS, As performed at the Theatre-Royal in the Hay-Mar<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> By Mrs. INCHBALD. Price One Shilling and Sixpence,</p>
+<p>APPEARANCE IS AGAINST▪ THEM A FARCE, Price One Shilling, By the same AUTHOR.</p>
+<p>ALSO, DUPLICITY, AND THE FOLLIES OF A DAY COMEDIES; THE NOBLE PEASAN<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> AND THE CHOLERIC FATHERS OPERAS, By THOMAS HOLCROFT; Price One Shilling and Sixpence each.</p>
+<p>LIKEWISE, THE SCOTTISH VILLAGE; PITCAIRN-GREEN, A POEM, By Mrs. COWLEY, Price Two Shillings.</p>
+</div1>
+</back>
+</text>
+
+</TEI>

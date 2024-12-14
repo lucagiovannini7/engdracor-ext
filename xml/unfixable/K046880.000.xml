@@ -1,0 +1,3561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title type="main">The tragedy of the Lady Jane Gray</title><title type="sub"> As it is acted at the Theatre-Royal in Drury-Lane. By N. Rowe Esq;.</title><author><persName><surname>Rowe</surname><forename>Nicholas</forename><idno type="VIAF">19751395</idno></persName></author><respStmt><resp>Transformation into valid TEI P5, improving markup, filling <gi>gap</gi>s, proofreading, and expanding header.</resp><persName xml:id="JJ"><surname>Jokisch</surname><forename>Jan</forename><idno type="ORCID">0009-0003-1026-2995</idno></persName></respStmt></titleStmt>
+<extent><measure quantity="177" unit="KB">About 177 kilobytes.</measure></extent><publicationStmt><authority ref="#JJ">Jan Jokisch</authority><date>2024 December</date><idno type="ECCO_Drama">K046880.000</idno><idno type="DLPS">004903702</idno><idno type="ESTC">T51546</idno><idno type="DocNo">CW112882512</idno><idno type="TCP">K046880.000</idno>
+<idno type="GaleDocNo">CW3312882512</idno><idno type="ContentSet">ECLL</idno><idno type="ImageSetID">0479200300</idno><availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability></publicationStmt><sourceDesc><biblFull><titleStmt><title type="245">The tragedy of the Lady Jane Gray: As it is acted at the Theatre-Royal in Drury-Lane. By N. Rowe Esq;.</title><author>Rowe, Nicholas, 1674-1718.</author></titleStmt>
+<extent>x,[2],66,[2]p. ; 4⁰.</extent><publicationStmt><publisher>printed for Bernard Lintott,</publisher><date>1715.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT51546.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
+</biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
+<front>
+<div1 type="titlepage">
+<pb facs="1" ana="y"/>
+<p>THE TRAGEDY OF THE Lady <hi>JANE GRAY.</hi> As it is Acted at the THEATRE-ROYAL in <hi>Drury-Lane.</hi></p>
+<p>By N. ROWE <abbr>Esq</abbr></p>
+<l>Sed frustra Leges &amp; inania Jura tuenti</l>
+<l>Scire mori Sors optima.</l>
+<p><hi>LONDON,</hi> Printed for BERNARD LINTOTT at the Cross-Keys between the <hi>Temple-Gates</hi> in <hi>Fleetstreet.</hi> 1715.</p>
+</div1>
+<div1 type="dedication">
+<pb n="iii" facs="2"/>
+<head>TO Her Royal Highness THE PRINCESS of <hi>WALES.</hi></head>
+<opener><salute>MADAM,</salute></opener>
+<p><seg rend="decorInit">A</seg> Princess of the same Royal Blood to which you are so closely and so happily ally'd, presumes to throw her self at the Feet of YOUR ROYAL HIGHNESS for Protection. The Character of that Excellent Lady, as it is deliver'd down to us in History,
+<pb n="iv" facs="3"/>
+is very near the same with the Picture I have endeavour'd to draw of her: And if, in the Poetical Colouring, I have aim'd at heightning and improving some of the Features, it was only to make her more worthy of those Illustrious Hands to which I always intended to present her.</p>
+<p>As the <hi>British</hi> Nation, in general, is infinitely indebted to YOUR ROYAL HIGHNESS, so every particular Person amongst us ought to contribute, according to their several Capacitys and Abilitys, towards the discharging that Publick Obligation.</p>
+<p>We are your Debtors, MADAM, for the Preference You gave us, in chusing to wear the <hi>British</hi> rather than the <hi>Imperial</hi> Crown; for giving the Best Daughter to our KING, and the Best Wife to our PRINCE. It is to YOUR ROYAL HIGHNESS we owe the Security that
+<pb n="v" facs="4"/>
+shall be deliver'd down to our Childrens Children, by a most Hopeful and Beautiful, as well as a Numerous Royal Issue. These are the Bonds of our Civil Duty: <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ut YOUR ROYAL HIGHNESS has <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>aid us under others yet more Sacred and Engaging; I mean, those of Religion. You are not only the Brightest Ornament, <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ut the Patroness and Defender of our Holy Faith.</p>
+<p>Nor is it <hi>Britain</hi> alone, but the World, <gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>t the present and all succeeding Ages, <gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ho shall bless Your Royal Name for the greatest Example that can be given of a Disinterested Piety and Unshaken Con<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ancy.</p>
+<p>This is what we may certainly reckon <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>mongst the Benefits YOUR ROYAL HIGHNESS has confer'd upon us. Tho <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the same time, how partial soever we <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ay be to our selves, we ought not to believe
+<pb n="vi" facs="5"/>
+You declin'd the First Crown of <hi>Europe</hi> in regard to <hi>Britain</hi> only. No, MADAM, it is in Justice to YOUR ROYAL HIGHNESS that we must confess, you had more excellent Motives for so great an Action as that was. Since You did it, in Obedience to the Dictates of Reason and Conscience, for the Sake of True Religion, and for the Honour of God. All things that are Great have been offer'd to You, and all things that are Good and Happy, as well in this World as a Better, shall become the Reward of such Exalted Virtue and Piety. The Blessings of our Nation, the Prayers of our Church, with the faithful Service of all good Men, shall wait upon YOUR ROYAL HIGHNESS as long as You live. And whenever, for the Punishment of this Land, You shall be taken from us, your Sacred Name shall be dear to Remembrance, and Almighty God, who alone is able, shall bestow upon you the Fulness of Recompence.</p>
+<p><pb n="vii" facs="6"/>
+Amongst the several Offerings of Duty which are made to You here, be grasiously pleas'd to accept of this Unworthy Trifle, which is, with the greatest Repect and lowest Submission, presented to YOUR ROYAL HIGHNESS by,</p>
+<closer><salute>MADAM,</salute> <signed>YOUR ROYAL HIGHNESS's Most Obedient, Most Devoted, and Most Faithful Humble Servant, N. ROWE.</signed></closer>
+</div1>
+<div1 type="preface">
+<pb n="viii" facs="7"/>
+<head>PREFACE.</head>
+<p><seg rend="decorInit">T</seg>HO I have very little Inclination to writ<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Preface before Works of this nature, yet, upon this particular Occasion, I cannot but think my self oblig'd to give some short Account of this Play, <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> justice to my self, as to a very Learned and Ingenious <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> man, my Friend, who is dead. The Person <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Mr. <hi>Smith</hi> of <hi>Christ-Church, Oxon:</hi> one whose <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> I could with great pleasure enter into, if it was <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> very well known to the World. As I had the Happiness to be intimately acquainted with him, he often told me <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> sign'd writing a Tragedy upon the Story of the Lady <hi>Jane Gray;</hi> and if he had liv'd, I should never have <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ought <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> meddling with it my self. But as he dy'd without doing <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> in the beginning of the last Summer I resolv'd to undertake <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> And indeed the hopes I had of receiving some considerable As¦sistances from the Papers he left behind him, were one of <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> principal Motives that induc'd me to go about it. These Pa¦pers were in the hands of Mr. <hi>Ducket,</hi> to whom my Fri<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> Mr. <hi>Tho. Burnett</hi> was so kind to write and procure 'em for me. The least Return I can make to those Gentlemen is this publick Acknowledgment of their great Civility on th<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>
+<pb n="ix" facs="8"/>
+occasion. I must confess, before those Papers came to my <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>and; I had intirely form'd the Design or Fable of my own Play: And when I came to look 'em over, I found it was very different from that which Mr. <hi>Smith</hi> intended; the Plan of his being drawn after that, which is in Print, of Mr. <hi>Banks:</hi> at least I thought so, by what I could pick out of his Papers, To say the truth, I was a good deal sur<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>iz'd and disappointed at the sight of 'em. I hop'd to have <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>et with great part of the Play written to my hand, or at <gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ast the whole Design regularly drawn out. Instead of that, <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> found the quantity of about two Quires of Paper written over <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> odd pieces, blotted, interlin'd and confus'd. What was <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ntain'd in 'em in general, was loose Hints of Sentiments, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> short obscure Sketches of Scenes. But how they were <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> be apply'd, or in what order they were to be rang'd, I <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>uld not by any Diligence of mine (and I look'd 'em very <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>refully over more than once) come to understand. One <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>cene there was, and one only, that seem'd pretty near per<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ct; in which Lord <hi>Guilford</hi> singly persuades the Lady <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ne to take the Crown. From that I borrow'd all that I <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>uld, and inserted it in my own third Act. But indeed the <gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/>er and Turn of his Fable was so different from mine, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> I could not take above five and twenty or thirty Lines at <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> most; and even in those I was oblig'd to make some Al<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ration. I should have been very glad to have come into a <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>rtnership of Reputation with so fine a Writer as Mr. <hi>Smith</hi> <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>; but in truth his Hints were so short and dark (many 'em mark'd ev'n in Short-Hand) that they were of little <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> service to me. They might have serv'd as Indexes <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> own Memory, and he might have form'd a Play out of
+<pb n="x" facs="9"/>
+'em; but I dare say, no body else could. In one part of <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Design he seem'd to differ from Mr. <hi>Banks,</hi> whose Tale <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> generally design'd to follow; since I observ'd in many of those short Sketches of Scenes he had introduc'd Queen <hi>Mary.</hi> He seem'd to intend her Character Pitiful and inclining to Mercy, but urg'd on to Cruelty by the Rage and <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Dispositions of <hi>Bonner</hi> and <hi>Gardiner.</hi> This Hint <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> wise taken from the late Bishop of <hi>Salisbury</hi>'s <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> <hi>the Reformation;</hi> who lays, and I believe very <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> horrible Cruelties that were acted at that time, <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> charge of that Persecuting Spirit by which the <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> then animated, than to the Queen's own natural Disp<gap resp="oxf" extent="5+ letters" disp="•••••…" reason="illegible"/></p>
+<p>Many People believ'd, or at least said, that Mr Smi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> left a Play very near entire behind him. All that I am <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> for, is, that it was not so in fact. I should have <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> scruple of taking three, four, or even the whole five <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> from him; but then I hope I should have had the <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> to let the World know they were his, and not take <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Man's Reputation to my self.</p>
+<p>This is what I thought necessary to say, as well <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> own account, as in regard to the Memory of my Friend.</p>
+<p>For the Play, such as it is, I leave it to prosper <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> can: I have resolv'd never to trouble the World with <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> publick Apologies for my Writings of this kind, as much <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> have been provok'd to it. I shall turn this my young Child out into the World, with no other Provision tha<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Saying which I remember to have seen before <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Mrs. <hi>Behn</hi>'s:Va! mon Enfant prend ta Fortune.</p>
+</div1>
+<div1 type="prologue">
+<pb facs="10"/>
+<head>PROLOGUE:</head>
+<stage>Spoken by Mr. BOOTH.</stage>
+<lg>
+<l>TO night the Noblest Subject swells our Scene,</l>
+<l>A Heroine, a Martyr, and a Queen.</l>
+<l>And tho the Poet dares not boast this Art,</l>
+<l>The very Theme shall something Great impart,</l>
+<l>To warm the generous Soul, and touch the tender Heart.</l>
+<l>To you, Fair Judges, we the Cause submit;</l>
+<l>Your Eyes shall tell us how the Tale is writ.</l>
+<l>If your soft Pity waits upon our Woe,</l>
+<l>If silent Tears for suff'ring Virtue flow;</l>
+<l>Your Grief the Muse's Labour shall confess,</l>
+<l>The lively Passions, and the just Distress.</l>
+<l>Oh could our Author's Pencil justly paint,</l>
+<l>Such as she was in Life, the Beauteous Saint;</l>
+<l>Boldly your strict Attention might we claim,</l>
+<l>And bid you mark, and copy out the Dame.</l>
+<l>No wandring Glance one wanton Thought confess'd,</l>
+<l>No guilty Wish influm'd her spotless Breast:</l>
+<l>The only Love that warm'd her blooming Youth,</l>
+<l>Was, Husband, <hi>England,</hi> Liberty, and T<gap resp="oxf" extent="4+ letters" disp="••••…" reason="illegible"/>.</l>
+<l>For these she fell; while, with too weak a Hand,</l>
+<l>She strove to save a blind ungrateful Land.</l>
+<l>But thus the secret Laws of Fate ordain;</l>
+<l><hi>WILLIAM</hi>'s Great Hand was doom'd to break that Chain,</l>
+<l>And end the Hopes of <hi>Rome</hi>'s Tyrannick Reign.</l>
+<l>For ever, as the circling Years return,</l>
+<l>Ye grateful <hi>Britons!</hi> crown the Hero's Ʋrn.</l>
+<l>To his just Care you ev'ry Blessing owe,</l>
+<l>Which, or his own, or following Reigns bestow.</l>
+<l>Tho his hard Fate a Father's Name deny'd,</l>
+<l>To you a Father, he that Loss supply'd.</l>
+<l>Then while you view the Royal Lines increase,</l>
+<l>And count the Pledges of your future Peace;</l>
+<l>From this great Stock while still new Glorys come,</l>
+<l>Conquest abroad, and Liberty at home;</l>
+<l>While you behold the Beautiful and Brave,</l>
+<l>Bright Princesses to grace you, Kings to save,</l>
+<l>Enjoy the Gift, but bless the Hand that gave.</l>
+</lg>
+</div1>
+<div1 type="dramatispersonae">
+<pb facs="11"/>
+<head>Dramatis Personae.</head>
+<list>
+<head>MEN.</head>
+<label>Duke of <hi>Northumberland,</hi></label>
+<item>Mr. <hi>Mills.</hi></item>
+<label>Duke of <hi>Suffolk,</hi></label>
+<item>Mr. <hi>Boman.</hi></item>
+<label>Lord <hi>Guilford Dudley,</hi></label>
+<item>Mr. <hi>Booth.</hi></item>
+<label>Earl of <hi>Pembroke,</hi></label>
+<item>Mr. <hi>Elrington.</hi></item>
+<label>Earl of <hi>Sussex,</hi></label>
+<item>Mr. <hi>Ryan.</hi></item>
+<label><hi>Gardiner</hi> Bishop of <hi>Winchester,</hi></label>
+<item>Mr. <hi>Cibber.</hi></item>
+<label>Sir <hi>John Gates,</hi></label>
+<item>Mr. <hi>Shepherd.</hi></item>
+<label>Lieutenant of the <hi>Tower,</hi></label>
+<item>Mr. <hi>Quin.</hi></item>
+<label>Captain of the Guard,</label>
+<item>Mr. <hi>Maddocks.</hi></item>
+</list>
+<list>
+<head>WOMEN.</head>
+<label>Dutchess of <hi>Suffolk,</hi></label>
+<item>Mrs. <hi>Porter.</hi></item>
+<label>Lady <hi>Jane Gray,</hi></label>
+<item>Mrs. <hi>Oldfield.</hi></item>
+</list>
+<list>
+<item>Lords of the Council, Gentlemen, Guards, Women, and Attendants.</item>
+</list>
+</div1>
+</front>
+<body>
+<div1 n="1" type="act">
+<pb facs="12"/>
+<head>ACT I. SCENE I.</head>
+<stage>Scene, <hi>The Court.</hi></stage>
+<stage>Enter the Duke of <hi>NORTHUMBERLAND,</hi> Duke of <hi>SUFFOLK,</hi> and Sir <hi>JOHN GATES.</hi></stage>
+<sp>
+<speaker>North.</speaker>
+<l>'TIS all in vain, Heaven has requir'd its Pledge,</l>
+<l>And he must die.</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Is there an honest Heart,</l>
+<l>That loves our <hi>England,</hi> does not mourn for <hi>Edward?</hi></l>
+<l>The Genius of our Isle is shook with Sorrow,</l>
+<l>He bows his venerable Head with Pain,</l>
+<l>And labours with the Sickness of his Lord.</l>
+<l>Religion melts in ev'ry holy Eye,</l>
+<l>All comfortless, afflicted and forlorn</l>
+<l>She sits on Earth, and weeps upon her Cross:</l>
+<l>Weary of Man, and hi<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> detested Ways,</l>
+<l>Ev'n now she seems to meditate her Flight,</l>
+<l>And waft her Angel to the Thrones above.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Ay, there, my Lord, you touch our heaviest Loss.</l>
+<l>With him our holy Faith is doom'd to suffer;</l>
+<l>With him our Church shall vail her sacred Front,</l>
+<l>That late from Heaps of <hi>Gothick</hi> Ruins rose,</l>
+<l>In her first native simple Majesty;</l>
+<l>The Toil of Saints, and Price of Martyr's Blood</l>
+<l><pb n="2" facs="13"/>
+Shall fail with <hi>Edward;</hi> and again <hi>Old Rome</hi></l>
+<l>Shall spread her Banners, and her Monkish Host;</l>
+<l>Pride, Ignorance, and Rapine shall return;</l>
+<l>Blind bloody Zeal, and cruel Priestly Power</l>
+<l>Shall scourge the Land for ten dark Ages more.</l>
+</sp>
+<sp>
+<speaker>Sir J. Gates.</speaker>
+<l>Is there no Help in all the healing Art,</l>
+<l>No potent Juice or Drug to save a Life</l>
+<l>So precious, and prevent a Nation's Fate?</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>What has been left untry'd that Art could do?</l>
+<l>The hoary wrinkled Leach has watch'd and toil'd,</l>
+<l>Try'd ev'ry Health-restoring Herb and Gum,</l>
+<l>And weary'd out his painful Skill in vain.</l>
+<l>Close, like a Dragon folded in his Den,</l>
+<l>Some secret Venom preys upon his Heart.</l>
+<l>A stubborn and unconquerable Flame</l>
+<l>Creeps in his Veins, and drinks the Streams of Life;</l>
+<l>His youthful Sinews are unstrung, cold Sweats</l>
+<l>And deadly Paleness sit upon his Visage,</l>
+<l>And ev'ry Gasp we look shall be his last.</l>
+</sp>
+<sp>
+<speaker>Sir J. Gates.</speaker>
+<l>Doubt not, your Graces, but the Popish Faction</l>
+<l>Will at this Juncture urge their utmost Force.</l>
+<l>All, on the Princess <hi>Mary,</hi> turn their Eyes,</l>
+<l>Well hoping she shall build again their Altars,</l>
+<l>And bring their Idol-Worship back in Triumph.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Good Heaven ordain some better Fate for <hi>England!</hi></l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>What better can we hope, if she should Reign?</l>
+<l>I know her well, a blinded Zealot <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> she,</l>
+<l>A gloomy Nature, sullen and severe,</l>
+<l>Nurtur'd by proud presuming Romish Preists,</l>
+<l>Taught to believe they only cannot err,</l>
+<l>Because they cannot err; bred up in Scorn</l>
+<l>Of Reason, and the whole Lay World; Instructed</l>
+<l>To hate whoe'er dissent from what they teach,</l>
+<l>To purge the World from Heresy by Blood,</l>
+<l>To massacre a Nation, and believe it</l>
+<l><pb n="3" facs="14"/>
+An Act well pleasing to the Lord of Mercy.</l>
+<l>These are thy Gods, Oh <hi>Rome!</hi> and this thy Faith.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>And shall we tamely yield our selves to Bondage?</l>
+<l>Bow down before these holy Purple Tyrants,</l>
+<l>And bid 'em tread upon our slavish Necks?</l>
+<l>No, let this faithful free-born English Hand</l>
+<l>First dig my Grave in Liberty and Honour.</l>
+<l>And tho' I found but one more thus resolv'd,</l>
+<l>That honest Man and I wou'd die together.</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Doubt not, there are ten Thousand, and ten Thousand,</l>
+<l>To own a Cause so just.</l>
+</sp>
+<sp>
+<speaker>Sir J. Gates.</speaker>
+<l>The List I gave</l>
+<l>Into your Grace's Hand last Night, declares</l>
+<l>My Power and Friends at full. <stage>[to Northumb.</stage></l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Be it your Care,</l>
+<l>Good Sir <hi>John Gates,</hi> to see your Friends appointed,</l>
+<l>And ready for the Occasion. Hast this Instant,</l>
+<l>Loose not a Moment's time.</l>
+</sp>
+<sp>
+<speaker>Sir J. Gates.</speaker>
+<l>I go, my Lord.</l>
+<stage>[Exit Sir J. Gates.</stage>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Your Grace's Princely Daughter, Lady JANE,</l>
+<l>Is she yet come to Court?</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Not yet arriv'd:</l>
+<l>But with the soonest I expect her here.</l>
+<l>I know her Duty to the dying King,</l>
+<l>Join'd with my strict Commands to hasten hither,</l>
+<l>Will bring her on the Wing.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Beseech your Grace,</l>
+<l>To speed another Messenger to press her;</l>
+<l>For on her happy Presence all our Counsels</l>
+<l>Depend, and take their Fate.</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Upon the Instant</l>
+<l>Your Grace shall be obey'd. I go to summon her.</l>
+<stage>[Exit Suff.</stage>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>What trivial Influences hold Dominion</l>
+<l>O'er wise Mens Counsels, and the Fate of Empire?</l>
+<l><pb n="4" facs="15"/>
+The greatest Schemes that human Wit can forge,</l>
+<l>Or bold Ambition dares to put in practice,</l>
+<l>Depend upon our husbanding a Moment,</l>
+<l>And the light lasting of a Woman's Will.</l>
+<l>As if the Lord of Nature shou'd delight</l>
+<l>To hang this ponderous Globe upon a Hair,</l>
+<l>And bid it dance before a Breath of Wind.</l>
+<l>She must be here, and lodg'd in <hi>Guilford</hi>'s Arms,</l>
+<l>E'er <hi>Edward</hi> dies, or all we've done is marr'd.</l>
+<l>Ha! <hi>Pembroke!</hi> that's a Bar which thwarts my Way,</l>
+<l>His fiery Temper brooks not Opposition,</l>
+<l>And must be met with soft and supple Arts;</l>
+<l>With crouching Courtesy, and honey'd Words,</l>
+<l>Such as asswage the Fierce, and bend the Strong.</l>
+<stage>Enter the Earl of <hi>Pembroke.</hi></stage>
+<l>Good morrow, Noble <hi>Pembroke,</hi> we have stay'd</l>
+<l>The Meeting of the Council for your Presence.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>For mine, my Lord! you mock your Servant, sure,</l>
+<l>To say that I am wanted, where your self,</l>
+<l>The Great <hi>Alcides</hi> of our State is present.</l>
+<l>Whatever Dangers menace Prince or People,</l>
+<l>Our Great <hi>Northumberland</hi> is arm'd to meet 'em;</l>
+<l>The ablest Head, and firmest Heart you bear,</l>
+<l>Nor need a second in the glorious Task;</l>
+<l>Equal your self to all the Toils of Empire.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>No, as I honour Virtue: I have try'd,</l>
+<l>And know my Strength too well; nor can the Voice</l>
+<l>Of friendly Flattery, like your's, deceive me.</l>
+<l>I know my Temper liable to Passions,</l>
+<l>And all the Frailties common to our Nature;</l>
+<l>Blind to Events, too easy of Perswasion,</l>
+<l>And often, too too often have I err'd.</l>
+<l>Much therefore have I need of some good Man,</l>
+<l>Some wise and honest Heart, whose friendly Aid</l>
+<l><pb n="5" facs="16"/>
+Might guide my treading thro' our present Dangers.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd by the Honour of my Name I swear,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> know not one of all our <hi>English</hi> Peers,</l>
+<l>Whom I would choose for that best Friend, like <hi>Pembroke.</hi></l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>What shall I answer to a Trust so noble,</l>
+<l>This Prodigality of Praise and Honour?</l>
+<l>Were not your Grace too Generous of Soul,</l>
+<l>To speak a Language differing from your Heart,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ow might think you could not mean this Goodness,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>o one whom his Ill-Fortune has ordain'd</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>he Rival of your Son.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>No more! I scorn a Thought</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> much below the Dignity of Virtue.</l>
+<l>Tis true I look on <hi>Guilford</hi> like a Father,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ean to his Side and see but half his Failings:</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ut on a Point like this, when equal Merit</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ands forth to make its bold Appeal to Honour,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd calls to have the Ballance held in Justice;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>way with all the Fondnesses of Nature!</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Judge of <hi>Pembroke</hi> and my Son alike.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I ask no more to bind me to your Service.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>The Realm is now at Hazard: and bold Factions</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>reaten Change, Tumult and disastrous Days.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hese Fears drive out the gentler Thoughts of Joy,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Courtship and of Love. Grant Heaven the State</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> fix in Peace and Safety once again;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hen speak your Passion to the Princely Maid,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd fair Success attend you. For my self,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>y Voice shall go as far for you, my Lord,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> for my Son, and Beauty be the Umpire.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> now a heavier Matter calls upon us,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>he King with Life just Lab'ring; and I fear,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>he Council grow impatient at our Stay.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>One Moments Pause, and I attend your Grace.</l>
+<stage>[Exit North.</stage>
+<l><pb n="6" facs="17"/>
+Old <hi>Winchester</hi> cries to me oft, beware</l>
+<l>Of Proud <hi>Northumberland.</hi> The Testy Prelate,</l>
+<l>Froward with Age, with disappointed Hopes,</l>
+<l>And zealous for old <hi>Rome,</hi> rails on the Duke,</l>
+<l>Suspecting him to favour the New Teachers.</l>
+<l>Yet ev'n in that, if I judge right, he errs.</l>
+<l>But were it so, what are these Clergy Quarrels,</l>
+<l>These wordy Wars of proud ill-manner'd Schoolmen</l>
+<l>To us and our Lay-Interests? Let 'em rail</l>
+<l>And worry one another at their Pleasure.</l>
+<l>This Duke of late by many worthy Offices</l>
+<l>Has sought my Friendship. And yet more,—his Son,</l>
+<l>The noblest Youth our <hi>England</hi> has to boast of,</l>
+<l>The gentlest Nature and the bravest Spirit,</l>
+<l>Has made me long the Partner of his Breast.</l>
+<l>Nay when he found in Spite of the Resistance</l>
+<l>My strugling Heart had made, to do him Justice,</l>
+<l>That I was grown his Rival; he strove hard,</l>
+<l>And would not turn me forth from out his Bosom,</l>
+<l>But call'd me still his Friend. And see! he comes.</l>
+<stage>Enter Lord <hi>GUILFORD.</hi></stage>
+<l>Oh! <hi>Guilford</hi> just as thou wer't entring here,</l>
+<l>My Thought was running all thy Virtues over,</l>
+<l>And wond'ring how thy Soul could choose a Partner,</l>
+<l>So much unlike it self.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>How cou'd my Tongue</l>
+<l>Take Pleasure and be lavish in thy Praise!</l>
+<l>How cou'd I speak thy Nobleness of Nature,</l>
+<l>Thy open manly Heart, thy Courage, Constancy,</l>
+<l>And inborn Truth unknowing to dissemble!</l>
+<l>Thou art the Man in whom my Soul delights,</l>
+<l>In whom next Heaven I trust.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Oh! generous Youth!</l>
+<l>What can a Heart stubborn and fierce like mine,</l>
+<l><pb n="7" facs="18"/>
+<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>urn to all thy Sweetness?—Yet I would</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ould be grateful,—Oh my Cruel Fortune!</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>'d I had never seen her! never cast</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Eyes on <hi>Suffolk</hi>'s Daughter.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>So wou'd I;</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> 'twas my Fate to see and love her first.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Oh why should she, that Universal Goodness,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Light a common Blessing to the World,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> like a Comet fatal to our Friendship,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> threaten it with Ruin?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Heaven forbid!</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> tell me <hi>Pembroke,</hi> Is it not in Virtue,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> arm against this proud imperious Passion?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Holy Friendship dwell so near to Envy,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> could not bear to see another happy?</l>
+<l><gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/>ind mistaking Chance and partial Beauty</l>
+<l><gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/>ld join to favour <hi>Guilford.</hi>—</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Name it not,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> fiery Spirits kindle at the Thought,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> hurry me to Rage.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>And yet I think,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>ould not murmur were thy Lot to prosper,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> mine to be refus'd. Tho' sure the Loss</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>'d wound me to the Heart.</l>
+</sp>
+<sp>
+<speaker><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>em.</speaker>
+<l>Ha! coud'st thou bear it?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> yet perhaps thou might'st. Thy gentle Temper,</l>
+<l><gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/>m'd with Passions mixt in due Proportion,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>ere no one overbears nor plays the Tyrant,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>join in Nature's Business, and thy Happiness:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> mine disdaining Reason and her Laws,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> all thou can'st imagine wild and furious,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> drive me head-long on, now whirl me back,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> hurry my unstable flitting Soul</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>w'ry mad Extream. Then Pity me,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> let my Weakness stand.—</l>
+</sp>
+<stage><pb n="8" facs="19"/>
+Enter a Messenger.</stage>
+<sp>
+<speaker>Mess.</speaker>
+<l>The Lords of Council</l>
+<l>Wait with Impatience—</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I attend their Pleasure.</l>
+<stage>[Exit M<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></stage>
+<l>This only, and no more then. Whatsoever</l>
+<l>Fortune decrees, still let us call to Mind</l>
+<l>Our Friendship and our Honour. And since Love</l>
+<l>Condemns us to be Rivals for one Prize,</l>
+<l>Let us contend as Friends and brave Men ought;</l>
+<l>With Openness and Justice to each other.</l>
+<l>That he who wins the Fair one to his Arms,</l>
+<l>May take her as the Crown of great Desert:</l>
+<l>And if the wretched Loser does repine,</l>
+<l>His own Heart and the World may all condemn him.</l>
+<stage>[Exit Pem</stage>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>How cross the Ways of Life lye! while we think</l>
+<l>We travel on direct in one high Road,</l>
+<l>And have our Journey's End oppos'd in View,</l>
+<l>A Thousand thwarting Paths break in upon us,</l>
+<l>To puzzle and perplex our wandring Steps.</l>
+<l>Love, Friendship, Hatred, in their Turns mislead us,</l>
+<l>As ev'ry Passion has its separate Interest.</l>
+<l>Where is that piercing Foresight can unfold,</l>
+<l>Where all this mazy Error will have end,</l>
+<l>And tell the Doom reserv'd for me and <hi>Pembroke?</hi></l>
+<l>There is but one End certain, that is—Death.</l>
+<l>Yet ev'n that Certainty is still incertain.</l>
+<l>For of these several Tracks which lye before us,</l>
+<l>We know that one leads certainly to Death,</l>
+<l>But know not which that one is. 'Tis in vain</l>
+<l>This blind divining, let me think no more on't,</l>
+<l>And see the Mistress of our Fate appears!</l>
+<stage><pb n="9" facs="20"/>
+Enter Lady <hi>JANE GRAY.</hi> Attendants.</stage>
+<l>Hail Princely Maid! who with auspicious Beauty,</l>
+<l>Chear'st every drooping Heart in this sad Place;</l>
+<l>Who, like the Silver Regent of the Night,</l>
+<l>Lift'st up thy sacred Beams upon the Land,</l>
+<l>To bid the Gloom look gay, dispell our Horrors,</l>
+<l>And make us less lament the setting Sun.</l>
+</sp>
+<sp>
+<speaker>L.J.G.</speaker>
+<l>Yes, <hi>Guilford,</hi> well dost thou compare my Presence,</l>
+<l>To the faint Comfort of the waining Moon;</l>
+<l>Like her cold Orb, a chearless Gleam I bring,</l>
+<l>Silence and Heaviness of Heart, with Dews</l>
+<l>To dress the Face of Nature all in Tears.</l>
+<l>But say how fares the King?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>He lives as yet,</l>
+<l>But ev'ry Moment cuts away a Hope,</l>
+<l>Adds to our Fears, and gives the Infant Saint</l>
+<l>A nearer Prospect of his opening Heaven.</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>Descend ye Quires of Angels to receive him,</l>
+<l>Tune your melodious Harps to some high Strain,</l>
+<l>And waft him upwards with a Song of Triumph;</l>
+<l>A purer Soul and one more like your selves,</l>
+<l>Ne'er enter'd at the golden Gates of Bliss.</l>
+<l>Oh <hi>Guilford!</hi> what remains for wretched <hi>England,</hi></l>
+<l>When he our Guardian Angel shall forsake us?</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>or whose dear Sake Heaven spar'd a guilty Land,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd scatter'd not its Plagues while <hi>Edward</hi> reign'd.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>I own my Heart bleeds inward at the Thought,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd rising Horrors crowd the opening Scene.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd yet forgive me, thou my native Country,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hou Land of Liberty, thou Nurse of Heroes,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>orgive me, if in Spight of all thy Dangers,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ew Springs of Pleasure flow within my Bosom,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hen thus 'tis giv'n me to behold those Eyes,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hus gaze and wonder, how excelling Nature</l>
+<l><pb n="10" facs="21"/>
+Can give each Day new Patterns of her Skill,</l>
+<l>And yet at once surpass 'em.</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>Oh vain Flattery!</l>
+<l>Harsh and ill sounding ever to my Ear,</l>
+<l>But on a Day like this the Raven's Note,</l>
+<l>Strikes on my Sense more sweetly. But no more,</l>
+<l>I charge thee touch th' ungrateful Theme no more.</l>
+<l>Lead me to pay my Duty to the King,</l>
+<l>To wet his pale cold Hand with these last Tears,</l>
+<l>And share the Blessings of his parting Breath.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Were I like dying <hi>Edward,</hi> sure a Touch,</l>
+<l>Of this dear Hand, would kindle Life anew.</l>
+<l>But I obey, I dread that gath'ring Frown,</l>
+<l>And oh! whene'er my Bosom swells with Passion,</l>
+<l>And my full Heart is pain'd with ardent Love,</l>
+<l>Allow me but to look on you and sigh,</l>
+<l>'Tis all the humble Joy that <hi>Guilford</hi> asks.</l>
+</sp>
+<sp>
+<speaker>L.J.G.</speaker>
+<l>Still wilt thou frame thy Speech to this vain Purpo<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></l>
+<l>When the wan King of Terrors stalks before us,</l>
+<l>When Universal Ruin gathers round,</l>
+<l>And no Escape is left us? Are we not,</l>
+<l>Like Wretches in a Storm, whom ev'ry Moment,</l>
+<l>The greedy Deep is gaping to devour?</l>
+<l>Around us see the pale despairing Crew,</l>
+<l>Wring their sad Hands and give their Labour over;</l>
+<l>The Hope of Life has ev'ry Heart forsook,</l>
+<l>And Horror sits on each distracted Look,</l>
+<l>One solemn Thought of Death does all employ,</l>
+<l>And cancels like a Dream Delight and Joy,</l>
+<l>One Sorrow streams from all their weeping Eyes,</l>
+<l>And one consenting Voice for Mercy cries,</l>
+<l>Trembling they dread just Heav'ns avenging Power,</l>
+<l>Mourn their past Lives, and wait the fatal Hour.</l>
+<stage>[Exeu<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></stage>
+</sp>
+<trailer>The End of the First Act.</trailer>
+</div1>
+<div1 n="2" type="act">
+<pb n="11" facs="22"/>
+<head>ACT II. SCENE. I.</head>
+<stage>Scene <hi>continues.</hi></stage>
+<stage>Enter the Duke of <hi>NORTHUMBERLAND,</hi> and the Duke of <hi>SUFFOLK.</hi></stage>
+<sp>
+<speaker>Nor.</speaker>
+<l>YET then be chear'd my Heartamidst thy Mourning,</l>
+<l>Tho' Fate hang heavy o'er us, tho' pale Fear,</l>
+<l>And wild Distraction sit on ev'ry Face,</l>
+<l>Tho' never Day of Grief was known like this,</l>
+<l>Let me rejoice, and bless the hallowed Light,</l>
+<l>Whose Beams auspicious shine upon our Union,</l>
+<l>And bid me call the Noble <hi>Suffolk</hi> Brother.</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>I know not what my secret Soul presages,</l>
+<l>But something seems to whisper me within,</l>
+<l>That we have been too hasty. For my self,</l>
+<l>I wish this Matter had been yet delay'd;</l>
+<l>That we had waited some more blessed Time,</l>
+<l>Some better Day with happier Omens hallowed,</l>
+<l>For Love to kindle up his holy Flame.</l>
+<l>But you, my noble Brother, wou'd prevail,</l>
+<l>And I have yielded to you.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Doubt not any Thing;</l>
+<l>Nor hold the Hour unluckly. That good Heaven,</l>
+<l>Who softens the Corrections of his Hand,</l>
+<l>And mixes still a Comfort with Afflictions,</l>
+<l><pb n="12" facs="23"/>
+Has giv'n to Day a Blessing in our Children,</l>
+<l>To wipe away our Tears for dying <hi>Edward.</hi></l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>In that I trust. Good Angels be our Guard,</l>
+<l>And make my Fears prove vain. But see! my Wife!</l>
+<l>With her your Son the generous <hi>Guilford</hi> comes,</l>
+<l>She has inform'd him of our present Purpose.</l>
+</sp>
+<stage>Enter the Dutchess of <hi>Suffolk,</hi> and Lord <hi>Guilford.</hi></stage>
+<sp>
+<speaker>L. Guil.</speaker>
+<l>How shall I speak the Fulness of my Heart?</l>
+<l>What shall I say to bless you for this Goodness?</l>
+<l>Oh! gracious Princess! but my Life is your's,</l>
+<l>And all the Business of my Years to come,</l>
+<l>Is to attend with humblest Duty on you,</l>
+<l>And pay my vow'd Obedience at your Feet.</l>
+</sp>
+<sp>
+<speaker>Dutc. Suff.</speaker>
+<l>Yes, noble Youth, I share in all thy Joys,</l>
+<l>In all the Joys which this sad Day can give.</l>
+<l>The dear Delight I have to call thee Son,</l>
+<l>Comes like a Cordial to my drooping Spirits;</l>
+<l>It broods with gentle Warmth upon my Bosom,</l>
+<l>And melts that Frost of Death which hung about me.</l>
+<l>But hast! inform my Daughter of our Pleasure,</l>
+<l>Let thy Tongue put on all it's pleasing Eloquence,</l>
+<l>Instruct thy Love to speak of Comfort to her,</l>
+<l>To sooth her Griefs and chear the mourning Maid.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>All desolate and drown'd in flowing Tears,</l>
+<l>By <hi>Edward</hi>'s Bed the pious Princess sits.</l>
+<l>Fast from her lifted Eyes the Pearly Drops,</l>
+<l>Fall trickling o'er her Cheek, while Holy Ardor,</l>
+<l>And fervent Zeal pour forth her lab'ring Soul;</l>
+<l>And ev'ry Sigh is wing'd with Pray'rs so potent,</l>
+<l>As strive with Heav'n to save her dying Lord.</l>
+</sp>
+<sp>
+<speaker>Dutc. Suff.</speaker>
+<l>From the first early Days of Infant Life,</l>
+<l>A gentle Band of Friendship grew betwixt 'em.</l>
+<l>And while our royal Uncle <hi>Henry</hi> reign'd,</l>
+<l>As Brother and as Sister bred together,</l>
+<l><pb n="13" facs="24"/>
+<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>neath one common Parent's Care they liv'd.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>A wondrous Sympathy of Souls conspir'd,</l>
+<l>To form the sacred Union. Lady JANE,</l>
+<l>Of all his royal Blood was still the dearest:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> ev'ry innocent Delight they shar'd,</l>
+<l>They sung and danc'd, and sat and walk'd together.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ay, in the graver Business of his Youth,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hen Books and Learning call'd him from his Sports,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>'n there the princely Maid was his Companion.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> left the shining Court to share his Toil,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> turn with him the grave Historians Page,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd taste the Rapture of the Poet's Song;</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> search the <hi>Latin</hi> and the <hi>Grecian</hi> Stores,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd wonder at the mighty Minds of old.</l>
+</sp>
+<stage>Enter Lady <hi>JANE GRAY</hi> weeping.</stage>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>Wo't thou not break my Heart!—</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Alas! what mean'st thou?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh speak!</l>
+</sp>
+<sp>
+<speaker>Dt. Suff.</speaker>
+<l>How fares the King?</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Say! Is he dead?</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>The Saints and Angels have him.</l>
+</sp>
+<sp>
+<speaker>Dutc. Suff.</speaker>
+<l>When I left him</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> seem'd a little chear'd, just as you enter'd.—</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>As I approach'd to kneel and pay my Duty,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> rais'd his feeble Eyes, and faintly smiling,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> you then come? he cry'd. I only liv'd,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> bid farewel to thee my gentle Cousin,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> speak a few short Words to thee and dye.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> that he prest my Hand, and Oh;—he said,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> I am gone do thou be good to <hi>England;</hi></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> to that Faith in which we both were bred,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> to the End be constant. More I wou'd,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> cannot,—there his falt'ring Spirits fail'd,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> turning ev'ry Thought from Earth at once,</l>
+<l><pb n="14" facs="25"/>
+To that blest Place where all his Hopes were fix'd,</l>
+<l>Earnest he pray'd,—Mercyful, great Defender!</l>
+<l>Preserve thy holy Altars undefil'd,</l>
+<l>Protect this Land from bloody Men and Idols,</l>
+<l>Save my poor People from the Yoak of <hi>Rome,</hi></l>
+<l>And take thy painful Servant to thy Mercy.</l>
+<l>Then sinking on his Pillow with a Sigh,</l>
+<l>He breath'd his innocent and faithful Soul,</l>
+<l>Into his Hands who gave it.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Crowns of Glory,</l>
+<l>Such as the brightest Angels wear, be on him;</l>
+<l>Peace guard his Ashes here, and Paradice</l>
+<l>With all its endless Bliss be open to him.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Our Grief be on his Grave. Our present D<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></l>
+<l>Injoins to see his last Commands obey'd.</l>
+<l>I hold it fit his Death be not made known,</l>
+<l>To any but our Friends. To Morrow early</l>
+<l>The Council shall assemble at the Tower.</l>
+<l>Mean while, I beg your Grace would strait inform <stage>[to Dutchess of Suf<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></stage></l>
+<l>Your Princely Daughter of our Resolution.</l>
+<l>Our common Interest in that happy Tye,</l>
+<l>Demands our swiftest Care to see it finish'd.</l>
+</sp>
+<sp>
+<speaker>D.S.</speaker>
+<l>My Lord, you have determin'd well. Lord Gui<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></l>
+<l>Be it your Task to speak at large our Purpose.</l>
+<l>Daughter, receive this Lord as one whom I,</l>
+<l>Your Father and his own, ordain your Husband.</l>
+<l>What more concerns our Will and your Obedience,</l>
+<l>We leave you to receive from him at leisure.</l>
+<stage>[Exeunt Duke and Dutchess of <hi>Su<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></hi> and Duke of <hi>Northumber<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></hi></stage>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Wo't thou not spare a Moment from thy So<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></l>
+<l>And bid these bubbling Streams forbear to flow?</l>
+<l>Wo't thou not give one interval to Joy,</l>
+<l>One little Pause while humbly I unfold</l>
+<l><pb n="15" facs="26"/>
+<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>he happiest Tale my Tongue was ever blest with?</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>My Heart is cold within me, ev'ry Sense,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>dead to Joy, but I will hear thee, <hi>Guilford,</hi></l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ay, I must hear thee, such is her Command,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hom early Duty taught me still t'obey.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> oh! forgive me if to all thy Story,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ho' Eloquence divine attend thy speaking,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ho' ev'ry Muse and ev'ry Grace do crown thee,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>orgive me if I cannot better answer,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>han weeping—thus—and thus—.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>If I offend thee,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> me be dumb for ever, let not Life,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>form these breathing Organs of my Voice,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> any Sound from me disturb thy Quiet.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hat is my Peace or Happiness to thine?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, tho' our noble Parents had decreed,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd urg'd high Reasons which import the State,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>his Night to give thee to my faithful Arms,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>y fairest Bride, my only earthly Bliss—</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>How <hi>Guilford?</hi> on this Night?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>This happy Night.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> if thou art resolv'd to cross my Fate,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> this my utmost Wish shall give thee Pain,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> rather let the Stroke of Death fall on me,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd stretch me out a lifeless Coarse before thee,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> me be swept away with Things forgotten,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> huddl'd up in some obscure blind Grave,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> thou shoud'st say my Love has made thee wretched,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> drop one single Tear for <hi>Guilford</hi>'s Sake.</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>Alas! I have too much of Death already,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd want not thine to furnish out new Horror.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> dreadful Thought! If thou wert dead indeed,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Hop<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> were left me then! Yes I will own,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> of the Blush that burns my Maiden Cheek,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>y Heart has fondly lean'd toward thee long:</l>
+<l><pb n="16" facs="27"/>
+Thy Sweetness, Virtue and unblemish'd Youth,</l>
+<l>Have won a Place for thee within my Bosom:</l>
+<l>And if my Eyes look coldly on thee now,</l>
+<l>And shun thy Love on this disastrous Day,</l>
+<l>It is because I would not deal so hardly,</l>
+<l>To give thee Sighs for all thy faithful Vows,</l>
+<l>And pay thy Tenderness with nought but Tears.</l>
+<l>And yet 'tis all I have.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>I ask no more,</l>
+<l>Let me but call thee mine, confirm that Hope,</l>
+<l>To charm the Doubts which vex my anxious Soul,</l>
+<l>For all the rest, do thou allot it for me,</l>
+<l>And at thy Pleasure portion out my Blessings.</l>
+<l>My Eyes shall learn to smile or weep from thine,</l>
+<l>Nor will I think of Joy while thou art sad.</l>
+<l>Nay, coud'st thou be so cruel to command it,</l>
+<l>I will forego a Bridegroom's sacred Right,</l>
+<l>And sleep far from thee, on the unwholesom Earth,</l>
+<l>Where Damps arise and whistling Winds blow loud.</l>
+<l>Then when the Day returns come drooping to thee,</l>
+<l>My Locks still drizzling with the Dews of Night,</l>
+<l>And chear my Heart with thee as with the Morning.</l>
+</sp>
+<sp>
+<speaker>L.J.G.</speaker>
+<l>Say, wo't thou consecrate the Night to So<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></l>
+<l>And give up ev'ry Sense to solemn Sadness?</l>
+<l>Wo't thou in watching wast the tedious Hours,</l>
+<l>Sit silently and careful by my Side,</l>
+<l>List to the tolling Clocks, and Crickets Cry,</l>
+<l>And ev'ry melancholy Midnight Noise?</l>
+<l>Say, wo't thou banish Pleasure and Delight,</l>
+<l>Wo't thou forget that ever we have lov'd,</l>
+<l>And only now and then let fall a Tear,</l>
+<l>To mourn for <hi>Edward</hi>'s Loss and <hi>England</hi>'s Fate?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Unweary'd still I will attend thy Woes,</l>
+<l>And be a very faithful Partner to thee.</l>
+<l><pb n="17" facs="28"/>
+Near thee I will complain in Sighs as numberless,</l>
+<l>As Murmurs breathing in the leafy Grove:</l>
+<l>My Eyes shall mix their falling Drops with thine,</l>
+<l>Constant, as never-ceasing Waters roll,</l>
+<l>That purl and gurgle o'er their Sands for ever.</l>
+<l>The Sun shall see my Grief thro' all his Course;</l>
+<l>And when Night comes. sad <hi>Philomel</hi> who plains,</l>
+<l>From starry Vesper to the rosy Dawn,</l>
+<l>Shall cease to tune her lamentable Song,</l>
+<l>E'er I give o'er to weep and mourn with thee.</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>Here then I take thee to my Heart for ever, <stage>[Giving her Hand.</stage></l>
+<l>The dear Companion of my future Days:</l>
+<l>Whatever Providence allots for each,</l>
+<l>Be that the common Portion of us both.</l>
+<l>Share all the Griefs of thy unhappy JANE;</l>
+<l>But if good Heav'n have any Joy in Store,</l>
+<l>Let that be all thy own.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Thou wondrous Goodness!</l>
+<l>Heav'n gives too much at once in giving thee.</l>
+<l>And by the common Course of Things below,</l>
+<l>Where each Delight is temper'd with Affliction,</l>
+<l>Some Evil terrible and unforeseen,</l>
+<l>Must sure ensue, to poize the Scale against</l>
+<l>This vast Profusion of exceeding Pleasure;</l>
+<l>But be it so, let it be Death and Ruin,</l>
+<l>On any Terms I take thee.</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>Trust our Fate,</l>
+<l>To Him whose gracious Wisdom guides our Ways,</l>
+<l>And makes what we think Evil turn to Good.</l>
+<l>Permit me now to leave thee and retire;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>'ll summon all my Reason and my Duty,</l>
+<l>To scoth this Storm within, and frame my Heart,</l>
+<l>To yield Obedience to my noble Parents.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Good Angels minister their Comforts to thee.</l>
+<l><pb n="18" facs="29"/>
+And Oh! If as my fond Belief would hope,</l>
+<l>If any Word of mine be gracious to thee,</l>
+<l>I beg thee, I conjure thee, drive a way</l>
+<l>Those murd'rous Thoughts of Grief that kill thy Quiet,</l>
+<l>Restore thy gentle Bosom's native Peace,</l>
+<l>Lift up the Light of Gladness in thy Eyes,</l>
+<l>And chear my Heaviness with one dear Smile.</l>
+</sp>
+<sp>
+<speaker>L. J. Gray.</speaker>
+<l>Yes <hi>Guilford,</hi> I will study to forget</l>
+<l>All that the Royal <hi>Edward</hi> has been to me,</l>
+<l>How we have lov'd, ev'n from our very Cradles.</l>
+<l>My private Loss no longer will I mourn,</l>
+<l>But ev'ry tender Thought to thee shall turn.</l>
+<l>With Patience I'll submit to Heav'ns Decree,</l>
+<l>And what I lost in <hi>Edward,</hi> find in thee.</l>
+<l>But oh! when I revolve, what Ruins wait</l>
+<l>Our sinking Altars, and the falling State;</l>
+<l>When I consider what my native Land,</l>
+<l>Expected from her pious Sov'raign's Hand,</l>
+<l>How form'd he was to save her from Distress,</l>
+<l>A King to govern, and a Saint to bless:</l>
+<l>New Sorrow to my lab'ring Breast succeeds,</l>
+<l>And my whole Heart for wretched <hi>England</hi> bleeds.</l>
+<stage>[Exit Lady <hi>JANE GRAY.</hi></stage>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>My Heart sinks in me at her soft complaining,</l>
+<l>And ev'ry moving Accent that she breaths,</l>
+<l>Resolves my Courage, slackens my tough Nerves,</l>
+<l>And melts me down to Infancy and Tears.</l>
+<l>My Fancy palls, and takes Distast at Pleasure;</l>
+<l>My Soul grows out of Tune, it loaths the World,</l>
+<l>Sickens at all the Noise and Folly of it;</l>
+<l>And I could sit me down in some dull Shade,</l>
+<l>Where lonely Contemplation keeps her Cave,</l>
+<l>And dwells with hoary Hermits; there forget my self,</l>
+<l>There fix my stupid Eyes upon the Earth,</l>
+<l>And muse a way an Age in deepest Melancholy.</l>
+</sp>
+<stage><pb n="19" facs="30"/>
+Enter <hi>Pembroke.</hi></stage>
+<sp>
+<speaker>Pem.</speaker>
+<l><hi>Edward</hi> is dead: so said the great <hi>Northumberland,</hi></l>
+<l>As now he shot along by me in Hast.</l>
+<l>He press'd my Hand, and in a Whisper beg'd me,</l>
+<l>To guard the Secret carefully as Life,</l>
+<l>Till some few Hours shou'd pass; for much hung on it.</l>
+<l>Much may indeed hang on it. See my <hi>Guilford!</hi></l>
+<l>My Friend! <stage>[Speaking to him.</stage></l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Ha! <hi>Pembroke!</hi> <stage>[Starting.</stage></l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Wherefore dost thou start?</l>
+<l>Why sits that wild Disorder on thy Visage,</l>
+<l>Somewhat that looks like Passions strange to thee,</l>
+<l>The Paleness of Surprize, and gastly Fear?</l>
+<l>Since I have known thee first, and call'd thee Friend,</l>
+<l>I never saw thee so unlike thy self,</l>
+<l>So chang'd upon the sudden.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>How! so chang'd!</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>So to my Eye thou seem'st.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>The King is dead.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I learn'd it from thy Father,</l>
+<l>Just as I enter'd here. But say, cou'd that,</l>
+<l>A Fate which ev'ry Moment we expected,</l>
+<l>Distract thy Thought, or shock thy Temper thus?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh! <hi>Pembroke,</hi> 'tis in vain to hide from thee;</l>
+<l>For thou hast look'd into my artless Bosom,</l>
+<l>And seen at once the Hurry of my Soul.</l>
+<l>'Tis true thy coming strook me with Surprize.</l>
+<l>I have a Thought—but wherefore said I one,</l>
+<l>I have a thousand Thoughts all up in Arms,</l>
+<l>Like populous Towns disturb'd at dead of Night,</l>
+<l>That mixt in Darkness bustle to and fro,</l>
+<l>As if their Business were to make Confusion.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Then sure our better Angels call'd me hither.</l>
+<l><pb n="20" facs="31"/>
+For this is Friendship's Hour and Friendship's Office,</l>
+<l>To come when Counsel and when Help is wanting,</l>
+<l>To share the Pain of every gnawing Care,</l>
+<l>To speak of Comfort in the Time of Trouble,</l>
+<l>To reach a Hand and save thee from Adversity.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>And wo't thou be a Friend to me indeed?</l>
+<l>And while I lay my Bosom bare before thee,</l>
+<l>Wo't thou deal tenderly, and let thy Hand</l>
+<l>Pass gently over ev'ry painful Part?</l>
+<l>Wo't thou with Patience hear, and judge with Temper?</l>
+<l>And if perchance thou meet with somewhat harsh,</l>
+<l>Somewhat to rouse thy Rage and grate thy Soul,</l>
+<l>Wo't thou be Master of thy self and bear it?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Away with all this needless Preparation.</l>
+<l>Thou know'st thou art so dear, so sacred to me,</l>
+<l>That I can never think thee an Offender.</l>
+<l>If it were so, that I indeed must judge thee,</l>
+<l>I should take part with thee against my self,</l>
+<l>And call thy Fault a Virtue.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>But suppose,</l>
+<l>The Thought were somewhat that concern'd our Love.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>No more, thou know'st we spoke of that to Day,</l>
+<l>And on what Terms we left it. 'Tis a Subject,</l>
+<l>Of which if possible, I wou'd not think.</l>
+<l>I beg that we may mention it no more.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Can we not speak of it with Temper?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>No.</l>
+<l>Thou know'st I cannot. Therefore prithee spare it.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh! cou'd the Secret, I would tell thee, sleep,</l>
+<l>And the World never know it, my fond Tongue,</l>
+<l>Shou'd cease from speaking, e'er I wou'd unfold it,</l>
+<l>Or vex thy Peace with an officious Tale.</l>
+<l>But since howe'er ungrateful to thy Ear</l>
+<l>It must be told thee once, hear it from me.</l>
+</sp>
+<sp>
+<pb n="21" facs="32"/>
+<speaker>Pem.</speaker>
+<l>Speak then, and ease the Doubts that shock my Soul.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Suppose thy <hi>Guilford</hi>'s better Stars prevail,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd crown his Love.—</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Say not suppose, 'tis done.</l>
+<l><gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ek not for vain Excuse nor soft'ning Words,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hou hast prevaricated with thy Friend,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>y under-hand Contrivances undone me;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd while my open Nature trusted in thee,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hou hast step'd in between me and my Hopes,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd ravish'd from me all my Soul held dear.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hou hast betray'd me,—</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>How! betray'd thee! <hi>Pembrook!</hi></l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Yes, falsly, like a Traytor.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Have a Care.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>But think not I will bear the foul Play from thee.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>here was but this which I cou'd ne'er forgive.</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>y Soul is up in Arms, my injur'd Honour,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>patient of the Wrong, calls for Revenge;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd tho' I lov'd thee—fondly—</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Hear me yet,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>Pembrook</hi> shall acquit me to himself.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> while I tell how Fortune dealt between us,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> gave the yielding Beauty to my Arms.—</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>What hear it! stand and listen to thy Triumph!</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ou think'st me tame indeed. No, hold I charge thee,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ast I forget that ever we were Friends,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ast in the Rage of disappointed Love,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>sh at once and tear thee for thy Falshood.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Thou warn'st me well; and I were rash as thou art,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> trust the secret Sum of all my Happiness,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> one not Master of himself. Farewel. <stage>[Going.</stage></l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Ha! art thou going? Think not thus to part,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> leave me on the Rack of this Incertainty.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>What woud'st thou further?</l>
+</sp>
+<sp>
+<pb n="22" facs="33"/>
+<speaker>Pem.</speaker>
+<l>Tell it to me all.</l>
+<l>Say thou art marry'd, say thou hast possess'd her,</l>
+<l>And rioted in vast Excess of Bliss;</l>
+<l>That I may curse my self, and thee, and her.</l>
+<l>Come, tell me how thou didst supplant thy Friend?</l>
+<l>How didst thou look with that betraying Face,</l>
+<l>And smiling plot my Ruin?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Give me Way.</l>
+<l>When thou art better temper'd I may tell thee,</l>
+<l>And vindicate at full my Love and Friendship.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>And do'st thou hope to shun me then, thou Traytor</l>
+<l>No, I will have it now, this Moment, from thee;</l>
+<l>Or drag the Secret out from thy false Heart.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Away thou Madman! I would talk to Winds,</l>
+<l>And reason with the rude tempestuous Surge,</l>
+<l>Sooner than hold Discourse with Rage like thine.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Tell it, or by my injur'd Love I swear, <stage>[laying his Hand upon his S<gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/></stage></l>
+<l>I'll stab the lurking Treason in thy Heart.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Ha! Stay thee there; nor let thy frantick Hand, <stage>[stopping <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></stage></l>
+<l>Unsheath thy Weapon; if the Sword be drawn,</l>
+<l>If once we meet on Terms like those; Farewel</l>
+<l>To ev'ry Thought of Friendship; one must fall.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Curse on thy Friendship, I would break the B<gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/></l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>That as you please—beside this Place is sa<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ed,</l>
+<l>And wo'not be profan'd with Brawls and Outrage.</l>
+<l>You know I dare be found on any Summons.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>'Tis well. My Vengeance shall not not loiter lo<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></l>
+<l>Henceforward let the Thoughts of our past Lives</l>
+<l>Be turn'd to deadly and remorseless Hate.</l>
+<l>Here I give up the empty Name of Friend,</l>
+<l>Renounce all Gentleness, all Commerce with thee,</l>
+<l>To Death defy thee as my mortal Foe;</l>
+<l><pb n="23" facs="34"/>
+<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd when we meet again, may swift Destruction,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>id me of thee, or rid me of my self.</l>
+<stage>[Exit Pembrook.</stage>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>The Fate I ever fear'd is fall'n upon me;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd long ago my boding Heart divin'd</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Breach like this from his ungovern'd Rage.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>Pembroke!</hi> thou hast done me much Injustice,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> I have born thee true unfeign'd Affection.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> past and thou art lost to me for ever.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> is or ought to be our greatest Bliss;</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> ev'ry other Joy how dear soever,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> way to that, and we leave all for Love.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the Imperious Tyrant's lordly Call,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Spite of Reason and Restraint we come,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Kindred, Parents, and our native Home.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> trembling Maid, with all her Fears, he charms,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> pulls her from her weeping Mother's Arms.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> laughs at all our Leagues, and in proud Scorn,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>mmands the Bands of Friendship to be torn:</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>dains a Partner shou'd partake his Throne,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> reigns unbounded, lawless, and alone.</l>
+<stage>[Exit.</stage>
+</sp>
+<trailer>The End of the Second Act.</trailer>
+</div1>
+<div1 n="3" type="act">
+<pb n="24" facs="35"/>
+<head>ACT III. SCENE I</head>
+<stage>Scene, <hi>The Tower.</hi></stage>
+<stage>Enter <hi>PEMBROKE</hi> and <hi>GARDINER.</hi></stage>
+<sp>
+<speaker>Gar.</speaker>
+<l>NAY, by the Rood, my Lord, you were to bla<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></l>
+<l>To let a Hair-brain'd Passion be your Guide,</l>
+<l>And hurry you into such mad Extreams.</l>
+<l>Marry! you might have made much worthy Profit,</l>
+<l>By patient hearing; the unthinking Lord,</l>
+<l>Had brought forth ev'ry Secret of his Soul.</l>
+<l>Then when you were the Master of his Bosom,</l>
+<l>That were the Time to use him with Contempt,</l>
+<l>And turn his Friendship back upon his Hands.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Thou talk'st as if a Madman cou'd be wise.</l>
+<l>Oh! <hi>Winchester,</hi> thy hoary frozen Age</l>
+<l>Can never guess my Pain; can never know</l>
+<l>The burning Transports of untam'd Desire.</l>
+<l>I tell thee, Rev'rend Lord, to that one Bliss,</l>
+<l>To the Enjoyment of that lovely Maid,</l>
+<l>As to their Center, I had drawn each Hope,</l>
+<l>And ev'ry Wish my furious Soul could form;</l>
+<l>Still with Regard to that my Brain forethought,</l>
+<l>And fashion'd ev'ry Action of my Life.</l>
+<l>Then to be rob'd at once, and unsuspecting,</l>
+<l>Be dash'd in all the Height of Expectation,</l>
+<l><pb n="25" facs="36"/>
+It was not to be born.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Have you not heard of what has happen'd since?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I have not had a Minutes Peace of Mind,</l>
+<l>A Moments Pause, to rest from Rage, or think.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Learn it from me then: but or e'er I speak,</l>
+<l>I warn you to be Master of your self.</l>
+<l>Tho', as you know they have confin'd me long,</l>
+<l>Gra'mercy to their Goodness, Pris'ner here;</l>
+<l>Yet as I am allow'd to walk at large</l>
+<l>Within the Tower, and hold free Speech with any;</l>
+<l>I have not dream't a way my thoughtless Hours,</l>
+<l>Without good Heed to these our righteous Rulers.</l>
+<l>To prove this true, this Morn a trusty Spy,</l>
+<l>Has brought me Word that yester Evening late,</l>
+<l>In Spice of all the Grief for <hi>Edward</hi>'s Death,</l>
+<l>Your Friends were marry'd.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Marry'd! Who?—Damnation!</l>
+</sp>
+<sp>
+<speaker>Gar</speaker>
+<l>Lord <hi>Guilford Dudley,</hi> and the Lady JANE.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Curse on my Stars!</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Nay, in the Name of Grace,</l>
+<l>Restrain this sinful Passion; all's not lost</l>
+<l>In this <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> single Woman.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I have lost</l>
+<l>More than the Female World can give me back.</l>
+<l>I had beheld, ev'n her whole Sex unmov'd,</l>
+<l>Look'd o'er 'em like a Bed of gaudy Flowers,</l>
+<l>That lift their painted Heads and live a Day,</l>
+<l>Then she<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> their trifling Glories unregarded.</l>
+<l>My He<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> disdain'd their Beauties, till she came,</l>
+<l>With ev'ry Grace that Nature's Hand cou'd give,</l>
+<l>And with a Mind so great, it spoke its Essence</l>
+<l>Immortal and Divine.</l>
+</sp>
+<sp>
+<speaker>Gar</speaker>
+<l>She was a Wonder,</l>
+<l>Detraction must allow that.</l>
+</sp>
+<sp>
+<pb n="26" facs="37"/>
+<speaker>Pem.</speaker>
+<l>The Virtues came,</l>
+<l>Sorted in gentle Fellowship to crown her,</l>
+<l>As if they meant to mend each others Work.</l>
+<l>Candour with Goodness, Fortitude with Sweetness,</l>
+<l>Strict Piety and Love of Truth, with Learning,</l>
+<l>More than the Schools of <hi>Athens</hi> ever knew,</l>
+<l>Or her own <hi>Plato</hi> taught. A Wonder! <hi>Winchester</hi>!</l>
+<l>Thou know'st not what she was, nor can I speak her,</l>
+<l>More than to say, she was that only Blessing</l>
+<l>My Soul was set upon, and I have lost her.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Your State is not so bad as you wou'd make it;</l>
+<l>Nor need you thus abandon ev'ry Hope.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Ha! wo't thou save me, snatch me from Despair,</l>
+<l>And bid me live again?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>She may be yours.</l>
+<l>Suppose her Husband die.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>O vain vain Hope!</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Marry, I do not hold that Hope so vain</l>
+<l>These Gospellers have had their golden Days,</l>
+<l>And lorded it <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Will, with proud Despight,</l>
+<l>Have trodden down our Holy Roman Faith,</l>
+<l>Ransack'd her Shrines, and driv'n her Saints to Exile,</l>
+<l>But if my Divination fail me not,</l>
+<l>Their haughty Hearts shall be abas'd e'er long,</l>
+<l>And feel the Vengeance of our <hi>Mary</hi>'s Reign.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>And woud'st thou have my fierce Impatience stay</l>
+<l>Bid me lye bound upon a Rack, and wait</l>
+<l>For distant Joys, whole Ages yet behind?</l>
+<l>Can Love attend on Politicians Schemes,</l>
+<l>Expect the slow Events of cautious Counsels,</l>
+<l>Cold unresolving Heads and creeping Time?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>To Day, or I am ill inform'd, <hi>Northumberland,</hi></l>
+<l>With easy <hi>Suffolk, Guilford,</hi> and the rest,</l>
+<l>Meet here in Council on some deep Design,</l>
+<l><pb n="27" facs="38"/>
+Some <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Contrivance, to protect</l>
+<l>Their up<gap resp="oxf" extent="4+ letters" disp="••••…" reason="illegible"/> Faith from near approaching Ruin.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> there are Punishments—Halters and Axes</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Traitors, and consuming Flames for Hereticks.</l>
+<l>The happy Bridegroom may be yet cut short,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>'n in his highest Hope—but go not you,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>owe'er the fawning Sire, old <hi>Dudley,</hi> court you.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, by the Holy Rood I charge you mix not</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ith their pernicious Counsels.—Mischief waits 'em,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>re, certain, unavoidable Destruction.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Ha! join with them! the cursed <hi>Dudley</hi>'s Race!</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, while they held me in their Arms, betray'd me,</l>
+<l><gap resp="oxf" extent="4+ letters" disp="••••…" reason="illegible"/>n'd me for not suspecting they were Villains,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd made a Mock'ry of my easy Friendship.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, when I do, Dishonour be my Portion,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd swift Perdition catch me,—join with them!</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>I wou'd not have you—hie you to the City,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> join with those who love our antient Faith.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> your Friends about you, and be ready</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> assert our zealous <hi>Mary</hi>'s Royal Title.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> doubt not but her grateful Hand shall give you</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> see your Soul's Desire upon your Enemies.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Church shall pour her ample Treasures forth too,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> with ten thousand Years of Pardon.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>No, keep your Blessings back, and give me Vengeance;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> to tell that soft Deceiver, <hi>Guilford,</hi></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Traytor hast thou done, thus hast thou wrong'd me,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> thus thy Treason finds a just Reward.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>But soft! no more! the Lords o' th' Council come.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>! by the Mass! the Bride and Bridegroom too!</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>tire with me, my Lord, we must not meet 'em.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>'Tis they themselves, the cursed happy Pair!</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, <hi>Winchester,</hi> hast! let us fly for even,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> drive her from my very Thoughts if possible.</l>
+<l><pb n="28" facs="39"/>
+Oh! Love what have I lost!—Oh! Reverend Lord,</l>
+<l>Pity this fond, this foolish Weakness in me.</l>
+<l>Methinks, I go like our first wretched Father,</l>
+<l>When from his blissful Garden he was driven.</l>
+<l>Like me he went despairing, and like me,</l>
+<l>Thus at the Gate stopt short for one last View.</l>
+<l>Then with the chearless Partner of his Woe,</l>
+<l>He turn'd him to the World that lay below.</l>
+<l>There for <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></hi>'s happy Plains beheld,</l>
+<l>A Barren, wild, uncomfortable Field.</l>
+<l>Ho saw 'twas vain the Ruin to deplore,</l>
+<l>He try'd to give the sad Remembrance o'er,</l>
+<l>The sad Remembrance still return'd again,</l>
+<l>And his lost Paradise renew'd his Pain.</l>
+<stage>[Exeunt <hi>Pembrook</hi> and <hi>Gardine<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></hi></stage>
+</sp>
+<stage>Enter Lord <hi>Guilford,</hi> and Lady <hi>JANE</hi></stage>
+<sp>
+<speaker>Guil.</speaker>
+<l>What shall I say to thee? What Pow'r Divine,</l>
+<l>Will teach my Tongue to tell thee what I feel?</l>
+<l>To pour the Transports of my Bosom forth,</l>
+<l>And make thee Partner of the Joy dwells there?</l>
+<l>For thou art comfortless, full of Affliction,</l>
+<l>Heavy of Heart as the forsaken Widow,</l>
+<l>And desolate as Orphans. Oh my fair one!</l>
+<l>Thy <hi>Edward</hi> shines amongst the brightest Stars,</l>
+<l>And yet thy Sorrows seek him in the Grave.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Alas, my dearest Lord! a thousand Griefs</l>
+<l>Beset my anxious Heart, and yet as if</l>
+<l>The Burthen were too little, I have added</l>
+<l>The Weight of all thy Cares. And like the Miser,</l>
+<l>Increase of Wealth has made me but more wretched.</l>
+<l>The Morning Light seems not to rise as usual;</l>
+<l>It dawns not to me, like my Virgin Days,</l>
+<l>But brings new Thoughts and other Fears upon me;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> tremble, and my anxious Heart is pain'd,</l>
+<l><pb n="29" facs="40"/>
+<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>east ought but Good should happen to my <hi>Guilford.</hi></l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Nothing but G<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>d can happen to thy <hi>Guilford,</hi></l>
+<l>While thou art by his Side, his better Angel,</l>
+<l>His Blessing and his Guard.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Why came we hither?</l>
+<l>Thy was I drawn to this un<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/>ky Place,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>his Tower, so often stain'd with Royal Blood?</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ere the fourth <hi>Edward</hi>'s helpless Sons were murder'd,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd pious <hi>Henry</hi> fell by Ruthless <hi>Gloster.</hi></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> this the Place allotted for rejoicing,</l>
+<l>The Bower adorn'd to keep our Nuptial Feast in?</l>
+<l>Methinks Suspicion and Distrust dwell here,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>aring with meager Forms thro' grated Windows.</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> within, and unrelenting Punishment.</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Danger, Fear, and fiercest Power,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> on the <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>de old Tow'rs and <hi>Gothick</hi> Battlements;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>hile Horror overlooks the dreadful Wall,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd frowns on all around.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>In Safety here,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Lords o'th' Council have this Morn decreed,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> meet and with united Care support</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> feeble tottering State. To thee, my Princess,</l>
+<l><gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/>se Royal Veins are rich in <hi>Henry</hi>'s Blood,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> one Consent the noblest Heads are bow'd;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> they ask a Sanction to their Counsels,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> thy healing Hand expect a Cure</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>England</hi>'s Loss in <hi>Edward.</hi></l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>How! from me!</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> my Lord!—but sure thou mean'st to mock me.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>No, by the Love my faithful Heart is full of!</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/>, thy Mother, gracious <hi>Suffolk</hi> comes,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> my Story. She shall tell thee,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> her Look I read the lab'ring Thought,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Event thy Fate is now disclosing.</l>
+</sp>
+<stage><pb n="30" facs="41"/>
+Enter the Dutchess of <hi>Suffolk.</hi></stage>
+<sp>
+<speaker>Dutc. Suff.</speaker>
+<l>No more complain, indulge thy Tears <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/></l>
+<l>Thy pious Grief has giv'n the Grave its Due:</l>
+<l>Let thy Heart kindle with the highest Hopes,</l>
+<l>Expand thy Bosom, let thy Soul inlarg'd,</l>
+<l>Make Room to entertain the coming Glory,</l>
+<l>For Majesty and Purple Greatness court thee,</l>
+<l>Homage and low Subjection wait: A Crown,</l>
+<l>That makes the Princes of the Earth like Gods.</l>
+<l>A Crown, my Daughter, <hi>England</hi>'s Crown attends,</l>
+<l>To bind thy Brows with its Imperial Wreath.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Amazement chills my Veins! what says my Mothe</l>
+</sp>
+<sp>
+<speaker>Dutc. Suff.</speaker>
+<l>'Tis Heav'ns Decree; for our expiring <hi>Edwa<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></hi></l>
+<l>When now just strugling to his native Skies,</l>
+<l>Ev'n on the Verge of Heav'n, in Sight of Ang<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/>.</l>
+<l>That hover'd round to waft him to the Stars,</l>
+<l>Ev'n then declar'd my JANE his Successor.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Could <hi>Edward</hi> do this? could the dyi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Saint,</l>
+<l>Bequeath his Crown to me? Oh fatal Bounty</l>
+<l>To me! but 'tis impossible! we dream.</l>
+<l>A thousand and a thousand Bars oppose me,</l>
+<l>Rise in my Way and intercept my Passage.</l>
+<l>Ev'n you, my gracious Mother, what must you be,</l>
+<l>E'er I can be a Queen?</l>
+</sp>
+<sp>
+<speaker>Dutc. Suff.</speaker>
+<l>That and that only;</l>
+<l>Thy Mother, fonder of that tender Name</l>
+<l>Than all the proud Additions Pow'r can give.</l>
+<l>Yes, I will give up all my Share of Greatness,</l>
+<l>And live in low Obscurity for ever,</l>
+<l>To see thee rais'd thou Darling of my Heart,</l>
+<l>And fix'd upon a Throne. But see! thy Father.</l>
+<l><hi>Northumberland,</hi> with all the Council come,</l>
+<l>To pay their vow'd Allegiance at thy Feet,</l>
+<l><pb n="31" facs="42"/>
+<gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> kneel and call thee Queen.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Support me <hi>Guilford,</hi></l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> thy Aid, stay thou my fainting Soul,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> help <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> to repress this growing Danger.</l>
+</sp>
+<stage><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>Suffolk, Northumberland,</hi> Lords and others of the Privy-Council.</stage>
+<sp>
+<speaker>North.</speaker>
+<l>Hail! sacred Princess! sprung from antient Kings;</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>England</hi>'s dearest Hope, undoubted Off-spring</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>York</hi> and <hi>Lancaster</hi>'s united Line.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> whose bright Zeal, by whose victorious Faith,</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>arded and fenc'd around our pure Religion,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Lamp of Truth which shines upon our Altars,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> lift its golden Head and flourish long.</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>eath whose awful Rule and righteous Scepter,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> plenteous Years shall roll in long Succession:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> shall prevail and antient Right take Place,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Liberty shall lift her chearful Head,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>rless of Tyranny and proud Oppression.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> sad complaining in our Streets shall cry,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Justice shall be exercis'd in Mercy.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Royal JANE! behold we band our Knees, <stage>[they kneel</stage></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Pledge of Homage and thy Land's Obedience,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> humblest Duty th<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> we kneel, and own thee</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Liege, our Soveraign Lady, and our Queen.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Oh! rise!</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Father rise! <stage>[to Suff.</stage> </l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> you my Father too! <stage>[to North.</stage></l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> me with this Confusion <stage>[they rise.</stage></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> means this Mock, this masquing Shew of Greatness?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> do you hang these Pageant Glories on me.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>dress me upon Honours not my own?</l>
+</sp>
+<sp>
+<speaker><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></speaker>
+<l>The Daughters of our late great Master <hi>Henry,</hi></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> both by <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>aw excluded from Succession.</l>
+<l><pb n="32" facs="43"/>
+To make all firm,</l>
+<l>And fix a Pow'r unquestion'd in your Hand,</l>
+<l><hi>Edward</hi> by Will bequeath'd his Crown to you</l>
+<l>And the concurring Lords in Council met,</l>
+<l>Have ratified the Gift.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Are Crowns and Empire,</l>
+<l>The Government and Safety of Mankind.</l>
+<l>Trifles of such light Moment, to be left,</l>
+<l>Like some rich Toy, a Ring or fancy'd Gem,</l>
+<l>The Pledge of parting Friends? can Kings do thus,</l>
+<l>And give away a People for a Legacy?</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Forgive me, Princely Lady, if my Wonder,</l>
+<l>Seizes each Sense, each Faculty of Mind.</l>
+<l>To see the utmost Wish the Great can form,</l>
+<l>A Crown thus coldly met: A Crown, which slighted,</l>
+<l>And left in Scorn by you, shall soon be sought</l>
+<l>And find a joyful Wearer; One perhaps,</l>
+<l>Of Blood unkindred to your Royal House,</l>
+<l>And fix its Glories in another Line.</l>
+</sp>
+<sp>
+<speaker>L.J.</speaker>
+<l>Where art thou now, thou Partner of my Ca<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> <stage>[turning to Gui<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></stage></l>
+<l>Come to my Aid, and help to bear this Burthen.</l>
+<l>Oh! save me from this Sorrow, this Misfortune,</l>
+<l>Which in the Shape of gorgeous Greatness comes,</l>
+<l>To crown and make a Wretch of me for ever.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Thou weep'st, my Queen, and hang'st thy dr<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></l>
+<l>Like nodding Poppies heavy with the Rain,</l>
+<l>That bow their weary Necks and bend to Earth.</l>
+<l>See, by thy Side, thy faithful <hi>Guilford</hi> stands,</l>
+<l>Prepar'd to keep Distress and Danger from thee,</l>
+<l>To wear thy sacred Cause upon his Sword,</l>
+<l>And war against the World in thy Defence.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Oh! stay this inauspicious Stream <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/></l>
+<l>And chear your People with one gracious <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></l>
+<l>Nor comes your Fate in such a dreadful Form</l>
+<l><pb n="33" facs="44"/>
+To bid you shun it. Turn those sacred Eyes</l>
+<l>On the bright Prospect Empire spreads before you.</l>
+<l>Methinks: see you seated on the Throne;</l>
+<l>Beneath your Feet, the Kingdoms great Degrees</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> brigh<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Confusion shine, Mitres and Coronets,</l>
+<l>The various Ermin, and the glowing Purple:</l>
+<l>Assemb<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> Senates wait with awful Dread</l>
+<l>To firm your high Commands, and make 'em Fate.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>You turn to view the painted side of Royalty,</l>
+<l>And cove<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> all the Cares that lurk beneath.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> it to <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Queen, to sit aloft</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> solemn, dull, uncomfortable State,</l>
+<l>The <gap resp="oxf" extent="5+ letters" disp="•••••…" reason="illegible"/>'d Idol of a Servile Court?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> it to draw <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> pompous Train along,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Pageant, for the wondring Crowd to gaze at?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> it in Wantonness of Pow'r, to Reign,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd make the World subservient to my Pleasure?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> it not rather to be Greatly Wretched,</l>
+<l>To Watch, to Toil, to take a sacred Charge,</l>
+<l>To bend each Day before high Heaven, and own,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> People hast thou trusted to my Hand,</l>
+<l><gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>d at my Hand, I know, thou shalt require 'em?</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>Northumberland!</hi>—my Father!—Is it not</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> live a Life of Care; and when I die,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> more to answer for before my Judge,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> any of my Subjects?</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Ev'ry State</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>lotted <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the Race of Man below,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> in proportion, doom'd to tast some Sorrow.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> is the golden Wreath on a King's Brow</l>
+<l><gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/>mpt from Care; and yet, Who wou'd not bear it?</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> the Monarchs of our Royal Race,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> liv'd not for Themselves: How many Blessings,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> many lifted Hands, shall pay thy Toil,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> thy Peoples Good thou happ'ly borrow</l>
+<l><pb n="34" facs="45"/>
+Some portion from the Hours of Rest, and Wake</l>
+<l>To give the World Repose.</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Behold, we stand upon the Brink of Ruin,</l>
+<l>And only Thou canst save us. Persecution,</l>
+<l>That Fiend of <hi>Rome</hi> and Hell, prepares her Tortures;</l>
+<l>See where she comes in <hi>Mary</hi>'s Priestly Train.</l>
+<l>Still wo't thou doubt? 'till thou behold her stalk</l>
+<l>Red with the Blood of Martyrs, and Wide-wasting</l>
+<l>O'er <hi>England</hi>'s Bosome? All the mourning Year</l>
+<l>Our Towns shall glow with unextinguish'd Fires;</l>
+<l>Our Youth on Racks shall stretch their Crackling Bones;</l>
+<l>Our Babes shall sprawl on Consecrated Spears;</l>
+<l>Matrons and Husbands, with their New-born Infants,</l>
+<l>Shall burn promiscuous; a continu'd Peal</l>
+<l>Of Lamentations, Groans and Shrieks shall sound</l>
+<l>Through all our purple Ways.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Amidst that Ruin,</l>
+<l>Think thou behold'st thy <hi>Guilford</hi>'s Head laid Low,</l>
+<l>Bloody and Pale—</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Oh! spare the Dreadful Image!</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh! wou'd the Misery be bounded there,</l>
+<l>My Life were little; but the Rage of <hi>Rome</hi></l>
+<l>Demands whole Hecatombs, a Land of Victims.</l>
+<l>With Superstition comes that other Fiend,</l>
+<l>That Bane of Peace, of Arts and Virtue, Tyranny;</l>
+<l>That Foe to Justice, Scorner of all Law;</l>
+<l>That Beast, which thinks Mankind were born for One,</l>
+<l>And made by Heav'n to be a Monster's Prey;</l>
+<l>That heaviest Curse of groaning Nations, Tyranny.</l>
+<l><hi>Mary</hi> shall, by her Kindred <hi>Spain,</hi> be taught</l>
+<l>To bend our Necks beneath a Brazen Yoke,</l>
+<l>And Rule o'er Wretches with an Iron Sceptre.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Avert that Judgment, Heaven!</l>
+<l>Whate'er thy Providence allots for me,</l>
+<l>In Mercy spare my Country.</l>
+</sp>
+<sp>
+<pb n="35" facs="46"/>
+<speaker>Guil.</speaker>
+<l>Oh, my Queen!</l>
+<l>Does not thy Great, thy Generous Heart Relent,</l>
+<l>To think this Land, for Liberty so fam'd,</l>
+<l>Shall have her Tow'ry Front at once laid low,</l>
+<l>And robb'd of all it's Glory? Oh! my Country!</l>
+<l>Oh! Fairest <hi>Albion,</hi> Empress of the Deep.</l>
+<l>How have thy Noblest Sons with stubborn Valour</l>
+<l>Stood to the last, dy'd many a Field in Blood,</l>
+<l>In dear Defence of Birth-right and their Laws!</l>
+<l>And shall those Hands, which fought the Cause of Freedom,</l>
+<l>Be manacl'd in base unworthy Bonds?</l>
+<l>Be tamely yielded up? the Spoil, the Slaves</l>
+<l>Of Hair-brain'd Zeal, and Cruel Coward Priests?</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Yes, my lov'd Lord, my Soul is mov'd, like Thine.</l>
+<l>At ev'ry Danger which Invades our <hi>England;</hi></l>
+<l>My cold Heart kindles at the great Occasion,</l>
+<l>And could be more than Man, in her Defence.</l>
+<l>But where is my Commission to Redress?</l>
+<l>Or whence my Pow'r to Save? Can <hi>Edward</hi>'s Will,</l>
+<l>Or Twenty met in Council, make a Queen?</l>
+<l>Can you, my Lords, give me the Pow'r to canvass</l>
+<l>A doubtful Title with King <hi>Henry</hi>'s Daughters?</l>
+<l>Where are the Rev'rend Sages of the Law,</l>
+<l>To guide me with their Wisdoms, and point out</l>
+<l>The Paths which Right and Justice bid me tread?</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>The Judges all attend, and will at leisure</l>
+<l>Resolve you ev'ry Scruple.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>They expound,</l>
+<l>But where are those, my Lord, who make the Law?</l>
+<l>Where are the Ancient Honours of the Realm,</l>
+<l>The Nobles, with the Miter'd Fathers join'd?</l>
+<l>The Wealthy Commons solemnly Assembled?</l>
+<l>Where is that Voice of a Consenting People,</l>
+<l>To pledge the Universal Faith with mine,</l>
+<l><pb n="36" facs="47"/>
+And call me justly Queen?</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Nor shall that long</l>
+<l>Be wanting to your Wish: The Lords and Commons</l>
+<l>Shall, at your Royal Bidding, soon Assemble,</l>
+<l>And with united Homage own your Title.</l>
+<l>Delay not then to meet the General Wish,</l>
+<l>But be our Queen; be <hi>England</hi>'s better Angel.</l>
+<l>Nor let mistaken Piety betray you</l>
+<l>To join with Cruel <hi>Mary</hi> in our Ruin:</l>
+<l>Her bloody Faith commands her to Destroy,</l>
+<l>And yours forbids to Save.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Our Foes, already</l>
+<l>High in their Hopes, devote us all to Death:</l>
+<l>The Dronish Monks, the Scorn and Shame of Manhood</l>
+<l>Rouze and prepare once more to take Possession,</l>
+<l>To nestle in their ancient Hives again;</l>
+<l>Again they furbish up their Holy Trumpery,</l>
+<l>Relicks, and Wooden Wonder-working Saints,</l>
+<l>Whole Loads of Lumber and Religious Rubbish,</l>
+<l>In high Procession mean to bring 'em back,</l>
+<l>And place the Puppets in their Shrines again:</l>
+<l>While those of keener Malice, Savage <hi>Bonner,</hi></l>
+<l>And Deep-designing <hi>Gard'ner,</hi> dream of Vengeance;</l>
+<l>Devour the Blood of Innocents, in Hope,</l>
+<l>Like Vultures, snuff the Slaughter in the Wind,</l>
+<l>And speed their Flight to Havock and the Prey,</l>
+<l>Haste then and save us, while 'tis giv'n to save</l>
+<l>Your Country, your Religion.</l>
+</sp>
+<sp>
+<speaker>North.</speaker>
+<l>Save your Friends!</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Your Father!</l>
+</sp>
+<sp>
+<speaker>D. Suff.</speaker>
+<l>Mother!</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Husband!</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Take me, Crown me;</l>
+<l>Invest me with this Royal Wretchedness;</l>
+<l>Let me not know one happy Minute more,</l>
+<l><pb n="37" facs="48"/>
+Let all my sleepless Nights be spent in Care,</l>
+<l>My Days be vex'd with Tumults and Alarms,</l>
+<l>If only I can save you; if my Fate</l>
+<l>Has mark'd me out to be the Publick Victim,</l>
+<l>I take the Lot with Joy. Yes, I will Die</l>
+<l>For that Eternal Truth my Faith is fix'd on,</l>
+<l>And that dear Native Land which gave me Birth.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Wake ev'ry Tuneful Instrument to tell it,</l>
+<l>And let the Trumpets sprightly Note proclaim</l>
+<l>My <hi>Jane</hi> is <hi>England</hi>'s Queen! Let the loud Cannon</l>
+<l>In pe<gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/> Thunder speak it to <hi>Augusta.</hi></l>
+<l>Imperial <hi>Thames,</hi> catch thou the sacred Sound,</l>
+<l>And <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> it to the subject Ocean down:</l>
+<l>Tell the old Deep, and all thy Brother-Floods,</l>
+<l>My <hi>Jane</hi> is Empress of the Watry World!</l>
+<l>Now <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> glad Fires our bloodless Streets shall shine;</l>
+<l>With <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> of Joy our chearful Ways shall ring;</l>
+<l>Thy Name shall eecho through the rescu'd Isle,</l>
+<l>And reach Applauding Heaven!</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Oh, <hi>Guilford!</hi> What do we give up for Glory!</l>
+<l>For Glory! That's a Toy I wou'd not purchase,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> empty Bubble. But for <hi>England!</hi></l>
+<l>What must we lose for That! Since then my Fate</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> his hard Exchange upon my Will,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> gracious Heav'n allow me one Request:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> that blest Peace in which I once did dwell,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Book<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> Retirement, and my studious Cell,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> all th<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>se Joys my happier Days did prove,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>Plato</hi> and his <hi>Academick Grove;</hi></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> that <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, is, Tho' my Fortune frown,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> beneath this fatal Crown;</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> that <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Good be added to my Doom,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> save this Land from Tyranny and <hi>Rome</hi></l>
+<stage>[Exeunt.</stage>
+</sp>
+<trailer>End of the Third ACT</trailer>
+</div1>
+<div1 n="4" type="act">
+<pb n="38" facs="49"/>
+<head>ACT IV. SCENE I.</head>
+<stage>Scene <hi>Continues.</hi></stage>
+<stage>Enter <hi>PEMBROKE</hi> and <hi>GARDINER.</hi></stage>
+<sp>
+<speaker>Gardiner.</speaker>
+<l><seg rend="decorInit">I</seg>N an unlucky and accursed Hour</l>
+<l>Set forth that Traytor Duke, that Proud <hi>Northumberland,</hi></l>
+<l>To draw his Sword upon the side of Heresy,</l>
+<l>And War against our <hi>Mary</hi>'s Royal Right:</l>
+<l>Ill Fortune fly before and pave his Way</l>
+<l>With Disappointment, Mischief and Defeat:</l>
+<l>And thou, O, holy <hi>Becket,</hi> the Protector,</l>
+<l>The Champion, and the Martyr of our Church,</l>
+<l>Appear, and once more own the Cause of <hi>Rome;</hi></l>
+<l>Beat down his Launce, break thou his Sword in Battle,</l>
+<l>And cover foul Rebellion with Confusion.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I saw him marching at his Army's Head;</l>
+<l>I mark'd him issuing through the City Gate</l>
+<l>In Harness, all appointed as he pass'd;</l>
+<l>And (for he wore his Beaver up) could read</l>
+<l>Upon his Visage Horror and Dismay:</l>
+<l>No Voice of friendly Salutation chear'd him,</l>
+<l>None wish'd his Arms might thrive, or bad God-speed him;</l>
+<l>But through a staring Gastly-looking Croud,</l>
+<l>Unhail'd, unbless'd, with heavy Heart he went:</l>
+<l><pb n="39" facs="50"/>
+As if <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>raytor Father's haggard Ghost,</l>
+<l>And <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> fresh bleeding from the Ax,</l>
+<l>On <gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ther hand had usher'd him to Ruin.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Nor shall the holy Vengeance loiter long.</l>
+<l>At <hi>Framingham</hi> in <hi>Suffolk</hi> lies the Queen,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Pious Mistress; where each Day</l>
+<l>The Nobles of the Land, and swarming Populace</l>
+<l>Gather, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> List beneath her Royal Ensigns.</l>
+<l>The Fleet Commanded by Sir <hi>Thomas Jerningham,</hi></l>
+<l>Set <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Warlike manner to oppose her,</l>
+<l>With one Consent have join'd to own her Cause:</l>
+<l>The <gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/>ant <hi>Sussex,</hi> and Sir <hi>Edward Hastings,</hi></l>
+<l>With many more of Note, are up in Arms,</l>
+<l>And all Declare for Her.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>The Citizens,</l>
+<l>Who held the Noble <hi>Somerset</hi> right dear,</l>
+<l>Hate this aspiring <hi>Dudley</hi> and his Race,</l>
+<l>And wou'd, upon the Instant, join t'oppose him;</l>
+<l>Could we but draw some of the Lords o'th' Council</l>
+<l>T'<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/>ear among 'em, own the same Design,</l>
+<l>And bring the Rev'rend Sanction of Authority</l>
+<l>To lead 'em into Action. For that Purpose,</l>
+<l>To thee, as to an Oracle, I come</l>
+<l>To learn what fit Expedient may be found,</l>
+<l>To <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the wary Council to our side.</l>
+<l>Say thou, whose Head is grown thus Silver White,</l>
+<l>In A<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> of Government, and Turns of State,</l>
+<l>How we may blast our Enemies with Ruin,</l>
+<l>And <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> curs'd <hi>Northumberland</hi> to Hell.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>In happy Time be your whole Wish accomplish'd.</l>
+<l>Since the Proud Duke set out, I have had Conference,</l>
+<l>As in Occasion serv'd, with divers of 'em,</l>
+<l>The Earl of <hi>Arundel, Mason,</hi> and <hi>Cheyney,</hi></l>
+<l>And find 'em all dispos'd as we could ask.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Holy <hi>Mary,</hi> if I count aright,</l>
+<l><pb n="40" facs="51"/>
+To Day, the better Part shall leave this Place,</l>
+<l>And meet at <hi>Baynard's-Castle</hi> in the City;</l>
+<l>There own our Sovereign's Title, and defy</l>
+<l><hi>Jane,</hi> and her Gospel-Crew. But hye you hence?</l>
+<l>This Place is still within our Foes Command,</l>
+<l>Their Puppet-Queen reigns here.</l>
+</sp>
+<stage>Enter an Officer with a Guard.</stage>
+<sp>
+<speaker>Off.</speaker>
+<l>Seize on 'em both.</l>
+<stage>[Guard seize <hi>Pembroke</hi> and <hi>Gardiner.</hi></stage>
+<l>My Lord, you are a Prisoner to the State.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Ha! By whose Order?</l>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<l>By the Queen's Command,</l>
+<l>Sign'd and Deliver'd by Lord <hi>Guilford Dudley.</hi></l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Curse on his Traytor's Heart!</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Rest you Contented:</l>
+<l>You have loiter'd here too long; but use your Patience,</l>
+<l>These Bonds shall not be lasting.</l>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<l>As for you, Sir, <stage>[To <hi>Gardiner.</hi></stage></l>
+<l>'Tis the Queen's Pleasure, you be close Confin'd:</l>
+<l>You've us'd that fair Permission was allow'd you,</l>
+<l>To walk at large within the <hi>Tower,</hi> unworthily.</l>
+<l>You're noted for an Over-busy Medler,</l>
+<l>A Secret Practicer against the State;</l>
+<l>For which, henceforth, your <gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/>its shall be straiter.</l>
+<l>Hence! to his Chamber.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Farewel, gentle <hi>Pembroke,</hi></l>
+<l>I trust, that we shall meet on blither Terms;</l>
+<l>Till then, amongst my Beads, I will remember you,</l>
+<l>And give you to the Keeping of the Saints.</l>
+<stage>[Exeunt part of the Guard with <hi>Gardiner.</hi></stage>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Now! whither must I go?</l>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<l>This way, my Lord. <stage>[Going off.</stage></l>
+</sp>
+<stage><pb n="41" facs="52"/>
+Enter <hi>Guilford.</hi></stage>
+<sp>
+<speaker>Gui<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>.</speaker>
+<l>Hold, Captain! e're you go, I have a Word or two</l>
+<l>For this your Noble Pris'ner.</l>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<l>At your Pleasure:</l>
+<l>I know my Duty, and attend your Lordship.</l>
+<stage>[The Officer and Guard retire to the farther part of the Stage.</stage>
+</sp>
+<sp>
+<speaker>G<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/></speaker>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> the Gentleness that was betwixt us</l>
+<l>So <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> swept away from thy Remembrance,</l>
+<l>Thou canst not look upon me?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Ha! not look!</l>
+<l>What Terrors are there in the <hi>Dudley</hi>'s Race,</l>
+<l>That <hi>Pembroke</hi> dares not look upon and scorn?</l>
+<l>And yet, ,tis true, I wou'd not look upon thee:</l>
+<l>Our Eyes avoid to look on what we hate,</l>
+<l>As well as what we fear.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>You hate me, then?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I do; and wish Perdition may o'ertake</l>
+<l>Thy Father, thy false Self, and thy whole Name.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>And yet, as sure as Rage disturbs thy Reason,</l>
+<l>And masters all the noble Nature in thee;</l>
+<l>As sure as thou hast Wrong'd me, I am come</l>
+<l>In tenderness of Friendship to Preserve thee;</l>
+<l>To plant ev'n all the Pow'r I have before thee,</l>
+<l>And fence thee from Destruction, with my Life.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Friendship from thee! But, my just Soul disdains thee:</l>
+<l>Hence! take the prostituted Bawble back,</l>
+<l>Hang it to grace some slavering Ideot's Neck,</l>
+<l>For none but Fools will prize the Tinsel Toy:</l>
+<l>But thou art come, perhaps, to vaunt thy Greatness,</l>
+<l>And set thy Purple Pomp to view before me;</l>
+<l>To let me know that <hi>Guilford</hi> is a King,</l>
+<l>That he can speak the Word, and give me Freedom.</l>
+<l><pb n="42" facs="53"/>
+Oh! Short-liv'd Pageant! Had'st thou all the Pow'r</l>
+<l>Which thy vain Soul would grasp at, I would Die,</l>
+<l>Rot in a Dungeon, e're receive a Grace,</l>
+<l>The least, the meanest Courtesy from Thee.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh! <hi>Pembroke!</hi> But I have not time to Talk.</l>
+<l>For Danger presses; Danger unforeseen,</l>
+<l>And secret as the Shaft that flies by Night,</l>
+<l>Is aiming at thy Life. Captain, a Word! <stage>[To the Officer.</stage></l>
+<l>I take your Pris'ner to my proper Charge;</l>
+<l>Draw of your Guard, and leave his Sword with me</l>
+<stage>[The Officer Delivers the Sword to Lord <hi>Guilford,</hi> and goes out with the Guard.]</stage>
+<stage>[<hi>L. Guil.</hi> offering the Sword to <hi>Pembroke.</hi>]</stage>
+<l>Receive this Gift, ev'n from a Rival's Hand;</l>
+<l>And if thy Rage will suffer thee to hear</l>
+<l>The Counsel of a Man once call'd thy Friend,</l>
+<l>Flie from this fatal Place, and seek thy Safety.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>How now! What Shew, What Mockery is this?</l>
+<l>Is it in Sport you use me thus? What means</l>
+<l>This swift fantastick changing of the Scene?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh! take thy Sword; and let thy va<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>ant Hand</l>
+<l>Be ready arm'd to Guard thy Noble Life:</l>
+<l>The Time, the Danger, and thy wild Impatience,</l>
+<l>Forbid me all to enter into Speech with thee,</l>
+<l>Or I cou'd tell thee—</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>No, it needs not, Traytor!</l>
+<l>For all thy poor, thy little Arts are known.</l>
+<l>Thou fear'st my Vengeance, and art come to Fawn,</l>
+<l>To make a Merit of that proffer'd Freedom,</l>
+<l>Which, in despite of thee, a Day shall give me:</l>
+<l>Nor can my Fate depend on thee, false <hi>Guilford;</hi></l>
+<l>For know, to thy Confusion, e're the Sun</l>
+<l>Twice gild the East, our Royal <hi>Mary</hi> comes</l>
+<l>To End thy Pageant Reign, and set me Free.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Ungrateful and Unjust! Hast thou then <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/></l>
+<l><pb n="43" facs="54"/>
+So little, to accuse my Heart of Fear?</l>
+<l>Hast thou forgotten <hi>Musselborough</hi>'s Field?</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Fear, when by thy Side I fought,</l>
+<l>And dy'd my Maiden Sword in <hi>Scottish</hi> Blood?</l>
+<l>But this is Madness all.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Give me my Sword. <stage>[Taking his Sword.</stage></l>
+<l>Perhaps indeed, I wrong thee. Thou hast thought;</l>
+<l>And, conscious of the Injury thou hast done me,</l>
+<l>Art come to proffer me a Soldier's Justice,</l>
+<l>And meet my Arm in single Opposition:</l>
+<l>Lead then, and let me Follow to the Field.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Yes, <hi>Pembroke,</hi> thou shalt satisfy thy Vengeance.</l>
+<l>And <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> thy bloody Purpose on my Bosom.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Death wait to Day. By our past Friendship,</l>
+<l>In Honour's Name, by ev'ry sacred Tie,</l>
+<l>I beg thee ask no more, but haste from hence.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>What mystick Meaning lurks beneath thy Words?</l>
+<l>What Fear is this, which thou would'st awe my Soul with?</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Danger <hi>Pembroke</hi> dares not meet?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh! spare my Tongue a Tale of Guilt and Horror;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> this once; believe me, when I tell thee</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> thy Life is all I seek.</l>
+<l>Away!</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>By Heav'n! I wo'not stir a Step.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> on this shuffling, dark, ambiguous Phrase.</l>
+<l>If thou wou'dst have me think thou mean'st me fairly,</l>
+<l>Speak with that plainness Honesty delights in,</l>
+<l>And let thy Double-Tongue for once be True.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Forgive me, Filial Piety and Nature,</l>
+<l>If, thus compell'd, I break your sacred Laws,</l>
+<l>Reveal my father's Crime, and blot with Infamy</l>
+<l>The Hoary Head of him who gave me Being,</l>
+<l>To save the Man whom my Soul loves, from Death.</l>
+<stage>[Giving a Paper.]</stage>
+<l>Read there the fatal Purpose of thy Foe,</l>
+<l><pb n="44" facs="55"/>
+A Thought which Wounds my Soul with Shame and Horror,</l>
+<l>Somewhat that Darkness shou'd have hid for Ever,</l>
+<l>But that thy Life—Say, hast thou seen that Character?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>I know it well; the Hand of Proud <hi>Northumberland,</hi></l>
+<l>Directed to his Minions <hi>Gates</hi> and <hi>Palmer.</hi></l>
+<l>What's this?</l>
+<stage>[Reads.</stage>
+<p>Remember with your closest Care, to observe those whom <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> nam'd to you at parting; especially keep your Eye upon the Earl of <hi>Pembroke;</hi> as his Power and Interest are most <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, so his Opposition will be most Fatal to us. <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Resolution was taken, if you should find him inclin'd to <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Enemies. The Forms of Justice are tedious, and <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Dangerous. If he falters, lose not the sight of him <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Daggers have reach'd his Heart.</p>
+<l>My Heart! Oh! Murd'rous Villain!</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Since he parted,</l>
+<l>Thy Ways have all been Watch'd, thy Steps been M<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>'d;</l>
+<l>Thy Secret Treaties with the Malecontents</l>
+<l>That Harbour in the City; thy Conferring</l>
+<l>With <hi>Gard'ner</hi> here in the Tower, all is known,</l>
+<l>And, in pursuance of that Bloody Mandate,</l>
+<l>A Set of Chosen Ruffians wait to End thee.</l>
+<l>There was but one way left me to preserve thee:</l>
+<l>I took it; and this Morning sent my Warrant</l>
+<l>To seize upon thy Person—But be gone!</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>'Tis so—'tis Truth—I see his Honest H<gap resp="oxf" extent="4 letters" disp="••••" reason="illegible"/></l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>I have a Friend of well try'd Faith and Courage,</l>
+<l>Who with a fit Disguise, and Arms conceal'd,</l>
+<l>Attends without, to guide thee hence in Safety.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>What is <hi>Northumberland?</hi> and what art Thou?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Waste not the Time. Away!</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Here let me fix</l>
+<l>And gaze with Everlasting Wonder on thee.</l>
+<l>What is there Good or Excellent in Man,</l>
+<l>That is not found in thee? Thy Virtues flash,</l>
+<l><pb n="45" facs="56"/>
+They break at once on my astonish'd Soul;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Curtains of the Dark were drawn,</l>
+<l>To <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Day at Midnight.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Think me True;</l>
+<l>And tho' Ill-fortune cross'd upon our Friendship—</l>
+</sp>
+<sp>
+<speaker>Pem</speaker>
+<l>Curse on our Fortune!—Think!—I know thee honest.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>For ever I cou'd hear thee—but thy Life—</l>
+<l>Oh, <hi>Pembroke,</hi> linger not—</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>And can I leave thee</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> I have clasp'd thee in my eager Arms,</l>
+<l>And <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> thee back my sad repenting Heart?</l>
+<l>Believe <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>, <hi>Guilford,</hi> like the Patriarch's Dove, <stage>[Embracing.</stage></l>
+<l>It <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> forth, but found no Resting-place</l>
+<l>Till <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Home again to lodge with thee.</l>
+</sp>
+<sp>
+<speaker>G<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/></speaker>
+<l>What is there that my Soul can more desire,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> dear Marks of thy returning Friendship?</l>
+<l>The Danger comes—If you stay longer here,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> my <hi>Pembroke.</hi></l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Let me stay and Die;</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> if I go, I go to work thy Ruin.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ow'st not what a Foe thou <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> me forth,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> sworn Destruction to thy Queen,</l>
+<l>And pledg'd my Faith to <hi>Mary</hi> and her Cause:</l>
+<l>My Honour is at stake.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>I know 'tis given:</l>
+<l>But go—the stronger thy Engagement's there,</l>
+<l>The more's thy Danger here. There is a Power</l>
+<l>Who sits above the Stars, in him I Trust;</l>
+<l>All that I have, his bounteous Hand bestow'd;</l>
+<l>And he that gave it, can preserve it to me.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>er-ruling Will ordains my Ruin,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> more, but to fall down before him,</l>
+<l>And humbly yield Obedience!—Flie!—Be gone!</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Yes, I will go—For see! Behold who comes!</l>
+<l>Oh, <hi>Guilford,</hi> hide me, shield me from her Sight;</l>
+<l><pb n="46" facs="57"/>
+Ev'ry mad Passion kindles up again,</l>
+<l>Love, Rage, Despair—and yet I will be Master—</l>
+<l>I will Remember Thee—Oh, my torn Heart!</l>
+<l>I have a Thousand thousand Things to say,</l>
+<l>But cannot, dare not stay to look on her.</l>
+<l>Thus gloomy Ghosts, whene'er the breaking Morn</l>
+<l>Gives notice of the chearful Sun's Return,</l>
+<l>Fade at the Light, with Horror stand Opprest,</l>
+<l>And shrink before the Purple-dawning East;</l>
+<l>Swift with the fleeting Shades they wing their way,</l>
+<l>And dread the Brightness of the Rising Day.</l>
+<stage>[Exeunt <hi>Guil.</hi> and <hi>Pem.</hi></stage>
+</sp>
+<stage>Enter Lady <hi>Jane,</hi> Reading.</stage>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>'Tis false! The thinking Soul is somewhat <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></l>
+<l>Than Symmetry of Atoms well dispos'd,</l>
+<l>The Harmony of Matter. Farewel else</l>
+<l>The Hope of all hereafter, that New Life,</l>
+<l>That separate Intellect, which must survive,</l>
+<l>When this fine Frame is moulder'd into Dust.</l>
+</sp>
+<stage>Enter <hi>Guilford.</hi></stage>
+<sp>
+<speaker>Guil.</speaker>
+<l>What read'st thou there, my Queen?</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>'Tis <hi>Plato</hi>'s <hi>Phaedon,</hi></l>
+<l>Where Dying <hi>Socrates</hi> takes leave of Life,</l>
+<l>With such an easy, careless, calm Indifference,</l>
+<l>As if the Trifle were of no Account,</l>
+<l>Mean in it self, and only to be worn</l>
+<l>In honour of the Giver.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Shall thy Soul</l>
+<l>Still scorn the World, still flie the Joys that court</l>
+<l>Thy blooming Beauty, and thy tender Youth?</l>
+<l>Still shall she soar on Contemplation's Wing,</l>
+<l>And mix with nothing meaner than the Stars;</l>
+<l>As Heaven and Immortality alone</l>
+<l>Were Objects worthy to employ her Faculties.</l>
+</sp>
+<sp>
+<pb n="47" facs="58"/>
+<speaker>L. Jane.</speaker>
+<l>Bate but thy Truth, what is there here below</l>
+<l>Deserves the least Regard? Is it not time</l>
+<l>To bid our Souls look out, explore hereafter,</l>
+<l>And seek some better, sure-abiding Place;</l>
+<l>When all around our gathering Foes come on,</l>
+<l>To drive, to sweep us from this World at once?</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Does any Danger new—</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>The faithless Councellors</l>
+<l>Are fled from hence, to join the Princess <hi>Mary.</hi></l>
+<l>The servile Herd of Courtiers, who so late</l>
+<l>In low Obeysance bent the Knee before me;</l>
+<l>They, who with zealous Tongues, and Hands uplifted,</l>
+<l>Besought me to Defend their Laws and Faith;</l>
+<l>Vent their lewd Execrations on my Name,</l>
+<l>Proclaim me Trait'ress now, and to the Scaffold</l>
+<l>Doom my devoted Head.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>The Changling Villains</l>
+<l>That pray for Slavery, fight for their Bonds,</l>
+<l>And shun the Blessing, Liberty, like Ruin.</l>
+<l>What art thou, Human Nature, to do thus?</l>
+<l>Does Fear or Folly make thee, like the <hi>Indian,</hi></l>
+<l>Fall down before this dreadful Devil, Tyranny,</l>
+<l>And Worship the Destroyer?</l>
+<l>But wherefore do I loiter tamely here?</l>
+<l>Give me my Arms: I will Preserve my Country,</l>
+<l>Ev'n in her own despite: Some Friends I have</l>
+<l>Who will or Die or Conquer in thy Cause,</l>
+<l>Thine and Religion's, Thine and <hi>England</hi>'s Cause.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Art thou not all my Treasure, all my Guard?</l>
+<l>And wo'<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> thou take from me the only Joy,</l>
+<l>The last Defence is left me here below?</l>
+<l>Think not thy Arm can stem the driving Torrent,</l>
+<l>Or save a People who with blindfold Rage,</l>
+<l>Urge their own Fate, and strive to be Undone.</l>
+<l><hi>Northumberland,</hi> thy Father, is in Arms;</l>
+<l><pb n="48" facs="59"/>
+And if it be in Valour to defend us,</l>
+<l>His Sword, that long has known the way to Conquest.</l>
+<l>Shall be our surest Safety.</l>
+</sp>
+<stage>Enter the Duke of <hi>Suffolk.</hi></stage>
+<sp>
+<speaker>Suff.</speaker>
+<l>Oh! my Children!</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Alas! What means my Father?</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Oh! my Son!</l>
+<l>Thy Father, great <hi>Northumberland,</hi> on whom</l>
+<l>Our dearest Hopes were built—</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Ha! What of him?</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Is Lost, Betray'd!</l>
+<l>His Army, onward as he march'd, shrunk from him,</l>
+<l>Moulder'd away, and melted from his side,</l>
+<l>Like falling Hail thick strown upon the Ground,</l>
+<l>Which, e're we can essay to count, is vanish'd:</l>
+<l>With some few Followers he arriv'd at <hi>Cambridge;</hi></l>
+<l>But there, ev'n they forsook him; and himself</l>
+<l>Was forc'd, with heavy Heart and watry Eye,</l>
+<l>To cast his Cap up, with dissembled Chear,</l>
+<l>And cry, God save Queen <hi>Mary.</hi> But alas!</l>
+<l>Little avail'd the semblance of that Loyalty:</l>
+<l>For soon thereafter, by the Earl of <hi>Arundel,</hi></l>
+<l>With Treason was he charg'd, and there Arrested;</l>
+<l>And now he brings him Pris'ner up to <hi>London.</hi></l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>—Then there's an end of Greatness the vain Dream</l>
+<l>Of Empire and a Crown, that danc'd before me,</l>
+<l>With all those unsubstantial, empty Forms,</l>
+<l>Waiting in idle Mockery around us:</l>
+<l>The gaudy Masque, tedious, and nothing meaning,</l>
+<l>Is vanish'd all at once—Why, fare it well.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>And canst thou bear this sudden Turn of Fate</l>
+<l>With such unshaken Temper?</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>For my self,</l>
+<l>If I cou'd form a Wish for Heav'n to grant,</l>
+<l><pb n="49" facs="60"/>
+It should have been to <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> of <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Crown,</l>
+<l>And thou o'er-ruling, great, all-knowing Power!</l>
+<l>Th<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> who discern'st our Thoughts, who see'st 'em rising,</l>
+<l>And <gap resp="oxf" extent="3+ letters" disp="•••…" reason="illegible"/>ing in the Soul, Oh judg me, Thou!</l>
+<l>If e'er ambition's guilty Fires have warm'd me,</l>
+<l>If e'er my Heart inclin'd to Pride, to Power,</l>
+<l>Or joy'd in being a Queen. I took the Scepter</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> this Land, thy People, and thy Altars:</l>
+<l>And <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> behold I bend my grateful Knee, <stage>[Kneeling.</stage></l>
+<l>In humble Adoration of that Mercy,</l>
+<l>Which quits me of the vast unequal Task.</l>
+</sp>
+<stage>Enter the Dutchess of <hi>Suffolk.</hi></stage>
+<sp>
+<speaker>Dss Suff.</speaker>
+<l>Nay, keep that Posture still; and let us join,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> all our Knees by thine, lift up our Hands,</l>
+<l>And seek for Help and Pity from above,</l>
+<l>For Earth and faithless Man will give us none.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>What is the worst our cruel Fate ordains us?</l>
+</sp>
+<sp>
+<speaker>Dss Suff.</speaker>
+<l>Curs'd be my fatal Counsel, curs'd my Tongue,</l>
+<l>That pleaded for thy Ruin, and persuaded</l>
+<l>Thy guiltless Feet to tread the Paths of Greatness!</l>
+<l>My Child!—I have undone thee!—</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Oh my Mother!</l>
+<l>Shou'd I not bear a Portion in your Sorrows?</l>
+</sp>
+<sp>
+<speaker>Dss Suff.</speaker>
+<l>Alas! thou hast thy own, a double Portion.</l>
+<l><hi>Mary</hi> is come, and the revolting <hi>Londoners,</hi></l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> the Heavens with thy applauded Name,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> to meet and hail her as their Queen.</l>
+<l><hi>Sussex</hi> is <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> here, commands the <hi>Tower,</hi></l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> plac'd his Guards around: And this sad Place,</l>
+<l>So late thy Palace, is become our Prison.</l>
+<l>I saw him bend his Knee to cruel <hi>Gardiner,</hi></l>
+<l>Who freed from his Confinement, ran to meet him,</l>
+<l>Embrac'd and blest him with a Hand of Blood.</l>
+<l>Each hast'ning moment I expect 'em here,</l>
+<l><pb n="50" facs="61"/>
+To seize, and pass the Doom of Death upon us.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Ha! seiz'd! shalt thou be seiz'd! and shall I stand,</l>
+<l>And tamely see thee born away to Death?</l>
+<l>Then blasted be my Coward Name for ever:</l>
+<l>No, I will set my self to guard this Spot,</l>
+<l>To which our narrow Empire now is shrunk;</l>
+<l>Here will I grow the Bulwark of my Queen;</l>
+<l>Nor shall the Hand of Violence profane thee,</l>
+<l>Until my Breast have born a thousand Wounds;</l>
+<l>Till this torn mangled Body sink at once</l>
+<l>A Heap of Purple Ruin at thy Feet.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>And could thy rash distracted Rage do thus?</l>
+<l>Draw thy vain Sword against an armed Multitude,</l>
+<l>Only to have my poor Heart split with Horrour,</l>
+<l>To see thee stab'd and butcher'd here before me.</l>
+<l>Oh call thy better nobler Courage to thee,</l>
+<l>And let us meet this adverse Fate with Patience!</l>
+<l>Greet our insulting Foes with equal Tempers,</l>
+<l>With even Brows, and Souls secure of Death.</l>
+<l>Here stand unmov'd, as once the <hi>Roman</hi> Senate</l>
+<l>Receiv'd fierce <hi>Brennus</hi> and the conquering <hi>Gauls,</hi></l>
+<l>Till ev'n the rude <hi>Barbarians</hi> stood amaz'd</l>
+<l>At such superior Vertue. Be thy self,</l>
+<l>For see the Trial comes!</l>
+</sp>
+<stage>Enter <hi>Sussex, Gardiner,</hi> Officers and Soldiers.</stage>
+<sp>
+<speaker>Suss</speaker>
+<l>Guards, execute your Orders; seize the Traitors:</l>
+<l>Here my Commission ends. To you, my Lord, <stage>[To <hi>Gardiner.</hi></stage></l>
+<l>So our great Mistress, Royal <hi>Mary,</hi> bids,</l>
+<l>I leave the full Disposal of these Pris'ners;</l>
+<l>To your wise Care the pious Queen commends</l>
+<l>Her Sacred Self, her Crown, and what's yet more</l>
+<l>The Holy <hi>Roman</hi> Church; for whose dear Safety,</l>
+<l>She wills your utmost Diligence be shewn,</l>
+<l>To bring Rebellion to the Bar of Justice.</l>
+<l><pb n="51" facs="62"/>
+<gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/>, to proclaim <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>w much she trusts</l>
+<l>In <hi>Winchester</hi>'s deep Thought, and well-try'd Faith,</l>
+<l>The Seal attends to grace those Reverend Hands;</l>
+<l>And when I next salute you, I must call you</l>
+<l>Chief Minister and Chancellor of <hi>England.</hi></l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Unnumber'd Blessings fall upon her Head,</l>
+<l>My Ever-gracious Lady <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> to remember</l>
+<l>With such full Bounty her old humble Beadsman!</l>
+<l>For these her Foes leave me to deal with them.</l>
+</sp>
+<sp>
+<speaker>Suss.</speaker>
+<l>The Queen is on her Entrance, and expects me:</l>
+<l>My Lord farewel.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Farewel, Right Noble <hi>Sussex.</hi></l>
+<l>Commend me to the Queen's Grace, say her Bidding</l>
+<l>Shall be observ'd by her most lowly Creature. <stage>[Exit <hi>Sussex</hi></stage></l>
+<l>Lieutenant of the <hi>Tower,</hi> take hence your Pris'ners,</l>
+<l>Be it your Care to see 'em kept apart,</l>
+<l>That they may hold no Commerce with each other.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>That Stroke was unexpected.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Wo't thou part us?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>I hold no Speech with Hereticks and Traitors.</l>
+<l>Lieutenant, see my Orders be obey'd. <stage>[Exit <hi>Gardiner.</hi></stage></l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Inhuman, monstrous, unexampled Cruelty!</l>
+<l>Oh <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/>! but the Task becomes thee well;</l>
+<l>Thy <gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>age Temper joys to do Death's Office;</l>
+<l>To <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the Sacred Bands of Love asunder,</l>
+<l>And part those Hands which Heav'n it self had join'd.</l>
+</sp>
+<sp>
+<speaker>Dss Suff.</speaker>
+<l>To let us waste the little Rest of Life</l>
+<l>Together, had been merciful.</l>
+</sp>
+<sp>
+<speaker>Suff.</speaker>
+<l>Then it had not</l>
+<l>Been done like <hi>Winchester.</hi></l>
+</sp>
+<sp>
+<speaker>Guil</speaker>
+<l>Thou stand'st unmov'd;</l>
+<l>Calm Temper sits upon thy beauteous Brow;</l>
+<l>Thy Eyes, that slow'd so fast for <hi>Edward</hi>'s Loss,</l>
+<l>Gaze unconcern'd upon the Ruin round thee;</l>
+<l>As if thou hadst resolv'd to brave thy Fate,</l>
+<l><pb n="52" facs="63"/>
+And triumph in the midst of Desolation.</l>
+<l>Ha! see it swells, the liquid Chrystal rises,</l>
+<l>It starts in spight of thee,—but I will catch it,</l>
+<l>Nor let the Earth be wet with Dew so rich.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>And dost thou think, my <hi>Guilford,</hi> <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/></l>
+<l>My Father, Mother, and ev'n thee my Husband</l>
+<l>Torn from my Side without a Pang of Sorrow?</l>
+<l>How art thou thus unknowing in my Heart!</l>
+<l>Words cannot tell thee what I feel. There is</l>
+<l>An agonizing Softness busy here,</l>
+<l>That rugs the Strings, that struggles to get loose,</l>
+<l>And pour my Soul in Wailings out before thee.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Give way, and let the gushing Torrent come:</l>
+<l>Behold the Tears we bring to swell the Deluge,</l>
+<l>Till the Flood rise upon the guilty World,</l>
+<l>And make the Ruin common.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l><hi>Guilford,</hi> no:</l>
+<l>The time for tender Thoughts and soft Endeaments</l>
+<l>Is fled away and gone; Joy has forsaken us;</l>
+<l>Our Hearts have now another Part to play;</l>
+<l>They must be steel'd with some uncommon Fortitude,</l>
+<l>That fearless we may tread the Path of Horrour;</l>
+<l>And in despight of Fortune and our Foes,</l>
+<l>Ev'n in the Hour of Death be more than Conquerors.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh teach me! say, what Energy Divine</l>
+<l>Inspires thy softer Sex and tender Years</l>
+<l>With such unshaken Courage?</l>
+</sp>
+<sp>
+<speaker>L. Jane</speaker>
+<l>Truth and Innocence;</l>
+<l>A conscious Knowledg rooted in my Heart,</l>
+<l>That to have sav'd my Country was my Duty.</l>
+<l>Yes, <hi>England,</hi> yes, my Country, I would save thee;</l>
+<l>But Heav'n forbids, Heav'n disallows my Weakness,</l>
+<l>And to some dear selected Hero's Hand,</l>
+<l>Reserves the Glory of thy great Deliverance.</l>
+</sp>
+<sp>
+<speaker>Lieut.</speaker>
+<l>My Lords, my Orders—</l>
+</sp>
+<sp>
+<pb n="53" facs="64"/>
+<speaker>Guil</speaker>
+<l>See! we must—must part</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Yet surely we shall meet again.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh! Where?</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>If not on Earth, among yon golden Stars.</l>
+<l>Where other Suns arise on other Earths,</l>
+<l>And happier Beings rest in happier Seats:</l>
+<l>Where, with a Reach enlarg'd, the Soul shall view</l>
+<l>The great Creator's never-ceasing Hand</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>our forth new Worlds to all Eternity,</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>nd people <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>he Infinity of Space.</l>
+</sp>
+<sp>
+<speaker>Guil</speaker>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> wou'd I chear my Heart with Hopes like these;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Thought turns ever to the Grave,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> that last Dwelling, whither now we hast,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> black Shade shall interpose betwixt us,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> from these longing Eyes for ever.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Tis true, by those dark Paths our Journey leads,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> thro the Vale of Death we pass to Life:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> what is there in Death to blast our Hopes?</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>old the universal Works of Nature,</l>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>ere Life still springs from Death. To us the Sun</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> every Night, and every Morn revives.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Flow'rs, which Winter's icy Hand destroy'd,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> their fair Heads, and live again in Spring.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> with what Hopes upon the furrow'd Plain</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Plowman casts the pregnant Grain;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> a Grave awhile it lies,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> <gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ing Season bids it rise,</l>
+<l>Nature<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Pow'rs command a Birth,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> potent <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> it from the teeming Earth:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> large Increase the bury'd Treasures yield,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> with full Harvest crown the plenteous Field.</l>
+<stage>[Exeunt severally with the Guards.</stage>
+</sp>
+<trailer>End of the Fourth Act.</trailer>
+</div1>
+<div1 n="5" type="act">
+<pb n="54" facs="65"/>
+<head>ACT V. SCENE I.</head>
+<stage>Scene continues.</stage>
+<stage>Enter <hi>GARDINER,</hi> as Lord Chancellor, and the Lieuten<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> of the <hi>Tower.</hi> Servants with Lights before 'em.</stage>
+<sp>
+<speaker>Lieut.</speaker>
+<l><seg rend="decorInit">G</seg>OOD Morning to your Lordship! you <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Nay, by the Rood, there are too many Sleepers;</l>
+<l>Some must stir early, or the State shall <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></l>
+<l>Did you, as yesterday our Mandate bad,</l>
+<l>Inform your Pris'ners, Lady <hi>Jane</hi> and <hi>Guilford,</hi></l>
+<l>They were to die this Day?</l>
+</sp>
+<sp>
+<speaker>Lieut.</speaker>
+<l>My Lord, I did.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>'Tis well. But say, how did your Message like 'em</l>
+</sp>
+<sp>
+<speaker>Lieut.</speaker>
+<l>My Lord, they met the Summons with a Temp<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></l>
+<l>That shew'd a solemn serious Sense of Death,</l>
+<l>Mix'd with a noble Scorn of all its Terrors.</l>
+<l>In short, they heard me with the self-same Patience</l>
+<l>With which they still have born them in their Prison.</l>
+<l>In one Request they both concur'd: Each begg'd</l>
+<l>To die before the other.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>That, dispose</l>
+<l>As you think fitting.</l>
+</sp>
+<sp>
+<speaker>Lieut.</speaker>
+<l>The Lord <hi>Guilford</hi> only</l>
+<l>Implor'd another Boon, and urg'd it warmly;</l>
+<l>That e'er he suffer'd he might see his Wife,</l>
+<l>And take a last Farewel.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>That's not much;</l>
+<l>That Grace may be allow'd him: See you to it.</l>
+<l>How goes the Morning?</l>
+</sp>
+<sp>
+<pb n="55" facs="66"/>
+<speaker>Lieut.</speaker>
+<l>Not yet Four, my Lord.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>By Ten they meet their Fate. Yet one thing more,</l>
+<l>You know 'twas order'd that the Lady <hi>Jane</hi></l>
+<l>Shou'd suffer here within the <hi>Tow'r.</hi> Take care</l>
+<l>No Crouds may be let in, no maudlin Gazers,</l>
+<l>To wet their Handkerchiefs, and make Report</l>
+<l>How like a Saint she ended. Some fit Number,</l>
+<l>And those too of our Friends, were most convenient:</l>
+<l>But above all, see that Good Guard be kept;</l>
+<l>You know the Queen is lodg'd at present here,</l>
+<l>Take care that no Disturbance reach her Highness.</l>
+<l>And so good Morning, good Master Lieutenant. <stage>[Ex. Lieut.</stage></l>
+<l>How <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>! What Light comes here?</l>
+</sp>
+<sp>
+<speaker>Serv.</speaker>
+<l>So please your Lordship,</l>
+<l>If I mistake not 'tis the Earl of <hi>Pembroke.</hi></l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l><hi>Pembroke!</hi>—'Tis he, What calls him forth thus early?</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>omewhat he seems to bring of high Import;</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ome Flame uncommon kindles up his Soul,</l>
+<l>And flashes forth impetuous at his Eyes.</l>
+<stage>Enter <hi>Pembroke,</hi> a Page with a Light before him.</stage>
+<l>Good morrow, Noble <hi>Pembroke!</hi> What importunate</l>
+<l>And strong Necessity breaks on your Slumbers,</l>
+<l>And rears your youthful Head from off your Pillow</l>
+<l>At this unwholesom Hour; while yet the Night</l>
+<l><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ags in her latter Course, and with her raw</l>
+<l>And rheumy Damps infects the dusky Air?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Oh Reverend <hi>Winchester!</hi> my beating Heart</l>
+<l><gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ults and labours with the Joy it bears.</l>
+<l>The News I bring shall bless the breaking Morn;</l>
+<l>This coming Day the Sun shall rise more glorious,</l>
+<l>Than when his maiden Beams first gilded o'er</l>
+<l>The rich immortal Greens, the flow'ry Plains,</l>
+<l>And fragrant Bow'rs of Paradise new-born.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>What Happiness is this?</l>
+</sp>
+<sp>
+<pb n="56" facs="67"/>
+<speaker>Pem.</speaker>
+<l>'Tis Mercy! Mercy,</l>
+<l>The Mark of Heaven impress'd on Human Kind,</l>
+<l>Mercy that glads the World, deals Joy around;</l>
+<l>Mercy that smooths the dreadful Brow of Power,</l>
+<l>And makes Dominion light; Mercy that saves,</l>
+<l>Binds up the broken Heart, and heals Despair.</l>
+<l><hi>Mary,</hi> our Royal Ever-gracious Mistress,</l>
+<l>Has to my Services and humblest Prayers,</l>
+<l>Granted the Lives of <hi>Guilford</hi> and his Wife;</l>
+<l>Full, and free Pardon!</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Ha▪ What said you? Pardon!</l>
+<l>But sure you cannot mean it, cou'd not urge</l>
+<l>The Queen to such a rash and ill-tim'd Grace?</l>
+<l>What! save the Lives of those who wore her</l>
+<l>My Lord! 'tis most unweigh'd pernicious Cou<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></l>
+<l>And must not be comply'd with.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Not comply'd with!</l>
+<l>And who shall dare to bar her Sacred Pleasure,</l>
+<l>And stop the Stream of Mercy?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>That will I,</l>
+<l>Who wo'not see her gracious Disposition</l>
+<l>Drawn to destroy her self.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Thy narrow Soul</l>
+<l>Knows not the godlike Glory of Forgiving;</l>
+<l>Nor can thy cold, thy ruthless Heart conceive</l>
+<l>How large the Pow'r, how fix'd that Empire is,</l>
+<l>Which Benefits confer on generous Minds:</l>
+<l>Goodness prevails upon the stubborn'st Foes,</l>
+<l>And conquers more than ever <hi>Caesar</hi>'s Sword did.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>These are romantick, light, vain-glorious Dreams</l>
+<l>Have you consider'd well upon the Danger?</l>
+<l>How dear to the fond Many, and how popular</l>
+<l>These are whom you wou'd spare? Have you forgot</l>
+<l>When at the Bar, before the Seat of Judgment,</l>
+<l>This Lady <hi>Jane,</hi> this beauteous Traitress stood,</l>
+<l><pb n="57" facs="68"/>
+W<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> what Command she charm'd the whole Assembly?</l>
+<l>With silent Grief the mournful Audience sat,</l>
+<l>Fix'd on her Face, and list'ning to her Pleading.</l>
+<l>Her very Judges wrung their Hands for Pity;</l>
+<l>Their old Hearts melted in 'em as she spoke,</l>
+<l>And Tears ran down upon their silver Beards.</l>
+<l>Ev'n I my self was mov'd, and for a moment</l>
+<l>Felt Wrath suspended in my doubtful Breast,</l>
+<l>And question'd if the Voice I heard was mortal.</l>
+<l>But <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> her Tale was done, what loud Applause</l>
+<l>Like Bursts of Thunder shook the spacious Hall!</l>
+<l>At last, when, sore constrain'd, th' unwilling Lords</l>
+<l>Pronounc'd the fatal Sentence on her Life;</l>
+<l>A Peal of Groans ran thro the crouded Court,</l>
+<l>As every Heart were broken, and the Doom,</l>
+<l>Like that which waits the World, were universal.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>And can that sacred Form, that Angel's Voice,</l>
+<l>Which mov'd the Hearts of a rude ruthless Croud,</l>
+<l>Nay, mov'd ev'n thine, now sue in vain for Pity?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Alas! you look on her with Lover, Eyes:</l>
+<l>I hear and see thro reasonable Organs,</l>
+<l>Where Passion has no Part, Come, come, my Lord,</l>
+<l>You have too little of the Statesman in you.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>And you, my Lord, too little of the Churchman.</l>
+<l>Is not the sacred Purpose of our Faith</l>
+<l>Peace and Good-will to Man! The hallow'd Hand,</l>
+<l>Ordain'd to bless, shou'd know no Stain of Blood.</l>
+<l>'Tis true, I am not practis'd in your Politicks.</l>
+<l>'Twas your pernicious Counsel led the Queen</l>
+<l>To break her Promise with the Men of <hi>Suffolk,</hi></l>
+<l>To violate what in a Prince should be</l>
+<l>Sacred above the rest, her Royal Word.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Yes, and I dare avow it; I advis'd her</l>
+<l>To break thro all Engagements made with Hereticks,</l>
+<l>And keep no Faith with such a Miscreant Crew.</l>
+</sp>
+<sp>
+<pb n="58" facs="69"/>
+<speaker>Pem.</speaker>
+<l>Where shall we seek for Truth, when ev'n Religion,</l>
+<l>The Priestly Robe and miter'd Head disclaim it?</l>
+<l>But thus bad Men dishonour the best Cause.</l>
+<l>I tell thee, <hi>Winchester,</hi> Doctrines like thine</l>
+<l>Have stain'd our holy Church with greater Infamy</l>
+<l>Than all your Eloquence can wipe away.</l>
+<l>Hence 'tis, that those who differ from our Faith</l>
+<l>Brand us with Breach of Oaths, with Persecution,</l>
+<l>With Tyranny o'er Conscience, and proclaim</l>
+<l>Our scarlet Prelates Men that thirst for Blood,</l>
+<l>And Christian <hi>Rome</hi> more cruel than the Pagan.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Nay if you rail, farewel. The Queen <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> be</l>
+<l>Better advis'd, than thus to cherish Vipers, <stage>[Aside.</stage></l>
+<l>Whose mortal Stings are arm'd against her Life.</l>
+<l>But while I hold the Seal, no Pardon passes</l>
+<l>For Hereticks and Traitors.</l>
+<stage>[Exit <hi>Gardiner.</hi></stage>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>'Twas unlucky</l>
+<l>To meet and cross upon this froward Priest:</l>
+<l>But let me lose the Thought on't; let me haste,</l>
+<l>Pour my glad Tidings forth in <hi>Guilford</hi>'s Bosom,</l>
+<l>And pay him back the Life his Friendship sav'd.</l>
+<stage>[Exit.</stage>
+</sp>
+<stage>[The Scene draws, and discovers the Lady <hi>Jane</hi> kneeling, as at her Devotion; a Light and a Book plac'd on a Table before her.]</stage>
+<stage>Enter Lieutenant of the Tower, Lord <hi>Guilford,</hi> and one of Lady <hi>Jane</hi>'s Women.</stage>
+<sp>
+<speaker>Lieut.</speaker>
+<l>Let me not press upon your Lordship further,</l>
+<l>But wait your Leisure in the Antichamber.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>I will not hold you long.</l>
+<stage>[Exit. Lieutenant.</stage>
+</sp>
+<sp>
+<speaker>Wom.</speaker>
+<l>Softly, my Lord!</l>
+<l>For yet behold she kneels. Before the Night</l>
+<l>Had reach'd her middle Space, she left her Bed,</l>
+<l>And with a pleasing sober Cheerfulness,</l>
+<l>As for her Funeral, array'd her self</l>
+<l><pb n="59" facs="70"/>
+<gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> thosesad solemn Weeds. Since then, her Knee</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> known that Posture only, and her Eye,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> upon the sacred Page before her,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> with her rising Hopes to Heaven.</l>
+</sp>
+<sp>
+<speaker><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></speaker>
+<l>See! with what Zeal those holy Hands are rear'd!</l>
+<l>Mark her Vermilion Lip with Fervour trembling!</l>
+<l>Her spotless Bosom swells with sacred Ardour,</l>
+<l>And burns with Extasy and strong Devotion.</l>
+<l>Her Supplication sweet, her faithful Vows</l>
+<l>F<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>agrant and pure, and grateful to high Heaven,</l>
+<l>Like incense from the golden Censor rise:</l>
+<l>Or blessed Angels minister unseen,</l>
+<l>Catch the soft Sounds, and with alternate Office</l>
+<l>Spread their Ambrosial Wings, then mount with Joy,</l>
+<l>And waft 'em upwards to the Throne of Grace.</l>
+<l>But she has ended, and comes forward.</l>
+</sp>
+<stage>[Lady <hi>Jane</hi> rises, and comes towards the Front of the Stage.</stage>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Ha!</l>
+<l>Art thou my <hi>Guilford!</hi> Wherefore dost thou come</l>
+<l>To break the settled Quiet of my Soul?</l>
+<l>I meant to part without another Pang,</l>
+<l>And lay my weary Head down full of Peace.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Forgive the Fondness of my longing Soul,</l>
+<l>That melts with Tenderness, and leans towards thee;</l>
+<l>Tho the imperious dreadful Voice of Fate</l>
+<l>Summon her hence, and warn her from the World.</l>
+<l>But if to see thy <hi>Guilford,</hi> give thee Pain,</l>
+<l>Wou'd I had dy'd, and never more beheld thee:</l>
+<l>Tho my lamenting discontented Ghost</l>
+<l>Had wander'd forth unblest by those dear Eyes,</l>
+<l>And wail'd thy Loss in Death's eternal Shades.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>My Heart had ended ev'ry earthly Care,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> up its Prayers for thee and <hi>England,</hi></l>
+<l><pb n="60" facs="71"/>
+And fix'd its Hope upon a Rock unfailing;</l>
+<l>While all the little Bus'ness that remain'd,</l>
+<l>Was but to pass the Forms of Death with Constancy,</l>
+<l>And leave a Life become indifferent to me:</l>
+<l>But thou hast waken'd other Thoughts within me:</l>
+<l>Thy Sight, my dearest Husband and my Lord,</l>
+<l>Strikes on the tender Strings of Love and Nature;</l>
+<l>My vanquish'd Passions rise again, and tell me</l>
+<l>'Tis more, far more than Death to part from thee.</l>
+</sp>
+<stage>Enter <hi>Pembroke.</hi></stage>
+<sp>
+<speaker>Pem.</speaker>
+<l>Oh let me fly! bear me, thou swift Impatience,</l>
+<l>And lodge me in my faithful <hi>Guilford</hi>'s Arms; <stage>[Embracing.</stage></l>
+<l>That I may snatch him from the greedy Grave,</l>
+<l>That I may warm his gentle Heart with Joy,</l>
+<l>And talk to him of Life, of Life and Pardon.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>What means my dearest <hi>Pembroke?</hi></l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Oh! my Speech</l>
+<l>Is choak'd with Words that croud to tell my Tidings:</l>
+<l>But I have sav'd thee, and—Oh Joy unutterable!</l>
+<l>The Queen, my gracious, my forgiving Mistress,</l>
+<l>Has given not only thee to my Request,</l>
+<l>But she, she too in whom alone thou liv'st,</l>
+<l>The Partner of thy Heart, thy Love is safe.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Millions of Blessings wait her!—Has she—tell me!</l>
+<l>Oh has she spar'd my Wife?</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Both, both are pardon'd.</l>
+<l>But haste, and do thou lead me to thy Saint,</l>
+<l>That I may cast my self beneath her Feet,</l>
+<l>And beg her to accept this poor Amends</l>
+<l>For all I've done against her—Thou fair Excellence, <stage>[Kneeling.</stage></l>
+<l>Can'st thou forgive the hostile Hand that arm'd</l>
+<l>Against thy Cause, and robb'd thee of a Crown?</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Oh rise, my Lord, and let me take your Posture!</l>
+<l>Life and the World were hardly worth my Care;</l>
+<l><pb n="61" facs="72"/>
+But you have reconcil'd me to 'em both.</l>
+<l>Then let me pay my Gratitude, and for</l>
+<l>This free, this noble unexpected Mercy,</l>
+<l>Thus low I bow to Heaven, the Queen, and You.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>To me! Forbid it Goodness! If I live,</l>
+<l>Somewhat I will do shall deserve your Thanks;</l>
+<l>All Discord and Remembrance of Offence</l>
+<l>Shall be clean blotted out, and for your Freedom</l>
+<l>My self have underta'en to be your Caution.</l>
+<l>Hear me, you Saints, and aid my pious Purpose;</l>
+<l>These that deserve so much, this wondrous Pair,</l>
+<l>Let these be happy, ev'ry Joy attend 'em;</l>
+<l>A Fruitful Bed, a Chain of Love unbroken,</l>
+<l>A good Old Age, to see their Childrens Children,</l>
+<l>A holy Death, and everlasting Memory:</l>
+<l>While I resign to them my Share of Happiness;</l>
+<l>Contented still to want what they enjoy,</l>
+<l>And singly to be wretched.</l>
+</sp>
+<stage>Enter Lieutenant of the <hi>Tower.</hi></stage>
+<sp>
+<speaker>Lieut.</speaker>
+<l>The Lord Chancellor</l>
+<l>Is come with Orders from the Queen.</l>
+</sp>
+<stage>Enter <hi>Gardiner,</hi> and Attendants.</stage>
+<sp>
+<speaker>Pem.</speaker>
+<l>Ha! <hi>Winchester!</hi></l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>The Queen, whose Days be many,</l>
+<l>By me confirms her first accorded Grace:</l>
+<l>But as the pious Princess means her Mercy</l>
+<l>Shou'd reach e'en to the Soul as well as Body,</l>
+<l>By me she signifies her Royal Pleasure,</l>
+<l>That thou, Lord <hi>Guilford,</hi> and the Lady <hi>Jane,</hi></l>
+<l>Do instantly renounce, abjure your Heresy,</l>
+<l>And yield Obedience to the See of <hi>Rome.</hi></l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>What, turn Apostate!</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Ha! Forgo my Faith!</l>
+</sp>
+<sp>
+<pb n="62" facs="73"/>
+<speaker>Gar.</speaker>
+<l>This one Condition only seals your Pardon.</l>
+<l>But if thro Pride of Heart and stubborn Obstina<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></l>
+<l>With wilful Hands you push the Blessing from you,</l>
+<l>And shut your Eyes against such manifest Light</l>
+<l>Know ye, your former Sentence stands confirm'd.</l>
+<l>And you must die to-day.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>'Tis <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>alse as Hell:</l>
+<l>The Mercy of the Queen was free and full.</l>
+<l>Think'st thou that Princes merchandize their Graces,</l>
+<l>As <hi>Roman</hi> Priests their Pardons? Do they barter,</l>
+<l>Skrew up like you the Buyer to a Price,</l>
+<l>And doubly sell what was design'd a Gift?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>My Lord, this Language ill beseems your Nobleness,</l>
+<l>Nor come I here to bandy Words with Madmen</l>
+<l>Behold the Royal Signet of the Queen,</l>
+<l>Which amply speaks her Meaning. You, the Pri<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>'ners,</l>
+<l>Have heard at large its Purport, and must instantly</l>
+<l>Resolve upon the Choice of Life or Death.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>Curse on—But wherefore do I loiter here?</l>
+<l>I'll to the Queen this moment, and there know</l>
+<l>What 'tis this mischief-making Priest intends. <stage>[Exit.</stage></l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Your Wisdom points you out a proper Course.</l>
+<l>A Word with you, Lieutenant. <stage>[Talks with Lieut. <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></stage></l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Must we part then?</l>
+<l>Where are those Hopes that flatter'd us but now?</l>
+<l>Those Joys, that like the Spring with all its Flowers,</l>
+<l>Pour'd out their Pleasures ev'ry where around us?</l>
+<l>In one poor Minute gone, at once they wither'd.</l>
+<l>And left their Place all desolate behind 'em.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Such is this foolish World, and such the Certa<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></l>
+<l>Of all the boasted Blessings it bestows:</l>
+<l>Then, <hi>Guilford,</hi> let as have no more to do with it:</l>
+<l>Think only how to leave it as we ought,</l>
+<l>But trust no more, and be deceiv'd no more.</l>
+</sp>
+<sp>
+<pb n="63" facs="74"/>
+<speaker>Guil.</speaker>
+<l>Yes, I will copy thy Divine Example,</l>
+<l>And tread the Paths are pointed out by thee:</l>
+<l>By thee instructed, to the fatal Block</l>
+<l>I bend my Head with Joy, and think it Happiness</l>
+<l>To give my Life a Ransom for my Faith.</l>
+<l>From thee thou Angel of my Heart, I learn</l>
+<l>That greatest, hardest Task, to part with thee.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Oh gloriously resolv'd! Heaven is my Witness,</l>
+<l>My Hea<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>t rejoices in thee more ev'n now,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> <gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>lant as thou art in Death, thus Faithful,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> the holy Priest first join'd our Hands,</l>
+<l>And <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the sacred Knot of Bridal Love.</l>
+</sp>
+<sp>
+<speaker>Gar</speaker>
+<l>The Day wears fast; Lord <hi>Guilford,</hi> have you thought?</l>
+<l>Will you lay hold on Life?</l>
+</sp>
+<sp>
+<speaker>Guil</speaker>
+<l><gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>at are the Terms?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Death or the Mass attend you.</l>
+</sp>
+<sp>
+<speaker>Guil</speaker>
+<l>'Tis determin'd;</l>
+<l>Lead to the Scaffold</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> him to his Fate.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Oh let me fold thee once more in my Arms,</l>
+<l>Thou <gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>est Treasure of my Heart, and print</l>
+<l>A dying Husband's Kiss upon thy Lip!</l>
+<l>Shall we not live again, ev'n in these Forms?</l>
+<l>Shall I not gaze upon thee with these Eyes?</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>O wherefore dost thou sooth me with thy Softness?</l>
+<l>Why dost thou wind thy self about my Heart,</l>
+<l>And make this Separation painful to us?</l>
+<l>Here break we off at once; and let us now,</l>
+<l>Forge <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Ceremony, like two Friends</l>
+<l>That <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> a little Bus'ness to be done,</l>
+<l>Take a short Leave, and haste to meet again.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>Rest on that Hope, my Soul—my Wife—</l>
+</sp>
+<sp>
+<speaker>L Jane.</speaker>
+<l>No more.</l>
+</sp>
+<sp>
+<speaker>Guil.</speaker>
+<l>My Sight hangs on thee—Oh support me, Heav'n,</l>
+<l>In this last Pang—and let us meet in Bliss.</l>
+<stage>[<hi>Guilford</hi> is led off by the Guards.</stage>
+</sp>
+<sp>
+<pb n="64" facs="75"/>
+<speaker>L. Jane.</speaker>
+<l>Can Nature bear this Stroke?—</l>
+</sp>
+<sp>
+<speaker>Wom.</speaker>
+<l>Alas! she faints— <stage>[Supporting</stage></l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Wou't thou fail now!—the killing Stroke is past,</l>
+<l>And all the Bitterness of Death is over.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Here let the dreadful Hand of Vengeance stay:</l>
+<l>Have pity on your Youth and blooming Beauty;</l>
+<l>Cast not away the Good which Heaven bestows;</l>
+<l>Time may have many Years in store for you,</l>
+<l>All crown'd with fair Prosperity: Your Husband</l>
+<l>Has perish'd in Perverseness.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Cease, thou Raven;</l>
+<l>Nor violate with thy profaner Malice</l>
+<l>My bleeding <hi>Guilford</hi>'s Ghost—'tis gone, 'tis flown;</l>
+<l>But lingers on the wing, and waits for me.</l>
+<stage>[The Scene draws, and discovers a Scaffold hung with Bl<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>, Executioner and Guards.]</stage>
+<l>And see my Journey's End!</l>
+</sp>
+<sp>
+<speaker>1 Wom.</speaker>
+<l>My dearest Lady. <stage>[Weeping.</stage></l>
+</sp>
+<sp>
+<speaker>2 Wom.</speaker>
+<l>Oh Misery!</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Forbear, my gentle Maids,</l>
+<l>Nor wound my Peace with fruitless Lamentations:</l>
+<l>The good and gracious Hand of Providence</l>
+<l>Shall raise you better Friends than I have been.</l>
+</sp>
+<sp>
+<speaker>1 Wom.</speaker>
+<l>Oh never! never!—</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Help to disarray,</l>
+<l>And fit me for the Block: Do this last Service,</l>
+<l>And do it chearfully. Now you will see</l>
+<l>Your poor unhappy Mistress sleep in Peace,</l>
+<l>And cease from all her Sorrows. These few T<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/>les,</l>
+<l>The Pledges of a dying Mistress' Love,</l>
+<l>Receive and share among you. Thou, <hi>Maria,</hi> <stage>To 1 Wo<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></stage></l>
+<l>Hast been my old, my very faithful Servant;</l>
+<l>In dear Remembrance of thy Love, I leave thee</l>
+<l>This Book, the Law of Everlasting Truth:</l>
+<l>Make it thy Treasure still, 'twas my Support</l>
+<l>When all Help else forsook me.</l>
+</sp>
+<sp>
+<pb n="65" facs="76"/>
+<speaker>Gar.</speaker>
+<l>Will you yet</l>
+<l>Repent, be wise; and save your precious Life?</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Oh <hi>Winchester!</hi> has Learning taught thee that,</l>
+<l>To <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Truth for Life?</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Mistaken Folly!</l>
+<l>You toil and travail for your own Perdition,</l>
+<l>And die for damned Errors.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>Who judge rightly,</l>
+<l>And who persist in Error, will be known,</l>
+<l>Then, when we meet again. Once more farewel; <stage>[To her Wom.</stage></l>
+<l>Goodne<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> be <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ver with you. When I'm dead,</l>
+<l>Intreat they do no rude dishonest Wrong</l>
+<l>To my cold headless Corse; but see it shrouded,</l>
+<l>And decent laid in Earth.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>Won't thou then die?</l>
+<l>Thy Blood be on thy Head.</l>
+</sp>
+<sp>
+<speaker>L. Jane.</speaker>
+<l>My Blood be where it falls, let the Earth hide it,</l>
+<l>And may it never rise, or call for Vengeance:</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> that it were the last shall fall a Victim</l>
+<l>To Zeal's inhuman Wrath! Thou gracious Heaven,</l>
+<l>Hear and defend at length thy suff'ring People.</l>
+<l>Raise up a Monarch of the Royal Blood,</l>
+<l>Grave, Pious, Equitable, Wise, and Good:</l>
+<l>In thy due Season let the Hero come,</l>
+<l>To save thy Altars from the Rage of <hi>Rome:</hi></l>
+<l>Long let him reign, to bless the rescu'd Land,</l>
+<l>And deal out Justice with a righteous Hand.</l>
+<l>And when he fails, Oh may he leave a Son,</l>
+<l>With equal Vertues to adorn his Throne;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Blessing to convey,</l>
+<l>And guard <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Faith for which I die to-day.</l>
+</sp>
+<stage>[Lady <hi>Jane</hi> goes up to the Scaffold, the Scene closes.]</stage>
+<stage>Enter <hi>Pembroke.</hi></stage>
+<sp>
+<speaker>Pem.</speaker>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Horror! blasted be the Hand</l>
+<l>That struck my <hi>Guilford!</hi> Oh! his bleeding Trunk</l>
+<l><pb n="66" facs="77"/>
+Shall live in these distracted Eyes for ever.</l>
+<l>Curse on thy fatal Arts, thy cruel Counsels! <stage>[To <hi>Gardiner</hi></stage></l>
+<l>The Queen is deaf and pitiless as thou art.</l>
+</sp>
+<sp>
+<speaker>Gar.</speaker>
+<l>The just Reward of Heresy and Treason</l>
+<l>Is fal'n upon 'em both for their vain Obstinacy,</l>
+<l>Untimely Death with Infamy on Earth,</l>
+<l>And everlasting Punishment hereafter.</l>
+</sp>
+<sp>
+<speaker>Pem.</speaker>
+<l>And canst thou tell? Who gave thee to explore</l>
+<l>The Secret Purposes of Heaven, or taught thee</l>
+<l>To set a Bound to Mercy unconfin'd?</l>
+<l>But know, thou proud perversly-judging <hi>Winchester,</hi></l>
+<l>Howe'er your hard imperious Censures doom,</l>
+<l>And portion out our Lot in Worlds to come;</l>
+<l>Those, who with honest Hearts pursue the Right,</l>
+<l>And follow faithfully Truth's Sacred Light,</l>
+<l>Tho suffering here, shall from their Sorrows cease,</l>
+<l>Rest with the Saints, and dwell in endless Peace.</l>
+<stage>[Exeunt Om<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></stage>
+</sp>
+</div1>
+<trailer>FINIS.</trailer>
+</body>
+<back>
+<div1 type="epilogue">
+<pb facs="78"/>
+<head>EPILOGUE:</head>
+<stage>Spoken by Mrs. PORTER.</stage>
+<lg>
+<l>THE Palms of Virtue Heroes oft have worn,</l>
+<l>Those Wreaths, to-night, a Female Brow adorn.</l>
+<l>The De<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>rin'd Salar, unfortunately Brave,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> those Altars which she strove to save.</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> she dar'd to prop the Juster Side,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> greatly with her adverse Fate comply'd,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> that Heav'n cou'd ask, Resign'd and Dy'd.</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> the Land for which she wish'd to Live,</l>
+<l>And gain'd that Liberty she could not give.</l>
+<l>Oh! Happy People! of this Fav'rite Isle,</l>
+<l>On whom so many better Angels smile.</l>
+<l>For you, kind Heav'n new Blessings still supplies,</l>
+<l><gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> other Saints and other Guardians rise.</l>
+<l>For you the Fairest of her Sex is come,</l>
+<l>Adopts our <hi>Britain,</hi> and forgets her Home.</l>
+<l>For Truth and you, the Heroine declines</l>
+<l><hi>Austria</hi>'s Proud Eagles and the <hi>Indian</hi> Mines.</l>
+<l>What Sense of such a Bounty can be shown!</l>
+<l>But Heav'n must make the vast Reward its own,</l>
+<l>And Stars shall join to form her future Crown.</l>
+<l>Your Gratitude with ease may be express'd;</l>
+<l>Strive but to be, what she wou'd make you, Bless'd.</l>
+<l>Let no vile Faction vex the vulgar Ear</l>
+<l>With fond Surmise, and false affected Fear:</l>
+<l>Confirm but to your selves the given Good,</l>
+<l>'Tis all She asks, for all She has bestow'd.</l>
+</lg>
+<lg>
+<l>Such was our great Example shown to-day,</l>
+<l>And <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Thanks our Author's Pains repay.</l>
+<l>If <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Scenes, to guard your Faith you learn,</l>
+<l>If for your Laws to shew a just Concern,</l>
+<l>If you are taught to dread a Popish Reign,</l>
+<l>Our Beauteous Patriot has not dy'd in vain.</l>
+</lg>
+</div1>
+<div1 type="prologue">
+<pb facs="79"/>
+<head>A PROLOGUE to Lady JANE GRAY, sent by an Unknown Hand.</head>
+<lg>
+<l>WHEN waking Terrors rouze the guilty Breast,</l>
+<l>And satal Visions break the Murd'rer's Rest;</l>
+<l>When Vengeance does Ambition's Fate decree,</l>
+<l>And Tyrants bleed, to set whole Nations free;</l>
+<l>Tho the Muse saddens each distressed Scene,</l>
+<l>Unmov'd is ev'ry Breast, and ev'ry Fate serene;</l>
+<l>The mournful Lines no tender Heart subdue,</l>
+<l>Compassion is to suff'ring Goodness due.</l>
+<l>The Poet your Attention begs once more,</l>
+<l>T' atone for Characters here drawn before:</l>
+<l>No Royal Mistress sighs through ev'ry Page,</l>
+<l>And breathes her dying Sorrows on the Stage:</l>
+<l>No lovely Fair by soft Persuasion won,</l>
+<l>Lays down the Load of Life, when Honour's gone.</l>
+</lg>
+<lg>
+<l>Nobly to bear the Changes of our State,</l>
+<l>To stand unmov'd against the Storms of Fate,</l>
+<l>A brave Contempt of Life, and Grandeur lost;</l>
+<l>Such glorious Toils a Female Name can boast.</l>
+<l>Our Author draws not Beauty's heavenly Smile,</l>
+<l>T' invite our Wishes, and our Hearts beguile.</l>
+<l>No soft Enchantments languish in her Eye,</l>
+<l>No Blossoms sade, nor sick'ning Roses die:</l>
+<l>A nobler Passion ev'ry Breast must move,</l>
+<l>Than youthful Raptures, or the Joys of Love.</l>
+<l>A Mind unchang'd, superiour to a Crown,</l>
+<l>Bravely defies the angry Tyrant's Frown;</l>
+<l>The same, if Fortune sinks, or mounts on high,</l>
+<l>Or if the World's extended Ruins lie:</l>
+<l>With gen'rous Scorn she lays the Scepter down,</l>
+<l>Great Souls shine brightest, by Misfortunes shown:</l>
+<l>With patient Courage she sustains the Blow,</l>
+<l>And triumphs o'er Variety of Woe.</l>
+<l>Through ev'ry Scene the sad Distress is new;</l>
+<l>How well feign'd Life does represent the true!</l>
+<l>Unhappy Age! who views the bloody Stain,</l>
+<l>But must with Tears record <hi>Maria</hi>'s Reign?</l>
+<l>When Zeal, by Doctrine flatter'd lawless Will,</l>
+<l>Instructed by Religion's Voice to kill.</l>
+</lg>
+<lg>
+<l>Ye <hi>British</hi> Fair! lament in silent Woe,</l>
+<l>Let ev'ry Eye with tender Pity flow:</l>
+<l>The lovely Form through falling Drops will seem</l>
+<l>Like flou'ry Shadows on the silver Stream.</l>
+<l>Thus beauty, Heaven's sweet Ornament, shall prove</l>
+<l>Enrich'd by Virtue, as ador'd by Love.</l>
+<l>Forget your Charms, fond Woman's dear Delight,</l>
+<l>The Fops will languish here another Night.</l>
+<l>No Conquest from dissembline Smiles we fear,</l>
+<l>She only kills, who wounds us with a Tear.</l>
+</lg>
+</div1>
+</back>
+</text>
+
+</TEI>

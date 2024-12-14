@@ -1,0 +1,2963 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title type="main">The royal suppliants</title><title type="sub">A tragedy; As performed at the Theatre-Royal in Drury-Lane.</title><author><persName><surname>Delap</surname><forename>John</forename><idno type="VIAF">30911080</idno></persName></author><respStmt><resp>Transformation into valid TEI P5, improving markup, filling <gi>gap</gi>s, proofreading, and expanding header.</resp><persName xml:id="JJ"><surname>Jokisch</surname><forename>Jan</forename><idno type="ORCID">0009-0003-1026-2995</idno></persName></respStmt></titleStmt>
+<extent><measure quantity="98" unit="KB">About 98 kilobytes.</measure></extent><publicationStmt><authority ref="#JJ">Jan Jokisch</authority><date>2024 December</date><idno type="ECCO_Drama">K102974.000</idno><idno type="DLPS">004886649</idno><idno type="ESTC">T129479</idno><idno type="DocNo">CW111338908</idno><idno type="TCP">K102974.000</idno>
+<idno type="GaleDocNo">CW3311338908</idno><idno type="ContentSet">ECLL</idno><idno type="ImageSetID">0296101100</idno><availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability></publicationStmt><sourceDesc><biblFull><titleStmt><title type="245">The royal suppliants. A tragedy: As performed at the Theatre-Royal in Drury-Lane.</title><author>Delap, J. (John), 1725-1812.</author></titleStmt>
+<extent>[2],68p. ; 12⁰.</extent><publicationStmt><publisher>printed by J. and W. Porter; for S. Price, W. Sleator, W. and H. Whitestone, R. Moncrieffe, C. Jenkin, T. Walker, R. Burton, and P. Byrn,</publisher><date>1781.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: J. Delap.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT129479.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
+</biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
+<front>
+<div1 type="halftitle">
+<pb facs="1" ana="y"/>
+<p>THE ROYAL SUPPLIANTS. A TRAGEDY.</p>
+</div1>
+<div1 type="titlepage">
+<pb facs="2" ana="y"/>
+<p>THE ROYAL SUPPLIANTS. A TRAGEDY. AS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
+<p><hi>DUBLIN:</hi> Printed by J. and W. PORTER; For S. PRICE, W. SLEATOR, W. and H. WHITESTONE, R. MONCRIEFFE, C. JENKIN, T. WALKER, R. BURTON, and P. BYRN. MDCCLXXXI.</p>
+</div1>
+<div1 type="dedication">
+<pb facs="3" ana="y"/>
+<p>TO THE RIGHT HONOURABLE HENRY LORD VISCOUNT PALMERSTON, OF THE KINGDOM OF IRELAND; THE FOLLOWING TRAGEDY IS INSCRIBED BY HIS LORDSHIP'S OBLIGED AND MOST OBEDIENT HUMBLE SERVANT,</p>
+<closer><signed>J. DELAP.</signed></closer>
+</div1>
+<div1 type="notice">
+<pb facs="4"/>
+<head>Advertisement.</head>
+<p>It may perhaps be necessary to acquaint the reader, that Euripides has written a tragedy upon the same subject. In his <hi>Heraclidae,</hi> Macaria is sacrificed in the second act, and never afterwards mentioned; and <hi>Acamas</hi> is a mute. Indeed the whole conduct of this play is so entirely different from that of the Greek poet, that the author is hardly conscious to himself of having borrowed any thing more from him, than the general idea of the <hi>Suppliants</hi> taking refuge in the temple, and Macaria's voluntary offer of her own life.</p>
+</div1>
+<div1 type="prologue">
+<pb facs="5"/>
+<head>PROLOGUE.</head>
+<byline>Written by a FRIEND.</byline>
+<l>WITH countenance thrice chang'd from red to pale,</l>
+<l>Our author sends me forth to tell his tale;</l>
+<l>Croesus said he—who rul'd those lands that lie—</l>
+<l>Croesus—the Nabob of Antiquity:</l>
+<l>When satiated with war, with wealth, with praise,</l>
+<l>Defir'd new pleasures still to sooth his days;</l>
+<l>And publish'd vast rewards (sure out of spite)</l>
+<l>To him who should produce some new delight;</l>
+<l>This flame unquench'd burns on from age to age,</l>
+<l>Panting for novelty you seek our stage:</l>
+<l>To please this taste, a classic bard will try,</l>
+<l>To make soft bosoms heave a classic sigh;</l>
+<l>Feel Deianira's faded charms, and trace</l>
+<l>Alcides' godlike virtues in his race:</l>
+<l>Hard is the task who strives your praise to gain,</l>
+<l>And hard the part a poet must sustain.</l>
+<l>Herculean labours might our Prologue fill,</l>
+<l>And prove the club less powerful than the quill,</l>
+<l>To clear the course, to turn the tide of wit,</l>
+<l>To charm the watchful dragon of the pit;</l>
+<l>The Hydra's hiss to check, the giants quell,</l>
+<l>And bind the barking Cerberus of Hell,</l>
+<l><pb facs="6"/>
+Might the best strength of Hercules require,</l>
+<l>Tho' to his force were added Orpheus' lyre:</l>
+<l>Yet will we not despond—Alcides' race</l>
+<l>In every one's remembrance holds a place;</l>
+<l>The tale has trembled on each infant tongue,</l>
+<l>The tale that Busby taught—that Dryden sung:</l>
+<l>This night attend, one generous tear bestow,</l>
+<l>To weep the hero's wrongs, the daughter's woe,</l>
+<l>Like kind protectors grant the widow's suit,</l>
+<l>And crown your poet with the golden fruit.</l>
+</div1>
+<div1 type="dramatispersonae">
+<pb facs="7"/>
+<head>Dramatis Personae.</head>
+<list>
+<label>DEMOPHON, King of Athens,</label>
+<item>Mr. BENSLEY.</item>
+<label>ACAMAS, his Brother,</label>
+<item>Mr SMITH.</item>
+<label>HYLLUS, Son of Deianira,</label>
+<item>Mr. BANNISTER, Jun.</item>
+<label>IOLAUS Friend of Deianira,</label>
+<item>Mr. AICKIN.</item>
+<label>ALCANDER, Herald from Eurystheus,</label>
+<item>Mr. FARREN.</item>
+<label>THESTOR, a Priest,</label>
+<item>Mr. PACKER.</item>
+<label>HAEMON, an Officer attending Deianira.</label>
+<item>Mr. WILLIAMS.</item>
+<label>OFFICER,</label>
+<item>Mr. R. PALMER.</item>
+<label>SECOND OFFICER,</label>
+<item>Mr. GRIFFITHS.</item>
+</list>
+<list>
+<label>DEIANIRA, Widow of Hercules,</label>
+<item>Mrs. CRAWFORD.</item>
+<label>MACARIA, her Daughter,</label>
+<item>Miss FARREN.</item>
+<label>ATTENDANT,</label>
+<item>Mrs. JOHNSON.</item>
+</list>
+<list>
+<item>Officers, Priests, Virgins, &amp;c.</item>
+</list>
+</div1>
+<set><p>SCENE. The Vestibules of the Temples of Jupiter and Juno, at Athens; and a Grove.</p></set>
+</front>
+<body>
+<head><pb facs="8"/>
+THE ROYAL SUPPLIANTS.</head>
+<div1 n="1" type="act">
+<head>ACT I.</head>
+<stage>IOLAUS, and others, round an Altar near the Temple of <hi>Jupiter.</hi></stage>
+<sp>
+<speaker>IOLAUS.</speaker>
+<l>HERE, wretched outcasts! poor remains of friends</l>
+<l>To him who once was Hercules, rest here.</l>
+<l>Jove's altar be your refuge. May it check</l>
+<l>Eurystheus' impious rage; and, like a tower,</l>
+<l>Baffle the bloody tyrant, who from Argos</l>
+<l>Exiles the royal race; and now forbids</l>
+<l>Each state to shelter our distress. Thine only,</l>
+<l>Athenian Demophon, remains untried:</l>
+<l>Grant heaven!—</l>
+<stage><pb n="10" facs="9"/>
+Enter HAEMON.</stage>
+<l>Oh, Haemon, never to my eyes</l>
+<l>More welcome was thy presence. Faithful servant,</l>
+<l>Is Deianira, is Macaria lodged</l>
+<l>Safe in yon shrine?</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>Spite of Eurystheus' spies,</l>
+<l>Who chaced their flight; by the moon's waining orb</l>
+<l>Befriended, safely in yon shrine are lodged</l>
+<l>Mother and daughter.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Gracious are ye, gods!</l>
+<l>And my soul bends devoutly to your thrones,</l>
+<l>For lives preserved far dearer than my own.</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>Th' imperial widow there of great Alcides</l>
+<l>Mourns, with a mourning universe, the fate</l>
+<l>Of her illustrious lord; in whose sad tomb</l>
+<l>Lye buried all her hopes.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Grant her, good heaven,</l>
+<l>That fortitude her age requires, to bear</l>
+<l>The mighty loss. For, oh, her feeble frame,</l>
+<l>By woes made feebler; and the thousand perils</l>
+<l>Of this dread flight—</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>With toil and grief o'erpower'd,</l>
+<l>Nature gives way, and in short broken slumbers</l>
+<l>A transient respite feels. Through the lone ile,</l>
+<l>At day-break, I drew near; and saw Macaria</l>
+<l>With anxious tenderness scarce breathing o'er her,</l>
+<l>A sigh, that would not be supprest, broke forth;</l>
+<l>While from her eye, half-glimmering with a smile,</l>
+<l>Stole such a tear as burnt upon my heart,</l>
+<l>Strait I retired unseen. Oh, Iolaus,</l>
+<l>What can thy love, thy wisdom now devise,</l>
+<l>To turn misfortune's torrent, that bears down</l>
+<l>Each rising hope?</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>This day decides our doom.</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>If Demophon reject us—</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>We are dust</l>
+<l>Before the whirlwind of Eurystheus' wrath.</l>
+<l>—But lead me to the temple.</l>
+</sp>
+<sp>
+<pb n="11" facs="10"/>
+<speaker>Haem.</speaker>
+<l>The gate opens;</l>
+<l>And lo, Macaria—</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>What a soul of sorrow!</l>
+<l>O'er her wan visage melancholy throws</l>
+<l>Its mournful ensign; yet that conscious air,</l>
+<l>That decent dignity, which makes grief proud</l>
+<l>Of such a consort, mark her for the daughter</l>
+<l>Of the world's hero. Haemon, to the city;</l>
+<l>And learn if any herald be arrived</l>
+<l>To cross our purpose.</l>
+<stage>[Exit <hi>Haemon.</hi></stage>
+<stage>MACARIA descends with Virgins.</stage>
+<l>Ever-honoured lady?</l>
+<l>If that an old man's aid—</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>I will shake off <stage>[not regarding <hi>Iolaus.</hi></stage></l>
+<l>This feebleness. My powers, lose not your functions.</l>
+<l>Softly, dear virgins, softly; the least whisper</l>
+<l>Wakes her. A little longer, balmy sleep,</l>
+<l>Spread thy still pinions; in oblivious dews</l>
+<l>Her senses steep a little longer yet;</l>
+<l>Grief soon enough will rouse them. How I haste</l>
+<l>To know the worst can happen. Iolaus!</l>
+<l>So soon to see thee, after our dread parting,</l>
+<l>My virtuous friend!</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Welcome to my sad heart,</l>
+<l>As the dear drops that nourish it! But whither</l>
+<l>Goest thou, sweet maid, with such disorder'd step?</l>
+<l>No new affliction?</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>In a breast o'er-flowing,</l>
+<l>Like Deianira's, can misfortune find</l>
+<l>A place for new affliction? yet, poor queen!</l>
+<l>Hopeless, she talks of hope; and would gild o'er</l>
+<l>The sorrow that consumes her, with a smile,</l>
+<l>In pity to her daughter. Oh, that fiend</l>
+<l>Eurystheus! the detested cause of all!</l>
+<l>Think of his fierce immitigable hate</l>
+<l>To Hercules! Think with what fortitude</l>
+<l>My noble sire sustained a life of labours,</l>
+<l><pb n="12" facs="11"/>
+That savages would shrink from! And shall vengeance</l>
+<l>Sleep, till the wretch exterminates our race?</l>
+<l>First down to Tartarus!—Oh, pardon, pardon</l>
+<l>My nature's rashness. I am calm again;</l>
+<l>I'll listen to thy council, which has ever</l>
+<l>Been wise and wholesome; for unless thy friendship</l>
+<l>Still lends thy sheltering succour to thy queen—</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Ah, what can I, alas, feeble old man!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Let her but hear thy voice. Alas, alas!</l>
+<l>To wretchedness like her's, the very voice</l>
+<l>Of friendship yields relief. Let her but see</l>
+<l>Thy pitying eye, but not suffused with tears,</l>
+<l>Thou good old man! no, dry thy tears, and speak,</l>
+<l>Fallacious tho' they be, some lenient words</l>
+<l>That sound like comfort. I the while will go—</l>
+<l>Why shrinks my heart? Why faulters thus my tongue,</l>
+<l>As Demophon were dangerous? I'll go to him.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Unknown! unguarded! go to Demophon</l>
+<l>Uncalled! Thy heart, Macaria, well may shrink,</l>
+<l>And thy tongue faulter. I have caught th' alarm.</l>
+<l>Thy filial piety, too generous maid!</l>
+<l>Unwarily betrays thee.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Well I know</l>
+<l>Thy friendly fears; he is not Acamas!</l>
+<l>That high heroic spirit, who amongst</l>
+<l>The foremost sons of Argos famous stood.</l>
+<l>'Twas not in praise of Demophon, the tongue</l>
+<l>Of fame grew lavish.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>But from Acamas,</l>
+<l>His brother, there's small hope: all kingly power</l>
+<l>Is lodg'd in Demophon; be counsel'd then.</l>
+<l>Till his heart's soften'd to receive thy suit,</l>
+<l>Quit not the sanctuary.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>More forcibly</l>
+<l>Than fear can counteract, an unseen hand</l>
+<l>Urges me on. I feel, I fell within,</l>
+<l>A more than mortal earnest of success;</l>
+<l>Let not thy doubts oppose it. Oft I've heard,</l>
+<l><pb n="13" facs="12"/>
+There is an eloquence in artless grief,</l>
+<l>Of power to melt the sternest. I'll essay.</l>
+<l>That power on Demophon.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>My words are vain.</l>
+<l>Go then, Macaria, if it must be so,</l>
+<l>Obedient to thy monitory call.</l>
+<l>And, Dryas, thou, and ancient Amycus,</l>
+<l>Silent attend the princess. You are suppliants,</l>
+<l>Soliciting relief; let every look,</l>
+<l>And every motion, suit that humble state.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Wise, Iolaus, is thy wary charge.</l>
+<l>And now, inspired with boldness, on I go,</l>
+<l>Secure in heaven.</l>
+<stage>[Exit <hi>Macaria</hi> attended.</stage>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>May gracious heaven, which loves</l>
+<l>That virtue which so sorely it afflicts,</l>
+<l>Thy soul's desires indulge thee!—Here's my post;</l>
+<l>This altar, and that temple—here I'll watch,</l>
+<l>One day; perhaps the only one, that fate</l>
+<l>Has now to give me.</l>
+<stage>Enter HAEMON.</stage>
+<l>Haemon back so soon?</l>
+<l>What tidings dost thou bring?</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>Tidings to thrill</l>
+<l>Thy heart with horror. Scarcely had I entered</l>
+<l>Yon winding vale, when suddenly I heard</l>
+<l>The steps of men advancing. Eagerly,</l>
+<l>And all at once, sometimes they seemed to talk,</l>
+<l>Loud was their leader's voice above the rest;</l>
+<l>And soon his cruel eye, and haughty port,</l>
+<l>Proclaimed him the stern herald of Eurystheus.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Alcander?</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>He, whose rancorous revenge</l>
+<l>Pursues us thro' the world.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Remorseless villain!</l>
+<l>Yet Haemon, villain as he is, fear not.</l>
+<l>This shrine's our sanctuary; its awful God,</l>
+<l><pb n="14" facs="13"/>
+Whose word controuls the fury of the floods,</l>
+<l>Shall baffle the base plots of impious men.</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>Heard you that shriek?</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>It was Macaria's voice!</l>
+<l>And lo, Alcander!—Haemon, rush between—</l>
+<l>She's lost!—Alcander, like a ravening vulture,</l>
+<l>Seizes his prey!</l>
+</sp>
+<stage>Enter MACARIA, &amp;c. pursued by ALCANDER.</stage>
+<sp>
+<speaker>Mac.</speaker>
+<l>God of the temple! save,</l>
+<l>Oh save thy trembling suppliant!</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Hell-hound, stop!</l>
+<l>Thou slave to a vile tyrant! what fresh malice</l>
+<l>Is thy black bosom fraught with?</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Fond old man!</l>
+<l>Whither art thou transported? Yield Macaria.</l>
+<l>Eurystheus has proscribed your wretched lives.</l>
+<l>Yield to your king:</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Not while this arm can save her.</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>Lady, this way.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Yes, lead me from the sight</l>
+<l>Of that unhallowed monster.—Hah, presum'st thou</l>
+<l>T'advance one impious step?—hold, on thy life.</l>
+<l>The bolt of Jove is lifted—wretch, behold</l>
+<l>The sanctuary, and tremble.</l>
+<stage>Exit with <hi>Haemon</hi> to the Temple.</stage>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Long thou shalt not</l>
+<l>A sanctuary find it.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>From her country</l>
+<l>Already hast thou forced her. Would'st thou more?</l>
+<l>Ah, suffer her the mournful privilege</l>
+<l>To breathe in exile.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Still dost thou pretend!</l>
+<l>Thus then I crush thy age.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Help, men of Athens!</l>
+<l>Forbear! 'tis worse than murder.—Hah, respect</l>
+<l>The altar of a God omnipotent.</l>
+</sp>
+<stage><pb n="15" facs="14"/>
+Enter ACAMAS, with Guards.</stage>
+<sp>
+<speaker>Aca.</speaker>
+<l>Whence these loud outcries, that profane the temple.</l>
+<l>Of him who thunders?—Peace, I charge you, peace.</l>
+<l>Bring forth th' offender, as you dread the weight</l>
+<l>Of our displeasure. Acamas commands—</l>
+<l>Bring forth th' offender:</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Royal Acamas,</l>
+<l>Protect an old man, outraged by that wretch;</l>
+<l>Who, in contempt of every sacred rite,</l>
+<l>From Jove's own altar drags me.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Rash, rash man!</l>
+<l>Whom I—but first inform me, reverend stranger,</l>
+<l>What country claims thy birth, and what thy name.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Mycenae is my country; and my name</l>
+<l>Herculean Iolaus.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Whence are those?</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Sad Deianira's suppliant train, imploring</l>
+<l>Thine, and yon temple's refuge, from the rage</l>
+<l>Of merciless Eurystheus.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Yet that temple</l>
+<l>Shall not secure them from their rightful lord,</l>
+<l>Who here demands his slaves.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Suppress thy tongue,</l>
+<l>Irreverent as thou art! and mark my words:</l>
+<l>Till Demophon's return from Marathon,</l>
+<l>With whose young prince he went to celebrate.</l>
+<l>His daughter's spousals, all authority</l>
+<l>Devolves on Acamas.—I'm Athen's king;</l>
+<l>And I forbid all force.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Why then by force</l>
+<l>Dost thou with-hold the vassals of Eurystheus?</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Are they not suppliants?—To violate</l>
+<l>The rites of hospitality, reject</l>
+<l>The poor man's suit, who only has his prayers,</l>
+<l>His humble prayers, and miseries to protect him,</l>
+<l>Would make the good gods shudder on their thrones.</l>
+</sp>
+<stage><pb n="16" facs="15"/>
+Enter MACARIA from the Temple.</stage>
+<sp>
+<speaker>Mac.</speaker>
+<l>'Tis Acamas himself!—restrain me not.</l>
+<l>A thousand doubts, a thousand apprehensions!</l>
+<l>But a lov'd mother's dangers drive me on:</l>
+<l>They put a tongue in the mute lips of fear;</l>
+<l>Inspire me with new courage.—On the ground,</l>
+<l>Trembling, I clasp thy knees!—Oh Acamas!</l>
+<l>If ever thou hast felt, as sure thou hast,</l>
+<l>The tender touch of nature—If the anguish</l>
+<l>Of a sad daughter for the best, alas!</l>
+<l>The wretchedest of mothers!—my despair,</l>
+<l>Oh whither doth it drive!—let thy own heart</l>
+<l>Tell thee, what grief like mine wants words to utter.—</l>
+<l>Say, while I've sense to hear, that Deianira</l>
+<l>Is safe—That Acamas protects her—bids</l>
+<l>Macaria live in her dear mother's life!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Macaria here at Athens!—as from heaven</l>
+<l>Some blessed spirit spoke, my every sense</l>
+<l>Is wrapt in admiration!—'tis Macaria!</l>
+<l>Her voice, her mien!—such the bright blaze of beauty</l>
+<l>That burst on me at Argos!—What rude hand</l>
+<l>Could injure that fair form; which my heart worship'd,</l>
+<l>When my enchanted eyes first gazed upon thee?</l>
+<l>Divine Macaria, speak!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Eurystheus!—oh,</l>
+<l>His very name into distraction throws</l>
+<l>My powers, and choaks all utterance?—With me kneel,</l>
+<l>Ye venerable friends of Hercules!</l>
+<l>And tell, for his sad daughter, the distress</l>
+<l>Of a poor queen, and princess; driven like slaves</l>
+<l>From realm to realm.—My brother too, dear youth!</l>
+<l>If scap'd the assassin's dagger, he still breathes</l>
+<l>The vital air: to Acamas commend him!</l>
+<l>Oh, Sir! to Hyllus, Deianira, all,</l>
+<l><pb n="17" facs="16"/>
+Be a protector from the bloodiest tyrant!</l>
+<l>The most remorseless wretch!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Rise, royal maid,</l>
+<l>Of every wish secure. The utmost grace</l>
+<l>My power can grant, his daughter well may claim,</l>
+<l>Whose godlike friendship from the realms of death</l>
+<l>Rescued my sire.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Tears are but fruitless thanks.</l>
+<l>Yet are they all th' unhappy have to give;</l>
+<l>Take them, and let thy charitable heart</l>
+<l>Supply the rest.—Now say, thou bold, bad man! <stage>[to <hi>Alcander.</hi></stage></l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>I waste no further words.—If thou respect'st <stage>[to <hi>Acamas.</hi></stage></l>
+<l>The friendship of Eurystheus, render back</l>
+<l>These fugitive remains of Hercules,</l>
+<l>That public ravager.—</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Inhuman russian!</l>
+<l>Whose savage tongue even wretchedness insults;</l>
+<l>Insults the ashes of that god on earth;</l>
+<l>Who, could he hear such profanation!—Rise,</l>
+<l>Thou mighty spirit! clad in horrors, come</l>
+<l>Forth from thy tomb! even at thy very look,</l>
+<l>This wretch, his tyrant, every slave thro' all</l>
+<l>His host, would quake to death!</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Such pageantry</l>
+<l>Suits not Alcander; whose indignant king</l>
+<l>Expects an answer.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Take this answer back,</l>
+<l>First tell thy king what thou at Athens seest;</l>
+<l>Tell what thou hear'st; then say, while Acamas</l>
+<l>Rules in this land of liberty, no tyrant</l>
+<l>Shall force our injured suppliant from his shrine.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Hah, is this Acamas? not more for valour</l>
+<l>Than wisdom famed.—Not thus, if I know aught</l>
+<l>Of reverend Thestor, whose divine forecast</l>
+<l>Makes him oracular; not thus would he</l>
+<l>Counsel his king. Consult him; be not rash;</l>
+<l>Thou speak'st the fate of thousands.</l>
+</sp>
+<sp>
+<pb n="18" facs="17"/>
+<speaker>Aca.</speaker>
+<l>Insolent!</l>
+<l>Hast thou not heard? Retire.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Then hear, Eurystheus;</l>
+<l>War, instant war, 'gainst Athens I denounce.</l>
+<l>A valiant host, led by their valiant king,</l>
+<l>Moves on.—Ere sun-rise at your gates expect</l>
+<l>The conqueror!</l>
+<stage>Exit.</stage>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Dreadful his defiance sounds.</l>
+<l>And to my frightful fancy wasteful war</l>
+<l>In all its horrors rises.—He, perhaps,</l>
+<l>The generous friend, whose soul now melts to see</l>
+<l>Griefs not his own; even Acamas may fall!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Were Acamas the noblest of his line,</l>
+<l>Could he more nobly fall? Had I a life</l>
+<l>For every peril, in a cause like this</l>
+<l>I'd risk them all with transport! Ah, restrain</l>
+<l>Those lovely tears. I swear, no power on earth</l>
+<l>Shall harm Macaria, while these arms can bear</l>
+<l>The shield and sword before her.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>To the queen,</l>
+<l>With heart o'erflowing, suffer me t' impart</l>
+<l>This gracious goodness. Would to heaven, my Hyllus</l>
+<l>Were present now to share it, the young soldier</l>
+<l>Of generous Acamas.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Would heaven, he were!</l>
+<l>I long to clasp him. Iolaus, send</l>
+<l>A herald forth; I long to lead to war</l>
+<l>The brother of Macaria.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Heaven, that knows</l>
+<l>How much he wants a friend like Acamas,</l>
+<l>From its blest fount thy charity repay!</l>
+<stage>Exit.</stage>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>My tongue makes no reply.—I cannot stop;</l>
+<l>I cannot follow her.—How quickly, oh,</l>
+<l>How subtly something steals thro' every vein;</l>
+<l>Another soul, I think—</l>
+</sp>
+<stage>Enter an OFFICER.</stage>
+<sp>
+<speaker>Offi.</speaker>
+<l>Far as the eye</l>
+<l>From yonder tower can reach, a cloud of dust</l>
+<l>Darkens the air; while thro' it break by fits</l>
+<l><pb n="19" facs="18"/>
+Bright transient flashes; such as to the sun</l>
+<l>Glitter from pikes and helmed heads: it seems</l>
+<l>Hitherward moving.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>On my life, Eurystheus!</l>
+<l>The usurper, by this fraudful march, would take</l>
+<l>At unawares our troops, would terrify</l>
+<l>Our suppliants from the temple. He shall find,</l>
+<l>Rash as he is, the justice of our cause</l>
+<l>Laughs at surprize, not fears it.—Where's my armour?</l>
+<l>My soul's i' th' field already—nay, dispatch—</l>
+<l>My spear, my target.—Cheerly do my spirits</l>
+<l>Course their quick round. In air I seem to tread,</l>
+<l>Moved magically on.—Divine Macaria!</l>
+<l>Thy beauty—'tis thy virtue!—forth I go,</l>
+<l>To prove their power upon a soldier's sword.</l>
+<stage>Exit.</stage>
+</sp>
+<trailer>END OF THE FIRST ACT</trailer>
+</div1>
+<div1 n="2" type="act">
+<pb n="20" facs="19"/>
+<head>ACT II.</head>
+<stage>Flourish of Trumpets.</stage>
+<stage>Enter ACAMAS and Officers.</stage>
+<sp>
+<speaker>ACAMAS.</speaker>
+<l>LEAD to the grove the light-armed troop—call Sicyon.</l>
+<l>Now, my brave friends! who side by side with me,</l>
+<l>Full many a time have fought; fellows in arms,</l>
+<l>Attend; for never a more glorious cause</l>
+<l>Called your young valour forth: 'tis Deianira,</l>
+<l>The great Alcides' widow: 'tis Macaria,</l>
+<l>Whose wrongs and beauty might with hero's fire</l>
+<l>Warm the cold coward's heart. These Royal Suppliants</l>
+<l>Ask your bold aid against that black usurper,</l>
+<l>Who comes from Argos with a cursed design</l>
+<l>To drag them from your shrines. And will not each</l>
+<l>Athenian sword start forth? If public honour,</l>
+<l>If reverence for your altars, if compassion,</l>
+<l>That noblest virtue of a noble mind,</l>
+<l>If these can fire your breasts, in this day's battle</l>
+<l>Strain every nerve; oh, fight it to the death.</l>
+<l>And now go forth; go each among the lines;</l>
+<l>Rouze, animate the soldiers, man by man.</l>
+<l>—Menas?</l>
+<stage>[Exit Officers.</stage>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>My lord.—</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Thou, Menas, with thy troop,</l>
+<l>Shalt guard this temple, and its royal guests,</l>
+<l>Till my return from th' onset. Would to heaven</l>
+<l>I were sole combatant! in single fight,</l>
+<l>Shield against shield, to grapple with yon tyrant,</l>
+<l>Beneath Macaria's banners. 'Twas at Argos</l>
+<l>My eyes first caught her charms; and here my soul</l>
+<l><pb n="21" facs="20"/>
+Each hour is more her captive. Fancy dwells</l>
+<l>Enchanted on th' idea; on my ears</l>
+<l>Still floats her tongue's sweet melody, and sways</l>
+<l>The motion of my heart.</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>Another signal,</l>
+<l>And louder than the last.—</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>It sounds to arms.</l>
+<l>March my battalion to the western gate.</l>
+<stage>[Exit Officer.</stage>
+<l>—What, Sicyon, hoa!—the soldiers' hearts are mine;</l>
+<l>Mine too their arms, till Demophon's return,</l>
+<l>And nobly will I use them. Should he come,</l>
+<l>My hopes were air. Oh, not one moment then</l>
+<l>Will I trust fate.—Give me, dread god of war!</l>
+<l>In this day's fight, some portion of thy own</l>
+<l>Terrific spirit.—</l>
+</sp>
+<stage>Enter an OFFICER.</stage>
+<sp>
+<speaker>Offi.</speaker>
+<l>Demophon, my lord—</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Hah, what of Demophon?</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>With all his train</l>
+<l>Enters the gates from Marathon.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>No—No.—</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>My gracious lord, I saw him; while his son,</l>
+<l>Young Conon, with the troops of royal guards,</l>
+<l>Marched towards the grove.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Oh, death to all my hopes!</l>
+<l>Back, and inform thee better—nay remain.</l>
+<l>What's to be done? his cold, his gloomy spirit</l>
+<l>Blunts every sword, and deadens every heart.</l>
+<l>What's to be done?—Alcander, was he with him?</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>With most obsequious reverence, I beheld him</l>
+<l>Tender the king a paper, as he enter'd</l>
+<l>The shrine of Juno.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Vengeance on the villain!</l>
+<l>Worse than a poisonous mineral he works here;</l>
+<l>The traitor teems with wiles. I'll cross upon them;</l>
+<l>I'll rouze this brother to defy Eurystheus.</l>
+<l>Should he, by priestly phantoms terrified,</l>
+<l><pb n="22" facs="21"/>
+Refuse to fight—should he presume to yield,</l>
+<l>To yield Macaria! horrible surmise!</l>
+<l>"Be my protector!" was the dear maid's prayer</l>
+<l>Upon her trembling knees. Thou, holy altar!</l>
+<l>Hear and attest my vow. I will by heaven!</l>
+<stage>[Exit.</stage>
+</sp>
+<stage>Enter ALCANDER.</stage>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Yonder he stalks; and all full freedom leaves me</l>
+<l>To work upon the priest, and credulous king;</l>
+<l>And force the temple's portal to let forth</l>
+<l>Its royal victims. Now my bark's afloat,</l>
+<l>And to Eurystheus' throne, on a full tide,</l>
+<l>Will bear me, if my marriage with his sister</l>
+<l>Fail not.—But still this headlong Acamas!</l>
+<l>He is a rock will wreck us. Demophon</l>
+<l>Is jealous of him: on that jealousy</l>
+<l>I'll strike a dangerous, superstitious spark,</l>
+<l>Soon to flame forth. At Juno's temple now</l>
+<l>He makes a holy halt; the interim's mine</l>
+<l>Here with old Thestor. Wherefore loiters thus</l>
+<l>The reverend dreamer, whose high sanctity</l>
+<l>The magic power of gold must move to murder?</l>
+<stage>Enter THESTOR.</stage>
+<l>Oh, art thou come at length, my ancient friend?</l>
+<l>Ancient, but, ah! how unimpaired by age!</l>
+<l>Time, that digs deep his furrows on most brows,</l>
+<l>Only gives comlier grace to Thestor's years,</l>
+<l>Adds reverence to the hairs it silvers o'er.</l>
+<l>Well, we are once more met; my king's concerns</l>
+<l>Call us in haste together: they are weighty,</l>
+<l>Nice, urgent, full of dexterous enterprize,</l>
+<l>And ask thy secret, sudden aid.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>If they</l>
+<l>Aught of religious import bear, (as what</l>
+<l>But sacred purposes claim Thestor's counsel)</l>
+<l><pb n="23" facs="22"/>
+Impart them to the servant of the god,</l>
+<l>Whose conscientious mind—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>I know it well;</l>
+<l>Well as I know thy zeal, thy friendly zeal</l>
+<l>Proved oft in times long past, which now Alcander</l>
+<l>Means to prove home again. Nearer, good Thestor.</l>
+<l>Thou see'st yon shrine; thou know'st what fugitives,</l>
+<l>Its sanctuary shelters; and the hate,</l>
+<l>The mortal hate, Eurystheus bears their race,</l>
+<l>But chiefly bears Macaria; from whose loins</l>
+<l>Another race, more hateful, may come forth.</l>
+<l>Canst thou not then—Why do thy fearful eyes</l>
+<l>So cautiously shun mine?—Canst thou not then</l>
+<l>Call down a voice oracular from heaven,</l>
+<l>That claims a victim?—that Macaria claims?</l>
+<l>I know thou canst; and far be't from Alcander</l>
+<l>To question his friend's will.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Is this thy friendship?</l>
+<l>The token this of thy high veneration</l>
+<l>For Thestor's character? whose heart long since</l>
+<l>From this vain world estranged—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Old man!—but yet</l>
+<l>Calmly I'll commune with thee; I'll convince</l>
+<l>Thy scrupulous spirit that her single death</l>
+<l>Will save the lives of thousands, which a war</l>
+<l>With Argos must devote.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>The lives of thousands</l>
+<l>Lie on their consciences who wage the war.</l>
+<l>Shall Thestor's hands be stain'd with guiltless blood?</l>
+<l>Shall Thestor's tongue belye the temple's god?</l>
+<l>With a false oracle his thunders brave?</l>
+<l>—Th' engendering storm already!</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>These nice qualms,</l>
+<l>These conscientious horrors, were they wont</l>
+<l>To stagger Thestor?—Wants the seer more warrant</l>
+<l>To be oracular? Go then, consult</l>
+<l>The entrails of your beasts, your babbling birds,</l>
+<l>And groaning oaks; or single forth some goat,</l>
+<l>Yeaned at full moon, and kill him with a knife,</l>
+<l>(Of that be sure) exactly shaped and sized.</l>
+<l><pb n="24" facs="23"/>
+This shall disarm your god of his red bolt,</l>
+<l>And make your murders holy.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Such loud passion,</l>
+<l>Affronting to the god!—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Are you not all,</l>
+<l>Priestess and priest alike, the supple slaves</l>
+<l>Of interest? Whence your tripods and your crowns,</l>
+<l>Statues of gold and silver, glittering gems</l>
+<l>That sanctify your shrines? Whence this vast splendour?</l>
+<l>And what, but the rich bribes of crafty knaves,</l>
+<l>And superstitious cowards?—One word more</l>
+<l>Of hypocritic mummery, and, by heaven,</l>
+<l>I will unfold such scenes!—</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Ungenerous man!</l>
+<l>Whose headlong phrenzy, on my least demur,</l>
+<l>Unmindful of all forms, all ceremonies,</l>
+<l>Of all past benefits, temple and priest</l>
+<l>Would overturn—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Why then the infirmity</l>
+<l>Of thy friend's temper urge to the extreme,</l>
+<l>Upon a point so trying?</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Hah! and is</l>
+<l>The point to me less trying?—grant it just;</l>
+<l>(And sad necessity makes most things just)</l>
+<l>Yet, to pronounce a sacrifice at once—</l>
+<l>Shed, without hesitation, royal blood—</l>
+<l>No reverence had to my own fame; no care</l>
+<l>For my own life, and every worldly hope.—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Thy fame, thy life, if there be confidence</l>
+<l>In a king's word, in friendship like Alcander's,</l>
+<l>Shall be secure; thy every worldly hope,</l>
+<l>To the minutest scruple, warranted.</l>
+<l>—And now, how softened seems that countenance,</l>
+<l>Which speaks, without a tongue, my friend's assent;</l>
+<l>Speaks him again my ancient honour'd Thestor!</l>
+<l>Here then, behold th' instructions: take them; read them;</l>
+<l>And with them take this pledge; Eurystheus sends it;</l>
+<l><pb n="25" facs="24"/>
+This gem from his own finger. Now dispatch;</l>
+<l>Pronounce the oracle; be firm; and prosper.</l>
+<stage>[Exit <hi>Thestor.</hi></stage>
+<l>Now fate begins its work!—I have already</l>
+<l>Alarmed the timorous temper of the king</l>
+<l>About these fugitives.—But he approaches,</l>
+<l>Here to perform a superstitious vow,</l>
+<l>He made before his march to Marathon.</l>
+</sp>
+<stage>Enter DEMOPHON and his train.</stage>
+<sp>
+<speaker>Demo.</speaker>
+<l>How venerable the horror that enfolds</l>
+<l>Jove's holy temple! with profoundest awe</l>
+<l>Behold thy servant enters.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>May its god</l>
+<l>Inspire thy righteous spirit so to act</l>
+<l>As best becomes his servant! This remember,</l>
+<l>The hand, the chastening hand of heaven lies on</l>
+<l>These exiles; and each shrine, save this, oh king,</l>
+<l>Against them shut, as against things unholy.</l>
+<l>How desperate then to risk for them a war!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Thy doubts already have found entrance here.</l>
+<l>Therefore, to know heaven's purpose, I have sent</l>
+<l>The most inspired of all th' oracular priests,</l>
+<l>Our ancient Thestor; without whose sage voice</l>
+<l>In holy things we move not.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>To his voice,</l>
+<l>As is most fit, I bow me. Yet hear further,</l>
+<l>What never oracle more truly spoke:</l>
+<l>Your brother's dangerous spirit, every hour</l>
+<l>More dangerous by Macaria's matchless charms—</l>
+<l>Forgive my forward friendship—but behold</l>
+<l>Graced with the royal ensigns, where he comes</l>
+<l>Exulting on, in burnished armour clad,</l>
+<l>As he were Athens' king, and peace and war</l>
+<l>Hung on his nod!—I must not stay to cross</l>
+<l>The army's idol.</l>
+<stage>[Exit.</stage>
+</sp>
+<stage><pb n="26" facs="25"/>Enter ACAMAS.</stage>
+<sp>
+<speaker>Aca.</speaker>
+<l>Back to Athens welcome,</l>
+<l>My royal brother.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>When we went from Athens,</l>
+<l>In peaceful garb was Acamas arrayed.</l>
+<l>The soldier's falchion now invests his thigh;</l>
+<l>The sun now glitters on his polished helm;</l>
+<l>And clanking arms and armour sound to war.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>And if war e'er was just, and heaven approved,</l>
+<l>'Tis now; when Deianira and Macaria,</l>
+<l>By a vile tyrant exiled, suppliants come</l>
+<l>To thee, and to the God whom thy religion</l>
+<l>Doth venerate in that shrine; which scarce protects them</l>
+<l>From the brute outrage of a haughty herald.</l>
+<l>I heard Macaria plead; and tears burst forth.</l>
+<l>Alcander spoke; and at each ruffian word</l>
+<l>My indignation burned. To hesitate</l>
+<l>In such a cause were guilt.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Thy passion speaks this</l>
+<l>The glittering glory of rash enterprize</l>
+<l>Fires thy transported spirit, that would flame</l>
+<l>The meteor of a multitude's amaze,</l>
+<l>No thought beyond the present hour: unmindful</l>
+<l>Of a king's duty; that the royal sword</l>
+<l>Should save, not sacrifice, a people's lives;</l>
+<l>And then be sheath'd, when it has fixt the base</l>
+<l>Of future happiness; that each exploit,</l>
+<l>Weigh'd and digested deep, must be consign'd,</l>
+<l>In history's long roll, to times unborn,</l>
+<l>And stand their rigid test.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Such then, such is</l>
+<l>Th' occasion this important hour presents.</l>
+<l>Stamp this exploit in history's long roll,</l>
+<l>To stand the rigid test of times unborn.</l>
+<l>Rouze then at once, insulted virtue cries,</l>
+<l>Rouze, and revenge!—the troops are marshalled—I</l>
+<l>Will march my veterans.</l>
+</sp>
+<sp>
+<pb n="27" facs="26"/>
+<speaker>Demo.</speaker>
+<l>Heedless of th' event;</l>
+<l>By heavenly admonition unassured,</l>
+<l>What would thy frantic fury?</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>It would hurl</l>
+<l>Yon ruthless ruffian headlong from the throne</l>
+<l>Of Argos, and restore its rightful heirs;</l>
+<l>Restore Alcides' royal race!—i'th' presence</l>
+<l>Of Jove's dreadful sanctuary, I've given my word</l>
+<l>Irrevocable!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>To embroil my kingdom</l>
+<l>In civil factions, well as foreign war.</l>
+<l>Art thou to learn what spirits there are stirring,</l>
+<l>By their own vices ruin'd? bold, seditious,</l>
+<l>Desperate of what may happen; without hope,</l>
+<l>But from the general wreck—these are at work,</l>
+<l>All ready, like the pent-up pestilence</l>
+<l>To burst upon us!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Oh, ignoble fear!</l>
+<l>Bane of all worth! which every sacred tye,</l>
+<l>The splendor of th' Athenian name, its glory,</l>
+<l>Would basely trample down. Shall then this state,</l>
+<l>Famed for its love of freedom thro' the world,</l>
+<l>And love of mercy—hah! shall generous Athens</l>
+<l>Crouch to Eurystheus? to an Argian tyrant</l>
+<l>Its royal suppliants yield?—My brother, no!</l>
+<l>They shall not quit the temple.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Shall not quit?—</l>
+<l>Presumest thou with these fantastic flights,</l>
+<l>Romantic visions of a love-sick boy,</l>
+<l>To fright us to compliance?</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Lovesick boy?—</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>That was my word.—Macaria? does the name</l>
+<l>Flush with a crimson shame thy conscious cheek?</l>
+<l>The loves that revel in Macaria's eyes,</l>
+<l>These are the orators that plead for war;</l>
+<l>And these the generous virtues that would risk</l>
+<l>A kingdom's ruin.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Well; Macaria then</l>
+<l>Sounds the alarm for war; her filial sighs,</l>
+<l><pb n="28" facs="27"/>
+The wrongs of weeping beauty, that might move</l>
+<l>The world to arms, move me.—I own the charge;</l>
+<l>I triumph in the weakness!—check thy scorn!</l>
+<l>Cast on thy slave, not me, that menacing frown,</l>
+<l>Proud king! for I will speak, when justice bids,</l>
+<l>Tho' death his dart shook at me.—With these suppliants</l>
+<l>My honour is at stake; dear as that honour</l>
+<l>I hold, and will protect them; tho' Alcander</l>
+<l>Had every wile of every fiend—remember!</l>
+<l>For by the soul of my dread sire! the sword,</l>
+<l>To them, shall pass thro' me.</l>
+</sp>
+<stage>Enter MACARIA.</stage>
+<sp>
+<speaker>Mac.</speaker>
+<l>Did I not hear</l>
+<l>A voice like that of Acamas? or was it</l>
+<l>My fancy's coinage?—hah!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>What sudden blaze</l>
+<l>Of beauty breaks upon me from the temple?</l>
+<l>By heaven, 'tis she! the syren that seduc'd</l>
+<l>My brother: and no wonder! for her eyes</l>
+<l>Have witchcraft in them; and each lovely look</l>
+<l>A melancholy grace that melts the soul.—</l>
+<l>Art thou Macaria?</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>The distrest Macaria!</l>
+<l>Daughter of Deianira; and with her,</l>
+<l>Hither from Argos by Eurystheus driven;</l>
+<l>Where Acamas—may heaven reward his virtue!</l>
+<l>Saw, and supported us. Canst thou inform me</l>
+<l>Of my protector?</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Hence, this moment, lady,</l>
+<l>My brother went.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>And art thou Demophon,</l>
+<l>His brother? whom we owe a life of thanks.</l>
+<l>Oh, Sir, to him, to you, with gratitude</l>
+<l>As low as to our guardian gods we bend,</l>
+<l>For our late blessing. Like a chearful morn,</l>
+<l>Fair opening on a dark and dismal night,</l>
+<l>The gracious tidings came: they lifted up</l>
+<l><pb n="29" facs="28"/>
+The lamp of life just fading in her eye;</l>
+<l>And gave to a despairing daughter's heart</l>
+<l>A happy mother.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>In this changeful scene,</l>
+<l>No mortal creature, till the hour of fate,</l>
+<l>May be called happy.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Yet might I entreat you</l>
+<l>To cast one casual glance—admire the work</l>
+<l>Of your own goodness—heavens!—how changed from her,</l>
+<l>Who lately on the ground, on the cold ground</l>
+<l>Lay hopeless, almost liseless.—With the sight</l>
+<l>Of her good genius bless her!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Much Macaria,</l>
+<l>I fear, o'er-rates th' indulgence Demophon</l>
+<l>May yield to Deianira.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>How such friendship</l>
+<l>Fills me with wonder! but a virtuous heart</l>
+<l>Is happy in the happiness it gives.</l>
+<l>Enter the shrine, and bless her with thy presence.</l>
+</sp>
+<stage>Enter IOLAUS.</stage>
+<sp>
+<speaker>Iol.</speaker>
+<l>Joy to Macaria! if 'tis joy to hear</l>
+<l>Hyllus has scaped the tyrant's treacherous wiles</l>
+<l>T' ensnare his honoured life.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Blest be the tongue</l>
+<l>That speaks the tidings! Come, my Hyllus come!</l>
+<l>Ready to fold thee to his friendly breast</l>
+<l>Stands Acamas; and Demophon will join</l>
+<l>His godlike brother! Oh, we're blest indeed!</l>
+<l>Son, mother, daughter, blest in two such friends!</l>
+</sp>
+<stage>Solemn Music. Enter THESTOR, and Priests.</stage>
+<sp>
+<speaker>Thes.</speaker>
+<l>Pause ye, my reverend brethren? Let no thought,</l>
+<l>Ill-omen'd look, or word, this place profane;</l>
+<l>With solemn silence all ye priests of heaven</l>
+<l>Attend. Brief are the words, and terrible,</l>
+<l>Of the dread oracle!</l>
+</sp>
+<sp>
+<pb n="30" facs="29"/>
+<speaker>Mac.</speaker>
+<l>What oracle!</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>No interruption, maid. At thy command,</l>
+<l>Oh king, did we proclaim a sacrifice:</l>
+<l>Wrapt in celestial musings then approached</l>
+<l>These reverend sages; and with solemn voice</l>
+<l>Chaunted their holiest hymn; the shrines burnt bright</l>
+<l>With sacred fires; and every altar sent</l>
+<l>Its swelling incense, on a hallowed cloud,</l>
+<l>To him on high.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>This dreadful preparation—</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>When thus burst forth the awful voice:—"No steer,</l>
+<l>"No blood of bulls will now propitiate heaven</l>
+<l>"To grant success. Would Athens stand secure—</l>
+<l>"Would Hyllus save his royal father's throne,</l>
+<l>"And his own life—The blood of Deianira—</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Horror of horrors!—Deianira's blood!</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>The priest of Jove with pitying eye beholds</l>
+<l>Thy suffering soul. But hear the oracle—</l>
+<l>"Would Hyllus save his royal father's throne,</l>
+<l>"And his own life, the blood of Deianira</l>
+<l>"Must, in a purple stream of sacrifice,</l>
+<l>"Float on the sacred altar of the god!"</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>She faints! ah, gently lend your aid!</l>
+<stage>[<hi>Macaria</hi> faints.</stage>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>How lovely,</l>
+<l>Even when the hand of death lies cold upon her!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>I live! I yet survive! the dreadful sounds</l>
+<l>Still thunder in my ears!—my mother's blood!</l>
+<l>Tell me, tremendous god! what unknown crime</l>
+<l>Provokes such vengeance? Why is it decreed,</l>
+<l>That the whole race of Hercules must feel</l>
+<l>Thy horrible displeasure?</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Ah! presume not,</l>
+<l>Rash virgin, heavenly wisdom to arraign!</l>
+<l>Just is the god, tho' terrible; his will</l>
+<l>Must be obeyed. But that thy soul would sink</l>
+<l>At the tremendous sounds, should'st thou hear all—</l>
+<l>For yet the oracle's but half declared—</l>
+</sp>
+<sp>
+<pb n="31" facs="30"/>
+<speaker>Mac.</speaker>
+<l>But half declared?—</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>"The blood of Deianira</l>
+<l>"Must, in a purple stream of sacrifice,</l>
+<l>"Float on the sacred altar of the god;</l>
+<l>"Unless, with free and voluntary choice,</l>
+<l>"Alcides' daughter here devotes her own!"</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Thanks, gracious powers! thanks, from her inmost soul,</l>
+<l>That daughter offers!—Let her brother reign!</l>
+<l>Spare her loved mother's life! and lo, Macaria,</l>
+<l>With tears of transport, here devotes her own!</l>
+<l>Lead to the altar! crown, with garlands crown,</l>
+<l>Your victim; and be conquerors!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>What is this</l>
+<l>That pleads for her so plaintively? a pity,</l>
+<l>That's almost painful. Wherefore, in the bloom</l>
+<l>Of youth, should such unblemish'd virtue die?</l>
+<l>—Ponder a moment.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Interrupt not, Sir,</l>
+<l>The solemn offering; which, for worlds, I would not</l>
+<l>Should now be frustrate. Holy men, proceed:</l>
+<l>For me death has no terrors. I conjure you,</l>
+<l>Ye delegates of heaven! obey heaven's voice.</l>
+<l>Lead to the altar; I implore to die.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>It must not be.—</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Heaven's voice hath spoke! What mortal</l>
+<l>May dare gainsay the sentence? Here below,</l>
+<l>Mercy should sit enthroned in monarchs' hearts,</l>
+<l>And temper justice; but when from above</l>
+<l>The awful oracle of Jove hath spoke,</l>
+<l>They hear, and they obey.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>True, sacred seer;</l>
+<l>Thy word's the word of heaven; as heaven thou heed'st,</l>
+<l>Oh, holy Demophon! hear and obey.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Virgin, that fortitude, beyond thy sex,</l>
+<l>Divinely is inspired; yet cautiously</l>
+<l>We would proceed. My own religious purpose,</l>
+<l>Yet unperformed, at present claims my care;</l>
+<l><pb n="32" facs="31"/>
+That done, ye sage interpreters of heaven!</l>
+<l>We'll commune further.</l>
+<stage>[Exeunt <hi>Demophon</hi> and Priests.</stage>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Look not, Iolaus,</l>
+<l>With eyes like those. I pray thee, ruffle not</l>
+<l>That calm serenity, which suits a soul</l>
+<l>On its eternal journey. Wherefore weep?</l>
+<l>The name of death no terror has for her,</l>
+<l>Who with a conscious triumph dies; and goes</l>
+<l>Youthful, with all her virgin virtues crown'd,</l>
+<l>Like a bright star to heaven.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Macaria hear.</l>
+<l>More sudden than the lightning's flash, a thought</l>
+<l>Darts on my mind—</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Yet once more, Iolaus,</l>
+<l>Cross not my purpose; I'm resolved to die:</l>
+<l>Die for my mother—for thee, brother—friends—</l>
+<l>Thou virtuous, good old man!</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Me! die for me!</l>
+<l>But gracious heaven may still point out a way—</l>
+<l>May pour swift vengeance on th' usurper's head—</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Hyllus shall reign! a sister's death confirm</l>
+<l>Her brother to his throne!—When I am gone,</l>
+<l>Here, Iolaus, with a daughter's love,</l>
+<l>Tend the poor queen! oh, sooth her sorrowing soul!</l>
+<l>But tell her not thou saw'st this bursting tear.</l>
+<stage>[Exeunt.</stage>
+</sp>
+<trailer>END OF THE SECOND ACT.</trailer>
+</div1>
+<div1 n="3" type="act">
+<pb n="33" facs="32"/>
+<head>ACT III.</head>
+<stage>DEIANIRA, and her Attendants, round an Altar in the Temple.</stage>
+<sp>
+<lg type="song">
+<head>ODE.</head>
+<lg n="1">
+<head>I</head>
+<l>QUEEN of the silent night! and thou,</l>
+<l>Whose radiant orb with glory gilds the day,</l>
+<l>Thro' yonder blue serene of heaven's high way,</l>
+<l>Bid some obedient spirit go;</l>
+<l>And, bending at Jove's footstool, hail the power,</l>
+<l>Who, at Alcides' mortal moment, bore</l>
+<l>The hero to the sky's abode;</l>
+<l>Th' illustrious hero, whom the world below</l>
+<l>Mourns in mixt Paeans of triumphant woe,</l>
+<l>Their friend and tutelary god.</l>
+</lg>
+<lg n="2">
+<head>II.</head>
+<l>When frowning o'er his birth, the hate</l>
+<l>Of haughty Juno, burning to destroy,</l>
+<l>Tost the fell serpents on the dauntless boy,</l>
+<l>Her ruthless ministers of fate;</l>
+<l>Chill crept the blood thro' every quaking heart;</l>
+<l>But when their forky tongues began to dart,</l>
+<l>While red with wrath each eyeball rolls,</l>
+<l>And round his limbs their spiry volumes clasp,</l>
+<l>The cradled hero, with his infant grasp,</l>
+<l>Crushed out the snaky monsters' souls.</l>
+</lg>
+<lg n="3">
+<pb n="34" facs="33"/>
+<head>III.</head>
+<l>Thou too, thy victor-arm o'erthrew</l>
+<l>The savage-minded form of Diomed,</l>
+<l>Who fat with subject's gore his horses fed;</l>
+<l>At Lerna's lake, thy valour slew</l>
+<l>The many-headed Hydra, whose foul breath,</l>
+<l>To all who breathed it, was the blast of death;</l>
+<l>The cloud-begotten Centaurs fell;</l>
+<l>The Nemean lion, and fierce Typhon's son;</l>
+<l>Then, fated to obey Eurystheus' frown,</l>
+<l>Thou drag'st grim Cerberus from hell.</l>
+</lg>
+<lg n="4">
+<head>IV.</head>
+<l>Vengeance on curst Eurystheus' head!</l>
+<l>Vengeance and death! in anguish we invoke;</l>
+<l>Give, great Alcides! give him to the stroke</l>
+<l>Of thy bold son! Let Hyllus tread</l>
+<l>Upon his crouching neck; thence mount the</l>
+<l>throne,</l>
+<l>His father's great avenger, and his own!</l>
+</lg>
+</lg>
+</sp>
+<sp>
+<stage>DEIANIRA speaks.</stage>
+<lg>
+<l>To thee, thus round the altar's base,</l>
+<l>Lost Deianira, and her suppliant train,</l>
+<l>Sigh their sad souls! oh, must they sigh in vain!</l>
+<l>Avenge, avenge thy royal race!</l>
+</lg>
+</sp>
+<stage>Enter ACAMAS.</stage>
+<sp>
+<speaker>Aca.</speaker>
+<l>Forgive the intrusion, royal dame, if thou</l>
+<l>Art Deianira, as this suppliant train</l>
+<l>Bespeaks thee; and those strains, that thro' the dome</l>
+<l>Swell'd to Alcides' praise; but, more than all,</l>
+<l>The features of that venerable face,</l>
+<l>From whence Macaria drew her virgin charms.</l>
+<l><pb n="35" facs="34"/>
+If thou art she, may Acamas intreat</l>
+<l>An audience with thy daughter?</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Godlike youth!</l>
+<l>(For Godlike ever, Acamas will seem,</l>
+<l>In Deianira's eyes) unknown to me</l>
+<l>My daughter went to supplicate the king;</l>
+<l>Grant heaven! she finds in him the noble friend</l>
+<l>She found in his brave brother!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>I am her friend;</l>
+<l>Yes, 'tis the boast of Acamas, his glory,</l>
+<l>To be Macaria's friend. Oh, Deianira!</l>
+<l>Thou hear'st a soldier—my soul is in my tongue;</l>
+<l>I love thy daughter:—not the wonders only</l>
+<l>Of her fair form; yet, oh!—but that high honour,</l>
+<l>The stamp of her great sire; and every virtue,</l>
+<l>More virtuous made by filial piety,</l>
+<l>Have fix'd my love. To her I dedicate</l>
+<l>My life; and, on this sword, avow myself</l>
+<l>The champion of her wrongs, and Deianira's.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>She has been ever good, and heaven rewards</l>
+<l>Her virtue, in the generous prince it raifes</l>
+<l>For her, and my protector. Hapless Hyllus!</l>
+<l>He scarce hath been so fortunate. Where now,</l>
+<l>Friendless and comfortless, wanders my son?</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Hither I came, resolved on secrecy;</l>
+<l>But, oh! that anxious tenderness, that sigh,</l>
+<l>Heaved from the bottom of a mother's breast,</l>
+<l>Unfix my purpose. Know then, Hyllus lives;</l>
+<l>And, more to move thy wonder, he lives here,</l>
+<l>A soldier in th' Athenian camp, disguised</l>
+<l>From every eye but mine: to me, this moment,</l>
+<l>The secret he entrusted.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Quickly bear me,</l>
+<l>Oh bear me to my boy—</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>A little longer</l>
+<l>Be mistress of yourself; this transport check</l>
+<l>A little longer; till occasion calls</l>
+<l>The gallant youth. By Demophon's command</l>
+<l>The priests prepare a sacrifice; that finished,</l>
+<l><pb n="36" facs="35"/>
+Hither will I conduct him. The meanwhile</l>
+<l>Safe let the secret in your bosom sleep,</l>
+<l>And trust the rest to Acamas.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Oh, born</l>
+<l>To counteract the cruelty of fate,</l>
+<l>And make life worth a wish! in thee I'll trust;</l>
+<l>My son shall be thy soldier.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>He and I</l>
+<l>Will make Eurystheus shrink beneath our swords.</l>
+<l>The troops of Argos too, tho' now compelled</l>
+<l>To rise 'gainst Hyllus in rebellious arms,</l>
+<l>Will drop their weapons, when their wondering eyes</l>
+<l>View their own hero, in th' Athenian ranks,</l>
+<l>Gaunt with revenge, and terrible in wrongs,</l>
+<l>Like a young son of Mars!</l>
+</sp>
+<stage>Enter HYLLUS, like a Soldier.</stage>
+<sp>
+<speaker>Hyl.</speaker>
+<l>The troops, my lord—</l>
+<l>Hah! Deianira here?—my honour'd mother!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Dear to thy mother's heart!—oh let me thus,</l>
+<l>And thus enfold my Hyllus! how at sight</l>
+<l>Of my loved boy the sun of heaven resumes</l>
+<l>Its wonted glory! this is life indeed!</l>
+<l>This to a mother's winterly old age</l>
+<l>Restores a youthful spring! tell, tell me all;</l>
+<l>Where, where hast thou been wandering? how cam'st hither,</l>
+<l>Oh too adventurous! to these longing arms?</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Thou shalt hear all: to thy impatient ears</l>
+<l>My heart I'll open; tell thee, thro' what perils</l>
+<l>I reach'd th' Athenian camp; with Acamas</l>
+<l>To make one last bold effort—but time flies;</l>
+<l>And dangerous is delay.—I now am here</l>
+<l>To tell thee, prince, Eurystheus' troops are on</l>
+<l>Full march to Athens.—Shall we give them battle?</l>
+<l>Blow loud the blast of war! let, let it rouze</l>
+<l>The spirit of its god within my breast!</l>
+<l>I burn for vengeance!</l>
+</sp>
+<sp>
+<pb n="37" facs="36"/>
+<speaker>Aca.</speaker>
+<l>Vengeance thou shalt have.</l>
+<l>But now, young soldier, temper this rash fire,</l>
+<l>Whose blaze may else betray thee: recollect</l>
+<l>A mother and a sister.</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Dearer both</l>
+<l>Than his own life to Hyllus!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Yet thou hast not</l>
+<l>Beheld thy sister?</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>I beheld Macaria,</l>
+<l>(And my heart yearn'd to speak, as I beheld her)</l>
+<l>Move tow'rds the palace, with a suppliant train.</l>
+<l>Anxious her looks, and pale her languid cheeks:</l>
+<l>Th' admiring multitude, as she past on,</l>
+<l>Gazed with an eye that pity had suffused</l>
+<l>With many a tear. I stopt, with wonder struck.</l>
+<l>She enter'd then.—There is no mischief meant—</l>
+<l>No plot against her?—by th' immortal spirit</l>
+<l>Of great Alcides! I would fire the palace,</l>
+<l>And rescue her dear life!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>With Deianira</l>
+<l>Wait my return. Be cautious; Hyllus only</l>
+<l>Can betray Hyllus; warned again, beware.</l>
+<l>Hyllus is now my soldier.</l>
+<stage>Exit.</stage>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Oh, my son!</l>
+<l>I fear thy fortune yet, against Eurystheus,</l>
+<l>That bloody tyrant! who, by fire-eyed Mars,</l>
+<l>Horribly swears, his rage shall never die,</l>
+<l>Never know peace, till on thy neck he plants</l>
+<l>His mortal foot, and crushes all our race!</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>His foot on me! more safe might he bestride</l>
+<l>The angry surge, when tempests toss the seas.</l>
+<l>Deio. Oh, moderate thy rage, th' untimely death</l>
+<l>Of many a gallant spirit!</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>He dies blest,</l>
+<l>Who, dying, slays the villain he detests.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>How wildly dost thou start! thy struggling soul</l>
+<l>Shoots thro' thine eyes. Oh, with less horror look!</l>
+<l>Less fixed to rush on fate! pity thy mother!</l>
+<l><pb n="38" facs="37"/>
+She has no son but thee! oh, leave Eurystheus</l>
+<l>To Jove's dread bolt.</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>To Jove I offer him</l>
+<l>In dreadful sacrifice. Jove smiles well pleased,</l>
+<l>When from his heaven the god beholds his altar</l>
+<l>Smoke with a tyrant's blood.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>My gallant boy!</l>
+<l>Alas, too noble!—let me gaze thee o'er;</l>
+<l>Let me find where that godlike spirit dwells,</l>
+<l>That lifts thee thus aloft. So frowned his sire,</l>
+<l>When with undaunted heart his young arm struck</l>
+<l>The Cleonaean savage. Looks he not</l>
+<l>As some superior power within moved</l>
+<l>Each animated grace?</l>
+</sp>
+<stage>Enter ACAMAS.</stage>
+<sp>
+<speaker>Aca.</speaker>
+<l>The king approaches.</l>
+<l>At once retire, so please you, to the altar,</l>
+<l>The inmost altar.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Lead, my reverend friends.</l>
+</sp>
+<stage>While <hi>Deianira</hi> retires, the Train sings,</stage>
+<sp>
+<lg>
+<l>Vengeance on curst Eurystheus' head!</l>
+<l>God of the shrine! let Hyllus tread</l>
+<l>Upon his crouching neck: thence mount the throne,</l>
+<l>His father's great avenger, and his own!</l>
+</lg>
+<stage>Exeunt <hi>Deianira, &amp;c.</hi></stage>
+</sp>
+<stage>HYLLUS and ACAMAS.</stage>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Thy looks are troubled! some accursed chance!</l>
+<l>What have they done? what dared?—By heaven, that silence</l>
+<l>Casts on the heart of Hyllus more alarm,</l>
+<l>Than mortal man e'er gave it!</l>
+</sp>
+<stage>Enter DEMOPHON.</stage>
+<sp>
+<speaker>Demo.</speaker>
+<l>These are thy exploits! <stage>[to <hi>Acamas.</hi></stage></l>
+</sp>
+<sp>
+<pb n="39" facs="38"/>
+<speaker>Aca.</speaker>
+<l>Soldier attend me at the western gate.</l>
+<stage>Exit <hi>Hyllus.</hi></stage>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Eurystheus comes upon us!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Let him come.</l>
+<l>With hastier steps we'll teach him to retire.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Rash, disobedient youth!—dispatch a herald,</l>
+<l>Now, presently, with terms of peace.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>With terms</l>
+<l>Of fell defiance rather speed him forth,</l>
+<l>And hurl the torch of war.—Oh shame! that men,</l>
+<l>Singled to be the substitutes of gods,</l>
+<l>Should bear such dastard minds! what treacherous offers</l>
+<l>Has the usurper tender'd? take them; seize them.</l>
+<l>Go, barter thy humanity for gold.</l>
+<l>Sell a sad mother's life, a queen's! and with it</l>
+<l>Her royal daughter's!—First, by heaven, thyself,</l>
+<l>Thy kingdom first shall perish! I will rouze</l>
+<l>All Athens.—Hah! perhaps my own brave troops—</l>
+<l>The fate of Deianira and Macaria,</l>
+<l>Tyrant! shall seal thy own!</l>
+<stage>Exit.</stage>
+</sp>
+<stage>Enter THESTOR and ALCANDER.</stage>
+<sp>
+<speaker>Alcan.</speaker>
+<l>We marked this menace;</l>
+<l>His fiery visage grim with ire; like some</l>
+<l>Distemper'd sky before the bursting bolt.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>At the least check his lion-heart flies forth,</l>
+<l>And knows nor king, nor brother.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>It affronts</l>
+<l>The awful silence of the place, and makes</l>
+<l>The altars tremble.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>What, if the rash youth</l>
+<l>Should, in his frenzy, make a desperate onset</l>
+<l>With his battalions!—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Therefore, without pause,</l>
+<l>The willing victim yield. We'll find a means</l>
+<l>To counteract him; only yield Macaria,</l>
+<l>Thy safety now the sacrifice requires.</l>
+</sp>
+<sp>
+<pb n="40" facs="39"/>
+<speaker>Thes.</speaker>
+<l>And heaven again demands it. We once more</l>
+<l>Invoked the sacred oracle; once more</l>
+<l>The sacred oracle pronounced her doom.</l>
+<l>Tempt not the gods too far; be warned of heaven.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>For if Macaria lives, she lives a brand</l>
+<l>To fire thy kingdom. Acamas will wed her;</l>
+<l>And war with Argos, an eternal war,</l>
+<l>Shall Athens wage.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>A war, with gods averse.</l>
+<l>Oh tremble at the thought!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>With gods averse!—</l>
+<l>How weak is mortal wisdom, mortal might!</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Obedient then to heaven, the victim yield.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>And lo, as hither brought by heaven's own hand,</l>
+<l>To force thee to thy good, Macaria comes.</l>
+</sp>
+<stage>Enter MACARIA.</stage>
+<sp>
+<speaker>Mac.</speaker>
+<l>Yet, I behold her not—celestial guardians</l>
+<l>Of innocence, watch o'er her! Should her blood,</l>
+<l>Oh horrible! be shed for mine—oh king!</l>
+<l>Torn with a thousand terrors, from the palace</l>
+<l>I've hurried to the temple—let me die</l>
+<l>For a loved parent!—hah! while thus thou turn'st</l>
+<l>From me, take heed, rash king! thou turn'st from Jove,</l>
+<l>Whose voice commands the victim.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Lead along,</l>
+<l>Interpreters of heaven; and thou, Macaria,</l>
+<l>Wait here awhile. The god must be obeyed.</l>
+<stage>Exeunt.</stage>
+</sp>
+<stage>MACARIA alone.</stage>
+<sp>
+<l>The god must be obeyed—transporting sounds!</l>
+<l>And now, at this dread moment, while the priests</l>
+<l>Prepare the rites; to thee, tremendous power!</l>
+<l>Who sit'st high over all—hah! whence are these</l>
+<l><pb n="41" facs="40"/>
+Loud throbs? why rush my spirits thro' my breast?</l>
+<l>If innocence shake thus, what ribs of steel</l>
+<l>May bide the beating of a guilty heart,</l>
+<l>When sounds the mortal summons?—hah, the gates</l>
+<l>Unfold; and Deianira quits the temple!</l>
+</sp>
+<stage>Enter DEIANIRA.</stage>
+<sp>
+<speaker>Deia.</speaker>
+<l>It was her voice—hark, hark! I could not err.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Heavens!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Thro' the vaulted arch of this lone ile</l>
+<l>Plaintive it past along.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Protect me! save,</l>
+<l>Oh save me from a mother's eye, that strikes</l>
+<l>All resolution dead.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Art thou return'd,</l>
+<l>My life? ah, what delay, this tedious hour,</l>
+<l>Has held thee from thy mother's heart, that longs</l>
+<l>Thus eagerly to clasp thee?</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Oh, my mother!</l>
+<l>Close to thy bosom clasp thy child, who loves,</l>
+<l>For ever loves thee!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>The loud storm, that late</l>
+<l>So thunder'd in our ears, is rolling off;</l>
+<l>The troubled air's at rest; and every fear</l>
+<l>Flies before chearful hope. I've seen thy brother—</l>
+<l>Why dost thou sigh? thou too shalt see him; thou</l>
+<l>Shalt soon embrace my boy.—How my heart triumphs</l>
+<l>At thy approaching fortune! With what pride,</l>
+<l>What exultation; shall Mycenae welcome</l>
+<l>Her favourite virgin! With what envious eyes</l>
+<l>Behold the mother of a child like thee!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Thy virtues, Deianira, merit more</l>
+<l>Than such a child can give.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>How faintly falls</l>
+<l>Each accent from thy tongue; and sure thy eyes</l>
+<l>Glance on thy mother with a joyless smile,</l>
+<l>That hardly hides a tear?</l>
+</sp>
+<sp>
+<pb n="42" facs="41"/>
+<speaker>Mac.</speaker>
+<l>With the same eyes,</l>
+<l>Still, still do I behold thee; but so used</l>
+<l>To weep, involuntary tears will start.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Come, let me kiss them dry. Perish Eurystheus!</l>
+<l>Whose cruelties have thus o'erpower'd thy spirits.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>His death will cost his conquerors a dear triumph!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Yet let him die! barbarian! let him perish!</l>
+<l>How dear soe'er the purchase.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Can I hear,</l>
+<l>And not forewarn her of th'impending ruin,</l>
+<l>Ready to rush upon her?</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Said they not</l>
+<l>The priests prepare a sacrifice?—the blood</l>
+<l>Of that, ye pitying powers! I hope will end</l>
+<l>Thine and my sorrows. Are the rites begun?</l>
+<l>Soon will the victim bleed?</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Too soon thou'lt think it.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Would heaven! I might be present.</l>
+</sp>
+<stage>Enter an OFFICER.</stage>
+<sp>
+<speaker>Deia.</speaker>
+<l>Hah, that stranger!</l>
+<l>Know'st thou from whence that stranger?</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>Royal queen,</l>
+<l>With greeting from imperial Demophon</l>
+<l>Thy servant comes.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Whate'er the errand, Sir,</l>
+<l>Welcome to Deianira. In this breast</l>
+<l>Here is a heart indebted to thy king,</l>
+<l>That delegate from heaven to deal its blessings,</l>
+<l>And from the dust lift up affliction's head.</l>
+<l>What would his gracious pleasure?</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>To conduct</l>
+<l>The princess to his presence, I am sent.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Conduct Macaria?—Misconceive me not—</l>
+<l>If 'tis his will—yet wherefore—upon what</l>
+<l>Occasion sends he? Is she to preside</l>
+<l>At the high sacrifice?—Or, may it be!</l>
+<l><pb n="43" facs="42"/>
+To solemnize with her his brother's nuptials?</l>
+<l>Yet sure a mother would at such an hour</l>
+<l>Prove no unwelcome guest?</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>For heaven's sake, stir not;</l>
+<l>Quit not the temple; let me, let me go,</l>
+<l>Safe in this stranger's conduct.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Stay one moment.</l>
+<l>Something I had to say—one little moment</l>
+<l>Indulge a mother's fondness. Ah, Macaria!</l>
+<l>How precious is one moment, when we part</l>
+<l>With all that's dearest!—see these foolish tears!</l>
+<l>But my fond eyes, when next we meet, shall gaze</l>
+<l>With double transport on thee!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Death hath not</l>
+<l>A keener pang!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>This one embrace!—and now,</l>
+<l>Now, honoured stranger, to thy hands I trust—</l>
+<l>What words shall say how much! but on thy brow</l>
+<l>There is a virtue claims all trust. Receive,</l>
+<l>And to a mother back return the heart</l>
+<l>That now forsakes her breast! Oh thou, in whom</l>
+<l>My soul delights, farewell!—What, not one look,</l>
+<l>Macaria?—not one word?</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Lead, lead me hence!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>To me thou dost not speak!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>—Ah Deianira!</l>
+<stage>[Exit <hi>Macaria</hi> with the Officer.</stage>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>She vanishes!—she's gone!—</l>
+</sp>
+<stage>Enter IOLAUS.</stage>
+<sp>
+<speaker>Iol.</speaker>
+<l>Back to the temple—</l>
+<l>Permit me, honoured queen—</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Yet went she not</l>
+<l>More pensive forth, more seemingly alarmed,</l>
+<l>Than such occasion suited. Should Alcander—</l>
+<l>Oh, Iolaus! in that traitor's life</l>
+<l>Live countless dangers; and a mother's heart</l>
+<l>Has fears for every one: scarce would'st thou think</l>
+<l><pb n="44" facs="43"/>
+How much th' alacrity of my poor spirits</l>
+<l>Sinks with my child's dejection. Let it pass.</l>
+<l>Tempestuous was the morning of this day;</l>
+<l>How will it close? but yet it soon will close;</l>
+<l>And then—thou hear'st not? Why so fearfully</l>
+<l>Do thy eyes gaze me o'er? from thy pale cheek</l>
+<l>The colour flies—</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>No!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Thy limbs tremble—</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>No!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>And that disorder—</l>
+</sp>
+<stage>Enter HYLLUS.</stage>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Where, where's Acamas!</l>
+<l>—Hah! Deianira here!—</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Heaven guard my son!</l>
+<l>What means that wild emotion? Speak, before</l>
+<l>My apprehensive spirit—</l>
+</sp>
+<stage>Enter ACAMAS.</stage>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Oh, Acamas!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>I know thy fears, and came-to check th' alarm.</l>
+<l>There is no danger, lady; be composed.</l>
+<l>It was Alcander's infamous device;</l>
+<l>But the king's undeceived.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Oh, you have banished</l>
+<l>A thousand terrors!—</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Demophon's our friend:</l>
+<l>Against Eurystheus he denounces war;</l>
+<l>And Acamas, by his command, even now</l>
+<l>Marches to meet th' usurper.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Thanks, kind gods!</l>
+<l>Protectors of my child!</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Oh, there is life</l>
+<l>In these great tidings!—Hyllus, Hyllus then</l>
+<l>Shall march to meet th' usurper!</l>
+</sp>
+<sp>
+<pb n="45" facs="44"/>
+<speaker>Aca.</speaker>
+<l>Hyllus shall:</l>
+<l>In all his guilty pomp, furious he comes,</l>
+<l>T' arrest the rolling thunder of our wrath,</l>
+<l>Or sink before it.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Oh, tremendous hour!</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Farewell! farewell, my mother! hence I go,</l>
+<l>At fate's high call.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Go then, my only boy!</l>
+<l>Remember what Alcides was, and conquer!</l>
+<stage>[Exeunt <hi>Hyllus</hi> and <hi>Acamas.</hi></stage>
+<l>—How all on fire for fame his spirits flashed</l>
+<l>As he shot forth! I tremble at his valour!</l>
+<l>Alas, his virtues are too terrible!</l>
+<l>—But he is gone to battle. Mighty Mars!</l>
+<l>Go with him forth! Let thy bright aegis blaze</l>
+<l>O'er his young breast?—If he must meeet Eurystheus,</l>
+<l>Who with the blood of our whole race would fill</l>
+<l>The measure of his crimes, oh, may his faulchion</l>
+<l>Lay the fell tyrant low!—Let me but live,</l>
+<l>God of revenge! to see that glorious day!</l>
+<l>Then take me, take me hence! I've lived enough.</l>
+<stage>[Exit.</stage>
+</sp>
+<trailer>END OF THE THIRD ACT.</trailer>
+</div1>
+<div1 n="4" type="act">
+<pb n="46" facs="45"/>
+<head>ACT IV.</head>
+<stage>A Grove. At the End of it the Temple of <hi>Juno.</hi></stage>
+<stage>Enter ALCANDER.</stage>
+<sp>
+<speaker>ALCANDER.</speaker>
+<l>HAIL to immortal Juno's facred shrine!</l>
+<l>Goddess of Argos, hail! Thou, in whose breast</l>
+<l>Eternal hatred 'gainst Alcides' race</l>
+<l>Dwells unextinguished! To thy altar, queen,</l>
+<l>Lo, I devote his daughter! here, this hour,</l>
+<l>In spite of Acamas, Marcaria dies!</l>
+</sp>
+<stage>Enter THESTOR from the Temple.</stage>
+<sp>
+<speaker>Thes.</speaker>
+<l>Alcander's order Thestor has obeyed;</l>
+<l>Yet vainly sure the altars now must blaze,</l>
+<l>Without a victim; when thy mortal foe</l>
+<l>Th' Athenian army heads; when Acamas</l>
+<l>The bold, th' intrepid, is gone forth to fight,</l>
+<l>Perhaps to slay Eurystheus. That, at once,</l>
+<l>Tumbles thy towering projects down; and all</l>
+<l>Thy statesman's wiles are air.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>And is Alcander</l>
+<l>Thus known? Vain augur, there will be no battle:</l>
+<l>I sent forth Acamas; by my instructions</l>
+<l>He heads th' Athenian army; at his will,</l>
+<l>Alcander this tremendous hero moves,</l>
+<l>The puppet of his pleasure. Demophon</l>
+<l><pb n="47" facs="46"/>
+Has fool'd his brother with a mock command;</l>
+<l>And after him sent orders, on his life,</l>
+<l>Not to engage Eurystheus. Now believ'st thou</l>
+<l>Thy altars smoke in vain?</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>That's a device</l>
+<l>Of policy indeed!</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>The same instructions</l>
+<l>Go to each chief; while Conon, the king's son,</l>
+<l>I, for a special purpose, have dispatched,</l>
+<l>To make Eurystheus privy to the plot,</l>
+<l>And bid him in his own entrenchments keep.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>But still, should Acamas attack the ranks?—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>They are too strong; he dares not. On the heights</l>
+<l>Eurystheus is well posted, and must baffle</l>
+<l>His boldest efforts. There will be no battle.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Meantime, Macaria—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>True; while her mock hero</l>
+<l>Vaunts it before the troops, Macaria dies</l>
+<l>At Juno's altar. Speed thee to the king,</l>
+<l>Ere he finds time to cool; into his breast</l>
+<l>Infuse, as thou art wont, religious awe.</l>
+<l>Go then, without delay, his fancy fright</l>
+<l>With slighted oracles, and vengeful gods</l>
+<l>Ready to bolt their thunder.</l>
+<stage>Exit <hi>Thestor.</hi></stage>
+<l>Triumph now</l>
+<l>My heart! now glory in a daring deed,</l>
+<l>Which fools call villainy, who want the spirit</l>
+<l>To be successful villains. In my view</l>
+<l>Glitters the crown of Argos; my hands now</l>
+<l>The sceptre seem to grasp; and by my side</l>
+<l>Eurystheus' sister sits in regal state:</l>
+<l>My hopes can soar no higher; one cloud only</l>
+<l>Lours o'er my prospect. Hyllus!—curse upon</l>
+<l>The forward stripling. Hyllus lives! were he</l>
+<l>Once placed within my compass—but this hand</l>
+<l>Must crush him, and it shall. I have already</l>
+<l>Sent forth a secret sword. But where's this victim?</l>
+<l>Thestor wants power to work upon the king;</l>
+<l><pb n="48" facs="47"/>
+That power I'll quickly furnish; play the son</l>
+<l>An engine on his sire.</l>
+</sp>
+<stage>Enter IOLAUS.</stage>
+<sp>
+<speaker>Iol.</speaker>
+<l>Behold the wretch,</l>
+<l>Whose footsteps I've been tracing. This earth bears not</l>
+<l>A more abhorred object to my eyes</l>
+<l>Than thee; and yet I follow thee, thou vile</l>
+<l>Artificer of fraud. But ruin gathers</l>
+<l>Already o'er Eurystheus' head and thine.</l>
+<l>Prophetic are my words: and Hyllus, Hyllus,</l>
+<l>Comes to fulfil the prophecy.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Alcander</l>
+<l>Can laugh alike at prophecy and prophet.</l>
+<l>He soars, officious babler, 'bove thy sphere,</l>
+<l>And the vain boy thou boast'st of: but go on;</l>
+<l>In blind security go dreaming on,</l>
+<l>Into the pit destruction digs.</l>
+<stage>Exit.</stage>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>He's gone:</l>
+<l>A deep, determined villain, who would wade</l>
+<l>Thro' all the blood of all the royal race,</l>
+<l>T' usurp the throne of Argos. But oh, never,</l>
+<l>All-gracious Jove! let such a traitor wear</l>
+<l>Thy own Alcides' crown. His black soul now</l>
+<l>Sits brooding over some new villainy.</l>
+<l>Alarming were his words—hold; let me ponder.</l>
+<stage>[He retires.</stage>
+</sp>
+<stage>Enter DEIANIRA with an ATTENDANT.</stage>
+<sp>
+<speaker>Atten.</speaker>
+<l>For worlds, my queen! for worlds, thou should'st not risk</l>
+<l>A second time such perils. Gracious heaven!</l>
+<l>My frighted ears still-hear the soldiers scoffs!</l>
+<l>Their levelled spears still lighten in my eyes!</l>
+<l>Ah, go not to the palace; thy Macaria</l>
+<l>Is safe; the king's her friend; thou hast the assurance</l>
+<l><pb n="49" facs="48"/>
+Of royal Acamas. Then be advised;</l>
+<l>Back to Jove's temple.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Thou art not a mother!</l>
+<l>No darling child hast thou within the grasp</l>
+<l>Of a fell tyrant! desperate else, like me,</l>
+<l>Thou would'st rush forth thro' swords and threatening spears,</l>
+<l>Without a thought of danger. Go thyself</l>
+<l>Back to Jove's temple. What should I do there?</l>
+<l>I want no sanctuary without my daughter!</l>
+<l>No world, no life for me!—Should Demophon—</l>
+<l>Suspicion is the guest of guilty minds,</l>
+<l>And shall not harbour here:—else should the king,</l>
+<l>Forced by Eurystheus' threats, Alcander's wiles,</l>
+<l>By passion, interest, policy, caprice—</l>
+<l>Eternal powers! on what a slender thread</l>
+<l>Hangs human happiness!</l>
+<l>—Hah! Iolaus—</l>
+<stage>[<hi>Iolaus</hi> comes forward.</stage>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>My queen! good heaven!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Thou tremblest to behold</l>
+<l>Thy queen thus rashly wandering! thy queen too</l>
+<l>Trembles at her own rashness! but distracted.</l>
+<l>With anxious doubts and fears, I sought the palace.</l>
+<l>Haemon, where art thou? whom thy queen dispatched</l>
+<l>For quick intelligence—thou com'st not, Haemon.</l>
+<l>My fond impatience speeds not thy return—</l>
+<l>Thou seest not danger in the frightful forms</l>
+<l>Maternal passions paint it.—Still I hear</l>
+<l>No tidings.—Iolaus, speak some words</l>
+<l>Of comfort to me.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>I, alas, am past</l>
+<l>All power of comfort! an old blasted tree,</l>
+<l>With moss o'ergrown, and wither'd!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Thy heart heaves</l>
+<l>With something thou would'st hide!</l>
+</sp>
+<stage>Enter HAEMON.</stage>
+<sp>
+<speaker>Haem.</speaker>
+<l>From shrine to shrine</l>
+<l>Vainly I follow—</l>
+</sp>
+<sp>
+<pb n="50" facs="49"/>
+<speaker>Deia.</speaker>
+<l>Haemon, thou hast seen her;</l>
+<l>And wherefore comes she not?—the sacrifice,</l>
+<l>Is it perform'd?—oh, such suspence is death!</l>
+<l>The victim, has it bled? then why, Macaria,</l>
+<l>This terrible delay?</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>She to the palace</l>
+<l>Went with the king. When the procession passed,</l>
+<l>At a small distance, I beheld the grove</l>
+<l>With multitudes encircled; listening all</l>
+<l>To hear the trumpet's signal, that devoted</l>
+<l>The victim to the god. Along the vale,</l>
+<l>Broken, by fits, came floating on the air</l>
+<l>The sound of solemn hymning; I beheld</l>
+<l>The priest in purple vestment take his stand;</l>
+<l>I saw the sun beams glittering on his sword,</l>
+<l>Uplifted for the blow; I heard the trump:—</l>
+<l>Sudden 'twas all confusion!—</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Iolaus,</l>
+<l>Thou'st caught my fears: I read them in thy eyes,</l>
+<l>Alcander's ruffian band have crossed the rites—</l>
+<l>The populace call on the king to yield,</l>
+<l>Dread Jove! to yield my child!—But no; the ties,</l>
+<l>The sacred ties of friendship, of relation,</l>
+<l>He better knows—the debt of gratitude</l>
+<l>He owes Alcides, deeply is engraved,</l>
+<l>And to his race he'll pay it. Rest, poor heart!</l>
+<l>Safe in that hope—safe in his piety</l>
+<l>To heaven!—the best religion to the gods</l>
+<l>Is mercy to mankind.</l>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>The king's thy shield;</l>
+<l>And every shaft the tyrant shoots shall back</l>
+<l>Return to his own breast.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>It may be so.—</l>
+<l>But yet, but yet this horrible suspense</l>
+<l>The worst of apprehensions conjures up,</l>
+<l>In their worst forms—All dark where-e'er I turn!</l>
+<l>And dismal all!—on a lone rock I stand,</l>
+<l>The wild waves raving round me!</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>Yet awhile,</l>
+<l>A little while endure—the thunder's o'er;</l>
+<l>And now the scattering rack flies harmless on.</l>
+</sp>
+<sp>
+<pb n="51" facs="50"/>
+<speaker>Deia.</speaker>
+<l>My heart will bear no more! I'll to the grove:</l>
+<l>Yet, to break in unbid!—a moment's pause—</l>
+<l>What, if I enter here; in Juno's temple,</l>
+<l>Try to propitiate the incensed power,</l>
+<l>And make her less my foe? I'll enter here;</l>
+<l>And try to deprecate her wrath. To th' temple</l>
+<l>Lead on, thou good old man: prayers such as mine,</l>
+<l>Prayers from a broken heart, plead not in vain.</l>
+<stage>[Exit with <hi>Iolaus</hi> to the Temple.</stage>
+</sp>
+<sp>
+<speaker>Haem.</speaker>
+<l>Struck with an arrow, hapless queen, she flies</l>
+<l>From place to place! but can't fly from herself.</l>
+<l>Oh then, in pity to her woes, dread Jove!</l>
+<l>In pity to her virtue!—hark, I heard</l>
+<l>The tread of feet—'tis Demophon; what brings him</l>
+<l>To Juno's temple?—with a priest he comes—</l>
+<l>I'll to the sacred grove.</l>
+<stage>Exit.</stage>
+</sp>
+<stage>Enter DEMOPHON and THESTOR.</stage>
+<sp>
+<speaker>Demo.</speaker>
+<l>I tell thee, no;</l>
+<l>Macaria must not bleed.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>My gracious lord—</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>My mind misgives me; I will not consent.</l>
+<l>Just as the sword was raised for sacrifice,</l>
+<l>It thunder'd on the right; and from my lips</l>
+<l>Ill-omen'd words involuntary fell—</l>
+<l>My mind misgives me—priest, she shall not bleed.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Forgive thy servant, who upon his king</l>
+<l>Charges whate'er may seem of ill portent.</l>
+<l>Thy doubts and thy delays, which mock alike</l>
+<l>The priest and oracle; these from above</l>
+<l>Bad omens of displeasure bring; which now</l>
+<l>The victim hardly can avert:—no longer</l>
+<l>Oppose her fate.</l>
+</sp>
+<stage>Enter ALCANDER.</stage>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Eurystheus, wild with rage,</l>
+<l>Brands thee; oh king, with perfidy. Nay, mark</l>
+<l><pb n="52" facs="51"/>
+His dreadful menace; if this very hour</l>
+<l>Macaria doth not on the altar bleed,</l>
+<l>Thy son's life pays the forfeit.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Conon's life?</l>
+<l>What! how! where is he?</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>In Eurystheus' camp.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Eurystheus' camp?—oh I remember—fly—</l>
+<l>Fly to Eurystheus' camp—prevent—inform—</l>
+<l>Say, Demophon consents—this very hour</l>
+<l>Macaria dies—quick to the Argian camp—</l>
+<l>Haste, seize Macaria; bid the priests approach:</l>
+<l>Thy violated altar now, dread queen!</l>
+<l>Shall have due honours done—the victim bleeds.</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Oh, transport to my soul! no human power</l>
+<l>Can snatch her now from fate.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Lo, king of Athens,</l>
+<l>Obedient to heaven's call, the priests, in slow,</l>
+<l>Solemn procession, with Macaria move</l>
+<l>To Juno's temple.</l>
+</sp>
+<stage>Solemn Music. A slow Procession. MACARIA drest like a Victim, attended by Priests.</stage>
+<sp>
+<speaker>Demo.</speaker>
+<l>Holy men, approach,</l>
+<l>And execute your office. Demophon</l>
+<l>No longer heaven's resistless will withstands.</l>
+<l>Uninterrupted now the victim lead to sacrifice.</l>
+</sp>
+<sp>
+<speaker>Thes.</speaker>
+<l>Virgin, thou there discern'st</l>
+<l>Great Juno's temple: with profoundest reverence,</l>
+<l>Behold, the servant of the sacred goddess</l>
+<l>Conducts thee to the altar.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Gods above!</l>
+<l>To you Macaria lifts her latest prayer;</l>
+<l>To you devotes herself for a lov'd parent.</l>
+<l>Oh, let the sighs of innocence, to which</l>
+<l>Your heavenly gates stand open day and night,</l>
+<l>Find entrance! Let the virtues of her son</l>
+<l>Lighten her loss of me! comfort them both!</l>
+<l>The Queen and Hyllus comfort! for ye can,</l>
+<l><pb n="53" facs="52"/>
+Tho' poor Macaria cannot. Without pause,</l>
+<l>Now do your office, priest. Nay, touch me not:</l>
+<l>Freely to death I follow.</l>
+<stage>[She walks attended towards the Temple, with solemn Music.]</stage>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Now, my son</l>
+<l>Conon shall live; and Juno be appeased.</l>
+</sp>
+<stage>DEIANIRA and IOLAUS from the Temple.</stage>
+<sp>
+<speaker>Deia.</speaker>
+<l>Hark, Iolaus! heard you not the sounds</l>
+<l>Of sad solemnity? and lo, attired</l>
+<l>By virgin vest—Earth hide me from the sight!</l>
+<l>'Tis she! oh horror, horror! my dear daughter</l>
+<l>Led forth a victim!—closer yet my child,</l>
+<l>And closer! he who tears thee from thy mother</l>
+<l>Shall bring the Furies with him!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Deianira!</l>
+<l><hi>Alcan.</hi> Curst accident!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Priests, do your office—</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Hold!</l>
+<l>Thou bloody tyrant, hold!—oh, lost to all</l>
+<l>Humanity! from daemons sprung thou art!</l>
+<l>From vengeance, murder, death! whate'er of horror</l>
+<l>Lays waste the world!—Could not her innocence,</l>
+<l>Youth, beauty, all! not all—but yet thou could'st not!</l>
+<l>Tyrant, thou dar'st not do it! the very stones</l>
+<l>Would from this violated altar start,</l>
+<l>In vengeance of the crime! Heaven's wrathful king</l>
+<l>Blast with his bluest lightning!—Oh, what fiend</l>
+<l>From hell could tempt thee to so damned a deed!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Had I not patience beyond mortal man—</l>
+<l>Injurious queen! what wert thou?—Goes she not,</l>
+<l>Obedient to heaven's holy oracle,</l>
+<l>A voluntary victim to preserve</l>
+<l>Thy wretched being?—Seize her!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Off! forbear!</l>
+<l>Horrible wretch!</l>
+</sp>
+<sp>
+<pb n="54" facs="53"/>
+<speaker>Thes.</speaker>
+<l>What dreadful profanation!</l>
+<l>Retire, before th' offended goddess—</l>
+</sp>
+<sp>
+<speaker>Alcan.</speaker>
+<l>Speak;</l>
+<l>Pronounce the sentence; Conon bids thee speak!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>He does: and wakes each agonizing nerve</l>
+<l>Within a father's breast! But to behold</l>
+<l>That spectacle!—yet Conon, yet my son—</l>
+<l>If one must die!—Sound, sound for sacrifice!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>No, dare not, as you're men! it were a sound</l>
+<l>To start the powers of heaven! I clasp thy knees!</l>
+<l>Mercy! oh, mercy! on the most forlorn,</l>
+<l>Unfortunate of womankind! No more</l>
+<l>My frantic rage upbraids thee: by the name</l>
+<l>Revered of parent, spare, oh spare my child!</l>
+<l>And if you must have blood, take mine for hers!</l>
+<l>And freely shall it flow.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>The impious hand,</l>
+<l>Raised 'gainst her reverend age, is raised 'gainst heaven!</l>
+<l>It braves the thunderer's bolts!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Regard not her,</l>
+<l>Unnatural child! she feels not for the mother</l>
+<l>Who gave the life she scorns; regard not her:</l>
+<l>Thee I again implore; in bitterness</l>
+<l>Of bursting anguish, clasp thy knees again.</l>
+<l>Nay, turn not—In the terror of thine eye</l>
+<l>A drop I see, that will not be restrained;</l>
+<l>'Tis nature pleading from my heart to thine!</l>
+<l>Oh, hear her terrible, her tender cry!</l>
+<l>And here the poignard plunge!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Tempt not, rash king,</l>
+<l>Tempt not the gods!—on thee, on all thy race,</l>
+<l>A mother's innocent blood will cry for blood!</l>
+<l>Macaria is the victim! speak the word</l>
+<l>Which the gods spoke. Now, from you opening heaven,</l>
+<l>They all look down on this tremendous scene!</l>
+<l>They view this agonizing heart, that heaves</l>
+<gap resp="oxf" reason="missing" disp="〈pages missing〉"/>
+</sp>
+</div1>
+<div1 n="5" type="act">
+<pb n="63" facs="54"/>
+<gap resp="oxf" reason="missing"/>
+<stage>Enter DEMOPHON. &amp;c.</stage>
+<sp>
+<speaker>Demo.</speaker>
+<l>Search all the temple round.</l>
+<l>Seize, bind the villain, whose infernal wiles</l>
+<l>Have snared my credulous soul. Th' attrocious slave,</l>
+<l>On whom the Furies must inflict new pangs,</l>
+<l>Tortures untried before!</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>He's gone to prove</l>
+<l>Their fiercest indignation.—Start not, king;</l>
+<l>He who the shrine would stain with innocent blood,</l>
+<l>No fanctuary should find it.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Read, read there</l>
+<l>The ruffian's scroll to Thestor, the avouch</l>
+<l>Of a false oracle, by him suborned</l>
+<l>To work Macaria's death.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Inhuman slave!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Oh horrible!</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Ah, more of horror yet,</l>
+<l>Unhappy queen, remains! much horror more,</l>
+<l>To wound a mother's, and a sister's breast!</l>
+<l>That wretch Alcander!</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>My ill-boding heart!</l>
+<l>Yet let me fummon—</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Summon all thy powers,</l>
+<l>For thou need'st all, at this tremendous trial,</l>
+<l>Unhappy queen!—that sacrilegious villain</l>
+<l>Dispatched a ruffian, with a secret dagger,</l>
+<l>T' assassinate thy Hyllus.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Crowd not round—</l>
+<l>Lend not your cruel aid to hold me on</l>
+<l>The rack of life,—why should I live to weep</l>
+<l>My son, my murder'd son!</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Do all our hopes,</l>
+<l>Our flattering hopes, end thus?—oh,</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Dispatch a herald—</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Acama</l>
+<l>Himself the herald—hah, that tru</l>
+<l>Some fresh alarm—Eurystheus, on</l>
+<l>Urg'd by these curs'd distractions,</l>
+<l><pb n="64" facs="55"/>
+Invades the city.—Demophon, guard well</l>
+<l>The royal charge,—Now, tyrant, face to face</l>
+<l>Let us but meet; and Jove stand arbiter;</l>
+<l>Mourn not, sweet maid. Thy brother I'll bring back</l>
+<l>Alive; or come with him a breathless corse.</l>
+</sp>
+<stage>Enter an OFFICER.</stage>
+<sp>
+<speaker>Aca.</speaker>
+<l>Hah! from the camp thou com'st—inform me, soldier—</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>Eurystheus is no more;—beneath the arm</l>
+<l>Of Hyllus—</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Lives my son?</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>Speak, quickly speak,</l>
+<l>Of my lov'd Hyllus.</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>From Alcander, lady,</l>
+<l>A letter to Eurystheus was dispatched,</l>
+<l>To storm th' Athenian camp, while Acamas</l>
+<l>Was prisoner. This did Hyllus intercept.</l>
+<l>When, the same moment, an assassin struck</l>
+<l>A poniard at his breast. A hundred swords</l>
+<l>Flamed forth at once; and dead beneath his feet</l>
+<l>The baffled ruffian sunk.</l>
+</sp>
+<sp>
+<speaker>Deia. and Mac.</speaker>
+<l>Thanks, gracious powers.</l>
+</sp>
+<sp>
+<speaker>Aca.</speaker>
+<l>Proceed, proceed—</l>
+</sp>
+<sp>
+<speaker>Offi.</speaker>
+<l>The troops, with fury fired,</l>
+<l>At such black perfidy, with general voice</l>
+<l>Called upon Hyllus, Hyllus, to lead on,</l>
+<l>And charge Eurystheus' tent. Right on they marched,</l>
+<l>Led by the gallant prince; and with a shout</l>
+<l>Made a full charge. Eurystheus, at the head</l>
+<l>Of his own guards, advanced: the leaders met;</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Hyllus with a noble blow</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> <gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ant's helm. To earth he fell,</l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> his soul.</l>
+<l>The royal trumpet <stage>[a trumpet sounds.</stage></l>
+<l><gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> hero's entry.—Lo, with wreaths</l>
+<l><pb n="65" facs="56"/>
+Of conquest crowned, Alcides' godlike son</l>
+<l>Triumphantly approaches.</l>
+</sp>
+<stage>Enter HYLLUS, with a Coronet; attended by Officers.</stage>
+<sp>
+<speaker>Hyl.</speaker>
+<l>Give me way—</l>
+<l>Oh, I come not too late. Macaria lives:</l>
+<l>And Deianira lives.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>My conqueror.</l>
+</sp>
+<sp>
+<speaker>Mac.</speaker>
+<l>My Hyllus.</l>
+</sp>
+<sp>
+<speaker>Iol.</speaker>
+<l>My loved master.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>But, alas,</l>
+<l>Thy garment!—ah, thy garment smeared with blood—.</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>It is Eurystheus' blood. I slew the tyrant.</l>
+<l>And here his regal coronet present,</l>
+<l>A trophy to my mother. All his troops,</l>
+<l>Who hated, as they feared him, dropt their arms,</l>
+<l>When they beheld my falchion in his breast,</l>
+<l>And hailed the son of Hercules their king.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Transporting sounds to Deianira's ears;</l>
+<l>Who mourned her son a victim to th' assassin,</l>
+<l>Sent by the villain, who lies breathless there,</l>
+<l>Slain by that prince's hand.</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>The ruffian met</l>
+<l>A fate too honourable: but he's dead;</l>
+<l>And with him die resentment.</l>
+</sp>
+<sp>
+<speaker>Demo.</speaker>
+<l>Generous prince:</l>
+<l>Whose nobleness of mind with wonder strikes me;</l>
+<l>With wonder and with shame. Yes, I have been</l>
+<l>Too credulous. My crime before me stands</l>
+<l>A dreadful warning, ne'er with human blood</l>
+<l>To stain religion's altars.</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>From this moment,</l>
+<l>We are firm friends: and now 'tis double joy,</l>
+<l>With my own hand to have preserved your son.</l>
+<l>—But oh, my more than friend, my Acamas;</l>
+<l>How shall my full heart pay th' eternal debt,</l>
+<l>That gratitude owes thee?</l>
+</sp>
+<sp>
+<pb n="66" facs="57"/>
+<speaker>Aca.</speaker>
+<l>Macaria lives?</l>
+<l>I saved Macaria's life. I'm more than paid.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>Not till she hath enrich'd thee with herself.</l>
+<l>Take then, protector of her life and mine;</l>
+<l>From a fond mother's hand, that freely gives,</l>
+<l>Oh take the daughter of my soul!</l>
+</sp>
+<sp>
+<speaker>Hyl.</speaker>
+<l>A maid,</l>
+<l>Forgive a brother's boast; unparalleled</l>
+<l>In every virtuous grace. A gem she is,</l>
+<l>Brighter than glitters in the diadem</l>
+<l>Thou placest on my brow. Take her; she's thine.</l>
+<l>And thus united, share with me my throne,</l>
+<l>Thy friendship's noble gift.</l>
+</sp>
+<sp>
+<speaker>Deia.</speaker>
+<l>God of our fathers!</l>
+<l>Who from th' abyss of misery, in a moment,</l>
+<l>Up to a heaven of happiness canst lift</l>
+<l>Poor mortals; what a change incredible</l>
+<l>Hath this day wrought!—the rude repinings pardon</l>
+<l>Of a rash woman; questioning thy just,</l>
+<l>Thy fatherly corrections; which dissolve,</l>
+<l>When the sharp season of probation's past,</l>
+<l>Like fostering dews, in mercies on mankind.</l>
+<stage>[Exeunt.</stage>
+</sp>
+<trailer>END OF THE FIFTH ACT.</trailer>
+</div1>
+</body>
+<back>
+<div1 type="epilogue">
+<pb facs="58"/>
+<head>EPILOGUE.</head>
+<byline>Written by a FRIEND.</byline>
+<lg>
+<l>WELL! these heroic times—I scarce can speak—</l>
+<l>These ancient fables, borrow'd from the Greek,</l>
+<l>Are all so full of passion, rage, and death,</l>
+<l>So violent—they take away one's breath.—</l>
+<l>Let me recover, pray:—this tragic strife</l>
+<l>Night after night,—leads me a weary life.</l>
+</lg>
+<lg>
+<l>Thro' what variety of folks, long dead,</l>
+<l>Through what strange times and beings are we led!</l>
+<l>Now a fond daughter trembling for her sire;</l>
+<l>Now Phaedra, burning with unlawful fire!</l>
+<l>A heroine now, for Greece my brain I rack;</l>
+<l>Now Desdemona, smother'd by a Black.</l>
+<l>To take these various shapes, and fill the whole,</l>
+<l>An actress needs a transmigrating soul.</l>
+</lg>
+<lg>
+<l>This night, you'll own, I've had full cause to mourn</l>
+<l>A chief renown'd from my embraces torn.</l>
+<l>Well might a widow weep the best of men!</l>
+<l>Oh! such a husband I shan't have again.</l>
+<l>With bright renown he fill'd the Eastern climes,</l>
+<l>And differ'd, ladies, from these modern times.</l>
+<l>In life's first dawn, to deeds of terror bred,</l>
+<l>The youthful hero crush'd the serpent's head.</l>
+<l><pb n="68" facs="59"/>
+In these our days, when men their object miss,</l>
+<l>There are who like to hear the serpent hiss.</l>
+<l>One thing there is, which I must not disguise;</l>
+<l>Tho' brave, heroic, generous, and wise,</l>
+<l>The lover, tam'd, aside his club could throw,</l>
+<l>Chain'd to the distaff, like a modern beau.</l>
+</lg>
+<lg>
+<l>Yet, all his toils and all his labours past,</l>
+<l>By death ev'n Envy was subdued at last.</l>
+<l>We read, (so says our bard) in Ovid's stile</l>
+<l>How for himself he rais'd the funeral pile.</l>
+<l>There on his club reclining,—like a guest</l>
+<l>With garlands crown'd—he sunk to endless rest.</l>
+<l>Yet even now, in these degenerate days,</l>
+<l>Heroic virtue still can merit praise.</l>
+<l>When round the ship, in the deep roaring tide,</l>
+<l>Devouring flames advance on ev'ry side;</l>
+<l>Lo! on the anchor where the hero lies,</l>
+<l>With look serene, and still the foe defies,</l>
+<l>He views the flame, he views the brawling wave,</l>
+<l>Then sinks—undaunted sinks in glory's grave.</l>
+</lg>
+<lg>
+<l>May his example every breast inspire,</l>
+<l>And kindle thro' the land our antient fire.</l>
+<l>For nought,—as Shakespeare sings, "can make us rue</l>
+<l>"If Britain to herself will prove but true."</l>
+</lg>
+</div1>
+<trailer>THE END.</trailer>
+</back>
+</text>
+</TEI>

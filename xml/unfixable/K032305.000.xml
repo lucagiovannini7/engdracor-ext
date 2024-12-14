@@ -1,0 +1,1198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title type="main">A Bickerstaff's burying</title><title type="sub"> or, work for the upholders. A farce; as it is acted at the theatres, with applause. By His Majesty's servants. Written by Mrs. Susanna Centlivre: ...</title><author><persName><surname>Centlivre</surname><forename>Susanna</forename><idno type="VIAF">41874559</idno></persName></author><respStmt><resp>Transformation into valid TEI P5, improving markup, filling <gi>gap</gi>s, proofreading, and expanding header.</resp><persName xml:id="JJ"><surname>Jokisch</surname><forename>Jan</forename><idno type="ORCID">0009-0003-1026-2995</idno></persName></respStmt></titleStmt>
+<extent><measure quantity="66" unit="KB">About 66 kilobytes.</measure></extent><publicationStmt><authority ref="#JJ">Jan Jokisch</authority><date>2024 December</date><idno type="ECCO_Drama">K032305.000</idno><idno type="DLPS">004798013</idno><idno type="ESTC">T26855</idno><idno type="DocNo">CW112283493</idno><idno type="TCP">K032305.000</idno>
+<idno type="GaleDocNo">CW3312283493</idno><idno type="ContentSet">ECLL</idno><idno type="ImageSetID">0399001100</idno><availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability></publicationStmt><sourceDesc><biblFull><titleStmt><title type="245">A Bickerstaff's burying: or, work for the upholders. A farce; as it is acted at the theatres, with applause. By His Majesty's servants. Written by Mrs. Susanna Centlivre: ...</title><author>Centlivre, Susanna, 1667?-1723.</author></titleStmt>
+<extent>[4],19,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed by S. Powell, for George Risk,</publisher><date>1724.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26855.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
+</biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
+<front>
+<div1 type="titlepage">
+<pb facs="1" ana="y"/>
+<p>A <hi>Bickerstaff</hi>'s Burying; OR, Work for the <hi>Upholders.</hi> A FARCE; As it is ACTED at the <hi>THEATRES,</hi> with Applause. By His MAJESTY'S Servants.</p>
+<p>Written by Mrs. <hi>Susanna Centlivre:</hi> Author of <hi>The Gamester,</hi> a Comedy.</p>
+<p><hi>DUBLIN:</hi> Printed by <hi>S. Powell,</hi> for <hi>George Risk,</hi> at the Corner of <hi>Castle-lane</hi> in <hi>Dame-street,</hi> near the <hi>Horse guard,</hi> MDCCXXIV.</p>
+</div1>
+<div1 type="dramatispersonae">
+<pb facs="2"/>
+<head>Dramatis Personae.</head>
+<list>
+<head>MEN.</head>
+<item><hi>Mezro.</hi></item>
+<item><hi>Captain.</hi></item>
+<item><hi>Boatswain.</hi></item>
+<item>1<hi>st Sailor.</hi></item>
+<item>2<hi>d Sailor.</hi></item>
+</list>
+<list>
+<head>WOMEN.</head>
+<item>Lady <hi>Mezro.</hi></item>
+<item><hi>Isabinda,</hi> her Niece.</item>
+<item>A <hi>Lady.</hi></item>
+<item><hi>Officer.</hi></item>
+<item><hi>Servants.</hi></item>
+<item><hi>Lucy.</hi></item>
+</list>
+</div1>
+<div1 type="dedication">
+<pb facs="3"/>
+<head>To the Magnificent COMPANY of UPHOLDERS, <hi>&amp;c.</hi></head>
+<p>CƲstom has made some Things absolutely necessary, and two Sheets without a Dedication, or a Preface, by way of Excuse, would be an unpardonable Indecency: To avoid which, I was considering at whose Feet to lay these following Scenes. First I thought of offering it to all those young Wives who had sold themselves for Money, and been inter'd with Misery from the first Day of their Marriage; but supposing their chief Pleasure to consist in Pride, and that they had rather gratify their Ambition in the Arms of a Fool, or Fourscore, than wed a Man of Sense of narrower Fortunes, I concluded 'em unworthy of my Notice.</p>
+<p>Then the Race of Old Men presented themselves in my Mind, who, despising Women of their own Years, marry Girls of fifteen, by which they keep open House for all the young Fellows in Town, in order to encre<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>se their Families, and make their Tables flourish like the Vine: But my Aversion to Fools of all Kinds, made me decline them too.</p>
+<p>At last, casting my Eyes upon the Title of the F<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>rce, I found it could justly belong to none but the Magnificent Company of <hi>Upholders,</hi> whom the judicious Censor of <hi>Great Britain</hi> has so often condescended to mention; to you then, worthy Sirs, whose solemn Train keeps up the pompous State of Beauty, beyond the Limits of a Gasp of Breath, and draws the gazing World to admire, even after Death; to you this Piece I Dedicate; 'tis but Reason that you should receive some Tribute from us Living, who so truly mourn us dead. What does not Mankind owe to
+<pb facs="4"/>
+you? All Ranks and Conditions are obliged to you; th<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Aged and the Young, the Generous and the Miser, th<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> well descended and the boser born. The Escutcheons gar¦nish out the Hearse, the Streamers and Wax Lights, let <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> into the Name of a Man, which, all his Life had been hi<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> in Obscurity; and many a Right Honourable would fal unlamented, we<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>e it not for your decent Cloaks, and dis¦mal Faces, that look as sorrowful as the Creditors the leave unpaid. What an immense Sum might be rais'd from your Art to carry on the War, would you, like true <hi>Briton<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></hi> exert your Power? The People being fond of Sights, wh<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> might not be g<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ther'd at a Funeral, when the Rooms a<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> clad in Sable, the Body dressd out with all your skilfu<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Care, the Tapers burning in their Silver Socke<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>s, th<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> weeping Virgins fixt like Statues round, and aromat<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Gums persume the Chambers, I think it preferable to th<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Puppet Show, and a Peny a Head for all the Curiou<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> would, I dare be positive, amount to more than the Candl<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Tax; and so make Death subservient to the Living.</p>
+<p>But this, Gentlemen, I leave to your superior Judgme<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> in Politick Principles; and only beg leave to remind yo<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> that in this crouded Town, there are a Prodigious Numb<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> of Mr. <hi>Bickerstaff</hi>'s Dead Men, that swarm about Streets therefore, for the Sakes of the most ingenious Part of Ma<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> kind, you ought to take Care to interr them out of <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Way, since he that does no Good in his Generation, shoul<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> not be reckon'd among the Living.</p>
+<p>And now to conclude, Gentlemen, I hope you'll pard<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> this Liberty I have taken, and accept this as a Token <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the Respect I bear your noble Society: I honour you tho' have no Desire of falling into your Hands, but I thi<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> we Poets are in no Danger of that, since our real Esta<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>¦lies in the Brain, and our personal consists in two or th<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> loose Scenes, a few Couplets for the Tag of an Act, and slight Sketch for a <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ong, and as I take it, you are <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> over-fond of Paper-Credit, where there is no Probabili<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> of recovering the Debt: So wishing you better Custome<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> I expect no Return, but am proud of subscribing <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> self,</p>
+<closer><salute>GENTLEMEN,</salute>
+<signed>Your most obedient humble Serv<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/></signed></closer>
+</div1>
+</front>
+<body>
+<div1 type="text">
+<pb facs="5"/>
+<head>A <hi>Bickerstaff</hi>'s Burying; OR, Work for the <hi>Upholders.</hi></head>
+<div2 n="1" type="scene">
+<head>SCENE I.</head>
+<stage>A working Sea seen at a Distance, with the Appearance of a Head of a Ship bulging against a Rock: Mermaids rise and sing: Thunder and Lightning: Then the Scene shuts.</stage>
+<stage>Enter Lady <hi>Mezro,</hi> and her Neice <hi>Isabinda,</hi> vail'd.</stage>
+<sp>
+<speaker>Isab.</speaker>
+<p><seg rend="decorInit">W</seg>HY won't you tell me whither you are going, Aunt, this Morning? I can scarce keep Pace with you. What is it that transports you so? you do not use to be so gay.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Oh, my Girl, just now, from my Chamber-Window, I beheld a Ship, by Stress of Weather, driven on our Coast; which, since the last unhappy one that brought me here, I have never seen; pray Heav'n it be <hi>English!</hi></p>
+</sp>
+<sp>
+<pb n="2" facs="6"/>
+<speaker>Isab.</speaker>
+<p>So say I, then I shall see the fine Men you have so often talk'd of, Aunt.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Ay, and the Country that breeds those Men, Child, if we can handsomly get off.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>With all my Heart; for I hate this Isle of <hi>Corgar,</hi> and all its barbarous Laws, since you have inform'd me of those of <hi>Great Britain.</hi></p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Hush here's some of the Ship's Crew; let's step a-side and observe them.</p>
+<stage>(Exeunt.</stage>
+</sp>
+<stage>Enter <hi>Captain, Boson,</hi> and <hi>Sailors.</hi></stage>
+<sp>
+<speaker>Capt.</speaker>
+<p>Well, how fares the Ship, has she any Damage?</p>
+</sp>
+<sp>
+<speaker>Bos.</speaker>
+<p>Only the Leak, which the Carpenter has stop'd, Captain.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>That's well: I can't imagine what this Island produces!</p>
+</sp>
+<sp>
+<speaker>Bos</speaker>
+<p>Monsters, I think; for they stare as if they never had any Commerce with Mankind, or ever saw a Ship in their Lives.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>I question if ever they did, and wish it had not been our Fortune to have improv'd their Knowledge.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>I wish so too; I hate making strange Land: Who the Devil knows where to find a Wench now?</p>
+</sp>
+<sp>
+<speaker>Bos.</speaker>
+<p>Heres a <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>og, that two Hours ago, drown'd his necessary Orders with his Prayers, and now is roaring as loud for a Whore</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>'Tis our Custom, you know; out of Danger the Sailor must be merry i'Faith; ha, ha.</p>
+</sp>
+<sp>
+<speaker>2 Sail.</speaker>
+<p><hi>Nell,</hi> at the Ship at <hi>Chattam,</hi> shall know this.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>I care not a Rope's-end if she does: Why, what the Devil do you think I'll come into a strange Land, and not examine what Commodity it produces? No, no, Faith; <hi>Nick</hi> must know if the Females here be Fish or Flesh, before he puts off again.</p>
+</sp>
+<sp>
+<speaker>Capt</speaker>
+<p>Ha, ha; Well, well, take Care you han't your Brains beat out: Go, disperse your selves, and see what Provisions you can get. I just now met a Native of the Country; who tells me, that the Prince is coming this Way: He understands a little of the <hi>Arabian</hi> Tongue, and has promis'd to introduce me to him; that I may endeavour, by some Presents, to gain his Leave to re-fit our Ship, and supply our Wants.</p>
+</sp>
+<sp>
+<pb n="3" facs="7"/>
+<speaker>Bos.</speaker>
+<p>Where shall we find you, Master?</p>
+<stage>(Exeunt <hi>Boson</hi> and <hi>Sailors.</hi></stage>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Here, or hereabouts. Now for the <hi>Cabbacuca.</hi> Adsheart, what a Name's there! If the Prince be as barbarous as his Name, we had as good perish'd in the Storm: but I wonder the Fellow comes not, that is to conduct me to Court; that is, I suppose, to a King sitting under a Palm-tree: What would I give for a Friend there?</p>
+</sp>
+<stage>Enter Lady, and <hi>Isabinda.</hi></stage>
+<sp>
+<speaker>Lady.</speaker>
+<p><stage>(Clapping him on the Shoulder)</stage> What would you give, Captain?</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ha! <hi>English!</hi> Nay, then I am not so far out of Knowledge as I imagin'd.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>You are a great Way from the Rose in <hi>Covent Garden,</hi> I promise you.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>The Rose in <hi>Covent Garden!</hi> Let me see thy Face, thou dear Angel, or a die. <stage>(Embraces her.)</stage></p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Die! Nay, then you have chang'd your Inclination with the Clime; you never us'd to die for an old Acquaintance.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ah! an old Acquaintance, here, Child, is welcomer than old Wine, and the Accident will give it a new Relish.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Say you so? well, whether you speak Truth or not, I protest this Sight of you pleases me better than the first; and now, Sir, I am your humble Servant. <stage>(Turns up her Vail.</stage></p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ha! Mrs. <hi>Take-it!</hi> Why what Wind blew you hither?</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Just such another as brought you, I fancy; our Ship was bound to <hi>Madderass.</hi></p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>So was mine.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>After three Days tempestuous Weather, having lost our Main-mast, and all our Tackle, expecting nothing but Death, when by a sudden Gust our Vessel was driven upon you dreadful Rock, which split her into a thousand Pieces, and only I by Providence was sav'd.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Thank Heav'n, I've not lost one Man; I pity your Misfortune, and yet, by your Appearance, 'tis a Fault to pity you, for it has turn'd to your Advantage Prithee what Business had you in the <hi>Indies?</hi></p>
+</sp>
+<sp>
+<pb n="4" facs="8"/>
+<speaker>Lady M.</speaker>
+<p>To get a Husband; you know few Wom<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> go there but to make their Fortunes.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Which I suppose you have done here, Madam</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>An Emir, which is a Lord, you must und<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>¦stand, walking by the Sea-side, spied me on the Rock, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> kindly help'd me down, fell in Love, and married <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> and I am now one of the greatest Women upon the Pla<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>I am glad on't, with all my Soul. Who is <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Lady? another of my old Acquaintance too?</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>No, I promise you; there's a Face never <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>Covent Garden.</hi> She's my Husband's Niece, the best <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>¦mour'd Woman in the World; and for her Beauty, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> that speak for it self, <stage>(turns up her Vail)</stage> so, I see <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> your Eyes you like her.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Grant, Great Prophet, that he may! for I li<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> him, I'm sure. <stage>(Asi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Like her! I'Gad, if your Island's peopled wi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> such Angels, tis certainly the Land of Promise, and eve<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Ship will put in here for Provision.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>She's the only handsome one in it, I prom<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> you; her Mother was <hi>English,</hi> and cast hither by such <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>¦nother Accident as my self.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>And do you think this Face will do in <hi>Cov<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> Garden,</hi> Captain?</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>In <hi>Covent Garden,</hi> Madam! Where would it <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> do? Ha! your Skin's as smooth as the Sea in a Cal<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> and your Eyes outshine the Sun after a Storm; your Voi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> as sweet as Syrens Songs; and 'tis greater Pleasure to b<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>¦hold you, than Land after a dangerous Voyage. I'll se<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> here, I'm resolv'd.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Ah, the right <hi>London</hi> Strain. <stage>(Asi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>And I'de rather go with him. <stage>(Asi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Where the Devil is my Ship's Crew? I'll ha<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> the Bottom of my Ship beaten out immediately, tha<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> may never put to Sea again.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>I'm afraid, young Gentleman, you'll change yo<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Note if you knew the Custom of this Country.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Indeed, my <hi>quondam</hi> Spark, you'd be glad <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> get off in a Cock-Boat if you do, by that time you ha<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> been married half so long as I have been—I'm sure <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> would.</p>
+</sp>
+<sp>
+<pb n="5" facs="9"/>
+<speaker>Capt.</speaker>
+<p>Ay? why so? you shine in Jewels.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>I once thought Riches the greatest, but now find them the least Part of Happiness.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Oh, you want to see dear <hi>England</hi> again, and dazle the Eyes of your old Acquaintance.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>That's not the Cause.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Your Husband is old, I suppose?</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>True.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>What is that to my Repentance? This Lady is young.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Then he is as ugly as a Baboon.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Yet wide; this Lady's as handsome as a Cherubin.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>He's as jealous as a <hi>Spaniard,</hi> as barbarous as a Turk, and as ill-natur'd as an old Woman; and I hate him as heartily as one Beauty does another; yet fear him as much as you Merchant-Men do a <hi>French</hi> Privateer.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Why there's nothing super-natural in all this; Women hate their Husbands all the World over.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>I'm sure! should never hate you, if I had you once. <stage>(Aside)</stage> And are not you even with us, Captain?</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>I won't answer for the whole Sex; but I'll engage for my self, if thou'lt but try me, Child.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>First here the Conditions annext to Matrimony; then, if you'll venture—</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Venture! What the Devil dost think I that have fac'd so many Dangers, should be afraid of fresh Water?</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Have a care what you say, Captain; for six to four but you'll wish your self unmarried again; as heartily as I do.</p>
+</sp>
+<stage>Enter <hi>Lucy.</hi></stage>
+<sp>
+<speaker>Lucy.</speaker>
+<p>Oh Madam! undone! undone! my Lord's just dying.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Ah!</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Undone! Pish, Pox, 'tis the best News thou ever brought'st in thy Life, Wench.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Ruin'd! past Redemption! Oh that ever I was born!</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ha! what's the Meaning of this?</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Oh unhappy Woman!</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Unhappy! adsheart, I should have guess'd her the happiest Woman in the World, now.</p>
+</sp>
+<sp>
+<pb n="6" facs="10"/>
+<speaker>Lady M.</speaker>
+<p>Fly, call Physicians strait, here, bribe 'em <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Jewels, <stage>(tears off the Jewels)</stage> give 'em a King's Randso<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> if they can but save his Life, load 'em with Wealth <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> they sink beneath the Weight. Oh! my latest Hou<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> come!</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>What the Devil can be the Matter? why all <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Noise? Here's none but Friends; I don't apprehend <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> any body can over-hear you; this is something like <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> <hi>Irish</hi> Cry; I suppose it is the Custom of the Count<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> <stage>(Asi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>)</stage></p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Oh no! Neither Heaven nor Earth will h<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> me now! I'm lost, for ever lost! Oh, oh, oh!</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Humph! now I have found it; all the Esta<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> goes with him, I warrant.</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Estate! sink the Estate! my Life goes wi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> him!</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Oh cruel, oh inhuman Law!</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>What a-pox, she wont die for the Man she hat<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> will she? Did you not wish to be unmarried just now and are you sorry that your Husband's a-dying? <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Woman's distracted sure!</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>Oh, I must be burried with him alive! <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> dreadful Thought.</p>
+<stage>(Runs <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></stage>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ha! how<hi>'s</hi> that! Buried alive! I'm Thunde<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> struck! Stay, I conjure you, Madam, <stage>(to Isabinda)</stage> <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> explain to me this Riddle.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>It is, Sir, the barbarous Custom of our Country first ordain'd from frequent Poisoning here, that which soever of the married Pair died first, the Survivor is bu¦ried with alive, drest, and adorn'd, for a second Nuptial</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>E'gad it has turn'd my Stomach against the first <stage>(aside)</stage> Unheard of Barbarity! Is none exempt the Pai<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> of the Country?</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>None; all let down a deep hollow Mountain with some Loaves of Bread, and some Bottles of Water, on which they may feed for some time, and then expire within the loathsome Dungeon. My Mother in her Bloom was with my Father buried: I was but thrice twelve Moons old; yet I remember even then it rais'd a Horror in me, and as I grew up, fixt a Resolution in me, never to wed in this curst Place.</p>
+</sp>
+<sp>
+<pb n="7" facs="11"/>
+<speaker>Capt.</speaker>
+<p>Faith you had Reason, Madam, and I admire <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> any body does.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Custom has made it easy to the true <hi>Cosgarian</hi> <gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>ce, but I have a <hi>British</hi> Soul.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>You must be rescued from this Imposition; your <gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>nt too must be sav'd.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>But how? If he dies, the Officers of Justice seize <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/>; nay, 'tis Death for all the Houshold if Information <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> not given strait. Upon the Wedding-day, two Coffins <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> always brought into the Bride-Chamber, as Part of <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Ceremony.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>E'gad I should have small Appetite to finish the <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>remony at the Sight of 'em.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>This is the deplorable State of Matrimony in our <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>untry.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>If it were the Custom all over the World, we <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ung Fellows should live deliciously; Women would be <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> plenty as Blackberries; we might put forth our Hands <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> take them without Jointures, Settlements, Pin-mony, <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>rson, and so forth.</p>
+</sp>
+<stage>(Noise.)</stage>
+<sp>
+<speaker>Isab.</speaker>
+<p>Hark! I hear a Noise! Oh my poor Aunt! I <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>st in, and see the Event.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>First promise me that if I contrive a Way to bear <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>u hence, you'll consent to go with me?</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>With all my Heart, there's my Hand upon it; <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> have no time for Courtship; I'll meet you here again <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> an Hour. <stage>(Exit.)</stage></p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Now if I can but handsomly carry off these Wo<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>n, their Jewels will turn to better Account than an <hi><gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>st-India</hi> Voyage.</p>
+<stage>Enter <hi>Boson</hi> and <hi>Sailors.</hi></stage>
+<p>Well, what cheer, my Lads; I have seen the Prince, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> obtain'd his Leave for every thing I ask'd.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Cheer! why Faith, Captain, we sail directly <gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>ore the Wind; and I want but your Consent to make <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> richest Port in the Universe.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>What do you mean?</p>
+</sp>
+<sp>
+<speaker><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Sail.</speaker>
+<p>What! why I can have a fine Lady here, with <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> many Jewels about her as will ballast a Ship if you'll <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> give me my Discharge; nay, I won't be ungrateful
+<pb n="8" facs="12"/>
+for it neither, you shall have all my Pay: What say y<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Master, will you lend me your Hand to heave me <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> good Fortune?</p>
+</sp>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>Will you be false-hearted then, <hi>Nick?</hi> <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> will hang herself in her Garters when she hears it.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Let her, let her, what care I, odsfish! do y<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> think I'd leave a first Rate for a Friggate, forsake a <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Lady for <hi>Nell?</hi> That's quitting a Bowl of Punch <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Draught of Sea-water. <stage>(Spitting.)</stage></p>
+</sp>
+<sp>
+<speaker>Bos.</speaker>
+<p>I wonder what she saw in that ugly Phiz of thi<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> that's always as dirty as the Hammock you swing in; <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> as seldom wash'd as your Shirt, which is not on<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> Quarter.</p>
+</sp>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>Ha, ha, Oh she fell in Love with his Nos<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> his Legs.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Why, what Fault can you find with my No<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> <hi>Bob.</hi> Ha! 'tis sound, and perhaps that's more than your<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker>Bos.</speaker>
+<p>Nay, nay, don't find Fault with his Nose, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> like the Bowsplit, and his Legs would serve for a Ma<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>¦mast; I warrant the Jade understands Sailing, and so w<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>¦ly provides against Stress of Weather, ha, ha,</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>I faith, she's a tite Vessel, and I'll Man he<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> titely I warrant ye my Lads.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ha, ha; hark ye Sirrah; there's such Conditi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> entail'd upon this Woman, you are fond of, that <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> make you as Wife-sick, as the Sea did in your first Voya<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Aye, it's no matter for that, Captain; <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> must not think to serve me as you do a Whale, fling <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> an empty Cask till the Substance gets by. Look ye, Ma<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> to fetch up half her Wealth, I'd dive to the Bottom of <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Sea, and venture being swallow'd by a Shark, <hi>Nick</hi> wo<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> I'faith. Master.</p>
+</sp>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>Well said <hi>Nick,</hi> E'gad, I warrant you think <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> be an Ambral now.</p>
+</sp>
+<sp>
+<speaker>1 Sail</speaker>
+<p>Why, why not, if I have Money enough <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> buy it? and I will be an Ambral too, for all you, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> my Master here, shall be my Rear-Ambral.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Oh your very humble Servant, Mr. Admira<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> but suppose your Wife should die, <hi>Nick?</hi></p>
+</sp>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>Better and better still; her Gold and preci<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> Stones, won't die too; and E'gad, I'll drink to her go<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>
+<pb n="9" facs="13"/>
+Voyage in a Bowl of Punch, clap my Riches aboard, and hoist Sail for merry <hi>England.</hi></p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ha, ha, Do you know that the Law of this Island buries the living Husband with the dead Wife.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Ha! the Devil it does!</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>'Tis even so.</p>
+</sp>
+<sp>
+<speaker>Bos.</speaker>
+<p>Ambral, I wish you much Joy.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>A live!</p>
+</sp>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>What, Is the Wind chop'd full in your Teeth, <hi>Nick?</hi> Ha, ha, ha!</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Ay Faith, and blows so hard, that it shall blow my Head off e'er I make the Port of Matrimony in this Island. Buried with her? quotha! E'gad, I always thought the Wedding-sheet the Winding-sheet of Pleasure, after a Month; but to have no Hopes beyond her; Zounds! I had rather sit in the Bilboes all Days of my Life. I'll aboard this Minute. <hi>Boson,</hi> you grumbl'd at my good Fortune just now, take her your self if you will.</p>
+</sp>
+<sp>
+<speaker>Bos.</speaker>
+<p>The Devil take me if I do.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>I told you I should take off the Edge of your Appetite: Go, go, try and get the Ship off: I▪ll be aboard immediately. Have you got any Provisions?</p>
+</sp>
+<sp>
+<speaker>Bos.</speaker>
+<p>That we have good store.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Well, well, be gone then.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Ay, with all my Heart; if I get once aboard, I'll stick as close to the Ship as Pitch to a Rope; and sink with her rather than come ashoar again. Buried with a Wife! The Devil!</p>
+<stage>(Exeunt <hi>Sailors.</hi></stage>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Let me consider; what Stratagem shall I use to carry off the Women?</p>
+</sp>
+<stage>Enter <hi>Isabinda.</hi></stage>
+<sp>
+<speaker>Isab.</speaker>
+<p>There's a sad House within; but hang me if I don't fancy my Uncle counterfeits; for in my Mind his Pulse beats as regular as mine.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Ha! Say you so? Then I have it. Convey me into the House, where I'll tell you the Plot, to free you from these Apprehensions.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>If you effect it you are a Deity. Come along with me; in this Confusion I can preserve you undiscovered.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Along then.</p>
+<stage>(Exeunt.</stage>
+</sp>
+</div2>
+<div2 n="2" type="scene">
+<pb n="10" facs="14"/>
+<head>SCENE II.</head>
+<stage>The <hi>Emir</hi> on a Couch, with his Wife weeping <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> him, and Attendants round about. Tab<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Couch, 2 Chairs, Gally-pots, <hi>&amp;c.</hi></stage>
+<sp>
+<speaker>Lady.</speaker>
+<p>Oh Distraction! Look up my Lord, my Lo<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> my Husband! Oh you will break my Heart, and I sh<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> go before you! Oh, oh, oh!</p>
+</sp>
+<sp>
+<speaker>Emir.</speaker>
+<p>The Stars forbid! Oh, oh! <stage>(Gro<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Ah! Help ye Slaves—Gently bear him up▪ Rub his Temples—Apply the Hartshorn to his Nose▪ Oh speak and tell me how you do, my Dear!—O<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> oh, oh! <stage>(roars <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>Emir.</speaker>
+<p>Very bad—Oh, oh!</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Are you very bad, my Love? What will b<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>¦come of me? <stage>(Asi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Very bad indeed, Wife—Oh, I shall not li<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> this Day, I doubt.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Ah! What do I hear—Oh ye cruel Po<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/>¦ers—Why was I cast upon this Shoar? Curse on th<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> glittering Bawbl<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>s, whose bewitching Lustre cheats <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> of true Happiness. <stage>(Tears off her Jewels)</stage> A Thirst <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Riches drew me from that Land where Widow-hood <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> happy—to die within a loathsome Dungeon, unpiti<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> and forlorn.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>What does she say now?—Prithee my Dea<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> don't afflict yourself so much—You'll be sick, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Love—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>But you'll die, my Love—Sick, quoth<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> Good Heaven! Can I be well when you are dying?</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Oh you think of the Custom of our Countr<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Wife; you fear to be buried with me, that's all—</p>
+</sp>
+<sp>
+<pb n="11" facs="15"/>
+<speaker>Lady.</speaker>
+<p>All does he call it—</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Now if it had pleas'd Great <hi>Mahomet,</hi> that thou shouldst have gone first, I should have accompanied thee with Pleasure—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>That's more than I shall do you, I'm sure. <stage>(Aside)</stage> So shall I you, my Dear, as to any Business I have with Life, when thour't gone; but the Pain to see thee die, to part with thee for ever, is the Shock that Nature feels—and 'tis unkindly urg'd to think I fear the Custom of the Island—for what Joy could I have when thou art gone?</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>I doubt she lies—But this is the only Way I could ever find to keep her in Subjection, for as soon as I am well, whip! she's scamper'd, and I have no more Comfort of a Wife than I should have in her Grave: If all <hi>English</hi> Wives are such Gadders, Heaven help their Husbands, I say—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>How dost thou do, Jewel?</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>I think I am a little better; I believe I could eat a Leg of that Chicken within—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Fly ye Slaves, and fetch it instantly, Oh, all ye Powers, that protect our Lives, I thank ye; I feel the Springs of Joy recruit; thy Words run thro' my Soul with such exulting Pleasure, that 'tis all one Rapture—Oh let me hold thee ever in my Arms—Oh! that single Word, Better—has more Harmony in it than the Musick of the Spheres—Thus let me kiss it from thy Lips, 'tis the richest Cordial Nature could produce to raise my sinking Hopes. <stage>(Embraces and kisses him in an Extasy)</stage> Where are you, Slaves, why do you stay so long.</p>
+</sp>
+<stage>Enter Servants.</stage>
+<sp>
+<speaker>Em.</speaker>
+<p>Ah, this Wise of mine does but counterfeit this Love to me, I fear—If our Law did not bury the Living with the Dead, here would be no Joy for my Recovery.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Come, my Dear, shall I cut it for thee?</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>No, I'll not trouble thee. <stage>(He cuts and eats greedily.)</stage> 'Tis very good: Won't you eat a Bit of it, Deary?</p>
+</sp>
+<sp>
+<pb n="12" facs="16"/>
+<speaker>Lady.</speaker>
+<p>No, thou shalt eat it all—He feeds heartily▪ Ah, if I had him in Old <hi>England,</hi> I should wish it we<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> his last—Oh the vast Difference between a Widow's Weed and a Winding-Sheet, between the civil Ceremonie<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> of shedding Tears at the Grave, and the barbarous Co¦stom of making one's Bed there.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>How pleas'd she is? Ah, wou'd she be in this good Humour always—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Much good may do you, my Dear. <stage>(Kisses him.</stage></p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>I thank you my Love—Ah you little Rogue how warm your Busses are— <stage>(Rises from the Table</stage> Od, they infuse new Life into me; and methinks I fe<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Health pop into my Heart, like a Pot-gun—Anothe<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Kiss, my Dearest— <stage>(Kisses her)</stage> So, so, thou ha<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> done it, thou hast done it, thou dear Rogue—Go what do you stare at? begone and leave your Lady an<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> I alone— <stage>(To the Servan<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Say you so—alone! alas, are you fit to <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> left alone—leave a dying Man alone—Let the<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> stir if they dare—I shall take better Care of yo<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> than that comes to, my Dear.</p>
+</sp>
+<sp>
+<speaker>E.</speaker>
+<p>Pish, Pish, I tell thee I am out of Danger.</p>
+</sp>
+<sp>
+<speaker>Lady</speaker>
+<p>I wish thou wert—</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Indeed I am, and thou shalt find it so; therefo<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> prithee let them go— <stage>(Winking at her</stage></p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Alass, I fear you are light-headed, my Dear. Aye, your Pulse is upon the Gallop; you are in a raging Fever—Oh, woe is me! Oh, oh, oh! Away, some of ye, and fetch a Doctor.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Sha, sha; I tell thee thou art mistaken; I am in no Fever but what proceeds from thy pretty pouting Lips and thou art the best Physician, let me kiss them again; ye, ye, ye, ye, dear soft Charmer, ye, ye.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Are you sure you are well?</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Very sure on't, my Dear—Come, let us take a Nap together.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>You know I can't sleep in the Day-time: Besides you ought to return your Prophet Thanks for your Recovery—</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Oh, that I'll do to morrow.</p>
+</sp>
+<sp>
+<pb n="13" facs="17"/>
+<speaker>Lady.</speaker>
+<p>To morrow! a Man of your Years ought to be asham'd of deferring Things of that Kind till to morrow.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Why Child, upon Occasion one may—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Occasion! What Occasions have People of your Age for Life, but to pray—</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Have Women in your Country no other Business for their Husbands, my Dear?</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>No—</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Humpth! That was the Reason you left it, I doubt—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Ah would I had never left it—</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>But come, come, you jest but with me. <hi>Lucy,</hi> fetch your Lady's Night-gown—I love to see her in her Night-gown—Ah those roguish Eyes! Another Kiss and then—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>You love to see me in my Night-gown, I think I shan't consult your Fancy much—Prithee no more Sloping; your Breath's ready to strike one down, and your Beard's as rough as a Hedge-hog. <hi>Lucy,</hi> fetch me my Vail, I have a Visit to make.</p>
+</sp>
+<sp>
+<speaker>Lucy.</speaker>
+<p>Yes, Madam. <stage>(Exit.</stage></p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>So, she's no Changeling I find; never Man had such a Wife, certainly—I must always be sick, or she'll always be out of Humour, <stage>(aside.)</stage> Sure you'll not leave me, Wife.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Indeed but I shall, Husband.</p>
+</sp>
+<stage>(Enter <hi>Lucy.</hi></stage>
+<sp>
+<speaker>Lucy.</speaker>
+<p>Here's the Vail, Madam. <stage>(She puts it on.</stage></p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Well, go then, I won't hinder you<hi>—Shadock,</hi> give me my Cloak; I'll go see the Grand Emir, and pass away the Time a little till your Lady's Return.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Well, now I like your Humour. You shou'd always let your Wife go, when and where she pleases.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>That I resolve for the future—Ha! what ails me—Bless me, I'm very sick o'th' Sudden; oh, oh! pray lead me to my Bed, or I shall die this Moment—</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Ha! what's that, die say you? <stage>(throws off her Vail)</stage> Oh wretched me! here, here, here, here, take a little of this, my Lord. Judgment is pronounc'd against my Life, and I must die at last, <stage>(aside)</stage> —Away, and call the Physicians: Haste, fly, Oh, oh, oh!</p>
+</sp>
+<sp>
+<pb n="14" facs="18"/>
+<speaker>Em.</speaker>
+<p>No, no, 'twill off again; 'tis only a Fit—thy Kindness is my best Cordial. I'll try to rest a little.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Withdraw all of you, and separate into Silence, I'll watch by thee. Heaven send my Love a comfortable Nap—What Distractions tear my Breast—Now Hope, then Despair, with alternate Sway, exercise their Power, and no kind Glimpse of Safety offers me Relief.</p>
+</sp>
+<stage>Enter <hi>Isabinda.</hi></stage>
+<sp>
+<speaker>Isab.</speaker>
+<p>Oh Aunt, the Captain is without, and has a Secret to deliver us from this Pla<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>e if you'll but help the Design.</p>
+</sp>
+<sp>
+<speaker>Lady</speaker>
+<p>Bring him in: If your Uncle wakes I'll tell him it is a Doctor.</p>
+</sp>
+<stage>Enter <hi>Captain</hi> and whispers the <hi>Lady.</hi></stage>
+<sp>
+<speaker>Isab.</speaker>
+<p>Here he is</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Do you this, and I'll be ready to finish it. <stage>(Exit.</stage></p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>I'll ven<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ure. Oh Fortune, be this once propitious, and I'll submit my future Life, without the least Complaint. Ah! my Head turns round! Oh I faint, I die! <stage>(Swoons.</stage></p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Ah Help! Help! Where are you? My Aunt's dead. Help! Help!</p>
+<stage>(The <hi>Emir</hi> rises, runs, and catches hold of his Wife.</stage>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>I'm thunder-struck—Oh, oh, oh, ho!</p>
+</sp>
+<sp>
+<speaker>Serv.</speaker>
+<p>Ha! Dead! Nay then, where are the Coffins?</p>
+<stage>(Exeunt <hi>Servants</hi></stage>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Oh woe is me! Speak to me, my Dear; speak to me; speak to me.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>As I suspected: See how nimble he is at the Apprehension of being buried with her. What shall I do? she's breathless quite—</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Oh, oh, oh! <stage>(Roars out.)</stage> Undone, undone, for ever—</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Ay, it is you have been the Cause, oh wretched Man! Prophet, thou art just.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Wretched indeed. I consess I did but counterseit—Oh Alla, <stage>(Kneels)</stage> pardon my Deceit, and give me back her Life, and let her cuckold me with every thing she meets; let her be the veriest Wife that ever <hi>England</hi> bred, I never will be jealous more! oh, oh! <stage>(Gets up and runs to her, and feels her Pulse, then rubs her Temples, then prays again—)</stage> Is there any Hopes, Niece?</p>
+</sp>
+<sp>
+<pb n="15" facs="19"/>
+<speaker>Isab.</speaker>
+<p>No, none. Oh distracting Thought! This comes of your frighting her so.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Oh forgive me, Niece, for I truly repent: Alas! I did it only to keep her in Subjection. Oh fetch the Cordial which I, like a false Wretch, had no Occasion for! Oh! I do believe she lov'd me now! Oh Niece, try, try, to pour some down her Throat; for I tremble so, I cannot guide it to her Lips.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Alas! her Teeth are set: She's gone! for ever gone!</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Then I'm gone too! <stage>(bursts out again into Tears)</stage> Oh, oh, oh!</p>
+</sp>
+<stage>Enter <hi>Servants</hi> with two Coffins.</stage>
+<sp>
+<speaker>Isab.</speaker>
+<p>Oh killing Sight! <stage>(kneels)</stage> Thou glorious Sun assist us now and we are happy. <stage>(Aside.</stage></p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Ay do, do pray for thy Uncle, Child: Oh, oh, oh!</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>I have Occasion for my Prayers my self, at this Time, I thank ye, for I'm afraid we are in the greater Danger at present. <stage>(Aside.</stage></p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p><stage>(Turns and sees the Coffins)</stage> Oh, oh, oh, that ever I married! Where shall I hide my self? Oh, oh, oh! <stage>(Runs off.</stage></p>
+</sp>
+<sp>
+<speaker>Serv.</speaker>
+<p>Stop him, stop him.</p>
+<stage>(Exeunt <hi>Servants.</hi></stage>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>Call the Officers of Justice strait; I must be cruel here. So, he's gone, Captain, come forth.</p>
+</sp>
+<stage>Enter <hi>Captain.</hi></stage>
+<sp>
+<speaker>Lady M.</speaker>
+<p>I'm almost choak'd with holding my Breath so long; what's to be done now? Pray Heaven we prosper!</p>
+</sp>
+<sp>
+<speaker>Cap.</speaker>
+<p>I warrant you, Madam, come, come, be quick, you must aboard this Minute. Have you any thing you would take with you?</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>I have pack'd up all your Jewels, and every thing of Value, here, Madam: Mercy on me, how I tremble!</p>
+</sp>
+<sp>
+<speaker>Lady M.</speaker>
+<p>And I'm ready to sink with Fear: If we are taken we are undone, and you lose your Lives.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Nothing like a good Courage: Come let's not stand disputing, and lose the lucky Minute.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>From these curst Laws, oh let me scape with Life.</p>
+</sp>
+<sp>
+<speaker>Isab.</speaker>
+<p>And make me any Creature but a Wife.</p>
+</sp>
+<sp>
+<speaker>Capt.</speaker>
+<p>Your Wealth at any time decides the Strife.</p>
+<stage>(Exeunt.</stage>
+</sp>
+</div2>
+<div2 n="3" type="scene">
+<pb n="16" facs="20"/>
+<head>SCENE III.</head>
+<stage>A <hi>Cosgarian</hi> Lady, dragging in the first Sailor.</stage>
+<sp>
+<speaker>Lady.</speaker>
+<p>Nay, don't think to leave me, Sir, did you n<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> promise to stay here?</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>But will you promise not to die before <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> then? Answer me that: Adsbud, who do you think <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> chouse? ha!</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>What are you afraid to die with her you love!</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Love! Zounds! does any body love a Woma<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> well enough to die with her?</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Yes certainly with their Wives.</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>That's a Mistake, d'ye see; for of all the W<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>¦men in the World we care the least for our Wives, in <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Country.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>That's strange. Why I should rejoice to <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> with you, pretty <hi>Englishman.</hi></p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Aye, one Way, perhaps, pretty Devil! But <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> be plain with you, I desire to die no Way with you all; and so I shear off. <stage>(Going</stage></p>
+</sp>
+<sp>
+<speaker>Lady</speaker>
+<p>Stay. Cannot Gold and Jewels tempt you <stage>(Shews Gold and Jewe<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></stage></p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>No.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>What are you <hi>Englishmen</hi> made on?</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Flesh and Blood, Child; If I can find one <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Iron and Steel, I'll recommend him to you.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Iron and Steel! What kind of Men are they?</p>
+</sp>
+<sp>
+<speaker>1 Sail.</speaker>
+<p>Oh Things that are so well acquainted wi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> the Earth, that they'll lie twenty Years in it and take <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Hurt: Now for my Part, I have as much Antipathy <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> fresh Mould as fresh Water; and had rather eat Sea-Bisk<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/> than a green Sod; and the Wind will as soon blow Nort<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> and by South, as I be prevail'd upon to turn in with yo<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></p>
+</sp>
+<sp>
+<pb n="17" facs="21"/>
+<speaker>Lady.</speaker>
+<p>Faint-hearted Wretch! Take me with you, then, to your World.</p>
+</sp>
+<sp>
+<speaker><gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Sail.</speaker>
+<p>Look ye, I'll have nothing to do with you at all; and there's your Answer; and if you offer to stop me, I shall make use of my Cat of Nine Tails, in troth I shall. Zounds! I never had such an Aversion for a Woman in my Life. <stage>(Exit <hi>Sailor.</hi></stage></p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Sure this is some Sea-Monster, it cannot be a Man, and Proof against Gold and Jewels.</p>
+<l>The <hi>European</hi>'s God is Gold, we <hi>Indians</hi> say,</l>
+<l>Then dare they fly from that to which they pray!</l>
+<l>When next—</l>
+<l>To th'shining Ore thou dost for Mercy sue,</l>
+<l>As you've been deaf to me, may that be deaf to you.</l>
+<stage>(Exit.</stage>
+</sp>
+<stage>Enter second <hi>Sailor.</hi></stage>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>Ha! the Woman here that <hi>Nick</hi> should have had; a faint-hearted Dog! Now have I a Mind to knock her Brains out, and carry off her Jewels.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>What's here—another of the puny Knaves?</p>
+</sp>
+<stage>(a Whistle within.)</stage>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>Ha! the Boson's Whistle! nay then I must be speedy; and yet I can't find in my Heart to kill her.</p>
+<stage>(Whistle again.)</stage>
+<p>Adsheart, I shall be left ashoar; I must away.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>You look disorder'd, Sir; are you in Love?</p>
+</sp>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>With your rare glist'ning Stones I am; and if your damn'd Fashion did not heave the living Husband <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> board with the dead Wife, I did not care if I said I was in love with you.</p>
+</sp>
+<sp>
+<speaker>Lady.</speaker>
+<p>Then take me where we may live for ever; for indeed I don't like this Custom amongst us, but must obey it. Come bear me hence, and I will load thee with wealth enough to buy thy Country.</p>
+</sp>
+<stage>(Whistle and hollow within.)</stage>
+<sp>
+<speaker>2 Sail.</speaker>
+<p>Ha! I have no time to think; come along then; <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> venture to swing in a Hammock with you for once.</p>
+<l>Blow gently, <hi>Boreas, Neptune</hi>'s Rage confound,</l>
+<l>And let us safely upon <hi>British</hi> Ground,</l>
+<l>Where we will drink and sing till the whole World goes round.</l>
+<stage>(Exeunt.</stage>
+</sp>
+</div2>
+<div2 n="4" type="scene">
+<pb n="18" facs="22"/>
+<head>SCENE IV.</head>
+<stage>The <hi>Emir</hi> dragg'd in by <hi>Officers,</hi> with Servan<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> bringing in Loaves of Bread and Bottles Water.</stage>
+<sp>
+<speaker>Off.</speaker>
+<p>What, a Native of <hi>Cosgar,</hi> and tremble at its Laws when even our Kings are subject to 'em. For sham<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> <hi>Emir,</hi> bear yourself like a Man—Come, open th<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Coffin, and put in the Loaves and Water.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Ah, I shall have but small Stomach to eat. <stage>(Aside</stage> Confound our Laws; I'm inform'd that no part of th<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> World is curst with such, but only us, the rest live <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> long as they can: To be buried alive—Oh curs'd Cu¦stom! Oh, oh, oh! In perfect Health too! Oh, oh, oh</p>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<p>In Health! nay my Lord, that you are not; every body expected your Death this Morning; the Fright <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> which, I suppose, has caus'd your Lady's: I'm sure every body thought you very ill.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Aye, and may be every body thought me will¦ing to die too, but every body was mistaken.</p>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<p>My Lord, we have no time for Talking; it is no<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> in our Powers to prevent your Fate. Here lift him in<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> the Coffin. Where are your Cords to let the Coffins dow<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> the Mountain? <stage>(They seize him</stage></p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>I will not go down the Mountain: Unconsciona¦ble Rogues! <stage>(Struggles with them)</stage> I hope your Wive<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> will die to morrow—Hold, hold, let me see my Wi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> first; she died suddenly, and may come to Life again.</p>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<p>Pish! Pish! This is Trifling, in with him, I say</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>I tell you my Wife was an <hi>English</hi> Wife, and troubled with Vapours, as all that Country Wives are
+<pb n="19" facs="23"/>
+she us'd to die and come to Life again ten times in an Hour, therefore I will see her. <stage>(Struggling to reach at her Coffin.</stage></p>
+</sp>
+<sp>
+<speaker>2 Off.</speaker>
+<p>Shall he see her, Brother?</p>
+</sp>
+<sp>
+<speaker>1 Off.</speaker>
+<p>No, no.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Ye Dogs, I will. <stage>(Gets hold on't, and pulls off the Lid.)</stage> By Alla, Sun, Moon and Stars, here's no body! Hussa, here's no body, she's alive. <stage>(Jumps and dances about.</stage></p>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<p>Alive! bring her out then.</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Nay do you bring her out, if you will, for you shall never bring me in.</p>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<p>My Lord, I shall make you bring her out; you have buried her in your Garden, I suppose; but that shan't serve: Produce her living, or I'll instantly proceed to the Ceremony of Burial with you: Where is she?</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>Sir, I told you before she was an <hi>English</hi> Wife, and I believe few Husbands know where to find them.</p>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<p>This shan't serve: Where's Mrs <hi>Isabinda,</hi> your Niece?</p>
+</sp>
+<sp>
+<speaker>Em.</speaker>
+<p>With her Aunt, for ought I know.</p>
+</sp>
+<stage>Enter a Servant.</stage>
+<sp>
+<speaker>Serv.</speaker>
+<p>Oh my Lord, the Ship that was cast here, yesterday, is gone off, and with it your Lady, Niece and Maid, with all your Jewels.</p>
+</sp>
+<sp>
+<speaker>Emir.</speaker>
+<p>With all my Soul; and there's something for thy News; a boon Voyage, and a merry Gale to them, say <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> it is the most comfortable Loss that ever Man had.</p>
+</sp>
+<sp>
+<speaker>Off.</speaker>
+<p>Why what a Misfortune's this! here's our Fees lost. <stage>(Aside.</stage></p>
+</sp>
+<sp>
+<speaker>Emir.</speaker>
+<p>And if ever you catch me marrying again, I'll give you leave to use your Cords. Dogs! get out of my House, go; troop, Vermin, no going down the Mountain now—Here kick the Coffins after them, with their Loaves and Water; and there shall never be more occasion for 'em in this House, I promise you—Come, where are my Servants? Here, let me have Musick and Dancing, to cheer my Spirits.</p>
+<l>The Laws of Wedlock all Men think severe;</l>
+<l>But 'tis Damnation sure to marry here.</l>
+</sp>
+</div2>
+<trailer>FINIS.</trailer>
+</div1>
+</body>
+<back>
+<div1 type="publisher'sadvertisement">
+<pb facs="26"/>
+<head>POEMS and PLAYS Printed for, and sold by <hi>George Risk,</hi> Booksell<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> at the Corner of <hi>Castle-lane</hi> in <hi>Dames-street.</hi></head>
+<list>
+<item><hi>ALlan Ramsay</hi>'s Poems.</item>
+<item><hi>Alexander Pennecuik</hi>'s Poems.</item>
+<item><hi>Edinburgh</hi>'s Miscellany Poems.</item>
+<item><hi>Trivia,</hi> or the Art of walking the Streets of <hi>London,</hi> by <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/></item>
+<item>The first Book of <hi>Homer,</hi> by Mr. <hi>Tickle.</hi></item>
+<item>The Hoop Peticoat, by Mr. <hi>Gay.</hi></item>
+<item>The Court Poems, by Mr. <hi>Pope.</hi></item>
+<item>The Gamester, by Mrs. <hi>Centlivre.</hi></item>
+<item>King <hi>Henry</hi> V. of <hi>England,</hi> by Mr. <hi>Hill.</hi></item>
+<item>The Captives, by Mr. <hi>Gay.</hi></item>
+<item>Lady <hi>Jane Gray,</hi> by N. <hi>Rowe,</hi> <abbr>Esq</abbr></item>
+<item><hi>Sophonisha,</hi> or <hi>Hanibal</hi>'s Overthrow, by Mr. <hi>Lee.</hi></item>
+<item>Sir <hi>Walter Raleigh,</hi> by Mr. <hi>Sewell.</hi></item>
+<item><hi>Spartan</hi> Dame, by Mr. <hi>Southern.</hi></item>
+<item>King <hi>Henry</hi> IV. of <hi>France,</hi> by Mr. <hi>Beckingham.</hi></item>
+<item>The Rival Queens, or the Death of <hi>Alexander</hi> the Gre<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> by Mr. <hi>Lee.</hi></item>
+<item><hi>Busiris,</hi> King of <hi>Egypt,</hi> by Mr. <hi>Young.</hi></item>
+<item>Non-Juror, by Mr. <hi>Cibber.</hi></item>
+<item>Chit-Chat, by Mr. <hi>Killigrew.</hi></item>
+<item>The Conscious Lovers, by Sir <hi>Richard Steel.</hi></item>
+<item>Three Hours after Marriage, by Mr. <hi>Gay.</hi></item>
+<item>The Earl of <hi>Essex,</hi> by Mr. <hi>Banks.</hi></item>
+<item>The Fair Penitent, by <hi>N. Rowe,</hi> <abbr>Esq</abbr></item>
+<item>The Fop's Fortune, or Love makes a Man, by Mr. <hi>Cibb<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/></hi></item>
+<item>The Committee, or the Faithful <hi>Irish</hi> Man, by Sir <hi>Rob<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/> Howard.</hi></item>
+<item>The Stage-Coach, by Mr. <hi>Farquhar.</hi></item>
+<item>Cobler of <hi>Preston,</hi> by Mr. <hi>Johnston.</hi></item>
+<item>The Per-Juror and Juror.</item>
+<item><hi>Hob,</hi> or the Country Wake, by Mr. <hi>Doget.</hi></item>
+<item>The Contrivances, by Mr. <hi>Carey.</hi></item>
+<item>The Country House, by Mr. <hi>Vanburgh.</hi></item>
+<item>The Adventures of Half an Hour, by Mr. <hi>Bullock.</hi></item>
+<item>The Walking Statue, or the Devil in the Wine Cellar, <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Mr. <hi>Hi<gap resp="oxf" extent="2+ letters" disp="••…" reason="illegible"/></hi></item>
+<item>The Slip, by Mr. <hi>Bullock.</hi></item>
+<item><hi>Hob</hi>'s Wedding.</item>
+<item>The School-Boy, or the Comical Rival, by Mr. <hi>Cibbe<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></hi></item>
+</list>
+</div1>
+</back>
+</text>
+
+</TEI>
