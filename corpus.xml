@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>English Drama Corpus - Extension</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>DraCor</publisher>
+        <idno type="URI" xml:base="https://dracor.org/">am</idno>
+        <idno type="repo">https://github.com/dracor-org/amdracor</idno>
+      </publicationStmt>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+       <p>
+         Test.
+       </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+    </revisionDesc>
+  </teiHeader>
+</teiCorpus>
