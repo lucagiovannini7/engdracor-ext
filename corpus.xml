@@ -7,7 +7,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>DraCor</publisher>
-        <idno type="URI" xml:base="https://dracor.org/">am</idno>
+        <idno type="URI" xml:base="https://dracor.org/">eng</idno>
         <idno type="repo">https://github.com/dracor-org/amdracor</idno>
       </publicationStmt>
     </fileDesc>
