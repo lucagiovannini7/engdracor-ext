@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DraCor TEI Editor</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <style>
+    :root {
+      --bg:        #f4f6f9;
+      --bg-side:   #ebedf2;
+      --bg-card:   #ffffff;
+      --bg-input:  #f9fafb;
+      --border:    #d1d5de;
+      --accent:    #2563eb;
+      --text:      #374151;
+      --bright:    #111827;
+      --dim:       #9ca3af;
+      --male:      #1d4ed8;
+      --female:    #be185d;
+      --unknown:   #6b7280;
+      --success:   #15803d;
+      --warn:      #b45309;
+      --danger:    #dc2626;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+      background: var(--bg);
+      color: var(--text);
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Toolbar ──────────────────────────────────────────── */
+    #toolbar {
+      flex-shrink: 0;
+      height: 46px;
+      background: var(--bg-side);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 14px;
+      gap: 8px;
+    }
+    #toolbar h1 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: .01em;
+      flex-shrink: 0;
+    }
+    .tsep { width: 1px; height: 20px; background: var(--border); }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 6px 13px;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      cursor: pointer; font-size: 13px; font-weight: 500;
+      background: var(--bg-card); color: var(--text);
+      transition: border-color .15s, background .15s, color .15s;
+      white-space: nowrap; flex-shrink: 0;
+      box-shadow: 0 1px 2px rgba(0,0,0,.06);
+    }
+    .btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); background: #eff6ff; }
+    .btn:disabled { opacity: .4; cursor: default; }
+    .btn-accent  { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600; box-shadow: 0 1px 3px rgba(37,99,235,.3); }
+    .btn-accent:hover:not(:disabled) { background: #1d4ed8; border-color: #1d4ed8; color: #fff; }
+    .btn-dl { background: #f0fdf4; border-color: #86efac; color: var(--success); }
+    .btn-dl:hover:not(:disabled) { background: #dcfce7; border-color: var(--success); }
+    #toolbar input[type=file] { display: none; }
+    #stats { margin-left: auto; font-size: 12px; color: var(--dim); white-space: nowrap; }
+
+    /* ── Body layout ──────────────────────────────────────── */
+    #layout {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ──────────────────────────────────────────── */
+    #sidebar {
+      width: 210px;
+      flex-shrink: 0;
+      background: var(--bg-side);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .side-head {
+      padding: 10px 12px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    #file-list { flex: 1; overflow-y: auto; }
+
+    .fentry {
+      padding: 7px 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      border-bottom: 1px solid var(--border);
+      transition: background .1s;
+      border-left: 2px solid transparent;
+    }
+    .fentry:hover { background: #dde5f7; }
+    .fentry.active {
+      background: #dbeafe;
+      border-left-color: var(--accent);
+    }
+    .fdot {
+      width: 8px; height: 8px;
+      border-radius: 50%; flex-shrink: 0;
+    }
+    .fdot.clean    { border: 1.5px solid var(--dim); background: transparent; }
+    .fdot.modified { background: #f59e0b; }
+    .fdot.done     { background: #22c55e; }
+    .fname {
+      font-family: 'Courier New', monospace;
+      font-size: 11.5px; color: var(--bright);
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      flex: 1;
+    }
+
+    /* ── Main area ────────────────────────────────────────── */
+    #main {
+      flex: 1;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Drop zone */
+    #drop-zone {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--dim);
+      cursor: pointer;
+      transition: color .2s;
+    }
+    #drop-zone.over, #drop-zone:hover { color: var(--accent); }
+    #drop-zone .dz-ico { font-size: 52px; line-height: 1; }
+    #drop-zone h2 { font-size: 20px; font-weight: 300; color: var(--text); }
+    #drop-zone p  { font-size: 13px; }
+
+    /* Play view */
+    #play-view {
+      flex: 1;
+      overflow: hidden;
+      display: none;
+      flex-direction: column;
+    }
+    #play-view.visible { display: flex; }
+
+    #play-header {
+      flex-shrink: 0;
+      padding: 10px 16px 9px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      background: var(--bg-card);
+      box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    }
+    #play-title    { font-size: 15px; font-weight: 600; color: var(--bright); }
+    #play-filename { font-family: 'Courier New', monospace; font-size: 11.5px; color: var(--dim); }
+
+    /* ── Three columns ────────────────────────────────────── */
+    #columns {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 1.5fr 1fr;
+      overflow: hidden;
+    }
+    .col {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      border-right: 1px solid var(--border);
+    }
+    .col:last-child { border-right: none; }
+
+    .col-head {
+      flex-shrink: 0;
+      padding: 10px 13px 8px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-side);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--text);
+    }
+    .col-badge {
+      background: #e5e7eb;
+      border-radius: 8px;
+      padding: 1px 7px;
+      font-size: 11px;
+      color: var(--text);
+      font-weight: 600;
+    }
+    .col-action {
+      margin-left: auto;
+      padding: 2px 8px;
+      font-size: 10px;
+      font-weight: 600;
+    }
+
+    .col-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    /* ── castList column ──────────────────────────────────── */
+    .cast-item {
+      padding: 8px 11px;
+      background: var(--bg-card);
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      font-size: 13px;
+      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    }
+    .cast-role     { font-weight: 600; color: var(--bright); }
+    .cast-roledesc { color: var(--dim); font-style: italic; font-size: 12px; margin-top: 2px; }
+    .cast-actor    { color: var(--accent); font-size: 12px; margin-top: 3px; font-weight: 500; }
+    .cast-plain    { color: var(--text); font-style: italic; }
+
+    /* ── person cards ─────────────────────────────────────── */
+    .pcard {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 9px 11px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: border-color .15s, box-shadow .15s;
+      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    }
+    .pcard:hover { border-color: #93c5fd; box-shadow: 0 2px 6px rgba(37,99,235,.1); }
+
+    .pcard-top {
+      display: flex; align-items: center; gap: 5px;
+    }
+
+    /* inline editable */
+    .editable { display: inline-flex; align-items: center; flex: 1; min-width: 0; }
+    .editable-disp {
+      flex: 1;
+      cursor: pointer; border-radius: 4px;
+      padding: 3px 6px;
+      color: var(--bright); font-size: 14px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      transition: background .1s;
+    }
+    .editable-disp:hover { background: #eff6ff; }
+    .editable-disp.mono  { font-family: 'Courier New', monospace; font-size: 12px; color: var(--text); }
+    .editable-inp {
+      flex: 1; min-width: 0;
+      background: #fff;
+      border: 2px solid var(--accent);
+      border-radius: 4px; color: var(--bright);
+      font-size: 14px; padding: 2px 6px; outline: none;
+      box-shadow: 0 0 0 3px rgba(37,99,235,.12);
+    }
+    .editable-inp.mono { font-family: 'Courier New', monospace; font-size: 12px; }
+    .editable-inp.bad  { border-color: var(--danger); box-shadow: 0 0 0 3px rgba(220,38,38,.12); }
+
+    /* icon buttons */
+    .ibtn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 22px; height: 22px; flex-shrink: 0;
+      border: none; border-radius: 4px;
+      background: transparent; cursor: pointer;
+      font-size: 12px; line-height: 1;
+      transition: background .12s, color .12s;
+    }
+    .ibtn:hover { background: #f3f4f6; }
+    .ibtn.del   { color: #d1d5db; }
+    .ibtn.del:hover { color: var(--danger); background: #fee2e2; }
+    .ibtn.sync  { color: var(--dim); font-size: 13px; }
+    .ibtn.sync:hover { color: var(--accent); background: #eff6ff; }
+
+    /* sex pill */
+    .sex-pill {
+      border-radius: 4px; padding: 3px 8px;
+      font-size: 12px; font-weight: 700;
+      border: 1px solid; cursor: pointer;
+      transition: filter .12s; flex-shrink: 0;
+    }
+    .sex-pill:hover { filter: brightness(.92); }
+    .sex-pill.MALE    { color: #1e40af; border-color: #93c5fd; background: #dbeafe; }
+    .sex-pill.FEMALE  { color: #9d174d; border-color: #f9a8d4; background: #fce7f3; }
+    .sex-pill.UNKNOWN { color: #374151; border-color: #d1d5db; background: #f3f4f6; }
+
+    /* type pill */
+    .type-pill {
+      border-radius: 4px; padding: 2px 8px;
+      font-size: 12px; font-weight: 700;
+      border: 1px solid; cursor: pointer;
+      transition: filter .12s; flex-shrink: 0;
+    }
+    .type-pill:hover { filter: brightness(.92); }
+    .type-pill.person    { color: #1e40af; border-color: #93c5fd; background: #dbeafe; }
+    .type-pill.personGrp { color: #92400e; border-color: #fcd34d; background: #fef3c7; }
+
+    .pcard-id-row {
+      display: flex; align-items: center; gap: 4px;
+    }
+    .id-lbl { font-size: 11px; color: var(--dim); flex-shrink: 0; }
+
+    /* ── speakers column ──────────────────────────────────── */
+    .sp-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 7px 11px;
+      display: flex; align-items: center; gap: 7px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    }
+    .sp-id    { font-family: 'Courier New', monospace; font-size: 12px; font-weight: 700; color: var(--bright); flex-shrink: 0; }
+    .sp-count { font-size: 11px; color: var(--dim); flex-shrink: 0; }
+    .sp-ok    { margin-left: auto; color: var(--success); font-size: 12px; display: flex; align-items: center; gap: 4px; font-weight: 500; }
+    .sp-ok span { color: var(--accent); }
+
+    .sp-warn {
+      margin-left: auto;
+      display: flex; align-items: center; gap: 5px;
+      flex-wrap: wrap;
+    }
+    .sp-warn-lbl { font-size: 11px; color: #92400e; font-weight: 500; }
+    .sp-context {
+      flex-basis: 100%;
+      margin-top: 4px;
+      padding-top: 4px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .sp-printed-names {
+      font-size: 0.78em;
+      color: var(--dim);
+      font-style: italic;
+      letter-spacing: 0.02em;
+    }
+    .sp-snippet {
+      font-size: 0.76em;
+      color: var(--text);
+      opacity: 0.55;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+    .merge-sel {
+      padding: 3px 5px; font-size: 12px;
+      background: #fff; color: var(--text);
+      border: 1px solid #fcd34d; border-radius: 4px;
+    }
+    .merge-go {
+      padding: 3px 10px; font-size: 12px; font-weight: 600;
+      background: #fef3c7; color: #92400e;
+      border: 1px solid #fcd34d; border-radius: 4px; cursor: pointer;
+    }
+    .merge-go:hover { background: #fde68a; }
+
+    /* undo banner */
+    .undo-banner {
+      display: flex; align-items: center; gap: 7px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 7px 11px;
+      font-size: 12px;
+      color: var(--text);
+      flex-shrink: 0;
+    }
+    .undo-arrow { color: var(--dim); }
+    .undo-from  { font-family: 'Courier New', monospace; font-weight: 700; color: var(--bright); }
+    .undo-to    { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+    .undo-btn {
+      margin-left: auto; flex-shrink: 0;
+      padding: 3px 10px; font-size: 12px; font-weight: 600;
+      background: #dbeafe; color: #1e40af;
+      border: 1px solid #93c5fd; border-radius: 4px; cursor: pointer;
+    }
+    .undo-btn:hover { background: #bfdbfe; }
+
+    /* empty state */
+    .empty { color: var(--dim); font-style: italic; font-size: 13px; text-align: center; padding: 28px 0; }
+
+    /* scrollbars */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+  </style>
+</head>
+<body>
+
+<!-- ── Toolbar ─────────────────────────────────────────────────────────────── -->
+<div id="toolbar">
+  <h1>DraCor TEI Editor</h1>
+  <div class="tsep"></div>
+  <label class="btn btn-accent" for="fileInput">Load XML</label>
+  <input type="file" id="fileInput" multiple accept=".xml">
+  <div class="tsep"></div>
+  <button class="btn btn-dl" id="dlModBtn" onclick="downloadFiles(false)" disabled style="display:none">
+    ↓ Download all modified files (<span id="mod-count">0</span>)
+  </button>
+  <div id="stats"></div>
+</div>
+
+<!-- ── Body ───────────────────────────────────────────────────────────────── -->
+<div id="layout">
+
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div class="side-head">Files</div>
+    <div id="file-list"></div>
+  </div>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Drop zone -->
+    <div id="drop-zone">
+      <div class="dz-ico">📂</div>
+      <h2>Drop TEI-XML files here</h2>
+      <p>or click <strong>Load XML</strong> above</p>
+    </div>
+
+    <!-- Play view -->
+    <div id="play-view">
+      <div id="play-header">
+        <span id="play-title"></span>
+        <span id="play-filename"></span>
+      </div>
+      <div id="columns">
+
+        <!-- Col 1: castList -->
+        <div class="col">
+          <div class="col-head">
+            castList
+            <span class="col-badge" id="cast-n">0</span>
+          </div>
+          <div class="col-body" id="cast-body"></div>
+        </div>
+
+        <!-- Col 2: listPerson -->
+        <div class="col">
+          <div class="col-head">
+            listPerson
+            <span class="col-badge" id="persons-n">0</span>
+            <button class="btn col-action" onclick="addPerson()">+ Add</button>
+          </div>
+          <div class="col-body" id="persons-body"></div>
+        </div>
+
+        <!-- Col 3: Speakers -->
+        <div class="col">
+          <div class="col-head">
+            Speakers
+            <span class="col-badge" id="speakers-n">0</span>
+          </div>
+          <div class="col-body" id="speakers-body"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ── Namespaces ────────────────────────────────────────────────────────────────
+const TEI    = "http://www.tei-c.org/ns/1.0";
+const XML_NS = "http://www.w3.org/XML/1998/namespace";
+const SEX_CYCLE = { MALE: 'FEMALE', FEMALE: 'UNKNOWN', UNKNOWN: 'MALE' };
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let allFiles   = [];
+let currentIdx = -1;
+
+// ── File loading ──────────────────────────────────────────────────────────────
+document.getElementById('fileInput').addEventListener('change', e => {
+  loadFiles(Array.from(e.target.files));
+  e.target.value = '';
+});
+
+const mainEl = document.getElementById('layout');
+mainEl.addEventListener('dragover',  e => { e.preventDefault(); document.getElementById('drop-zone').classList.add('over'); });
+mainEl.addEventListener('dragleave', e => { if (!mainEl.contains(e.relatedTarget)) document.getElementById('drop-zone').classList.remove('over'); });
+mainEl.addEventListener('drop', e => {
+  e.preventDefault();
+  document.getElementById('drop-zone').classList.remove('over');
+  loadFiles(Array.from(e.dataTransfer.files).filter(f => f.name.endsWith('.xml')));
+});
+
+async function loadFiles(files) {
+  if (!files.length) return;
+  for (const file of files) {
+    if (allFiles.find(f => f.name === file.name)) continue;
+    try {
+      const text = await file.text();
+      const doc  = new DOMParser().parseFromString(text, 'application/xml');
+      if (doc.querySelector('parsererror')) { console.warn('Parse error:', file.name); continue; }
+      allFiles.push({ name: file.name, doc, modified: false, mergeHistory: [] });
+    } catch(e) { console.warn(e); }
+  }
+  allFiles.sort((a, b) => a.name.localeCompare(b.name));
+  renderSidebar();
+  if (currentIdx < 0 && allFiles.length) selectFile(0);
+  updateToolbar();
+}
+
+// ── Sidebar ───────────────────────────────────────────────────────────────────
+function renderSidebar() {
+  const list = document.getElementById('file-list');
+  list.innerHTML = '';
+  allFiles.forEach((f, i) => {
+    const e = document.createElement('div');
+    e.className = 'fentry' + (i === currentIdx ? ' active' : '');
+    e.title = f.name;
+    e.onclick = () => selectFile(i);
+
+    const persons  = getPersons(f);
+    const unknowns = persons.filter(p => p.sex === 'UNKNOWN').length;
+    const dotCls   = f.modified ? (unknowns === 0 ? 'done' : 'modified') : 'clean';
+
+    e.innerHTML = `<div class="fdot ${dotCls}"></div><div class="fname">${esc(f.name)}</div>`;
+    list.appendChild(e);
+  });
+}
+
+// ── File selection ────────────────────────────────────────────────────────────
+function selectFile(idx) {
+  currentIdx = idx;
+  renderSidebar();
+
+  const file = allFiles[idx];
+  document.getElementById('drop-zone').style.display = 'none';
+  const pv = document.getElementById('play-view');
+  pv.classList.add('visible');
+
+  // Header
+  const doc    = file.doc;
+  const title  = doc.getElementsByTagNameNS(TEI, 'title')[0]?.textContent?.trim() || '';
+  const author = doc.getElementsByTagNameNS(TEI, 'author')[0]?.textContent?.trim() || '';
+  document.getElementById('play-title').textContent    = [author, title].filter(Boolean).join(' · ') || file.name;
+  document.getElementById('play-filename').textContent = file.name;
+
+  renderCastColumn(file);
+  renderPersonsColumn(file);
+  renderSpeakersColumn(file);
+}
+
+// ── castList ──────────────────────────────────────────────────────────────────
+function getCastItems(file) {
+  const cl = file.doc.getElementsByTagNameNS(TEI, 'castList')[0];
+  if (!cl) return [];
+  return Array.from(cl.getElementsByTagNameNS(TEI, 'castItem')).map(ci => {
+    const role     = ci.getElementsByTagNameNS(TEI, 'role')[0]?.textContent?.trim();
+    const roleDesc = ci.getElementsByTagNameNS(TEI, 'roleDesc')[0]?.textContent?.trim();
+    const actor    = ci.getElementsByTagNameNS(TEI, 'actor')[0]?.textContent?.trim();
+    return { role, roleDesc, actor, plain: (!role && !actor) ? ci.textContent?.trim() : null };
+  });
+}
+
+function renderCastColumn(file) {
+  const body  = document.getElementById('cast-body');
+  const items = getCastItems(file);
+  document.getElementById('cast-n').textContent = items.length;
+  body.innerHTML = '';
+  if (!items.length) { body.innerHTML = '<p class="empty">No castList found</p>'; return; }
+  for (const it of items) {
+    const d = document.createElement('div');
+    d.className = 'cast-item';
+    if (it.plain) {
+      d.innerHTML = `<div class="cast-plain">${esc(it.plain)}</div>`;
+    } else {
+      d.innerHTML =
+        (it.role     ? `<div class="cast-role">${esc(it.role)}</div>` : '') +
+        (it.roleDesc ? `<div class="cast-roledesc">${esc(it.roleDesc)}</div>` : '') +
+        (it.actor    ? `<div class="cast-actor">${esc(it.actor)}</div>` : '');
+    }
+    body.appendChild(d);
+  }
+}
+
+// ── listPerson ────────────────────────────────────────────────────────────────
+function getPersons(file) {
+  const lp = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
+  if (!lp) return [];
+  const result = [];
+  for (const el of lp.childNodes) {
+    if (el.nodeType !== 1) continue;
+    const ln = el.localName;
+    if (ln !== 'person' && ln !== 'personGrp') continue;
+    result.push({
+      xid:  el.getAttributeNS(XML_NS, 'id') || '',
+      name: el.getElementsByTagNameNS(TEI, 'persName')[0]?.textContent?.trim() || '',
+      sex:  el.getElementsByTagNameNS(TEI, 'sex')[0]?.getAttribute('value') || 'UNKNOWN',
+      type: ln,
+      el,
+    });
+  }
+  return result;
+}
+
+function renderPersonsColumn(file) {
+  const body    = document.getElementById('persons-body');
+  const persons = getPersons(file);
+  document.getElementById('persons-n').textContent = persons.length;
+  body.innerHTML = '';
+  if (!persons.length) { body.innerHTML = '<p class="empty">No listPerson found</p>'; return; }
+  for (const p of persons) body.appendChild(buildPersonCard(file, p));
+}
+
+function buildPersonCard(file, { xid, name, sex, type }) {
+  const card = document.createElement('div');
+  card.className = 'pcard';
+  card.id = `pc-${xid}`;
+
+  // ── top row: [name editable] [sex] [type] [×] ──
+  const top = document.createElement('div');
+  top.className = 'pcard-top';
+
+  // name (editable)
+  const nameEdit = makeEditable(name, newName => {
+    updatePersonName(file, xid, newName);
+    // show sync-id button if derived id differs
+    const derived = nameToId(newName);
+    syncBtn.style.visibility = (derived && derived !== xid) ? 'visible' : 'hidden';
+  });
+  top.appendChild(nameEdit);
+
+  // sex cycling pill
+  const sexPill = document.createElement('button');
+  sexPill.className = `sex-pill ${sex}`;
+  sexPill.textContent = sex === 'MALE' ? '♂ Male' : sex === 'FEMALE' ? '♀ Female' : '? Unknown';
+  sexPill.title = `Sex: ${sex} — click to cycle`;
+  sexPill.onclick = () => {
+    const next = SEX_CYCLE[sex] || 'MALE';
+    updatePersonSex(file, xid, next);
+    renderPersonsColumn(file);
+    renderSpeakersColumn(file);
+    markModified(file);
+  };
+  top.appendChild(sexPill);
+
+  // type toggle pill
+  const typePill = document.createElement('button');
+  typePill.className = `type-pill ${type}`;
+  typePill.textContent = type === 'person' ? 'Individual' : 'Group';
+  typePill.title = type === 'person' ? 'Individual person — click to make group' : 'Group (personGrp) — click to make individual';
+  typePill.onclick = () => {
+    const newType = type === 'person' ? 'personGrp' : 'person';
+    togglePersonType(file, xid, newType);
+    renderPersonsColumn(file);
+    markModified(file);
+  };
+  top.appendChild(typePill);
+
+  // delete
+  const delBtn = document.createElement('button');
+  delBtn.className = 'ibtn del';
+  delBtn.textContent = '×';
+  delBtn.title = 'Remove from listPerson';
+  delBtn.onclick = () => {
+    if (confirm(`Remove "${name}" (${xid})?`)) {
+      deletePerson(file, xid);
+      renderPersonsColumn(file);
+      renderSpeakersColumn(file);
+      markModified(file);
+    }
+  };
+  top.appendChild(delBtn);
+  card.appendChild(top);
+
+  // ── id row: id: [id editable] [↺ sync] ──
+  const idRow = document.createElement('div');
+  idRow.className = 'pcard-id-row';
+  idRow.innerHTML = '<span class="id-lbl">id:</span>';
+
+  const idEdit = makeEditable(xid, newId => {
+    if (!newId || newId === xid) return;
+    if (!isValidId(newId)) { alert('Invalid id — use lowercase letters, digits, hyphens only, start and end with alphanumeric.'); return; }
+    renamePersonId(file, xid, newId);
+    card.id = `pc-${newId}`;
+    renderSpeakersColumn(file);
+    markModified(file);
+  }, { mono: true, validate: isValidId });
+  idEdit.style.flex = '1';
+  idRow.appendChild(idEdit);
+
+  // sync-id button
+  const syncBtn = document.createElement('button');
+  syncBtn.className = 'ibtn sync';
+  syncBtn.innerHTML = '↺';
+  syncBtn.title = 'Reset id from name';
+  syncBtn.style.visibility = (nameToId(name) !== xid) ? 'visible' : 'hidden';
+  syncBtn.onclick = () => {
+    const newId = nameToId(name);
+    if (!newId || newId === xid || !isValidId(newId)) return;
+    renamePersonId(file, xid, newId);
+    renderPersonsColumn(file);
+    renderSpeakersColumn(file);
+    markModified(file);
+  };
+  idRow.appendChild(syncBtn);
+  card.appendChild(idRow);
+
+  return card;
+}
+
+// ── Speakers ──────────────────────────────────────────────────────────────────
+function getSpeakers(file) {
+  const map = new Map();
+  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
+    const who = sp.getAttribute('who') || '';
+    const speakerEl = sp.getElementsByTagNameNS(TEI, 'speaker')[0];
+    const printedName = speakerEl ? speakerEl.textContent.trim() : '';
+    const lineEl = sp.getElementsByTagNameNS(TEI, 'l')[0]
+                || sp.getElementsByTagNameNS(TEI, 'p')[0];
+    const snippet = lineEl
+      ? lineEl.textContent.trim().replace(/\s+/g, ' ').slice(0, 70)
+      : '';
+    for (const w of who.split(/\s+/)) {
+      const id = w.replace(/^#/, '').trim();
+      if (!id) continue;
+      if (!map.has(id)) map.set(id, { count: 0, printedNames: new Set(), snippets: [] });
+      const entry = map.get(id);
+      entry.count++;
+      if (printedName) entry.printedNames.add(printedName);
+      if (snippet && entry.snippets.length < 2) entry.snippets.push(snippet);
+    }
+  }
+  return [...map.entries()]
+    .map(([id, { count, printedNames, snippets }]) => ({ id, count, printedNames: [...printedNames], snippets }))
+    .sort((a, b) => b.count - a.count || a.id.localeCompare(b.id));
+}
+
+function renderSpeakersColumn(file) {
+  const body     = document.getElementById('speakers-body');
+  const speakers = getSpeakers(file);
+  const persons  = getPersons(file);
+  const idSet    = new Set(persons.map(p => p.xid));
+  const nameMap  = new Map(persons.map(p => [p.xid, p.name || p.xid]));
+
+  document.getElementById('speakers-n').textContent = speakers.length;
+  body.innerHTML = '';
+
+  // Undo banner for the last merge
+  const lastMerge = file.mergeHistory?.at(-1);
+  if (lastMerge) {
+    const banner = document.createElement('div');
+    banner.className = 'undo-banner';
+    banner.innerHTML =
+      `<span class="undo-from">${esc(lastMerge.fromId)}</span>` +
+      `<span class="undo-arrow">→</span>` +
+      `<span class="undo-to">${esc(lastMerge.toId)}</span>`;
+    const undoBtn = document.createElement('button');
+    undoBtn.className = 'undo-btn';
+    undoBtn.textContent = '↩ Undo';
+    undoBtn.onclick = () => undoLastMerge(file);
+    banner.appendChild(undoBtn);
+    body.appendChild(banner);
+  }
+
+  if (!speakers.length) { body.appendChild(Object.assign(document.createElement('p'), { className: 'empty', textContent: 'No speakers found' })); return; }
+
+  for (const { id, count, printedNames, snippets } of speakers) {
+    const matched = idSet.has(id);
+    const item    = document.createElement('div');
+    item.className = 'sp-item';
+    item.innerHTML = `<span class="sp-id">${esc(id)}</span><span class="sp-count">${count}×</span>`;
+
+    if (matched) {
+      const ok = document.createElement('span');
+      ok.className = 'sp-ok';
+      ok.innerHTML = `✓ <span>${esc(nameMap.get(id))}</span>`;
+      item.appendChild(ok);
+    } else {
+      // best-guess merge target: person whose id starts with this id, or vice-versa
+      const bestGuess = persons.find(p => p.xid.startsWith(id) || id.startsWith(p.xid));
+
+      const warn = document.createElement('span');
+      warn.className = 'sp-warn';
+      warn.innerHTML = `<span class="sp-warn-lbl">⚠ unmatched</span>`;
+
+      const sel = document.createElement('select');
+      sel.className = 'merge-sel';
+      sel.innerHTML = `<option value="">— merge into —</option>` +
+        persons.map(p =>
+          `<option value="${esc(p.xid)}" ${p === bestGuess ? 'selected' : ''}>${esc(p.name || p.xid)}</option>`
+        ).join('');
+      if (bestGuess) sel.value = bestGuess.xid; // ensure pre-selection
+
+      const go = document.createElement('button');
+      go.className = 'merge-go';
+      go.textContent = 'Merge';
+      go.onclick = () => {
+        const targetId = sel.value;
+        if (!targetId) return;
+        mergeSpeakerWho(file, id, targetId);
+        renderPersonsColumn(file);
+        renderSpeakersColumn(file);
+        markModified(file);
+      };
+
+      warn.appendChild(sel);
+      warn.appendChild(go);
+      item.appendChild(warn);
+    }
+
+    if (printedNames.length || snippets.length) {
+      const ctx = document.createElement('div');
+      ctx.className = 'sp-context';
+      if (printedNames.length) {
+        const names = document.createElement('span');
+        names.className = 'sp-printed-names';
+        names.textContent = printedNames.join(' · ');
+        ctx.appendChild(names);
+      }
+      for (const s of snippets) {
+        const snip = document.createElement('div');
+        snip.className = 'sp-snippet';
+        snip.textContent = s.length >= 70 ? s + '…' : s;
+        ctx.appendChild(snip);
+      }
+      item.appendChild(ctx);
+    }
+
+    body.appendChild(item);
+  }
+}
+
+// ── Mutations ─────────────────────────────────────────────────────────────────
+function markModified(file) {
+  file.modified = true;
+  renderSidebar();
+  updateToolbar();
+}
+
+function findPersonEl(file, xid) {
+  const lp = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
+  if (!lp) return null;
+  for (const el of lp.childNodes) {
+    if (el.nodeType !== 1) continue;
+    const ln = el.localName;
+    if ((ln === 'person' || ln === 'personGrp') && el.getAttributeNS(XML_NS, 'id') === xid) return el;
+  }
+  return null;
+}
+
+function updatePersonName(file, xid, newName) {
+  const el = findPersonEl(file, xid);
+  if (!el) return;
+  let nameEl = el.getElementsByTagNameNS(TEI, 'persName')[0];
+  if (!nameEl) {
+    nameEl = file.doc.createElementNS(TEI, 'persName');
+    el.insertBefore(nameEl, el.firstChild);
+  }
+  nameEl.textContent = newName;
+  markModified(file);
+}
+
+function updatePersonSex(file, xid, newSex) {
+  const el = findPersonEl(file, xid);
+  if (!el) return;
+  let sexEl = el.getElementsByTagNameNS(TEI, 'sex')[0];
+  if (!sexEl) {
+    sexEl = file.doc.createElementNS(TEI, 'sex');
+    el.appendChild(sexEl);
+  }
+  sexEl.setAttribute('value', newSex);
+}
+
+function togglePersonType(file, xid, newType) {
+  const el = findPersonEl(file, xid);
+  if (!el) return;
+  const newEl = file.doc.createElementNS(TEI, newType);
+  for (const attr of el.attributes) newEl.setAttributeNode(attr.cloneNode(true));
+  for (const child of el.childNodes) newEl.appendChild(child.cloneNode(true));
+  el.parentNode.replaceChild(newEl, el);
+}
+
+function renamePersonId(file, oldId, newId) {
+  const el = findPersonEl(file, oldId);
+  if (!el) return;
+  el.setAttributeNS(XML_NS, 'xml:id', newId);
+  // Rewrite all @who references
+  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
+    const who = sp.getAttribute('who');
+    if (!who) continue;
+    const ids = who.split(/\s+/);
+    if (!ids.some(w => w.replace(/^#/, '') === oldId)) continue;
+    sp.setAttribute('who', ids.map(w => w.replace(/^#/, '') === oldId ? '#' + newId : w).join(' '));
+  }
+}
+
+function deletePerson(file, xid) {
+  const el = findPersonEl(file, xid);
+  if (el) el.parentNode.removeChild(el);
+}
+
+function mergeSpeakerWho(file, fromId, toId) {
+  // Snapshot state for undo
+  const record = { fromId, toId, personElClone: null, spoils: [] };
+  const personEl = findPersonEl(file, fromId);
+  if (personEl) record.personElClone = personEl.cloneNode(true);
+
+  // Rewrite all @who: replace fromId → toId, deduplicate
+  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
+    const who = sp.getAttribute('who');
+    if (!who) continue;
+    const ids = who.split(/\s+/);
+    if (!ids.some(w => w.replace(/^#/, '') === fromId)) continue;
+    record.spoils.push({ spEl: sp, oldWho: who });
+    const updated = [...new Set(ids.map(w => w.replace(/^#/, '') === fromId ? '#' + toId : w))];
+    sp.setAttribute('who', updated.join(' '));
+  }
+
+  // Remove orphaned person entry (if fromId was in listPerson)
+  deletePerson(file, fromId);
+
+  file.mergeHistory.push(record);
+}
+
+function undoLastMerge(file) {
+  const record = file.mergeHistory.pop();
+  if (!record) return;
+
+  // Restore all @who values
+  for (const { spEl, oldWho } of record.spoils) {
+    spEl.setAttribute('who', oldWho);
+  }
+
+  // Re-insert the removed person element into listPerson
+  if (record.personElClone) {
+    const lp = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
+    if (lp) {
+      // Insert before the merge-target person (keeps ordering sensible)
+      const target = findPersonEl(file, record.toId);
+      lp.insertBefore(record.personElClone, target || null);
+    }
+  }
+
+  renderPersonsColumn(file);
+  renderSpeakersColumn(file);
+  markModified(file);
+}
+
+function addPerson() {
+  if (currentIdx < 0) return;
+  const file = allFiles[currentIdx];
+  const name = prompt('New character name:');
+  if (!name?.trim()) return;
+  const xid  = nameToId(name.trim());
+  const lp   = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
+  if (!lp) return;
+
+  const el     = file.doc.createElementNS(TEI, 'person');
+  el.setAttributeNS(XML_NS, 'xml:id', xid);
+  const nameEl = file.doc.createElementNS(TEI, 'persName');
+  nameEl.textContent = name.trim();
+  el.appendChild(nameEl);
+  const sexEl = file.doc.createElementNS(TEI, 'sex');
+  sexEl.setAttribute('value', 'UNKNOWN');
+  el.appendChild(sexEl);
+  lp.appendChild(el);
+
+  markModified(file);
+  renderPersonsColumn(file);
+  renderSpeakersColumn(file);
+}
+
+// ── Editable component ────────────────────────────────────────────────────────
+function makeEditable(initialText, onSave, { mono = false, validate = null } = {}) {
+  const wrap = document.createElement('span');
+  wrap.className = 'editable';
+
+  const disp = document.createElement('span');
+  disp.className = 'editable-disp' + (mono ? ' mono' : '');
+  disp.textContent = initialText || '';
+
+  const inp = document.createElement('input');
+  inp.className = 'editable-inp' + (mono ? ' mono' : '');
+  inp.value = initialText || '';
+  inp.style.display = 'none';
+  let current = initialText || '';
+
+  function enter() {
+    disp.style.display = 'none';
+    inp.style.display  = '';
+    inp.focus(); inp.select();
+  }
+  function commit() {
+    const val = inp.value.trim();
+    if (validate && !validate(val)) { inp.classList.add('bad'); return; }
+    inp.classList.remove('bad');
+    disp.textContent  = val;
+    inp.style.display  = 'none';
+    disp.style.display = '';
+    if (val !== current) { onSave(val); current = val; }
+  }
+  function cancel() {
+    inp.value = current;
+    inp.classList.remove('bad');
+    inp.style.display  = 'none';
+    disp.style.display = '';
+  }
+
+  disp.addEventListener('click', enter);
+  inp.addEventListener('blur',    commit);
+  inp.addEventListener('keydown', e => {
+    if (e.key === 'Enter')  { e.preventDefault(); commit(); }
+    if (e.key === 'Escape') { cancel(); }
+  });
+
+  wrap.appendChild(disp);
+  wrap.appendChild(inp);
+  return wrap;
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function nameToId(name) {
+  return name.trim().toLowerCase()
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+function isValidId(id) {
+  return /^[a-z0-9][a-z0-9_-]*$/.test(id);
+}
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+// ── Toolbar ───────────────────────────────────────────────────────────────────
+function updateToolbar() {
+  const mod   = allFiles.filter(f => f.modified).length;
+  const total = allFiles.length;
+  document.getElementById('stats').textContent = total ? `${total} file${total > 1 ? 's' : ''} · ${mod} modified` : '';
+  const dlMod = document.getElementById('dlModBtn');
+  const dlAll = document.getElementById('dlAllBtn');
+  dlMod.style.display = dlAll.style.display = total ? '' : 'none';
+  document.getElementById('mod-count').textContent = mod;
+  dlMod.disabled = mod === 0;
+}
+
+// ── Download ──────────────────────────────────────────────────────────────────
+async function downloadFiles(all) {
+  const files = all ? allFiles : allFiles.filter(f => f.modified);
+  if (!files.length) { alert('Nothing to download.'); return; }
+  const ser = new XMLSerializer();
+  const serialize = doc => {
+    let xml = ser.serializeToString(doc);
+    return xml.startsWith('<?xml') ? xml : '<?xml version="1.0" encoding="UTF-8"?>\n' + xml;
+  };
+  if (typeof JSZip !== 'undefined') {
+    const zip = new JSZip();
+    for (const f of files) zip.file(f.name, serialize(f.doc));
+    const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE' });
+    dlTrigger(blob, all ? 'tei_all.zip' : 'tei_modified.zip');
+  } else {
+    for (const f of files) {
+      dlTrigger(new Blob([serialize(f.doc)], { type: 'application/xml' }), f.name);
+      await new Promise(r => setTimeout(r, 150));
+    }
+  }
+}
+function dlTrigger(blob, name) {
+  const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: name });
+  document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+}
+</script>
+</body>
+</html>
