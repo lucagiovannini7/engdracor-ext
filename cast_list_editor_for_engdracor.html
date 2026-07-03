@@ -370,15 +370,13 @@
       font-style: italic;
       letter-spacing: 0.02em;
     }
-    .sp-snippet {
+    .sp-locus {
       font-size: 0.76em;
-      color: var(--text);
-      opacity: 0.55;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 100%;
+      color: var(--accent);
+      text-decoration: none;
+      cursor: pointer;
     }
+    .sp-locus:hover { text-decoration: underline; }
     .merge-sel {
       padding: 3px 5px; font-size: 12px;
       background: #fff; color: var(--text);
@@ -645,6 +643,9 @@ function renderPersonsColumn(file) {
 }
 
 function buildPersonCard(file, { xid, name, sex, type }) {
+  let currentSex  = sex;
+  let currentType = type;
+
   const card = document.createElement('div');
   card.className = 'pcard';
   card.id = `pc-${xid}`;
@@ -653,38 +654,51 @@ function buildPersonCard(file, { xid, name, sex, type }) {
   const top = document.createElement('div');
   top.className = 'pcard-top';
 
-  // name (editable)
+  // name (editable) — auto-syncs xml:id to nameToId(newName) on commit
   const nameEdit = makeEditable(name, newName => {
     updatePersonName(file, xid, newName);
-    // show sync-id button if derived id differs
     const derived = nameToId(newName);
-    syncBtn.style.visibility = (derived && derived !== xid) ? 'visible' : 'hidden';
+    if (derived && derived !== xid && isValidId(derived)) {
+      renamePersonId(file, xid, derived);
+      renderPersonsColumn(file);
+      renderSpeakersColumn(file);
+      // card is rebuilt — syncBtn no longer in DOM
+    } else {
+      syncBtn.style.visibility = 'hidden';
+    }
   });
   top.appendChild(nameEdit);
 
-  // sex cycling pill
+  // sex cycling pill — in-place update, no full re-render
   const sexPill = document.createElement('button');
-  sexPill.className = `sex-pill ${sex}`;
-  sexPill.textContent = sex === 'MALE' ? '♂ Male' : sex === 'FEMALE' ? '♀ Female' : '? Unknown';
-  sexPill.title = `Sex: ${sex} — click to cycle`;
+  const setSexPill = s => {
+    sexPill.className = `sex-pill ${s}`;
+    sexPill.textContent = s === 'MALE' ? '♂ Male' : s === 'FEMALE' ? '♀ Female' : '? Unknown';
+    sexPill.title = `Sex: ${s} — click to cycle`;
+  };
+  setSexPill(currentSex);
   sexPill.onclick = () => {
-    const next = SEX_CYCLE[sex] || 'MALE';
+    const next = SEX_CYCLE[currentSex] || 'MALE';
     updatePersonSex(file, xid, next);
-    renderPersonsColumn(file);
-    renderSpeakersColumn(file);
+    currentSex = next;
+    setSexPill(next);
     markModified(file);
   };
   top.appendChild(sexPill);
 
-  // type toggle pill
+  // type toggle pill — in-place update, no full re-render
   const typePill = document.createElement('button');
-  typePill.className = `type-pill ${type}`;
-  typePill.textContent = type === 'person' ? 'Individual' : 'Group';
-  typePill.title = type === 'person' ? 'Individual person — click to make group' : 'Group (personGrp) — click to make individual';
+  const setTypePill = t => {
+    typePill.className = `type-pill ${t}`;
+    typePill.textContent = t === 'person' ? 'Individual' : 'Group';
+    typePill.title = t === 'person' ? 'Individual person — click to make group' : 'Group (personGrp) — click to make individual';
+  };
+  setTypePill(currentType);
   typePill.onclick = () => {
-    const newType = type === 'person' ? 'personGrp' : 'person';
+    const newType = currentType === 'person' ? 'personGrp' : 'person';
     togglePersonType(file, xid, newType);
-    renderPersonsColumn(file);
+    currentType = newType;
+    setTypePill(newType);
     markModified(file);
   };
   top.appendChild(typePill);
@@ -743,29 +757,299 @@ function buildPersonCard(file, { xid, name, sex, type }) {
 
 // ── Speakers ──────────────────────────────────────────────────────────────────
 function getSpeakers(file) {
+  if (!file._speakersCache) file._speakersCache = _computeSpeakers(file);
+  return file._speakersCache;
+}
+function _invalidateSpeakers(file) { file._speakersCache = null; }
+
+function _computeSpeakers(file) {
   const map = new Map();
   for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
     const who = sp.getAttribute('who') || '';
     const speakerEl = sp.getElementsByTagNameNS(TEI, 'speaker')[0];
     const printedName = speakerEl ? speakerEl.textContent.trim() : '';
-    const lineEl = sp.getElementsByTagNameNS(TEI, 'l')[0]
-                || sp.getElementsByTagNameNS(TEI, 'p')[0];
-    const snippet = lineEl
-      ? lineEl.textContent.trim().replace(/\s+/g, ' ').slice(0, 70)
-      : '';
     for (const w of who.split(/\s+/)) {
       const id = w.replace(/^#/, '').trim();
       if (!id) continue;
-      if (!map.has(id)) map.set(id, { count: 0, printedNames: new Set(), snippets: [] });
+      if (!map.has(id)) map.set(id, { count: 0, printedNames: new Set(), firstSp: null });
       const entry = map.get(id);
       entry.count++;
       if (printedName) entry.printedNames.add(printedName);
-      if (snippet && entry.snippets.length < 2) entry.snippets.push(snippet);
+      if (!entry.firstSp) entry.firstSp = sp;
     }
   }
   return [...map.entries()]
-    .map(([id, { count, printedNames, snippets }]) => ({ id, count, printedNames: [...printedNames], snippets }))
+    .map(([id, { count, printedNames, firstSp }]) => ({ id, count, printedNames: [...printedNames], firstSp }))
     .sort((a, b) => b.count - a.count || a.id.localeCompare(b.id));
+}
+
+function getSpLocus(sp) {
+  const parts = [];
+  let el = sp.parentElement;
+  while (el) {
+    const type = el.getAttribute && el.getAttribute('type');
+    const n    = el.getAttribute && el.getAttribute('n');
+    if (type === 'act')   parts.unshift('Act ' + (n || '?'));
+    if (type === 'scene') parts.unshift('Sc. ' + (n || '?'));
+    el = el.parentElement;
+  }
+  return parts.length ? parts.join(', ') : '(locus)';
+}
+
+function openFullPlay(file, targetSp) {
+  const allSp = Array.from(file.doc.getElementsByTagNameNS(TEI, 'sp'));
+  const targetIdx = allSp.indexOf(targetSp);
+  if (targetIdx < 0) return;
+
+  // ── Metadata (handle structured <author> with child elements) ──
+  const titleEl = Array.from(file.doc.getElementsByTagNameNS(TEI, 'title'))
+    .find(el => el.getAttribute('type') === 'main')
+    || file.doc.getElementsByTagNameNS(TEI, 'title')[0];
+  const title = titleEl?.textContent?.trim() || file.name;
+
+  const authorEl = file.doc.getElementsByTagNameNS(TEI, 'author')[0];
+  const surname  = authorEl?.getElementsByTagNameNS(TEI, 'surname')[0]?.textContent?.trim()  || '';
+  const forename = authorEl?.getElementsByTagNameNS(TEI, 'forename')[0]?.textContent?.trim() || '';
+  const author   = (forename || surname) ? [forename, surname].filter(Boolean).join(' ')
+    : (authorEl?.textContent?.trim().split(/\s+/).filter(t => /\D/.test(t)).join(' ') || '');
+
+  const teiBody = file.doc.getElementsByTagNameNS(TEI, 'body')[0];
+  if (!teiBody) return;
+
+  const targetSpkEl = targetSp.getElementsByTagNameNS(TEI, 'speaker')[0];
+  const targetWho   = targetSpkEl?.textContent?.trim() || '?';
+  const targetWhom  = targetSp.getAttribute('who') || '?';
+  const anchor      = `sp-${targetIdx}`;
+
+  // ── Inline text converter (handles <hi>, <pb>, <lb>, etc.) ──────
+  function inlineHtml(node) {
+    if (node.nodeType === 3) return esc(node.textContent);
+    if (node.nodeType !== 1) return '';
+    const ln = node.localName;
+    if (ln === 'hi')  return `<em>${Array.from(node.childNodes).map(inlineHtml).join('')}</em>`;
+    if (ln === 'stage') return ''; // stages are extracted separately
+    if (ln === 'pb' || ln === 'fw' || ln === 'milestone') return '';
+    if (ln === 'lb')  return '<br>';
+    return Array.from(node.childNodes).map(inlineHtml).join('');
+  }
+
+  // Strip leading/trailing brackets already present in stage text
+  function cleanStage(node) {
+    let t = node.textContent.trim().replace(/\s+/g, ' ');
+    if (t.startsWith('[') && t.endsWith(']')) t = t.slice(1, -1).trim();
+    else if (t.startsWith('['))              t = t.slice(1).trim();
+    return t;
+  }
+
+  let spIdx = 0;
+
+  // ── Main node converter ──────────────────────────────────────────
+  function convertNode(node) {
+    if (node.nodeType !== 1) return ''; // skip text nodes at block level
+    const ln = node.localName;
+
+    switch (ln) {
+
+      case 'div': {
+        const t = node.getAttribute('type') || 'div';
+        return `<section class="tei-${esc(t)}">`
+          + Array.from(node.childNodes).map(convertNode).join('')
+          + '</section>';
+      }
+
+      case 'head': {
+        const t = node.textContent.trim().replace(/\s+/g, ' ');
+        return t ? `<h3 class="act-head">${esc(t)}</h3>` : '';
+      }
+
+      case 'stage': {
+        const t = cleanStage(node);
+        return t ? `<p class="stage-dir">[${esc(t)}]</p>` : '';
+      }
+
+      case 'sp': {
+        const idx = spIdx++;
+        const isTarget = idx === targetIdx;
+
+        const speakerEl  = Array.from(node.childNodes)
+          .find(c => c.nodeType === 1 && c.localName === 'speaker');
+        const speakerHtml = speakerEl ? esc(speakerEl.textContent.trim()) : '';
+
+        // Build utterance content, handling each child type explicitly
+        const parts = [];
+        for (const c of node.childNodes) {
+          if (c.nodeType !== 1) continue;
+          const cln = c.localName;
+          if (cln === 'speaker') continue;
+
+          if (cln === 'p') {
+            // Collect prose text and extract any embedded stage directions
+            const textBits = [], stageBits = [];
+            for (const gc of c.childNodes) {
+              if (gc.nodeType === 1 && gc.localName === 'stage') {
+                const t = cleanStage(gc);
+                if (t) stageBits.push(`<em class="stage-inline">[${esc(t)}]</em>`);
+              } else {
+                textBits.push(inlineHtml(gc));
+              }
+            }
+            const prose = textBits.join('').trim();
+            const extra = stageBits.join(' ');
+            const full  = [prose, extra].filter(Boolean).join(' ');
+            if (full) parts.push(`<p class="sp-p">${full}</p>`);
+
+          } else if (cln === 'lg') {
+            const lines = Array.from(c.childNodes)
+              .filter(l => l.nodeType === 1 && l.localName === 'l')
+              .map(l => `<div class="sp-l">${Array.from(l.childNodes).map(inlineHtml).join('') || esc(l.textContent.trim())}</div>`)
+              .join('');
+            if (lines) parts.push(`<div class="sp-lg">${lines}</div>`);
+
+          } else if (cln === 'l') {
+            const t = Array.from(c.childNodes).map(inlineHtml).join('') || esc(c.textContent.trim());
+            if (t) parts.push(`<div class="sp-l">${t}</div>`);
+
+          } else if (cln === 'stage') {
+            const t = cleanStage(c);
+            if (t) parts.push(`<em class="stage-inline">[${esc(t)}]</em>`);
+          }
+        }
+
+        return `<div class="sp-card${isTarget ? ' target' : ''}" id="sp-${idx}">`
+          + `<span class="sp-who">${speakerHtml}</span>`
+          + `<div class="sp-text">${parts.join('') || ''}</div>`
+          + `</div>`;
+      }
+
+      case 'p': {
+        // <p> at block level (e.g. in front matter reaching body)
+        const bits = [];
+        for (const c of node.childNodes) {
+          if (c.nodeType === 1 && c.localName === 'stage') {
+            const t = cleanStage(c); if (t) bits.push(`<em class="stage-inline">[${esc(t)}]</em>`);
+          } else { bits.push(inlineHtml(c)); }
+        }
+        const html = bits.join('').trim();
+        return html ? `<p class="block-p">${html}</p>` : '';
+      }
+
+      case 'l':
+        return `<div class="sp-l">${Array.from(node.childNodes).map(inlineHtml).join('') || esc(node.textContent.trim())}</div>`;
+      case 'lg':
+        return `<div class="sp-lg">${Array.from(node.childNodes).map(convertNode).join('')}</div>`;
+
+      case 'pb': case 'fw': case 'milestone': return '';
+
+      default:
+        return Array.from(node.childNodes).map(convertNode).join('');
+    }
+  }
+
+  const content = convertNode(teiBody);
+
+  // ── Generate HTML page ───────────────────────────────────────────
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>${esc(title)}</title>
+<style>
+  :root {
+    --bg:#f4f6f9; --bg-card:#fff; --border:#d1d5de;
+    --accent:#2563eb; --text:#374151; --bright:#111827; --dim:#9ca3af;
+  }
+  *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+         font-size:14px; line-height:1.6; background:var(--bg); color:var(--text); }
+
+  /* ── sticky header ── */
+  .pg-head {
+    position:sticky; top:0; z-index:10;
+    background:var(--bg-card); border-bottom:1px solid var(--border);
+    padding:10px 20px; display:flex; align-items:baseline; gap:10px;
+    box-shadow:0 1px 4px rgba(0,0,0,.07);
+  }
+  .pg-head h1  { font-size:15px; font-weight:700; color:var(--bright); }
+  .pg-head .by { font-size:12px; color:var(--dim); }
+  .pg-head .fn { font-family:'Courier New',monospace; font-size:11px; color:var(--dim); margin-left:auto; }
+
+  /* ── layout ── */
+  .wrap { max-width:860px; margin:0 auto; padding:16px 20px 100px; }
+
+  .notice {
+    background:#eff6ff; border:1px solid #bfdbfe; border-radius:6px;
+    padding:9px 14px; margin-bottom:18px;
+    font-size:12px; color:#1e40af;
+    display:flex; align-items:center; gap:6px; flex-wrap:wrap;
+  }
+  .notice strong { font-weight:700; }
+  .notice code   { font-family:'Courier New',monospace; font-size:11px;
+                   background:#dbeafe; padding:1px 5px; border-radius:3px; }
+
+  /* ── act / scene divisions ── */
+  .tei-act   { margin-top:40px; }
+  .tei-scene { margin-top:24px; }
+
+  .act-head {
+    font-size:11px; font-weight:700; text-transform:uppercase;
+    letter-spacing:.08em; color:var(--dim);
+    padding:6px 0 8px; border-bottom:1px solid var(--border);
+    margin-bottom:8px;
+  }
+
+  /* ── stage directions ── */
+  .stage-dir {
+    font-style:italic; color:var(--dim); font-size:13px;
+    padding:4px 10px 4px 144px; margin:4px 0;
+  }
+  .stage-inline { font-style:italic; color:var(--dim); font-size:13px; }
+
+  /* ── speech cards ── */
+  .sp-card {
+    display:grid; grid-template-columns:120px 1fr; gap:0 12px;
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:6px; padding:6px 10px; margin:3px 0;
+    box-shadow:0 1px 2px rgba(0,0,0,.04);
+  }
+  .sp-card.target {
+    background:#eff6ff;
+    border-color:var(--accent);
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+    scroll-margin-top:35vh;
+  }
+  .sp-who  { font-style:italic; color:var(--dim); font-size:12px; padding-top:2px;
+             white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .sp-text { font-size:14px; line-height:1.65; min-width:0; }
+  .sp-p    { margin:0 0 3px; }
+  .sp-p:last-child { margin-bottom:0; }
+  .sp-lg   { margin:2px 0; }
+  .sp-l    { line-height:1.55; }
+
+  /* ── block-level p (outside sp) ── */
+  .block-p { font-size:13px; color:var(--dim); font-style:italic; margin:4px 0; }
+</style>
+</head>
+<body>
+<div class="pg-head">
+  <h1>${esc(title)}</h1>
+  ${author ? `<span class="by">${esc(author)}</span>` : ''}
+  <span class="fn">${esc(file.name)}</span>
+</div>
+<div class="wrap">
+  <div class="notice">
+    ↓ Scrolled to first appearance of
+    <strong>${esc(targetWho)}</strong>
+    <code>${esc(targetWhom)}</code>
+  </div>
+  ${content}
+</div>
+</body>
+</html>`;
+
+  const blob = new Blob([html], { type: 'text/html' });
+  const url  = URL.createObjectURL(blob);
+  window.open(url + '#' + anchor, '_blank');
+  setTimeout(() => URL.revokeObjectURL(url), 300000);
 }
 
 function renderSpeakersColumn(file) {
@@ -797,7 +1081,7 @@ function renderSpeakersColumn(file) {
 
   if (!speakers.length) { body.appendChild(Object.assign(document.createElement('p'), { className: 'empty', textContent: 'No speakers found' })); return; }
 
-  for (const { id, count, printedNames, snippets } of speakers) {
+  for (const { id, count, printedNames, firstSp } of speakers) {
     const matched = idSet.has(id);
     const item    = document.createElement('div');
     item.className = 'sp-item';
@@ -841,7 +1125,7 @@ function renderSpeakersColumn(file) {
       item.appendChild(warn);
     }
 
-    if (printedNames.length || snippets.length) {
+    if (printedNames.length || firstSp) {
       const ctx = document.createElement('div');
       ctx.className = 'sp-context';
       if (printedNames.length) {
@@ -850,11 +1134,13 @@ function renderSpeakersColumn(file) {
         names.textContent = printedNames.join(' · ');
         ctx.appendChild(names);
       }
-      for (const s of snippets) {
-        const snip = document.createElement('div');
-        snip.className = 'sp-snippet';
-        snip.textContent = s.length >= 70 ? s + '…' : s;
-        ctx.appendChild(snip);
+      if (firstSp) {
+        const link = document.createElement('a');
+        link.className = 'sp-locus';
+        link.textContent = '↗ ' + getSpLocus(firstSp);
+        link.href = '#';
+        link.onclick = e => { e.preventDefault(); openFullPlay(file, firstSp); };
+        ctx.appendChild(link);
       }
       item.appendChild(ctx);
     }
@@ -914,6 +1200,7 @@ function togglePersonType(file, xid, newType) {
 }
 
 function renamePersonId(file, oldId, newId) {
+  _invalidateSpeakers(file);
   const el = findPersonEl(file, oldId);
   if (!el) return;
   el.setAttributeNS(XML_NS, 'xml:id', newId);
@@ -933,6 +1220,7 @@ function deletePerson(file, xid) {
 }
 
 function mergeSpeakerWho(file, fromId, toId) {
+  _invalidateSpeakers(file);
   // Snapshot state for undo
   const record = { fromId, toId, personElClone: null, spoils: [] };
   const personEl = findPersonEl(file, fromId);
@@ -957,6 +1245,7 @@ function mergeSpeakerWho(file, fromId, toId) {
 
 function undoLastMerge(file) {
   const record = file.mergeHistory.pop();
+  _invalidateSpeakers(file);
   if (!record) return;
 
   // Restore all @who values
@@ -1068,8 +1357,7 @@ function updateToolbar() {
   const total = allFiles.length;
   document.getElementById('stats').textContent = total ? `${total} file${total > 1 ? 's' : ''} · ${mod} modified` : '';
   const dlMod = document.getElementById('dlModBtn');
-  const dlAll = document.getElementById('dlAllBtn');
-  dlMod.style.display = dlAll.style.display = total ? '' : 'none';
+  dlMod.style.display = total ? '' : 'none';
   document.getElementById('mod-count').textContent = mod;
   dlMod.disabled = mod === 0;
 }
