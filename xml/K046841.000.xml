@@ -7,14 +7,14 @@
 <extent>xi,[5],103,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by G. Woodfall, for T. N. Longman,</publisher><date>1795.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT51491.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE TOWN BEFORE YOU, A COMEDY, AS ACTED AT THE THEATRE-ROYAL, COVENT-GARDEN.</p>
 <p>BY MRS. COWLEY.</p>
 <p>LONDON: PRINTED BY G. WOODFALL, FOR T. N. LONGMAN, PATERNOSTER-ROW.</p>
 <p>1795.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <pb facs="3"/>
 <head>TO MRS. FRUSHARD, CALCUTTA.</head>
@@ -28,8 +28,8 @@ reach'd the British shores. Their reputation now echoes back again to those of t
 in this sort of concealment—at length you are unveil'd!</p>
 <p>I am unable to measure the extent of my private obligations to you; but may this public acknowledgement of them convince you that they throb in my heart, and that I must be</p>
 <closer><signed>Ever, MADAM, Your faithfully devoted, H. COWLEY.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="6"/>
 <head>PREFACE.</head>
 <p>THE following is rather the Comedy which the Public have chosen it to be, than the Comedy which I intended. Some things have been left out, and some have been added since the first representation: In short, the Comedy has been <hi>new class'd</hi>—it has been torn from its genus.</p>
@@ -42,8 +42,8 @@ in this sort of concealment—at length you are unveil'd!</p>
 WIT, LESSON! and to teach our Writers to respect their own talents.</p>
 <p>What mother can now lead her daughters to the great National School, THE THEATRE, in the confidence of their receiving either polish or improvement? Should the luckless Bard stumble on a reflection, or a sentiment, the audience yawn, and wait for the next tumble from a chair, or a tripping up of the heels, to put them into attention. Surely I shall be forgiven for satirising myself; I have <hi>made</hi> such things, and I blush to have made them.</p>
 <p>O! GENIUS of a polish'd age, descend!—plant thy banners in our Theatres, and bid ELEGANCE and FEELING take place of the <hi>droll</hi> and the <hi>laugh,</hi> which formerly were found only in the Booths of <hi>Bartlemy</hi> Fair, and were divided between <hi>Flocton</hi> and <hi>Yates!</hi> With actors capable of giving force to all that is intellectual, is it not <hi>pity</hi> to condemn them to such drudgery? THEY are no longer necessary. Let Sadler's Wells and the Circus empty themselves of their performers to furnish our Stage; the expence to Managers will be less, and their business will be carried on better. The UNDERSTANDING, DISCERNMENT, and EDUCATION, which distinguish our modern actors, are useless to them;—strong muscles are in greater repute, and grimace has more powerful attraction.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE,</head>
 <sp>
@@ -107,8 +107,8 @@ WIT, LESSON! and to teach our Writers to respect their own talents.</p>
 <l>And to your wills, our Host, and House, resign'd.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>PERSONS OF THE DRAMA.</head>
 <list>
@@ -153,13 +153,13 @@ WIT, LESSON! and to teach our Writers to respect their own talents.</p>
 <label>LADY HORATIA's SERVANT</label>
 <item><hi>Miss Leserve.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="12"/>THE TOWN BEFORE YOU, A COMEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A plain Apartment, with a few Books.</hi></stage></head>
 <stage>FANCOURT <hi>sits reading—Mrs.</hi> FANCOURT <hi>at work at some distance.</hi></stage>
 <sp>
@@ -327,8 +327,8 @@ There is some difference between sharing one's last two-pence with a friend, and
 <stage>Exit.</stage></p>
 </sp>
 <stage>Mrs. Fancourt goes out on the opposite side, with an air of abhorrence.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="6" facs="17"/>
 <head>SCENE II.—<stage><hi>A Square.</hi></stage></head>
 <stage><hi>Enter</hi> HUMPHREY <hi>(searching his pockets).</hi></stage>
@@ -379,8 +379,8 @@ why, I took you for a curnel, or a coptain, or a great knight belonging to a pri
 <p>Fine teaste! Dad! we cut this morning for breakfast the finest pork griskin I ever teasted in my life. Come with me down the eary steps, and I'll give ye a bit with fresh mustard that shall put your teaste in tune for the whole day.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>An elegant Apartment (within).</hi></stage></head>
 <stage><hi>Enter Sir</hi> ROBERT, <hi>followed by a Servant.</hi></stage>
 <sp>
@@ -612,8 +612,8 @@ find us out to be mere bumpkins. When shall I be presented?</p>
 from the corruption of DISSIPATION!
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage>ASGILL's <hi>Lodgings.</hi></stage></head>
 <stage>CONWAY <hi>enters, preceded by a Servant.</hi></stage>
 <sp>
@@ -835,13 +835,13 @@ never shall her delicacy be insulted by seeing a <hi>beggar</hi> court her to hi
 But what can I do? bred to no profession, knowing nothing; ignorant of every art by which independence, or even <hi>bread</hi> may be obtained; I am thrown a vagabond upon the world. O! my too indulgent Uncle, when you sent me to Cambridge, had you placed me, rather, in a counting-house, I might now have been in a situation to have soften'd all your afflictions—instead of which—O, horror! my soul sickens—my head is dizzy—I sink to death.
 <stage>Goes off reeling.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="31"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Lodging House.</hi></stage></head>
 <stage>TIPPY <hi>walks hastily across the stage, and almost goes off—Mrs.</hi> BULLRUSH <hi>follows him.</hi></stage>
 <sp>
@@ -900,8 +900,8 @@ Good morning!
 <p>Nay, this is too bad—stop— stop!
 <stage>Runs after him with her handkerchief up.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>St. James's Street.—the Palace, Fruit Shop, &amp;c.</hi></stage></head>
 <stage>FANCOURT <hi>is discovered in the fruit-shop, talking to the mistress, and eating fruit. He looks through the window.</hi></stage>
 <sp>
@@ -1215,8 +1215,8 @@ In short, we must have him—so here goes— "the girl we love!" Thus, <hi>I</hi
 <p>Well, now to him who is rich in expedients, of what consequence is being pennyless? Let gross, plodding spirits dig and labour; it is ours to gather the fruit.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>Lady</hi> HORATIA's <hi>Drawing-room.</hi></stage></head>
 <stage><hi>Enter</hi> HUMPHREY, <hi>with Georgina's dress hanging on his arm; Maid meets him.</hi></stage>
 <sp>
@@ -1241,8 +1241,8 @@ In short, we must have him—so here goes— "the girl we love!" Thus, <hi>I</hi
 <p>School! Zooks, I am glad to hear great folks go to school. Some of them, mayhap, may larn better manners.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>A large, elegant Apartment, with various Pieces of Sculpture, Statues, Urns, &amp;c.</hi></stage></head>
 <stage><hi>Lady</hi> CHARLOTTE <hi>walks down from the top, viewing the statues.</hi></stage>
 <sp>
@@ -1609,8 +1609,8 @@ And where is he now?</p>
 <p>She flies! O happy omen! let her but dread me, and I have advanced one step; if she fears to love me, the business is half compleated.
 <stage>Going off with an air of triumph.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>A Counting-House.</hi></stage></head>
 <stage><hi>Enter</hi> SIR SIMON <hi>and</hi> PERKINS.</stage>
 <sp>
@@ -1701,13 +1701,13 @@ O! my father!
 <p>Yes, I think I will go; and if I find her worthy my SIDNEY—O! but she cannot be worthy! birth, and beauty and riches are all fine things; but when put into the scale against such innate goodness; such an upright mind; such rectitude of character, it is weighing jewels against dross!
 <stage>Exeunt.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="39" facs="50"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage>FANCOURT's.</stage></head>
 <stage><hi>Enter</hi> FANCOURT, <hi>singing with a careless air, followed by Mrs.</hi> FANCOURT.</stage>
 <sp>
@@ -1813,8 +1813,8 @@ not for your body, but for your mind. I have something that shall pierce your sp
 O! how has necessity hardened his heart! Yes, poverty, thou hast a thousand ills besides thy nakedness and want! But this young creature shall not be its victim. I must try to save her—I feel it a duty, and will not be deterr'd.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>The Room of statues, at Lady</hi> HORATIA's.</stage></head>
 <stage><hi>Enter Sir</hi> SIMON ASGILL, <hi>followed by a servant.</hi></stage>
 <sp>
@@ -2007,8 +2007,8 @@ And she is very handsome? cruel Georgina! and I shall appear to Sidney Asgill, m
 <p>Why, what can the matter be? I certainly have done something wrong. But to be sure she will not marry a beggar; and yet I don't know—perhaps she may; one hears for ever of the whims of fine ladies, who sit and contrive what odd thing they shall do, to surprize the town with next.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="46" facs="57"/>
 <head>SCENE III.—<stage><hi>A Drawing Room at</hi> SIR ROBERT's.</stage></head>
 <stage>A noise without, of scolding.</stage>
@@ -2256,8 +2256,8 @@ Well, Miss, I'll carry you there to-morrow. But Sir Robert must not know it.</p>
 <p>O! you old— if you'd had wit enough for to have put a proper value on my charms, I would have taken every care about your daughter off your hands;—but I'll be revenged for all your tricks! here I have been spending anxious days, and sleepless nights, for two years;—making up the smartest caps of wash'd gauze and dyed ribbons;—buying new braids of hair, of a nice nut brown—and all without being able to touch the old goose, any more than if his heart was made of leather. But I'll match you! since you will not make <hi>me</hi> your wife, I'll give your daughter a husband; and if you should die of the mortification, I know where to find a place to dance on.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.—<stage>ASGILL<hi>'s Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> ASGILL <hi>and</hi> CONWAY.</stage>
 <sp>
@@ -2391,13 +2391,13 @@ the names of MONTAGUE, HARVEY, and HUTT!</p>
 Now, all my debts paid, and a few guineas in my pocket, I quit my country; but I quit her, to serve her! O! may the boundless blessings of heaven descend upon her; may <hi>my</hi> arm contribute to restore peace to her; and may GLORY and MONARCHY be hers, till time shall be no more!
 <stage>Exit.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="57" facs="68"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>Lady</hi> HORATIA's <hi>Drawing-room.</hi></stage></head>
 <stage>She enters with rapidity and disorder, then turns, and speaks.</stage>
 <sp>
@@ -2479,8 +2479,8 @@ weak! My reputation is in your hands— preserve it as you wou'd your own life a
 <p>I accept the glorious deposit, and I will deserve the trust. What grace can dignity of soul bestow! The very conduct which from a vulgar mind would disgust, from such elegance and virtue becomes fascinating. Now, Asgill, I will dare to seek thee; and I will pour such transport on thy heart, as shall make thee confess, the hour of thy poverty the most blessed of thy life.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II—<stage><hi>Sir</hi> ROBERT FLOYER's <hi>Library.</hi></stage></head>
 <stage><hi>Enter Sir</hi> ROBERT <hi>in a hurry, followed by a Servant.</hi></stage>
 <sp>
@@ -2630,8 +2630,8 @@ Sir Robert, your servant.</p>
 begums, nabobs, Patna rice—Sir Robert, your servant—mighty short!
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>The square.</hi></stage></head>
 <stage><hi>Mrs.</hi> FANCOURT, <hi>dressed as a Savoyard, enters, winding a hurdy gurdy, attended by two children, the one with a tambour, the other with a cymbal.</hi></stage>
 <sp>
@@ -2697,8 +2697,8 @@ Take up l'argent, ma petite, and put it in votre poche—Bless your charité. La
 Come, come—make haste.
 <stage>They enter.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>Changes to the Drawing-room.</hi></stage></head>
 <stage>GEORGINA <hi>enters, followed by Mrs.</hi> FANCOURT <hi>and</hi> JENNY.</stage>
 <sp>
@@ -2845,8 +2845,8 @@ yes, I think I will—I
 will carry it—I will see Jack in petticoats once more.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.—<stage><hi>St. James's Park.</hi></stage></head>
 <stage>TIPPY <hi>walking backwards and forwards with an air of great uneasiness</hi>—FANCOURT <hi>appears.</hi></stage>
 <sp>
@@ -3155,13 +3155,13 @@ it will be as good as dining with a Dutchess.</p>
 <p>Here then we go—jest, mirth and pleasure inspire us!</p>
 </sp>
 <stage>They take Sir Robert between them and go off, wave their hats, and huzza.</stage>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="75" facs="86"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage>TIPPY's <hi>Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> Mrs. BULLRUSH, <hi>bringing in the Gown she wore in the first scene, work bag, &amp;c.</hi></stage>
 <sp>
@@ -3226,8 +3226,8 @@ perhaps—
 Mrs. Bullrush—Mrs. Bullrush! oh!
 <stage>(<hi>goes off trembling and frighten'd</hi>).</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage>SIR SIMON ASGILL's <hi>Counting-Houses.—He is seated, looking melancholy and oppress'd.</hi></stage></head>
 <stage>PERKINS <hi>enters—he looks at</hi> SIR SIMON <hi>with great concern.</hi></stage>
 <sp>
@@ -3562,8 +3562,8 @@ Why, what's in the wind to-day, Perkins! I affront every one who comes near me, 
 <p>Dear Sir, any taste is better than <hi>no</hi> taste, and a lady who employs her thoughts and her chissel on works of art, is, at least, <hi>not idle</hi>; and, therefore, as Doctor Johnson says, not in the way of being wicked.
 <stage>Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="84" facs="95"/>
 <head><stage>SCENE <hi>changes to</hi> SIR ROBERT's <hi>Drawing-Room.</hi></stage></head>
 <stage><hi>Enter</hi> TIPPY, <hi>with</hi> HUMPHREY.</stage>
@@ -3850,8 +3850,8 @@ My dear Georgina, I wish thou hadst either a mother, <hi>or</hi> a husband!</p>
 <p>O! I wish he may discover her, for I shall cherish burning gratitude towards her, to the last hour of my existence! My dear Sir, I feel like one of our little Welch kids at home, trembling on the brink of a monstrous precipice, when its sond parent appears, and guides back its feeble steps, to crop the flow'ry herbage in safety.</p>
 </sp>
 <stage>Led out by her father.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="90" facs="101"/>
 <head>SCENE—<stage><hi>Lady</hi> HORATIA's <hi>Drawing-room.</hi></stage></head>
 <stage><hi>She enters, meeting Sir</hi> SIMON.</stage>
@@ -3990,8 +3990,8 @@ Portsmouth, where he had entered himself on board a man of war before the mast!<
 <p>Come along, come along! It shall be the best day William ever saw.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage>FANCOURT's.</stage></head>
 <stage><hi>Enter</hi> FANCOURT, <hi>followed by Mrs.</hi> FANCOURT.</stage>
 <sp>
@@ -4120,8 +4120,8 @@ This sudden surprise has overpowered me. On whose account do I see you?</p>
 Come, gentlemen, let us follow the lady. Bear witness that I am a polite husband to the last.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>Sir</hi> ROBERT<hi>'s Drawing-room.</hi></stage></head>
 <stage>He enters with a troubled air.</stage>
 <sp>
@@ -4291,8 +4291,8 @@ Be of good heart, my boy! The foe is numerous, but weak. Conquest and pillage ar
 I am glad you are off! These gentlemen have given me some amusement, together with some experience, and it has cost me only one thousand pounds —a cheap bargain!
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="100" facs="111"/>
 <head>SCENE—<stage><hi>Lady</hi> HORATIA's <hi>Drawing-room.</hi></stage></head>
 <stage><hi>Lady</hi> HORATIA <hi>enters, accompanied by Lady</hi> CHARLOTTE.</stage>
@@ -4396,12 +4396,12 @@ and sail before the mast, wherever she bids her cannon roar, or her proud pendan
 <stage>(<hi>Advancing forward</hi>)</stage>
 Ah! repose on <hi>us!</hi> And when you look on the gallant spirits, who do honour to this habit, let every fear subside; for, whilst the sea flows, and English sailors are <hi>themselves,</hi> ENGLAND MUST BE THE MISTRESS OF THE GLOBE!</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="115"/>
 <head>EPILOGUE, MISS WALLIS.</head>
 <l>THROUGH five long Acts—a pretty decent swing—</l>
@@ -4438,8 +4438,7 @@ Ah! repose on <hi>us!</hi> And when you look on the gallant spirits, who do hono
 <l>Nor stoop to borrow tinsel'd, <hi>foreign</hi> glare—</l>
 <l>Yet never shall your Household Deities frown,</l>
 <l>Though you should steal an hour, to see—THE TOWN!</l>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

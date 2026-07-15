@@ -7,14 +7,14 @@
 <extent>[2],29,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed in the year,</publisher><date>1779.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Charles Macklin.</note><note>The words "Love .. mode" are woodcut.</note><note>Drop-head title: 'Love a-la-mode: a comedy'.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT119854.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>A NEW COMEDY.</p>
 <p><hi>Love A-LA-Mode</hi> IN TWO ACTS.</p>
 <p>LONDON: Printed in the Year M, DCC, LXXIX.</p>
 <p><hi>PRICE SIX-PENCE.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2" ana="y"/>
 <pb facs="3" ana="y"/>
 <head>Dramatis Personae.</head>
@@ -28,14 +28,13 @@
 <item>SERVANT</item>
 <item>CHARLOTTE</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4" ana="y"/>
 <pb n="v" facs="5"/>
 <head>LOVE A-LA-MODE: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage><hi>Enter</hi> Sir Theodore <hi>and</hi> Charlotte.</stage>
 <sp>
@@ -663,8 +662,8 @@ You are sensible my family is as old as any in the three kingdoms, and older too
 <stage>Exeunt,</stage></l></p>
 </sp>
 <trailer>END of the FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
 <stage><hi>Enter Sir</hi> Archy <hi>and</hi> Charlotte.</stage>
 <sp>
@@ -1245,13 +1244,12 @@ that is a good critic, and writes a legible hand upon impertinent authors.</p>
 <speaker>Sir <hi>Theo.</hi></speaker>
 <p>And an honest man rewarded.</p>
 </sp>
-</div2>
+</div>
 <trailer><hi>FINIS.</hi>
 <l>Amongst all the COMEDIES, FARCES, and PLAYS;</l>
 <l>There's none of more humour, appear'd in our days,</l>
 <l>Nor given such pleasure, at home and abroad;</l>
 <l>Like this pleasant COMEDY, LOVE A-LA-MODE.</l></trailer>
-</div1>
 </body>
 </text>
 </TEI>

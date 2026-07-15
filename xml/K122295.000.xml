@@ -7,7 +7,7 @@
 <editionStmt><edition>The third edition.</edition></editionStmt><extent>[2],iii,[3],80,[4]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1762.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Joseph Cradock.</note><note>Based on Voltaire's 'Les Scythes'.</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCT180966.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>ZOBEIDE. A TRAGEDY. As it is Acted at the THEATRE-ROYAL in COVENT-GARDEN.</p>
 <l>—deserta per ardua dulcis</l>
@@ -15,8 +15,8 @@
 <bibl>VIRG.</bibl>
 <p>THE THIRD EDITION.</p>
 <p>LONDON: Printed for T. CADELL in the Strand. MDCCLXII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE RIGHT HONOURABLE LADY SCARSDALE.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -27,8 +27,8 @@ But contraband traffick brings many a good trade into disrepute, and a fair deal
 I had said TOO LITTLE, and your LADYSHIP still more unjustly have censured me, for having said TOO MUCH.</p>
 <p>I have the honour to be, with the greatest regard,</p>
 <closer><signed>Your LADYSHIP's Sincere friend, and Obliged servant, J. CRADOCK.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Written by Dr. GOLDSMITH.
@@ -72,8 +72,8 @@ There Mangroves spread, and larger than I've seen 'em— <stage>(Pit.)</stage></
 <l>Equally fit for gallantry and war.</l>
 <l>What no reply to promises so ample?</l>
 <l>I'd best step back—and order up a sample.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -99,14 +99,14 @@ There Mangroves spread, and larger than I've seen 'em— <stage>(Pit.)</stage></
 </list></item>
 <item>SCYTHIANS, PERSIANS.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="8" ana="y"/>
 ZOBEIDE. A TRAGEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>The SCENE represents rocks and trees, with a distant view of the river Oxus.</stage>
 <stage>HERMODON, INDATER, Scythians.</stage>
 <sp>
@@ -478,12 +478,12 @@ His breast seems lab'ring with some weighty grief;</l>
 <l>That gilds or darkens all my future days.</l>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="14" facs="21"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>ZOBEIDE, SULMA.</stage>
 <sp>
 <speaker>SULMA.</speaker>
@@ -921,12 +921,12 @@ And die with holy freedom—Lead on, my friends—</l>
 <l>From heaven he pardon hopes, from man demands it.</l>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="28" facs="35"/>
 <head>ACT III. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>ATHAMAND, HASAN.</stage>
 <sp>
 <speaker>ATHAMAND.</speaker>
@@ -1382,12 +1382,12 @@ What think you? O return with Athamand!</l>
 <l>And crown these conflicts with immortal glory.</l>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="44" facs="51"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>ATHAMAND, HASAN.</stage>
 <sp>
 <speaker>ATHAMAND.</speaker>
@@ -1925,12 +1925,12 @@ No pow'r shall drag me to my native land,</l>
 <l>Or shield me from the horrors that surround me.</l>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="62" facs="69"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>HERMODON, ZOBEIDE, SEYFEL, SCYTHIANS.</stage>
 <sp>
 <speaker>ZOBEIDE.</speaker>
@@ -2257,8 +2257,8 @@ You firmly urge, not Scythians dare renounce</l>
 <l>Laurels which fade not, gems which can't decay.</l>
 <stage>[Dead march.]</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="73" facs="82"/>
 <head>SCENE the last.</head>
 <stage>HERMODON, SEYFEL, ZOBEIDE, SCYTHIANS.</stage>
@@ -2503,12 +2503,12 @@ The groans of all my country plead against me,</l>
 <l>Mercy usurps the rigid seat of justice,</l>
 <l>And weeps in mournful tribute o'er their graves.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIFTH ACT.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="90"/>
 <head>EPILOGUE.</head>
 <byline>By Mr. MURPHY. Spoken by Mrs. YATES.</byline>
@@ -2577,7 +2577,7 @@ Poor fool! she doubts; says No: the Husband dies:</l>
 <l>Drop one kind tear; give him that slender token;</l>
 <l>And hither come, till the <hi>Pantheon</hi> open.</l>
 </lg>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

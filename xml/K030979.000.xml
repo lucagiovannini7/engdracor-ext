@@ -7,21 +7,21 @@
 <extent>[4],48p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1785.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Elizabeth Inchbald.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT22306.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="note">
+<div type="note">
 <pb facs="1"/>
 <p>ADVERTISEMENT.</p>
 <p>THE Passages between inverted Commas, are necessarily omitted in Representation. The third Song in the third Act is written by a Friend of the Author's, and two others have before appeared in Print.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>Appearance is against Them. A FARCE, IN TWO ACTS, AS IT IS ACTED AT THE THEATRE ROYAL, <hi>COVENT GARDEN.</hi></p>
 <p>LONDON: PRINTED FOR G. G. J. AND J. ROBINSON, PATERNOSTER ROW, 1785.</p>
-</div1>
-<div1 type="copyright">
+</div>
+<div type="copyright">
 <pb facs="3"/>
 <p>Entered at Stationers Hall.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -79,8 +79,8 @@ Will you, gay Gods, refuse your broad-brim'd smile,</l>
 <l>I see you're kind—our thanks are due for that;</l>
 <l>I find you've not forgot—"I'll tell you what."</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <item><label>Mr. Walmsley,</label> Mr. QUICK:</item>
@@ -99,15 +99,14 @@ Will you, gay Gods, refuse your broad-brim'd smile,</l>
 <item><label>Betty,</label> Mrs. DAVENETT.</item>
 <item><label>Fish,</label> Mrs. WILSON.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>Appearance is against Them.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Miss ANGLE <hi>and</hi> FISH <hi>discovered.</hi></stage>
 <sp>
@@ -406,8 +405,8 @@ and will sleep at her cousin's, Lady Beach's—her maid told me so in the mornin
 <speaker>FISH.</speaker>
 <p>Dear madam! I am sure it is not in half the danger as when it was in the great storm! <stage>(Pulling her off.)</stage> <stage>(Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="10" facs="15"/>
 <head>SCENE II.</head>
 <stage>A Chamber at <hi>Lord LIGHTHEAD's.</hi></stage>
@@ -643,8 +642,8 @@ as well as you? And yet, I dare say, you never heard of my being caught gallanti
 <speaker>Lord LIGHTH.</speaker>
 <p>Hush! Hush! <stage>(Exeunt, forcing her off.)</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>A Bed-chamber, <hi>WALMSLEY</hi> discovered listening at the door.</stage>
 <sp>
@@ -842,8 +841,8 @@ Faith, I'm very glad she did.—Richard— <stage>(Enter Servant.)</stage> Bring
 <speaker>Lord LIGHTH.</speaker>
 <p>Egad, it came back at a very lucky time!—Her Ladyship doats upon a present! and such a present as that!—Such a shawl!—Oh yes—the shawl will make her friends with me at once. <stage>(Exit.)</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>An Inn. <hi>CLOWNLY</hi> discovered.</stage>
 <sp>
@@ -957,10 +956,10 @@ Fine clothes, in your box there, and plenty of money.—I never heard of a woman
 <p>Ay, Sir, and I'll ride behind it, for fear I should get struck again.—'Tis very odd that any lady should wish to strike me.</p>
 <stage>(Exeunt.)</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="27" facs="32"/>
 <head>ACT II.</head>
 <stage>Miss ANGLE's <hi>Apartments.</hi></stage>
@@ -1833,9 +1832,8 @@ which (admitting what he profess'd to me real) he himself wou'd have rejoiced at
 <speaker>WALMSLEY.</speaker>
 <p>Very true.—Even I myself at one time made no very innocent figure.—These adventures shall then be a warning to us, never to judge with severity, while the parties have only appearances against them.</p>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

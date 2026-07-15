@@ -7,15 +7,15 @@
 <extent>[8],52p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1757.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By David Garrick.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT38887.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE
 MALE-COQUETTE:
 OR,
 Seventeen Hundred Fifty-Seven.</p>
 <p>(Price One Shilling.)</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE
 MALE-COQUETTE:
@@ -29,8 +29,8 @@ In DRURY-LANE.</p>
 <p><hi>LONDON:</hi>
 Printed for P. VAILLANT, facing <hi>Southampton-Street,</hi>
 in the <hi>Strand.</hi> MDCCLVII.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="3"/>
 <p>THE following Scenes were written with
 no other View than to serve Mr. <hi>Woodward</hi>
@@ -45,8 +45,8 @@ But the more indulgent Public, perhaps,
 will excuse his Endeavours to please them, when
 they shall know, that the Performance was
 plan'd, written, and acted in less than a Month.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN AND SPOKEN
@@ -102,8 +102,8 @@ While, conscious you, shall start and roar—</l>
 <l>His Muse, he vows, on you shall wait,</l>
 <l>In Seventeen Hundred Fifty-eight.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -144,14 +144,14 @@ While, conscious you, shall start and roar—</l>
 <label><hi>Lady</hi> Fanny Pewit </label>
 <item><hi>Mrs.</hi> Bradshaw.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7"/>THE
 MALE-COQUETTE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter ARABELLA, and SOPHIA in Men's Cloaths.</stage>
 <sp>
 <speaker>ARABELLA.</speaker>
@@ -1515,12 +1515,12 @@ he has done my Petticoats.—</p>
 <stage>Exit.</stage>
 </sp>
 <trailer>End of the FIRST ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="28" facs="34"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Mrs. DAMPLY'S Lodgings.</stage></head>
 <stage>Enter ARABELLA and SOPHIA.</stage>
 <sp>
@@ -1679,8 +1679,8 @@ among 'em.</p>
 those poor Wretches will be disappointed.</p>
 <stage>[Exit <hi>Arab.</hi></stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE, The Club-Room.</stage>
 <stage>Lord RACKET, Sir TAN-TIVY, Sir WILLIAM
 WHISTER, SPINNER writing, and DAFFODIL.</stage>
@@ -2926,8 +2926,8 @@ detest and shun these Destroyers of your Reputation—</p>
 <l>That marks the Want of Manhood, Virtue, Sense,
 and Shame.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

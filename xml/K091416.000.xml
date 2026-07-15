@@ -7,13 +7,13 @@
 <extent>76p. ; 12⁰.</extent><publicationStmt><publisher>printed for J. Bragg,</publisher><date>1792.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Thomas Holcroft.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT114203.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE ROAD TO RUIN: A COMEDY.</p>
 <p>AS ACTED AT THE <hi>LONDON and DUBLIN THEATRES.</hi></p>
 <p>DUBLIN; Printed for J. BRAGG, Crow-Street, 1792.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. FAWCET.</byline>
@@ -52,8 +52,8 @@
 </lg>
 </sp>
 <stage>[Exit.</stage>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE,</head>
 <list>
@@ -83,16 +83,15 @@
 <item>Mantua-maker,</item>
 </list>
 <p>N. B. The passages marked with double commas are omitted in representation.</p>
-</div1>
+</div>
 <set><p>SCENE, London. Time not twenty-four hours.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE ROAD TO RUIN.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I. <stage>The House of DORNTON.</stage></head>
 <stage>Mr. DORNTON <hi>alone.</hi></stage>
 <sp>
@@ -447,8 +446,8 @@
 <speaker>Dorn.</speaker>
 <p>Don't mind his knocking! Go to bed every foul of you instantly, and fall fast asleep!—He shall starve in the streets! <stage>[Knocking again]</stage> Fetch me my blunderbuss! Make haste! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to the Street before the Door.</stage></head>
 <stage>Harry DORNTON, MILFORD, and Postillions.</stage>
 <sp>
@@ -523,8 +522,8 @@
 <speaker>Mil.</speaker>
 <p>No, It won't do,</p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to the former Apartment.</stage></head>
 <stage>Enter HARRY DORNTON, MILFORD, and Footman,</stage>
 <sp>
@@ -1211,11 +1210,11 @@ Re-enter HARRY DORNTON.</stage>
 </lg>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT. II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I, <stage>The House of the Widow WARREN.</stage></head>
 <stage>JENNY and Mrs LEDGER.</stage>
 <sp>
@@ -2389,8 +2388,8 @@ mail—Come in full speed!—Rattle down the gateway!—Take care of your heads!
 <speaker>Har.</speaker>
 <p>Done, done! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to the Parlour of the Tennis-court.</stage></head>
 <stage>Markers passing and repassing with Rackets and Balls.</stage>
 <stage>Sheriff's Officer, two Followers, and one of the Markers</stage>
@@ -2617,8 +2616,8 @@ Enter HARRY DORNTON, MILFORD, in haste.</stage>
 <p>Hands off, scoundrels! <stage>[shout]</stage> Fiends!</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to the House of <hi>Mr Silky.</hi></stage></head>
 <stage>A Room of Business, Ledger, Letter-files, Ink-stand, &amp;c.</stage>
 <stage><hi>SILKY</hi> discovered and <hi>JACOB</hi> entering.</stage>
@@ -3030,11 +3029,11 @@ Enter HARRY DORNTON, MILFORD, in haste.</stage>
 <p>Must have 'em. <stage>[Exeunt</stage></p>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT. III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I, <stage>The House of the Widow WARREN,</stage></head>
 <stage>JENNY and SOPHIA meeting.</stage>
 <sp>
@@ -3722,8 +3721,8 @@ or no ruts—Never take a false quarter—No, no, widow—I drive—hayait!—Ah
 <speaker>Wid.</speaker>
 <p>Mr Goldfinch!—I declare— <stage>[Exit following.]</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to the House of DORNTON.</stage></head>
 <stage>Mr. DORNTON, and Mr SMITH.</stage>
 <sp>
@@ -4177,8 +4176,8 @@ by the great—you flourished prosperously!—But you had a son!—I remember it
 <speaker>Dorn.</speaker>
 <p><stage>[Calling and almost sobbing]</stage> Harry,—Harry, I am very happy,—Harry Dornton! <stage>[In a kind of stupor]</stage> I am very happy,—Very happy. <stage>[Exit following,</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to the House of Mr SILKY.</stage></head>
 <stage>Mr SILKY and JACOB.</stage>
 <sp>
@@ -4434,11 +4433,11 @@ and supported me at the critical moment! And now I can defy the world,</p>
 him Give my very best respects to him! He will oblige me infinitely! Fly! <stage>[Exit First Clerk]</stage> And go you, James, to the clearing house, and get it whispered among the clerks. Then if there are any of Dornton's bills to be bought at fifty per cent. discount, let me know. I will buy up all I can— <stage>[Exit Clerk]</stage> It's a safe speculation: I know the house: there must be a good round dividend. <stage>[Exit</stage></p>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT. IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I, <stage>The House of the Widow WARREN,</stage></head>
 <stage>Enter <hi>JENNY</hi> followed by <hi>Harry Dornton,</hi> who with an oppressed heart, but half drunk with wine and passion, assumes the appearance of wild and excessive gaiety.</stage>
 <sp>
@@ -4993,8 +4992,8 @@ The old lady is to be my blooming, youthful bride!—And I, happy youth, am writ
 <speaker>Gold.</speaker>
 <p>Here's a kick up. What's all this? Must have her or smash!—Smirker <stage>[Pointing after Jenny]</stage> will tell me what it means!—Smart thing for a light weight. Spirit, shape, and form—Carry a fine neck in a running martingale—Shews blood—Win all the give and takes—Take her into training—Match her the Abingdon mile against all England—That's your sort! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to an Apartment at the House of a Sheriff's Officer.</stage></head>
 <stage><hi>Enter</hi> HARRY DORNTON in the same hurry and Officer.</stage>
 <sp>
@@ -5195,8 +5194,8 @@ Enter <hi>OFFICER</hi> with papers and writs,</stage>
 <speaker>Mil.</speaker>
 <p><stage>[Astonishment]</stage> What then it was Mr. Dornton? <stage>[Officer bows]</stage> Madman! What have I done! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to the House of DORNTON.</stage></head>
 <stage>Enter HARRY DORNTON, followed by Mr. SMITH.</stage>
 <sp>
@@ -5521,11 +5520,11 @@ Enter <hi>OFFICER</hi> with papers and writs,</stage>
 <p>Curse compliments, make haste. <stage>[Exeunt</stage></p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT. V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>The Widow WARREN'S, SOPHIA and JENNY meeting.</stage></head>
 <sp>
 <speaker>JENNY.</speaker>
@@ -6244,8 +6243,8 @@ the secret—Lay it on thick—Seven hundred to five Favourite against the field
 <speaker>Mil.</speaker>
 <p>Fifty thousand to Silky for his consent because of some deed, some writing?—If it should be the—? It must!—By heaven it must! <stage>[Exit hastily.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to the Ring in Hyde Park.</stage></head>
 <stage><hi>HARRY DORNTON,</hi> looking at his watch.</stage>
 <sp>
@@ -6361,8 +6360,8 @@ Hey! Who is this? <stage>[Surveying Mr Dornton]</stage> Pray—Sir—Is your nam
 <speaker>Dorn.</speaker>
 <p>What you will, Harry! Do with me what you will—Oh who would not be a father <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to the House of the Widow Warren.</stage></head>
 <stage>Enter <hi>MILFORD</hi> and Mr <hi>SULKY.</hi></stage>
 <sp>
@@ -6702,9 +6701,8 @@ your avarice, you made it believed that this gentleman had been the cause of lod
 <p>The proposal is just. Listen to that worthy man; and if you can, be honest with a good grace. Every thing will then be readily adjusted, and I hope to the satisfaction of all parties.</p>
 <stage>[Exeunt omnes</stage>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

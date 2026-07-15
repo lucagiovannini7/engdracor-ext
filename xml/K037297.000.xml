@@ -7,19 +7,19 @@
 <extent>vii,[1],83,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1779.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The author of Percy = Hannah More, who signs the dedication.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT35431.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <pb facs="2" ana="y"/>
 <p>THE FATAL FALSEHOOD: A TRAGEDY. AS IT IS ACTED AT THE THEATRE-ROYAL, IN COVENT-GARDEN. BY THE AUTHOR OF PERCY.</p>
 <p>LONDON: PRINTED FOR T. CADELL, IN THE STRAND. M DCC LXXIX.</p>
 <p>(Price One Shilling and Six Pence.)</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <p>TO COUNTESS BATHURST, THIS TRAGEDY, IS VERY RESPECTFULLY INSCRIBED, AS A SMALL TRIBUTE TO HER MANY VIRTUES; AND AS A GRATEFUL TESTIMONY OF THE FRIENDSHIP WITH WHICH SHE HONOURS</p>
 <closer><signed>HER MOST OBEDIENT, AND MOST OBLIGED, HUMBLE SERVANT, H. MORE.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written by the AUTHOR,</byline>
@@ -53,8 +53,8 @@
 <l>Your candour once endur'd our Author's lays,</l>
 <l>Endure them now—that will be ample praise.</l>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="5"/>
 <head>EPILOGUE.</head>
 <byline><hi>Written by R. B. SHERIDAN, <abbr>Esq</abbr></hi></byline>
@@ -130,8 +130,8 @@ A moral Essay now is all her care,</l>
 <l>And gave the greenest laurel that is worshipp'd there.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -146,16 +146,15 @@ A moral Essay now is all her care,</l>
 <item><label>Emmelina,</label> Miss Young.</item>
 <item><label>Julia,</label> Mrs. Hartley.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Earl Guildford's Castle.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE FATAL FALSEHOOD: A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>an Apartment in Guildford Castle.</stage></head>
 <stage>Enter BERTRAND.</stage>
 <sp>
@@ -710,12 +709,12 @@ Gaz'd, and forgot the tender Emmelina,</l>
 </sp>
 <stage>Exit.</stage>
 <trailer>End of the First Act.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="14" facs="21"/>
 <head>ACT THE SECOND.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> JULIA <hi>and</hi> EMMELINA.</stage>
 <sp>
 <speaker>JULIA.</speaker>
@@ -1320,13 +1319,13 @@ Which never had a birth? is she not mine?</l>
 <l>Were treason to her beauty, and my love.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="28" facs="35"/>
 <head>ACT THE THIRD.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a Garden.</stage></head>
 <sp>
 <speaker>EMMELINA.</speaker>
@@ -2073,12 +2072,12 @@ That single folly shall weigh down the balance,</l>
 <l>They wanted wit to form, and souls to dare.</l>
 </sp>
 <trailer>End of the Third Act.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="46" facs="53"/>
 <head>ACT THE FOURTH.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>an Apartment.</stage></head>
 <sp>
 <speaker>EMMELINA.</speaker>
@@ -2885,12 +2884,12 @@ Then where's the harm? Orlando is a lord,</l>
 </sp>
 <stage>Exit.</stage>
 <trailer>End of the Fourth Act.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="65" facs="72"/>
 <head>ACT THE FIFTH.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>the Garden.</stage></head>
 <sp>
 <speaker>BERTRAND.</speaker>
@@ -3133,8 +3132,8 @@ Then where's the harm? Orlando is a lord,</l>
 <l>I had been terrified. Oh conscience! conscience!</l>
 </sp>
 <stage>Exit Orlando.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="71" facs="78"/>
 Scene changes to another part of the Garden. A grand Pavilion. The moon shining.</stage>
 <stage><hi>Enter</hi> RIVERS <hi>in a melancholy attitude.</hi></stage></head>
@@ -3235,8 +3234,8 @@ Scene changes to another part of the Garden. A grand Pavilion. The moon shining.
 <l>The scene of joys which never may return.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to another Part of the Garden.</stage></head>
 <stage><hi>Re-enter</hi> ORLANDO.</stage>
 <sp>
@@ -3363,8 +3362,8 @@ Scene changes to another part of the Garden. A grand Pavilion. The moon shining.
 <l>My genius drives me on—Julia, I come.</l>
 </sp>
 <stage>Runs off.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="76" facs="83"/>
 SCENE, <stage><hi>the Pavilion.</hi></stage></head>
 <stage><hi>An arch'd Door, through which</hi> JULIA <hi>and her Maid come forward on the Stage.</hi></stage>
@@ -3712,12 +3711,11 @@ SCENE, <stage><hi>the Pavilion.</hi></stage></head>
 <stage>Dies.</stage>
 <stage>The curtain falls to soft music.</stage>
 <trailer>End of the Fifth Act.</trailer>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="bythesameauthor">
+<div type="bythesameauthor">
 <pb facs="91"/>
 <head>Lately published, by the same Author.</head>
 <list>
@@ -3729,8 +3727,7 @@ SCENE, <stage><hi>the Pavilion.</hi></stage></head>
 <item><label>VI.</label> The Inflexible Captive, a Tragedy. 3d edition, 1s 6d.</item>
 </list>
 <p>Printed for T. Cadell in the Strand.</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

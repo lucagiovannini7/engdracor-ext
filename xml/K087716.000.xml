@@ -7,14 +7,14 @@
 <extent>vii,[1],68p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Robson,</publisher><date>1794.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT109238.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE <hi>SIEGE OF BERWICK,</hi> A TRAGEDY, BY MR. JERNINGHAM: AS PERFORMED AT THE <hi>Theatre-Royal, Covent-Garden.</hi></p>
 <p><hi>LONDON:</hi> PRINTED FOR J. ROBSON, NEW BOND STREET.</p>
 <p>M.DCC.XCIV.</p>
 <p>[Price 1 <hi>s.</hi> 6 <hi>d.</hi>]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <pb facs="3"/>
 <head>TO MRS. POPE.</head>
@@ -22,14 +22,14 @@
 <p>THIS Tragedy is so much indebted to You, that it naturally shelters itself under Your name, even when it is presented to the Reader.—Accustomed as the Public is to your superior talents, the judges of acting felt themselves impressed upon this occasion with a display of new and unacquainted excellencies.</p>
 <p><pb facs="4"/>While I am paying this just homage to you, I beg to express my sense of obligation to the Gentlemen who performed in this Play.</p>
 <closer><signed>I am, With the Sentiments of the highest Esteem, Your obedient humble Servant, EDWARD JERNINGHAM.</signed></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb n="v" facs="5"/>
 <head>ADVERTISEMENT.</head>
 <p>IN the Reign of EDWARD the Third, Sir Alexander Seaton refused to surrender the town of BERWICK, even at the Peril of losing his two Sons; who being taken prisoners in a sally, were threatened with immediate death, unless the town was delivered up.</p>
 <bibl>See Abercromby's Martial Atchievements, vol. ii. p. 29.</bibl>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="vi" facs="6"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY THE AUTHOR;
@@ -76,8 +76,8 @@ And Spoken by MR. HARLEY.</byline>
 <l>Rush on the scene, and combat for your praise.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>CHARACTERS.</head>
 <list>
@@ -90,15 +90,14 @@ And Spoken by MR. HARLEY.</byline>
 <item><label>JULIANA,</label> <hi>Mrs. FAWCETT.</hi></item>
 <item>HERALD, &amp;c.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="9"/>
 <head><hi>THE</hi> SIEGE OF BERWICK.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Sir</hi> ALEXANDER, ARCHIBALD, VALENTINE.</stage>
 <sp>
 <speaker>SIR ALEXANDER.</speaker>
@@ -765,12 +764,12 @@ And Spoken by MR. HARLEY.</byline>
 <stage>Exeunt.</stage>
 </sp>
 <trailer><hi>End of the</hi> FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="28"/>
 <head>ACT THE SECOND.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> ETHELBERTA <hi>and</hi> JULIANA.</stage>
 <sp>
 <speaker>ETHELBERTA.</speaker>
@@ -1426,12 +1425,12 @@ And Spoken by MR. HARLEY.</byline>
 <stage>Exeunt.</stage>
 </sp>
 <trailer><hi>End of the</hi> SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="39" facs="47"/>
 <head>ACT THE THIRD.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> ETHELBERTA <hi>and</hi> JULIANA.</stage>
 <sp>
 <speaker>ETHELBERTA.</speaker>
@@ -1752,8 +1751,8 @@ And Spoken by MR. HARLEY.</byline>
 <l>I might include the safety of my children.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the Enemy's Camp.</hi></stage></head>
 <stage><hi>Enter</hi> ETHELBERTA <hi>and</hi> ANSELM.</stage>
 <sp>
@@ -1887,8 +1886,8 @@ And Spoken by MR. HARLEY.</byline>
 <l>We obey.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE.—<stage><hi>The place where pillars are erected; men with ropes, &amp;c.</hi></stage></head>
 <sp>
 <speaker>FIRST MAN.</speaker>
@@ -2106,12 +2105,12 @@ And Spoken by MR. HARLEY.</byline>
 <stage><hi>Exit with</hi> ANSELM.</stage>
 </sp>
 <trailer><hi>End of the</hi> THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="59" facs="67"/>
 <head>ACT THE FOURTH.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE.—<stage><hi>The Archers mounted on the walls, expecting the word of command.</hi></stage></head>
 <stage><hi>Enter</hi> SIR ALEXANDER, JULIANA, DONALDSON.</stage>
 <sp>
@@ -2346,12 +2345,11 @@ And Spoken by MR. HARLEY.</byline>
 <stage>Exeunt.</stage>
 </sp>
 <trailer><hi>End of the</hi> FOURTH <hi>and</hi> LAST ACT.</trailer>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="75"/>
 <head>The EPILOGUE.</head>
 <byline>WRITTEN BY THE AUTHOR,
@@ -2420,7 +2418,7 @@ AND SPOKEN BY MRS. POPE.</byline>
 <l>Extend your worth, and consecrate your fame!</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

@@ -7,14 +7,14 @@
 <extent>vii,[1],64p. ; 4⁰.</extent><publicationStmt><publisher>printed for J. Dodsley,</publisher><date>1767.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Richard Bentley, the Younger.</note><note>Verse.</note><note>Variant; in some copies the titlepage has "Price half a crown" below the imprint.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT1731.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>PHILODAMUS. A TRAGEDY.</p>
 <quote>As the principal Design of Tragedy is to raise Commiseration and Terror in the Minds of the Audience, we shall defeat this great End, if we always make Virtue and Innocence happy and successful.</quote>
 <bibl>SPECTATOR.</bibl>
 <p>LONDON: Printed for J. DODSLEY in PALL-MALL. MDCCLXVII. [Price half a Crown.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="iii" facs="2"/>
 <head>TO * *</head>
 <opener><salute>MADAM,</salute></opener>
@@ -30,8 +30,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <p><pb n="vii" facs="6"/>The author of <hi>Philodamus</hi> has the honour to be, with the most profound respect and veneration,</p>
 <closer><salute>MADAM,</salute>
 <signed>* * * * * YOUR * most devoted, most obedient, and most humble servant.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7" ana="y"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -49,15 +49,15 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <item>EUPHEMIA, her Friend.</item>
 <item>Aruspex, Augur, Soldiers, Servants, Minstrels.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Lampsacus, a City of Asia on the Hellespont.</p>
 <p>An Apartment in PHILODAMUS'S Palace.</p></set>
 </front>
 <body>
 <head><pb facs="8"/>PHILODAMUS. A TRAGEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>PHILODAMUS, EARINUS.</stage>
 <sp>
@@ -129,8 +129,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>For more particulars.</l>
 </sp>
 <stage><hi>Exit</hi> Earinus.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>PHILIPPUS, PHILODAMUS.</stage>
 <sp>
@@ -255,8 +255,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>Which you'll soon learn. Order your sister hither.</l>
 </sp>
 <stage><hi>Exit</hi> Philippus.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>PHILODAMUS.</speaker>
@@ -275,8 +275,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>The core consum'd by worms and rottenness,</l>
 <l>The juice we hop'd so racy turn'd to bitterness.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>PHILODAMUS, ERATO.</stage>
 <stage>PHILODAMUS, ERATO.</stage>
@@ -469,8 +469,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>All our magnificence to 's greedy eye.</l>
 </sp>
 <stage><hi>Exit</hi> Philodamus.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>ERATO.</speaker>
@@ -482,8 +482,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>This trouble at him, whom I us'd to meet</l>
 <l>With transport, yet be mistress of myself?</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>EPICRATES, ERATO.</stage>
 <sp>
@@ -546,8 +546,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>There I have not a fear. But see! Philippus.</l>
 <l>What mean his downcast look, and haggard eye?</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>PHILIPPUS, EPICRATES, ERATO.</stage>
 <sp>
@@ -705,13 +705,13 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <stage>[To Erato.]</stage>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
+</div>
 <trailer>End of ACT I.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="21"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>PHILODAMUS, EARINUS.</stage>
 <sp>
@@ -738,8 +738,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>And do not know our diet? So, be gone.</l>
 </sp>
 <stage><hi>Exit</hi> Earinus.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>PHILODAMUS, ERATO.</stage>
 <sp>
@@ -842,8 +842,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>What I would wish kept from the ears of men.</l>
 </sp>
 <stage><hi>Exit</hi> Philodamus.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>ERATO.</speaker>
@@ -852,8 +852,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>Or he will jointly try to move my father,</l>
 <l>Or soften our sad errand in the telling.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="17" facs="24"/>
 <head>SCENE IV.</head>
 <stage>PHILIPPUS, EUPHEMIA.</stage>
@@ -1053,8 +1053,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>She's gone! she's lost for ever! Oh, my brain!</l>
 </sp>
 <stage>Ex.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>PHILODAMUS.</speaker>
@@ -1071,8 +1071,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>It shall be mended. Erato, Epicrates,</l>
 <l>Hark ye, a word.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Enter ERATO, EPICRATES.</stage>
 <sp>
@@ -1089,8 +1089,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>Oh, happy change! how I shall bless Philippus!</l>
 </sp>
 <stage>Ex.</stage>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="22" facs="29"/>
 <head>SCENE VII.</head>
 <stage>EPICRATES, PHILODAMUS.</stage>
@@ -1180,8 +1180,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>To hasten hither, and to make this house</l>
 <l>Her place of residence—Oh! here they come.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="24" facs="31"/>
 <head>SCENE VII.</head>
 <stage>PHILODAMUS, EUPHEMIA, PHILIPPUS, EPICRATES.</stage>
@@ -1231,13 +1231,13 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>That gives you to each other, once and ever.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
+</div>
 <trailer>End of ACT II.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="25" facs="32"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>VERRES'S Palace.</stage>
 <stage>RUBRIUS, APRONIUS, SESTIUS.</stage>
@@ -1384,8 +1384,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <speaker>SESTIUS.</speaker>
 <l>Hush! here the legate comes.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>VERRES, APRONIUS, RUBRIUS, SESTIUS.</stage>
 <sp>
@@ -1589,8 +1589,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>And gives me more than promises. Come on.</l>
 </sp>
 <stage><hi>Exeunt</hi> Verres <hi>and</hi> Rubrius.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>SESTIUS, APRONIUS.</stage>
 <sp>
@@ -1608,8 +1608,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>In us, 'tis to commem'rate our progenitors.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>PHILODAMUS'S House.</stage>
 <stage>PHILODAMUS, EPICRATES, PHILIPPUS, ERATO, EUPHEMIA.</stage>
@@ -1978,8 +1978,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>Now for my best face,</l>
 <l>That it mark no resentment to my guest.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>RUBRIUS.</speaker>
@@ -2035,13 +2035,13 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>I attend upon you.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
+</div>
 <trailer>End of ACT III.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="40" facs="47"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>RUBRIUS, APRONIUS, SESTIUS fuddled.</stage>
 <sp>
@@ -2066,8 +2066,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>We'll try again; and, while they spunge the tables,</l>
 <l>Take care you call for wine. Oh! here they are.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter PHILODAMUS and VERRES.</stage>
 <sp>
@@ -2283,8 +2283,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>To pledge me to the health of this new Helen.</l>
 </sp>
 <stage><hi>Exeunt all but</hi> Sestius <hi>and</hi> Philodamus.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>SESTIUS, PHILODAMUS.</stage>
 <sp>
@@ -2330,8 +2330,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <l>Tut! never doubt them.</l>
 </sp>
 <stage><hi>Exit</hi> Sestius.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>PHILODAMUS, EARINUS.</stage>
 <sp>
@@ -2366,8 +2366,8 @@ and indulgent of parents; and receives to its utmost boundary the effects of tha
 <stage>[<hi>Exit</hi> Earinus.]</stage>
 I've liv'd to blush at my own species!</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="46" facs="53"/>
 <head>SCENE V.</head>
 <stage>APRONIUS, PHILODAMUS.</stage>
@@ -2405,8 +2405,8 @@ I've liv'd to blush at my own species!</l>
 <l>Well, I go.—What dogs are men!</l>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>APRONIUS.</speaker>
@@ -2417,8 +2417,8 @@ I've liv'd to blush at my own species!</l>
 <l>Were dogs to speak, they would invert the phrase;</l>
 <l>When they reproach each other—Ho! Cornelius!</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="47" facs="54"/>
 <head>SCENE VII.</head>
 <stage>Enter CORNELIUS.</stage>
@@ -2491,8 +2491,8 @@ I've liv'd to blush at my own species!</l>
 <l>Detested wretch! stop thy vile speech—Ye Gods!</l>
 <l>I see Philippus, my deliv'rer, comes!</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VII.</head>
 <stage>Enter EPICRATES, PHILIPPUS, and servants, <hi>arm'd.</hi></stage>
 <sp>
@@ -2557,8 +2557,8 @@ I've liv'd to blush at my own species!</l>
 </sp>
 <stage>Dies.</stage>
 <stage>Bustle within.</stage>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE VII.</head>
 <stage>PHILODAMUS, PHILIPPUS.</stage>
 <sp>
@@ -2786,13 +2786,13 @@ All-ruling Power!</l>
 <l>And deal out wrong, secure of punishment.</l>
 </sp>
 <stage>Exit.</stage>
-</div2>
+</div>
 <trailer>End of ACT IV.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="53" facs="60"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>DOLABELLA, VERRES.</stage>
 <sp>
@@ -2935,8 +2935,8 @@ All-ruling Power!</l>
 <l>Make room!</l>
 <l>Give way, there, to the prisoners.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter PHILODAMUS, EPICRATES, PHILIPPUS, <hi>and Audience.</hi></stage>
 <stage>Philippus <hi>starts on seeing</hi> Verres.</stage>
@@ -3090,8 +3090,8 @@ All-ruling Power!</l>
 <speaker>3d Guard.</speaker>
 <l>Lead off the prisoners.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>DOLABELLA,</speaker>
@@ -3137,8 +3137,8 @@ All-ruling Power!</l>
 <l>But for authority I'd still been honest.</l>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>PHILODAMUS, PHILIPPUS, <hi>going to execution.</hi> EPICRATES, <hi>Guards, &amp;c.</hi></stage>
 <sp>
@@ -3433,8 +3433,8 @@ All-ruling Power!</l>
 </lg>
 </sp>
 <stage>Exit, the bodies carried before him.</stage>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>The END.</trailer>
 </body>
 </text>

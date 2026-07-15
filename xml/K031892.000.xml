@@ -7,21 +7,21 @@
 <editionStmt><edition>The second edition.</edition></editionStmt><extent>[12],70,[2]p. : ill. ; 12⁰.</extent><publicationStmt><publisher>printed for W. Meres and F. Clay,</publisher><date>1724.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Susanna Cent-Livre, i.e. Centlivre.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT25992.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 <p>J. Clark</p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>A Bold Stroke for a WIFE: A COMEDY; As it is Acted at the THEATRE ROYAL IN LINCOLN'S-INN-FIELDS.</p>
 <p>By the Author of the BUSIE-BODY and the GAMESTER.</p>
 <quote>Omnia Vincit Amor.</quote>
 <p>The SECOND EDITION.</p>
 <p><hi>LONDON:</hi> Printed for W. MERES and F. CLAY, without <hi>Temple-Bar.</hi> MDCCXXIV. [Price One Shilling.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>To His Grace <hi>PHILIP,</hi> DUKE and MARQUIS of <hi>WHARTON,</hi> &amp;c.</head>
 <opener><salute>MY LORD,</salute></opener>
@@ -41,8 +41,8 @@ That Your Grace has a high Esteem for Learning, particularly appears by the larg
 I wish I were capable to cloath the following Scenes in such a Dress, as might be worthy to appear before Your Grace, and draw Your Attention as much as Your Grace's admirable Qualifications do that of all Mankind; but the Muses, like most Females, are least liberal to their own Sex.</p>
 <p>All I dare say in Favour of this Piece is, that the Plot is entirely New, and the Incidents wholly owing to my own Invention; not borrow'd from our own, or translated from the Works of any Foreign Poet; so that they have at least the Charm of Novelty to recommend 'em: If they are so lucky in some leisure Hour to give Your Grace the Least Diversion, they will answer the utmost Ambition of, my Lord,</p>
 <closer><signed>Your GRACE's most Obedient, Most Devoted, and Most Humble Servant, SUSANNA CENT-LIVRE.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="8"/>
 <head>RROLOGUE,</head>
 <byline>By a GENTLEMAN.</byline>
@@ -81,8 +81,8 @@ I wish I were capable to cloath the following Scenes in such a Dress, as might b
 <l>Then will you let our Manufacture fall?</l>
 <l>Would you the Honour of our Nation raise,</l>
 <l>Keep <hi>English</hi> Credit up, and <hi>English</hi> Plays.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>Dramtis Personae.</head>
 <p><table>
@@ -139,13 +139,13 @@ I wish I were capable to cloath the following Scenes in such a Dress, as might b
 </row>
 </table></p>
 <p>Footmen, Drawers, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="11"/>A Bold Stroke for a WIFE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>SCENE a Tavern.</stage></head>
 <stage><hi>Colonel Fainwell</hi> and <hi>Freeman</hi> over a Bottle.</stage>
 <sp>
@@ -456,8 +456,8 @@ he admires nothing but new Fashions, and those must be <hi>French;</hi> loves Op
 <l><hi>And he that runs the Risque, deserves the Fair.</hi></l>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Prim</hi>'s House.</stage></head>
 <stage>Enter Mrs. <hi>Lovely</hi> and her Maid <hi>Betty.</hi></stage>
 <sp>
@@ -545,13 +545,13 @@ out of the Power of your Guardians: If he does, I am sure he deserves your Fortu
 <l><hi>Point all thy Darts to aid my Love's Design,</hi></l>
 <l><hi>And make his Plots as prevalent as thine.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the First ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="10" facs="22"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE 1. <stage>SCENE the <hi>Park.</hi></stage></head>
 <stage>Enter <hi>Colonel</hi> finely drest, three Footmen after him.</stage>
 <sp>
@@ -869,8 +869,8 @@ You do me too much Honour, Sir <hi>Philip.</hi></p>
 <p>The best-bred Man in <hi>Europe,</hi> positively. </p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to <hi>Obediah Prim</hi>'s House.</stage></head>
 <stage>Enter Mrs. <hi>Lovely,</hi> follow'd by Mrs. <hi>Prim.</hi></stage>
 <sp>
@@ -1247,13 +1247,13 @@ is, prosper it Heaven;—but oh! I fear thou never canst redeem me.</p>
 <speaker>Col.</speaker>
 <p>I hope to bite you all, if my Plots hit. <stage>[Aside.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="23" facs="35"/>
 <head>ACT. III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>SCENE the Tavern;</stage></head>
 <stage><hi>Sackbut,</hi> and the <hi>Colonel</hi> in an <hi>Aegyptian</hi> Dress.</stage>
 <sp>
@@ -1964,13 +1964,13 @@ dispatch my Business, I'll wait on you; I know your Hour.</p>
 <l><hi>Now must Bob-Wig and Business come in Play,</hi></l>
 <l><hi>And a fair Thirty Thousand Pounder leads the Way.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Third ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="36" facs="48"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>SCENE, <hi>Jonathan's</hi> Coffee-House in <hi>Exchange-Alley.</hi> Crowd of People with Rolls of Paper and Parchment in their Hands; a Bar, and Coffee-Boys waiting.</stage></head>
 <stage>Enter <hi>Tradelove,</hi> and <hi>Stockjobbers</hi> with Rolls of Paper and Parchment.</stage>
 <sp>
@@ -2285,8 +2285,8 @@ You'll come to <hi>Sackbut</hi>'s, <hi>Freeman.</hi></p>
 <p>Sir, your humble Servant. Now I'll see what I can do upon Change with my News.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE the Tavern.</stage></head>
 <stage>Enter <hi>Freeman</hi> and <hi>Colonel.</hi></stage>
 <sp>
@@ -2543,8 +2543,8 @@ Shall I find you here, <hi>Freeman,</hi> when I come back?</p>
 <p>Ha, ha, ha—he has it.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="45" facs="57"/>
 <head><stage>SCENE changes to <hi>Periwinkle</hi>'s House.</stage></head>
 <stage>Enter <hi>Periwinkle</hi> on one Side, and <hi>Footman</hi> on t'other.</stage>
@@ -2726,8 +2726,8 @@ have travell'd over all the known Parts of the Globe, and made my own Closet Riv
 <l><hi>That Men, 'till Doom's Day, may repeat my Name.</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a Tavern; <hi>Freeman</hi> and <hi>Tradelove</hi> over a Bottle.</stage></head>
 <sp>
 <speaker>Trade.</speaker>
@@ -2937,13 +2937,13 @@ Bid your Master come up—I'll see there be Witnesses enough to the Bargain. <st
 <l><hi>A Soldier makes the simplest Puritan.</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Fourth ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="52" facs="64"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>SCENE <hi>Prim</hi>'s House.</stage></head>
 <stage>Enter Mrs. <hi>Prim,</hi> and Mrs. <hi>Lovely</hi> in Quakers Dress, meeting.</stage>
 <sp>
@@ -3978,11 +3978,11 @@ this Lady brings me, whenever my Country wants my Aid, this Sword and Arm are at
 <l><hi>'Tis Liberty of Choice that sweetens Life,</hi></l>
 <l><hi>Makes the glad Husband, and the happy Wise.</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="83"/>
 <head>EPILOGUE,</head>
 <byline>Written by Mr. SEWELL.</byline>
@@ -4022,9 +4022,8 @@ No—my ambitious Spirit's far above</l>
 <l>As if it for its Fellow's Frailties pray'd.</l>
 <l>But yet I hope, for all that I have said,</l>
 <l>To find my Spouse a Man of War in Bed.</l>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>
-
 </TEI>

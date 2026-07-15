@@ -7,15 +7,15 @@
 <extent>58,[2]p. ; 12⁰.</extent><publicationStmt><publisher>printed for the proprietor,</publisher><date>1766 [1767?]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By David Garrick.</note><note>Possibly printed in Dublin.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34538.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>CYMON.</p>
 <p>A DRAMATIC ROMANCE.</p>
 <p>As it is performed at the THEATRE-ROYAL, in DRURY-LANE.</p>
 <l>—SOLI CANTARE PERITI</l><l>ARCADES.</l><bibl>Virg.</bibl>
 <p>LONDON: Printed for the PROPRIETOR. M.DCC.LXVI.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <list>
 <head>Dramatis Personae.</head>
@@ -52,15 +52,15 @@
 <label>DORCAS,</label>
 <item>Mrs. BRADSHAW.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, ARCADIA.</p></set>
 </front>
 <body>
 <head><pb facs="3"/>CYMON.</head>
 <head type="sub">A DRAMATIC ROMANCE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>URGANDA'S</hi> Palace.</stage></head>
 <stage>Enter <hi>MERLIN</hi> and <hi>URGANDA.</hi></stage>
 <sp>
@@ -642,11 +642,11 @@ Then he mop'd, and he pin'd,</l>
 <l>Nothing's like thee!</l>
 </lg>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>A Rural Prospect.</stage></head>
 <stage>Enter two Shepherdesses.</stage>
 <sp>
@@ -925,8 +925,8 @@ Then he mop'd, and he pin'd,</l>
 </lg>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a rural prospect. <hi>Sylvia</hi> discover'd, lying upon a bank.</stage></head>
 <stage>Enter <hi>Merlin.</hi></stage>
 <sp>
@@ -1231,12 +1231,12 @@ O la!—What's here!—'Tis something drop'd from the Heavens sure, and yet 'tis
 <stage>[Each pressing their Hearts.</stage>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="26" facs="24"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>before <hi>Urganda's</hi> Palace.</stage></head>
 <stage>Enter <hi>Urganda</hi> and <hi>Fatima.</hi></stage>
 <sp>
@@ -1544,8 +1544,8 @@ your own, and you had a right to give it away, or throw it away.</p>
 </lg>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Dorcas's</hi> Cottage.</stage></head>
 <stage><hi>Sylvia</hi> at the door with <hi>Cymon's</hi> nosegay in her hand.</stage>
 <sp>
@@ -1702,8 +1702,8 @@ your own, and you had a right to give it away, or throw it away.</p>
 </lg>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Magistrate's House.</stage></head>
 <stage>Enter <hi>Dorus</hi> and Second Shpherdess.</stage>
 <sp>
@@ -2013,12 +2013,12 @@ worship—I hate the sight of her—I cou'd tear her nasty eyes out. <stage>[Exi
 </lg>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="41" facs="39"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>an old Castle.</stage></head>
 <stage>Enter <hi>URGANDA</hi> greatly agitated.</stage>
 <sp>
@@ -2057,8 +2057,8 @@ worship—I hate the sight of her—I cou'd tear her nasty eyes out. <stage>[Exi
 <stage>Demons arise and perform their rites.</stage>
 </sp>
 <stage>Then <hi>Exeunt,</hi> with <hi>Urganda</hi> at their head.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Country.</stage></head>
 <stage>Enter <hi>LINCO,</hi> drawing in <hi>DAMON</hi> and <hi>DORILAS.</hi></stage>
 <sp>
@@ -2207,8 +2207,8 @@ This, this is my way,</l>
 </lg>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>another Part of the Country.</stage></head>
 <stage>Enter <hi>FATIMA.</hi></stage>
 <sp>
@@ -2360,8 +2360,8 @@ This, this is my way,</l>
 </lg>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Enter <hi>Cymon</hi> and <hi>Sylvia</hi> (arm in arm.)</stage></head>
 <sp>
 <speaker>Cym.</speaker>
@@ -2569,9 +2569,9 @@ This, this is my way,</l>
 <l>No magick like virtue, like <hi>Virtue</hi> and <hi>Love!</hi></l>
 </lg>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
 <head>SCENE, <stage>a Grotto.</stage></head>
 <stage>Enter <hi>URGANDA</hi> and <hi>FATIMA.</hi></stage>
@@ -3040,11 +3040,11 @@ and no more inconstancy, Jealousy, or coquetry from this day.—The best purifie
 </lg>
 </sp>
 <stage>A Dance of <hi>Arcadian</hi> Shepherds and shepherdesses.</stage>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="prologue">
+<div type="prologue">
 <pb facs="57"/>
 <head>PROLOGUE, for New Years Day.</head>
 <stage>Spoken by Mr. <hi>KING.</hi></stage>
@@ -3096,8 +3096,8 @@ and no more inconstancy, Jealousy, or coquetry from this day.—The best purifie
 <l>If you but smile, I'm firm, if frown, I stumble—</l>
 <l>Scarce well of <hi>one,</hi> spare me a <hi>second</hi> tumble.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="58"/>
 <head>EPILOGUE,</head>
 <byline>Written by <hi>GEORGE KEATE,</hi> <abbr>Esq</abbr></byline>
@@ -3149,7 +3149,7 @@ and no more inconstancy, Jealousy, or coquetry from this day.—The best purifie
 <l>If this fair circle smile—and the <hi>gods</hi> thunder,</l>
 <l>I with this wand will heep the critics under.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

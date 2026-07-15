@@ -7,14 +7,14 @@
 <extent>[12], 54, [2] p. ; 4⁰.</extent><publicationStmt><publisher>printed for John Barber on Lambeth-hill, and sold by Benj. Tooke at the Middle-Temple Gate, Henry Clements in St. Paul's Church-yard, and John Walthoe, jun. over-against the Royal Exchange Cornhill,</publisher><date>1717.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With an epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT38771.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p><pb facs="2"/>
 LUCIUS, THE FIRST Christian King of <hi>Britain.</hi> A TRAGEDY. As it is Acted at the THEATRE-ROYAL in <hi>Drury-Lane.</hi> BY His MAJESTY's Servants.</p>
 <p>By Mrs. <hi>MANLEY.</hi></p>
 <p><hi>LONDON: Printed for</hi> John Barber <hi>on</hi> Lambeth-hill, <hi>and sold by</hi> Benj. Tooke <hi>at the Middle-Temple Gate,</hi> Henry Clements <hi>in St.</hi> Paul's <hi>Church-yard, and</hi> John Walthoe, <hi>jun. over-against the</hi> Royal Exchange, Cornhill, 1717.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3" ana="y"/>
 <pb facs="4"/>
 <head>TO Sir <hi>RICHARD STEELE.</hi></head>
@@ -26,16 +26,16 @@ and Success of this TRAGEDY, are infallible Testimonies of the Candour and Frien
 Actions of Yours in Publick, which unhappy Prejudices made, as little expected from You, as the Zeal and Sollicitude which You shew'd for my private Interests in the Success of this PLAY. I shall say no more, trusting to the Gallantry of Your Temper for further Proofs of Friendship; and allowing You, like a true Woman, all the good Qualities in the World now I am Pleas'd with You, as well as I gave You all the ill One's when I was Angry with You: I remain with the greatest Truth,</p>
 <closer><salute>SIR,</salute>
 <signed>Your most humble, most faithful, and most oblig'd Servant, De la Rivier Manley.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="7"/>
 <head>THE PREFACE.</head>
 <p><hi>I</hi> Cannot suffer this <hi>PLAY</hi> to pass into the World, without expressing my Gratitude to the Ladies, who, in such a distinguishing Manner, graced and supported it. So much Beauty and good Nature, could not fail of rend'ring that Person happy, for whose Benefit they were employ'd: I think my self infinitely bless'd in their Smiles, since I can be sensible of no greater Glory, than to hear, that I have had the Honour to Please Them.</p>
 <p>TO tell the World that Mr. <hi>Booth</hi> and Mrs. <hi>Oldfield's</hi> Action was admirable, in the Parts of <hi>LUCIUS</hi> and <hi>ROSALINDA,</hi> is saying nothing New; they are so us'd to Charm the Audience, and Delight the best Judges of the Theatre: However, I beg leave to make them my publick Acknowledgments, and to please my self with what I have heard reported of their Performance in this <hi>PLAY,</hi> which is, That tho' they have
 <pb facs="8"/>
 often shin'd in several greater Parts, yet, none ever became them better. Mr. <hi>Booth's</hi> masterly and graceful Action supported <hi>LUCIUS;</hi> whilst Mrs. <hi>Oldfield's</hi> Charms, and enchanting Manner, gave Life and Beauty to the <hi>QUEEN.</hi></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE,</head>
 <byline>By Sir RICHARD STEELE.</byline>
@@ -73,8 +73,8 @@ The Boxes are Your own—the Thing is hit,</l>
 <l>With Her Success, and Disappointment, move,</l>
 <l>On the just Laws of Empire, and of Love!</l>
 </lg>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="11"/>
 <head>PROLOGUE.</head>
 <byline>By a Young GENTLEMAN.</byline>
@@ -119,8 +119,8 @@ You must have Scandal, Politicks, and Traps,</l>
 <l>As You are Fair, our Author hopes to find,</l>
 <l>You can Forgive, and then You will be Kind.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="13"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -152,14 +152,14 @@ You must have Scandal, Politicks, and Traps,</l>
 <list>
 <item><hi>Flamens,</hi> Guards, Soldiers.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene the Capital of <hi>AQUITAIN.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="14"/>LUCIUS.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub">The <hi>PALACE-GARDEN.</hi></head>
 <stage><hi>Enter</hi> Lucius <hi>and</hi> Arminius.</stage>
 <sp>
@@ -587,12 +587,12 @@ Of all her vast Retinue she can trust.</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
 <trailer>End of the First Act.</trailer>
-</div2>
-</div1>
-<div1 type="act">
+</div>
+</div>
+<div type="act">
 <pb n="9" facs="22"/>
 <head>ACT II. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub">The <hi>Queen</hi> and <hi>Irene.</hi></head>
 <sp>
 <speaker>Irene.</speaker>
@@ -1139,12 +1139,12 @@ As we had done for thee, if thou had'st needed.</l>
 <stage>[Exeunt omnes,</stage>
 </sp>
 <trailer>The End of the Second Act.</trailer>
-</div2>
-</div1>
-<div1 type="act">
+</div>
+</div>
+<div type="act">
 <pb n="19" facs="32"/>
 <head>ACT III. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter King <hi>Vortimer</hi> and <hi>Arminius.</hi></stage>
 <sp>
 <speaker>K. <hi>Vor.</hi></speaker>
@@ -1949,12 +1949,12 @@ What, have they bargain'd to divide her Favours?</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
 <trailer>The End of the Third Act.</trailer>
-</div2>
-</div1>
-<div1 type="act">
+</div>
+</div>
+<div type="act">
 <pb n="33" facs="46"/>
 <head>ACT IV. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub">A FOREST.</head>
 <stage>Enter <hi>Lucius</hi> alone.</stage>
 <sp>
@@ -2595,12 +2595,12 @@ Enter <hi>Irene</hi> haistily.</stage>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>The End of the Fourth Act.</trailer>
-</div2>
-</div1>
-<div1 type="act">
+</div>
+</div>
+<div type="act">
 <pb n="44" facs="57"/>
 <head>ACT V. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>The Outer-part of the Temple of <hi>Jupiter, Emmelin</hi> and <hi>Arminius</hi> meeting; She with a Dagger.</stage>
 <sp>
 <speaker>Emm.</speaker>
@@ -2972,8 +2972,8 @@ Sentenc'd to ravish this nice Piece of Beauty,</l>
 <l>And stand revers'd for ever!</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>[The Scene shifts to the Dungeon, <hi>Lucius</hi> discovered, <hi>Arminius</hi> enters to him.</stage>
 <sp>
 <speaker>Arm.</speaker>
@@ -3040,8 +3040,8 @@ Sentenc'd to ravish this nice Piece of Beauty,</l>
 <l>In the ensuing Tumult, spare my Father.</l>
 <stage>[Exeunt</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>The Scene shifts, they re-enter.</stage>
 <sp>
 <speaker>Arm.</speaker>
@@ -3279,8 +3279,8 @@ Kneel all, and kiss the Dust in Adoration,</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

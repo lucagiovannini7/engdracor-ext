@@ -7,7 +7,7 @@
 <extent>[6],91,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. N. Longman,</publisher><date>1796.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Press figure 9 on p.77; variant has press figure 8.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT56640.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE WAY TO GET MARRIED; <hi>A COMEDY,</hi> IN FIVE ACTS.</p>
 <p>AS PERFORMED AT THE THEATRE-ROYAL, COVENT-GARDEN.</p>
@@ -16,8 +16,8 @@
 <p>LONDON: PRINTED FOR T. N. LONGMAN, PATERNOSTER-ROW.</p>
 <p>1796.</p>
 <p>[<hi>PRICE TWO SHILLINGS.</hi>]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline><hi>Written by</hi> W. T. FITZGERALD, <hi>Esquire.</hi></byline>
@@ -70,8 +70,8 @@
 <l>Still on a gen'rous Public he depends;</l>
 <l>Give your support—he asks no better friends!</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>DRAMATIS PERSONAE</head>
 <list>
@@ -101,15 +101,14 @@
 <item><label>FANNY</label> <hi>Miss Leserve.</hi></item>
 </list>
 <p>The Lines marked with inverted Commas are omitted in the Representation</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="5"/>
 <head>THE WAY TO GET MARRIED <hi>A COMEDY.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Room in a House—Bells ringing.</stage>
 <sp>
@@ -735,8 +734,8 @@ do pass—As many as are content, say, "Aye"—Not content, "No"'—The contents
 <p>So mad and absurd as ever! But I trust he has a good heart, and I'll give him fair play; for, sometimes, the subsiding opposition of worth and folly produces the brightest characters, even as the beautiful firmament is said to have been formed from the contending chaos of light and darkness.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="14" facs="18"/>
 <head>SCENE II.<stage>FAULKNER'S HOUSE—<hi>A knocking at the door, Faulkner crosses the stage, and opens the door.</hi></stage></head>
 <stage>Enter Servant.</stage>
@@ -1056,13 +1055,13 @@ lad, fell by my side—he gave to my care one thousand pounds, as a bequest to h
 <p>This way. Unfeeling man!</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT I.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="25"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room at</hi> ALLSPICE'S <hi>House.</hi></stage>
 <stage>Enter Clementina and Fanny.</stage>
@@ -1355,8 +1354,8 @@ Ha, ha, ha! To select me for the high priest of Hymen, to make me a wither'd Cup
 <p>I shall expire if I don't. Take care, dear Mr. Caustic.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>ALLSPICE'S SHOP.—<hi>Two Shop Chairs.</hi></stage>
 <stage>Shopman and woman discover'd.</stage>
@@ -1499,7 +1498,7 @@ yes, ma'am—I belong to the shop. <stage>(throwing away his hat)</stage> What a
 <sp>
 <speaker>Clem.</speaker>
 <p>Silence, brute!</p>
-<stage>(WITHOUT) <hi>"Room for the sheriff."</hi></stage>
+<stage>(WITHOUT) <said direct="true"><hi>"Room for the sheriff."</hi></said></stage>
 </sp>
 <stage><hi>Enter</hi> ALLSPICE <hi>(with sheriff's gown and wig, wiping his face).</hi></stage>
 <sp>
@@ -1829,8 +1828,8 @@ it, gives me a kind of swaggering, agreeable feel: and then the girls—the pret
 <p>You'll see how I'll ogle and swagger. Come along. Oh, Toby's the boy to tickle them.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE II.<stage><hi>A Room in</hi> FAULKNER'S <hi>House,</hi></stage></head>
 <stage><hi>Enter</hi> FAULKNER <hi>and</hi> M'QUERY.</stage>
 <sp>
@@ -2270,13 +2269,13 @@ You frown'd just now—'twas the first time: indeed it cut my heart. Come, sir, 
 <p>Oh!</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT II.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="43" facs="47"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room in</hi> M'QUERY'S <hi>House.</hi></stage>
 <stage><hi>Enter</hi> M'QUERY <hi>and</hi> SERVANT.</stage>
@@ -2400,8 +2399,8 @@ remained, it is a country I shou'd have been transported with.</p>
 my lady; and that's another characteristic of my country.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A spacious suite of Rooms, brilliantly illiuminated,—music playing—card tables, &amp;c.</stage>
 <stage><hi>Enter</hi> CLEMENTINA.</stage>
@@ -2976,8 +2975,8 @@ retailing, and Harriet's health in a bumper! "Lovely Nymph," &amp;c.</p>
 <p>If this is'nt doing it, the devil's in it, ha, ha! I've bother'd the daughter, and tickled old Caustic in a capital style,—that's a dead thirty thousand.—Humbugged the old one here out of five, and shall carry off the nice girl to a certainty. What a splash I shall make along Cheapside! what a swagger I shall cut at Lloyd's! how the city bucks will stare, and, may be, dress at me. And then we shall have Birmingham Dashalls as well as Birmingham Dukes. Oh, I'm a neat article!</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>M'QUERY'S OFFICE.</stage>
 <stage><hi>Enter</hi> M'QUERY <hi>and</hi> TANGENT.</stage>
@@ -3205,13 +3204,13 @@ retailing, and Harriet's health in a bumper! "Lovely Nymph," &amp;c.</p>
 <p>Aye, tip him a ca—fa. He can tickle me, can he? a profligate! come along!</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT III.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="62" facs="66"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Street.</stage>
 <stage><hi>Enter</hi> DASHALL <hi>and</hi> POSTILLION</stage>
@@ -3514,8 +3513,8 @@ mother of all the judges—vanity's father and mother of all the counsellors—t
 <p>Will it? he kill a man! what an old fool I was! hold, I have it. Let the man be conveyed to my house—give out his life's in danger. I'll have him taken up for a murderer: I'll lay him with the dust. Away with him to prison—I'll be so revenged! and, d'ye hear: put irons on him; <stage>(going)</stage> but don't starve him—give him bread and water, <stage>(going)</stage> and, d'ye hear, give him straw—give him plenty of straw.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>INSIDE OF A PRISON.</stage>
 <stage>FAULKNER <hi>discovered,</hi> JULIA <hi>leaning on him.—A noise without of chains falling.</hi> JULIA <hi>starts.</hi></stage>
@@ -3736,8 +3735,8 @@ thee in a parent's grasp, pure, unpolluted? Julia, we part no more—never—nev
 <p>My father—I'm dizzy with my happiness. One kiss of rapture, and I am gone.</p>
 <stage>(Exeunt severally)</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Another Part of the Prison.</stage>
 <stage><hi>Enter</hi> JAILER, <hi>followed by</hi> TANGENT, <hi>(fetter'd) a Solicitor and Undertaker.</hi></stage>
@@ -3970,13 +3969,13 @@ melancholy. Julia Faulkner is happy; and can I be otherwise?</p>
 <p>I'll murder him—stop that villain.</p>
 <stage>Exit pursuing.</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT IV.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="76" facs="80"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room at</hi> ALLSPICE'S.</stage>
 <stage><hi>Enter</hi> DASHALL <hi>with an opened letter.</hi></stage>
@@ -4261,8 +4260,8 @@ well without them, as with them. Bless your soul! I only use them, because they 
 <p>Here they are! Oh, there goes lady Sorrel in a fury. I think she looks as if she were in the Gazette— I must be after her—Well, I've done the old one, however. Bravo, my boy, Dashall! All I say is, you've justified the opinion I always had of you.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="81" facs="85"/>
 <head>SCENE II.</head>
 <stage>A Garden and Hot-house.</stage>
@@ -4804,12 +4803,11 @@ tears out the vitals existence; it shivers the adamantine bands of society; it m
 <p>Sir, I've bade adieu to all my air-drawn fancies, except the woolsack, in which whim I will once more indulge, in the trembling hope, that our endeavours this night to please, have been crowned with your candid approbation. As many as are content say "Aye." — non-contents, "No." We flatter ourselves the contents have it.</p>
 </sp>
 <trailer>END OF THE COMEDY.</trailer>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="96" ana="y"/>
 <head>EPILOGUE.</head>
 <byline>Written by Captain <hi>TOPHAM.</hi> Spoken by Mrs. <hi>MATTOCKS.</hi></byline>
@@ -4842,8 +4840,7 @@ tears out the vitals existence; it shivers the adamantine bands of society; it m
 <l>With her, dear <hi>private acting</hi> is the rage.</l>
 </sp>
 <p>Shakspeare</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

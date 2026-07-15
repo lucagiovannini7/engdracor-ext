@@ -7,15 +7,15 @@
 <extent>72p. ; 12⁰.</extent><publicationStmt><publisher>printed in the year,</publisher><date>1785.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT38920.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE MAN OF THE WORLD.</p>
 <p>A COMEDY, IN FIVE ACTS.</p>
 <p>AS PERFORMED AT THE THEATRES-ROYAL OF COVENT-GARDEN AND SMOCK-ALLEY.</p>
 <p>WRITTEN BY CHARLES MACKLIN, ESQ.</p>
 <p>DUBLIN: PRINTED IN THE YEAR. M,DCC,LXXXV.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>DRAMATIS PERSONAE.</head>
 <p><hi>Dublin.</hi></p>
@@ -36,15 +36,14 @@
 <item><label>Betty Hint,</label> Mrs. CORNELYS.</item>
 <item><label>Nanny,</label> Mrs. O'NEILL.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Sir Pertinax Mac Sycophant's House in the Country.</p>
 <p><hi>Time</hi>—Three Hours.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3"/>
 <head>THE MAN OF THE WORLD.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <head>SCENE,<stage>A Library in Sir Pertinax's <hi>House.</hi></stage></head> 
 <stage><hi>Enter</hi> Betty <hi>and</hi> Footman.</stage>
@@ -508,8 +507,8 @@ So! I see he believes every word I say—that's charming—I will do her busines
 <p>I will not see them—What is to be done? Inform his Father of his intended marriage.—No; that must not be—for the overbearing temper, and ambitious policy of Sir Pertinax, would exceed all bounds of moderation. He has banished one Son already, only for daring to differ from his judgment concerning the merits of Scotch and English historians.—But this young Man must not marry Constantia—wou'd his Mother were here:—she, I suppose, knows nothing of his indiscretion, but she shall the moment she comes hither—I know it will offend him—no matter, it is our duty to offend, when the offence saves the Man we love from a precipitate action, which the world must condemn, and his own heart, perhaps, upon reflection, for ever repent.—Yes, I must discharge the duty of my function, and a friend, tho' I am sure to lose the Man whom I intend to serve.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="15"/>
 <head>ACT II.</head>
 <stage><hi>Enter</hi> Egerton <hi>and</hi> Constantia.</stage>
@@ -1338,8 +1337,8 @@ as to hearts ye ken cousin, they are no brought into the account of human dealin
 <p>Come let us till dinner—ha, by this time to-morrow, Maister Sidney, I hope we shall have every thing ready for ye to put the last hand to the happiness of your friend and pupil—and then, Sir, my cares will be over for this life—for as till my other son, Sandy, I expect, nai gude of him, nor should I grieve were I to see him in his coffin.—But this match—O! it will make me the happiest of aw human beings!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="33" facs="33"/>
 <head>ACT III.</head>
 <stage><hi>Enter Sir</hi> Pertinax <hi>and</hi> Egerton.</stage>
@@ -1941,8 +1940,8 @@ see cousin Chairles, that I could nai mingle affections we ye, I hai ne ganged o
 <p>You are very right, Madam, for should my father suspect my brother's affection for your Ladyship, or mine for Constantia, there is no guessing what would be the consequence; his whole happiness depends upon this bargain with my Lord, for it gives him the possession of three boroughs, and those, Madam, are much dearer to him, than the happiness of his children; I am sorry to say it, but to gratify his political rage, he would sacrifice every social tie that is dear to friend or family.
 <stage>Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
 <stage><hi>Enter Sir</hi> Pertinax <hi>and Counsellor</hi> Plausible</stage>
 <sp>
@@ -2335,8 +2334,8 @@ of ermined pride, or redundant wealth, and therefore, Sir—</p>
 the best beedder, so that if they can but get wherewithall till supply their dissipation, a meenister may convert the poleetical morals of aw such voluptuaries intill a vote that would sell the nation till Prester John, and their boasted leberties to the great Mogul. And this opportunity I shall lose, by my son's marrying a vartuous beggar for love.—O! confound her vartue! it wull drive me distracted!
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
 <stage><hi>Enter Sir</hi> Pertinax, <hi>and</hi> Betty.</stage>
 <sp>
@@ -3014,9 +3013,8 @@ The clearing up this wanche's vartue is damn'd unlooky! I am afraid it will ruin
 <l>In all pursuits, but chiefly in a wife,</l>
 <l>Not wealth, but morals, make the happy life.</l>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

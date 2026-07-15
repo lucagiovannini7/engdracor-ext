@@ -7,13 +7,13 @@
 <extent>[4],64p. ; 12⁰.</extent><publicationStmt><publisher>printed for P. Wogan,</publisher><date>1797.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT20774.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>WIVES AS THEY WERE, AND MAIDS AS THEY ARE, A COMEDY, IN FIVE ACTS. PERFORMED AT THE THEATRE ROYAL, COVENT-GARDEN.</p>
 <p>BY MRS. INCHBALD.</p>
 <p>DUBLIN: PRINTED FOR P. WOGAN, OLD-BRIDGE. 1797.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE,</head>
 <byline>BY A FRIEND;</byline>
@@ -56,8 +56,8 @@
 <l>"Yet if the heart my proud appeal withstands,</l>
 <l>"I ask the humbler suffrage of their hands."</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3" ana="y"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -77,16 +77,15 @@
 <item><label>Miss DORRILLON</label> <hi>Miss Wallis.</hi></item>
 </list>
 <p>Several Servants, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, London.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>WIVES AS THEY WERE. AND MAIDS AS THEY ARE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>An Apartment at Mr. <hi>NORBERRY's</hi></stage></head>
 <stage><hi>Enter Sir</hi> WILLIAM DORRILLON, <hi>and Mr.</hi> NORBERRY.</stage>
 <sp>
@@ -798,11 +797,11 @@ been move indiscreet <stage>stifling her tears</stage> than I really have. For i
 <p>What part of my conduct, Sir, has made you dare to suppose I would extricate myself from the difficulties that surround me, by the influence I hold over the weakness of a lover?</p>
 </sp>
 <stage>Exeunt separately.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>Another Apartment at <hi>Mr. Norberry's.</hi></stage></head>
 <stage><hi>Enter two Porters from an upper Entrance, bringing in Trunks</hi>; Lord Priory <hi>and</hi> Mr. Norberry <hi>following.</hi></stage>
 <sp>
@@ -1373,11 +1372,11 @@ and so, I dare say, has that gentlewoman. But of ail the birds in the wood, how 
 <speaker>Bron.</speaker>
 <p>Then I will for him. Early in the morning, I'll wait on Lady Priory, and beg pardon in his name without his knowing it. Yes, I have got poor Mandred into a difficulty, and it is my duty to get him out of it. And then I shall not only serve him, but have one interview more with that heavenly woman. <stage>Exit.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>An Apartment at Mr. <hi>NORBERRY's.</hi></stage></head>
 <stage><hi>Enter</hi> Mr. Bronzely <hi>followed by a Servant.</hi></stage>
 <sp>
@@ -1965,11 +1964,11 @@ make up this difference—for if you were to fight and Mr. Mandred was to fall�
 <speaker>Sir Wil.</speaker>
 <p>I am at a loss to know, Sir, whether you and I part friends or enemies.—However, call on me in the way you best like, and you will find me ready to meet you either as an enemy, or as a friend. <stage>Exeunt separately.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A Hall in Lord Priory's.</stage></head>
 <stage>Two Servants discovered sitting—Another enters.</stage>
 <sp>
@@ -2007,8 +2006,8 @@ make up this difference—for if you were to fight and Mr. Mandred was to fall�
 <p>Waiting for me half an hour— <stage>aside</stage>—Shew me to her instantly.</p>
 </sp>
 <stage>Exit, following the servant hastily.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>An Apartment at Lord Priory's.</stage></head>
 <stage><hi>Enter</hi> Bronzely <hi>and</hi> Lady Priory <hi>on opposite sides.</hi></stage>
 <sp>
@@ -2287,8 +2286,8 @@ Ha, Ha, ha!—But, my Lord, I am afraid it is of too frivolous a nature for your
 <speaker>Lord Pri.</speaker>
 <p><stage><hi>returning and looking anxiously after</hi> Bronzely.</stage> I am passionate—I am precipitate—I have no command over my temper.—However, if a man cannot govern himself, yet he will never make any very despicable figure, as long as he knows how to govern his wife. <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="43" facs="48"/>
 <head><hi>SCENE III.</hi> <stage>Sir <hi>William</hi>'s Apartment at Mr. <hi>Norberry</hi>'s.—Several trunks and travelling boxes.—Sir <hi>William</hi> discovered, packing writings into a port-folio.</stage></head>
 <sp>
@@ -2757,11 +2756,11 @@ and so then I thought I would e'en rap at the door; but nobody called "Come in."
 <p>Ha, ha, ha! Oh, how I enjoy this distress! Ha, ha, ha!</p>
 </sp>
 <stage><pb n="51" facs="56"/><hi>The officer who has attended her during the scene, and kept at the farther part of the stage, now comes forward, and bows to her. She starts on seeing him—takes out her handkerchief, and goes Crying off at the opposite side.</hi></stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>An Apartment at Mr. <hi>Bronzely's.</hi></stage></head>
 <stage><hi>Enter</hi> Housekeeper <hi>and</hi> Footman.</stage>
 <sp>
@@ -2904,8 +2903,8 @@ and so then I thought I would e'en rap at the door; but nobody called "Come in."
 <speaker>Bron.</speaker>
 <p><stage>without</stage> Tell the post-boy he need not wait—I have changed my mind—I sha'n't go to London to-night.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="54" facs="59"/>
 <head><hi>SCENE II.</hi> <stage>A Room in a Prison.</stage></head>
 <stage><hi>Enter</hi> Miss Dorrillon <hi>and</hi> Mr. Norberry.</stage>
@@ -3138,8 +3137,8 @@ he has been telling me such things of my father—</p>
 <speaker>Sir Wil.</speaker>
 <p>Follow you!—Yes, and I perceive that, in spite of philosophy, justice or resolution, I could follow you all the world over. <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi> <stage>Another Room in the Prison.</stage></head>
 <stage><hi>Lady</hi> Mary <hi>discovered sitting in a dejected posture, at a miserable table.</hi></stage>
 <sp>
@@ -3212,8 +3211,8 @@ he is too much the man of gallantry and good breeding to leave me in this place,
 <speaker>Sir Geo.</speaker>
 <p>Distraction! the first disappointment is nothing to this second! to the reflection that Miss Dorrillon has been set at liberty by any man on earth except myself. <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head><hi>SCENE IV.</hi> <stage>An Apartment at Mr. <hi>Norberry</hi>'s.</stage></head>
 <stage><hi>Enter Lord</hi> Priory.</stage>
 <sp>
@@ -3477,12 +3476,11 @@ attached to her under my roof. She has held those rights sacred, and compelled e
 <p>Simply one sentence—A maid of the present day shall become a wife like those—of former times.</p>
 </sp>
 <stage>The scene closes—She comes forward.</stage>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="address">
+<div type="address">
 <head>ADDRESS,</head>
 <byline>WRITTEN BY MR. TAYLOR;</byline>
 <byline>SPOKEN BY MISS WALLIS.</byline>
@@ -3503,7 +3501,7 @@ attached to her under my roof. She has held those rights sacred, and compelled e
 <l>For <hi>King</hi> and <hi>Country</hi> though they nobly bleed,</l>
 <l>The smile of <hi>Beauty</hi> is their dearest meed,</l>
 <l>And valiant tars should still be <hi>Beauty</hi>'s care</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

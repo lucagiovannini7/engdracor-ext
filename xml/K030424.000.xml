@@ -7,7 +7,7 @@
 <extent>[4],106,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1761.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Press figure on p.8: 5. Variant: no press figure on p.8.</note><note>With a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT21236.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>ALL IN THE WRONG.</p>
 <p>A COMEDY.</p>
@@ -19,14 +19,14 @@
 <bibl>TERENCE.</bibl>
 <p>LONDON: Printed for P. VAILLANT, facing Southampton-Street in the Strand. MDCCLXI.</p>
 <p>(Price 1s. 6d.)</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE first hint of this Comedy was suggested by the <hi>Cocu Imaginaire</hi> of <hi>Moliere,</hi> who took the idea of his piece from an Italian writer. Though jealousy, in all its appearances, has been frequently exhibited on the English stage, yet it was imagined that a plan, which should delineate all the varieties of that passion, whether subsisting between lovers or in the matrimonial life, and blend them together in one piece, would not be unacceptable to the public. If therefore there is atonement made for the want of originality of character by the decency of the dialogue, the novelty of the fable, and the complication of the incidents, the author has compassed all that he proposed to himself in the ensuing scenes; which, with pleasure he finds, were the occasion of producing the too long concealed powers of Miss <hi>Haughton,</hi> and of shewing, in a distinguished light, the exquisite acting of Mr. <hi>Obrien.</hi></p>
 <closer><dateline>LINCOLN'S INN, <date><hi>Nov.</hi> 15, 1761.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -48,16 +48,15 @@
 <item><label>TIPPET, Servant to BELINDA,</label> Miss HIPPESLY.</item>
 <item><label>MARMALET,</label> Miss MILLS.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>ALL IN THE WRONG.</head>
 <head>A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>the Park.</hi></stage></head>
 <stage><hi>Enter Sir</hi> JOHN RESTLESS <hi>and</hi> ROBERT, <hi>from a House in the Side Scene.</hi></stage>
 <sp>
@@ -270,7 +269,7 @@
 </sp>
 <sp>
 <speaker>BEV.</speaker>
-<p>My dear boy, give us your hand;—and then, thou dear rogue, and then Belinda's mine— <stage>(<hi>sings</hi>) <hi>Loll-toll-loll</hi>—</stage></p>
+<p>My dear boy, give us your hand;—and then, thou dear rogue, and then Belinda's mine— <stage>(<hi>sings</hi>)</stage> <hi>Loll-toll-loll</hi>—</p>
 </sp>
 <sp>
 <speaker>BELL.</speaker>
@@ -905,12 +904,12 @@
 <p>Poor lady! I believe her head is turned, for my part.—Well! I am determined I'll look out for another place, that's a sure thing I will.—</p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="21" facs="24"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>in Sir</hi> JOHN'S <hi>House.</hi></stage></head>
 <stage><hi>Enter Sir</hi> JOHN <hi>and</hi> ROBERT.</stage>
 <sp>
@@ -1262,8 +1261,8 @@
 <p>Yes, go now, under that pretext, in pursuit of your licentious pleasures.—This ever has been his scheme to cloak his wicked practices—abandoned man!—To face me down too, after what my eyes so plainly beheld—I wish I could wring that secret out of Tattle—I'll step to my own room directly, and try by menaces, by wheedling, by fair means, by foul means, by every means, to wrest it from her.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Park.</hi></stage></head>
 <stage><hi>Enter Sir</hi> JOHN, <hi>and</hi> ROBERT <hi>after him.</hi></stage>
 <sp>
@@ -1825,12 +1824,12 @@ So! so! so!—Marmalet is a trusty girl!—one that will not make mischief betwe
 <p>There he goes—there he goes—the destroyer of my peace and happiness!—I'll follow him, and make sure that he has given me his name rightly,—and then, my Lady Restless, I have done with you for ever.</p>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="38" facs="41"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage><hi>The former</hi> SCENE <hi>continues.</hi></stage></head>
 <stage><hi>Enter</hi> BELINDA <hi>and</hi> CLARISSA.</stage>
 <sp>
@@ -2131,8 +2130,8 @@ So! so! so!—Marmalet is a trusty girl!—one that will not make mischief betwe
 <pb n="44" facs="47"/>lost it—but even that, even that is an injury to me—why should she not be more careful of it?—I will know the bottom of it—that's the house the gentleman went into—I'll wait on him directly—but they are watching me—I'll walk off another way, to elude their observation—ay! ay! you may laugh, ma'am, but I shall find you out.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to an Apartment at Sir</hi> John<hi>'s.</hi></stage></head>
 <stage><hi>Enter Lady</hi> RESTLESS, <hi>meeting</hi> ROBERT.</stage>
 <sp>
@@ -2530,8 +2529,8 @@ So! so! so!—Marmalet is a trusty girl!—one that will not make mischief betwe
 <pb n="51" facs="54"/>are now seen thro' all your disguises—detected in your true colours—Tattle within here, has fresh proofs against you, and your man Robert, and all of you,—I must hear that whole story directly—</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the Park.</hi></stage></head>
 <stage><hi>Enter Sir</hi> JOHN.</stage>
 <sp>
@@ -2937,12 +2936,12 @@ So! so! so!—Marmalet is a trusty girl!—one that will not make mischief betwe
 </sp>
 <stage>Exit.</stage>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="59" facs="62"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in</hi> Beverley<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> BEVERLEY.</stage>
 <sp>
@@ -3326,8 +3325,8 @@ BELINDA BLANDFORD.</p>
 <p>Allons then; there, take my hand, and let us be gone.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment at</hi> Belinda's.</stage></head>
 <stage><hi>Enter</hi> BELINDA.</stage>
 <sp>
@@ -3555,8 +3554,8 @@ BELINDA BLANDFORD.</p>
 <p>Oh! Mr. Beverley, could I have imagined this?—False! false man!—and yet how shall I forget him!—But I will make an effort, tho' it pierce me to the quick—I will tear him from my heart—this moment I will write to him, and forbid him to see me more.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>the Park.</hi></stage></head>
 <stage><hi>Enter Sir</hi> JOHN.</stage>
 <sp>
@@ -3618,8 +3617,8 @@ BELINDA BLANDFORD.</p>
 <p>Then do you go in, and take care that nobody sees Mrs. Marmalet with me—come, I'll shew you the way—</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>in Sir</hi> JOHN'<hi>s House.</hi></stage></head>
 <stage><hi>Enter</hi> TATTLE <hi>and</hi> BEVERLEY.</stage>
 <sp>
@@ -4142,11 +4141,11 @@ BELINDA BLANDFORD.</p>
 <p>Deceitful—wanton—wanton woman!—</p>
 </sp>
 <stage>Exeunt, at opposite doors.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter old</hi> BLANDFORD, <hi>Sir</hi> WILLIAM, <hi>and young</hi> BELLMONT.</stage>
 <sp>
 <speaker>BLANDFORD.</speaker>
@@ -4938,8 +4937,8 @@ BELINDA BLANDFORD.</p>
 <pb n="97" facs="100"/>heart—if my lady Restless persists in her accusation, who knows what turn this affair may still take—I will but speak to Clarissa, and follow them instantly.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to an Apartment at Sir</hi> JOHN's.</stage></head>
 <stage><hi>Enter</hi> TATTLE <hi>and</hi> BEVERLEY.</stage>
 <sp>
@@ -5443,13 +5442,12 @@ BELINDA BLANDFORD.</p>
 <l>Gives home-felt peace, prevents the nuptial strife,</l>
 <l>Endears the bliss, and bids it last for life.</l></p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="110"/>
 <head>PLAYS, &amp;c. Printed for PAUL VAILLANT, Facing SOUTHAMPTON-STREET, in the STRAND.</head>
 <list>
@@ -5498,8 +5496,7 @@ BELINDA BLANDFORD.</p>
 <item>L'Enfant Prodigue, Comedie</item>
 </list>
 <p>Likewise a large Collection of single Plays in French, by the best Authors.</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

@@ -7,19 +7,19 @@
 <extent>21,[3]p. ; 8⁰.</extent><publicationStmt><publisher>Printed for C. Dilly,</publisher><date>1787.</date><pubPlace>[London] :</pubPlace></publicationStmt><notesStmt><note>Based on 'Solyman le Second' from the 'Contes moraux' by J. F. Marmontel.</note><note>The final page is blank; a variant has an advertisement 'Lately published by C. Dilly. ..' on the final page.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT48828.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE SULTAN, OR A PEEP INTO THE SERAGLIO. A FARCE, IN TWO ACTS.</p>
 <p>BY ISAAC BICKERSTAFFE.</p>
 <p>Acted at the Theatres Royal in DRURY-LANE and COVENT-GARDEN.</p>
 <p>Printed for C. DILLY, in the Poultry. MDCCLXXXVII. [Price Six Pence.]</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE following petite piece, which is taken from Marmontel, was originally acted at Dr. Lane's Theatre, in the year 1775. It had then the good fortune of having its principal character represented by that accomplished actress Mrs. Abington, who has since very frequently performed the same on Covent Garden Stage. A new candidate for fame having undertaken to appear in this very agreeable and lively part; and the piece being often called for; it has been thought proper to give the Public an opportunity of perusing in the closet what has so long delighted on the stage.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <p><table>
@@ -72,12 +72,12 @@
 <cell>Mrs. Abington.</cell>
 </row>
 </table></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="5" facs="4"/>
 THE SULTAN.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT 1.</head>
 <head>SCENE, <stage><hi>An apartment in the Seraglio; a Throne in manner of a Couch, with a Canopy, on the front of which is an Escutcheon fixed, with the Ottoman Arms crowned with Feathers; in the Back scenes the Sultan's Door covered with a Curtain.</hi></stage></head>
 <stage><hi>Enter</hi> OSMYN <hi>and</hi> ELMIRA.</stage>
@@ -702,8 +702,8 @@ me to this place, and I vainly thought my charms could have attach'd him to me.<
 them to come and dine with the Sultan—If you neglect obeying my orders, your head shall answer for it—And, do you hear, don't let them know you came from me with this invitation.—Take care of your head.</p>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
 <stage><hi>Banquet,</hi> &amp;c.</stage>
 <stage><hi>Enter</hi> ROXALANA.</stage>
@@ -1126,11 +1126,11 @@ them to come and dine with the Sultan—If you neglect obeying my orders, your h
 <l>Would all that's beautiful together join,</l>
 <l>And find perfection in a mind like thine.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="21"/>
 <head>EPILOGUE.</head>
 <head type="sub"><stage>Spoken by Mrs. ABINGTON, after performing <hi>Roxalana,</hi> at the Theatre-Royal, Crow-Street, Dublin, 1778.</stage></head>
@@ -1187,7 +1187,7 @@ To Garrick thus in flattering strains I sue,</l>
 <l>Their worth record, and consecrate their fame;</l>
 <l>While gratitude on <hi>rapturous</hi> pinions soars,</l>
 <l>And echoes loud the virtues she adores.</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

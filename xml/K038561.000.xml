@@ -7,13 +7,13 @@
 <extent>[4],72,[4]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Evans,</publisher><date>1779.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The second leaf contains the dedication.</note><note>With two final leaves containing prologue, epilogue and advertisements.</note><note>Copies consist of mixed sheets; press figures can vary.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT37612.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE LAW OF LOMBARDY; A TRAGEDY: AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>WRITTEN BY ROBERT JEPHSON, ESQ. AUTHOR OF BRAGANZA.</p>
 <p>LONDON. PRINTED FOR T. EVANS, NEAR YORK-BUILDINGS, STRAND. MDCCLXXIX. [Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE KING.</head>
 <opener><salute>SIR,</salute></opener>
@@ -21,8 +21,8 @@
 <p>Tho' the public, which is seldom disposed to receive favourably, performances destitute of merit, has been pleased to give this a very indulgent reception, I must still regret its imperfections, when I consider that it may for a moment become the object of your Majesty's attention. Having omitted nothing in my power to render it not entirely unworthy of such an exalted patronage, I can't forbear to flatter myself, that it may raise in the breast of your Majesty those emotions which well imagined distress never fails to excite in the noblest natures: but at the same time I more anxiously wish, that no other uneasiness but from such fictitious sorrow may ever approach you; and that the greatest and most amiable sovereign in Europe, may be also for ever distinguished as the most prosperous and happy.</p>
 <closer><salute>I am, SIR,</salute>
 <signed>Your Majesty's most dutiful subject, and most obliged humble servant, ROBERT JEPHSON.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -46,15 +46,14 @@
 <item><label>PRINCESS,</label> Miss YOUNGE.</item>
 <item><label>ALINDA,</label> Mrs. ROBINSON.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE LAW OF LOMBARDY. A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>A Chamber in the Palace.</stage>
 <stage>BIRENO, ALINDA.</stage>
 <sp>
@@ -285,8 +284,8 @@
 <stage>Exit.</stage></l>
 </sp>
 <stage>Alinda <hi>retires.</hi></stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>KING, PRINCESS, PALADORE, ATTENDANTS.</stage>
 <sp>
@@ -427,8 +426,8 @@
 <l>Ere it rush down to spread its ruin round us.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>PRINCESS, PALADORE.</stage>
 <sp>
@@ -478,8 +477,8 @@
 <l>Yet these, he thinks too rich a sacrifice,</l>
 <l>And owns no advocate but pride in love.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head><stage><hi>To them</hi> BIRENO.</stage>
 <sp>
 <speaker>BIRENO.</speaker>
@@ -525,8 +524,8 @@
 <l>And save your trouble. Once more, Sir, I thank you.</l>
 </sp>
 <stage><hi>To</hi> Paladore <hi>and exit.</hi></stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head><stage>BIRENO, PALADORE.</stage>
 <sp>
 <speaker>BIRENO.</speaker>
@@ -729,8 +728,8 @@
 <l>And one, or both of us, must plunge for ever.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>BIRENO</speaker>
@@ -748,13 +747,13 @@
 <l>And with blunt beak, and flagging wings outstretch'd,</l>
 <l>Drowze o'er the mangled victims of my rage.</l>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="19"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>a Chamber.</hi></stage>
 <sp>
 <speaker>PRINCESS,</speaker>
@@ -778,8 +777,8 @@
 <l>And the sharp conflict rends me. Ha! my father!</l>
 <l>Now comes the trial.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head><stage>KING, PRINCESS.</stage>
 <sp>
 <speaker>KING.</speaker>
@@ -957,8 +956,8 @@
 <l>To thank and animate their zeal to serve us.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>PRINCESS,</speaker>
@@ -978,8 +977,8 @@
 <l>They prove their weakness, and his power supreme.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="21" facs="24"/>
 <head>SCENE IV.</head><stage><hi>A Garden.</hi></stage>
 <sp>
@@ -998,8 +997,8 @@
 <l>Will hide me from his view.—Soft, soft, 'tis he.</l>
 </sp>
 <stage>Rinaldo <hi>retires.</hi></stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head><stage>PALADORE <hi>alone.</hi></stage>
 <sp>
 <speaker>PALADORE.</speaker>
@@ -1024,8 +1023,8 @@
 <l><pb n="22" facs="25"/>Yon light that glimmers 'twixt the quivering leaves</l>
 <l>(Like a small star) directs his footsteps hither.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To him</hi> BIRENO, <hi>with a Lanthorn.</hi></stage>
 <sp>
@@ -1235,8 +1234,8 @@
 <l>As counterfeits abide not.
 <stage>Bireno <hi>retires</hi>▪</stage></l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>PALADORE</speaker>
@@ -1316,13 +1315,13 @@
 <l>Let them seek faith in woman.—Furies seize them!</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="28" facs="31"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>A Hall.</hi></stage>
 <sp>
 <speaker>BIRENO</speaker>
@@ -1338,8 +1337,8 @@
 <l>More 'gainst the coward heart, that wou'd and dare not,</l>
 <l>Than the bold deed, that braves the penalty.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>BIRENO, ASCANIO.</speaker>
@@ -1433,8 +1432,8 @@
 <l>I will impart within.—No ceremony.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>LUCIO, <hi>an</hi> OFFICER.</stage>
 <sp>
@@ -1480,8 +1479,8 @@
 <l>And make a certainty. But see the king.</l>
 <l>The providence of heaven be ever round him!</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>KING, <hi>Counsellors, Knights, Attendants.</hi></stage>
 <sp>
@@ -1501,8 +1500,8 @@
 <l>Holding the honours of the state in trust</l>
 <l>For all deservers;—She shall better thank you;</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>To the above,</hi> PRINCESS, <hi>Attendants.</hi></stage>
 <sp>
@@ -1520,8 +1519,8 @@
 <l>Finds in itself the source and end of action;</l>
 <l>Secures its right to praise, but scorns to take it.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To the above,</hi> BIRENO, ASCANIO.</stage>
 <sp>
@@ -1957,8 +1956,8 @@ But, Oh, dark fiend!</l>
 <l>But kings, like meaner men, were born to suffer.</l>
 </sp>
 <stage><hi>Exeunt</hi> Bireno, Ascanio, Senators.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>KING, PRINCESS.</stage>
 <sp>
@@ -1982,8 +1981,8 @@ But, Oh, dark fiend!</l>
 <l>Hang on the mourning of surviving friends,</l>
 <l>And wake a keener pang for their affliction.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="42" facs="45"/>
 <head>SCENE VIII.</head><stage><hi>To them,</hi> LUCIO.</stage>
 <sp>
@@ -2009,13 +2008,13 @@ But, Oh, dark fiend!</l>
 <l>Meet fate as firmly, and transcend their daring.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="43" facs="46"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>a Forest.</hi></stage>
 <stage>PALADORE, RINALDO <hi>following.</hi></stage>
 <sp>
@@ -2130,8 +2129,8 @@ But, Oh, dark fiend!</l>
 <l>I go to mingle with you.
 <stage>Exeunt severally.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head><stage>TWO FORESTERS.</stage>
 <sp>
 <speaker>FIRST FORESTER.</speaker>
@@ -2178,8 +2177,8 @@ But, Oh, dark fiend!</l>
 <l>And crops his pasture, in the butcher's eye,</l>
 <l>Even while the knife's a whetting. Hush! She's here.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head><stage><hi>To them</hi> ALINDA.</stage>
 <sp>
 <speaker>ALINDA.</speaker>
@@ -2360,8 +2359,8 @@ But, Oh, dark fiend!</l>
 <l>'Tis done.
 <stage>Stabs her.</stage></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head><stage><hi>To them</hi> PALADORE.</stage>
 <sp>
 <speaker>PALADORE.</speaker>
@@ -2578,8 +2577,8 @@ But, Oh, dark fiend!</l>
 <l>To leave thee thus to insult.—Hold, yon peasant</l>
 <l>May help to bear her hence. Shepherd, approach.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>To</hi> PALADORE <hi>a</hi> SHEPHERD.</stage>
 <sp>
@@ -2626,8 +2625,8 @@ But, Oh, dark fiend!</l>
 <l>I must away; you shall hear further from me.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To the</hi> SHEPHERD, <hi>at an opposite Entrance,</hi> RINALDO.</stage>
 <sp>
@@ -2689,13 +2688,13 @@ But, Oh, dark fiend!</l>
 <l>Else, never ending misery awaits him.</l>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="57" facs="60"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>a Hall.</hi></stage>
 <stage>LUCIO, <hi>an</hi> OFFICER.</stage>
 <sp>
@@ -2774,8 +2773,8 @@ But, Oh, dark fiend!</l>
 <l>That dare oppose us. Be but firm, and fear not.</l>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>BIRENO,</speaker>
@@ -2791,8 +2790,8 @@ But, Oh, dark fiend!</l>
 <l>The full tide of my prosperous fortune flows,</l>
 <l>Never to ebb.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To</hi> BIRENO, ASCANIO.</stage>
 <sp>
@@ -2852,8 +2851,8 @@ But, Oh, dark fiend!</l>
 <l>Away—A moment may be fatal to us.
 <stage>Exeunt severally.</stage></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head><stage><hi>a Prison.</hi></stage>
 <stage>PRINCESS, WOMEN <hi>attending.</hi></stage>
 <sp>
@@ -2889,8 +2888,8 @@ But, Oh, dark fiend!</l>
 <l>My father! Oh, angelic host support me,</l>
 <l>To bear this parting, and death's pang is past!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>PRINCESS, KING.</speaker>
@@ -3030,8 +3029,8 @@ But, Oh, dark fiend!</l>
 <l>Nor dally with this blessed chance to save thee.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To her,</hi> LUCIO, <hi>his sword drawn.</hi></stage>
 <sp>
@@ -3108,8 +3107,8 @@ But, Oh, dark fiend!</l>
 <speaker>PRINCESS.</speaker>
 <l>He cuts my purpose short.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="67" facs="69"/>
 <head>SCENE VII.</head>
 <stage>ASCANIO, <hi>with Soldiers to them.</hi></stage>
@@ -3134,8 +3133,8 @@ But, Oh, dark fiend!</l>
 <l>Turns grief to joy, when noble natures leave it.</l>
 </sp>
 <stage><hi>Exit</hi> Princess <hi>guarded.</hi></stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>To</hi> ASCANIO, BIRENO.</stage>
 <sp>
@@ -3152,8 +3151,8 @@ But, Oh, dark fiend!</l>
 <l>And Fate itself may strive in vain to shake us.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="67" facs="70"/>
 <head>SCENE IX.</head>
 <stage><hi>The Lists in the middle of the stage. A scaffold, guard, and executioner at the bottom. Many spectators, officers, and senators, preceding the Princess, supported by women.</hi> Bireno <hi>with</hi> Ascanio, <hi>who bears his shield and sword. Heralds, with trumpets, on the sides.</hi></stage>
@@ -3238,8 +3237,8 @@ But, Oh, dark fiend!</l>
 <l>What means that trumpet's voice?</l>
 <l>It sounds a shrill alarm.</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="69" facs="72"/>
 <head>SCENE X.</head><stage><hi>To them a</hi> SQUIRE.</stage>
 <sp>
@@ -3274,8 +3273,8 @@ But, Oh, dark fiend!</l>
 <l>And add an easy trophy to my banners.—</l>
 <l>Confusion! Paladore!</l>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head><stage><hi>To them</hi> PALADORE.</stage>
 <sp>
 <speaker>PRINCESS.</speaker>
@@ -3392,8 +3391,8 @@ But, Oh, dark fiend!</l>
 <l><pb n="72" facs="75"/>When I have borne thee from this scene of horror,</l>
 <l>Perhaps I may grow calm, and talk with reason.</l>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <hi>and last.</hi></head>
 <stage><hi>To them,</hi> KING, LUCIO, <hi>&amp;c.</hi></stage>
 <sp>
@@ -3408,13 +3407,12 @@ But, Oh, dark fiend!</l>
 <l>Due to thy love, thy courage, and thy virtue,</l>
 <l>And joys unutterable crown your union.</l>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE FIFTH ACT.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="prologue">
+<div type="prologue">
 <pb facs="76"/>
 <head>PROLOGUE to the LAW of LOMBARDY,</head>
 <byline>Written by the AUTHOR.</byline>
@@ -3470,8 +3468,8 @@ But, Oh, dark fiend!</l>
 <l>He fears no jaundic'd rival's envious breath,</l>
 <l>The hands which twin'd, shall still preserve the wreath.</l>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="77"/>
 <head>EPILOGUE to the LAW of LOMBARDY.</head>
 <byline>Written by the AUTHOR.</byline>
@@ -3522,8 +3520,8 @@ But, Oh, dark fiend!</l>
 <l>And now, as formerly, be sure you'll prove,</l>
 <l>Contempt will meet contempt, as love meets love.</l>
 </sp>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="78"/>
 <head>Books printed for T. Evans in the Strand.</head>
 <list>
@@ -3561,8 +3559,7 @@ But, Oh, dark fiend!</l>
 <item>In 2 vol. small Octavo, adorned with a most exquisite Engraving by Sherwin, from a Design of Mortimer, <hi>price, sewed,</hi> 7s. THE POETICAL WORKS OF MATTHEW PRIOR, New, first collected with Explanatory Notes and Memoirs of the Author.</item>
 <item>Proposals for printing by Subscription, an elegant Edition, in one Volume, Folio, NOTITIA MONASTICA. By WILLIAM TANNER, Lord Bishop of St. Asaph.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

@@ -7,11 +7,11 @@
 <extent>xv,[1],430p. ; 4⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1784.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Cancels E4,Ii3,Rr3,Uu3 and Aa3 are known.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT90106.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="187"/>
 <p>THE TWO CONNOISSEURS; A COMEDY, OF THREE ACTS, IN RHYME.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="188"/>
 <head>Persons of the Drama.</head>
 <list>
@@ -32,15 +32,14 @@
 <item>MRS. BIJOU,</item>
 <item>JOAN.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="189"/>
 <head>THE TWO CONNOISSEURS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>Chambers in the Temple.</stage></head>
 <stage>Tom Careless <hi>and</hi> Mr. Cycle.</stage>
 <sp>
@@ -300,8 +299,8 @@
 <l>You don't rank his heart in the petrified class.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="187" facs="199"/>SCENE <hi>changes to a Drawing Room at</hi> Mrs. Bijou<hi>'s, with a Door open into an interior Cabinet of Curiosities— Several stuff'd Creatures and other Rarities discovered in the Apartment.</hi></stage></head>
 <sp>
 <speaker>JOAN,</speaker>
@@ -858,12 +857,12 @@
 <l>May I turn in her arms to a cold petrifaction!</l>
 </sp>
 <trailer><hi>End of</hi> ACT I.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="207" facs="219"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE I.</hi> <stage>An elegant Apartment, ornamented with a few Busts and Books, a large Statue covered up, and a Door open into a more extensive Library.</stage></head>
 <stage>Mr. Beril <hi>and</hi> Harry.</stage>
 <sp>
@@ -1862,12 +1861,12 @@
 <l>My dear Cycle, adieu!</l>
 </sp>
 <trailer><hi>End of</hi> ACT II.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="241" facs="253"/>
 <head>ACT III. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>Lord Seewell <hi>and</hi> Lady Harriot.</stage>
 <sp>
 <speaker>LADY HARRIOT.</speaker>
@@ -2198,8 +2197,8 @@ Ah, Harriot, 'tis so;</l>
 <l>We will all, my dear Harriot, attend on your lover.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the Apartments of</hi> Mrs. Bijou.</stage></head>
 <sp>
 <speaker>MR. BIJOU.</speaker>
@@ -2526,9 +2525,8 @@ Ah, Harriot, 'tis so;</l>
 <l>To Friendship and Want all we can we will give,</l>
 <l>And buy no more baubles as long as we live.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

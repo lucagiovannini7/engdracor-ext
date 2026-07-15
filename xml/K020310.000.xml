@@ -7,12 +7,12 @@
 <extent>80p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. and R. Tonson and S. Draper,</publisher><date>1755.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Brown, Vicar of Newcastle-upon-Tyne.</note><note>Prologue and epilogue by David Garrick.</note><note>P. 8 misnumbered 10.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT794.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>BARBAROSSA. A TRAGEDY. As it is Perform'd at the Theatre-Royal in <hi>Drury-Lane.</hi></p>
 <p><hi>LONDON:</hi> Printed for J. and R. TONSON and S. DRAPER in the <hi>Strand.</hi> MDCCLV. [Price 1 <hi>s.</hi> 6 <hi>d.</hi></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE,</head>
 <byline>Written by Mr. <hi>GARRICK,</hi> and spoken by him in the Character of a <hi>Country Boy.</hi></byline>
@@ -95,8 +95,8 @@
 <l>E'feck I'll trust no more to Measter's Brain,</l>
 <l>But pack up all, and whistle whoame again.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <head>EPILOGUE,</head>
 <byline>Written by Mr. <hi>GARRICK.</hi></byline>
 <stage><hi>Spoken by Mr.</hi> WOODWARD <hi>in the Character of a fine Gentleman.</hi></stage>
@@ -148,11 +148,11 @@
 <l>Banish your gloomy Scenes to foreign Climes,</l>
 <l>Reserve alone to bless these golden Times,</l>
 <l><hi>A Farce or two—and</hi> Woodward's <hi>Pantomimes!</hi></l>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <p>The Author of the Prologue and Epilogue, would not have publish'd them had it not been customary to print them with the Play. He is very sensible that they can have little or no Merit in the Reading, their Effect wholly depending upon the Characters which speak them, and the Novelty of introducing them. They were likewise written at a very short Warning, for the Author of the Play, had not provided these usual, and therefore necessary, Parts of the Performance, which Mr. GARRICK thought proper to provide at all Events.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>DRAMATIS PERSONAE.</head>
 <p><list>
@@ -178,19 +178,19 @@
 <item><hi>Miss</hi> Minors.</item>
 </list></p>
 <p>OFFICERS, ATTENDANTS, and SLAVES.</p>
-</div1>
+</div>
 <set><p>SCENE, <hi>the Royal Palace of</hi> ALGIERS. TIME, <hi>a few Hours about Midnight.</hi></p></set>
-<div1 type="notice">
+<div type="notice">
 <head>ADVERTISEMENT.</head>
 <p>"TRAGEDY, as it was anciently composed, hath been ever held the gravest, moralest, and most profitable of all other Poems. Hence Philosophers, and other gravest Writers, as, <hi>Cicero, Plutarch,</hi> and others, frequently cite out of Tragic Poets, both to adorn and illustrate their Discourse The Apostle <hi>Paul</hi> himself, thought it not unworthy to insert a Verse of <hi>a Greek Poet</hi> into the Text of Holy Scripture.—Heretofore, Men in highest Dignity have laboured, not a little, to be thought able to compose a Tragedy. Of that Honour <hi>Dionysius</hi> the Elder, was no less ambitious, than before, of his attaining to the Tyranny. <hi>Augustus Caesar</hi> also had begun his <hi>Ajax,</hi> but unable to please his own Judgment, left it unfinished. <hi>Sencca</hi> the Philosopher, is by some thought the Author of those Tragedies, at least the best of them that go under that Name. <hi>Gregory Nazianzen,</hi> a Father of the Church, thought it not unbeseeming the Sanctity of his Person to write a Tragedy, which is intitled, <hi>Christ Suffering.</hi> This is mentioned, to <hi>vindicate Tragedy</hi> from the small Esteem, or rather Infamy, which in the Account of many, it undergoes at this Day,"</p>
 <p>So sar the great <hi>Milton:</hi> who strengthen'd these Examples by <hi>his own.</hi> The Author hath nothing more to add, save only, that he hath aimed to write this Piece, in its <hi>essential Parts,</hi> according to the Model of ancient Tragedy, so far as modern Ideas and Manners wou'd permit. And he is so gratefully senssble of that favourable Reception it hath met with from the Public, that in every future Attempt, he will assuredly labour to merit their farther Regarcs, by keeping in his Eye the same great Originals.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="6"/>BARBAROSSA.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT 1.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> OTHMAN <hi>and a</hi> SLAVE.</stage>
 <sp>
 <speaker>OTHMAN.</speaker>
@@ -888,12 +888,12 @@ My Care shall speed thee, while Suspicion sleeps.</l>
 <l>Let the Storm beat. I'll weep and pray, till she</l>
 <l>And Heav'n forget, my Father e'er was cruel.</l>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="22" facs="21"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>ZAPHIRA <hi>and female Slaves discover'd.</hi></stage>
 <sp>
 <speaker>ZAPHIRA.</speaker>
@@ -1742,12 +1742,12 @@ In secret Council. Ere the dead of Night</l>
 <l>Or bravely to Revenge, or bravely Die.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="38" facs="37"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> IRENE.</stage>
 <sp>
 <l>CAN Air-drawn Visions mock the waking Eye,</l>
@@ -2515,12 +2515,12 @@ In this dread Interval, O busy Thought,</l>
 <l>And whelm his Throne, his Empire, and himself,</l>
 <l>In one prodigious Ruin!</l>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="53" facs="52"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> IRENE <hi>and</hi> ALADIN.</stage>
 <sp>
 <speaker>IRENE.</speaker>
@@ -3220,12 +3220,12 @@ Curse on the Fear that cou'd betray my Limbs,</l>
 <l>Hence, Pity!—Feed the milky Thought of Babes:</l>
 <l>Mine is of bloodier Hue.</l>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="66" facs="65"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> BARBAROSSA <hi>and</hi> ALADIN.</stage>
 <sp>
 <speaker>BARBAROSSA.</speaker>
@@ -3820,8 +3820,8 @@ Insult these poor Remains. See them interr'd</l>
 <l>And seek the Tyrant.</l>
 </sp>
 <stage><hi>[Exeunt</hi> OTHMAN, <hi>&amp;c.</hi></stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="77" facs="76"/>
 <head>SCENE <stage><hi>changes to the open Palace.</hi></stage></head>
 <stage><hi>Enter</hi> BARBAROSSA.</stage>
@@ -4028,8 +4028,8 @@ Valour, by barb'rous and inhuman Deeds.</l>
 <l>That oft' the Cloud which wraps the present Hour,</l>
 <l>Serves but to brighten all our future Days!</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

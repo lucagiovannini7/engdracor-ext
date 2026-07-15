@@ -7,7 +7,7 @@
 <editionStmt><edition>Second edition.</edition></editionStmt><extent>6,[2],87,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by J. Davis; for J. Bell,</publisher><date>1800.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Based partly on A. F. von Kotzebue's 'Die Indianer in England'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT32397.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE EAST INDIAN: A COMEDY.</p>
 <p>IN FIVE ACTS.</p>
@@ -22,8 +22,8 @@
 <l>Vos estis Fratres!</l>
 <bibl>JUVENAL, Sat. 5.</bibl>
 <p>LONDON: PRINTED BY J. DAVIS. CHANCERY LANE; FOR J. BELL, NO. 148, OXFORD STREET. M. DCCC.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>THE Plot of this Comedy, as far as regards Rivers's visits to Modish and Mrs. Ormond, was taken from the Novel of Sidney Biddulph; Mr. Sheridan had already borrowed the same incident from the same source, and employed it (though in a different manner) in the "School for Scandal."</p>
@@ -33,8 +33,8 @@
 my road, mounted on his great tragic war-horse Pizarro, and trampled my humble pad-nag of a Comedy under foot without the least compunction. My Readers must decide, whether my Play merited so transient an existence; it is unnecessary to say, that <hi>I</hi> am quite of the contrary opinion.</p>
 <closer><dateline><date>Jan. 14. 1800.</date></dateline>
 <signed>M. G. LEWIS.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>By the Author.</byline>
@@ -87,8 +87,8 @@ my road, mounted on his great tragic war-horse Pizarro, and trampled my humble p
 <l>But damn it, gentle friends—Oh! damn it! damn it!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -116,15 +116,14 @@ my road, mounted on his great tragic war-horse Pizarro, and trampled my humble p
 <item><label>ANNE,</label> Mrs. JONES.</item>
 </list>
 <p>Ladies, Gentlemen, Servants, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE EAST INDIAN.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—</head><stage>A Room in an Hotel.</stage>
 <stage>WALSINGHAM <hi>is seated by a Table</hi>; ROBERT <hi>waiting.</hi></stage>
 <sp>
@@ -319,8 +318,8 @@ you some diversion in your own way; for Lady Clara's table is seldom unsupplied 
 <p>Every table in town may be supplied with that article at a very small expence, I doubt not; for, after all my peregrinations in quest of folly, I am decided, that no country abounds more with that luxury than little, England; where absurdities spring as kindly as mushrooms upon dunghills, and you can't turn a corner without starting a fool!
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—</head><stage>Lady CLARA's.</stage>
 <stage><hi>Enter</hi> Mrs. TIFFANY <hi>and</hi> SLIP-SLOP.</stage>
 <sp>
@@ -1047,13 +1046,13 @@ So fades my hope! On how sandy a foundation do they build, who place their relia
 <p>I've gained much by this conference! Bachelors! Bachelors! Tye yourselves up in the noose of hemp, rather than the noose of matrimony. The pain of the former is never felt after a few minutes; but the knot of the latter grows tighter every hour during years, and is at last only loosened by death or infamy!
 <stage>Exit.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="27"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <stage>ZORAYDA'S <hi>Apartment.—She is discovered folding a Letter.</hi></stage>
 <sp>
 <speaker>ZORAYDA.</speaker>
@@ -1196,8 +1195,8 @@ calling, on Zorayda for those offices which a daughter alone can perform; and wo
 father: will throw me on his bosom, will cling round his knees, will clasp his hand till it dashes me on the ground, and then, if his feet trample me, will bathe them with my tears, kiss them, and die!
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—</head><stage>Mrs. ORMOND's.—<hi>The Breakfast Table is set.</hi></stage>
 <stage><hi>Enter</hi> Mrs. ORMOND, <hi>followed by</hi> ANNE.</stage>
 <sp>
@@ -1655,13 +1654,13 @@ which, if true, leaves me at liberty to repair my injuries to Zorayda; and if fa
 <p>With transport! But by heaven you are an angel!—Oh, Mrs. Ormond! did all your sex think, like you—would Chastity stretch forth her hand to assist the penitent, not raise it to plunge her deeper—many a poor victim of imprudence now struggling with the billows might easily regain the shore!—But when some unhappy girl has made the first false step, branded with shame, abandoned by her former friends, courted by vice, and shunned by virtue, no wonder that she flies from remorse to the arms of luxury, and purchases a momentary oblivion of her sorrows by a repetition of the fault which caused them.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="35" facs="41"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—</head><stage>An Apartment elegantly furnished.</stage>
 <stage>Mrs. ORMOND <hi>and</hi> RIVERS <hi>are seated near a Table, on which is Desert, &amp;c.</hi></stage>
 <sp>
@@ -1723,8 +1722,8 @@ which, if true, leaves me at liberty to repair my injuries to Zorayda; and if fa
 <p>Either Mr. Rivers deceives himself, or the difference must be strange between a father's and a mother's feelings! Yes, my loved William, should'st <hi>thou</hi> prove unworthy my regard, I think my heart would break with grief; but till it <hi>did</hi> break, never, oh! surely never, would it feel one spark of less affection for thee!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="37" facs="43"/>
 <head><hi>SCENE II.</hi>—</head><stage>A Room at Lady <hi>Clara's.</hi>—Another is seen through Folding-Doors.</stage>
 <stage><hi>Enter</hi> Lord LISTLESS <hi>and</hi> MODISH.</stage>
@@ -2469,13 +2468,13 @@ and would have given the man any thing in the world had I only known that he wan
 <p>Yes, I must go. Slip-slop, my cloak!—Such a princely fortune lost!—I remember now to have heard of Mortimer's immense wealth; and perhaps at the very moment he pleaded for half-a-crown, his pockets were stuffed with pearls and diamonds; and I warrant his odious black scratch periwig had been papilloted with bank-notes!—Oh! I could go distracted.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="53" facs="59"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—</head><stage><hi>Mrs.</hi> ORMOND'S.</stage>
 <stage><hi>Enter Mrs.</hi> ORMOND <hi>and</hi> RIVERS,</stage>
 <sp>
@@ -2698,8 +2697,8 @@ Oh! I could tear her eyes out!
 <l>Where breathe less boisterous winds, where smile less clouded skies.</l>
 <stage>Exeunt</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—</head><stage>Lord LISTLESS's.</stage>
 <stage><hi>Enter</hi> Lord LISTLESS <hi>and</hi> FRIPONEAU.</stage>
 <sp>
@@ -2857,8 +2856,8 @@ Good evening, Walsingham.
 <p>Go thy ways, thou prince of puppies! But 'tis well that this fellow has made me his confident, for the consequences of his scheme might have been very unpleasant to Zorayda; but now to mar it, and, if possible, get him into a scrape, of which at present he little dreams. The scoundrel!—but alas! there are but too many in the world, who, like him, would soon make themselves villains, if nature hadn't kindly prevented it by making them fools.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—</head><stage><hi>An anti-chamber at</hi> Lady Clara<hi>'s.</hi></stage>
 <stage>[Music within.]</stage>
 <stage>Company cross the Stage. Servants pass with refreshments.</stage>
@@ -3108,8 +3107,8 @@ to be arrested, and her brother's at the point of death.</p>
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head><hi>SCENE IV.</hi>—</head><stage>A magnificent Apartment at <hi>Modish's,</hi> illuminated.</stage>
 <stage>MODISH, TRIFLE, Lady HUBBUB, Mrs. BLAB-ALL, <hi>&amp;c. discovered—Card Tables, &amp;c.—Ladies and Gentlemen playing at them.</hi></stage>
 <sp>
@@ -3475,13 +3474,13 @@ to the advantages which my son will reap from your acquaintance; much from your 
 My embarrassments increase every hour—Why, why must Beauchamp have faults to none but me?—What course shall I pursue?—Suppose—Yes! I'll discharge his debts under a feigned name, and, when he's at liberty, challenge him in my own; the first to reward his merits, the second to avenge <hi>my</hi> wrongs! It shall be so—and if I fall to-morrow—then may my poor Zorayda find Heaven more merciful than she found her father!—May God forgive her, but I never can!
 <stage>Exit.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="75" facs="81"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—</head><stage>Lady CLARA's.</stage>
 <stage>ZORAYDA <hi>discovered seated on a Sofa, and leaning her Head on</hi> Mrs. ORMOND's <hi>Shoulder.</hi> Lady CLARA <hi>is standing near her.</hi></stage>
 <sp>
@@ -3877,13 +3876,12 @@ Dear, dear father!</p>
 <speaker>ZOR.</speaker>
 <p>Ah, my father! 'tis a cloud which must never be removed; for, 'tis the gloom of self-reproach!—I have erred, and been forgiven; but am I therefore less culpable?—Your indulgence has been great; but is my fault therefore less enormous? Oh, no, no, no! The calm of innocence has for ever left me, the courage of conscious virtue must be mine no more! Still must the memory of errors past torment me, and embitter every future joy:—still must I blush to read scorn in the world's eye, suspicion in my husband's:—and still must feel this painful truth most keenly, that she who once deviates from the paths of virtue, though she may obtain the forgiveness of others, never can obtain her own!</p>
 </sp>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> FIFTH ACT.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="91"/>
 <head>EPILOGUE.</head>
 <byline>By the Author.</byline>
@@ -3964,11 +3962,11 @@ Dear, dear father!</p>
 </lg>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
-<div1 type="colophon">
+</div>
+<div type="colophon">
 <p>Printed by J. DAVIS, Chancery-Lane.</p>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="94"/>
 <head>BOOKS LATELY PUBLISHED BY J. BELL, No. 148, OXFORD-STREET.</head>
 <list>
@@ -3979,8 +3977,7 @@ Dear, dear father!</p>
 <item>V. THE FAMILY OF HALDEN, a Novel. By Augustus La Fontaine. Translated from the German. In 4 vols. Price 14s.</item>
 <item>VI. ST. JULIEN, or MEMOIRS OF A FATHER. By Augustus la Fontaine. Translated from the German. Price 4s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

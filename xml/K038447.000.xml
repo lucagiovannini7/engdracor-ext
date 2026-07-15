@@ -7,7 +7,7 @@
 <extent>xxvii,[1],96p. ; 12⁰.</extent><publicationStmt><publisher>printed by Thomas Burnside, for P. Wogan, J. Rice, and G. Folingsby,</publisher><date>1796.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Based on William Godwin's novel 'Things as they are, or the adventures of Caleb Williams' with a preface critical of John P. Kemble's performance in the play.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT37407.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE IRON CHEST: A PLAY; IN THREE ACTS. WRITTEN BY GEORGE COLMAN, THE YOUNGER. WITH A PREFACE.</p>
 <p>First represented at the THEATRE-ROYAL, DRURY-LANE, on SATURDAY, 12th MARCH, 1796.</p>
@@ -15,8 +15,8 @@
 <bibl>DRURY-LANE PLAY-BILL.</bibl>
 <l>I had as lieve the Town-Crier had spoke my Lines."</l> <bibl>SHAKESPEARE.</bibl>
 <p>DUBLIN: <hi>PRINTED BY THOMAS BURNSIDE,</hi> FOR P. WOGAN, J. RICE, AND G. FOLINGSBY. 1796.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>HAVING been, for some time, a labourer in the Drama, and finding it necessary to continue my labours, I cannot help endeavouring to guard the past from misrepresentation, lest my supineness may injure the future. Conscious that a prejudice has been created against the Play which I now submit to the Reader, and conscious how far I am innocent of raising it, it were stupid to sit down in silence, and thus tacitly acknowledge myself guilty of dulness;— dumbly confess I have been deficient in the knowledge of my trade, damn myself for a bungling workman, and fix a disrepute upon every article which may, hereafter, come from my hands.</p>
@@ -132,8 +132,8 @@ it uttered, for the first time, in a croak, fainter than a crow's in a consumpti
 <l>"He is my goods, my chattlels;"</l>
 <l>"My Horse, my Ox, my Ass, my any thing."</l>
 <p>And I would animadvert still further, did I not think I had already said sufficient to gain the object of guarding my own reputation. That object has solely swayed me in dwelling so long upon a "plain tale," encumbered with so fatiguing a Hero as JOHN KEMBLE.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="23"/>
 <head><hi>ADVERTISEMENT</hi> TO THE READER.</head>
 <p>I AM indebted for the ground-work of this Play to a Novel entitled <hi>"Things as they are, or the Adventures of Caleb Williams; written by William Godwin."</hi> Much of Mr. GODWIN's story I have omitted; much, which I have adopted, I have compressed; much I have added; and much I have taken the liberty to alter.</p>
@@ -152,8 +152,8 @@ decide whether, even in that shape, (with all the misfortunes, before enumerated
 <p>I, now, leave the gentle reader to the perusal of the Play—and, lest my Father's memory may be injured by mistakes; and, in the confusion of after-times, the <hi>Translator of Terence,</hi> and the <hi>Author</hi> of <hi>The Jealous Wife,</hi> be supposed guilty of the <hi>Iron Chest</hi>; I shall, were I to reach the Patriarchal longevity of Methusaleh, continue (in all my Dramatick publications) to subscribe myself</p>
 <closer><signed>GEORGE COLMAN, the Younger.</signed>
 <dateline><hi>Piccadilly,</hi> <date><hi>July,</hi> 20th, 1796.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="26"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -181,14 +181,14 @@ decide whether, even in that shape, (with all the misfortunes, before enumerated
 <item><hi>Barbara,</hi> Signora Storace.</item>
 <item><hi>Judith,</hi> Miss De Camp.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>SCENE,</hi> in the New Forest, in Hampshire, and on its Borders.</p></set>
 </front>
 <body>
 <head><pb facs="27"/>THE IRON CHEST; <hi>A PLAY,</hi> IN THREE ACTS.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.—</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The inside of</hi> RAWBOLD's COTTAGE. <hi>Several children, squalid and beggarly, discovered in different parts of the room: some asleep.</hi>— DAME RAWBOLD <hi>seated, leaning over the embers of the fire.</hi> BARBARA <hi>seated near her.</hi> SAMSON <hi>standing in the front of the stage. A narrow stair-case in the back scene. A taper burning. The whole scene exhibits poverty and wretchedness.</hi></stage>
 <sp>
@@ -786,8 +786,8 @@ any good come of a girl's reading sonnets, with a learned clerk, under a copse.<
 <l>You'll think on little Barbara.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi></head><stage>An old fashioned Hall, in <hi>Sir EDWARD MORTIMER's</hi> Lodge.</stage>
 <stage><hi>Several Servants cross the Stage, with Flaggons, Tankards, cold Meat,</hi> &amp;c. &amp;c.</stage>
 <stage><hi>Enter</hi> ADAM WINTERTON.</stage>
@@ -1238,8 +1238,8 @@ I told you, at the next assize. Mercy on me! 'twas a crowded court; and both gen
 <speaker>Wilf.</speaker>
 <p>My throat's parch'd, and my blood freezes. A quart of brandy couldn't moisten the one nor thaw the other. This accounts, then, for all. Poor, unhappy gentleman! This unravels all, from the first day of my service—when a deep groan made me run into the library, and I found him locking up his papers, in the Iron Chest, as pale as ashes.—Eh?— What can be in that chest!—Perhaps some proof of —no I shudder at the suggestion—'Tis not possible one so good can be guilty of—I know not what to think —nor what to resolve. But curiosity is roused, and, come what may, I'll have an eye upon him. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="22" facs="48"/>
 <head>SCENE III.—</head><stage><hi>A Library.</hi></stage>
 <stage><hi>Sir Edward Mortimer</hi> discovered at a Writing Table. <hi>Adam Winterton</hi> attending.</stage>
@@ -1677,12 +1677,12 @@ I told you, at the next assize. Mercy on me! 'twas a crowded court; and both gen
 <l>Poor little Barbara, &amp;c.</l>
 </lg>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="29" facs="55"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—</head><stage>The New Forest.</stage>
 <stage><hi>Enter</hi> ARMSTRONG <hi>and</hi> ORSON.</stage>
 <sp>
@@ -1828,8 +1828,8 @@ I told you, at the next assize. Mercy on me! 'twas a crowded court; and both gen
 </lg>
 </lg>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi></head><stage>The Hall in <hi>SIR EDWARD MORTIMER's</hi> Lodge.</stage>
 <stage><hi>Enter</hi> FITZHARDING.</stage>
 <sp>
@@ -2463,8 +2463,8 @@ I told you, at the next assize. Mercy on me! 'twas a crowded court; and both gen
 <l>Come, brother!</l>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head><stage>HELEN'S COTTAGE.</stage>
 <stage>Enter Helen and Samson.</stage>
 <sp>
@@ -2798,8 +2798,8 @@ I told you, at the next assize. Mercy on me! 'twas a crowded court; and both gen
 </lg>
 </lg>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="47" facs="73"/>
 <head><hi>SCENE IV.</hi>—</head><stage>The <hi>LIBRARY.</hi></stage>
 <stage>WILFORD <hi>discovered.</hi></stage>
@@ -3206,8 +3206,8 @@ I told you, at the next assize. Mercy on me! 'twas a crowded court; and both gen
 <pb n="54" facs="80"/>
 instantly. The thought of my innocence will cheer me as I wander through the gloom. Oh! when guilty Ambition writhes upon his couch, why should bare-foot Integrity repine, though his sweet sleep be canopied with a ragged hovel!<stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head><hi>SCENE V.</hi>—</head><stage>The inside of an Abbey, in ruins. Part of it converted into an habitation for Robbers. Various entrances to their apartment, through the broken arches of the building, <hi>&amp;c. &amp;c.</hi></stage>
 <stage><hi>Enter</hi> JUDITH <hi>and a</hi> BOY.</stage>
 <sp>
@@ -3586,12 +3586,12 @@ on the way: and know how basely he has been handled by one of you. Well, time mu
 <l>And make the welkin ring!</l>
 </lg>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="61" facs="87"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage><hi>WINTERTON's</hi> Room, in <hi>SIR EDWARD MORTIMER's</hi> Lodge.</stage>
 <stage>SAMSON <hi>and</hi> BLANCH, <hi>discover'd, at a Table, with Bottle and Glasses.</hi></stage>
 <sp>
@@ -4138,8 +4138,8 @@ slighter encouragement than this. Be not you one of those empty coxcombs, and so
 <l>From break of the mornings, <hi>&amp;c,</hi></l>
 </lg>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="71" facs="97"/>
 <head><hi>SCENE II.</hi></head><stage>A Room in <hi>Sir EDWARD MORTIMER's</hi> Lodge.</stage>
 <stage>MORTIMER <hi>and</hi> HELEN <hi>discovered.</hi></stage>
@@ -5119,8 +5119,8 @@ making you the partner of my misfortunes. That, Barbara—I am sure you love me�
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>An Apartment in the Lodge.</stage>
 <stage>FITZ-HARDING, WILFORD, <hi>and various domesticks, discovered.—To them enter</hi> ADAM WINTERTON.</stage>
 <sp>
@@ -5807,8 +5807,8 @@ and succour the innocent, in their extremity. Clamour not now your congratulatio
 </lg>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 </text>

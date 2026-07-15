@@ -7,21 +7,21 @@
 <extent>85,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Debrett,</publisher><date>1799.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The editor's preface signed: G. Y. B.</note><note>With three final pages of advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45427.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>JASON; A TRAGEDY, <hi>IN FIVE ACTS.</hi> BY R. GLOVER, ESQ. AUTHOR OF "LEONIDAS, AN EPIC POEM."</p>
 <quote>—Ex fumo dare lucem Cogitat, ut speciosa dehinc miracula promat.</quote>
 <bibl>Hor. de Art. Poet. v. 143</bibl>
 <p>LONDON: <hi>PRINTED FOR J. DEBRETT,</hi> OPPOSITE BURLINGTON-HOUSE, PICCADILLY. MDCCXCIX.</p>
-</div1>
-<div1 type="tothereader">
+</div>
+<div type="tothereader">
 <pb facs="2"/>
 <head>TO THE READER.</head>
 <p>THE following Tragedy, which is now offered to the Public from the pen of RICHARD GLOVER, Esq. Author of LEONIDAS, is a Sequel to the MEDEA, which has been performed at the Theatre Royal, Drury Lane, with the greatest applause. This Piece was presented by him, many years previous to his death, to the celebrated Mrs. Yates, who passed the highest encomiums upon it; but owing to the grandeur of the scenery, and the expense required to bring it forward, it was altogether laid aside; and it has since that period been offered to the Managers of both Theatres, who still have the same objection. It is therefore only necessary to add, that the Public, well knowing the Author's talents, have it in their power to judge of its merits or defects.</p>
 <closer><dateline><date>July 26, 1799.</date></dateline>
 <signed>G. Y. B.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -33,14 +33,14 @@
 <item>CASSANDANE.</item>
 <item>Nymphs and Spirits.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>SCENE.—</hi>A Castle near Mount Caucasus, and the Caspian Sea.</p></set>
 </front>
 <body>
 <head><pb facs="4"/>JASON.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>MELAMPUS <hi>completely armed, and</hi> MADAUCES <hi>bearing a wand.</hi></stage>
 <sp>
@@ -87,8 +87,8 @@
 <l>Of that advancing band. With coward fear</l>
 <l>They shrink, they leave their unassisted lord.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>MADAUCES <hi>to</hi> MELAMPUS, <hi>going.</hi></stage>
 <sp>
@@ -100,8 +100,8 @@
 <l>O, in benignity prosuse to others,</l>
 <l>Unkind and rig'rous to thyself! They come.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>MADAUCES, MELAMPUS, <hi>and</hi> ORONTES.</stage>
 <sp>
@@ -453,8 +453,8 @@ And on my shield her image is impress'd.</l>
 <l>His eyes are clos'd.</l>
 <l>No help is near. He dies—and I the cause.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE III.</head>
 <stage><hi>A cloud descends, concealing the gale of the castle, and the body of</hi> ORONTES, <hi>from</hi> MELAMPUS <hi>and</hi> MADAUCES.</stage>
 <sp>
@@ -588,13 +588,13 @@ Than doth repentance to the eye of heav'n</l>
 <l>To meet the sun, intrepid shalt thou rise,</l>
 <l>Shalt look on glory, and forget thy woes.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="17"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The Genius of Caucasus holding a branch of palm, and looking through the side-scene.</stage>
 <stage>He sings.</stage>
@@ -655,8 +655,8 @@ Than doth repentance to the eye of heav'n</l>
 <l>To this virgin entrance give,</l>
 <l>But thy hideous form conceal.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A Spirit appearing on the battlement.</stage>
 <sp>
@@ -701,8 +701,8 @@ Than doth repentance to the eye of heav'n</l>
 <l>These may sooth, but wisdom cures.</l>
 </sp>
 <stage><hi>[The Spirit, singing, enters the castle;</hi> Cassandane <hi>follows, and the gates close again.</hi></stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>The Spirit on the battlement.</stage>
 <sp>
@@ -728,8 +728,8 @@ The screeching inmate of the moulder'd oak,</l>
 <l>In sight of these impenetrable walls.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>The Spirit vanishes.</hi> MELAMPUS <hi>and</hi> MADAUCES.</stage>
 <sp>
@@ -859,8 +859,8 @@ Then rouse the desert, that some tiger's bowels</l>
 <l>While, rending glory from the front of horror,</l>
 <l>I add new lustre to your splendid roll.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>MELAMPUS <hi>and</hi> MADAUCES.</stage>
 <stage>Melampus <hi>with his spear strikes the gates, which open with a harsh sound, and discover a Centaur, brandishing a mace, and standing across the entrance.</hi> Melampus <hi>attacks the Centaur, who at the touch of the spear instantly vanishes. The whole wall disappears at the same time, and discovers a second wall and gate.</hi></stage>
@@ -878,8 +878,8 @@ Then rouse the desert, that some tiger's bowels</l>
 <l>These are illusive images of danger,</l>
 <l>Which perseverance will dissolve to air.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="25" facs="24"/>
 <head>SCENE VI.</head>
 <stage>MELAMPUS <hi>and</hi> MADAUCES.</stage>
@@ -894,8 +894,8 @@ Then rouse the desert, that some tiger's bowels</l>
 <l>I will have entrance, monster!</l>
 </sp>
 <stage><hi>[The gate, opening spontaneously, admits</hi> Melampus, <hi>and is immediately shut against</hi> Madauces.</stage>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>MADAUCES.</speaker>
@@ -924,8 +924,8 @@ The fleecy radiance opens. Two bright forms</l>
 <l>Descend, and hither point their gliding course.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>MADAUCES <hi>and two Spirits, one personating the God of Riches, the other</hi> HEBE, <hi>Goddess of Youth.</hi></stage>
 <sp>
@@ -986,8 +986,8 @@ My gorgeous hall. The emerald, the topaz,</l>
 <l>Thus should a look command you back to hell.</l>
 </sp>
 <stage>[The Spirits vanish.</stage>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <sp>
 <speaker>MADAUCES.</speaker>
@@ -995,8 +995,8 @@ My gorgeous hall. The emerald, the topaz,</l>
 <l>A subterraneous groan, portending death.</l>
 <l>The earth rocks under my supplanted feet.</l>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="28" facs="27"/>
 <head>SCENE X.</head>
 <stage>After a horrible sound under the stage, violent and repeated thunder and lightning above, the battlements of the castle totter, and fall; the third wall disappears, and discovers a beautiful garden with a magnificent palace.</stage>
@@ -1182,8 +1182,8 @@ How I was suffer'd to approach I know not,</l>
 <l>I must retire. The beck'ning fiend forbids</l>
 <l>My longer stay.</l>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>MADAUCES <hi>and</hi> MELAMPUS.</stage>
 <stage>CASSANDANE, <hi>unseen by them, appears in a grove.</hi></stage>
@@ -1264,8 +1264,8 @@ The Hydra veil'd her sev'n-fold neck in darkness.</l>
 <l>Or mix in combat with a giant race,</l>
 <l>From those deriv'd who shook the tow'rs of Jove.</l>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <sp>
 <speaker>CASSANDANE.</speaker>
@@ -1282,8 +1282,8 @@ The Hydra veil'd her sev'n-fold neck in darkness.</l>
 <l>At thy intrusion to this seat of wonders,</l>
 <l>Which awe my mind, and ev'ry sense confound.</l>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="35" facs="34"/>
 <head>SCENE XIII.</head>
 <stage>CASSANDANE <hi>and the Genius of Caucasus.</hi></stage>
@@ -1307,13 +1307,13 @@ The Hydra veil'd her sev'n-fold neck in darkness.</l>
 <l>Ah! reconduct me to her guardian breast.</l>
 </sp>
 <stage>She returns to the palace, the Spirit singing before her, then vanishing at the gate as she enters.</stage>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="36" facs="35"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>MADAUCES <hi>and</hi> MELAMPUS.</stage>
 <sp>
@@ -1363,8 +1363,8 @@ Subdues the mighty, and deceives the wise,</l>
 <l>A power to mine superior drives me hence,</l>
 <l>And stops my frozen tongue.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>MELAMPUS.</speaker>
@@ -1373,8 +1373,8 @@ Subdues the mighty, and deceives the wise,</l>
 <l>And on my single conduct must rely.</l>
 <l>Now for the palace.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>MELAMPUS.</stage>
 <stage>A large scroll, inscribed with letters of fire, appears in the air.</stage>
@@ -1398,8 +1398,8 @@ Subdues the mighty, and deceives the wise,</l>
 <l>Yet majesty sustains her awful port,</l>
 <l>And not unlike divinity she moves.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>MELAMPUS <hi>and the Enchantress.</hi></stage>
 <sp>
@@ -1449,8 +1449,8 @@ For them alone these chaste abodes reveal</l>
 <l>His house of terrors to enclose thee round.</l>
 <l>Yet wilt thou answer?</l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>[The scene changes to the inside of a sepulchre.</stage>
 <sp>
 <speaker>MELAMPUS.</speaker>
@@ -1674,8 +1674,8 @@ Was once the wise Medea. He is Jason,</l>
 </lg>
 </sp>
 <stage><hi>[A bower rises round</hi> Melampus.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="45" facs="44"/>
 <head>SCENE V.</head>
 <stage><hi>Enchantress and</hi> CASSANDANE <hi>from the palace, in tears.</hi></stage>
@@ -1916,8 +1916,8 @@ Yield their mysterious plants to hurt or heal,</l>
 <l>Obeys my summons, never better pleas'd</l>
 <l>Than to attend on purity like thine.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>ENCHANTRESS, CASSANDANE, <hi>and the Genius.</hi></stage>
 <sp>
@@ -1955,8 +1955,8 @@ Yield their mysterious plants to hurt or heal,</l>
 <l>Their smiles I trust not. Leave me, gentle maiden,</l>
 <l>Thou and thy guardian, not less good than powerful.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>ENCHANTRESS.</speaker>
@@ -1985,13 +1985,13 @@ To catch the glimpses of reviving bliss,</l>
 <l>One will I find; then lay my burden down</l>
 <l>Of evils, grown too mighty for complaint.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="53" facs="52"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>MELAMPUS <hi>asleep in the arbour, which disappears at a symphony of music, and the approach of a Nymph.</hi></stage>
 <stage>She sings.</stage>
@@ -2004,8 +2004,8 @@ To catch the glimpses of reviving bliss,</l>
 <l>Stor'd with Pleasure's various forms.</l>
 </sp>
 <stage>[Melampus <hi>wakes, and the Nymph vanishes.</hi></stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>MELAMPUS.</speaker>
@@ -2016,8 +2016,8 @@ To catch the glimpses of reviving bliss,</l>
 <l>Who now prefers a feeble pray'r—to learn,</l>
 <l>If yet her cup of misery be full.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>MELAMPUS.</stage>
 <stage>A bright cloud advances towards the front of the stage.</stage>
@@ -2060,8 +2060,8 @@ To catch the glimpses of reviving bliss,</l>
 <l>Let me retreat, and plunge in deepest shades.</l>
 </sp>
 <stage>[He withdraws, and the cloud disappears.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Song from behind the scenes.</stage>
 <sp>
@@ -2071,8 +2071,8 @@ To catch the glimpses of reviving bliss,</l>
 <l>Lo! thy father's regal step.</l>
 </sp>
 <stage>[Melampus <hi>re-enters.</hi></stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="55" facs="54"/>
 <head>SCENE V.</head>
 <stage>MELAMPUS, <hi>and</hi> AESON, <hi>who leads a Woman veiled, and in sumptuous attire.</hi></stage>
@@ -2131,8 +2131,8 @@ On this chaste lap thy weary head shall rest;</l>
 <l>This unrivall'd pair recording,</l>
 <l>First of heroes, brightest queen.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>MELAMPUS, AESON, CREUSA, <hi>and the three Graces, who dance to the harps of the Muses; then Hymen with his torch, accompanied by a band of Cupids with torches likewise. Hymen and one of the Graces dance.</hi></stage>
 <sp>
@@ -2176,8 +2176,8 @@ On this chaste lap thy weary head shall rest;</l>
 <l>While them I cherish, virtue may return.</l>
 </sp>
 <stage>[Aeson, Creüsa, <hi>&amp;c. all vanish.</hi></stage>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>MELAMPUS.</speaker>
@@ -2218,8 +2218,8 @@ If he opens once the gate,</l>
 <l>Let me not sink in horrible amaze</l>
 <l>How I, who once possess'd, could ever lose thee▪</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>MELAMPUS <hi>and</hi> CASSANDANE <hi>appearing at a distance with the Genius of Caucasus.</hi></stage>
 <stage>The Genius sings.</stage>
@@ -2472,8 +2472,8 @@ And whom a pow'r unnatural confines</l>
 <l>Mysterious virgin! Though beyond enchantment</l>
 <l>Thou dost perplex me, I in all obey thee.</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="64" facs="63"/>
 <head>SCENE IX.</head>
 <sp>
@@ -2486,8 +2486,8 @@ And whom a pow'r unnatural confines</l>
 <l>I want thy lights, Madauces, more than ever.</l>
 <l>Kind fortune! I perceive him with Orontes.</l>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>MELAMPUS, MADAUCES, <hi>and</hi> ORONTES.</stage>
 <sp>
@@ -2599,8 +2599,8 @@ And whom a pow'r unnatural confines</l>
 <l>But that internal worst of fiends control,</l>
 <l>Unfeeling pride: thus give thy virtues freedom.</l>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>MELAMPUS <hi>and</hi> MADAUCES.</stage>
 <sp>
@@ -2627,13 +2627,13 @@ And whom a pow'r unnatural confines</l>
 <l>Through tenfold perils more from guile or force,</l>
 <l>I will attain to certainty at last.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="68" facs="67"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The</hi> ENCHANTRESS <hi>veiled from the palace,</hi> MELAMPUS <hi>from the grove.</hi></stage>
 <sp>
@@ -2667,8 +2667,8 @@ And whom a pow'r unnatural confines</l>
 <l>O earth and heaven! My wife! My injur'd wife!</l>
 <l>Who shall support me now! Madauces, aid me.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="69" facs="68"/>
 <head>SCENE II.</head>
 <stage>ENCHANTRESS, MELAMPUS, <hi>and</hi> Madauces.</stage>
@@ -2852,8 +2852,8 @@ As heretofore, but warm in hope of bliss,</l>
 <l>He the first should know</l>
 <l>That his protector is Medea's lord.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>ENCHANTRESS, MELAMPUS, MADAUCES, <hi>and</hi> ORONTES.</stage>
 <sp>
@@ -2934,8 +2934,8 @@ As heretofore, but warm in hope of bliss,</l>
 <speaker>ENCHANTRESS.</speaker>
 <l>Speed hence, Madauces—Yet in me confide.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>ENCHANTRESS <hi>and</hi> ORONTES.</stage>
 <sp>
@@ -3085,8 +3085,8 @@ Can awe to silence, or with flatt'ry sooth.</l>
 <l>To gratitude be melted, and renew</l>
 <l>Long-broken faith. That moment sets thee free.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="79" facs="78"/>
 <head>SCENE V.</head>
 <sp>
@@ -3111,8 +3111,8 @@ Can awe to silence, or with flatt'ry sooth.</l>
 <l>Dare not profane that name, or hope his succour.</l>
 <l>O tomb! my only place of rest, receive me.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>ORONTES, <hi>and</hi> CASSANDANE <hi>veiled, with the Genius of Caucasus by her side.</hi></stage>
 <stage>Genius sings, as he enters, to a lute behind the scenes.</stage>
@@ -3194,8 +3194,8 @@ Can awe to silence, or with flatt'ry sooth.</l>
 <l>I the ruling genius here,</l>
 <l>Fly to celebrate thy bliss.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>ORONTES <hi>and</hi> CASSANDANE.</stage>
 <sp>
@@ -3222,8 +3222,8 @@ Nor told my name, too conscious in that period,</l>
 <l>That matchless hero's pardon for my sault.</l>
 <l>I will conduct Medea to his arms.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>ORONTES <hi>and the Enchantress.</hi></stage>
 <sp>
@@ -3245,8 +3245,8 @@ Nor told my name, too conscious in that period,</l>
 <l>And thy imperial state with virtue crown,</l>
 <l>Which shall exalt thee sar beyond thy titles.</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="83" facs="82"/>
 <head>SCENE IX.</head>
 <stage>ORONTES, <hi>the Enchantress,</hi> MADAUCES, <hi>and</hi> CASSANDANE <hi>led by</hi> MELAMPUS.</stage>
@@ -3295,8 +3295,8 @@ Nor told my name, too conscious in that period,</l>
 <speaker>CASSANDANE.</speaker>
 <l>The Genius too of Caucasus returns.</l>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>ORONTES, <hi>the Enchantress,</hi> MADAUCES, CASSANDANE, MELAMPUS, <hi>the Sun appearing over the palace;</hi> CIRCE <hi>mounted on a winged serpent on one side,</hi> JUNO <hi>in her chariol, drawn by peacocks, on the other; and the Genius advancing from the end of the stage, attended by Dryads, Oreads, Naiads, and Fauns: under them appears a beautiful hill. The Genius of Caucasus descends, and leads the Guardian Intelligences of woods, waters, and mountains. Soft music.</hi></stage>
 <stage>The Genius sings.</stage>
@@ -3336,12 +3336,12 @@ Nor told my name, too conscious in that period,</l>
 <l>Which shall o'ershadow all the eastern world.</l>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="85"/>
 <head>NEW PUBLICATIONS <hi>printed for</hi> J. DEBRETT.</head>
 <p>TRAVELS in UPPER and LOWER EGYPT; performed by Order and at the Expense of Lewis the Sixteenth, in 1776, 1777, and 1778. Comprehending the most important Observations and interesting Discoveries made in the Course of the Journey. Faithfully translated from the French of C. S. SONNINI, an Officer of Engineers in the French Navy; Member of several learned Academies in Europe, and assistant Contributor to Buffon, in the Ornithological Department of his Natural History.—Illustrated with a Map of Egypt, Portraits of the Author and of Murat Bey, and several other Engravings, representing Picturesque Views, Antiquities, Natural History, &amp;c. &amp;c. from Drawings taken on the Spot, under the immediate Inspection of the Author, and engraved by Landseer, Milton, Anker Smith, Watts, and the first Artists in the various Departments. With a Preface by the Translator, comprehending an authentic and interesting Account of the Trade to the Levant.—Elegantly printed uniformly to bind with Park's and Brown's Travels in Africa, on fine wove paper, hot-pressed, in one large volume quarto.</p>
@@ -3363,7 +3363,7 @@ and a correct Map of the Russian Empire. A new edition. 3 vols. 1l. 4s.</p>
 <p>MATERNAL LETTERS to a Young Lady, on her Entrance into Life. 2s.</p>
 <p>"These Letters contain much wholesome advice on religious, moral, and prudential subjects, expressed in unaffected language; and they are very proper to be put into the hands of young females when they leave the boarding-school, to correct the false notions which they are too apt to gather there, and to prepare them for filling, with credit and advantage, the most important of all female relations, those of a Wife and a Mother."<hi>—Monthly Review, Dec.</hi> 1795.</p>
 <p>The WORKS of JOHN HALL STEVENSON, Esq. Containing Crazy Tales, Fables for Grown Gentlemen, Lyric Epistles, Pastoral Cordial, Pastoral Puke, Macarony Fables, Lyric Consolations, Moral Tales, Monkish Epitaphs, Essay on the King's Friends, &amp;c. &amp;c. Including several Poems now first printed from the original MSS. with Notes, and a Preface by the Editor: illustrated with a view of Crazy Castle, and the Constellation, engraved by Milton; elegantly printed in 3 volumes, small 8 vo. 15s. boards.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

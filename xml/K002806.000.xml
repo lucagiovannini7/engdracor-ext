@@ -7,12 +7,12 @@
 <extent>[8],72p. ; 8⁰.</extent><publicationStmt><publisher>printed for L. Gilliver,</publisher><date>1731.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Preface signed: A. Hill.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN4369.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>ATHELWOLD: A TRAGEDY. As it is acted at the THEATRE-ROYAL IN <hi>DRURY-LANE,</hi> BY HIS MAJESTY's Servants.</p>
 <p><hi>LONDON:</hi> Printed for L. GILLIVER, at <hi>Homer's-Head,</hi> over-against <hi>St. Dunstan's Church, Fleet-Street.</hi> M.DCC.XXXI.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2" ana="y"/>
 <head>Persons represented.</head>
 <list>
@@ -41,9 +41,9 @@
 <item>Officers, Guards,</item>
 <item>Men and Women Attendants.</item>
 </list>
-</div1>
+</div>
 <set><p>The SCENE, <hi>Chester.</hi></p></set>
-<div1 type="tothereader">
+<div type="tothereader">
 <pb facs="3"/>
 <head>PREFACE to the Reader.</head>
 <p>IF there is any Thing, in my Writings, that deserves to be remember'd, They will <hi>live,</hi> without Patronage: If They ought to be forgotten, They wou'd <hi>die,</hi> in spite of Protection. So I commit them to the World, unsustain'd by <hi>Dedication.—</hi>No Patron's Authority can protect a <hi>bad</hi> Work.—And a <hi>good</hi> one can want no Protection.</p>
@@ -56,8 +56,8 @@ even in That Piece, deserv'd some little Pity: But, I am afraid, I was too Dull 
 <p>The New Play has neither Thought, Design, nor Expression, in the least, resembling the Old one; And my only Reason, for troubling the Reader with this little Story, is, because, shou'd there be any Thing in the second Attempt, greatly Preferable to the First, it will be a <hi>Proof,</hi> that Fancy (for, to say <hi>Genius,</hi> wou'd be making bold, with what is none of my own,) wants the Aid of the Judgment; and shou'd have Regard to the <hi>Rules,</hi> of an Art, which, like Religion, had an Orthodox Establishment; but (like that too) has been warp'd, and weaken'd, by mysterious Dullness, and the dry Pride of Commentators.</p>
 <p>I am unable to execute any Thing in Poetry, if I have <hi>wasted</hi> the Care, I bestow'd on this Tragedy:—Nor can I have so unjust an Opinion of the Publick Taste, (tho I think Nobody will celebrate it, for Poetry,) as not to know, that shou'd there be Merit in <hi>Athelwold,</hi> there are Spirits, in the Nation, who have Influence, and Generosity, to awaken others, into their Sentiments.—I say this, for the sake of the <hi>Stage;</hi> for, as to myself, the Distinction of Deserving to be <hi>Read,</hi> is all the Advantage I propose from my Writings.</p>
 <closer><signed>A. HILL.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. WILKS.</stage>
@@ -112,8 +112,8 @@ Warm'd, by this Heat, which to their <hi>Plays</hi> they ow'd,</l>
 <l>Then shall the Muses, like their Monarch, smile,</l>
 <l>And <hi>all</hi> Heaven's Blessings crown his happy Isle!</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="7"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by Mrs. BOOTH.</stage>
@@ -177,12 +177,12 @@ Warm'd, by this Heat, which to their <hi>Plays</hi> they ow'd,</l>
 <l>Take him among ye,—and, if e're you'd mend him,</l>
 <l>To some <hi>kind Jesuit,</hi> for new Notions, send him.</l>
 </lg>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="1" facs="9"/>ATHELWOLD: A TRAGEDY.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT 1. SCENE 1.</head>
 <stage>A Rocky Coast, without the City of <hi>Chester.</hi></stage>
 <stage><hi>Athelwold, Elsrid, Edwyn,</hi> Men and Women Attendants.</stage>
@@ -462,8 +462,8 @@ Hark!—the King lands. Th'avenging Hand of Heaven</l>
 <l>And gather Firmness, to sustain his Eye,</l>
 <l>Whom, most of Men I love; yet, most have wrong'd. <stage>[Exit.</stage></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE. II.</head>
 <stage><hi>Enter Edgar,</hi> from the Triumph, atttended by <hi>Leolyn, Oswald,</hi> &amp;c.</stage>
 <sp>
@@ -835,12 +835,12 @@ That, in a tender and unguarded Moment,</l>
 <l>Till, from Dishonour, we to Ruin fall,</l>
 <l>And one disjointed Virtue loosens all. <stage>Exit.</stage></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the First ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="23"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>A Grove, in the Palace Garden.</stage>
 <stage>Athelwold, Ethelinda.</stage>
@@ -1087,8 +1087,8 @@ And <hi>Leolyn,</hi> in Conf'rence!—Oh! think.—Recover</l>
 <speaker>Athelwold.</speaker>
 <l>An Hour hence, here. <stage>[Exeunt severally.</stage></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter <hi>Oswald,</hi> and <hi>Leolyn.</hi></stage>
 <sp>
@@ -1473,12 +1473,12 @@ Too brave for forc'd Submission.—Stir not to follow me:</l>
 <l>Unwearied with Mistakes, err on, content,</l>
 <l>And deviate into Blessings, never meant.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="29" facs="37"/>
-<div2 type="scene">
+<div type="scene">
 <head>ACT III. SCENE continues.</head>
 <stage>Oswald and Leolyn.</stage>
 <sp>
@@ -2300,13 +2300,13 @@ Fill me with Fear and Wonder.—It cannot be,</l>
 <l>While, to Self-servers, due Contempt is shown,</l>
 <l>Let Friends, who seek our Int'rest, find their own.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="46" facs="54"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE:<stage><hi>Athelwold</hi>'s Apartment.</stage></head>
 <stage><hi>Elfrid,</hi> and a Lady.</stage>
 <sp>
@@ -2805,13 +2805,13 @@ You turn'd, methought, with Brightness more than mortal,</l>
 <l>There to love hopeless, is, in Life, to die,</l>
 <l>And, languid, in void Blanks of Being, lie.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="57" facs="65"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE: <stage>The Garden.</stage></head>
 <stage>ETHELINDA, alone.</stage>
 <sp>
@@ -3458,10 +3458,9 @@ Heard, as we pass'd, upon th' extended Terras,</l>
 <l>And Guilt grows <hi>Fate,</hi> that was but <hi>Choice,</hi> before.</l>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>
-
 </TEI>

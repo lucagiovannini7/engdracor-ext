@@ -7,14 +7,14 @@
 <extent>[8], 64 p. ; 4⁰.</extent><publicationStmt><publisher>printed for John Chantry, at the Sign of Lincoln's-Inn-Square, at Lincolns-Inn-Back-Gate,</publisher><date>1706.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Susanna Carroll.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26862.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage><textClass><keywords><term>Comedies -- 18th century. -- England</term></keywords></textClass></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <pb facs="2" ana="y"/>
 <p>Love at a Venture. A COMEDY. As it is ACTED By his Grace, the Duke of <hi>Grafton</hi>'s Servants, AT THE NEW THEATRE IN BATH.</p>
 <p>Written by the Author of the <hi>Gamester.</hi></p>
 <p><hi>LONDON:</hi> Printed for <hi>John Chantry,</hi> at the Sign of <hi>Lincolon</hi>'s<hi>-Inn-Square,</hi> at <hi>Lincolons-Inn-Back-Gate,</hi> 1706. Price 1<hi>s.</hi> 6<hi>d.</hi></p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>To his Grace, <hi>Henry</hi> Duke of <hi>Beaufort,</hi> Marquiss and Earl of <hi>Worcester,</hi> Baron <hi>Herbert</hi> of <hi>Gower, Rawland, Chepstow, &amp;c.</hi></head>
 <opener><salute>May it please your Grace,</salute></opener>
@@ -26,8 +26,8 @@ Numbers sound most sweet, when grac'd with soft harmonious Strains.</p>
 <p><pb facs="5"/>
 That <hi>your Grace,</hi> may long enjoy those Blessings in perfect Health, and unmolested Peace, together with your Beauteous Lady; and that your Connubial Joys may produce a perfect Copy of their Parents, which may adorn the Age to come, with the same Singularity of Goodness, as <hi>your Grace</hi> does the present; are, <hi>My Lord,</hi> the sincere Wishes of,</p>
 <closer><signed>Your Graces, most Obedient, most Devoted, Humble Servant, <hi>Susanna Carroll.</hi></signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <l>LEast any here shou'd blame our Author's toil,</l>
@@ -58,8 +58,8 @@ That <hi>your Grace,</hi> may long enjoy those Blessings in perfect Health, and 
 <l>Hither our Author ventur'd with her Play.</l>
 <l>And hopes her Profits will her Charge defray,</l>
 <l>If that bright Circle Ventures to adorn her Day.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="7"/>
 <head>EPILOGUE,</head>
 <stage>Spoken by Miss <hi>Jacobella Power.</hi></stage>
@@ -82,8 +82,8 @@ That <hi>your Grace,</hi> may long enjoy those Blessings in perfect Health, and 
 <l>But if at last no Charms have power to win-ye,</l>
 <l>You're past Repentance—or the Devil's in-ye.</l>
 <stage>(runs off.)</stage>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -104,13 +104,13 @@ That <hi>your Grace,</hi> may long enjoy those Blessings in perfect Health, and 
 <item><hi>Patch,</hi>—Maid to <hi>Beliza.</hi></item>
 <item><hi>Flora.</hi>—Maid to <hi>Camilla.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="1" facs="9"/>LOVE at a VENTURE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT. I.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub"><stage>Sir <hi>Paul Cautious</hi>'s House. Sir <hi>William Freelove</hi>'s Apartment.</stage></head>
 <stage>Enter <hi>Bellair</hi> and <hi>Robin,</hi> meeting Sir <hi>William.</hi></stage>
 <sp>
@@ -672,8 +672,8 @@ inexorable <stage>(aside)</stage> I'll Rendezvouse you at the Portal of her Apar
 <l><hi>Your Appetite, your Health, and Life's destroy'd.</hi></l>
 <stage>(exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head type="sub"><stage>The Scene Changes to <hi>Bellair's</hi> Lodgings.</stage></head>
 <stage><hi>Bellair</hi> meeting Mrs. <hi>Patch.</hi></stage>
 <sp>
@@ -804,12 +804,12 @@ inexorable <stage>(aside)</stage> I'll Rendezvouse you at the Portal of her Apar
 <l><hi>All Policy's allow'd in War and Love.</hi></l>
 <stage>(Exit.)</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="13" facs="21"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub"><stage><hi>Beliza</hi>'s Lodgings.</stage></head>
 <stage><hi>Beliza</hi> and <hi>Camilla.</hi></stage>
 <sp>
@@ -1422,11 +1422,11 @@ you not admit me to the Banquet of Possession—when shall I receive from this h
 <p>I'll not fail being at home—there's something more in this than I can Fathom; I resolve to watch her narrowly, if I have a Rival, and scapes me, I forgive him.</p>
 <stage>(Exit.)</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub"><stage>Sir <hi>William</hi>'s Lodgings.</stage></head>
 <stage>Sir <hi>William</hi> meeting Lady <hi>Cautious.</hi></stage>
 <sp>
@@ -2089,11 +2089,11 @@ a Country Gentleman, and made Love as gravely, as ever a Squire of'em all.</p>
 <l><hi>To purchase what we slight, as soon as won;</hi></l>
 <l><hi>And Women know it too, yet long to be undone.</hi></l>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Robin</hi> Solus.</stage>
 <sp>
 <speaker>Rob.</speaker>
@@ -2782,8 +2782,8 @@ too, who you leave—give me some assurance to support my hope, that you will di
 <l><hi>Deceiv'd by Friendship, and destroy'd by Love</hi></l>
 <stage>(Exit.)</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head type="sub"><stage>Scene Changes to Sir <hi>William's</hi> Lodgings.</stage></head>
 <stage>(Enter <hi>Bellair</hi> and <hi>Robin.</hi>)</stage>
 <sp>
@@ -3145,12 +3145,12 @@ bring me another Information of Rogues, ha! I know you again—either you come, 
 <l><hi>There needs no greater Curse to Human Life.</hi></l>
 <stage>(Exit.)</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="50" facs="58"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub"><stage>SCENE is Sir <hi>William</hi>'s Lodgings.</stage></head>
 <stage>Enter Sir <hi>William</hi> and <hi>Bellair.</hi></stage>
 <sp>
@@ -3967,8 +3967,8 @@ even the resemblance of a Crime like this; if you'l but pardon me, I'll vow neve
 <l><hi>The truest Joy that waits on human Life,</hi></l>
 <l><hi>Is a constant Temper—and a Virtuous Wife,</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

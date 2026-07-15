@@ -7,18 +7,18 @@
 <extent>[8],62,[2]p. ; 4⁰.</extent><publicationStmt><publisher>printed for J. Tonson,</publisher><date>1713.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>In this edition the half-title bears no illustration; the 'on' of 'Tonson' in the imprint falls under the 'L' of 'London'; the work ends with "Finis".</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26889.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>CATO. A TRAGEDY.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>CATO. A TRAGEDY. As it is Acted at the THEATRE-ROYAL in <hi>Drury-Lane,</hi> BY Her MAJESTY's Servants.</p>
 <p>By Mr. <hi>ADDISON.</hi></p>
 <p>Ecce Spectaculum dignum, ad quod respiciat, intentus operi suo, Deus! Ecce par Deo dignum, vir fortis cum malâ fortunâ compositus! Non video, inquam, quid habeat in terris Jupiter pulchrius, si convertere animum velit, quàm ut spectet Catonem, jam partibus non semel fractis, nihilominùs inter ruinas publicas erectum. <bibl>Sen. de Divin. Prov.</bibl></p>
 <p><hi>LONDON:</hi> Printed for J. TONSON, at <hi>Shakespear</hi>'s <hi>Head</hi> over-against <hi>Catherine-Street</hi> in the <hi>Strand.</hi> MDCCXIII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE,</head>
 <byline>By Mr. <hi>POPE.</hi></byline>
@@ -75,8 +75,8 @@ Our Scene precariously subsists too long</l>
 <l>Such Plays alone should please a <hi>British</hi> Ear,</l>
 <l>As <hi>Cato</hi>'s self had not disdain'd to hear.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -110,13 +110,13 @@ Our Scene precariously subsists too long</l>
 <label><hi>Lucia,</hi> Daughter to Lucius.</label>
 <item>Mrs. <hi>Porter.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE a large Hall in the Governor's Palace of <hi>Utica.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="7"/>CATO.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>Portius, Marcus.</stage>
 <sp>
@@ -284,8 +284,8 @@ A Virtue wanting in a <hi>Roman</hi> Soul?</l>
 <l>The Sport of Passions—But <hi>Sempronius</hi> comes:</l>
 <l>He must not find this Softness hanging on me. <stage>[Exit.</stage></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Sempronius</hi> solus.</stage>
 <sp>
@@ -372,8 +372,8 @@ This Sun perhaps, this Morning Sun's the last</l>
 <l>I claim in my Reward his Captive Daughter.</l>
 <l>But <hi>Syphax</hi> comes!—</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Syphax, Sempronius.</stage>
 <sp>
@@ -467,8 +467,8 @@ The Birth of Plots, and their last fatal Periods.</l>
 <l>The Time is short, <hi>Caesar</hi> comes rushing on us—</l>
 <l>But hold! young <hi>Juba</hi> sees me, and approaches.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Juba, Syphax.</stage>
 <sp>
@@ -956,12 +956,12 @@ The sad Effects, that it would have on <hi>Marcus.</hi></l>
 <l>And a new Heav'n in its fair Bosom shows. </l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>The Senate.</stage>
 <sp>
@@ -1895,12 +1895,12 @@ I laugh to think how your unshaken <hi>Cato</hi></l>
 <l>And, smother'd in the dusty Whirlwind Dies.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="33" facs="39"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <stage><hi>Marcus</hi> and <hi>Portius.</hi></stage>
 <sp>
@@ -2554,12 +2554,12 @@ When I behold her strugling in my Arms,</l>
 <l>There grimly smil'd, pleas'd with the beauteous Prize,</l>
 <l>Nor envy'd <hi>Jove</hi> his Sun-shine and his Skies.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="45" facs="51"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <stage><hi>Lucia</hi> and <hi>Marcia.</hi></stage>
 <sp>
@@ -3190,12 +3190,12 @@ Is there aught else, my Friends, I can do for you?</l>
 <l>Tho' still, by Faction, Vice, and Fortune, crost,</l>
 <l>Shall find the gen'rous Labour was not lost.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="56" facs="62"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <stage><hi>Cato solus,</hi> sitting in a thoughtful Posture: In his Hand <hi>Plato</hi>'s Book on the Immortality of the Soul. A drawn Sword on the Table by him.</stage>
 <sp>
@@ -3534,12 +3534,12 @@ Wou'd not have match'd his Daughter with a King,</l>
 <l>And robb's the Guilty World of <hi>Cato</hi>'s Life.</l>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the Fifth Act.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="69"/>
 <head>EPILOGUE,</head>
 <byline>By Dr. <hi>GARTH.</hi></byline>
@@ -3589,7 +3589,7 @@ What Pains to get the Gaudy Thing you hate,</l>
 <l>The Fair shall listen to Desert alone,</l>
 <l>And every <hi>Lucia</hi> find a <hi>Cato</hi>'s Son.</l>
 </lg>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

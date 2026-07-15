@@ -7,7 +7,7 @@
 <extent>[4],64p. ; 8⁰.</extent><publicationStmt><publisher>printed for Mess. Wilkie,</publisher><date>1789.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By William Hutchinson.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT73130.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE <hi>PRINCESS of ZANFARA;</hi> A DRAMATIC POEM.</p>
 <quote><gap reason="foreign"/>.</quote> <bibl>ARATUS.</bibl>
@@ -16,13 +16,13 @@
 </figure></p>
 <p>LONDON: Printed for Mess. WILKIE, St Paul's Church-Yard.</p>
 <p>MDCCLXXXIX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>TO THE SOCIETY, INSTITUTED IN THE YEAR 1787, FOR THE PURPOSE OF EFFECTING AN ABOLITION OF THE <hi>SLAVE TRADE,</hi> THIS SMALL TRIBUTE IS MOST RESPECTFULLY INSCRIBED,</p>
 <closer><signed>BY The Editor.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>PERSONS of the DRAMA.</head>
 <list>
@@ -45,16 +45,15 @@ Planters.</item>
 <item>TERESA, The Governor's Lady.</item>
 <item>AMELIA, The Governor's Daughter.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>SCENE in AMERICA.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE <hi>PRINCESS of ZANFARA.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>The curtain drawing up, discovers</hi> LAURA <hi>the female slave sitting by the side of a fountain in a Grove, adjoining to the Governor's Palace.</hi></stage>
 <sp>
 <speaker>LAURA.</speaker>
@@ -603,11 +602,11 @@ Planters.</item>
 <l>To bless and crown with liberty.</l>
 </sp>
 <trailer><hi>End of the</hi> FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head><hi>ACT II.</hi> Scene, <stage>a Plantation and Slaves at Work.</stage></head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>The stage being extended, sundry persons are seen performing the various labours of slaves; the back scene continuing the representation.</hi></stage>
 <stage>CALABAN <hi>and</hi> HORATIO.</stage>
 <sp>
@@ -1250,12 +1249,12 @@ My soul's refresh'd.</l>
 <l>Maintaining an existence vile.—</l>
 </sp>
 <trailer><hi>End of the</hi> SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="26" facs="27"/>
 <head><hi>ACT III.</hi> Scene, <stage>the Groves near the Governor's Palace.</stage></head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> ANTONIO <hi>with the</hi> MOOR.</stage>
 <sp>
 <speaker>MOOR.</speaker>
@@ -1426,8 +1425,8 @@ My soul's refresh'd.</l>
 <l>Than bondage.
 <stage>(Exit.)</stage></l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>The scene changes to the Governor's garden.</stage></head>
 <stage>LAURA <hi>enters alone.</hi></stage>
 <sp>
@@ -1957,12 +1956,12 @@ My soul's refresh'd.</l>
 <stage>(Exeunt.)</stage></l>
 </sp>
 <trailer><hi>End of the</hi> THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="38" facs="39"/>
 <head><hi>ACT IV.</hi> Scene <stage>the Court before the Senate-house.</stage></head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> ANTONIO <hi>and the</hi> MOOR.</stage>
 <sp>
 <speaker>MOOR.</speaker>
@@ -2694,12 +2693,12 @@ My soul's refresh'd.</l>
 <l>The labours that attend on government.</l>
 </sp>
 <trailer><hi>End of the</hi> FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="51" facs="52"/>
 <head><hi>ACT V.</hi> Scene, <stage>the Groves adjoining the Governor's Palace.</stage></head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> JEROME <hi>and</hi> ANTONIO.</stage>
 <sp>
 <speaker>ANTONIO.</speaker>
@@ -3441,10 +3440,9 @@ My heart's distress'd,</l>
 <l>Of our posterity (whilst man exists)</l>
 <l>To an abhorrence of <hi>the Trade in Slaves.</hi></l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

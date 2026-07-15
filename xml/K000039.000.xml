@@ -7,17 +7,17 @@
 <extent>[12], 94 [i.e. 64] p. ; 4⁰.</extent><publicationStmt><publisher>printed for William Turner at the Angel at Lincolns-Inn-Back-Gate; and sold by J. Nutt near Stationers-Hall,</publisher><date>1706 [1705]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Author of The gamester = Susanna Centlivre.</note><note>P.64 misnumbered 94.</note><note>With a half-title.</note><note>Narcissus Luttrell's copy dated by him 4 Dec. 1705.</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCN71.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>A COMEDY, CALL'D, THE Basset-Table.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE BASSET-Table. A COMEDY. As it is Acted at the <hi>Theatre-Royal</hi> in <hi>Drury-Lane,</hi> by Her Majesty's Servants.</p>
 <p>By the Author of the <hi>Gamester.</hi></p>
 <p><hi>LONDON:</hi> Printed for <hi>William Turner</hi> at the <hi>Angel</hi> at <hi>Lincolns-Inn-Back-Gate</hi>; and Sold by <hi>J. Nutt</hi> near <hi>Stationers-Hall,</hi> 1706. Price 1<hi>s.</hi> 6<hi>d.</hi></p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>To the Right Honourable ARTHUR Lord <hi>ALTHAM,</hi> BARON of <hi>ALTHAM,</hi> In the Kingdom of IRELAND.</head>
 <opener><salute>My LORD,</salute></opener>
@@ -32,8 +32,8 @@ which I have the Examples of all those that <hi>wrote</hi> before me to bear me 
 And now, my <hi>Lord,</hi> if I follow'd the beaten Road of Dedicators, it would naturally Engage me in a <hi>Panegirick,</hi> upon your Lordship's Personal Virtues, and those of your <hi>Noble</hi> and <hi>Pious Family;</hi> but I shall purposely decline a Talk to which I freely own my Ability is Unequal, and which, tho' manag'd by a <hi>Masterly Pen,</hi> would make your Modesty suffer. Therefore I shall conclude, with begging your <hi>Lordship</hi>'s leave to Subscribe my self, with all imaginable Respect and Sincerity.</p>
 <closer><salute>My LORD,</salute>
 <signed>Your Lordship's most Obedient, and most Devoted Humble Servant,</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE</head>
 <stage>Spoke by Mr. <hi>Penkethman.</hi></stage>
@@ -67,8 +67,8 @@ And now, my <hi>Lord,</hi> if I follow'd the beaten Road of Dedicators, it would
 <l>Give you a lucky hit, and make you Gentlemen;</l>
 <l>And thus preferr'd, ne'er fear the World's Reproaches,</l>
 <l>But shake your Elbows with my Lord, and keep your Coaches:</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="8"/>
 <head>EPILOGUE</head>
 <stage>Spoke by Mr. <hi>Esthcourt.</hi></stage>
@@ -102,8 +102,8 @@ And now, my <hi>Lord,</hi> if I follow'd the beaten Road of Dedicators, it would
 <l>Grant we may now a Saving-Voyage make.</l>
 <l>Here we're Embark'd, and as you Smile or Frown,</l>
 <l>You are our Stars, by You we Live or Drown.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="9"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -140,12 +140,12 @@ And now, my <hi>Lord,</hi> if I follow'd the beaten Road of Dedicators, it would
 <item>Ladies, Gentlemen, for the <hi>Basset-Table.</hi></item>
 <item>Chair-man, Foot-men, <hi>&amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>Scene. Lady <hi>Reveller</hi>'s Lodgings in <hi>Covent-Garden</hi>; the Time; Four of the Clock in the Morning.</p></set>
 </front>
 <body>
 <head><pb n="1" facs="10"/>THE Basset Table.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage>A large Hall, a Porter with a Staff, several Chairs Waiting, and Footmen a-sleep, with Torches and Flambeauxs standing about the Room.</stage>
 <sp>
@@ -603,8 +603,8 @@ And now, my <hi>Lord,</hi> if I follow'd the beaten Road of Dedicators, it would
 <stage>[Exit.</stage>
 </sp>
 <trailer>The End of the First ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="12" facs="21"/>
 <head>ACT II.</head>
 <stage>Enter <hi>Buckle,</hi> meeting Mrs. <hi>Alpiew.</hi></stage>
@@ -1563,8 +1563,8 @@ the rage I am in, I'll throw all the Books and Mathematical Instruments out of t
 <l>Now let me Gain what I have Lost before.</l>
 <stage>[Exit.]</stage>
 </sp>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="29" facs="38"/>
 <head>ACT. III.</head>
 <stage>The Scene draws, and discovers <hi>Valeria</hi> with Books upon a Table, a Microscope, putting a Fish upon it, several Animals lying by.</stage>
@@ -2304,8 +2304,8 @@ take Pity now Dear Tyrant, and let my Suffering end.</p>
 <l>So true Coquets on their numerous Charms Display,</l>
 <l>And strive to Conquer on purpose to betray.</l>
 </sp>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT. III.</head>
 <stage>Enter Lord <hi>Worthy</hi> and Sir <hi>James.</hi></stage>
 <sp>
@@ -3002,8 +3002,8 @@ had as good be acquainted with Pick-pockets.</p>
 <l>They join together to Enslave us Men,</l>
 <l>And why not we to Conquer them again.</l>
 </sp>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT. V.</head>
 <stage>Enter Sir <hi>James</hi> on one side, and Lady <hi>Reveller</hi> on the other.</stage>
 <sp>
@@ -3671,7 +3671,7 @@ do to make me Amends? For that Fair Face, if I turn you out of Doors, will quick
 <l>Then all you Wives that wou'd avoid my Fate.</l>
 <l>Remain contented with your present State</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

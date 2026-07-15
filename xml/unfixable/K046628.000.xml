@@ -7,7 +7,7 @@
 <extent>[4],104p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author,</publisher><date>1797.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Dedication signed: Francis Godolphin Waldron.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT50920.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE VIRGIN QUEEN, A DRAMA <hi>IN FIVE ACTS;</hi> ATTEMPTED AS A SEQUEL TO SHAKSPEARE'S TEMPEST.</p>
 <l>O, for a muse of fire, that would ascend</l>
@@ -16,8 +16,8 @@
 <p>PRINTED FOR THE AUTHOR.</p>
 <p>1797.</p>
 <p><hi>Entered at Stationers' Hall.</hi></p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO <hi>HIS GRACE</hi> FRANCIS GODOLPHIN, DUKE of LEEDS.</head>
 <opener><salute>MY LORD,</salute></opener>
@@ -26,12 +26,12 @@
 <closer><signed>I have the honour to be, My Lord, Your Grace's Most humble, And most obedient Servant, <hi>FRANCIS GODOLPHIN WALDRON.</hi></signed>
 <dateline><hi>Cross-court, Bow-street, Covent-garden.</hi>
 <date>May 1, 1797.</date></dateline></closer>
-</div1>
-<div1 type="halftitle">
+</div>
+<div type="halftitle">
 <pb facs="4"/>
 <p>THE VIRGIN QUEEN.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>PERSONS of the DRAMA.</head>
 <list>
@@ -66,9 +66,9 @@
 <item>Sycorax, <hi>a spirit.</hi></item>
 <item><hi>Spirits, Mariners, &amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>The SCENE is dispersed.</p></set>
-<div1 type="proem">
+<div type="proem">
 <pb facs="6"/>
 <head>PROEM.</head>
 <lg>
@@ -101,15 +101,14 @@
 <l>But rather, with thy wonted goodness mild,</l>
 <l>Forgive, and oh! inspire him, Fancy's Child!</l>
 </lg>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE VIRGIN QUEEN.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>PROSPERO'S ISLE.</stage></head>
 <stage>Ariel <hi>descends, singing.</hi></stage>
 <sp>
@@ -165,8 +164,8 @@
 <l>Make holiday!</l>
 </lg></sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="7" facs="10"/>
 <head>SCENE II. <stage>ANOTHER PART OF THE ISLAND.</stage></head>
 <stage><hi>Enter</hi> Boatswain, Trinculo, <hi>and Meriners.</hi></stage>
@@ -251,8 +250,8 @@
 <p>Ay, spirits and hobgoblins!—'mercy on us! say I, and send us all safe to Naples!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="11" facs="14"/>
 <head>SCENE III. <stage>ANOTHER PART OF THE ISLAND.</stage></head>
 <stage><hi>Enter</hi> Prospero, Ferdinand, Miranda, <hi>and</hi> Caliban.</stage>
@@ -565,8 +564,8 @@
 <l>Ay, Stephano! a brisk gale, and no hobgoblins!</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>THE BEACH.</stage></head>
 <stage>The Ship in view.</stage>
 <stage><hi>Enter</hi> Ariel, <hi>attended by other Spirits; meeting</hi> Prospero, Miranda, Alonso, Ferdinand, Gonzalo, Anthonio, Sebastian, Adrian <hi>and</hi> Francisco.</stage>
@@ -705,13 +704,13 @@
 </lg>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF ACT THE FIRST.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="25" facs="28"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A CABIN IN THE KING OF NAPLES' SHIP AT SEA</stage></head>
 <stage><hi>Enter</hi> Anthonio, <hi>and</hi> Sebastian.</stage>
 <sp>
@@ -794,8 +793,8 @@
 <l>Fair visages oft cover foulest hearts!</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="28" facs="31"/>
 <head>SCENE II. <stage>THE DECK.</stage></head>
 <stage>Stephano, Trinculo, <hi>and</hi> Caliban.</stage>
@@ -913,8 +912,8 @@
 </lg>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="32" facs="35"/>
 <head>SCENE III. <stage>THE KING'S CABIN.</stage></head>
 <stage><hi>Enter</hi> Ferdinand.</stage>
@@ -1221,13 +1220,13 @@
 </lg>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="43" facs="46"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>THE DECK, <hi>by moonlight.</hi></stage></head>
 <stage><hi>On one part,</hi> Sebastian <hi>and</hi> Anthonio, <hi>walking to and fro; at another,</hi> Stephano <hi>and</hi> Trinculo, <hi>at work;</hi> Caliban <hi>asleep near them: a Mariner, keeping watch.</hi></stage>
 <sp>
@@ -1355,8 +1354,8 @@
 <l>Tho' they appear such, righteous heaven wills</l>
 </sp>
 <stage>THE SCENE CLOSES.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="63" facs="51"/><head><stage>AN AERIAL SCENE.</stage></head>
 <stage><hi>Enter</hi> Ariel, <hi>meeting other Spirits.</hi></stage>
 <sp>
@@ -1400,13 +1399,13 @@
 <l>Virtue's the word! &amp;c.</l>
 </lg>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT THE THIRD.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="65" facs="53"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A GROVE IN PROSPERO'S ISLE; THE SEA IN VIEW.</stage></head>
 <stage><hi>The Spirit of</hi> Sycorax <hi>descends.</hi></stage>
 <sp>
@@ -1508,8 +1507,8 @@
 </lg>
 </sp>
 <stage>Exeunt, towards the sea.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="69" facs="57"/>
 <head>SCENE II. <stage>A BEAUTIFUL COUNTRY.</stage></head>
 <stage>Abdallah, <hi>King of Tunis, discovered in a sumptuous Pavilion.</hi></stage>
@@ -1934,8 +1933,8 @@
 <l>And into atoms tear your quivering hearts!</l>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="82" facs="70"/>
 <head>SCENE III. <stage>THE SEA-BEACH.</stage></head>
 <stage><hi>Enter</hi> Trinculo, <hi>and</hi> Stephano <hi>with his Bottle.</hi></stage>
@@ -2034,13 +2033,13 @@
 </lg>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF ACT THE FOURTH.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="86" facs="74"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A RETIRED GROVE.</stage></head>
 <stage><hi>Enter</hi> Caliban,</stage>
 <sp>
@@ -2333,8 +2332,8 @@
 <p>Are they? why then they may burn my wooden bottle, for there's nothing in it; and the devil take the hindmost!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="97" facs="85"/>
 <head>SCENE II. <stage>THE BEACH.</stage></head>
 <stage><hi>The Remains of the Ship burning;</hi> Sycorax <hi>and other Fiends encircling the Fire.</hi></stage>
@@ -2602,10 +2601,9 @@
 <l>With Faith and Piety still dwell!</l>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>THE END.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

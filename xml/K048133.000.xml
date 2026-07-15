@@ -7,15 +7,15 @@
 <extent>54,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed by A. Strahan; for T. N. Longman and O. Rees,</publisher><date>1800.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53507.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>LIE OF A DAY <hi>A COMEDY,</hi> IN THREE ACTS.</p>
 <p>AS PERFORMED AT THE <hi>THEATRE-ROYAL, COVENT-GARDEN.</hi></p>
 <p>By JOHN O'KEEFFE, Esq.</p>
 <p><hi>LONDON: Printed by A. Straban, Printers-Street;</hi> FOR T. N. LONGMAN AND O. REES, PATERNOSTER-ROW. 1800.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2" ana="y"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -34,16 +34,15 @@
 <item><label>Katty Kavanagh</label> Mrs. DAVENPORT.</item>
 <item><label>Fib</label> Mrs. WATTS.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE—HAMPTON COURT.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="3" facs="3"/>
 <head>LIE OF A DAY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Room at the Toy.</hi></stage></head>
 <stage><hi>Enter</hi> AIRCOURT <hi>and</hi> WAITER.</stage>
 <sp>
@@ -281,8 +280,8 @@ travels—my bills will come pelting in upon him rarely—An't I right, my boy? 
 <p>Oh, Nol Pross's letter <stage>(looking at it)</stage>; it will do something yet, ha, ha, ha!</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>An Office in</hi> ALIBI'<hi>s House.</hi></stage></head>
 <stage>(SOPHIA <hi>discovered writing at a high Desk.)</hi></stage>
 <sp>
@@ -577,8 +576,8 @@ but I'll discourage his impertinence in time <stage>(aside)</stage>. Ha, ha, ha!
 <p>Write away, my boy! and I warrant you'll be Lord Chief Baron some Sunday or other—Dam'me, I'll dress my wig on your pate next Saturday evening. As I am going out, no harm to lock up my ward—The key gone! How's this? Soft! <stage>(locks the centre door, and takes the key.)</stage> One key is as good as another. Good bye, Robin.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="14" facs="14"/>
 <head>SCENE III.—<stage><hi>The Coffee Room at the Toy.</hi></stage></head>
 <stage><hi>Enter</hi> Sir CARROL <hi>and</hi> WAITER.</stage>
@@ -710,13 +709,13 @@ has a claim, at least, to your civility. You say this room is appropriated to ge
 <p>Sir Carrol O'Donovan! Then the son that he speaks of must be the child my mother nursed—Now I shall know if she's yet living.—But alienated by her neglect, as I never knew the tender care of a parent, I don't feel that impulse of filial affection—Sir Carrol shan't know who I am—The meanness of my birth might add contempt to the compassion that my poverty has already excited.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
+</div>
 <trailer>THE END OF THE FIRST.ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="18"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>A Room at</hi> Lady ARABLE'S.</stage>
 <stage><hi>Enter</hi> Sir CARROL <hi>leading in</hi> Lady ARABLE.</stage>
 <sp>
@@ -996,8 +995,8 @@ husband, (poor man,) who was a little bit of a lawyer, made me send our own infa
 <p>How! shall I be matter of Sir Carrol's great estate? see, Katty, if I don't manage it tightly for him. Steward, agent, and bailiff—encourage him to run out—lend him his own money—borrow myself of everybody—get into Parliament, and— <stage>(suddenly claps his hand to his mouth)</stage> Lord a mercy! what was I going to say?</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage>Alibi's <hi>Office.</hi></stage></head>
 <stage><hi>Enter SOPHIA</hi>—<hi>speaks at centre Door.</hi></stage>
 <sp>
@@ -1237,8 +1236,8 @@ Well, honest Robin, you suppose it a very easy pleasant thing for a young fellow
 <p>Ha, ha, ha! Oh, you ignoramus!—the fool little thinks that a man can't even run away with his own wife without being punished for it.—Now, where is the chapter?—don't come in yet—I'll shew him that he may get hanged for what he now whistles at—Oh, here it is—Robin!—Sophy!—Come, don't stand grinning out there at each other—Robin! Zounds! come in <stage>(goes to door).</stage> Eh! the door bolted!—Treachery!—Sophy!—Murder!—I'm robbed—Plague of Lord Coke—I'm nonsuited—that villain Nol Pros—Oh! damn Yorkshire!</p>
 </sp>
 <stage>Exit at centre door</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="29" facs="29"/>
 <head>SCENE III—<stage><hi>A Room at the Toy.</hi></stage></head>
 <stage><hi>Enter</hi> SOPHIA <hi>hastily, speaking off.</hi></stage>
@@ -1449,8 +1448,8 @@ designs to make proposals for my mistress to her guardian.</p>
 <p>Gad! I think it will—I'll try it however.</p>
 <stage>Exeunt langhing</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="33" facs="33"/>
 <head>SCENE IV.—<stage>ALIBI'<hi>s House.</hi></stage></head>
 <stage><hi>Enter</hi> ALIBI <hi>and</hi> SOPHIA.</stage>
@@ -1702,8 +1701,8 @@ prove agreeable to her tender inclination and your sage opinion <stage>(bows).</
 <p>Is the world at an end? am I myself? Quit me in half a minute for this big little villain! because he has money—for this false woman to reject my lady!—I'll—I'll lay my heart at her feet and make her happy!—Yes, I'll go to the drawing room!—No—first to the wine cellar!—Cruel Katty! barbarous—hem!</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>Outside of the Toy.</hi></stage></head>
 <stage><hi>Enter</hi> AIRCOURT <hi>and</hi> LARRY KAVANAGH.</stage>
 <sp>
@@ -1794,13 +1793,13 @@ prove agreeable to her tender inclination and your sage opinion <stage>(bows).</
 <p>I'll about it, my boy—I'll jockey him, ha, ha, ha!</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>THE END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="39" facs="39"/>
 <head>ACT III</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Room at</hi> Lady ARABLE'S.</stage></head>
 <stage><hi>Enter</hi> METHEGLIN <hi>with wine.</hi></stage>
 <sp>
@@ -1984,8 +1983,8 @@ prove agreeable to her tender inclination and your sage opinion <stage>(bows).</
 <p><stage>(looks at picture.)</stage> Heavens! my own picture! What a prank has Sophia play'd me—What must he think of me? And I to wrong his purity by my doubts—Yes, I haveblasphemed the god of my idolatry—but was I quite certain that he entertain'd one tender thought for me, for the first time in my life I'd rejoice at being born to a splendid fortune.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II—<stage><hi>A Hall with several Doors at</hi> ALIBI'<hi>s—Wine and Tea.</hi></stage></head>
 <stage><hi>Enter</hi> KATTY.</stage>
 <sp>
@@ -2170,8 +2169,8 @@ hot and as wicked—It has just primed me for business; and now for the business
 <speaker>Meth.</speaker>
 <p>Muzzy-headed!—Fool!—Sideboard!—Very well—Yes, I think I'll introduce one Sir Carrol O'Donovan into this house.—Yes, he may be listen'd to, though I can't—I will—Master Larry—Oh, ho!—Ay, ay—Master Alibi—I'll discover—Aye—aye— <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>As before.</hi></stage></head>
 <stage><hi>Enter</hi> O'DONOVAN.</stage>
 <sp>
@@ -2399,11 +2398,9 @@ rascally bramble on the noble stock of the O'Donovans! Then, my poor unhappy chi
 <speaker>Sir Car.</speaker>
 <p>Reimburse the four thousand it has cost me in the training of your son Lawrence! and give this lady her fortune; or for your fraud on me I'll prosecute you to beggary! To acquire riches was the cause of your crime; the loss of them now be your punishment—The events of this day have proved, that the Eye which sees all, directs an unerring hand, to give vice the lash, and drop on the brow of honour the blooming wreath of unfading happiness.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

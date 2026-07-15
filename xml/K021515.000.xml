@@ -7,20 +7,20 @@
 <extent>[8],71,[1]p ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket and Co.,</publisher><date>1770.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>With the words "Spoken by Mr. Bensley." at the head of the Prologue.</note><note>Variant; in some copies the statement "Spoken by Mr. Bensley" is not at the head of the prologue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT2455.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>TIMANTHES: A TRAGEDY.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>TIMANTHES: A TRAGEDY.</p>
 <p>As it is performed at the THEATRE ROYAL IN COVENT-GARDEN.</p>
 <p>BY JOHN HOOLE.</p>
 <p>LONDON: Printed for T. BECKET and Co. in the Strand.</p>
 <p>M.DCC.LXX.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. BENSLEY.</byline>
@@ -50,8 +50,8 @@
 <l>With you, his honest zeal must stand approv'd,</l>
 <l>Which makes this off'ring to the man he lov'd!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -68,16 +68,15 @@
 <item><label>CEPHISA,</label> Mrs. BULKLEY.</item>
 </list>
 <p>Officer, Guards, Attendants; Chorus of PRIESTS and VIRGINS.</p>
-</div1>
+</div>
 <set><p>SCENE, Thrace.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="5"/>
 <head>TIMANTHES: A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The palace.</hi></stage></head>
 <stage><hi>Enter</hi> ADRASTUS <hi>and</hi> ORCANES.</stage>
 <sp>
@@ -418,8 +417,8 @@ Steal unperceiv'd upon the beauteous mourner,</l>
 <l>And with Timanthes' love relieve her sorrows!</l>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>A Garden.</hi></stage></head>
 <stage><hi>Enter</hi> MATHUSIUS <hi>and</hi> ISMENA.</stage>
 <sp>
@@ -698,12 +697,12 @@ His kind indulgence shall avert the stroke</l>
 <stage>[Exeunt severally.</stage>
 </sp>
 <trailer>END <hi>of the</hi> FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="16" facs="20"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A sea-port.</hi></stage></head>
 <stage><hi>Enter</hi> CHERINTHUS, CEPHISA, <hi>and Attendants.</hi></stage>
 <sp>
@@ -957,9 +956,9 @@ Has rous'd each Thracian son to hail thy presence,</l>
 <l>Such thoughts as fit the daughter of a king.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <pb n="22" facs="26"/>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>changes to the garden.</hi></stage></head>
 <sp>
 <speaker>ISMENA</speaker>
@@ -1372,12 +1371,12 @@ The rigid law shall seal thee for destruction,</l>
 <l>To arrest the hand of fate, and save Ismena!</l>
 </sp>
 <trailer>END <hi>of the</hi> SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="31" facs="35"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A royal Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> DEMOPHOON <hi>and</hi> CEPHISA.</stage>
 <sp>
@@ -1695,8 +1694,8 @@ The flame of stubborn love shall soon decay,</l>
 <l>Shall yield obedience to a parent's will.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>An open part of the city.</hi></stage></head>
 <stage><hi>Enter</hi> TIMANTHES <hi>and</hi> MATHUSIUS.</stage>
 <sp>
@@ -1751,8 +1750,8 @@ The flame of stubborn love shall soon decay,</l>
 <l>With all the speed of love I'll bear Ismena!—</l>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a view of an arch leading from the city, through which the procession for the sacrifice appears; first the guards, who range themselves on each side the stage; then a train of priests and virgins:</hi> Ismena, <hi>in white vestments, supported by two virgins, advances towards the front of the stage, while the following words are sung; the Music composed by Mr.</hi> Arnold.</stage></head>
 <sp>
 <lg>
@@ -1978,12 +1977,12 @@ And every happiness to me deny'd,</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END <hi>of the</hi> THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="45" facs="49"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The palace.</hi></stage></head>
 <stage>CHERINTHUS, CEPHISA, <hi>meeting.</hi></stage>
 <sp>
@@ -2045,8 +2044,8 @@ Broke thro' the guards that watch'd the portal, rush'd</l>
 <l>And prove what yet remains to save Timanthes!</l>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>outside view of a magnificent temple dedicated to</hi> Apollo; <hi>a flight of steps ascending to it;—clashing of swords is heard.—</hi>Ismena, <hi>in the greatest agitation, descends from the temple, and looks up towards</hi> Timanthes <hi>with the utmost fear and astonishment.</hi></stage></head>
 <sp>
 <speaker>ISMENA.</speaker>
@@ -2514,12 +2513,12 @@ Of tender images—wife! daughter! mother!</l>
 <stage>[Exit guarded.</stage>
 </sp>
 <trailer>END <hi>of the</hi> FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="57" facs="61"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A prison.</hi></stage></head>
 <stage>ISMENA <hi>seated,</hi> OLINTHUS <hi>asleep by her, Attendant.</hi></stage>
 <sp>
@@ -2631,8 +2630,8 @@ Of tender images—wife! daughter! mother!</l>
 <l>And haste to life, to rapture, and Timanthes!</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>another part of the prison.</hi></stage></head>
 <sp>
 <speaker>TIMANTHES</speaker>
@@ -3031,8 +3030,8 @@ Pursue thy brother's steps, and learn the cause</l>
 <l>And learn what yet remains for suffering Thrace.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>The palace.</hi></stage></head>
 <stage><hi>Enter</hi> TIMANTHES <hi>and</hi> CHERINTHUS.</stage>
 <sp>
@@ -3229,12 +3228,11 @@ From your embrace—you spurn'd Ismena too—</l>
 <l>Owes to that ruling Power who governs all!</l>
 </sp>
 <trailer>END <hi>of the</hi> FIFTH ACT.</trailer>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="76"/>
 <head>EPILOGUE.</head>
 <byline>Written by GEORGE COLMAN, <abbr>Esq</abbr></byline>
@@ -3284,7 +3282,7 @@ From your embrace—you spurn'd Ismena too—</l>
 <l>And, critics! then attack him, if ye dare.</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

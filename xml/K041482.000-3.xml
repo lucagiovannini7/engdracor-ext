@@ -7,11 +7,11 @@
 <extent>xv,[1],424p. ; 8⁰.</extent><publicationStmt><publisher>printed by Beatniffe and Payne; and sold by Messrs. F. and C. Rivington; and Messrs. Elmsley and Bremner, London,</publisher><date>1798.</date><pubPlace>Norwich :</pubPlace></publicationStmt><notesStmt><note>The prospectus, 'Proposals for publishing by subscription one volume in octavo of plays and poems', was earlier issued.</note><note>With a list of subscribers.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT42452.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-    <div1 type="halftitle">
+    <div type="halftitle">
     <pb facs="259"/>
     <p><hi>ADELINDA;</hi> A COMEDY.</p>
-    </div1>
-    <div1 type="dramatispersonae">
+    </div>
+    <div type="dramatispersonae">
     <pb facs="260"/>
     <head>Dramatis Personae.</head>
     <list>
@@ -24,16 +24,15 @@
     <item>ZELLA.</item>
     <item>DORCAS.—FLORA.</item>
     </list>
-    </div1>
+    </div>
     <set><p><hi>SCENE—PARIS.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
-<div2 n="1" type="act">
+<div n="1" type="act">
 <pb facs="261"/>
 <head>ADELINDA.</head>
 <head>Act First.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>A GARDEN.</stage></head>
 <stage>ADELINDA</stage>
 <stage>(<hi>Coming from behind an Alcove, and looking about, as she comes forward</hi>).</stage>
@@ -43,8 +42,8 @@
 <stage>(<hi>To Flora as she enters.</hi>)</stage>
 What is in the wind now? What do you want?</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>ADELINDA, FLORA.</stage>
 <sp>
@@ -204,8 +203,8 @@ O pray, Mademoiselle!—Oh, dear! Oh, dear—</p>
 <p><stage><hi>(going</hi>).</stage>
 A perverse little devil!—What mischief is in her wild head now I wonder.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage><hi>ADELINDA (alone</hi>).</stage>
 <sp>
@@ -214,8 +213,8 @@ A perverse little devil!—What mischief is in her wild head now I wonder.</p>
 <stage>(<hi>looking about</hi>)</stage>
 But here comes my Mother—Well! out of the frying pan into the fire.—Heigh ho!—I must endure it: I cannot frighten her away.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>THE MARCHIONESS, ADELINDA.</stage>
 <sp>
@@ -372,8 +371,8 @@ at least in your father's presence, for my sake, constrain your temper. Do not s
 <pb n="163" facs="273"/>
 treaty of marriage, and send you back to a Cloister for life. Think of what I suffered, last night, for your sake; and let not such deep humiliation have been in vain. You are silent, my Child! I will yet hope what you dare not promise.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>THE MARQUIS, THE MARCHIONESS, THE COUNT, ADELINDA.</stage>
 <sp>
@@ -472,8 +471,8 @@ Daughter! I give your hand to this young Lord: but for him my ancient name would
 <p>I resign her with full confidence to your care. Count! avoid my errours. Adelinda! let your altered conduct oblige me to forget the past. Imitate your Mother's exalted merit; or become an alien to your father's love.</p>
 </sp>
 <stage>(<hi>Exit Marquis.</hi>)</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="266" facs="276"/>
 <head>SCENE SIXTH.</head>
 <stage>THE MARCHIONESS, THE COUNT, ADELINDA.</stage>
@@ -485,8 +484,8 @@ Heaven bless you, my dear Girl! and may no child of yours ever make you know the
 <stage>(<hi>Adelinda kisses her hand.</hi>)</stage></p>
 </sp>
 <stage>(<hi>Exit Marchioness.</hi>)</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE SEVENTH.</head>
 <stage>THE COUNT, ADELINDA</stage>
 <stage>(<hi>Who stands looking after the Marchioness, and drying her eyes</hi>).</stage>
@@ -693,8 +692,8 @@ No, my Lord! I will save you from so sad a fate, from this all-dreaded shame; ne
 that I can, occasionally, do a civil and polite thing, I rid you of my vulgarity; and leave you to the full enjoyment of your own Good Company.</p>
 </sp>
 <stage>(<hi>Exit Adelinda.</hi>)</stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE EIGHTH.</head>
 <stage>THE COUNT (alone).</stage>
 <sp>
@@ -702,13 +701,13 @@ that I can, occasionally, do a civil and polite thing, I rid you of my vulgarity
 <p>What a strange, what a perverse Girl! If I marry her, I sacrifice all my future happiness.—If I reject her, the Marquis will oblige her to take the Veil; and make me the unjust possessor of her birth-right.
 <stage>(<hi>Exit Count.</hi>)</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="274" facs="284"/>
 <head>Act Second.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—A SALOON.</head>
 <stage>STRASBOURG, FLORA (entering to him).</stage>
 <sp>
@@ -757,8 +756,8 @@ Charming fellow! how handsome he is! What a fine figure! What an elegant air!—
 <speaker>Flora.</speaker>
 <p>Impudent Coxcomb! audacious Slanderer! good-for-nothing Story-teller!—</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>THE MARQUIS, STRASBOURG, FLORA.</stage>
 <sp>
@@ -817,8 +816,8 @@ Now, Flora! if Strasbourg will pay you as curious a compliment, I am sure that y
 <p>Hang the fellow, he always has the art to have every one of his side always; he knows how to flatter himself into people's liking, and out of their hatred.
 <stage>(<hi>Exit Flora.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>THE MARQUIS, STRASBOURG.</stage>
 <sp>
@@ -885,8 +884,8 @@ and very young, as she has lost her Father, whom I very much respected, I think 
 <speaker>Strasbourg.</speaker>
 <p>You think my heart lowly. But, alas! my Lord! I fear that it is only too high and too ambitious.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>THE MARQUIS, STRASBOURG, SERVANT.</stage>
 <sp>
@@ -924,8 +923,8 @@ Now, Strasbourg! I shall see your taste for beauty.</p>
 <p><stage>(<hi>aside</hi>).</stage>
 What does he want with them? Has he a mind for the girl himself? 'T is like enough—</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>THE MARQUIS, STRASBOURG, DORCAS, ZELLA.</stage>
 <stage>(<hi>Dorcas dressed,</hi> à la Paysanne, <hi>in yellow sattin, trimmed with red ribband; at sight of the Marquis, she begins making very awkward curtsies and advancing: Zella remains at the door</hi>).</stage>
@@ -1222,8 +1221,8 @@ An old fool! he is in love with her himself.</p>
 <speaker>Marquis.</speaker>
 <p>Compose your spirits, Zella! weep no more;—depend upon my protection; no one shall force your inclinations. Strasbourg! settle Dorcas's accounts with her. And then, Zella! order the Servants to show you and your Mother into my Study.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE SIXTH.</head>
 <stage>ZELLA, STRASBOURG, DORCAS.</stage>
 <sp>
@@ -1274,9 +1273,9 @@ I'd first hang, and then drown'd myself, before yow shall have har now.</p>
 <speaker>Strasbourg.</speaker>
 <p>Peace! peace! Dorcas! a truce, a truce; here comes the Count D'Olstain, the finest Gentleman, and the most accomplished Scholar of the age, and the lover of the beautiful Adelinda.</p>
 </sp>
-</div3>
+</div>
 <pb n="293" facs="303"/>
-<div3 n="7" type="scene">
+<div n="7" type="scene">
 <head>SCENE SEVENTH.</head>
 <stage>THE COUNT, ZELLA, STRASBOURG, DORCAS</stage>
 <sp>
@@ -1420,8 +1419,8 @@ cannot permit you to court her otherwise, as she is promised to me.</p>
 <speaker>Strasbourg.</speaker>
 <p>Here comes your future Wife, my Lord!—and if this conversation should go on with such spirit and gallantry, you will make her as jealous as you have made me: and then Zella will be triumphant indeed.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="297" facs="307"/>
 <head>SCENE EIGHTH.</head>
 <stage>THE COUNT, ADELINDA, ZELLA, STRASBOURG, DORCAS.</stage>
@@ -1520,8 +1519,8 @@ said enough for the offence which I gave this gentlelooking spirit? for, in good
 <speaker>Count.</speaker>
 <p>Zella! the Marquis expects you and your Mother; I am going to his apartment.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE NINTH.</head>
 <stage>ADELINDA, ZELLA, DORCAS, STRASBOURG.</stage>
 <sp>
@@ -1546,8 +1545,8 @@ sent me here, he will think, that I make you disobey his orders; and then he wil
 <speaker>Dorcas.</speaker>
 <p>O Lord! then, I'll go: for I ollost thought him mortal crabbed to yow; and so I have told him; but yar sarvant, my dear yong laady; I on't make yow mischief, I'm sure; so yar sarvant.—</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE TENTH.</head>
 <stage>ADELINDA, STRASBOURG.</stage>
 <sp>
@@ -1670,13 +1669,13 @@ When I see which way the land lies, I can give you more directions. Prepare me a
 <p>As love conducts may it protect us both.</p>
 </sp>
 <stage>(<hi>Exeunt severally.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="305" facs="315"/>
 <head>Act Third.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>A DRESSING-ROOM.</stage></head>
 <stage>THE MARCHIONESS, FLORA.</stage>
 <sp>
@@ -1739,8 +1738,8 @@ and I could bite my fingers for madness, to see how you appear to study to decei
 <speaker>Flora.</speaker>
 <p>Now for it then. Now we shall hear what excuse he will make for breaking off the match.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>THE MARQUIS, THE MARCHIONESS, FLORA.</stage>
 <sp>
@@ -1928,8 +1927,8 @@ As I do not know her, I may be permitted, without offence, to doubt whether she 
 <p>O Madam! do not think of refusing this favour to one so every way amiable. I will send this charming girl to you; but, for decency's sake, order her to be dressed properly; her peasant's habit is too ordinary, and too particular to be worn here. Condescend, Madam! to honour her with a gracious reception. Receive her with that benignant kindness which you have ever uniformly extended to modest merit.</p>
 </sp>
 <stage>(<hi>Exit Marquis.</hi>)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>THE MARCHIONESS, FLORA.</stage>
 <sp>
@@ -1962,8 +1961,8 @@ we shall stand in need of a double dose: for you will find, that my suspicions a
 <speaker>Flora.</speaker>
 <p>No, I have not set eyes upon her. But Lucy, and the Servants who saw her, speak of her as the Marquis does. And Strasbourg said, that every body, at Olstain, was in love with her, for her pretty face.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>THE MARCHIONESS, FLORA, A SERVANT conducting ZELLA.</stage>
 <sp>
@@ -2185,21 +2184,21 @@ the constant presence of you, and of my Lord Marquis, will make me happy, beyond
 Mind that you continue to hate our fop of a Steward. When I have dressed you, I shall find him out, and fight a good battle with him about you; for he has finely belied you, that I have the honour to tell you.</p>
 </sp>
 <stage>(<hi>Exit with Zella.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="320" facs="330"/>
 <head>Act Fourth.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST.</head>
 <stage><hi>STRASBOURG (alone.</hi>)</stage>
 <sp>
 <speaker>Strasbourg.</speaker>
 <p>WELL, thank Heaven! if Dorcas will be our Hostess—I have managed for our escaping this night. I might safely have loved her pretty Daughter, who disdains me. But every one to his fate. It is mine to run away with my Lord's Daughter, and—perhaps, to run my neck into a halter:—two nooses instead of one. I hope that the Marchioness is very uneasy, and that her jealousy will flame out; and then whilst every one is occupied, with thoughts of their own, in the midst of their troubles, we shall be less observed, and escape unsuspectedly; and to-morrow morning,—let them miss us as soon as they please.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>ADELINDA, STRASBOURG.</stage>
 <sp>
@@ -2313,8 +2312,8 @@ I will instantly replace this very large sum, and evermore thank my Adelinda, th
 <p>Oh, no! and if any body had seen us, of what consequence could that be. Adieu! I shall go this way through the back Hall.</p>
 </sp>
 <stage>(<hi>Exit Adelinda.</hi>)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="325" facs="335"/>
 <head>SCENE THIRD.</head>
 <stage>STRASBOURG, FLORA.</stage>
@@ -2410,16 +2409,16 @@ Yes, as near as the King of Prussia is to being made Pope. And is this all?</p>
 her—She would have a pretty fortune, it is true. But, my dear Flora! I shall not regret Zella; for I now feel, that my heart is powerfully fascinated by a most amiable woman, who, though she has very little, if any fortune, will I find make herself mistress of my everlasting love; one who has just convinced me, that she has the virtue, sense, and purity of an Angel.—My sweet Flora! I must leave you now: but remark what a change the next twenty-four hours will make in me; and how gratefully I shall prove my obligations to you, for giving me your advice, and thus kindly becoming my friend.
 <stage>(<hi>Exit Strasbourg.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage><hi>FLORA (alone</hi>).</stage>
 <sp>
 <speaker>Flora.</speaker>
 <p>So! So! my fine gentleman! your heart will be mine at last. Now comes my turn to plague you. Well! he is a charming fellow, that is the truth of it. Then he is rich. And how liberal he is not to mind my having so little money—"His heart fascinates him to a most amiable woman, who has just convinced him, that she has the virtue, sense, and purity of an Angel."—What an elegant way he has of turning a compliment. He is quite a fine Gentleman to be sure. "The virtue, sense, and purity of an Angel." Oh! bow I shall be envied, for many a heart aches, and will ache, for Monsieur Strasbourg.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="329" facs="339"/>
 <head>SCENE FIFTH.</head>
 <stage>THE MARQUIS, FLORA.</stage>
@@ -2444,8 +2443,8 @@ her—She would have a pretty fortune, it is true. But, my dear Flora! I shall n
 <p>No; I am engaged now. I am going into the Garden. In half an hour, send her into the Elm walk; the Count will be there, and I shall like to see if he will know her again, since, you say, that her dress has so changed her appearance.</p>
 </sp>
 <stage>(<hi>Exit Marquis.</hi>)</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="330" facs="340"/>
 <head>SCENE SIXTH.</head>
 <stage>DORCAS, FLORA.</stage>
@@ -2486,8 +2485,8 @@ her—She would have a pretty fortune, it is true. But, my dear Flora! I shall n
 <speaker>Dorcas.</speaker>
 <p>Noa! noa! mum for that—I shall like to show hur, what a foine Laady I should have been.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="332" facs="342"/>
 <head>SCENE SEVENTH.</head>
 <stage>ADELINDA, FLORA, DORCAS.</stage>
@@ -2535,8 +2534,8 @@ her—She would have a pretty fortune, it is true. But, my dear Flora! I shall n
 —Oh, no Spiders! I am gone.</p>
 </sp>
 <stage>(<hi>Exit Flora.</hi>)</stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE EIGHTH.</head>
 <stage>ADELINDA, DORCAS.</stage>
 <sp>
@@ -2751,8 +2750,8 @@ Oh, you shall be unmarried now by a rope's end: that's one comfort, howaver.</p>
 <stage>(<hi>A noise heard.</hi>)</stage>
 Some one is coming. For Heaven's sake, Dorcas! hold your tongue. My life is in your hands.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE NINTH.</head>
 <stage>ADELINDA, DORCAS, FLORA,</stage>
 <sp>
@@ -2795,8 +2794,8 @@ Some one is coming. For Heaven's sake, Dorcas! hold your tongue. My life is in y
 <p>Well, you may, if you chuse it.</p>
 </sp>
 <stage>(<hi>Exeunt.</hi>)</stage>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE TENTH—<stage>A GARDEN.</stage></head>
 <stage><hi>THE MARQUIS, THE COUNT (at a little distance</hi>).</stage>
 <sp>
@@ -2970,8 +2969,8 @@ me, I fear it would be impossible for me, to refrain from even a Roman Justice o
 <p>I feel your distress, would I could alleviate it.
 <stage>(<hi>Exit Marquis.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE ELEVENTH.</head>
 <stage><hi>THE COUNT, ZELLA (just coming in sight</hi>).</stage>
 <sp>
@@ -3204,13 +3203,13 @@ Ah! my Lord! what do you tell me?</p>
 <p>Zella! cruel Zella!
 <stage>(<hi>Exit after her.</hi>)</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="354" facs="364"/>
 <head>Act Fifth.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>A GARDEN.</stage></head>
 <stage>(<hi>The back ground trees with walks between them, the middle represents a large Canal; a Bridge over it, at one end. Dorcas is seen running through the trees, Adelinda following her:—they disappear, then enter a walk separated from the Canal by a Chinese railing, and pass over the bridge to the front of the stage. Dorcas still running, Adelinda pursuing her.</hi>)</stage>
 <stage>ADELINDA, DORCAS.</stage>
@@ -3346,8 +3345,8 @@ What! maake me yar mudderer? yow that I love so darely!—let me go! let me go! 
 you must not talle—Why yow prache more in arnest than the parson. My heart ha gon way, but I wo n't go—I ha changed my mind about what I hav done; and I suppose that's what yow fine folks call rapantance.
 <stage>(<hi>Exeunt.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND—<stage>THE MARQUIS'S LIBRARY.</stage></head>
 <stage>THE MARQUIS ALONE.</stage>
 <stage>(<hi>Walking about much disordered. He rings: a Servant enters.</hi>)</stage>
@@ -3382,8 +3381,8 @@ The Villain! I must see him:—but how shall I restrain my rage? O worthless Dau
 <p>A man of errors have I been;—and is this dishonour a visitation for my sins?—Heaven's judgment now inflicts those pangs on me which I, pitiless libertine! have given to many a father's heart. My Rank alone screened me from vengeance.— But, ah! that Rank cannot protect me now.—Sorrow strikes as fiercely at my breast, as at the meanest slave's: Ingratitude as sharply wrankles in my soul. My Daughter, the last of my noble race, lost,—dishonoured,—undone,—disgraced for ever!—My peace is destroyed, the honour of my house shaken from its foundation,—my face bowed down with shame. Oh! I never felt till now the pangs which a father feels, when his child, turning to folly, thus inflicts an everlasting curse upon him.—Seduced by my own Servant too!—how vile! how base! how fallen!— this pours a scorpion's venom on the wound, almost to phrenzy fires my mind.—Oh! I could murder both, and then myself.—Gracious Heaven! defend me from this rage!—yet save me from my own desperate thoughts!—Hark! I hear footsteps—! the Villain comes.
 <stage>(<hi>He turns from the side at which Strasbourg appears, the Marquis strives to compose himself.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="361" facs="371"/>
 <head>SCENE THIRD.</head>
 <stage>THE MARQUIS, STRASBOURG.</stage>
@@ -3500,8 +3499,8 @@ into the most loathsome mine, to toil for my daily bread.—</p>
 Never—!!
 <stage>(<hi>As the Marquis is going to stab Strasbourg, Adelinda rushes in; and, entering at a door to which the Marquis's back is turned, seizes and confines his Sword-arm.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>THE MARQUIS, ADELINDA, STRASBOURG.</stage>
 <sp>
@@ -3527,8 +3526,8 @@ Begone, Strasbourg! you only are in danger.—Quit not the house;—but leave th
 <p>I command it.—
 <stage>(<hi>Strasbourg goes, the Marquis bursts from Adelinda to pursue him, she gets before him, shuts the door, and with outstretched arms prevents his opening it.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="365" facs="375"/>
 <head>SCENE FIFTH.</head>
 <stage>THE MARQUIS, ADELINDA.</stage>
@@ -3630,8 +3629,8 @@ pardon my Mother!</p>
 <speaker>Adelinda.</speaker>
 <p>My dying Father attested it; my Mother owns it; and, if you want stronger proof, you have internal evidence, my Lord! for, in spite of care and education, am I not in temper more like Dorcas than like the gentle spirit of the Marchioness? nay, has not your own heart spoken?—for, did you not, this very morning, bid me go and see Zella; and blush at beholding a Peasant Girl far more worthy to be your Daughter, than I was.—But here comes my Mother to confirm this welcome truth.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="369" facs="379"/>
 <head>SCENE SIXTH.</head>
 <stage>THE MARQUIS, ADELINDA, DORCAS.</stage>
@@ -3659,8 +3658,8 @@ Worthy, young Woman! to determine with so much courage and resolution, thus gene
 <p><stage>(<hi>taking Adelinda's hand</hi>).</stage>
 For your sake, Adelinda! I forgive your Mother's crime.—Your integrity shall not only screen her guilt from punishment, but bring you great reward.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="370" facs="380"/>
 <head>SCENE SEVENTH.</head>
 <stage>THE MARQUIS, ADELINDA, ZELLA, DORCAS.</stage>
@@ -3677,8 +3676,8 @@ My Lord!!—
 <speaker>Marquis.</speaker>
 <p>O my Child! my Child!—Your pure heart must help me to thank Heaven for joy too big for words.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="371" facs="381"/>
 <head>SCENE EIGHTH.</head>
 <stage>THE MARQUIS, THE COUNT, ADELINDA, ZELLA, DORCAS.</stage>
@@ -3745,8 +3744,8 @@ Mother?—
 <speaker>Zella.</speaker>
 <p>Then let me fly to my real Mother.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE LAST.</head>
 <stage>THE MARQUIS, THE MARCHIONESS, ADELINDA, THE COUNT, ZELLA, DORCAS.</stage>
 <sp>
@@ -3871,11 +3870,9 @@ and both of you shall with us enjoy the remainder of this day, which you have re
 <speaker>Dorcas.</speaker>
 <p>We'll live and larn—Jack they say will navvar maake a Jantleman, and my Dartar war not born to be a Laady.—and "honesty," I find (as my poor Husband has told me tens of thousands of times) "is the very best policy."</p>
 </sp>
-</div3>
+</div>
 <trailer>End of the Fifth Act.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

@@ -7,14 +7,14 @@
 <extent>[16],64p. ; 8⁰.</extent><publicationStmt><publisher>printed for B. Lintot,</publisher><date>1722.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT57685.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE
 BRITON.</p>
 <p>A
 TRAGEDY.</p>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="2"/>
 <head>BOOKS Printed for Bernard Lintot.</head>
 <p><list>
@@ -71,8 +71,8 @@ Duke of <hi>Ormond,</hi> and since to the Earl of <hi>Salisbury,</hi> and Earl o
 <item>—De Variolis ac Moibillis 0 l. 1 s. 6 d.</item>
 <item>The Inventories of the late <hi>South Sea</hi> Directors, 2 Vol. Fol. 2 l. 14 s. 0 d.</item>
 </list></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE
 BRITON.
@@ -86,8 +86,8 @@ His MAJESTY'S SERVANTS.</p>
 <p><hi>LONDON:</hi>
 Printed for B. LINTOT between the <hi>Temple
 Gates</hi> in <hi>Fleet-street.</hi> MDCCXXII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>To the Right Honourable the
 COUNTESS
@@ -146,8 +146,8 @@ most Obliged,
 most Humble, and
 most Obedient Servant,
 Ambr. Philips.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. WILKS.</stage>
@@ -181,8 +181,8 @@ In <hi>Britain,</hi> ever may It keep Possession!</l>
 <l>He makes it the firm Basis of his Throne.</l>
 <l>Remember, then, the Dangers, you have past:—</l>
 <l>And, let your Earliest Virtue—be your Last.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="11"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by Mrs. YOUNGER.</stage>
@@ -226,8 +226,8 @@ Since those rude Times, <hi>Husbands</hi> are more discreet;</l>
 <l>And know their <hi>Cue,</hi> to wink at—<hi>what is meet.</hi></l>
 <l>Then, take us as we are.—'Tis no great Matter:—</l>
 <l>For Women will be frail, while Men can flatter.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="14"/>
 <head>The Persons of the Play.</head>
 <list>
@@ -250,15 +250,15 @@ to <hi>Gwendolen,</hi> Mr. <hi>Wilks.</hi></item>
 his first Wife, Mrs. <hi>Booth.</hi></item>
 </list>
 <p>Guards, Attendants, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 <set><p><hi>SCENE</hi> part in the <hi>Roman</hi> Camp, part in
 <hi>Vanoc</hi>'s Palace.</p></set>
 </front>
 <body>
 <head><pb facs="15"/>THE
 BRITON.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head>SCENE, <stage>the Pavilion of the General, in
 the Roman Camp.</stage></head>
@@ -425,8 +425,8 @@ Behold, a Glare of Light shines through the Dusk.</l>
 <l>This Interview in private.—<hi>Valens;</hi> anon</l>
 <l>We must have farther Talk.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Didius, Cartismand.</stage>
 <sp>
@@ -614,8 +614,8 @@ Choice!—</l>
 <l>But see where <hi>Idwall</hi> speeds:—A trusty Soldier;</l>
 <l>A loyal Subject;—not unknown to <hi>Valens▪</hi></l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Didius, Cartismand, Idwall.</stage>
 <sp>
@@ -674,8 +674,8 @@ His several Camps; and Posture of the Island.</l>
 <l>Behold, the Moon shines on the pearly Dews;</l>
 <l>And, through the Night, directs the advancing Troops.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Idwall.</stage>
 <sp>
@@ -695,8 +695,8 @@ His several Camps; and Posture of the Island.</l>
 <l>The <hi>Romans</hi> never shall have Peace in <hi>Britain;</hi></l>
 <l>Nor <hi>Cartismand</hi> be rescued from Alarms.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE. V.</head>
 <stage>Idwall, Valens.</stage>
 <sp>
@@ -834,8 +834,8 @@ A Friend accounted long, I felt her Charms,</l>
 <l>And give their Entrails to the searching Knife.</l>
 <l>A Message, from the Queen.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="11" facs="25"/>
 <head>SCENE VI.</head>
 <stage>Idwall, Valens, a Messenger.</stage>
@@ -859,8 +859,8 @@ A Friend accounted long, I felt her Charms,</l>
 <speaker>Id.</speaker>
 <l>We come, this Instant.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Idwall, Valens.</stage>
 <sp>
@@ -895,10 +895,10 @@ And, I</l>
 <l>And, in return, let <hi>Gwendolen</hi> be mine!</l>
 </sp>
 <trailer>End of the first Act.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <pb n="12" facs="26"/>
 <head>ACT II. SCENE I.</head>
 <head>SCENE, <stage>A Hall in the Palace of
@@ -923,8 +923,8 @@ Vanoc.</stage></head>
 <l>To floud thy Temple-Court with <hi>Roman</hi> Blood.</l>
 <l>What hasty Steps?—</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Vanoc, Alan.</stage>
 <sp>
@@ -1003,8 +1003,8 @@ My whole Reproach, to speedy Punishment;</l>
 <l>Obnoxious to the Forfeit of their Treason!—</l>
 <l>But; my Daughter:—I blame not her Impatience.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Vanoc, Alan, Gwendolen.</stage>
 <sp>
@@ -1052,8 +1052,8 @@ My whole Reproach, to speedy Punishment;</l>
 <l>That every Tributary Town may arm,</l>
 <l>And drive, with one Consent, these Inmates, hence.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="15" facs="29"/>
 <head>SCENE IV.</head>
 <stage>Gwendolen, Alan.</stage>
@@ -1155,8 +1155,8 @@ My whole Reproach, to speedy Punishment;</l>
 <speaker>Gwen.</speaker>
 <l>The Prince?—Oh, where?—It is the Prince, indeed!</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Gwendolen, Alan, Yvor.</stage>
 <sp>
@@ -1215,8 +1215,8 @@ My whole Reproach, to speedy Punishment;</l>
 <speaker>Alan.</speaker>
 <l>O, Fortunate <hi>Silurians!</hi>—Happy Prince!</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="17" facs="31"/>
 <head>SCENE VI.</head>
 <stage>Gwendolen, Yvor.</stage>
@@ -1357,8 +1357,8 @@ That, ripe in Hardiness, they may oppose</l>
 <speaker>Yvor.</speaker>
 <l>Best of Friends.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Gwendolen, Yvor, Vanoc.</stage>
 <sp>
@@ -1493,8 +1493,8 @@ We will not rashly play our Lives away;</l>
 <l>Here comes a Soldier, Sir, deserves your Notice.—</l>
 <l>Come forward, <hi>Ebranc.</hi></l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Gwendolen, Yvor, Vanoc, Ebranc.</stage>
 <sp>
@@ -1712,8 +1712,8 @@ Dastards!</l>
 <speaker>Van.</speaker>
 <l>Heaven speed thy Vows, my Child!</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Yvor, Vanoc.</stage>
 <sp>
@@ -1784,10 +1784,10 @@ is precious.</l>
 <l>Till no more Battles can be lost, or won.</l>
 </sp>
 <trailer>End of the Second Act.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <pb n="26" facs="40"/>
 <head>ACT III. SCENE I.</head>
 <head><stage>The SCENE continues.</stage></head>
@@ -1810,8 +1810,8 @@ is precious.</l>
 <l>I, now, begin to think, thy Absence tedious.</l>
 <l>Come, to such Welcome, as thou gav'st to Me!</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Yvor, Alan.</stage>
 <sp>
@@ -1999,8 +1999,8 @@ Hope!—</l>
 <speaker>Yvor.</speaker>
 <l>He is no Lover.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Yvor, Alan, Vanoc.</stage>
 <sp>
@@ -2078,8 +2078,8 @@ What more</l>
 <l>But the Command, he held, we give his Son.</l>
 <l>Of this, do you inform him.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Yvor, Vanoc.</stage>
 <sp>
@@ -2158,8 +2158,8 @@ yours.</l>
 <l>Ere you can return,</l>
 <l>Our Chariots shall be ready, to set forward.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Vanoc.</stage>
 <sp>
@@ -2179,8 +2179,8 @@ Scythes:</l>
 <l>That paw the Ranks, and rush upon the Javelin;</l>
 <l>Bearing their Crests aloft, amidst the Battle.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Vanoc, Alan.</stage>
 <sp>
@@ -2232,8 +2232,8 @@ We will hear him;</l>
 <l>Thy Prince confides; do Thou remain a Witness</l>
 <l>Of his Words.—Go.—</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Vanoc.</stage>
 <sp>
@@ -2243,8 +2243,8 @@ We will hear him;</l>
 <l>The mean Submissions of ignoble Minds,</l>
 <l>Who rise and sink, as Fortune smiles, or frowns.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Vanoc, Alan, Valens.</stage>
 <sp>
@@ -2695,8 +2695,8 @@ Nor Man, nor Woman, nor the new born Infant,</l>
 <l>Away!—<hi>Alan,</hi> conduct the Tribune forth:—</l>
 <l>And let him pass unquestion'd.</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Alan, Valens.</stage>
 <sp>
@@ -2711,10 +2711,10 @@ Nor Man, nor Woman, nor the new born Infant,</l>
 <l>At once inflame, and overawe, the Mind.</l>
 </sp>
 <trailer>The End of the Third ACT.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <pb n="42" facs="56"/>
 <head>ACT IV. SCENE I.</head>
 <head>SCENE, <stage>The Pavilion of the General, in
@@ -2725,8 +2725,8 @@ the Roman Camp.</stage></head>
 <l>If <hi>Valens</hi> rightly judges of the Father;</l>
 <l>His fond Affection may o'er-rule his Rage.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Didius, Cartismand.</stage>
 <sp>
@@ -2861,8 +2861,8 @@ knew</l>
 <l>See where he comes.—But hear him out with
 Temper.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Didius, Cartismand, Valens.</stage>
 <sp>
@@ -2985,8 +2985,8 @@ no more.</l>
 <l>That may afflict thy Soul—Now I return,</l>
 <l>With Comfort, to my drooping, faithful Soldiers.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Didius, Valens.</stage>
 <sp>
@@ -3061,8 +3061,8 @@ safe;</l>
 <l>Impart her Father's Resolutions, will dispatch</l>
 <l>A Messenger to <hi>Gaul,</hi> for speedy Succours.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Valens.</stage>
 <sp>
@@ -3070,8 +3070,8 @@ safe;</l>
 <l>O <hi>Didius,</hi> were I to reveal my Passion,</l>
 <l>But half my Love; thou might'st suspect my Vertue!</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Valens, Gwendolen.</stage>
 <sp>
@@ -3414,8 +3414,8 @@ Decree my own sad Doom? And, shall I now</l>
 <l>Stay:—</l>
 <l>Oh, Stay!—</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Gwendolen.</stage>
 <sp>
@@ -3430,10 +3430,10 @@ Decree my own sad Doom? And, shall I now</l>
 <l>Still true to Thee; unshaken in my Love.</l>
 </sp>
 <trailer>End of the Fourth ACT.</trailer>
-</div2>
-</div1>
-<div1 n="5" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <pb n="53" facs="67"/>
 <head>ACT V. SCENE I.</head>
 <head><stage>The SCENE continues.</stage></head>
@@ -3522,8 +3522,8 @@ Preserve the charming Maid!—Though still, I live</l>
 <speaker>Val.</speaker>
 <l>Adieu.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Valens.</stage>
 <sp>
@@ -3537,8 +3537,8 @@ Preserve the charming Maid!—Though still, I live</l>
 <l>This Instant will I hasten: Ask Forgiveness;</l>
 <l>Asswage her Grief, and dissipate her Fears.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Valens, Cartismand.</stage>
 <sp>
@@ -3714,8 +3714,8 @@ Life!—</l>
 <l>But I will have the Prisoner; yes, I will!—</l>
 <l>Or, woe upon you all!—</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Valens, Cartismand, Didius,</stage>
 <sp>
@@ -3790,8 +3790,8 @@ it?—No!—</l>
 <l>Rather will I submit to <hi>Vanoc</hi>'s Vengeance;</l>
 <l>And make my Ruin fatal to the <hi>Romans!</hi></l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Valens, Didius.</stage>
 <sp>
@@ -3816,8 +3816,8 @@ Princess.—</l>
 <l>Some Enterprize: Though, not so sudden.—See,</l>
 <l>The Princess.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Valens, Didius, Gwendolen.</stage>
 <sp>
@@ -3859,8 +3859,8 @@ our Posts.</l>
 <l>You shall be happy.—Even <hi>Yvor</hi> shall confess,</l>
 <l>Your Eyes ne'er kindled up a brighter Flame.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Gwendolen.</stage>
 <sp>
@@ -3890,8 +3890,8 @@ our Posts.</l>
 <l>It is the Prince;—it is the King:—Or Both.—</l>
 <l>Give way;—resist not, <hi>Romans!</hi>—Let me meet—</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Gwendolen, Cartismand.</stage>
 <sp>
@@ -3973,8 +3973,8 @@ Sire.</l>
 <speaker>Gwend.</speaker>
 <l>Oh,—it is done!—</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="61" facs="75"/>
 <head>SCENE IX.</head>
 <stage>Gwendolen, Cartismand, Yvor.</stage>
@@ -4100,8 +4100,8 @@ Distraction!—</l>
 <l>Here will I fix:—Thus o'er thy dear Remains,</l>
 <l>For ever weep;—and waste out Life, in wailing.</l>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Cartismand, Yvor, Vanoc.</stage>
 <sp>
@@ -4119,8 +4119,8 @@ Distraction!—</l>
 <l>Speak, <hi>Yvor!</hi>—Oh, my Daughter!—Dead!—</l>
 <l>Breathless, and pale!—O, most accomplish'd Mischief!—</l>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="63" facs="77"/>
 <head>SCENE XI.</head>
 <stage>Cartismand, Ivor, Vanoc, Alan.</stage>
@@ -4181,8 +4181,8 @@ hence to Chains.</l>
 <l>Adieu, rash Man!—My Woes are at an End:—</l>
 <l>Thine but begun;—and lasting, as thy Life!—</l>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Yvor, Vanoc, Alan.</stage>
 <sp>
@@ -4230,9 +4230,9 @@ Cause,</l>
 <l>Severely you my rash Offence chastise;—</l>
 <l>Bereft, in <hi>Gwendolen,</hi> of All, I prize!</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Fifth ACT.</trailer>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

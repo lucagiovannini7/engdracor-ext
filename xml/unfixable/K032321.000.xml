@@ -7,12 +7,12 @@
 <extent>[8], 55, [1] p. ; 4⁰.</extent><publicationStmt><publisher>printed for D. Brown at the Black Swan, and N. Cox at the Golden Bible next Paulsgrave-Head-Court, without Temple-Bar,</publisher><date>1702.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Susanna Carroll.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26872.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage><textClass><keywords><term>Comedies -- 18th century. -- England</term></keywords></textClass></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE Beau's Duel: OR A SOLDIER FOR THE LADIES. A Comedy, As it is Acted at the New Theater in <hi>Lincolns-Inn-Fields,</hi> BY Her MAJESTIES SERVANTS.</p>
 <p><hi>LONDON,</hi> Printed for <hi>D. Brown</hi> at the <hi>Black Swan,</hi> and <hi>N. Cox</hi> at the <hi>Golden Bible</hi> next <hi>Paulsgrave-Head-Court,</hi> without <hi>Temple-Bar,</hi> 1702.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO Samuel Brown, <abbr>Esq</abbr> OF <hi rend="blackletterType">Stocking-Hall</hi> IN RUTLAND.</head>
 <opener><salute>SIR,</salute></opener>
@@ -27,8 +27,8 @@ How I have perform'd in the following Scenes, is neither possible, nor proper fo
 the rest of Mankind, for your long continuing, as you are, a great Incourager, and principle Ornament of all Polite Literature, and Gentile Accomplishments, to the unspeakable Happiness of all your Friends, among whom to find a place, is the highest Ambition of</p>
 <closer><salute>Sir,</salute>
 <signed>Your most Oblig'd, most Obedinent, and most humble Servant, <hi>Susanna Carroll.</hi></signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE,</head>
 <byline>By a Gentleman.</byline>
@@ -59,8 +59,8 @@ the rest of Mankind, for your long continuing, as you are, a great Incourager, a
 <l>Who ne<gap resp="apex" extent="1 letter" disp="•" reason="illegible"/>er cou'd <gap resp="apex" extent="1 letter" disp="•" reason="illegible"/>oast a Victory in War.</l>
 <l>Let but your Arms abroad Successful prove,</l>
 <l>The Fair at home shall Crown your Toyles with Love.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Drammatis Personae.</head>
 <list>
@@ -82,14 +82,14 @@ the rest of Mankind, for your long continuing, as you are, a great Incourager, a
 <item>A Serjeant, Drumers, and Servants.</item>
 </list>
 <stage>The Scene, <hi>LONDON.</hi></stage>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="1" facs="8"/>
 THE Beau's Duel: OR A <hi rend="blackletterType">Soldier for the Ladies.</hi></head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Street.</stage></head>
 <stage>Enter Colonel <hi>Manly.</hi></stage>
 <sp>
@@ -470,8 +470,8 @@ such ug<gap resp="apex" extent="1 letter" disp="•" reason="illegible"/>y falsh
 <p>And Musick too, if that be good, the Company be hang'd.</p>
 <stage>[Ex.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="9" facs="16"/>
 <head><stage>Scene changes to <hi>Clarinda</hi>'s Lodging in her Father's House.</stage></head>
 <stage>Enter <hi>Clarinda</hi> and her Cousin <hi>Emilia,</hi> undress'd as wak'd by the Serenade.</stage>
@@ -615,11 +615,11 @@ the other's an empty nothing, a meer Talker, we'll shew his right side, expose h
 <speaker>Em.</speaker>
 <p>With all my Heart, I love Mischief so well, I can refuse nothing that farthers that.</p>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE. <stage>Sir <hi>William</hi>'s Lodgings.</stage></head>
 <stage>Enter Sir <hi>William</hi> in a Night-gown, looking in his Glass.</stage>
 <sp>
@@ -887,8 +887,8 @@ ever saw, and invites you to a rougher entertainment than you imagin, 'tis a ver
 <p>Gentlemen, your most obsequious Servant.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Careful</hi>'s House,</stage></head>
 <stage><hi>Ogle</hi> looking up at it.</stage>
 <stage>Enter on the o<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>her side <hi>Bellmein</hi> and <hi>Toper.</hi></stage>
@@ -1115,8 +1115,8 @@ to tell me. Then if she sees me walking here—as I generally do every Morning, 
 <p>To be Jilted! Egad I can't bear the thoughts on't; Come, Gentlemen.</p>
 <stage>[Ex.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>The Scene changes to Mrs. <hi>Plotwell</hi>'s Lodgings.</stage></head>
 <stage>Mrs. <hi>Plotwell</hi> Sola.</stage>
 <sp>
@@ -1270,8 +1270,8 @@ to tell me. Then if she sees me walking here—as I generally do every Morning, 
 <p>I'll wait on her.</p>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to a Tavern.</stage></head>
 <stage><hi>Topes</hi> and <hi>Ogle</hi> sealing a Letter.</stage>
 <sp>
@@ -1425,8 +1425,8 @@ to tell me. Then if she sees me walking here—as I generally do every Morning, 
 <p>So, very well, do you stay here, I'll be back in a Minute.</p>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="23" facs="30"/>
 <head><stage>The Scene changes to another Room in the same House.</stage></head>
 <stage>Sir <hi>William</hi> and the Tavern-Man.</stage>
@@ -1655,11 +1655,11 @@ to tell me. Then if she sees me walking here—as I generally do every Morning, 
 <l><hi>For though we Roar, and Rake, and Broils Commence.</hi></l>
 <l><hi>Yet give me for a Friend a Man of Sence.</hi></l>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Carefull's House.</stage></head>
 <stage>Careful <hi>Solus,</hi> with <hi>Ogle</hi>'s Letter.</stage>
 <sp>
@@ -1671,8 +1671,8 @@ I got the Letter before her; my Spark's very familiar methiuks,
 <hi>Madam I'm Inform'd you Entertain Sir</hi> William Mode, <hi>if so, I desire to know the reason why you Encourage me, I am not to be fool'd,—</hi>(who the Devil is this Coxcomb) <hi>if you clear not this Amputation, I shall believe you design to Jilt me,—</hi>Very Complaisant truly—answer <hi>per bearer,</hi> as you value your Admirer <hi>Ogle;</hi> Yes I have answer'd <hi>per bearer</hi> with a broken Pate, and I wish yours had been in his Place. Lord, Lord, who would be plagu'd with Children, I'm resolv'd she shall Marry Sir <hi>William</hi> to Morrow; why she'll have as many Fellows at her Heels, as her Collonel has Soldiers waiting for their Pay; why, what a Medly of Suitors has she? Fighters, Fools, and Fops. Well, since you are so sickle, Mistress, I'll fix you presently, or Marry my self. Mr. <hi>Roarwell</hi> was wishing me to a Cousin of his, who will be in Town to day; adod if this perverse Baggage make one Scruple of obeying my Will, I'll have her, and try if a Mother-in-Law won't hamper her; but I'll in, and send for Sir <hi>William</hi> immediately.</p>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>The Scene changes to another Room in the same House,</stage></head>
 <stage><hi>Clar.</hi> and <hi>Emilia</hi> Dressing in Boys Cloaths, Mrs. <hi>Plotwell</hi> with them.</stage>
 <sp>
@@ -1863,8 +1863,8 @@ fall too, when they quit their Honour; Oh that I had but an opportunity of upbra
 <l><hi>The World shall say, a very Beau's a Fool.</hi></l>
 <stage>Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Hide-Park.</stage></head>
 <stage>Enter Sir <hi>William,</hi> and <hi>Ogle,</hi> with Files, Pumps, and Night-Caps.</stage>
 <sp>
@@ -2042,8 +2042,8 @@ but I'm resolv'd to go, and if I find her false 'twill cure me effectually.</p>
 <p>Rat this Blockhead, what a Metamorphosis is here; 'tis well I fell upon my Cloak, or I had daub'd all my Cloaths, Blister me, Well, to sing, dance, or Court a Lady, or any such Gentieman-like Employments I'll turn my Back of none; but for this slovenly Exercise of Fighting, I shall never be brought to endure, impair my Vigour.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Carefull's House.</stage></head>
 <stage><hi>Carefull</hi> pulling in <hi>Emilia</hi> in Boys Cloaths.</stage>
 <sp>
@@ -2259,11 +2259,11 @@ Really Mr. <hi>Toper,</hi> Your Cousin is a profound Christian, if my Daughter r
 <p>I fancy we shall drive Dancing out of your Head, Old Gentleman.</p>
 <stage>[Ex.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Clarinda, Emilia,</hi> and Mrs. <hi>Plotwel.</hi></stage>
 <sp>
 <speaker>Cla.</speaker>
@@ -2863,12 +2863,12 @@ your Perswasion made me go before to get the Parson ready. Od's flesh, had I bee
 <l>Revenge gives Strength to Age as much as Love.</l>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="46" facs="53"/>
 <head>ACT. V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>Careful</hi>'s House.</stage></head>
 <stage><hi>Careful</hi> Leading in Mrs. <hi>Plotwell.</hi></stage>
 <sp>
@@ -3072,8 +3072,8 @@ your Perswasion made me go before to get the Parson ready. Od's flesh, had I bee
 <p>The Devil go with you: Oh that I had my Daughter again! Two Days more of this, and I shall grow Mad, or to Redeem my self, dash out my Brains.</p>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to <hi>Plotwell's</hi> Lodgings:</stage></head>
 <stage>Enter on one side, the Coll. <hi>Clarinda,</hi> and <hi>Em.</hi> on the other, <hi>Bell</hi> and <hi>Toper.</hi></stage>
 <sp>
@@ -3177,8 +3177,8 @@ your Perswasion made me go before to get the Parson ready. Od's flesh, had I bee
 <l><hi>For tho'-at first the Sex o're-shoot, deny.</hi></l>
 <l><hi>Press 'em but home, and they will all comply.</hi></l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>Carefull</hi>'s House.</stage></head>
 <stage>Carefull Solves.</stage>
 <sp>
@@ -3566,12 +3566,12 @@ your Perswasion made me go before to get the Parson ready. Od's flesh, had I bee
 <l><hi>Folly be gone, I have no mind to Play,</hi></l>
 <l><hi>My Fame is Clear, I have not Sinn'd to Day.</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="63"/>
 <head>EPILOGUE</head>
 <byline>By the Author.</byline>
@@ -3622,7 +3622,7 @@ your Perswasion made me go before to get the Parson ready. Od's flesh, had I bee
 <l>Let my Petition then for once prevail,</l>
 <l>And let your gen'rous Claps her Pardon Seal.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

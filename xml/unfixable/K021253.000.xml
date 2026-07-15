@@ -7,13 +7,13 @@
 <extent>[8],102,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Griffin,</publisher><date>1771.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Author of 'The brothers' = Richard Cumberland.</note><note>The final leaf contains the epilogue.</note><note>The catchword at the end of the "Prologue" is "Epi-".</note><note>Variant catchword at end of prologue: "Dra".</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT2080.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE WEST INDIAN: A COMEDY. As it is Performed at the THEATRE ROYAL IN DRURY-LANE. BY THE AUTHOR OF THE BROTHERS.</p>
 Quis novus hic Hospes?
 <p>LONDON: Printed for W. GRIFFIN, at GARRICK's HEAD, in CATHARINE-STREET, STRAND, MDCCLXXI.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE. SPOKEN BY MR. REDDISH.</head>
 <l>CRITICS, hark forward! noble game and new;</l>
@@ -60,8 +60,8 @@ Quis novus hic Hospes?
 <l>The giants then will sally forth themselves;</l>
 <l>With wit's sharp weapons vindicate the age,</l>
 <l>And drive ev'n <hi>Arthur's</hi> magic from the <hi>Stage.</hi></l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4" ana="y"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -102,13 +102,13 @@ Quis novus hic Hospes?
 </list>
 <p>Clerks belonging to Stockwell; servants, sailors, negroes, &amp;c.</p>
 <p>SCENE, LONDON.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="5"/>THE WEST INDIAN.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage>A MERCHANT's COMPTING HOUSE.</stage>
 <stage>In an inner room, set off by glass doors, are discovered several clerks, employed at their desks. A writing table in the front room. <hi>STOCKWELL</hi> is discovered reading a letter; <hi>STUKELY</hi> comes gently out of the back room, and observes him some time before he speaks.</stage>
 <sp>
@@ -187,8 +187,8 @@ matter of most intimate concern lies on my mind, and, 'twill be a sensible relie
 <speaker>STOCKWELL.</speaker>
 <p>True; but before I publickly reveal myself, I could wish to make some experiment of my son's disposition; this can be only done by letting his spirit take its course without restraint; by these means, I think I shall discover much more of his real character under the title of his merchant, than I should under that of his father.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A Sailor enters, ushering in several black servants, carrying portmanteaus, trunks, <hi>&amp;c.</hi></stage>
 <sp>
@@ -234,8 +234,8 @@ matter of most intimate concern lies on my mind, and, 'twill be a sensible relie
 <p>If the principal tallies with his purveyors, he must be a singular spectacle in this place: he has a friend, however, in this sea-faring fellow; 'tis no bad prognostic of a man's heart, when his ship-mates give him a good word.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Scene changes to a drawing room, a servant discovered setting the chairs by, <hi>&amp;c.</hi> a woman servant enters to him.</stage>
 <sp>
@@ -255,8 +255,8 @@ matter of most intimate concern lies on my mind, and, 'twill be a sensible relie
 <p>No matter for that; he's very rich, and that's sufficient. They say he has rum and sugar enough belonging to him, to make all the water in the Thames into punch. But I see my master coming.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>STOCKWELL</hi> enters, followed by a Servant.</stage>
 <sp>
@@ -285,8 +285,8 @@ I write to you under the hands of the hair-dresser; as soon as I have made mysel
 Yours, BELCOUR.</p>
 <p>He writes at his ease; for he's unconscious to whom his letter is addressed; but what a palpitation does it throw my heart into; a father's heart! 'Tis an affecting interview; when my eyes meet a son, whom yet they never saw, where shall I find constancy to support it? Should he resemble his mother, I am overthrown. All the letters I have had from him, (for I industriously drew him into a correspondence with me) bespeak him of quick and ready understanding. All the reports I ever recieved, give me favourable impressions of his character; wild, perhaps, as the manner of his country is, but, I trust, not frantic or unprincipled.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>SERVANT</hi> enters.</stage>
 <sp>
@@ -384,8 +384,8 @@ swarm of musquetoes, I proceeded a little too roughly to brush them away with my
 <p>With all my heart.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Scene changes to a Room in <hi>LADY RUSPORT</hi>'s House: <hi>LADY RUSPORT</hi> and <hi>CHARLOTTE.</hi></stage>
 <sp>
@@ -613,13 +613,13 @@ lady, and very apt to jilt us poor fellows, that wear cockades in our hats. Fare
 <p>I am coming—well, have you wrote it? give it me. O Charles! either you do not, or you will not, understand me.</p>
 </sp>
 <stage>Exeunt severally</stage>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="20"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A room in <hi>FULMER's</hi> House.</stage>
 <stage><hi>FULMER</hi> and <hi>Mrs. FULMER.</hi></stage>
@@ -671,8 +671,8 @@ a master-stroke, truly; why, I have talk'd treason, writ treason, and if a man c
 <p>Captain, truely; i'faith I'd have a regiment, had I such a daughter, before I was three months older.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>CAPT. DUDLEY</hi> enters to him.</stage>
 <sp>
@@ -807,8 +807,8 @@ is a flattering writer to us poor soldiers; and the divine story of Le Fevre, wh
 <p>An old, absurd, incorrigible blockhead! I'll be reveng'd of him <stage>aside</stage>.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>YOUNG DUDLEY</hi> enters to him.</stage>
 <sp>
@@ -848,8 +848,8 @@ is a flattering writer to us poor soldiers; and the divine story of Le Fevre, wh
 <speaker>CHARLES.</speaker>
 <p>There again I am the messenger of ill news; I can raise no money, so fatal is the climate: alas! that ever my father shou'd be sent to perish in such a place!</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>MISS DUDLEY</hi> enters hastily.</stage>
 <sp>
@@ -885,8 +885,8 @@ is a flattering writer to us poor soldiers; and the divine story of Le Fevre, wh
 <p>None, my dear; by all means wait upon Miss Rusport. Come, Louisa, I shall desire you to go up to your chamber, and compose yourself.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="22" facs="26"/>
 <head>SCENE V.</head>
 <stage><hi>BELCOUR</hi> enters, after peeping in at the Door.</stage>
@@ -1047,8 +1047,8 @@ is a flattering writer to us poor soldiers; and the divine story of Le Fevre, wh
 <speaker>MRS. FULMER.</speaker>
 <p>Hey-dey!</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>FULMER</hi> enters.</stage>
 <sp>
@@ -1125,8 +1125,8 @@ is; be sure you don't lose sight of him; I've other business in hand.</p>
 <p>I've lost the girl it seems; that's clear: she was the first object of my pursuit; but the case of this poor officer touches me; and, after all, there may be as much true delight in rescuing a fellow creature from distress, as there would be in plunging one into it—But let me see; its a point that must be managed with some delicacy—Apropos! there's pen and ink—I've struck upon a method that will do <stage>writes.</stage> Ay, ay, this is the very thing; 'twas devilish lucky I happen'd to have these bills about me. There, there, fare you well; I'm glad to be rid of you; you stood a chance of being worse applied, I can tell you.</p>
 <stage>encloses and seals the paper.</stage>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>FULMER</hi> brings in <hi>DUDLEY.</hi></stage>
 <sp>
@@ -1252,8 +1252,8 @@ is; be sure you don't lose sight of him; I've other business in hand.</p>
 <speaker>DUDLEY.</speaker>
 <p>Humph! there's something very odd in all this—let me see what we've got here——This paper is to tell me who he is, and what are his terms: in the name of wonder, why has he sealed it! Hey-dey! what's here? Two bank notes, of a hundred each! I can't comprehend what this means. Hold; here's a writing; perhaps that will show me. "Accept this trifle; pursue your fortune, and prosper."—Am I in a dream? Is this a reality?</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Enter <hi>MAJOR O'FLAHERTY.</hi></stage>
 <sp>
@@ -1354,8 +1354,8 @@ But, I hope, your expectations of prevailing are founded upon good reasons.</p>
 <p>A good sensible man, and very much of a soldier; I did not care if I was better acquainted with him: but 'tis an awkward kind of a country for that; the English, I observe, are close friends, but distant acquaintance. I suspect the old lady has not been over generous to poor Dudley: I shall give her a little touch about that; upon my soul I know but one excuse a person can have for giving nothing, and that is, like myself, having nothing to give.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Scene changes to <hi>LADY RUSPORT's</hi> House.</stage>
 <stage>A dressing-room.</stage>
@@ -1398,8 +1398,8 @@ But, I hope, your expectations of prevailing are founded upon good reasons.</p>
 <speaker>CHARLOTTE.</speaker>
 <p>Now the deuce take the girl for putting that notion into my head; I'm sadly afraid Dudley does hot like me; so much encouragement as I have given him to declare himself! I never cou'd get a word from him on the subject; this may be very honourable, but upon▪ my life it's very provoking; by the way I wonder how I look to-day. Oh! shockingly, hideously pale! like a witch. This is the old lady's glass, and she has left some of her wrinkles on it. How frightfully have I put on my cap, all awry! and my hair drest so unbecomingly! altogether I'm a most compleat fright.</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="34" facs="38"/>
 <head>SCENE X.</head>
 <stage><hi>CHARLES DUDLEY</hi> comes in unobserved.</stage>
@@ -1531,8 +1531,8 @@ But, I hope, your expectations of prevailing are founded upon good reasons.</p>
 <p>I must not dispute your orders. Farewell!</p>
 </sp>
 <stage>Exeunt <hi>CHARLES</hi> and <hi>CHARLOTTE.</hi></stage>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage><hi>LADY RUSPORT</hi> enters, leaning on <hi>MAJOR O'FLAHERTY</hi>'s arm.</stage>
 <sp>
@@ -1676,13 +1676,13 @@ But, I hope, your expectations of prevailing are founded upon good reasons.</p>
 <speaker>LADY RUSPORT.</speaker>
 <p>A hyena, truly! Where did the fellow blunder upon that word? Now the deuce take him for using it, and the Macaronies for inventing it.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="41" facs="45"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A room in <hi>STOCKWELL's</hi> house.</stage>
 <stage><hi>STOCKWELL</hi> and <hi>BELCOUR.</hi></stage>
@@ -1782,8 +1782,8 @@ Yours, MARTHA FULMER.</p>
 <p>Be it so: good morning to you. Farewel advice! Away goes he upon the wing for pleasure. What various passions he awakens in me! He pains, yet pleases me; affrights, offend, yet grows upon my heart. His very failings set him off—for ever trespassing, for ever atoning, I almost think he would not be so perfect, were he free from fault: I must dissemble longer; and yet how painful the experiment!—Even now he's gone upon some wild adventure; and who can tell what mischief may befal him! O Nature, what it is to be a father! Just such a thoughtless headlong thing was I, when I beguiled his mother into love.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="45" facs="49"/>
 <head>SCENE II.</head>
 <stage>Scene changes to <hi>FULMER's</hi> House.</stage>
@@ -1805,8 +1805,8 @@ Yours, MARTHA FULMER.</p>
 <p>Hark! he's come: disappear, march; and leave the field open to my machinations.</p>
 </sp>
 <stage>Exit <hi>FULMER.</hi></stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>BELCOUR</hi> enters to her.</stage>
 <sp>
@@ -2004,8 +2004,8 @@ youth of Hebe, the beauty of Venus, and the pen of Sappho; but in the name of al
 <speaker>BELCOUR.</speaker>
 <p>Hell and vexation! Get out of the room, or I shall run distracted. <stage>Exit <hi>Mrs. Fulmer.</hi></stage> Of a certain, Belcour, thou art born to be the fool of woman: sure no man sins with so much repentance, or repents with so little amendment, as I do. I cannot give away another person's property, honour forbids me; and I positively cannot give up the girl; love, passion, constitution, every thing protests against that. How shall I decide? I cannot bring myself to break a trust, and I am not at present in the humour to baulk my inclinations. Is there no middle way? Let me consider—There is, there is: my good genius has presented me with one; apt, obvious, honourable; the girl shall not go without her baubles, I'll not go without the girl, Miss Rusport shan't lose her diamonds, I'll save Dudley from destruction, and every party shall be a gainer by the project.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>MRS. FULMER</hi> introducing <hi>MISS DUDLEY.</hi></stage>
 <sp>
@@ -2095,8 +2095,8 @@ youth of Hebe, the beauty of Venus, and the pen of Sappho; but in the name of al
 <p>How can I tell that? Don't you see what an alarm you have put her into? Oh! you are a rare one! But go your ways for this while; leave her to my management, and come to me at seven this evening; but remember not to bring empty pockets with you—Ha! ha! ha!</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>LADY RUSPORT's</hi> House.</stage>
 <stage><hi>MISS RUSPORT</hi> enters, followed by a servant.</stage>
@@ -2168,8 +2168,8 @@ list, not of your common, but particular acquaintance, of your friends, Miss Rus
 <p>How honourable is that behaviour! Now, if Charles was here, I should be happy. The old lady is so fond of her new Irish acquaintance, that I have the whole house at my disposal.</p>
 </sp>
 <stage>Exit <hi>CHARLOTTE.</hi></stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>BELCOUR</hi> enters, preceded by a Servant.</stage>
 <sp>
@@ -2180,8 +2180,8 @@ list, not of your common, but particular acquaintance, of your friends, Miss Rus
 <speaker>BELCOUR.</speaker>
 <p>Belcour is my name, Sir; and pray beg your lady to put herself in <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> hurry on my account; for I'd sooner see the devil than see her face <stage>Exit Servant.</stage> In the name of all that's mischievous, why did Stockwell drive me hither in soon haste? A pretty figure, truly, I shall make: an ambassador without credentials. Blockhead that I was to charge myself with her diamonds; officious, meddling puppy! Now they are irretrievably gone: that suspicious jade Fulmer woudn't part even with a fight of them, tho' I would have ransom'd 'em at twice their value. Now must I trust to my poor wits to bring me off: a lamentable dependance. Fortune be my helper! Here comes the girl— If she is noble minded, as she is said to be, she will forgive me; if not, 'tis a lost cause; for I have not thought of one word in my excuse.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="55" facs="59"/>
 <head>SCENE VII.</head>
 <stage><hi>CHARLOTTE</hi> enters.</stage>
@@ -2337,8 +2337,8 @@ most faithfully yours, CHARLES DUDLEY.</p>
 <p>Then he ought to be proscribed the society of mankind for ever——Ay, ay, 'tis the sham sister makes him thus indifferent; 'twill be a meritorious office to take that girl out of the way.</p>
 </sp>
 <stage>Servant enters</stage>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <speaker>SERVANT.</speaker>
@@ -2465,8 +2465,8 @@ most faithfully yours, CHARLES DUDLEY.</p>
 <p>Oh, by all means; pray command me. Miss Rusport, I'm your most obedient! By your condescension in accepting those poor trifles, I am under eternal obligations to you—To you, Miss Dudley, I shall not offer a word on that subject: you despise finery; you have a soul above it; I adore your spirit; I was rather unprepared for meeting you here; but I shall hope for an opportunity of making myself better known to you.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage><hi>CHARLOTTE</hi> and <hi>LOUISA.</hi></stage>
 <sp>
@@ -2498,8 +2498,8 @@ most faithfully yours, CHARLES DUDLEY.</p>
 <speaker>CHARLOTTE.</speaker>
 <p>Who, but this very gentleman: Apropos! here comes your brother—</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>CHARLES</hi> enters.</stage>
 <sp>
@@ -2534,13 +2534,13 @@ most faithfully yours, CHARLES DUDLEY.</p>
 <speaker>CHARLOTTE.</speaker>
 <p>Your servant; my life upon it you'll find Belcour a man of honour. Come, Louisa, let us adjourn to my dressing-room; I've a little private business to transact with you, before the old lady comes up to tea, and interrupts us.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="64" facs="68"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>FULMER</hi>'s house.</stage>
 <stage><hi>FULMER</hi> and <hi>MRS. FULMER.</hi></stage>
@@ -2587,8 +2587,8 @@ most faithfully yours, CHARLES DUDLEY.</p>
 <p>Adieu, Belcour!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>CHARLES DUDLEY</hi> and <hi>LOUISA.</hi></stage>
 <sp>
@@ -2610,8 +2610,8 @@ most faithfully yours, CHARLES DUDLEY.</p>
 <pb n="66" facs="70"/>
 my guiltless ones I mean, are free; How fast they spring within me at that sentence! Down, down, ye busy creatures! Whither wou'd you carry me? Ah! there is one amongst you, a forward, new intruder, that in the likeness of an offending, generous man, grows into favour with my heart. Fye, fye upon it! Belcour pursues, insults me; yet such is the fatality of my condition, that what shou'd rouse resentment, only calls up love.</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>BELCOUR</hi> enters to her</stage>
 <sp>
@@ -2713,8 +2713,8 @@ my guiltless ones I mean, are free; How fast they spring within me at that sente
 <p>Unhand me, Sir: O Charles! protect me, rescue me, redress me.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>CHARLES DUDLEY</hi> enters.</stage>
 <sp>
@@ -2766,8 +2766,8 @@ my guiltless ones I mean, are free; How fast they spring within me at that sente
 <speaker>BELCOUR.</speaker>
 <p>You question me too late, <gap resp="pdcc" extent="1 span" disp="〈…〉" reason="illegible"/> villain never met before▪ had you <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>quir<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>d <gap resp="pdcc" extent="1 span" disp="〈…〉" reason="illegible"/> you utter'd that rash word, you <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ght have <gap resp="pdcc" extent="1 span" disp="〈…〉" reason="illegible"/> or me a mortal error: now, Sir, I neither give nor take an explanation; so, come on!<stage>They <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>.</stage></p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="70" facs="74"/>
 <head>SCENE V.</head>
 <stage><hi>LOUISA,</hi> and afterwards <hi>O'FLAHERTY.</hi></stage>
@@ -2810,8 +2810,8 @@ my guiltless ones I mean, are free; How fast they spring within me at that sente
 <p>Ay will I: come along, pretty one; if you're had wrong done you, young man, you need look no further for a second, Dennis O'Flaherty's your man for that; but never draw your sword before a woman, Dudley; damn it, never while you live draw your sword before a woman.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>LADY RUSPORT</hi>'s House.</stage>
 <stage><hi>LADY RUSPORT</hi> and <hi>SERVANT.</hi></stage>
@@ -2899,8 +2899,8 @@ be then in <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/
 <p>A thought occur<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> by this f<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>llow'<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> <gap resp="pdcc" extent="1 span" disp="〈…〉" reason="illegible"/> of his conscience, I should <gap resp="pdcc" extent="1 span" disp="〈…〉" reason="illegible"/>, Mr. Varland, if 'tis as you say, I must submit. I was somewhat flurried at first, and <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> myself; I ask your pardon: this is no place to talk of business; st<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>p with me into my room; we will there <gap resp="pdcc" extent="1 span" disp="〈…〉" reason="illegible"/> the will, and resolve accordingly—Oh! would your fever had you, and I had your paper.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>MISS RUSPORT, CHARLES,</hi> and <hi>O'FLAHERTY.</hi></stage>
 <sp>
@@ -2938,8 +2938,8 @@ a moment, till your friend here can make good his retreat down the back-stairs.<
 <p>'Tis the office of a friend, my dear boy; and, therefore, no disgrace to a general.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>CHARLES</hi> and <hi>CHARLOTTE.</hi></stage>
 <sp>
@@ -3013,8 +3013,8 @@ upon a full piedmontese trot, within pistol-shot of your encampment.</p>
 <p>Ask no questions, but be gone: she has cooled the lad's courage, and wonders he feels like a coward. There's a damn'd deal of mischief brewing between this hyena and her lawyer: egad I'll step behind this screen and listen▪ a good soldier must sometimes fight in ambush as well as open field</p>
 <stage>retires.</stage>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage><hi>LADY RUSPORT</hi> and <hi>VARLAND.</hi></stage>
 <sp>
@@ -3096,8 +3096,8 @@ to be paid down at once for a bribe, but 'tis a damn'd rogue's trick in me to ta
 <p>I wish I was once fairly out of his sight.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>A Room in <hi>STOCKWELL's</hi> House.</stage>
 <sp>
@@ -3335,13 +3335,13 @@ to be paid down at once for a bribe, but 'tis a damn'd rogue's trick in me to ta
 <speaker>STOCKWELL.</speaker>
 <p>'Tis thus religion writes and speaks the word; in the vocabulary of modern honour there is no such term—But come, I don't despair of satisfying the one without alarming the other; that done, I have a discovery to unfold that you will then I hope be fitted to receive.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="85" facs="89"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>The London Tavern.</stage>
 <stage><hi>O'FLAHERTY, STOCKWELL, CHARLES,</hi> and <hi>BELCOUR.</hi></stage>
 <sp>
@@ -3456,8 +3456,8 @@ Dudley and her father will make part of our company. Come, Major, do you consent
 <p>Well, it must be in your own way; but I confess you hare thoroughly rous'd my curiosity.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>STOCKWELL's</hi> House.</stage>
 <stage><hi>Capt. DUDLEY, LOUISA,</hi> and <hi>STUKELY.</hi></stage>
@@ -3495,8 +3495,8 @@ Dudley and her father will make part of our company. Come, Major, do you consent
 <p>You may expect them every minute; and see Madam, agreeable to your wish, they are here.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>CHARLES</hi> enters, and afterwards <hi>STOCKWELL</hi> and <hi>O'FLAHERTY.</hi></stage>
 <sp>
@@ -3516,8 +3516,8 @@ Dudley and her father will make part of our company. Come, Major, do you consent
 <speaker>STOCKWELL.</speaker>
 <p>He has only stept into the compting-house and will wait upon you directly: You will not be over strict, Madam, in weighing Mr. Belcour's conduct to the minutest scruple; his manners, passions and opinions are not as yet affimilated to this climate; he comes amongst you a new character, an inhabitant of a new world and both hospitality as well as pity recommend him to our indulgence.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>BELCOUR</hi> enters, bows to <hi>Miss DUDLEY.</hi></stage>
 <sp>
@@ -3559,8 +3559,8 @@ Dudley and her father will make part of our company. Come, Major, do you consent
 <p>I have been endeavouring to call to mind what it was I overheard; I've got the paper and will give you the best account I can of the whole transaction.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE. V.</head>
 <stage><hi>BELCOUR</hi> and <hi>LOUISA.</hi></stage>
 <sp>
@@ -3617,8 +3617,8 @@ Dudley and her father will make part of our company. Come, Major, do you consent
 <speaker>BELCOUR.</speaker>
 <p>By Heav'n my soul is conquer'd with your virtues more than my eyes are ravish'd with your beauty Oh, may this fo<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>, this sensit<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>ve alarm be happy, be a<gap resp="pdcc" extent="4 letters" disp="••••" reason="illegible"/>cious! Doubt not, deliberate not, delay <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/>. If happiness be the end of life, why do we sup<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>a moment▪</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>O'FLAHERTY</hi> enters, and afterwards <hi>DUDLEY</hi> and <hi>CHARLES</hi> with <hi>STOCKWELL.</hi></stage>
 <sp>
@@ -3744,8 +3744,8 @@ give over; we have stood many a tough gale and abundance of hard blows, but Char
 <speaker>STOCKWELL.</speaker>
 <p>Hold, here comes Belcour.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>BELCOUR</hi> introducing <hi>Miss RUSPORT.</hi></stage>
 <sp>
@@ -3783,8 +3783,8 @@ but your good fortune, which I have related to her, seems inclin'd to save you b
 <p>Thus then I claim my dear, my destin'd wife.</p>
 <stage>embracing her.</stage>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>Lady RUSPORT</hi> enters.</stage>
 <sp>
@@ -3972,11 +3972,11 @@ watch'd you with a patient, but enquiring eye, and I have discover'd thro' the v
 <speaker>BELCOUR.</speaker>
 <p>I thank you, and in my turn glory in the father I have gained: sensibly imprest with gratitude for such extraordinary dispensations, I beseech you, amiable Louisa, for the time to come, whenever you perceive me deviating into error or offence, bring only to my mind the Providence of this night, and I will turn to reason and obey.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="107" ana="y"/>
 <head>EPILOGUE. Written by D. G. ESQ. SPOKEN BY Mrs. ABINGTON.</head>
 <stage><hi>N. B.</hi> The Lines in Italics are to be spoken in a catechist T<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>.</stage>
@@ -4070,8 +4070,7 @@ watch'd you with a patient, but enquiring eye, and I have discover'd thro' the v
 <l>For all you look so sour, and bend the <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ow,</l>
 <l>You all rejoice with me, you're living now,</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

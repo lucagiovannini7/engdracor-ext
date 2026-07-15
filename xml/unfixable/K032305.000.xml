@@ -7,13 +7,13 @@
 <extent>[4],19,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed by S. Powell, for George Risk,</publisher><date>1724.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26855.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>A <hi>Bickerstaff</hi>'s Burying; OR, Work for the <hi>Upholders.</hi> A FARCE; As it is ACTED at the <hi>THEATRES,</hi> with Applause. By His MAJESTY'S Servants.</p>
 <p>Written by Mrs. <hi>Susanna Centlivre:</hi> Author of <hi>The Gamester,</hi> a Comedy.</p>
 <p><hi>DUBLIN:</hi> Printed by <hi>S. Powell,</hi> for <hi>George Risk,</hi> at the Corner of <hi>Castle-lane</hi> in <hi>Dame-street,</hi> near the <hi>Horse guard,</hi> MDCCXXIV.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -33,8 +33,8 @@
 <item><hi>Servants.</hi></item>
 <item><hi>Lucy.</hi></item>
 </list>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>To the Magnificent COMPANY of UPHOLDERS, <hi>&amp;c.</hi></head>
 <p>CƲstom has made some Things absolutely necessary, and two Sheets without a Dedication, or a Preface, by way of Excuse, would be an unpardonable Indecency: To avoid which, I was considering at whose Feet to lay these following Scenes. First I thought of offering it to all those young Wives who had sold themselves for Money, and been inter'd with Misery from the first Day of their Marriage; but supposing their chief Pleasure to consist in Pride, and that they had rather gratify their Ambition in the Arms of a Fool, or Fourscore, than wed a Man of Sense of narrower Fortunes, I concluded 'em unworthy of my Notice.</p>
@@ -46,13 +46,13 @@ you? All Ranks and Conditions are obliged to you; th<gap resp="oxf" extent="1 le
 <p>And now to conclude, Gentlemen, I hope you'll pard<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> this Liberty I have taken, and accept this as a Token <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> the Respect I bear your noble Society: I honour you tho' have no Desire of falling into your Hands, but I thi<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> we Poets are in no Danger of that, since our real Esta<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>¦lies in the Brain, and our personal consists in two or th<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> loose Scenes, a few Couplets for the Tag of an Act, and slight Sketch for a <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/>ong, and as I take it, you are <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> over-fond of Paper-Credit, where there is no Probabili<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> of recovering the Debt: So wishing you better Custome<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> I expect no Return, but am proud of subscribing <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> self,</p>
 <closer><salute>GENTLEMEN,</salute>
 <signed>Your most obedient humble Serv<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/></signed></closer>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb facs="5"/>
 <head>A <hi>Bickerstaff</hi>'s Burying; OR, Work for the <hi>Upholders.</hi></head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A working Sea seen at a Distance, with the Appearance of a Head of a Ship bulging against a Rock: Mermaids rise and sing: Thunder and Lightning: Then the Scene shuts.</stage>
 <stage>Enter Lady <hi>Mezro,</hi> and her Neice <hi>Isabinda,</hi> vail'd.</stage>
@@ -578,8 +578,8 @@ Voyage in a Bowl of Punch, clap my Riches aboard, and hoist Sail for merry <hi>E
 <p>Along then.</p>
 <stage>(Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="10" facs="14"/>
 <head>SCENE II.</head>
 <stage>The <hi>Emir</hi> on a Couch, with his Wife weeping <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> him, and Attendants round about. Tab<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> Couch, 2 Chairs, Gally-pots, <hi>&amp;c.</hi></stage>
@@ -934,8 +934,8 @@ Voyage in a Bowl of Punch, clap my Riches aboard, and hoist Sail for merry <hi>E
 <p>Your Wealth at any time decides the Strife.</p>
 <stage>(Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="16" facs="20"/>
 <head>SCENE III.</head>
 <stage>A <hi>Cosgarian</hi> Lady, dragging in the first Sailor.</stage>
@@ -1051,8 +1051,8 @@ Voyage in a Bowl of Punch, clap my Riches aboard, and hoist Sail for merry <hi>E
 <l>Where we will drink and sing till the whole World goes round.</l>
 <stage>(Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="18" facs="22"/>
 <head>SCENE IV.</head>
 <stage>The <hi>Emir</hi> dragg'd in by <hi>Officers,</hi> with Servan<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> bringing in Loaves of Bread and Bottles Water.</stage>
@@ -1145,12 +1145,12 @@ she us'd to die and come to Life again ten times in an Hour, therefore I will se
 <l>The Laws of Wedlock all Men think severe;</l>
 <l>But 'tis Damnation sure to marry here.</l>
 </sp>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="26"/>
 <head>POEMS and PLAYS Printed for, and sold by <hi>George Risk,</hi> Booksell<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> at the Corner of <hi>Castle-lane</hi> in <hi>Dames-street.</hi></head>
 <list>
@@ -1191,8 +1191,7 @@ she us'd to die and come to Life again ten times in an Hour, therefore I will se
 <item><hi>Hob</hi>'s Wedding.</item>
 <item>The School-Boy, or the Comical Rival, by Mr. <hi>Cibbe<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/></hi></item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

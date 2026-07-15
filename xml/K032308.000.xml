@@ -7,7 +7,7 @@
 <extent>[8],106,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Payne,</publisher><date>1723.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26858.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE ARTIFICE. A COMEDY.</p>
 <p>As It Is ACTED At the THEATRE-ROYAL in Drury-Lane. By His <hi>MAJESTY</hi>'s Company of COMEDIANS.</p>
@@ -15,8 +15,8 @@
 <p>It is a Kind of <hi>Slander,</hi> to trust to RUMOUR.</p>
 <bibl><hi>Ben. Jonson</hi>'s Cataline.</bibl>
 <p>LONDON: Printed for T. PAYNE, near <hi>Stationers-Hall,</hi> M.DCC.XXIII. [Price 1 <hi>s.</hi> 6 <hi>d.</hi>]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO <hi>ERASMUS EARLE,</hi> <abbr>Esq</abbr></head>
 <opener><salute>SIR,</salute></opener>
@@ -30,8 +30,8 @@ I know not what Bounds You can reasonably set to Your Ambition! One Thing I am w
 <p>I confess, I am glad to lay hold of any Opportunity of paying my Early Court to so distinguish'd a Merit; and hope, Sir, That my laying this Trifle at Your Feet, however poor it may be in itself, will be at least some small Proof of that Zeal and Respect, with which I am,</p>
 <closer><salute>SIR,</salute>
 <signed><hi>Your Most Obedient, and Most Humble Servant,</hi> SUSANNA CENT-LIVRE.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>By Mr. <hi>BOND.</hi></byline>
@@ -78,8 +78,8 @@ I know not what Bounds You can reasonably set to Your Ambition! One Thing I am w
 <l>Be <hi>Heroes</hi> in a <hi>Woman</hi>'s <hi>Cause</hi> to Day,</l>
 <l>And as you <hi>Love</hi> the <hi>Sex, Defend</hi> the <hi>Play.</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -118,15 +118,14 @@ I know not what Bounds You can reasonably set to Your Ambition! One Thing I am w
 <label>Constable, Watch, and other Attendants.</label>
 <item> </item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE ARTIFICE. A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the <hi>PARK.</hi></stage></head>
 <stage><hi>Enter</hi> Fainwell <hi>in a Livery, meeting Sir</hi> John Freeman <hi>in Mourning.</hi></stage>
 <sp>
@@ -891,12 +890,12 @@ Pray who is the Gentleman with him, Mr. <hi>Freeman?</hi></p>
 <l>Still to Besiege, and Storm, the Soldier's Trade is,</l>
 <l>In <hi>War,</hi> to carry Towns; — In <hi>Peace,</hi> the Ladies.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="16" facs="23"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>Sir <hi>Philip Money-love</hi>'s House.</stage></head>
 <stage><hi>Enter</hi> Olivia, <hi>and</hi> Louisa <hi>weeping.</hi></stage>
 <sp>
@@ -1089,8 +1088,8 @@ If where I've fix'd my <hi>Love,</hi> I must not Wed,</l>
 <l>I'll choose a <hi>Coffin</hi> for my <hi>Bridal Bed.</hi></l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>Watchit</hi>'s House.</stage></head>
 <stage><hi>Mrs.</hi> Watchit, <hi>Sola.</hi></stage>
 <sp>
@@ -1966,12 +1965,12 @@ I wish you, and your Mistress, have not all your — I might not always be so lu
 <l>'Ounds! I'll so swinge, so mortify the Jade,</l>
 <l>That she shall ne'er forget my Ghostly Aid.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="35" facs="42"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>Widow <hi>Headless</hi>'s House. She Wiping down the Dust with her Handkerchief.</stage></head>
 <stage><hi>Enter</hi> Judith.</stage>
 <sp>
@@ -2641,8 +2640,8 @@ Brother, I hope you conceive a Widow, when she makes such Wishes in your Favour.
 <p>My good Wishes attend you both, Sir <hi>John.</hi></p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to the Piazza in <hi>Covent-Garden.</hi></stage></head>
 <stage><hi>Enter</hi> Fainwell, <hi>Solus.</hi></stage>
 <sp>
@@ -2873,8 +2872,8 @@ a-way, and that a-way, like a Flail upon a Wheatsheaf.</p>
 <p>Murder! Thieves! Murder! —This is a terrible Fellow. For my Part I'll never hinder him going in again. —And now he is in, I wish I had taken the Money. — He has shut the Door, and the Devil take them that open it, for <hi>Dick.</hi>
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="51" facs="58"/>
 <head><stage>The <hi>SCENE</hi> changes to the Inside of the House.</stage></head>
 <stage>Olivia <hi>and Sir</hi> John <hi>Meeting.</hi></stage>
@@ -3204,12 +3203,12 @@ Sir, will you be pleas'd to walk out of my House.</p>
 <l>For who by <hi>Force</hi> the Courted Bliss receives▪</l>
 <l>Ne'er tastes the Joy the <hi>Willing Fair-One</hi> gives.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="57" facs="64"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>Watchit</hi>'s House.</stage></head>
 <stage>Watchit, <hi>Solus.</hi></stage>
 <sp>
@@ -3276,8 +3275,8 @@ courteous, gentle, loving, blind Animals; if they are so bewitch'd to pitch on B
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to Mrs. <hi>Headless</hi>'s House.</stage></head>
 <stage><hi>Enter Mrs.</hi> Headless <hi>on one side, and</hi> Fainwell <hi>on t'other.</hi></stage>
 <sp>
@@ -3574,8 +3573,8 @@ bawl, and make a noise, chu'd seem; but as for thick same Gentleman, he's quite 
 <p>Be pleas'd to walk this way.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>The <hi>SCENE</hi> draws, and <hi>Louisa</hi> comes forward, meeting <hi>Flora.</hi></stage></head>
 <sp>
 <speaker>Lou.</speaker>
@@ -3971,8 +3970,8 @@ Ah! ick heb nit dat ga don, Minheer —</p>
 </lg>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to <hi>Watchit</hi>'s House.</stage></head>
 <stage><hi>Mrs.</hi> Watchit <hi>in a Night-Dress on a Couch.</hi></stage>
 <sp>
@@ -4377,12 +4376,12 @@ I must be content, and make my self as happy as I can without you, <hi>Mumps.</h
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="79" facs="86"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>Mrs. <hi>Headless</hi>'s House.</stage></head>
 <stage><hi>Mrs.</hi> Headless, <hi>Sola.</hi></stage>
 <sp>
@@ -5040,8 +5039,8 @@ This Moment, whilst my Hopes are high; whilst Imagination represents a Groop of 
 <l>A well-laid <hi>Plot,</hi> and <hi>Artifice,</hi> prevail.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="92" facs="99"/>
 <head><stage><hi>SCENE</hi> changes to the Street, before <hi>Watchit</hi>'s Door. He in Armour, with a Blunderbuss on his Shoulder, which he often makes ready to fire.</stage></head>
 <sp>
@@ -5192,8 +5191,8 @@ Round-House.</p>
 <p>Yes, yes, very well, Sir. Come, come, bring 'em along.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Inside of Mrs. <hi>Headless</hi>'s House.</stage></head>
 <stage><hi>The Back-Scene Draws, and discovers</hi> Ned Freeman, <hi>and</hi> Louisa, <hi>just Married; (the Parson making his Exit) and Sir</hi> John <hi>and</hi> Demur; Louisa <hi>throws her Arms about</hi> Freeman<hi>'s Neck.</hi></stage>
 <sp>
@@ -5691,7 +5690,7 @@ So now;</p>
 <p>Ay! I'm resolv'd to be merry to Night, bemess, Sir.—
 <stage>Sings.</stage></p>
 </sp>
-<stage><pb n="104" facs="111"/><hi>Sing Ola wa, Let us be merry</hi>—</stage>
+<stage><pb n="104" facs="111"/><hi>Sing <said direct="true">Ola wa, Let us be merry</said></hi>—</stage>
 <sp>
 <speaker>Sam.</speaker>
 <p><hi>O nilly wa, Let us be merry.</hi></p>
@@ -5876,13 +5875,11 @@ he is but a Subaltern, you have Fortune enough to buy him a Regiment; and a Colo
 <l>For they who Sin with Caution, whilst conceal'd,</l>
 <l>Grow impudently Careless, when reveal'd.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="114"/>
 <head>EPILOGUE.</head>
 <byline>By a <hi>FRIEND.</hi></byline>
@@ -5930,7 +5927,7 @@ he is but a Subaltern, you have Fortune enough to buy him a Regiment; and a Colo
 <l>No <hi>Man</hi> is Half a Match for any <hi>Woman.</hi></l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

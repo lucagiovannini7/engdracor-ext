@@ -7,7 +7,7 @@
 <editionStmt><edition>The second edition.</edition></editionStmt><extent>[8],72p. ; 4⁰.</extent><publicationStmt><publisher>printed for Bernard Lintott,</publisher><date>[1709]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A sequel was published with the title: 'Mar-plot'.</note><note>Publication date from CBEL.</note><note>Reproduction of original from the William Andrews Clark Memorial Library (UCLA).</note><note>English Short Title Catalog, ESTCN15299.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE BUSIE BODY: A COMEDY. As it is Acted at the THEATRE-ROYAL IN DRURY-LANE, By Her Majesty's Servants.</p>
 <p>Written by Mrs. SUSANNA CENTLIVRE.</p>
@@ -17,8 +17,8 @@
 <l>Sic Leve, sic parvum est, animum quod laudis avarum</l>
 <l>Subruit aut resicit—</l><bibl>Horat. Epist. Lib. II. Ep. 1.</bibl>
 <p><hi>LONDON,</hi> Printed for BERNARD LINTOTT, at the <hi>Cross-Keys</hi> between the TWO <hi>Temple-Gates</hi> in <hi>Fleet-street.</hi></p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE RIGHT HONOURABLE <hi>JOHN</hi> Lord <hi>SOMMERS,</hi> Lord-President of Her MAJESTY's most Honourable Privy-Council.</head>
 <opener><salute>May it please your Lordship,</salute></opener>
@@ -29,8 +29,8 @@ Time, among the <hi>Romans,</hi> both for Political and Military Virtues, in the
 <p>And here, my Lord, the Occasion seems fair for me to engage in a Panegyrick upon those Natural and Acquired Abilities, which so brightly Adorn your Person: But I shall resist that Temptation, being conscious of the Inequality of a Female Pen to so Masculine an Attempt; and having no other Ambition than to Subscribe my self,</p>
 <closer><salute>My Lord,</salute>
 <signed>Your Lordship's Most Humble and Most Obedient Servant, SUSANNA CENTLIVRE.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>By the Author of TUNBRIDGE-WALKS.</byline>
@@ -82,8 +82,8 @@ The <hi>Fleet-street</hi> Sempstress—Toast of <hi>Temple</hi> Sparks,</l>
 <l>Let your Indulgence all her Fears allay,</l>
 <l>And none but Woman-Haters damn this Play.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="6"/>
 <head>EPILOGUE.</head>
 <lg>
@@ -126,8 +126,8 @@ The <hi>Fleet-street</hi> Sempstress—Toast of <hi>Temple</hi> Sparks,</l>
 <l>Let none but <hi>Busie-Bodies</hi> vent their Spight,</l>
 <l>And with good Humour Pleasure crown the Night.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -156,14 +156,14 @@ The <hi>Fleet-street</hi> Sempstress—Toast of <hi>Temple</hi> Sparks,</l>
 <label><hi>Scentwell.</hi> Woman to <hi>Miranda.</hi></label>
 <item>Mrs. <hi>Mills.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="1" facs="8"/>
 THE BUSIE BODY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. </head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE</head><stage>The Park.</stage>
 <stage>Sir <hi>George Airy</hi> meeting <hi>Charles.</hi></stage>
 <sp>
@@ -851,12 +851,12 @@ Ha? gone! The Devil, jilted? Why, what a Tale has she invented—of <hi>Paris,</
 <l><hi>Closely pursue them and they fall before ye.</hi></l>
 </sp>
 <trailer>The End of the First ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="14" facs="21"/>
 <head>ACT the Second.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter Sir <hi>Francis Gripe, Miranda.</hi></stage>
 <sp>
 <speaker>Sir Fran.</speaker>
@@ -1399,8 +1399,8 @@ And see the Power of your Command; the God of Love has set the Verse already; th
 <l><hi>When he that Lavish is, has Nought to pay.</hi></l>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to Sir <hi>Jealous Traffick</hi>'s House.</stage></head>
 <stage>Enter Sir <hi>Jealous, Isabinda, Patch</hi> following.</stage>
 <sp>
@@ -1552,8 +1552,8 @@ Ha! a Man lurking about my House; who do you want there, Sir?</p>
 <speaker>Sir Jeal.</speaker>
 <p>This Fellow has the Officious Leer of a Pimp; and I half suspect a Design, but I'll be upon them before they think on me, I warrant 'em <stage>(Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>Charles</hi>'s Lodging.</stage></head>
 <stage>Enter <hi>Charles</hi> and <hi>Marplot.</hi></stage>
 <sp>
@@ -1673,12 +1673,12 @@ Ha! a Man lurking about my House; who do you want there, Sir?</p>
 <p>Why then—I must and will follow you. </p>
 <stage>(Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT the Third.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter <hi>Charles.</hi></stage>
 <sp>
 <speaker>Char.</speaker>
@@ -1785,8 +1785,8 @@ curs'd <hi>Don</hi> arrives, and suffer that Youth, Beauty, Fire and Wit to be s
 <p>Heaven preserve him. </p>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="32" facs="39"/>
 <head><stage>SCENE Changes to the Street.</stage></head>
 <stage>Enter Sir <hi>Jealous,</hi> with <hi>Marplot</hi> behind him.</stage>
@@ -1950,8 +1950,8 @@ S'death, I cou'd crush thee into Atoms.</p>
 <l><hi>How much for Love a</hi> British <hi>Maid can do.</hi></l>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>Sir <hi>Francis Gripe</hi>'s House.</stage></head>
 <stage>Sir <hi>Francis</hi> and <hi>Miranda</hi> meeting.</stage>
 <sp>
@@ -2266,8 +2266,8 @@ the Exchange, or paid Attendance to a Court, I am the Son of a Whetstone; and so
 <p>Ay, to the World's End, my Dear. Well, <hi>Frank,</hi> thou art a lucky Fellow in thy old Age, to have such a delicate Morsel, and Thirty Thousand Pound in love with thee; I shall be the Envy of Batchelors, the Glory of Marry'd Men, and the Wonder of the Town. Some Guardians wou'd be glad to compound for part of the Estate, at dispatching an Heiress, but I engross the whole: <hi>O! Mihi praeteritos referet si Jupiter Annos.</hi> </p>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to a Tavern; discovers Sir <hi>George</hi> and <hi>Charles</hi> with Wine before them, and <hi>Whisper</hi> waiting.</stage></head>
 <sp>
 <speaker>Sir Geo.</speaker>
@@ -2489,13 +2489,13 @@ But I hope you design to keep far enough off on't, Sir <hi>George.</hi></p>
 <l><hi>And Love too powerful grows t' admit of Fear.</hi></l>
 <stage>(Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="43" facs="50"/>
 <head>ACT the Fourth.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>the Outside of Sir <hi>Jealous Traffick</hi>'s House, <hi>Patch</hi> peeping out of Door.</stage></head>
 <stage>Enter <hi>Whisper.</hi></stage>
 <sp>
@@ -2575,8 +2575,8 @@ humph; 'tis <hi>Hebrew</hi> I think. What can this mean. There must be some tric
 <l><hi>She thinks and dreams of nothing else but Man.</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="45" facs="52"/>
 <head>SCENE <stage><hi>Isabinda</hi>'s Chamber, <hi>Isabinda</hi> and <hi>Patch.</hi></stage></head>
 <sp>
@@ -2985,8 +2985,8 @@ I'll keep the Key my self: I'll try what Ghost will get into that Room. And now 
 <p>My better Genius, thou hast reviv'd my drooping Soul: I'll about it instantly. Come to my Lodgings, and we'll concert Matters.</p>
 </sp>
 <stage>(Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a Garden Gate open, <hi>Scentwell</hi> waiting within.</stage></head>
 <stage>Enter Sir <hi>George Airy.</hi></stage>
 <sp>
@@ -3019,8 +3019,8 @@ I'll keep the Key my self: I'll try what Ghost will get into that Room. And now 
 <p>Here, here Child, you can't be half so swift as my Desires. </p>
 <stage>(Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>the House.</stage></head>
 <stage>Enter <hi>Miranda.</hi></stage>
 <sp>
@@ -3412,12 +3412,12 @@ present, I'm resolv'd he shan't stir: No, Mr. <hi>Marplot,</hi> you must not lea
 <l><hi>That Vessel ne'er can Unsuccessful prove,</hi></l>
 <l><hi>Whose Freight is Beauty, and whose Pilot Love.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Fourth ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT the Fifth.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter <hi>Miranda, Patch,</hi> and <hi>Scentwell.</hi></stage>
 <sp>
 <speaker>Miran.</speaker>
@@ -3913,8 +3913,8 @@ Tears in mine to think of thy undutiful Carriage to me. <stage>(Weeps.</stage></
 <l><hi>Make me the happiest Father, her the happiest Wife.</hi></l>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to the Street before Sir <hi>Jealous</hi>'s Door.</stage></head>
 <stage>Enter <hi>Marplot,</hi> Solus.</stage>
 <sp>
@@ -3953,8 +3953,8 @@ Tears in mine to think of thy undutiful Carriage to me. <stage>(Weeps.</stage></
 <stage>(Aside.)</stage>
 Pray, come in, Sir, and see if this be the Person you enquire for.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to the Inside of the House.</stage></head>
 <stage>Enter <hi>Marplot.</hi></stage>
 <sp>
@@ -4297,10 +4297,9 @@ Stop the Marriage, I say—</p>
 <l><hi>And never strive to cross their Childrens Love;</hi></l>
 <l><hi>But still submit that Care to Providence above.</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>
-
 </TEI>

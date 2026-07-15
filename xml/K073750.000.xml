@@ -7,12 +7,12 @@
 <extent>69,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed [by Joseph Cooper] in the year,</publisher><date>1785.</date><pubPlace>Calcutta :</pubPlace></publicationStmt><notesStmt><note>With a printer's device on the titlepage containing the initials J.C., i.e. Joseph Cooper.</note><note>Horizontal chain lines.</note><note>Reproduction of original from the British Library.</note><note>Shaw, 57</note><note>English Short Title Catalog, ESTCT90893.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE HAPPY PRESCRIPTION; OR, THE LADY RELIEVED FROM HER LOVERS: A COMEDY, IN RHYME. WRITTEN FOR A PRIVATE THEATRE, BY WILLIAM HAYLEY, ESQ.</p>
 <p>CALCUTTA: PRINTED IN THE YEAR M.DCC.LXXXV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO HER GRACE THE DUCHESS OF DEVONSHIRE.</head>
 <epigraph>
@@ -78,8 +78,8 @@
 <l>Float on th' unebbing flood of real joy!</l>
 <closer><dateline>EARTHAM, <date>January 29, 1784.</date></dateline>
 <signed>W. HAYLEY.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>PERSONS OF THE DRAMA.</head>
 <list>
@@ -96,14 +96,13 @@
 <item>JENNY, Servant to SELINA.</item>
 </list>
 <p>Servants of Sir NICHOLAS, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, <hi>the Country Mansion of the</hi> ODDFISH <hi>Family.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>THE HAPPY PRESCRIPTION.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST. SCENE I.</head>
 <stage><hi>Enter</hi> Sir Nicholas, <hi>in debate with</hi> Mrs. Felix <hi>and</hi> Selina.</stage>
 <sp>
@@ -1058,8 +1057,8 @@
 <l>How slowly fly letters from hands that we love!</l>
 </sp>
 <trailer><hi>End of</hi> ACT I.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT THE SECOND. SCENE I.</head>
 <stage><hi>Enter</hi> Jenny <hi>and</hi> Jonathan.</stage>
 <sp>
@@ -1868,8 +1867,8 @@ My dear worthy Sir,</l>
 <l>I'm resolv'd young Decisive shall marry my niece.</l>
 </sp>
 <trailer><hi>End of</hi> ACT II.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="49" facs="48"/>
 <head>ACT THE THIRD. SCENE I.</head>
 <stage><hi>Enter</hi> Mrs. Felix <hi>and</hi> Selina.</stage>
@@ -2735,8 +2734,7 @@ My dear worthy Sir,</l>
 <l>And happy the man, in this skirmishing life,</l>
 <l>Who is able to say half as much of his Wife.</l>
 </sp>
-</div2>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

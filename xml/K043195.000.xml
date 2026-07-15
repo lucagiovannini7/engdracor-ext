@@ -7,7 +7,7 @@
 <extent>[2],iv,[4],7-68p. ; 8⁰.</extent><publicationStmt><publisher>printed and published by Geo. Cawthorn; sold also by Messrs. Richardson; H. D. Symonds, J. Wallis, and W. West; and J. Wright,</publisher><date>1799.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The advertisement numbered [i]-iv is inserted between pp.2 and 3.</note><note>Variant: at foot of 'Dramatis personae' is added an erratum on Perez.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45445.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE RED-CROSS KNIGHTS.</p>
 <p>A <hi>PLAY,</hi> IN FIVE ACTS.</p>
@@ -16,8 +16,8 @@
 <p>BY J. G. HOLMAN.</p>
 <p>LONDON: PRINTED AND PUBLISHED BY GEO. CAWTHORN, BRITISH LIBRARY, NO. 132, STRAND, BOOKSELLER TO HER ROYAL HIGHNESS THE PRINCESS OF WALES; SOLD ALSO BY MESSRS. RICHARDSON, ROYAL-EXCHANGE; H. D. SYMONDS, J. WALLIS, AND W. WEST, PATERNOSTER-ROW; AND J. WRIGHT, PICCADILLY.</p>
 <p>1799.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>IN an avowed alteration of THE ROBBERS of SCHILLER, it may surprize and disappoint many admirers of that highly celebrated work to find so much of the original displaced for the introduction of new matter. I therefore feel it necessary to state my motives for having rather founded a Play on SCHILLER'S than merely adapted THE ROBBERS for representation.</p>
@@ -32,8 +32,8 @@ all that could be deemed objectionable. This point was only to be accomplished b
 <p>Some striking passages of the original, which might with consistency have been
 <pb n="iv" facs="5"/>
 preserved in this alteration, are omitted, because already adopted in recent productions. I mention this circumstance solely for my own vindication, that I may not be accused of a tasteless rejection of beauties. There are situations still retained which may remind the audience of what they have seen before: these I conceived to be of too much importance to the piece, and too forcible in their nature, to incur banishment for no fault but having been deemed worthy of imitation.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY MR. TAYLOR.</byline>
@@ -80,8 +80,8 @@ preserved in this alteration, are omitted, because already adopted in recent pro
 <l>But Champions now for VIRTUE'S sacred laws,</l>
 <l>All perils brave in TRUTH'S eternal cause.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -111,16 +111,15 @@ preserved in this alteration, are omitted, because already adopted in recent pro
 </list>
 <p>Christian Captives, Women of the Haram, Soldiers, Guests at the Banquet, &amp;c.</p>
 <p>☞ The words distinguished by a single inverted comma are omitted in the representation.</p>
-</div1>
+</div>
 <set><p>Scene Spain; partly in Castille, partly in Grenada.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE RED-CROSS KNIGHTS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Hall in the Castle of Count de Ladesma. Enter <hi>RODERIC DE FROILA</hi> and <hi>BERTRAN.</hi></stage>
 <sp>
@@ -420,8 +419,8 @@ hand, would he not interpret a letter written by you—as, perhaps, a sort of pa
 <p>Go, mean and infamous wretch! My Ferdinand will triumph over all your baseness. He disloyal! he a traitor! I know his noble nature. Treason had never root in such a soil. No, my Ferdinand! thy soul's all truth and honour.</p>
 <stage><hi>[Exit</hi> Eugenia.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>The City of Toledo. The Army of <hi>ALPHONSO,</hi> King of Castille, marching into Toledo, after the Victory at Lerma. Enter <hi>FERDINAND, GARCIAS, GUZMAN, LANUSA, GONSALVO, RIPPERDA,</hi> &amp;c.</stage>
 <sp>
@@ -627,12 +626,12 @@ shackles; forced even to suppress the prayer he would offer to his God; and all 
 <l>And Victory crown our Chivalry.</l>
 </lg>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="22" facs="25"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The Castle of Ladesma. <hi>RODERIC</hi> alone.</stage>
 <sp>
@@ -684,8 +683,8 @@ lost every support, and is the play-thing of my will. You may easily guess what 
 <p><stage>(Calling after him.)</stage> Remember, 'tis all for yourself you are working. <stage>(Looks after him, then laughs in derision.)</stage> How impetuously the blockhead throws off his honesty, to snatch at an object that the smallest gleam of common sense must shew him he can never attain. This fellow is an arrant knave, and yet he confides in a promise. It costs him nothing to deceive an honest man, and yet when deceived himself, he never will forgive it. And this is the consistency of the boasted lord of the creation.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Count de Ladesma's Chamber. The Count discovered asleep. Enter <hi>EUGENIA.</hi></stage>
 <sp>
@@ -847,8 +846,8 @@ daughter! no friend! Is there not to be found one kind—Oh! to despair and not 
 <speaker>EUGENIA.</speaker>
 <p>Amidst my own affliction, still let me think of thine— <stage>(Going up to him.)</stage> O Heaven! dead! dead! <stage>[Sinks on the ground.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>The country, with a view of a Moorish city. Enter <hi>POPOLI.</hi></stage>
 <sp>
@@ -987,12 +986,12 @@ piastre. 'Twas Ferdinand, my Commander—'twas he—he saved me. To him I owe my
 <p>Friends, draw near. <stage>(The Soldiers range on one side of the stage.)</stage> The Commander's breath oft kindles to a blaze the spark of valour in a common soul; but he who leads no vulgar herd may spare his eloquence. My task of words is brief! 'Tis but to tell you—The foe is prepared to give you battle—their host is numberless. So let it be—for on our side HE battles who can give death without a wound. Come on—to victory.</p>
 <stage>[Exeunt. Flourish of trumpets.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="34" facs="37"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Chamber in the Castle of Ladesma. <hi>EUGENIA</hi> discovered; <hi>RODERIC</hi> enters; both in mourning.</stage>
 <sp>
@@ -1053,8 +1052,8 @@ breathe his amorous plaints to the caves and rocks and echoes: he speaks, and wh
 <speaker>EUGENIA.</speaker>
 <p>To a cloister did he say? Would that were my destiny! Love, forlorn and hopeless love, finds there a kind retreat—a quiet grave! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="36" facs="39"/>
 <head>SCENE II.</head>
 <stage>Inside of the Moorish City. A Prison. Christian Captives discovered. The Men in a place above, separated from <hi>ROSA</hi> and the other Females.</stage>
@@ -1108,8 +1107,8 @@ breathe his amorous plaints to the caves and rocks and echoes: he speaks, and wh
 <p>We shall regain our liberty. How my heart bounds at the thought!</p>
 </sp>
 <sp>
-<stage>CHORUS.</stage>
 <lg>
+<head>CHORUS.</head>
 <l>Hark! I hear the distant sound</l>
 <l>Of clashing arms and dying groans▪</l>
 <l>While haughty Infidels advance</l>
@@ -1140,8 +1139,8 @@ breathe his amorous plaints to the caves and rocks and echoes: he speaks, and wh
 <l>"The Holy Cross and Victory!"</l>
 </lg>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="38" facs="41"/>
 <head>SCENE III.</head>
 <stage>The Gardens of a Moorish Palace. (Flourish and shouts.) Enter <hi>FERDINAND, GARCIAS, GUZMAN, GONSALVO, RIPPERDA,</hi> &amp;c.</stage>
@@ -1267,7 +1266,7 @@ be able to get a dozen or two husbands apiece: Oh what a blessing ugliness must 
 </lg>
 </sp>
 <sp>
-<stage>CHORUS.</stage>
+<speaker>CHORUS.</speaker>
 <lg>
 <l>From each voice let notes of glee</l>
 <l>Hail the sweets of Victory!</l>
@@ -1284,12 +1283,12 @@ Pleasure revels in the heart,</l>
 <l>Echoing Pleasure's festive voice.</l>
 </lg>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="43" facs="46"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A grand Banquet in the Castle of Ladesma. <hi>RODERIC</hi> and his guests discovered. Music.</stage>
 <sp>
@@ -1475,8 +1474,8 @@ Thou'rt welcome here, dear Red-Cross Knight!</l>
 </lg>
 </lg>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A Gallery in the Castle. Enter <hi>RODERIC.</hi></stage>
 <sp>
@@ -1610,8 +1609,8 @@ devised to get rid of me? To stab me in my sleep?—to poison me in my drink—d
 <speaker>RODERIC.</speaker>
 <p>Roderic! Where was your courage! your presence of mind, that used to be so prompt? Betrayed by my own instruments! The props of my good fortune begin to totter; the mound is broken, and all will speedily give way. Now for a quick resolve. But how? but what? to stab him! Ay. But if my shadow should discover me while I struck him! Ugh!—Ha! Well thought of. This very night—in his bed. There is a secret passage to his chamber. This night, then, by a single blow, I will release myself from every fear. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>A Bedchamber in the Castle. <hi>FERDINAND</hi> discovered.</stage>
 <sp>
@@ -1721,12 +1720,12 @@ but to find thee willingly devoted to another's arms, 'tis more than my worn hea
 <speaker>PERCY.</speaker>
 <p>Indeed, indeed, I shall be, when I see you happy. But come, come, make haste, dear master. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="55" facs="58"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Forest by Moonlight. In one part of the Scene a ruined Tower. Enter <hi>POPOLI.</hi></stage>
 <sp>
@@ -1982,8 +1981,8 @@ crime, I may pour forth his blood, till the foul vapour from the fountain of his
 <p>Lead the troop to yonder Castle. Seize him, and bring him hither—bring him alive—You have my purpose; hasten to accomplish it.— <stage>(Exit <hi>Guzman,</hi> followed by the troop.)</stage> Bertran, be it your charge to seek Eugenia, and consign her to their care. <stage><hi>(Exit</hi> Bertran.)</stage> My duty binds me here.</p>
 <stage>[He remains by his father, and the scene closes.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>An Apartment in the Castle. Enter <hi>PERCY.</hi></stage>
 <sp>
@@ -2079,8 +2078,8 @@ crime, I may pour forth his blood, till the foul vapour from the fountain of his
 <speaker>RODERIC.</speaker>
 <p>Then leave me, slave▪—look to the castle—summon our men. <stage>(Shouts without)</stage> <stage><hi>[Exit</hi> Percy.]</stage> These are their shouts of triumph! Hark, they are coming up! they are at the door! Why should I shudder at this sword's point? Ha! the gate is down! now 'tis impossible to escape. <stage>(He rushes towards the flames, and is pursued across the stage by <hi>Guzman</hi> and the rest.)</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="65" facs="68"/>
 <head>SCENE III.</head>
 <stage>The Forest and ruined Tower. The old Count <hi>DE LADESMA</hi> seated on a stone—<hi>FERDINAND</hi> standing by him.</stage>
@@ -2227,16 +2226,14 @@ come to drag me from the dungeon to the scaffold?</p>
 </lg>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="colophon">
+<div type="colophon">
 <p>[Printed by George Cawthorn, Strand.]</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

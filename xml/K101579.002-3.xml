@@ -8,7 +8,7 @@
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader>
 <text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="226"/>
 <p>CYMBELINE.</p>
 <p>A TRAGEDY, ALTERED FROM SHAKESPEARE.</p>
@@ -16,8 +16,8 @@
 <p>By WILLIAM HAWKINS, M. A. Late Fellow of Pembroke College, and Professor of Poetry in the University of Oxford.</p>
 <p><hi>LONDON:</hi> Printed for JAMES RIVINGTON and JAMES FLETCHER, at the Oxford Theatre, in Pater-noster-row. MDCCLIX.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="227"/>
 <head>TO THE RIGHT HONOURABLE THE Countess of Litchfield.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -27,8 +27,8 @@ it to my readers, under the sanction of so polite and illustrious a name.—But 
 <closer><salute>Madam,</salute> <signed>Your Ladyship's most obliged and most obedient Servant,
 WILLIAM HAWKINS.</signed>
 <dateline><date>Feb. 22, 1759.</date></dateline></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="229"/>
 <head>PREFACE.</head>
 <p>THE Tragedy of <hi>Cymbeline</hi> is, in the whole oeconomy of it, one of the most irregular productions of <hi>Shakespeare.</hi> Its defects however, or rather its superfluities, are more than equalled by beauties, and excellencies of various kinds. There is at the same time something so pleasingly romantic, and likewise truly <hi>British</hi> in the subject of it, that, I flatter myself, an attempt to reduce it, as near as possible, to the regular standard of the <hi>drama,</hi> will be favourably received by all, who are admirers of <hi>novelty,</hi> when <hi>propriety</hi> is its foundation. I have accordingly endeavoured to new-construct this Tragedy, almost upon the plan of <hi>Aristotle</hi> himself, in respect of the <hi>unity</hi> of <hi>Time;</hi> with so thorough a veneration however for the great <hi>Father</hi> of the <hi>English</hi> stage, that, even while I have presumed to regulate and modernize his design, I have thought it an honour to tread in his steps, and to imitate his Stile, with the humility and reverence of a <hi>Son.</hi> With this view, I have retained in <hi>many</hi> places the very language of the original author, and in
@@ -42,8 +42,8 @@ new-modelling as the present, in order to the rendering them useful or entertain
 <pb n="viii" facs="232"/>
 of the performers, for their best endeavours to do justice to my piece, and for their zeal for its success. To <hi>some</hi> I am indebted for real service, whose names, as comparisons are invidious, I leave it to the judgment of the reader to supply.</p>
 <p>Upon the whole, I am at a loss to ballance the account between myself and my fortune, in this whimsical situation. The kind assistance, and, I hope, not extremely partial approbation of <hi>some,</hi> adds as much to my <hi>credit</hi> and <hi>satisfaction,</hi> as the <hi>delicacy,</hi> or <hi>ill-nature,</hi> &amp;c. of <hi>others,</hi> has deducted from my <hi>advantages.</hi>—To my <hi>friends,</hi> I return my sincere acknowledgments, and best wishes; to my <hi>enemies,</hi> I shall say nothing, 'till they are <hi>candid,</hi> and <hi>sagacious</hi> enough to speak more <hi>plainly</hi> than they have hitherto done,—and more <hi>to the purpose.</hi></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="233"/>
 <head>PROLOGUE.</head>
 <p>Spoken by Mr. ROSS.</p>
@@ -90,8 +90,8 @@ of the performers, for their best endeavours to do justice to my piece, and for 
 <l>Due to a great attempt compassion take,</l>
 <l>And spare the modern bard for Shakespear's sake.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <head>EPILOGUE.</head>
 <p>Spoken by Mrs. VINCENT.</p>
 <lg>
@@ -136,8 +136,8 @@ of the performers, for their best endeavours to do justice to my piece, and for 
 <l>(And I will take their words without more speeches)</l>
 <l>That things go best when—women wear the breeches.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="236"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -154,16 +154,15 @@ of the performers, for their best endeavours to do justice to my piece, and for 
 <item>IMOGEN, Mrs. VINCENT.</item>
 <item>OFFICERS, SOLDIERS, &amp;C.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, partly a Royal Castle, and partly in and near a Forest in WALES.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="237"/>
 <head>CYMBELINE. A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>A Royal Palace.</stage></head>
 <stage>Enter two <hi>LORDS.</hi></stage>
 <sp>
@@ -807,8 +806,8 @@ Here's that will 'tice her from her prison-house,</l>
 <l>This way to her apartment. <stage>[Exit.</stage></l>
 </lg>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> opens, and discovers <hi>Imogen</hi> in her apartment, sitting by a table; a book on the table.</stage></head>
 <sp>
 <lg>
@@ -992,12 +991,12 @@ How far 'tis thither. If one of mean affairs</l>
 <stage>[Exeunt severally.</stage>
 </sp>
 <trailer>End of the First <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="21" facs="257"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>The Castle.</stage></head>
 <stage><hi>Enter</hi> CLOTEN <hi>and</hi> LORDS.</stage>
 <sp>
@@ -1174,8 +1173,8 @@ Manet <hi>CLOTEN</hi> with some <hi>Lords.</hi></stage>
 <l>And vengeance speeds me now.</l>
 <stage>[Exit with <hi>Lords.</hi></stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>A Forest, and a Cave at a distance.</stage></head>
 <stage>Enter from the Cave <hi>BELLARIUS, PALADOR,</hi> and <hi>CADWAL.</hi></stage>
 <sp>
@@ -1304,8 +1303,8 @@ In these two princely boys! O Cymbeline!</l>
 <l>As if it had been sow'd.—Well—I must after— <stage>[Exit</stage></l>
 </lg>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>Another part of the Forest.</stage></head>
 <stage>Enter <hi>PHILARIO,</hi> and <hi>IMOGEN</hi> in boy's clothes.</stage>
 <sp>
@@ -1528,8 +1527,8 @@ I scarce have slept one wink.</l>
 <l>Else we have far to supper.—This way, lady.— <stage>[Exeunt.</stage></l>
 </lg>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Cave.</stage></head>
 <stage><hi>Enter</hi> BELLARIUS.</stage>
 <sp>
@@ -1727,12 +1726,12 @@ Snatch'd from the world—If they had liv'd, I think</l>
 <l>The night to th' owl, and morn to th' lark less welcome. <stage>[Exeunt into the cave.</stage></l>
 </sp>
 <trailer>End of the Second <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="38" facs="274"/>
 <head>ACT. III.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>Enter <hi>PHILARIO</hi> from the Cave.</stage>
 <sp>
 <lg>
@@ -2557,8 +2556,8 @@ So slight a valuation, shou'd reserve</l>
 </lg>
 <stage>(They go into the Cave.)</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> opens and discovers the inside of the Cave, with <hi>Bellarius, Philario, Palador,</hi> and <hi>Cadwal,</hi> round the Body of <hi>Imogen,</hi> lying upon a Couch of Moss.</stage></head>
 <sp>
 <speaker>PHILARIO.</speaker>
@@ -2684,12 +2683,12 @@ Golden lads and girls all must</l>
 </lg>
 </sp>
 <trailer>End of the Third <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="58" facs="294"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>A Field of Battle.</stage></head>
 <stage><hi>Enter</hi> CYMBELINE, LORDS, &amp;c.</stage>
 <sp>
@@ -3476,12 +3475,12 @@ I do beseech your majesty to bless</l>
 </sp>
 <stage>[Exeunt <hi>Cymbelline, Bellarius, Philario, Palador, Cadwal, Leonatus,</hi> and <hi>Lords</hi> at one door, and other <hi>Lords</hi> at another.</stage>
 <trailer>The End of the Fourth <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="76" facs="312"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>The Forest and Cave.</stage></head>
 <stage><hi>Enter</hi> PALADOR, <hi>and</hi> CADWAL.</stage>
 <sp>
@@ -4304,10 +4303,9 @@ This gentleman whom I call Palador,</l>
 <stage>[Exeunt omnes.</stage>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

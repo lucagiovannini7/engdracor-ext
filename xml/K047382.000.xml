@@ -7,7 +7,7 @@
 <extent>[4],52p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1764.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Arthur Murphy.</note><note>Subsequently published as 'Three weeks after marriage'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52363.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>WHAT we must ALL come to: A COMEDY In TWO ACTS, As it was intended to be ACTED at the THEATRE-ROYAL in COVENT-GARDEN.</p>
 <l>—Otium et oppidi</l>
@@ -16,14 +16,14 @@
 <l>In mala—</l> <bibl>HOR.</bibl>
 <p>LONDON, Printed for P. VAILLANT, facing Southampton-street, in the Strand. MDCCLXIV.</p>
 <p>(Price One Shilling.)</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>Advertisement.</head>
 <p>THE idea of the Character of <hi>DRUGGET,</hi> in the following piece, was taken from a paper written by Mr. <hi>POPE,</hi> and published in the <hi>Guardian, No.</hi> 173. The reader will perceive some strictures of true humour from thence inserted in this little Comedy. The violent differences between <hi>Sir Charles</hi> and <hi>Lady Rackett</hi> about a trifle, and the renewal of those differences by venturing, after they had subsided, to resume the object in thorough good humour, are, it is conceived, founded in Nature, because similar incidents often occur in real life. To shew the passions thus frivolously agitated, and to point out the ridicule springing from their various turns and shiftings, was the main drift of the ensuing scenes. But some people were determined not to hear, and the Author could not be induced by any private motives to send the Performers a second time into so painful a service as that of the Stage always is, when a few are unwilling to be entertained.</p>
 <closer><dateline>Lincoln's Inn, <date>January 10, 1764.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -41,13 +41,12 @@
 <item><label>DIMITY,</label> Mrs. GREEN.</item>
 </list>
 <p>A Servant, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="4"/>
 <head>WHAT we must ALL come to.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage><hi>Enter</hi> WOODLEY <hi>and</hi> DIMITY.</stage>
 <sp>
@@ -856,8 +855,8 @@
 <p>That ease is provoking. <stage>(Cros;ses to the opposite door, where she went out)</stage>—I tell you the diamond was the play, and I here take my final leave of you— <stage>(walks back, as fast as be can)</stage> I am resolv'd upon it, and I know the club was not the best in the house.</p>
 <stage>Exit.</stage>
 </sp>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
 <stage><hi>Enter</hi> DIMITY.</stage>
 <sp>
@@ -2068,10 +2067,8 @@ So Nancy—you seem in confusion, my girl!</p>
 <l>The genial bed no blooming Grace prepares,</l>
 <l>"And every day becomes a day of cares."</l>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

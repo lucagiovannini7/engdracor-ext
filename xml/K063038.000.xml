@@ -7,19 +7,19 @@
 <extent>[4],iii,[1],141,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Wilkie; Fielding and Walker; G. Kearsley; P. Elmsley; W. Davis,</publisher><date>1779.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT75034.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>LUCIUS JUNIUS BRUTUS. AN HISTORICAL PLAY.</p>
 <p>[Price Three Shillings.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>LUCIUS JUNIUS BRUTUS; OR, THE EXPULSION OF THE TARQUINS: AN HISTORICAL PLAY.</p>
 <p>BY HUGH DOWNMAN.</p>
 <quote>—Manus haec inimica Tyrannis.</quote>
 <p>LONDON: PRINTED FOR J. WILKIE, NO. 71, ST. PAUL'S-CHURCH-YARD; FIELDING AND WALKER, PATER-NOSTER-ROW; G. KEARSLEY, FLEET-STREET; P. ELSMLEY, STRAND; W. DAVIS, PICCADILLY. MDCCLXXIX.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="i" facs="3"/>
 <head>PREFACE.</head>
 <p>Tthose who judge of dramatic merit from the Greek models, the rules of French critics, or the examples of modern writers, a justification of the following piece would be attempted in vain. They would call it a motley performance, deficient in almost every article, which constitutes a true and proper tragedy. If the author was to alledge, that he never meant to compose a tragedy, according to their acceptation of the word, but that his intention was to fill up a picture of real life, in a certain given time, the outlines of which were taken from historical facts, his reason would be deemed unsatisfactory.</p>
@@ -35,8 +35,8 @@ A diversification of characters hath been attempted in this piece; and to give t
 <l><hi>—Sudet multum frustra{que} laboret</hi></l>
 <l><hi>Ausus idem.</hi></l>
 </epigraph>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -64,13 +64,13 @@ A diversification of characters hath been attempted in this piece; and to give t
 <item>CAMILLA, and others,</item>
 </list></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="1" facs="7"/>LUCIUS JUNIUS BRUTUS.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT 1.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE 1. <stage>Rome.</stage></head>
 <stage>VALERIUS, LUCRETIUS.</stage>
 <sp>
@@ -295,8 +295,8 @@ Haply the dread events are bursting forth,</l>
 <l>I come; then farewel.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>The Camp before Ardea.</stage></head>
 <stage>TITUS, ARUNS.</stage>
 <sp>
@@ -650,8 +650,8 @@ May I drag out this ideot-feigned life</l>
 <l>Of Brutus, and the Tarquin's household fool.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>HORATIUS, HERMINIUS.</stage>
 <sp>
@@ -786,8 +786,8 @@ Musing in melancholy, as just now</l>
 <l>Before—I'll follow you.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Collatia.</stage></head>
 <stage>LUCRETIA, LAVINIA.</stage>
 <sp>
@@ -1034,12 +1034,12 @@ That I was disappointed. I must own</l>
 <l>In thee, O Collatine, ye gods forbid!</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="23" facs="29"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The King's tent.</stage></head>
 <stage>TARQUIN, TITUS, ARUNS, SEXTUS.</stage>
 <sp>
@@ -1485,8 +1485,8 @@ Wine would be quite insipid, and the hours</l>
 <l>The bow is useless which is always bent.</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Another Part of the Camp.</stage></head>
 <stage>ARUNS, CLAUDIUS.</stage>
 <sp>
@@ -1563,8 +1563,8 @@ Now exiled by our arms; beneath an oak</l>
 <l>My lord, I will.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>A Grove near the Camp.</stage></head>
 <sp>
 <speaker>COLLATINUS</speaker>
@@ -1958,13 +1958,13 @@ Of woe, of anguish; 'twas indeed with tears</l>
 <l>The shy eluder ne'er shall he obtain.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="45" facs="51"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The Tent of</hi> Sextus.</stage></head>
 <stage>SEXTUS, TITUS, ARUNS, BRUTUS, COLLATINUS, HORATIUS, HERMINIUS, <hi>And others, as drinking after the Banquet.</hi></stage>
 <sp>
@@ -2642,8 +2642,8 @@ His sons may have possession of the city:</l>
 <l>Of godlike freedom.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Rome.</stage></head>
 <sp>
 <speaker>LUCRETIUS,</speaker>
@@ -2942,8 +2942,8 @@ Though baulk'd by fortune, I could not attain</l>
 <l>It doth; I haste with all convenient speed.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="66" facs="72"/>
 <head>SCENE III. <stage>Collatia.</stage></head>
 <stage>LUCRETIA, <hi>at work with her maids.</hi></stage>
@@ -3362,13 +3362,13 @@ But should she—Force! no, no. And yet why not?</l>
 <l>Will rage <hi>unsatisfied, and feel</hi> no rest.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="75" facs="81"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Camp.</stage></head>
 <stage>ARUNS, TITUS.</stage>
 <sp>
@@ -4046,8 +4046,8 @@ May she not to her husband, or her father,</l>
 <l>Touching these loose imperfect hints I've offer'd.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="91" facs="97"/>
 <head>SCENE II.</head>
 <stage>COLLATINE, BRUTUS.</stage>
@@ -4103,8 +4103,8 @@ One only friend—Eternal gods! what means this!</l>
 <l>We go not now to Rome, but to Collatia.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Collatia.</stage></head>
 <sp>
 <speaker>LUCRETIA,</speaker>
@@ -4727,13 +4727,13 @@ My soul feels double strength from this inertness;</l>
 <l>That I may pull Ambition to the ground,</l>
 <l>And Liberty may pour her gifts around.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="107" facs="113"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>A Street in</hi> Rome.</stage></head>
 <stage><hi>Enter two Citizens, one of</hi> Collatia, <hi>the other of</hi> Rome.</stage>
 <sp>
@@ -4819,8 +4819,8 @@ But curiosity, if nothing else,</l>
 <l>And glad I am I found you.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The Forum at</hi> Rome.</stage></head>
 <stage>Lucretius <hi>and</hi> Collatinus <hi>standing by the Body of</hi> Lucretia <hi>The</hi> Roman <hi>People round them. The Rostrum behind.</hi></stage>
 <sp>
@@ -5319,8 +5319,8 @@ Who punish perfidy, and cruel deeds,</l>
 <l>Intrepid hope, and silent resolution.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>The Camp</hi>: Tarquin's <hi>Tent.</hi></stage></head>
 <stage>TARQUIN, MESSENGER, GUARDS.</stage>
 <sp>
@@ -5552,8 +5552,8 @@ As th' everlasting basis of the earth.</l>
 <l>In his own hand the brave man holds his fate.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Sextus<hi>'s Tent.</hi></stage></head>
 <stage>ARUNS, SEXTUS, TITUS.</stage>
 <sp>
@@ -5738,8 +5738,8 @@ They look on him as they would view a god,</l>
 <l>Of Tarquin and his sons.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>The Walls of</hi> Rome.</stage></head>
 <stage>TARQUIN <hi>at the Gate; above,</hi> LUCRETIUS, COLLATINUS, VALERIUS, <hi>and</hi> Roman <hi>People.</hi></stage>
 <sp>
@@ -6068,8 +6068,8 @@ The realms of heaven above, and earth below.</l>
 <l>By vengeance rais'd, impell'd by brave despair.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>Rome.</stage></head>
 <stage>BRUTUS <hi>and</hi> COLLATINUS <hi>as Consuls with Lictors,</hi> VALERIUS, LUCRETIUS, <hi>and others.</hi></stage>
 <sp>
@@ -6287,8 +6287,8 @@ Then in the common meeting of the people,</l>
 <l>They every human accident foresee,</l>
 <l>To them not accident, but certainty.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

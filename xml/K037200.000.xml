@@ -7,7 +7,7 @@
 <extent>[4],74,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for C. Dilly,</publisher><date>1797.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT35272.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p><hi>FALSE IMPRESSIONS:</hi> A COMEDY IN FIVE ACTS. PERFORMED <hi>At the Theatre Royal, Covent Garden.</hi> BY RICHARD CUMBERLAND, ESQ.</p>
 <l>Saepe, etiam audacem, fugat hoc terretque poëtam;</l>
@@ -16,8 +16,8 @@
 <l>Si discordet eques, media inter carmina poscunt</l>
 <l>Aut ursum aut pugiles: his nam plebecula gaudet.</l>
 <p><hi>London:</hi> PRINTED FOR C. DILLY, IN THE POULTRY, 1797. [<hi>Price</hi> 2<hi>s.</hi>]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head><hi>PROLOGUE.</hi> Spoken by Mr. MURRAY.</head>
 <lg>
@@ -69,8 +69,8 @@
 <l>And wit exert her powers in virtue's cause,</l>
 <l>Then and then only might we claim applause.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -105,13 +105,13 @@
 <label>RACHEL WILLIAMS</label>
 <item>MRS. NORTON.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/><hi>FALSE IMPRESSIONS:</hi> A COMEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a Chamber in the House of <hi>SCUD</hi> the Apothecary.</stage></head>
 <stage><hi>Enter</hi> SCUD.</stage>
 <sp>
@@ -581,8 +581,8 @@ apartments to be furnished, and fresh servants to be hir'd for the heiress.</p>
 <p>That's enough, that's enough! Deal upon honour and I am with you. I love to do a good natur'd action when there's nothing to be lost by it.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>SCENE</hi> changes to an Apartment in Lady <hi>CYPRESS's</hi> Castle.</stage>
 <stage><hi>Lady</hi> CYPRESS, <hi>Lawyer</hi> EARLING.</stage>
 <sp>
@@ -806,10 +806,10 @@ nephew bore me half dead and fainting to my house; 'twas not till then I knew hi
 <speaker>Lady Cyp.</speaker>
 <p>Be silent then, and go to your chamber; there you may meditate on what you have been, and call to mind, with timely recollection, what you may be again.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT I.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="19"/>
 <head>ACT II.</head>
 <stage><hi>Caste Hall.</hi>—SIMON SINGLE, <hi>Farmer</hi> GAWDRY, <hi>and his Son</hi> ISAAC.</stage>
@@ -1449,11 +1449,11 @@ try me, Emily? don't take my character from that attorney; I'll serve you honest
 <p>This and no more—I never will be made the slave of interest or dupe of slander. My confidence in you cannot be shaken, my obligations cannot be computed. The life that I possess is of your giving—What can I say but that I live for you?— Now leave me, Henry; not a word, but leave me.</p>
 </sp>
 <trailer>END OF ACT II.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="30" facs="33"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Lady</hi> CYPRESS <hi>and Servant.</hi></stage>
 <sp>
 <speaker>LADY CYPRESS.</speaker>
@@ -1709,8 +1709,8 @@ in judgment. When two men draw their swords upon each other, reason will tell us
 <p>With all my heart; and hope the mournful subject of our last interview may be no more reviv'd.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>SCENE</hi> changes.</stage>
 <stage>LAWYER EARLING <hi>meeting</hi> ALGERNON.</stage>
 <sp>
@@ -1941,8 +1941,8 @@ blasted his character, garbled his fortune, and turn'd my lady's heart to stone 
 <p>Come on, my hearts! Henry, conduct the lady. You may solicit her fair hand in safety. Jerry and I have wigs.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>SCENE</hi> changes.</stage>
 <stage><hi>Lady</hi> CYPRESS, EMILY, <hi>Sir</hi> OLIVER MONTRATH, EARLING.</stage>
 <sp>
@@ -2153,12 +2153,12 @@ heart but may be metamorphos'd by such cunning into a vice. Sir Oliver has said,
 <p>Poor as I seem, I have a soul within that never yet was tainted by dishonour.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div2>
+</div>
 <trailer>END OF ACT III.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Lady</hi> CYPRESS, EMILY FITZALLAN, <hi>and</hi> EARLING.</stage>
 <sp>
 <speaker><hi>Lady</hi> CYPRESS.</speaker>
@@ -2345,8 +2345,8 @@ a prisoner in a gaudy cage, where they wou'd fain have taught me to call names, 
 <p>Well, get you gone; I am not bound to find reason for him that will not keep his own.</p>
 </sp>
 <stage><hi>Exit</hi> ALG.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>SCENE</hi> changes.</stage>
 <stage><hi>Lady</hi> CYPRESS, RACHEL WILLIAMS.</stage>
 <sp>
@@ -2513,8 +2513,8 @@ may in that case drink to support life, as I have now been tasting a glass, by y
 <p>Go, stop him from discharging Henry Scudamore; don't let him leave the house till I have seen him.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="55" facs="58"/>
 <stage><hi>SCENE</hi> changes.</stage>
 <stage>EARLING <hi>enters.</hi></stage>
@@ -2729,13 +2729,13 @@ pluck 'em root and branch out of this house, and hurl 'em to the dunghill that t
 <speaker>Sir Oliv.</speaker>
 <p>To my apartment—if you'll be pleas'd to follow me.—Ah! sir, ah! Mr. Algernon, how hard to find, now at the close of a long life of services, all it's enjoyments, all it's labours lost.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT IV.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="60" facs="63"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>the Castle Hall.</stage></head>
 <stage>JERRY SCUD <hi>and</hi> JENNY.</stage>
 <sp>
@@ -2993,8 +2993,8 @@ Methinks I hear her say, Simon, I am convinc'd that lawyer is a rascal—Turn hi
 <p>You point the question wrong, and should have ask'd if it exculpates me, your father's friend, for suffering you to call yourself a beggar.— No, my dear child, it does not, nor will I permit it to be said, the daughter of the generous Fitzallan, who in the battle found me faint with wounds, and whilst he cover'd me receiv'd his death, wanted that dross which I abounded in.—This, Emily, this never should be said; so come with me, and don't oppose one word to my resolves; for in an act of honour I will pause at no man's bidding, no, my pretty one, nor yet at any woman's, tho' grac'd with all the charms that heaven can give her.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="67" facs="70"/>
 <stage><hi>SCENE</hi> changes.</stage>
 <sp>
@@ -3277,12 +3277,12 @@ safety rest his cause upon the facts adduc'd—unless indeed this gentleman has 
 <speaker>Lady Cyp.</speaker>
 <p>You're a strange mortal; but let mirth go round, and if the humble annals of our castle can cheer one honest, ease one heavy heart, our harmless efforts have not been in vain.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>END OF THE COMEDY.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="78"/>
 <head><hi>EPILOGUE.</hi> Spoken by Miss BETTERTON.</head>
 <lg>
@@ -3341,12 +3341,12 @@ safety rest his cause upon the facts adduc'd—unless indeed this gentleman has 
 <l>To reas'ning minds sufficient strength is giv'n,</l>
 <l>And none but fools can charge their faults on heav'n.</l>
 </lg>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="79"/>
 <p><hi>December,</hi> 1797. <hi>In the Press, and speedily will be Published,</hi> A NEW AND COMPLETE EDITION OF THE OBSERVER, <hi>In Six Volumes, Duodecimo,</hi> NEWLY CLASSED AND ARRANGED; And containing, in Addition to the Original Matter, AN ENTIRE TRANSLATION OF THE CLOUDS OF ARISTOPHANES, WITH NOTES CRITICAL AND EXPLANATORY.</p>
 <p><hi>Also,</hi> A separate Edition of the said Translated COMEDY, printed on such Paper, and in such Type, as to accommodate such Purchasers or Possessors of the former Editions, as may chuse to attach it thereunto.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

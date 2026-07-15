@@ -7,11 +7,11 @@
 <extent>xv,[1],430p. ; 4⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1784.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Cancels E4,Ii3,Rr3,Uu3 and Aa3 are known.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT90106.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="276"/>
 <p>LORD RUSSEL; A TRAGEDY, OF THREE ACTS.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="277"/>
 <head>PREFACE.</head>
 <p>I HAVE endeavoured to delineate, in the following Drama, an exact portrait of the noble Personage, whose name it bears; as I believe, that a more engaging model of public and private virtue can hardly be selected from the annals of any nation: although the extreme mildness of his temper, the simplicity of his manners, and, above all, his unaffected piety, are such qualities, as are very rarely admitted in the formation of a Tragic Hero.</p>
@@ -26,8 +26,8 @@
 trial of Lord Russel, where the name of that gentleman appears in the list of those, who gave an honourable evidence in behalf of the noble prisoner.</p>
 <p>I have many obligations to the journal written by Burnet, at the request of Lady Russel, which contains all the minute circumstances that occurred, during the imprisonment, and at the execution of her Lord. This very interesting and pathetic narrative is printed in the General Dictionary, under the article Russel. I have not only taken from it many of the sentiments, which I have assigned to him in this Tragedy, but I have sometimes adopted the very words, that were, really uttered by Lord Russel; and this I have done, not only from an affectionate admiration of his character, but from a despair of surpassing the elegant simplicity, and the force of his expression.</p>
 <p>The offer relating to his escape, so generously made, and so nobly refused, is a fact universally known, and must render the names of Cavendish and Russel an honour to our country, as long as magnanimity and friendship retain their just value in the estimation of mankind.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="280"/>
 <head>Persons of the Drama.</head>
 <list>
@@ -44,14 +44,13 @@ trial of Lord Russel, where the name of that gentleman appears in the list of th
 <item>LADY MARGARET RUSSEL.</item>
 </list>
 <p>Officers, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 <set><p>SCENE, <hi>during the first Act, in</hi> BEDFORD HOUSE, <hi>and afterwards in the</hi> TOWER.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="281"/>
 <head>LORD RUSSEL.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage>Bedford <hi>and</hi> Lady Margaret Russel.</stage>
 <sp>
@@ -509,8 +508,8 @@ trial of Lord Russel, where the name of that gentleman appears in the list of th
 <l>To rescue Russel from a traitor's death.</l>
 </sp>
 <trailer><hi>End of</hi> ACT I.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II. SCENE I.</head>
 <stage>Lord <hi>and</hi> Lady Russel <hi>in Prison.</hi></stage>
 <stage>A Table with Papers, Pen, and Ink.</stage>
@@ -1375,8 +1374,8 @@ trial of Lord Russel, where the name of that gentleman appears in the list of th
 <l>The traiterous convict, or the injur'd King.</l>
 </sp>
 <trailer><hi>End of</hi> ACT II.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="321" facs="331"/>
 <head>ACT III. SCENE I.</head>
 <stage><hi>Lord</hi> Russel <hi>writing, and attended by</hi> Spencer.</stage>
@@ -2138,8 +2137,7 @@ trial of Lord Russel, where the name of that gentleman appears in the list of th
 <l>England shall boast her own superior wealth,</l>
 <l>And poise the rival scale with Russel's name!</l>
 </sp>
-</div2>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

@@ -7,27 +7,27 @@
 <extent>[4],82,[2]p.,plate ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1760.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Advertisement signed: Arthur Murphy.</note><note>With a final advertisement leaf.</note><note>Based in part on A. G. Mouslier de Moissy's 'La nouvelle école des femmes'.</note><note>A variant has Vaillant's name in the imprint misspelt "Valliant".</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT779.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE WAY TO KEEP HIM, A COMEDY In THREE ACTS: As it is perform'd at the Theatre-Royal in <hi>Drury-Lane.</hi></p>
 <ab>Connubio jungam stabili, propriamque dicabo.</ab>
 <bibl>VIRG.</bibl>
 <p><hi>LONDON:</hi> Printed for P. VALLIANT, opposite <hi>Southampton-street</hi> in the <hi>Strand,</hi> MDCCLX.</p>
 <p>(Price One Shilling and Six Pence.)</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>A Poem<note n="*" place="foot">STREPHON and CHLOE.</note> of Dr. SWIFT'S, (with all due Deference to the Ladies, that Poem is mentioned) gave the Author the first Idea of a Comedy on this Subject. He had not thought sufficiently of it, to form any regular Plan, when <hi>La Nouvelle Ecole de Femmes,</hi> of Monsieur <hi>De Moissy,</hi> fell into his Hands. There were Circumstances and Sentiments in that Piece, which coincided with his Design; and he also had some Objections. The Husband's visiting a Lady of Fashion, under his own Name, and passing upon her for an unmarried Man; the <hi>Chevalier</hi>'s Attempt upon his Friend's Honour, without a proper Detection of either of them; the Wife singing and dancing about the Stage thro' the whole Last Act, in order to reclaim her Husband, and his Approbation of it; without any other <hi>Denouement,</hi> and without any Situations of Embarassment, which the Story so naturally tended to, were, in his Opinion, palpable Deficiencies. To substitute other Materials, to form a Last Act entirely new, and to work the whole into an <hi>English</hi> Comedy, was the Employment of some vacant Hours in the last Summer. Whether he has been able to do it with any tolerable Spirit, either in the Dialogue, Characters, or Fable, he now submits to the Decision of the candid Reader. He acknowledges the public Candour, and he returns his Thanks to Mr. <hi>Garrick,</hi> for his admirable Acting; and to all the Performers concerned in the following Scenes; and also in THE DESERT ISLAND.</p>
 <closer><dateline>Lincoln's-Inn, <date>1st <hi>Feb.</hi> 1760</date>.</dateline>
 <signed>ARTHUR MURPHY.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -44,16 +44,15 @@
 <item><label><hi>Mignionet,</hi> Maid to Mrs. <hi>Bellmour,</hi></label> Mrs. BRADSHAW.</item>
 <item><label><hi>Pompey,</hi> a black Boy belonging to the Widow</label>.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene <hi>LONDON.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="5"/>
 <head>The WAY TO KEEP HIM.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT. I. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>The Hall in <hi>Lovemore's</hi> House, <hi>William</hi> at Cards with a Brother Servant.</stage>
 <sp>
 <speaker>Will.</speaker>
@@ -241,8 +240,8 @@
 <p>There goes high and low Life contrasted in one Person;—Tis well I have not told her the whole of my Master's Secrets:
 <pb n="7" facs="11"/>She'll blab that he visits this Widow from <hi>Bath.</hi>—But if they enquire, they'll be told he does not; the Plot lies deeper than they think, and so they'll only get into a Puzzle. — So, my Master's Bell rings too.— <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>another Apartment; Mrs.</hi> Lovemore, <hi>and a Maid attending her.</hi></stage></head>
 <sp>
 <speaker>Mrs. Lovem.</speaker>
@@ -884,12 +883,12 @@
 </sp>
 <stage>Exit in a Passion.</stage>
 <trailer>End of the First <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="29" facs="33"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a Room at the Widow</hi> Bellmour's, <hi>in which are disposed up and down, several Chairs, a Toilette, a Book-case, and a Harpsicord;</hi> Mignionet <hi>her Maid, is settling the Toilette.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> Bellmour, <hi>reading a Volume of</hi> Pope.</stage>
 <sp>
@@ -1691,12 +1690,12 @@
 <stage>Exeunt.</stage>
 </sp>
 <trailer>End of the Second <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="57" facs="61"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An Apartment at Mr.</hi> Lovemore's.</stage></head>
 <stage><hi>Enter Mrs,</hi> Lovemore <hi>elegantly dress'd;</hi> Muslin <hi>following her.</hi></stage>
 <sp>
@@ -2596,13 +2595,12 @@
 <l>To win a Man, when all your Pains succeed.</l>
 <l>The Way to Keep Him, is a Task indeed.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="bythesameauthor">
+<div type="bythesameauthor">
 <pb facs="87"/>
 <p><hi>Just Publish'd.</hi> Price 1s. 6d.</p>
 <p>Adorned with a neat Frontispiece.</p>
@@ -2616,8 +2614,7 @@
 <item>The APPRENTICE, A Farce. In Two Acts. Price 1s.</item>
 <item>The UPHOLSTERER. A Farce. In Two Acts. Price 1s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

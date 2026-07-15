@@ -7,21 +7,21 @@
 <extent>64p. ; 8⁰.</extent><publicationStmt><publisher>printed for G.G.J. and J. Robinson,</publisher><date>1790.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Thomas Holcroft.</note><note>Stated in the Advertisement to be based on 'Les précautions inutiles' in E. Gherardi's 'Theâtre italien', but in fact based on N. de Fatouville's 'La précaution inutile'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT55504.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>TRY AGAIN: <hi>A FARCE,</hi> IN TWO ACTS.</p>
 <p>AS PERFORMED AT THE THEATRE ROYAL IN THE HAY-MARKET.</p>
 <p>Anche io so menar l'oche a bere, quando piove.</p>
 <p><hi>LONDON:</hi> PRINTED FOR G. G. J. AND J. ROBINSON, PATERNOSTER ROW.</p>
 <p>M. DCC. XC.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>WHOEVER will be at the trouble of perusing <hi>Les Précautions Inutiles,</hi> in the Théâtre Italien of Gherardi, will be enabled to determine what are the debts of the following trifle to that piece, and what degree of claim it has to originality.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -38,16 +38,15 @@
 <item><label>Lauretta</label> Mrs. TAYLOR</item>
 <item><label>Marinette</label> Mrs. EDWARDS.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene, Paris.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="5"/>
 <head>TRY AGAIN: A FARCE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Room in Mr. <hi>DU-CHESNE'S</hi> House.</stage>
 <stage><hi>Enter</hi> ROSALIE, LAURETTA <hi>following.</hi></stage>
@@ -331,8 +330,8 @@ his manners so polished, and his language so eloquent. Oh! the delightful creatu
 <speaker>ROSALIE.</speaker>
 <p>No, brother, I am determined, and will lose no time either. <stage>(Exit.)</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Outside of <hi>Du-chesne's</hi> House.</stage>
 <stage><hi>SIDNEY</hi> and <hi>LA-FOURBE</hi> disguised as a Smith and a Mason. <hi>ROSALIE,</hi> at the window; and <hi>ANTOINE,</hi> with a Musket on his Shoulder, standing Centinel at the Door.</stage>
@@ -721,8 +720,8 @@ Enter <hi>DU-CHESNE</hi> from the House.</stage>
 <pb n="23" facs="23"/>
 is the wife of my friend, the doctor, they shall be crafty indeed. <stage>(Goes into the house.)</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE. <stage>A Room in <hi>Du-chesne</hi>'s House.</stage></head>
 <stage>ROSALIE <hi>and</hi> DU-CHESNE <hi>meeting.</hi></stage>
 <sp>
@@ -1190,13 +1189,13 @@ of a gun is heard)</stage> Hey dey!— <stage>(Another report heard.)</stage></p
 <p>Yes, maim!—Oh my cape!—Him!</p>
 <stage>(Exit.)</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT THE FIRST.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="35" facs="35"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Room in <hi>Lauretta</hi>'s House.</stage>
 <stage>SIDNEY <hi>and</hi> LA-FOURBE <hi>entering.</hi></stage>
@@ -1303,8 +1302,8 @@ of a gun is heard)</stage> Hey dey!— <stage>(Another report heard.)</stage></p
 <speaker>LA-FOURBE.</speaker>
 <p>Then sir, never fear!—Oh! if every handsome woman in Paris had but a jealous brother, what happy times wou'd it be for us men of genius! <stage>(Exit.)</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="38" facs="38"/>
 <head>SCENE II.</head>
 <stage>A Room in <hi>Du-chesne</hi>'s House.</stage>
@@ -1496,8 +1495,8 @@ when he sends again, to send by a more intelligent messenger.</p>
 <stage>(Laughing).</stage>
 <p>Poor La-fourbe—Now let me examine my prize. How excellent the painting! Yet how inferior to the original! <stage>(putting the portrait on the table.)</stage> Why did I forget to enquire whether my Sidney meant to come in disguise? How stupid! I am afraid this La-fourbe is gone. <stage>(Exit hastily).</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>A Room in <hi>Lauretta</hi>'s House.</stage>
 <stage>SIDNEY <hi>and</hi> LAURETTA.</stage>
@@ -1701,8 +1700,8 @@ when he sends again, to send by a more intelligent messenger.</p>
 <speaker>SIDNEY.</speaker>
 <p>Oh! never!—La-fourbe—Come and help me to dress, sirrah. <stage>(Exeunt.)</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="47" facs="47"/>
 <head>SCENE IV.</head>
 <stage>A Room in <hi>Du-chesne's</hi> House.</stage>
@@ -2015,8 +2014,8 @@ and I being less inquisitive did not question her <hi>circumstantially</hi>—Bu
 <speaker>ROSALIE.</speaker>
 <p>I'll reward your ingenuity. <stage>(Exeunt.)</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE. <stage>A Hall in <hi>DU-CHESNE'S</hi> House.</stage></head>
 <stage>Enter <hi>SIDNEY</hi> dressed in the Walloon uniform, with whiskers, black patch across his Nose, &amp;c.—<hi>LA-FOURBE</hi> in an old Walloon regimental, and two postillions.</stage>
 <sp>
@@ -2336,8 +2335,8 @@ the business which he himself will explain. Yours eternally, PATRICK O'DOGHERTY.
 <speaker>LAURETTA.</speaker>
 <p>I understand!—Sidney may pass it off as written to himself, from his brother, Sir Patrick O'Dogherty, and we shall then I think be in little danger. <stage>(Exeunt.)</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>A Saloon.</stage></head>
 <sp>
 <stage>Enter DU-CHESNE.</stage>
@@ -2474,10 +2473,9 @@ the business which he himself will explain. Yours eternally, PATRICK O'DOGHERTY.
 <p>Well, I take it for granted you are so—and, to say the truth, I begin to admire you, myself; for you have imposed upon me, tho' I doubled all the precaution which habit had already made natural to me.—I will enquire further when my mind is cool, but with a full determination, after embroiling myself to no purpose with masons, men-milliners, Scotch pedlars, and Irish captains—never more to be SUSPICIOUS.</p>
 <stage>(Exeunt Omnes.)</stage>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

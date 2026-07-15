@@ -7,20 +7,20 @@
 <extent>iv,[2],41,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Evans,</publisher><date>1779.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT41107.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE LIVERPOOL PRIZE; A FARCE: IN TWO ACTS. AS IT PERFORMED AT THE THEATRE-ROYAL, IN COVENT-GARDEN, WITH UNIVERSAL APPLAUSE. WRITTEN BY F. PILON.</p>
 <p>LONDON. PRINTED FOR T. EVANS, NEAR YORK-BUILDINGS, STRAND. MDCCLXXIX.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="iii" facs="2"/>
 <head>PREFACE.</head>
 <p>IT having been insinuated, that the Liverpool Prize was written in the spirit of party, the author takes this opportunity of publicly declaring, that nothing could be further from his intention than such an idea. If the maritime phrases so often repeated on a late public occasion, be deemed satire in disguise, he confesses himself too dull to find it out; it was impossible to avoid using them, in painting a sailor like Teneriffe: but admitting they were selected in consequence of their being temporary, the writer of the Liverpool Prize has done no more in using them, than the best dramatic writers have done before him, and, indeed, ought to continue to do, if the stage be the mirror of the times. Distinguished
 <pb n="iv" facs="3"/>
 as Shakespeare was, and above the necessity of stooping to temporary allusions, yet would he sometimes sacrifice to them, in order to gratify the public; a circumstance which has contributed not a little to that obscurity in his writings which has so long amused and perplexed the critics. As to the liberty the author took in mentioning Admiral Keppel's name, he hopes no man is so great an enemy to his country as to ascribe it to party; it was the tribute of his heart; an echo to the voice of a whole nation, loud in praise of a man who had so often fought the battles of Old England with success, and in whose hands the honour of the British flag can never tarnish.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written by the AUTHOR</byline>
@@ -70,8 +70,8 @@ as Shakespeare was, and above the necessity of stooping to temporary allusions, 
 <l>Here is the only office can secure him,</l>
 <l>If you approve, the town will then insure him.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -92,16 +92,15 @@ as Shakespeare was, and above the necessity of stooping to temporary allusions, 
 <item><label>FANNY, her Woman,</label> Mrs. MORTON.</item>
 <item><label>ADELAIDE, a Gentoo Woman, Wife to Coromandel,</label> Miss STEWART.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>Scene Lies at</hi> Liverpool.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>THE LIVERPOOL PRIZE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.<stage><hi>an Apartment in</hi> Debenture's <hi>House,</hi></stage></head>
 <stage><hi>Enter</hi> Fanny <hi>and</hi> Bronze.</stage>
 <sp>
@@ -210,8 +209,8 @@ infidels, will credit us.—But how is old Debenture? Is he screwed up with the 
 <p>If you did, huffy, I'd impeach you of high treason in the court of love, and have you punished for clipping them.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="4" facs="9"/>
 <head><stage>SCENE II. <hi>changes to a Parlour in the same House.</hi></stage></head>
 <stage>Debenture <hi>and</hi> Teneriffe, <hi>discovered at a Table, with Pipes, and a Bowl of Liquor before them. Midships in waiting.</hi></stage>
@@ -600,8 +599,8 @@ to meddle with a galleon, the Spaniards and we are very good friends.</p>
 <p>Do so, do so.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.<stage>Harriet's <hi>Apartment.</hi></stage></head>
 <stage>Harriet <hi>(in a Naval Officer's uniform) and</hi> George Belford <hi>discovered.</hi></stage>
 <sp>
@@ -1062,13 +1061,13 @@ been taking great liberties with it, I'll take care to confine you, till I have 
 <p>Make yourself easy, for I'll go immediately, and have you both bound over. Come along; the barge is coming by this time.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="26"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>a Street.</hi></stage></head>
 <stage><hi>Enter</hi> Debenture, Wilmot, Teneriffe, Coromandel, Adelaide, and Old Belford.</stage>
 <sp>
@@ -1339,8 +1338,8 @@ will take my word before this fellow's, for my friend's character.</p>
 one though, for I'll be hanged, Bronze, if thou couldst ever play Diogenes from an empty one. Well then, to a full cask will I retire; and since I can't rail the world into gratitude, like a wiser philosopher than Diogenes was, I'll drink myself into patience.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to an Apartment in</hi> Debenture's <hi>House.</hi> Harriet <hi>and</hi> Debenture <hi>discovered.</hi></stage></head>
 <sp>
 <speaker>Deben.</speaker>
@@ -1811,8 +1810,8 @@ upon half an hour's acquaintance—A fellow sprung from the lord knows who! and 
 <p>My dear girl, you transport me—But its no wonder she likes him—He's a fine looking old fellow—Damme, I shall ever think well of a Dutchman's gallantry.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="35" facs="40"/>
 <head><stage>SCENE <hi>changes to a view of the harbour; the</hi> French East-Indiaman <hi>and the Privateer riding at anchor.</hi></stage></head>
 <stage><hi>Enter</hi> Teneriffe <hi>and</hi> Geo. Belford.</stage>
@@ -2157,13 +2156,12 @@ who are you, that rack me thus alternately with hope and despair?</p>
 </lg>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="47"/>
 <head>Books printed for T. EVANS in the Strand.</head>
 <list>
@@ -2184,7 +2182,7 @@ who are you, that rack me thus alternately with hope and despair?</p>
 <item>THE POETICAL WORKS OF MATTHEW PRIOR, New, first collected with Explanatory Notes and Memoirs of the Author.</item>
 <item>Proposals for printing by Subscription, an elegant Edition, in one Volume, Folio, NOTITIA MONASTICA. By WILLIAM TANNER, Lord Bishop of St. Asaph.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

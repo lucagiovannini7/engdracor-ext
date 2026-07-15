@@ -7,14 +7,14 @@
 <extent>xix,[17],99,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author, and sold by J. Dodsley; J. and E. Dilly; G. Kearsly; and T. Cadell,</publisher><date>1770.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a list of subscribers and an epilogue.</note><note>Microopaque copy is a variant ("J." lacking before Dodsley in imprint).</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52723.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>A WORD TO THE WISE, A COMEDY, AS IT WAS PERFORMED AT THE THEATRE ROYAL, in DRURY-LANE.</p>
 <p>WRITTEN BY HUGH KELLY, OF THE MIDDLE-TEMPLE, AUTHOR of FALSE DELICACY.</p>
 <p>LONDON, PRINTED FOR THE AUTHOR, AND SOLD BY DODSLEY, IN PALL-MALL; J. AND E. DILLY, IN THE POULTRY; G. KEARSLY, IN LUDGATE-STREET; AND T. CADELL, IN THE STRAND.</p>
 <p>MDCCLXX.</p> 
-</div1>
-<div1 type="address">
+</div>
+<div type="address">
 <pb facs="2"/>
 <head>AN ADDRESS to the PUBLIC.</head>
 <p>THE comedy here offered to the world, having been banished from the theatre, through the rage of political prejudice, and the author having, through that prejudice, been no less attacked in his reputation than wounded in his fortune, it becomes necessary for him to justify his character as a man, however poor his abilities may be as a writer. — Popular resentment has had it's victim, and the sacrifice being now over, perhaps a few words may be heard in his defence.</p>
@@ -94,8 +94,8 @@ so that a performance exhibited during a state of contention must despair of suc
 <pb n="xix" facs="18"/>
 to this despicable slavery of the mind? Are you, above the generality of mankind, distinguished for your education and your understanding, to be refused an opinion, where an opinion is deemed the birth-right of your meanest fellow-subject? Shall it be your glory to inculcate lessons of generosity and independence, and yet be your crime to practise these lessons yourselves? — Shall your writings breathe the noblest spirit of candour, and your lives be a round of the poorest dissimulation? — Shall you think your country in danger, and yet be afraid to speak a syllable for it's preservation? — No, you will not tear the siner principles from your breasts; you will not set an example of so abject a disingenuity. — Whatever meets the approbation of your judgment, will be supported by the sanction of your voice, and however you may meet with reproach, you will at least be careful not to deserve it. — When administration is indefensible, you will be too honest to combat in it's cause; but, at the same time you will not hesitate to condemn the errors of popularity. — You will be always animated by a real solicitude for the public, and be as careful to guard against the extravagance of it's over-zealous friends, as to provide against the machinations of it's most politic enemies. — Acting thus you may be poor, but you will ever be respectable. — Posterity will do you justice, if you are even oppressed by your cotemporaries, and you will find ample resources in the consciousness of your integrity, to compensate for the severest disappointments in your fortune.</p>
 <p>To conclude — If men of talents have an equal right of thinking with the rest of their fellow-subjects, and if they are not precluded by the generally acknowledged superiority of their understandings, from declaring their sentiments upon subjects of national importance, the lovers of the drama must see that nothing can be so dangerous to the existence of genius, as the introduction of political disputes into the theatre. The party which condemns a writer of different principles on one day, may see a favourite author, sacrificed the very next by their enemies in politics; and the violence may continue till there is scarcely an individual hardy enough to furnish our managers with a piece. The state of the stage is at present sufficiently deplorable; and it's literature, instead of wanton opposition, calls loudly for the generous hand of public encouragement. — Give it this encouragement therefore, ye wise, and ye worthy — rescue your writers from the worst of all tyrannies, and no longer form your minds by the sentiments of those, who are not allowed to possess any minds of their own.</p>
-</div1>
-<div1 type="listofsubscribers">
+</div>
+<div type="listofsubscribers">
 <pb facs="19"/>
 <head>A LIST OF THE SUBCRIBERS</head>
 <list>
@@ -1050,13 +1050,13 @@ Thomas Littler, Esq. 4 copies</item>
 <item>Robert Zachary, Esq.</item>
 <item>Mrs. Zachary</item>
 </list>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="30"/>
 <p>THIS COMEDY IS INSCRIBED TO ROBERT LADBROKE, Esq.</p>
 <p>AS A PUBLIC TESTIMONY OF THE VERY HIGH ESTEEM IN WHICH THE AUTHOR HOLDS HIS FRIENDSHIP, AND A SINCERE MARK OF THE VERY JUST RESPECT HE ENTERTAINS FOR HIS PRIVATE CHARACTER.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="31"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -1081,8 +1081,8 @@ Thomas Littler, Esq. 4 copies</item>
 <item>JENNY, Mrs. Smith.</item>
 <item>Lucy, Miss Platt.</item>
 </list>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="32"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY MR. KELLY.</byline>
@@ -1153,15 +1153,14 @@ Thomas Littler, Esq. 4 copies</item>
 <l>Is ne'er to strike an enemy when down —</l>
 </lg>
 </sp>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="34"/>
 <head>A WORD to the WISE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in</hi> Sir JOHN DORMER'S <hi>House.</hi></stage></head>
 <stage>Enter <hi>Sir JOHN DORMER, Miss DORMER, and Miss MONTAGU.</hi></stage>
 <sp>
@@ -1718,12 +1717,12 @@ of title to deceive her: — besides, Villars, Miss Willoughby has herself shewn
 <p>My dear Captain, this is no jesting matter—the happiness of a deserving young lady is at stake, and a laugh will but poorly repay a violation of your honour, or a breach of your humanity. <stage>[Exeunt.]</stage></p>
 </sp>
 <trailer>END <hi>of the</hi> FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="21" facs="54"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>WILLOUGHBY'S <hi>House.</hi></stage></head>
 <stage>Enter <hi>Mr.</hi> and <hi>Mrs. WILLOUGHBY.</hi></stage>
 <sp>
@@ -1912,8 +1911,8 @@ of her hand to a lover. —However, stay child— let poor Dormer be forc'd into
 <speaker>Mrs. WILLOUGHBY.</speaker>
 <p>I don't know what will become of you, if you don't take my advice; —and I am sure, on the present occasion, I give you advice that wou'd be very agreeable to half the young ladies within the bills of mortality. <stage>[Exeunt.]</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>The <hi>SCENE</hi> changes to a Room at <hi>Sir JOHN DORMER'S.</hi></stage></head>
 <stage>Miss DORMER <hi>and</hi> Sir GEORGE <hi>discovered.</hi></stage>
 <sp>
@@ -2179,8 +2178,8 @@ There, wonder, —be amaz'd that I don't see with your eyes, —and despise my w
 <speaker>Miss MONTAGU.</speaker>
 <p>What, provoking to wait upon your Corydon instantly. —Come, my sweet shepherdess, let me shew it to the parlour. <stage>[Exeunt.]</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>The <hi>SCENE</hi> changes to <hi>WILLOUGHBY'S.</hi></stage></head>
 <sp>
 <speaker>Mrs. WILLOUGHBY.</speaker>
@@ -2267,12 +2266,12 @@ ways founded on justice; —and none are ever sufferers in the end, but those wh
 <p>Why you ill-bred brute won't you take me along with you —I must go with him to see that every thing is conducted with propriety. <stage>[Exit.]</stage></p>
 </sp>
 <trailer>The <hi>END</hi> of the <hi>SECOND ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="40" facs="73" ana="y"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>the Park.</hi></stage></head>
 <sp>
 <speaker>VILLARS.</speaker>
@@ -2455,8 +2454,8 @@ comply with his inclinations; —but go, my dear boy, about the business, and I'
 <speaker>DORMER.</speaker>
 <p>The people of the house will admit you directly; —and remember, that a trifling lie or two must choak neither of us, if any body shou'd question us about the little run-away. <stage>[Exeunt severally.]</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to Sir</hi> JOHN DORMER'S.</stage></head>
 <stage>Enter <hi>Sir GEORGE.</hi></stage>
 <sp>
@@ -2605,9 +2604,9 @@ read her readiness to comply with my wishes, and find her the excellent girl I a
 <speaker>Sir GEORGE.</speaker>
 <p>So—now I am engag'd in a pretty piece of business —and must hazard my life for a woman, who has not only rejected my addresses, but mention'd me with contempt; and danger join'd to insult is my reward, where, in reality, I ought to meet with thanks and approbation, la la la la lalla, <stage>(hums a French air)</stage>— Well, be it as it will, Miss Dormer's secret shall be inviolably preserv'd. — A thrust through the guts is, to be sure, disagreeable enough, but if fellows every day hazard it in defence of the basest actions, there can be no mighty heroism in running a little risque, to support the cause of honour and generosity. <stage>[Exit.</stage></p>
 </sp>
-</div3>
+</div>
 <pb n="51" facs="84"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>DORMER'S <hi>Lodgings in</hi> Pall-Mall.</stage></head>
 <stage>Enter <hi>Miss WILLOUGHBY.</hi></stage>
 <sp>
@@ -2726,12 +2725,12 @@ that disposcs me very warmly to serve you, and if you really desire to leave thi
 <p>My dear Madam, your thanks are more than I deserve. What I have done, humanity made my duty; and the most contemptible of mankind, is he who declines the performance of a good action because he has not an expectation of being rewarded.</p>
 </sp>
 <trailer>END <hi>of the</hi> Third ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="55" facs="88"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Sir</hi> JOHN DORMER'S.</stage></head>
 <stage>Enter <hi>Dormer</hi> followed by <hi>WILLOUGHBY.</hi></stage>
 <sp>
@@ -2807,8 +2806,8 @@ blow is a barbarous one, which is aim'd at the bosom of a friend; and the triump
 <speaker>WILLOUGHBY.</speaker>
 <p>Ah, Captain! a man of sense shou'd despise the ridicule of the profligate, and recollect, that the laughter of a thousand fools is by no means so cutting as the severity of his own detestation. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to another Apartment in Sir</hi> JOHN DORMER'S.</stage></head>
 <stage>Enter Miss <hi>MONTAGU</hi> and Miss <hi>WILLOUGHBY.</hi></stage>
 <sp>
@@ -2989,9 +2988,9 @@ your name with an air of jealous resentment.</p>
 <speaker>Miss MONTAGU.</speaker>
 <p>And now we'll prepare a letter to your father —But come, my dear girl, you must not be so dejected — Your little error is amply attoned for by the generosity of this conduct; and there are some faults which, like happy shades in a fine picture, actually give a forcible effect to the amiable light of our characters. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
+</div>
 <pb n="63" facs="96"/>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>changes to the</hi> Pall-mall <hi>apartments.</hi></stage></head>
 <stage>Enter <hi>WILLOUGHBY,</hi> Mrs. <hi>WILLOUGHBY, DORMER,</hi> and <hi>Lucy.</hi></stage>
 <sp>
@@ -3234,8 +3233,8 @@ Villars by the hand)</stage> Thus, my dear Villars, let me thank you for the sup
 <speaker>DORMER.</speaker>
 <p>Yes, yes, I have business enough; and my father will know every thing presently. — But I must be a man of gallantry, and be damn'd to me! — Villars, you now see, that the greatest of all idiots is he who makes himself despicable to destroy his own happiness. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to a Room at the</hi> Cocoa-tree.</stage></head>
 <sp>
 <speaker>Sir GEORGE</speaker>
@@ -3393,12 +3392,12 @@ For, though there may be a great deal of bravery in venturing one's life, I can'
 <p>I am entirely of Sir John's opinion—the riches of the heart are the noblest of all possessions, and I don't think that, on the present occasion, I have proved myself the poorest fellow in the kingdom —notwithstanding my recent insignificance. <stage>[Exit.</stage></p>
 </sp>
 <trailer>End of the Fourth <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="76" facs="109"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>Sir</hi> JOHN DORMER'<hi>S House.</hi></stage></head>
 <stage>Enter Mis <hi>MONTAGU,</hi> and Miss <hi>WILLOUGHBY.</hi></stage>
 <sp>
@@ -3753,8 +3752,8 @@ as her own fix'd disinclination to be your's, requested I wou'd not think any lo
 <speaker>Sir JOHN.</speaker>
 <p>Poh, poh, man, the parent that makes his children happiest always gives them the best fortunes —We'll, now join the company chearfully— But remember for the future, my dear boy, what every son shou'd constantly have in view, that more than your own happiness and your own honour are trusted to your care, and that you cannot experience a misfortune, nor suffer a disgrace, without sensibly wounding the bosom of your father. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>another Room at Sir</hi> JOHN DORMER'S.</stage></head>
 <sp>
 <speaker>Sir GEORGE.</speaker>
@@ -4106,13 +4105,12 @@ the honour of being known in this family — The only trace of what I ever was, 
 <speaker>WILLOUGHBY.</speaker>
 <p>Right, Sir John — Providence looks down delighted on the actions of the worthy, and, however it may command adversity to frown on the beginning of their days, they will acknowledge with me, that all it's dispensations are full of benignity in the end.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="133" ana="y"/>
 <head>EPILOGUE.</head>
 <byline>SPOKEN BY MRS. BARRY.</byline>
@@ -4175,7 +4173,7 @@ Shall I for once your tender thoughts reveal?</l>
 <l>But I'll stop here, I will not sermonize —</l>
 <l>A foolish woman can't instruct the wise.</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

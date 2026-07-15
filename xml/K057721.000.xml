@@ -7,12 +7,12 @@
 <extent>[4],iv,[2],97,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by J. Davies, for T. Evans,</publisher><date>1784.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT67190.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>MORE WAYS THAN ONE, A COMEDY, AS ACTED AT THE <hi>THEATRE ROYAL</hi> IN COVENT GARDEN. By MRS. COWLEY.</p>
 <p>LONDON: PRINTED BY J. DAVIES, CHANCERY-LANE, FOR T. EVANS, PATERNOSTER-ROW. MDCCLXXXIV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>DEDICATION.</head>
 <lg>
@@ -61,8 +61,8 @@ But Hymen frowns, and joy no longer cheers,</l>
 <l>Dance o'er your nerves, and live within your heart!</l>
 </lg>
 <closer><signed>H. C.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="iii" facs="4"/>
 <head>PROLOGUE.</head>
 <byline>BY A CLERGYMAN.</byline>
@@ -117,8 +117,8 @@ But Hymen frowns, and joy no longer cheers,</l>
 <l>But should the charm dissolve e'er the play ends,</l>
 <l>Oh! for Thalia's sake, be yet its friends!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>PERSONS OF THE DRAMA.</head>
 <p><list>
@@ -151,13 +151,13 @@ But Hymen frowns, and joy no longer cheers,</l>
 <label>LODGING MISTRESS,</label>
 <item>MISS <hi>PLATT.</hi></item>
 </list></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7"/>MORE WAYS THAN ONE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. </head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Mr.</hi> EVERGREEN's</stage>
 <stage><hi>Enter</hi> DAVID, <hi>preceded by a Lawyer' Clerk.</hi></stage>
@@ -438,8 +438,8 @@ and are you not going to have a sweet wife, and to be a sweet simpleton, at the 
 <p>Drink to my memory in wine of her own brewing!—I'll bribe some disbanded Ensign to carry her off, and make her glad to drink small beer of her own brewing.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Doctor</hi> FEELOVE's.</stage></head>
 <stage><hi>Enter</hi> SERVANT, <hi>looking at a list.</hi></stage>
 <sp>
@@ -678,8 +678,8 @@ a novice. Tell her that a peerage, like the parliament, lasts but seven years, a
 <p>I will. Why, now I have been a fool; I have made the bargain more favourable on his side than I needed. I really believe he would have taken her with the ten thousand only. I'll try to start some difficulty in the business.—I hate to be over-reach'd.</p>
 </sp>
 <stage>[Exit with the parchments.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>CARLTON's</stage></head>
 <stage>CARLTON <hi>and</hi> BELLAIR <hi>at Breakfast.</hi></stage>
 <sp>
@@ -763,13 +763,13 @@ shall reduce my pipe to the shrill tone suited to my appearance;—you would not
 <p>Nor your understanding for three hours, now that I know the cause of it—but adieu! in a week you'll be recover'd.</p>
 </sp>
 <stage>[Exeunt at opposite doors.</stage>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>Doctor</hi> FEELOVE's.</stage></head>
 <stage>ARABELLA <hi>sitting at a Table, with Paper and Pencil.</hi></stage>
 <sp>
@@ -1050,8 +1050,8 @@ trouble. The air of this part of the town, so near the Park, revives me—Permit
 <p>Dear, how he looks at me! it thrills my bosom through and through! Sure he can have no very great crime on his mind—I am sure he never can have been wicked—I'll endeavour to comfort him when he comes again. Meantime, I'll go into my own room, and try to finish this. <stage>[taking the paper from her bosom.]</stage> I think I can make it look a little as he did just now,—and then—then, if he dies— <stage>[dropping a tear.]</stage> I can look at this, and think of him!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the Horse Guards.</hi></stage></head>
 <stage><hi>Enter</hi> CARLTON, <hi>followed by</hi> BELLAIR <hi>in a Chair.</hi></stage>
 <sp>
@@ -1139,8 +1139,8 @@ which his loquacity could not submit. He accordingly buys every author on every 
 <p>With all my heart—he receives a new acquaintance as eagerly as a new book; and whether you are in calf-skin or morocco, it will make no difference to Sir Marvel.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a Dressing Room.</hi></stage></head>
 <stage>[SIR MARVEL <hi>at his toilet, attended by</hi> LE GOUT, <hi>who is powdering his hair with a puff.]</hi></stage>
 <sp>
@@ -1444,13 +1444,13 @@ dear Sir, you'll pardon me; but one can make no figure without reading. In such 
 <speaker>MARV.</speaker>
 <p>Never fear! I am not a goose, to betray the Capitol.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="34" facs="40"/>
 <head>ACT III.</head><stage><hi>An Apartment at</hi> EVERGREEN's.</stage>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter Miss</hi> JUVENILE, <hi>and a</hi> SERVANT.</stage>
 <sp>
 <speaker><hi>Miss</hi> JUVENILE.</speaker>
@@ -1655,8 +1655,8 @@ have. I wish you wou'd let me know who this friend is, for whose reputation you 
 <p>Yes, ma'am, yes. <hi>Venetian!—</hi>how could I make such a mistake?</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>BELLAIR's <hi>Lodgings.</hi></stage></head>
 <stage>Carlton and Bellair arise from a table with glasses, &amp;c.</stage>
 <sp>
@@ -1804,8 +1804,8 @@ innocent thing, that running away with <hi>Harry Bellair</hi> is the most honour
 <p>So! having made a clear road for the Doctor, I can fearlesly pursue my own. My sweet Arabella! in ten minutes I'll be at thy feet.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> FEELOVE'S.</stage></head>
 <stage>[EVERGREEN <hi>asleep on a sopha,</hi> ARABELLA <hi>sitting at work, on a chair. After looking on him, she rises.]</hi></stage>
 <sp>
@@ -2045,8 +2045,8 @@ I like him better and better. <stage><hi>[Enter</hi> SERVANT]</stage> Thomas, if
 dear marks on my hands are real— <stage>[kissing them.]</stage> Oh, happy, happy Arabella!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>EVERGREEN's.</stage></head>
 <stage><hi>Enter</hi> EVERGREEN, <hi>and</hi> DAVID.</stage>
 <sp>
@@ -2196,13 +2196,13 @@ are more old fools than I.—The name, Sir;—the Doctor's name?</p>
 <p>Go—go—go! <stage>[pushing him out.]</stage>—Ha, ha, ha!—Oh! oh! oh! I could cry heartily on one side, but the other won't let me for laughing. Now, which shall I do? Oh, a sly gypsey! Oh, a d—d old fool of a Doctor! That he should bring her a gallant!—that she should consent to run off with him!—and that he should humbly solicit to put her under my wing!!!—Well, it shall all work together for good. Instead of the <hi>Lord,</hi> may I be <hi>Goat</hi> of Penmanmoure, if this shan't be a means of squeezing me another five thousand out of Feelove. I have it working here—'tis working here. David! David!</p>
 </sp>
 <stage>[Exit, calling his man.</stage>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="51" facs="57"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>[Miss</hi> ARCHER <hi>discovered with a Harp, on which she strikes a few notes. A rapping is heard—she rises with precipitation.]</hi></stage>
 <sp>
 <speaker><hi>Miss</hi> ARCHER.</speaker>
@@ -2690,8 +2690,8 @@ but custom says we must not be so 'till we are married.</p>
 room, and we'll talk it over;—if you want an adviser, you shall find a sincere one in me. Her heart has an attachment, and it seems an unfortunate one—I know too well, now, how to pity her.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> FEELOVE's.</stage></head>
 <stage>He enters in great agitation.</stage>
 <sp>
@@ -2794,8 +2794,8 @@ the skill of all the physicians in Europe, to keep out of a winding sheet.—Now
 <p>—I whose practice has been so singularly successful—</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> BELLAIR<hi>'s Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> BELLAIR <hi>and</hi> CARLTON.</stage>
 <sp>
@@ -2991,13 +2991,13 @@ symptoma of a fever. I would give her to a rincer of gallipots, rather than the 
 <p>That we will. Allons! let us sacrifice to Bacchus to-night, and to-morrow to Esculapius, and Fortune!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="71" facs="77"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>FEELOVE's.</stage></head>
 <stage><hi>Enter</hi> FEELOVE, <hi>followed by a Servant.</hi></stage>
 <sp>
@@ -3078,8 +3078,8 @@ symptoma of a fever. I would give her to a rincer of gallipots, rather than the 
 <p>Say you so, my old boy? Why then I must play a game I did not think of—I must <hi>secure</hi> the young woman 'till you can be brought to alter your prescription. I have made a pretty mess here! 'Gad, though I love a joke, I did not think I was buying mine at the dear rate of fifteen thousand pounds—Dangerous joking with doctors I find. Well, well, a wise man may fall into mistakes as well as a fool; but a <hi>wise man</hi> will find a way to remedy them.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>EVERGREEN's.</stage></head>
 <stage><hi>Miss</hi> ARCHER <hi>enters with</hi> ARABELLA.</stage>
 <sp>
@@ -3302,8 +3302,8 @@ fifty grenadiers, and when they come to town, they mince their words, and mince 
 <p>Nay, if you will have a tug, you shall have a tug— <stage>[Scuffle to get on the cloak, Evergreen gets off at last].</stage> Here, then, I remain conqueror; but whether the game is Olympic, Isthmian, or Irish, I know not. But Lady Beauville!—to be enroll'd in her suit, and in the Mennil hunt, is all that remains to establish me—fate can do no more! Miss Archer will now be a friend indeed! Oh, Pylades, as Juvenal says, what's life without a friend?—its a dumpling without egg.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="79" facs="85"/>
 <head>SCENE, <stage>CARLTON's <hi>Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> MISS ARCHER <hi>and</hi> ARABELLA, <hi>followed by a Maid.</hi></stage>
@@ -3430,8 +3430,8 @@ object of his satire in public, and of his jests in private!—I cannot bear it.
 boasted knowledge of the sex, thou hast laboured to avoid—trusted a <hi>coquette</hi> with thy passion, without first being assured that thou hadst touch'd her heart. But who could have doubted, after a visit at my lodgings?—Pshaw! <stage>[striking his forehead]</stage> 'twas clearly to draw me in;—she penetrated my design, and determined to shew me a poor, ridiculous, miserable plotter. Well, I love her the better for that! Now will it be impossible for that Hyaena to do any one thing, <hi>for</hi> me or <hi>against</hi> me, but I shall love her the better for it. And how shall I be used?—worse than a dog! But I'll have thee—Yes, by Heaven! thou dear, proud, bewitching slut, I'll have thee, spite of every artifice that coquetry and female <hi>sweetness</hi> can devise▪—'Faith, I'll go and tell her so now, in the very teeth of her malice.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>EVERGREEN's.</stage></head>
 <stage><hi>Enter</hi> EVERGREEN, <hi>followed by</hi> BELLAIR.</stage>
 <sp>
@@ -3620,8 +3620,8 @@ invited—But I guess where Miss Archer is, so I'll fly after her.</p>
 <p>Yes, yes; I'll take ye both—I'll take ye both. <stage>[Going out last.]</stage> What a happy thing it is to be of consequence!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>CARLTON's <hi>Lodgings.</hi></stage></head>
 <stage><hi>Enter Miss</hi> ARCHER, <hi>followed by Mrs.</hi> TOMSON.</stage>
 <sp>
@@ -3999,12 +3999,12 @@ faithful services. I will be a tyrant for two whole years, and you shall be the 
 <l>To them we bend, submissive to their laws,</l>
 <l>Yield, if 'tis censure—blest, if 'tis applause!</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="96" facs="102"/>
 <head>EPILOGUE.</head>
 <byline>BY A GENTLEMAN.</byline>
@@ -4054,8 +4054,8 @@ faithful services. I will be a tyrant for two whole years, and you shall be the 
 <l>Applaud Miss Archer, and Miss Younge shall thank ye.</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="104"/>
 <head><hi>Of the</hi> PUBLISHER <hi>may be had,</hi> By the same AUTHOR,</head>
 <list>
@@ -4067,8 +4067,7 @@ faithful services. I will be a tyrant for two whole years, and you shall be the 
 <item>WHO's THE DUPE? a Farce.</item>
 <item>THE MAID OF ARRAGON, a Poem.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

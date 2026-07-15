@@ -7,11 +7,11 @@
 <extent>xv,[1],424p. ; 8⁰.</extent><publicationStmt><publisher>printed by Beatniffe and Payne; and sold by Messrs. F. and C. Rivington; and Messrs. Elmsley and Bremner, London,</publisher><date>1798.</date><pubPlace>Norwich :</pubPlace></publicationStmt><notesStmt><note>The prospectus, 'Proposals for publishing by subscription one volume in octavo of plays and poems', was earlier issued.</note><note>With a list of subscribers.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT42452.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="158"/>
 <p>THE CONFLICT; OR, LOVE, HONOUR, AND PRIDE: A HEROIC COMEDY.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="159"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -29,16 +29,15 @@
 <item>BLANCHE.</item>
 <item>Grandees, Officers of the Court, Guards, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE—VALLADOLID.</p></set>
 </front>
 <body>
-<div1 type="play">
-<div2 n="1" type="act">
+<div n="1" type="act">
 <pb facs="160"/>
 <head>THE CONFLICT; OR, LOVE, HONOUR, AND PRIDE.</head>
 <head>Act First.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST— <stage>The Antichamber to the Queen of Castile's Presence-Chamber, to which it opens by the Scene's dividing.</stage></head>
 <stage>DONNA LEONORA, DONNA ELVIRA;</stage>
 <stage>(<hi>Enter opposite sides</hi>).</stage>
@@ -208,8 +207,8 @@
 <speaker>D. ELVIRA.</speaker>
 <l>Madam! the Queen approaches to give audience.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>DONNA ISABELLA, DONNA LEONORA, DONNA ELVIRA, BLANCHE.</stage>
 <sp>
@@ -292,8 +291,8 @@ Oh! could this fatal Choice</l>
 <stage>(<hi>The scene dividing gives entrance into a magnificent Presence-Chamber. A royal throne under a canopy. Two chairs of state in a line with the throne. At the right-hand of the throne a small ornamented stand, higher than a table, upon which the Sceptre and Regalia are placed. Seats ranged on each side of the throne to the front of the stage: the Grandees &amp; Officers of the Spanish Court standing before them. The Royal Guards standing behind the seats. The Grandees take off their hats, and remain uncovered till the Queen
 <pb n="155" facs="168"/>
 has walked to the platform of the throne; and when she turns round and speaks, they put them on. Carlos only remains uncovered.</hi>)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>DONNA ISABELLA, DONNA LEONORA, DONNA ELVIRA, BLANCHE, DON MANRIQUE, DON ALVAREZ, DON LOPEZ, CARLOS.</stage>
 <stage>Grandees, Officers of the Court, Guards, &amp;c. &amp;c.</stage>
@@ -655,8 +654,8 @@ Your Queen forgives you, Manrique!</l>
 <l>To whom, in preference, I would give my Kingdom.</l>
 </sp>
 <stage>(<hi>The Queens retire; the scene closes upon the Court, leaving the three Counts and Carlos at the front of the stage.</hi>)</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="166" facs="179"/>
 <head>SCENE FOURTH.</head>
 <stage>DON MANRIQUE, DON ALVAREZ, DON LOPEZ, DON CARLOS.</stage>
@@ -700,8 +699,8 @@ Your Queen forgives you, Manrique!</l>
 <l>The order, time, and place, amongst yourselves</l>
 <l>Agree; I will await your summons, and obey it.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>DON MANRIQUE, DON ALVAREZ, DON LOPEZ.</stage>
 <sp>
@@ -797,13 +796,13 @@ Your Queen forgives you, Manrique!</l>
 <l>But for this Marquis, he must seek his equals.</l>
 </sp>
 <stage>(<hi>Exeunt severally. Don Alvarez the same way that Don Carlos went; Don Manrique and Don Lopez at the opposite side.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="170" facs="183"/>
 <head>Act Second.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>A ROOM OF STATE.</stage></head>
 <stage>DONNA ISABELLA, BLANCHE.</stage>
 <sp>
@@ -929,8 +928,8 @@ Your Queen forgives you, Manrique!</l>
 <l>See, Carlos, to obey my order, comes.</l>
 </sp>
 <stage>(<hi>Exit Blanche.</hi>)</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>DONNA ISABELLA, DON CARLOS.</stage>
 <sp>
@@ -1168,8 +1167,8 @@ Your Queen forgives you, Manrique!</l>
 <l>On your allegiance be it then deferr'd.</l>
 <l>Carlos adieu!—Respect my prohibition!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="180" facs="193"/>
 <head>SCENE THIRD.</head>
 <sp>
@@ -1202,8 +1201,8 @@ Your Queen forgives you, Manrique!</l>
 <l>The palm of victory, and the wreath of fame.</l>
 <l>Behold she comes! my rightful unown'd Queen!</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="181" facs="194"/>
 <head>SCENE FOURTH.</head>
 <stage>DONNA ELVIRA, DON CARLOS.</stage>
@@ -1369,13 +1368,13 @@ Your Queen forgives you, Manrique!</l>
 <l>And, if I can, these combats to prevent.</l>
 </sp>
 <stage>(<hi>Exeunt severally.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="186" facs="199"/>
 <head>Act Third.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST.</head>
 <stage>DONNA ELVIRA, DON ALVAREZ.</stage>
 <sp>
@@ -1494,8 +1493,8 @@ Your Queen forgives you, Manrique!</l>
 <l>Those rivals come, with them, my Lord, I leave you!</l>
 </sp>
 <stage>(<hi>Exit D. Elvira.</hi>)</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>DON MANRIQUE, DON ALVAREZ, DON LOPEZ.</stage>
 <sp>
@@ -1549,8 +1548,8 @@ Your Queen forgives you, Manrique!</l>
 <l>Whilst various torments rack my burning soul,</l>
 <l>And love and pride, by turns, my bosom rule.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>DONNA ISABELLA, DON MANRIQUE, DON LOPEZ, DON ALVAREZ.</stage>
 <sp>
@@ -1565,8 +1564,8 @@ Your Queen forgives you, Manrique!</l>
 <l>When you command, I know but to obey.</l>
 </sp>
 <stage>(<hi>Exit D. Alvarez.</hi>)</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="191" facs="204"/>
 <head>SCENE FOURTH.</head>
 <stage>DONNA ISABELLA, DON MANRIQUE, DON LOPEZ.</stage>
@@ -1824,8 +1823,8 @@ Your Queen forgives you, Manrique!</l>
 <l>I teach you what a Queen should do, how reign.</l>
 <l>Retire, my Lords!—I wish to be alone.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>DONNA ISABELLA (alone).</stage>
 <sp>
@@ -1847,8 +1846,8 @@ Your Queen forgives you, Manrique!</l>
 <l>To the most worthy of my Subjects give me:</l>
 <l>Inspire my people! let them name Don Carlos.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE SIXTH.</head>
 <stage>DONNA ISABELLA, BLANCHE.</stage>
 <sp>
@@ -2002,13 +2001,13 @@ Your Queen forgives you, Manrique!</l>
 <l>Expand benevolent to greet her joy.</l>
 </sp>
 <stage>(<hi>Exit followed by Blanche.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="202" facs="215"/>
 <head>Act Fourth.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST.</head>
 <stage>DONNA LEONORA, DON MANRIQUE, DON LOPEZ.</stage>
 <sp>
@@ -2138,8 +2137,8 @@ Your Queen forgives you, Manrique!</l>
 <l>By Garcia's spies. I fear they murder'd him;</l>
 <l>Too faithful to my cause, brave Raymond perish'd.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="206" facs="219"/>
 <head>SCENE SECOND.</head>
 <stage>DONNA LEONORA, DON MANRIQUE, DON LOPEZ, DON ALVAREZ.</stage>
@@ -2213,8 +2212,8 @@ Your Queen forgives you, Manrique!</l>
 <l>Their Prince demanding, that I doubt, to bring</l>
 <l>Him hither, I must bring the whole wild multitude.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>DONNA LEONORA, DON MANRIQUE, DON LOPEZ.</stage>
 <sp>
@@ -2280,8 +2279,8 @@ Your Queen forgives you, Manrique!</l>
 <speaker>D. LOPEZ.</speaker>
 <l>Behold him! we shall know from him the truth.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>DONNA LEONORA, DON CARLOS, DON MANRIQUE, DON LOPEZ.</stage>
 <stage>(<hi>Carlos enters with precipitation. Donna Leonora flies to him with open arms; Carlos retreats.</hi>)</stage>
@@ -2365,8 +2364,8 @@ Your Queen forgives you, Manrique!</l>
 <l>We go; lest, by his pride, Carlos should force us</l>
 <l>To lay aside that high respect we owe you.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>DONNA LEONORA, CARLOS.</stage>
 <sp>
@@ -2534,8 +2533,8 @@ Your Queen forgives you, Manrique!</l>
 <l>—Speak not!—This moment rends my heart—may Heaven!—</l>
 </sp>
 <stage>(<hi>The Queen retires with precipitation much agitated.</hi>)</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="217" facs="230"/>
 <head>SCENE SIXTH.</head>
 <stage>DON CARLOS, BLANCHE.</stage>
@@ -2566,8 +2565,8 @@ Your Queen forgives you, Manrique!</l>
 <l>And see, she comes to give you audience here.</l>
 </sp>
 <stage>(<hi>Exit Blanche.</hi>)</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE SEVENTH.</head>
 <stage>DONNA ISABELLA, DON CARLOS.</stage>
 <sp>
@@ -2788,13 +2787,13 @@ Your Queen forgives you, Manrique!</l>
 <l>What, I most joy to hear, yet grieve to know.</l>
 </sp>
 <stage>(<hi>Exeunt severally.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="224" facs="237"/>
 <head>Act Fifth.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST.</head>
 <stage>DONNA LEONORA, DONNA ELVIRA.</stage>
 <sp>
@@ -2817,8 +2816,8 @@ Your Queen forgives you, Manrique!</l>
 <l>Carlos that name disowns. I have just seen him,</l>
 <l>And 't was an interview that pain'd my soul.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>DONNA ISABELLA, DONNA LEONORA, DONNA ELVIRA.</stage>
 <sp>
@@ -2887,8 +2886,8 @@ Your Queen forgives you, Manrique!</l>
 <l>Heaven has decreed my Diadem to you:</l>
 <l>Reign with my Brother! and be happy long.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>DONNA ISABELLA, DONNA LEONORA, DONNA ELVIRA, BLANCHE.</stage>
 <sp>
@@ -3041,8 +3040,8 @@ Your Queen forgives you, Manrique!</l>
 <l>And think he cannot be a Shepherd's Son.</l>
 <l>But, see! he comes to make complaint to you.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>DONNA ISABELLA, DONNA LEONORA, DONNA ELVIRA, BLANCHE, DON CARLOS, DON MANRIQUE, DON LOPEZ.</stage>
 <sp>
@@ -3305,8 +3304,8 @@ Your Queen forgives you, Manrique!</l>
 <speaker>D. CARLOS.</speaker>
 <l>Till my heart breaks—Here let the cordage crack!—</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>DONNA ISABELLA, DONNA LEONORA, DONNA ELVIRA, BLANCHE, DON CARLOS, DON MANRIQUE, DON LOPEZ, DON ALVAREZ.</stage>
 <sp>
@@ -3371,8 +3370,8 @@ Your Queen forgives you, Manrique!</l>
 Forgive my impatient ardour.</l>
 <l>Raymond alone can clear this mystery.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE SIXTH.</head>
 <stage>DONNA ISABELLA, DONNA LEONORA, DONNA ELVIRA, BLANCHE, DON CARLOS, DON MANRIQUE, DON LOPEZ, DON ALVAREZ, DON RAYMOND.</stage>
 <sp>
@@ -3595,11 +3594,9 @@ Thus grac'd, and thus distinguish'd, still I sigh,</l>
 <l>He views their baffled rage with generous scorn;</l>
 <l>Or gild his triumph, or his fall adorn.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Fifth Act.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

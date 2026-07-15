@@ -7,25 +7,25 @@
 <extent>[8],106,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for F. Newbery,</publisher><date>1773.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The second impression, with the pagination corrected.</note><note>The preliminary leaves have been reset in part and include a half-title.</note><note>The epilogue by J. Craddock is printed after p.106 (sig.P2).</note><note>Todd's impression 2; p.8 is not numbered and the running title reads: 'She stoops to conquer:'.</note><note>Variant issue with p.8 numbered and the running title reads: 'She stoops to conquer: or,'.</note><note>Reproduction of original from the British Library.</note><note>Roscoe, A197 (3)</note><note>William B. Todd, 'The first editions of The good natur'd man and She stoops to conquer'. Studies in Bibliography, 11(1958), 132-42</note><note>English Short Title Catalog, ESTCT1547.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>She Stoops to Conquer: OR, The Mistakes of a Night.</p>
 <p>(Price One Shilling and Sixpence.)</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>She Stoops to Conquer: OR, The Mistakes of a Night. A COMEDY. AS IT IS ACTED AT THE THEATRE-ROYAL IN COVENT-GARDEN. WRITTEN BY Doctor GOLDSMITH.</p>
 <p>LONDON: Printed for F. NEWBERY, in St. Paul's Church-Yard. MDCCLXXIII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head><hi>To</hi> SAMUEL JOHNSON, L. L. D.</head>
 <opener><salute>Dear Sir,</salute></opener>
 <p>BY inscribing this slight performance to you, I do not mean so much to compliment you as myself. It may do me some honour to inform the public, that I have lived many years in intimacy with you. It may serve the interests of mankind also to inform them, that the greatest wit may be found in a character, without impairing the most unaffected piety.</p>
 <p>I have, particularly, reason to thank you for your partiality to this performance. The undertaking a comedy, not merely sentimental, was very dangerous; and Mr. Colman, who saw this piece in its various stages, always thought it so. However I ventured to trust it to the public; and though it was necessarily delayed till late in the season, I have every reason to be grateful.</p>
 <closer><signed>I am, Dear Sir, Your most sincere friend, And admirer, OLIVER GOLDSMITH.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE</head>
 <byline>By DAVID GARRICK, Esq.</byline>
@@ -81,8 +81,8 @@ A kind of magic charm—for be assur'd,</l>
 <l>The college <hi>you,</hi> must his pretensions back,</l>
 <l>Pronounce him <hi>regular,</hi> or dub him <hi>quack.</hi></l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <head>EPILOGUE</head>
 <byline>By Dr. GOLDSMITH.</byline>
 <l><hi>WELL,</hi> having stoop'd to conquer with success,</l>
@@ -121,8 +121,8 @@ Pretends to taste, at Operas cries <hi>caro,</hi></l>
 <l>The fifth and last act still remains for me.</l>
 <l>The Bar-maid now for your protection prays,</l>
 <l>Turns Female Barrister, and leads for Bayes.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <p><list>
 <head>MEN.</head>
@@ -150,13 +150,13 @@ Pretends to taste, at Operas cries <hi>caro,</hi></l>
 <item>Miss WILLEMS.</item>
 </list></p>
 <p><hi>Landlord, Servants,</hi> &amp;c. &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7" ana="y"/>She Stoops to Conquer: OR, The Mistakes of a Night.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A</hi> CHAMBER <hi>in an old fashioned</hi> HOUSE. <hi>Enter</hi> Mrs. HARDCASTLE <hi>and</hi> Mr. HARDCASTLE.</stage></head>
 <sp>
 <speaker>Mrs. HARDCASTLE.</speaker>
@@ -469,9 +469,9 @@ to manage him. What shall I do? Pshaw, think no more of him, but trust to occurr
 <p>Would it were bed time and all were well.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
+</div>
 <pb n="10" facs="16"/>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An Alehouse Room. Several shabby fellows, with Punch and Tobacco.</hi> TONY <hi>at the head of the Table, a little higher than the rest: A mallet in his hand.</hi></stage></head>
 <sp>
 <speaker>OMNES.</speaker>
@@ -773,12 +773,12 @@ you know. Pray, gentlemen, is not this same Hardcastle a cross-grain'd, old-fash
 </sp>
 <stage>[Exeunt.</stage>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An old-fashioned</hi> HOUSE.</stage></head>
 <stage><hi>Enter</hi> HARDCASTLE, <hi>followed by three or four aukward Servants.</hi></stage>
 <sp>
@@ -1796,12 +1796,12 @@ Let her cry. It's the comfort of her heart. I have seen her and sister cry over 
 </sp>
 <stage>[Exeunt.</stage>
 <trailer>END OF SECOND ACT.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="47" facs="53"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter HARDCASTLE solus.</stage>
 <sp>
 <speaker>HARDCASTLE.</speaker>
@@ -2436,12 +2436,12 @@ But my son-in-law, madam, must have very different qualifications.</p>
 </sp>
 <stage>[Exeunt.</stage>
 <trailer>END OF THIRD ACT.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="65" facs="71"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter HASTINGS and Miss NEVILLE.</stage>
 <sp>
 <speaker>HASTINGS.</speaker>
@@ -3134,12 +3134,12 @@ a little if I can. <stage>[To Mrs. Hardcastle.]</stage> But I have not told you,
 </sp>
 <stage>[Exeunt.</stage>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="86" facs="92"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head><stage>SCENE Continues.</stage></head>
 <stage><hi>Enter</hi> HASTINGS <hi>and</hi> SERVANT.</stage>
 <sp>
@@ -3385,9 +3385,9 @@ a little if I can. <stage>[To Mrs. Hardcastle.]</stage> But I have not told you,
 <p>And if you don't find him what I describe—I fear my happiness must never have a beginning.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
+</div>
 <pb n="92" facs="98"/>
-<div2 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Back of the Garden.</hi></stage></head>
 <stage><hi>Enter</hi> HASTINGS.</stage>
 <sp>
@@ -3663,8 +3663,8 @@ yards of your own door. <stage>(To him.)</stage> This is one of your old tricks,
 <p>I have no hopes. But since you persist, I must reluctantly obey you.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>Changes.</hi></stage></head>
 <stage><hi>Enter Sir</hi> CHARLES <hi>and Miss</hi> HARDCASTLE.</stage>
 <sp>
@@ -3904,12 +3904,12 @@ Esquire, of BLANK place, refuse you, Constantia Neville, spinster, of no place a
 <stage>(Joining their hands.)</stage>
 <p>And I say so too. And Mr. Marlow, if she makes as good a wife as she has a daughter, I don't believe you'll ever repent your bargain. So now to supper, to-morrow we shall gather all the poor of the parish about us, and the Mistakes of the Night shall be crowned with a merry morning; so boy take her; and as you have been mistakenn in the mistress, my wish is, that you may never be mistaken in the wife.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="113"/>
 <head>EPILOGUE <stage>To be Spoken in the Character of <hi>TONY LUMPKIN.</hi></stage></head>
 <byline>BY J. CRADDOCK, Esq.</byline>
@@ -3939,7 +3939,7 @@ Esquire, of BLANK place, refuse you, Constantia Neville, spinster, of no place a
 <l>Zounds, we shall make these London gentry say,</l>
 <l>We know what's damn'd genteel, as well as they. <note place="foot">* This came too late to be Spoken.</note></l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

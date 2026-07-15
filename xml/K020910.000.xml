@@ -7,15 +7,15 @@
 <extent>[8],77,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. and J. Dodsley; and sold by M. Cooper,</publisher><date>1754.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A reissue of the 1754 edition with the titlepage corrected.</note><note>Based on Euripides' 'Ion'.</note><note>Final leaf of epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT1555.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>CREÜSA, Queen of ATHENS.</p>
 <p>A TRAGEDY.</p>
 <p>As it is Acted at the Theatre Royal in <hi>Drury-lane</hi> By His MAJESTY's Servants.</p>
 <p>WRITTEN BY Mr. WILLIAM WHITEHEAD.</p>
 <p><hi>LONDON:</hi> Printed for R. and J. DODSLEY in <hi>Pall-mall;</hi> and Sold by M. COOPER in <hi>Peter-noster-Row.</hi> 1754.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <sp>
@@ -71,8 +71,8 @@
 <l>Then judge!—with Candor judge—and we obey.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Persons Represented.</head>
 <list>
@@ -88,24 +88,23 @@
 <item>Virgins belonging to the Temple.</item>
 <item>Guards, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene, the Vestibule of the Temple of <hi>Apollo</hi> at <hi>Delphi,</hi> and the Laurel Grove adjoining.</p></set>
-<div1 type="dedication">
+<div type="dedication">
 <pb facs="4"/>
 <p>TO THE RIGHT HONOURABLE <hi>GEORGE BUSSY,</hi> Lord Visc. VILLIERS, The following TRAGEDY is inscribed by His Lordship's Most obliged and most affectionate humble Servant,</p>
 <closer><signed>W. WHITEHEAD.</signed></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="5"/>
 <head>Advertisement.</head>
 <p>THE Subject of the following Scenes is so ancient, so slightly mentioned by Historians, and so fabulously treated by <hi>Euripides</hi> in his Tragedy of <hi>Ion,</hi> that the Author thought himself at liberty to make the Story his own. Some glaring Circumstances he was obliged to adhere to, which he has endeavoured to render probable.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>CRĖU̇SA, Queen of ATHENS. A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head><stage><hi>The Vestibule of the Temple.</hi></stage>
 <stage>ILYSSUS <hi>and Virgins.</hi></stage>
 <sp>
@@ -938,8 +937,8 @@
 </sp>
 <stage>Exeunt.</stage>
 <trailer>The End of the First ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="25"/>
 <head>ACT II.</head><stage><hi>The Laurel Grove.</hi></stage>
 <stage>ALETES <hi>and</hi> ILYSSUS.</stage>
@@ -1748,8 +1747,8 @@
 </sp>
 <stage>Exit.</stage>
 <trailer>The End of the Second ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="36" facs="43"/>
 <head>ACT III.</head><stage><hi>The Vestibule of the Temple.</hi></stage>
 <sp>
@@ -2345,8 +2344,8 @@
 </sp>
 <stage>Exeunt.</stage>
 <trailer>The End of the Third ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="50" facs="57"/>
 <head>ACT IV.</head><stage><hi>The Laurel Grove.</hi></stage>
 <stage>PHORBAS <hi>and Athenians.</hi></stage>
@@ -2996,8 +2995,8 @@
 </sp>
 <stage>Exit.</stage>
 <trailer><hi>The End of the Fourth</hi> ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="65" facs="72"/>
 <head>ACT V.</head><stage><hi>The Laurel Grove.</hi></stage>
 <stage>PHORBAS and LYCEA.</stage>
@@ -3558,11 +3557,10 @@
 <l>Turn'd on themselves the Mischiefs they design'd.</l>
 </sp>
 <trailer>The End of the Fifth ACT.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 n="1" type="epilogue">
+<div n="1" type="epilogue">
 <pb facs="85"/>
 <head>EPILOGUE.</head>
 <sp>
@@ -3609,8 +3607,8 @@
 <l>But the sure Conqueror <hi>is</hi>—the Devil within.</l>
 </lg>
 </sp>
-</div1>
-<div1 n="2" type="epilogue">
+</div>
+<div n="2" type="epilogue">
 <pb facs="86"/>
 <head>A SECOND EPILOGUE.</head>
 <sp>
@@ -3655,7 +3653,7 @@
 <l>Cry out, "Long live the Female Parliament!</l>
 </sp>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

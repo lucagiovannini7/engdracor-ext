@@ -7,20 +7,20 @@
 <extent>88p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1786.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Author of The royal suppliants = John Delap.</note><note>A variant has a comma after "captives" and a full-stop after "Drury-Lane" on the titlepage.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT19925.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE CAPTIVES, A TRAGEDY; As Performed at the THEATRE-ROYAL, DRURY-LANE.</p>
 <p>By the Author of THE ROYAL SUPPLIANTS.</p>
 <p>LONDON: Printed for T. CADELL, in the Strand.</p>
 <p>M DCC LXXXVI.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE <hi>Captives</hi> are at length released from the theatre, where they have been confined for more than three months; and now they hope to find a sanctuary in the closet. It was the intention of the author, throughout his piece, to make experiment of a style and diction, different from what are usual in modern Tragedy. Over-wrought ornaments, and pompous versification, he thought, ill suited to the manners of those early times, in which the action of his Tragedy is supposed to have passed. In a word, he was of opinion, that the language of simplicity would best accord with the subject and the characters: but whether a plain, intelligible, and unaffected style, would be acceptable to the public taste, was what he had still to learn. The experiment has been made; and the author retires with the satisfaction of having, at least, intended well.</p>
 <closer><dateline><date><hi>March</hi> 12, 1786.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="v" facs="3"/>
 <head>PROLOGUE,</head>
 <byline>By THOMAS VAUGHAN, Esq.</byline>
@@ -99,8 +99,8 @@
 <l>As all who know ye, must in this agree,</l>
 <l>A British audience <hi>ever</hi> will be free.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -116,16 +116,15 @@
 <item><label>MINLA,</label> Mrs. KEMBLE.</item>
 <item><label>VIRGIN,</label> Miss TIDSWELL.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>Morven</hi> in Caledonia.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="9" facs="7"/>
 <head>THE CAPTIVES.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>A Vestibule. At the End of it a Tomb.</stage>
 <stage>ERRAGON, <hi>with a drawn Sword.</hi></stage>
 <sp>
@@ -805,11 +804,11 @@
 <l>Though the dread sight should turn me into stone. <stage>Exit.</stage></l>
 </sp>
 <stage><hi>End of the First</hi> ACT.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage><hi>SCENE</hi> continues.</stage></head>
 <stage>ERIN <hi>and</hi> VIRGIN.</stage>
 <sp>
@@ -1476,12 +1475,12 @@
 <l>Shall tell thee—Oh, unfortunate old man! <stage>Exeunt.</stage></l>
 </sp>
 <stage><hi>End of the</hi> SECOND ACT.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="40" facs="38"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A Tower.</stage></head>
 <stage>ERRAGON <hi>alone.</hi></stage>
 <sp>
@@ -1615,8 +1614,8 @@
 <l>Lead to Malvina!<stage>Exeunt.</stage></l>
 </sp>
 <pb n="43" facs="41"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE, MALVINA's</hi> <stage>Apartment. A sword and helmet on a table.</stage></head>
 <stage>MALVINA <hi>and</hi> VIRGIN.</stage>
 <sp>
@@ -2133,12 +2132,12 @@
 <l>To crush the scorpion that would sting my soul! <stage>Exit.</stage></l>
 </sp>
 <stage><hi>End of the Third</hi> ACT.</stage>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="55" facs="53"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>the Tomb.</stage></head>
 <stage>MALVINA <hi>alone.</hi></stage>
 <sp>
@@ -2798,12 +2797,12 @@
 <l>And conscience, tyrant conscience, shall obey. <stage>Exit.</stage></l>
 </sp>
 <stage><hi>End of the Fourth</hi> ACT.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="70" facs="68"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>an old Tower.</stage></head>
 <stage>HIDALLAN <hi>alone.</hi></stage>
 <sp>
@@ -3368,8 +3367,8 @@
 <speaker>EVERALLIN.</speaker>
 <l>Lead, Minla, to the melancholy scene. <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>a grave by the river-side.</stage></head>
 <stage>MALVINA <hi>supports the dead body of</hi> ERRAGON, <hi>attended by Virgins.</hi></stage>
 <sp>
@@ -3496,12 +3495,11 @@
 <l>'Mid kindred spirits of the great and good. <stage>Exeunt.</stage></l>
 </sp>
 <stage><hi>End of the</hi> FIFTH ACT.</stage>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="87" facs="84"/>
 <head>EPILOGUE.</head>
 <byline>By THOMAS VAUGHAN, Esq.</byline>
@@ -3547,7 +3545,7 @@
 <l>Who trust their <hi>all</hi> to candour and to you.</l>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

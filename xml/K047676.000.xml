@@ -7,11 +7,11 @@
 <extent>[8],82,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Griffin,</publisher><date>1768.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The author of 'The orphan of China' = Arthur Murphy.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52924.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>ZENOBIA.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>ZENOBIA: A TRAGEDY.</p>
 <p>As it is performed at the THEATRE ROYAL IN DRURY-LANE.</p>
@@ -19,8 +19,8 @@
 <p>LONDON: Printed for W. GRIFFIN, in Catharine-street, Strand.</p>
 <p>MDCCLXVIII.</p>
 <p>[P. 1 s. 6 d.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO Mrs. DANCER.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -33,8 +33,8 @@ could employ my pen with pleasure in thanking Mr. BARRY for the very fine exerti
 <p>In testimony of the fact, the play, Madam, is now inscribed to you by him, who admires your talents, and remains</p>
 <closer><signed>Your most obedient Servant, THE AUTHOR.</signed>
 <dateline><date><hi>March</hi> 3, 1768.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE:</head>
 <sp>
@@ -96,8 +96,8 @@ could employ my pen with pleasure in thanking Mr. BARRY for the very fine exerti
 <l>You'll give—'tis all he asks—one VIRTUOUS TEAR.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -113,14 +113,13 @@ could employ my pen with pleasure in thanking Mr. BARRY for the very fine exerti
 <item><label>ZELMIRA,</label> Mrs. BARRY.</item>
 </list>
 <p>Attendants, Guards, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE lies in Pharasmanes' Camp, on the Banks of the Araxes.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>ZENOBIA.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT the FIRST.</head>
 <sp>
 <speaker>ZELMIRA.</speaker>
@@ -843,8 +842,8 @@ That swells above all bounds, till the fond heart</l>
 <l>And bear him all my constancy and love.</l>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT the SECOND.</head>
 <sp>
@@ -1530,8 +1529,8 @@ Impetuous drove me on th' unwish'd for shore.</l>
 <l>And the usurper tremble on his throne.</l>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="31" facs="37"/>
 <head>ACT the THIRD.</head>
 <stage>PHARASMANES, <hi>on his throne:</hi> TIGRANES, ZOPIRON, Officers, <hi>&amp;c.</hi></stage>
@@ -2311,8 +2310,8 @@ Long lost, and long lamented gives thee back,</l>
 <l>Forget my woes in Rhadamistus' arms.</l>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="47" facs="53"/>
 <head>ACT the FOURTH.</head>
 <stage><hi>Enter</hi> RHADAMISTUS <hi>and</hi> TERIBAZUS.</stage>
@@ -3130,8 +3129,8 @@ Circle yon hills, and intercept their march.</l>
 <l>Spite of her guilt—she triumphs in my heart.</l>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="64" facs="70"/>
 <head>ACT the FIFTH.</head>
 <sp>
@@ -4063,11 +4062,10 @@ When there that form—think ye I'll linger here?—</l>
 <l>To black despair poor lost Zenobia drove;</l>
 <l>The hapless victim of disastrous love!—</l>
 </sp>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="89"/>
 <head>EPILOGUE:</head>
 <byline>Written by DAVID GARRICK, <abbr>Esq</abbr>;</byline>
@@ -4136,8 +4134,7 @@ Oh! shame upon you—for the time to come</l>
 </lg>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

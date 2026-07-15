@@ -7,18 +7,18 @@
 <extent>[4],vii,[1],98,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1780.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT30410.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE CHAPTER of ACCIDENTS: A COMEDY, IN FIVE ACTS.</p>
 <p>PRICE ONE SHILLING and SIX-PENCE.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE Chapter of Accidents: A COMEDY, IN FIVE ACTS, As it is performed at the THEATRE-ROYAL IN THE <hi>HAY-MARKET.</hi></p>
 <p>WRITTEN by MISS LEE.</p>
 <p>LONDON: Printed for T. CADELL, in the Strand. M.DCC.LXXX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>To MRS. P—.</head>
 <lg>
@@ -41,8 +41,8 @@
 <l>While Heav'n's supreme indulgence gives to me</l>
 <l>Its charms combin'd, and realiz'd in thee.</l>
 </lg>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="ii" facs="4"/>
 <head>PREFACE.</head>
 <p>THE aversion a woman ought to feel at the necessity of engaging even in a literary contest has induced me to endure a variety of imputations; yet, to publish a piece, and leave all unanswered, might at once give a sanction to the past, and encourage future slanders:—let this plead my excuse for introducing myself to those who have so generously received a comedy I would wish more worthy their patronage.</p>
@@ -56,8 +56,8 @@ hands above a twelvemonth ago. The praises he gave it induced my friend to own m
 bought if I gave up all merit for it; I therefore wrote him a civil letter, and finally withdrew it.</p>
 <p>I shall not expatiate on this treatment. I was perhaps in some degree blameable, for believing that man would set any value on my time or my money, who knew not the value of his own; nay, I may be in reality obliged to him in one sense, since his acceptance of my Comedy would inevitably have consigned to oblivion those parts of it honored with the most lavish applause.</p>
 <p>What pleasure do I feel in retracting the general aspersion cast upon managers, when I speak of Mr. Colman—Obliged to get the piece represented if possible, lest the subject should be borrowed (an evil too common of late) I enclosed it with an anonymous letter to that Gentleman, briefly relating these particulars, and it was left at his house early in the year by an unknown person. At the expiration of a fortnight the manuscript or his answer was demanded, and the latter by this means rendered both impartial and decisive. Mr. Colman thought the general name of Author entitled to the compliment of his own hand-writing; and, by a flattering opinion, and immediate acceptance of my piece, encouraged me to avow myself. By his advice I cut out the songs, and lengthened it into five acts. Nor did his kindness end there. He gave me the benefit of his judgment and experience, both in heightening and abbreviating the business, with every attention in casting and getting it up; generously uniting to the name of Manager that of Friend Mr. Colman has brought into notice a woman who will ever with pride and pleasure acknowledge the obligation.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="vi" facs="8"/>
 <head>PROLOGUE.</head>
 <byline>Written by <hi>GEORGE COLMAN,</hi> <abbr>Esq</abbr></byline>
@@ -112,8 +112,8 @@ bought if I gave up all merit for it; I therefore wrote him a civil letter, and 
 <l>With cruel coyness treat the other sex.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>PERSONS.</head>
 <list>
@@ -131,16 +131,15 @@ bought if I gave up all merit for it; I therefore wrote him a civil letter, and 
 <item><label>Warner, Housekeeper to Lord Glenmore,</label> Mrs. LOVE.</item>
 <item><label>Bridget, Maid to Cecilia,</label> Mrs. WILSON.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>Scene, London.</hi></p>
 <p><hi>Time, twenty-four Hours.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="11"/>
 <head>THE CHAPTER of ACCIDENTS: A COMEDY.</head>
-<div2 n="1" type="act">
-<div3 type="scene">
+<div n="1" type="act">
+<div type="scene">
 <head>SCENE I. <stage><hi>A Hall.</hi></stage></head>
 <stage><hi>Enter</hi> Vane <hi>in a Riding Dress, and a Footman.</hi></stage>
 <sp>
@@ -196,8 +195,8 @@ like cream when it's skimming. Why, sir, says I, her father unluckily died, just
 Zounds, here's my Lord!</p>
 </sp>
 <stage>Exeunt confusedly.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>An Antichamber.</stage></head>
 <stage><hi>Lord</hi> Glenmore <hi>and the</hi> Governor <hi>meet; the latter hobbling.</hi></stage>
 <sp>
@@ -427,8 +426,8 @@ creature; by following him, you will find out where she lives. Prepare then as q
 <p>A pretty errand this his formal Lordship has honor'd me with!—um;—if I <hi>betray</hi> him, shall I not get more by it?—ay, but our heir is such a sentimental spark, that, when his turn was serv'd, he might betray <hi>me.</hi> Were he one of your hare-um scare-um, good-natur'd, good-for-nothing fellows, it would go against my conscience to do him an ill turn.—I believe, I stand well in my Lord's will, if Counsellor Puzzle may be trusted, (and, when he can get nothing by a lye, perhaps he may tell truth) so, like all thriving men, I will be honest because it best serves my interest.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A confin'd Garden.</stage></head>
 <stage>Woodville <hi>walking about.</hi></stage>
 <sp>
@@ -512,12 +511,12 @@ oh no!—she possesses ev'ry virtue but the one I have robbed her of.
 <stage>Exit.</stage></p>
 </sp>
 <trailer>THE END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="27"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>An elegant Dressing-Room, with a Toilette richly ornamented. A Harpsichord, and a Frame with Embroidery.</stage></head>
 <stage>Bridget <hi>fetches various small Jars with Flowers, and talks as she places them.</hi></stage>
 <sp>
@@ -691,8 +690,8 @@ but do not regulate your conduct by mine, nor make me an argument with yourself,
 <p>Disinterested, exalted girl!—why add such a needless bar? for is it possible to gain my father's consent? and yet, without her, life would be insupportable:—the censures of the world,—what is that world to me?—were I weak enough to sacrifice her to the erroneous judgment of the malicious and unfeeling, what does it offer to reward me?—commendations I can never deserve, and riches I can never enjoy.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="24" facs="34"/>
 <hi>SCENE,</hi> <stage>A Street before <hi>Cecilia's</hi> House.</stage></head>
 <stage>Jacob <hi>opens the Door and lets out</hi> Woodville, <hi>who passes over the Stage</hi>; Jacob <hi>remains with his Hands in his Pockets, whistling.</hi></stage>
@@ -825,8 +824,8 @@ the zum people be zo zharp as needles.—But there's no pleace like it, for all 
 equals modestly content themselves with the cast-offs of half <hi>their acquaintance.</hi>
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>An Apartment in <hi>Cecilia's</hi> House.</stage></head>
 <stage><hi>Enter</hi> Bridget.</stage>
 <sp>
@@ -1021,8 +1020,8 @@ employ the interim to the best advantage, and hope every thing from daring to de
 <stage><hi>alone.</hi></stage>
 <p>Astonishing interposition of heav'n!—Hope?—what have I to hope?—but, let the consciousness of acting rightly support me in the sad moment of renouncing Woodville; and, in him, all that render'd life desirable.</p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Lord</hi> Glenmore's <hi>House.</hi></stage></head>
 <stage><hi>Lord</hi> Glenmore <hi>and</hi> Vane.</stage>
 <sp>
@@ -1088,8 +1087,8 @@ for your Lordship could induce me to think of this;—though born without rank a
 <p>Come, come; my good lad! I guess what you would say: but we have no time for speeches.—I have set my heart on the success of the project; and you shall find your interest in indulging me.
 <stage>Exeunt different ways.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Miss</hi> Mortimer's <hi>Apartment.</hi></stage></head>
 <stage><hi>Enter Captain</hi> Harcourt, <hi>meeting Miss</hi> Mortimer.</stage>
 <sp>
@@ -1186,12 +1185,12 @@ That must not be; yet his warmth alarms me.—Nay but, my dear, think deliberate
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF THE SECOND ACT</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="39" facs="49"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE I.</hi> <stage>A magnificent Drawing-Room.</stage></head>
 <stage><hi>Miss</hi> Mortimer <hi>pouring out Coffee sends it to the Company; Captain</hi> Harcourt <hi>leans against a Pannel near her, sipping it; at a little Distance the</hi> Governor <hi>and</hi> Woodville <hi>playing at Backgammon, while Lord</hi> Glenmore <hi>leans over his Chair, thoughtfully observing the Behaviour of his Son, who loses merely to make his Uncle leave off.</hi></stage>
 <sp>
@@ -1318,8 +1317,8 @@ and I dare not give the least symptoms of disgust, lest that troublesome old unc
 <p>And I will give a little lecture to my myrmidons, and wait with them your pleasure. Od, it will be precious sport, to catch madam so unawares, and see her play off every virtuous grimace with which she entangled young 'Seapegrace.
 <stage>Exeunt severally.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>The Hall.</stage></head>
 <stage><hi>Enter</hi> Vane, <hi>looking about.</hi></stage>
 <sp>
@@ -1631,8 +1630,8 @@ I won't trust this weathercock 'till all is safe.—I care not what becomes of h
 <p>The devil he is!—why then I must consign my intended to him for one more night, and persuade my Lord to delay our seizure till morning;—for, to meet with him would certainly produce an agreement of all parties, and a marriage which would never enroll my name in the family-pedigree or governor's will.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="52" facs="62"/>
 SCENE, <stage>Cecilia's <hi>Dressing-room.</hi></stage></head>
 <stage>Candles burning, and her Clothes scatter'd.</stage>
@@ -1646,7 +1645,7 @@ Nobody answer—I don't understand this.—Perhaps I shall disturb her,—I'll s
 <stage>[goes off and presently returns disordered]</stage>
 not there!—her clothes too, the same she had on last!—oh, my heart misgives me!—but where are all the servants?
 <stage>[rings very violently, calling at the same time,]
-Bridget! Robert! Jacob!]</stage></p>
+<said direct="true">Bridget! Robert! Jacob!</said>]</stage></p>
 <stage><hi>Enter</hi> Bridget, <hi>with her Hat on.</hi></stage>
 <p>—Bridget! what's become of your Lady?</p>
 </sp>
@@ -2024,12 +2023,12 @@ by your holy profession, I conjure you, stay!—plunge me not into total despair
 <stage>Exeunt.</stage></p>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="63" facs="73"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Cecilia's <hi>House.</hi></stage></head>
 <stage>Bridget <hi>dressed in</hi> Cecilia's <hi>Clothes, mixed with every thing vulgar and tawdry.</hi></stage>
 <sp>
@@ -2396,8 +2395,8 @@ Convey her to my house, and lock her up in one of the lofts over the stables;—
 <p>Oh dear, oh dear! to be hanged at last for another's crime is all that vexes me.</p>
 </sp>
 <stage><hi>They carry her off,</hi> Governor <hi>follows.</hi></stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Miss</hi> Mortimer's <hi>Apartment.</hi></stage></head>
 <stage>Cecilia <hi>enters, and sits down to embroidery.</hi></stage>
 <sp>
@@ -2758,12 +2757,12 @@ more whimsical than—even myself.—Yesterday you would have the puss spite of 
 <stage>Exeunt.</stage></p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="80" facs="90"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A mean Room; Boots, Bridles, &amp;c. hanging all round.</stage></head>
 <stage>Bridget <hi>fitting very mournfully, her fine Clothes in great Disorder;—a Table by her, with a small Roll, a Glass of Water, an old dog's-ear'd Book, and a Bit of Looking-glass.</hi></stage>
 <sp>
@@ -2921,8 +2920,8 @@ The only amends you can make me, is by dying—and now, my dear! I will own to y
 <p>Surely my locking up does end very comical.
 <stage>Exeunt arm in arm.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="85" facs="95"/>
 <hi>SCENE,</hi>—<stage>The Drawing-Room.</stage></head>
 <stage><hi>Miss</hi> Mortimer <hi>and Captain</hi> Harcourt.</stage>
@@ -3450,10 +3449,9 @@ I'd throw in something pretty on his side, I promise you.</p>
 <speaker>Grey.</speaker>
 <p>Yes, my Cecilia, you may believe <hi>him,</hi> who never gave you a bad lesson, that you are now most truly entitled to esteem; since it requires a far greater exertion to stop your course down the hill of vice, than to toil slowly up toward virtue.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

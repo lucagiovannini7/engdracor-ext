@@ -7,14 +7,14 @@
 <extent>68,[2]p. ; 12⁰.</extent><publicationStmt><publisher>printed by Brett Smith, for Messrs. P. Wogan, P. Byrne, C. Brown, and G. Folingsby,</publisher><date>1796.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT21282.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 <head>NON DEFICIT ALTER</head>
 <p><hi>Stainforth</hi></p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>ALMEYDA, <hi>QUEEN OF GRANADA.</hi></p>
 <p>A TRAGEDY, IN FIVE ACTS.</p>
@@ -25,8 +25,8 @@
 <bibl>DRYDEN.</bibl>
 <p><hi>DUBLIN:</hi> PRINTED BY BRETT SMITH, FOR MESSRS. P. WOGAN, P. BYRNE, C. BROWN, AND G. FOLINGSBY.</p>
 <p>1796.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head><hi>TO</hi> MRS. SIDDONS.</head>
 <opener><salute>DEAR MADAM,</salute></opener>
@@ -34,15 +34,15 @@
 <closer>I remain, <salute>DEAR MADAM,</salute>
 <signed>Your faithfully devoted Humble servant, SOPHIA LEE.</signed>
 <date>June 3, 1796.</date></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="4"/>
 <head>ADVERTISEMENT.</head>
 <p>IT was with no less awe than deference I ventured, in the present day, to bring a Tragedy before the Publick. How great, then, must be my gratitude for the liberal acceptation it has met, and the tears with which it has been honoured. I must have wanted taste and feeling, not to have been animated, by the exquisite talents of Mrs. SIDDONS, into an exertion of such as I possess. That I have been the means of displaying, in a new point of view, her various powers, is a most flattering recompence.</p>
 <p>The story of ALMEYDA is wholly a fiction; and the incident which produces the catastrophe the only one not my own.—The deep impression made on me, long since, by a similar <hi>denouement,</hi> in an old play of JAMES SHIRLEY's, determined me to apply it.</p>
 <p>The Stage requires a compression and brevity, which seldom improves a play to the reader: I have, therefore, printed ALMEYDA at length, marking by inverted commas the parts omitted in representation.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <sp>
@@ -101,8 +101,8 @@
 </lg>
 </sp>
 <byline>The PROLOGUE and EPILOGUE were written by Miss HARRIET LEE.</byline>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>CHARACTERS.</head>
 <list>
 <item><label>Ramirez, <hi>King of Castile</hi></label> Mr. AICKIN.</item>
@@ -118,17 +118,16 @@
 <item><label>Victoria, <hi>Princess of Castile</hi></label> Mrs. POWEL.</item>
 <item><label>Abra, <hi>sister to Hamet, and attending on the Queen</hi></label> Miss HEARD.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene—A Moorish Castle on a bold rock which overhangs the Guadalquiver.
 Time from the dawning of one morning to the dawning of the next.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head><hi>ALMEYDA:</hi> A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Hall in the Castle, of Moorish architecture, with windows of painted glass, in the recesses of the arches low sofas are placed with cushions piled, on one of these</hi> VICTORIA <hi>slumbers, while</hi> RAMIREZ <hi>walks in the Hall making notes in his tablets; bright fleecy clouds rise behind the painted glass representing the dawn of day.</hi></stage>
 <sp>
@@ -716,12 +715,12 @@ Fair Almeyda!</l>
 <l>To dim with tears these gildings of my fortune!</l>
 </sp>
 <stage>Exeunt, the Music sounding,</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="18" facs="18"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE. I.</hi> <stage>A COURT IN THE CASTLE.</stage></head>
 <stage><hi>Enter</hi> ABDALLAH <hi>and</hi> ORASMYN.</stage>
 <sp>
@@ -929,8 +928,8 @@ Fair Almeyda!</l>
 <l>Yet must she be Orasmyn's bride, or—<hi>nothing.</hi>
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="22" facs="22"/>
 <head><hi>SCENE II.</hi> <stage>THE APARTMENT OF THE QUEEN.</stage></head>
 <stage><hi>Enter</hi> ALMEYDA <hi>followed by</hi> ABRA.</stage>
@@ -1276,11 +1275,11 @@ Fair Almeyda!</l>
 <l>Ev'n tho' alone I breast the beating storm,</l>
 <l>And fall the single object of its rage!</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A COURT IN THE CASTLE.</stage></head>
 <stage><hi>Enter</hi> ABDALLAH, <hi>followed by an officer.</hi></stage>
 <sp>
@@ -1338,8 +1337,8 @@ Fair Almeyda!</l>
 <l>—Now, now, Orasmyn, comes thy fortune's crisis.</l>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>THE HALL OF AUDIENCE.</stage></head>
 <stage><hi>Enter</hi> ALMEYDA, <hi>gazing on a ring.</hi></stage>
 <sp>
@@ -1955,12 +1954,12 @@ Fair Almeyda!</l>
 <l>May one as gen'rous as thyself arise,</l>
 <l>To save thee from a pang more keen than dying!</l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="40" facs="40"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A dark vault irregularly hewn in the rock, extending out of sight on one side, in a vista of rude imperfect pillars.—A small gate leads on the other side, through an enormous crag of the rock</hi>—ALONZO <hi>discover'd, chain'd to a pillar, against which he leans.</hi></stage>
 <sp>
@@ -2758,11 +2757,11 @@ Fair Almeyda!</l>
 <l>It gives a perfect image in each fragment!
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The magnificent Hall with which the Play opens; and similar Clouds, shewing again the Dawn of Morning.</stage>
 <stage>ABDALLAH <hi>enters, finding</hi> ORASMYN <hi>musing.</hi></stage>
@@ -2956,8 +2955,8 @@ Fair Almeyda!</l>
 <l>Haste, then, my friend! Conduct Almeyda hither.
 <stage>Exit Nourassin.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="57" facs="57"/>
 <head>SCENE II.</head>
 <stage><hi>The Council assemble round the Canopy of State.</hi> ALMEYDA <hi>is led on, veiled; she draws the veil at length aside, and, looking majestically around, speaks.</hi></stage>
@@ -3628,12 +3627,11 @@ Fair Almeyda!</l>
 <l>Which thus can antedate the hour of death,</l>
 <l>Or make existence agony!</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="69"/>
 <head>EPILOGUE.</head>
 <stage>To be spoken in a Crier's Gown, and with a Bell.</stage>
@@ -3691,7 +3689,7 @@ Fair Almeyda!</l>
 </sp>
 <stage>Rings the Bell, and exit.</stage>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

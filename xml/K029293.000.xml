@@ -7,7 +7,7 @@
 <extent>[4],83,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by A. Strahan; for T. N. Longman and O. Rees,</publisher><date>1799.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT18518.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>MANAGEMENT: <hi>A COMEDY,</hi> IN FIVE ACTS.</p>
 <p>AT PERFORMED AT THE <hi>THEATRE-ROYAL, COVENT-GARDEN.</hi></p>
@@ -15,8 +15,8 @@
 <p><hi>LONDON: Printed by A. Strahan, Printers Street;</hi> FOR T. N. LONGMAN AND O. REES, PATERNOSTER-ROW.</p>
 <p>1799.</p>
 <p><hi>[Price Two Shillings.]</hi></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE, WRITTEN BY MR. TAYLOR.</head>
 <sp>
@@ -52,8 +52,8 @@
 <l>May Britons glow with philanthropic fire,</l>
 <l>Eager alike to cherish and admire!</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -71,16 +71,15 @@
 <item><label>BETTY</label> MISS LESERVE.</item>
 <item><label>JULIANA</label> MRS. POPE.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE—<hi>The Country.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>MANAGEMENT.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>A View of Sutherland-house, Park, Gardens, &amp;c.</stage>
 <stage><hi>Enter</hi> GEOFFRY <hi>and two other Servants.</hi></stage>
 <sp>
@@ -269,8 +268,8 @@
 <p>To be sure; who ever got any good by these distant relations? Mrs. Worry has a little thousand; and do you know my apartments are so constantly cram'd with cousins, neices, uncles, aunts, and grandmothers, that at dinner-time I never get a chair to sit upon—I eat flying!—And talk of the comforts of a fire-side, curse me if I've been within ten yards of mine since the day I was married:—not that I complain of cold though—my house is warm enough, I promise you:—but come along; and sorry am I to be convinced of Miss Sutherland's ingratitude.—Were she the girl you describe, I would not only be her friend and advocate, but if Sir Hervey refused to protect her, I would myself be a father to her.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="7" facs="10"/>
 <head><hi>SCENE</hi>—</head><stage>An Apartment in the Castle.</stage>
 <stage><hi>Enter Mrs.</hi> DAZZLE <hi>and</hi> BETTY.</stage>
@@ -465,8 +464,8 @@
 <p>So it does—and how the case is alter'd?—formerly wits had no money, and now he that has no money has no wit; for whilst a bad joke will be applauded from the head of a great able, a good one will be lost if spoken by him who has nothing but wit to recommend him!—but away to the manager—let the war begin, and doubt not our victory!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="12" facs="15"/>
 <head><hi>SCENE</hi>—</head><stage>Outside of the Theatre.</stage>
 <stage><hi>Enter</hi> STOPGAP <hi>(from the Box-office).</hi></stage>
@@ -593,13 +592,13 @@
 <p>Why!—who'll pay to look at my clown, when they can see you for nothing—he! he! he!—come along, Stop.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="19"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>Outside of the Castle.</stage>
 <stage><hi>Enter Sir</hi> HERVEY SUTHERLAND, WORRY, <hi>and</hi> GEOFFRY.</stage>
 <sp>
@@ -693,8 +692,8 @@
 <p>I dare not—I dare not—</p>
 <stage>(rushes out, followed by Geoffry).</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>An Apartment in the Castle.</stage>
 <stage><hi>Enter</hi> JULIANA.</stage>
 <sp>
@@ -818,8 +817,8 @@
 <p>I'm sure you will not: and pray remind my father, that I have suffered in my turn; that we are partners in calamity, and by meeting we might divide and dissipate each other's woes.—Tell him—but you know my thoughts, and to your conduct I commit a cause on which my hope, my happiness, my life depends!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="22" facs="25"/>
 <head><hi>SCENE</hi>—</head><stage>Another Apartment in the Castle, <hi>Mrs. DAZZLE</hi> and <hi>MIST</hi> discovered sitting at a Table— <hi>MIST</hi> with a Manuscript in his Hand.</stage>
 <sp>
@@ -1199,13 +1198,13 @@
 <p>No: had she copied your bright and excellent example, this ne'er had happened—but though her errors even exceed her mother's, and a reconciliation is more than ever distant, yet she is still my child!—and in a moment dangerous as the present, for my own sake I'll prove a friend and father.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="31" facs="34"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>An Apartment in <hi>LAVISH</hi>'s House—Recess with small Folding Doors, which are thrown open, and discover a Marble Pedestal surrounded by Doves and Cupids—a Table with Wine and Refreshments upon it.</stage>
 <stage><hi>Enter</hi> FRANK <hi>and a</hi> Workman.</stage>
 <sp>
@@ -1445,8 +1444,8 @@
 <p>Ay, I will, if I save it a thousand ways.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="37" facs="40"/>
 <head><hi>SCENE</hi>—</head><stage>Outside of <hi>LAVISH</hi>'s House.</stage>
 <stage><hi>Enter</hi> Mrs. DAZZLE—<hi>her hat and cloak on.</hi></stage>
@@ -1521,8 +1520,8 @@
 <p>So—there she goes into Captain LAVISH'S house: bravo, Miss JULIANA!—and there she may stay for me: I'll to Sir Hervey instantly, and let him come himself and fight it out: for all the legacies registered in Doctors Commons should not induce me to re-enter those doors and receive another warm reception!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>Inside <hi>LAVISH'S</hi> house, recess, &amp;c. as in first Scene of this Act.</stage>
 <stage><hi>Enter</hi> LAVISH <hi>and</hi> Mrs. DAZZLE.</stage>
 <sp>
@@ -1842,13 +1841,13 @@
 <p>Whose!—why it is the fault of those selfish harpies who make economy useless—who raise the price of every article:—and if Sir Hervey and other fighting gentlemen would unload their pistols on jobbers, forestallers, and monopolizers, their valour would be directed to the best purposes—I might live cheap, and the country would be cleared of it's worst enemies!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="48" facs="51"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>Outside of a Theatre, and <hi>MIST'S</hi> house;</stage>
 <stage>LAVISH <hi>discovered listening at the door.</hi></stage>
 <sp>
@@ -2040,8 +2039,8 @@
 <p>There's no occasion; my Goldfinch never failed—"that's your sort!"</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>A grand Saloon in Sutherland House—Masks discovered dancing.</stage>
 <stage><hi>After dance,</hi> ALLTRADE <hi>dressed in a Domino enters with a Servant.</hi></stage>
 <sp>
@@ -2275,8 +2274,8 @@
 <p>No, I deserve it all!—think what I am, and what I might have been!—now an outcast and a beggar, dragged from my home, and plunged into a prison!—and, but for fashion and its errors, that house had been a heaven!—But my child!— go—be swifter than the letter—save her from seeing what will make her curse me; and, whilst it dooms her to eternal misery, will be an everlasting evidence of my disgrace!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="59" facs="62"/>
 <head><hi>SCENE</hi>—</head><stage>An Apartment in <hi>MIST</hi>'s House.</stage>
 <stage><hi>(Knocking at the door.)—Enter</hi> Mrs. DAZZLE.</stage>
@@ -2487,13 +2486,13 @@
 <p>Fortune! oh, if that's all the difficulty, it's only to lessen our expences—to live on a narrow scale:—instead of a house in Grosvenor-square, we must be content with one in Grosvenor-street:—instead of four horses, we must drive only a pair:—and to avoid gaming and giving great entertainments, we must go every night to the play or the opera.—But come—and though thus far I shall stint you, my dear Juliana, in every other respect I'll indulge you to the last shilling—I will, if I save it a thousand ways!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="65" facs="68"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>The Court-yard of a Prison, Wall and great Gates in back Scene; on each Side Apartments in the Prison, and O. P. Steps leading up to a Door.—Moonlight.</stage>
 <stage>Sir HERVEY <hi>and</hi> WORRY <hi>discovered.</hi></stage>
 <sp>
@@ -2809,8 +2808,8 @@
 <p>Repay!—Look! are you not reconciled? Isn't that repaying me?—Oh! I am the happiest fellow living!—No—I forgot Mrs. Worry.</p>
 </sp>
 <stage><hi>Exeunt</hi> O.P.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>A Street in the Town.</stage>
 <stage><hi>Enter</hi> ALLTRADE, Mrs. DAZZLE, <hi>and a</hi> Servant.</stage>
 <sp>
@@ -2871,8 +2870,8 @@
 <pb n="75" facs="78"/>Benedict and Beatrice.—Doors to be opened at eight, and performance begin precisely at nine, Vivant Rex et Regina!—P.M.—. <hi>N. B.</hi> Would have waited on you in person, but Harlequin and slow waggon are just arrived. Delightful! glorious!—now I am rich enough to defy the Captain and his associates:—My compliments to Mr. Mist, I'll wait upon him instantly, and the sooner the marriage takes place, the happier it will make me. <stage>(STOPGAP <hi>exit.</hi>)</stage>—Come, Mr. Alltrade, you shall share my good fortune, and when the Captain brings the agreement, how I shall laugh at him; I now despise, as much as I once loved him.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>Inside of a Theatre.</stage>
 <stage>MIST <hi>discovered.</hi></stage>
 <sp>
@@ -3146,13 +3145,12 @@
 <p>Tell you— Ladies and Gentlemen—on the part of the company in general, and myself
 <pb n="81" facs="84"/>as proprietor, author, actor, and manager in particular—confess faults—acknowledge obligations—and humbly entreat your usual candour and indulgence.—Then getting nearer the lamps— Ladies and Gentlemen, to-morrow and following evening, with your permission, this play will be repeated!</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END OF THE COMEDY.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="82" facs="85"/>
 <head>EPILOGUE, WRITTEN BY GEORGE COLMAN, ESQ.</head>
 <sp>
@@ -3221,8 +3219,8 @@
 <l>"And"—may I add with <hi>truth?</hi>—"applause was "universal."</l>
 </lg>
 </sp>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="87"/>
 <head>PLAYS, <hi>&amp;c. printed for</hi> LONGMAN <hi>and</hi> REES, No. 39, Paternoster Row.</head>
 <list>
@@ -3255,7 +3253,7 @@
 <item>27. SECRETS WORTH KNOWING, a Comedy; by Ditto. 2 s.</item>
 <item>28. LOCK AND KEY, a Farce; by Mr. HOARE. 1 s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

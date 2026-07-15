@@ -7,14 +7,14 @@
 <extent>[8],46,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for Paul Vaillant,</publisher><date>1756.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a final leaf of epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT77884.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE APPRENTICE. A FARCE, IN TWO ACTS, As it is Perform'd at the THEATRE-ROYAL, in <hi>Drury-Lane.</hi></p>
 <p>By Mr. MURPHY.</p>
 <p>LONDON. Printed for PAUL VAILLANT, facing <hi>Southamptonstreet,</hi> in the <hi>Strand.</hi> 1756.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THERE was Room to apprehend, before the Representation of the following Farce, that the Subject might appear extravagant and merely ideal; but the real existence of it is displayed in such a lively and picturesque Manner by the Author of the Prologue, and was at once so universally felt by the Audience, that all necessity of saying any thing farther on this Head is now entirely superseded. What at present remains to be feared, is, that the <hi>Apprentice</hi> will not make so lively a figure in the closet, as on the Stage, where the Parts in general were allowed to be well performed; where <hi>Simon</hi> was represented with a perfection of folly, where the Skill of Mr. <hi>Yates</hi> exhibited the Impotence of a Mind, whose Ideas extend very little beyond the multiplication Table, and whose Passions are ever in a crazy Conflict, unless when they all subside into a sordid Love of Gain; and where Mr. <hi>Woodward's</hi> admirable comic Genius gave such a Spirit to the whole, that there is Reason to think, whenever he relinquishes the Part, the <hi>Apprentice</hi> may again elope from his Friends, without any one's desiring him to Return to his Business.</p>
@@ -24,8 +24,8 @@ Time to consider the Depth of it—<hi>Po!</hi> says another, <hi>this is not al
 <p>But this is prefacing a Farce as if it were a Thing of moment; I shall therefore dismiss it to the Press, without adding any Thing farther, except my grateful Acknowledgements for the very favourable Reception, with which the Public has honoured the trifling Scenes of</p>
 <closer><signed><hi>Their most obliged and most obedient Servant,</hi> ARTHUR MURPHY.</signed>
 <dateline><hi>Tavistock Row</hi> <date>5th Jan. 1756.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE</head>
 <byline>written by Mr. GARRICK,</byline>
@@ -78,8 +78,8 @@ Time to consider the Depth of it—<hi>Po!</hi> says another, <hi>this is not al
 <l>Some Hopes I cherish — in <hi>your SMILES</hi> I read 'em;</l>
 <l>Whate'er my Faults, — your Candor can exceed 'em.</l>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="6"/>
 <head>EPILOGUE</head>
 <byline>written by a FRIEND,</byline>
@@ -136,13 +136,13 @@ Time to consider the Depth of it—<hi>Po!</hi> says another, <hi>this is not al
 <l>Be timely wise, for oh! be sure of this; —</l>
 <l>A Shop with Virtue, is the Height of Bliss.</l>
 </sp>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="8"/>
 <p>Speedily will be published <hi>In Two Volumes</hi> 12<span rend="sup">mo</span> PRICE bound SIX SHILLINGS THE GRAYS-INN JOURNAL.</p>
 <p>BY Mr. <hi>Murphy.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="9"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -156,15 +156,14 @@ Time to consider the Depth of it—<hi>Po!</hi> says another, <hi>this is not al
 <item><hi>Catchpole,</hi> a Bayliff. <hi>Mr.</hi> VAUGHAN.</item>
 <item><hi>Spouting-club, Watchmen,</hi> &amp;c.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="10"/>
 <head>THE APPRENTICE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> WINGATE <hi>and</hi> SIMON.</stage>
 <sp>
@@ -708,13 +707,13 @@ follow—but 'tis torn off—because the Note is paid.—</p>
 Genius—If she flies to my Arms like a Hawk to its Perch, it will he so rare an Adventure, and so Dramatic an Incident;—</p>
 <p><note n="*">The Orphan.</note>Limbs do your Office, and support me well; Bear me but to her, then fail me if you can.</p>
 </sp>
-</div3>
+</div>
 <trailer><hi>END of the</hi> FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="30"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Scene discovers the Spouting-Club, the Members seated and roaring out</hi> Bravo, <hi>while one stands at a Distance repeating.</hi>—</stage>
 <sp>
@@ -975,8 +974,8 @@ now to my Freend the Bookseller, and translate <hi>Cornelius Tacitus,</hi> or <h
 <p>Huzza, Huzza!—</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a <hi>Street.</hi></stage></head>
 <stage>Enter a Watchman.</stage>
 <sp>
@@ -1058,8 +1057,8 @@ now to my Freend the Bookseller, and translate <hi>Cornelius Tacitus,</hi> or <h
 <p>Come, come, bring 'em along</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>another Street.</hi></stage></head>
 <stage><hi>Enter</hi> Dick, <hi>with a Lanthorn and a Ladder.</hi></stage>
 <sp>
@@ -1521,8 +1520,8 @@ under Troubles—I brought it from a Spunging-House.</p>
 <p>Yes, Sir, — it's in <hi>Grays-inn-Lane.</hi></p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>Scene</hi> <stage><hi>a Spunging-House,</hi> Dick <hi>and</hi> Bailiff <hi>at a Table, and</hi> Charlotte <hi>sitting in a disconsolate Manner by him.</hi></stage></head>
 <sp>
 <speaker>Bailiff.</speaker>
@@ -1803,10 +1802,9 @@ under Troubles—I brought it from a Spunging-House.</p>
 <l>And all is Farce and Mummery at best.</l>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

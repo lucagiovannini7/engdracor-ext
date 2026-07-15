@@ -7,7 +7,7 @@
 <extent>69,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed by John Bell,</publisher><date>1793.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Arthur Murphy.</note><note>With a final leaf of epilogue.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN12927.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE RIVAL SISTERS.</p>
 <p>A TRAGEDY.</p>
@@ -19,8 +19,8 @@
 <p>The Lines distinguished by inverted Commas, are omitted in the Representation, and those printed in Italics are Additions.</p>
 <p><hi>LONDON:</hi> PRINTED BY JOHN BELL, <hi>British Library,</hi> STRAND, Bookseller to His ROYAL HIGHNESS the PRINCE of WALES.</p>
 <p>MDCC XCIII.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE</head>
 <p>THERE is, perhaps, nothing more uninteresting than the generality of those preliminary discourses, in which Authors too frequently lay out much of their time in talking of themselves and their works. The importance of a Man to himself is fully displayed, while the Reader yawns over the tedious page, or laughs at the rhetoric, that would persuade him he ought to be pleased. The present Writer has been unwilling, upon almost all occasions, to conform to a practice which he saw attended with so little success: But the following Tragedy is sent into the worla in a manner that may require some explanation. It has not gone through the siery trial of the Theatre; nor is it recommended by the favourable decision of an Audience. The pomp of splendid scenery, and the illusions of the skilful performer, have not awakened the public attention:—The Play ventures abroad, without having previously gained, by the advantages of representation, a character, which in the leisure of the closet is not always supported. But this circumstance, while it raises no expectation, may, on the other hand, excite a prejudice not casy to be sarmounted. If it be of any value, why was it not produced in the usual form of a Public Exhibition? The reasons that influenced the Author, would lead to a long and frivolous detail. Whatever those reasons were, whether caprice, whim, peevishness, or delicacy, they were of weight to determine his conduct. His work, however, does not go forth with accusations of any kind against the Proprietors of either Theatre: it makes no appeal from their judgment. The fact is, it never was in their hands; and where there was no refusal, there can be no room for complaint.</p>
@@ -41,8 +41,8 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>Ne poputum extrem'd toties exoret arenà.</l>
 <bibl>HOR.</bibl>
 <closer><dateline>LINCOLN'S-INN, <date><hi>March</hi> 4, 1786.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <head type="sub">DRURY-LANE.</head>
@@ -61,16 +61,15 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <item><label>PHAEDRA,</label> — Mrs. Powell</item>
 </list>
 <p>VIRGINS <hi>attending on</hi> Ariadne, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 <set><p>SCENE, <hi>the Palace of</hi> Periander, <hi>in the Isle of</hi> Naxos.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
+<div n="1" type="act">
 <head>THE RIVAL SISTERS.</head>
-<div2 n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>PERIANDER'S <hi>Palace. A violent Storm of Thunder and Lightning. Enter</hi> PHAEDRA <hi>and</hi> ARCHON.</stage>
 <sp>
@@ -725,12 +724,12 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>And with her virtues dignifies a throne.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="18"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> PERIANDER, <hi>with Attendants.</hi></stage>
 <sp>
@@ -1275,8 +1274,8 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>Thou still canst guide me through the maze of fate.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Soft Music is heard. Enter</hi> ARIADNE, <hi>with a train of</hi> Virgins.</stage>
 <sp>
@@ -1733,12 +1732,12 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>Sooth all our cares, and brighten every joy.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="34" facs="32"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> ARIANDE <hi>and</hi> THESEUS.</stage>
 <sp>
@@ -2589,12 +2588,12 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>Pour forth my rage, pour forth my fondness too,</l>
 <l>And perhaps prove him innocent at last.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="46" facs="44"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> ARIADNE.</stage>
 <sp>
@@ -3130,7 +3129,7 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <speaker>"<hi>Phae.</hi></speaker>
 <l>Appease her anger, gods, and grant her patience!</l>
 </sp>
-<stage>Aside."</stage>
+<stage>Aside.</stage>
 <sp>
 <speaker>Ari.</speaker>
 <l>And must I live to see her haughty triumph?</l>
@@ -3419,12 +3418,12 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>"One gen'rous effort more may make him mine."</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="58" facs="56"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> ALETES, <hi>followed by an</hi> OFFICER.</stage>
 <sp>
@@ -4139,7 +4138,7 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>"She now demands our-sympathy and care.</l>
 </sp>
 <stage>Exeunt.</stage>
-<stage>"<hi>The Back Scene opens; the Harbour and the Sea in view."</hi></stage>
+<stage>"<hi>The Back Scene opens; the Harbour and the Sea in view.</hi></stage>
 <stage><hi>Enter</hi> ARIADNE <hi>with Attendants.</hi></stage>
 <sp>
 <speaker>"<hi>Ari.</hi></speaker>
@@ -4198,7 +4197,7 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>Will soon subside, and peace, and love, and joy,</l>
 <l>Revisit your sad heart.</l>
 </sp>
-<stage>"They lead her forward."</stage>
+<l>"They lead her forward."</l>
 <sp>
 <speaker>"<hi>Ari.</hi></speaker>
 <l>No, never, never;</l>
@@ -4337,12 +4336,11 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>And the keen pangs of ill requited love.</l>
 </sp>
 <stage>Exeunt Omnes.</stage>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="prologue">
+<div type="prologue">
 <pb facs="68"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY I. P. KEMBLE. Spoken by Mr. WROUGHTON.</byline>
@@ -4388,8 +4386,8 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>Should he deserve—you'll not withhold applause.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="69"/>
 <head>EPILOGUE</head>
 <sp>
@@ -4457,7 +4455,7 @@ honour, increased his t'midity: he was unwilling to appear a candidate for their
 <l>And <hi>KING,</hi> and <hi>LORDS,</hi> and <hi>COMMONS</hi> guard the land.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

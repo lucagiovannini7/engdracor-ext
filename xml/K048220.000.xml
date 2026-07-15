@@ -7,7 +7,7 @@
 <extent>[4],35,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Debrett,</publisher><date>1789.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53654.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE LITTLE HUNCH-BACK; OR, A FROLIC IN BAGDAD.</p>
 <p><hi>A FARCE.</hi></p>
@@ -16,8 +16,8 @@
 <p>WRITTEN BY JOHN O'KEEFFE.</p>
 <p>Author of Tony Lumpkin in Town—Son-in-Law—Dead Alive—Agreeable Surprize—Positive Man—Castle of Andalusia—Poor Soldier—Birth-Day; or, Prince of Arragon—Fountainbleau; or, Our Way in France—The Beggar on Horseback—Young Quaker—Peeping Tom—Siege of Curzola—Love in a Camp; or, Patrick in Prussia—Farmer—Prisoner at Large—Highland Reel—The Toy—Pharo Bank, &amp;c.</p>
 <p>LONDON: Printed for J. DERRETT, opposite. Burlington-House, Piccadilly, 1789.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -42,17 +42,16 @@
 <item><label>Juggy,</label> — Mrs. WEBB.</item>
 </list>
 <p>Janizaries, Mutes, Officers, Mob, Boy, &amp;c. &amp;c.</p>
-</div1>
+</div>
 <set><p><hi>Scene Bagdad.</hi></p>
 <p><hi>Time, an Evening, Night, and Morning.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="3"/>
 <head>THE LITTLE HUNCH-BACK.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A Street in Bagdat. The Bassa's Palace in View.</stage></head>
 <stage>Enter Zebede.</stage>
 <sp>
@@ -335,8 +334,8 @@
 <speaker>Crumpy.</speaker>
 <p>They great men; the rascals, slaves, ah, hah; trip, skip; come, tol, lol, lol. <stage>(Exit singing and dancing, Absalom follows, admiring him).</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>An Antichamber of the Palace.</stage></head>
 <stage>Enter Zebede and Habby meeting.</stage>
 <sp>
@@ -494,8 +493,8 @@
 <p>And my poor rascally nephew. Dear me, what is all this?</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>An magnificent Apartment in the Palace.</stage></head>
 <stage>Enter Bassa and Babouc.</stage>
 <sp>
@@ -858,13 +857,13 @@
 <stage>(sings and dances)</stage>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="17"/>
 <head>ACT II.</head>
-<div3 n="1" type="act">
+<div n="1" type="act">
 <head>SCENE I.</head>
 <stage>A street; Cross-Leg's house near the front; towards the back, the Doctor's and Zebedes. Late in the evening, a tumultuous huzzaing without.</stage>
 <stage>Enter Cadi with officers, Crier, and a great mob; Zebede and Cross-Leg, with a basket, following.</stage>
@@ -1103,8 +1102,8 @@ for you.—Dora, do you sneak into your step-father's, the Doctor's, and pick up
 <p>Foolish!—You'll have time enough for kissing. Go. <stage>(to Dora).</stage> Come—</p>
 </sp>
 <stage>Exeunt. Dora into Doctor's, and Absalom and Habby into Zebede's.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Inside of Cross-Leg's.</hi></stage></head>
 <stage>(Turkish boy brings on a table, lays cloth, &amp;c. and goes off.)</stage>
 <stage>Enter Cross-Leg, Crumpy and Juggy. (laughing)</stage>
@@ -1573,8 +1572,8 @@ make out a joke for the Bassa, that bill <stage>(slipping a paper into Cross-Leg
 <p>This little Turk is not as big as half a Christian, and yet he is as heavy as two popes. Oh, dear:</p>
 <stage>Exit with Crumpy.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>The street before Cross-Leg's house.</hi></stage></head>
 <stage>(Moon light) Enter Juggy at the door.</stage>
 <sp>
@@ -1798,8 +1797,8 @@ make out a joke for the Bassa, that bill <stage>(slipping a paper into Cross-Leg
 <p>All's well!</p>
 <stage>(Cross-Leg shuts the door)</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>Doctor's study, with books, phials and anatomical subjects.</hi></stage></head>
 <stage>Enter Dora.</stage>
 <sp>
@@ -1951,8 +1950,8 @@ make out a joke for the Bassa, that bill <stage>(slipping a paper into Cross-Leg
 <p>Den if yon don't, de hangman vil find a rope for you and me, allez depechez vous.</p>
 <stage>Exeunt severally.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>A room at the top of Zebede's house, a table, accompt books, chesis, strong boxes, &amp;c.</hi></stage></head>
 <stage>Enter Habby.</stage>
 <sp>
@@ -2119,8 +2118,8 @@ What do you do that for?—None of your tricks.</p>
 <pb n="32" facs="34"/>the streets, and so near morning, the watch are gone off their stands—you nasty little beast!—you was my plague when alive, and now you must throw your death upon me with your gambols <stage>(feels Crumpy)</stage> he is yet warm—but once he's out of my house, let him die or live! Come on my back, and the devil take your hump.</p>
 <stage>Exit, with Crumpy on his back.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage><hi>The street. (day break)</hi></stage></head>
 <stage>(Zebede discovered placing Crumpy up against a wall)</stage>
 <stage>Enter Crank and Cabin-boy. <hi>(Crank elevated with wine)</hi></stage>
@@ -2340,13 +2339,12 @@ What do you do that for?—None of your tricks.</p>
 <l>Still your's the laugh, and mine the thump,</l>
 <l>So you're still pleas'd with Little Crump.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb n="36" facs="38"/>
 <head>BOOKS printed for J. DEBRETT.</head>
 <p>JOURNAL of a VOYAGE from PORT JACKSON, NEW SOUTH WALES, to CANTON, in 1788, through an UNEXPLORED PASSAGE; with Views of the ISLANDS DISCOVERED, a correct Diary of the Weather, &amp;c. &amp;c. By THOMAS GILBERT, Esq. Commander of the Charlotte Elegantly printed in 4to.</p>
@@ -2354,8 +2352,7 @@ What do you do that for?—None of your tricks.</p>
 <p>A JOURNAL of a VOYAGE to BOTANY BAY, in NEW SOUTH WALES; with a full and accurate Account of his Majesty's Settlement at that Place, Port Jackson, and Norfolk Island; a Description of the Natives, a correct Diary of the Weather, Latitudes and Longitudes, &amp;c. &amp;c. By JOHN WHITE, Esq. Surgeon-General to his Majesty's Forces, and to the Settlement in New South Wales. Illustrated with a great Variety of Plates of Non-descript Animals, Birds, Serpents, Lizards, curious Cones of Trees, &amp;c. &amp;c. and other natural Productions of New South Wales, copied from Nature, by Miss Stone, Mr. Nodder, Mr. Catton, &amp;c. and engraved by the best Artists. Elegantly printed in one Volume, Royal 4to.</p>
 <p>The Editor takes the Liberty of informing the Subscribers to the Work, and the Public in general, that it is in great forwardness, and will be published with all possible Expedition, consistent with the necessary regard to be paid to the Engravings. He begs Leave to add, that in the Execution of this important Part of the Work, no Expence nor Care have been spared; and that the most celebrated Artists in each Department have been employed.</p>
 <p>{inverted ⁂} Specimens of the Subjects of the Engravings may be seen at J. Debrett's. Gentlemen desirous of early Impressions of the Plates, are requested to transmit their Names as above, or to their respective Booksellers.</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

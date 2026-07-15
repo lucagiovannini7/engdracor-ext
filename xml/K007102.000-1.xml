@@ -98,12 +98,11 @@ This night, our wit, the pert apprentice cries,</l>
 <set><p>Scene, LONDON.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="103" facs="104"/>
 <head>THE GOOD-NATUR'D MAN.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>an apartment in YOUNG HONEYWOOD'S house.</stage></head>
 <stage>Enter SIR WILLIAM HONEYWOOD, JARVIS.</stage>
 <sp>
@@ -709,12 +708,12 @@ fortune; and you have your choice—to marry her, or pack out of doors without a
 <speaker>CROAKER.</speaker>
 <p>Well, well, it's a good child, so say no more; but come with me, and we shall see something that will give us a great deal of pleasure, I promise you; old Ruggins, the curry-comb-maker, lying in state; I'm told he makes a very handsome corpse, and becomes his coffin prodigiously. He was an intimate friend of mine, and these are friendly things we ought to do for each other. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="124" facs="125"/>
 <head>ACT THE SECOND.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>CROAKER'S house.</stage></head>
 <stage>MISS RICHLAND, GARNET.</stage>
 <sp>
@@ -1324,12 +1323,12 @@ the matter with the boy all this day; he has got into such a rhodomontade manner
 <speaker>LEONTINE.</speaker>
 <p>Whatever it be, my dearest, I'm resolv'd to put it out of fortune's power to repeat our mortification. I'll haste, and prepare for our journey to Scotland this very evening. My friend Honeywood has promis'd me his advice and assistance. I'll go to him, and repose our distresses on his friendly bosom: and I know so much of his honest heart, that if he can't relieve our uneasinesses, he will at least share them. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="144" facs="145"/>
 <head>ACT THE THIRD.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>YOUNG HONEYWOOD'S house.</stage></head>
 <stage>BAILIFF, HONEYWOOD, FOLLOWER.</stage>
 <sp>
@@ -1920,11 +1919,11 @@ Enter LOFTY.</stage>
 <speaker>SIR WILLIAM.</speaker>
 <p>Well, it may be shorter, and less fatiguing, than you imagine. I know but too much of the young lady's family and connexions, whom I have seen abroad. I have also discovered that miss Richland is not indifferent to my thoughtless nephew; and will endeavour, tho' I fear, in vain, to establish that connexion. But, come, the letter I wait for must be almost finished; I'll let you further into my intentions, in the next room. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT THE FOURTH.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>CROAKER'S house.</stage></head>
 <sp>
 <speaker>LOFTY.</speaker>
@@ -2576,11 +2575,11 @@ happy is my friend, to be the favourite of one with such sense to distinguish me
 <speaker>CROAKER.</speaker>
 <p>Yes; and my universal benevolence will hang the dog, if he had as many necks as a hydra.</p>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT THE FIFTH.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>an inn.</stage></head>
 <stage>Enter OLIVIA, JARVIS.</stage>
 <sp>
@@ -2728,7 +2727,7 @@ going off, are you? Then, first, if you please, take a word or two from me with 
 </sp>
 <sp>
 <speaker>CROAKER.</speaker>
-<p>I want no information from you, puppy: and you too, good madam, what answer have you got? Eh <stage>(<hi>A cry without, stop him.</hi>)</stage> I think I heard a noise. My friend Honeywood without—has he seized the incendiary? Ah, no, for now I hear no more on't.</p>
+<p>I want no information from you, puppy: and you too, good madam, what answer have you got? Eh <stage>(<hi>A cry without, <said direct="true">stop him</said>.</hi>)</stage> I think I heard a noise. My friend Honeywood without—has he seized the incendiary? Ah, no, for now I hear no more on't.</p>
 </sp>
 <sp>
 <speaker>LEONTINE.</speaker>
@@ -2761,7 +2760,7 @@ going off, are you? Then, first, if you please, take a word or two from me with 
 <sp>
 <pb n="188" facs="189"/>
 <speaker>CROAKER.</speaker>
-<p>Ah, rogue, if you knew how earnestly he entered into my griefs, and pointed out the means to detect them, you would love him as I do. <stage>(<hi>A cry without, stop him</hi>)</stage> Fire and fury! they have seized the incendiary: they have the villain, the incendiary in view. Stop him, stop an incendiary, a murderer; stop him. <stage>[Exit.</stage></p>
+<p>Ah, rogue, if you knew how earnestly he entered into my griefs, and pointed out the means to detect them, you would love him as I do. <stage>(<hi>A cry without, <said direct="true">stop him</said></hi>)</stage> Fire and fury! they have seized the incendiary: they have the villain, the incendiary in view. Stop him, stop an incendiary, a murderer; stop him. <stage>[Exit.</stage></p>
 </sp>
 <sp>
 <speaker>OLIVIA.</speaker>
@@ -3237,12 +3236,11 @@ country, I will even try if my hand has not power to detain him. <stage>[Giving 
 <speaker>HONEYWOOD.</speaker>
 <p>Yes, sir, I now too plainly perceive my errors. My vanity, in attempting to please all, by fearing to offend any. My meanness in approving folly, lest fools should disapprove. Henceforth, therefore, it shall be my study to reserve my pity for real distress; my friendship for true merit; and my love for her, who first taught me what it is to be happy.</p>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="204" facs="205"/>
 <head>EPILOGUE.<note n="*" place="foot">The author, in expectation of an Epilogue from a friend at Oxford, deferred writing one himself till the very last hour. What is here offered, owes all its success to the graceful manner of the actress who spoke it.</note></head>
 <stage>SPOKEN BY MRS. BULKLEY.</stage>
@@ -3283,7 +3281,7 @@ Our author's friends, thus plac'd at happy distance,</l>
 <l>Blame where you must, be candid where you can,</l>
 <l>And be each critic the Good-natur'd Man.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

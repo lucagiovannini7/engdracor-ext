@@ -7,15 +7,15 @@
 <extent>xi,[1],74,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G.J. and J. Robinson,</publisher><date>1786.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Final leaf contains epilogue.</note><note>Prologue and epilogue by Mr. Cobb.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT47165.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>A SCHOOL FOR GREYBEARDS; OR, THE MOURNING BRIDE: A COMEDY, IN FIVE ACTS. AS PERFORMED AT THE THEATRE ROYAL, DRURY-LANE.</p>
 <p>BY MRS. COWLEY.</p>
 <p>LONDON: PRINTED FOR G. G. J. AND J. ROBINSON, PATERNOSTER-ROW.</p>
 <p>MDCCLXXXVI.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="2"/>
 <head>AN ADDRESS.</head>
 <p>I OFFER the following Comedy to the public, under a circumstance which has given my mind the most exquisite uneasiness. On the morning after the first representation, it was observed by the papers that there had been persons present at the Theatre the preceding evening, who went there <hi>determined</hi> to disapprove at all events. From such a determination it is hard indeed to escape! And the opposition intended, was justified it seems, by the indecency of some of the expressions. —From such a charge I feel it impossible to defend myself; for against an imputation like this, even <hi>vindication</hi> becomes disgraceful!</p>
@@ -40,8 +40,8 @@ and fixed itself in my mind, was that of snatching a young woman from a hateful 
 <pb n="ix" facs="8"/>
 nights. I now resign it to the closet, where without the aid of fine acting, or the fascinations of beauty, and deriving all its little force from the pen which composed it, it hopes still to amuse;—the innocent flame of Seraphina's coquetry may still shed rays of delight on her readers, and the affecting situation of Antonia interest them.</p>
 <closer><signed>H. COWLEY.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="x" facs="9"/>
 <head>PROLOGUE.</head>
 <byline>BY MR. COBB.</byline>
@@ -92,8 +92,8 @@ nights. I now resign it to the closet, where without the aid of fine acting, or 
 <l>That harmony may soothe her cares to rest.</l>
 <l>Guided by <hi>harmony's</hi> enchanting laws,</l>
 <l>Her sweetest music will be your applause,</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -125,14 +125,14 @@ nights. I now resign it to the closet, where without the aid of fine acting, or 
 <list>
 <item>Bride Maids, Ladies, Servants, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Portugal.</p></set>
 </front>
 <body>
 <head><pb facs="12"/>SCHOOL FOR GREYBEARDS; OR, THE MOURNING BRIDE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE,</head><stage><hi>An Apartment at</hi> Don Sebastian's.</stage>
 <stage>Enter two Servants, on opposite sides.</stage>
 <sp>
@@ -347,8 +347,8 @@ I punish'd <hi>his</hi> traducer!</p>
 <p>Oh, Sebastian! the bliss or misery of all my years to come, must be determined before the approaching night hath told out half its hours. The enterprize is difficult — is full of danger! but what danger can be formidable to a wretch, who, precipitated on a gulph, must leap it, or be lost?
 <stage>Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> Don Gasper's.</stage></head>
 <stage>He enters, meeting Rachel.</stage>
 <sp>
@@ -795,13 +795,13 @@ Good Don Julio, tell Don Henry we did not expect to find him in masquerade to gr
 <p>If your design is not contrary to rectitude, be assured I shall not oppose it. Follow me to a more distant room—a new secret is almost as delightful as a new lover.
 <stage>Exeunt.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END of the FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="29"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>An Apartment at Don Alexis's.</stage>
 <stage>Enter Seraphina, pulling in Alexis.</stage>
 <sp>
@@ -1010,8 +1010,8 @@ there are my chains—do you feel them?</p>
 <p>At the gate in the evening! How sweetly that would sound, if the little villain had not matrimony in her head. Well, if I must be a slave at some time in my life, e'en let it be now—a desperate action should be done as soon as resolved on.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Don Alexis<hi>'s Garden.</hi></stage></head>
 <stage>Sebastian <hi>and</hi> Viola <hi>seated on a garden chair in the front. He throws flowers at her, then rises hastily.</hi></stage>
 <sp>
@@ -1313,13 +1313,13 @@ with Don Sebastian. You do him the honour to approve his addresses, I know.</p>
 <p>Pho, I'll manage that. It would be hard, indeed, to marry an old man, and not make him do as one likes. Young husbands we are content to submit to, but when we marry GREYBEARDS, it is with the pious design to have our way in every thing.
 <stage>Exeunt.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END of the SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="31" facs="42"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>An Apartment at Don Gasper's.</stage>
 <stage>Enter Don Henry, hastily, followed by Don Sebastian.</stage>
 <sp>
@@ -1648,8 +1648,8 @@ What can be the meaning of all this? Is it his suspicion, or his folly?</p>
 <p>Zounds! what a heat you're in! Why, so you may travel the road of love in your own manner—I only mean humbly to open the turnpike gates for ye.—See what one gets by one's good nature!
 <stage>(<hi>Exit.</hi>)</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="38" facs="49"/>
 <head>SCENE. <stage>Don Gasper's <hi>Garden.</hi></stage></head>
 <stage><hi>Enter</hi> Henry.</stage>
@@ -1899,13 +1899,13 @@ A ring valued by you so highly, Don Alexis, ought to grace no finger but your ow
 <speaker>Alexis.</speaker>
 <p>What can he mean to do with it? that seal ring make all his future hours blissful! May be there's some conceal'd witchcraft in it, and he has had wit enough to find it out; or if rightly turn'd it may make a man invisible, or something of that sort—there have been such things formerly.—Gad I'll follow him tho'—if my ring has any properties of that kind, how snugly I shall be able to watch my wife!</p>
 </sp>
-</div2>
+</div>
 <trailer>END of the THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="44" facs="55"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE,</head><stage>Seraphina<hi>'s Apartment.</hi></stage>
 <stage><hi>Enter</hi> Seraphina, <hi>followed by</hi> Octavio.</stage>
 <sp>
@@ -2276,8 +2276,8 @@ You don't know what you are talking of.</p>
 you may be doing mischief all this while. I dare not let her into my plot, lest her perverseness, or her folly should mar it. And yet, I think—no hang it I won't—I won't. The only plot that ever had a woman in it came to nothing. I'll conduct this solely by my own sagacity, and have a hearty laugh at the poor fools, when all is over.</p>
 </sp>
 <stage>Exit laughing.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>An elegant Apartment at</hi> Don Gasper's, <hi>illuminated.</hi></stage></head>
 <stage>Rachel <hi>enters first; followed by</hi> Gasper, Antonia, Clara, <hi>and a number of Ladies.</hi></stage>
 <sp>
@@ -2481,13 +2481,13 @@ but find Antonia gone! Dear liberty, I hail thee! Oh Rachel, now I claim thy pro
 <speaker>Rachel.</speaker>
 <p>I will—but let me consider first what I have engaged to do, to make my fortune. Why I am to assist a pretty girl to run away from an old husband to a young one; from age, gout, and petulance, to youth, health, and glowing love. Ay, that I will, or may I never arrive at higher honour than to attend misses in their bibs, and antient maidens in their spectacles!</p>
 </sp>
-</div2>
+</div>
 <trailer>END of the FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="56" facs="67"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>An Apartment at <hi>Don Alexis's.</hi></stage>
 <stage>A Table with Candles and Chairs.</stage>
 <stage>He enters, followed by a Servant.</stage>
@@ -2670,8 +2670,8 @@ My dear Don Gasper, my friend, my worthy friend, I entreat—Zounds! he's gone! 
 after all — ha, ha, ha—but if Gasper now, thro' spite, should prevent Octavio's marriage! What's to be done? hang me if I go to bed to night— I'll find out Octavio wherever he is, make him steal my daughter, conclude the marriage, and then I'll laugh with Julio, 'till my old sides crack.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Street, before</hi> Don Gasper's.</stage></head>
 <stage><hi>Enter</hi> Don Henry.</stage>
 <stage>He knocks gently at the door.</stage>
@@ -2860,8 +2860,8 @@ Come now let's in, and join our tender hearts in one.</p>
 <p>That secures me! Her delicacy is safe from insult, and when I see her next, it shall be with powers to suppress his audacious, fancied rights, and close the necessity for these degrading acts for ever.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> Don Alexis<hi>'s Garden.</hi></stage></head>
 <stage><hi>He enters, leading in</hi> Octavio.</stage>
 <sp>
@@ -3012,8 +3012,8 @@ and recollect the kind action of this night, with matronly thankfulness and dece
 <p>I'll be hang'd if it is not the idea of matrimony you find so heavy!—but be of good comfort, Signor, and make speed—your fate has prepared a consolation you little expect.
 <stage>Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Don Gasper's.</stage></head>
 <stage>He enters.</stage>
 <sp>
@@ -3484,12 +3484,12 @@ if I deprive you of his venerable charmer, and give you in his place a husband!<
 <stage>(<hi>to the house</hi>)</stage>
 Yes;—I am on this spot an old offender; and have so often gratefully experienced the candour of my judges, that I trust now to meet their pardon — and invoke the gracious sign!</p>
 </sp>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="86"/>
 <head>EPILOGUE,</head>
 <byline>BY MR. COBB.</byline>
@@ -3541,8 +3541,8 @@ Yes;—I am on this spot an old offender; and have so often gratefully experienc
 <l>Tho' forc'd by etiquette, good humour loves, as well as any here,</l>
 <l>Blest in the fate which these kind smiles decree her,</l>
 <l>She hopes her friends will often come to see her.</l>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <head>The following <hi>NEW PIECES,</hi> written by Mrs. <hi>COWLEY,</hi> may be had of Messrs. <hi>ROBINSON,</hi> Pater-noster-Row.</head>
 <list>
 <item>1. The RUNAWAY, a Comedy, Price 1s. 6d.</item>
@@ -3555,7 +3555,7 @@ Yes;—I am on this spot an old offender; and have so often gratefully experienc
 <item>8. First Part of THE MAID OF ARRAGON, a Poem, 4to. 2s. 6d.</item>
 <item>9. The SCOTTISH VILLAGE, a Poem, 4to. 2s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

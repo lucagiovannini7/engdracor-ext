@@ -7,13 +7,13 @@
 <extent>[4],78,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Almon; T. Lowndes; S. Bladon; and J. Williams,</publisher><date>1766.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Elizabeth Griffith.</note><note>With a final epilogue leaf.</note><note>Variant reads Wlliams instead of Williams in imprint.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT1554.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE DOUBLE MISTAKE. A COMEDY. As it is PERFORMED at the THEATRE-ROYAL IN COVENT-GARDEN.</p>
 <quote>Depressa resurgam.</quote>
 <p>LONDON: Printed for J. ALMON, opposite Burlington-House in Piccadilly; T. LOWNDES in Fleet-Street; S. BLADON in Pater-noster-Row; and J. WILLIAMS, next the Mitre Tavern in Fleet-Street. M.DCC.LXVI. [Price One Shilling and Six Pence.]</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -50,15 +50,15 @@
 <label>A Maid Servant.</label>
 <item> </item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, LONDON.</p></set>
-<div1 type="dedication">
+<div type="dedication">
 <pb facs="3"/>
 <head>TO HER GRACE THE Duchess of MARLBOROUGH,</head>
 <p>THIS Comedy is most humbly inscribed, by one whose work and wishes, inconsiderable as they are, should ever be dedicated to her noble family, and who is also sensible of the highest respect for her Grace's merit, and truly amiable character, and who has the honour to be,</p>
 <closer><signed>Her GRACE's most humble, and most obedient Servant, The AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>By a FRIEND.</byline>
@@ -97,14 +97,14 @@
 <l>And should it not disgrace your brilliant mass,</l>
 <l>Give it your stamp, and let the metal pass.</l>
 </lg>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="5"/>
 THE DOUBLE MISTAKE. A COMEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An apartment in Lord</hi> Belmont<hi>'s house.</hi></stage>
 <stage><hi>Enter Lord</hi> Belmont, <hi>reading a letter, a servant following.</hi></stage>
@@ -178,8 +178,8 @@ THE DOUBLE MISTAKE. A COMEDY.</head>
 <p>Not use spectacles, and near threescore! ha, ha, ha, very fine, indeed: but come, Thomas, get my cloak; I'll take a turn in the Park, and then to the Cocoa-tree, to hear the news of the day, and peruse the advertisements.—I have a world of business on my hands, that's certain.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A chamber in an inn.</stage>
 <stage><hi>Enter</hi> Emily.</stage>
@@ -372,8 +372,8 @@ chariot there, begs leave to pay his respects to you.</p>
 <p>I hope you will not continue long in masquerade; but now, my dear, your hand.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>A dressing-room in Lord</hi> Belmont<hi>'s house, Lady</hi> Mary <hi>at work, and Lady</hi> Louisa <hi>with a book in her hand.</hi></stage>
 <sp>
@@ -585,13 +585,13 @@ me the vapours, and I wou'd tune my spirits to their highest key, for Freeman wi
 <p>Ne'er let that bandage from my eyes remove, Which hides the faults of him I fondly love.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END of the FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="18"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A drawing-room in Lord</hi> Belmont<hi>'s house.</hi></stage>
 <stage><hi>Enter Lord</hi> Belmont <hi>and Sir</hi> Charles Somerville.</stage>
@@ -695,8 +695,8 @@ me the vapours, and I wou'd tune my spirits to their highest key, for Freeman wi
 <p>'Till then adieu.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A dressing-room in Lord</hi> Belmont<hi>'s house, Lady</hi> Bridget <hi>at her toilet,</hi> Emily <hi>sitting, and a maid-servant attending.</hi></stage>
 <sp>
@@ -818,8 +818,8 @@ in French and Italian, which are the only ones that I was ever taught.</p>
 <p><stage>[aside]</stage> In his library! Poor illiterate!</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>A library.</stage>
 <stage><hi>Enter Lord</hi> Belmont.</stage>
@@ -910,8 +910,8 @@ in French and Italian, which are the only ones that I was ever taught.</p>
 <p>They may return, even sooner than you think. But let us join my sisters; their conversation will, at least, amuse you.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Younger</hi> Freeman<hi>'s lodgings.</hi></stage>
 <stage><hi>Enter Younger</hi> Freeman.</stage>
@@ -1041,8 +1041,8 @@ are; if she persists in her regard, I will acquaint my father, and have no doubt
 <p>No matter, I'll visit my charmer en dishbille, en cavalier: love is above all forms, let that plead my excuse.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="26" facs="30"/>
 <head>SCENE V.</head>
 <stage>A drawing-room.</stage>
@@ -1269,13 +1269,13 @@ with a lecture on la belle passion, provided you do not presume to reason, or in
 <p>Egad, she smil'd tho'; that's a good sign; I did not see her laugh before, since she came into the house. I have seen as pretty women, that's certain, but never one that had such true antique beauty. When she is Mrs. Belmont, I shall have all the virtuosi coming to admire her neck, and the statuaries begging leave to take off her nose; but I won't suffer it. No, sir, Mrs. Belmont is indispos'd, she can't be seen this morning; you must come some other time, for I shan't expose her to the eye of curiosity, as I do my coins. I'll keep one rarity to myself at least. But I must take care that Lady Bridget don't come near her to infect her brain with dictionaries and romances.—I'll go directly, and take a house for her, near the Museum, and if I can but inspire her with a true taste for antiques, I shall positively be the happiest man alive.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END of the SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="31" facs="35"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A drawing-room.</stage>
 <stage><hi>Enter Lady</hi> Mary <hi>and Lady</hi> Louisa.</stage>
@@ -1414,8 +1414,8 @@ by retiring, to prevent your being interrupted.</p>
 <p>We attend your lordship.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A street.</stage>
 <stage><hi>Enter Sir</hi> Charles Somerville.</stage>
@@ -1424,8 +1424,8 @@ by retiring, to prevent your being interrupted.</p>
 <p>Where can she have fled, my dear, unhappy Emily? But wherefore do I call her mine? She surely must have escaped with her unknown gallant—I need not then defer my journey longer—I have bid adieu to happiness, and her, and 'tis no matter where I wander now. <stage>[<hi>Young</hi> Freeman <hi>enters as from the garden, crosses the stage, and exit.</hi>]</stage> Have I my sight? or is it fancy conjures up this fiend! By heaven, that is the man—yet sure I must mistake. He came out of that door too, Lord Belmont's garden-door! What! has he rivall'd me in friendship as in love! this is too much; my honour is now at stake, Lord Belmont must account for this proceeding; for tho' impos'd upon by female artifice, I will not be man's dupe.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>A library, Lord</hi> Belmont <hi>discover'd.</hi></stage>
 <stage><hi>Enter Sir</hi> Charles.</stage>
@@ -1763,8 +1763,8 @@ not by a replevin, that her character is to be recovered, though her person may.
 <p>And I no less of you;—was there ever such a brute!—But this Freeman, now we have found his name, he must have more cunning than a fox, if two such brisk hunters, as Sir Charles and I, cannot unearth him. I will first try the ground at home, and that immediately.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>A drawing-room.</stage>
 <stage><hi>Enter Lady</hi> Mary <hi>and Lady</hi> Louisa.</stage>
@@ -2073,13 +2073,13 @@ accident, cast it's pale light on me; any other object might have been brighten'
 <l>We deal too hardly, when we call it vice.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END of the THIRD ACT</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="50" facs="54"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Young</hi> Freeman<hi>'s lodgings; he is discover'd on a couch, with a book in his hand.</hi></stage>
 <sp>
@@ -2218,8 +2218,8 @@ why's, and your wherefores; but if it will satisfy you, I did wait on the lady, 
 <p>Bravo, Ralph.—Fortune seems inclined to befriend me, and my brother shall, at last, be a means of my success, in spite of his mechanical morality.—Follow me.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Lord</hi> Belmont<hi>'s library. Lord</hi> Belmont <hi>at a table, with papers before him.</hi></stage>
 <sp>
@@ -2278,8 +2278,8 @@ why's, and your wherefores; but if it will satisfy you, I did wait on the lady, 
 <p>Come then, my lord; and since you desire it, I will not.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>A drawing-room.</stage>
 <stage><hi>Enter Lady</hi> Bridget, <hi>Lady</hi> Mary, <hi>and Lady</hi> Louisa.</stage>
@@ -2462,8 +2462,8 @@ why's, and your wherefores; but if it will satisfy you, I did wait on the lady, 
 <speaker>Bel.</speaker>
 <p>Oh! now 'tis plain that you have made her sick somehow or other among ye—but I'll go comfort her as soon as supper is over.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="59" facs="63"/>
 <head>SCENE IV.</head>
 <stage>Another apartment.</stage>
@@ -2516,8 +2516,8 @@ why's, and your wherefores; but if it will satisfy you, I did wait on the lady, 
 <p>Let the bright radiance of unerring truth shine forth on Emily's every thought and action; and pity, not reproach, will then attend her.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>Lord</hi> Belmont<hi>'s library.</hi></stage>
 <stage><hi>Enter Elder</hi> Freeman <hi>and a</hi> Servant.</stage>
@@ -2580,13 +2580,13 @@ of business; as your conversation at once entertains and enlarges my mind.</p>
 <p> His brother certainly must be the man—How he cou'd possibly become acquainted with Louisa, I can't conceive; but public places put every person on a level; and at some of these he must have seen her. To-morrow I will find this Freeman, and bring him to a severe account, both for Emily and Louisa.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END of the FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="62" facs="66"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Discovers Lady</hi> Louisa <hi>at her toilet, her Maid waiting.</hi></stage>
 <sp>
@@ -2683,8 +2683,8 @@ of business; as your conversation at once entertains and enlarges my mind.</p>
 <p>Come then, and if you have any good nature, you'll chat to me, while I undress.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Lord</hi> Belmont<hi>'s library.</hi></stage>
 <stage><hi>Enter Lord</hi> Belmont.</stage>
@@ -2713,8 +2713,8 @@ only relief his present situation can admit of—rest.—In some few hours, I ho
 <p>We are all philosophers, when others suffer, but tremblingly alive to our own feelings. I'll go, this moment, and search every apartment. Do you place yourself upon the center of the stair-case, and lock the folding doors—if the villain shou'd fly from me, you must meet him. But remember, Sir Charles, he is accountable to me this night, to-morrow he may answer you.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>Lady</hi> Louisa<hi>'s dressing-room.</hi></stage>
 <stage><hi>Enter Lady</hi> Louisa.</stage>
@@ -2750,8 +2750,8 @@ her, she wou'd have continued talking 'till morning. It is amazing that she don'
 <p>It must be so, there is no other way.—Do you return to your chamber.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>A passage, with a chamber-door shut.</stage>
 <stage><hi>Enter Young</hi> Freeman.</stage>
@@ -3437,12 +3437,12 @@ ready for terms of peace; therefore if you shou'd hold out the olive branch in m
 <l><hi>While our own conduct vindicates from blame,</hi></l>
 <l><hi>Slander defeated, but augments our fame.</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="83"/>
 <head>EPILOGUE.</head>
 <byline>Sent by a Person unknown.</byline>
@@ -3506,7 +3506,7 @@ ready for terms of peace; therefore if you shou'd hold out the olive branch in m
 <l>If only venial errors here you find,</l>
 <l>Critics be dumb—ye men of candour, kind.</l>
 </lg>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

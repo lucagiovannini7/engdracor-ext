@@ -7,12 +7,12 @@
 <extent>[8],56p.,plate ; 8⁰.</extent><publicationStmt><publisher>printed for Paul Vaillant,</publisher><date>1760.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Adapted from Metastasio's 'L'isola disabitata' by Arthur Murphy.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT69038.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE DESERT ISLAND, A DRAMATIC POEM, IN THREE ACTS.</p>
 <p>As it is Acted at the Theatre-Royal in Drury-Lane.</p>
@@ -21,8 +21,8 @@
 <bibl>VIRG.</bibl>
 <p>LONDON, Printed for PAUL VAILLANT, facing Southampton-street, in the Strand. MDCCLX.</p>
 <p>[Price One Shilling and Six Pence.]</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>THE following Piece is founded on the Isola Disabitata of the celebrated ABBE METASTASIO: In reading the Performance of that great Genius, the present Writer received so exquisite a Pleasure, that he contracted a Passion for the Subject, and could not refrain from exercising his Pen upon it. In the Prosecution of his Plan, he knew enough of the modern Theatre, to perceive that it was thin of what our Play-followers call Business; and he was aware that on the Stage it might prove (to use <hi>Milton</hi>'s Words) <hi>very different from what among us passes for Best.</hi> The same Remark was made by a Friend of the Author's, who thought it hazardous to offer to a popular Assembly a Piece, in which there were none of those Strokes that generally succeed with the Multitude. "Can't you," said he, throw in something here and there to season it more to the public Appetite?—Suppose you were to change the Title, and fix the Scene among the <hi>Anthropophagi,</hi> or among the <hi>Men, whose Heads do grow beneath their Shoulders</hi>—a few of those extraordinary Personages exhibited on the Stage, will prove very acceptable:—What think you of an <hi>Irish</hi> Servant in it?—That certainly will insure Success, the more especially if you add some aerial Beings, and conclude the Whole with a drunken Song by the Tars of <hi>Old England.</hi>—The Author was sensible of the Force of these Observations; but the GREAT MILTON (mentioned above) stared him in the Face, with his Reflections on the Error of introducing trivial and vulgar Persons, which, by all Judicious, hath been counted absurd, and brought in without Discretion, CORRUPTLY to gratify the People.<note n="*" place="foot"><hi>Vide,</hi> Preface to <hi>Samson Agonistes.</hi></note>—He therefore determined to preserve the
@@ -41,8 +41,8 @@ Integrity of his original Design, and to try what would be the Effect of a simpl
 he adds in the Words of the noble Author of the <hi>Characteristics,</hi> that He will never reply, unless he should hear of them or their Works in any good Company a Twelve-month after.</p>
 <closer><dateline>Lincoln's Inn, <date>Jan. 26, 1760.</date></dateline>
 <signed>The AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <head>PROLOGUE, Written and Spoken by Mr. GARRICK, In the Character of a DRUNKEN POET.</head>
 <sp>
 <lg>
@@ -119,8 +119,8 @@ he adds in the Words of the noble Author of the <hi>Characteristics,</hi> that H
 </lg>
 </sp>
 <stage>Staggers off.</stage>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -133,16 +133,15 @@ he adds in the Words of the noble Author of the <hi>Characteristics,</hi> that H
 <item>CONSTANTIA, Mrs. PRITCHARD.</item>
 <item>SYLVIA, her Daughter, Miss PRITCHARD.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, A DESERT ISLAND.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="9"/>
 <head>THE DESERT ISLAND.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>The scene represents a vale in the Desert Island, surrounded by rocks, caverns, grottos, flowering shrubs, exotic trees, and plants growing wild. On one side is a cavern in a rock, over the entrance of which appears, in large characters, an unfinished inscription.</hi> CONSTANTIA <hi>is discovered at work at the inscription, in a romantic habit of skins, leaves, and flowers; in her hand she holds a broken sword, and stands in act to finish the imperfect inscription.</hi></stage>
 <sp>
 <stage>After a short pause, she begins.</stage>
@@ -640,12 +639,12 @@ he adds in the Words of the noble Author of the <hi>Characteristics,</hi> that H
 <l>This wond'rous sight, and what it is explore.</l>
 </sp>
 <trailer>END of the first ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="25"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Another view of the island, with an opening to the sea between several hills and rocks.</hi></stage></head>
 <stage><hi>Enter</hi> SYLVIA.</stage>
 <sp>
@@ -946,8 +945,8 @@ he adds in the Words of the noble Author of the <hi>Characteristics,</hi> that H
 <l>To heal the wound that preys upon his life.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><pb n="27" facs="35"/><hi>The back scene closes, and presents a thick wood; then enter</hi> SYLVIA.</stage>
 <sp>
 <speaker>SYLVIA.</speaker>
@@ -989,8 +988,8 @@ he adds in the Words of the noble Author of the <hi>Characteristics,</hi> that H
 <l>Let me seek shelter in my mother's arms.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>Scene</hi> <stage><hi>changes to the first view of the island where</hi> CONSTANTIA'S <hi>inscription is seen.</hi></stage></head>
 <stage><hi>Enter</hi> FERDINAND</stage>
 <sp>
@@ -1019,9 +1018,9 @@ he adds in the Words of the noble Author of the <hi>Characteristics,</hi> that H
 <l>Constantia! — ha! —what mystic characters</l>
 <l>Are hewn into the rock? — my name appears—</l>
 <stage>He reads.</stage>
-<stage>STOP TRAVELLER. HERE CONSTANTIA, WITH HER LITTLE INFANT, SYLVIA, WAS DESERTED BY HER HUSBAND, THE PERFIDIOUS FERDINAND; WHO PRETENDING TO LAND HER FOR REFRESHMENT
+<p>STOP TRAVELLER. HERE CONSTANTIA, WITH HER LITTLE INFANT, SYLVIA, WAS DESERTED BY HER HUSBAND, THE PERFIDIOUS FERDINAND; WHO PRETENDING TO LAND HER FOR REFRESHMENT
 <pb n="30" facs="38"/>
-FROM THE DANGERS OF A STORMY SEA, BARBAROUSLY LEFT HER ON THIS UNHOSPITABLE ISLAND, WHERE SHE ENDED HER DEPLORABLE LIFE.</stage>
+FROM THE DANGERS OF A STORMY SEA, BARBAROUSLY LEFT HER ON THIS UNHOSPITABLE ISLAND, WHERE SHE ENDED HER DEPLORABLE LIFE.</p>
 <l>Support me, heav'n! — ah! no—withold your aid,</l>
 <l>Ye unrelenting pow'rs, and let me thus,</l>
 <l>Each vital spark subsiding, thus expire.</l>
@@ -1042,7 +1041,7 @@ FROM THE DANGERS OF A STORMY SEA, BARBAROUSLY LEFT HER ON THIS UNHOSPITABLE ISLA
 <sp>
 <speaker>HENRICO.</speaker>
 <l>Letters engrav'd! —</l>
-<stage><hi>He reads to himself as far as</hi> SHE ENDED HER DEPLORABLE LIFE.</stage>
+<stage><hi>He reads to himself as far as</hi> <quote type="dialog">SHE ENDED HER DEPLORABLE LIFE.</quote></stage>
 <l>Alas! my friend—</l>
 <stage>They gaze speechless at each other for some time, then Ferdinand falls.</stage>
 <l>The storm of grief o'erpow'rs his feeble spirits.</l>
@@ -1068,7 +1067,7 @@ FROM THE DANGERS OF A STORMY SEA, BARBAROUSLY LEFT HER ON THIS UNHOSPITABLE ISLA
 <l>The whole sad record; of this bitter woe</l>
 <l>Still deeper drink, and gorge me with affliction.</l>
 <stage>He reads.</stage>
-<stage>FRIEND! WHOE'ER THOU ART, PITY MY WRONGS, BUT AGAINST MY HUSBAND, (FOR LOVE LIKE MINE CANNOT FORGET WHERE ONCE WITH DELIGHT IT FIXED) I CHARGE YOU NEVER MEDITATE R—</stage>
+<p>FRIEND! WHOE'ER THOU ART, PITY MY WRONGS, BUT AGAINST MY HUSBAND, (FOR LOVE LIKE MINE CANNOT FORGET WHERE ONCE WITH DELIGHT IT FIXED) I CHARGE YOU NEVER MEDITATE R—</p>
 <l>Revenge, she meant to say—the word's begun—</l>
 <l>But death untimely stopt her hand—oh! misery!</l>
 <l>She thought me false, and yet could love still—</l>
@@ -1183,12 +1182,12 @@ FROM THE DANGERS OF A STORMY SEA, BARBAROUSLY LEFT HER ON THIS UNHOSPITABLE ISLA
 <l>To drag him from this melancholy shore.</l>
 </sp>
 <trailer>END of the Second ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="36" facs="44"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>The same scene continues.</stage>
 <sp>
 <stage><hi>Enter</hi> SYLVIA.</stage>
@@ -1928,10 +1927,9 @@ FROM THE DANGERS OF A STORMY SEA, BARBAROUSLY LEFT HER ON THIS UNHOSPITABLE ISLA
 <l>Our suffering constancy; whose hand, tho' slow,</l>
 <l>Thus leads to rapture thro' a train of woe.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

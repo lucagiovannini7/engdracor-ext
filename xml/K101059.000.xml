@@ -7,14 +7,14 @@
 <extent>78,[2]p. ; 12⁰.</extent><publicationStmt><publisher>printed by N. Kelly, for P. Wogan, P. Byrne, J. Moore, W. Jones, J. Rice, T. M'Donnel, J. Jones, G. Folingsby, and N. Kelly,</publisher><date>1795.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Thomas Holcroft.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT126759.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE DESERTED DAUGHTER: A <hi>COMEDY.</hi></p>
 <p>AS IT IS ACTED AT THE THEATRE ROYAL, COVENT-GARDEN.</p>
 <p>DUBLIN: <hi>Printed by N. Kelly,</hi> For P. WOGAN, P. BYRNE, J. MOORE, W. JONES, J. RICE, T. M'DONNEL, J. JONES, G. FOLINGSBY, and N. KELLY.</p>
 <p>1795.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -61,8 +61,8 @@
 <l>Hear, and decide, like men who think and feel:</l>
 <l>For, from this night's decree, there's no appeal.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -80,15 +80,14 @@
 <item><label>Mrs. Enfield,</label> Mrs. CORNELYS.</item>
 <item><label>Lady Ann,</label> Mrs. POPE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE DESERTED DAUGHTER: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The House of Mr.</hi> MORDENT.</stage>
 <stage>MORDENT <hi>and</hi> DONALD <hi>in anger.</hi></stage>
@@ -193,8 +192,8 @@
 <speaker>Mor.</speaker>
 <p>Pertinacious devil! The public clamour and disgrace, the affected sufferings and insulting forbearance of Lady Anne, the resentment of her imperious family, are these shadows?</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter.</hi> Mrs. SARSNET.</stage>
 <sp>
@@ -312,8 +311,8 @@
 <p>Skip-jack? Go-between? Mag's malison o' yeer spitefoo' tongue-gab!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>MORDENT <hi>and.</hi> Mrs. SARSNET.</stage>
 <sp>
@@ -368,8 +367,8 @@
 <p>I <hi>prognostified</hi> the answer!—A good for nothing chap!—I know very well what is becoming of a husband! He should love his wife, dearly, by day and by night! he should wait upon her; and give her her own way; and keep her from the cold, and the wet; and provide her with every thing comfortable; and if the happen to be in an ill humour, should coax her, and bear a little snubbing patiently! Humph! The fellows! What are they good for?</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head><stage>SCENE IV. <hi>Changes to the Steward's Room.</hi></stage></head>
 <stage>ITEM <hi>and.</hi> GRIME <hi>meeting.</hi></stage>
 <sp>
@@ -572,8 +571,8 @@
 <stage>(Evading.)</stage>
 <p>Yonder is my nephew. <stage>(Calls.)</stage> Clement.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>Enter.</hi> CLEMENT.</stage>
 <sp>
@@ -634,8 +633,8 @@
 <p>The rascal begins to grow troublesome!—Take care of the steps, good Mr. Grime!</p>
 <stage>Follows.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>Enter.</hi> MORDENT.</stage>
 <sp>
@@ -733,8 +732,8 @@
 <p>Nay, if you will not be warned, it is not my fault.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>The Dressing Room of</hi> Lady ANNE.</stage></head>
 <stage>Lady ANNE <hi>and</hi> Mrs. SARSNET.</stage>
 <sp>
@@ -891,13 +890,13 @@
 <p>She may say what she will, but I know very well she is the most <hi>miserable-est</hi> lady alive, and I could tear his eyes out! Husband, indeed? And so, because I listened to the fellow's love, and nonsensestuff, and took pity on him, when he was going to hang or drown himself, he must think, as soon as he has got me safe, to be my lord and master! I'd tell him another story! My lord and master, truly!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
+</div>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="16"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The House of</hi> Mrs. ENFIELD.</stage></head>
 <stage>Mrs. ENFIELD <hi>and</hi> BETTY.</stage>
 <sp>
@@ -937,8 +936,8 @@
 <speaker>Mrs. En.</speaker>
 <p>She is young, and ignorant of the town; but, I can see, she has a quick and courageous spirit.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> JOANNA.</stage>
 <sp>
@@ -1169,8 +1168,8 @@
 <p>Well! I commit myself to your trust. Friendless and fatherless, you will be my guardian. You are too generous to injure the helpless, and the forlorn: and the lines in your face are false!</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>An Anti-chamber in the House of</hi> MORDENT.</stage></head>
 <stage>MORDENT <hi>and</hi> CHEVERIL.</stage>
 <sp>
@@ -1274,8 +1273,8 @@
 <speaker>Chev.</speaker>
 <p>Curse me but I say the likeness is at least as good as yours: and I am sure the colouring is infinitely more delightful!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Enter</hi> DONALD.</stage>
 <sp>
@@ -1340,8 +1339,8 @@
 <p>Yas—I'ze gang where I tow'd ye; and, gin I dunna hear o'her, ye'ze hear o' me!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>MORDENT <hi>and</hi> CHEVERIL.</stage>
 <sp>
@@ -1396,8 +1395,8 @@
 <p>Hark! My wife! She tortures me with her silent sufferings and her stifled sighs. Passion, bitter reproach, and violent menace, would be infinitely more supportable. In short, I have not deserved her kindness, and cannot endure it.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Lady ANNE.</stage>
 <sp>
@@ -1413,8 +1412,8 @@
 <speaker>Lady A.</speaker>
 <p>The stories, too, with which this kind but officious creature torments me—</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>Enter</hi> Mrs. SARSNET <hi>hastily.</hi></stage>
 <sp>
@@ -1507,8 +1506,8 @@
 <p>You are the tenderest and best of ladies! and I know who is an unfeeling brute!</p>
 <stage>Both retiring.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>Enter</hi> LENNOX <hi>and</hi> CHEVERIL.</stage>
 <sp>
@@ -1627,8 +1626,8 @@
 <pb n="27" facs="26"/>not seduce wives, ruin daughters, and murder husbands and fathers. No! If I cannot be wicked without being criminal, damme if I do not live and die an honest dull dog.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage><hi>Enter</hi> MORDENT, <hi>searching his pockets.</hi></stage>
 <sp>
@@ -1656,8 +1655,8 @@
 <speaker>Len.</speaker>
 <p>Hem!</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>Enter</hi> Lady ANNE.</stage>
 <sp>
@@ -1849,8 +1848,8 @@
 <speaker>Mor.</speaker>
 <p>Ha, ha, ha! What are barbs, and stings, and poisoned arrows? Pitiful instruments! Thou, triumphant wretchedness, usest these but on small occasions; they want pungency!</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage><hi>Enter</hi> LENNOX.</stage>
 <sp>
@@ -2121,8 +2120,8 @@
 <speaker>Len.</speaker>
 <p>Damn his wife! He has friends, appearances, and a wife; but he has no heart!</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage><hi>Enter</hi> DONALD <hi>in great agitation.</hi></stage>
 <sp>
@@ -2222,12 +2221,12 @@
 <p>Just so are curs fighting, and thieves in the act of plundering. Man is ever eager on mischief! With what infernal ardor do two armies prepare in the morning, to exterminate each other before noon! Are they not wife? What is it but compressing the sum of evil within an hour, which trembling cowardice would protract through an age?</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The House of Mordent.</stage>
 <stage>CHEVERIL <hi>and</hi> GRIME.</stage>
@@ -2438,8 +2437,8 @@
 <p>Are you? Why then, I have a keen appetite, and a most devouring wish to fall to: so here goes!</p>
 </sp>
 <stage>Exit running.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> MORDENT.</stage>
 <sp>
@@ -2463,8 +2462,8 @@
 <speaker>Mor.</speaker>
 <p>Heigh ho!</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>Enter</hi> CLEMENT.</stage>
 <sp>
@@ -2525,8 +2524,8 @@
 <speaker>Mor.</speaker>
 <p>The nephew and the uncle, poor fools, have the misfortune to be honest. Grime, sly villain, is more cunning, and will not forfeit his hope of cutting evil short at the gallows. The deed must be signed; for the money must be had. Yet these cautionings do but strengthen an aversion which, in spite of necessity, I have always felt against this last act of despair.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Enter</hi> ITEM.</stage>
 <sp>
@@ -2606,8 +2605,8 @@
 <p>Ha, ha, ha! You won't sign? Indeed, moody master of mine! Ha? But I will send those about your ears that will presently make you!</p>
 </sp>
 <stage>Ex.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="38" facs="37"/>
 <head>SCENE V. <stage><hi>The Street.</hi></stage></head>
 <stage>CHEVERIL.</stage>
@@ -2615,8 +2614,8 @@
 <speaker>Chev.</speaker>
 <p>This is the street. It must be somewhere hereabout. What a fatiguing affair pleasure hunting is! Oh that I could once more meet my lovely angel; my Green Park Deity! <stage>(Examines his card.)</stage> This is the number.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>Enter</hi> LENNOX <hi>from</hi> Mrs. ENFIELD'S <hi>Door.</hi></stage>
 <sp>
@@ -2756,8 +2755,8 @@
 <p>Zounds, my damned blabbing tongue! <stage>(Looking after him.)</stage> There he flies, the whirligig! Ah! he is out of sight, and all is safe. I must have Mordent's assistance. Where the devil does he loiter? <stage>(Looks wistfully at the window.)</stage> I'll soon be back though, for fear of accidents.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>The House of</hi> Mrs. ENFIELD.</stage></head>
 <sp>
 <speaker>Mrs. En. </speaker>
@@ -2882,8 +2881,8 @@
 <speaker>Chev.</speaker>
 <p>Never fear, I tell you! I understand such affairs; or soon shall do at least. I'm a young beginner, but a devilish apt scholar! <stage>Exit Mrs. Enfield.</stage> Now if she be worth carrying off, and I could out-wit Lennox! I! Oh! I should establish my character, for spirit, soul, and intrepidity for ever! I'll not be out of countenance. No, damme, I am determined! I'll—I'll speak, and to the purpose too! I'll be a damned forward, prating, impudent, wicked, dog!</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="41" facs="40"/>
 <head>SCENE VIII.</head>
 <stage><hi>Enter</hi> Mrs. ENFIELD, <hi>leading</hi> JOANNA, <hi>who follows reluctantly.</hi> CHEVERIL <hi>turns his back and tries to assume courage.</hi></stage>
@@ -3141,8 +3140,8 @@
 <p>I must not be seen, but for heaven's sake let me speak to you once more!</p>
 </sp>
 <stage>Retires into a closet, from which he occasionally looks.</stage>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage><hi>Enter</hi> MORDENT.</stage>
 <sp>
@@ -3378,8 +3377,8 @@
 <speaker>Chev.</speaker>
 <p>Zounds, sir, how came I to find you here?</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>Enter</hi> Mrs. ENFIELD.</stage>
 <sp>
@@ -3401,13 +3400,13 @@
 <p>But, sir! sir!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="47" facs="46"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The House of</hi> MORDENT.</stage>
 <stage>ITEM <hi>enraged and</hi> GRIME <hi>determined.</hi></stage>
@@ -3552,8 +3551,8 @@
 <speaker>Grime.</speaker>
 <p>Your fortune is made; you must now help to make mine.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> DONALD <hi>unperceived.</hi></stage>
 <sp>
@@ -3654,8 +3653,8 @@
 <p>Tak compaission o' the booels o' yeer brother, Jack Ketch, and be yeer ain hangman!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>ITEM <hi>and</hi> GRIME.</stage>
 <sp>
@@ -3790,8 +3789,8 @@
 <speaker>Grime.</speaker>
 <p>Here, ready. Hem!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="51" facs="50"/>
 <head>SCENE IV.</head>
 <stage><hi>Enter</hi> Mr. MORDENT.</stage>
@@ -3879,8 +3878,8 @@
 <p>Come, sir! My good master has sufficient reason to be angry with you! It was very unfriendly, sir, to refuse. You teach Mr. Mordent what he has to expect. <stage>(Aside.)</stage> All is now secure!</p>
 </sp>
 <stage><hi>Exeunt</hi> ITEM <hi>and</hi> GRIME.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>Enter</hi> DONALD, <hi>looking earnestly after them.</hi></stage>
 <sp>
@@ -3967,8 +3966,8 @@
 <stage>(Convulsed anguish)</stage>
 <p>Oh the sharp fanged wolf! Ha, ha, ha!</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>Enter</hi> LENNOX.</stage>
 <sp>
@@ -4182,8 +4181,8 @@
 <speaker>Mor.</speaker>
 <p>Escape? No, no! Malevolence is the element of man, and I have an apt alacrity: I will instruct you. Come this way. Having her safe, you may post away with her to my commodious house in Park-lane. Fear not me! When Belial is busy, shall his progeny be idle?</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>Re-enter</hi> DONALD.</stage>
 <sp>
@@ -4207,8 +4206,8 @@
 <speaker>Don.</speaker>
 <p>Ah! Waes me! This poor lassie? I canna rest! I hirple here and gang hilching there, till I'ze e'en ramfeelzed wi'the ripples. I wist nae where tul spier niest. My dool and thole wull be my deeth! I' Gode's name, and wi' aw my hairt; for I'ze recht weary o' life!</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="56" facs="55"/>
 <head>SCENE VIII.</head>
 <stage><hi>Enter</hi> CHEVERIL <hi>in great haste, searching.</hi></stage>
@@ -4287,8 +4286,8 @@
 <speaker>Chev.</speaker>
 <p>What is the matter with the honest soul? I don't know what sum that old harridan will require, but I can do nothing without money. I must have enough too, for I must make sure. I'll place her in safety and splendor: she shall be my queen!</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="57" facs="56"/>
 <head>SCENE IX.</head>
 <stage><hi>Enter</hi> ITEM.</stage>
@@ -4395,8 +4394,8 @@
 <speaker>Chev.</speaker>
 <p>Will you come away, and let me have the money? Come, come, man! 'Sdeath will you dispatch!</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>Enter</hi> CLEMENT.</stage>
 <sp>
@@ -4413,8 +4412,8 @@
 <p>Mr. Mordent has asked for me, and unfortunately I cannot find him. I fear he has signed the mortgage. Oh this uncle! Never was situation so excruciating as mine. Must I cast off all ties of blood, become his accuser, and, as the world would call it, betray my benefactor? Beside, what have I to reveal? My fears and my suspicions. Unconnected facts, that can alarm but not relieve. And who is it that I should thus impotently accuse? My own uncle. <stage>(Sees the book.)</stage> Hah! What have we here? As I live, his private account book! The very thing he so carefully has concealed from all inspection! What shall I do? Deliver it to Mordent? What may be the consequences? Disgrace, infamy, and—! Dreadful thought! I must not be rash.—Hark! He's here! I must consider well.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage><hi>Re-enter</hi> ITEM <hi>and</hi> CHEVERIL. <hi>Item with his hair on end, frightened; runs up to the table, looks over it, under it, and every where.</hi></stage>
 <sp>
@@ -4530,8 +4529,8 @@
 <p>Furies and fire, begone!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage><hi>Enter</hi> MORDENT.</stage>
 <sp>
@@ -4539,8 +4538,8 @@
 <stage>(Calls.)</stage>
 <p>Mr. Cheveril! <stage>(Runs over to the door.)</stage> Mr. Cheveril!—'Tis impossible to stop him! But no matter; the plan cannot fail: Lennox by this time has her safe. Why ay! I have advised! I have plotted, I have aided! And in what? Why the ruin of an innocent; who, while I looked and listened to her, I would have lost my life to defend? Why was man endowed with thought? It breeds but confusion! Fools have called it the gift of gods, wise men know it to be the medium of misery.</p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="60" facs="59"/>
 <head>SCENE XIII.</head>
 <stage><hi>Enter</hi> Mrs. SARSNET.</stage>
@@ -4614,8 +4613,8 @@
 <p>I am sure if I could have made folks happy, I would have done it with all my heart and soul! But the secret is out at last; and all is settled. Not but, for all I'm so glad, I can't say but I'm sorry in the main! for I'm sure some folks will be miserable enough! and, though they richly deserve it, one can't help feeling for them, in ones heart. And so, sir, as perhaps I shall never see you <hi>no</hi> more, God bless you, and mend you!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <pb n="61" facs="60"/>
 <head>SCENE XIV.</head>
 <stage><hi>Enter</hi> Lady ANNE.</stage>
@@ -4744,8 +4743,8 @@
 <speaker>Mor.</speaker>
 <p>Why, so! so! so!—It rages! it bursts! it is complete! Let fate or fiends increase the misery, if they can!</p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <pb n="63" facs="62"/>
 <head>SCENE XV.</head>
 <stage><hi>Enter</hi> DONALD.</stage>
@@ -4864,12 +4863,12 @@
 <p>William! Sandy! Jock!</p>
 </sp>
 <stage>Exit calling.</stage>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The Green Park, twilight.</stage>
 <stage>MORDENT <hi>and</hi> LENNOX.</stage>
@@ -5031,8 +5030,8 @@
 <p>Oh that she were!—Donald used to meet her here, in the Green Park, about this time of the evening. <stage>(Listens,)</stage> I hear the sound of feet. <stage>(Looks.)</stage> 'Tis not a woman. Let us retire among the trees, and keep on the watch.</p>
 <stage>While they are seen retiring.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> CHEVERIL.</stage>
 <sp>
@@ -5040,8 +5039,8 @@
 <stage>(Looking round with great anxiety.)</stage>
 <p>She is not here—she is gone! For ever gone—gone—gone! I shall never more set eyes on her! I'll fire that infernal Dover-street!—I'll pistol Lennox!—I may perambulate here till doomsday, and to no purpose. She would have been here had she been free. Ay, ay, she is in thraldom; perhaps in the very gripe of vice'—Furies!—Lennox is a liar!—I'll cut his throat!—I'll hack him piece-meal!—I'll have her, or I'll have his heart!</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="67" facs="66"/>
 <head>SCENE III.</head>
 <stage><hi>Enter</hi> JOANNA <hi>in men's cloaths.</hi> CHEVERIL <hi>seen walking among the trees.</hi></stage>
@@ -5249,8 +5248,8 @@
 <speaker>Joanna.</speaker>
 <p>I'll be punctual.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>MORDENT <hi>appearing among the trees.</hi></stage>
 <sp>
@@ -5377,8 +5376,8 @@
 <p>I hear voices.</p>
 <stage>They retire.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="71" facs="70"/>
 <head>SCENE V.</head>
 <stage><hi>Enter</hi> CHEVERIL <hi>and</hi> LENNOX.</stage>
@@ -5468,8 +5467,8 @@
 <p>His daughter? Hurrah! My dear Lennox! <stage>(Hugs him in his arms.)</stage> Hurrah! <stage>(In extacy.)</stage> Oh Lord! Oh Lord! Hurrah! His daughter? Hurrah! Hurrah! Hurrah!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="72" facs="71"/>
 <head>SCENE VI. <stage><hi>The House of</hi> MORDENT.</stage></head>
 <stage>CLEMENT <hi>and</hi> Mrs. SARSNET.</stage>
@@ -5498,8 +5497,8 @@
 <p>I don't care! I am resolved to <hi>stabilate</hi> and <hi>confound</hi> facts. So then, having a sufficient <hi>dearth</hi> of proofs, we shall sail off in the <hi>charut;</hi> and be properly received by the Earl, the Viscount, and the Bishop; and be squired into the hall; and be kissed for joy; and shall swim up stairs into the bosom of the family.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>Enter</hi> CHEVERIL <hi>hastily.</hi></stage>
 <sp>
@@ -5544,8 +5543,8 @@
 <p>I hear footsteps.—This way.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>Enter</hi> MORDENT <hi>and</hi> JOANNA.</stage>
 <sp>
@@ -5594,8 +5593,8 @@
 <speaker>Mor.</speaker>
 <p>I hear her.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="74" facs="73"/>
 <head>SCENE IX.</head>
 <stage><hi>Enter</hi> LADY ANNE.</stage>
@@ -5663,8 +5662,8 @@
 <speaker>Mor.</speaker>
 <p>Well, well, I will endure existence a little longer, if it be but to hate myself.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="75" facs="74"/>
 <head>SCENE X.</head>
 <stage><hi>Enter</hi> CHEVERIL, <hi>flying to</hi> JOANNA.</stage>
@@ -5697,8 +5696,8 @@
 <p>Yes:—he is below, half distracted, foaming with rage, and accusing every servant in the house with having stolen his book! I hear him—Pray keep back! My sweet Joanna, but for a moment.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE IX.</head>
 <stage><hi>Enter</hi> ITEM.</stage>
 <sp>
@@ -5706,8 +5705,8 @@
 <stage>(Looking about eagerly.)</stage>
 <p>'Tis gone! 'tis lost! I am undone! I am murdered! I am betrayed!—I shall be prosecuted, pilloried, fined, cast in damages, obliged to pay all, to refund all, to relinquish all!—all—all—all! I'll hang myself!—I'll drown myself!—I'll cut my throat!—Mordent has got it!—All my secrets, all my projects, all my rogueries,—past, present, and to come!—Oh that I had never been born!—Oh that—</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <pb n="76" facs="75"/>
 <head>SCENE XII.</head>
 <stage><hi>Enter</hi> CLEMENT.</stage>
@@ -5761,8 +5760,8 @@
 <speaker>Item.</speaker>
 <p>I'll give you ten thousand pounds! I'll give you twenty! I'll give you fifty! Would you rob and ruin your uncle? Would you put him in the pillory? Would you see him hanged? <stage>(Falls upon him again.)</stage> Villain! I will have it! 'Tis mine! I will! I will! Thieves! Robbers! Murder! Fire!</p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="77" facs="76"/>
 <head>SCENE <hi>the last.</hi></head>
 <stage><hi>Enter</hi> Mr. MORDENT, Lady ANNE, LENNOX, CLEMENT, GRIME, DONALD, JOANNA, <hi>and</hi> CHEVERIL.</stage>
@@ -5856,12 +5855,11 @@
 <p>How strange are the vicissitudes of fortune! With what gloom was the dawn overcast! How have the storms of this memorable day risen, and increased even to horror! And now how bright the prospect; and how glowing the hope that it excites! Ceerish it, kind friends, with your smiles: and, in the gentle slumbers of the night, let us joyfully dream that we still merit, and still obtain, your willing favour.</p>
 </sp>
 <stage>The Curtain drops,</stage>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="78"/>
 <head>EPILOGUE.</head>
 <stage>Mrs. POPE, Miss WALLIS, <hi>and</hi> Mrs. MATTOCKS <hi>come forward.</hi></stage>
@@ -5915,7 +5913,7 @@
 <speaker><hi>Mrs.</hi> POPE.</speaker>
 <p>And once more make us blest in your applause.</p>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

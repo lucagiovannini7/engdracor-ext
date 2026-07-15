@@ -7,12 +7,12 @@
 <extent>[4],105,[3]p. ; 8⁰.</extent><publicationStmt><publisher>Sold by M. Mechell, at the King's arms in Fleet-Street; and likewise to be had at the booksellers of London and Westminster,</publisher><date>1753.</date><pubPlace>[London] :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT133179.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE ROMAN REVENGE. A TRAGEDY. By AARON HILL, <abbr>Esq</abbr></p>
 <p>Sold by <hi>M. Mechell,</hi> at the <hi>King</hi>'s <hi>arms</hi> in <hi>Fleet-street;</hi> and likewise to be had at the Booksellers of <hi>London</hi> and <hi>Westminster.</hi> M,DCC,LIII. Price one Shilling and Six-pence.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -65,8 +65,8 @@
 <l>Freedom had nurs'd no Son, to blast her Reign,</l>
 <l>And <hi>Caesar</hi> had a Soul, without one Stain.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Persons Represented.</head>
 <list>
@@ -95,14 +95,14 @@
 <item><hi>Portia,</hi> Wife to <hi>Brutus.</hi></item>
 <item><hi>Flavia,</hi> A Lady, Attendant on <hi>Calphurnia.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE. The Capital, and Places adjoing.</p></set>
 </front>
 <body>
 <head><pb facs="4"/>THE ROMAN REVENGE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT 1.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE 1.</head>
 <stage>A Hall in <hi>Caesar's</hi> House.</stage>
 <stage>CASSIUS. TORBILIUS. (Crossing.)</stage>
@@ -298,8 +298,8 @@ I hate myself—hate <hi>Rome—</hi>hate Life, Joy, Victory,</l>
 <l>He, who forgave my Guilt, demands my Virtue.</l>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>CAESAR,</hi> Preceded by Lictors, and Officers, and follow'd at some Distance, by an Augur.</stage>
 <sp>
@@ -398,8 +398,8 @@ I hate myself—hate <hi>Rome—</hi>hate Life, Joy, Victory,</l>
 <l>Away.</l>
 </sp>
 <stage>Exit <hi>Augur.</hi></stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>CAESAR alone.</stage>
 <sp>
@@ -458,8 +458,8 @@ If, till compell'd, I drew the public Sword,</l>
 <l>Better to <hi>hold,</hi> than <hi>bear</hi> tyrannic Sway:</l>
 <l>Where <hi>but the Great</hi> are free—Reason's, a Slave,</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>CALPHURNIA, to CAESAR, (ent'ring hastily.)</stage>
 <sp>
@@ -540,8 +540,8 @@ If, till compell'd, I drew the public Sword,</l>
 <l>In pity of her Fate, defend, and bless thee.</l>
 </sp>
 <stage>Exit <hi>Calphurnia,</hi> meeting <hi>Antony</hi> who bows to her, in passing.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE. V.</head>
 <stage>CAESAR, MARC ANTONY.</stage>
 <sp>
@@ -739,8 +739,8 @@ Snatch'd the succeeding Day, and, in my Absence,</l>
 <l>Admit 'em, <hi>Curio.</hi></l>
 </sp>
 <stage><hi>Exit</hi> Curio</stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="15" facs="18"/>
 <head>SCENE VI.</head>
 <stage><hi>Caesar,</hi> seated: <hi>Antony, Brutus, Cassius, Cimber, Decimus, Casca, Cinna, Marcellus,</hi> advancing to their Seats.</stage>
@@ -937,8 +937,8 @@ Those <hi>Fear;—</hi>in Others, hopes of promis'd Power</l>
 <stage>Exeunt Senators.</stage>
 <l>—Stay <hi>Consul,—Brutus—stay.</hi></l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>CAESAR. BRUTUS. ANTONY.</stage>
 <sp>
@@ -1090,8 +1090,8 @@ Shalt know, that, when fall'n <hi>Rome</hi>'s degenerate <hi>Consuls</hi></l>
 <l>Live,—a King's Slaves,<hi>—Brutus</hi> shall die—a <hi>Roman.</hi></l>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>CAESAR. ANTONY. </stage>
 <sp>
@@ -1189,13 +1189,13 @@ Shalt know, that, when fall'n <hi>Rome</hi>'s degenerate <hi>Consuls</hi></l>
 <l>No Help unneedful, Man shou'd <hi>all</hi> purfue,</l>
 <l>Lest Time slide from him,—and his Hopes die, too.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the First <hi>ACT.</hi></trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="25" facs="28"/>
 <head>ACT. II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room in</hi> Caesar's <hi>House. Two Chairs plac'd:</hi> Calphurnia, Flavia.</stage>
 <sp>
@@ -1436,8 +1436,8 @@ Thy all-permitting Mercy, not alone</l>
 <l>Of threat'ned <hi>Caesar:—</hi>For the Rest, he comes:</l>
 <l>Let his own Tongue retrace the horrid Tale.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>CAESAR, CALPHURNIA, TORBILIUS.</stage>
 <sp>
@@ -1666,8 +1666,8 @@ Thy all-permitting Mercy, not alone</l>
 <l>For I shall Try thy Faith in <hi>Caesar's</hi> Cause.</l>
 </sp>
 <stage><hi>Exit</hi> Torbilius</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>CAESAR, CALPHURNIA.</stage>
 <sp>
@@ -1804,8 +1804,8 @@ But, <hi>Brutus</hi> shall with mild Reproof, reduce</l>
 <speaker>CAESAR.</speaker>
 <l>See! the concurring Gods have sent Thee <hi>Curio!</hi></l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>CAESAR, CALPHURNIA, CURIO.</stage>
 <sp>
@@ -1842,8 +1842,8 @@ And, if this <hi>Blank,</hi> that, now, conceals his <hi>Name,</hi></l>
 <speaker>CALPHURNIA.</speaker>
 <l><hi>Curio!</hi> thy Ear.—</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>CAESAR, ANTONY.</stage>
 <sp>
@@ -1938,13 +1938,13 @@ There is in Liberty, what God's approve;</l>
 <l>Wildly sincere! unprevalently strong!</l>
 <l>Struggling for Right—and introducing Wrong:</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="42" facs="45"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Grand Apartment in the House of</hi> Brutus.</stage>
 <stage>BRUTUS, ANTONY.</stage>
@@ -2036,8 +2036,8 @@ There is in Liberty, what God's approve;</l>
 <l>Professing Virtue, make's ev'n Virtue <hi>hateful.</hi></l>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="44" facs="47"/>
 <head>SCENE II.</head>
 <sp>
@@ -2055,8 +2055,8 @@ There is in Liberty, what God's approve;</l>
 <l>And live, once more in <hi>Brutus!—</hi>fill this Heart,</l>
 <l>With <hi>Caesar</hi>'s Fire—but, let it flame, for <hi>Rome.</hi></l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>BRUTUS, TORBILIUS</stage>
 <sp>
@@ -2189,8 +2189,8 @@ Convince thee, that he dares assault thy <hi>Honour;</hi></l>
 <l>Win every Heart! and no <hi>Corruption</hi>'s Power</l>
 <l><hi>Out-bribes</hi> the native Sweetness of his <hi>Pity.</hi></l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>BRUTUS, CASSIUS, DECIMUS, CINNA, CASCA.</stage>
 <sp>
@@ -2295,8 +2295,8 @@ Convince thee, that he dares assault thy <hi>Honour;</hi></l>
 And, if I read him Rightly, in his <hi>Look,</hi></l>
 <l><hi>Caesar</hi>'s Attempts <hi>succeeds;</hi> for, see! he's <hi>Angry.</hi></l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>BRUTUS, CASSIUS, DECIMUS, CINNA, CASCA, CIMBER.</stage>
 <sp>
@@ -2708,8 +2708,8 @@ Then,—by that thin, pale, Flight of Roman Ghosts,</l>
 <l>—Avoid him, thro' that Gallery.</l>
 </sp>
 <stage>Exeunt Conspirators.</stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>BRUTUS, CAESAR.</stage>
 <sp>
@@ -2912,12 +2912,12 @@ And Rights invaded rouse resenting Realms,</l>
 <l>Nor Shame, nor Trust, nor Envy, <hi>finds</hi> us, there!</l>
 <l>Hearts, <hi>fill'd with Quiet,</hi> leave no Void, for <hi>Care.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT. IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Grot in the Garden of</hi> Brutus.</stage>
 <stage>CALPHURNIA, TORBILIUS.</stage>
@@ -2970,8 +2970,8 @@ Each Moment strength'ning, by admitted Files:</l>
 <l>Will caution, and preserve him.—Go:—she's here.</l>
 <stage><hi>[Exit</hi> Toroilius <hi>bowing to</hi> Portia, <hi>whom he meets ent'ring.</hi></stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>CALPHURNIA, PORTIA.</stage>
 <sp>
@@ -3035,8 +3035,8 @@ Each Moment strength'ning, by admitted Files:</l>
 <l>Now, to my fatal Post.—</l>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="65" facs="68"/>
 <head>SCENE III.</head>
 <sp>
@@ -3060,8 +3060,8 @@ Each Moment strength'ning, by admitted Files:</l>
 <l>Quench the kind Light, he lives by, the rash Murderer</l>
 <l>Kills his own Fame, and dies to every Virtue;</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>PORTIA, BRUTUS</stage>
 <sp>
@@ -3274,8 +3274,8 @@ Each Moment strength'ning, by admitted Files:</l>
 <l>And thou shalt justify the Heart of <hi>Brutus.</hi></l>
 </sp>
 <stage>Exit hastily</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>PORTIA. (alone.)</stage>
 <sp>
@@ -3297,8 +3297,8 @@ Each Moment strength'ning, by admitted Files:</l>
 <l>IF!—Heaven! what meant that <hi>if?-</hi> tis plain he <hi>doubted,</hi></l>
 <l>Whether we ever <hi>were</hi> to meet, or No!</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="71" facs="74"/>
 <head>SCENE VI.</head>
 <stage><hi>To</hi> PORTIA, <hi>enter</hi> CALPHURNIA, <hi>with</hi> TORBILIUS, CURIO, <hi>and</hi> Soldiers.</stage>
@@ -3319,8 +3319,8 @@ Each Moment strength'ning, by admitted Files:</l>
 <l>Well-vers'd in <hi>Caesar</hi>'s <hi>Pity,—</hi>glad, I go.</l>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>PORTIA, CALPHURNIA, SOLDIERS.</stage>
 <sp>
@@ -3619,8 +3619,8 @@ Cross those <hi>arm'd Enter'ers,</hi> e're they reach the Grove:</l>
 <l>Save my <hi>Brutus,</hi> Gods!</l>
 </sp>
 <stage>Clashing of Swords heard, without.</stage>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>CALPHURNIA, PORTIA, CASSIUS,</stage>
 <sp>
@@ -3646,8 +3646,8 @@ Cross those <hi>arm'd Enter'ers,</hi> e're they reach the Grove:</l>
 <l>Shall, there, appease them, with his offer'd <hi>Blood.</hi></l>
 </sp>
 <stage>Exit hastily.</stage>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="79" facs="82"/>
 <head>SCENE. IX.</head>
 <sp>
@@ -3701,12 +3701,12 @@ Cross those <hi>arm'd Enter'ers,</hi> e're they reach the Grove:</l>
 <l><hi>Vain</hi> are his Hopes reluctant Foes to <hi>bless:</hi></l>
 <l>And still, the more his Toils, his Praise the less.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Fourth <hi>ACT.</hi></trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT.V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Court before the Capitol.</stage>
 <stage>CASSIUS, CIMBER, CINNA, CASCA.</stage>
@@ -3848,8 +3848,8 @@ Heav'd, in disjointed Surge, rolls loose beneath me.</l>
 <l>Save us! He looks, as if the tumbling <hi>Statues</hi></l>
 <l>Had crush'd him into <hi>Cowardice!</hi></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>CASSIUS, CIMBER, DECIMUS,</stage>
 <stage>CINNNA, CASCA, BRUTUS.</stage>
@@ -4153,8 +4153,8 @@ Help me to thank the <hi>Gods,</hi> I'm once more <hi>Brutus?</hi></l>
 <l>And let <hi>Rome</hi>'s safety flow from <hi>Caesar</hi>'s Will!</l>
 <l>—He comes—Oh, Shade of <hi>Cato!</hi> guard my Virtue</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>BRUTUS, CAESAR. and LICTORS.</stage>
 <sp>
@@ -4391,8 +4391,8 @@ Help me to thank the <hi>Gods,</hi> I'm once more <hi>Brutus?</hi></l>
 <l>No:—I but <hi>die</hi> for <hi>Rome.—</hi>I <hi>weep</hi> for <hi>Caesar,</hi></l>
 </sp>
 <stage><hi>Exit,</hi> in <hi>Confusion.</hi></stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>CAESAR, TRINOVANTIUS.</stage>
 <sp>
@@ -4535,7 +4535,7 @@ How grew the Master-Soldier of the World</l>
 <l>'Tis strange, that I, too, cannot!—Yet, beware,</l>
 <l>Thou call'st no Aid of <hi>Arms:—</hi>Civil <hi>to</hi> Civil,</l>
 <l>And, but to <hi>martial</hi> military.—Hear'st thou</l>
-<stage><hi>Loud Cry of A</hi> Caesar<hi>—A</hi> Caesar!</stage>
+<stage><hi>Loud Cry of </hi><said direct="true"><hi>A</hi> Caesar<hi>—A</hi> Caesar!</said></stage>
 <l>You shoutig Swarm, that shakes <hi>Rome</hi>'s echoing <hi>Domes?</hi></l>
 <l>Lead those <hi>loud Voters,</hi> from the o'rerowded Streets,</l>
 <l>To where their Cry may reach the <hi>Senate</hi>'s Ear:</l>
@@ -4548,8 +4548,8 @@ How grew the Master-Soldier of the World</l>
 <l>One grateful <hi>Briton</hi> saves the <hi>Roman Soul!</hi></l>
 </sp>
 <stage>Caesar, <hi>and</hi> Trinovantius, <hi>turn to go off, on</hi> opposite Sides.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="99" facs="102"/>
 <head>SCENE V.</head>
 <stage>TORBILIUS. (Ent'ring hastily.)</stage>
@@ -4671,8 +4671,8 @@ How grew the Master-Soldier of the World</l>
 <l>'Tis Comfort, <hi>not to know</hi> 'em</l>
 </sp>
 <stage><hi>Exit</hi> Caesar</stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To</hi> TORBILIUS <hi>enter</hi> TRINOVANTIUS <hi>and two</hi> Roman <hi>Officers.</hi></stage>
 <sp>
@@ -4709,7 +4709,7 @@ To feed the rich Man's Luxury.—No Tears</l>
 <l>Of starving <hi>Want;—</hi>no iron Hand of Law;</l>
 <l>No Slaves to fellow-subjects, shall make <hi>sad</hi></l>
 <l>The Streets of <hi>happy Rome—</hi>If <hi>Caesar</hi> reigns.</l>
-<stage><hi>A cry from within—</hi>Liberty! Liberty: Liberty!</stage>
+<stage><hi>A cry from within—</hi><said direct="true">Liberty! Liberty: Liberty!</said></stage>
 <l>Hark! in that Cry, arose no voice of <hi>Joy!</hi></l>
 <l>By Heaven; they Murder <hi>Caesar!</hi> guard this Door,</l>
 <l>Good <hi>Romans! Fulvius! Aetius!</hi> your try'd Swords,</l>
@@ -4743,15 +4743,15 @@ To feed the rich Man's Luxury.—No Tears</l>
 Were to perpetuate <hi>Pain:—</hi>and Death grows <hi>Joy.</hi></l>
 <l>Speaking, he sunk:—Soft, o'er his manly form,</l>
 <l>Smooth'd his disorder'd Robe—and, sighless, <hi>died.</hi></l>
-<stage>Cry again, from within, Liberty! Liberty!</stage>
+<stage>Cry again, from within, <said direct="true">Liberty! Liberty!</said></stage>
 </sp>
 <sp>
 <speaker>TRINOVANTIUS.</speaker>
 <l>Edge this true Sword, kind Heaven! they dare <hi>descend.</hi></l>
 </sp>
 <stage><hi>Advancing to meet the Conspirators, he is held back by</hi> Marc Antony.</stage>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>TRINOVANTIUS, ANTONY, <hi>and Officers,</hi> CASSIUS, DECIMUS, CINNA, MARCELLUS, <hi>with bloody Daggers.</hi></stage>
 <sp>
@@ -4858,12 +4858,12 @@ He bow'd to <hi>weep</hi> upon the Wound, he <hi>made:</hi></l>
 <l>All Fruit of Power is <hi>Pain:</hi> and what is <hi>Fame?</hi></l>
 <l>When ev'n a <hi>Caesar</hi>'s Glory stains his Name.</l>
 </sp>
-</div2>
+</div>
 <trailer>The END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="109"/>
 <head>EPILOGUE. <hi>In Duetta:</hi></head>
 <sp>
@@ -5075,7 +5075,7 @@ What'ere hard Durance binds him,—(make no doubt on't)</l>
 <speaker>PORTIA.</speaker>
 <l>Ten Thousand Madmen, <hi>like</hi> him,</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

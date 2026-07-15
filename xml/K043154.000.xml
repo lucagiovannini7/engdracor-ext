@@ -7,19 +7,19 @@
 <extent>36p. ; 8⁰.</extent><publicationStmt><publisher>printed by J. Almon,</publisher><date>1785.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45397.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <pb facs="2" ana="y"/>
 <p>BARATARIA: OR, SANCHO TURN'D GOVERNOR, A FARCE, IN TWO ACTS▪ As it is Performed at the Theatre-Royal, Covent-Garden.</p>
 <p>By FREDERICK PILON.</p>
 <p>LONDON: PRINTED BY J. ALMON, No. 183, FLEET-STREET, MDCCLXXXV.</p>
-</div1>
-<div1 type="tothereader">
+</div>
+<div type="tothereader">
 <pb facs="3"/>
 <head>To the PUBLIC.</head>
 <p>THE subject of the following Farce is taken from the second part of D'Ursey's Don Quixote. Three scenes only of the original have been retained; and even these it was found necessary to materially alter, and enrich with additions to give them a modern, a novel complexion.—Impressed with every veneration for the genius of Cervantes, the present writer has adhered to him as closely as the nature of dramatic writing would admit; and should the same of that celebrated wit protect Sancho on the stage, the author of Barataria need not wrsh to be more successful.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -48,15 +48,14 @@
 <item><label>Dutchess</label> Mrs. POUSIN.</item>
 </list>
 <p>Baratarian Lords, Ladies, Guards, and Attendants</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="5" facs="5"/>
 <head>BARATARIA.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>an Apartment in Duke Ricardo's Palace.</stage></head>
 <stage><hi>Enter</hi> MANUEL <hi>and</hi> PEDRO.</stage>
 <sp>
@@ -101,8 +100,8 @@
 <p>By all means; I would not miss it to be appointed governor to an island in good earnest.</p>
 <stage>Exeunt,</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to a grand, apartment In the palace; the Duke, tie Duchess, Don Quixote, Sancho, Rodriguez, and attendants, discovered. A pompous flourish of trumpets.</stage></head>
 <sp>
 <speaker>Duke.</speaker>
@@ -364,8 +363,8 @@
 <pb n="14" facs="14"/>wishing you soon to be an emperor, we take our leave, to feast and give our islanders a play day, and meet our spouse, who now must be a lady.</p>
 <stage>Exeunt severally.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>a Rural View.</hi></stage></head>
 <stage><hi>Enter</hi> TERESA <hi>and</hi> MARY.</stage>
 <sp>
@@ -517,8 +516,8 @@
 <p>Charming! Softly, young man, don't bump a body so much. Let mother go first; she's oldest.</p>
 <stage>Exeunt in chairs.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to a plain before the gates of Barataria.</hi></stage></head>
 <stage>SANCHO <hi>and</hi> DAPPLE <hi>discovered.</hi></stage>
 <sp>
@@ -639,11 +638,11 @@
 <stage>PROCESSION composed of vrious Groups of Baratarians with SANCHO.</stage>
 <stage>Comic Music suited to each Group as the Banners appear.</stage>
 <trailer>End of the FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>an elegent Apartment in the Governor's Palace.</hi></stage></head>
 <stage><hi>Enter</hi> SANCHO <hi>with a large Bundle of Petitions under his Arm follwed by</hi> MANUEL. <hi>A Table and Chairs.</hi></stage>
 <sp>
@@ -787,8 +786,8 @@
 <p>But come, let us go hear him as a judge; in the present state of his appetite, he'll shew no more mercy to a criminal, than he wou'd to a mess of Olla Podrida.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene Changes to a Court of Justice.</stage></head>
 <stage>Sancho Seated on the Bench; Constable, Cryer, Custom-bouse Officer, Smuggler, &amp;c. &amp;c. &amp;c. Taylor, Gardener, thin Man, Big Woman.</stage>
 <sp>
@@ -1088,8 +1087,8 @@
 <p>Then pillor the coiner, and transport the sheep-stealer, for I havn't time to hang any body till tomorrow.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to an Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> MARY <hi>and</hi> TERESA <hi>full dressed.</hi></stage>
 <sp>
@@ -1143,8 +1142,8 @@
 <p>Now, Lady Mary, consider where you are going—don't listen to every gay spark, who'll tell you a fine story, if you shou'd commit a fox's paw, we slall be all ruin'd in the full senate of our glory.</p>
 <stage>Exeunt led off by Manuel.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>a grand apartment.</hi></stage></head>
 <stage><hi>Two Tables. One covered for dinner, at which</hi> TERESA <hi>and</hi> MARY <hi>are to take their seats,</hi> SANCHO's <hi>Table only covered wtib a cloth, State Chair for him. Trumpets.</hi> SANCHO <hi>discovered, &amp;c.</hi></stage>
 <sp>
@@ -1468,19 +1467,18 @@ veal must not stay a moment longer on the table—Indeed had it been neither ste
 <speaker>Sancho.</speaker>
 <p>I do, indeed, my Lord—St. Peter is very well at Rome; Cobler stick to your last; there's no making a velvet purse of a Pig's ear—my Lord Duke I thank you for your kindness, but return you your Government back again; nature never intended me for fighting.—No nor fasting—Doctor; all I now ask is, give me my wife, my daughter and dapple.—Take notice, I have not displac'd a tile nor a brick in the Island.—A poor man I came in and a poor man I go out of place, and if every Governor cou'd say the same, he'd be sure of what I now most wish for PUBLIC APPROBATION.—</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="bythesameauthor">
+<div type="bythesameauthor">
 <p>Lately published</p>
 <p>Written by the SAME AUTHOR</p>
 <p>The FAIR AMERICAN: A Comic Opera, in Three Acts; as it is performed, with universal applause, at the Theatre Royal, Drury Lane, Price I S. 6 d.</p>
 <p>SONGS, CHORUSES, and RECITATIVE, in the Pantomime of the MAGIC CAVERN, performed at the Theatre Royal, Covent Garden. Price 6 d.</p>
 <p>Printed by J. ALMOND, No. 183, Fleet Street</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

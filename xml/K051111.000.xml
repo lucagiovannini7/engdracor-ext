@@ -7,18 +7,18 @@
 <extent>8,[4],75,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. Baldwin,</publisher><date>1781.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Samuel J. Pratt.</note><note>Based on J. Hawkesworth's 'Almoran and Hamet'.</note><note>With a half-title and a final epilogue leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT58099.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE FAIR CIRCASSIAN. A TRAGEDY.</p>
 <p>[Price 1<hi>s.</hi> 6<hi>d.</hi>]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE FAIR CIRCASSIAN. A TRAGEDY. AS PERFORMED AT THE THEATRE-ROYAL, DRURY-LANE,</p>
 <p>BY THE AUTHOR OF <hi>SYMPATHY,</hi> A POEM.</p>
 <p>LONDON: PRINTED FOR R. BALDWIN, NO. 47, PATER-NOSTER ROW. M DCC LXXXI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO HIS ROYAL HIGHNESS THE PRINCE OF WALES.</head>
 <opener><salute>SIR,</salute></opener>
@@ -26,15 +26,15 @@
 <pb n="ii" facs="4"/>representations of wisdom and of virtue; the wisdom of the patriot, the virtue of the prince.</p>
 <p>That your Royal Highness may very long reflect blessings on the people of England, and prove a distinguished honour to the illustrious family who have that generous people in charge, is the zealous prayer, as it is the most empassioned expectation, of</p>
 <closer><signed>YOUR ROYAL HIGHNESS's Most devoted, And most dutiful servant, THE AUTHOR.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="5"/>
 <head>PREFACE.</head>
 <p>THIS tragedy borrows its general story, and some of its incidents, with as much of its sentiment as could be preserved, from the very beautiful <hi>"Almoran</hi> and <hi>Hamet"</hi> of Hawkesworth. Except that truth and justice call for such acknowledgement, it would on any other score have been unnecessary; for what can be added to the fame of a work universally celebrated? The original <hi>machinery</hi> has been rejected, because it would have been too daring an attempt to interweave it with the fable of a modern composition, and perhaps too mighty a task to manage without violating the first great law of dramatick probability. At the same time, it has been the authour's most assiduous endeavour, to "convert the sententious display of eastern wisdom, as far as character would permit, into the language of passion, varied by every motive which might most forcibly affect the human mind in the most warm and interesting situations." These are the words of a critick, who seems fully to have penetrated the design of the author. The lines with inverted commas were omitted in the representation, to favour the rapidity of the action. They are retained
 <pb n="8" facs="6"/>in the printed copy, not more at the instance of particular friends, than on general experience that those passages which retard the force of the passion on the theatre, are frequently read with most satisfaction in the closet.</p>
 <p>The Play still continuing to be received on the stage with the most brilliant success, the author would but half discharge the debt of equity were he to confess obligations to Hawkesworth only. The liberal, perhaps the unequalled support which the managers have afforded by the scenery, the interesting manner in which Mr. Linley has set the Epithalamium, the taste of Mr. De Loutherberg, and the splendour which the performers have thrown over the characters by their EXCELLENT representation, demand and receive the most warm and pointed expressions of gratitude. There remains but one tribute of justice more, and <hi>that</hi> is due to Mr. Sheridan, whose attention has, on this occasion, been friendship, and whose assistance must always be fame.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE</head>
 <byline>BY A FRIEND. Spoken by Mr. BANNISTER, Jun.</byline>
@@ -83,8 +83,8 @@ If, in the tenour of her pensive lay,</l>
 <l>This radiant <note n="†" place="foot">To the Boxes.</note> circle too her hopes approve,</l>
 <l>And grace the triumph of the <hi>muse</hi> they love!</l>
 </sp>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <argument>
 <p><hi>The following prologue, from an honour-giving muse, of which it is truly worthy, did not arrive till after Mr. Bannister was put in possession of the excellent poetry which precedes it; and which another ingenious friend had been sollicited to supply. The author of the tragedy, however, thinks Miss Seward's composition too valuable to circulate only in manuscript. Indeed, to keep such verses out of print, would not only be a private injury to the piece (which they will adorn) but an unpardonable injustice to the public.</hi></p>
 </argument>
@@ -163,8 +163,8 @@ Low hollow gales its mournful sounds convey,</l>
 <l>We hope your just applause may bless our bard,</l>
 <l>His first ambition, and his bright reward.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -179,17 +179,16 @@ Low hollow gales its mournful sounds convey,</l>
 <item><label>CRISANTHE</label> MISS SIMPSON.</item>
 <item>ASIATIC AMBASSADORS, GUARDS, EUNUCHS, MUTES, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>PERSIA.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="11"/>
 <head>THE FAIR CIRCASSIAN. A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <head>SCENE I. <stage>A BEAUTIFUL GARDEN IN THE ORIENTAL TASTE, WITH SEVERAL RICH PAVILIONS, AND A SIDE VIEW OF A MAGNIFICENT PALACE ADJOINING. THE ROYAL APARTMENTS OPEN INTO THE GARDEN THROUGH A SPLENDID PORTICO.</stage></head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>ALI, CALED.</stage>
 <sp>
@@ -373,8 +372,8 @@ Low hollow gales its mournful sounds convey,</l>
 <l>This way are we secure.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>ALMEIDA, CRISANTHE.</stage>
 <sp>
@@ -482,8 +481,8 @@ Low hollow gales its mournful sounds convey,</l>
 <l>Ah, faithful fondness—leave us, gentle friend—</l>
 <l>Yet stay, Crisanthe—Stay, attest his kindness.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="8" facs="18"/>
 <head>SCENE III.</head>
 <stage>HAMET, ALMEIDA, CRISANTHE.</stage>
@@ -643,8 +642,8 @@ Oh, witness heav'n the glowing exultation,</l>
 <l>I will prepare—by heav'n they're here—away.</l>
 </sp>
 <stage>Hamet conducts Almeida into a pavilion.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>ALMORAN, CALED.</stage>
 <sp>
@@ -937,13 +936,13 @@ Ev'n in the race of love: auspicious still</l>
 <l>The fate and fortune of our Eastern world.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF ACT THE FIRST.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="27"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A VIEW OF THE TOMBS OF THE KINGS OF PERSIA, CUT OUT OF THE ROCKS, AND A PROSPECT OF A VENERABLE MOSQUE. THE WHOLE AWFULLY MAGNIFICENT. HAMET, OMAR.</stage>
 <sp>
@@ -1185,8 +1184,8 @@ With my lov'd subjects teach me, gods, to share</l>
 <l>And these old eyes shall pour their thanks in tears.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A MAGNIFICENT APARTMENT IN THE PALACE. ALMORAN, OSMYN.</stage>
 <sp>
@@ -1579,13 +1578,13 @@ Prated cold maxims to my burning rage,</l>
 <l>Sure of immortal honour—to defend</l>
 <l>The throne, the heart of the insulted Almoran.</l>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT THE SECOND.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="31" facs="41"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>AN APARTMENT IN HAMET'S PALACE.</stage>
 <sp>
@@ -1603,8 +1602,8 @@ Prated cold maxims to my burning rage,</l>
 <l>'Tis barbarous to destroy thy gilded dreams</l>
 <l>And wake thee to the cunning turns of life.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>HAMET, OMAR.</stage>
 <sp>
@@ -1746,8 +1745,8 @@ Yet, say his life upon thy kindness rested,</l>
 <l>In the fraternal look he comes array'd.</l>
 <l>You wrong'd him, friend—indeed you wrong'd him much.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>ALMORAN, HAMET, OMAR.</stage>
 <sp>
@@ -1836,8 +1835,8 @@ Which kind disorder wakes in every feature,</l>
 <l>And like a parent, give her to my arms.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <sp>
 <speaker>OMAR</speaker>
@@ -1860,8 +1859,8 @@ Which kind disorder wakes in every feature,</l>
 <l>Imparting mutual brightness to each other.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="37" facs="47"/>
 <head>SCENE V.</head>
 <stage>THE INSIDE OF THE CHIEF MOSQUE, MAGNIFICENTLY ILLUMINATED—ALI, IMANS, OFFICERS, AND THE ASSIATICK AMBASSADORS, PREPARED FOR THE CEREMONY —CHORUS OF YOUTHS AND VIRGINS, WHO ENTER WITH THE PRIESTS TO SING THE EPITHALAMIUM —AN ALTAR SUPERBLY DECORATED.</stage>
@@ -2119,8 +2118,8 @@ Is lost where heav'n prevails not—But for thee,</l>
 <l>My beateous victim in the face of day.</l>
 </sp>
 <stage><hi>Exit with</hi> OSMYN <hi>and</hi> CALED.</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>CHANGES TO A GROVE NEAR, PRESENTING AN OUTSIDE VIEW OF THE MOSQUE, BUT DIFFERENT FROM THAT OF THE TOMBS.</stage>
 <stage>HAMET, ALMEIDA, OMAR.</stage>
@@ -2217,8 +2216,8 @@ That straight may foil the wicked arts of Ali.</l>
 <l>Thanks to thy wounded pride for this one virtue.</l>
 </sp>
 <stage>Prepare to fight.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="45" facs="55"/>
 <head>SCENE VII.</head>
 <stage><hi>Enter</hi> ALMEIDA.</stage>
@@ -2302,13 +2301,13 @@ That straight may foil the wicked arts of Ali.</l>
 <l>The lady once secur'd, be Hamet free.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF ACT THE THIRD.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="47" facs="57"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>AN APARTMENT IN ALMORAN'S PALACE.</stage>
 <stage>ALMORAN, OSMYN, CALED.</stage>
@@ -2375,8 +2374,8 @@ That straight may foil the wicked arts of Ali.</l>
 <l>Th' immortal arm that raises, can destroy.</l>
 </sp>
 <stage><hi>Exit with</hi> OSMYN.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>CALED.</speaker>
@@ -2400,8 +2399,8 @@ Then nought but holy maxims shall be heard</l>
 <l>And shake the fabrick he has rais'd above me.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>THE SERAGLIO GATES.</stage>
 <sp>
@@ -2421,8 +2420,8 @@ Then nought but holy maxims shall be heard</l>
 <l>The account of infamy is large against me.</l>
 <l>Long have I inly mourn'd—</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Enter</hi> HAMET <hi>(in a mute's habit)</hi></stage>
 <sp>
@@ -2500,8 +2499,8 @@ Oh! give me strength of armies, righteous powers!</l>
 <l>Thus let me meet the robber ere he plunders—</l>
 </sp>
 <stage>Seeing Almoran.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>HAMET, ALMORAN.</stage>
 <sp>
@@ -2552,8 +2551,8 @@ Oh! give me strength of armies, righteous powers!</l>
 <l>Thou art my brother still—The gods be prais'd.</l>
 </sp>
 <stage>again embrace.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>CALED <hi>and</hi> GUARDS.</stage>
 <sp>
@@ -2656,8 +2655,8 @@ Unarm'd and undefended as thou art.—</l>
 <l>'Tis thus I answer them—I'll talk no more.</l>
 </sp>
 <stage>Exit, closing the gates against him, he falls.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>HAMET </speaker>
@@ -2679,8 +2678,8 @@ Take me infuriate—Take me to yourselves!</l>
 <l>Arm my firm hand, and I shall die content.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>THE INSIDE OF THE SERAGLIO. ALMEIDA DISCOVERED IN A SUPERB APARTMENT OPENING INTO SEVERAL OTHERS MAGNIFICENTLY DECORATED. MUSIC AND VOICES, ATTEMPT HER ENTERTAINMENT BEFORE SHE SPEAKS. MUTES RICHLY DRESSED ATTENDING.</stage>
 <sp>
@@ -2701,8 +2700,8 @@ Take me infuriate—Take me to yourselves!</l>
 <l>I cannot bear it—it overwhelms my foul.</l>
 </sp>
 <stage>Reclines on one of the sophas.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> ALMORAN <hi>to</hi> ALMEIDA.</stage>
 <sp>
@@ -2912,8 +2911,8 @@ Thy tears, thy strugglings, and thy woman's arts,</l>
 <l>Go and prepare for anguish, blood, and horror.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <speaker>ALMEIDA.</speaker>
@@ -2932,13 +2931,13 @@ Thy tears, thy strugglings, and thy woman's arts,</l>
 <l>Oh, I will save their lov'd, their precious lives;</l>
 <l>Prevent the fatal blow, or with them die.</l>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT THE FOURTH</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="61" facs="71"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A GRAND SALOON IN THE PALACE.</stage>
 <stage>ALMORAN, CALED.</stage>
@@ -3099,8 +3098,8 @@ To me, my lord—but now enjoy thy victory.</l>
 <l>Meantime this feeble traitor—Ha! he comes,</l>
 <l>And Osmyn too; but Caled will destroy—</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>OSMYN <hi>with</hi> OMAR <hi>in Chains.</hi></stage>
 <stage>GUARDS WITH THEIR SABRES DRAWN. ALMORAN, OMAR, OSMYN.</stage>
@@ -3171,8 +3170,8 @@ Nor can thy most malignant tyranny</l>
 <l>Can in a moment crush thee.—Hence!—Dispatch.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="66" facs="76"/>
 <head>SCENE III.</head>
 <stage>OMAR, OSMYN.</stage>
@@ -3278,8 +3277,8 @@ Nor can thy most malignant tyranny</l>
 <l>Since I have serv'd my king—and sav'd a soul.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>THE GARDEN OF THE SERAGLIO; THE MOON ABOUT TO SET.</stage>
 <stage><hi>Enter</hi> HAMET.</stage>
@@ -3304,8 +3303,8 @@ Nor can thy most malignant tyranny</l>
 <l>He owes himself, Almeida, and his country.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="69" facs="79"/>
 <head>SCENE V.</head>
 <stage><hi>Enter</hi> OSMYN.</stage>
@@ -3316,8 +3315,8 @@ Nor can thy most malignant tyranny</l>
 <l>The monarch his high charge—soft—they're here,</l>
 <l>Aladin leads the way.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>ALMORAN</speaker>
@@ -3350,8 +3349,8 @@ Nor can thy most malignant tyranny</l>
 <l>I go to guard thy privacy.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="70" facs="80"/>
 <head>SCENE VII.</head>
 <stage>ALMEIDA <hi>with</hi> CRYSANTHE, <hi>from the seraglio.</hi></stage>
@@ -3499,8 +3498,8 @@ I tow'r above the female's fancied terrors,</l>
 <l>And meet the russian with a hero's boldness:</l>
 <l>See heav'n hath arm'd my hand—Desist or fall.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>Enter</hi> HAMET.</stage>
 <sp>
@@ -3533,8 +3532,8 @@ I tow'r above the female's fancied terrors,</l>
 <l>I need not shed thy blood—Thy conscience bleeds</l>
 <l>Already</l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>CALED <hi>and</hi> ALI <hi>(with lights.)</hi></stage>
 <sp>
@@ -3545,8 +3544,8 @@ I tow'r above the female's fancied terrors,</l>
 <speaker>HAMET.</speaker>
 <l>Approach and die—</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="74" facs="84"/>
 <head>SCENE X.</head>
 <stage>ENTER OMAR AND OSMYN, AT THE HEAD OF A LARGE PARTY.</stage>
@@ -3642,13 +3641,12 @@ Sit vulture-like upon—Stand off—I will not,</l>
 <l>The sure rewards of constancy and truth,</l>
 <l>The meed of goodness—and CONSENT OF HEAV'N,</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="86"/>
 <head>EPILOGUE</head>
 <stage>Spoken by Miss FARREN.</stage>
@@ -3713,7 +3711,7 @@ Immortal chiefs! who on one leg can do</l>
 <l>Act as ambassadress, and sign the treaty.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

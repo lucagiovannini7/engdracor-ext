@@ -7,11 +7,11 @@
 <editionStmt><edition>The second edition.</edition></editionStmt><extent>[12],66,[2]p. ; 4⁰.</extent><publicationStmt><publisher>printed for Jacob Tonson: and sold by William Davis,</publisher><date>1703.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT56247.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>TAMERLANE. A TRAGEDY.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>TAMERLANE. A TRAGEDY.</p>
 <p>As it is Acted at the NEW THEATER IN <hi>Little Lincolns—Inn—Fields.</hi> By Her MAJESTY's SERVANTS.</p>
@@ -22,8 +22,8 @@
 <bibl>Virg. Georg. 4.</bibl>
 <p>The SECOND EDITION.</p>
 <p><hi>LONDON,</hi> Printed for <hi>Jacob Tonson</hi>: And Sold by <hi>William Davis,</hi> at the <hi>Black Bull</hi> over against the Royal Exchange in <hi>Cornhill,</hi> 1703.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO THE RIGHT HONOURABLE WILLIAM, LORD MARQUISS Of HARTINGTON.</head>
 <opener><salute>My LORD,</salute></opener>
@@ -39,8 +39,8 @@ his fellow if he can master him, than an avow'd Liberty of breaking thro' all th
 large Resemblance of Him: Several Incidents are alike in their Stories; and there wants nothing to his Majesty but such a deciding Victory, as that by which <hi>Tamerlane</hi> gave Peace to the World. That is yet to come: But I hope we may reasonably expect it from the unanimity of the present Parliament, and so formidable a Force as that Unanimity will give Life and Vigour to.</p>
 <p>If your Lordship can find any thing in this Poem like a Prince, who is so justly the Object of your Lordship's, and indeed of the World's Veneration, I persuade my self it will prevail with you to forgive every thing else that you find amiss. You will excuse the Faults in Writing, for the goodness of the Intention. I hope too, your Lordship will not be displeas'd, that I take this opportunity of renewing the Honour which I formerly had, to be known to your Lordship, and which gives me at once the Pleasure of expressing those Just and Dutiful Sentiments I have for his Majesty, and that strong Inclination which I have always had to be thought,</p>
 <closer><salute>My Lord,</salute> <signed>Your Lordships most Obedient, Humble Servant, N. ROWE</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="8"/>
 <head>PROLOGUE.</head>
 <byline>Spoke by Mr. <hi>BETTERTON.</hi></byline>
@@ -90,8 +90,8 @@ The peaceful Fathers, who in Senates meet,</l>
 <l>Their Arms were crown'd abroad, with just Success,</l>
 <l>And blest at Home with Beauty and with Peace.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -134,14 +134,14 @@ The peaceful Fathers, who in Senates meet,</l>
 <label>Other Attendants.</label>
 <item> </item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>Tamerlane</hi>'s Camp, near <hi>Angoria</hi> in <hi>Galatia.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="11"/>
 TAMERLANE.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head>SCENE <stage>before <hi>Tamerlane</hi>'s Tent.</stage></head>
 <stage>Enter the Prince of <hi>Tanais, Zama</hi> and <hi>Mirvan.</hi></stage>
@@ -910,11 +910,11 @@ And made our Parting softer.</l>
 <l>But bids her Eyes confess the yielding Maid.</l>
 <stage>[Exit <hi>Selima,</hi> Guards following.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the first Act.</trailer>
-</div1>
-<div1 n="2" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <pb n="15" facs="25"/>
 <head>ACT II. SCENE I.</head>
 <head>SCENE <stage><hi>Tamerlane</hi>'s Camp.</stage></head>
@@ -1007,8 +1007,8 @@ And lowness of a Slave; but oh! to speak</l>
 <l>Since that sweet Hour is worth whole Years of Pain.</l>
 <stage>[Exeunt <hi>Moneses,</hi> and <hi>Stratocles.</hi></stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="17" facs="27"/>
 <head>SCENE II.</head>
 <stage>the Inside of a Magnificent Tent.</stage>
@@ -1660,11 +1660,11 @@ Can barely know, unable to describe it;</l>
 <l>Chearless, in darkness, he pursues his way.</l>
 <stage>[Exeunt <hi>Moneses</hi> and <hi>Arpasia</hi> severally.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <head>SCENE, <stage>the Inside of the Royal Tent.</stage></head>
 <stage>Enter <hi>Axalla, Selima,</hi> and Women Attendants.</stage>
@@ -2040,8 +2040,8 @@ He bad me take her.—But oh! gracious Honour!</l>
 <l>'Tis easier far to die, than cease to love. </l>
 <stage>[Exit <hi>Axalla</hi></stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Tamerlane</hi>'s Camp.</stage>
 <stage>Enter severally <hi>Moneses,</hi> and Prince of <hi>Tanais.</hi></stage>
@@ -2452,11 +2452,11 @@ With soft Enjoyments, wooes 'em to forget</l>
 <l>Scar'd at the noble Noise, and Thunder of the War.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <head>SCENE, <stage><hi>Bajazet</hi>'s Tent.</stage></head>
 <stage>Enter <hi>Haly</hi> and the Dervise.</stage>
@@ -2577,8 +2577,8 @@ He had beg'd her, as a Captive of the War,</l>
 <l>His Hate, with retribution full as mortal. </l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene draws, discovers <hi>Arpasia</hi> lying on a Couch.</stage></head>
 <sp>
 <lg type="song">
@@ -3294,10 +3294,10 @@ Thou say'st, I am Indifferent, and Cold.</l>
 <l>The God grew terrible again, and was again ador'd.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <head>SCENE, <stage><hi>Bajazet</hi>'s Tent.</stage></head>
 <stage><hi>Enter</hi> Arpasia.</stage>
@@ -3937,11 +3937,11 @@ Justly she shares the Ruin she has made,</l>
 <l>Who then Rule best, when mindful to Obey.</l>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="79"/>
 <head>EPILOGUE.</head>
 <byline>Spoke by Mrs. <hi>BRACEGIRDLE.</hi></byline>
@@ -3997,7 +3997,7 @@ He to no Government will sue for Grace;</l>
 <l>And if you slight the Offers which we make you,</l>
 <l>No <hi>Brentford</hi> Princes will for Statesmen take you</l>
 </lg>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

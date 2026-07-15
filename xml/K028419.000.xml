@@ -7,25 +7,25 @@
 <extent>[2],28p. ; 8⁰.</extent><publicationStmt><publisher>printed for the editor, and sold at No.62, Great Wild-Street; by Mess. Egerton; Mess. Cox and Phillipson; R. Ryan; H. D. Symonds; and W. Richardson,</publisher><date>1789.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>An adaptation by Francis Waldron of the subplot of Thomas Heywood's 'The first and second partes of King Edward the Fourth'.</note><note>Also issued, without the second 'Advertisement" leaf as part of : 'The literary museum', London, 1792.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT17110.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE KING in the COUNTRY.</p>
 <p>A DRAMATIC PIECE, In TWO ACTS.</p>
 <p>Acted at the THEATRES-ROYAL, At RICHMOND and WINDSOR, 1788.</p>
 <p>LONDON, Printed for the EDITOR, and Sold at No. 62, <hi>Great Wild-Street,</hi> near <hi>Lincoln's-Inn-Fields;</hi> by Mess. EGERTON, <hi>Whitehall;</hi> Mess. COX and PHILLIPSON, <hi>James-Street, Covent-Garden;</hi> R. RYAN, No. 351, <hi>Oxford-Street;</hi> H. D. SYMONDS, No. 20. <hi>Pater-Noster-Row;</hi> and W. RICHARDSON, under the <hi>Royal-Exchange.</hi> 1789.</p>
 <p><hi>[Entered at Stationers-Hall.]</hi></p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p><hi>The following Piece is taken from an underplot in The First Part of King Edward the Fourth, written by Thomas Heywood; the dialogue has been altered a little, to render it fit for modern representation; and a few passages have been added for connexion and conclusion.</hi></p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>The Dramatic Piece of <hi>"The King in the Country,"</hi> was compiled and performed last summer, immediately on <hi>His Majesty's</hi> return from Cheltenham; when Entertainments of various kinds were exhibited at the different Places of Public Amusement, having relation to the Royal Excursion. The Calamity which, to the grief of every good mind, has since befallen <hi>Our Beloved Sovereign,</hi> does not, it is presumed, render the publication of this Drama improper; had the Editor thought it so, it would certainly have been withheld: for, having been honoured with <hi>The Royal Authority</hi> to superintend Theatrical Entertainments these ten years past (during which period it has been necessary for him to adapt pieces of a local, or temporary nature, to Provincial Theatres), no one can entertain a more proper sense of duty, respect, loyalty, and affection, to <hi>Our most gracious King,</hi> whom God preserve and restore!</p>
-</div1>
-<div1 type="poem">
+</div>
+<div type="poem">
 <pb facs="4"/>
 <head><hi>Written on the Bank of the Thames, opposite</hi> KEW, <hi>December</hi> 29, 1788.</head>
 <l>By <hi>Winter</hi>'s chilling breath now Silver <hi>Thames</hi></l>
@@ -44,8 +44,8 @@
 <l>To loose the bands of <hi>Winter</hi> in due time;</l>
 <l>So may it please THEE shortly to restore</l>
 <l>To reason, health, and happiness, OUR KING!</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -70,8 +70,8 @@
 <item>The Dutchess.</item>
 <item>Nell, the Tanner's Daughter.</item>
 </list>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -133,15 +133,14 @@
 <l>For every thought, deed, and endeavour,</l>
 <l>Is bent to gain that Prize, your Favour!</l>
 </lg>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE KING in the COUNTRY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE</head><stage><hi>A Forest.</hi></stage>
 <stage><hi>Enter</hi> Hobbs <hi>and</hi> Dudgeon.</stage>
 <sp>
@@ -434,8 +433,8 @@ The several towns in North Wiltshire which have the addition of <hi>Basset</hi> 
 <p>If you will, you must; but I had much rather go alone.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>The <hi>SCENE</hi>The continues.</stage></head>
 <stage><hi>Enter the Two</hi> Huntsmen.</stage>
 <sp>
@@ -721,8 +720,8 @@ The several towns in North Wiltshire which have the addition of <hi>Basset</hi> 
 <l>Come, Tom; the word's <hi>Fat Bacon and Brown Bread!</hi></l>
 <stage><hi>Exeunt</hi> King <hi>and</hi> Sellenger.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, </head><stage>Hobbs's <hi>House.</hi></stage>
 <stage><hi>Enter</hi> Hobbs, <hi>and his daughter</hi> Nell.</stage>
 <sp>
@@ -972,12 +971,12 @@ The several towns in North Wiltshire which have the addition of <hi>Basset</hi> 
 <l>But, come when he will, I promise him good cheer!</l></p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="19" facs="21"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE,</head><stage><hi>An Antique Hall.</hi></stage>
 <stage>Sir Humphrey Bowes <hi>and</hi> Justice Aston, <hi>seated.</hi></stage>
 <stage>Hobbs, Hadland, Grudgeon, Goodfellow, <hi>&amp;c.</hi></stage>
@@ -1211,8 +1210,8 @@ The several towns in North Wiltshire which have the addition of <hi>Basset</hi> 
 <l>And you for your pains, two fat hens will I bring.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE,—</head><stage><hi>A Grand Apartment.</hi></stage>
 <stage><hi>Enter</hi> King, Howard, Sellenger, &amp;c.</stage>
 <sp>
@@ -1320,8 +1319,8 @@ The several towns in North Wiltshire which have the addition of <hi>Basset</hi> 
 <l>Let's not forget our subjects' bliss at home!</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, </head><stage><hi>The Tower.</hi></stage>
 <stage><hi>Enter</hi> King, Lord Mayor, Recorder, Howard, Sellenger, <hi>and the train.</hi></stage>
 <sp>
@@ -1531,11 +1530,10 @@ The several towns in North Wiltshire which have the addition of <hi>Basset</hi> 
 <l>Lift high your voices 'till the roof doth ring,</l>
 <l>In duteous homage to great GEORGE our KING!</l>
 </sp>
-<stage>Song and Chorus of "GOD SAVE THE KING!"</stage>
-</div3>
-</div2>
+<stage>Song and Chorus of <title>"GOD SAVE THE KING!"</title></stage>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
 </back>

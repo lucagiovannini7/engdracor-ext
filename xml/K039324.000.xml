@@ -7,17 +7,17 @@
 <extent>[6],49,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for and sold by Paul Vaillant; and J. Roberts,</publisher><date>1742 [i.e.1741]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT38807.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE LYING VALET. IN TWO ACTS.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE LYING VALET; In Two ACTS. As it is performed GRATIS, At The Theatre in GOODMAN'S-FIELDS.</p>
 <p>By D. GARRICK.</p>
 <p><hi>LONDON:</hi> Printed for and Sold by PAUL VAILLANT, facing <hi>Southampton-Street</hi> in the <hi>Strand</hi>; and J. ROBERTS, in <hi>Warwick-Lane.</hi> 1742. (Price One Shilling.)</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -46,12 +46,12 @@
 <label>Prissy</label>
 <item>Mrs. <hi>Dunstall.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>THE LYING VALET.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT 1. SCENE 1.</head>
 <stage>GAYLESS'S <hi>Lodgings</hi></stage>
 <stage><hi>Enter</hi> GAYLESS <hi>and</hi> SHARP.</stage>
@@ -401,8 +401,8 @@ However, Sir, I'll convince you in half an Hour, that Mrs. <hi>Melissa</hi> know
 <speaker>Sharp.</speaker>
 <p>I fly. <stage>[Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE, Melissa's <hi>Lodgings.</hi></stage>
 <stage><hi>Enter</hi> Melissa <hi>and</hi> Kitty.</stage>
 <sp>
@@ -801,13 +801,13 @@ in a certain Lady, such a Day? describing you, Madam. And did not I see—</p>
 <l><hi>For should Spouse cool, his Gold will always warm ye.</hi></l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="22" facs="25"/>
 <head>ACT. II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> GAYLESS <hi>and</hi> SHARP.</stage>
 <sp>
 <speaker>Gay.</speaker>
@@ -1854,8 +1854,8 @@ impetuous Sallies of my Youth are now blown over, and a most pleasing Calm of pe
 <l><hi>Whilst vicious Passions, as they burn, destroy.</hi></l>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

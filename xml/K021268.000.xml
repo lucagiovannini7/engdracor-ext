@@ -7,21 +7,21 @@
 <extent>[4],84p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1782.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT2101.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE BELLE'S STRATAGEM, A COMEDY, AS ACTED AT THE THEATRE-ROYAL IN COVENT-GARDEN.</p>
 <p>By Mrs. COWLEY.</p>
 <p>LONDON: Printed for T. CADELL, in the <hi>Strand.</hi> 1782.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE QUEEN.</head>
 <opener><salute>MADAM,</salute></opener>
 <p>IN the following Comedy, my purpose was, to draw a FEMALE CHARACTER, which with the most lively Sensibility, fine Understanding, and elegant Accomplishments, should unite that beautiful Reserve and Delicacy which, whilst they veil those charms, render them still more interesting. In delineating such a Character, my heart naturally dedicated it to YOUR MAJESTY; and nothing remained, but permission to lay it at Your feet. Your Majesty's graciously allowing me this high Honour, is the point to which my hopes aspired, and a reward, of which without censure I may be proud.</p>
 <closer><salute>MADAM,</salute>
 <signed>With the warmest wishes for the continuance of your Majesty's felicity, I am YOUR MAJESTY's Most devoted and most dutiful Servant, <hi>H. Cowley.</hi></signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -73,13 +73,13 @@
 <item>Mrs. <hi>Poussin.</hi></item>
 </list>
 <p>MASQUERADERS, TRADESMEN, SERVANTS, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>THE BELLE'S STRATAGEM.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—</head><stage>Lincoln's-Inn.</stage>
 <stage>Enter <hi>Saville,</hi> followed by a Servant, at the top of the stage, looking round, as if at a loss.</stage>
 <sp>
@@ -239,8 +239,8 @@ rage of the day! His first appearance set the whole <hi>Ton</hi> in a ferment, a
 <p>By the Lord, then, it must be my strapping cousins.—I dare not look behind me—Run, man, run.</p>
 </sp>
 <stage>Exit, on the same side.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi>—</head><stage>A Hall at <hi>Doricourt</hi>'s. A gentle knock at the door.</stage>
 <stage>Enter the Porter.</stage>
 <sp>
@@ -321,8 +321,8 @@ Mosse, suits cut by Verdue, trimmings by Grossette, embroidery by Detanville—<
 <speaker>Port.</speaker>
 <p>Step below a bit;—we'll make it out some-how! —I suppose a slice of sirloin won't make the story go down the worse. <stage><hi>Exeunt</hi> Porter <hi>and</hi> Crowquill.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi>—</head><stage>An Apartment at <hi>Doricourt</hi>'s.</stage>
 <stage><hi>Enter</hi> Doricourt.</stage>
 <sp>
@@ -465,8 +465,8 @@ colour of her eyes; and every attempt to draw her into conversation occasioned s
 <p>True; there I plead guilty:—but I have never yet found any man whom I could cordially take to my heart, and call Friend, who was not born beneath a British sky, and whose heart and manners were not truly English.</p>
 </sp>
 <stage><hi>Ex.</hi> Doricourt <hi>and</hi> Saville.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="11" facs="14"/>
 <head><hi>SCENE IV.</hi>—</head><stage>An Apartment at Mr. <hi>Hardy</hi>'s. <hi>Villers</hi> seated on a sopha, reading.</stage>
 <stage><hi>Enter</hi> Flutter.</stage>
@@ -830,11 +830,11 @@ stake my chance for happiness. I am impatient to begin my measures. <stage><hi>E
 </sp>
 <stage><hi>Exit</hi> Hardy.</stage>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> </head><stage>Sir George Touchwood<hi>'s.</hi></stage>
 <stage><hi>Enter</hi> Doricourt <hi>and</hi> Sir George.</stage>
 <sp>
@@ -884,7 +884,7 @@ stake my chance for happiness. I am impatient to begin my measures. <stage><hi>E
 </sp>
 <sp>
 <speaker>Sir Geo.</speaker>
-<p><stage><hi>Aside.</hi>I am glad to hear it, with all my soul.</stage> So then, you can't dine with us to-day? That's very unlucky.</p>
+<p><stage><hi>Aside.</hi></stage> I am glad to hear it, with all my soul. So then, you can't dine with us to-day? That's very unlucky.</p>
 </sp>
 <sp>
 <speaker>Doric.</speaker>
@@ -1294,8 +1294,8 @@ your heart to dissipation, and see if, in the scenes of gaiety and folly that aw
 <p>A fair tug, by Jupiter—between Duty and Pleasure!—Pleasure beats, and off we go, <hi>Iö triumphe!</hi></p>
 </sp>
 <stage><hi>Exit</hi> Flutter.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to an Auction Room.—Busts, Pictures, &amp;c. &amp;c.</stage>
 <stage><hi>Enter</hi> Silvertongue <hi>with three Puffers.</hi></stage>
 <sp>
@@ -1462,11 +1462,11 @@ mind him. Was you at the <hi>Cassino</hi> last night, Mr, Courtall?</p>
 </sp>
 <stage>Following.</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. </head><stage><hi>Mr.</hi> Hardy<hi>'s.</hi></stage>
 <stage><hi>Enter</hi> Letitia <hi>and Mrs.</hi> Racket.</stage>
 <sp>
@@ -1746,8 +1746,8 @@ tangent—from the aperture of a pistol, deserves consideration; so I make my <h
 <speaker>Hardy.</speaker>
 <p>Hang me, if I don't though. I foresee very clearly what will be the end of it, if I leave ye to yourselves; so, I'll e'en follow him to the Masquerade, and tell him all about it: Let me see.—What shall my dress be? A Great Mogul? No.—A Grenadier? No;—no, that, I foresee, would make a laugh. Hang me, if I don't send to my favourite little Quick, and borrow his Jew Isaac's dress:—I know the Dog likes a glass of good wine; so I'll give him a bottle of my Forty-eight, and he shall teach me. Aye, that's it—I'll be Cunning Little Isaac! If they complain of my want of wit, I'll tell 'em the cursed Duenna wears the breeches, and has spoilt my parts. <stage><hi>Exit</hi> Hardy.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="41" facs="46"/>
 <head><hi>SCENE II.</hi>—</head><stage>Courtall<hi>'s.</hi></stage>
 <stage><hi>Enter</hi> Courtall, Saville, <hi>and three others, from an Apartment in the back Scene.</hi> The last three tipsey.</stage>
@@ -1943,8 +1943,8 @@ Dick, do you know any of the servants at Sir George Touchwood's?</p>
 <p>Be exact in your intelligence, and come to me at Boodle's. <stage><hi>Exit</hi> Dick.</stage> If I cannot otherwise succeed, I'll beguile her as Jove did Alcmena, in the shape of her Husband. The possession of so fine a Woman — the triumph over Saville, are each a sufficient motive; and united, they shall be resistless.</p>
 </sp>
 <stage><hi>Exit</hi> Courtall.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi> — </head><stage>The Street.</stage>
 <stage><hi>Enter</hi> Saville.</stage>
 <sp>
@@ -1995,8 +1995,8 @@ Dick, do you know any of the servants at Sir George Touchwood's?</p>
 <speaker>Sav.</speaker>
 <p>Surely the occasion may justify the means:—'tis doubly my duty to be Lady Frances's Protector. Courtall, I see, is planning an artful scheme; but Saville shall out-plot him. <stage><hi>Exit</hi> Saville.</stage></p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.—<hi>Sir</hi> </head><stage>George Touchwood<hi>'s.</hi></stage>
 <stage><hi>Enter Sir</hi> George <hi>and</hi> Villers.</stage>
 <sp>
@@ -2158,11 +2158,11 @@ lifted up her hands in amazement!—Bless me! said she to her companion, here's 
 </sp>
 <stage><hi>Exit</hi> Gibson.</stage>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi>—</head><stage>A Masquerade.</stage>
 <stage>A Party dancing Cotillons in front—a variety of Characters pass and repass.</stage>
 <stage><hi>Enter</hi> Folly <hi>on a Hobby-Horse, with Cap and Bells.</hi></stage>
@@ -2907,8 +2907,8 @@ a Fool, or a Tyrant, I'd break his heart, ruin his fortune, elope with the first
 <speaker>Flut.</speaker>
 <p>With all my heart. "Live to Live," was my Father's motto: "Live to Laugh," is mine. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—</head><stage>Courtall<hi>'s.</hi></stage>
 <stage><hi>Enter</hi> Kitty <hi>and</hi> Courtall.</stage>
 <sp>
@@ -3066,12 +3066,12 @@ now for the door! <stage><hi>Part open the door, whilst the rest hold</hi> Court
 <p>There's no bearing this! I'll set off for Paris directly. <stage>Exit.</stage></p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="64" facs="69"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—</head><stage><hi>Hardy</hi>'s.</stage>
 <stage><hi>Enter</hi> Hardy <hi>and</hi> Villers.</stage>
 <sp>
@@ -3170,8 +3170,8 @@ shall be Mrs. Doricourt before night. Come, <stage>to Mr. Hardy</stage> to bed d
 <speaker>Har.</speaker>
 <p>You won't find 'em over brisk, I fancy. I foresee some ill happening from this making believe to die before one's time. But hang it—a-hem!—I am a stout man yet; only fifty-six—What's that? In the last Yearly Bill there were three lived to above an hundred. Fifty-six!— Fiddle-de-dee! I am not afraid, not I. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. </head><stage><hi>Doricourt</hi>'s.</stage>
 <stage>Doricourt <hi>in his Robe-de-Chambre.</hi></stage>
 <stage><hi>Enter</hi> Saville.</stage>
@@ -3340,8 +3340,8 @@ shall be Mrs. Doricourt before night. Come, <stage>to Mr. Hardy</stage> to bed d
 <speaker>Flut.</speaker>
 <p>Egad, I'll say you are both mad, and then I can't mistake. <stage>Exeunt severally.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—</head><stage>Sir <hi>George Touchwood</hi>'s.</stage>
 <stage><hi>Enter Sir</hi> George, <hi>and Lady</hi> Frances.</stage>
 <sp>
@@ -3490,8 +3490,8 @@ shall be Mrs. Doricourt before night. Come, <stage>to Mr. Hardy</stage> to bed d
 <speaker>Lady Fran.</speaker>
 <p>No; depend on us. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.—</head><stage><hi>Doricourt</hi>'s.</stage>
 <stage>Doricourt <hi>seated, reading.</hi></stage>
 <sp>
@@ -3548,8 +3548,8 @@ shall be Mrs. Doricourt before night. Come, <stage>to Mr. Hardy</stage> to bed d
 <speaker>Doric.</speaker>
 <p>And with reason—for that hundredth is a Widow <stage>Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. </head><stage><hi>Hardy</hi>'s.</stage>
 <stage><hi>Enter Mrs.</hi> Racket, <hi>and Miss</hi> Ogle.</stage>
 <sp>
@@ -4054,12 +4054,12 @@ this to a T. I never was so merry in my life—'Gad, I believe I can dance. <sta
 <speaker>Dor.</speaker>
 <p>My charming Bride! It was a strange perversion of Taste, that led me to consider the delicate timidity of your deportment, as the mark of an uninform'd mind, or inelegant manners. I feel now it is to that innate modesty, <hi>English</hi> Husbands owe a felicity the Married Men of other nations are strangers to: it is a sacred veil to your own charms; it is the surest bulwark to your Husband's honour; and cursed be the hour—should it ever arrive— in which <hi>British</hi> Ladies shall sacrifice to <hi>foreign Graces</hi> the Grace of Modesty!</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="83" facs="88"/>
 <head>EPILOGUE.</head>
 <l>NAY cease, and hear me—I am come to scold—</l>
@@ -4100,15 +4100,15 @@ this to a T. I never was so merry in my life—'Gad, I believe I can dance. <sta
 <l>Appear in Masks—Here, only, on the Stage,</l>
 <l>You see us as we are: <hi>Here</hi> trust your eyes;</l>
 <l>Our wish to please, admits of no disguise.</l>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <head>Of the Publisher may be had, By the same <hi>AUTHOR,</hi></head>
 <p>THE RUNAWAY, a Comedy.</p>
 <p>ALBINA, a Tragedy.</p>
 <p>WHO'S THE DUPE? a Farce.</p>
 <p>THE MAID OF ARRAGON, a Poem, Part I.</p>
 <p>{inverted ⁂} <hi>The whole of Mrs.</hi> COWLEY'S <hi>Dramatic Works, that have been published, may be had in One Volume,</hi> Price 5s. 9d. <hi>in boards,</hi> 6s. 6d. <hi>bound.</hi></p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

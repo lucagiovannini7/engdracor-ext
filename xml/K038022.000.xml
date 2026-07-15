@@ -7,7 +7,7 @@
 <extent>[8],35,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket,</publisher><date>1776.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT36693.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE HOTEL; OR, THE DOUBLE VALET.</p>
 <p>A FARCE, IN TWO ACTS.</p>
@@ -22,8 +22,8 @@
 <p>LONDON: Printed for T. BECKET, Corner of the Adelphi, Strand.</p>
 <p>MDCCLXXVI.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO HIS GRACE The DUKE of NORTHUMBERLAND.</head>
 <opener><salute>MY LORD,</salute></opener>
@@ -31,8 +31,8 @@
 <closer><salute>MY LORD,</salute>
 <signed>Your Grace's most devoted, obedient, and obliged humble servant, THOMAS VAUGHAN.</signed>
 <dateline>Great Queen-Street, <date>2d Dec. 1776.</date></dateline></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="3"/>
 <head>PREFACE.</head>
 <p>THE Author presents his compliments to the Ladies and Gentlemen engaged in the Hotel; particularly Mr. <hi>King,</hi> Mr. <hi>Parsons,</hi> and Miss <hi>P. Hopkins</hi>—With pleasure acquiesces in the general opinion, that the principal success, and uncommon applause the subsequent petite piece has been received with, is very justly attributed to the great attention and excellence of the performance; for which they have his best thanks, and warmest good wishes.</p>
@@ -46,8 +46,8 @@
 <l>Quod petis, id sanè est invisum acidumque duobus.</l>
 <bibl>HOR. Ep. ii. lib. ii.</bibl>
 <p>Great Queen-Street, 2d Dec. 1776.</p></note>, and the different opinions and critiques thrown out in the <hi>public prints,</hi> prevent his falling into that vanity and self-conceit, which bears such strong ascendancy over the minds of most men, and of authors in particular. And if his scenes but amuse in the closet, in proportion to their favourable reception on the stage, his utmost wish is gratified.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <sp>
@@ -101,8 +101,8 @@
 <l>And give (in spite of <hi>trivial faults</hi>) your hands.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -122,17 +122,16 @@
 <item>TABBY, <hi>waiting-woman to Flavia, Mrs. Wrighten.</hi></item>
 </list>
 <p><hi>N. B.</hi> Some few passages are omitted in the Representation, as being judged too long.</p>
-</div1>
+</div>
 <set><p><hi>Scene,</hi> COVENT-GARDEN, <hi>with a view of</hi> Low's Hotel.</p>
 <p><hi>Time of Action,</hi> FIVE HOURS.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE HOTEL; OR, THE DOUBLE VALET.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>An apartment in Sir Jacob's house.</stage>
 <stage>Flavia discovered working at the Tambour; Tabby waiting.</stage>
 <sp>
@@ -1115,12 +1114,12 @@ Yours, MONTAGUE.</p>
 <stage>Exeunt.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="26"/>
 <head>ACT II. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>Covent-Garden, with a view of Lowe's Hotel.</stage></head>
 <stage>Trimwell coming out, and walks about.</stage>
 <sp>
@@ -1339,8 +1338,8 @@ Yours, MONTAGUE.</p>
 <p><stage>[aside]</stage> Go I must, I see; so I'll e'en take him to the first master I find. This way, Sir, if you please.</p>
 <stage>Exeunt into the Hotel.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene, <stage>an apartment in the Hotel. Table and chairs. Sir John Seymour alone, agitated.</stage></head>
 <sp>
 <p>No; never shall a rival carry off my lovely Flavia! I must not, will not, lose her! and tho' this Montague may have escaped death in Paris, he—</p>
@@ -1510,8 +1509,8 @@ Yours, MONTAGUE.</p>
 <p>Richard— <stage>[stifling a laugh].</stage> He little thinks, I believe, this same Richard is no other than my other master; to whom I will instantly go and deliver this letter.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to another apartment in the Hotel.</stage></head>
 <stage>Clarissa at a table, writing.</stage>
 <stage>Enter Trimwell.</stage>
@@ -1680,8 +1679,8 @@ Yours, MONTAGUE.</p>
 <p>A fair wind to you, old trader! And I shall not find it a difficult matter, I believe, to persuade either of my young captains to receive your lading, and pay the duty.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to Neville's apartment in the Hotel.</stage></head>
 <stage>Enter Neville, followed by Trimwell.</stage>
 <sp>
@@ -1724,8 +1723,8 @@ Yours, MONTAGUE.</p>
 <pb n="30" facs="36"/>called for," makes every present search after her uncertain, and carries with it the appearance of a secresy most alarming. What if I go to Sir Jacob's, on the information received from Sir John? By pretending business with her brother, I may hear, perhaps, something of my Clarissa, without my design being even suspected. It shall be so.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene, <stage>Sir Jacob's house. Enter Sir Jacob, followed by Flavia and Robin.</stage></head>
 <sp>
 <speaker>Sir Jacob.</speaker>
@@ -2144,10 +2143,9 @@ Yours, MONTAGUE.</p>
 <l>Long have I serv'd, and, when my part is o'er,</l>
 <l>Give me a character, I ask no more!</l></p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

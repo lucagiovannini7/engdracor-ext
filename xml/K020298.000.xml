@@ -7,7 +7,7 @@
 <extent>[4],54,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1761.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Based on C.B. Fagan's 'L'étourderie'.</note><note>With a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT782.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE OLD MAID. A COMEDY In TWO ACTS, As it is PERFORMED at the THEATRE-ROYAL in DRURY-LANE.</p>
 <p>By Mr. MURPHY.</p>
@@ -16,14 +16,14 @@
 <bibl>OVID.</bibl>
 <p>LONDON: Printed for P. VAILLANT, facing Southampton-Street in the Strand. MDCCLXI.</p>
 <p>(Price One Shilling.)</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>AS the OLD MAID is now adventuring into the world, it would be proper to acquaint the mere English reader, that the subject of it, and part of the fable, were taken from a <hi>little piece,</hi> in one act, called, <hi>L'Etourderie,</hi> by Monsieur <hi>Fagan.</hi> but that the author of these scenes is sensible, how superfluous that information will be rendered by the assiduity of some people, who, no doubt, will make a notable discovery of this prodigious crime, and press it home with all the reproaches of <hi>plagiarism, pilfering, borrowing, robbing, translating,</hi> &amp;c. But while this writer can add any thing to the decent amusements of the public, he is willing to be abused for it, in whatever manner the illiberal shall think fit.</p>
 <closer><dateline>LINCOLN'S INN, <date><hi>Nov.</hi> 18, 1761.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -40,13 +40,12 @@
 <item><label>Miss HARLOW,</label> Miss KENNEDY.</item>
 <item><label>TRIFLE,</label> Miss HIPPISLEY.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE OLD MAID.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage><hi>Enter Mrs.</hi> HARLOW <hi>and Miss</hi> HARLOW.</stage>
 <sp>
@@ -736,8 +735,8 @@ presume you hold this stile to try my sincerity—I see that's your aim—but co
 </sp>
 <stage>Exit.</stage>
 <stage>END OF THE FIRST ACT.</stage>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="26" facs="29"/>
 <head>ACT II.</head>
 <stage><hi>Enter a Servant, and Capt.</hi> CAPE.</stage>
@@ -1864,12 +1863,11 @@ pardon if I am mistaken,—I hope there is no harm done.—</p>
 <l>And while, fond soul! she weaves her myrtle chain,</l>
 <l>She proves a subject of the comic strain.</l>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="58"/>
 <head>PLAYS, &amp;c. Printed for PAUL VAILLANT, Facing SOUTHAMPTON-STREET, in the STRAND.</head>
 <list>
@@ -1922,7 +1920,7 @@ Tragedies.</item>
 <item>All by M. de Voltaire.</item>
 </list>
 <p>Likewise a large Collection of single Plays in French, by the best Authors.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

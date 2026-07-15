@@ -7,7 +7,7 @@
 <extent>94p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Bew,</publisher><date>1781.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Richard B. Sheridan.</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCT193639.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE
 SCHOOL FOR SCANDAL;
@@ -20,8 +20,8 @@ LONDON AND DUBLIN.</p>
 <p>LONDON.
 PRINTED FOR J. BEW, IN PATER-NOSTER-ROW.
 M,DCC,LXXXI.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -49,14 +49,14 @@ M,DCC,LXXXI.</p>
 <item>MRS. CANDOUR,</item>
 <item>MAID TO LADY TEAZLE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="3"/>THE
 SCHOOL FOR SCANDAL.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>Lady SNEERWELL'S House.</stage></head>
 <stage>Lady <hi>SNEERWELL</hi> and <hi>SNAKE</hi> discovered at a tea-table.</stage>
 <sp>
@@ -830,8 +830,8 @@ further;—in the mean time I'll go and and plot mischief,
 and you shall study.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>Sir PETER TEAZLE'S House.</stage></head>
 <sp>
 <speaker>Sir PETER.</speaker>
@@ -1005,12 +1005,12 @@ whilst he is here.</p>
 marries a young wife, he deserves—aye, he deserves
 —no—the crime carries the punishment along with it.</p>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>Sir PETER TEAZLE'S House</stage></head>
 <sp>
 <speaker>Sir PETER.</speaker>
@@ -1246,8 +1246,8 @@ Well, though I can't make her love me,
 never appears to such advantage, as when she is doing
 every thing to vex and plague me.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>Lady SNEERWELL'S House.</stage></head>
 <stage><hi>Enter Lady</hi> SNEERWELL, CRABTREE, <hi>Sir</hi> BENJAMIN,
 JOSEPH, <hi>Mrs.</hi> CANDOUR, <hi>and</hi> MARIA.</stage>
@@ -1822,8 +1822,8 @@ for it has brought me into so many confounded rogueries,
 that I fear I shall be exposed at last.</p>
 </sp>
 <stage>[Exit Joseph.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>Sir PETER TEAZLE'S House.</stage></head>
 <stage>Enter Sir <hi>OLIVER</hi> and <hi>ROWLEY.</hi></stage>
 <sp>
@@ -2004,12 +2004,12 @@ suckers of youth; 'tis like ivy round the saplin, and
 spoils the growth of the tree.</p>
 </sp>
 <stage>[Exeunt omnes.</stage>
-</div2>
+</div>
 <trailer>End of the <hi>SECOND ACT.</hi></trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>Sir PETER'S House.</stage></head>
 <stage>Enter Sir <hi>PETER,</hi> Sir <hi>OLIVER,</hi> and <hi>ROWLEY.</hi></stage>
 <sp>
@@ -2627,8 +2627,8 @@ heart—but damn it—I'm determined she shan't keep
 her temper.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>CHARLES'S House.</stage></head>
 <stage><hi>Enter</hi> TRIP, <hi>Sir</hi> OLIVER, <hi>and</hi> MOSES.</stage>
 <sp>
@@ -3394,12 +3394,12 @@ his own relations.</p>
 <speaker><hi>Sir</hi> Oliver.</speaker>
 <p><stage>(<hi>Following</hi>)</stage> I'll never forgive him.</p>
 </sp>
-</div2>
+</div>
 <trailer>End of the <hi>THIRD ACT.</hi></trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> CHARLES, SIR OLIVER, CARELESS, <hi>and</hi> MOSES.</stage>
 <sp>
 <speaker>CHARLES.</speaker>
@@ -3932,8 +3932,8 @@ wore a little threadbare; but now they have their vices,
 like their birth-day cloaths, with their gloss on.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>the Apartments of JOSEPH SURFACE.</stage></head>
 <stage><hi>Enter</hi> JOSEPH and a SERVANT.</stage>
 <sp>
@@ -4899,12 +4899,12 @@ The man who shuts his ears against conviction—</p>
 sentiments.</p>
 </sp>
 <stage>[Exit. Joseph following.</stage>
-</div2>
+</div>
 <trailer>End of the <hi>FOURTH ACT.</hi></trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>JOSEPH SURFACE'S Apartments.</stage></head>
 <stage><hi>Enter</hi> JOSEPH <hi>aud a</hi> SERVANT.</stage>
 <sp>
@@ -5192,8 +5192,8 @@ assure him I'm quite impatient to see him, <stage>(<hi>Bowing.</hi>)</stage></p>
 cursed piece of ill-luck.</p>
 </sp>
 <stage>[Exit Joseph.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>Sir PETER TEAZLE'S House.</stage></head>
 <stage><hi>Enter Mrs.</hi> CANDOUR, and MAID.</stage>
 <sp>
@@ -5946,8 +5946,8 @@ a sentiment again; I have had enough of that to last
 me the remainder of my life.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>JOSEPH'S Library.</stage></head>
 <stage><hi>Enter</hi> JOSEPH <hi>and Lady</hi> SNEERWELL.</stage>
 <sp>
@@ -6465,10 +6465,9 @@ and completion of his happiness, were he to
 become, for life, and in reality, what he has only
 seemed to be.</p>
 </sp>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

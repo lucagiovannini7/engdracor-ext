@@ -7,20 +7,20 @@
 <extent>viii,80p. ; 8⁰.</extent><publicationStmt><publisher>printed for Fielding and Walker; J. Dodsley; T. Becket; and T. Davies,</publisher><date>1780.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT1544.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE TIMES.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE TIMES: A COMEDY.</p>
 <p>AS IT IS NOW PERFORMING AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>By Mrs. GRIFFITH.</p>
 <p>LONDON: Printed for FIELDING and WALKER, Paternoster-Row; J. DODSLEY, Pall-Mall; T. BECKET, Strand; and T. DAVIES, Russel-Street, Covent-Garden.</p>
 <p>MDCCLXXX.</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>THE favourable reception which the following Comedy has met with from a candid and generous Public, calls for my warmest acknowledgements; and tho' it may be of little consequence to them to know the source of so slight an amusement, I think myself bound by truth and gratitude to own, that the first idea of this Piece was hinted to me by my ever-respected and lamented friend Mr. GARRICK, who mentioned GOLDONI's <hi>Bourru Bienfaisant,</hi> as a sketch that, if adapted to our times and manners, might be rendered pleasing to an English Audience. Those who have read the French Piece must judge how far I have profited by GOLDONI's work; but of this I am certain, that had Mr. GARRICK lived to afford me that friendly assistance which he has done on former occasions, my Comedy would have been more worthy of the reception with which it has been honoured. I will, however, hope that, with all its imperfections on its head, the same indulgence which attended its representation, will follow it into the closet; and that the Reader will allow me the only merit I presume to claim, that of meaning well.</p>
@@ -31,8 +31,8 @@ I gladly take this opportunity of returning my thanks to my much-esteemed friend
 <closer><signed>A much obliged, And most obedient Servant,
 THE AUTHOR.</signed>
 <dateline><hi>London,</hi> <date><hi>Dec.</hi> 18, 1779.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="vii" facs="5"/>
 <head>PROLOGUE.</head>
 <p>Spoken by Mr. KING.</p>
@@ -76,8 +76,8 @@ THE AUTHOR.</signed>
 <l>Has served a Meal, not seasoned high with crimes.—</l>
 <l>Taste it, and if approved, applaud THE TIMES.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <head>EPILOGUE.</head>
 <p>Spoken by Miss FARREN.</p>
 <lg>
@@ -113,8 +113,8 @@ THE AUTHOR.</signed>
 <l>Men are our pilots! They should mark the shelves;</l>
 <l>For when they blame us, they reproach themselves.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <head>MEN.</head>
@@ -134,15 +134,14 @@ THE AUTHOR.</signed>
 <item>Mrs. Williams, (Woman to Lady Mary), Mrs. COLLES.</item>
 </list>
 <p>Gentlemen and Ladies, Players at Whist, Loo, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE TIMES.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A Dressing-room, Books, Music, Clothes scattered about.</hi></stage></head>
 <stage><hi>Mr.</hi> WOODLEY <hi>dressing,</hi> FORWARD <hi>at a distance.</hi></stage>
 <sp>
@@ -695,12 +694,12 @@ matter of business to settle; but it shan't break in upon our pleasures, tho'. Y
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="16" facs="22"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>continued.</hi></stage></head>
 <stage><hi>Enter, at opposite doors, Mr.</hi> WOODLEY, <hi>and Mr.</hi> BELFORD.</stage>
 <sp>
@@ -820,8 +819,8 @@ down stairs he was as angry with me, as if he had never done me any good.</p>
 <p>Shew me the way, and I'll go to him directly.</p>
 <stage>[Exeunt thro' the middle door.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>changes to a Dressing-Room, an elegant Toilet.</hi></stage></head>
 <stage><hi>Lady</hi> MARY, <hi>and Mrs.</hi> BROMLEY.</stage>
 <sp>
@@ -1006,8 +1005,8 @@ too prudent, neither; so I beg you'll not mention it to any one.</p>
 <p>What a rattle you are!</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="23" facs="29"/>
 SCENE <hi>changes to Sir</hi> WILLIAM<hi>'s Apartment</hi></stage></head>
 <stage><hi>Sir</hi> WILLIAM <hi>and Mr.</hi> BELFORD <hi>at Back-gammon.</hi></stage>
@@ -1251,8 +1250,8 @@ quite the <hi>Ton;</hi> and I suppose that neither Mr. Woodley nor you would chu
 <p>Well, well, I'll go then. What a provoking blunder!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="28" facs="34"/>
 SCENE, <stage><hi>Mr.</hi> WOODLEY's <hi>Dressing-Room.</hi></stage></head>
 <sp>
@@ -1450,12 +1449,12 @@ and ninety people, for all that. I hope Lady Sitfast won't come! That woman neve
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="32" facs="38"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a Dining-Parlour.</hi></stage></head>
 <stage><hi>Sir</hi> WILLIAM <hi>and Mr.</hi> BELFORD <hi>at a Table, with a Bottle and Glasses.</hi></stage>
 <sp>
@@ -1919,8 +1918,8 @@ I am in, and what favourable dispositions I have towards you.</p>
 <p>Ay, ay,—I knew she would always think of me as her <hi>old</hi> friend.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>changes to Mr.</hi> WOODLEY's. <hi>A Dining-Room.</hi></stage></head>
 <stage><hi>Mr.</hi> WOODLEY <hi>and Mr.</hi> BROMLEY <hi>at a Table, with a Dice-Box.</hi></stage>
 <sp>
@@ -2111,12 +2110,12 @@ and to prove—what, however, I cannot doubt—your friendship for me.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb facs="53"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Lady</hi> MARY<hi>'s Dressing-Room.</hi></stage></head>
 <stage><hi>Lady</hi> MARY <hi>and Mrs.</hi> BROMLEY.</stage>
 <sp>
@@ -2312,8 +2311,8 @@ and to prove—what, however, I cannot doubt—your friendship for me.</p>
 <p>I am quite weary of all this temporizing, Louisa; and as you are safe on shore, you must allow me to guide the helm for myself, at present.—You'll permit me, at least, to acquaint Mr. Woodley with his uncle's contemptuous neglect of him in this matter, which I shall go and do directly.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to Sir</hi> WILLIAM<hi>'s Apartments.</hi></stage></head>
 <stage><hi>Sir</hi> WILLIAM <hi>and</hi> WATERS.</stage>
 <sp>
@@ -2617,8 +2616,8 @@ broke my heart—frustrated all my schemes—disappointed my niece.—Poor girl,
 <p>His rage will soon subside, and we shall be as good friends as ever. I am glad his resentment is entirely pointed at me, as 'tis probable, that to make his niece amends for the loss of a husband she did not like, he may give her one she does:—and so ends, exactly as it should, the matrimonial schemes of an Old Batchelor!</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="58" facs="64"/>
 SCENE <hi>changes to Mr.</hi> BROMLEY's. <hi>A Dining-Room.</hi></stage></head>
 <stage><hi>Enter Mr. and Mrs.</hi> BROMLEY.</stage>
@@ -2694,12 +2693,12 @@ SCENE <hi>changes to Mr.</hi> BROMLEY's. <hi>A Dining-Room.</hi></stage></head>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="60" facs="66"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An Anti-chamber, opening into a Drawing-room.</hi></stage></head>
 <stage>FORWARD, <hi>with a Pencil and Pocket-book. A Foot man in the Drawing-room, placing Card-Tables for a Rout.</hi></stage>
 <sp>
@@ -2913,8 +2912,8 @@ SCENE <hi>changes to Mr.</hi> BROMLEY's. <hi>A Dining-Room.</hi></stage></head>
 will soon make me cease to do so. My resolution's fixed—I'll acquaint Louisa with it instantly,</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to Mr.</hi> WOODLEY's <hi>Dressing-room.</hi></stage></head>
 <stage><hi>Mr.</hi> WOODLEY, <hi>Colonel</hi> MOUNTFORT.</stage>
 <sp>
@@ -2992,8 +2991,8 @@ will soon make me cease to do so. My resolution's fixed—I'll acquaint Louisa w
 <p>Let us meet her then, before she goes into the drawing-room.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to Sir</hi> WILLIAM<hi>'s Apartment.</hi></stage></head>
 <stage><hi>Enter Sir</hi> WILLIAM.</stage>
 <sp>
@@ -3093,8 +3092,8 @@ will soon make me cease to do so. My resolution's fixed—I'll acquaint Louisa w
 <p>I rejoice to be the messenger of such glad tidings; for if he sees my brother, I am certain he will serve him.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="69" facs="75"/>
 SCENE, <stage><hi>a Drawing-room. Card-tables, with Company at Play.</hi></stage></head>
 <stage><hi>Lady</hi> MARY, LOUISA, <hi>Mr.</hi> BELFORD, <hi>Colonel</hi> MOUNTFORT.</stage>
@@ -3466,8 +3465,8 @@ down the back-stairs, together, or we may be lurched, though we are seven.</p>
 <p>Then I have nothing left to do, but to count my losses.—Heigh-ho!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="76" facs="82"/>
 SCENE <hi>changes to Sir</hi> WILLIAM'S <hi>Apartment.</hi></stage></head>
 <stage><hi>Sir</hi> WILLIAM <hi>and</hi> WATERS.</stage>
@@ -3585,8 +3584,8 @@ Mountfort:—his behaviour has shewn a respect to me, and the family.</p>
 <p>A fig for your prudence—ay, and for virtue too, against example! Example, child, is the ruin of us all. We naturally strive to ape those that are called our Betters, and so become worse than we otherwise should be.—But this is no time for moralizing. Do you step in and tell your brother I am coming. I'll just wrap my cloak round me and follow you.</p>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to Mr.</hi> WOODLEY's <hi>Dressing-room.</hi></stage></head>
 <stage><hi>Mr.</hi> WOODLEY, <hi>Mr.</hi> BELFORD, <hi>and Colonel</hi> MOUNTFORT.</stage>
 <sp>
@@ -3650,10 +3649,9 @@ make Solomons of us all!—And now, Madam, <stage><hi>(to Lady</hi> Mary)</stage
 <speaker>L. Mary.</speaker>
 <p>They shall be demonstrated in my future conduct, Sir; for the virtue that arises from the conviction of past errors, must be at once sincere, and permanent.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

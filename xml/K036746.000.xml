@@ -7,18 +7,18 @@
 <extent>[8],79,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Davies,</publisher><date>1768.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34551.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>CYRUS: A TRAGEDY.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>CYRUS: A TRAGEDY. As it is performed at the THEATRE ROYAL IN COVENT-GARDEN. BY JOHN HOOLE.</p>
 <p>LONDON: Printed for T. DAVIES, in Russel-Street, Covent-Garden.</p>
 <p>M. DCC. LXVIII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO THE DUCHESS OF NORTHUMBERLAND, &amp;c.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -29,8 +29,8 @@
 <closer><salute>MADAM,</salute>
 <signed>with the greatest respect, YOUR GRACE'S most obliged most obedient and most devoted servant, JOHN HOOLE.</signed>
 <dateline>Clement's Inn, <date>14 Dec. 1768.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. SMITH.</byline>
@@ -70,8 +70,8 @@
 <l>The tribute of involuntary praise.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -85,16 +85,15 @@
 <item><label>ASPASIA,</label> Mrs. MATTOCKS.</item>
 <item>Officer, Guards, Messenger, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE on the Borders of Media.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>CYRUS: A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A wood, a stately pavilion erected for</hi> ASTYAGES; <hi>view of a temple at a distance.</hi></stage></head>
 <stage>MANDANE, ASPASIA.</stage>
 <sp>
@@ -352,8 +351,8 @@
 <l>And, like an eagle, kens her destin'd prey.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="8" facs="14"/>
 <head><stage>SCENE <hi>changes to a grove; outside of a sinall building of simple architecture, representing the dwelling of</hi> MITHRANES.</stage></head>
 <stage><hi>Enter</hi> CYRUS <hi>and</hi> MITHRANES.</stage>
@@ -727,12 +726,12 @@
 </sp>
 <stage>Exeunt severally.</stage>
 <trailer>END <hi>of the</hi> FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>continues.</hi></stage></head>
 <sp>
 <stage><hi>Enter</hi> MITHRANES.</stage>
@@ -1528,12 +1527,12 @@
 </sp>
 <stage>[Exit.</stage>
 <trailer>END <hi>of the</hi> SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="35" facs="41"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A Wood. The pavilion of</hi> ASTYAGES <hi>seen at a distance.</hi></stage></head>
 <stage><hi>Enter</hi> MANDANE <hi>and</hi> MITHRANES.</stage>
 <sp>
@@ -2196,12 +2195,12 @@
 <l>Loft and bewilder'd in this maze of fate.</l>
 </sp>
 <trailer>END <hi>of the</hi> THIRD ACT</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="49" facs="55"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The Wood, &amp;c.</hi></stage></head>
 <stage>MANDANE <hi>alone.</hi></stage>
 <sp>
@@ -2723,8 +2722,8 @@
 <l>To love, I can resolve to be unhappy.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE. <stage><hi>The Grove before the Dwelling of</hi> MITHRANES.</stage></head>
 <stage>MITHRANES, MANDANE.</stage>
 <sp>
@@ -3089,12 +3088,12 @@
 </sp>
 <stage>[Exit.</stage>
 <trailer>END <hi>of the</hi> FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="67" facs="73"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>another part of the Wood.</hi></stage></head>
 <sp>
 <speaker>MANDANE</speaker>
@@ -3467,8 +3466,8 @@
 <l>And, tyrant, if thou canst, escape my toils.</l>
 </sp>
 <stage>[<hi>Exeunt</hi> Astyages <hi>and</hi> Harpagus <hi>on one side, and</hi> Cambyses <hi>and</hi> Mandane <hi>on the other, guarded.</hi></stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE. <stage><hi>The Grove before the Dwelling of</hi> Mithranes.</stage></head>
 <sp>
 <speaker>CYRUS</speaker>
@@ -3601,8 +3600,8 @@
 <l>At least partake his fate, and die beside him!</l>
 <stage>[<hi>Exeunt</hi> Cyrus, Mithranes, <hi>and guards.</hi></stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>outside view of a magnificent temple.</hi></stage></head>
 <stage><hi>Clashing of swords</hi>; Astyages <hi>his sword drawn</hi>; Harpagus <hi>enters.</hi></stage>
 <sp>
@@ -3790,12 +3789,11 @@
 <l>The blessings of my sway, that every age</l>
 <l>May learn to venerate the name of Cyrus!</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="86"/>
 <head>EPILOGUE.</head>
 <byline>Written by a FRIEND.</byline>
@@ -3839,7 +3837,7 @@
 <l>Give me your plaudit—we can wish no more.</l>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

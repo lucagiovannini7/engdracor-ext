@@ -7,33 +7,33 @@
 <editionStmt><edition>A new edition.</edition></editionStmt><extent>x,[2],66p. ; 8⁰.</extent><publicationStmt><publisher>printed for Edward and Charles Dilly, and T. Cadell,</publisher><date>1771.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Hugh Kelly.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT126018.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>CLEMENTINA, A TRAGEDY.</p>
 <p>A NEW EDITION.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>CLEMENTINA, A TRAGEDY, As it is Perform'd with universal Applause at the Theatre-Royal in COVENT-GARDEN.</p>
 <p>A NEW EDITION.</p>
 <p>LONDON: Printed for EDWARD and CHARLES DILLY, in the Poultry, And T. CADELL, in the Strand.</p>
 <p>MDCCLXXI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO GEORGE COLMAN, <abbr>Esq</abbr></head>
 <opener><salute>DEAR SIR,</salute></opener>
 <p>WHEN I inscribe this Tragedy to you, I mean to pay myself a very high compliment; the utmost I could possibly say of you, would by no means extend your Reputation; but it will do me much honour to declare, that so celebrated a writer has distinguished CLEMENTINA with the most essential attention; and that so valuable a man has given me leave to sign myself, what I truly am,</p>
 <closer><salute>DEAR SIR,</salute>
 <signed>His most faithful and most obliged humble servant, The AUTHOR.</signed></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="4"/>
 <head>ADVERTISEMENT.</head>
 <p>THE Author of this Tragedy has printed several lines for the Closet, which, in the Representation, were omitted for the sake of brevity.—The chief business of this advertisement, however, is to acknowledge his obligations to the inimitable performance of Mrs. YATES, and to thank Mr. BENSLEY, Mr. SAVIGNY, and Mr. WROUGHTON, for their great good-nature, in undertaking their respective characters at the short notice of a week, when Mr. Ross unexpectedly returned the part of <hi>Anselmo</hi><note n="*" place="foot">This circumstance obliged Mr. BENSLEY, who was cast for <hi>Palermo,</hi> to undertake Mr. SAVIGNY'S part, which was originally <hi>Granville</hi>—Mr. SAVIGNY taking <hi>Anselmo,</hi> and Mr. WROUGHTON, <hi>Palermo.</hi></note>, which had been in his possession above a fortnight, and left it no more than barely possible for the utmost diligence of these Gentlemen, to exhibit a piece, which the public have since been kindly pleased to honour with the most generous approbation.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE,</head>
 <byline>By GEORGE COLMAN, <abbr>Esq</abbr></byline>
@@ -93,8 +93,8 @@
 <l>Ask not his name—but crown him with applause!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -108,17 +108,16 @@
 <item><label>ELIZARA</label> Miss PEARCE.</item>
 </list>
 <p>CITIZENS, GUARDS, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 <set><p>SCENE, VENICE.</p>
 <p>TIME—The Time of Representation.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="8"/>
 <head>CLEMENTINA, A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>An Apartment in <hi>ANSELMO</hi>'s Palace. Enter <hi>CLEMENTINA</hi> and <hi>ELIZARA.</hi></stage>
 <sp>
 <speaker>CLEMENTINA.</speaker>
@@ -428,8 +427,8 @@
 <l>And he is best prepar'd against the blow,</l>
 <l>Whose conscious virtue never has deserv'd it. <stage>[Exit.</stage> </l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="9" facs="16"/>Scene changes to <hi>CLEMENTINA</hi>'S Apartment.</stage></head>
 <sp>
 <speaker>CLEMENTINA</speaker>
@@ -577,9 +576,9 @@
 <l>Which pours a deep oblivion on the mind,</l>
 <l>And drowns the sense of memory for ever!</l>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="13" facs="20"/>
 <head>ACT II.</head>
 <stage>An Apartment in <hi>ANSELMO</hi>'s Palace. Enter <hi>GRANVILLE</hi> and <hi>ELIZARA.</hi></stage>
@@ -1009,11 +1008,11 @@
 <l>O'erpays me tenfold for my past afflictions,</l>
 <l>And all my tears were ministers of joy. <stage>[Exeunt.</stage> </l>
 </sp>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="24" facs="33"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>ANSELMO'<hi>S Palace. Enter</hi> ANSELMO <hi>with a Paper, and</hi> ADORNO.</stage>
 <sp>
 <speaker>ANSELMO.</speaker>
@@ -1239,8 +1238,8 @@
 <l>It blasts the freshest roses, and leaves scorpions,</l>
 <l>Eternal scorpions only, in their room. <stage>[Exit.</stage> </l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to the Arbour in the Garden.</stage></head>
 <stage>Clementina <hi>and</hi> Granville <hi>discovered.</hi></stage>
 <sp>
@@ -1584,12 +1583,12 @@
 <l>Wreak then your vengeance on his wretched wife,</l>
 <l>But spare, O spare Rinaldo! <stage>[Runs out wildly, Elizara following.</stage> </l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="38" facs="47"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage><hi>ANSELMO</hi>'s Palace. <hi>ANSELMO</hi> and <hi>PALERMO.</hi></stage></head>
 <sp>
 <speaker>ANSELMO.</speaker>
@@ -1669,8 +1668,8 @@
 <l>And he who weds the object of his scorn,</l>
 <l>May boast of love, but never talk of honour— <stage>[Exit.</stage> </l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to St. Mark's.</stage></head>
 <stage>Enter <hi>ADORNO,</hi> Senators, Citizens, Guards, <hi>&amp;c.</hi></stage>
 <sp>
@@ -1860,8 +1859,8 @@
 <l>And teach the ministers of neighb'ring kings,</l>
 <l>To look for safety, only in their justice. <stage>[Exit.</stage> </l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to an Apartment in <hi>ANSELMO</hi>'s Palace.</stage></head>
 <stage>Enter <hi>PALERMO,</hi> followed by <hi>CLEMENTINA.</hi></stage>
 <sp>
@@ -2240,12 +2239,12 @@
 <l>I'm all distraction—Reason drops her rein,</l>
 <l>And the next step is dreadful desperation. <stage>[Exit.</stage> </l>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="54" facs="67"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>a Prison.</stage></head>
 <stage>Enter <hi>GRANVILLE</hi> in Chains.</stage>
 <sp>
@@ -2284,8 +2283,8 @@
 <l>Is prudence now—</l>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to an Apartment in <hi>ANSELMO</hi>'s Palace.</stage></head>
 <stage>Enter <hi>ANSELMO</hi> and <hi>PALERMO.</hi></stage>
 <sp>
@@ -2398,8 +2397,8 @@
 <l>Feels a kind something for this gallant anger,</l>
 <l>In blood alone she'll speak her obligation. <stage>[Exeunt.</stage> </l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes to a Chamber.</stage></head>
 <stage>Enter <hi>CLEMENTINA.</hi></stage>
 <sp>
@@ -2688,13 +2687,12 @@
 <l>The dire effects of filial disobedience.</l>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>THE END.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="65" facs="78"/>
 <head>EPILOGUE,</head>
 <byline>By GEORGE COLMAN, <abbr>Esq</abbr></byline>
@@ -2765,7 +2763,7 @@
 <l>Pit, Box, and Gallery, rule the realms of wit.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

@@ -7,7 +7,7 @@
 <extent>[8],88p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1767.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Arthur Murphy.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT772.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE SCHOOL FOR GUARDIANS.</p>
 <p>A COMEDY.</p>
@@ -16,16 +16,16 @@
 <bibl>JUV.</bibl>
 <p>LONDON: Printed for P. VAILLANT, in the Strand. MDCCLXVII.</p>
 <p>[Price One Shilling and Six Pence.]</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE following play was written above three years ago, and was soon after shewn to some of the principal performers of both houses. It took its rise from Miss ELLIOT'S being advised to revive <hi>The Country Wife</hi> for her benefit the first season of her engagement at Covent-Garden theatre. That play, upon a review of it, appeared inadmissible on account of the obscenity which discolours the whole. The author, or rather the compiler of the ensuing scenes, undertook to alter WYCHERLEY's play for Miss ELLIOT against the following winter; but hearing, in the mean time, that Mr. BICKERSTAFF had employed himself upon one of WYCHERLEY's pieces, he made it his business to see that gentleman, lest this writer should interfere with a plan already pre-occupied. He found that the PLAIN DEALER had been Mr. BICKERSTAFF's object, and that there was no danger of clashing with the scheme of any other author. Upon a closer examination, therefore, of <hi>The Country Wife,</hi> it was thought proper to desert it intirely, and to resort to MOLIERE, the original master whom WYCHERLEY copied. The celebrated comedy of <hi>L'Ecole de Femmes</hi> appeared too thin of business, consisting mostly in narrative. To supply that deficiency the design occurred of making MOLIERE himself supply the requisite materials; and for this purpose L'ETOURDIE and L'Ecole DE MARIS were called in as auxiliaries. Upon this idea the play was soon finished, and it consists of characters, situations, and business, from those three plays, interwoven into one fable, with as much skill as a little leisure in the summer time would permit. With the professed design of condensing what appeared to be the best of three performances into one play, it was deemed unnecessary to suppress any one scene of true nature, merely because the author of <hi>High Life below Stairs,</hi> and some other English writers, might occasionally be <hi>tracked in the snow of Moliere.</hi></p>
 <p><pb facs="3"/>The play, when finished, was given to Miss ELLIOT, and it so happened, that she had no opportunity of producing it till this season. When in September last, her bargain both for herself and the play was in agitation with Mr. BEARD, the author of these sheets was astonished to hear that <hi>The Country Girl</hi> was actually in rehearsal at Drury Lane, and that the parts had been given out in the summer, nay, <hi>as fast as they were written.</hi> This, it must not be dissembled, looked like a <hi>design of forestalling the market;</hi> especially as it was understood, that Miss ELLIOT and the SCHOOL FOR GUARDIANS, had been offered the spring before to the manager of Drury Lane, <hi>upon his own terms.</hi> A remonstrance was immediately made to Mr. GARRICK, purporting that he, who had long been a manager of a successful theatre, was going to enter into a competition with a young actress for the profits of a play. A meeting ensued, where a gentleman of the first character for probity and genius, was so obliging as to be the arbitrator. Mr. GARRICK there protesting, that he never heard of Miss ELLIOT's play till within a few days; it was thereupon determined, that it was, in that case, an accidental clashing, but that a design of <hi>forestalling</hi> would have been illiberal and unhandsome. This last point of honour Mr. GARRICK seemed to learn upon this occasion.</p>
 <p>Both parties were, in consequence, left to pursue their own interests. And now the present writer will dismiss THE SCHOOL FOR GUARDIANS, after saying, that he composed it with the most disinterested principle; and that, if it prove in any degree conducive to the service of a young actress, or the public entertainment, he has all the reward he ever proposed to himself.</p>
 <p>N. B. <hi>An entire scene in the second act, page 30. has been omitted since the first representation, and would have been discarded from this edition, but that the greatest part of the play was printed, before it was acted.</hi></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4" ana="y"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by MISS ELLIOT.</byline>
@@ -79,8 +79,8 @@
 <l>From your applause our mimic glories rise;</l>
 <l>In pleasing you my whole ambition lies.</l>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <head>EPILOGUE.</head>
 <sp>
 <stage>Spoken by MISS ELLIOT.</stage>
@@ -147,8 +147,8 @@
 <l>But the mind's charms your empire must maintain.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="9"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -163,16 +163,15 @@
 <item><label>HARRIET,</label> Miss WILFORD.</item>
 <item><label>BRIDGET,</label> Mrs. MAHON.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>Scene</hi> LONDON.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="10"/>
 <head>THE School for Guardians, A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter Sir</hi> Theodore, and Brumpton.</stage>
 <sp>
 <speaker>Sir Theodore.</speaker>
@@ -430,8 +429,8 @@ that she might fall an easy prey to her guardian—But I have raised a spirit in
 <l>So eager am I still to see her more.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>a Street.</stage></head>
 <stage><hi>Enter</hi> Lovibond <hi>and</hi> Oldcastle.</stage>
 <sp>
@@ -934,12 +933,12 @@ I shall pack off to the country, and so escape from impertinence.</p>
 <p>I never knew so abandoned a young profligate, nor so damned an adventure!—If the fellow is lurking about my doors, I'll swear a robbery against him—If I get sight of him, I'll describe him from head to foot; and swear he stole a horse in Northamptonshire—I have not a moment to lose,—and then, my young madam, bag and baggage away into the country.</p>
 </sp>
 <stage><hi>End of the First</hi> ACT.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="26"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> Brumpton.</stage>
 <sp>
 <p>HO! ho! ye powers of laughter, you will shake me to pieces one day or other!—Poor Brisk!— What a jade's trick madam Fortune has play'd him!—He writes me here— <stage>[going to read.]</stage> All the poor devil's ill stars must have been combined against him!—</p>
@@ -1003,8 +1002,8 @@ I shall pack off to the country, and so escape from impertinence.</p>
 <p>Ay! now I am unfortunate—Oh! the human mind!—Yes, Sir, I am disappointed—Ha! ha!—Brisk is in a devil of a pickle! He went in disguise to carry off my little goddess for me—Somebody that resembles him has committed a robbery in Northamptonshire—They have charged Brisk, and he writes me here, that they have carried him before Mr. Carbuncle, the wine-merchant, who deals out bad law, and adulterate port, to all St. Anne's parish—Brisk will be chronicled in miserable elegy, clubbed by two poets upon a flock-bed in the Old Jewry;—the historians of Grub-street are already preparing "The Life and Conversation of Jeremy Brisk, who was born of honest parents"—Ha! ha! poor devil! I must go to his assistance—</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Justice's House.</stage></head>
 <stage><hi>Enter</hi> Mittimus <hi>and</hi> Squeezum.</stage>
 <sp>
@@ -1134,8 +1133,8 @@ been in the commission many years—He was going by in his chariot, but I stoppe
 <p>So—so—I have found out the young graceless, have I?—mighty well! and if I don't exert the authority of a father—</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="21" facs="30"/>
 <head>SCENE <stage>Lovibond's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Harriet.</stage>
@@ -1294,8 +1293,8 @@ that I consider you still as my father, and that I think it unnatural to love gi
 <p>Be sure you tell him every word—and if Mr. Belford does but understand every word, as I intend it, then I may still wing my flight to his dear arms—A new scheme this of mine!—But love inspired it, and love may crown it with success—</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>Oldcastle's House.</stage></head>
 <stage><hi>Enter</hi> Peter <hi>and</hi> Bridget.</stage>
 <sp>
@@ -1556,8 +1555,8 @@ that I consider you still as my father, and that I think it unnatural to love gi
 <p>The little frippery, how she carries it off!—Oh! the devil! I burn, I'm in a fever—I have had the grass cut under my feet—Oh! the young Magdalen!—the sly iniquity!—</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Street.</stage></head>
 <stage><hi>Enter</hi> Belford.</stage>
 <sp>
@@ -2135,11 +2134,11 @@ was shot thro' the heart, and would be dead and buried in two days time, if I di
 <p>What an escape have I had! and yet her ingenuous manner of confessing all, gives me some hopes—I'll read her a lecture, and then I'll go and let Sir Theodore Brumpton know what a villain his son is—Oh! Mary Ann, Mary Ann.</p>
 <stage><hi>End of the Second</hi> ACT.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Street.</stage></head>
 <stage><hi>Enter</hi> Brisk.</stage>
 <sp>
@@ -2347,8 +2346,8 @@ worth his while to kick you, it's a sign you are rising in the world—those are
 <p>When he is gone, I shall sleep in peace—I said I would do him a good turn with his father.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>Lovibond's.</stage></head>
 <stage><hi>Enter</hi> Harriet.</stage>
 <sp>
@@ -2479,8 +2478,8 @@ worth his while to kick you, it's a sign you are rising in the world—those are
 <p>Yes, yes, let him have it unopened—If this plot takes, I shall have my utmost wish—and making him my convenient, my go-between in the business, gives life and spirit to the plot—I'll outwit him, if I can—</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>Sir Theodore's House.</stage></head>
 <stage><hi>Enter</hi> Brumpton <hi>and</hi> Brisk.</stage>
 <sp>
@@ -2580,8 +2579,8 @@ you can with him—I wash my hands of it, and now legs do your office.</p>
 <p>What the devil can I make of all this!—I am certainly out of luck to-day—It does not signify—I'll pursue Mary Ann with more spirit than ever—I'll to her house this moment,—since difficulties come in my way, genius must surmount them, that's all.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>Oldcastle's House.</stage></head>
 <stage><hi>Enter</hi> Oldcastle <hi>and</hi> Mary Ann.</stage>
 <sp>
@@ -2765,8 +2764,8 @@ you can with him—I wash my hands of it, and now legs do your office.</p>
 <p>Ah! I am ready—I like this of all things—</p>
 </sp>
 <stage>Exeunt in a violent hurry.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Street.</stage></head>
 <stage><hi>Enter</hi> Belford <hi>and</hi> Lovibond.</stage>
 <sp>
@@ -3217,12 +3216,12 @@ you can with him—I wash my hands of it, and now legs do your office.</p>
 <stage>both reading at the same time very eagerly.</stage>
 </sp>
 <stage><hi>End of the Third</hi> ACT.</stage>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="55" facs="64"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> Oldcastle <hi>and</hi> Lovibond.</stage>
 <sp>
 <speaker>Lovibond.</speaker>
@@ -3391,8 +3390,8 @@ my dismission, and bid adieu to my master's service for ever—</p>
 <p>Health attend your honour!—So, here's a mine detected!—and my master is flying wild about the town, thinking it's all enchanted ground he treads, and at last he'll be blown up in the air—with all my heart let him; let him see how he looks when he comes down again—and yet—there again now, temptations are beginning their old trade—well, something must be done, and so now mine away, Sir Theodore;—be as good a pioneer as you will, I warrant me I'll countermine you—</p>
 <stage>Exit</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>Oldcastle's House.</stage></head>
 <stage><hi>Enter</hi> Peter <hi>and</hi> Bridget.</stage>
 <sp>
@@ -3781,8 +3780,8 @@ gather together, stealing glances, exchanging letters, negotiating riotous pleas
 <p>Yes, Sir,—</p>
 <stage>they run out.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Street.</stage></head>
 <stage><hi>Enter</hi> Lovibond.</stage>
 <sp>
@@ -3945,8 +3944,8 @@ gather together, stealing glances, exchanging letters, negotiating riotous pleas
 <p>Oh! the devil! here's a piece of business.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>another Street.</stage></head>
 <stage><hi>Enter</hi> Brisk, <hi>in Woman's Cloaths, with a Bundle under his Arm.</hi></stage>
 <sp>
@@ -4176,9 +4175,9 @@ your error, I am pacified.—This discovery is lucky—it will make an end of al
 <p>Get you in, and never be seen in a balcony again!—It was there you saw her first, Mr. Brumpton;—ha! ha!—I'll have it taken down—Come along.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <pb n="70" facs="79"/>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the House.</stage></head>
 <stage><hi>Enter</hi> Mary Ann.</stage>
 <sp>
@@ -4280,7 +4279,7 @@ your error, I am pacified.—This discovery is lucky—it will make an end of al
 </sp>
 <sp>
 <speaker>Mary Ann.</speaker>
-<p>But do you forgive I every thing now?—Ah! you don't love me. <stage><hi>sings</hi> 'Go Naughty Man,' <hi>and reaches a letter to</hi> Brumpton.</stage></p>
+<p>But do you forgive I every thing now?—Ah! you don't love me. <stage><hi>sings</hi> <title>'Go Naughty Man,'</title> <hi>and reaches a letter to</hi> Brumpton.</stage></p>
 </sp>
 <sp>
 <speaker>Oldcastle.</speaker>
@@ -4338,12 +4337,12 @@ your error, I am pacified.—This discovery is lucky—it will make an end of al
 <p>By goles, he has taught me a little wit himself; and if Mr. Brumpton follows my directions, I shall be pure and happy at last.</p>
 </sp>
 <stage><hi>End of the Fourth</hi> ACT.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="73" facs="82"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>Lovibond's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Harriet <hi>and</hi> Bellford.</stage>
 <sp>
@@ -4564,8 +4563,8 @@ ha! ha! I fancy he loves you dearly—Well! but—poor brother Oldcastle!—your
 <p>Nay,—no more doubts—our passage to the next house is without difficulty, and then liberty is ours.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Street.</stage></head>
 <stage><hi>Enter</hi> Lovibond.</stage>
 <sp>
@@ -4724,8 +4723,8 @@ ha! ha! I fancy he loves you dearly—Well! but—poor brother Oldcastle!—your
 <p>Ha! ha!—now will he see which can train up a young girl best.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> <stage>an Apartment in <hi>Bellford's</hi> House.</stage></head>
 <stage><hi>Enter</hi> Bellford.</stage>
 <sp>
@@ -5275,9 +5274,8 @@ learn not to bring upon themselves the reproach of a dishonest, an amorous, and 
 <l>When from esteem the happy union springs.</l>
 </sp>
 <trailer>FINIS.</trailer>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

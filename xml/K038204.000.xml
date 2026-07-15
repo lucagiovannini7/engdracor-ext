@@ -7,16 +7,16 @@
 <extent>[8],88p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1786.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT36987.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>I'LL TELL YOU WHAT. A COMEDY, IN FIVE ACTS.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>I'LL TELL YOU WHAT. A COMEDY, IN FIVE ACTS, AS IT IS PERFORMED AT THE THEATRE ROYAL, <hi>HAYMARKET.</hi> By Mrs. INCHBALD.</p>
 <p>LONDON: PRINTED FOR G. G. J. AND J. ROBINSON PATER-NOSTER ROW. M DCC LXXXVI.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <byline>Written by GEORGE COLMAN, <abbr>Esq</abbr></byline>
@@ -55,8 +55,8 @@
 <l>And so I'll tell you—No—SHE'LL <hi>tell you what.</hi></l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -73,8 +73,8 @@
 <item><label>Bloom,</label> Mrs. RILEY.</item>
 <item><label>A Young Lady,</label> Miss FARREN.</item>
 </list>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="5"/>
 <head>EPILOGUE.</head>
 <byline>Written by GEORGE COLMAN, <abbr>Esq</abbr></byline>
@@ -137,15 +137,14 @@
 <l>And such is my Wish, by my <hi>Honour</hi> I swear.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>I'LL TELL YOU WHAT.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room at</hi> Sir GEORGE, EUSTON's.</stage>
 <stage><hi>Enter</hi> Mr. EUSTON <hi>followed by</hi> Sir GEORGE.</stage>
@@ -268,8 +267,8 @@
 <p>Very well, <stage>[Going]</stage> but you had better take an hour—Let me advise you to take an hour. Anthony is devilish sharp—he is not to be imposed upon. Take an hour, or an hour and half, before you see him—Anthony is a deep man, he is not to be deceived—for, I dare say, in his time, he has been as idle as yourself—and I <hi>will</hi> go on your errand.</p>
 </sp>
 <stage>(Exeunt Mr. Euston and Sir George, separately.)</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A Room at</hi> Major CYPRUS's.</stage>
 <stage>Lady HARRIET CYPRUS, <hi>and</hi> BLOOM <hi>waiting.</hi></stage>
@@ -412,8 +411,8 @@
 <p>And so Sir George has been married these three months to another, and intirely forgot me—To be so soon forgotten!—I shall never now forget him, I am certain. He has behaved like a man of resolution and spirit in casting me from his heart, and I feel the irreparable loss. Why were we divorced? I shou'd have disliked him still had be been my husband; and yet how tender, how patient to my failings to what Mr. Cyprus is—His cruel and unjust suspicions of me are not to be borne.—How provokingly did he treat me last night—I was too tame—but the next time he insults me, with his jealousy, I will endeavor to augment rather than pacify it—I'll try a reverse of conduct—Though, indeed, I <hi>am</hi> tolerably provoking in all our wrangles:—yes, thank heaven, I can say as cool spiteful things as any woman in the world.</p>
 </sp>
 <stage>(<hi>Exit.</hi>)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="12" facs="18"/>
 <head>SCENE III.</head>
 <stage>Another Apartment in Major Cyprus's House.</stage>
@@ -691,13 +690,13 @@
 <p>It does ideed excite my admiration, most prodigiously.</p>
 </sp>
 <stage>(<hi>Exeunt.</hi>)</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="26"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room at</hi> Sir GEORGE EUSTON's.</stage>
 <stage><hi>Enter</hi> Mr. ANTHONY EUSTON, <hi>and a</hi> SERVANT.</stage>
@@ -838,8 +837,8 @@
 <p>Good morning to you, Sir—This is certainly an Uncle of Lady Harriet's, who is unacquainted with her divorce—and I cou'd not inform him of it, 'twould have led to such disagreeable explanations, and such a long round-about story it must have caused—"Sir, I am <hi>second wise</hi> to your <hi>present</hi> niece's <hi>first husband.</hi>"—Lud! Lud! how ashamed I shou'd have been—Lady Harriet had better explain it by far.</p>
 </sp>
 <stage>(<hi>Exit.</hi> Lady Euston.)</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A Room at</hi> Major CYPRUS's.</stage>
 <stage><hi>Enter</hi> Colonel DOWNRIGHT, <hi>and</hi> Sir Harry HARMLESS.</stage>
@@ -958,7 +957,6 @@
 <speaker>Colonel DOWNRIGHT.</speaker>
 <p>Who have we here?</p>
 </sp>
-<stage/>
 <stage>(<hi>Looking out.</hi>)</stage>
 <sp>
 <speaker>Sir HARRY.</speaker>
@@ -1580,13 +1578,13 @@
 <p>I was thinking on the happiness—of a married man.</p>
 </sp>
 <stage>(<hi>Exeunt Colonel Downright and Major Cyprus.</hi>)</stage>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="44" facs="52"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room at</hi> Sir GEORGE EUSTON's.</stage>
 <stage><hi>Enter</hi> Mr. EUSTON <hi>and</hi> Sir GEORGE.</stage>
@@ -1819,8 +1817,8 @@
 <p>With all my heart—and in the mean time reflect on this—that, in regard to your terrible sex, whether as licentious lovers or valiant champions—women, of <hi>real honour,</hi> are not in danger from the one; and, therefore, like me, ought to forego the assistance of the other.</p>
 </sp>
 <stage>(<hi>Exeunt Lady Euston and Sir George.</hi>)</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A Room at</hi> Colonel DOWNRIGHT's.</stage>
 <stage><hi>Enter</hi> Colonel DOWNRIGHT <hi>and</hi> Mr. ANTHONY EUSTON.</stage>
@@ -2011,13 +2009,13 @@
 <p>With all my heart.</p>
 </sp>
 <stage>(<hi>Exeunt Mr. Antbony and Colonel.</hi>)</stage>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="59" facs="67"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room at</hi> Mr. ANTHONY EUSTON'S.</stage>
 <stage><hi>Enter</hi> Mr. EUSTON.</stage>
@@ -2275,13 +2273,13 @@
 <p>Now where's the Colonel?—I have just time to draw up a writing for him to sign when he arrives—and I'll about it instantly.—Oh! with what transport does the human heart dislodge the unnatural guests, Malice and Resentment, to take to its warm recesses the mild inhabitant, peaceful Charity.—Yet even more welcome is the returning virtue when thus'tis strengthen'd by parental fondness.</p>
 </sp>
 <stage>(<hi>Exit.</hi>)</stage>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="69" facs="77"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An Apartment at</hi> Major CYPUS's</stage>
 <stage><hi>Enter</hi> Lady HARRIET, <hi>and</hi> BLOOM <hi>meeting.</hi></stage>
@@ -2363,8 +2361,8 @@
 <p>Oh, no, my Lady, that I dare say he won't—you need not fear—go into your chamber, madam, and make yourself easy till Sir George comes, and make yourself easy when he does come too—for, though the Major may not be with Lady Euston, I dare say he has his appointments in some corner or another, as well as your Ladyship.</p>
 </sp>
 <stage>(<hi>Exeunt.</hi>)</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Mr. ANTHONY EUSTON's.</stage>
 <stage><hi>Enter</hi> Mr. ANTHONY EUSTON, <hi>and</hi> Colonel DOWNRIGHT.</stage>
@@ -2549,8 +2547,8 @@
 <p>What? Do <hi>you</hi> weep?—Now that affects me more than any thing that has been said or done yet.—I don't like to see a woman cry, but I can't bear to see a man—a man's tears flow from so deep a source—they always appear to have come a long journey, and therefore I notice them as strangers, that have gone through fatigue, and trouble, on their way—While a woman's tears I consider as mere neighbours, that can call upon you when they like, and generally drop in on all occasions.</p>
 </sp>
 <stage>(<hi>Exeunt.</hi>)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>MAJOR CYPRUS's.</stage>
 <stage><hi>Enter</hi> LADY HARRIET <hi>and</hi> BLOOM.</stage>
@@ -2986,11 +2984,9 @@
 <speaker>Mr. EUSTON.</speaker>
 <p>Not at all, brother Anthony!—And, for fear the gentlemen of the long robe shou'd not be able to find out the present company's <hi>affinity,</hi> let us apply to the <hi>kindred ties</hi> of each others passions, weaknesses, and imperfections; and, thereupon, agree to part, this evening, not only <hi>near relations</hi> but <hi>good friends.</hi></p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

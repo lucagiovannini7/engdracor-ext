@@ -7,18 +7,18 @@
 <extent>[8],84,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket and P.A. De Hondt,</publisher><date>1769.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final epilogue leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52934.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>ZINGIS. A TRAGEDY.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>ZINGIS. A TRAGEDY. AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>BY ALEXANDER DOW.</p>
 <p>LONDON: PRINTED FOR T. BECKET AND P. A. DE HONDT, IN THE STRAND. M DCC LXIX.</p>
-</div1>
-<div1 type="prefatorynote">
+</div>
+<div type="prefatorynote">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>TO those who are not conversant in the history of the Asiatic nations, it may not be improper to give in brief, the story upon which the Tragedy of Zingis is founded, as it is taken from the TARICH MOGULISTAN, or History of the Mogul Tartars, written in the Persian language.</p>
@@ -26,14 +26,14 @@
 <p>Zingis Chan, whether we regard him as a conqueror or legislator, was, perhaps, the greatest prince, that ever appeared in history. He not only secured the empire of all Asia to his posterity for some ages, but even to
 <pb facs="4"/>
 this day, two-thirds of that immense continent remains in the possession of princes of his blood. So fortunate was he in his children and descendents, that many of them did not yield in abilities to him; and they would, perhaps, have equalled him in fame, had his sword left them more to conquer.—The Emperor of China, the Mogul of India, the great Chan of Tartary, and the princes of the Krim Tartars, derive their blood from Zingis; and it is remarkable that, at one period, there were five hundred crowned heads of his race in Asia.</p>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <p>This Day is Published,</p>
 <p>In Two Volumes Quarto, with a new and accurate Map, and Frontispiece to each Volume. Price 1l. 10s. in boards.</p>
 <p>THE History of Hindostan, from the earliest Account of Time, to the Death of Akbar. Translated from the Persian of Mahummud Casim Ferishta of Delhi. Together with a Dissertation concerning the Religion and Philosophy of the Brahims; with an Appendix containing the History of the Mogul Empire, from its decline in the Reign of Mahummud Shaw, to the present Times. By ALEXANDER DOW, <abbr>Esq</abbr></p>
 <p>Speedily will be Published, TALES. Translated from the Persian. In Two Volumes 12m<span rend="sup">o</span>.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE,</head>
 <byline>By Mr. HOME,</byline>
@@ -66,8 +66,8 @@ this day, two-thirds of that immense continent remains in the possession of prin
 <l>Listen indulgent to his artless strain,</l>
 <l>Nor let a Soldier, quarter ask in vain.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -97,14 +97,14 @@ this day, two-thirds of that immense continent remains in the possession of prin
 <item>Mrs. STEPHENS.</item>
 </list>
 <p>Officers, Guards, Messengers, Attendants, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7"/>
 ZINGIS.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT 1.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>The Moon setting behind a Hill, and the Dawn of Morning.</stage></head>
 <stage>Enter CUBLA.</stage>
 <sp>
@@ -758,12 +758,12 @@ To blot suspicion from his jealous mind,</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="18" facs="24"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Ovisa's Tent,</stage></head>
 <stage>Enter OVISA, from her Tent.</stage>
 <sp>
@@ -1415,12 +1415,12 @@ But Nevian comes!—I must away—My love,</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="34" facs="40"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>ZINGIS's Pavilion.</stage>
 <stage>ZINGIS and Attendants discovered on a Throne.</stage>
 <stage>A Flourish of Trumpets.</stage>
@@ -2143,12 +2143,12 @@ But I will not upbraid.—A prince disgraced,</l>
 <l>From ancestry a title to the world.</l>
 </sp>
 <trailer>THE END OF THE THIRD ACT.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="52" facs="58"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>The Camp of Zingis.</stage></head>
 <sp>
 <speaker>ZEMOUCA</speaker>
@@ -2836,12 +2836,12 @@ Cold as it is, support his daughter's head,</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="69" facs="75"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter TIMUR.</stage>
 <sp>
 <speaker>TIMUR.</speaker>
@@ -3077,8 +3077,8 @@ My rank commands priority in death—</l>
 <l>My soul may join the lord of my desires.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="75" facs="83"/>
 <stage>SCENE changes to the Royal Pavilion.</stage>
 <stage>Enter ZINGIS, NEVIAN, Officers and Attendants.</stage>
@@ -3486,12 +3486,12 @@ To leave me lonely thus: My murder'd lord!—</l>
 <l>In thunder and in clouds, to awe the world,</l>
 <l>And first must conquer, e're we bless mankind.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="93"/>
 <head>EPILOGUE,</head>
 <byline>By Mr. GARRICK,</byline>
@@ -3533,7 +3533,7 @@ And to their honour, all historians say,</l>
 <l>Men are in general, the strangest fishes!</l>
 <l>Do not for misery your beauty barter,</l>
 <l>And, O take heed,—you do not catch a Tartar.</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

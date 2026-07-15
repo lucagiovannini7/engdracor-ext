@@ -7,14 +7,14 @@
 <extent>[14],82,[4]p. ; 8⁰.</extent><publicationStmt><publisher>printed by Graisberry &amp; Campbell, for John Archer,</publisher><date>1796.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Altered from P. Metastasio's 'La clemenza di Tito'.</note><note>With a half-title and an epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT28330.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>CONSPIRACY, A TRAGEDY.</p>
 <p>BY R. JEPHSON, ESQ.</p>
 <p>DUBLIN: PRINTED BY GRAISBERRY &amp; CAMPBELL, FOR JOHN ARCHER, N<span rend="sup">o</span>. 80, DAME-STREET.</p>
 <p>1796.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <l>THIS night with dread unusual we appear,</l>
@@ -81,8 +81,8 @@
 <l>"He roar'd so loud, I cou'd not sleep one wink."</l>
 <l>This night at times may kinder slumbers seize you,</l>
 <l>Sleep when we're dull, and wake when we can please you.</l>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <l>THO' he pretends no commerce with the skies,</l>
@@ -141,8 +141,8 @@
 <l>Our author's not too forward to be taught,</l>
 <l n="55">To sage good counsel thankful he'll attend,</l>
 <l>And think who spares him least, is most his friend.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -163,16 +163,15 @@
 <l>—duri magno sed amore dolores</l>
 <l>Polluto, notumque surens quid saemina possit.</l>
 <bibl>VIRGIL, v. E.</bibl>
-</div1>
+</div>
 <set><p>SCENE, ROME.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="9"/>
 <head>CONSPIRACY, A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.</head>
 <stage><hi>Apartments of</hi> VITELLIA.—VITELLIA, SEXTUS.</stage>
 <sp>
@@ -785,11 +784,11 @@
 </sp>
 <stage>Exit.</stage>
 <trailer>END OF FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.</head>
 <stage><hi>The Temple of Jupiter.</hi> TITUS <hi>with Guards, Lictors, &amp;c.</hi>—PUBLIUS <hi>with several Senators and the Deputies of the subject Provinces bringing the accustomed Tribute.</hi> SEXTUS <hi>and</hi> ANNIUS <hi>come forward from the opposite sides, among the rest</hi> LENTULUS.</stage>
 <sp>
@@ -1089,9 +1088,9 @@
 <l>And force by power what's due alone to love.</l>
 </sp>
 <stage>Exit Cornelia.</stage>
-</div3>
+</div>
 <pb n="24" facs="32"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE—<stage>An Apartment in the Palace.</stage></head>
 <stage>TITUS <hi>meeting</hi> PUBLIUS <hi>who holds a Paper.</hi></stage>
 <stage>Shouts heard.</stage>
@@ -1484,11 +1483,11 @@ I knew you wou'd not.</l>
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Palace.</hi>—LENTULUS <hi>with some</hi> PLEBEIANS.</stage>
 <sp>
@@ -2093,11 +2092,11 @@ I knew you wou'd not.</l>
 <l>Oh be gone.</l>
 </sp>
 <trailer>END OF THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.</head>
 <stage><hi>An Apartment in the Palace.</hi>—TITUS, CORNELIA.</stage>
 <sp>
@@ -2784,12 +2783,12 @@ I knew you wou'd not.</l>
 </sp>
 <stage>Exit.</stage>
 <trailer>END OF FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="64" facs="72"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.</head>
 <stage><hi>Apartment of</hi> VITELLIA.</stage>
 <sp>
@@ -2957,8 +2956,8 @@ I knew you wou'd not.</l>
 <l>Wonder, not grief, must grace my obsequies.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage>Scene Changes.</stage>
 <stage>CORNELIA, ANNIUS <hi>following.</hi></stage>
 <sp>
@@ -3082,9 +3081,9 @@ I knew you wou'd not.</l>
 <l>Infuse sweet peace, and melting clemency.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <pb n="72" facs="80"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE—<stage>The Circus.</stage></head>
 <stage>TITUS, PUBLIUS, <hi>Senators, Lictors, Guards, &amp;c.</hi>—LENTULUS <hi>and other Conspirators in Chains at the bottom of the Stage.</hi>—ANNIUS <hi>and</hi> CORNELIA <hi>following</hi> TITUS.</stage>
 <sp>
@@ -3497,13 +3496,12 @@ I knew you wou'd not.</l>
 <l>And with your ashes, be your frailties buried.</l>
 </sp>
 <stage>Curtain falls.</stage>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="91"/>
 <head>EPILOGUE.</head>
 <l>SUCH is the force of custom's powerful sway</l>
@@ -3562,7 +3560,7 @@ I knew you wou'd not.</l>
 <l>Make Holland shake, and humble Gallia's pride</l>
 <l>The God of battle thro' all dangers guard 'em,</l>
 <l>And their best meed, a Nation's thanks reward 'em!</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

@@ -7,13 +7,13 @@
 <extent>[8],50,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Bell, and C. Etherington, at York,</publisher><date>1771.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Adapted by Francis Gentleman from Johnson's 'The Alchemist'.</note><note>With a half-title and a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT116074.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE TOBACCONIST, A COMEDY OF TWO ACTS <hi>Altered from BEN JOHNSON.</hi> Acted at the <hi>THEATRES ROYAL</hi> IN THE HAY-MARKET AND EDINBURGH. (With universal applause)</p>
 <quote>Qui vult decipi, decipiatur.</quote>
 <p>LONDON: Printed for J. BELL, near <hi>Exeter Change</hi> in the <hi>Strand,</hi> and C. ETHERINGTON, at <hi>York.</hi> M, DCC, LXXI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>DEDICATION TO <hi>Sir Francis Delaval,</hi> Knight of the <hi>Bath.</hi></head>
 <opener><salute>SIR,</salute></opener>
@@ -21,8 +21,8 @@
 <closer><salute>SIR,</salute>
 <signed>Your most respectful and very obedient servant The AUTHOR.</signed>
 <date><hi>July</hi> 1771.</date></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE, Written and Spoken by Mr. GENTLEMAN.</head>
 <lg>
@@ -72,8 +72,8 @@
 <l>My weak endeavours let your candor raise,</l>
 <l>They hope indulgence, though they reach not praise.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -94,19 +94,18 @@
 <label>Doll Tricksy,</label>
 <item>Mrs. GARDNER.</item>
 </list>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <head>ADVERTISEMENT.</head>
 <p>AS the PROLOGUE has, in part, apologized for this alteration from BEN JOHNSON, nothing more need be added, but that it was meant to give Mr. WESTON's established merit in the character of <hi>Abel Drugger,</hi> more frequent, familiar, and compact opportunity of shewing itself, than the Old Play can possibly afford; upon comparison, it will be found, that very little of the original is retained, but a general idea, and the part of <hi>Abel Drugger,</hi> to which however, some additions have been made.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>THE TOBACONIST.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> SUBTLE, <hi>followed by</hi> FACE.</stage>
 <sp>
@@ -696,13 +695,13 @@ some of my best Oroonoko, Virginia, long cut, short cut, saffron, shag, or—you
 <p>An excellent subject for imposition, and quite ripe for plucking; the stock is indebted to thee for bringing him to hand—at his next visit Doll shall ply him on another side, in the character of a rich widow—I must in, and prepare myself for Sir Epicure Mammon; do thou slip on the laboratory disguise, and watch his coming to the door.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
+</div>
 <trailer>END of the FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="25"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> SIR EPICURE, <hi>and</hi> FACE.</stage>
 <sp>
@@ -1650,11 +1649,9 @@ were tugging for the lead, whip, and spur; I bolted a blind beggar into the ditc
 <l>But if I could conjure—a very good cause</l>
 <l>Should work my first spell—it should catch—your applause.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
-
 </TEI>

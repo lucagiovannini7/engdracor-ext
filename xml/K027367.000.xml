@@ -7,11 +7,11 @@
 <editionStmt><edition>The third edition.</edition></editionStmt><extent>[12],66,[2]p. ; 4⁰.</extent><publicationStmt><publisher>printed for Jacob Tonson: and sold by R. Wellington, G. Strahan, and B. Lintott,</publisher><date>1703.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT14323.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE <hi>MOURNING BRIDE.</hi> A TRAGEDY.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE <hi>MOURNING BRIDE.</hi> A TRAGEDY. As it is ACTED AT THE Theatre in <hi>Lincoln's-Inn-Fields,</hi> BY His Majesty's Servants.</p>
 <p>Written by Mr. <hi>CONGREVE.</hi></p>
@@ -20,8 +20,8 @@
 <bibl>Ovid. de Arte Am.</bibl>
 <p>The THIRD EDITION.</p>
 <p><hi>LONDON,</hi> Printed for <hi>Jacob Tonson:</hi> And Sold by <hi>R. Wellington, G. Strahan,</hi> and <hi>B. Lintott.</hi> 1703.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO Her Royal Highness THE PRINCESS.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -41,8 +41,8 @@ we be charm'd with beholding the Persons themselves? If one or two excelling Qua
 <pb facs="7"/>
 it may be in the Whole, through the Inexperience or Incapacity of the Author, yet, if there is so much as to convince Your Royal Highness, that a Play may be with Industry so dispos'd (in spight of the licentious Practice of the Modern Theatre) as to become sometimes an innocent, and not unprofitable Entertainment; it will abundantly gratifie the Ambition, and recompence the Endeavours of,</p>
 <closer><signed><hi>Your Royal Highness's</hi> Most Obedient, and most humbly Devoted Servant, William Congreve.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="8"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. <hi>Betterton.</hi></byline>
@@ -95,8 +95,8 @@ Hard Fate for us! still harder in th' Event;</l>
 <l>Impartial Censure he requests from all,</l>
 <l>Prepar'd, by just Decrees to stand, or fall.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>Personae Dramatis.</head>
 <list>
@@ -129,14 +129,14 @@ Hard Fate for us! still harder in th' Event;</l>
 <list>
 <item><hi>Women, Eunuchs, and Mutes attending</hi> Zara. <hi>Guards,</hi> &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>The Scene <hi>GRANADA.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="11"/>
 THE <hi>MOURNING BRIDE.</hi></head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>A Room of State.</stage>
 <stage>The Curtain rising slowly to soft Musick, discovers <hi>Almeria</hi> in Mourning, <hi>Leonora</hi> waiting in Mourning.</stage>
@@ -863,11 +863,11 @@ So ill can brook Captivity,</l>
 <l>But Rules with settled Sway in <hi>Zara</hi>'s Eyes.</l>
 <stage>[Ex. Omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <pb n="14" facs="24"/>
 <head>ACT II. SCENE I.</head>
 <stage>Representing the Isle of a Temple.</stage>
@@ -1025,8 +1025,8 @@ Give me thy Hand, and speak to me; nay, speak,</l>
 <l>I go; but Heav'n can tell with what Regret.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>The Scene opening discovers a Place of Tombs. One Monument fronting the View greater than the rest.</stage>
 <stage>Enter <hi>Heli.</hi></stage>
 <sp>
@@ -1667,11 +1667,11 @@ Somewhat I heard of King and Rival mention'd.</l>
 <l>And then, then only, when we love, we live.</l>
 <stage>[Ex. Omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <pb n="27" facs="37"/>
 <head>ACT III. SCENE I.</head>
 <stage>A Prison.</stage>
@@ -2377,11 +2377,11 @@ Of Fate is stretch'd to draw the Veil, and leave</l>
 <l>Nor Hell a Fury, like a Woman scorn'd.</l>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <pb n="40" facs="50"/>
 <head>ACT IV. SCENE I.</head>
 <stage>A Room of State.</stage>
@@ -3160,11 +3160,11 @@ My Policy! I ne'er suspected it:</l>
 <l>And I yet fix the Crown on <hi>Garcia</hi>'s Head.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <pb n="53" facs="63"/>
 <head>ACT V. SCENE I.</head>
 <stage>A Room of State.</stage>
@@ -3392,8 +3392,8 @@ What should have ne'er been seen; imperfect Mischief!</l>
 <l>I can but die with thee to keep my Word.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="57" facs="67" ana="y"/>
 <stage>Scene changes to the Prison.</stage>
 <stage>Enter <hi>Gonsalez,</hi> disguis'd like a Mute, with a Dagger.</stage>
@@ -3862,11 +3862,11 @@ And pleads against thee? who shall then prevail?</l>
 <l>And tho' a late, a sure Reward succeeds.</l>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="77"/>
 <head>EPILOGUE,</head>
 <byline>Spoken by Mrs. <hi>Bracegirdle.</hi></byline>
@@ -3902,7 +3902,7 @@ Devoutly praying, with uplifted Hands,</l>
 <l>Your tender Hearts to Mercy are inclin'd,</l>
 <l>With whom, he hopes, this Play will Favour find,</l>
 <l>Which was an Off'ring to the Sex design'd.</l>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

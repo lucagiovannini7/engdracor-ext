@@ -7,37 +7,37 @@
 <extent>[8],98,[2]p.,plate ; 8⁰.</extent><publicationStmt><publisher>printed for G. Robinson; and P. Norbury, Brentford,</publisher><date>1778.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Francis G. Waldron.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT75040.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE MAID of KENT, A COMEDY.</p>
 <p>Price One Shilling and Six-Pence.</p>
-</div1>
-<div1 type="frontispiece">
+</div>
+<div type="frontispiece">
 <pb facs="2"/>
 <p><figure>
 <p>Act 4<span rend="sup">th</span> Scene 2<span rend="sup">d</span></p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE MAID of KENT.</p>
 <p>A COMEDY: Acted at the THEATRE-ROYAL, IN DRURY-LANE.</p>
 <p>LONDON: PRINTED FOR G. ROBINSON, No. 25, PATER-NOSTER-ROW; AND P. NORBURY, BRENTFORD.</p>
 <p>M,DCC,LXXVIII.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="4"/>
 <pb facs="5"/>
 <head>ADVERTISEMENT.</head>
 <p>THREE or four years having elapsed since the representation of the following trifle, it will, no doubt, be thought extraordinary, that it should make its appearance in print just at the time when so capital a production as The SCHOOL for SCANDAL engrosses all theatrical attention: in some degree to excuse the ill-timing of this publication, the author assures the public, that the copy-right was disposed of, and some sheets of it in the press, before that Comedy appeared; otherwise they would never have been troubled with this apology, or the cause of it.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="6"/>
 <p>TO THE LADIES and GENTLEMEN, Who, by their admirable performance of this first essay, and excellent delivery of the prologue and epilogue to it, obtained such applause to them, as in themselves they could not merit, The MAID of KENT Is most gratefully inscribed, by their much obliged Servant,</p>
 <closer><signed>The AUTHOR.</signed>
 <dateline><date>Jan. 24, 1778.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE.</head>
 <sp>
@@ -81,8 +81,8 @@
 <l>In clearer strains your favours to repay!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -101,15 +101,14 @@
 <item>Patty, Miss POPE.</item>
 <item>Dame Quickset, Mrs. BRADSHAW.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene—Sir Thomas Richacre's Seat, near the Seacoast, in Kent.
 Time—an Afternoon.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="9"/>
 <head>THE Maid of Kent.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. <stage><hi>Scene a Study in</hi> Sir Thomas Richacre's <hi>House.</hi> Doctor Goodman <hi>and</hi> Emily <hi>are discovered sitting: the</hi> Doctor <hi>shutting a Book, they presently rise.</hi></stage></head>
 <sp>
 <speaker>Dr. GOODMAN.</speaker>
@@ -826,8 +825,8 @@ Time—an Afternoon.</p></set>
 </sp>
 <stage><hi>Exit</hi> Patty.</stage>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II. <stage><hi>Scene,</hi> Sir Thomas Richacre's <hi>Garden.—A Summer House in view.</hi>—Metre <hi>comes out of the Summer House,</hi> William <hi>meets him carrying a Chair.</hi></stage></head>
 <sp>
 <speaker>WILLIAM.</speaker>
@@ -1570,8 +1569,8 @@ Time—an Afternoon.</p></set>
 </sp>
 <stage><hi>Exit</hi> William <hi>the contrary Way.</hi></stage>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="41" facs="49"/>
 <head>ACT III. <stage><hi>Scene, the Summer-house.</hi>—Lord Sealand, Sir Thomas Richacre, Doctor Goodman, George, <hi>and</hi> Emily, <hi>discovered seated.</hi></stage></head>
 <sp>
@@ -2419,8 +2418,8 @@ Time—an Afternoon.</p></set>
 <p><hi>All three go off repeating</hi>—Amen!</p>
 </sp>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="60" facs="68"/>
 <head>ACT IV. <stage><hi>Scene, a retired Part of the Garden.</hi></stage></head>
 <stage>Emily <hi>and</hi> Lord Sealand <hi>enter.</hi></stage>
@@ -3229,8 +3228,8 @@ Time—an Afternoon.</p></set>
 </sp>
 <stage>Exeunt omnes.</stage>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="80" facs="88"/>
 <head>ACT V. <stage><hi>Scene, a Parlour.</hi></stage></head>
 <stage>Patty <hi>enters alone.</hi></stage>
@@ -3983,12 +3982,11 @@ Time—an Afternoon.</p></set>
 <speaker>Metre.</speaker>
 <p>AMEN!</p>
 </sp>
-</div2>
+</div>
 <trailer>The END.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="107"/>
 <head>EPILOGUE.</head>
 <sp>
@@ -4030,7 +4028,7 @@ Time—an Afternoon.</p></set>
 <l><hi>And you still more approv'd</hi> The MAID of KENT!</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

@@ -7,7 +7,7 @@
 <editionStmt><edition>The fourth edition.</edition></editionStmt><extent>[10],78p. ; 4⁰.</extent><publicationStmt><publisher>printed for Jacob Tonson: and sold by R. Wellington, G. Strahan, and B. Lintott,</publisher><date>1704.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN3073.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p><hi>LOVE</hi> for <hi>LOVE.</hi> A COMEDY. Acted at the THEATRE in <hi>Little-Lincoln's-Inn-Fields,</hi> BY His Majesty's Servants.</p>
 <p>Written by Mr. <hi>CONGREVE.</hi></p>
@@ -16,8 +16,8 @@
 <bibl>Hor.</bibl>
 <p>The FOURTH EDITION.</p>
 <p><hi>LONDON,</hi> Printed for <hi>Jacob Tonson:</hi> And Sold by <hi>R. Wellington, G. Strahan,</hi> and <hi>B. Lintott.</hi> 1704.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2" ana="y"/>
 <pb facs="3"/>
 <head>To the Right Honourable CHARLES Earl of <hi>Dorset</hi> and <hi>Middlesex,</hi> Lord Chamberlain of His Majesty's Houshold, and Knight of the Most Noble Order of the Garter, &amp;c.</head>
@@ -34,8 +34,8 @@ with the Honour I do my self in this Epistle, without the Vanity of attempting t
 <p>I hope I may be excus'd the Pedantry of a Quotation, when it is so justly apply'd. Here are some Lines in the Print, (and which Your Lordship read before this Play was Acted) that were omitted on the Stage; and particularly one whole Scene in the Third Act, which not only helps the Design forward with less Precipitation, but also heightens the ridiculous Character of <hi>Foresight,</hi> which indeed seems to be maim'd without it. But I found my self in great Danger of a long Play, and was glad to help it where I could. Tho' notwithstanding my Care, and the kind Reception it had from the Town, I could heartily wish it yet shorter: But the Number of different Characters represented in it, would have been too much crowded in less room.</p>
 <p>This Reflection on Prolixity, (a Fault for which scarce any one Beauty will attone) warns me not to be tedious now, and detain Your Lordship any longer with the Trifles of,</p>
 <closer><salute>MY LORD,</salute> <signed>Your Lordship's most Obedient, and most Humble Servant, William Congreve.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>A PROLOGUE FOR The Opening of the New Play-House, 
 <stage>propos'd to be spoken by Mrs. <hi>Bracegirdle</hi> in Man's Cloaths.</stage></head>
@@ -96,8 +96,8 @@ Freedom's of <hi>English</hi> Growth, I think, alone;</l>
 <l>Pity's the Darling Passion of their Hearts.</l>
 <l>Thus Bribing, or thus Brib'd, fear no Disgraces;</l>
 <l>For thus you may take Bribes, and keep your Places.</l>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE. 
 <stage>Spoken at the Opening of the New House, By Mr. <hi>Betterton.</hi></stage></head>
@@ -149,8 +149,8 @@ There's Humour, which for chearful Friends we got;</l>
 <l>And shou'd th' ensuing Scenes not chance to hit,</l>
 <l>He offers but this one Excuse, 'Twas writ</l>
 <l>Before your late Encouragement of Wit.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="9"/>
 <head>EPILOGUE, 
 <stage>Spoken at the Opening of the New House. By Mrs. <hi>Bracegirdle.</hi></stage></head>
@@ -198,8 +198,8 @@ There's Humour, which for chearful Friends we got;</l>
 <l>And some here know I have a begging Face.</l>
 <l>Then pray continue this your kind Behaviour,</l>
 <l>For a clear Stage won't do, without your Favour.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>Personae Dramatis.</head>
 <list>
@@ -226,13 +226,13 @@ There's Humour, which for chearful Friends we got;</l>
 <list>
 <item>A Steward, Officers, Sailers, and several Servants.</item>
 </list>
-</div1>
+</div>
 <set><p>The SCENE in <hi>LONDON.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="11"/>
 LOVE for LOVE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage><hi>Valentine</hi> in his Chamber Reading. <hi>Jeremy</hi> Waiting. Several Books upon the Table.</stage>
 <sp>
@@ -1254,8 +1254,8 @@ that I know: You fancy that parting with your Estate, will help you to your Mist
 <l>Or win a Mistress, with a losing Hand.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II. SCENE I.</head>
 <stage>A Room in <hi>Foresight</hi>'s House.</stage>
 <stage>Enter <hi>Foresight</hi> and Servant.</stage>
@@ -2111,8 +2111,8 @@ there's Snuff in't;—here, will you have any—Oh good! how sweet it is—Mr. <
 <stage>[Exit after her.</stage>
 </sp>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III. SCENE I.</head>
 <stage>Enter <hi>Nurse.</hi></stage>
 <sp>
@@ -3275,8 +3275,8 @@ Dreaming is the poor Retreat of a lazy, hopeless, and imperfect Lover; 'tis the 
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>The End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV. SCENE I.</head>
 <stage><hi>Valentine</hi>'s Lodging.</stage>
 <stage>Enter <hi>Scandal</hi> and <hi>Jeremy.</hi></stage>
@@ -4412,8 +4412,8 @@ Uncertainty and Expectation are the Joys of Life. Security is an insipid thing, 
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>The End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V. SCENE I.</head>
 <stage>A Room in <hi>Foresight</hi>'s House.</stage>
 <stage>Enter <hi>Angelica</hi> and <hi>Jenny.</hi></stage>
@@ -5305,7 +5305,7 @@ it or no. What I say is true; d'ye see, they are married, or just going to be ma
 <l>A Lover true: Not that a Woman's kind.</l>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

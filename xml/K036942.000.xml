@@ -7,15 +7,15 @@
 <extent>[8],70,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for A. Millar,</publisher><date>1757.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Home.</note><note>With a half-title and epilogue.</note><note>The titlepage ornament is rectangular in shape and has a basket of flowers in a foliage framework.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34870.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>DOUGLAS: A TRAGEDY.</p>
 <p>As it is acted at the THEATRE-ROYAL IN COVENT-GARDEN.</p>
 <p>Non ego sum vates, sed prisci conscius aevi.</p>
 <p>LONDON: Printed for A. MILLAR, in the Strand.</p>
 <p>MDCCLVII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. SPARKS.</byline>
@@ -49,8 +49,8 @@
 <l>In confidence she begs; and hopes to find</l>
 <l>Each <hi>English</hi> breast, like noble <hi>PIERCY</hi>'s kind.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -65,8 +65,8 @@
 <item><label>MATILDA, Lady RANDOLPH,</label> Mrs. WOFFINGTON.</item>
 <item><label>ANNA,</label> Mrs. VINCENT.</item>
 </list>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>DRAMATIS PERSONAE, as represented at EDINBURGH.</head>
 <list>
@@ -81,15 +81,14 @@
 <item><label>MATILDA, Lady RANDOLPH,</label> Mrs. WARD.</item>
 <item><label>ANNA,</label> Mrs. HOPKINS.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>DOUGLAS: A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The court of a castle, surrounded with woods.</stage>
 <sp>
@@ -523,13 +522,13 @@
 <l>And for the righteous cause, a stranger's cause,</l>
 <l>I know no chief that will defy GLENALVON.</l>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the</hi> FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="12" facs="17"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Court,</hi> &amp;c.</stage>
 <stage><hi>Enter servants and a stranger at one door, and Lady</hi> RANDOLPH <hi>and</hi> ANNA <hi>at another.</hi></stage>
@@ -720,8 +719,8 @@
 <l>The human joy that never may return.</l>
 </sp>
 <stage><hi>Exeunt</hi> RANDOLPH <hi>and</hi> NORVAL.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Lady RANDOLPH and ANNA.</stage>
 <sp>
@@ -898,8 +897,8 @@
 <l>His friend I am, and be not thou his foe.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="21" facs="26"/>
 <head>SCENE III.</head>
 <sp>
@@ -939,13 +938,13 @@
 <l>Venom most fatal to his heedless lord.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the</hi> SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="23" facs="28"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Court,</hi> &amp;c. <hi>as before.</hi></stage>
 <stage><hi>Enter</hi> ANNA.</stage>
@@ -995,8 +994,8 @@
 <l>Behold the Lady of Lord RANDOLPH comes:</l>
 <l>Prepare yourself to meet her just revenge.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> Lady RANDOLPH <hi>and</hi> ANNA.</stage>
 <sp>
@@ -1338,8 +1337,8 @@
 <l>Since your mistaken zeal hath dragg'd him hither.</l>
 </sp>
 <stage>Exeunt Stranger and Servants▪</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>Lady</hi> RANDOLPH <hi>and</hi> ANNA.</stage>
 <sp>
@@ -1543,13 +1542,13 @@
 <l>But point him to the truth. He seldom errs</l>
 <l>Who thinks the worst he can of womankind.</l>
 </sp>
-</div3>
+</div>
 <trailer><hi>The End of the</hi> THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="37" facs="42"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Flourish of Trumpets.</stage>
 <stage><hi>Enter</hi> Lord RANDOLPH <hi>attended.</hi></stage>
@@ -2381,13 +2380,13 @@ the assassin freed,</l>
 <l>Think not so lightly, Sir, of my resentment:</l>
 <l>When we contend again, our strife is mortal.</l>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the</hi> FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="56" facs="61"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The Wood.</stage>
 <sp>
@@ -2996,13 +2995,12 @@ the assassin freed,</l>
 <l>With cost and pomp upon their funerals wait:</l>
 <l>For RANDOLPH hopes he never shall return.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="76"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mr. BARRY.</byline>
@@ -3024,7 +3022,7 @@ the assassin freed,</l>
 <l>Nor will I now attempt, with witty folly,</l>
 <l>To chace away celestial melancholy.</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

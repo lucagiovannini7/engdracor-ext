@@ -7,12 +7,12 @@
 <extent>[4],iii,[1],87,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by M. Scott, for T. Evans,</publisher><date>1784.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Horizontal chain-lines.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT67189.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>A Bold Stroke for a Husband, A COMEDY, AS ACTED AT THE THEATRE ROYAL, IN COVENT GARDEN. By MRS. COWLEY.</p>
 <p>LONDON: PRINTED BY M. SCOTT, CHANCERY-LANE, FOR T. EVANS, PATERNOSTER-ROW. MDCCLXXXIV.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="i" facs="2"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY TWO GENTLEMEN.</byline>
@@ -74,8 +74,8 @@ In vain would rakes the married state revile,</l>
 <l>Be then propitious, let our fears decrease,</l>
 <l>While you, with plaudits, ratify the peace!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>DRAMATIS PERSONAE.</head>
 <p><list>
@@ -110,14 +110,14 @@ In vain would rakes the married state revile,</l>
 <label>SANCHA,</label>
 <item>MRS. <hi>DAVENETT.</hi></item>
 </list></p>
-</div1>
+</div>
 <set><p>SCENE, <hi>SPAIN.</hi></p></set>
 </front>
 <body>
 <head><pb facs="6"/>A Bold Stroke for a Husband.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Street in Madrid.</stage>
 <stage><hi>Enter</hi> SANCHA <hi>from a House, she advances, then runs back, and beckons to</hi> PEDRO <hi>within.</hi></stage>
@@ -373,8 +373,8 @@ In vain would rakes the married state revile,</l>
 <p>I'll meet thee at Philippi!</p>
 </sp>
 <stage>[Exit. severally.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A spacious Garden belonging to Don</hi> CAESAR.</stage>
 <stage><hi>Enter</hi> MINETTE <hi>and</hi> INIS.</stage>
@@ -784,13 +784,13 @@ Ha! ha! ha! And my little delicate spark, who washes in rose-water, and has his 
 <p>Suppress my curiosity, madam!—why, I am a chambermaid, and a sorry one too, it should seem, to have been in your confidence two years, and never have got the master-secret yet. I never was six weeks in a family before, but I knew every secret they had in it for three generations; aye, and I'll know this too, or I'll blow up all her plans, and declare to the world that she is no more a vixen than other fine ladies—they have most of 'em a touch on't.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="22"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An Apartment at Donna</hi> LAURA<hi>'s.</hi></stage>
 <stage><hi>Enter</hi> LAURA <hi>followed by</hi> CARLOS.</stage>
@@ -909,8 +909,8 @@ more your ruling passion, than 'tis ours; and 'tis wounded <hi>vanity</hi> that 
 <speaker>CAR.</speaker>
 <p>My vengeance shall first fall on her. <stage>[following]</stage> No, he shall be the first victim, or 'twill be incomplete.—Reduc'd to poverty, I cannot live;—Oh, folly! where are now all the gilded prospects of my youth? Had I—but 'tis too late to look back,—remorse attends the past, and ruin!—ruin waits me in the future!</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="20" facs="25"/>
 <head>SCENE II.</head>
 <stage><hi>Don</hi> CAESAR<hi>'s.</hi></stage>
@@ -1517,13 +1517,13 @@ has more subjects and a wider empire than the first monarch upon earth.—I long
 <p>Never may you see them! Oh, Olivia!—my happiness, my life, depend on my husband. The fond hope of still being united to him, gives me spirits in my affliction, and enables me to support even the period of his neglect, with patience.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="36" facs="41"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A LONG STREET.</stage>
 <stage>JULIO <hi>enters from a Garden Gate with precipitation; a Servant within fastens the Gate.</hi></stage>
@@ -1703,8 +1703,8 @@ and that I'd never make love—but in an <hi>honest</hi> way again.</p>
 <p>Then I'll talk to it till the morning, and hear it pour out its matins to the rising sun.—Call on me to-morrow, I'll then attend you to Donna Olivia, and declare faithfully the impression her character makes on me.—Come, Garcia, I must not leave you together, lest his crotchets and your minums, should fall into a crash of discords.</p>
 </sp>
 <stage>[Exeunt opposite sides.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>THE PRADO.</stage>
 <stage><hi>Enter</hi> CARLOS.</stage>
 <sp>
@@ -2096,8 +2096,8 @@ my castle without you seem'd a dreary desart.—Indeed, I will never upbraid you
 <pb n="47" facs="52"/>
 —but these married fellows have neither taste nor joy.—Humph—suppose my fair one should want to debase me into such an animal;—she can't have so much villainy in her disposition: and yet, if she should? pho! it won't bear thinking about.—If I do so mad a thing, it must be as cowards fight, without daring to reflect on the danger.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>Scene,</hi> <stage><hi>an apartment in the House of Don</hi> VASQUEZ, MARCELLA's <hi>Father.</hi></stage></head>
 <stage><hi>Enter</hi> CAESAR <hi>and</hi> VASQUEZ.</stage>
 <sp>
@@ -2349,13 +2349,13 @@ go home now, and fret madam, about her young mother-in-law—By'e sweeting!</p>
 <p>Bless its pretty spectacles! ha, ha, ha! enter into a league with a cross old father against a daughter! why how could he suspect me capable of so much treachery? I cou'd not answer it to my conscience. No, no I'll acquaint Donna Olivia with the plot; and, as in duty bound, we'll turn our arms against Don Caesar.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="52" facs="57"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>DONNA LAURA'S.</stage>
 <stage><hi>Enter</hi> LAURA <hi>and</hi> PEDRO.</stage>
@@ -2589,8 +2589,8 @@ to certainty.—I have seen Don Sancho, the uncle of Victoria—he is now in Mad
 <p>Base woman! how can I pity thee, or regret the steps which my duty obliges me to take? For myself, I wou'd not swerve from the nicest line of rectitude, nor wear the shadow of deceit—But for my children!—Is there a parental heart that will not pardon me?</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>DON CAESAR'S.</stage></head>
 <stage><hi>Enter</hi> OLIVIA <hi>and</hi> MINETTE</stage>
 <sp>
@@ -2948,13 +2948,13 @@ a lover that one likes, because in that case one shou'd—a—You know, Sir, the
 <p>I thank you, Madam— <stage>[aloud.]</stage>—for my dismission— <stage>[aside.]</stage> I never was in such peril in my life.—I believe she has a license in her pocket, a priest in her closet, and the ceremony by heart.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="66" facs="71"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>DON CARLOS'S.</stage>
 <stage>CARLOS <hi>discover'd writing.</hi></stage>
@@ -2983,8 +2983,8 @@ a lover that one likes, because in that case one shou'd—a—You know, Sir, the
 At least then, I shall have the pleasure of revenge; I'll punish that harlot by sacrificing her paramour in her arms—and then—Oh!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="67" facs="72"/>
 <head><stage><hi>Scene changes to</hi> DONNA LAURA'S.</stage></head>
 <stage><hi>Enter</hi> LAURA <hi>with precipitation, followed by</hi> VICTORIA.</stage>
@@ -3223,8 +3223,8 @@ must have been <hi>his</hi> creature—His reluctance all art—and, whilst I be
 <p>Lord help 'em! how easily the women are taken in!—Here's a wild rogue has plagu'd her heart these two years, and a whip syllabub about angels and whispers clears scores.—'Tis pity but they were a little—tho', now I think on't, the number of these <hi>gentle</hi> fair ones is so very small, that if it was lessen'd, the two sexes might be confounded together, and the whole world be suppos'd of the masculine gender. </p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>THE PRADO.</stage></head>
 <stage><hi>Enter</hi> MINETTE.</stage>
 <sp>
@@ -3339,8 +3339,8 @@ conscious of her charms, unveil'd her fascinating face.—'Twas here—</p>
 <p>That's hardly fair, however, as I think there's danger, we will follow.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>DON CAESAR'S</stage></head>
 <stage><hi>Enter</hi> OLIVIA <hi>and</hi> SERVANT.</stage>
 <sp>
@@ -3763,12 +3763,12 @@ My friend, you are happy—'tis in your eyes, I need not ask the event.</p>
 <l>Might we their plaudits, and their praise provoke,</l>
 <l>Our <hi>bold</hi> should then be term'd, a <hi>happy</hi> stroke.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="85" facs="90"/>
 <head>EPILOGUE.</head>
 <byline>BY A GENTLEMAN.</byline>
@@ -3853,8 +3853,8 @@ If she cou'd frown, by smiles her pride's disarm'd;</l>
 </lg>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="93"/>
 <head><hi>Of the</hi> PUBLISHER <hi>may be had,</hi> By the same AUTHOR,</head>
 <list>
@@ -3866,8 +3866,7 @@ If she cou'd frown, by smiles her pride's disarm'd;</l>
 <item>THE MAID OF ARRAGON, a Poem.</item>
 </list>
 <p>In the Press, and speedily will be published▪ MRS. COWLEY's last New COMEDY, call'd, MORE WAYS THAN ONE.</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

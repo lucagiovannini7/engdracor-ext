@@ -7,20 +7,20 @@
 <extent>[8],68,[4]p. ; 8⁰.</extent><publicationStmt><publisher>printed for L. Davis and C. Reymers; and J. Payne,</publisher><date>1766.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT35288.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>FALSTAFF'S WEDDING, A COMEDY: AS IT IS ACTED AT THE THEATRE ROYAL IN DRURY-LANE.</p>
 <p>BEING A SEQUEL TO THE SECOND PART OF THE PLAY OF KING HENRY THE FOURTH.</p>
 <p>WRITTEN IN IMITATION OF SHAKESPEARE, BY W. KENRICK.</p>
 <p>In magnis voluisse sat est.</p>
 <p>LONDON, Printed for L. DAVIS and C. REYMERS, in Holborn; and J. Payne, in Pater-noster-Row. MDCCLXVI.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE success, which a juvenile sketch of this Play hath met with in publication, having induced the Author to bring it on the stage; he flatters himself the alterations, which were thought necessary to accommodate it to a theatrical audience, will not give less satisfaction to the reader than such scenes as he was obliged on that account to reject.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. DODD, in the Character of MERCURY.</byline>
@@ -122,8 +122,8 @@
 <l>The law is clear—I leave it with the court.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -150,22 +150,21 @@
 <item>MRS. QUICKLY, MRS. BRADSHAW.</item>
 <item>DOL TEARSHEET, Mrs. DORMAN.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>FALSTAFF'S WEDDING.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A Street in WESTMINSTER, On the Day of the Coronation of King HENRY the Fifth.</stage></head>
 <stage>Enter Sir JOHN FALSTAFF, solus.</stage>
 <sp>
 <p><seg rend="decorInit">W</seg>HAT a scurvy quarter is this? Not a bush, or a blind Cupid, in the neighbourhood! 'sblood, my legs will fail me ere I reach a tavern. Phoo—Phoo—It is some comfort, however, I escap'd with my life. The green-apron'd rascals, crouding after the procession, had well nigh made an end of me.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter BARDOLPH.</stage>
 <sp>
@@ -206,8 +205,8 @@
 <p>I will, Sir John.</p>
 <stage>[Exit <hi>Bardolph.</hi></stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Sir JOHN FALSTAFF, solus.</stage>
 <sp>
@@ -215,8 +214,8 @@
 <pb n="3" facs="8"/>
 I am as foundered and as sore as a blind horse in a mill.—Bardolph! where a plague art thou gotten to, caterwauling?</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Enter Mrs. QUICKLY and DOLL TEARSHEET.</stage>
 <sp>
@@ -305,8 +304,8 @@ keeper, that has paid scot and lot, and born the burthen of half the parish any 
 <speaker>Quick.</speaker>
 <p>Ay, I knew how Sir John would take it. O, how soundly will the knave constable be swing'd for this! a jack-in-office rascal! we shall cure the blue-skin'd runnion of his itch for whipping, I warrant ye.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Re-enter BARDOLPH.</stage>
 <sp>
@@ -520,8 +519,8 @@ in the Thames, for a bawd. What, a-plague, art thou drunk? On the honour of my k
 <p>I thank thee, hostess; I am now somewhat recruited, and will endeavour to reach Eastcheap. And ye a cap of sack, by the way, I think, would not be amiss</p>
 <stage>[Exeunt</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>Tavern in Eastcheap.</stage></head>
 <stage>Enter PISTOL and NYM.</stage>
 <sp>
@@ -582,8 +581,8 @@ in the Thames, for a bawd. What, a-plague, art thou drunk? On the honour of my k
 <speaker>Nym.</speaker>
 <p>Good! Signior Nymwego! and you Don Anticho del Pistolo! I will hold them in oblivion. The trick of it pleases. But, here comes Quickly and Dol.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="10" facs="15"/>
 <head>SCENE VII.</head>
 <stage>Enter QUICKLY and DOL TEARSHEET.</stage>
@@ -632,8 +631,8 @@ in the Thames, for a bawd. What, a-plague, art thou drunk? On the honour of my k
 <p>Bye Dol.</p>
 <stage>[Exeunt <hi>Pistol</hi> and <hi>Nym.</hi></stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <speaker>Quick.</speaker>
@@ -643,8 +642,8 @@ in the Thames, for a bawd. What, a-plague, art thou drunk? On the honour of my k
 <speaker>Dol.</speaker>
 <p>I know not that; but if he has, he'll probably carry it to jail with him. Here comes Bardolph, ask him.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="11" facs="16"/>
 <head>SCENE IX.</head>
 <stage>Enter BARDOLPH.</stage>
@@ -684,8 +683,8 @@ in the Thames, for a bawd. What, a-plague, art thou drunk? On the honour of my k
 <speaker>Dol.</speaker>
 <p>O, here is Sir John, himself.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Enter Sir JOHN FALSTAFF.</stage>
 <sp>
@@ -823,8 +822,8 @@ in his glass-case, offered to tap me for the dropsy; and to make us all elbow-ro
 <p>Ay, on the instant, good Dol. Hostess! go thou and see to the brewage of my sack.</p>
 </sp>
 <stage>[Exeunt <hi>Dol.</hi> and <hi>Mrs. Quickly.</hi></stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>Tavern continued.</stage></head>
 <stage>Enter PISTOL and NYM.</stage>
 <sp>
@@ -840,8 +839,8 @@ in his glass-case, offered to tap me for the dropsy; and to make us all elbow-ro
 <l>From ducking-pond escaped in dripping plight,</l>
 <l>The crooked-finger'd cut-purse, Peto hight.</l>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Enter PETO, leaning upon GADSHILL.</stage>
 <sp>
@@ -899,13 +898,13 @@ and wonder'd what the porters and 'prentices had got, to make sport withal. By t
 <l>Will go, and schemes of operation plan.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>End of the First ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="22"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A Street.</stage></head>
 <stage>Enter Justice SHALLOW and Master SLENDER.</stage>
 <sp>
@@ -952,8 +951,8 @@ them, than that the gorbellied knave should feast his enormous guts at any free-
 <l>Your cousin Shallow puts up no such wrong.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>A Street.</stage></head>
 <stage>Enter an Officer of the King's Houshold and a FRIAR.</stage>
 <sp>
@@ -977,8 +976,8 @@ them, than that the gorbellied knave should feast his enormous guts at any free-
 <p>His lordship requires that you would bring Falstaff over to retire to a monastery, if possible; that, being concealed from the eyes of the world, he may not daily remind it of what is past. Farewel, good father; I will see thee again at the Priory.</p>
 <stage>[Exit officer.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="19" facs="24"/>
 <head>SCENE III. <stage>Street continued.</stage></head>
 <stage>FRIAR, solus.</stage>
@@ -986,8 +985,8 @@ them, than that the gorbellied knave should feast his enormous guts at any free-
 <p>I will go; but I fear my mission will prove as fruitless as that of many other Apostles, sent among Infidels. As there is no danger of martyrdom, however, I am content.—Persuade Sir John Falstaff to turn monk! could I work miracles, indeed, and, like St. Thomas, turn an Ethiop white, something might be said for it: bur, as it is, I despair of converting an old deboshee from two such prevailing heresies as the whore and the bottle.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Tavern in Eastcheap.</stage></head>
 <stage>Enter FALSTAFF and BARDOLPH.</stage>
 <sp>
@@ -1098,8 +1097,8 @@ guerdon of my great atchievements? Hang valour, I'll hack my sword no more▪ Th
 <p>No. I'll toward St. Paul's: a gentle perambulation this morning may refresh me.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>A Street.</stage></head>
 <stage>Enter Justice SHALLOW, Master SLENDER, and a LAWYER.</stage>
 <sp>
@@ -1167,8 +1166,8 @@ guerdon of my great atchievements? Hang valour, I'll hack my sword no more▪ Th
 <speaker>Slen.</speaker>
 <p>O would you could, Mr. Pleadwell! what would I give methinks to see him well trounc'd! if it was only for giving me once a bloody coxcomb.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>Street continued.</stage></head>
 <stage>Enter FALSTAFF.</stage>
 <sp>
@@ -1370,8 +1369,8 @@ And dost thou think me so unpractis'd a courtier as to return the perquisites of
 <p>Justice Shallow, this is a very simple affair. I am sorry it is not in my power to serve you in it. Sir John, if you had either honour or honesty, you would restore the money; but, as you make pretensions to neither, I leave you.</p>
 <stage>[Exit <hi>Lawyer,</hi></stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage>Street continued.</stage></head>
 <stage>FALSTAFF, SHALLOW, and SLENDER.</stage>
 <sp>
@@ -1387,8 +1386,8 @@ And dost thou think me so unpractis'd a courtier as to return the perquisites of
 <speaker>Slen.</speaker>
 <p>Ay, ay, we shall find means to get the money; ever fear. <stage>[Exit <hi>Slender.</hi></stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage>Street continued.</stage></head>
 <stage>FALSTAFF, solus.</stage>
 <sp>
@@ -1396,8 +1395,8 @@ And dost thou think me so unpractis'd a courtier as to return the perquisites of
 <pb n="28" facs="33"/>
 done first. Mine will go merrily forward. Ah! shallow Master Shallow! But who could have thought the snipe would have went to counsel, to get himself laugh'd at? Then to see how demurely Sir Slyboots angled for me, as if I had been a gudgeon! How cunningly the rascally barrador would have hook'd me on his instrument! But I was even with the methodical knave.—My friend Shallow will never bring it to bear an action at law; and if he should, I am on the right side of the hedge. Indeed, were I to go to law for a mint of money, I would chuse to have it all in my possession. There is nothing like it. Possession is the very life's blood of a bad cause: on the strength of which in mine, I will home to dinner.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>A fencing school.</stage></head>
 <stage>Enter PISTOL and NYM disguised.</stage>
 <sp>
@@ -1436,8 +1435,8 @@ done first. Mine will go merrily forward. Ah! shallow Master Shallow! But who co
 <l>Nymwego shall command what's held from Nym.</l>
 <l>But see new swaggerers coming—keep your state.</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="29" facs="34"/>
 <head>SCENE X.</head>
 <stage>Enter Justice SHALLOW and Master SLENDER.</stage>
@@ -1523,8 +1522,8 @@ master is dead, I would be obliged to the skill of his successor.</p>
 <p>Enough's a feast. Farewel, till next we meet.</p>
 </sp>
 <stage>[Exit <hi>Pistol.</hi></stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE IX.</head>
 <sp>
 <speaker>Nym.</speaker>
@@ -1543,8 +1542,8 @@ master is dead, I would be obliged to the skill of his successor.</p>
 <p>Yes, yes, my cousin will come again; but I've no occasion I thank ye.</p>
 <stage>[Exeunt <hi>Shallow</hi> and <hi>Slender.</hi></stage>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <pb n="31" facs="36"/>
 <head>SCENE XII.</head>
 <stage>NYM, solus.</stage>
@@ -1552,13 +1551,13 @@ master is dead, I would be obliged to the skill of his successor.</p>
 <p>These two 'Squires are precious subjects to play humours on.—I have it too: they've land and beeves; and marry-trap, I will lay a trap for marrying them. Our hostess Quickly and Dol. Tearsheet, when bedizen'd, may pass on these Gloucestershire oass for London dames of rank. Nay, they resemble the wealthy widow of Watling-street, and buxom Beatrice of Bucklersbury, her forward niece. This were a trick of price: I'll fashion it, by working up these noodles into a conceit of their being beloved by the widow and madam Beatrice. I will about it strait.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
+</div>
 <trailer>End of the Second ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="32" facs="37"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>Tavern in Eastcheap.</stage></head>
 <stage>Enter FALSTAFF and BARDOLPH.</stage>
 <sp>
@@ -1589,8 +1588,8 @@ master is dead, I would be obliged to the skill of his successor.</p>
 <speaker>Fal.</speaker>
 <p>O, doctor Caius Mithridate, the apothecary! a precious limb of Galen!—At Windsor he was a physician, and starved by prescribing poisons, but now he is turned apothecary, and thrives by administering them.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter Dr. CSIUS.</stage>
 <sp>
@@ -1720,8 +1719,8 @@ shange your regime, you shall die. Your fat vill eat you up.</p>
 <p>Eh! mon dieu! si gras! si gros, by gar, he cannot live long; he will overlay his own belly and burst, if he be not bled.</p>
 <stage>[Exit Dr. <hi>Caius.</hi></stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>Fal.</speaker>
@@ -1847,16 +1846,16 @@ grey? Twenty years ago, before they were calcin'd by thy fire, my locks were of 
 <p>No, by the lord, I heard nothing on't. She sent me a letter, indeed, into Gloucestershire; but I was over a bottle, and would not interrupt the glass to read it. I knew it was hers by the superscription, which by the way, however, was as unintelligible as the hand-writing on the wall. It had never reached me had not the bearer been a decypherer. Go, Bardolph, and fetch it; you will find it among other trumpery in my cloak bag.</p>
 </sp>
 <stage>[Exit Bardolph,</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="39" facs="44"/>
 <head>SCENE IV. <stage>Tavern continued.</stage></head>
 <stage>FALSTAFF, solus.</stage>
 <sp>
 <p>Four hundred marks a year, quoth he! It were not an unreasonable competence were not sherries comparatively so dear. But if the female incumbrance on it should turn out a shrew; the Lord have mercy on me, in thus paying off the sins of my youth. Let me bethink me. Four hundred marks a year! I have, it is true, small hopes from Hal; and shall grow old some time or other. These aches in my limbs forebode it. I cannot hold out for ever; that's certain. Were it not good, therefore, to make a virtue of necessiry, and take up while I am in case to reap the credit of reformation? Could I reconcile it to my interest, I believe my inclination would follow.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>Tavern continued.</stage></head>
 <stage>Re-enter BARDOLPH.</stage>
 <sp>
@@ -1878,8 +1877,8 @@ or the performance of my engagements! Hoo! am I then to be married on compulsion
 <p>Marry, Bardolph, and I am half resolved to do so. Yea, by the Lord, and I will too. She has besides two thousand pounds in money, I will courageously make the attack and mount the breach of matrimony. If I sall into the hands of Philistines; why, good night. It is but going into purgatory a few years before my time, Bardolph, get me pen and ink, in the cupid. Thou shalt be one of love's messengers.—I will write to her in trope and figure: metaphor and hyperbole carry all before them with the women. Let her resist lyes and nonsense if she can.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Enter NYM, Dol, and QUICKLY.</stage>
 <sp>
@@ -1904,8 +1903,8 @@ or the performance of my engagements! Hoo! am I then to be married on compulsion
 <p>Fear not—we'll lose no time: come, Dol, we shall be made women, if this plot succeeds.</p>
 </sp>
 <stage>[Exeunt omnes.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <head>Dame URSULA and BRIDGET attending.</head>
 <sp>
@@ -1985,8 +1984,8 @@ or the performance of my engagements! Hoo! am I then to be married on compulsion
 <speaker>Urs.</speaker>
 <p>Bless us, Bridget, and so he is. Introduce him and leave us.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="43" facs="48"/>
 <head>SCENE VIII.</head>
 <stage>Enter FALSAFF.</stage>
@@ -2054,13 +2053,13 @@ we must bear with a short delay: but I will no longer be kept out of possession 
 <l>To do thee less than justice were a sin,</l>
 <l>Give me thy lips, we'll settle all within.</l>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="45" facs="50"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A Chamber.</stage></head>
 <stage>Enter Justice SHALLOW and Mrs. QUICKLY, dressed in tawdry cloaths.</stage>
 <sp>
@@ -2149,8 +2148,8 @@ she breaks from him in affected anger.</stage>
 <p>Hah! gone! then Shallow shall not stay behind, But will pursue and force her to be kind.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter Mr. SLENDER and DOL TEARSHEET.</stage>
 <sp>
@@ -2232,8 +2231,8 @@ you know, that I have had maidens in love with me twice and once before now.</p>
 <p>Go thy way, with God's blessing, for a fool; were it not for thy wealth, Doll Tearsheet would not follow thee.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Tavern in Eastcheap.</stage></head>
 <stage>Enter FALSTAFF, laughing.</stage>
 <sp>
@@ -2248,8 +2247,8 @@ you know, that I have had maidens in love with me twice and once before now.</p>
 <speaker>Fal.</speaker>
 <p>Ay, let him in.—What can the gouty precisian want with me?</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="48" facs="53"/>
 <head>SCENE IV.</head>
 <stage>Enter FRIAR.</stage>
@@ -2440,16 +2439,16 @@ and do assure thee, on the honour of a soldier, of the sincerity of my repentanc
 <p>Thou shalt stand fairer than I fear thou deservest. Farewel.</p>
 <stage>[Exit <hi>Friar.</hi></stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="52" facs="57"/>
 <head>SCENE V. <stage>Tavern continued.</stage></head>
 <stage>FALSTAFF, solus.</stage>
 <sp>
 <p>Fare thee well, good father friar. What an hypocritical puritan! Would not drink sack! Not with the ungodly I suppose. But I am damnably mistaken, if he be not indebted for that rosy countenance and the gout, to the penetrating qualities of old sherris.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Enter BARDODPH.</stage>
 <sp>
@@ -2473,8 +2472,8 @@ and do assure thee, on the honour of a soldier, of the sincerity of my repentanc
 <p>Bardolph, those knaves would leave me, and set up for themselves. The 'squires are mine; a lawful prey, and shall not be fed upon without our leave. Learn more, and I will bethink me how to counteract the villainous machinations of these runagates. Bur, now, attend me forth.</p>
 <stage>[Excunt.</stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="53" facs="58"/>
 <head>SCENE VII.</head>
 <stage>Enter URSULA and BRIDGET.</stage>
@@ -2499,8 +2498,8 @@ and do assure thee, on the honour of a soldier, of the sincerity of my repentanc
 <speaker>Urs.</speaker>
 <p>Nay, he shall have some sour as well as sweet; Keen as he is, all honey is not meet.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Enter PISTOL.</stage>
 <sp>
@@ -2559,8 +2558,8 @@ and do assure thee, on the honour of a soldier, of the sincerity of my repentanc
 <speaker>Urs.</speaker>
 <p>Indeed! 'Twere much a warrior to withstand, Who comes victorious from the Holy Land.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Enter BRIDGET in a hurry.</stage>
 <sp>
@@ -2636,8 +2635,8 @@ ground, bends it double.</stage>
 <l>Go, and good tidings speedily await.</l>
 <stage>[Exit <hi>Ursula.</hi></stage>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <sp>
 <stage>PISTOL looking after her.</stage>
@@ -2647,8 +2646,8 @@ ground, bends it double.</stage>
 <l>If Falstaff's near, 'tis time that I were gone.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>A Street.</stage></head>
 <stage>Enter Justice SHALLOW and Master SLENDER.</stage>
 <sp>
@@ -2676,8 +2675,8 @@ ground, bends it double.</stage>
 <speaker>Slen.</speaker>
 <p>Ecod, that's true. I did not think of that: if my cousin's kili'd, I come in for his estate. <stage>(Aside)</stage> Ay, I'll carry him the challenge. Hey! here he comes, with his bottle-nos'd man, that pick'd my pocket at Windsor.</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <stage>Street continued.</stage></head>
 <stage>Enter FALSTAFF and BARDOLPH.</stage>
 <sp>
@@ -2750,8 +2749,8 @@ ground, bends it double.</stage>
 <p>Ay, ay, if coz is kill'd, I shall have his estate; and so there's the challenge.</p>
 </sp>
 <stage>[Exeunt <hi>Shallow</hi> and <hi>Slender.</hi></stage>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>FALSTAFF and BARDOLPH.</stage>
 <sp>
@@ -2801,12 +2800,12 @@ a'squire. Now, as I take it, this quarrel is properly thine: thou must meet just
 <p>Bardolph, thou art a coward; but no matter. I have a thought: I will meet him myself. Go, fetch the buckler I fought with at Shrcwsbury.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="60" facs="65"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>Tower-hill.</head>
 <stage>Enter PISTOL and justice SHALLOW, stript for the combat.</stage>
@@ -2830,8 +2829,8 @@ a'squire. Now, as I take it, this quarrel is properly thine: thou must meet just
 <p>I will essay; but some one comes this way; let us retire, and try that pass again.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter Dr. CAIUS and his MAN.</stage>
 <sp>
@@ -2855,16 +2854,16 @@ a'squire. Now, as I take it, this quarrel is properly thine: thou must meet just
 <p>By gar let him run: he be no patient for me.—Come dis way.</p>
 <stage>[Exeunt</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="61" facs="66"/>
 <head>SCENE III.</head>
 <stage>Enter FALSTAFF.</stage>
 <sp>
 <p>Aha—aha—What a vile mist there is abroad to day! I cannot see a sword's length before me. This must be the spot. But where is the adversary? I would not have him, methinks, lost in the fog. Master Shallow! master Shallow!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Re-enter SHALLOW.</stage>
 <sp>
@@ -2978,8 +2977,8 @@ a'squire. Now, as I take it, this quarrel is properly thine: thou must meet just
 <p>Go to, I mean thy widow—Give me thy hand; I will tell thee more as we pass along.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="64" facs="69"/>
 <head>SCENE V.</head>
 <stage>Enter Dr. CAIUS and his MAN.</stage>
@@ -2988,8 +2987,8 @@ a'squire. Now, as I take it, this quarrel is properly thine: thou must meet just
 <p>Dey shake hands!—Eh, morbleu; dey be one brace of cowards. Dat fat knight never once draw his rapier. By gar did we not get more by de malade de France, dan by de English courage, we should not get salt to our pottage, pardie. But, by gar, I will charge them both for my attendance; and if they no pay me, I will expose their no courage.—Come along, Jack Rugby.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Enter PISTOL.</stage>
 <sp>
@@ -3023,8 +3022,8 @@ a'squire. Now, as I take it, this quarrel is properly thine: thou must meet just
 <l>Let us about our own disguises strait.</l>
 <l>Money buys lands, but weddings go by fate.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <head>A Ball-Room.</head>
 <stage>Enter FALSTAFF, with SHALLOW and SLENDER, in domino's. Their masks in their hands.</stage>
@@ -3243,13 +3242,12 @@ husbands before, that one more or less breaks no squares with Dol. Come, Mrs. Qu
 <l>Youth's wild oats sown, 'tis ne'er too late to mend;</l>
 <l>The worst once past, the better is the end.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>The END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="74"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. PRITCHARD.</byline>
@@ -3334,7 +3332,7 @@ husbands before, that one more or less breaks no squares with Dol. Come, Mrs. Qu
 <l>"Or glows with zeal to vindicate his same."</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

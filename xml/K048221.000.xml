@@ -7,20 +7,20 @@
 <extent>vi,[2],37,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1780.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final leaf of advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53655.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>Tony Lumpkin in Town: A FARCE.</p>
 <p>[PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb n="2" facs="2"/>
 <p>Tony Lumpkin in Town: A FARCE.</p>
 <p>AS PERFORMED AT THE THEATRE-ROYAL IN THE <hi>HAY-MARKET.</hi></p>
 <p>BY J. KEEFFE, Author of the Musical Farce, call'd THE SON-IN-LAW.</p>
 <p>LONDON: Printed for T. CADELL, in the Strand.</p>
 <p>MDCCLXXX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="3" facs="3"/>
 <head>DEDICATION TO <hi>GEORGE COLMAN,</hi> ESQ.</head>
 <opener><salute>SIR,</salute></opener>
@@ -30,8 +30,8 @@ may hold in the public favour. The town, possessed of judgment to perceive merit
 <closer><salute>SIR,</salute>
 <signed>Your most obedient, Much obliged, and truly devoted humble servant, JOHN KEEFFE.</signed>
 <dateline>Corke, <date>July, 1780.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Written by GEORGE COLMAN. Spoken by Mr. PALMER.</byline>
@@ -59,8 +59,8 @@ may hold in the public favour. The town, possessed of judgment to perceive merit
 <l>If she yields laugh, a laugh let none despise;</l>
 <l>Be merry, if you can, and not <hi>too wise.</hi></l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>PERSONS.</head>
 <list>
@@ -80,16 +80,15 @@ may hold in the public favour. The town, possessed of judgment to perceive merit
 <item><label>Mrs. Jonquil,</label> Mrs. HITCHCOCK.</item>
 <item><label>Lavender,</label> Miss HALE.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>Mr.</hi> Jonquil's <hi>house in</hi> London.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>TONY LUMPKIN IN TOWN.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A Hall.—Horn sounds.</stage></head>
 <stage><hi>Enter</hi> Diggory, <hi>meeting</hi> Frank. Diggory <hi>carrying a dish of cold beef, and a tankard. A Footman following</hi> Frank <hi>with a tea-board.</hi></stage>
 <sp>
@@ -251,8 +250,8 @@ may hold in the public favour. The town, possessed of judgment to perceive merit
 <p>They can do nothing without me. Tony Lumpkin's nobody without Tim Tickle. I'll go—no—I think I'll step first and give my bear his breakfast; poor soul! many a good one he has got me; aye, and may again for aught I know. The 'Squire's good at a promise, that's certain; but what's a promise? Pye-crust. I'd no more depend upon a gemman's promise, than I would upon a broken staff, or a candidate for the county after he had gained his election.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="5" facs="11"/>
 <head>SCENE, <stage><hi>A Chamber.</hi></stage></head>
 <stage><hi>Mr.</hi> Jonquil <hi>discovered in a morning undress,</hi> Frank <hi>attending with chocolate.</hi></stage>
@@ -603,9 +602,9 @@ money; and we had our own gig here at home; I never saw the bear so airy.</p>
 <p>Such a fellow!—makes more noise than a kennel of hounds.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
+</div>
 <pb n="13" facs="19"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An Antichamber.</hi></stage></head>
 <stage><hi>Several tradespeople,</hi> and Tim. Tickle.</stage>
 <sp>
@@ -898,12 +897,12 @@ fiddler, because one may make him play till he's tir'd, and then kick him down s
 <stage>Exeunt.</stage>
 </sp>
 <trailer>End of the FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="19" facs="25"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A Dressing-Room.</hi></stage></head>
 <stage>Mrs. Jonquil <hi>at her Toilet, and</hi> Lavender.</stage>
 <sp>
@@ -1514,8 +1513,8 @@ but let me see the brownest face against this wall, wigg'd like an alderman.</p>
 <stage>Exeunt Tony and Diggory.</stage>
 <stage>[The painter, whistling, takes one of the pictures down, and as he sits to it, the scene closes.]</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>the antichamber.</stage></head>
 <stage><hi>Enter</hi> Pulville, <hi>meeting</hi> Tony, Tim, <hi>and</hi> Diggory.</stage>
 <sp>
@@ -1681,8 +1680,8 @@ some busy fellow put it into the news-paper, that they were as good as a partrid
 <p>Come, I'm as glad as a guinea; how my cousin Jonquil will be delighted!</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="33" facs="39"/>Scene <hi>opens; discovers the picture gallery, most of the portraits with large white wigs; the Painter sits daubing a wig upon a picture, which he has on a chair.</hi> Diggory <hi>officiously attending.</hi></stage></head>
 <sp>
 <speaker>Dig.</speaker>
@@ -1983,13 +1982,12 @@ I believe they are the thing.</p>
 <l>I would not offend you for more than I'll mention;</l>
 <l>To please all my friends, was my only intention.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb n="38" facs="44"/>
 <head>Of T. CADELL, Bookseller, opposite Catherine-street, Strand, may be had the following pieces:</head>
 <list>
@@ -1999,7 +1997,7 @@ I believe they are the thing.</p>
 <item>BUXOM JOAN, a Burletta in one Act, and the Airs, Duets, Trios, and Finale introduced in the Comedy of the SPANISH BARBER; Likewise SUMMER AMUSEMENT; or, An ADVENTURE AT MARGATE, a Comic Opera, and the Airs, Duets, and Trios in the Musical Farce called The SON-IN-LAW, as they are all performed at the Theatre-Royal in the Hay-Market.</item>
 <item>The MANAGER IN DISTRESS, a Prelude, on opening the Hay-Market Theatre, May 30, 1780. Written by GEORGE COLMAN.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

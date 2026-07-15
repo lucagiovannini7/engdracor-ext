@@ -8,15 +8,15 @@
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader>
 <text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="62"/>
 <p>HENRY AND ROSAMOND.</p>
 <p>A TRAGEDY.</p>
 <l>Omne animi vitium tanto conspectius in se</l>
 <l>Crimen habet, quanto major qui peccat habetur.</l> <bibl>JUVEN.</bibl>
 <p>The SECOND EDITION, CORRECTED.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="63"/>
 <head>TO Sir JOHN PHILIPPS, Bar<span rend="sup">t</span>.</head>
 <opener><salute>SIR,</salute></opener>
@@ -30,13 +30,13 @@ have, in this Respect, a considerable Advantage over me, as it is much more easy
 <closer><salute>SIR,</salute> <signed>Your much obliged, And most humble Servant,
 WILLIAM HAWKINS.</signed>
 <dateline>PEMBROKE-COLLEGE, OXON, <date><hi>March</hi> 13, 1749.</date></dateline></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="65"/>
 <head>ADVERTISEMENT.</head>
 <p>THE most <hi>material</hi> Objection to this Tragedy, made by Mr. <hi>Garrick,</hi> was, that it is rather a <hi>Poem,</hi> than a <hi>Play.</hi>—A <hi>consolatory</hi> Octjection at least! as it is founded only in the Author's acknowleged Transgression of the <hi>mechanical</hi> Laws of the <hi>Drama.</hi> But however reasonable the Objection might be to the <hi>Representation</hi> of this Tragedy upon the <hi>Stage,</hi> it was by no Means thought a sufficient one to its <hi>original</hi> Publication; nor consequently, 'tis presumed, will be esteemed such against its having a Place in the <hi>present</hi> Collection.—Those who are offended at the Liberties taken in it, may, if they please, call it an <hi>Historical Play,</hi> and then all Exceptions of this Nature vanish of Course.—After all, the Objection will perhaps have <hi>less</hi> Weight with the candid and judicious Reader, when he has favoured with his Perusal the <hi>Essay</hi> on the <hi>Antient and Modern Drama;</hi> though he is not to look upon that <hi>Essay</hi> as written with a View to the Defence of <hi>this particular</hi> Play, or to consider <hi>this Advertisement</hi> as any Thing like a Declaration of the <hi>Author's Right</hi> of Exemption from the <hi>common Rules of the Drama,</hi> by Virtue of any superiour <hi>Qualifications</hi> in <hi>Himself.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="66"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -57,15 +57,14 @@ WILLIAM HAWKINS.</signed>
 <item>HARRIANA.</item>
 </list>
 <p>Guards and Attendants.</p>
-</div1>
+</div>
 <set><p><hi>SCENE</hi> in and near <hi>CANTERBURY.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="67"/>
 <head>HENRY AND ROSAMOND.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>Enter the Earl of <hi>LEICESTER.</hi></stage>
 <sp>
@@ -409,8 +408,8 @@ That creeps while it destroys: Without this Caution,</l>
 <l>We will pursue this Business, come what may.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="73" facs="75"/>
 <head>SCENE II.</head>
 <stage>Enter the Earl of <hi>Salisbury</hi> and Lord <hi>Clifford.</hi></stage>
@@ -519,8 +518,8 @@ Suited for warlike Deeds and brave Atchievements:</l>
 <l>Cousin, this Way; I have yet more to tell you,</l>
 <l>Of what my Soul is purpos'd tow'rd the King. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>Enter</hi> Rosamond <hi>and</hi> Harriana.</stage>
 <sp>
@@ -723,10 +722,10 @@ So, when the Pilgrim views the Storm arise,</l>
 <l>The Heaven's in vain their flaming Terrours spread,</l>
 <l>And Thunders roll unheeded o'er his Head. <stage>[Ex.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>Enter King <hi>Henry,</hi> Duke of <hi>Cornwall,</hi> and Attendants.</stage>
 <sp>
@@ -1274,8 +1273,8 @@ Ay, and the Devil's not black—Away, false Woman</l>
 <l>O'er my cold Grave shall shed a pitying Tear,</l>
 <l>And own I well deserv'd a happier Fate. <stage>[Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter King <hi>Henry</hi> and <hi>Rosamond.</hi></stage>
 <sp>
@@ -1398,10 +1397,10 @@ How many Minutes in each tedious Hour?</l>
 <l>With welcome Notes she chears the vocal Grove,</l>
 <l>And fondly chirps, and bills, with most officious Love. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <stage>Enter Lord <hi>Clifford</hi> in Disguise.</stage>
 <sp>
@@ -1742,8 +1741,8 @@ Pity flows always from the manly Heart.</l>
 <l>I am no more a Beggar in Disguise,</l>
 <l>But here an open, and avenging Foe. <stage>[Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter <hi>Queen,</hi> and Duke of <hi>Cornwall.</hi></stage>
 <sp>
@@ -1814,8 +1813,8 @@ Pity flows always from the manly Heart.</l>
 <l>But let us hence; I must prepare my Heart</l>
 <l>For this Night's Enterprize.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Enter Lord <hi>Leicester</hi> with a Letter.</stage>
 <sp>
@@ -2125,10 +2124,10 @@ But, unforeseen, the threat'ning Tempests rise,</l>
 <l>Winds roar, Seas swell, his shatter'd Bark is tost,</l>
 <l>And, in a sudden Wreck, his Mass of Wealth is lost. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <stage>Enter <hi>Queen,</hi> Duke of <hi>Cornwall,</hi> and Guard.</stage>
 <sp>
@@ -2404,8 +2403,8 @@ This Suff'ring is enough for all her Crimes.</l>
 <l>The next sad Boon my weary'd Soul shall crave,</l>
 <l>Is Rest eternal, and a peaceful Grave. <stage>[Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Enter Prince <hi>Henry,</hi> Earls of <hi>Surry</hi> and <hi>Winchester.</hi></stage>
 <sp>
@@ -2738,10 +2737,10 @@ Slave to no Int'rest, aiming at no End,</l>
 <l>Wise to shun Pleasure, Fortune to defy;</l>
 <l>He only seems to live, that he may die. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <stage><hi>Rosamond</hi> asleep. Enter the Earl of <hi>Salisbury.</hi></stage>
 <sp>
@@ -2928,8 +2927,8 @@ And praise the noble Purpose thou hast made.</l>
 <l>A sad Recluse, I'll waste my Youth away,</l>
 <l>Steal from Mankind, and shun the Face of Day. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="130" facs="132"/>
 <head>SCENE II.</head>
 <stage>Enter King <hi>Henry,</hi> and Attendants.</stage>
@@ -3398,10 +3397,9 @@ O <hi>Sal'sbury,</hi> let me take thee to my Heart,</l>
 <l>And only, to be Good, is to be Great.</l>
 <stage>[Exeunt omnes▪</stage>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>THE END.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

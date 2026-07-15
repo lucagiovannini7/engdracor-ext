@@ -7,30 +7,30 @@
 <extent>47,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for F. Blyth, and S. Bladon,</publisher><date>1782.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT2100.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>RETALIATION, A FARCE.</p>
 <p>[PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>RETALIATION, A FARCE, IN TWO ACTS, As it is performed, with universal Applause, at the THEATRE ROYAL, COVENT GARDEN.</p>
 <p>By LEONARD MAC NALLY, ESQ.</p>
 <p><hi>LONDON:</hi> PRINTED FOR F. BLYTH, AND S. BLADON, PATER-NOSTER-ROW. 1782.</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="3"/>
 <p>To the great exertions of the performers, and the excellence of their theatrical abilities, the author imputes the approbation with which <hi>RETALIATION</hi> has been received by the public, and he thanks them for the generous emulation with which they supported the piece.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>TO THOMAS HARRIS, ESQ.</head>
 <opener><salute>SIR,</salute></opener>
 <p>THE kind attention with which you brought forward the following piece, claims my most warm and grateful thanks. You will excuse me for taking this public manner of assuring you how sensible I am of the obligation; and I hope you will believe me to be,</p>
 <closer><signed>Your sincere humble servant, LEONARD MAC NALLY.</signed>
 <date><hi>May</hi> 10, 1782.</date></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. LEE LEWES.</byline>
@@ -95,8 +95,8 @@
 <l>Then pray <hi>retaliate</hi> with your best <hi>Good-Nature.</hi></l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -111,15 +111,14 @@
 <item><label>AMELIA,</label> <hi>Mrs. Mattocks.</hi></item>
 <item><label>LUCY,</label> <hi>Mrs. Wilson.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>RETALIATION.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE. <stage><hi>A Hall in Mr.</hi> FAIRPORT's <hi>House.</hi></stage></head>
 <stage>FRANK <hi>sitting reading a News-Paper,</hi> LUCY <hi>working—Bottle and Glasses on the Table.</hi></stage>
 <sp>
@@ -536,9 +535,9 @@ and possession, as the saying is, is the eleventh point of the law—The devil a
 He, he, he, egad, there's more argument in the brilliancy of their sparkle, than in the tongues of the whole bar, and they shall be my counsel with Miss Fairport—This letter will keep my father silent—high treason to correspond with the enemy— but this is losing time, and I long to be up to the elbows in the venison-pasty.</p>
 </sp>
 <stage>Exit looking at the diamonds.</stage>
-</div3>
+</div>
 <pb n="21" facs="18"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE. <stage><hi>A Chamber.</hi></stage></head>
 <stage><hi>Enter</hi> REBATE <hi>and</hi> TRUEMAN.</stage>
 <sp>
@@ -857,12 +856,12 @@ like me, sent out commissioners to America, we'd soon settle business with the C
 <p>And never fear, they shall both have a surfeit of amours.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="29" facs="26"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE. <stage><hi>A Dressing-room, a Table, Dressing-Glass, and Chair.</hi></stage></head>
 <stage><hi>Enter</hi> REBATE, <hi>and</hi> LUCY, <hi>carrying an uniform suit.</hi></stage>
 <sp>
@@ -1169,9 +1168,9 @@ and speak so nice, that no one shall understand me.
 <p>A brave girl, faith, come I'll bring you to your lover, and make the best use of your time.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <pb n="36" facs="33"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE. <stage><hi>A Chamber,</hi> AMELIA <hi>and</hi> REBATE <hi>discovered sitting on a sofa.</hi></stage></head>
 <sp>
 <speaker>Reb.</speaker>
@@ -1752,13 +1751,12 @@ be ashamed of nothing, Lucy, but being poor—the rich are above shame.</p>
 <p>What we have experienced will, I hope, teach us this moral—that while virtue guides our passions, happiness is the certain consequence, and that misery is ever the result of submitting to vicious habits. May every Briton bring these precepts into practice—and may every Briton also remember, that as the credit, the wealth, the strength, the dignity of the British empire flow from commerce, to support and extend commerce is the indispensible duty of every British subject.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="bythesameauthor">
+<div type="bythesameauthor">
 <pb facs="45"/>
 <head>Lately published, by the same Author</head>
 <p>Price 2s. 6d. sewed, The SECOND EDITION, of SENTIMENTAL EXCURSIONS TO WINDSOR, and other Places. A SHANDEAN BAGATELLE, under various HEADS and TALES, <hi>viz.</hi></p>
@@ -1770,7 +1768,7 @@ be ashamed of nothing, Lucy, but being poor—the rich are above shame.</p>
 <p>THE CLAIMS OF IRELAND, and the RESOLUTIONS of the VOLUNTEERS vindicated, on the Principles of Selden, Sidney, Locke, Hooke, Sir William Temple, Chatham, Cambden, Rockingham, Essingham, Fox, Burke, Shelburne, &amp;c.</p>
 <quote>And by opposing end them.</quote>
 <bibl>SHAKES.</bibl>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

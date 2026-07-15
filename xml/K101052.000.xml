@@ -7,7 +7,7 @@
 <extent>vi,[2],103,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Bell,</publisher><date>1798.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>In this issue, there is one rule between the author's statement and the quotation; a variant issue has 2 rules dividing the author's statement from the quotation.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT126752.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE CASTLE SPECTRE: A DRAMA. IN FIVE ACTS. FIRST PERFORMED AT THE THEATRE ROYAL, DRURY-LANE, ON THURSDAY, DECEMBER 14, 1797.</p>
 <p><hi>By M. G. LEWIS, Esq. M. P.</hi> AUTHOR OF THE MONK, &amp;c.</p>
@@ -21,8 +21,8 @@
 <l>Materia c' è da camera, e da piazza.</l>
 <bibl>PULCI.</bibl>
 <p>LONDON: PRINTED FOR J. BELL, NO. 148, OXFORD-STREET. M.DCC.XCVIII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>SPOKEN BY MR. WROUGHTON.</byline>
@@ -85,8 +85,8 @@
 <l>Or if <hi>her</hi> fabled sorrows steal one groan,</l>
 <l>Which else her hearers would have given their own.</l>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="4"/>
 <head>EPILOGUE.</head>
 <byline>SPOKEN BY MRS. JORDAN.</byline>
@@ -151,8 +151,8 @@
 <l>Nightly beneath my dagger see him fall,</l>
 <l>Give him a thousand lives!—and let <hi>me</hi> take them all.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -176,15 +176,14 @@
 <item><label>EVELINA,</label> Mrs. POWELL.</item>
 </list>
 <p>The <hi>MUSIC</hi> Composed by Mr. KELLY.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE CASTLE SPECTRE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—<stage>A Grove.</stage></head>
 <stage><hi>Enter</hi> Father PHILIP <hi>and</hi> MOTLEY.</stage>
 <sp>
@@ -560,8 +559,8 @@ when 'tis in my power to be of use to you, to need the inducement of a second fa
 <speaker>PERCY.</speaker>
 <p>How warm is this good fellow's attachment! Yet our Barons complain that the great can have no friends! If they have none, let their own pride bear the blame. Instead of looking with scorn on those whom a smile would attract, and a favour bind for ever, how many firm friends might our nobles gain, if they would but reflect that their vassals are men as they are, and have hearts whose feelings can be grateful as their own. <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>The Castle-Hall.</stage></head>
 <stage>SAIB <hi>and</hi> HASSAN <hi>meeting.</hi></stage>
 <sp>
@@ -967,12 +966,12 @@ shall remind her of Edwy?—Oh! that will my heart, Edwy; I need no other rememb
 <l>—"Peace still must fly that heart where <hi>I</hi> still reign."</l></p>
 </sp>
 <stage>Exit.</stage>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—<stage>The Armoury.—Suits of Armour are arranged on both Sides upon Pedestals, with the Names of their Possessors written under each.</stage></head>
 <stage><hi>Enter</hi> MOTLEY, <hi>peeping in.</hi></stage>
 <sp>
@@ -1172,8 +1171,8 @@ our island boasts few more potent. 'Tis to him that your hand is destined, 'tis 
 <speaker>OSM.</speaker>
 <p><stage>gazing upon Percy</stage>—It came from hence! —From Reginald!—Was it not a delusion?—Did indeed his spirit— <stage>relapsing into his former passion.</stage> Well, be it so! Though his ghost should rush between us, thus would I clasp her—Horror! What sight is this?— <stage><hi>At the moment that he again seizes</hi> Angela, Percy <hi>extends his truncheon with a menacing gesture, and descends from the pedestal.</hi> Osmond <hi>releases</hi> Angela, <hi>who immediately rushes from the chamber, while</hi> Percy <hi>advances a few steps, and remains gazing on the</hi> Earl <hi>stedfastly</hi></stage>—I know that shield!—that helmet!—Speak to me, dreadful vision!—Tax me with my crimes!—Tell me, that you come—Stay! Speak!— <stage><hi>Following</hi> Percy, <hi>who, when he reaches the door, through which</hi> Angela <hi>escaped, turns, and signs to him with his hand.</hi> Osmond <hi>starts back in terror.</hi></stage>—He forbids my following! — He leaves me!—The door closes— <stage>in a sudden burst of passion, and drawing his sword</stage>— Hell, and fiends! I'll follow him, though lightnings blast me!— <stage><hi>He rushes distractedly from the chamber</hi><note n="*" place="foot">When I wrote the foregoing scene, I really believed the invention to be entirely my own: But the situations of Angela, Osmond and Percy, so closely resemble those of Isabella, Manfred, and the animated portrait in The Castle of Otranto, that I am convinced the idea must have been suggested to me by that beautiful Romance.—Wherever I can trace any plagiarisms, whether wilful or involuntary, I shall continue to point them out to the reader without reserve.</note>.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="29" facs="35"/>
 <head><hi>SCENE II.</hi>—<stage>The Castle-Hall.</stage></head>
 <stage><hi>Enter</hi> ALICE.</stage>
@@ -1261,8 +1260,8 @@ our island boasts few more potent. 'Tis to him that your hand is destined, 'tis 
 <speaker>F. PHIL.</speaker>
 <p><stage>alone.</stage> So, so, he's off, and now I've time to take breath. I've not moved so nimbly for the last twenty years; and, in truth, I'm at present but ill calculated for velocity of motion. However, my exertions have not been thrown away: I've saved this poor knave from Osmond's vengeance—and should my plan for the Lady's release succeed—Poor little soul!—To see how she took on, when Percy was torn from her! Well, well, she shall be rescued from her tyrant. The moveable pannels—the subterraneous passages—the secret springs well-known to me—Oh! I cannot fail of success: But in order to secure it, I'll finally arrange my ideas in the Buttery. Whenever I've any great design in hand, I always ask advice of a flaggon of ale, and mature my plan over a cold venison-pasty. Oh! what an excellent genius must that man have had, who first invented eating and drinking!<stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="32" facs="38"/>
 <head><hi>SCENE III.</hi>—<stage>A spacious Chamber: On one Side is a Couch: on the other a Table, which is placed under an arched and lofty Window.</stage></head>
 <stage><hi>Enter</hi> OSMOND, <hi>followed by</hi> SAIB, HASSAN, MULEY <hi>and</hi> ALARIC, <hi>who conduct</hi> PERCY <hi>disarmed.</hi></stage>
@@ -1814,13 +1813,13 @@ protect me!— <stage><hi>He throws himself from the window</hi><note n="*" plac
 <speaker>PERCY, MOTLEY, &amp;c.</speaker>
 <p><stage>without</stage>— Huzza! huzza! huzza!</p>
 </sp>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="42" facs="48"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—<stage>A View of the River <hi>Conway,</hi> with a Fisherman's Hut.—Sun-set.</stage></head>
 <stage><hi>Enter</hi> ALLAN <hi>and</hi> EDRIC.</stage>
 <sp>
@@ -1971,8 +1970,8 @@ to spell, your schooling had cost my father a forest.</p>
 <pb n="47" facs="53"/>
 to catch something or other—and alas! when obtained, it seldom proves worth the trouble of taking. The Coquette fishes for hearts which are worthless; the Courtier, for titles which are absurd<note n="*" place="foot">On the strength of this single sentence, it was boldly asserted on the morning after the first performance, that the whole Play was written to support the Cause of Equality; and that I said in it, all distinctions of rank ought to be abolished, and thought it extremely wrong for any persons to accept titles! To make the thing complete, the assertors should have added, that I thought it extremely wrong for any persons to pay compliments, or possess hearts!</note>; and the Poet, for compliments which are empty.—Oh! happy are they in this world of disappointments, who throw out no nets save fishing ones. <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi>—<stage>The Castle-Hall.</stage></head>
 <stage><hi>Enter</hi> KENRIC.</stage>
 <sp>
@@ -2131,8 +2130,8 @@ disobey our Lord's commands. Farewell, and fly from Conway—You bear with you m
 <speaker>KENR.</speaker>
 <p>Can it be possible? Is not all this a dream?—Villain! villain!—Yes, yes, I must away!—But tremble, traitor!—A bolt, of which you little thinks, hangs over, and shall crush you! —The keys are still in my possession—Angela shall be the partner of my flight.—My prisoner too— Yet hold! May not resentment—may not Reginald's sixteen years captivity—Oh! no! Angela shall be my advocate; and, grateful for her own, for her parent's life preserved, she can, she will obtain my pardon—Yet, should she fail, at least I shall drag down Osmond in my fall, and sweeten death's bitter cup with vengeance!<stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi>—<stage>The Cedar-room, with folding Doors in the middle, and a large antique Bed; on one Side is the Portrait of a Lady, on the other that of a Warrior armed. Both are at full length.—After a pause the female Portrait slides back, and <hi>Father Philip,</hi> after looking in, advances cautiously.</stage></head>
 <sp>
 <speaker>F PHIL.</speaker>
@@ -2363,12 +2362,12 @@ best friend that you have in the world. Daughter, I came to save you.</p>
 <pb n="60" facs="66"/>
 cottage. Hand in hand shall we wander together through life—partners in pleasure—partners in woe—and when the night of our existence arrives, one spot shall receive our bodies—one stone shall cover our grave.—Allan too, and the worthy Maud!—my parents—my more than parents!—to smooth the pillow of their age—to gild their last hours with sun-shine! That thought is heaven. So glorious are my prospects, that they dazzle me to look on, and scarce can I believe them really to exist.—Oh! gracious God! should my brain be bewildered by fancy—should I be now the sport of some deceitful dream, seal up my eyes for ever, never let me wake again!—I must not expect the Friar before one.—Till that hour arrives, will I kneel at the feet of yonder Saint, there tell my beads, and pray for morning!</p>
 </sp>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> — <stage>The Castle-Hall: The Lamps are lighted.</stage></head>
 <stage><hi>Enter</hi> Father PHILIP.</stage>
 <sp>
@@ -2612,8 +2611,8 @@ when the man-hunters seized me, I left sleeping on thy bosom, say, Lives he yet?
 <speaker>HASSAN</speaker>
 <p><stage>advancing.</stage>—It was Kenric!—Still he moves onwards—Now he stops—'Tis at the door of Angela's chamber!—He unlocks it!—He enters! —Away then to the Earl: Christian, soon shall we meet again!<stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.—</hi><stage><hi>ANGELA</hi>'s Apartment.</stage></head>
 <stage>ANGELA <hi>stands by the Window, which is open, and through which the Moon is seen.</hi></stage>
 <sp>
@@ -2853,17 +2852,17 @@ will not fly and abandon my father!—Yet may not my flight preserve him? Yes, y
 <speaker>ANG.</speaker>
 <p>Stay, lovely spirit!—Oh! stay yet one moment!</p>
 </sp>
-<stage>The Spectre waves her hand, as bidding her farewel. Instantly the organ's swell is heard; a full chorus of female voices chaunt "Jubilate!" a blaze of light flashes through the Oratory, and the folding doors close with a loud noise.</stage>
+<stage>The Spectre waves her hand, as bidding her farewel. Instantly the organ's swell is heard; a full chorus of female voices chaunt <said direct="true">"Jubilate!"</said> a blaze of light flashes through the Oratory, and the folding doors close with a loud noise.</stage>
 <sp>
 <speaker>ANG.</speaker>
 <p>Oh! Heaven protect me!— <stage>She falls motionless on the floor.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>END <hi>of the</hi> FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—<stage>A View of Conway Castle by Moon-Light.</stage></head>
 <stage><hi>Enter</hi> PERCY <hi>and</hi> MOTLEY.</stage>
 <sp>
@@ -3028,8 +3027,8 @@ Would I were again seated by the Fisher's hearth! —The wind blows cruel sharp 
 <p>Look to him!—He sinks!—Bear him to your hut, Edric, and there tend his hurts— <stage><hi>To</hi> Saib.</stage> Now on, good fellow, and swiftly!— Osmond, despair!—I come!</p>
 </sp>
 <stage><hi>Exit, with</hi> Saib, Motley, Harold, <hi>and Soldiers on one side, while</hi> Allan <hi>and</hi> Edric <hi>convey away</hi> Kenric <hi>still fainting on the other.</hi></stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi>— <stage>A Vaulted Chamber.</stage></head>
 <stage><hi>Enter</hi> Father PHILIP, <hi>with a Basket on his Arm and a Torch, conducting</hi> ANGELA.</stage>
 <sp>
@@ -3128,8 +3127,8 @@ my hatred bends before them.—Yet for that hatred had I not cause?—At Tournam
 <pb n="88" facs="94"/>
 be suddenly starts back.</hi></stage>—Ha! Why roll these seas of blood before me? Whose mangled corse do they bear to my feet?—Fratricide?—Oh! 'tis a dreadful name!—Yet how preserve myself and Reginald?—It cannot be! We must not breathe the same atmosphere.—Fate, thy hand urges me!—Fate, thy voice prompts me!— Thou hast spoken—I obey.— <stage><hi>He follows the</hi> Africans; <hi>the door is closed after him.</hi></stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi>—<stage>A gloomy subterraneous Dungeon, wide and lofty: The upper part of it has in several places fallen in, end left large chasms. On one side are various passages leading to other Caverns: On the other is an Iron Door with steps leading to it, and a Wicket in the middle. <hi>Reginald,</hi> pale and emaciated, in coarse garments, his hair hanging wildly about his face, and a chain bound round his body, lies sleeping upon a bed of straw. A lamp, a small basket, and a pitcher, are placed near him. After a few moments he awakes, and extends his arms.</stage></head>
 <sp>
 <speaker>REG.</speaker>
@@ -3595,13 +3594,12 @@ you shall buy my life dearly!— <stage><hi>suddenly seizing</hi> Hassan<hi>'s s
 <l>Hush guilty murmurs! Banish dark mistrust!</l>
 <l>Think there's a Power above! nor doubt that Power is just!</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="tothereader">
+<div type="tothereader">
 <pb facs="106"/>
 <head>TO THE READER.</head>
 <p>MANY erroneous assertions have been made respecting this Drama; some, that the language was originally extremely licentious; others, that the sentiments were violently democratic; and others again, that if Mr. Sheridan had not advised me to content myself with a single Spectre, I meant to have exhibited a whole regiment of Ghosts. To disprove these reports I have deviated from the usual mode of publishing Plays, as performed, and have printed mine almost verbatim, as originally written. Whether it merited the above accusations, the reader has now had an opportunity of judging for himself. I must just mention that the last line of the Piece is altered, and that in the Second Scene of the Fifth Act, <hi>The Friar</hi> was made to stick in the door-way, whereas he now makes his exit without difficulty.</p>
@@ -3623,14 +3621,14 @@ thought it would give a pleasing variety to the characters and dresses, if I mad
 the Green-Room. Aware that without her my catastrophe would closely resemble that of the <hi>Grecian Daughter,</hi> I persisted in retaining her. The event justified my obstinacy: <hi>The Spectre</hi> was as well treated before the curtain as she had been ill-used behind it; and as she continues to make her appearance nightly with increased applause, I think myself under great obligations both to her and her representative.</p>
 <p>But though I am conscious that it is very imperfect, I shall not so far offend my own feelings, or insult the judgment of the public, which has given it a very favourable reception, as to say that I think my Play very bad. Had such been my opinion, instead of producing it on the stage, or committing it to the press, I should have put it behind the fire, or, throwing it into the <hi>Thames,</hi> made a present of it to the British <hi>Scombri.</hi> Still its success on the stage (great enough to content even an author) does not prevent my being very doubtful as to its reception in the closet, when divested of its beautiful music, splendid scenery, and, above all, of the acting, excellent throughout. Without detracting from the merits of the other performers (to all of whom I think myself much indebted for their respective exertions), I must here be permitted to return particular thanks to Mrs. Jordan, whose manner of sustaining her character exceeded my most sanguine hopes, and in whose hands my heroine acquired an importance for which she was entirely indebted to the talents of the actress.</p>
 <closer><signed>M. G. LEWIS.</signed></closer>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="110"/>
 <p><hi>In a few Days will be published,</hi> By JOSEPH BELL, No. 148, Oxford Street, THE FOURTH EDITION, <hi>With considerable Additions and Alterations,</hi> OF THE MONK, <hi>A Romance,</hi> IN THREE VOLUMES. By M. G. LEWIS, Esq. M. P. AUTHOR OF THE CASTLE SPECTRE, ETC. <hi>Price</hi> 10s. 6d.</p>
 <p>Lately published by J. BELL, No. 148, Oxford Street, I. A NEW EDITION OF THE MINISTER, <hi>A Tragedy,</hi> TRANSLATED FROM THE GERMAN OF SCHILLER By M. G. LEWIS, Esq. M. P.</p>
 <p>II. <hi>A History of</hi> INVENTIONS AND DISCOVERIES, <hi>In Three Large Octavo Volumes,</hi> By JOHN BECKMAN, <hi>Public Professor of Economy in the University of Gottingen.</hi> TRANSLATED FROM THE GERMAN By WILLIAM JOHNSTON. <hi>Price</hi> 1l. 1s. <hi>in boards.</hi></p>
 <p>III. THE ART OF PROLONGING LIFE, By CHRISTOPHER HUFELAND, M. D. <hi>Public Lecturer of Medicine at Jena.</hi> TRANSLATED FROM THE GERMAN. <hi>In Two Volumes.</hi> Price 10s. in boards.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

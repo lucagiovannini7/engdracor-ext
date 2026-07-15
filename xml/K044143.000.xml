@@ -7,7 +7,7 @@
 <extent>[8],72p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author; and sold by Mr. Dodsley; Mr. Becket, and Mr. Cadell; Mr. Langman; and Carnan and Newbery,</publisher><date>1776.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Hannah Cowley.</note><note>Epilogue written by D. Garrick.</note><note>The statement 'The dotted lines in the play are omitted at the Theatre.' is placed after the prologue.</note><note>Reproduction of original from the British Library.</note><note>Roscoe, A100 (1)</note><note>English Short Title Catalog, ESTCT46976.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="authortoGarrick">
+<div type="authortoGarrick">
 <pb facs="1" ana="y"/>
 <head>TO <hi>DAVID GARRICK,</hi> <abbr>Esq</abbr></head>
 <opener><salute>SIR,</salute></opener>
@@ -19,8 +19,8 @@ a <hi>Woman</hi> tracing with feeble steps the borders of the Parnaffian Mount�
 <p>All this, Sir, and whatever may be its consequences, I owe to you. Had you rejected me, when I presented my little RUNAWAY, depressed by the refusal, and all confidence in <hi>myself</hi> destroyed, I should never have presumed to dip my pen again. It is now my task to convince You and the World, that a generous allowance for a young Writer's faults, is the best encouragement to Genius—'tis a kindly Soil, in which weak Groundlings are nourish'd, and from which the loftiest Trees draw their strength, and their beauty.</p>
 <p>I take my leave of you, Sir, with the warmest wishes for your felicity, and Mrs. GARRICK's—to whose <hi>taste,</hi> and sollicitede for me, I am highly indebted. May your recess from the Stage be attended with all the blessings of retirement and ease—and may the world remember, in its most distant periods, that 'tis to Mr. GARRICK the English Theatre owes its emancipation from grossness, and buffoonery—that to Mr. GARRICK's <hi>Judgement</hi> it is indebted for being the first Stage in Europe, and to his <hi>Talents</hi> for being the delight of the most enlightened and polish'd age.</p>
 <closer><signed>I am, Sir, your most devoted, and obedient humble Servant, THE AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <byline><hi>Written by the</hi> AUTHOR.</byline>
@@ -89,8 +89,8 @@ For she ne'er play'd with bright Apollo's fire,</l>
 <l>Till time matures them for <hi>important</hi> follies."</l>
 </lg>
 <p>The dotted lines in the Play are omitted at the Theatre.</p>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="5"/>
 <head>EPILOGUE.</head>
 <byline><hi>Written by</hi> D. GARRICK, ESQ.</byline>
@@ -148,8 +148,8 @@ I will of Op'ra extasies partake,</l>
 <l>Her skill alone a lasting pow'r insures,</l>
 <l>And best can ornament such charms as <hi>yours.</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>PERSONS OF THE DRAMA.</head>
 <p><list>
 <head>MEN.</head>
@@ -183,14 +183,14 @@ I will of Op'ra extasies partake,</l>
 <item>Mrs. <hi>Wrighten.</hi></item>
 </list></p>
 <p>Gentlemen, Hunters, Servants, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 <set><p>SCENE, Mr. <hi>Hargrave</hi>'s House in the Country.</p></set>
 </front>
 <body>
 <head><pb facs="7"/>THE RUNAWAY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a Garden.</stage></head>
 <stage>BELLA <hi>and</hi> HARRIET. <hi>Enter</hi> GEORGE.</stage>
 <sp>
@@ -301,8 +301,8 @@ closeted together—She has <hi>forty thousand pounds,</hi> and is Sister to an 
 <speaker>Har.</speaker>
 <p>Excuse me—I'll only step and look at my birds, and follow you instantly— <stage><hi>[Exeunt</hi> George <hi>and</hi> Bella <hi>playfully.]</hi></stage>—"Set your heart at rest, my Sister."—Oh, Brother!—you have robb'd that heart of rest for ever.—Cruel intelligence!—Something has long sat heavy in my bosom—and now the weight is irremoveable—Perfidious Seymour!—yet, of what can I accuse him? He never profess'd to love me—Oh yes, his ardent looks—his sighs—his consusion—his respectful attentions, have a thousand times profess'd the strongest passion—Surely, a man cannot in honour, be exculpated, who by such methods defrauds a Woman of her heart; even tho' the <hi>word</hi> Love should never pass his lips. Yet I ought not to have trusted these seeming proofs—no; I must only blame my own credulity—O partial Nature!—why have you given us hearts so replete with tenderness, and minds so weak, so yielding?</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="4" facs="10"/>
 <head>SCENE, <stage>a Garden Parlour.</stage></head>
 <stage><hi>Enter</hi> GEORGE <hi>and</hi> BELLA <hi>at the Garden Door.</hi></stage>
@@ -664,8 +664,8 @@ closeted together—She has <hi>forty thousand pounds,</hi> and is Sister to an 
 </sp>
 <stage>[Exit another way.</stage>
 <stage><hi>A burst of laughter from the smoaking room.—the Justice looks wistfully back, and then follows Mr.</hi> Hargrave.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Garden.</stage></head>
 <stage><hi>Enter</hi> GEORGE <hi>reading.</hi></stage>
 <sp>
@@ -819,12 +819,12 @@ go, and prepare her for the reception of a strange creature, that you may appear
 <p>May it! Oh Love, sweet Tyrant! I yield my heart to thee a willing slave—to Love I devote my future life—never more shall I experience the aching void of indifference, or know one moment unoccupied by thee.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a Court before the House.</stage></head>
 <stage><hi>Enter a</hi> HUNT. <hi>A Flourish of Horns.</hi></stage>
 <stage>Hollo! hollo! ye hoicks, Hargrave, ille, ille, hoa.</stage>
@@ -941,8 +941,8 @@ go, and prepare her for the reception of a strange creature, that you may appear
 <p>Barbarian! How critically did Mr. Drummond relieve the lovely Girl—This brute had discovered her, and she would have suffered every indignity that Ignorance, supported by the pride of Fortune, could have inflicted. In the garden—that's fortunate beyond my expectations—'midst groves and fountains—the very scene where a lover should tell his tale—and the sweet consciousness which beamed in her eyes last night, flatters me that she will not <hi>hate</hi> me for my tale—I'll go in all the confidence of hope.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Garden.</stage></head>
 <stage><hi>Enter</hi> EMILY.</stage>
 <sp>
@@ -1061,8 +1061,8 @@ go, and prepare her for the reception of a strange creature, that you may appear
 —With what sweet confidence she gives her hand to Mr Drummond!—if these are the privileges of Age, I'll be young no longer.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Lady</hi> DINAH's <hi>Dressing-Room.</hi></stage></head>
 <stage><hi>Lady</hi> Dinah <hi>dressing,</hi> Susan <hi>attending.</hi></stage>
 <sp>
@@ -1182,8 +1182,8 @@ go, and prepare her for the reception of a strange creature, that you may appear
 <p>To prepare matters for the writings! a very fine business indeed; and what you'll sorely repent of, my good Lady, take my word for it—All those scented waters, nor any other waters, will be able to keep up your spirits this time twelvemonth—A <hi>"never to be dissolved connexion,"</hi> between fifty and twenty-one, ha! ha! ha!—I shall burst with the ridiculous secret—I must find Jarvis, and give it vent—"never to be dissolved connexion!"—ha, ha, ha!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>an Apartment.</stage></head>
 <stage><hi>Enter</hi> GEORGE, HARRIET, <hi>and</hi> BELLA.</stage>
 <sp>
@@ -1697,12 +1697,12 @@ and then said<hi>—he meant nothing—</hi>my sword should have faught him, tha
 <p>Astonishing! What is become of that sweetness—that dove-like softness, which stole into my heart, and deceived me into dreams of bliss? She flies from me, and talks of her company, and returning to her society—Oh Harriet! oh my Harriet! thy society is prized by me beyond that of the whole world; and still to possess it, with the hope that once glowed in my bosom, would be a blessing for which I would sacrifice every other, that Nature or Fortune has bestowed.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Lady</hi> DINAH<hi>'s Dressing Room.</hi></stage></head>
 <stage><hi>Lady</hi> DINAH <hi>and Mr.</hi> HARGRAVE <hi>sitting.</hi></stage>
 <sp>
@@ -1871,8 +1871,8 @@ and then said<hi>—he meant nothing—</hi>my sword should have faught him, tha
 <p>Amazement! why, what a visit from a Lover!—Is this the language in which men usually talk to women, with whom they are on the point of marriage?—Respect! Veneration! Obedience to my Father!—And shall I have the honour of conducting your Ladyship to the Company?—A pretty Lover-like request truly!—But this coldness to me proceeds from a cause I now understand—This morning, what fire was there in his eyes! what animation in his countenance! whenever he address'd himself to that creature Mr. Drummond brought here?—Would his request to her have been to conduct her to Company?—No, no;—But I must be cautious—I must be patient now—but you will find, Sir, when I possess the privileges of a Wife, I shall not so easily give them up—your fiery glances, if not directed to me, shall at least, in my presence, be addressed to no other.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to an Apartment.</hi></stage></head>
 <stage>BELLA <hi>at her Harpsichord.</hi></stage>
 <sp>
@@ -2087,8 +2087,8 @@ justly founded—And suppose they should—what then?—Ah! they think I am made
 <p>Nay, if you are determined—</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Garden.</stage></head>
 <stage><hi>Enter</hi> HARRIET.</stage>
 <sp>
@@ -2168,8 +2168,8 @@ justly founded—And suppose they should—what then?—Ah! they think I am made
 <p>Her picture in his bosom, and kiss it with such rapture too! Well—I am glad I am convinced—I am perfectly at ease. He loves them without hope, and George was mistaken in supposing him so near marriage—but he loves notwithstanding—her picture lies all night on his heart, and her idea is never absent from his mind—Well, be it so—I am perfectly at ease, and shall no longer find a difficulty in assuming an indifference that is become real—Oh, Seymour!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Wood.</stage></head>
 <stage><hi>Enter Lady</hi> DINAH.</stage>
 <sp>
@@ -2444,12 +2444,12 @@ echo with the ravings of Orestes, and the stables in which I have sighed forth t
 <p>Well—'tis the fate of great men to be in the hands of Women; and therefore, my sweet Abigail—I am yours.</p>
 <stage>[Leads her off.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>an Apartment.</stage></head>
 <stage><hi>Enter</hi> HARRIET, <hi>followed by</hi> BELLA.</stage>
 <sp>
@@ -2796,8 +2796,8 @@ leave us directly—but I approve your caution, Harriet, you are perfectly right
 <p>Be merciful—Love has forc'd Heroes to forget their valour, and Philosophers their systems—no wonder he shou'd make a Woman forget her wrinkles.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Garden.</stage></head>
 <stage><hi>Enter</hi> JARVIS <hi>and</hi> SUSAN.</stage>
 <sp>
@@ -2854,8 +2854,8 @@ leave us directly—but I approve your caution, Harriet, you are perfectly right
 <p>Jealous! no, no; I have liv'd among the great too long, to be tormented with so vulgar a passion.</p>
 </sp>
 <stage><hi>[Ex.</hi> Jar.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Enter</hi> JUSTICE.</stage>
 <sp>
 <speaker>Jus.</speaker>
@@ -2982,8 +2982,8 @@ Lady speaks very highly of your talents in the law—and she has great interest�
 <stage>[following]</stage>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>an Apartment.</stage></head>
 <stage><hi>Enter Mr.</hi> DRUMMOND <hi>and</hi> GEORGE.</stage>
 <sp>
@@ -3551,10 +3551,10 @@ less strength than my resolution—'Sbud, if I can't have the willing obedience 
 <speaker>Geo.</speaker>
 <p>Surely she must have been privy to this scandalous plot—but 'tis no matter—my fate is at its crisis.—Mr. Morley's arrival fixes it.—At this moment my fortitude forsakes me, and I tremble to meet the Man, on whose caprice depends, the value of my existence.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="60" facs="66"/>
 <head>ACT V.</head>
 <head>SCENE, <stage>an Apartment.</stage></head>
@@ -4302,7 +4302,7 @@ center'd in you—If I have struggled for your happiness—'twas to gratify myse
 <speaker>Mr. <hi>D.</hi></speaker>
 <p>The marriage vow, my dear Bella, was wisely framed for common apprehensions—Love teaches a train of duties that no vow can reach—that refined minds only can perceive—but which they pay with the most delighted attention. You are now entering on this state—may You—and You <stage>[to Bella, significantly]</stage> and You <stage>[to the audience]</stage> possess the blissful envied lot of—Married Lovers!</p>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

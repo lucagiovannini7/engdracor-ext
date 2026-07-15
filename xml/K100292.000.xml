@@ -7,26 +7,26 @@
 <extent>64,[2]p. : ill. ; 12⁰.</extent><publicationStmt><publisher>printed for H. Hubbard,</publisher><date>1741.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Attributed to Henry Giffard; formerly attributed to James Love.</note><note>A dramatisation of Samuel Richardson's work.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT125708.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 <p>page 144</p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>PAMELA. A COMEDY.</p>
 <p>As it is Perform'd <hi>Gratis,</hi> AT THE LATE THEATRE IN Goodman's-Fields.</p>
 <p><hi>LONDON:</hi> Printed for H. HUBBARD, near the <hi>Royal Exchange.</hi> 1741 (Price Six pence)</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>To Her Royal Highness Princess <hi>AMELIA.</hi></head>
 <p>WHEN Addresses of this Sort are made to Persons of your Royal Highness's elevated State, it is, I believe usual, previously to supplicate Leave for their Reception—But here I presume, it would have been as equally needless for the author, to have implored your royal highness's name, for protectress in the Cause of Virtue, as it would be for the Master of the Mint, to petition in Form your royal Father, for Leave to stamp his Name on our coin to give Sanction to its Currency.</p>
 <p>The Inducements, Madam, to throw this Piece, therefore, under your royal highness's protection, were solely from considering it as an act of duty, added to the Pride of having the high honour to subscribe myself,</p>
 <closer><salute>May it please Your Royal Highness,</salute> <signed>Your Highness's most obedient, Most devoted humble Servant, The Author.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4" ana="y"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by a Gentleman.</byline>
@@ -66,8 +66,8 @@
 <l>On Minds like these his Morals may prevail,</l>
 <l>And who escap'd a Sermon, feel this Tale.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5" ana="y"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -118,13 +118,13 @@
 <label>Annice</label>
 <item><hi>Mrs. Bishop.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="7" facs="6"/>
 PAMELA.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>Enter ISAAC, HARRY, BENJAMIN, and ARTHUR.</stage>
 <sp>
@@ -228,8 +228,8 @@ tell Mrs. <hi>Jervis,</hi> the 'Squire was looking out for a Wife, and that will
 <p>Away, away.—</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter Mr. LONGMRN and Mrs. JERVIS.</stage>
 <sp>
@@ -280,15 +280,15 @@ such Prudence and Justice so well acquitted her Trust.</p>
 <p>And to you, worthy Mr. <hi>Longman.</hi></p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>BELVILE alone.</stage>
 <sp>
 <p>How weakly founded is the Opinion that Happiness is seated in large Possessions; tho' till lately I have had but little Reason to dissent from that Opinion, and have ever made my Fortune subservient to my Pleasures—and shall I now suffer a peevish low born Girl to interrupt their Course, and with the musty Principles of Virtue preach me from my Purpose?—No! I am determin'd not to sacrifice my Pursuits of Pleasure and substantial Joy to her wild imaginary Notions of Virtue and Honour.—'Tis certainly the first Time they ever took such deep Root in a Cottage, and I'll yet try if I have not Force enough to destroy these wondrous rural Battlements, and reduce the romantic Governor to capitulate.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>BELVILE and LONGMAN.</stage>
 <sp>
@@ -374,8 +374,8 @@ I presume to say, I fear 'twill be difficult for your Honour to meet with a Serv
 <speaker>Long.</speaker>
 <p>I shall, Sir— <stage>[Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>BELVILE alone.</stage>
 <sp>
@@ -384,16 +384,16 @@ I presume to say, I fear 'twill be difficult for your Honour to meet with a Serv
 <l><hi>The soothing Trap's the surest at her Age,</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="14" facs="13"/>
 <head>SCENE VI.</head>
 <stage>JOHN ARNOLD booted, with a Letter.</stage>
 <sp>
 <p>I'th' Name of ill Luck, how came the 'Squire to pick me out for this untowardly Job—A murrain on't, to be sure he read in my face, I was false-hearted—tho'f I can't call to mind any foul play—save this—I ever did to the poorest mortal breathing—and this,—more out of Fear, than any ill will towards the Parties—for to be sure they ne'er deserv'd it at my Hands—for to say Truth, there is not a better well-natured young Body in this County, or the next, than Mrs. <hi>Pamela</hi>—and 'twou'd melt a Heart of Stone to see the good old Folks her Parents, take on about her—and good notable Folk they are Adod! the old Man wou'd ha' made a special Parson! Well! to be sure if any of 'em should do otherwise than well, for want of these plaguy Letters his Honour has ta'en from me, I shall never be able to sleep in a Room by myself—Hey day! why what a dickens be all the wenches got together for, I trow—I'll step aside, and hearken— <stage>[Retires.</stage></p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>RACHEL, JANE, HANNAH, CICELY, and JOHN ARNOLD.</stage>
 <sp>
@@ -534,11 +534,11 @@ there's no manner of Comparison between a Man, and a Woman.</p>
 <l><hi>Be ask'd i' th' Church, before the Summer pass.</hi></l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>PAMELA discovered at a Table, folding up a Letter.</stage>
 <sp>
@@ -546,8 +546,8 @@ there's no manner of Comparison between a Man, and a Woman.</p>
 <pb n="17" facs="16"/>
 been pleased to put me upon the severest Trials for its preservation—but let me not repine! No, my heart should rather overflow with thankfulness at my happy, blest deliverance, and my Master's Resolution, in permitting me to return to my dear Parents, with that Blessing which will cheer their honest Minds, and make 'em shed Tears of Joy and Gladness over their innocent Child, tho' almost beat down with poverty and old Age. <stage>[Wiping her Eyes.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter Mrs. JERVIS.</stage>
 <sp>
@@ -620,8 +620,8 @@ me with Insolence and Ingratitude, and a Multitude of Crimes my poor Heart's a S
 <l><hi>And doubts his Power, his Virtue to maintain.</hi></l>
 <stage>(Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>BELVILE alone.</stage>
 <sp>
@@ -641,8 +641,8 @@ me with Insolence and Ingratitude, and a Multitude of Crimes my poor Heart's a S
 <speaker>Jerv.</speaker>
 <p>Wou'd to Heav'n the poor Creature were safe at Home. <stage>(Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>BELVILE aad PAMELA.</stage>
 <sp>
@@ -981,11 +981,11 @@ the poor Creature will be shock'd, at finding that Innocence betray'd, she has s
 <l><hi>That thus alternately my Breast alarms,</hi></l>
 <l><hi>Which now so sharply stings, and now so strongly charms?</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <stage>Enter Mrs. JEWKES and ROBIN.</stage>
 <sp>
@@ -1195,8 +1195,8 @@ young Doctor, concern not thyself about the Matter, thou may'st get a new Gown a
 <speaker>Will</speaker>
 <p>This Marriage is the meer Invention of thy fertile Brain, to palliate and blind thy base Designs, to me—for 'tis impossible the young Creature can be possessed with such a Thought—if she were—her Fears and dreadful Apprehensions would be groundless—No, 'tis all an Artifice; which I will use my utmost Power to destroy, nor shall the Fear of incurring Mr. <hi>Belvile</hi>'s Displeasure stop me in so commendable a Pursuit, as the Defence of injured Truth and Innocence. <stage>(Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>A Garden.</stage></head>
 <stage>PAMELA alone.</stage>
 <sp>
@@ -1273,11 +1273,11 @@ and make myself, if you approve it, the Conductor of your Flight.</p>
 <l><hi>Wou'd fright rash Vot'ries from its silken Clue.</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <stage>Enter Mrs. JEWKES and COLEBRAND.</stage>
 <sp>
@@ -1985,11 +1985,11 @@ off, and now you stand confess'd, like Sin abandon'd by Hypocrisy.</p>
 <l><hi>By gentle Gales, my calmer Passions move,</hi></l>
 <l><hi>My Pilot, Thou; my harbour Virtuous Love</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <stage>A <hi>Grove</hi> before BELVILE's House.</stage>
 <stage>Enter old ANDREWS.</stage>
@@ -2359,7 +2359,7 @@ you'll be pale and sickly by-and-by—Qualms, Qualms, my Dear, will soon fetch o
 <p>Raving, by Endymion; and positively may be mischievous, therefore 'tis prudect to withdraw, tii is fit cools, 'egad. <stage>(Aside)</stage></p>
 <stage>[Exit.</stage>
 </sp>
-<stage>"During this Time, Lady <hi>Davers</hi> appears greatly disorder'd, and views <hi>Pamela</hi> with great Anger and Contempt—sits down, takes out a Smelling-bottle, then a Snuff-box."</stage>
+<stage>During this Time, Lady <hi>Davers</hi> appears greatly disorder'd, and views <hi>Pamela</hi> with great Anger and Contempt—sits down, takes out a Smelling-bottle, then a Snuff-box.</stage>
 <sp>
 <speaker>Pam.</speaker>
 <p>My Presence, Sir, I perceive, but more increases the Indignation Lady <hi>Davers</hi> is thus suddenly alarm'd with; therefore beg Leave to withdraw, lest I prevent a Reconciliation I most ardently desire.</p>
@@ -2578,11 +2578,11 @@ JAQUES COLEBRAND.</p>
 <l><hi>Like me, its latent Beauties he explor'd,</hi></l>
 <l><hi>And what before he priz'd, he then ador'd.</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="64"/>
 <head>EPILOGUE.</head>
 <byline>Spoke by Mrs GIFFARD.</byline>
@@ -2626,7 +2626,7 @@ JAQUES COLEBRAND.</p>
 <l>Collect its Fires, and mount into a Blaze.</l>
 </lg>
 <trailer>FINIS</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

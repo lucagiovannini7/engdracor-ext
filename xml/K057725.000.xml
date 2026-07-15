@@ -7,19 +7,19 @@
 <editionStmt><edition>The second edition.</edition></editionStmt><extent>[8],28p. ; 8⁰.</extent><publicationStmt><publisher>printed for S. Bladon,</publisher><date>1783.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Leonard Mac Nally.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT67195.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>TRISTRAM SHANDY, A SENTIMENTAL, SHANDEAN BAGATELLE, IN TWO ACTS.</p>
 <p>By the AUTHOR of RETALIATION.</p>
 <p>THE SECOND EDITION.</p>
 <p>LONDON: Printed for S. BLADON, No. 13. Pater-noster-Row. MDCCLXXXIII.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <p>This Book is Entered at Stationers Hall, according to Act of Parliament.</p>
 <closer><dateline><date>October 21, 1783.</date></dateline></closer>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>DEDICATION. TO THE RIGHT HONORABLE LORD FALCONBRIDGE,</head>
 <opener><salute>MY LORD,</salute></opener>
@@ -27,8 +27,8 @@
 <closer><signed>I have the Honor to be, Your Lordship's most Humble and Obedient Servant, LEONARD MAC NALLY.</signed>
 <dateline><hi>Middle-Temple,</hi>
 <date>18<hi>th October,</hi> 1783.</date></dateline></closer>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="4"/>
 <head>Lately published, by the same Author</head>
 <p>Price 23. 6d. sewed, The SECOND EDITION, of SENTIMENTAL EXCURSIONS TO WINDSOR, and other Places. A SHANDEAN BAGATELLE, under various HEADS and TALES, viz.</p>
@@ -38,8 +38,8 @@
 <bibl>MACKLIN'S MAN OF THE WORLD.</bibl>
 <p><hi>Also, Price</hi> 1s.</p>
 <p>The SECOND EDITION of RETALIATION, a FARCE, in two Acts, as it is performed, with universal Applause, at the Theatre Royal, Covent-Garden.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Written by Mr. CHALMERS.</byline>
@@ -100,8 +100,8 @@
 <l>Spur our ambition then in this night's course</l>
 <l>And Tristram Shandy make your hobby-horse.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -115,16 +115,15 @@
 <item><label>Mrs. WADMAN,</label> Mrs. MORTON</item>
 <item><label>SUSANNAH,</label> Mrs. WILSON</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE. Mr. SHANDY's HOUSE.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>TRISTRAM SHANDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE — <stage>A CHAMBER, <hi>ornamented with Views of Fortifications, Arms hanging up.</hi></stage></head>
 <stage>SHANDY <hi>sitting at a Table, large Folios on it</hi>— TRIM <hi>and</hi> SUSAN <hi>attending.</hi></stage>
 <sp>
@@ -770,12 +769,12 @@ bridge with a piece of cotton, and a bit of whalebone to raise it up.</p>
 <speaker>Shan.</speaker>
 <p>Crush'd his nose! O heaven—O unfortunate mutilated child.</p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="16" facs="23"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>a Room.</hi></stage></head>
 <stage>WIDOW WADMAN <hi>and</hi> SUSAN.</stage>
 <sp>
@@ -1173,8 +1172,8 @@ the book of amylratic evils, which could unmechanize thy frame, which has not fa
 <p>Heaven! how the battle rages! But is not a man's Hobby-horse the tenderest part about him—and why should I hurt a brother's? I'll send the Widow Wadman to him this instant, she must put an end to this brother's military frenzy—O Tristram! Tristram!
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a</hi> HEDGE <hi>across the Stage, with a Gate.—A Centry Box and Garden Chair on one side, on the other the Ruins of a Fortification— a Draw-Bridge, and several Pioneers Instruments on the Stage.</hi></stage></head>
 <stage><hi>Enter</hi> TRIM <hi>with a Spade.</hi></stage>
 <sp>
@@ -1366,10 +1365,9 @@ again!
 <stage>(<hi>joins their hands</hi>)</stage>
 and since peace is now established, I hope every unmarried man and single woman will follow the example of you and the widow, and encrease the strength of the nation by raising supplies for the next war.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

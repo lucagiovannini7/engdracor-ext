@@ -7,22 +7,22 @@
 <extent>[8],87,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. Baldwin; W. Johnston, and G. Kearsly,</publisher><date>1768.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Prologue and epilogue written by David Garrick.</note><note>With a half-title.</note><note>In this edition p. 2, line 4 includes "No Charles"; p. 9, line 31 "wish"; p. 13, line 11 "Mrs. Harrley"; p. 53 at foot "End ... ACT"; and p. 70, lines 11-12 "her Sir Harry".</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT10796.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>FALSE DELICACY: A COMEDY.</p>
 <p>[Price One Shilling and Six-Pence.]</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <p>☞ THIS Play is, agreeable to <hi>ACT OF PARLIAMENT,</hi> entered in the Hall Book of the Company of <hi>Stationers,</hi> and whoever presumes to print it will be prosecuted. — The Proprietors will reward any one who will give Information of such Proceeding.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>FALSE DELICACY: A COMEDY; AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE. BY HIS MAJESTY'S SERVANTS.</p>
 <p>By HUGH KELLY.</p>
 <p>LONDON, PRINTED FOR R. BALDWIN, No. 47, PATER-NOSTER-ROW; W. JOHNSTON, No. 16, and G. KEARSLY, No. 1, in LUDGATE-STREET. M DCC LXVIII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>TO DAVID GARRICK, Esq.</head>
 <opener><salute>Dear SIR,</salute></opener>
@@ -30,8 +30,8 @@
 <closer><signed>And very much obliged, Humble Servant,
 <hi>HUGH KELLY.</hi></signed>
 <dateline><hi>Middle Temple,</hi> <date><hi>Jan. 29, 1768.</hi></date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE,</head>
 <byline>Written by DAVID GARRICK, Esq.
@@ -80,8 +80,8 @@
 <l>Among the <hi>Turks,</hi> indeed, he'd run no danger,</l>
 <l>They sacred hold a <hi>madman,</hi> and a <hi>stranger.</hi></l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -97,16 +97,15 @@
 <item><label>Mrs. Harley,</label> Mrs. DANCER.</item>
 <item><label>Sally.</label> Miss Reynolds.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>Richmond.</hi>
 TIME, <hi>The Time of Representation.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/> 
 <head>FALSE DELICACY.</head>
-<div2 n="1" type="act">
-<div3 type="scene">
+<div n="1" type="act">
+<div type="scene">
 <head>ACT I. SCENE I.</head>
 <stage><hi>An Apartment at</hi> Lady BETTY LAMBTON'S.</stage>
 <stage><hi>Enter</hi> SIDNEY <hi>and</hi> WINWORTH.</stage>
@@ -554,12 +553,12 @@ TIME, <hi>The Time of Representation.</hi></p></set>
 </sp>
 <stage>[Exeunt.]</stage>
 <trailer><hi>End of the first</hi> ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>a Garden.</hi></stage></head>
 <stage><hi>Enter</hi> Lady BETTY, <hi>and</hi> Mrs. HARLEY.</stage>
 <sp>
@@ -763,8 +762,8 @@ TIME, <hi>The Time of Representation.</hi></p></set>
 <p>For a torrent of rapture and nonsense. — What egregious puppies does this unaccountable love make of young fellows: Nay, for that matter, what egregious puppies does it not make of old ones? — <hi>ecce signum.</hi> — 'Tis a comfort though, that no body knows I am a puppy in this respect but myself. — Here was I fancying that all the partiality I felt for poor Hortensia Marchmont, proceeded from my friendship for her father — when upon an honest examination into my own heart — I find it principally arises from my regard for herself. — I was in hopes a change of objects would have driven the baggage out of my thoughts, — and I went to France; — but I am come home with a settled resolution of asking her to marry a slovenly rascal of fifty, who is to be sure a very likely swain for a young lady to fall in love with; — but who knows — the most sensible women have sometimes strange tastes; — and yet it must be a very strange taste, that can possibly approve of my overtures. — I'll go cautiously to work however, — and solicit her as for a friend of my own age and fortune; — so that if she refuses me, which is probable enough — I shan't expose myself to her contempt. — What a ridiculous figure is an old fool sighing at the feet of a young woman. — Zounds, I wonder how the grey-headed dotards have the impudence to ask a blooming girl of twenty to throw herself away upon a moving mummy, or a walking skeleton.</p>
 <stage>[Exit.]</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><pb n="26" facs="32"/>
 <hi>The</hi> SCENE <hi>changes to an Apartment in</hi> Lady BETTY's <hi>House.</hi></stage>
 <stage><hi>Enter</hi> Lady BETTY <hi>and</hi> Mrs. HARLEY.</stage>
@@ -1054,12 +1053,12 @@ TIME, <hi>The Time of Representation.</hi></p></set>
 <stage>[Exeunt.]</stage>
 </sp>
 <trailer><hi>End of the second</hi> ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="35" facs="41"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>Lady BETTY's <hi>Garden.</hi></stage></head>
 <stage>Sir HARRY, Miss RIVERS <hi>and</hi> SALLY <hi>cross at the head of the stage;</hi> Colonel RIVERS <hi>observing them.</hi></stage>
 <sp>
@@ -1271,8 +1270,8 @@ TIME, <hi>The Time of Representation.</hi></p></set>
 <pb n="42" facs="48"/>will think it strange that I shou'd not promote his felicity, because he has utterly destroyed mine; and my dutiful daughter will be surprized if the tender ties of nature are not strictly regarded in my conduct, though she has violated the most sacred of them all in her own. — Death and hell! who wou'd be a father? — There is yet one way left, — and, if that fails, — why, I never had a daughter. —</p>
 </sp>
 <stage>[Exit.]</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><hi>The</hi> SCENE <hi>changes to an Apartment. Enter</hi> Miss MARCHMONT <hi>and</hi> CECIL.</stage>
 <sp>
 <speaker>Miss MARCHMONT.</speaker>
@@ -1590,12 +1589,12 @@ TIME, <hi>The Time of Representation.</hi></p></set>
 </sp>
 <stage>[Exit.]</stage>
 <trailer>End of the third <hi>ACT.</hi></trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="54" facs="60"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>an Apartment at</hi> Lady BETTY's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Lady BETTY <hi>and</hi> Mrs. HARLEY.</stage>
 <sp>
@@ -1910,8 +1909,8 @@ TIME, <hi>The Time of Representation.</hi></p></set>
 <p>You can't imagine how I am rewarded upon the present occasion I assure your Lordship.</p>
 <stage>[Exeunt]</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="63" facs="69"/>
 SCENE <stage><hi>the Paddock behind</hi> Lady BETTY's <hi>Garden.</hi></stage>
 <stage><hi>Enter</hi> Miss RIVERS <hi>and</hi> SALLY.</stage></head>
@@ -2189,12 +2188,12 @@ Enter <hi>RIVERS.</hi> Sally shrieks and runs off.</stage>
 </sp>
 <stage>[Exeunt.]</stage>
 <trailer><hi>End of the fourth</hi> ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="72" facs="78"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>an Apartment at</hi> Lady BETTY's.</stage></head>
 <stage><hi>Enter</hi> RIVERS <hi>and</hi> SIDNEY.</stage>
 <sp>
@@ -2714,13 +2713,12 @@ Enter <hi>RIVERS.</hi> Sally shrieks and runs off.</stage>
 <speaker>RIVERS.</speaker>
 <p>True, my Lord. — But the principal moral to be drawn from the transactions of to-day is, that those who generously labour for the happiness of others, will, sooner or later, arrive at happiness themselves.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="94"/>
 <head>EPILOGUE,</head>
 <byline>Written by DAVID GARRICK, Esq.</byline>
@@ -2773,7 +2771,7 @@ Enter <hi>RIVERS.</hi> Sally shrieks and runs off.</stage>
 <l>What say you to a <hi>widow?</hi> — Smile consent,</l>
 <l>And she'll be ready for experiment.</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

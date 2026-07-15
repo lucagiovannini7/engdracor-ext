@@ -7,15 +7,15 @@
 <extent>x,[2],66,[2]p. ; 4⁰.</extent><publicationStmt><publisher>printed for Bernard Lintott,</publisher><date>1715.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT51546.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE TRAGEDY OF THE Lady <hi>JANE GRAY.</hi> As it is Acted at the THEATRE-ROYAL in <hi>Drury-Lane.</hi></p>
 <p>By N. ROWE <abbr>Esq</abbr></p>
 <l>Sed frustra Leges &amp; inania Jura tuenti</l>
 <l>Scire mori Sors optima.</l>
 <p><hi>LONDON,</hi> Printed for BERNARD LINTOTT at the Cross-Keys between the <hi>Temple-Gates</hi> in <hi>Fleetstreet.</hi> 1715.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="iii" facs="2"/>
 <head>TO Her Royal Highness THE PRINCESS of <hi>WALES.</hi></head>
 <opener><salute>MADAM,</salute></opener>
@@ -33,8 +33,8 @@ You declin'd the First Crown of <hi>Europe</hi> in regard to <hi>Britain</hi> on
 <p><pb n="vii" facs="6"/>
 Amongst the several Offerings of Duty which are made to You here, be grasiously pleas'd to accept of this Unworthy Trifle, which is, with the greatest Repect and lowest Submission, presented to YOUR ROYAL HIGHNESS by,</p>
 <closer><salute>MADAM,</salute> <signed>YOUR ROYAL HIGHNESS's Most Obedient, Most Devoted, and Most Faithful Humble Servant, N. ROWE.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="viii" facs="7"/>
 <head>PREFACE.</head>
 <p><seg rend="decorInit">T</seg>HO I have very little Inclination to writ<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Preface before Works of this nature, yet, upon this particular Occasion, I cannot but think my self oblig'd to give some short Account of this Play, <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> justice to my self, as to a very Learned and Ingenious <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> man, my Friend, who is dead. The Person <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> Mr. <hi>Smith</hi> of <hi>Christ-Church, Oxon:</hi> one whose <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> I could with great pleasure enter into, if it was <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> very well known to the World. As I had the Happiness to be intimately acquainted with him, he often told me <gap resp="oxf" extent="1 span" disp="〈…〉" reason="illegible"/> sign'd writing a Tragedy upon the Story of the Lady <hi>Jane Gray;</hi> and if he had liv'd, I should never have <gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/>ought <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> meddling with it my self. But as he dy'd without doing <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> in the beginning of the last Summer I resolv'd to undertake <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> And indeed the hopes I had of receiving some considerable As¦sistances from the Papers he left behind him, were one of <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> principal Motives that induc'd me to go about it. These Pa¦pers were in the hands of Mr. <hi>Ducket,</hi> to whom my Fri<gap resp="oxf" extent="3 letters" disp="•••" reason="illegible"/> Mr. <hi>Tho. Burnett</hi> was so kind to write and procure 'em for me. The least Return I can make to those Gentlemen is this publick Acknowledgment of their great Civility on th<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/>
@@ -45,8 +45,8 @@ occasion. I must confess, before those Papers came to my <gap resp="oxf" extent=
 <p>Many People believ'd, or at least said, that Mr Smi<gap resp="oxf" extent="2 letters" disp="••" reason="illegible"/> left a Play very near entire behind him. All that I am <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> for, is, that it was not so in fact. I should have <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> scruple of taking three, four, or even the whole five <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> from him; but then I hope I should have had the <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> to let the World know they were his, and not take <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Man's Reputation to my self.</p>
 <p>This is what I thought necessary to say, as well <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> own account, as in regard to the Memory of my Friend.</p>
 <p>For the Play, such as it is, I leave it to prosper <gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> can: I have resolv'd never to trouble the World with <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> publick Apologies for my Writings of this kind, as much <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> have been provok'd to it. I shall turn this my young Child out into the World, with no other Provision tha<gap resp="oxf" extent="1 letter" disp="•" reason="illegible"/> Saying which I remember to have seen before <gap resp="oxf" extent="1 word" disp="〈◊〉" reason="illegible"/> Mrs. <hi>Behn</hi>'s:Va! mon Enfant prend ta Fortune.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="10"/>
 <head>PROLOGUE:</head>
 <stage>Spoken by Mr. BOOTH.</stage>
@@ -89,8 +89,8 @@ occasion. I must confess, before those Papers came to my <gap resp="oxf" extent=
 <l>Bright Princesses to grace you, Kings to save,</l>
 <l>Enjoy the Gift, but bless the Hand that gave.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -124,10 +124,10 @@ occasion. I must confess, before those Papers came to my <gap resp="oxf" extent=
 <list>
 <item>Lords of the Council, Gentlemen, Guards, Women, and Attendants.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <pb facs="12"/>
 <head>ACT I. SCENE I.</head>
 <stage>Scene, <hi>The Court.</hi></stage>
@@ -600,8 +600,8 @@ Can give each Day new Patterns of her Skill,</l>
 <stage>[Exeu<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></stage>
 </sp>
 <trailer>The End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="11" facs="22"/>
 <head>ACT II. SCENE. I.</head>
 <stage>Scene <hi>continues.</hi></stage>
@@ -1252,8 +1252,8 @@ For this is Friendship's Hour and Friendship's Office,</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="24" facs="35"/>
 <head>ACT III. SCENE I</head>
 <stage>Scene, <hi>The Tower.</hi></stage>
@@ -1930,8 +1930,8 @@ Let all my sleepless Nights be spent in Care,</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>End of the Third ACT</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="38" facs="49"/>
 <head>ACT IV. SCENE I.</head>
 <stage>Scene <hi>Continues.</hi></stage>
@@ -2762,8 +2762,8 @@ And triumph in the midst of Desolation.</l>
 <stage>[Exeunt severally with the Guards.</stage>
 </sp>
 <trailer>End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="54" facs="65"/>
 <head>ACT V. SCENE I.</head>
 <stage>Scene continues.</stage>
@@ -3452,11 +3452,11 @@ Shall live in these distracted Eyes for ever.</l>
 <l>Rest with the Saints, and dwell in endless Peace.</l>
 <stage>[Exeunt Om<gap resp="oxf" extent="1+ letters" disp="•…" reason="illegible"/></stage>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="78"/>
 <head>EPILOGUE:</head>
 <stage>Spoken by Mrs. PORTER.</stage>
@@ -3496,8 +3496,8 @@ Shall live in these distracted Eyes for ever.</l>
 <l>If you are taught to dread a Popish Reign,</l>
 <l>Our Beauteous Patriot has not dy'd in vain.</l>
 </lg>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="79"/>
 <head>A PROLOGUE to Lady JANE GRAY, sent by an Unknown Hand.</head>
 <lg>
@@ -3554,8 +3554,7 @@ Shall live in these distracted Eyes for ever.</l>
 <l>No Conquest from dissembline Smiles we fear,</l>
 <l>She only kills, who wounds us with a Tear.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

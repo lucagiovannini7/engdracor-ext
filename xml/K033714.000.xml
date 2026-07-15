@@ -7,28 +7,28 @@
 <extent>[10],89,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for Charles Dilly,</publisher><date>1787.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT29278.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>JULIA; OR, THE ITALIAN LOVER. A TRAGEDY.</p>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="2"/>
 <p>LATELY PUBLISHED, BY THE SAME AUTHOR, (A NEW EDITION,) THE COUNT OF NARBONNE, A TRAGEDY.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>JULIA; OR, THE ITALIAN LOVER. A TRAGEDY. AS IT IS ACTED AT THE THEATRE-ROYAL, IN DRURY-LANE.</p>
 <p>By ROBERT JEPHSON, ESQ.</p>
 <quote>—primus amor deceptam morte fefellit.</quote> <bibl>VIRG.</bibl>
 <p>LONDON: PRINTED FOR CHARLES DILLY, IN THE POULTRY. M DCC LXXXVII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <p>TO HIS GRACE CHARLES DUKE OF RUTLAND, KNIGHT OF THE MOST NOBLE ORDER OF THE GARTER, LORD LIEUTENANT OF IRELAND, &amp;c. &amp;c. &amp;c. IN TESTIMONY OF UNALTERABLE ESTEEM, AFFECTION, AND GRATITUDE, THIS TRAGEDY IS INSCRIBED, BY HIS GRACE'S MUCH OBLIGED, AND MOST OBEDIENT, HUMBLE SERVANT▪</p>
 <closer><signed>ROBERT JEPHSON.</signed>
 <dateline>DURLIN CASTLE, <date><hi>April</hi> 11, 1787.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE;</head>
 <byline>Written by EDMOND MALONE, Esq.</byline>
@@ -85,8 +85,8 @@
 <l>While pride, revenge, and jealousy's wild rage,</l>
 <l>Rouse all the genius of the impassion'd stage.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Persons Represented.</head>
 <list>
@@ -102,16 +102,15 @@
 <item><label>Nerina, <hi>attendant on</hi> Julia,</label> Miss TIDSWELL.</item>
 </list>
 <p><hi>Officer, Guards, and Attendants.</hi></p>
-</div1>
+</div>
 <set><p><hi>SCENE,</hi> Genoa.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>JULIA; OR, THE ITALIAN LOVER. A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>A Platform.</stage>
 <stage><hi>Enter</hi> MARCELLUS, <hi>supporting</hi> MANOA; <hi>Attendants behind.</hi></stage>
 <sp>
@@ -240,8 +239,8 @@
 <l>Good kinsman, turn, and own a friend who loves you.</l>
 </sp>
 <stage>CAMILLO <hi>returns.</hi></stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>CAMILLO, MARCELLUS.</stage>
 <sp>
@@ -431,8 +430,8 @@
 <l>Leave me to greet this venerable lord,</l>
 <l>And beg his introduction to the stranger. <stage><hi>Exit</hi> CAMILLO,</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To</hi> MARCELLUS, DURAZZO, <hi>and</hi> MENTEVOLE.</stage>
 <sp>
@@ -494,8 +493,8 @@
 <l>Unhappy lady, may your presence cheer her!</l>
 </sp>
 <stage><hi>Exit</hi> MARCELLUS</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>DURAZZO, MENTEVOLE.</stage>
 <sp>
@@ -627,8 +626,8 @@
 <l>But lo, she comes. Farewel! I go to serve you.</l>
 </sp>
 <stage><hi>Exit</hi> DURAZZO.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="14" facs="21"/>
 <head>SCENE V.</head>
 <sp>
@@ -639,8 +638,8 @@
 <l>O, I could sluice my veins, mangle this form,</l>
 <l>This common form, that wants the power to move her.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To him</hi> OLYMPIA.</stage>
 <sp>
@@ -796,8 +795,8 @@
 <l>I linger here too long.—Remember patience.</l>
 </sp>
 <stage><hi>Exit</hi> OLYMPIA.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <stage>MENTEVOLE, <hi>alone.</hi></stage>
@@ -816,13 +815,13 @@
 <l>She must be mine, and <hi>shall</hi> be. For the means,</l>
 <l>Or good or ill, necessity must shape them.</l>
 </sp>
-</div3>
+</div>
 <trailer>THE END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="19" facs="26"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A Chamber in <hi>Durazzo's</hi> Palace.</stage></head>
 <sp>
 <stage>JULIA, <hi>alone at a Table, putting up papers which she has been reading. She presses them passionately to her heart, kisses them, and speaks.</hi></stage>
@@ -835,8 +834,8 @@
 <l>Lovely, belov'd, in beauty's manly bloom,</l>
 <l>Protesting welcome vows, and breathing passion.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To her</hi> OLYMPIA.</stage>
 <sp>
@@ -1014,8 +1013,8 @@
 <l>I would not have him see I had been weeping.</l>
 </sp>
 <stage>JULIA <hi>retires a little.</hi></stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To</hi> JULIA <hi>and</hi> OLYMPIA, DURAZZO.</stage>
 <sp>
@@ -1113,8 +1112,8 @@
 <l>And see, an honour'd visitant approaches;</l>
 <l>Receive her not in sorrow.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="26" facs="33"/>
 <head>SCENE IV.</head>
 <stage><hi>To them</hi> FULVIA; MARCELLUS <hi>behind.</hi> JULIA <hi>and</hi> FULVIA <hi>embrace.</hi></stage>
@@ -1299,8 +1298,8 @@
 <l>Arms, and the war, farewel! Her brighter image</l>
 <l>Claims all my bosom, and disdains a rival. <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head><hi>SCENE VI.</hi> <stage>A Place before <hi>Durazzo's</hi> Palace.</stage></head>
 <sp>
 <stage>MENTEVOLE, <hi>with a letter; and a</hi> Servant.</stage>
@@ -1325,8 +1324,8 @@
 <l>Prey inwards! down! while I dissemble calmness.</l>
 </sp>
 <stage>MENTEVOLE <hi>retires a little.</hi></stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <stage>MARCELLUS <hi>enters, looking back.</hi></stage>
@@ -1480,13 +1479,13 @@
 <l>And fear the evil, valour might avert:</l>
 <l>The brave man's sword secures his destiny. <stage>Exeunt severally.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer>THE END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="35" facs="42"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A Garden, behind <hi>Mentevole's</hi> house.</stage></head>
 <sp>
 <stage>MENTEVOLE <hi>alone, on a garden seat, looking at a picture.</hi></stage>
@@ -1508,8 +1507,8 @@
 <l>If thou canst sanctify—By heaven, my sister:— <stage>rise.</stage></l>
 <l>Up fair perdition!<stage>attempting hastily to put up the picture, he drops it on the ground.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To him,</hi> OLYMPIA,</stage>
 <sp>
@@ -1554,8 +1553,8 @@
 <l>Herself indeed; then haste, conduct her hither.</l>
 </sp>
 <stage>MENTEVOLE <hi>rushes out.</hi></stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <stage>OLYMPIA <hi>sees, and take up the picture.</hi></stage>
@@ -1570,8 +1569,8 @@
 <l>Than hot-breath'd vows, whose common vehemence</l>
 <l>Their common violation quickly follows.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>To</hi> OLYMPIA, MENTEVOLE, <hi>leading in</hi> JULIA.</stage>
 <sp>
@@ -1741,8 +1740,8 @@
 <l>Still gaze, and cannot bear to lose thy beauties.</l>
 </sp>
 <stage><hi>Exit</hi> MENTEVOLE.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>JULIA, OLYMPIA.</stage>
 <sp>
@@ -1759,8 +1758,8 @@
 <l>And pays the glowing ore with worthless lead.</l>
 <l>Though all be little, to give all, is bounty. <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>Enter, at an opposite side,</hi> MARCELLUS <hi>and</hi> MENTEVOLE.</stage>
 <sp>
@@ -1898,8 +1897,8 @@
 <l>Let this deserv'd rebuke subdue your choler.</l>
 </sp>
 <stage><hi>Exit</hi> MARCELLUS.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <stage>MENTEVOLE, <hi>alone.</hi></stage>
@@ -1908,8 +1907,8 @@
 <l>While love, remorse, and rage, at once o'erwhelm me.</l>
 </sp>
 <stage><hi>Exit</hi> MENTEVOLE.</stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head><hi>SCENE VIII.</hi> <stage>A Chamber in <hi>Durazzo's</hi> Palace, with a toilet, &amp;c.</stage></head>
 <stage>OLYMPIA, <hi>with a picture in her hand</hi>; NERINA <hi>attending</hi>▪</stage>
 <sp>
@@ -1929,8 +1928,8 @@
 <l>Her eye looks cold upon me. I'll not meet her.</l>
 </sp>
 <stage>OLYMPIA <hi>hangs the picture on the frame of</hi> JULIA's <hi>dressing-glass, and exit.</hi> NERINA <hi>retires.</hi></stage>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <sp>
 <stage>FULVIA, <hi>with a paper.</hi></stage>
@@ -1956,8 +1955,8 @@
 <l>And see, the fair dissimulation comes,</l>
 <l>Again to sigh, to flatter,—and deceive me.</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>To her,</hi> JULIA.</stage>
 <sp>
@@ -2219,8 +2218,8 @@
 <l>Then try to reconcile your soul to peace,</l>
 <l>And O, forgive yourself, as I forgive you.</l>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage><hi>To them,</hi> DURAZZO.</stage>
 <sp>
@@ -2283,8 +2282,8 @@
 <l>May curses rest on these devoted walls,</l>
 <l>Till livid lightning to the centre shake them!<stage><hi>Exit</hi> FULVIA.</stage></l>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>DURAZZO, <hi>and</hi> JULIA.</stage>
 <sp>
@@ -2310,13 +2309,13 @@
 <l>Mocks with false light, or bursts in storms upon me.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="55" facs="62"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A Chamber in <hi>Durazzo's</hi> Palace.</stage></head>
 <stage>DURAZZO, MARCELLUS, <hi>and</hi> CAMILLO.</stage>
 <sp>
@@ -2380,8 +2379,8 @@
 <l>And how the exalted virtues of her soul</l>
 <l>Transcend her frailties, and efface this error.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="57" facs="64"/>
 <head>SCENE II.</head>
 <stage><hi>Enter an</hi> Officer.</stage>
@@ -2541,8 +2540,8 @@
 <l>Marcellus, for a moment, pardon me.</l>
 </sp>
 <stage><hi>Exeunt</hi> MARCELLUS <hi>and</hi> CAMILLO.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <stage>DURAZZO, <hi>alone.</hi></stage>
@@ -2550,8 +2549,8 @@
 <l>No cares, however near us, can excuse</l>
 <l>Our hard neglect of humble misery.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>To</hi> DURAZZO, MANOA <hi>enters with humility.</hi></stage>
 <sp>
@@ -2631,8 +2630,8 @@
 <l>And truth's bright ray dispel the doubtful twilight.</l>
 </sp>
 <stage><hi>Exit</hi> DURAZZO.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head><hi>SCENE V.</hi> <stage>The Garden of <hi>DURAZZO's</hi> Palace.</stage></head>
 <sp>
 <stage>MENTEVOLE, <hi>alone. A Whistle is heard.</hi></stage>
@@ -2911,8 +2910,8 @@
 <l>Thou should'st not die so nobly. Hence! begone!</l>
 </sp>
 <stage>JULIA <hi>throws down the dagger, and exit.</hi></stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <stage>MENTEVOLE, <hi>alone.</hi></stage>
@@ -2921,13 +2920,13 @@
 <l>Revenge, that latest sunshine of the accurs'd,</l>
 <l>If I must perish, still may gild my downfall. <stage>Exit.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer>THE END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="71" facs="78"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A Chamber in <hi>Durazzo's</hi> Palace.</stage></head>
 <stage>JULIA, <hi>and</hi> MARCELLUS.</stage>
 <sp>
@@ -3074,8 +3073,8 @@
 <l>The world, without thee, has no choice for me.</l>
 </sp>
 <stage><hi>Exit</hi> MARCELLUS.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>JULIA</speaker><stage><hi>, alone.</hi></stage>
@@ -3086,8 +3085,8 @@
 <l><pb n="75" facs="82"/>Take me, O, take me, to thy wish'd-for rest,</l>
 <l>And leave mankind to their own destiny!<stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>A magnificent Hall in</hi> Durazzo's <hi>Palace. The</hi> Duke <hi>of</hi> Genoa, <hi>with Guards and other Attendants in the center;</hi> FULVIA, <hi>&amp;c. on one side;</hi> DURAZZO, CAMILLO, <hi>and</hi> JULIA, <hi>with their Attendants, on the other.</hi></stage>
 <sp>
@@ -3157,8 +3156,8 @@
 <l>As we our duty. And behold the man</l>
 <l>First in our present search. <stage>takes his seat.</stage></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="77" facs="84"/>
 <head>SCENE IV.</head>
 <stage><hi>Enter</hi> MENTEVOLE.</stage>
@@ -3298,8 +3297,8 @@
 <l>Soft you a while; for lo you, who comes here,</l>
 <l>Even to your wish, to make all clear for you.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>Re-enter</hi> CAMILLO, <hi>leading in</hi> MANOA.</stage>
 <sp>
@@ -3690,13 +3689,12 @@
 <l>I shall be happy. Weep not. Mercy! Oh!<stage>Dies.</stage></l>
 </sp>
 <stage>Curtain falls.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE FIFTH ACT.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="97"/>
 <head>EPILOGUE;</head>
 <byline>Written by JOHN COURTENAY, Esq.</byline>
@@ -3760,7 +3758,7 @@
 <l>And to the last our female rights maintain.</l>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

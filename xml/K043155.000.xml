@@ -7,15 +7,15 @@
 <extent>[4],35,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. Kearsly,</publisher><date>1780.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45398.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE HUMOURS OF AN ELECTION. A <hi>FARCE.</hi> As it is performed at the THEATRE-ROYAL IN <hi>COVENT-GARDEN.</hi></p>
 <p>Written by F. PILON.</p>
 <p><hi>LONDON:</hi> Printed for G. KEARSLY, in Fleet-Street.</p>
 <p>M, DCC, LXXX.</p>
 <p>[Price, One Shilling.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Written by the AUTHOR,</byline>
@@ -51,8 +51,8 @@
 <l>Then peace once more shall rear her angel head,</l>
 <l>Bright as the Phoenix, from her burning bed.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -78,13 +78,12 @@
 <item><label>Mrs. Highflight,</label> Mrs. WEBB.</item>
 <item><label>Letitia,</label> Mrs. MORTON.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE HUMOURS OF AN ELECTION.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE I. <stage><hi>A Chamber.</hi></stage></head>
 <stage>Parmazan <hi>and</hi> Letitia <hi>discovered.</hi></stage>
 <sp>
@@ -506,8 +505,8 @@
 <p>Zounds! that will never do. No Scotch prompter for the people of England.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="13" facs="16"/>
 <head>SCENE III. <stage><hi>The Committee-room; a Table and Wine.</hi></stage></head>
 <stage>Canvass, Bustle, Justice Wine Vault, Bonsire, <hi>the Chandler,</hi> Doctor Mac Fracture, Goose, &amp;c. <hi>discovered.</hi></stage>
@@ -1016,8 +1015,8 @@ Jacob Titledeed.</p>
 </lg>
 </sp>
 <stage>[After the Catch, they all march out, with Mrs. <hi>Highflight</hi> at their head.]</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>A Grove.</hi></stage></head>
 <stage><hi>Enter</hi> Letitia <hi>and</hi> Belfield.</stage>
 <sp>
@@ -1069,8 +1068,8 @@ Jacob Titledeed.</p>
 <p>My father has sitted a little place for me and my acquaintance to see the election; there I'll watch my dear Belfield with an anxious heart, that shall send up prayers from Love's own altar, in silent sighs for success to you, Adieu! Fortune attend you!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="25" facs="28"/>
 <head><stage><hi>Scene changes to the Hustings; Crouds of People round a Ballad-singer.</hi></stage></head>
 <sp>
@@ -1214,7 +1213,7 @@ Jacob Titledeed.</p>
 <sp>
 <speaker>O'Shan.</speaker>
 <p>Oh hone! this tune is my own countryman, and is wishing me joy of my election, before I am returned.</p>
-<stage><hi>Musick behind,</hi> "See the conquering Hero comes."</stage>
+<stage><hi>Musick behind,</hi> <title>"See the conquering Hero comes."</title></stage>
 </sp>
 <stage><pb n="28" facs="31"/>
 <hi>Enter</hi> George.</stage>
@@ -1222,7 +1221,7 @@ Jacob Titledeed.</p>
 <speaker>Geo.</speaker>
 <p>I have not a word of my speech yet by heart.</p>
 </sp>
-<stage><hi>Musick, full Band,</hi> "God save the King."</stage>
+<stage><hi>Musick, full Band,</hi> <title>"God save the King."</title></stage>
 <stage><hi>Enter</hi> Belfield, <hi>who bows respectfully, and takes his Seat upon the Hustings.</hi></stage>
 <sp>
 <speaker>Cryer.</speaker>
@@ -1572,8 +1571,7 @@ Jacob Titledeed.</p>
 </sp>
 <stage>Exeunt omnes.</stage>
 <trailer>THE END.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

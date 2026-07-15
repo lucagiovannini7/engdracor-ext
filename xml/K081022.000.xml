@@ -7,13 +7,13 @@
 <extent>vi,[2],61,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. Dodsley,</publisher><date>1753.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>P.60 misnumbered 56.</note><note>The catchword of the dedication leaf is: 'encourage'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT100668.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE EARL of ESSEX. A TRAGEDY. As it is ACTED at the THEATRE ROYAL IN COVENT-GARDEN.</p>
 <p>WRITTEN BY Mr. HENRY JONES.</p>
 <p>LONDON: Printed for R. DODSLEY in Pall-mall. 1753. Price One Shilling and Six Pence.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="iii" facs="2"/>
 <head>TO THE RIGHT HONOURABLE <hi>PHILIP,</hi> Earl of CHESTERFIELD, &amp;c. Kight of the most Noble Order of the Garter.</head>
 <opener><salute>MY LORD,</salute></opener>
@@ -23,8 +23,8 @@
 <p>These, my LORD, are the general Obligations that I owe You, of which I have ever wished to raise some Monument, that may remain as long as my Name shall be remembered; but I have more particular Reasons for presenting You with this Tragedy, as it was Your LORDSHIP first pointed out to me the Subject, and, when it was finished, gave me the first Assurance of its Success, by Your Approbation. I could not therefore avoid taking Advantage of this Opportunity, to acknowledge, publickly, all these Favours; and to assure You, that I am</p>
 <closer><signed>Your Lordship's most Obliged, Most Obedient, and Very Humble Servant,
 HENRY JONES.</signed></closer>
-</div1>
-<div1 type="encomium">
+</div>
+<div type="encomium">
 <pb n="v" facs="4"/>
 <head><hi>To Mr.</hi> HENRY JONES, <hi>on his Tragedy of the</hi> Earl of ESSEX.</head>
 <lg>
@@ -101,8 +101,8 @@ By thee reform'd, each vicious Taste shall fail,</l>
 <l>For ever flourishing, for ever green.</l>
 </lg>
 <closer><signed>M<span rend="sup">c</span>NAMARA MORGAN</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE</head>
 <byline>Spoken by Mr. BARRY.</byline>
@@ -144,8 +144,8 @@ By thee reform'd, each vicious Taste shall fail,</l>
 <l>His next shall thank you in a nobler Way.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>PERSONS.</head>
 <list>
@@ -163,15 +163,14 @@ By thee reform'd, each vicious Taste shall fail,</l>
 <item><label>Countess OF NOTTINGHAM,</label> Mrs. VINCENT.</item>
 </list>
 <p>Lords, Ladies, and Attendants.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="8"/>
 <head>THE EARL OF ESSEX.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Antichamber in the Palace.</hi></stage></head>
 <stage><hi>Enter</hi> BURLEIGH <hi>and</hi> RALEIGH.</stage>
 <sp>
@@ -791,12 +790,12 @@ I know him hot, ambitious, rash, impatient;</l>
 <l>Support her Grandeur, and her Foes defy.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="16" facs="23"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> BURLEIGH <hi>and</hi> RALEIGH.</stage>
 <sp>
 <speaker>BURLEIGH.</speaker>
@@ -1210,12 +1209,12 @@ In this calm State of Innocence and Joy,</l>
 <l>With sweet Content enjoy each blissful Hour,</l>
 <l>Beyond the Smiles of Fraud, or Frowns of Power.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="26" facs="33"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> BURLEIGH <hi>and</hi> NOTTINGHAM.</stage>
 <sp>
 <speaker>NOTTINGHAM.</speaker>
@@ -1668,12 +1667,12 @@ Of studied Treasons, or design'd Rebellion.</l>
 <l>Redeem my Glory, or embrace my Fate.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="37" facs="44"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> QUEEN, NOTTINGHAM.</stage>
 <sp>
 <speaker>QUEEN.</speaker>
@@ -2061,12 +2060,12 @@ The narrow Censures of misguiding Crowds.</l>
 <l>And sill'd with mortal Pangs, my future Life.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="46" facs="53"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> RALEIGH, <hi>and Lieutenant of the Tower.</hi></stage>
 <sp>
 <speaker>RALEIGH.</speaker>
@@ -2226,8 +2225,8 @@ O beg, intreat, implore her Majesty,</l>
 <l>Your salse, disdainful Heart shall pay the Fine</l>
 <l>Of Love neglected, and of Beauty scorn'd.</l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>the Court.</hi></stage></head>
 <stage><hi>Enter</hi> QUEEN, BURLEIGH.</stage>
 <sp>
@@ -2343,8 +2342,8 @@ My regal State, and to his Face confront him:</l>
 <l>And add new Terrors to th' uplifted Ax.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>the Tower.</hi></stage></head>
 <stage>ESSEX and SOUTHAMPTON <hi>discovered.</hi></stage>
 <sp>
@@ -2798,12 +2797,11 @@ To lengthen Mercy out a Moment more,</l>
 <l>Whilst ruling Justice guides eternal Sway,</l>
 <l>Let Nature tremble, and let Man obey.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="69"/>
 <head>EPILOGUE.</head>
 <byline>By an Unknown Hand. Spoken by Mrs. CIBBER.</byline>
@@ -2853,7 +2851,7 @@ In short, whate'er her Morals, Age or Station,</l>
 <l>Unless that you his <hi>Patrons</hi> will protect him.</l>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

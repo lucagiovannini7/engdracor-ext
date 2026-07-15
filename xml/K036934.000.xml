@@ -7,13 +7,13 @@
 <extent>[16],64p. ; 8⁰.</extent><publicationStmt><publisher>printed by J. Watts,</publisher><date>1728.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Probably written originally by James Shirley.</note><note>With a half-title.</note><note>A variant has the press figure 4 on p.58.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34858.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>Double Falshood; OR, The DISTREST LOVERS.</p>
 <p>A</p>
 <p>[Price 1 s. and 6 d.]</p>
-</div1>
-<div1 type="license">
+</div>
+<div type="license">
 <pb facs="2"/>
 <head><hi>GEORGE </hi>R.</head>
 <p><hi><seg rend="decorInit">G</seg>EORGE</hi> the Second, by the Grace of God, King of
@@ -49,8 +49,8 @@ thereunto. Given at Our Court at St. <hi>James</hi>'s, the Fifth Day of
 <hi>December,</hi> 1727; in the First Year of Our Reign.</p>
 <closer><signed>By His Majesty's Command,
 HOLLES NEWCASTLE.</signed></closer>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>Double Falshood; OR, The DISTREST LOVERS.</p>
 <p>A PLAY, As it is Acted at the THEATRE-ROYAL IN DRURY-LANE.</p>
@@ -62,8 +62,8 @@ Restor'd.</hi></p>
 <bibl>Virg.</bibl>
 <p>LONDON: Printed by J. WATTS, at the Printing-Office in
 <hi>Wild-Court</hi> near <hi>Lincolns-Inn Fields.</hi> M DCC XXVIII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>To the Right HONOURABLE <hi>George Dodington,</hi>
 <abbr>Esq</abbr></head>
@@ -108,8 +108,8 @@ you would believe me, with the most unfeigned Zeal and Respect,</p>
 <signed>Your most Devoted and Obedient Humble Servant, LEW.
 THEOBALD.</signed> <dateline>Great Russell-stree,
 <date>21st December, 1727.</date></dateline></closer>
-</div1>
-<div1 type="editor'spreface">
+</div>
+<div type="editor'spreface">
 <pb facs="8"/>
 <head>PREFACE OF THE EDITOR.</head>
 <p><seg rend="decorInit">T</seg>HE Success, which this Play has met with from the Town in the
@@ -184,8 +184,8 @@ Things that are thrown out upon their giving a Repulse to others.</p>
 which I am properly neither Party, nor Judge. I am only throwing out a private
 Opinion, without Interest or Prejudice, and if I am right in the Notion,
 <hi>Valeat quantum valere potest.</hi></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="11"/>
 <head>PROLOGUE.</head>
 <byline>Written by <hi>PHILIP FROWDE,</hi>
@@ -247,8 +247,8 @@ live</hi>:</l>
 stay'd</hi>;</l>
 <l>" <hi>To this auspicious</hi> Aera <hi>well delay'd.</hi></l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="13"/>
 <head>EPILOGUE.</head>
 <byline>Written by a Friend.</byline>
@@ -302,8 +302,8 @@ inspir'd,</l>
 <l>Cou'd charm the Heroes of that glorious Reign,</l>
 <l>Which humbled to the Dust the Pride of <hi>Spain.</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="15"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -336,16 +336,16 @@ inspir'd,</l>
 <label>Violante.</label>
 <item>Mrs. <hi>Booth.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, the Province of <hi>Andalusia</hi> in
 <hi>Spain.</hi></p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb facs="16"/>
 <head>DOUBLE FALSHOOD; OR, The DISTREST LOVERS.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head>SCENE, <stage>A Royal Palace.</stage></head>
 <stage>Duke <hi>Angelo, Roderick,</hi> and
@@ -429,8 +429,8 @@ Blushes.</l>
 <l>Bring him to Court.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Prospect of a Village at a Distance.</stage></head>
 <stage>Enters <hi>Camillo</hi> with a Letter.</stage>
 <sp>
@@ -827,8 +827,8 @@ which rules in these Conjunctions, and there's an End. Come; haste We
 homeward, Girl.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Enter <hi>Henriquez,</hi> and Servants with
 Lights.</stage>
@@ -962,12 +962,12 @@ my Title, which is acquir'd Not by my self, but thrown by Fortune on Me,</l>
 <l>And laugh'd at by the Wise, as meer Outside.</l>
 <stage>[Exit.</stage>
 </sp>
-</div3>
+</div>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="13" facs="32"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <head>SCENE, <stage>The Prospect of a Village.</stage></head>
 <stage>Enter <hi>Fabian</hi> and <hi>Lopez</hi>;
@@ -1051,8 +1051,8 @@ Pr'ythee, Neighbour, let's follow him; but at some Distance, for fear of
 the worst.</p>
 </sp>
 <stage>[Exeunt, after <hi>Henr.</hi></stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="15" facs="34"/>
 <head>SCENE II. <stage>An Apartment.</stage></head>
 <stage>Enters <hi>Violante</hi> alone.</stage>
@@ -1143,8 +1143,8 @@ towards this Wisdom, by prevailing on Myself to bid you<lb/>
 <l>As yet I know not.—Sorrow be my Guide.</l>
 </sp>
 <stage>[Exit <hi>Violante.</hi></stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Prospect of a Village, before <hi>Don
 Bernard</hi>'s House.</stage></head>
 <stage>Enters <hi>Henriquez.</hi></stage>
@@ -1477,8 +1477,8 @@ that I am at present of Opinion my Daughter shall receive no more Company
 to day at least, no such Visits as yours.</p>
 </sp>
 <stage>[Exit <hi>D. Bernard,</hi> following him</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Changes to another Prospect of <hi>Don
 Bernard</hi>'s House.</stage></head>
 <stage><hi>Leonora,</hi> above.</stage>
@@ -1569,11 +1569,11 @@ Matter.—Sir,—</l>
 <l>And Thou wilt outfly Time to bring Relief.</l>
 </sp>
 <stage>[Exit <hi>Leonora</hi> from the Window.</stage>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
-<div3 n="1" type="scene">
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <pb n="25" facs="44"/>
 <head>ACT III. SCENE I.</head>
 <head>SCENE, <stage>The Prospect of a Village.</stage></head>
@@ -1660,8 +1660,8 @@ a Villany</l>
 <l>Shall be devoted to repay thy Constancy.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Don Bernard's House.</stage></head>
 <stage>Enters <hi>Leonora.</hi></stage>
 <sp>
@@ -1798,8 +1798,8 @@ and vow
 <l>Lest it should wrap thee in such Agonies,</l>
 <l>Which my Love could not look on.—</l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><hi>SCENE</hi> opens to a large Hall: An Altar prepared
 with Tapers. Enter at one Door Servants with Lights, <hi>Henriquez,</hi>
 <hi>Don Bernard,</hi> and Churchman. At another, Attendants to <hi>Leonora.
@@ -2006,8 +2006,8 @@ her, a Paper drops from her.</stage>
 <l>And burns impatient of this forc'd Delay.</l>
 </sp>
 <stage>[Exeunt; and the Scene closes.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Prospect of a Village at a Distance.</stage></head>
 <stage>Enters <hi>Roderick.</hi></stage>
 <sp>
@@ -2407,11 +2407,11 @@ Heed—</l>
 <l>He, that has such a Treasure, cannot fall.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
-<div3 n="1" type="scene">
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <pb n="39" facs="58"/>
 <head>ACT IV. SCENE I.</head>
 <head>SCENE, <stage>A Wide Plain, with a Prospect of Mountains at a
@@ -2997,8 +2997,8 @@ upon her.</l>
 <l>We shall bring Night in with Us.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Enter <hi>Julio,</hi> and Two Gentlemen.</stage>
 <sp>
@@ -3244,12 +3244,12 @@ those lov'd Obsequies.
 <l>And in a Sigh give up our latest Breath.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>The End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="51" facs="70"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <head>SCENE, <stage>The Prospect of the Mountains continued.</stage></head>
 <stage>Enter <hi>Roderick, Leonora</hi> veil'd,
@@ -3419,8 +3419,8 @@ fair Appeal</l>
 <l>Lead me to <hi>Julio.</hi></l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>An Apartment in the Lodge.</stage></head>
 <stage>Enter <hi>Duke, Don Bernard,</hi> and
 <hi>Camillo.</hi></stage>
@@ -4161,10 +4161,10 @@ your Father.</l>
 <l>With, true Love's Wand'rings may like yours succeed</l>
 </sp>
 <stage>[Curtain falls.</stage>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

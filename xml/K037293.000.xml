@@ -7,7 +7,7 @@
 <extent>[4],76,[4]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket and P. A. De Hondt,</publisher><date>1769.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Home.- With two final leaves each containing an epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT35427.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE FATAL DISCOVERY. A TRAGEDY. AS IT IS PERFORMED AT THE THEATRE-ROYAL, IN DRURY-LANE.</p>
 <quote><l>—Moriens animam abstulit hosti,</l>
@@ -18,8 +18,8 @@
 <bibl>VIRG.</bibl>
 <p>LONDON: PRINTED FOR T. BECKET AND P. A. DE HONDT IN THE STRAND. M DCC LXIX.</p>
 <p>[Price One Shilling and Six Pence]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. BARRY.</byline>
@@ -67,17 +67,16 @@
 <l>And give him spirit for a nobler strain.</l>
 </lg>
 </sp>
-</div1>
+</div>
 <gap extent="1 page" reason="missing"/>
 <!-- missing start of the play was taken from the 1772 London print, which seems identical to the 1769 print -->
 <!-- Dramatis Personae has not been added -->
 <!-- https://archive.org/details/bim_eighteenth-century_the-fatal-discovery-a-t_home-john_1772/page/n3/mode/1up -->
 </front>
 <body>
-<div1 type="play">
 <pb n="1"/>
 <head>THE FATAL DISCOVERY</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I</head>
 <head>SCENE, <stage>a Grove, with Trees blown down.</stage></head>
 <stage>Enter KATHUL, King of the Isles, and several of his Attendants.</stage>
@@ -573,8 +572,8 @@ Enter CALMAR.</stage>
 </sp>
 <stage>[Exeunt.</stage>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="16"/>
 <head>ACT II.</head>
 <head>SCENE, <stage>the Palace of Kathul</stage></head>
@@ -1142,8 +1141,8 @@ Enter CONNAN.</stage>
 </sp>
 <stage>[Exeunt.</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="30" facs="31"/>
 <head>ACT III.</head>
 <head>SCENE, <stage>a Cliff on the Sea-shore, with a Cave.</stage></head>
@@ -1813,8 +1812,8 @@ Enter CONNAN.</stage>
 <l>That joins her sister-memory to thine.—</l>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="46" facs="47"/>
 <head>ACT IV.</head>
 <head>SCENE, <stage>a Thick Wood.</stage></head>
@@ -2518,8 +2517,8 @@ Enter CONNAN.</stage>
 </sp>
 <stage>[Exit.</stage>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="63" facs="64"/>
 <head>ACT V.</head>
 <head>SCENE, <stage>a Wood.</stage></head>
@@ -3090,12 +3089,11 @@ Enter CONNAN.</stage>
 <l>The brave, the fair shall give the pleasing tear</l>
 <l>Of nature, partial to the woes of love.</l>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="78"/>
 <head>EPILOGUE.</head>
 <byline>Written by Mr. GARRICK.</byline>
@@ -3157,7 +3155,7 @@ Enter CONNAN.</stage>
 <l><hi>Nor Roman and Rivine die in vain.</hi></l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

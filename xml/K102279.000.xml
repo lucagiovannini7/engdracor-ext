@@ -7,12 +7,12 @@
 <extent>[6],50p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author, by J. Millidge: and sold by T. Davies; T. Cadell, and T. Evans,</publisher><date>1776.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Thomas Francklin.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT128520.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE CONTRACT: A COMEDY. OF TWO ACTS. AS IT WAS PERFORMED AT THE Theatre Royal, in the Hay-Market.</p>
 <p><hi>LONDON:</hi> Printed for the AUTHOR, by J. MILLIDGE: And sold by T. DAVIES, in Russel-Street, Covent-Garden; T. CADELL, and T. EVANS, in the Strand. MDCCLXXVI. [PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE,</head>
 <stage>Intended to have been Spoken by Mr. FOOTE.</stage>
@@ -66,8 +66,8 @@ Tho' now he slights her, breaks from her by force,</l>
 <l>T'has pass'd the seals—they're going to rehearse it,</l>
 <l>But you're the <hi>House of Peers</hi>—and may reverse it.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -90,13 +90,13 @@ Tho' now he slights her, breaks from her by force,</l>
 <label>Maria,</label>
 <item>Miss ESSEX.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="5"/>THE CONTRACT.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Miss ELEANOR and BETTY.</stage>
 <sp>
 <speaker>ELEANOR. </speaker>
@@ -918,11 +918,11 @@ and not in my dictionary: but I'll tell you what, Cuz, a vessel that has got lov
 <pb n="25" facs="29"/>
 one another like a couple of oysters. Then this Nephew and Niece—two undiscovered Islands, that are not in my map. Yonder's the Colonel's valet and my Lady's maid, they're us'd to these seas, and mayhap may have a chart of 'em: I'll go a little cruize after 'em however; every gentleman of curiosity now a days takes a trip in search of some <hi>terra incognita,</hi> so I'll not be out of the fashion. If I say it I'll do't, that's the humour of Commodore Capstern.</p>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter COLONEL and Miss ELEANOR.</stage>
 <sp>
 <speaker>ELEANOR.</speaker>
@@ -1390,8 +1390,8 @@ they're a couple of pretty little cock-boats, I intend to splice 'em together, c
 <p>O I shall wrap myself up in the shrouds, peep at 'em from above, then drop souse down upon deck like a water-spout, and overwhelm them; come, come, every man to his gun; touch the wild-fire and away—brisk, brisk, my lad, the engagement is beginning, and the first fire, they say, is half the battle. I'll be with 'em, I warrant you; if I say't I'll do't, that's the humour of Commodore Capstern.</p>
 <stage>(Exit Com. Mart. and Betty.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>the Blue Parlour, with a Closet on each Side.</stage></head>
 <stage>Enter COLONEL LOVEMORE.</stage>
 <sp>
@@ -1842,8 +1842,8 @@ sea, a young pilot, and little provision but love.</p>
 </lg>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

@@ -7,11 +7,11 @@
 <extent>xv,[1],424p. ; 8⁰.</extent><publicationStmt><publisher>printed by Beatniffe and Payne; and sold by Messrs. F. and C. Rivington; and Messrs. Elmsley and Bremner, London,</publisher><date>1798.</date><pubPlace>Norwich :</pubPlace></publicationStmt><notesStmt><note>The prospectus, 'Proposals for publishing by subscription one volume in octavo of plays and poems', was earlier issued.</note><note>With a list of subscribers.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT42452.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
     <pb facs="15"/>
     <p>HUNIADES; OR, THE SIEGE OF BELGRADE: A Tragedy.</p>
-    </div1>
-    <div1 type="introduction">
+    </div>
+    <div type="introduction">
     <pb facs="16"/>
     <head>INTRODUCTION.</head>
     <p>SIGISMOND, the son of the Emperor Charles IV. was elected King of Hungary 1386, and Emperor of Germany 1410. His first wife, Mary, being dead, he espoused, about the year 1414, Barbara, the daughter of Hernan, Count of Cilley. Sigismond made the Counts of Cilley independent Princes of the Empire; and called them to the Diets, without the consent of the House of Austria, their supreme Lords, who, unwilling to emancipate the County from its dependance upon them, declared war against the Count in possession. By Barbara, Sigismond had only one child, a daughter, named Elizabeth. Sigismond died 1437.</p>
@@ -31,8 +31,8 @@
     <pb n="8" facs="21"/>
     these, his followers, he entered Belgrade to assist in its defence against Mahomet, who was become the terror of all Christendom by his conquests, his enterprising genius, his capacious mind improved by all the learning of the age, his indefatigable industry in the pursuit of whatever he undertook, his irresistible courage, his insatiable cruelty, his avowed impiety, his blood-thirstiness, his immeasurable ambition, his impious treachery, and his unrelenting flinty-hearted severity; so that against his ambition there was no mound, on his faith or friendship no dependance, and in his least displeasure death.</p>
     <p>Huniades, who was gone to Upper Hungary, to raise supplies, was expected to sail from Buda, with a fleet of ships and gallies stored with warlike provisions; when Mahomet, having been a month before Belgrade, prepared to give a general assault, although his superstitious troops were much dispirited from the appearance of two comets<note n="*" place="foot">D'Ohsson's Hist. Gen. of the Othoman Empire, vol. 1. p. 539.</note>; and the death of Carazius the Lieutenant-General, who was killed by a canon-shot from the city; which circumstances they considered as prognosticks of ill success. At this time, A. D. 1456, August 5, the fleet of Huniades came in sight, and was met by Mahomet's fleet four miles up the Danube beyond Belgrade.</p>
-    </div1>
-    <div1 type="dramatispersonae">
+    </div>
+    <div type="dramatispersonae">
     <pb facs="22"/>
     <head>DRAMATIS PERSONAE.</head>
     <list>
@@ -58,21 +58,20 @@
     <item><hi>ZOGANUS;</hi> a Bashaw, Ambassador to the Hungarians.</item>
     <item><hi>Bashaws, Agas, Janizaries, Guards, Mutes,</hi> &amp;c.</item>
     </list>
-    </div1>
+    </div>
     <set><p><hi>Scene</hi> THE CITY OF BELGRADE, AND THE SULTAN'S TENT BEFORE IT.</p>
     <p><hi>Era</hi> A.D. 1456: Time—from the Noon of the 5th of August to Sun-rising, August 6th.</p></set>
-    <div1 type="notice">
+    <div type="notice">
     <head>ADVERTISEMENT.</head>
     <p>In the representation, many passages were left out: they are not however distinguished; as they will easily be perceived by persons acquainted with the nature of stage effect.</p>
-    </div1>
+    </div>
 </front>
 <body>
-<div1 type="play">
-<div2 n="1" type="act">
+<div n="1" type="act">
 <pb facs="24"/>
 <head>HUNIADES; OR, THE SIEGE OF BELGRADE.</head>
 <head>Act First.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>A HALL OF STATE.</stage></head>
 <stage>Several doors, from inner apartments, opening into the hall. In the front folding doors, Count Cilley coming forward through them; a couch seen in the inner apartment, from which he rises as the curtain draws up. Rodolpho following him.</stage>
 <stage>COUNT CILLEY, RODOLPHO.</stage>
@@ -297,8 +296,8 @@
 <l>With thy accustom'd zeal my orders execute.</l>
 </sp>
 <stage>Exit Rodolpho.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>COUNT CILLEY, THE GOVERNOR MICHAEL ZILUGO.</stage>
 <stage>(Zilugo enters hastily as Rodolpho goes out.)</stage>
@@ -619,8 +618,8 @@
 <l>There your advice, as Uncle to the Princess,</l>
 <l>With due respect and deference will meet.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="28" facs="41"/>
 <head>SCENE THIRD.</head>
 <stage>CORVINUS, COUNT CILLEY, THE GOVERNOR MICHAEL ZILUGO.</stage>
@@ -699,8 +698,8 @@
 <l>Belgrade, and slaughter thousands at thy will.</l>
 </sp>
 <stage>Exit Count Cilley.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>CORVINUS, THE GOVERNOR MICHAEL ZILUGO.</stage>
 <sp>
@@ -748,8 +747,8 @@
 <l>To save a Throne, a Kingdom, and a Friend.</l>
 </sp>
 <stage>(Zilugo goes out.)</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>CAMPESTRAN, CORVINUS.</stage>
 <sp>
@@ -979,13 +978,13 @@
 <l>And make the measure of my bliss complete.</l>
 </sp>
 <stage>Exeunt separately.</stage>
-</div3>
+</div>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="39" facs="52"/>
 <head>Act Second.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>A CHURCH.</stage></head>
 <stage>The platform of the high altar raised a step above the floor of the church, and of sufficient breadth for any body to walk upon it, without coming to the edge of the step, which is covered with crimson cloth. A large altar table, covered with crimson velvet, fringed with gold. At the back of the altar, over the table, a luminous Cross; under which hangs a magnificent Sword, suspended from a rich belt. On each side of the altar, upon the raised platform, footstools covered like the altar table. The Princess Agmunda, kneeling upon the footstool on the south side, or left hand, of the altar.</stage>
 <sp>
@@ -1000,8 +999,8 @@
 <l>Defeat their stratagems, confound their counsels;</l>
 <l>And aid thy servant who now fights our cause.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="40" facs="53"/>
 <head>SCENE SECOND.</head>
 <stage>THE PRINCESS; ELLA.</stage>
@@ -1094,8 +1093,8 @@ Corvinus wishes—</l>
 <l>Aid me, kind heaven! against this rooted passion;</l>
 <l>Assist me to forget this dear Corvinus!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>THE PRINCESS, CORVINUS.</stage>
 <sp>
@@ -1403,8 +1402,8 @@ Corvinus wishes—</l>
 <stage>(Corvinus opens the door on the North side of the altar, speaking to Campestian, who comes forward.)</stage>
 <l>Campestran waits to join our hands. Good father▪</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="52" facs="65"/>
 <head>SCENE FOURTH.</head>
 <stage>THE PRINCESS, CORVINUS, CAMPESTRAN.</stage>
@@ -1509,13 +1508,13 @@ Corvinus wishes—</l>
 <l>To guard my Princess, and my charming Bride.</l>
 </sp>
 <stage>(<hi>Campestran goes through the altar door by which he entered; Corvinus follows him leading the Princess.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="56" facs="69"/>
 <head>Act Third.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>THE CHURCH.</stage></head>
 <sp>
 <speaker>PRINCESS</speaker>
@@ -1529,8 +1528,8 @@ Corvinus wishes—</l>
 <l>Dare I to hope protection in my guiltiness?</l>
 <l>Hope, Mercy ne'er recorded my rash Oath.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE SECOND.</head>
 <stage>THE PRINCESS, COUNT CILLEY, MICHAEL ZILUGO, &amp; THE LORDS OF THE COUNCIL.</stage>
 <stage>The Governor Michael Zilugo, and the Lords of the Council, in their robes over their armour; their swords by their sides, ranged on the North side of the altar. Zilugo much nearer the altar than the other Lords; very attentive to all Count Cilley's movements.</stage>
@@ -1561,8 +1560,8 @@ Corvinus wishes—</l>
 <l>I can direct the storm, and point its rage.</l>
 </sp>
 <stage>(Exit Count Cilley.)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THIRD.</head>
 <stage>THE PRINCESS, MICHAEL ZILUGO, LORDS OF THE COUNCIL.</stage>
 <sp>
@@ -1667,8 +1666,8 @@ Corvinus wishes—</l>
 <l>Defraud thee of thy due. O sainted spirit!</l>
 <l>Look down, forgive me, pity my distress!</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="61" facs="74"/>
 <head>SCENE FOURTH.</head>
 <stage>THE PRINCESS, MICHAEL ZILUGO, THE LORDS OF THE COUNCIL.</stage>
@@ -2067,8 +2066,8 @@ Give me not up by force to this destroyer!</l>
 <l>As to his Father thou hast kept thy Oath.</l>
 </sp>
 <stage>(Exit in a rage.)</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>THE PRINCESS, MICHAEL ZILUGO, THE LORDS OF THE COUNCIL, PEOPLE.</stage>
 <sp>
@@ -2101,13 +2100,13 @@ Give me not up by force to this destroyer!</l>
 <l>Will to some act of desperation tempt him.</l>
 </sp>
 <stage>(<hi>The Princess returns to the altar; the Governor and Council go out: the scene closes.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="75" facs="88" ana="y"/>
 <head>Act Fourth.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>THE TENT OF MAHOMET.</stage></head>
 <stage>A magnificent Tent, occupying the greatest part of the stage, in width; its form circular. The outer tent forming a hall of audience. Two doors, at the back of the tent, conducting to the interior part of it. In the middle, between the two doors, a splendid Throne, with a canopy over it; the drapery of the canopy hanging from a large crescent, representing gems. At each side of the tent, near the front, a rich sofa. The side scenes about the tent trees. The scene behind the tent the Turkish Camp; a crescent on the top of each tent.</stage>
 <stage>The scene drawing discovers Mustapha, seated on one of the sofas. An Aga enters the tent, holding his right hand motionless on his breast, according to the Turkish manner of salutation.</stage>
@@ -2120,8 +2119,8 @@ Give me not up by force to this destroyer!</l>
 <l>Conduct him hither.</l>
 </sp>
 <stage>Exit Aga.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="76" facs="89"/>
 <head>SCENE SECOND.</head>
 <stage>MUSTAPHA, CHUSANES.</stage>
@@ -2239,8 +2238,8 @@ Give me not up by force to this destroyer!</l>
 <l>Nature has left her noblest work imperfect,</l>
 <l>In mighty Mahomet's splendid, savage soul.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="80" facs="93"/>
 <head>SCENE THIRD.</head>
 <stage>MAHOMET, MUSTAPHA, CHUSANES.</stage>
@@ -2380,8 +2379,8 @@ Then give them chains, not death.</l>
 <l>Detain'd?
 <stage>(<hi>Chusanes goes out, and instantly returns, as meeting Zoganus; he conducts him in, and then retires.</hi>)</stage></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="84" facs="97" ana="y"/>
 <head>SCENE FOURTH.</head>
 <stage>MAHOMET, MUSTAPHA, ZOGANUS.</stage>
@@ -2536,8 +2535,8 @@ Then give them chains, not death.</l>
 <l>Thou hast thy master's thanks for this good service.</l>
 </sp>
 <stage>(<hi>Exit Zoganus.</hi>)</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>MAHOMET, THE PRINCESS.</stage>
 <stage>(The Aga conducting the Princess; a Guard enters with her; an untwisted turban covering her face as a veil: the Aga takes it off, and then retires.)</stage>
@@ -2594,7 +2593,7 @@ Then give them chains, not death.</l>
 <l>For, by the Soul of my great Father Amurath,</l>
 <l>By this good Sword, I swear<note n="*" place="foot">The following is the Oath of the Turkish Sultans. "By the Immortal God, by the four hundred Prophets, by Mahomet, by my Father's Soul, by my own Children, by the Sword wherewith I am girt, I solemnly swear to perform what I have now promised." This Oath was sworn by Mahomet at the sacking of Constantinople, 1453, three years before the Era of this Tragedy, when he promised the soldiers, that if they could take the City, they should have the spoil of it for three days.</note> ne'er to resign—</l>
 </sp>
-<stage>(During the greatest part of this speech, the Princess seems absorbed in deep thought, and solemn grief; her eyes bent on the ground. When Mahomet says, "ne'er to resign—" with a sudden burst of anguish and terrour, as of one awaked in a fright, she throws herself at the Sultan's feet.)</stage>
+<stage>(During the greatest part of this speech, the Princess seems absorbed in deep thought, and solemn grief; her eyes bent on the ground. When Mahomet says, <quote type="dialog">"ne'er to resign—"</quote> with a sudden burst of anguish and terrour, as of one awaked in a fright, she throws herself at the Sultan's feet.)</stage>
 <sp>
 <pb n="91" facs="106"/>
 <speaker>PRINCESS.</speaker>
@@ -2829,8 +2828,8 @@ Thy honour shall be safe—fifty brave Janizaries</l>
 <l>If there be aught of human in thy heart,</l>
 <l>Say, by what virtuous means I may awaken it.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE SIXTH.</head>
 <stage>MAHOMET, THE PRINCESS, MUSTAPHA.</stage>
 <stage>(<hi>Mustapha comes in sight on the same side on which the Princess stands; but does not enter the tent.</hi>)</stage>
@@ -2854,8 +2853,8 @@ To the inner tent conduct the Princess:</l>
 <stage>(<hi>The Aga of the Guards opens the door of the inner tent on the right-hand side: the Guard
 <pb n="99" facs="114"/>
 range themselves on the same side with the Sultan, so that the Princess may enter the tent without passing near them. When entered, the door of the tent closes; the Guards retire.)</hi></stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE SEVENTH.</head>
 <stage>MAHOMET, MUSTAPHA.</stage>
 <sp>
@@ -2883,8 +2882,8 @@ range themselves on the same side with the Sultan, so that the Princess may ente
 <l>Conduct the Christian Dervis to our presence,</l>
 <l>He shall persuade the Princess.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE EIGHTH.</head>
 <stage><hi>MAHOMET, CAMPESTRAN</hi>
 (<hi>in Chains</hi>).</stage>
@@ -2978,8 +2977,8 @@ range themselves on the same side with the Sultan, so that the Princess may ente
 <l>Here, I allow thee to hold converse with him.</l>
 </sp>
 <stage>(<hi>Campestran goes towards the inner Tent, the Princess, seeing him, comes forward, the dagger in her hand.</hi>)</stage>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="103" facs="118"/>
 <head>SCENE NINTH.</head>
 <stage>MAHOMET, THE PRINCESS, CAMPESTRAN.</stage>
@@ -3010,8 +3009,8 @@ range themselves on the same side with the Sultan, so that the Princess may ente
 <l>Implore the Throne of Mercy for this Hero,</l>
 <l>And save the guardian Genius of your Race!</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="104" facs="119"/>
 <head>SCENE TENTH.</head>
 <stage>MAHOMET, THE PRINCESS, CAMPESTRAN, MUSTAPHA.</stage>
@@ -3171,8 +3170,8 @@ range themselves on the same side with the Sultan, so that the Princess may ente
 <l>And take my bride, my fair, my bright Sultana.</l>
 </sp>
 <stage>(The Princess, supported by Campestran, goes into the inner tent; stopping at the Sword and Casque as she passes them.</stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="109" facs="124"/>
 <head>SCENE ELEVENTH.</head>
 <stage>MAHOMET, MUSTAPHA.</stage>
@@ -3197,15 +3196,15 @@ range themselves on the same side with the Sultan, so that the Princess may ente
 <l>They are a sight for Gods to view, and praise.</l>
 </sp>
 <stage>(<hi>Exeunt.</hi>)</stage>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="110" facs="125"/>
 <head>Fifth Act.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE FIRST—<stage>THE SULTAN'S TENT.</stage></head>
-<stage>(<hi>In the interval between the Fourth and Fifth Act, the word</hi> "Mahomet" <hi>given; first heard near, and distinctly, from many voices; then dying away at a distance. Just before the scene draws for the Fifth Act, a discharge of several canon; then shouting and warlike music. The scene drawing discovers Mustapha in the Tent. The Sultan's Guards ranged on the outside of the Tent. Another discharge of cannon. The door of the inner tent opens: the Princess seen seated on a sofa, fainting, attendants supporting her.</hi></stage>
+<stage>(<hi>In the interval between the Fourth and Fifth Act, the word</hi> <said direct="true">"Mahomet"</said> <hi>given; first heard near, and distinctly, from many voices; then dying away at a distance. Just before the scene draws for the Fifth Act, a discharge of several canon; then shouting and warlike music. The scene drawing discovers Mustapha in the Tent. The Sultan's Guards ranged on the outside of the Tent. Another discharge of cannon. The door of the inner tent opens: the Princess seen seated on a sofa, fainting, attendants supporting her.</hi></stage>
 <sp>
 <speaker>MAHOMET,</speaker>
 <stage>(<hi>Coming forward, to the Attendants in the tent</hi>).</stage>
@@ -3240,9 +3239,9 @@ Aga! sound my charge,</l>
 <l>Roar on! and sweep</l>
 <l>My foes from earth. Hark!!—</l>
 </sp>
-<stage>(<hi>The alarm word,</hi> "Duma," <hi>from many voices. Mahomet takes his fabre from the throne. The alarm word again and again. Then,</hi> "Huniades," <hi>from many voices.</hi>)</stage>
-</div3>
-<div3 n="2" type="scene">
+<stage>(<hi>The alarm word,</hi> <said direct="true">"Duma,"</said> <hi>from many voices. Mahomet takes his fabre from the throne. The alarm word again and again. Then,</hi> <said direct="true">"Huniades," </said><hi>from many voices.</hi>)</stage>
+</div>
+<div n="2" type="scene">
 <pb n="112" facs="127"/>
 <head>SCENE SECOND.</head>
 <stage>MAHOMET, MUSTAPHA, CHUSANES, AGAS AND JANIZARIES.</stage>
@@ -3289,8 +3288,8 @@ Aga! sound my charge,</l>
 <l>Or Death, or Victory; lead, mighty Prince!</l>
 </sp>
 <stage>(<hi>Mahomet goes out, attended by Chusanes, the Agas, and the Janizaries. The standard borne before him.</hi>)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="114" facs="129"/>
 <head>SCENE THIRD.</head>
 <stage>THE PRINCESS, MUSTAPHA, GUARDS.</stage>
@@ -3472,8 +3471,8 @@ But what have I</l>
 </sp>
 <stage>(<hi>The Princess retires into the inner Tent.</hi>)</stage>
 <stage>(<hi>A discharge of Cannon, a confused noise, &amp; shrieks heard.</hi>)</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE FOURTH.</head>
 <stage>MAHOMET, CHUSANES, ZOGANUS, AGAS, SPAHIES, JANIZARIES, MUSTAPHA, &amp;c.</stage>
 <stage>Mahomet, wounded and exhausted, brought in by the Agas; a turban bound round him. The Agas support him; as he recovers, he struggles to shake them off; they still hold him.</stage>
@@ -3628,8 +3627,8 @@ must make it beam upon thy mind:</l>
 <l>Deign to retreat; stay not to be a captive!</l>
 </sp>
 <stage>(<hi>The Janizaries force Mahomet back; Mustapha, Chusanes, Zoganus, range themselves before the Sultan, so as to face the Hungarians.</hi>)</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE FIFTH.</head>
 <stage>(<hi>A shout. HUNIADES enters, followed by VILACH and the Hungarians.</hi>)</stage>
 <sp>
@@ -3647,8 +3646,8 @@ must make it beam upon thy mind:</l>
 <l>Huniades! Thy arm I still defy.</l>
 </sp>
 <stage>(<hi>Cannon and shouts.</hi>)</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE SIXTH.</head>
 <stage>HUNIADES, VILACH, MUSTAPHA, HUNGARIAN OFFICERS AND SOLDIERS.</stage>
 <sp>
@@ -3771,8 +3770,8 @@ Leader of armies! King of Kings! accept</l>
 <speaker>VILACH.</speaker>
 <l>Heaven grant we may▪</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="129" facs="144"/>
 <head>SCENE SEVENTH.</head>
 <stage>HUNIADES, MUSTAPHA, OFFICERS AND SOLDIERS.</stage>
@@ -3793,8 +3792,8 @@ Leader of armies! King of Kings! accept</l>
 <stage>(Exit guarded.)</stage></l>
 </sp>
 <stage>(Exeunt Hungarian Soldiers.)</stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE EIGHTH.</head>
 <stage>HUNIADES, THE PRINCESS.</stage>
 <sp>
@@ -3985,7 +3984,7 @@ O, spare Huniades!</l>
 <stage>(<hi>Holding up her hands in a supplicating manner.</hi>)</stage>
 <l><pb n="135" facs="150"/>Forsake me not!</l>
 </sp>
-<stage>(<hi>During this speech, Huniades is much agitated, The Princess hangs upon his arm: he turns from her to hide his tears, covering his face with his hand. When she says, with a voice of heart-piercing anguish,</hi> "forsake me not," <hi>Huniades clasps her in his arms.</hi>)</stage>
+<stage>(<hi>During this speech, Huniades is much agitated, The Princess hangs upon his arm: he turns from her to hide his tears, covering his face with his hand. When she says, with a voice of heart-piercing anguish,</hi> <said direct="true">"forsake me not,"</said> <hi>Huniades clasps her in his arms.</hi>)</stage>
 <sp>
 <speaker>HUNIADES.</speaker>
 <l>Forsake thee!—
@@ -4134,8 +4133,8 @@ is the Tent;</l>
 <l>Release my tortur'd soul! O, take me! take me!</l>
 </sp>
 <stage>(<hi>She sinks into the arms of Huniades.</hi>)</stage>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE NINTH.</head>
 <stage>CORVINUS, HUNIADES, THE PRINCESS.</stage>
 <sp>
@@ -4241,10 +4240,9 @@ She lov'd thee for thy valour.</l>
 <l>To know, I leave her Champion in my Son.</l>
 </sp>
 <stage>(Leans on Corvinus.)</stage>
-</div3>
+</div>
 <trailer>End of the Fifth Act.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

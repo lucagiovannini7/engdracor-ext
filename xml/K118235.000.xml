@@ -7,7 +7,7 @@
 <extent>39,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed by J. Exshaw, for the Company of Booksellers,</publisher><date>1785.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCT164526.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>AEROSTATION; OR, THE TEMPLAR'S STRATAGEM.</p>
 <p>A <hi>FARCE.</hi></p>
@@ -15,8 +15,8 @@
 <p>As it is performed with Applause at the THEATRE-ROYAL IN COVENT-GARDEN.</p>
 <p>DUBLIN Printed by J. EXSHAW, for the COMPANY of BOOKSELLERS.</p>
 <p>MDCCLXXXV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>DEDICATION.</head>
 <head type="sub">TO THE Right Hon. LORD GRANTLEY, CHIEF JUSTICE IN <hi>EYRE.</hi></head>
@@ -25,8 +25,8 @@
 <pb n="iv" facs="3"/>highest Windows, and set the fleetest Pursuers at Defiance, who are only able to follow him upon Terra firma. I need not inform your Lordship that Poets are the only living Creatures, the <hi>Camelion</hi> excepted, that have any Interest, or <hi>Real Property in Air:</hi> It is well known that they have <hi>built</hi> in that Element; and, unpleasing Reflection! have often been condemned to <hi>feed</hi> upon it. Ariosto obtained from Apollo the Fee Simple of all that vast Tract of Territory which lies between Italy and the Moon. Milton, fired with a Genius more than mortal, shot up into the Heaven of Heavens! and, with Millions of flaming Cherubims at his Chariot Wheels, made all the Empyreal Firmament his own; whilst Shakespear, on the Wings of Inspiration, his head crown'd with Lightning, and his Hand arm'd with Thunder, subdued and peopled a vast <hi>Aerial Continent</hi> with Beings of his own wild and wonderful Creation! After the respectable Names I have just mentioned, who possess so large a <hi>Property in Air,</hi> I trust you will take the Matter into your most serious Consideration: but do not suppose, my Lord, that I am influenc'd by any selfish Motives in this Address; I solemnly declare <hi>all my Property</hi> in <hi>Nubibus</hi> as yet, consists of a few <hi>temporary Booths,</hi> which I have <hi>occasionally</hi> ran up for the Accommodation of some <hi>merry Acquaintances</hi> who are fond of enjoying
 <pb n="v" facs="4"/>a hearty Laugh at any ridiculous Shew the Crowd are admiring. I feel my own Want of Importance too sensibly to expect any Application of mine for the <hi>Security of Estates in Air,</hi> can deserve your Notice; but I am confident that the Names of Milton and Shakespear will ever find a Patron in a Man of fine Taste and cultivated Understanding.</p>
 <closer><signed>I have the Honour to remain, With the most profound Respect, MY LORD, Your most devoted, and obedient Servant, FREDERICK PILON.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. WILSON.</stage>
@@ -84,8 +84,8 @@
 <l>Assist our wishes, grant the meed we claim,</l>
 <l>Praise that inspires, and smiles that guard our fame!</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -104,15 +104,14 @@
 <item><label>KITTY,</label> Mrs. MORTON.</item>
 <item><label>MILLENER,</label> Mrs. POUSSIN.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>AEROSTATION.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage>A STREET.</stage></head>
 <stage><hi>Enter</hi> KITTY <hi>and</hi> DAWSON.</stage>
 <sp>
@@ -289,8 +288,8 @@
 <p>No, Dawson; I give it up; if you have so many scruples about parting with a light guinea, I'm sure you'll make no kind of scruple of with-holding from me a heavy one.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="13" facs="12"/>
 <head>SCENE II.</head>
 <stage>MINEALL<hi>'s Apartments in the</hi> Temple. QUARTO, GEORGE GORDON, <hi>and</hi> MINEALL, <hi>discovered sitting at a Table, Wine and Glasses before them.</hi></stage>
@@ -514,8 +513,8 @@
 <p>No, my dear, that letter was wrote to get you something that's due to yourself.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>SCRIP'S <hi>House. A library, globes, mathematical instruments, and loose papers on a Table.</hi></stage>
 <sp>
@@ -792,13 +791,13 @@
 <p>And how I shall envy you when I see you below!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="24" facs="23"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage>A GARDEN.</stage></head>
 <stage><hi>Enter</hi> GEORGE GORDON <hi>and Miss</hi> HARLAND.</stage>
 <sp>
@@ -855,8 +854,8 @@
 <p>And I fancy the widow will be so much of his opinion, that you will have no occasion for it.</p>
 </sp>
 <stage><hi>Exeunt</hi> George <hi>and Miss</hi> Harland.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A Library.</hi> SCRIP, QUARTO, MINEALL, <hi>and Mrs.</hi> GRAMPUS. Quarto <hi>furnished with a huge fur Cap, and a thread-bare Surtout Coat.</hi></stage></head>
 <sp>
 <speaker>Quar.</speaker>
@@ -1198,8 +1197,8 @@
 <p>Come along, my dear,—this way, and I'll pay the bill upon sight for you.</p>
 </sp>
 <stage><hi>Exeunt</hi> Mineall, Scrip <hi>and</hi> Millener.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>An elegant apartment: Mrs.</hi> Grampus, <hi>and</hi> Dawson <hi>as Baron</hi> Bubblebergen <hi>discovered.</hi></stage>
 <sp>
@@ -1338,8 +1337,8 @@
 <p>I have, sir; and should he disappoint me, could prevail upon his sister to fill his place:—away, sir, we shall be observ'd.</p>
 </sp>
 <stage><hi>Exeunt</hi> Dawson <hi>and</hi> Mineall.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><pb n="35" facs="34"/>Scene <hi>changes to a Garden.</hi></stage>
 <stage><hi>Enter</hi> Quarto <hi>and</hi> Mineall <hi>(each with a large pistol in his hand.)</hi></stage>
 <sp>
@@ -1585,10 +1584,9 @@
 <speaker>Mine.</speaker>
 <p>I earnestly request, Mr. Scrip, that you would lay both your oars and your wings aside, for the rest of the day, and join in the happiness of my friend George and his lovely Sophia! I know no feeling so grateful to the human heart as to reflect we have succeeded in our most interesting attempt; and there is nothing now wanting <stage>(addressing the audience)</stage> but your support and protection to elevate us without the aid of Aerostation.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>THE END.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

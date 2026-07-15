@@ -7,25 +7,25 @@
 <extent>viii,79,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for Shepperson and Reynolds,</publisher><date>1794.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Page 75 misnumbered 7; a variant has page 75 correctly numbered.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45456.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>LOVE'S FRAILTIES: A COMEDY IN FIVE ACTS, AS PERFORMED AT THE THEATRE ROYAL, COVENT-GARDEN.</p>
 <p>BY THOMAS HOLCROFT.</p>
 <p>LONDON: PRINTED FOR SHEPPERSON AND REYNOLDS, NO. 137, OXFORD STREET.</p>
 <p>1794.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THOSE passages that are printed in <hi>Italics</hi> (not including the French) were omitted on the first representation, one excepted, page 66, of which the words that then gave offence are distinguished by capitals. They are thus pointed out that the reader, who in the heat of political zeal has not quite lost his understanding, may examine what there is in them injurious to truth, or the good of mankind, and find it, if he can. In different times and under different feelings, it will appear astonishing that any one of these passages were suppressed, from any apprehension of political resentment: but such was the fact. That the one unwarily retained should excite the anger which was testified is still more astonishing. A sentence so true as to have been repeated in a thousand different modes: for all strong moral truths are subject to such repetition. A sentence that, under a variety of forms and phraseology, is proverbial in all nations. It ought however to be remembered, that the persons offended, though violent, were few. Their intention doubtless was good: the same cannot be affirmed of their intellect.</p>
 <p>Those who are acquainted with German literature, and who have read the drama entitled, <hi>Der Deutsche Hausvater,</hi> by the Baron von Gemmingen, will immediately perceive that the author has availed himself of various incidents and thoughts in that piece; though his fable, characters, and denouement are exceedingly different. Others, who wish to satisfy their curiosity but who cannot read German, may find a French translation of that piece in volume VI. of a work entitled <hi>Nouveau Theatre Allemand,</hi> by M. M. Friedel and de Bonneville.</p>
 <closer><dateline>Newman-Street, <date>February 11, 1794.</date></dateline></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb n="iv" facs="3"/>
 <p>THE reasons which have occasioned the alteration of price in the present comedy ought to be stated to the public. The previous knowledge of men and manners, and the extraordinary efforts of study, time, and talents, which are necessary to produce a play that has but a chance of being sanctioned by the town, are sufficiently obvious. The labourer is worthy of his hire. In the beginning of the present century, the price of an octavo play was eighteen pence. Since that period, the price of paper has been doubled; the expence of printing is advanced in nearly the same ratio; and advertising, which now amounts to a considerable sum, was then a burthen unknown. It has long been the complaint of the trade that the purchase of the copy-right, added to the above costs, occasioned plays to be a dangerous speculation. The new tax on paper, in addition to all these, has made it impossible, at the former price, to reward authors, and afford the bookseller a reasonable hope of profit. These considerations have induced an advance of price, at which it is presumed no just reasoner will take offence.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. BERNARD.</byline>
@@ -84,8 +84,8 @@
 <l>"So may he live and fight another day."</l>
 </lg>
 <p>[For the subject of this Prologue, and the lines marked with inverted commas, the author is indebted to a literary friend.]</p>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="6"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. ESTEN.</byline>
@@ -133,8 +133,8 @@ Like those poor Arabs who in deserts live,</l>
 <l>Happy in this, you know our good intent,</l>
 <l>And take in honest part what honestly is meant.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <item><label>Sir Gregory Oldwort</label> Mr. QUICK.</item>
@@ -152,15 +152,14 @@ Like those poor Arabs who in deserts live,</l>
 <item><label>Mrs. Wilkins</label> Mrs. PLATT.</item>
 <item><label>Julette</label> Miss LESERVE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>LOVE'S FRAILTIES: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The House of Sir <hi>GREGORY OLDWORT.</hi></stage></head>
 <stage>SEYMOUR, <hi>Lady</hi> LOUISA.</stage>
 <sp>
@@ -402,8 +401,8 @@ world is the slave of opinion, and we are the slaves of the world.</p>
 <speaker>Sir Greg.</speaker>
 <p>Where are you all?</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Enter Sir</hi> GREGORY OLDWORT.</stage></head>
 <sp>
 <speaker>Lady L.</speaker>
@@ -509,8 +508,8 @@ fleeces his fellows with the greatest adroitness!—Have you seen Lady Fancourt 
 <p><stage>(With severity)</stage> Sir, if ever you expect any favour or countenance from me, go, this very day, and tomorrow, and every day, and assiduously pay your court to that lady. I'll hear no answer.</p>
 <stage>[Exit Seymour.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Sir</hi> GREGORY, <hi>Lady</hi> LOUISA.</stage></head>
 <sp>
 <speaker>Lady L.</speaker>
@@ -585,8 +584,8 @@ fleeces his fellows with the greatest adroitness!—Have you seen Lady Fancourt 
 <speaker>Sir Greg.</speaker>
 <p>What have you heard?</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Enter Footman and Mr. <hi>MUSCADEL.</hi></stage></head>
 <sp>
 <speaker>Foot.</speaker>
@@ -673,8 +672,8 @@ fleeces his fellows with the greatest adroitness!—Have you seen Lady Fancourt 
 <speaker>Sir Greg.</speaker>
 <p><stage>(With great anxiety and half whispering)</stage> Here's somebody coming!</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>Re-enter</hi> SEYMOUR.</stage></head>
 <sp>
 <speaker>Seym.</speaker>
@@ -700,8 +699,8 @@ fleeces his fellows with the greatest adroitness!—Have you seen Lady Fancourt 
 <speaker>Sir Greg.</speaker>
 <p>Begone, I say! <stage>[Exit Seymour.</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>Sir <hi>GREGORY,</hi> Lady <hi>LOUISA,</hi> and Mr. <hi>MUSCADEL.</hi></stage></head>
 <sp>
 <speaker>Sir Greg.</speaker>
@@ -995,13 +994,13 @@ one colour: a parish clerk, whose whole vocabulary begins and ends in amen. I am
 <speaker>Musc.</speaker>
 <p>Meteors, Sir Gregory; which you terrestrials may gaze at, but cannot reach: a kind of rainbow, the splendor of which everybody admires, but nobody can equal. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Painting Room of Mr. <hi>CRAIG.</hi></stage></head>
 <stage>Pictures every where dispersed, some hanging, some standing on the ground. The furniture mean: Mr. Craig painting; Paulina at work, and singing.</stage>
 <sp>
@@ -1089,8 +1088,8 @@ one colour: a parish clerk, whose whole vocabulary begins and ends in amen. I am
 <speaker>Craig.</speaker>
 <p>There is no if. I am degraded. Thy beauty and understanding might tempt a monarch: but I'm a painter! A hireling! A gentleman would contemn me, would expect me to fawn. I'll perish first! Ay, and, dearly as I love thee, thou shalt perish too!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Enter</hi> NANNETTE</stage></head>
 <stage>(With a basket with bread, &amp;c.)</stage>
 <sp>
@@ -1274,8 +1273,8 @@ her, I will paint her a picture shall make the fortune of her whole family! Tell
 <p>True. The lord to whom I sent a pair of pictures has appointed to see me. I must go. Yet why? I shall gain no admittance. Not at home, is the everlasting answer. The insolent porter will scarcely open the gate wide enough for my hand to enter. But I am poor, and must wait, and come again, and again, and take affronts patiently. So it is. The lord within, sits in state, reveling, banqueting, and tantalizing the palled appetite; while the wretch without, repulsed, insulted, and refused his due, is perhaps perishing with hunger!</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>PAULINA, NANNETTE.</stage></head>
 <sp>
 <speaker>Nan.</speaker>
@@ -1407,8 +1406,8 @@ her, I will paint her a picture shall make the fortune of her whole family! Tell
 <speaker>Pau.</speaker>
 <p>I'll write to him this instant! I'll write in tears; or if they are too weak to move him, in blood! Let him read, and if he have the power, if he have the heart, let him suffer me longer to remain in this excruciating torment! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>The Dressing-room of Lady <hi>FANCOURT</hi>—</stage></head>
 <stage>Lady <hi>FANCOURT</hi> at her toilette: <hi>JULETTE</hi> waiting.</stage>
 <sp>
@@ -1570,8 +1569,8 @@ lunatic?—Leave me, my good girl—I'll raise your wages.</p>
 <speaker>Julette.</speaker>
 <p>No indeed, sir!</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>Enter Mr. <hi>MUSCADEL.</hi></stage></head>
 <sp>
 <speaker>Musc.</speaker>
@@ -1918,8 +1917,8 @@ as candlemas-day, in a country-hall, and a visit from the vicar.</p>
 <speaker>Musc.</speaker>
 <p><stage>(Aside)</stage> No, even this shall not throw me off my guard. In love, as in war, the cool combatant has the best chance of victory.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>Enter Footman and <hi>SEYMOUR.</hi></stage></head>
 <sp>
 <speaker>Lady F.</speaker>
@@ -2008,8 +2007,8 @@ as candlemas-day, in a country-hall, and a visit from the vicar.</p>
 <pb n="29" facs="36"/>
 were in my life. Never—But I am sorry to punish you both, by leaving you together. You will soon miss me! Charles, don't begin to yawn too soon. And let me tell you a secret, before I go. Woman, you know, is a riddle: the solution to which is, you must either use her very ill, or be treated worse by her than a straggling hound by a whipper-in. La, la, la, la. Good-morrow to your ladyship. Don't think I am splenetic. Ha, ha, ha! I am not jealous, Charles. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage>SEYMOUR, <hi>Lady</hi> FANCOURT.</stage></head>
 <sp>
 <speaker>Seym.</speaker>
@@ -2114,11 +2113,11 @@ were in my life. Never—But I am sorry to punish you both, by leaving you toget
 <pb n="31" facs="38"/>
 stupefaction! My mind confused, my powers confounded, I despise my own imbecility yet cannot shake it off! Like hag-ridden sleep, gasping for breath, and heaving for motion, I am chained down in agonizing impotence! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The House of Sir <hi>GREGORY OLDWORT.</hi></stage></head>
 <stage><hi>Sir</hi> GREGORY <hi>meeting</hi> JAMES.</stage>
 <sp>
@@ -2299,8 +2298,8 @@ stupefaction! My mind confused, my powers confounded, I despise my own imbecilit
 <speaker>Sir Greg.</speaker>
 <p>The manners of this malicious age are insufferable! If one of our ancient Barons thought proper to have his concubine, what vassal refused his daughter? Who durst breathe disapprobation? He had a certain cure for calumny; a gallows, on his own domains; himself the judge. But now his very Menials sit in judgment on his character; and sip it up in tea, coffee, limmonade, and the rest of their contemptible small tipple.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Enter Mrs. <hi>WILKINS</hi> and <hi>JAMES.</hi></stage></head>
 <sp>
 <speaker>Sir Greg.</speaker>
@@ -2452,8 +2451,8 @@ stupefaction! My mind confused, my powers confounded, I despise my own imbecilit
 <speaker>Mrs. W.</speaker>
 <p>At this moment. <stage>(Sir Gregory rings)</stage> She has a father, and an old gouvernante.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Enter <hi>JAMES</hi> with a large hat and roquelaure.</stage></head>
 <sp>
 <speaker>James.</speaker>
@@ -2495,8 +2494,8 @@ stupefaction! My mind confused, my powers confounded, I despise my own imbecilit
 <speaker>Sir Greg.</speaker>
 <p><stage>(To Mrs. Wilkins)</stage> Up with your cloak; down with your curtain!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>Enter</hi> SEYMOUR.</stage></head>
 <sp>
 <speaker>Mrs. W.</speaker>
@@ -2578,8 +2577,8 @@ stupefaction! My mind confused, my powers confounded, I despise my own imbecilit
 <speaker>Seym.</speaker>
 <p>Why, ay. Riches, rank, and power, bought at the expence of perturbation, perjury, and—murder!—I know her heart: she could not, would not, survive my treachery!</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>Enter Lady <hi>LOUISA.</hi></stage></head>
 <sp>
 <speaker>Lady L.</speaker>
@@ -2674,8 +2673,8 @@ stupefaction! My mind confused, my powers confounded, I despise my own imbecilit
 <speaker>Lady L.</speaker>
 <p>Brother! Charles! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="39" facs="46"/>
 <head>SCENE VI. <stage>The Painter's.</stage></head>
 <stage><hi>Mrs.</hi> WILKINS <hi>and</hi> NANNETTE.</stage>
@@ -2777,8 +2776,8 @@ vhen dee <hi>Chevalier</hi> Oldvort is return, you tell a me; <hi>et nous verron
 <speaker>Nan.</speaker>
 <p><hi>Bon dieu!</hi> Dee <hi>Chevalier</hi> Oldvort! Vat shall I vill do?</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>Enter</hi> CRAIG.</stage></head>
 <stage>(With great chearfulness)</stage>
 <sp>
@@ -2888,8 +2887,8 @@ I'm to be paid this afternoon. The steward was out and I, tradesman like, must c
 <speaker>Nan.</speaker>
 <p>Ha! Dat is mit vhat dee Milors pay dere debt: call again! Call again? Ha! I don't a lofe call again. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage>Changes to the House of Sir <hi>GREGORY OLDWORT.</hi></stage></head>
 <stage>Enter Lady <hi>LOUISA</hi> meeting <hi>CHARLES.</hi></stage>
 <sp>
@@ -2936,8 +2935,8 @@ I'm to be paid this afternoon. The steward was out and I, tradesman like, must c
 <speaker>Lady L.</speaker>
 <p>I am ruined! Mr. Compton is ruined!</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>Enter Sir <hi>GREGORY</hi> (With Letter)</stage></head>
 <sp>
 <speaker>Sir Greg.</speaker>
@@ -3017,8 +3016,8 @@ I'm to be paid this afternoon. The steward was out and I, tradesman like, must c
 <p>Ay and you, sir, if you utter another word; you too, with your inclinations! Nay, if an hour hence I find you here, madam, the next hour shall rid me of you both!</p>
 <stage>[Exit throwing down the letter.</stage>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage>SEYMOUR, <hi>Lady</hi> LOUISA.</stage></head>
 <sp>
 <speaker>Seym.</speaker>
@@ -3059,11 +3058,11 @@ now your only protector: it is fit I should devote myself. Were it only myself�
 <p>We must not argue, must not think; that were distraction: my hour at length is come, and now act I must. Oh, Paulina! I'll see her once more, take one last eternal adieu, then, if my heart strings hold but this, crack them who can!</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Painter's.</stage></head>
 <stage><hi>Lady</hi> FANCOURT, <hi>Mrs.</hi> WILKINS.</stage>
 <sp>
@@ -3079,8 +3078,8 @@ now your only protector: it is fit I should devote myself. Were it only myself�
 <speaker>Lady F.</speaker>
 <p><stage>(Aside)</stage> Why am I here? Rivaled by an obscure unprotected indigent creature? I? Flattered and pursued as I have been, for my beauty rank and riches, and rivaled? Thus rivaled too? Dreading, envying, nay half hating a low born girl, whom I have never seen? Is it real? Can I thus stoop and forget my better reason and my proud fortunes? What miracle is she; and what poor pitiable thing am I?</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Enter <hi>PAULINA.</hi> Salute.</stage></head>
 <sp>
 <speaker>Lady F.</speaker>
@@ -3201,8 +3200,8 @@ rules of an arrogant and interested world I have but little respect.</p>
 <speaker>Lady F.</speaker>
 <p><stage>(Aside)</stage> She aims to tower above me! Am I unjust? Is it not pride in her? Is it not presumption? In some gifts perhaps my equal, in others surely she is my inferior. And shall I cede the high claims of love; the dear affections of the heart? But their passion is mutual. Be it so: what is it but mutual folly? My views are rational, my motives dignified, and merit success. Her's are romantic, fatal to order and the peace of families, and must be shall be frustrated.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Re-enter Mrs. <hi>WILKINS.</hi></stage></head>
 <sp>
 <speaker>Mrs. W.</speaker>
@@ -3234,8 +3233,8 @@ rules of an arrogant and interested world I have but little respect.</p>
 <pb n="48" facs="55"/>
 he? Why is he still absent? My letter unanswered! What are his thoughts? What are his feelings? What are his designs? Oh!— <stage>(Falls in a chair covering her face with her hands.)</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>Enter</hi> NANNETTE.</stage></head>
 <sp>
 <speaker>Pau.</speaker>
@@ -3269,8 +3268,8 @@ he? Why is he still absent? My letter unanswered! What are his thoughts? What ar
 <speaker>Nan.</speaker>
 <p><hi>Chut! Taisez vous!</hi> Your fader is come.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>Enter</hi> CRAIG.</stage></head>
 <sp>
 <speaker>Craig.</speaker>
@@ -3300,8 +3299,8 @@ he? Why is he still absent? My letter unanswered! What are his thoughts? What ar
 <speaker>Craig.</speaker>
 <p>Wages, counted out by a menial, for work done and delivered for his master. Ah!—</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="49" facs="56"/>
 <head>SCENE VI. <stage>Enter <hi>SEYMOUR,</hi> dejectedly.</stage></head>
 <sp>
@@ -3377,8 +3376,8 @@ he? Why is he still absent? My letter unanswered! What are his thoughts? What ar
 <speaker>Craig.</speaker>
 <p>Various. I have a picture I wish to shew you. It still wants a few touches. I have left it in the parlour. Will you have the goodness to wait a moment? <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage>PAULINA <hi>runs to</hi> SEYMOUR.</stage></head>
 <sp>
 <speaker>Pau.</speaker>
@@ -3442,8 +3441,8 @@ he? Why is he still absent? My letter unanswered! What are his thoughts? What ar
 <pb n="51" facs="58"/>
 Thou art mine!—Cast thy eyes up to heaven; remember what thou hast sworn; remember who hath heard thee! <stage>(With frantic fervour)</stage>—By that divine, that just, that avenging essence, whose immaculate name thou hast made thy pledge, I will not survive thy falshood! <stage>(Again with agony)</stage> Thou art mine! Thou art mine! <stage>(Rising)</stage> Why talk of surviving? The maddening brain is murdered by the bare suspicion!</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage>Re-enter <hi>CRAIG</hi> with the picture; whose mind is so occupied through the scene by his picture, that he does not attend to the agitation of Paulina and Seymour.</stage></head>
 <sp>
 <speaker>Craig.</speaker>
@@ -3509,8 +3508,8 @@ waiting for her expected lover, and imagining all his superior qualities of soul
 <speaker>Craig.</speaker>
 <p>It is strange!—Is it imagination, or—? <stage>(A knocking heard)</stage> Come in!</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage><hi>Enter Lady</hi> LOUISA COMPTON.</stage></head>
 <sp>
 <speaker>Lady L.</speaker>
@@ -3528,8 +3527,8 @@ waiting for her expected lover, and imagining all his superior qualities of soul
 <speaker>Craig.</speaker>
 <p><stage>(Looks round)</stage> She was here this minute! Nannette!</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage>Enter <hi>NANNETTE:</hi> hastily with hat and cloak over her arm.</stage></head>
 <sp>
 <speaker>Nan.</speaker>
@@ -3543,8 +3542,8 @@ waiting for her expected lover, and imagining all his superior qualities of soul
 <speaker>Nan.</speaker>
 <p><hi>Je ne sçais pas.</hi> She vas run out, und I am run after. <stage>[Exit: in great haste.</stage></p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>CRAIG, <hi>Lady</hi> LOUISA.</stage></head>
 <sp>
 <speaker>Craig.</speaker>
@@ -3738,8 +3737,8 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Craig.</speaker>
 <p>Thunder strike!</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <stage>Enter <hi>NANNETTE:</hi> in great distress.</stage></head>
 <sp>
 <speaker>Nan.</speaker>
@@ -3775,8 +3774,8 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Nan.</speaker>
 <p><hi>Ah ma pauvre maitresse!</hi> Mine friend! Mine shile! Vat shall I vill do? <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII. <stage>Changes to the Drawing-room of Lady <hi>FANCOURT:</hi></stage></head>
 <stage>Her ladyship seated at a table.</stage>
 <sp>
@@ -3799,8 +3798,8 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Pau.</speaker>
 <p>Let me pass! I will see her! I will!</p>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV. <stage>Enter <hi>PAULINA:</hi> runs distractedly and throws herself at the feet of Lady <hi>FANCOURT.</hi></stage></head>
 <sp>
 <speaker>Pau.</speaker>
@@ -3863,8 +3862,8 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Pau.</speaker>
 <p>I will not rise; I will not quit this spot! What are your rights? Do they equal oaths, registered in heaven? Are they as sacred?</p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV. <stage>Enter Lady <hi>LOUISA.</hi></stage></head>
 <sp>
 <speaker>Lady L.</speaker>
@@ -3886,8 +3885,8 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Lady F.</speaker>
 <p>Never in my life was so assaulted; so overpowered! Pray look to her—Or call for aid—I cannot support it. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <head>SCENE XVI. <stage><hi>Lady</hi> LOUISA, PAULINA.</stage></head>
 <sp>
 <speaker>Pau.</speaker>
@@ -3958,8 +3957,8 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Pau.</speaker>
 <p><stage>(Falling on her knees and clasping her hands)</stage> Mercy!—Mercy!—Oh, have mercy on a poor distracted wretch.</p>
 </sp>
-</div3>
-<div3 n="17" type="scene">
+</div>
+<div n="17" type="scene">
 <head>SCENE XVII. <stage><hi>Enter</hi> CRAIG.</stage></head>
 <sp>
 <speaker>Craig.</speaker>
@@ -3998,11 +3997,11 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Lady L.</speaker>
 <p>If you love your daughter, be patient. Her passions are not in a state to be sported with. 'Tis growing late; I will convey her home; sleep will sooth and restore her.</p>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Drawing-room of Lady <hi>FANCOURT.</hi></stage></head>
 <stage><hi>SEYMOUR</hi> and Lady <hi>LOUISA:</hi> meeting.</stage>
 <sp>
@@ -4070,8 +4069,8 @@ fear has made me a little peevish; perhaps a little proud, and—Friends?—I do
 <speaker>Lady L.</speaker>
 <p>Generous Charles! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>The Painting-room.</stage></head>
 <stage>Sir <hi>GREGORY</hi> sitting to <hi>CRAIG</hi> for his portrait.</stage>
 <sp>
@@ -4197,8 +4196,8 @@ the present puny race; and neither their passions nor their bodies have sufficie
 <speaker>Craig.</speaker>
 <p>Back!—What do you take us for; coiners, <hi>or courtiers?</hi> We dare daylight; and, though poor, look the world in the face.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="64" facs="71"/>
 <head>SCENE III. <stage><hi>Enter</hi> MUSCADEL.</stage></head>
 <sp>
@@ -4229,8 +4228,8 @@ the present puny race; and neither their passions nor their bodies have sufficie
 <speaker>Craig.</speaker>
 <p>As you please, sir.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>CRAIG <hi>and</hi> MUSCADEL.</stage></head>
 <sp>
 <speaker>Musc.</speaker>
@@ -4358,8 +4357,8 @@ the present puny race; and neither their passions nor their bodies have sufficie
 <speaker>Musc.</speaker>
 <p><stage>(Singing)</stage> La, la, la, la, la. The drapory is tolerable.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>Enter</hi> PAULINA <hi>and</hi> NANNETTE.</stage></head>
 <sp>
 <speaker>Craig.</speaker>
@@ -4478,8 +4477,8 @@ the present puny race; and neither their passions nor their bodies have sufficie
 <speaker>Craig.</speaker>
 <p>Jones. <stage>[Exeunt Craig and Muscadel.</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>PAULINA, NANNETTE.</stage></head>
 <sp>
 <speaker>Pau.</speaker>
@@ -4498,15 +4497,15 @@ the present puny race; and neither their passions nor their bodies have sufficie
 <speaker>Nan.</speaker>
 <p><hi>He come!</hi> Retirez vous un moment: vite, vite! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage>Enter <hi>MUSCADEL:</hi> peeping.</stage></head>
 <sp>
 <speaker>Musc.</speaker>
 <p>So, so! There they go! I may chance to make some notable discoveries here. If they would but serve me with Lady Fancourt!—She has used me vilely! But no matter—Time has produced strange things, and may again—This Sir Gregory! The old poacher! His portrait the pretence! The rival of his nephew! Yet as cynical supercilious and surly as if he were a saint. <stage>(Listens)</stage> He is coming <stage>(Looking round)</stage> Why, ay; these pictures are most convenient hiding places. <stage>(Muscadel goes behind pictures)</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage>Enter Sir <hi>GREGORY:</hi> with his cloak and hat on, first looking in, then advancing cautiously.</stage></head>
 <sp>
 <speaker>Sir Greg.</speaker>
@@ -4570,8 +4569,8 @@ this painting room is too public. I am glad I escaped that fop Muscadel.</p>
 <speaker>Sir Greg.</speaker>
 <p>I hope I run no risk here. Malicious tongues are always busy; and a good character is like a gamester's money, very difficult to keep, and when lost still more difficult to regain—Miss! <stage>(Calling)</stage>—Here's somebody! <stage>(Hurries on his cloak)</stage></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage><hi>Enter</hi> PAULINA.</stage></head>
 <sp>
 <speaker>Pau.</speaker>
@@ -4724,8 +4723,8 @@ this painting room is too public. I am glad I escaped that fop Muscadel.</p>
 <speaker>Pau.</speaker>
 <p>No—Here all such claims end. Henceforth they are forgotten. Farewell. There is no relationship between us. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage><hi>Sir</hi> GREGORY, <hi>and</hi> MUSCADEL.</stage></head>
 <sp>
 <speaker>Musc.</speaker>
@@ -4773,8 +4772,8 @@ Relationship!—Uncle!—Sister! <stage>(Muscadel purposely throws down the ease
 <speaker>Musc.</speaker>
 <p>Oh! What you won't know me?</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>Enter Mrs. <hi>WILKINS:</hi> in a fright.</stage></head>
 <sp>
 <speaker>Mrs. W.</speaker>
@@ -4837,8 +4836,8 @@ Relationship!—Uncle!—Sister! <stage>(Muscadel purposely throws down the ease
 <speaker>Mrs. W.</speaker>
 <p>This way, your ladyship!</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <stage>Enter Lady <hi>FANCOURT</hi> followed by <hi>PAULINA.</hi></stage></head>
 <stage>[Exit Mrs. Wilkins.</stage>
 <sp>
@@ -4922,8 +4921,8 @@ Relationship!—Uncle!—Sister! <stage>(Muscadel purposely throws down the ease
 <speaker>Musc.</speaker>
 <p><stage>(Seizing and kissing it)</stage> Raptures!</p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII. <stage>Enter Lady <hi>LOUISA.</hi></stage></head>
 <sp>
 <speaker>Pau.</speaker>
@@ -5124,8 +5123,8 @@ Relationship!—Uncle!—Sister! <stage>(Muscadel purposely throws down the ease
 <p>A lucky thought! Do.</p>
 <stage>[Exit Lady Louisa.</stage>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV. <stage><hi>Sir</hi> GREGORY, MUSCADEL, <hi>Lady</hi> FANCOURT, PAULINA.</stage></head>
 <sp>
 <speaker>Sir Greg.</speaker>
@@ -5230,8 +5229,8 @@ benevolence. But I am young and shall know better in time.</p>
 <speaker>Sir Greg.</speaker>
 <p>Rise, Paulina, rise.</p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV. <stage><hi>Enter</hi> SEYMOUR, CRAIG CAMPBELL, <hi>and Lady</hi> LOUISA.</stage></head>
 <sp>
 <speaker>Seym.</speaker>
@@ -5300,9 +5299,8 @@ and be as happy as we can? <stage>(Tenderly)</stage> Must we not?</p>
 <p>Why this is true delight—Love, friendship, and benevolence, catching and spreading from mind to mind, from heart to heart; modeling the young, melting the old, and harmonizing all. May the principle and the practice become universal!</p>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

@@ -7,11 +7,11 @@
 <extent>xv,[1],430p. ; 4⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1784.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Cancels E4,Ii3,Rr3,Uu3 and Aa3 are known.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT90106.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="360"/>
 <p>THE MAUSOLEUM; A COMEDY, OF THREE ACTS, IN RHYME.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="361"/>
 <head>Persons of the Drama.</head>
 <list>
@@ -28,16 +28,15 @@
 <item>MRS. RUMBLE.</item>
 </list>
 <p>SERVANTS, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 <set><p>SCENE, <hi>the magnificent Villa of</hi> LADY SOPHIA.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="362"/>
 <head>THE MAUSOLEUM.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>Carey <hi>and</hi> Frances.</stage>
 <sp>
 <speaker>FRANCES.</speaker>
@@ -970,11 +969,11 @@
 <l>And Trope will delight in some retaliation.</l>
 </sp>
 <trailer><hi>End of</hi> ACT I.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>Miss Jasper <hi>and</hi> Gerrard.</stage>
 <sp>
 <speaker>MISS JASPER.</speaker>
@@ -1565,8 +1564,8 @@
 <l>Let us go—he'll be happy to kiss your fair hand.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage>[<hi>The Scene changes to the inside of a grand Mausoleum; on one side, a large oblong Tomb of white marble, on the other, some steps ascending from a subterraneous passage.</hi> Jasper <hi>appears in the Gown and Cap of</hi> Sir Simon.]</stage>
 <sp>
 <speaker>JASPER.</speaker>
@@ -1763,12 +1762,12 @@
 <stage>Exeunt different ways.</stage>
 </sp>
 <trailer><hi>End of</hi> ACT II.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="414" facs="423"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE I.</hi> <stage>The Mausoleum.</stage></head>
 <stage><hi>Enter</hi> Trope <hi>with</hi> Facil, <hi>laughing.</hi></stage>
 <sp>
@@ -2264,10 +2263,9 @@
 <l>In a partner like you find the surest relief,</l>
 <l>And to sensible joy turn fantastical grief!</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

@@ -7,19 +7,19 @@
 <extent>68,[4]p. : ill. ; 12⁰.</extent><publicationStmt><publisher>printed for W. Feales,</publisher><date>1737.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Titlepage in red and black.</note><note>With two final leaves of advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26882.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1" ana="y"/>
 <pb facs="2"/>
 <p><figure>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE Perjur'd Husband: OR, THE Adventures of VENICE. A TRAGEDY. As it is Acted at the THEATRE-ROYAL IN <hi>DRURY-LANE.</hi> BY His MAJESTY's Servants.</p>
 <p>Written by Mrs. CENTLIVRE.</p>
 <p><hi>LONDON:</hi> Printed for W. FEALES, at <hi>Rowe</hi>'s-<hi>Head,</hi> over-against <hi>St. Clement</hi>'s <hi>Church</hi> in the <hi>Strand,</hi> M.DCC.XXXVII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>To His GRACE WRIOTHESLY, DUKE of BEDFORD.</head>
 <opener><salute>May it please your Grace,</salute></opener>
@@ -31,16 +31,16 @@ Town in my Play, I may boldly say I have copied the greatest Part of Mankind in 
 <p>I may plead Prescription in Excuse of this Presumption, and tell how Poets in all Ages have pretended a Right to lay their Works at some Nobleman's Feet; but I'd rather submit to your Grace's Goodness; for if I have offended, 'tis a Fault of the best kind, and proceeds from too much Zeal to let the World know how much I am,</p>
 <closer><salute>My Lord,</salute>
 <signed>Your Grace's most Obedient, and Devoted Humble Servant, <hi>Susanna Centlivre.</hi></signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="6"/>
 <head>PREFACE.</head>
 <p><seg rend="decorInit">I</seg> SHOULD not trouble my Reader with a Preface, if Mr. <hi>Collier</hi> had taught Manners to <hi>Masks,</hi> Sense to <hi>Beaus,</hi> and Good Nature to <hi>Criticks,</hi> as well as Morality to the Stage; the first are sure to envy what they can't equal, and condemn what they don't understand; the <hi>Beaus</hi> usually take a greater Liberty with our Sex than they wou'd with their own, because there's no Fear of drawing a Duel upon their Hands; the latter are a Sort of rude splenatick Men, that seldom commend any thing but what they have had a Hand in. These snarling Sparks were pleas'd to carp at one or two Expressions, which are spoken in 'em Aside by one of the inferior Characters in the Drama; and without considering the Reputation of the Persons in whose Mouths the Language is put, condemn it strait for loose and obscure: Now (with Submission to better Judges) I cannot believe that a Prayer-Book shou'd be put into the Hands of a Woman, whose innate Virtue won't secure her Reputation; nor is it reasonable to expect a Person, whose Inclinations are always forming Projects to the Dishonour of her Husband, shou'd deliver her Commands to her Confident in the Words of a Psalm. I heartily wish that those that find fault with the Liberty of my Stile, wou'd be pleas'd to set a Pattern to the Town, by retrenching some of their Debaucheries, for Modesty thrives best by Example. Modest Language from the truly Virtuous is expected; I mean such as will neither act ill, nor suffer ill to be acted: It is not enough that <hi>Lucy</hi> says she's honest, in having denied the Brutal Part; who ever thinks Virtue centers in that, has a wrong Notion of it; no, Virtue is a tender Plant, which cannot live in tainted Ground; Virtue is what the Air
 <pb facs="7"/>
 of Flattery cannot blast, nor the vile sordid Dross of Gain poison; and she that can withstand these two Shocks, may be stil'd truly Virtuous. I ask my Reader's Pardon for my Bluntness, but I hope none of my Sex so qualified will condemn me for exposing the Vices of the seeming Religious</p>
 <p>I fear there are but too many hit by the Character of Signora <hi>Pizalta;</hi> I wish, for the sake of the reverse Party, there were fewer, or they better known, since the malicious World are so apt to judge of Peoples Inclinations by the Company they keep; which is sometimes authentick, but not always an infallible Rule. I shall say little in Justification of the Play, only desire the Reader to judge impartially, and not condemn it by the Shortness of its Life, since the Season of the Year never promis'd much better Success. It went off with general Applause; and 'tis the Opinion of some of our best Judges, that it only wanted the Addition of good Actors, and a full Town, to have brought me a Sixth Night, there having been worse Plays within this Twelve-month approv'd of.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="8"/>
 <head>THE PROLOGUE.</head>
 <byline>By a GENTLEMAN.</byline>
@@ -63,8 +63,8 @@ of Flattery cannot blast, nor the vile sordid Dross of Gain poison; and she that
 <l>Defies the boldest <hi>Briton</hi> of you all;</l>
 <l>Whate'er's her Fate, she's sure to gain the Field,</l>
 <l>For Women always conquer, when they yeild.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="9"/>
 <head>THE EPILOGUE.</head>
 <byline>By Mr. B—.</byline>
@@ -99,8 +99,8 @@ of Flattery cannot blast, nor the vile sordid Dross of Gain poison; and she that
 <l>Their lawful Empire o'er immortal Wit.</l>
 <l>When all this heavy Task is well perform'd,</l>
 <l>We dare ingage the Stage shall be reform'd.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -132,15 +132,15 @@ of Flattery cannot blast, nor the vile sordid Dross of Gain poison; and she that
 <list>
 <item><hi>Maskers, Dancers, Singers,</hi> and <hi>Attendants.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, VENICE, in Carnival-Time.</p></set>
 </front>
 <body>
 <head><pb facs="12"/>
 THE PERJUR'D HUSBAND.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The Curtains fly up, and discover a Mask in</hi> Pizalto<hi>'s House.</hi> Pizalto, <hi>Lady</hi> Pizalta, Lucy; Ludovico <hi>talking to Lady</hi> Pizalta; Bassino <hi>and</hi> Aurelia <hi>talking together</hi>; Florella <hi>and other Maskers.</hi></stage>
 <stage><hi>A</hi> Spanish <hi>Entry.</hi></stage>
@@ -222,8 +222,8 @@ THE PERJUR'D HUSBAND.</head>
 </lg>
 <stage>[<hi>Exit</hi> Lucy.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>The Scene changes to</hi> Bassino<hi>'s Lodgings and discovers the Count in his Night-gown, a Table with Lights, and Letters lying on the Table.</hi></stage>
 <sp>
@@ -327,8 +327,8 @@ THE PERJUR'D HUSBAND.</head>
 <l>My Lord, 'tis with Regret I see you go,</l>
 <l>May Heaven assist you in this dangerous Strife.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Aurelia<hi>'s Chamber</hi>; <hi>She in an Undress with</hi> Florella.</stage>
 <sp>
@@ -709,8 +709,8 @@ THE PERJUR'D HUSBAND.</head>
 <l>May Heaven deny me at my latest Prayer,</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="24" facs="23"/>
 <head>SCENE IV.</head>
 <stage>Ludovico's <hi>Lodgings.</hi></stage>
@@ -769,13 +769,13 @@ THE PERJUR'D HUSBAND.</head>
 Harkee Child, step into the next Chamber, and I'll answer your Message instantly— <stage>[<hi>Exit</hi> Lucy.]</stage> Let me see— <stage>[Reads in his Table Book]</stage> <hi>Monday,</hi> at Two in the Afternoon I am to meet Signiora <hi>Belleza</hi> at her Nurse's—She's a pretty Rogue, and so I'll go—At Three of the Clock, Signiora <hi>Dorinda</hi> the Senator's Wife, at the <hi>Indian</hi> House—Pshaw, she's an old Acquaintance,—I shan't go—At half an Hour past Three, the Countess <hi>Wrinkle,</hi> who presented me with a Gold-hilted Sword—Silly Fool! does she think I'll bestow one of my Visits on an old shrivelled Piece of Antiquity, for a trifling Present, not worth above three-score Pistoles—At a Quarter past Four, my Semstress <hi>Dorothy Steenkirk,</hi> who supplies me with Linen,—Oh! this Visit may be put off for a new Intrigue—And so I'll acquaint the Messenger.</p>
 <stage>[<hi>Exit</hi> Ludovico.</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="26" facs="25"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Chamber in Signior</hi> Pizalto<hi>'s House.</hi></stage>
 <stage><hi>Enter Lady</hi> Pizalta, Lucy.</stage>
@@ -941,8 +941,8 @@ rich, covetous, noble <hi>Venetian</hi>; beautiful, young, generous, and of a fa
 </lg>
 <stage>[<hi>Exit</hi> Lucy.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>The</hi> Piazza d' Espagna <hi>in</hi> Venice.</stage>
 <stage><hi>Enter Lady</hi> Pizalta <hi>sola.</hi></stage>
@@ -1237,13 +1237,13 @@ Say, my charming Angel, do you forgive me? But why do I ask? your Eyes assure me
 <l>I wrong a Wife, a Mistress, and a Friend.</l>
 <stage>[Ex. Bassino,</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="36" facs="35"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage> Aurelia<hi>'s Lodgings.</hi></stage>
 <stage><hi>Enter</hi> Aurelia, Florella.</stage>
@@ -1511,8 +1511,8 @@ Say, my charming Angel, do you forgive me? But why do I ask? your Eyes assure me
 <l>And load me with no more than I can bear.</l>
 <stage>[<hi>Exeunt</hi> Aurelia, Florella.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Lady</hi> Pizalta<hi>'s Lodgings.</hi></stage>
 <sp>
@@ -1576,8 +1576,8 @@ have a way to bring you off—My Life on't—This Plot may be of Use to my Desig
 <p>Tell him I'm coming— <stage>[<hi>Exit</hi> Page.</stage> Now by way of Mortification, must I go entertain my old, jealous Husband.</p>
 <stage>[<hi>Exit Lady</hi> Pizalta.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="43" facs="42"/>
 <head>SCENE III.</head>
 <stage>The Piazza.</stage>
@@ -1657,8 +1657,8 @@ have a way to bring you off—My Life on't—This Plot may be of Use to my Desig
 <p>Nothing—I will follow thy Directions, whatever comes on't. Now lead the way: For nothing sutes better with my Humour than a Friend, a Bottle, a new Mistress, and a convenient Place.</p>
 <stage>[<hi>Exit.</hi> Lucy, Ludovico.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Pizalto's <hi>Lodgings.</hi></stage>
 <stage><hi>Enter</hi> Pizalto <hi>with a Bond in his Hand.</hi></stage>
@@ -1698,13 +1698,13 @@ have a way to bring you off—My Life on't—This Plot may be of Use to my Desig
 <l><hi>Man has not me, but I have Man betray'd.</hi></l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="46" facs="45"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Armando<hi>'s Lodgings.</hi></stage>
 <stage><hi>Enter</hi> Armando, Placentia.</stage>
@@ -2113,8 +2113,8 @@ have a way to bring you off—My Life on't—This Plot may be of Use to my Desig
 <l>His Policy, and break his wicked Measures.</l>
 <stage>[<hi>Exit</hi> Armando.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Pizalto<hi>'s Lodgings.</hi></stage>
 <stage><hi>Enter</hi> Pizalto <hi>solus.</hi></stage>
@@ -2280,13 +2280,13 @@ of <hi>Baal,</hi> to offer Sacrifices on the Altar of my Wife? Oh! my Head! my H
 <l>Th' Ally of Danger makes the Pleasure Pain,</l>
 <l>A Virtuous Wife will always be the same.</l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="57" facs="56"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Mask in</hi> Bassino<hi>'s Lodging.</hi></stage>
 <stage>Bassino, Alonzo, Armando, <hi>in a Disguise</hi>; Placentia <hi>in Man's Cloaths, Signior</hi> Pizalto, <hi>Lady</hi> Pizalta, Lucy, &amp;c.</stage>
@@ -2445,8 +2445,8 @@ Fortune in my own Hands, I shall have no Need to sue for a separate Maintenance,
 <p>Where we will quickly follow. <stage>(<hi>Aside.</hi>)</stage> <hi>Alonzo,</hi> a Word with you—</p>
 <stage>[Exit Omnes.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A Chamber in</hi> Aurelia<hi>'s House.</hi></stage>
 <stage><hi>Two Arm-Chairs.</hi> Aurelia <hi>Sola.</hi></stage>
@@ -2946,12 +2946,12 @@ Fortune in my own Hands, I shall have no Need to sue for a separate Maintenance,
 <l>Let our Desires be just; our Lives unsullied here.</l>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="70"/>
 <head>BOOKS Printed for W. FEALES, at <hi>Rowe</hi>'s-<hi>Head,</hi> the Corner of <hi>Essex-Street</hi> in the <hi>Strand.</hi></head>
 <list>
@@ -2983,7 +2983,7 @@ Twenty-fifth Edition, much enlarged and improved.</item>
 <item><hi>Prior</hi>'s Poems, 3 Vols.</item>
 <item>The <hi>Englishman,</hi> the second Vol. by the late Sir <hi>Richard Steel.</hi></item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

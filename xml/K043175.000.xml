@@ -7,7 +7,7 @@
 <extent>v,[3],96p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1759.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Arthur Murphy.</note><note>Pp.[89]-96 contain: "To M. De Voltaire".</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45420.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE ORPHAN OF CHINA, A TRAGEDY, As it is perform'd at the THEATRE-ROYAL, IN DRURY-LANE.</p>
 <quote><l>Nuncia fama ruit, matrisque allabitur aures;</l>
@@ -18,8 +18,8 @@
 <bibl>VIRG.</bibl>
 <p>LONDON: Printed for P. VAILLANT, opposite Southampton-street, in the Strand. MDCCLIX.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE RIGHT HONOURABLE JOHN, Earl of BUTE, GROOM of the STOLE TO HIS Royal Highness the Prince of WALES.</head>
 <opener><salute>MY LORD,</salute></opener>
@@ -32,8 +32,8 @@ relish in the arts, and therefore craves at your Lordship's hands that protectio
 <p>I have the honour to remain, with the truest respect, and most grateful acknowlegement,</p>
 <closer><salute>My Lord,</salute> <signed>Your Lordship's Most obliged, and most devoted humble servant, ARTHUR MURPHY.</signed>
 <dateline>Lincoln's Inn, <date>April 30, 1759</date>.</dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>By WILLIAM WHITEHEAD, <abbr>Esq</abbr> POET-LAUREAT. Spoken by Mr. HOLLAND.</byline>
@@ -81,8 +81,8 @@ relish in the arts, and therefore craves at your Lordship's hands that protectio
 <l><hi>And in his People's</hi> HEARTS OUR MONARCH <hi>reigns.</hi></l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="6"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. YATES.</byline>
@@ -147,8 +147,8 @@ relish in the arts, and therefore craves at your Lordship's hands that protectio
 </lg>
 </sp>
 <stage>Points to the upper gallery.</stage>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <list>
 <head>Dramatis Personae.</head>
@@ -167,14 +167,13 @@ relish in the arts, and therefore craves at your Lordship's hands that protectio
 <item><label>MANDANE, Zamti's wife,</label> Mrs. YATES.</item>
 <item>Messenger, Guards, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, PEKIN, Capital of CHINA.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE ORPHAN of CHINA.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage><hi>Enter</hi> MANDANE <hi>and</hi> MIRVAN.</stage>
 <sp>
@@ -883,8 +882,8 @@ Who then to glory dead can shrink aghast,</l>
 </lg>
 </sp>
 <trailer><hi>End of the First</hi> ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
 <head>ACT II.</head>
 <stage><hi>Enter</hi> ZAMTI.</stage>
@@ -2034,8 +2033,8 @@ To drink the cup of human woe?—alike</l>
 </sp>
 <stage><hi>Exit, leading off</hi> Mandane.</stage>
 <trailer><hi>End of the Second</hi> ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="35" facs="42"/>
 <head>ACT III.</head>
 <head>SCENE <stage><hi>A Temple. Several tombs up and down the stage.</hi></stage></head>
@@ -3116,8 +3115,8 @@ Till even cruelty almost relent</l>
 </sp>
 <stage><hi>Exeunt, on different sides</hi>▪</stage>
 <trailer><hi>End of the Third</hi> ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="53" facs="60"/>
 <head>ACT IV.</head>
 <head>SCENE, <stage><hi>a Prison.</hi> HAMET <hi>in chains.</hi></stage></head>
@@ -4297,8 +4296,8 @@ Thy native dignity by basely kneeling?—</l>
 </sp>
 <stage>Exit, guarded.</stage>
 <trailer><hi>End of the Fourth</hi> ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="73" facs="80"/>
 <head>ACT V.</head>
 <stage><hi>Enter</hi> OCTAR; ZAMTI <hi>and</hi> MANDANE, <hi>following him.</hi></stage>
@@ -5161,12 +5160,11 @@ Shall bless the realm—now let me hence to hail</l>
 <l>And prove the Orphan's guardian to the last.</l>
 </lg>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="letter">
+<div type="letter">
 <pb facs="96"/>
 <head>TO M. DE VOLTAIRE.</head>
 <opener><salute>SIR,</salute></opener>
@@ -5199,7 +5197,7 @@ first distinction. But, give me leave to say, they all know the faults of the pi
 <p>Upon the whole, sir, I beg you will not imagine that I have wrote this Tragedy in the fond hope of eclipsing so celebrated a writer as you are: I had an humbler motive, <hi>propter amorem quod to imitari aveo.</hi> Could I do that in any distant degree, it would very amply gratify the ambition of,</p>
 <closer><salute>Sir,</salute> <signed>your real admirer, and most humble servant, The AUTHOR of The ORPHANS of CHINA.</signed>
 <dateline>London, <date>April 30, 1759.</date></dateline></closer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

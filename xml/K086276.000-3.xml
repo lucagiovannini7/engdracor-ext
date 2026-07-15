@@ -9,7 +9,7 @@
 <front>
 <pb n="143" facs="147"/>
 <head>BLIND-MAN'S BUFF.</head>
-<div1 type="dramatispersonae">
+<div type="dramatispersonae">
 <head>A DRAMA, IN TWO ACTS. CHARACTERS.</head>
 <list>
 <item>Mr. Jephson.</item>
@@ -24,14 +24,13 @@
 <item>Roberts, <hi>their acquaintance.</hi></item>
 <item><hi>Mr. Jephson's Groom.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>an Apartment in the House of Mr. Jephson, with a Table, and upon it Books and other Papers, and a speaking Trumpet in the Corner.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <sp>
 <speaker>Frank,</speaker>
@@ -172,8 +171,8 @@
 <stage>(He leaves the window, and draws near the door.)</stage> Well, is not this surprising! It is like Harlequin's enchanted horn. I think I hear them talking to each other on the stairs. <stage>(He listens.)</stage> Yes, yes! I protest the two Danby's
 <stage>(He puts the trumpet by.)</stage> Suppose I were to jump on the table, and receive them sitting on my throne? <stage>(He runs to fetch a stool that he may put it one the table; and prepares to take a spring, but the arrival of the two Danby's prevents him.)</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Frank, Elder Danby, Younger Danby.</stage>
 <sp>
@@ -293,8 +292,8 @@
 <speaker>Frank.</speaker>
 <p>No, no: we are old friends; and positively no new comer shall divide us. I will take care and manage him, I warrant you.—But do not I hear a noise upon the stairs?—It is Roberts.—No, I see my sister and her company.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="153" facs="157"/>
 <head>SCENE III.</head>
 <stage>Frank, Elder Danby, Younger Danby, Lucy, Isabella, Dorinda, Alice, Laura.</stage>
@@ -398,8 +397,8 @@
 <speaker>Frank.</speaker>
 <p>Hush! here he is.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Frank, Elder Danby, Young Danby, Lucy, Isabella, Dorinda, Alice, Laura, Roberts.</stage>
 <sp>
@@ -603,11 +602,11 @@
 <speaker>Roberts.</speaker>
 <p>Are you? but I will follow you. I do not like to be left alone by night, and in a house where I am a stranger.</p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Frank, Roberts.</stage>
 <sp>
@@ -773,8 +772,8 @@
 <stage>(close.)</stage>
 <p>Ah! ah! you want to frighten others, and are not afraid yourself! Well, well, I have thought of something that will frighten you, or I am very much mistaken.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="166" facs="170"/>
 <head>SCENE II.</head>
 <stage>Frank, Lucy, Isabella, Dorinda, Alice, Elder Danby.</stage>
@@ -1045,8 +1044,8 @@ It is you then that come to steal my treasure?</p>
 <speaker>Frank.</speaker>
 <p>Well then, I take pity on you; but remember, had it been my pleasure, I might easily fly away with you through the window. <stage>(Here the phantom makes his torch glare like lightning, and then goes out. Roberts, almost swooning with terror, salls on his face.)</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE the Last.</head>
 <stage>Roberts, Frank, the Groom, Mr. Jephson.</stage>
 <sp>
@@ -1143,10 +1142,8 @@ It is you then that come to steal my treasure?</p>
 <speaker>Mr. Jephson.</speaker>
 <p>What, sir, is this the sample that you give us of your behaviour, the first time you set foot within my doors? You have been disrespectful to me in the person of my children, who were pleased with the expectation of having you as their guest. You have been disrespectful to these ladies, whom I need not say you should have honoured and regarded. So be gone! Your father, when he comes to know that you have been turned out of doors, will see how necessary it is to correct the vices of your heart. I will not permit your detestable example to corrupt my children. Go, and never let me see you here again! <stage>(Roberts is confounded, and withdraws.)</stage> And you, my friends, although the circumstances of the case may very possibly excuse what you have done, yet never, for the time to come, indulge yourselves in such sport. The fears which have power to affect children at a tender age, may possibly be followed by the worst consequences during their whole life. Avenge yourselves upon the wicked only by behaving better; and remember, after the example which master Roberts has afforded you, that by intending harm to others, you will oftenest bring it down upon yourselves.</p>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
-
 </TEI>

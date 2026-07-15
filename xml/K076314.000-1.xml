@@ -41,12 +41,10 @@
 <set><p>The general SCENES are <hi>Aristomenes</hi>'s Camp near the Walls of <hi>Phaerea;</hi> sometimes the Town of <hi>Phaerea,</hi> and sometimes the Plains among the Shepherds.</p></set>
 </front>
 <body>
-<div1 type="play">
-<div2 type="bodyofplay">
 <pb n="297" facs="304"/>
 <head>ARISTOMENES.</head>
-<div3 n="1" type="act">
-<div4 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>A pleasant Plain by a Wood-side; beyond it are seen, on one side, some of the Shepherds Hamlets; on the other (at a distance) the Walls of <hi>Phaerea,</hi> a Garrison of the <hi>Lacedemonians.</hi></stage>
 <stage>Enter <hi>Climander</hi> meeting <hi>Arcasius;</hi> both drest like Shepherds.</stage>
@@ -550,8 +548,8 @@ Canst thou read there that I have lost a Father,</l>
 <l>When thus disguis'd may not a Princess know.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div4>
-<div4 type="scene">
+</div>
+<div type="scene">
 <pb n="310" facs="317"/>
 <stage>The <hi>SCENE</hi> changes to a Street in the Town of <hi>Phaerea</hi> (the <hi>Lacedemonian</hi> Garrison) a Rabble and many common Soldiers in the Street.</stage>
 <sp>
@@ -579,8 +577,8 @@ Canst thou read there that I have lost a Father,</l>
 <l>Here, here he comes; bear back, bear back.</l>
 <stage>[<hi>Aristomenes</hi> bound and guarded is conducted over the Stage, the Rabble crouding and following him with confus'd Cries and Shouts, Exeunt.</stage>
 </sp>
-</div4>
-<div4 type="scene">
+</div>
+<div type="scene">
 <stage>The <hi>SCENE</hi> changed, discovers a Council-Chamber in <hi>Anaxander</hi>'s Palace: <hi>Anaxander, Clarinthus,</hi> and several Lords of <hi>Sparta.</hi></stage>
 <sp>
 <speaker>Anax.</speaker>
@@ -843,10 +841,10 @@ Of what your frighted Rout will soon abandon.</l>
 <l>Peace and Prosperity to <hi>Lacedemon!</hi></l>
 <stage>[Exeunt.</stage>
 </sp>
-</div4>
-</div3>
-<div3 n="2" type="act">
-<div4 n="1" type="scene">
+</div>
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <pb n="317" facs="324"/>
 <head>ACT II. SCENE I.</head>
 <stage>A Room in the Palace. <hi>Aristor</hi> alone.</stage>
@@ -1303,8 +1301,8 @@ The Field of Honour is his Bed of Ease;</l>
 <l>Be strong that Influence, and thou my Guide.</l>
 <stage>[Exit. led out by the <hi>Fox</hi></stage>
 </sp>
-</div4>
-<div4 type="scene">
+</div>
+<div type="scene">
 <stage>The <hi>SCENE</hi> changes to the Plains by the Woodside</stage>
 <stage>Enter from the Wood <hi>Herminia</hi> alone and faint.</stage>
 <sp>
@@ -1467,10 +1465,10 @@ And not an angry Planet cross'd their Influence:</l>
 <l>Beauty for Youth was made, and Youth alone for Love.</l>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div4>
-</div3>
-<div3 n="3" type="act">
-<div4 n="1" type="scene">
+</div>
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <pb n="333" facs="340"/>
 <head>ACT III. SCENE I.</head>
 <stage>A Myrtle-Grove with a Fountain belonging to <hi>Anaxander's</hi> Palace.</stage>
@@ -1719,8 +1717,8 @@ And say, he kill'd his Daughter in his Foe;</l>
 <l>Th' excess of Hate paid with th' excess of Love.</l>
 <stage>[Exit weeping and leaning on <hi>Philas</hi></stage>
 </sp>
-</div4>
-<div4 type="scene">
+</div>
+<div type="scene">
 <stage>The <hi>SCENE</hi> changes to the Plains.</stage>
 <stage>Enter <hi>Climander.</hi></stage>
 <sp>
@@ -2225,10 +2223,10 @@ With redoubl'd <hi>Paeans</hi> sing him,</l>
 </lg>
 </sp>
 <stage>[Exeunt.</stage>
-</div4>
-</div3>
-<div3 n="4" type="act">
-<div4 n="1" type="scene">
+</div>
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <stage>The General's Pavilion.</stage>
 <stage>Enter Drest in the Habit of an Officer <hi>Demagetus</hi> with <hi>Arcasius.</hi></stage>
@@ -2987,10 +2985,10 @@ And this War done, which now we soon shall finish</l>
 <l><hi>And fight to rest with Peace in these fair Arms.</hi></l>
 <stage>[He leads her off.</stage>
 </sp>
-</div4>
-</div3>
-<div3 n="5" type="act">
-<div4 n="1" type="scene">
+</div>
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <stage>The <hi>SCENE</hi> is the Camp. A Noise of Drums and Trumpets. Enter <hi>Aristomenes, Aristor, Demagetus, Alcander,</hi> several Officers and Soldiers.</stage>
 <stage>Enter an Officer from the other Door, and speaks to the General.</stage>
@@ -3068,8 +3066,8 @@ It sounds so hollow, scarce my Ear receives it.</l>
 <l>And He that loves his Honour, let him come.</l>
 <stage>[He draws his Sword and goes off follow'd by the rest with their Swords drawn, Drums and Shouts of Battle immediately succeed.</stage>
 </sp>
-</div4>
-<div4 type="scene">
+</div>
+<div type="scene">
 <stage>The Noise continues, the <hi>SCENE</hi> changes to a fine Tent.</stage>
 <stage>Enter <hi>Amalintha</hi> follow'd by <hi>Phila.</hi></stage>
 <sp>
@@ -3813,12 +3811,9 @@ The Bloom of Youth sits graceful on thy Brow,</l>
 <l><hi>By Fortune favour'd now, and now opprest,</hi></l>
 <l><hi>And not, 'till Death, secure of Fame, or Rest.</hi></l>
 </sp>
-</div4>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>
-
 </TEI>

@@ -7,25 +7,25 @@
 <extent>[8],56p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. and R. Tonson, and S. Draper,</publisher><date>1756.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Adapted by David Garrick.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT28894.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>Catharine and Petruchio.</p>
 <p>A COMEDY.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>Catharine and Petruchio.</p>
 <p>A COMEDY, IN THREE ACTS. As it is perform'd at the <hi>THEATRE-ROYAL</hi> In DRURY-LANE. Alter'd from SHAKESPEAR's <hi>Taming of the Shrew.</hi></p>
 <p><hi>LONDON:</hi> Printed for J. and R. TONSON, and S. DRAPER, in the <hi>Strand,</hi> 1756.</p>
-</div1>
-<div1 type="editor'snote">
+</div>
+<div type="editor'snote">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>THE following PROLOGUE was Spoken to the Dramatic Pastoral, called the <hi>Winter</hi>'s <hi>Tale,</hi> and this Comedy; both of which are altered from <hi>Shakespear,</hi> and were perform'd the same Night.</p>
 <p>Some of the Lines of the PROLOGUE are only relative to the <hi>Winter's Tale,</hi> yet as the Publication of that Pastoral is defer'd for some Time, and as the PROLOGUE has been particularly desir'd, it is hop'd that it will not be disagreeable to the Reader to see it prefix'd to this Comedy.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE TO THE WINTER's TALE. AND CATHARINE and PETRUCHIO. (Both from SHAKESPEAR.)</head>
 <byline>Written and Spoken by Mr. <hi>GARRICK.</hi></byline>
@@ -91,8 +91,8 @@ Sunk in his Elbow-Chair, no more he'll roam;</l>
 <l>'Tis my chief Wish, my Joy, my only Plan,</l>
 <l>To lose no <hi>Drop</hi> of that immortal Man!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -131,12 +131,12 @@ Sunk in his Elbow-Chair, no more he'll roam;</l>
 <label>Curtis</label>
 <item>Mrs. BRADSHAW.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>PADUA.</hi></p></set>
 </front>
 <body>
 <head><pb facs="70"/>Catharine and Petruchio.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <head>SCENE, <stage>BAPTISTA'S House.</stage></head>
 <stage>Enter <hi>BAPTISTA, PETRUCHIO</hi> and <hi>GRUMIO.</hi></stage>
@@ -703,8 +703,8 @@ As she, or e'er a Wife in <hi>Padua.</hi></l>
 <l>Shall tye her Tongue up, and pare down her Nails.</l>
 <stage>[Exit. <hi>Catharine.</hi></stage>
 </sp>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="24"/>
 <head>ACT. II.</head>
 <stage>Enter <hi>BAPTISTA, HORTENSIO, CATHARINE, BIANCA</hi> and <hi>Attendants.</hi></stage>
@@ -1472,8 +1472,8 @@ My Falcon now is sharp, and passing empty,</l>
 <l>Now let him speak, 'tis Charity to shew.</l>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="41" facs="47"/>
 <head>ACT. III.</head>
 <stage>Enter <hi>CATHARINE</hi> and <hi>GRUMIO.</hi></stage>
@@ -2100,7 +2100,7 @@ To wound thy Lord, thy King, thy Governor,</l>
 <l>Or seek for Rule, Supremacy and Sway,</l>
 <l>Where bound to love, to honour and obey.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

@@ -7,15 +7,15 @@
 <extent>x,[6],100p. ; 8⁰.</extent><publicationStmt><publisher>printed for John Wilkie,</publisher><date>1775.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Richard B. B. Sheridan.</note><note>With a half-title.</note><note>Catchword on p.100: epi-; variant: no catchword on p.100.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45136.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE
 RIVALS,
 A
 COMEDY.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE
 RIVALS,
@@ -24,8 +24,8 @@ COMEDY. As it is ACTED at the
 Theatre-Royal in Covent-Garden.</p>
 <p>LONDON:
 Printed for JOHN WILKIE, No. 71, St. Paul's Church-Yard. MDCCLXXV.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="3"/>
 <head>PREFACE.</head>
 <p>A Preface to a Play seems generally to be
@@ -217,8 +217,8 @@ to be better calculated to lead genius
 into excellence, than either the precepts of
 judgment, or the guidance of experience.</p>
 <closer><signed>THE AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE.</head>
 <byline>BY THE AUTHOR.</byline>
@@ -315,8 +315,8 @@ shew it,—</l>
 <l>Thus, all respecting, he appeals to all,</l>
 <l>And by the general voice will <hi>stand</hi> or <hi>fall.</hi></l>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="11"/>
 <head>EPILOGUE.</head>
 <byline>BY THE AUTHOR.</byline>
@@ -379,8 +379,8 @@ The poorest Peasant of the poorest soil,</l>
 <l>Our Beaux from <hi>Gallantry</hi> would soon be wise;</l>
 <l>Would gladly light, their homage to improve,</l>
 <l>The Lamp of Knowledge at the Torch of Love!</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="14"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -402,16 +402,16 @@ The poorest Peasant of the poorest soil,</l>
 <item>Lucy. Mrs. LESSINGHAM.</item>
 </list>
 <p>Maid, Boy, Servants, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, <hi>Bath.</hi></p>
 <p>TIME of ACTION, Five Hours.</p></set>
 </front>
 <body>
 <head><pb facs="15"/>THE
 RIVALS.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A</hi> STREEET <hi>in</hi> Bath.</stage>
 <stage><hi>Coachman</hi> crosses the stage.—Enter <hi>Fag,</hi> looking
@@ -677,8 +677,8 @@ in Gydes' Porch this evening at eight; meet
 me there, and we'll make a little party.</p>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="5" facs="19"/>
 <head>SCENE II.</head>
 <stage>A Dressing-room in Mrs. <hi>Malaprop</hi>'s lodgings.</stage>
@@ -1428,13 +1428,13 @@ much pride and delicacy to sacrifice the feelings
 of a gentleman to the necessities of his fortune.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="31"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Captain <hi>Absolute</hi>'s Lodgings.</stage>
 <stage>Captain <hi>Absolute</hi> and <hi>Fag.</hi></stage>
@@ -2614,8 +2614,8 @@ am I to be commanded by you too? you little,
 impertinent, insolent, kitchen-bred—</p>
 </sp>
 <stage>[Exit, kicking and beating him.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>The</hi> North Parade.</stage>
 <stage><hi>Enter</hi> Lucy.</stage>
@@ -2876,13 +2876,13 @@ with young Absolute.</p>
 <p>We will—we will.</p>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="37" facs="53"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The</hi> North Parade.</stage>
 <stage><hi>Enter</hi> Absolute.</stage>
@@ -3169,8 +3169,8 @@ and impatience—if you don't, egad, I'll marry the
 girl myself!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Julia</hi>'s Dressing-room.</stage>
 <stage>Faulkland, <hi>solus.</hi></stage>
@@ -3411,8 +3411,8 @@ and long-hoarded spleen, shall make me curse
 my folly half the day, and all the night!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="46" facs="62"/>
 <head>SCENE III.</head>
 <stage>Mrs. <hi>Malaprop's</hi> Lodgings.</stage>
@@ -3973,8 +3973,8 @@ throat!—come along—come along.</p>
 <stage>[Exeunt severally.</stage>
 <stage>[<hi>Beverley</hi> kissing his hand to <hi>Lydia</hi>—Mrs.
 <hi>Malaprop</hi> stopping her from speaking.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE V. <stage>Acres's lodgings.</stage></head>
 <stage><hi>Acres</hi> and <hi>David.</hi></stage>
 <stage><hi>Acres</hi> as just dress'd.</stage>
@@ -4361,13 +4361,13 @@ be as keen, but at the same time as polished as
 your sword.</p>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="59" facs="75"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Acres</hi>'s Lodgings.</stage>
 <stage>Acres <hi>and</hi> David.</stage>
@@ -4710,8 +4710,8 @@ may add that you never saw me in such a rage before
 <p>Aye, aye, "<hi>Fighting Bob!</hi>"</p>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Mrs. <hi>Malaprop</hi>'s Lodgings.</stage>
 <stage>Mrs. <hi>Malaprop</hi> and <hi>Lydia.</hi></stage>
@@ -5356,8 +5356,8 @@ villain!</p>
 <p>O! Sir Anthony!—O fie, Captain!</p>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE IV.</head>
 <stage>The North-Parade.</stage>
 <stage><hi>Enter</hi> Sir Lucius O'Trigger.</stage>
@@ -5653,13 +5653,13 @@ of pride predominate—'twill be best to leave
 her as a toy for some less cautious Fool to sigh for.</p>
 </sp>
 <stage>[<hi>Exit</hi> Faulkland.</stage>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="79" facs="95"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Julia's</hi> Dressing-Room.</stage>
 <stage>Julia, <hi>sola.</hi></stage>
@@ -6207,8 +6207,8 @@ we draw near, so we can't well miss them; never
 fear, Ma'am, never fear.</p>
 </sp>
 <stage>[Exeunt, he talking.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="88" facs="104"/>
 <head>SCENE II.</head>
 <stage>South-Parade.</stage>
@@ -6461,8 +6461,8 @@ Well, I shall be in such a phrenzy—So—this was
 the history of his d—d trinkets! I'll bauble him!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>King's-Mead-Fields.</stage>
 <stage>Sir Lucius <hi>and</hi> Acres, <hi>with pistols.</hi></stage>
@@ -7184,8 +7184,8 @@ hurtless flowers; but ill-judging Passion will
 force the gaudier Rose into the wreath, whose
 thorn offends them, when its Leaves are dropt!</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

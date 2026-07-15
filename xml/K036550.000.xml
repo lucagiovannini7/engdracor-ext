@@ -7,35 +7,35 @@
 <extent>[10],80,[4]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1781.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Adapted from 'The Castle of Otranto', by Horace Walpole.</note><note>With a half-title and an epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34210.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE COUNT OF NARBONNE, A TRAGEDY.</p>
 <p>[Price 1 <hi>s.</hi> 6 <hi>d.</hi>]</p>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="2"/>
 <p><hi>Lately published, By the same Author,</hi>
 <list>
 <item>1. BRAGANZA, a Tragedy.</item>
 <item>2. The LAW OF LOMBARDY, a Tragedy.</item>
 </list></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3"/>
 <p>THE COUNT OF NARBONNE, A TRAGEDY.</p>
 <p>As it is acted at the THEATRE ROYAL In COVENT GARDEN.</p>
 <p>By ROBERT JEPHSON, <abbr>Esq</abbr></p>
 <p>LONDON: Printed for T. CADELL, in the Strand. MDCCLXXXI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <pb facs="5"/>
 <p>TO THE HONOURABLE HORACE WALPOLE, THIS TRAGEDY IS INSCRIBED, WITH THE GREATEST RESPECT AND GRATITUDE, BY HIS MOST OBLIGED AND VERY OBEDIENT HUMBLE SERVANT,</p>
 <closer><signed>ROBERT JEPHSON.</signed>
 <dateline>Dublin Castle,
 <date>Nov. 17, 1781.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. WROUGHTON.</byline>
@@ -98,8 +98,8 @@
 <l>The friend who strives to make your pleasure less.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>Persons Represented.</head>
 <list>
@@ -112,15 +112,15 @@
 <item><label>Jacqueline, <hi>her Attendant.</hi></label> Mrs. MORTON.</item>
 </list>
 <p>Officers, Attendants, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, Narbonne Castle, <hi>and the Monastery of</hi> Saint Nicholas, <hi>adjoining to the Castle.</hi></p></set>
 </front>
-<body><div1 type="play">
+<body>
 <pb facs="9"/>
 <head>THE COUNT OF NARBONNE, A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Hall.</stage>
 <stage>Count, <hi>as he enters, speaking to an Officer</hi>; Fabian <hi>following.</hi></stage>
@@ -314,8 +314,8 @@
 <l>Have found the fugitive.—Haste; bid them enter.</l>
 <stage><hi>Exit</hi> Fabian.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="6" facs="14"/>
 <head>SCENE II.</head>
 <sp>
@@ -333,8 +333,8 @@
 <l>And, fortune to my double aim conspiring,</l>
 <l>I'll silence saucy conscience.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To the</hi> Count, Fabian, Officer, <hi>and Attendants bringing in a young Peasant.</hi></stage>
 <sp>
@@ -597,8 +597,8 @@
 <l>Casts back thy mean suspicions, and forgives thee.</l>
 <stage>Theodore <hi>is led out.</hi></stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Count, Fabian.</stage>
 <sp>
@@ -613,8 +613,8 @@
 <l>Bid holy Austin straight repair to me.</l>
 <stage><hi>Exit</hi> Fabian.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>Count</speaker>
@@ -635,8 +635,8 @@
 <l>With downcast eye, and sad dejected mien.</l>
 <l>I will not yet disclose it.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To him the</hi> Countess.</stage>
 <sp>
@@ -832,13 +832,13 @@
 <l>Courage and art shall arm me from mankind.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="26"/>
 <head>ACT. II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Chamber.</stage>
 <stage>Fabian, Jaqueline.</stage>
@@ -948,8 +948,8 @@
 <l>Is dear to Fabian as his vital blood.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To</hi> Jaqueline, Adelaide.</stage>
 <sp>
@@ -1070,8 +1070,8 @@
 <l>All may be lost, if you betray such weakness.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>ADELAIDE,</speaker>
@@ -1081,8 +1081,8 @@
 <l>Of a dear brother, turning from their source,</l>
 <l>Forget his death, and fall for Theodore.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>To her, the</hi> Countess.</stage>
 <sp>
@@ -1192,8 +1192,8 @@
 <l>And angels lend your tongue the power to move him!</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>COUNTESS,</speaker>
@@ -1214,8 +1214,8 @@
 <l>While Reason just has power enough to whisper,</l>
 <l><hi>Poor wretch! thy peace may come, when death comes with it.</hi></l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="27" facs="35"/>
 <head>SCENE VI.</head>
 <stage><hi>To her,</hi> Count, Austin.</stage>
@@ -1291,8 +1291,8 @@
 <l>Another time; it suits not now.—Retire.</l>
 <stage><hi>Exit</hi> Countess.</stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Count, Austin.</stage>
 <sp>
@@ -1477,13 +1477,13 @@
 <l>Then to his mistress bear the ghastly present.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="33" facs="41"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Hall.</stage>
 <stage>Adelaide, Jaqueline <hi>following.</hi></stage>
@@ -1578,8 +1578,8 @@
 <l>To find no relish in what pleas'd before,</l>
 <l>And sigh for bliss that's unattainable.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To them</hi> Fabian.</stage>
 <sp>
@@ -1622,8 +1622,8 @@
 <l>Soft, bear her gently in.</l>
 <stage>Adelaide <hi>is carried out.</hi></stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="36" facs="44"/>
 <head>SCENE III.</head>
 <sp>
@@ -1637,8 +1637,8 @@
 <l>Wishing in vain for blindness and oblivion.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Count, <hi>followed by</hi> Austin.</stage>
 <sp>
@@ -1751,8 +1751,8 @@
 <speaker>COUNT.</speaker>
 <l>He dies.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>To the</hi> Count <hi>and</hi> Austin, Theodore <hi>brought in.</hi></stage>
 <sp>
@@ -2015,8 +2015,8 @@
 <l>Farewel!—if he he dear to thee, remember.</l>
 <stage><hi>Exit</hi> Count.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Austin, Theodore.</stage>
 <sp>
@@ -2169,13 +2169,13 @@
 <l>Make one great sacrifice of love to justice.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="48" facs="56"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Chamber.</stage>
 <sp>
@@ -2193,8 +2193,8 @@
 <l>What savage tongues would falter even to speak?</l>
 <l>But see, he comes—</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To her</hi> Austin, Jaqueline.</stage>
 <sp>
@@ -2245,8 +2245,8 @@
 <l>But cruelty's hard stroke, more fell than time,</l>
 <l>Works at the base, and shakes it to the centre.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To them, the</hi> Countess.</stage>
 <sp>
@@ -2446,8 +2446,8 @@
 <l>And take the poor man's all, my prayers and blessing.</l>
 <stage><hi>Exit</hi> Austin.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Countess, Adelaide.</stage>
 <sp>
@@ -2478,8 +2478,8 @@
 <l>For one black deed, that threatens all thy race.</l>
 <stage><hi>Exit</hi> Countess.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="55" facs="63"/>
 <head>SCENE V.</head>
 <sp>
@@ -2496,8 +2496,8 @@
 <l>If love has power, with love's soft breath dispel them.</l>
 <stage>Adelaide <hi>retires.</hi></stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>Theodore,</speaker>
@@ -2519,8 +2519,8 @@
 <l>Now let the present moment, Love, be thine!</l>
 <l>For ill, come when it may, must come untimely.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>To him,</hi> Adelaide.</stage>
 <sp>
@@ -2614,8 +2614,8 @@
 <l>Or teach me, (oh, hard thought!) to bear our parting.</l>
 <stage><hi>Exit</hi> Adelaide.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="58" facs="66"/>
 <head>SCENE VIII.</head>
 <sp>
@@ -2643,8 +2643,8 @@
 <l>"Poison'd he fell—</l>
 <stage>Theodore <hi>pauses, and</hi> Austin <hi>who has been some time behind, advances.</hi></stage>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Austin, Theodore.</stage>
 <sp>
@@ -2721,8 +2721,8 @@
 <l>Would I had liv'd unknown in penury,</l>
 <l>Rather than thus! Distraction!—Adelaide!</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>To them</hi> Adelaide, Fabian.</stage>
 <sp>
@@ -2749,8 +2749,8 @@
 <l>To allay the tumult. Follow me, my son!</l>
 <stage><hi>Exit</hi> Austin.</stage>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="61" facs="69"/>
 <head>SCENE XI.</head>
 <stage>Adelaide, Theodore, Fabian.</stage>
@@ -2772,13 +2772,13 @@
 <l>Shall own, thy Theodore deserv'd his daughter.</l>
 <stage><hi>Exeunt</hi> Adelaide <hi>at one door,</hi> Theodore <hi>and</hi> Fabian <hi>at the other.</hi></stage>
 </sp>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="62" facs="70"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Hall.</stage>
 <stage>Count, Austin, Fabian, <hi>Attendants with prisoners.</hi> Theodore <hi>in armour behind.</hi></stage>
@@ -2934,8 +2934,8 @@
 <l>And bury too that phantom.</l>
 <stage><hi>Exit</hi> Côunt <hi>with his Attendants.</hi></stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Austin, Theodore.</stage>
 <sp>
@@ -3014,8 +3014,8 @@
 <stage>Aside.</stage></l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Count, Fabian.</stage>
 <sp>
@@ -3060,8 +3060,8 @@
 <stage>[<hi>Exit</hi> FA.]</stage>
 <l>They are young and fearless.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <sp>
 <speaker>Count,</speaker>
@@ -3080,8 +3080,8 @@
 <l>And bear her off this night, beyond their power;</l>
 <l>My bride, if she consents; if not, my hostage.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="69" facs="77"/>
 <head>SCENE V.</head>
 <stage><hi>To the</hi> Count, <hi>two Officers.</hi></stage>
@@ -3112,8 +3112,8 @@
 <l>Be swift as winds, and meet me presently.</l>
 <stage>Exeunt severally.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="70" facs="78"/>
 <head>SCENE VI.</head>
 <stage><hi>The inside of a Convent, with ailes and Gothick arches, part of an altar appearing on one side; the statue of</hi> Alphonso <hi>in armour in the centre. Other statues and monuments also appearing.</hi> Adelaide <hi>veiled, rising from her knees before the statue of</hi> Alphonso.</stage>
@@ -3137,8 +3137,8 @@
 <l>Cold as the pale-ey'd marbles which surround me.</l>
 <stage>Adelaide <hi>withdraws.</hi></stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Austin, Theodore.</stage>
 <sp>
@@ -3206,8 +3206,8 @@
 <l>I come, I fly, my life, my all! to join thee.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <speaker>Austin,</speaker>
@@ -3217,8 +3217,8 @@
 <l>And leave me but my sorrow for my labour.</l>
 <stage>Follows him.</stage>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <sp>
 <speaker>Count,</speaker>
@@ -3236,8 +3236,8 @@
 <l>Like their great monarch, he stands rais'd above them.</l>
 <l>Who's there?</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>To the</hi> Count, <hi>two Officers.</hi></stage>
 <sp>
@@ -3279,8 +3279,8 @@
 <l><pb n="74" facs="82"/>Ill-fated girl! A bloody Hymen waits thee.</l>
 <stage>Rushes out.</stage>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>Two Officers.</stage>
 <sp>
@@ -3301,8 +3301,8 @@
 <l>Speak to me. See he comes.</l>
 <stage>Officers retire.</stage>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Count, <hi>with a bloody dagger.</hi></stage>
 <sp>
@@ -3311,8 +3311,8 @@
 <l>Hark, the deep thunder rolls. I hail the sign;</l>
 <l>It tells me in loud greetings, I'm reveng'd.</l>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>Theodore, <hi>with his sword drawn.</hi></stage>
 <sp>
@@ -3351,8 +3351,8 @@
 <l>Ring out the alarm,</l>
 <l>Fly all; bring aid, if possible, to save her.</l>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV.</head>
 <stage><hi>To them,</hi> Adelaide <hi>wounded, and supported by</hi> Austin. Theodore <hi>advances to her, and assists in supporting and bringing her forward. Some of the</hi> Count'<hi>s Attendants enter from the Castle with lighted torches.</hi></stage>
 <sp>
@@ -3461,8 +3461,8 @@
 <speaker>AUSTIN.</speaker>
 <l>Observe, and keep him from all means of death.</l>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV.</head>
 <stage>Countess <hi>with Women,</hi> Fabian, <hi>and other Attendants.</hi> Austin <hi>runs to her.</hi></stage>
 <sp>
@@ -3591,12 +3591,11 @@
 <l>But palms, eternal palms, above shall crown thee.</l>
 <l>For this rash man, &amp;c.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="89"/>
 <head>EPILOGUE.</head>
 <byline>Written by EDMOND MALONE, <abbr>Esq</abbr></byline>
@@ -3680,8 +3679,8 @@
 <l>Your hands and smiles are wealth enough for me.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <p>THE following EPILOGUE, which was spoken on the first two nights of the exhibition of this tragedy, was obligingly written by R. J. GOODENOUGH, <abbr>Esq</abbr> who did not know that an Epilogue had been prepared for it by Mr. Malone, at the Author's request.</p>
 <lg>
 <l>'TIS an old maxim with dramatick sages,</l>
@@ -3736,7 +3735,7 @@
 <l>And ancient strength with modern grace combine.</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

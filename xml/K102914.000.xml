@@ -7,7 +7,7 @@
 <extent>[2],iii,[3],51,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1758.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Author of 'The apprentice' = Arthur Murphy.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT129409.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE UPHOLSTERER, OR What NEWS? A FARCE, In Two ACTS. As it is Performed at the THEATRE ROYAL▪ IN <hi>DRURY-LANE.</hi></p>
 <l>—<hi>O Bone (nam te</hi></l>
@@ -16,8 +16,8 @@
 <bibl>HOR.</bibl>
 <p>By the Author of the APPRENTICE.</p>
 <p><hi>LONDON.</hi> Printed for P. VAILLANT, facing <hi>Southampton-street,</hi> in the <hi>Strand.</hi> MDCCLVIII. Price One Shilling.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="i" facs="2"/>
 <head><hi>To Mr.</hi> GARRICK.</head>
 <opener><salute>SIR,</salute></opener>
@@ -34,8 +34,8 @@ Scenes are strongly tinctured with his predominant Foible; and as this Foible is
 <closer><salute>SIR,</salute>
 <signed>Your most Obedient, Very Humble Servant, The AUTHOR.</signed>
 <dateline><hi>Lincoln's Inn,</hi> <date>7th <hi>April,</hi> 1758.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. MOSSOP.</stage>
@@ -97,8 +97,8 @@ Scenes are strongly tinctured with his predominant Foible; and as this Foible is
 <l><hi>There's Merit even to attempt the Cure.</hi></l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -119,15 +119,14 @@ Scenes are strongly tinctured with his predominant Foible; and as this Foible is
 <item>TERMAGANT, Mrs. CLIVE.</item>
 <item>Maid to FEEBLE. Mrs. SIMPSON.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="8"/>
 <head>THE UPHOLSTERER; OR, What NEWS?</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>BELLMOUR'S <hi>Lodging.</hi></stage></head>
 <stage><hi>Enter</hi> BELLMOUR, <hi>beating</hi> BRISK.</stage>
 <sp>
@@ -365,8 +364,8 @@ told you tho' her Father is ruin'd, still she has great Expectancies from a rich
 <l><hi>Love first taught Letters for some Wretch's Aid,</hi></l>
 <l><hi>Some banish'd Lover, or some captive Maid.</hi>—</l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>the Upholsterer's House.</hi></stage></head>
 <stage><hi>Enter</hi> HARRIET <hi>and</hi> TERMAGANT.</stage>
 <sp>
@@ -468,8 +467,8 @@ told you tho' her Father is ruin'd, still she has great Expectancies from a rich
 <p>O' my Conscience this Master of mine within here, might have pick'd up his Crums as well as Mr. <hi>Feeble,</hi> if he had any <hi>Idear</hi> of his Business, I'm sure if I had not hopes from Mr. <hi>Feeble,</hi> I should not tarry in this House—By my Troth, if all who have nothing to say to the <hi>'fairs</hi> of the Nation, would mind their own Business, and those who should take care of our <hi>'fairs,</hi> would mind their Business too, I fancy poor old <hi>England</hi> (as they call it) would fare the better among 'em—This old crazy Pate within here—playing the Fool—when the Man is past his grand <hi>Clytemnester.</hi></p>
 </sp>
 <stage><hi>Exit</hi> Termagant.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>discovers</hi> QUIDNUNC <hi>at a Table, with News-Papers, Pamphlets,</hi> &amp;c. <hi>all around him.</hi></stage></head>
 <sp>
 <speaker>QUID.</speaker>
@@ -1075,12 +1074,12 @@ Land about the Pole, where the Protestants may retire, and that the Papists will
 </sp>
 <stage>Exit.</stage>
 <trailer><hi>End of the First</hi> ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="24" facs="31"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>Scene</hi> <stage><hi>the</hi> Upholsterer's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> QUIDNUNC.</stage>
 <sp>
@@ -1560,8 +1559,8 @@ why then I shall think him a mere <hi>shilly shally Feller;</hi> and by my Troth
 improve himself in fine <hi>Langidge,</hi> and <hi>Bombast,</hi> and <hi>polite Accollishments.</hi>—</p>
 </sp>
 <stage>Exit singing.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>the Street.</hi></stage></head>
 <stage><hi>Enter</hi> BELLMOUR, REVEWELL <hi>and</hi> BRISK, <hi>in Liquor.</hi></stage>
 <sp>
@@ -1712,8 +1711,8 @@ he won't speak. But I'm losing Time <stage>(<hi>knocks at the Door</hi>)</stage>
 <p>Prithee, be quiet Woman; I must see him.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a Room in</hi> FEEBLE'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> FEEBLE, <hi>in his Night-Gown.</hi></stage>
 <sp>
@@ -1882,8 +1881,8 @@ he won't speak. But I'm losing Time <stage>(<hi>knocks at the Door</hi>)</stage>
 <p>I forgot to tell you—the Emperor of <hi>Morocco</hi> is dead— <stage>(<hi>bawling after him</hi>)</stage> so—now I've made him happy—I'll go and knock up my Friend <hi>Razor,</hi> and make him happy too;—and then I'll go and see if any Body's up at the Coffee-houses,—and make them all happy there too.—</p>
 </sp>
 <stage><hi>Exit</hi> Quidnunc.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>The</hi> UPHOLSTERER'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> HARRIET <hi>and</hi> BELLMOUR.</stage>
 <sp>
@@ -2387,13 +2386,12 @@ one in the Kingdom would resolve upon the same, the Nation in general would soon
 <l><hi>And every</hi> Harriet <hi>find a Father's Care.</hi></l>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="bythesameauthor">
+<div type="bythesameauthor">
 <pb facs="59"/>
 <p><hi>Lately Publish'd,</hi> In Two Pocket Volumes, Price 6 <hi>s.</hi> By the same AUTHOR. THE GRAY'S-INN JOURNAL.</p>
 <quote>Non suit Consilium socordiâ atque desidiâ bonum otium conterere.</quote><bibl>SALLUST.</bibl>
@@ -2402,7 +2400,7 @@ one in the Kingdom would resolve upon the same, the Nation in general would soon
 <bibl>POPE.</bibl>
 <p><hi>ALSO,</hi> The APPRENTICE▪ A FARCE of Two Acts. Price 1s.</p>
 <p>Printed for P. VAILLANT, in the <hi>Strand.</hi></p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

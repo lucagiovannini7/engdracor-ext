@@ -7,20 +7,20 @@
 <extent>[4],112p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Debrett,</publisher><date>1786.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: J. Burgoyne.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT36080.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <pb facs="2"/>
 <p>THE HEIRESS. A COMEDY IN FIVE ACTS. [PRICE ONE SHILLING AND SIXPENCE.] [<hi>Entered at Stationers' Hall.</hi>]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE HEIRESS. A COMEDY IN FIVE ACTS. AS PERFORMED AT THE THEATRE-ROYAL DRURY-LANE.</p>
 <l>Spectatores, ad pudicos mores facta haec fabula est:</l>
 <l>Qui pudicitiae esse voltis praemium, plausum date.</l>
 <bibl>PLAUTUS.</bibl>
 <p>LONDON: PRINTED FOR J. DEBRETT, OPPOSITE BURLINGTON-HOUSE, PICCADILLY. MDCCLXXXVI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>TO THE EARL OF DERBY.</head>
 <opener><salute>MY DEAR LORD,</salute></opener>
@@ -32,8 +32,8 @@ which this discovery gratifies—that, of testifying, in the most public manner,
 <closer><salute>My dear Lord,</salute>
 <signed>Your most obedient, And most humble servant, J. BURGOYNE.</signed>
 <dateline><hi>Hertford street,</hi> <date><hi>Feb</hi> 1<hi>st,</hi> 1786.</date></dateline></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="6" ana="y"/>
 <head>PREFACE.</head>
 <p>THE approbation the following Comedy has received upon the Stage, and the candour with which every criticism, that has come to the Author's knowledge, has been accompanied, might encourage him to trust it to the closet without any other preface, than an acknowledgement of his gratitude to the Public, for the honours done to him. And if he detains the reader a few moments more, it is not to disavow what has been hinted at in some of the daily prints, as a species of plagiarism, but to plead it in behalf of dramatic writing in general▪ against rules, that if carried to the extent they lead to, would fix shackles upon genius, and give a very undue limitation to variety.</p>
@@ -48,8 +48,8 @@ and probability, and deprive the spectator of that pleasing and infinite diversi
 <pb n="v" facs="8"/>
 words have been altered occasionally to preserve connection—a circumstance necessary to be known lest the performers should be suspected of negligence, when, on the contrary, too much cannot be said of their attention and zeal. When all have been eminent, it would be unnecessary, if not invidious, to particularize any: There is nevertheless a Lady, to whom, by her standing separately and individually in one part of the performance, the Author, without departing from his maxim, may express his more than ordinary obligation. Miss Farren, by her inimitable manner of delivering the Epilogue, has made a better apology to the public than any his pen could have produced, for a composition which, from an accident, was much too hastily written in some parts, and in others pieced together with a like insufficiency of time.</p>
 <p>The Epilogue excepted, no defects in the following sheets can be covered by the excuse of hurry: They cannot be so, consistently with truth, nor indeed, with inclination: For the Author had rather be thought incapable of pleasing, after his greatest cares, than wanting in the attention and respect which every man who ventures to publish a production of this nature owes to the world and to himself—Not to let it pass from his hands without frequent revisal, and the best considered finish his abilities can give.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE. By the Rt. Hon. RICHARD FITZPATRICK. Spoken by Mr. KING.</head>
 <l>AS sprightly sunbeams gild the face of day,</l>
@@ -98,8 +98,8 @@ words have been altered occasionally to preserve connection—a circumstance nec
 <l>Pronounce the prosp'rous issue of her cause,</l>
 <l>Confirm the name an anxious parent gave her,</l>
 <l>And prove her Heiress of—the Public Favour!</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -136,13 +136,13 @@ words have been altered occasionally to preserve connection—a circumstance nec
 <label>Mrs. Blandish,</label>
 <item>Mrs. WILSON.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="12"/>THE HEIRESS.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A Lady's Apartment.</stage></head>
 <stage>Mr. Blandish and Mrs. Letitia Blandish discovered writing: letters folded up, and message cards scattered upon the table.</stage>
 <sp>
@@ -345,8 +345,8 @@ to a comparison, in the name of the old father of flattery, to whom is that perf
 <p>Thank you, my dear Letty; this is not the only <hi>tap</hi> you have hit me to-day, and you are right; for if you and I did not sometimes speak truth to each other, we should forget there was such a quality incident to the human mind.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>Lord Gayville's Apartment.</stage></head>
 <stage>Enter Lord Gayville and Mr. Clifford.</stage>
 <sp>
@@ -628,8 +628,8 @@ of never being her husband. I may despise and offend a woman; but disgust wou'd 
 <speaker>Blandish.</speaker>
 <p>I am afraid you may—I cannot resist you <stage>Exit Lord Gayville</stage> —Ah! wrong—wrong —wrong; I hope that exclamation is not lost. A blind compliance with a young man's passions, is a poor plot upon his affections. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi> <stage>Mrs. Sagely's House.</stage></head>
 <stage>Enter Mrs. Sagely and Miss Alton.</stage>
 <sp>
@@ -764,12 +764,12 @@ only that you shall guard her safe.—I wou'd offer you a pretty snug house in a
 <p>In truth I will. I'll forget the forbearance of this profligate, and remember only his intentions. And is Gratitude then suspicious? Painful lesson! A woman must not think herself secure because she has no <hi>bad</hi> impulse to fear: she must be upon her guard, lest her very best should betray her. <stage>Exit.</stage></p>
 </sp>
 <trailer>End of the First Act.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="27" facs="30"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>An apartment in Sir Clement Flint's house.</stage></head>
 <stage>Lady Emily Gayville and Clifford at Chess.</stage>
 <stage>Sir Clement sitting at a distance pretending to read a parchment, but slyly observing them.</stage>
@@ -1087,8 +1087,8 @@ me for foreign service: Well judging that a cannon ball was a fair and quick pro
 <speaker>Sir Clement.</speaker>
 <p><stage>alone.</stage> Well, play'd Clifford! Good air and emphasis, and well suited to the trick of the scene—He wou'd do, if the practical part of deceit were as easy at his age, as discernment of it is at mine. Gayville and Emily, if they had not a vigilant guard, would be his sure prey; for they are the examples of the generous affections coming to maturity with their stature; while suspicion, art and interest are still dormant in the seed. I must employ Blandish in this business—A rascal of a different cast—Below Clifford in hypocrisy, but greatly above him in the scale of impudence— They shall both forward my ends, while they think they are pursuing their own. I shall ever be sure of a man's endeavours to serve me, while I hold out a lure to his knavery and interest. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>An Antichamber.</stage></head>
 <sp>
 <speaker>Alscrip.</speaker>
@@ -1113,8 +1113,8 @@ arrears due of the whole interest. It's a pleasure tho' to be well dressed. My d
 <speaker>Alscrip.</speaker>
 <p>She must content herself with that company 'till I have had my whet—order up the eggs and bacon. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Miss Alscrip discovered at her toilette. Chignon, (her Valet de Chambre) dressing her head. Mrs. Blandish, sitting by and holding a box of diamond pins.</stage>
 <sp>
@@ -1428,12 +1428,12 @@ the honor of attending you as a companion <stage>eyes her scornfully.</stage> Sh
 <p>"The soft effusions of a too tender heart." The proof is excellent, That the covetous should be deaf to the miserable I can conceive, but I should not have believed, if I had not seen, that a taste for profusion did not find its first indulgence <hi>in benevolence.</hi><stage>Exit.</stage></p>
 </sp>
 <trailer>End of Act the Second.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="45" facs="48"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>Miss Alscrip's dressing room continued.</stage></head>
 <sp>
 <speaker>Miss Alton.</speaker>
@@ -1588,8 +1588,8 @@ By all that's delicious I must be better acquainted with her. <stage>He bows. Sh
 <speaker>Alscrip.</speaker>
 <p>Well said, my lady countess! well said quality morals! What am I the better for burying a jealous wife? To be chicken-peck'd is a new persecution, more provoking than the old one—Oh Molly! Molly!—Plague upon the example of an independent heiress. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>The Drawing Room.</stage></head>
 <sp>
 <speaker>Miss Alton.</speaker>
@@ -2084,8 +2084,8 @@ old, honour'd father! <stage>cries</stage><stage>in a passion again</stage> What
 <p>Was there ever any thing like this before — and to a woman of my fortune— I to be robb'd of a lover—and that a poor Lord too—I'll have the act reviv'd against witchcraft; I'll have the minx tried—I'll—I'll—I'll verify the proverb of the tragedy—</p>
 <p>Hell has no fury like a woman scorn'd. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi> <stage>Alscrip's room of business.</stage></head>
 <stage>Alscrip and Rightly.</stage>
 <sp>
@@ -2327,12 +2327,12 @@ the power of mischief by prescription—Zounds —Mischief—Mischief—is the c
 </sp>
 <stage>Exit.</stage>
 <trailer>End of the Third Act.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="68" facs="71"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>Alscrip's Room.</stage></head>
 <sp>
 <speaker>Chignon.</speaker>
@@ -2636,8 +2636,8 @@ HENRY CLIFFORD.</p>
 <speaker>Chignon.</speaker>
 <p>Understand you—Oui! da you talk de language universal <stage>imitating his shaking the purse</stage> I'entre vois, I begin to see something—By gad I vill give de letter, and try de inclination of Mademoiselle la Musicienne—if dis be de duette she vill play, it take her out of the vay of Alscrip, of Gayville, and of myself also—Vo la le malheur— there—de misfortune—eh bien—when love and interest come across—alway prefer de interest for to-day and take de chance of de love to-morrow— dat is de humour of France. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>Sir Clement Flint's house.</stage></head>
 <stage>Enter Lord Gayville and Sir Clement.</stage>
 <sp>
@@ -2840,8 +2840,8 @@ your letter. <stage>takes the letter</stage> Something for your pains.</p>
 <speaker>Sir Clement.</speaker>
 <p>I'll after the precious fellow too— He is a rogue above my hopes, and the intricacy of his snares excite my curiosity. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi> <stage>Lady Emily's Apartment.</stage></head>
 <stage>Lady Emily discover'd reading.</stage>
 <sp>
@@ -3006,8 +3006,8 @@ I confess, that not content with admiring the jewel, I would wear it.</p>
 <pb n="86" facs="89"/>
 —the story of his heart—Its errors and defence—My brother's name, also—to furnish me with a new interest in the secret, and one I might avow—One may dislike this art, but must be sensible of his delicacy.—Ah, when those two qualities unite in a man, I am afraid he is an over-match for the wisest of us—Hark!— sure that is the sound of my Uncle's coach — <stage>looks out of the window.</stage> 'Tis he—and now for the secret—Curiosity!—Curiosity! innate irresistible principle in womankind, be my excuse, before I dare question my mind upon other motives. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head><hi>SCENE IV.</hi> <stage>Another apartment.</stage></head>
 <stage>Enter Lady Emily.</stage>
 <sp>
@@ -3145,12 +3145,12 @@ age you have described, always suspect the virtue that does not wear a smile.</p
 <p>With all my heart; send and collect every body concerned as fast as possible— How I long for so complicated an exhibition of the purity of the human heart—Come with me, Emily, and help to digest my plan—Friends and lovers, what a scene shall we shew you. <stage>Takes Lady Emily under the arm.</stage><stage>Exeunt.</stage></p>
 </sp>
 <stage>End of the Fourth Act.</stage>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="91" facs="94"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Enter Clifford and Mr. Rightly.</stage>
 <sp>
@@ -3211,8 +3211,8 @@ and going.</hi></stage> There, Gayville, is one reply to your challenge—and no
 <p>And the benevolence of your heart approve—Those are my conditions.—</p>
 </sp>
 <stage>Exeunt on opposite sides.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>Hyde-Park.</stage></head>
 <stage>Enter Lord Gayville impetuously, looking at his watch.</stage>
 <sp>
@@ -3393,8 +3393,8 @@ when my temper took fire—Let us bury our mutual errors in the thought, that we
 <speaker>Clifford.</speaker>
 <p>Farewel!— <stage>Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="97" facs="100"/>
 <head><hi>SCENE III.</hi> <stage>Sir Clement's house.</stage></head>
 <stage>Enter Miss Alscrip in great spirits, followed by Mrs. Blandish.</stage>
@@ -3476,7 +3476,7 @@ when my temper took fire—Let us bury our mutual errors in the thought, that we
 <speaker>Sir Clement.</speaker>
 <p>Miss Alscrip, your—</p>
 </sp>
-<stage>As he's beginning to say your humble servant.</stage>
+<stage>As he's beginning to say <quote type="interpretation">your humble servant</quote>.</stage>
 <stage>Enter Blandish out of breath.</stage>
 <sp>
 <speaker>Blandish.</speaker>
@@ -3887,12 +3887,12 @@ first discovery; I am delighted at the last, there's a problem in my disposition
 <pb n="110" facs="113"/>
 principle of the human mind—My heart at this instant confirms the doctrine—There's my problem for yours, my dear Emily, and may all who hear me agree in this solution—to reward the deserving, and make those we love happy, is self-interest in the extreme.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="114"/>
 <head>EPILOGUE. Spoken by Miss FARREN.</head>
 <l>THE Comic Muse, who here erects her shrine,</l>
@@ -3938,7 +3938,7 @@ principle of the human mind—My heart at this instant confirms the doctrine—T
 <stage>Beating her fan against her hand.</stage>
 <l>Adopt the mode, ye Belles—so end my prattle,</l>
 <l>And shew how you'll outdo a Bourbon rattle.</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

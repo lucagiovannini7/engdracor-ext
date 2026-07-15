@@ -7,7 +7,7 @@
 <editionStmt><edition>Second edition.</edition></editionStmt><extent>vii,[1],88p. ; 8⁰.</extent><publicationStmt><publisher>printed for G.G. and J. Robinson,</publisher><date>1798.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45450.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>KNAVE, OR NOT? A COMEDY: IN FIVE ACTS.</p>
 <p>AS PERFORMED AT THE THEATRE ROYAL, DRURY-LANE.</p>
@@ -15,8 +15,8 @@
 <p>SECOND EDITION.</p>
 <p><hi>LONDON:</hi> PRINTED FOR G. G. AND J. ROBINSON, PATERNOSTER ROW.</p>
 <p>MDCCXCVIII.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE unrelenting opposition which the productions of the author of the present comedy have experienced for several years is well known, to those who pay attention to our public amusements. It is not for him to pronounce how far this opposition has been merited by inability. Since the appearance of The Road to Ruin, his comedy of The Deserted Daughter only has escaped; and that, as he imagines, because it was not known on the night of its first performance by whom it was written. Love's Frailties, The Man of Ten Thousand, and Knave or Not? have sustained increasing marks of hostility: so that the efforts made to afford rational amusement to the public, emolument to the author, and improvement to morals, have been rendered feeble and almost ineffectual. In the last instance, one mistake appears to have pervaded the majority of the spectators. It was imagined that the author himself was as unqualified a libeller of mankind as Monrose: in which character the writer's individual sentiments were supposed to have been incorporated. Those who have read his other works surely cannot attribute to him any such indiscriminate misanthropy. The accusation that has most generally been made against him is that he thinks men capable of gradations of virtue, which others affirm they can never attain. Persons, who have made the human mind their study, have discovered that guilty men exert the whole force of their faculties to justify their own course of action to themselves. To this principle the writer was strictly attentive, in pourtraying the character of Monrose. His design was to draw a man of genius, misled by his passions, reasoning on his actions, systematizing them, condemning them in principle, but justifying them in practice, and heating his imagination by contemplating the crimes of others; that he might still maintain that respect for himself of which the strongest minds, even in the last stages of vice, are so tenacious. How far that spirit of faction, commotion, and anarchy, of which the author has long been and is still so vehemently accused, is to be traced in the present comedy may now be seen. Sincerely desirous of giving no offence, the passages which were most disapproved, or to speak more accurately reprobated, on the first night, have since been omitted in representation: but they are printed between inverted
@@ -25,8 +25,8 @@ commas; that the cool judgment may decide whether the author could have been so 
 <p>Before the comedy appeared, all parties were anxious that no sentence or word should be spoken, which could be liable to misrepresentation. Some few passages, therefore, are committed to the press, which never were spoken on the Stage: particularly the concluding part of the last speech in the second act, where Monrose enquires into his qualifications for being a lord. A few years ago, this would have been common-place satire: and it is a subject of no little regret that, at present, local and temporary applications are so liable to be made where none are intended.</p>
 <p>Truth requires it should be mentioned that, in the original sketch of this comedy, some hints were taken from IL RAGGIRATORE, LA SERVA AMOROSA, and IL PADRE DI FAMIGLIA, by GOLDONI: but of these, though he has not lately examined them, the author is persuaded so few traces remain that they are scarcely discoverable. They are mentioned, because he considers the least concealment of such a kind as derogatory to that veracity which it is the peculiar duty of moral writers to inculcate.</p>
 <closer><dateline><date>February 1, 1798.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -63,8 +63,8 @@ commas; that the cool judgment may decide whether the author could have been so 
 <l>We shoot but o'er the house, or in the dark;</l>
 <l>Hoping that you'll be pleas'd, whene'er we hit the mark.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="5"/>
 <head>EPILOGUE.</head>
 <byline>BY M. G. LEWIS, ESQ. M. P. AUTHOR OF THE MONK, THE CASTLE SPECTRE, &amp;C.</byline>
@@ -143,8 +143,8 @@ Was admitted—sat down—cleared my voice—furled my fan—</l>
 <l>Which Spirit on Monday, escaping from Styx,</l>
 <l>Will appear in this place—at a quarter past six.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -165,15 +165,14 @@ Was admitted—sat down—cleared my voice—furled my fan—</l>
 <item><label>Mrs. Clack,—</label> Mrs. WALCOT.</item>
 <item><label>Poor Woman,—</label> Mrs. SPARKES.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>KNAVE OR NOT? A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.— <stage>A Lodging House.</stage></head>
 <stage>SUSAN <hi>and</hi> MONROSE.</stage>
 <sp>
@@ -388,16 +387,16 @@ Was admitted—sat down—cleared my voice—furled my fan—</l>
 <speaker>MON.</speaker>
 <p><stage>(Angrily)</stage> Zounds, girl, have done with this absurd stuff. I know what is right, you do not. If fair and direct means cannot succeed, who is to blame? Neither you nor I. Once more, obey my directions. Great events are on the eve of disclosure. Should you traverse and betray me, I will never own you for a sister more. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="6" facs="13"/>
 <head>SCENE II.</head>
 <sp>
 <speaker>SUS.</speaker>
 <p>Why then I wunno' be consarned i' wickedness, Harry, do what thee wo't! No! I wunno'! I wunno'! <stage>(Ready to cry.)</stage> I do love thee dearly: wi' aw my heart and soul: and I would no' see thee come to disgrace no not to be the Queen of England! So dunno' thee expect it o' me—But then a says and declares there be no wickedness i' the case. May hap there be not. I hope there be not! I do hope there be not!—As to Mr. Jonas, a' be a likely lad to look to. That there be no denying: A be plaguy rumbustical to be sure: but, an it should be our good hap to wed, I guess a'd be cured o' that—I do find mysel' in a strange quandary. I be as good flesh and blood mayhap as he. I be a woman, and he be but a mon. Yea, belemmy, we be aw Adam's children: but silks and satins make the difference. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.— <stage>Changes to the House of <hi>SIR JOB.</hi></stage></head>
 <stage>Enter <hi>AURELIA,</hi> followed by <hi>JONAS.</hi></stage>
 <sp>
@@ -526,8 +525,8 @@ Was admitted—sat down—cleared my voice—furled my fan—</l>
 <speaker>JON.</speaker>
 <p>Yes, you have.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.— <stage><hi>Enter</hi> LADY FERMENT.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -585,8 +584,8 @@ Was admitted—sat down—cleared my voice—furled my fan—</l>
 <speaker>JON.</speaker>
 <p>Ya, ya, ya! Ecod I'll go and kill the parrot, set the cat at the lap-dog, and give both your muffs to the monkey! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -618,8 +617,8 @@ Was admitted—sat down—cleared my voice—furled my fan—</l>
 <p>I will, I will. Come with me: I will.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage><hi>Enter</hi> MONROSE, <hi>and</hi> MRS. CLACK.</stage></head>
 <sp>
 <speaker>MRS. C.</speaker>
@@ -739,8 +738,8 @@ Was admitted—sat down—cleared my voice—furled my fan—</l>
 <speaker>MRS. C.</speaker>
 <p>Why Mr. Quake—Bless me! I am so flurried!—Hush! Somebody is coming! It is my master! Don't notice me. Why, Betty! Why don't you come? <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>Enter</hi> SIR JOB.</stage></head>
 <sp>
 <speaker>SIR J.</speaker>
@@ -921,8 +920,8 @@ you suspected—hay?—Ha, ha, ha! That is very good! I perceive, Count, you are
 <speaker>MON.</speaker>
 <p>Well, well, Sir Job, you have lived long enough in the world to know its maxims. If you stand in need of any man, you are wise and will make it that man's interest to be your friend. "You are an alderman, and a magistrate, and set a proper value on a smug wig, a smooth chin, and a shining pair of shoes. You have learnt the trick on't; and know that justice consists in keeping gravity on the countenance, and money in the pocket. Ha, ha, ha, ha, ha!" <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE. VIII.</head>
 <sp>
 <speaker>SIR J.</speaker>
@@ -1040,8 +1039,8 @@ birth-right. My father was army hatter, and famous for inventing the Cumberland 
 <speaker>SIR J.</speaker>
 <p>And I myself was once a contractor for accoutrements, grenadiers' caps, cartouch boxes, bullets, and buff belts. Nay, I have since dealt in gunpowder.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage><hi>Enter</hi> LADY FERMENT.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -1396,12 +1395,12 @@ birth-right. My father was army hatter, and famous for inventing the Cumberland 
 <p>Begone, iron-hearted wretch!</p>
 <stage>[Exeunt at different doors.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="27"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Terrace of the House of <hi>SIR GUY,</hi> at a Village near London.</stage></head>
 <stage><hi>SIR GUY</hi> and <hi>MR. TAUNTON</hi> coming from the Shrubbery.</stage>
 <sp>
@@ -1599,8 +1598,8 @@ circumference of a guinea, sink to inanity with hearing it chink, and crawl to m
 <speaker>SIR G.</speaker>
 <p>Zounds and fire! This fellow would proverb a man to death in a fortnight.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Enter</hi> MR. SCRIBE.</stage></head>
 <sp>
 <speaker>SCR.</speaker>
@@ -1643,8 +1642,8 @@ circumference of a guinea, sink to inanity with hearing it chink, and crawl to m
 <speaker>SIR G.</speaker>
 <p>How do you know she is a good woman? Is not she poor? I'll teach her better tricks, I warrant me!</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Enter</hi> POOR WOMAN.</stage></head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -1736,8 +1735,8 @@ Where's the beadle? Pack her away!</p>
 <speaker>WOM.</speaker>
 <p>The prayers and blessings of the poor be your reward, Sir. <stage>[Exeunt Scribe and Woman.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -1745,8 +1744,8 @@ Where's the beadle? Pack her away!</p>
 <pb n="25" facs="32"/>
 a heart, and a sort of a soul; and yet she is a pauper!</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>Enter</hi> MR. SCRIBE.</stage></head>
 <sp>
 <speaker>SCR.</speaker>
@@ -1772,8 +1771,8 @@ a heart, and a sort of a soul; and yet she is a pauper!</p>
 <speaker>SIR G.</speaker>
 <p>Zounds! Sir, how can I help it, if my heart be made of such vile pitiful melting materials, that it is overflowing at every instant; and I have no way of shutting and stopping up the flood gates of passion, but by being a crabbed, cankered, damned choleric scoundrel? <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>The House of <hi>SIR JOB.</hi></stage></head>
 <stage>OLIVER <hi>and</hi> AURELIA.</stage>
 <sp>
@@ -1924,8 +1923,8 @@ few months, and the cave of despair for the remainder of life.</p>
 <p>Fie! Have done! We are two outcasts; but not I presume the outcasts of virtue. Her commands we must obey; and those irrevocable commands are to fly the danger we cannot face.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="28" facs="37"/>
 <head>SCENE VII. <stage>Enter <hi>JONAS</hi> with a paper in his hand.</stage></head>
 <sp>
@@ -1952,8 +1951,8 @@ few months, and the cave of despair for the remainder of life.</p>
 <speaker>OL.</speaker>
 <p>Jonas, beware: there is danger in your eagerness. Take a brother's advice, and don't indulge your appetites at the expence of your happiness. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage><hi>Enter</hi> MONROSE.</stage></head>
 <sp>
 <speaker>MON.</speaker>
@@ -2074,8 +2073,8 @@ Nota bene. An answer by the bearer is expected.</p>
 <speaker>JON.</speaker>
 <p>Oh, when once we are married, she'll hear it soon enough.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage><hi>Enter</hi> LADY FERMENT.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -2368,8 +2367,8 @@ Nota bene. An answer by the bearer is expected.</p>
 <speaker>JON.</speaker>
 <p>Ah! There will be a deal of the best company in that bad place. He that has money in his pocket is welcome every where. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -2543,8 +2542,8 @@ doubt? The only boon I ask is that my sister may be your gracious Ladyship's fri
 <speaker>MON.</speaker>
 <p>I shall find a time, my Lady, to make myself understood.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage><hi>Enter</hi> SERVANT.</stage></head>
 <sp>
 <speaker>SERVANT.</speaker>
@@ -2566,8 +2565,8 @@ doubt? The only boon I ask is that my sister may be your gracious Ladyship's fri
 <speaker>SERVANT.</speaker>
 <p><stage>(Going)</stage> Impertinent! This foreign Count takes upon him finely! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <sp>
 <speaker>MON.</speaker>
@@ -2602,8 +2601,8 @@ doubt? The only boon I ask is that my sister may be your gracious Ladyship's fri
 <speaker>LA. F.</speaker>
 <p>Most sincerely—I wish he was at the divle with all my heart. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII. <stage><hi>Enter</hi> SERVANT <hi>and</hi> SUSAN.</stage></head>
 <sp>
 <speaker>SERVANT.</speaker>
@@ -2625,8 +2624,8 @@ doubt? The only boon I ask is that my sister may be your gracious Ladyship's fri
 <speaker>SERVANT.</speaker>
 <p>Oh, oh! That alters the case. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV.</head>
 <sp>
 <speaker>MON.</speaker>
@@ -2686,8 +2685,8 @@ know when to speak nor when to hold my tongue.</p>
 <speaker>SUS.</speaker>
 <p>Well, well, dunno' be cross, and I'll do my best.</p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV. <stage>Re-enter <hi>LADY FERMENT:</hi> they salute.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -2819,8 +2818,8 @@ know when to speak nor when to hold my tongue.</p>
 <speaker>MON.</speaker>
 <p><stage>(Aside)</stage> Oh, the malicious little hussey!</p>
 </sp>
-</div3>
-<div3 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <head>SCENE XVI. <stage><hi>Enter</hi> AURELIA.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -2846,8 +2845,8 @@ know when to speak nor when to hold my tongue.</p>
 <speaker>MON.</speaker>
 <p><stage>(To Aurelia with great attention and kindness)</stage> Permit me to introduce my sister. <stage>(Aurelia and Susan salute and converse.)</stage></p>
 </sp>
-</div3>
-<div3 n="17" type="scene">
+</div>
+<div n="17" type="scene">
 <pb n="40" facs="49"/>
 <head>SCENE XVII. <stage><hi>Enter</hi> OLIVER.</stage></head>
 <sp>
@@ -2899,8 +2898,8 @@ know when to speak nor when to hold my tongue.</p>
 <p>What is all this whispering? Please, Sir, to go and see if Sir Job is come in.</p>
 </sp>
 <stage>[Exit Oliver intreating Aurelia by gesture, and she refusing.</stage>
-</div3>
-<div3 n="18" type="scene">
+</div>
+<div n="18" type="scene">
 <head>SCENE XVIII.</head>
 <sp>
 <speaker>MON.</speaker>
@@ -2935,8 +2934,8 @@ know when to speak nor when to hold my tongue.</p>
 <speaker>AUR.</speaker>
 <p>You hear! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="19" type="scene">
+</div>
+<div n="19" type="scene">
 <head>SCENE XIX.</head>
 <sp>
 <speaker>MON.</speaker>
@@ -3043,8 +3042,8 @@ know when to speak nor when to hold my tongue.</p>
 <speaker>SUS.</speaker>
 <p>I wish thee wur not a Count, Harry. Howsomdever, as far as conscience and honesty will go, I'll do my best. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="20" type="scene">
+</div>
+<div n="20" type="scene">
 <head>SCENE XX.</head>
 <sp>
 <speaker>MON.</speaker>
@@ -3053,11 +3052,11 @@ know when to speak nor when to hold my tongue.</p>
 given myself a title. Why not? "If I am not a lord, it seems I ought to have been. I find no difficulty in being as extravagant as a lord, as proud as a lord, as idle as a lord, and as impudent as a lord. I could game like a lord, be duped like a lord, run in debt like a lord, and never pay, as naturally as if I had been born a lord. Let lords look to it, then, and reform. Let them be as superior to the poor in virtue as they are in power, and I will blush for being an impostor."</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The House of <hi>SIR JOB.</hi></stage></head>
 <stage>SIR JOB <hi>and</hi> MR. TAUNTON.</stage>
 <sp>
@@ -3255,8 +3254,8 @@ given myself a title. Why not? "If I am not a lord, it seems I ought to have bee
 <p>This way.</p>
 <stage>[Exeunt Sir Job and Mr. Taunton to an inner chamber.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Enter</hi> JONAS <hi>and</hi> MONROSE.</stage></head>
 <sp>
 <speaker>MON.</speaker>
@@ -3307,8 +3306,8 @@ given myself a title. Why not? "If I am not a lord, it seems I ought to have bee
 <speaker>JON.</speaker>
 <p>Nya! Who says you could? Do you think I am to be stopped by you?</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Enter</hi> LADY FERMENT.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -3427,8 +3426,8 @@ given myself a title. Why not? "If I am not a lord, it seems I ought to have bee
 <speaker>MON.</speaker>
 <p><stage>(Aside)</stage> The reproof is just.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Re-enter through the same door <hi>SIR JOB</hi> and <hi>MR. TAUNTON:</hi> the latter bows and passes on.</stage></head>
 <sp>
 <speaker>SIR J.</speaker>
@@ -3446,8 +3445,8 @@ given myself a title. Why not? "If I am not a lord, it seems I ought to have bee
 <speaker>MON.</speaker>
 <p>I will attend you. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="48" facs="57"/>
 <head>SCENE V.</head>
 <sp>
@@ -3600,8 +3599,8 @@ his turtle soup, and any thing my hands can make him.</p>
 <speaker>LA. F.</speaker>
 <p>Your miserly propensities are contemptible. I'll be the slave of them no longer.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage><hi>Enter</hi> OLIVER.</stage></head>
 <sp>
 <speaker>OL.</speaker>
@@ -3664,8 +3663,8 @@ his turtle soup, and any thing my hands can make him.</p>
 <speaker>JON.</speaker>
 <p>I must have some money. The Serpentine river! Remember! I want pleasure, I want a wife, I want a thousand things. I will have some money. <stage>(Follows.)</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage>(As they go off, <hi>MONROSE</hi> enters.)</stage></head>
 <sp>
 <speaker>MON.</speaker>
@@ -3763,8 +3762,8 @@ only determine to share the good I mean to confer. Hark! I hear Sir Job! Begone!
 <speaker>MON.</speaker>
 <p>What an impassioned little fool it is!</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage><hi>Enter</hi> SIR JOB <hi>and</hi> MR. TAUNTON.</stage></head>
 <sp>
 <speaker>SIR J.</speaker>
@@ -3937,8 +3936,8 @@ only determine to share the good I mean to confer. Hark! I hear Sir Job! Begone!
 <speaker>MR. T.</speaker>
 <p>Noisy fowlers catch no birds. Fools fish in troubled waters. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>Enter <hi>SUSAN</hi> at one Door, <hi>AURELIA</hi> at another.</stage></head>
 <sp>
 <speaker>SUS.</speaker>
@@ -4075,8 +4074,8 @@ only determine to share the good I mean to confer. Hark! I hear Sir Job! Begone!
 <p>As I am a living soul you be. But do you make haste from this house; and be sure you let me know all about you! Be sure you do, for mayhap I may see you righted yet. So pray you now dunno' forget me. I shall never forget you: and so I may happen to see you righted. Good bye. Lord Almighty bless you! Good bye!</p>
 <stage>[Exit in great trepidation.</stage>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <sp>
 <speaker>AUR.</speaker>
@@ -4084,8 +4083,8 @@ only determine to share the good I mean to confer. Hark! I hear Sir Job! Begone!
 <pb n="57" facs="66"/>
 But, like a traveller in a desert, I must proceed or perish.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>Enter <hi>SIR GUY,</hi> followed by a Servant.</stage></head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -4242,8 +4241,8 @@ sentimental prattle are so many Syrens. Come, come along.</p>
 <speaker>SIR G.</speaker>
 <p>Well, well; any thing you wish. Should you ask me to marry, you are such a bewitching sorceress, curse me if I should not instantly comply. I am sure I should, so don't tempt me. Nor don't let my title, nor my seven thousand a year, tempt you. Sit at a proper distance, and turn your eyes t'other way, or, in spite of sixty-five, I shall be fascinated. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <stage><hi>Enter</hi> OLIVER.</stage></head>
 <sp>
 <speaker>OL.</speaker>
@@ -4291,11 +4290,11 @@ poverty and dependence can inflict. But I ask nothing, hope nothing, save the as
 <speaker>OL.</speaker>
 <p><stage>(Alarmed)</stage> Farewel! Why farewel? Aurelia! <stage>[Exit following.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The House of Mr. <hi>QUAKE.</hi></stage></head>
 <stage>Enter <hi>MONROSE</hi> and <hi>QUAKE,</hi> the latter alarmed.</stage>
 <sp>
@@ -4467,8 +4466,8 @@ poverty and dependence can inflict. But I ask nothing, hope nothing, save the as
 <speaker>MON.</speaker>
 <p>You an attorney? Baw! You have not yet learned your rudiments. "What is a blockhead? A blockhead is a poor devil. Who are men of understanding? Every one who has five thousand a year. What is a knave? He that is hanged for cheating. And what an honest man? He that gets an estate by the same means. Who are most courted? Men of wit. And who are they? Those that give good dinners, make their friends drunk with the best wines, and then pick their pockets at hazard and faro. Who are most imitated? Men of fashion. And he is a man of the first fashion who associates with stable-boys in the morning, with opera-dancers and demireps after dinner, and with a Babel mixture of bullies, bubbles, and pickpockets from midnight to sunrise." <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Changes to the house of <hi>SIR JOB,</hi> with a closet door.</stage></head>
 <stage><hi>Enter</hi> JONAS.</stage>
 <sp>
@@ -4477,8 +4476,8 @@ poverty and dependence can inflict. But I ask nothing, hope nothing, save the as
 <pb n="64" facs="73"/>
 the door unlocked)</stage> Hay! Why the door is open! Who knows? Now for good luck! <stage>(Goes into the closet.)</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Enter</hi> LADY FERMENT <hi>and</hi> OLIVER.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -4550,15 +4549,15 @@ the door unlocked)</stage> Hay! Why the door is open! Who knows? Now for good lu
 <speaker>LA. F.</speaker>
 <p>That is lucky, however. He cannot now pretend he has no cash. I must get some for this dear tormenting boy. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <sp>
 <speaker>JON.</speaker>
 <p><stage>(Peeping out, having overheard)</stage> He has got some for himself. <stage>(Tossing the guineas)</stage> Here's pleasure! Here's frolic! Here's watches, and rings, and ribbands for Susan! Oh lord! Oh lord! I was snug in the corner: Oliver could not see me. Ha, ha, ha! I have filled up the bag with counters. Hold! I must shut the door; and then this spring lock will make all safe. Your spring lock is a kind of politician's puzzle: he that is in can easily get out; but he that is out must procure a key. <stage>(Shaking the guineas)</stage> Here they are! Where shall I find Susan? Here's music! Here they are! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>Enter</hi> SIR JOB, OLIVER, <hi>and</hi> LADY FERMENT.</stage></head>
 <sp>
 <speaker>SIR J.</speaker>
@@ -4625,8 +4624,8 @@ the door unlocked)</stage> Hay! Why the door is open! Who knows? Now for good lu
 <speaker>OL.</speaker>
 <p>Sir Job, my Lady, if the tongue of man be capable of truth, I left this bag, or one like it, with a hundred guineas in that closet not twenty minutes ago. Your Ladyship saw me go in.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>SUSAN.</speaker>
@@ -4735,8 +4734,8 @@ the door unlocked)</stage> Hay! Why the door is open! Who knows? Now for good lu
 <speaker>SUS.</speaker>
 <p>What sayn you?</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="68" facs="77"/>
 <head>SCENE VII.</head>
 <sp>
@@ -4998,16 +4997,16 @@ knife—No; I'll not give my knife: that cuts love.</p>
 <speaker>SUS.</speaker>
 <p>Look! Look! What a pretty robin redbreast there be! <stage>(Bangs-to the door.)</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="71" facs="80"/>
 <head>SCENE VIII.</head>
 <sp>
 <speaker>JON.</speaker>
 <p>Oh you confounded little jade, but I shall catch you! Well, it is plaguy tantalizing when one is in such a hurry to be married, to be balked so often. Oh that I had a chaise and eight now at the door, and this dear little gipsy in my arms! She would struggle: so should I. "Pray, Mr. Jonas, let me go!" I can't, my love! "Consider my blushes!" Consider my impatience! "Nay but duty, decency!" Are both drabs; a queer pair of prudes; two frumpish freakish old-fashioned tabbies; all polite people now are ashamed of their company. So let us leave them to their favourite friends, old maids cabal and a brandy bottle, and hey for Scotland, you sweet charming— <stage>(Going)</stage></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>Enter <hi>MONROSE,</hi> bringing in <hi>SUSAN</hi> by the wrist.</stage></head>
 <sp>
 <speaker>JON.</speaker>
@@ -5029,8 +5028,8 @@ knife—No; I'll not give my knife: that cuts love.</p>
 <speaker>JON.</speaker>
 <p>You might be in a humour for good manners, methinks. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <sp>
 <speaker>SUS.</speaker>
@@ -5100,15 +5099,15 @@ thwarted thus by a mere puppet! Once more, girl, listen and obey.</p>
 <speaker>MON.</speaker>
 <p>Hell and— <stage>(Snatches out his watch, sees the hour, and hastily crosses)</stage> Hark you, I know not how far your infernal obstinacy may lead you▪ You have already injured me deeply; but, should you venture to whisper one more treacherous word, tremble at my vengeance. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <sp>
 <speaker>SUS.</speaker>
 <p>Marcy keep me, what a wicked passion a be in! A'll come to no good; and my heart wull brust. What shall I do? I have no christian soul to break my mind to. A said a would bring poor Miss Aurelia to my lodging. What if I do go and some how watch? Who knows but I mought save her from ruination, and betray him from a mort o' mischief? I munno' tell ought, for then belike a wull be taken up; and what mought betide, oh Lord! Oh Lord! Supposing him before the justice!—I'll do't—I wull—I'll say my prayers and ventur, I'm detarmint. <stage>(Going)</stage></p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <stage><hi>Enter</hi> JONAS.</stage></head>
 <sp>
 <speaker>JON.</speaker>
@@ -5204,26 +5203,26 @@ thwarted thus by a mere puppet! Once more, girl, listen and obey.</p>
 <speaker>JON.</speaker>
 <p>Not a bit. They are noble souls! Sound hearts! They would not hurt man, woman, or child. Do you make haste. I must fly. I shall accomplish it; and then, oh Lord, oh Lord! I shall be a happy dog! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <sp>
 <speaker>SUS.</speaker>
 <p>A's a greadly lad! A's a farrantly lad! And I be welly overcome to think a has so kind a heart! An a make his words good, I do believe I shall love him ten thousand times better nur I do brother Harry! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Lodgings of <hi>SUSAN.</hi> Loud knocking at the Street Door.</stage></head>
 <stage>Enter <hi>SUSAN</hi> hastily and in much alarm.</stage>
 <sp>
 <speaker>SUSAN.</speaker>
 <p>SO, so! A be come at long length. <stage>(Knocking again)</stage> A's in a wicked haste—There—the door opens—Now for it! What wull be the upshot on't?—Goodness, how dizzy I be!—Dear, dear, what be come to me!—I am taken all over as thof I had an ague fit—I mun bear up—I hear him—A be coming—Marcy deliver me! <stage>(Retires.)</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>(Enter <hi>MONROSE</hi> and <hi>AURELIA,</hi> preceded by a Female Servant with Candles, which she places on the Table and departs.)</stage></head>
 <sp>
 <speaker>MON.</speaker>
@@ -5350,8 +5349,8 @@ presumptuous man would claim as a due, but which I will hoard in my heart as the
 <speaker>SUS.</speaker>
 <p>I munno'. <stage>(Monrose seizes her by the arm, and</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>JONAS</hi> rushes in.)</stage>
 <sp>
@@ -5403,8 +5402,8 @@ presumptuous man would claim as a due, but which I will hoard in my heart as the
 <speaker>SUS.</speaker>
 <p>A's a good mon's son, and I hope a'll be a good mon himsel'. I do hope and trust a wull. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>OLIVER</hi> following to the door, and <hi>MONROSE</hi> advancing lays hold of his arm.</stage></head>
 <sp>
 <speaker>MON.</speaker>
@@ -5533,8 +5532,8 @@ brain. Then vaunt of your dexterity; and again reiterate your epithet, gentleman
 <speaker>MON.</speaker>
 <p><stage>(After a pause)</stage> It shall be so! Monrose shall yet rise on the necks of wretches that hope ere this to trample him in the dust. Follow and behold! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>The House of <hi>SIR JOB.</hi></stage></head>
 <stage><hi>Enter</hi> SIR GUY <hi>and</hi> MR. TAUNTON.</stage>
 <sp>
@@ -5583,8 +5582,8 @@ a house. Why did not you bawl for help? Owls can hoot; and geese can cackle.</p>
 <speaker>SIR G.</speaker>
 <p>Why should you suppose I suspect you?</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage><hi>Enter</hi> SIR JOB.</stage></head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -5739,8 +5738,8 @@ a house. Why did not you bawl for help? Owls can hoot; and geese can cackle.</p>
 <speaker>SIR G.</speaker>
 <p>It is she! Here she comes!</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>Enter</hi> AURELIA, SUSAN, <hi>and</hi> JONAS.</stage></head>
 <sp>
 <speaker>AUR.</speaker>
@@ -5799,8 +5798,8 @@ a house. Why did not you bawl for help? Owls can hoot; and geese can cackle.</p>
 <speaker>MR. T.</speaker>
 <p>I can't stay, and I won't stay.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage><hi>Enter</hi> OLIVER <hi>and</hi> MONROSE.</stage></head>
 <sp>
 <speaker>MON.</speaker>
@@ -5865,8 +5864,8 @@ glance at you. Be my actions what they will, I can distinguish, ay, and can reve
 <speaker>SIR G.</speaker>
 <p>It is most strange! <stage>(Knocking hard at the street door)</stage> What more?</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.— <stage><hi>Enter</hi> LADY FERMENT.</stage></head>
 <sp>
 <speaker>LA. F.</speaker>
@@ -5925,8 +5924,8 @@ glance at you. Be my actions what they will, I can distinguish, ay, and can reve
 <speaker>MR. T.</speaker>
 <p>The Lady shall have her due. The tree of knavery bears bitter fruit. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <sp>
 <speaker>SUS.</speaker>
@@ -5960,8 +5959,8 @@ glance at you. Be my actions what they will, I can distinguish, ay, and can reve
 <speaker>SIR J.</speaker>
 <p>Heigho! It is bad I find to do wrong: but it is worse to be found out. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <sp>
 <speaker>AUR.</speaker>
@@ -6061,11 +6060,9 @@ glance at you. Be my actions what they will, I can distinguish, ay, and can reve
 <speaker>SIR G.</speaker>
 <p>And what is it that will correct his errors? It is the virtue that has been exercised to day. It is purity of intention in some, benevolence of heart in others, and that kind, forgiving, and indulgent spirit, which ought to inhabit every human bosom. <stage>[Exeunt Onmes.</stage></p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

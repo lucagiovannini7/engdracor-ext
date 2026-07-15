@@ -7,7 +7,7 @@
 <extent>[6],98p. ; 4⁰.</extent><publicationStmt><publisher>printed by H. Woodfall: and sold by J. Morgan,</publisher><date>1761.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: R. Glover.</note><note>[Price Two Shillings and Six-pence.] below imprint; a variant is unpriced.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT975.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>MEDEA. A TRAGEDY.</p>
 <l>—Aestuat ingens</l>
@@ -16,13 +16,13 @@
 <bibl>AENEID.</bibl>
 <p>LONDON: Printed by H. WOODFALL: And Sold by J. MORGAN, <hi>Pater-noster-row.</hi> M.DCC.LXI.</p>
 <p>[Price TWO SHILLINGS and SIX-PENCE.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>TO THE KING THIS TRAGEDY OF MEDEA IS MOST HUMBLY INSCRIB'D BY HIS MAJESTY's</p>
 <closer><signed>MOST DUTIFUL, MOST FAITHFUL AND DEVOTED SUBJECT AND SERVANT, R. GLOVER.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <l>THOUGH wild our theme, the grave historian's page</l>
@@ -52,8 +52,8 @@
 <l>The characters and passions hence exprest</l>
 <l>Are all submitted to the feeling breast;</l>
 <l>Let ancient story justify the rest.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -71,14 +71,14 @@
 <item>FIRST PHAEACIAN.</item>
 </list>
 <p>COLCHIANS, PHAEACIANS, THESSALIANS and CORINTHIANS.</p>
-</div1>
+</div>
 <set><p>The scene is in the citadel of Corinth between a grove sacred to Juno, and the royal palace, with a distant prospect of the sea.</p></set>
 </front>
 <body>
 <head><pb n="1" facs="5"/>MEDEA. A TRAGEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE THE FIRST.</head>
 <sp>
 <speaker>LYCANDER</speaker>
@@ -139,8 +139,8 @@
 <l>Their mien dejected. This demands my care.</l>
 <l>Farewel.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE THE SECOND.</head>
 <stage>THEANO and COLCHIANS.</stage>
 <sp>
@@ -232,8 +232,8 @@
 <l>Thou too be present, goddess, and illumine</l>
 <l>The earth-born darkness of thy servant's mind.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THE THIRD.</head>
 <stage>THEANO and CREON.</stage>
 <sp>
@@ -368,8 +368,8 @@
 <l>Go, dream again; procure some wiser vision,</l>
 <l>Which may instruct thee to avoid my wrath.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE THE FOURTH.</head>
 <stage>CREON and LYCANDER.</stage>
 <sp>
@@ -385,8 +385,8 @@
 <l>Iolchian Aeson, Jason's royal sire,</l>
 <l>Advancing now anticipates this notice.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE THE FIFTH.</head>
 <stage>CREON, LYCANDER, and AESON with THESSALIANS in mourning garments.</stage>
 <sp>
@@ -484,8 +484,8 @@
 <l>And let her bring obedience: else her fault</l>
 <l>Shall on thy head be punish'd.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="12" facs="16"/>
 <head>SCENE THE SIXTH.</head>
 <stage>CREON and AESON.</stage>
@@ -557,8 +557,8 @@
 <l>That grief, despair, distraction wait our nod,</l>
 <l>To wring her heart through all her magic guards.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="14" facs="18"/>
 <head>SCENE THE SEVENTH.</head>
 <stage>MEDEA, her two CHILDREN, COLCHIANS and PHAEACIANS.</stage>
@@ -642,8 +642,8 @@
 <l>That nothing calm may hover nigh my heart</l>
 <l>To cool its pain, and save me from distraction.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE THE EIGHTH.</head>
 <stage>COLCHIANS and PHAEACIANS.</stage>
 <sp>
@@ -677,8 +677,8 @@
 <l>Her deep-revolving spirit may confine,</l>
 <l>But by our sorrows may relieve her own.</l>
 </sp>
-<div3 type="music">
-<div4 n="1" type="part">
+<div type="music">
+<div n="1" type="part">
 <head>FIRST PART OF THE MUSIC.</head>
 <sp>
 <speaker>A COLCHIAN.</speaker>
@@ -728,8 +728,8 @@
 <l>Nor sent us weeping from our homes,</l>
 <l>Her luckless train, to share her grief.</l>
 </sp>
-</div4>
-<div4 n="2" type="part">
+</div>
+<div n="2" type="part">
 <head>SECOND PART.</head>
 <sp>
 <speaker>A PHAEACIAN.</speaker>
@@ -777,15 +777,15 @@
 <l>And our peaceful moss deserting</l>
 <l>Found a pillow thorn'd with care.</l>
 </sp>
-</div4>
-</div3>
-</div2>
+</div>
+</div>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="25"/>
 <head>ACT THE SECOND.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE THE FIRST.</head>
 <stage>JASON advancing from the end of the stage, THEANO on one side, MEDEA in the grove.</stage>
 <sp>
@@ -960,8 +960,8 @@
 <l>I dread that scorn and fury, whose excess</l>
 <l>May kill repentance, and provoke destruction.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE THE SECOND.</head>
 <stage>THEANO, JASON and LYCANDER</stage>
 <sp>
@@ -996,8 +996,8 @@
 <speaker>LYCANDER.</speaker>
 <l>Fear not; thy counsels shall be treasur'd here.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THE THIRD.</head>
 <stage>JASON and LYCANDER.</stage>
 <sp>
@@ -1017,8 +1017,8 @@
 <speaker>LYCANDER.</speaker>
 <l>Prince, he is near; and I return to Creon.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="27" facs="31"/>
 <head>SCENE THE FOURTH.</head>
 <stage>JASON and AESON.</stage>
@@ -1140,8 +1140,8 @@
 <l>Shall not be far. Remember, thou dost hazard</l>
 <l>Thy country's love, perhaps thy father's too.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="30" facs="34"/>
 <head>SCENE THE FIFTH.</head>
 <stage>JASON apart, MEDEA, COLCHIANS and PHAEACIANS.</stage>
@@ -1372,8 +1372,8 @@
 <l>Nor ev'n amidst our complicated woes</l>
 <l>E'er think of thee, perfidious, but with scorn.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE THE SIXTH.</head>
 <stage>JASON and AESON.</stage>
 <sp>
@@ -1420,8 +1420,8 @@
 <l>The groans of slaughter, and the crash of spears</l>
 <l>Might blend their discord for my nuptial song.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="38" facs="42"/>
 <head>SCENE THE SEVENTH.</head>
 <stage>COLCHIANS and PHAEACIANS from the grove, and looking on JASON, as he quits the stage.</stage>
@@ -1474,13 +1474,13 @@
 <l>Wound thy ear accustom'd long</l>
 <l>To the music of renown?</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="40" facs="44"/>
 <head>ACT THE THIRD.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE THE FIRST.</head>
 <stage>THEANO and the FIRST COLCHIAN.</stage>
 <sp>
@@ -1527,8 +1527,8 @@
 <l>Now dost thou shew, as blasted by the lightning,</l>
 <l>With all thy tender branches with'ring round.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE THE SECOND.</head>
 <stage>THEANO and the FIRST COLCHIAN apart. MEDEA, her TWO CHILDREN, COLCHIANS and PHAEACIANS.</stage>
 <sp>
@@ -1647,8 +1647,8 @@
 <l>Of man, false man grown reprobate by time</l>
 <l>With all the pomp of hecatombs would fail.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THE THIRD.</head>
 <stage>MEDEA, COLCHIANS and PHAEACIANS.</stage>
 <sp>
@@ -1674,8 +1674,8 @@
 <speaker>FIRST COLCHIAN.</speaker>
 <l>Behold the king.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE THE FOURTH.</head>
 <stage>MEDEA, COLCHIANS and PHAEACIANS, CREON, LYCANDER and attendants.</stage>
 <sp>
@@ -1822,8 +1822,8 @@
 <l>Three hours elaps'd, expect me to return</l>
 <l>Thy safe conductor to the kingdom's frontier.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE THE FIFTH.</head>
 <stage>MEDEA, COLCHIANS and PHAEACIANS.</stage>
 <sp>
@@ -1850,8 +1850,8 @@
 <l>Who share so kindly in Medea's woes.</l>
 <l>I would not pierce your gentle hearts with terror.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE THE SIXTH.</head>
 <stage>MEDEA and the FIRST COLCHIAN.</stage>
 <sp>
@@ -1919,8 +1919,8 @@
 <l>Its entrails groan— Its shiv'ring surface parts.</l>
 <l>Scarce can Aeetes' child the sight endure.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE THE SEVENTH.</head>
 <stage>MEDEA, and HECATÉ rising in long, black garments, with a wreath of snakes, and oaken boughs on her head, and a torch in her hand.</stage>
 <sp>
@@ -1984,8 +1984,8 @@
 <l>Then a despairing wand'rer must thou trace</l>
 <l>The paths of sorrow in remotest climes.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="54" facs="58"/>
 <head>SCENE THE EIGHTH.</head>
 <sp>
@@ -1994,8 +1994,8 @@
 <l>Oh! insupportable! O pitying Juno!</l>
 <l>Assist me sinking to the ground with anguish.</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE THE NINTH.</head>
 <stage>MEDEA on the ground, COLCHIANS and PHAEACIANS.</stage>
 <sp>
@@ -2049,8 +2049,8 @@
 <l>The sense of all its injuries disburthen</l>
 <l>In secret murmurs, till its rage be spent.</l>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE THE TENTH.</head>
 <stage>COLCHIANS and PHAEACIANS.</stage>
 <sp>
@@ -2108,13 +2108,13 @@
 <l>And my long-forsaken home</l>
 <l>Wakes the plaintive muse no more.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="58" facs="62"/>
 <head>ACT THE FOURTH.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE THE FIRST.</head>
 <stage>JASON and the FIRST COLCHIAN.</stage>
 <sp>
@@ -2164,8 +2164,8 @@
 <l>The lively patterns of their mother's graces,</l>
 <l>And sharers in misfortune.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE THE SECOND.</head>
 <stage>JASON, the FIRST COLCHIAN and the CHILDREN.</stage>
 <sp>
@@ -2243,8 +2243,8 @@
 <l>How constant are these children!</l>
 <l>But they were never harrass'd by her scorn.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THE THIRD.</head>
 <stage>JASON, the CHILDREN, MEDEA, COLCHIANS and PHAEACIANS.</stage>
 <sp>
@@ -2452,8 +2452,8 @@
 <l>The winds shall lend their swiftness, hell its fiends,</l>
 <l>The sea its fury, and the Sun his flames.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE THE FOURTH.</head>
 <stage>JASON and the FIRST COLCHIAN.</stage>
 <sp>
@@ -2484,8 +2484,8 @@
 <l>And look behind thee. He is sent from Creon</l>
 <l>To drive her hence.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="68" facs="72"/>
 <head>SCENE THE FIFTH.</head>
 <stage>JASON, the FIRST COLCHIAN and LYCANDER.</stage>
@@ -2542,8 +2542,8 @@
 <l>Stop. The king is here</l>
 <l>To widen this confusion.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE THE SIXTH.</head>
 <stage>JASON, the FIRST COLCHIAN, LYCANDER, CREON and attendants.</stage>
 <sp>
@@ -2642,8 +2642,8 @@
 <l>And here degrade my honours and renown</l>
 <l>With boasts resembling thine? Farewel forever.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE THE SEVENTH.</head>
 <stage>LYCANDER, CREON and attendants.</stage>
 <sp>
@@ -2658,8 +2658,8 @@
 <l>Without my licence. I will hold him still,</l>
 <l>And cast him prostrate at Creüsa's feet.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE THE EIGHTH.</head>
 <stage>LYCANDER, CREON, attendants and THEANO.</stage>
 <sp>
@@ -2731,8 +2731,8 @@
 <speaker>THEANO.</speaker>
 <l>Impious man!</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE THE NINTH.</head>
 <stage>LYCANDER and THEANO.</stage>
 <sp>
@@ -2746,8 +2746,8 @@
 <l>Though years may roll on years, ere we again</l>
 <l>Shall meet in peace.</l>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="75" facs="79"/>
 <head>SCENE THE TENTH.</head>
 <stage>LYCANDER, THEANO and JASON.</stage>
@@ -2769,8 +2769,8 @@
 <l>And we surviving each portentous storm</l>
 <l>Derive a sad security from horror.</l>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE THE ELEVENTH.</head>
 <stage>LYCANDER and JASON.</stage>
 <sp>
@@ -2815,8 +2815,8 @@
 <l>Let him come.</l>
 <l>Go and expect me shortly on the beach.</l>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE THE TWELFTH.</head>
 <stage>JASON and AESON.</stage>
 <sp>
@@ -2913,8 +2913,8 @@
 <l>Which shakes thy placid bosom. Be compos'd.</l>
 <l>I will conduct Theano to the king.</l>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE THE THIRTEENTH.</head>
 <sp>
 <speaker>JASON</speaker>
@@ -2941,8 +2941,8 @@
 <l>Of magic numbers, and mysterious spels,</l>
 <l>And feasts with knowledge my enraptur'd soul.</l>
 </sp>
-</div2>
-<div2 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE THE FOURTEENTH.</head>
 <sp>
 <speaker>COLCHIANS.</speaker>
@@ -2975,13 +2975,13 @@
 <l>Let her, though begirt with ills,</l>
 <l>Still thy progeny be known.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="82" facs="86"/>
 <head>ACT THE FIFTH.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE THE FIRST.</head>
 <stage>THEANO descending from the temple, AESON and COLCHIANS.</stage>
 <sp>
@@ -3050,8 +3050,8 @@
 <l>Make me thy associate,</l>
 <l>And I to calm his violence will join.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="84" facs="88"/>
 <head>SCENE THE SECOND.</head>
 <stage>COLCHIANS, MEDEA rushing from the temple, PHAEACIANS following.</stage>
@@ -3242,8 +3242,8 @@
 <speaker>FIRST COLCHIAN.</speaker>
 <l>See Jason too unconscious of his loss.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE THE THIRD.</head>
 <stage>COLCHIANS, MEDEA, PHAEACIANS and JASON.</stage>
 <sp>
@@ -3364,8 +3364,8 @@
 <l>Hold, off-spring of the Sun; arise; repair</l>
 <l>To Juno's shrine; reply not, but obey.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="93" facs="97"/>
 <head>SCENE THE FOURTH.</head>
 <stage>JASON, COLCHIANS and PHAEACIANS.</stage>
@@ -3378,8 +3378,8 @@
 <l>From mine is moulder'd, and despair is lodg'd</l>
 <l>Within the ruins.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE THE FIFTH.</head>
 <stage>JASON, COLCHIANS, PHAEACIANS and LYCANDER.</stage>
 <sp>
@@ -3432,8 +3432,8 @@
 <l>And to her temple flies. In consternation</l>
 <l>Old Aeson too is nigh.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="95" facs="99"/>
 <head>SCENE THE SIXTH.</head>
 <stage>JASON, COLCHIANS, PHAEACIANS, LYCANDER, AESON and THESSALIANS.</stage>
@@ -3495,8 +3495,8 @@
 <l>Yes, and safety</l>
 <l>To all, but Creon. Give the torrent way.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE THE SEVENTH.</head>
 <stage>JASON, COLCHIANS, PHAEACIANS, LYCANDER, AESON, THESSALIANS and CORINTHIANS.</stage>
 <sp>
@@ -3505,8 +3505,8 @@
 <l>If she so wills, the sacrilegious head</l>
 <l>Of our slain tyrant to her sacred feet.</l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="97" facs="101"/>
 <head>SCENE THE LAST.</head>
 <stage>JASON, COLCHIANS, PHAEACIANS, LYCANDER, AESON, THESSALIANS and CORINTHIANS falling back on each side of the stage, as THEANO descends from the temple.</stage>
@@ -3546,9 +3546,9 @@
 <l>And time's light finger loosen from thy breast</l>
 <l>Its root of care, till peace of mind return.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE LAST ACT.</trailer>
-</div1>
+</div>
 </body>
 <back>
 </back>

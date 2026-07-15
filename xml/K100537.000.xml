@@ -7,20 +7,20 @@
 <extent>viii,[2],159,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author, and sold by A. Millar,</publisher><date>1756.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Verse.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT126016.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <pb facs="2"/>
 <p>VIRGINIA A TRAGEDY.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3"/>
 <p>VIRGINIA A TRAGEDY, WITH ODES, PASTORALS, AND TRANSLATIONS.</p>
 <p>By Mrs. <hi>BROOKE.</hi></p>
 <l><hi>—I with Fear</hi></l><l><hi>Repeat my Verses to the public Ear.</hi></l>
 <bibl>Francis's Horace 4th Sat. 1st Book.</bibl>
 <p><hi>LONDON:</hi> Printed for the AUTHOR, And sold by A. MILLAR in the <hi>Strand.</hi> MDCCLVI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>TO The Right Honorable THE LADY ELIZABETH CECIL.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -30,8 +30,8 @@ I avoided the usual Style of Dedicators; and permit me to add, that,</p>
 <closer><signed>I am, With the most unfeigned Respect, And a Sincerity not always found in Addresses of this Nature,</signed>
 <salute>MADAM,</salute> 
 <signed>Your Ladyship's Most oblig'd, Most obedient, and Most devoted Servant, <hi>FRANCES BROOKE.</hi></signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="vii" facs="6"/>
 <head>PREFACE.</head>
 <p>THE Author of these poetical Attempts, begs Leave to say, that she should not have printed them, but that she is precluded from all Hopes of ever seeing the Tragedy brought upon the Stage, by there having been two so lately on the same Subject. If her's should be found to have any greater Resemblance to the two represented, than the Sameness of the Story made unavoidable, of which she is not conscious, it must have been accidental on her side, as there are many Persons, of very distinguished Rank, and unquestionable Veracity, who saw her's in Manuscript before the others appeared, and will witness for her, that she has taken no advantage of having seen them. She must here do Mr. <hi>Crisp</hi> the Justice to say, that any Resemblance must have been equally accidental on his part, as he neither did, nor could see her <hi>Virginia</hi> before his own was play'd;
@@ -40,13 +40,13 @@ Mr. <hi>Garrick</hi> having declined reading her's, till Mr. <hi>Crisp's</hi> wa
 <p>She is sensible of the Danger of appearing in Print, and of the many Imperfections in these Pieces; but hopes, her Sex, and the early Time of Li'e at which most of them were wrote, will plead her Excuse; she asks no more, than to be read with the fame Candor and Indulgence with which she herself reads the Productions of others.</p>
 <p>One thing more she begs Leave to say, that she was greatly encouraged to this Publication, by the favorable Reception three Odes of her's met with, which were inserted in a weekly Paper called <hi>The Old Maid:</hi> as this Volume may possibly come into the Hands of Persons who are Strangers to the Paper, she has reprinted those Odes with the others.</p>
 <p>And now, invoking the Powers for friendly Gales, she ventures to launch her little Bark into the wide Sea of Criticism, and Trembling quits the Shore.</p>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="8"/>
 <p>By this AUTHOR, <hi>Speedily will be published,</hi> PROPOSALS For Printing by SUBSCRIPTION, A POETICAL TRANSLATION WITH NOTES. OF <hi>Il Pastor Fido,</hi> AND OTHER POEMS.</p>
 <p>FROM THE ORIGINAL ITALIAN OF Signor <hi>BATTISTA GUARINI.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="9"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -66,15 +66,14 @@ Mr. <hi>Garrick</hi> having declined reading her's, till Mr. <hi>Crisp's</hi> wa
 <list>
 <item><hi>Priestess of Diana, Virgins, Matrons, Romans, Lictors,</hi> &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>Rome.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
-<div2 n="1" type="act">
+<div n="1" type="act">
 <pb n="1" facs="10"/>
 <head>ACT FIRST,</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
 <stage>NUMITORIUS, VIRGINIA.</stage>
@@ -175,8 +174,8 @@ And crown'd with Laurel, midst his Fellow Soldiers,</l>
 <l>In which thy gentle Friend, the fair Icilia,</l>
 <l>Expects thy Presence.—Ha! Trebonius here!</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>NUMITORIUS, TREBONIUS.</stage>
 <sp>
@@ -253,8 +252,8 @@ And crown'd with Laurel, midst his Fellow Soldiers,</l>
 <l>Even Sextus stole in secret to Lucretia,</l>
 <l>Nor thus avow'd his Baseness!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="9" facs="18"/>
 <head>SCENE III.</head>
 <stage>NUMITORIUS, TREBONIUS, a Slave.</stage>
@@ -279,8 +278,8 @@ And crown'd with Laurel, midst his Fellow Soldiers,</l>
 <speaker>TREBONIUS.</speaker>
 <l>No more: away: my Sword and Arm are yours.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="10" facs="19"/>
 <head>SCENE IV.</head>
 <stage>THE <hi>FORUM,</hi> APPIUS on his Tribunal, twelve LICTORS with Rods and Axes stand rang'd on each Side.</stage>
@@ -349,8 +348,8 @@ Who gave her Birth; I therefore seiz'd upon her,</l>
 <l>To quell the mutinous: by Heaven that Roman</l>
 <l>Who stops the Course of Justice, dies this Moment.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="13" facs="22"/>
 <head>SCENE V.</head>
 <stage>APPIUS, VIRGINIA, ICILIUS, CLAUDIUS, NUMITORIUS, TREBONIUS, Romans.</stage>
@@ -430,8 +429,8 @@ I will defer my Sentence 'till Tomorrow;</l>
 <l>Let Sureties instantly be given to Claudius</l>
 <l>For her Appearance.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>VIRGINIA, ICILIUS, NUMITORIUS, TREBONIUS, and Romans.</stage>
 <sp>
@@ -451,8 +450,8 @@ I will defer my Sentence 'till Tomorrow;</l>
 Let me conduct thee hence. O, Romans! Friends!</l>
 <l>Remember! But I will not doubt your Virtue.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
 <stage>NUMITORIUS, TREBONIUS.</stage>
@@ -568,8 +567,8 @@ Virginius' Presence yet will save his Child:</l>
 <l>With brave Virginius, meet me at the Temple</l>
 <l>Of righteous Themis, soon as he arrives.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="22" facs="31"/>
 <head>SCENE VIII.</head>
 <stage>VIRGINIA, ICILIA.</stage>
@@ -709,12 +708,12 @@ Let us, when Morn first paints the ruddy Skies,</l>
 <l>If I must die, my spotless Honor save,</l>
 <l>And let me sink unsullied to the Grave!</l>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="28" facs="37"/>
 <head>ACT SECOND,</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>[<hi>The House of</hi> APPIUS.]</stage>
 <stage>APPIUS, CLAUDIUS.</stage>
@@ -831,8 +830,8 @@ Late in the Senate, when I call'd the Fathers</l>
 <speaker>APPIUS.</speaker>
 <l>Conduct him in.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="33" facs="42"/>
 <head>SCENE II.</head>
 <stage>APPIUS, CLAUDIUS, Messenger.</stage>
@@ -851,8 +850,8 @@ Late in the Senate, when I call'd the Fathers</l>
 <l>'Tis well: attend without.</l>
 <stage>(Reads)</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>APPIUS, CLAUDIUS.</stage>
 <sp>
@@ -886,8 +885,8 @@ Have dar'd to brave their Leaders: Fabius writes</l>
 <l>This will not brook Delay: prepare my Tablets.</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="35" facs="44"/>
 <head>SCENE IV.</head>
 <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
@@ -1011,8 +1010,8 @@ Bear with a Deed like this: perhaps this Appius</l>
 <l>(Since we agreed to meet in Themis' Temple,)</l>
 <l>Bespeak some new Event.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="40" facs="49"/>
 <head>SCENE V.</head>
 <stage>NUMITORIUS, ICILIUS, TREBONIUS.</stage>
@@ -1120,8 +1119,8 @@ By Fabius, and the rest, who copy Appius,</l>
 <l>The Slaves of Appius, or secure our Freedom.</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>[A Garden.]</stage>
 <stage>APPIUS, CLAUDIUS.</stage>
@@ -1254,12 +1253,12 @@ To wake my keen Disdain; my furious Passion</l>
 <l>He hears regardless, and with conscious Joy,</l>
 <l>He bears the struggling, panting, Prize, on high.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="50" facs="59"/>
 <head>ACT THIRD.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
 <sp>
@@ -1280,8 +1279,8 @@ Of more Import than Life, and that a Moment</l>
 <l>Thou art my nearest Care! But see! my Brother!</l>
 <l>He will unfold this Riddle.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>VIRGINIUS, NUMITORIUS.</stage>
 <sp>
@@ -1517,8 +1516,8 @@ Their very Names inspire me: tremble, Appius,</l>
 <l>The Gods are just, and must be Foes to Tyrants.</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="61" facs="70"/>
 <head>SCENE III.</head>
 <stage>[A Garden.]</stage>
@@ -1531,8 +1530,8 @@ Their very Names inspire me: tremble, Appius,</l>
 <l>Then bear her off, and lose myself in Bliss:</l>
 <l>And see! he comes.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="62" facs="71"/>
 <head>SCENE IV.</head>
 <stage>APPIUS, CLAUDIUS.</stage>
@@ -1613,8 +1612,8 @@ The threatening Forms of Danger which surround you.</l>
 <l>Of stern, relentless War, assist thy Votary!</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>[The Street.]</stage>
 <stage>VIRGINIUS, NUMITORIUS.</stage>
@@ -1639,8 +1638,8 @@ They have thrown off the very Mask of Virtue,</l>
 <l>And every Sword will now be drawn for Freedom.</l>
 <l>But see! the brave Icilius comes to clasp thee.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>VIRGINIUS, NUMITORIUS, ICILIUS.</stage>
 <sp>
@@ -1787,12 +1786,12 @@ Behold with Admiration such firm Virtue,</l>
 <l>He wills, that all who nobly dare, be free,</l>
 <l>And gives the brave their well-earn'd Liberty.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="73" facs="82"/>
 <head>ACT FOURTH.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Scene the Inside of the TEMPLE of DIANA; at the upper End an ALTAR and STATUE of the GODDESS, on the Side Scene the Stories of NIOBE and ACTEON painted.</stage>
 <stage>VIRGINIA, ICILIA, Priestess, Train of Virgins.</stage>
@@ -1889,8 +1888,8 @@ Ye Virgin Train! your tuneful Voices raise,</l>
 <l>Ascend! and from the Left the rolling Thunder</l>
 <l>Breaks o'er the Dome! The Goddess guards thy Virtue.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>VIRGINIA, ICILIA, and the Train of VIRGINS, advance slowly to the Front of the Stage, the Scene shuts upon them.</stage>
 <sp>
@@ -1912,8 +1911,8 @@ Ye Virgin Train! your tuneful Voices raise,</l>
 <speaker>VIRGINIA.</speaker>
 <l>Behold, the Virgins wait! Lead on, Icilia.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
 <stage>VIRGINIUS, NUMITORIUS.</stage>
@@ -1939,8 +1938,8 @@ Horatius, Mutius, and the brave Valerius?</l>
 <l>How droop her Charms, like vernal Flow'rets, bent</l>
 <l>Beneath the beating Storm!</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="80" facs="89"/>
 <head>SCENE IV.</head>
 <stage>VIRGINIUS, NUMITORIUS, VIRGINIA.</stage>
@@ -2016,8 +2015,8 @@ Horatius, Mutius, and the brave Valerius?</l>
 <l>Will you then calm his Anguish?</l>
 <l>Tell him I am not worth this Waste of Grief.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="83" facs="92"/>
 <head>SCENE V.</head>
 <stage>VIRGINIUS, NUMITORIUS.</stage>
@@ -2056,8 +2055,8 @@ To this keen Throb, this tender Pang of Nature?</l>
 <l>I must have Time to recollect my Soul,</l>
 <l>Dispel this Grief, and be again a Roman.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>VIRGINIA, ICILIUS.</stage>
 <sp>
@@ -2298,8 +2297,8 @@ To drive these Tyrants hence, and free thy Country:</l>
 <l>My Father here! let us avoid his Presence;</l>
 <l>His Wisdom may condemn this ill-tim'd Softness.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>VIRGINIUS, NUMITORIUS.</stage>
 <sp>
@@ -2329,8 +2328,8 @@ Almost unmark'd he past me.</l>
 <l>Thanks to the gracious Gods he came too late.</l>
 <l>But see, my Child! Wilt thou a Moment leave us.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>VIRGINIUS, VIRGINIA.</stage>
 <sp>
@@ -2430,8 +2429,8 @@ That ever blest a tender Parent's Days;</l>
 <l>Of Peace and Innocence, for sable Weeds,</l>
 <l>Befitting thy unhappy State.</l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>VIRGINIUS, TREBONIUS.</stage>
 <sp>
@@ -2462,12 +2461,12 @@ Thou wou'd'st not wonder at a Father's Fondness:</l>
 <l>In vain fierce Whirlwinds rend the bursting Skies,</l>
 <l>His firm Foundation all their Rage defies.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="101" facs="110"/>
 <head>ACT FIFTH.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>[The Street.]</stage>
 <stage>APPIUS, CLAUDIUS, LICTORS.</stage>
@@ -2500,8 +2499,8 @@ Thou wou'd'st not wonder at a Father's Fondness:</l>
 <l>Let us avoid him: no, I've better thought,</l>
 <l>Ambition yet may bend him. All retire.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="103" facs="112"/>
 <head>SCENE II.</head>
 <stage>APPIUS, VIRGINIUS, NUMITORIUS.</stage>
@@ -2598,8 +2597,8 @@ Tho' 'tis misplac'd: yet hear me, brave Virginius;</l>
 <l>Thee, and thy Patriot Friends. Lead to the Forum.</l>
 <stage>(To the Lictors.)</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="107" facs="118"/>
 <head>SCENE III.</head>
 <stage>VIRGINIUS, NUMITORIUS.</stage>
@@ -2612,8 +2611,8 @@ Tho' 'tis misplac'd: yet hear me, brave Virginius;</l>
 <l>I cannot curse: my Indignation choaks me.</l>
 <l>O, Numitorius! But, no more: Away.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
 <stage>VIRGINIA, ICILIA.</stage>
@@ -2640,8 +2639,8 @@ Tho' 'tis misplac'd: yet hear me, brave Virginius;</l>
 <l>And to my weeping Friends: perhaps the Gods,</l>
 <l>By Means we think not of, may save my Honour.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="109" facs="120"/>
 <head>SCENE V.</head>
 <stage>VIRGINIA, ICILIA, NUMITORIUS, TREBONIUS.</stage>
@@ -2714,8 +2713,8 @@ Attends thee too: dismiss thy Fears, Virginia,</l>
 <speaker>ICILIA.</speaker>
 <l>Trebonius.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="112" facs="123"/>
 <head>SCENE VI.</head>
 <stage>ICILIA, NUMITORIUS, TREBONIUS.</stage>
@@ -2734,8 +2733,8 @@ Attends thee too: dismiss thy Fears, Virginia,</l>
 <speaker>TREBONIUS.</speaker>
 <l>I will, by awful Jove.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="113" facs="124"/>
 <head>SCENE VII.</head>
 <stage>ICILIA, NUMITORIUS.</stage>
@@ -2780,8 +2779,8 @@ Attends thee too: dismiss thy Fears, Virginia,</l>
 <speaker>ICILIA.</speaker>
 <l>Fly to her Aid: stay not to answer me.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <speaker>ICILIA.</speaker>
@@ -2796,8 +2795,8 @@ All, all are gone to learn Virginia's Fate,</l>
 <l>If Virtue is thy Care, protect Virginia!</l>
 <l>Defend her helpless Innocence!</l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>ICILIA, TREBONIUS.</stage>
 <sp>
@@ -2913,8 +2912,8 @@ And plung'd it in her Bosom, thus, he cry'd</l>
 <l>You best can tell—Was it for this—Break Heart,</l>
 <l>And let us die together—</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="120" facs="131"/>
 <head>SCENE X.</head>
 <stage>ICILIA, VIRGINIUS, ICILIUS, TREBONIUS, VIRGINIA supported by Matrons.</stage>
@@ -2988,8 +2987,8 @@ And plung'd it in her Bosom, thus, he cry'd</l>
 <l>Lead her hence.</l>
 <stage>(To the Matrons.)</stage>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="123" facs="134"/>
 <head>SCENE XI.</head>
 <stage>VIRGINIUS, ICILIUS, TREBONIUS.</stage>
@@ -3021,8 +3020,8 @@ With stern Revenge, and Horror: let us go;</l>
 <l>A Life born down with Grief, to glut thy Shade</l>
 <l>With Vengeance on the Monster who destroy'd thee.</l>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>VIRGINIUS, ICILIUS, TREBONIUS, NUMITORIUS, Romans.</stage>
 <sp>
@@ -3120,10 +3119,8 @@ This second Lucrece, saves her suffering Country.</l>
 <l>Let Death unpity'd on Ambition wait,</l>
 <l>And every Tyrant meet with Appius' Fate!</l>
 </sp>
-</div3>
-</div2>
-<trailer>The END.</trailer>
-</div1>
+</div>
+</div>
 <trailer>The END.</trailer>
 </body>
 </text>

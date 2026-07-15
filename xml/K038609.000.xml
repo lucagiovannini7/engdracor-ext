@@ -7,14 +7,14 @@
 <extent>[4],43,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for and sold by Paul Vaillant,</publisher><date>1749.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT37731.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p><hi>LETHE.</hi>
 A
 DRAMATIC SATIRE.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p><hi>LETHE.</hi>
 A
@@ -27,8 +27,8 @@ By His MAJESTY's Servants.</p>
 Printed for and Sold by PAUL VAILLANT,
 facing <hi>Southampton-Street</hi> in the <hi>Strand.</hi>
 MDCCXLIX.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -61,11 +61,11 @@ MDCCXLIX.</p>
 <label><hi>Mrs.</hi> Tatoo</label>
 <item>Mrs. Green.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>LETHE.</head>
-<div1 type="scene">
+<div type="scene">
 <head>SCENE <stage> a Grove, With a View of the River Lethe.</stage></head>
 <stage><hi>CHARON</hi> and <hi>AESOP</hi> discover'd.</stage>
 <sp>
@@ -2244,11 +2244,11 @@ the Forgetfulness of Vice—</p>
 <l>Care dies with Guilt; be virtuous, and be blest.</l>
 </lg>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="51"/>
 <head>BOOKS lately published by P. VAILLANT.</head>
 <list>
@@ -2280,8 +2280,7 @@ and Honey, and the best Methods for the
 Improvement and Preservation of them. Illustrated
 with twelve Copper-Plates, 8vo.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

@@ -7,19 +7,19 @@
 <extent>[2],vii[i.e.viii],[2],79,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. Robinson,</publisher><date>1781.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>P.viii misnumbered vii.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT35033.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>DUPLICITY: A COMEDY. AS IT IS PERFORMED AT THE THEATRE-ROYAL, IN COVENT-GARDEN.</p>
 <p>By THOMAS HOLCROFT.</p>
 <p>LONDON: Printed for G. ROBINSON, PATER-NOSTER ROW.</p>
 <p>M DCC LXXXI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>TO THOMAS HARRIS, ESQ. THIS COMEDY IS INSCRIBED, AS A PUBLIC ACKNOWLEDGEMENT OF THE ADVANTAGES IT RECEIVED, FROM HIS GREAT ATTENTION AND TASTE, AS A CRITIC,</p>
 <closer><signed>BY HIS MOST OBEDIENT, HUMBLE SERVANT, THOMAS HOLCROFT.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="3"/>
 <head>PREFACE.</head>
 <p>SINCE it is the fate of dramatic works to undergo a much more severe scrutiny than any other of the efforts of the mind; authors, in this predicament, are justifiable in taking every opportunity of speaking in their own behalf, and the egotism should be, and is, by the candid, readily forgiven them. The applauses bestowed upon DUPLICITY, in the Theatre, have equalled my fondest hopes; and self-love itself cannot accuse the auditors of ingratitude, or want of penetration. But though there are scenes happy enough to have given universal satisfaction, there are others that have been called vulgarities, damned stuff, and by other concise and summary epithets, which men accustomed to decide without deigning to reason, have invented and appropriated to their own proper use. I do not mean to affirm there is no truth in these remarks: I am, perhaps, the person least qualified of any to pronounce, with safety, on the merits or demerits of the work. Fathers, who are the most free from prejudice, cannot see
@@ -34,8 +34,8 @@
 <p>However, I repeat, had I taken my plot from any play or story, I should have made no scruple to confess it, because I think it no disgrace. The first of all poets invented none of his plots; I shall never be the second, and yet I affirm I did invent mine; that is, as far as I myself am conscious. The elegant Bishop Hurd, in his discourse on Poetical Imitation, has the following remark, among many others, which is applicable to the present occasion: The objects of imitation, like the materials of human knowledge, are a common stock which experience
 <pb n="vii" facs="8"/>furnishes to all men; and it is in the operations of the mind upon them that the glory of poetry, as of science, consists. Here the genius of the poet hath room to shew itself, and from hence, alone, is the praise of originality to be ascertained.</p>
 <p>The Comedy is now committed to the impartial judgment of the true critic; and I have only to wish, it may receive as favourable a sentence from him, as it has already experienced from the voice of an indulgent Public.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE.</head>
 <byline>Written by Mr. NICHOLSON,</byline>
@@ -83,8 +83,8 @@
 <l>Patient to your decision he'll submit,</l>
 <l>Nor wish to bribe the arbiters of wit.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -103,15 +103,14 @@
 <item><label>Melissa,</label>Mrs. INCHBALD.</item>
 <item><label>Mrs. Trip,</label>Mrs. PIT.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="11"/>
 <head>DUPLICITY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage>Sir HARRY PORTLAND's House.</stage>
 <stage><hi>Enter</hi> CLARA <hi>and</hi> MELISSA.</stage>
 <sp>
@@ -623,8 +622,8 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <pb n="14" facs="24"/>fellow—he now appears to have contracted an insatiable love for money, and a violent desire to win—he cares not of whom—of me as soon as another—Were I in his situation, and he in mine, I think I should find an aversion to increase his distress—he knows mine, yet has no such aversion—Perhaps he thinks my ruin certain, and that he may as well profit by it as another—I know him to have the most refined and strictest sense of honour—I have lost most of my money to him, and in his company, and therefore have not been duped out of it.—That is some comfort, however.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> Mr. OSBORNE <hi>and</hi> TIMID.</stage>
 <sp>
@@ -712,13 +711,13 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>Heaven pardon me! I had like to have said, damn the Jews.—</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="26"/>
 <head>ACT. II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>continues.</hi></stage></head>
 <stage>Sir HARRY <hi>and</hi> MELISSA.</stage>
 <sp>
@@ -1053,8 +1052,8 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>A hoic!—Barbara—Barbara—The helve after the hatchet—He that holds a woman, mun ha' a long rope an' a strong arm—Women an mules will go their own road, in zpite of riders or stinging-nettles.</p>
 </sp>
 <stage>(<hi>Exit 'Squire.</hi>)</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="23" facs="33"/>
 <head>SCENE II.</head><stage><hi>The House of Mr.</hi> VANDERVELT.</stage>
 <stage><hi>Enter</hi> VANDERVELT (<hi>meditating.</hi>)</stage>
@@ -1322,13 +1321,13 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <stage><hi>alone.</hi></stage>
 <p>Poor Sir Harry! He has a heart that does honour to mankind, that does not merit distress, yet, if I augur right, that must shortly feel the severest pangs a false friend can inflict!—Ungrateful Osborne!—I must warn Melissa to beware of him, and, if possible, to detach Sir Harry from the gaming-table.</p>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="29" facs="39"/>
 <head>ACT. III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE</head><stage><hi>Sir</hi> HARRY'S <hi>House.</hi></stage>
 <stage><hi>Enter</hi> Sir HARRY, CLARA, MELISSA, VANDERVELT, <hi>laughing.</hi></stage>
 <sp>
@@ -1566,8 +1565,8 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>Favour me with your hand, young lady—And, Sir Harry, do you take my turtle—but don't you let your feelings be too forcible.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="33" facs="43"/>
 <head>SCENE II.</head><stage><hi>The Hall in</hi> Sir HARRY'S <hi>House.</hi></stage>
 <stage><hi>Enter</hi> Sir HORNET ARMSTRONG <hi>and</hi> SERVANT, <hi>as just arrived.</hi></stage>
@@ -2451,13 +2450,13 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>Oh! for a song to the tune of "Room for Cuckolds!"</p>
 </sp>
 <stage>[[Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="48" facs="58"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>A Chamber at</hi> Sir HARRY'S.</stage>
 <stage><hi>Enter</hi> Sir HARRY (<hi>much agitated.</hi>)</stage>
 <sp>
@@ -2600,8 +2599,8 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>Well, but, sister, Melissa. She's gone—flown on the light wings of innocence and happiness—while I, depressed by .folly, feel a weight upon my heart, that hope itself cannot remove.—What is a ruined gamester?—An ideot—who begins for his amusement, who continues hoping to retrieve, and who is ruined before he can recollect himself—a wretch—deserted, solitary, forlorn—ashamed of society, yet miserable when alone—shunned by the prosperous—despised by the prudent—deservedly exposed to the poisoned shafts of insolence and envy—a byeword to the vulgar, and a jest to the fortunate—haunted by duns, preyed upon by usurers, persecuted and curst by creditors.—Inexplicable infatuation!</p>
 </sp>
 <stage>[Exit Sir Harry.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE</head><stage><hi>another Apartment.</hi></stage>
 <stage><hi>Enter</hi> CLARA, MELISSA, <hi>and</hi> 'SQUIRE TURNBULL.</stage>
 <sp>
@@ -3323,13 +3322,13 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>Why look thee, Barbara—come along—vor thee have come up like a vool, zo there can be no harm in thy going down like a vool.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="64" facs="74"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>A Library in</hi> Sir HARRY'S <hi>House.</hi></stage>
 <stage>Sir HARRY, <hi>and</hi> TIMID <hi>discoverd.</hi></stage>
 <sp>
@@ -3704,8 +3703,8 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>I'm a miserable old man.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head><stage>MR. OSBORNE'S <hi>House.</hi></stage>
 <stage>Sir Harry enters excessively agitated, followed by Osborne, with a brace of pistols he had wrested from him.</stage>
 <sp>
@@ -4168,13 +4167,12 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <p>Well, well!—I cannot dissemble. A generous heart, a noble mind, are seldom met and seldom merited. When happiness like this presents itself, to reject is not to deserve it.</p>
 </sp>
 <stage>[Exeunt omnes.</stage>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="90"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by MISS YOUNGE.</byline>
@@ -4227,8 +4225,7 @@ P. S. I forgot to mention, their name is Turnbull.—</p>
 <l>Gravely resolves to set the nation right,</l>
 <l>If your applause should crown his hopes to night.</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

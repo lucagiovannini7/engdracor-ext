@@ -7,13 +7,13 @@
 <extent>[2],62p. ; 12⁰.</extent><publicationStmt><publisher>printed by James Hoey,</publisher><date>1763.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Altered from Thomas Shadwell's 'The humours of the army' by J. P. Kemble.</note><note>Reproduction of original from the Huntington Library.</note><note>English Short Title Catalog, ESTCN1526.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE FEMALE OFFICER, OR THE HUMOURS of the ARMY, A COMEDY.</p>
 <p>Altered from SHADWELL.</p>
 <p>DUBLIN: Printed by JAMES HOEY, at the <hi>Mercury in Skinner-Row,</hi> MDCC LXIII.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -42,15 +42,14 @@
 <item><label>The FEMALE OFFICER,</label> Mrs. DANCER.</item>
 </list>
 <p>SOLDIERS, TRULLS, &amp;c, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3"/>
 <head>The HUMOURS of the ARMY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>The</hi> CAMP.</stage></head>
 <stage><hi>Enter</hi> Captain Hearty, <hi>and</hi> Captain Wildish.</stage>
 <sp>
@@ -547,8 +546,8 @@
 <p>Come, 'Tis Time enough to talk of Settling yourself, when you are got into your Tents—Silence—March.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>Draws to Brigadier General</hi> Conquest's <hi>Quarters.</hi></stage></head>
 <stage><hi>Enter the</hi> Brigadier General, <hi>Colonel</hi> Mackentosh, <hi>Major</hi> Cadwallader, <hi>and Major</hi> O'Rourk.</stage>
 <sp>
@@ -695,11 +694,11 @@
 <speaker>Capt. <hi>La C.</hi></speaker>
 <p>Poor filly Shentilmens, 'tis not vort my Vile to cut all your Troats for your Folly—Besides, in <hi>France,</hi> de great Shentilman always come last; ha! dat is very goot.</p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>Brigadier General <hi>Conquest's</hi> Quarters.</stage>
 <stage><hi>Enter Brigadier General</hi> Conquest, <hi>and Major</hi> Buck.</stage>
 <sp>
@@ -1290,11 +1289,11 @@ WILLMOT.</p>
 <l>Your Gallant Fighters are your Blustering Boys.</l>
 </lg>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>Brigadier General <hi>Conquest</hi>'s Quarters.</stage>
 <stage><hi>Enter Mrs.</hi> Conquest <hi>and</hi> Belinda.</stage>
 <sp>
@@ -1402,8 +1401,8 @@ WILLMOT.</p>
 <p>Come along and try to Command your Mistress.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>Draws and discovers</hi> Victoria.</stage></head>
 <sp>
 <speaker>Vict.</speaker>
@@ -1591,8 +1590,8 @@ WILLMOT.</p>
 <p>My Prayers will attend you.</p>
 </sp>
 <stage><hi>(Exeunt</hi> severally.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to the Camp.</stage></head>
 <stage>Enter two Ensigns, Serjeant <hi>File-off</hi> following.</stage>
 <sp>
@@ -1885,12 +1884,12 @@ WILLMOT.</p>
 <l>Oh! for a happy Action in the Field,</l>
 <l>To Death we there most lawfully may yie.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="39" facs="45"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Camp.</stage></head>
 <stage>Enter Major <hi>Buck,</hi> Captain <hi>Wildish, Hearty, Charlotte,</hi> Serjeant <hi>File-off</hi> and <hi>Servant.</hi></stage>
 <sp>
@@ -1968,8 +1967,8 @@ WILLMOT.</p>
 <p>And myself to Command her, which is the other half.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> Draws to Brig. Gen. <hi>Conquest's</hi> House.</stage></head>
 <stage>Enter <hi>Belinda.</hi></stage>
 <sp>
@@ -2014,8 +2013,8 @@ MAJOR BUCK.</p>
 <p>Admirable cunning Witch, I'll spoil their Dark Intrigue, and fit 'em with Hypocrisy; and since he will Personate this <hi>Bisket,</hi> I'll be his <hi>Victoria,</hi> and make him mine in spite of all his cunning Plots.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> Draws to the Camp.</stage></head>
 <stage>Enter Brigadier General <hi>Conquest, Mackentosh,</hi> and <hi>Cadwallader.</hi></stage>
 <sp>
@@ -2520,11 +2519,11 @@ MAJOR BUCK.</p>
 <p>And to hang, draw and quarter with ourselves.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the General's.</stage></head>
 <stage><hi>Enter Mrs.</hi> Conquest <hi>and</hi> Belinda.</stage>
 <sp>
@@ -2695,8 +2694,8 @@ MAJOR BUCK.</p>
 <speaker>Prov.</speaker>
 <p>Come—march on— <stage>(they go out in the Order they came in, and the Women cry)</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE draws to the Generals.</stage></head>
 <stage>A Table and Chairs for the Court-Martial.</stage>
 <stage>Enter Judge Advocate, and his Clerk.</stage>
@@ -3334,10 +3333,9 @@ He enters with <hi>Bisket</hi> in one Hand, and <hi>Belinda</hi> in the other.</
 <l>The Scns of <hi>Mars</hi> shall be rever'd in Peace.</l>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
 </back>

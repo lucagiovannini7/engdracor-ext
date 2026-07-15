@@ -7,7 +7,7 @@
 <extent>vii,[1],64p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Reeve,</publisher><date>1758.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT77871.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>MADRIGAL AND TRULLETTA.</p>
 <p>A MOCK-TRAGEDY.</p>
@@ -17,8 +17,8 @@
 <quote>Things unattempted yet in Prose or Rhyme.</quote> <bibl><hi>MILTON.</hi></bibl>
 <p>LONDON: Printed for W. REEVE, at <hi>Shakespear's Head, Fleet-Street.</hi> 1758.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <pb facs="3"/>
 <head>PREFACE.</head>
@@ -41,8 +41,8 @@
 <p>Signior DELL'ARUNDO, in a codicil to his will, hath also left me, subject to the aforesaid conditions, the farther legacy of three plays, viz. one Comedy and two Tragedies, called the <hi>Contrast,</hi> the <hi>Distress'd Princess,</hi> and the <hi>Distress'd Wife.</hi> The Comedy is thought to be a tolerable piece; but as to the Tragedies, I must own I think them greatly inferior to the following work. They have no <hi>triumphal entries,</hi> ROMAN <hi>ovations, sacrifices, dirges, processions, ghosts, drums, trumpets, thunder, lightning, battles, miraculous revolutions</hi> (so necessary, according to Mr. BAYES'S rule, to ELEVATE and SURPRIZE) or any of that <hi>sublime rant,</hi> which may be call'd the very soul of modern tragedy. In short, they have nothing but nature, propriety, and simplicity of fable and diction to recommend them. I have been advis'd to lard them plentifully with the above <hi>tragic artillery;</hi> but, so deprav'd is my taste, that I cannot listen to such innovation: I rather chuse to wait till <hi>nature</hi> and <hi>common sense</hi> come into play again on the <hi>British</hi> stage. In the mean time, if the town have a desire to see the theatrical exhibition of the said pieces; and the said town can or will raise me a patron, that hath influence sufficient to procure their representation, <hi>one,</hi> or <hi>more</hi> of the said pieces shall be at the service of the public in the ensuing season.</p>
 <p>That nothing might be wanting to render the following production as entertaining as possible, I have prevailed on my learned and ingenious friend, Dr. HUMBUG, to assist me in writing annotations to the piece.</p>
 <p><pb n="vii" facs="7"/>I can hardly conclude this preface, without an intimation of the excellency of Mr. DAVIS in the character of BUCKRAMO. I hope his <hi>voice, figure</hi> and <hi>abilities for the stage</hi> will, in the ensuing season, intitle him to the regard of the Public on a PATENT THEATRE.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <head>PROLOGUE.</head>
 <lg>
 <l>YE awful censors of the tragic scene,</l>
@@ -79,8 +79,8 @@
 <l>Your kind compassion with your judgment blend,</l>
 <l><note n="(4)" place="foot">Prologue to the Drummer.</note> Least, in attacking him, you wound a <hi>friend.</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -118,16 +118,15 @@
 <item>SCOURELLA, a Chair-Woman.</item>
 </list>
 <p>Poets, Taylors, Drums, Trumpets, Thunder, Lightening, Processions, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE; <hi>St. Giles's</hi> and <hi>West-Smithfield.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="9"/>
 <head><note n="1" place="foot">In the original it is <hi>Madrigal</hi> and <hi>Trolleta.</hi> As sound may be reckon'd among the primary beauties of the <hi>Italian</hi> drama, I am almost persuaded our author fix'd on TROLLETTA, to render the name of his heroine more musical and harmonious. A <hi>British</hi> author should prefer sense to sound; wherefore I have, by the alteration of a single letter, made it <hi>Trulletta;</hi> the force, the significancy, and the propriety of which name, will be obvious to the most illiterate <hi>English</hi> reader. I wish, for the honour of my country, the preference of sound to sense were confin'd to ITALY only. We have melancholy instances in some of our modern tragedies, that such infection hath reach'd even the <hi>British</hi> climate.</note> MADRIGAL AND TRULLETTA. A MOCK-TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Garret.</stage>
 <stage>BUCKRAMO, STRAPADA <hi>(embracing.)</hi></stage>
@@ -403,8 +402,8 @@
 <l>Take this, and this.</l>
 <stage>wounds him with his awl.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>BUCKRAMO.</speaker>
@@ -424,8 +423,8 @@
 <bibl><hi>Hamlet.</hi></bibl></note></l>
 <l>T'have seen what I have seen, seeing what I see!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="10" facs="18"/>
 <head>SCENE III.</head>
 <stage>A Parlour.</stage>
@@ -493,8 +492,8 @@
 <l>Away — she rises — angels, that have tun'd,</l>
 <l>Reward the vocal magic of thy pipe.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>TRULLETTA, SCULLIONA.</stage>
 <sp>
@@ -522,8 +521,8 @@
 <l><note n="39" place="foot">As just an observation as ever was made.
 <bibl>Ibid.</bibl></note> Thus they ever seem to grief.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>TRULLETTA, SCULLIONA, FUSTIANO.</stage>
 <sp>
@@ -575,12 +574,12 @@
 <l>Griess rush on griefs, on passions passions roll,</l>
 <l>And in the rapid torrent whelm my soul.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The Street.</stage>
 <sp>
@@ -617,8 +616,8 @@
 <bibl>Dr. HUMBUG.</bibl></note> Now, would the sun, in his meridian glare,</l>
 <l>Suffer eclipse from her more radiant eyes.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>MADRIGAL, SCULLIONA.</stage>
 <sp>
@@ -650,8 +649,8 @@ O bard sublime! thy coming glads my soul. but how far the simplicity of our imag
 <l><note n="10" place="foot">Our author, in this scene, hath given us a second proof of his knowledge of human nature, in preferring simplicity of expression to a chain of pompous words. In most of our modern tragedies, the chamber maid; or, to speak more politely, the <hi>confident,</hi> is drawn a person of better sense than the mistress (which is indeed sometimes the case) and her diction is generally more elevated; but our author shews his dislike of such practice, by making a chamber maid speak like a chamber maid.
 <bibl>Dr. HUMBUG.</bibl></note> That will be pure! — but come; TRULLETTA waits.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>A Parlour.</stage>
 <stage>MADRIGAL, TRULLETTA. <hi>meeting.</hi></stage>
@@ -816,8 +815,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>To be so very prudent in our loves?</l>
 <l>What interruption this?<note n="33" place="foot">A tragical interrogatory; which, without the imputation of plagiarism, may be used by any dramatic writer.</note></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>MADRIGAL, TRULLETTA, SCULLIONA, SCOURELLA.</stage>
 <sp>
@@ -952,11 +951,11 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <bibl>Dr. HUMBUG.</bibl></note></l>
 </sp>
 <trailer>End of the SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The Street.</stage>
 <sp>
@@ -989,8 +988,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <bibl><hi>Hamlet.</hi></bibl></note></l>
 <l>Madness in taylors must not unwatch'd go.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>STRAPADA, BUCKRAMO.</stage>
 <sp>
@@ -1150,8 +1149,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <speaker>Strap.</speaker>
 <l>Till then farewel!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>BUCKRAMO.</speaker>
@@ -1187,8 +1186,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>More blind than reptile mole — GOOSINO'S counsel</l>
 <l>Must guide me thro' this maze.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>An apartment hung with black.</stage>
 <sp>
@@ -1234,8 +1233,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <p>Here are two technical terms, viz. <hi>line</hi> and <hi>sound,</hi> which it behoves me to explain — The <hi>line</hi> in the text is a <hi>lead</hi> or <hi>deep sea line,</hi> a species of cordage, about three quarters of an inch in circumference; to which is fix'd a quantity of lead to make it gravitate, or sink to the bottom more expeditiously, when thrown into the sea to find the depth of water; which is called <hi>sounding.</hi> This, by the by, is a kind of proof that Mr. HILL imagin'd the will of heaven to lie <hi>below,</hi> and not, as commonly suppos'd, <hi>above.</hi> If Mr. HILL, in this remarkable image, had written <hi>length</hi> instead of <hi>depth,</hi> it would have been much more clear and intelligible; but as obscure phrases are generally more poetical than common ones, Mr. HILL was undoubtedly in the right to give the word, as it now stands in the text.</p></note></l>
 <l>Wants depth to sound th' Olympian will.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>TRULLETTA, GHOST.<note n="37" place="foot">Some of our modern connoissieurs in drama mistakenly suppose, a <hi>ghost</hi> is a kind of unnecessary agent in tragedy. To those learned gentlemen, who are of such infidel opinion, I beg leave to recommend the authority of no less ingenious and judicious a writer, than Mr. JOHN GAY, of facetious memory, who in his <hi>What d'ye call it,</hi> puts into the mouth of the sagacious Sir <hi>Roger</hi> this conclusive argument, on the necessity of ghosts in dramatic exhibitions, viz. <hi>A play without a ghost is like — is like — egad it is like nothing.</hi>
 <bibl>Dr. HUMBUG.</bibl></note></stage>
@@ -1268,8 +1267,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>I come. — but this short prayer — not for my self;</l>
 <l>Not for my self, but thee — hear me, all-gracious —</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>TRULLETTA.</speaker>
@@ -1278,8 +1277,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>Be torn from his petition?<note n="40" place="foot"><hi>Quere,</hi> whether a word, with as much propriety, may be said to be torn off from a <hi>verbal,</hi> as from a <hi>written</hi> petition? — This I recommend as a question to be debated by a <hi>certain disputing society.</hi>
 <bibl>Dr. HUMBUG.</bibl></note> — why, indeed?</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="33" facs="41"/>
 <head>SCENE VII.<note n="41" place="foot">This, and the two foregoing scenes, (in imitation of many of our modern tragedies) appear to be introduced on Mr. <hi>Bayes</hi>'s principle, viz. <hi>"What a devil is the plot good for but to bring in fine things?"</hi></note></head>
 <stage>MADRIGAL, TRULLETTA.</stage>
@@ -1377,12 +1376,12 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 </sp>
 <stage><hi>A Procession.</hi></stage>
 <trailer>End of the THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="35" facs="43"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>An Apartment.</stage>
 <stage>MADRIGAL, TRULLETTA.</stage>
@@ -1394,8 +1393,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l><note n="1" place="foot">For the benefit of our less learned readers, we have thought proper to signify, that the <hi>Stygian tar</hi> is <hi>Charon,</hi> the owner of the <hi>infernal ferry boat.</hi></note> The <hi>Stygian</hi> tar no longer can refuse</l>
 <l>His spirit passage to th' <hi>Elysian</hi> shades.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>MADRIGAL, TRULLETTA, SCULLIONA.</stage>
 <sp>
@@ -1585,8 +1584,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>The cat will mew, and dog will have his day.</l>
 <stage>breaks from them.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>TRULLETTA, SCULLIONA.</stage>
 <sp>
@@ -1607,8 +1606,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>And to the skies my towering wishes bore,</l>
 <l>Retir'd, and left me gasping on the shore.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>The Street.</stage>
 <sp>
@@ -1619,8 +1618,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>For killing vermin, and for botching cloaths? —</l>
 <l>What ho! BUCKRAMO!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>MADRIGAL, BUCKRAMO.</stage>
 <sp>
@@ -1715,8 +1714,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>Why, I will meet thee at <hi>West-Smithfield</hi> then.<note n="37" place="foot"><l>Why, I will meet thee at <hi>Philippi</hi> then!</l>
 <bibl><hi>Julius Caesar.</hi></bibl></note></l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>MADRIGAL.</speaker>
@@ -1793,8 +1792,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>Of <hi>Helicon,</hi> whole gulps of brimstone down —</l>
 <l>Unfragrant bev'rige! unpoetic juice!</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="45" facs="53"/>
 <head>SCENE VII.</head>
 <stage>MADRIGAL, SCOURELLA.</stage>
@@ -1843,12 +1842,12 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 </sp>
 <stage>An <hi>Invocation</hi> to GOG and MAGOG.</stage>
 <trailer>End of the FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="46" facs="54"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>An Apartment.</stage>
 <stage>TRULLETTA, SCOURELLA.</stage>
@@ -1908,8 +1907,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>With my dear father in his cold last bed! —</l>
 <l>I shall not long survive him.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>TRULLETTA, SCOURELLA, BUTTONELLI, THIMBLETONIO.</stage>
 <sp>
@@ -1961,8 +1960,8 @@ And my shock'd soul <hi>aches</hi> at him. Now if the soul be liable to <hi>ache
 <l>Ask no more;</l>
 <l>The secret I'll unravel as we go.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="49" facs="57"/>
 <head>SCENE III.</head>
 <stage>West-Smithfield.</stage>
@@ -2034,8 +2033,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <l><hi>Clio,</hi> and <hi>Trulletta</hi>'s eyes.<note n="15" place="foot"><l>The word is vict'ry, and <hi>Eudocia</hi>'s eyes.</l>
 <bibl><hi>Siege Damascus.</hi></bibl></note></l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="51" facs="59"/>
 <head>SCENE IV.</head>
 <stage>BUCKRAMO, GOOSINO, BODKINDA, PRESSBOARDALIO, YARDWANDELLI, <hi>and the rest of their party.</hi></stage>
@@ -2064,8 +2063,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <bibl><hi>Macbeth.</hi></bibl></note></l>
 <stage>fight off the stage.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>BUCKRAMO, <hi>and a</hi> TAYLOR.</stage>
 <sp>
@@ -2077,8 +2076,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <bibl><hi>Fair Penitent.</hi></bibl></note></l>
 <stage>Excursions.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>MADRIGAL.</speaker>
@@ -2087,8 +2086,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <l><pb n="52" facs="60"/>Nine I have slain to-day instead of him.</l>
 <l>A shield! a shield! my Genius for a shield! <stage>Excursions.</stage></l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>EPIGRAM, BODKINDA, <hi>and three of</hi> BUCKRAMO'S <hi>Party.</hi></stage>
 <sp>
@@ -2140,8 +2139,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <l>And this thy breeches — now to further slaughter.</l>
 <stage>Excursions.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="53" facs="61"/>
 <head>SCENE VIII.</head>
 <stage>MADRIGAL, LYRIC, <hi>and</hi> Bards <hi>in pursuit,</hi></stage>
@@ -2172,8 +2171,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <l>A scratch from BUCKRAM'S point:</l>
 <l>No more.</l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>MADRIGAL, LYRIC, POET.</stage>
 <sp>
@@ -2211,8 +2210,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <speaker>Mad.</speaker>
 <l>O ye cruel gods!</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>To them</hi> TRULLETTA, <hi>supported by her Pages.</hi></stage>
 <sp>
@@ -2296,8 +2295,8 @@ q. d. <hi>or else my sword, with edge</hi> unbatten'd, <hi>or</hi> unfatten'd wi
 <l>Is in thy hands — Remember the vast trust —</l>
 <l><note n="42" place="foot">I cannot recollect from whence this image is taken.</note> My grateful ghost shall rise to thank thee for't.</l>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>MADRIGAL, LYRIC, BUCKRAMO, STRAPADA, SCOURELLA, GOOSINO, BODKINDA, PRESSBOARDALIO, YARDWANDELLI, <hi>Pages, and the conquering Party, with Prisoners.</hi></stage>
 <sp>
@@ -2484,13 +2483,12 @@ Forbids the holy rites of funeral — on which the punning critick before-mentio
 <bibl>Dr. HUMBUG.</bibl></note> And robs the guilty world of a BARD'S life.</l>
 </sp>
 <stage>A Procession.</stage>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>THE END.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="61" facs="69"/>
 <head>EPILOGUE.</head>
 <head type="sub">Design'd to be spoken by SCOURELLA.</head>
@@ -2530,8 +2528,8 @@ Forbids the holy rites of funeral — on which the punning critick before-mentio
 <l>I prophecy — ay, now begin your laughter —</l>
 <l>Our <hi>hempen bard</hi> will please you all <hi>hereafter.</hi></l>
 </lg>
-</div1>
-<div1 type="ode">
+</div>
+<div type="ode">
 <pb n="62" facs="70"/>
 <head>ODE to the procession, at the end of the third act.</head>
 <lg>
@@ -2585,8 +2583,8 @@ Forbids the holy rites of funeral — on which the punning critick before-mentio
 <l><hi>Hasten to thy kindred tomb!</hi></l>
 <l>CABBAGINO! <hi>come, come, come.</hi></l>
 </lg>
-</div1>
-<div1 type="ode">
+</div>
+<div type="ode">
 <pb n="63" facs="71"/>
 <head>ODE to <hi>GOG</hi> and <hi>MAGOG,</hi> at the end of the fourth act.</head>
 <sp>
@@ -2654,8 +2652,8 @@ Forbids the holy rites of funeral — on which the punning critick before-mentio
 <speaker>CHORUS.</speaker>
 <l>GOG and MAGOG hear, O hear! &amp;c.</l>
 </sp>
-</div1>
-<div1 type="ode">
+</div>
+<div type="ode">
 <pb n="64" facs="72"/>
 <head>ODE for the procession, at the end of the fifth act.</head>
 <sp>
@@ -2740,7 +2738,7 @@ Forbids the holy rites of funeral — on which the punning critick before-mentio
 <l>Mourn your fate, your loss deplore;</l>
 <l>Wit and beauty are no more!</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

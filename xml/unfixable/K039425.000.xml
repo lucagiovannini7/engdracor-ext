@@ -7,13 +7,13 @@
 <extent>[12], 68 p. ; 4⁰.</extent><publicationStmt><publisher>printed for Bernard Lintott, between the Two [ ] in Fleet-street,</publisher><date>[1709]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT38951.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage><textClass><keywords><term>Comedies -- 18th century. -- England</term></keywords></textClass></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>The Man's bewitch'd; OR, The Devil to do about Her. A COMEDY, As it is Acted at the NEW-THEATRE IN THE HAY-MARKET; BY HER <hi>MAJESTY</hi>'s <hi>SERVANTS.</hi></p>
 <p>By SUSANNA CENT-LIVRE.</p>
 <p><hi>LONDON,</hi> Printed for BERNARD LINTOTT, between the Two <hi>Temple-Gates</hi> in <hi>Fleet-street.</hi></p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head><hi>To His GRACE WILLIAM Duke of</hi> Devonshire; Lord Steward of Her Majesty's Houshold, Lord in <hi>Eyre,</hi> North of <hi>Trent,</hi> Lord Lieutenant of the County of <hi>Derby;</hi> and One of Her Majesty's Most Honourable Privy Council, <hi>&amp;c.</hi></head>
 <opener><salute>May it please your GRACE,</salute></opener>
@@ -25,8 +25,8 @@ center'd in the Duke of <hi>Devonshire</hi>; the loyalest Subject, the tenderest
 Resolution of prefixing your Grace's Name in the front of this Poem, at once to shew my Gratitude, and my Ambition: And if, when Your Grace's Mind's unbended from the Care and Business of the State, it finds the way in some leisure Hour to divert Your Grace, and the Author meet your Pardon for this Liberty, my Wishes are all answer'd; as I hope my Prayers will be, that Your Grace may enjoy a perfect Health, free from Pain in Mind, and Body; and see as many flourishing happy New Years, as your best and dearest Friends can desire; and every one add fresh Honours to those that are so deservedly worn by Your Grace at present, which are the earnest Wishes of</p>
 <closer><salute>MY LORD,</salute>
 <signed>Your Grace's <hi>Most Obedient, and Most Devoted, Humble Servant,</hi> SUSANNA CENT-LIVRE.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="5"/>
 <head>THE PREFACE.</head>
 <p>I Shou'd not have troubled my Courteous Reader with a Preface, had I not lain under the Necessity of Clearing my self of what some People have been pleas'd to charge me with, <hi>viz.</hi> of being the Author of a Paper call'd, <hi>The Female Tattler,</hi> consequently of a Paragraph in that of the <hi>14</hi>th Instant, relating to this Comedy; tho' I think no reasonable Person will believe I could be guilty of so much Folly. Tho' Vanity is said to be the darling Vice of Womankind, yet nothing but an Idiot wou'd express themselves so openly; and I hope the World won't think me guilty of Printing, what I must blush to Read, nor imagine it Wrote even by any Friend of mine, for two Reasons; First, the Grossness of the Flattery. Secondly, the Injury it must of course do me, in the Run of my Play, by putting those People out of Humour, whose Action was to give Life to the Piece. I suppose these Reasons are sufficient to convince the Judicious part, that I was no ways concerned in those Reflections, but own I was treated with all the seeming Civility in the World, till the second Night of my Comedy. I willingly submitted to Mr. <hi>Cibber</hi>'s Superiour Judgment in shortning the Scene of the Ghost in the last Act, and believed him perfectly in the Right, because too
@@ -36,8 +36,8 @@ much Repetition is tiresome. Indeed when Mr. <hi>Estcourt</hi> slic'd most of it
 <pb facs="7"/>
 me not, I do not mean from the Representation; for I must do the Players Reason: Had I search'd all the Theatres in the World, I cou'd not have selected a better Company, nor had more Justice done me in the Action, tho' they have not dealt honourably by me in my Bargain; for they ought not to have stop'd the Run, upon any Pique whatever. 'Tis small Encouragment to Write for the Stage, when the Actors, according to the Caprice of their Humours, mangre the Taste of the Town, have power to sink the Reputation of a Play; for if they resolve not to Act it, the Town can't support it.</p>
 <p>Well, if there is any Merit in suffering wrongfully, I shall find my Account in't one time or other; in the mean while I intreat the <hi>Female Tattler</hi> to be Witty no more at my Expence. I desire I may not be rank'd in the Number of those that support the Stage, since the Stage is become a Noun Substantive, and resolves to shew it is able to stand by itself.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="8"/>
 <head><hi>PROLOGUE.</hi> By a GENTLEMAN. Spoken by Mr. <hi>WILKS.</hi></head>
 <l>OUR Female Author trembling stands within,</l>
@@ -72,8 +72,8 @@ me not, I do not mean from the Representation; for I must do the Players Reason:
 <l>But if all this can't your good Nature wake,</l>
 <l>Tho' here and there, a Scene shou'd fail to take,</l>
 <l>Yet spare her for the <hi>Busie-Body</hi>'s sake.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="9"/>
 <head><hi>EPILOGUE.</hi> Spoken by Mrs. <hi>OLDFIELD. Written by Mr.</hi> Cibber. A Porter delivers a Letter just as she is going to speak.</head>
 <l>WHAT's this? a Billet-Deaux? from Hands unknown?</l>
@@ -135,8 +135,8 @@ me not, I do not mean from the Representation; for I must do the Players Reason:
 <l>And now no more with Lawyers Brawls perplext.</l>
 <l>He, I declare, shall my whole Heart receive;</l>
 <l>And (what's more strange) I'll love him while I live.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>Drammatis Personae.</head>
 <list>
@@ -183,14 +183,14 @@ me not, I do not mean from the Representation; for I must do the Players Reason:
 <label>Lucy, <hi>Mrs.</hi> Bicknell.</label>
 <item>Laura<hi>'s Maid.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>the</hi> Minster-yard <hi>in</hi> Peterborough. <hi>The Hour Six in the Morning.</hi></p></set>
 </front>
 <body>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <pb n="1" facs="12"/>
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>The Minster-yard in <hi>Peterborough.</hi></stage>
 <stage><hi>Enter Captain</hi> Constant <hi>and</hi> Clinch <hi>in Mourning, with Riding Habit over it.</hi></stage>
 <sp>
@@ -861,12 +861,12 @@ how—Why mun, all our Town knows that I'm to have her, and they have promis'd m
 <p>Go to <hi>London,</hi> go to the Devil! 'Slife I'll follow them mun, mehap he do's but joke; and Father will break my Head, because I did not understand a Joke— Therefore come along, <hi>Slouch</hi>— <stage>Exit.</stage></p>
 </sp>
 <trailer>The End of the First Act.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="12" facs="23"/>
 <head>ACT. II.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi></head><stage>Sir <hi>David Watchum</hi>'s House.</stage>
 <stage><hi>Enter</hi> Sir David <hi>into a Garden before the Door.</hi></stage>
 <sp>
@@ -1196,8 +1196,8 @@ the Coffee-house, let no body in or out—</p>
 <speaker>Sam.</speaker>
 <p>I shall observe, Sir. <stage>Ex. severally.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> Changes to the Coffee-house, <hi>Lovely, Constant,</hi> and <hi>Faithful.</hi></stage></head>
 <sp>
 <speaker>Faith.</speaker>
@@ -1361,8 +1361,8 @@ practice——Heark, I hear the Coach——had here's no b<gap resp="pdcc" exten
 <speaker>Const.</speaker>
 <p><hi>Manage!</hi> Come you along with us, I have some Instructions for you. <stage>Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> Changes to the out side of <hi>Trusty</hi>'s House.</stage></head>
 <stage><hi>Enter</hi> Lovely, Constant, Clinch <hi>and</hi> Manage.</stage>
 <sp>
@@ -1402,8 +1402,8 @@ practice——Heark, I hear the Coach——had here's no b<gap resp="pdcc" exten
 <speaker>Dolly.</speaker>
 <p>Oh! Are you come Captain; I have told my Mistress every particular—please to walk in, Sir, I'll inform my Master you are here. <stage>They go in.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>The <hi>SCENE</hi> draws, and discovers them in a Room.</stage></head>
 <sp>
 <speaker>Lov.</speaker>
@@ -1671,11 +1671,11 @@ practice——Heark, I hear the Coach——had here's no b<gap resp="pdcc" exten
 <l>And courts his Mistress as he courts his Fame.</l>
 </sp>
 <trailer>End of the Second Act.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi></head><stage><hi>Trusty</hi> in his Study, with <hi>Constant, Lovely</hi> and <hi>Clinch.</hi> Papers and Money upon the Table.</stage>
 <sp>
 <speaker>Trusty.</speaker>
@@ -2471,8 +2471,8 @@ your Brains through your Eye-lids—for so I have done— no, no, Girl, e'en let
 <speaker>Trusty.</speaker>
 <p>Get along —in my Soul, I think the whole Composition of Women is Contradiction. <stage>Ex. omnes.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi></head><stage>Sir <hi>David's</hi> House.</stage>
 <stage><hi>Enter</hi> Faithful <hi>and</hi> Coachman.</stage>
 <sp>
@@ -2514,8 +2514,8 @@ knew you were here —But by what Miracle did you prevail with Sir <hi>David?</h
 <speaker>Lucy.</speaker>
 <p>Well, follow me then. <stage>Ex.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> draws, and discovers Mrs. <hi>Laura</hi> at her Spinet.</stage></head>
 <stage><hi>After the Song, Enter</hi> Lucy <hi>and</hi> Faithful.</stage>
 <sp>
@@ -2832,11 +2832,11 @@ Ravish this Lady—Fetch me a Constable <gap resp="pdcc" extent="1 word" disp="�
 <p>I don't understand this Mistake tho'—He is a strapping young Dog; I wish <hi>Laura</hi> had not seen him—— But I'll go see if he is gone, lest there shou'd be more Reg<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>y at the <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>ttom. <stage>Exit.</stage></p>
 </sp>
 <trailer>End of the Third Act.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT. IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter on one side</hi> Faithful <hi>and</hi> Manage; <hi>on the other</hi> Constant <hi>and</hi> Clinch.</stage>
 <sp>
 <speaker>Const.</speaker>
@@ -2924,8 +2924,8 @@ Ravish this Lady—Fetch me a Constable <gap resp="pdcc" extent="1 word" disp="�
 <speaker>Const.</speaker>
 <p>Come, thou shalt be dress'd in a Moment <stage><hi>Ex. omn.</hi>.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi></head><stage>The Out-side of Sir <hi>David</hi>'s House, Sir <hi>David</hi> in the Garden before his Door.</stage>
 <sp>
 <speaker>Sir <hi>Dav.</hi></speaker>
@@ -3785,12 +3785,12 @@ Mr. <hi>Conjurer,</hi> can you help me to the Thief? Ha! no Body to be seen! Ble
 <p>Oh that I shou'd believe these Conjuring, Soldiering Rascals; but I'll find 'em, if they are above ground; and if they are mortal, I'll hang 'em, that's my Comfort. <stage>Exit.</stage></p>
 </sp>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
+</div>
 
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi></head><stage>The Street before Mr, <hi>Trusty</hi>'s Door; <hi>Roger</hi> comes out of the House with a Pitch-fork on his Shoulder, and a Lantern in his Hand.</stage>
 <sp>
 <speaker>Rog.</speaker>
@@ -4676,8 +4676,8 @@ plaguy O<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>tlandi
 <speaker>Trusty.</speaker>
 <p>Come, let's in then, <gap resp="pdcc" extent="1 span" disp="〈…〉" reason="illegible"/>.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> The in-side of the House, and discovers them dancing.</head>
 <stage><hi>Enter</hi> Roger <hi>and</hi> Dolly.</stage>
 <sp>
@@ -4792,8 +4792,8 @@ plaguy O<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>tlandi
 <l>Since ev'ry Blessing is cōmpriz'd in Love. <stage>Exeunt.</stage></l>
 </sp>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

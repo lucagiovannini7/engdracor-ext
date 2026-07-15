@@ -7,11 +7,11 @@
 <extent>[4],vii,[1],83,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed for P. Wogan, P. Byrne, J. Moore, J. Jones, A. Grueber [and 5 others in Dublin],</publisher><date>1791.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>With a half-title and an epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT133469.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE SCHOOL FOR ARROGANCE: A <hi>COMEDY.</hi></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE SCHOOL for ARROGANCE: A <hi>COMEDY.</hi></p>
 <p>AS IT IS ACTED AT THE THEATRE ROYAL, COVENT GARDEN.</p>
@@ -19,8 +19,8 @@
 <p>THE SECOND EDITION.</p>
 <p><hi>LONDON:</hi> PRINTED FOR G. G. J. AND J. ROBINSON, PATERNOSTER-ROW.</p>
 <p>M. DCC. XCI.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="3"/>
 <head>PREFACE.</head>
 <p>THE Comedy of <hi>Le Glorieux,</hi> by M. Nericault Destouches, is the basis on which <hi>The School for Arrogance</hi> has been formed. From that I have taken the plan, several of the characters, and some of the scenes. Difference of arrangement, additional incidents, and what I deem to be essential changes of character, have all been introduced. The Count has but little resemblance to the original: Lucy and Mac Dermot none. Lady Peckham is a new character, and was first suggested by a friend; who, conceiving highly of the contrast which exists in life, between the pride of rank and the pride of riches, industriously sought to stimulate and rouse my imagination.</p>
@@ -49,12 +49,12 @@ irritated; but you had the justice to forget the man, and promote the interests 
 <closer><dateline>Newman Street, <date><hi>Feb.</hi> 17, 1791.</date></dateline></closer>
 </body>
 </floatingText>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. BERNARD, in the character of a News-hawker.</byline>
-<stage>After sounding and calling "Great news!" without, enter with a postman's horn, newspapers, cap, and livery.</stage>
+<stage>After sounding and calling <said direct="true">"Great news!"</said> without, enter with a postman's horn, newspapers, cap, and livery.</stage>
 <sp>
 <lg>
 <l>GREAT news! Great news! Extraordinary news!</l>
@@ -129,8 +129,8 @@ Oh! I'll be there; get the first row; and, with my staff,</l>
 </lg>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -166,16 +166,15 @@ Omitted.</item>
 <item><label>Lydia,</label> Miss BRUNTON.</item>
 </list>
 <p>N. B. The passages between inverted commas are omitted in representation.</p>
-</div1>
+</div>
 <set><p>Scene, London: The house of Sir Paul Peckham and the apartments of the Count. Time twelve hours.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="11"/>
 <head>THE SCHOOL FOR ARROGANCE: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I. <stage>[The House of Sir <hi>PAUL PECKHAM.]</hi></stage></head>
 <stage><hi>Enter</hi> LYDIA <hi>followed by</hi> MAC DERMOT.</stage>
 <sp>
@@ -1402,12 +1401,12 @@ long in the nursery, and is still so much of the aukward, bashful boy, that he w
 me! I am sure she was! Hem! All my life long have I been laughed at by young coquettish girls! Yet I can't forsake 'em! Then the vapours! My old trick! I always give young ladies the vapours! I make 'em ill! They are always sick of me! Hem!—'Tis very strange that I can't learn to talk without having a word to say! A thing so common too! Why can't I give myself monkey airs, skip here and there, be self-sufficient, impertinent, and behave like a puppy, purposely to please the ladies? What! Is there no such thing to be found as a woman who can love a man for his modesty? This foreign count, now, my rival, is quite a different thing! He <stage>[Mimicking]</stage>—He walks with a straight back, and a cocked-up chin, and a strut, and a stride, and stares, and takes snuff, and—! Yes, yes! He's the man for the ladies! <stage>[Exit.</stage></p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="21" facs="31"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>an Apartment in the House of Sir <hi>PAUL PECKHAM.</hi></stage></head>
 <sp>
 <speaker>LYDIA.</speaker>
@@ -1819,8 +1818,8 @@ not to enjoy. 'Twas the precaution of a fond father, desirous to alleviate, if n
 <p>I am sorry it is necessary, Sir! What! The head of a house! The father of a family! Oh! Shame! He who, tottering on the brink of the grave, would gratify appetites which he no longer knows, by reducing the happy to misery and the innocent to guilt, deserves to sink into that contempt and infamy into which he would plunge unwary simplicity.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>the apartment of the Count, an elegant room, with chairs, sopha, glasses, pictures, &amp;c.</stage></head>
 <stage><hi>MAC DERMOT</hi> and <hi>PICARD,</hi> with a letter in his hand, meeting.</stage>
 <sp>
@@ -2647,12 +2646,12 @@ Hay! When shall we have a rory tory? A catch, and a toast, and a gallon a man!�
 </sp>
 <stage>[Exeunt. The Count making disconcerted attempts to preserve his stateliness, wishing to be familiar, scarcely knowing how to behave, and Mac Dermot enjoying his embarrassment.</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="43" facs="57"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I. <stage>The drawing-room of Sir Paul Peckham elegantly furnished, but hung all round with prints, chiefly caricatures.</stage></head>
 <stage>EDMUND <hi>and</hi> LYDIA.</stage>
 <sp>
@@ -3402,12 +3401,12 @@ with Miss Liddy!—Faith and I would very willingly do that—And persuade her�
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="59" facs="73"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>The <hi>COUNT</hi>'s Apartment.</stage></head>
 <stage>MR. DORIMONT <hi>and</hi> MAC DERMOT.</stage>
 <sp>
@@ -4062,8 +4061,8 @@ of my rank must not, cannot stoop. Do you, Sir Paul, come to an agreement with y
 <pb n="69" facs="83"/>
 ancient race! The rightful lord of athousand vassals! Ought I to cringe in supplicatory baseness, use servile dishonourable adulation, bend to sufflated wealth, act the parasite to new-fledged pride, and petition where I should command? No! Earth should hide me rather! But that love, imperious love hurries me forward, with impulse irresistible! What! Wait, and fawn on Madam, and mince, and simper, and act the skipjack, and chatter to her parrot, and be of her opinion, and fetch and carry, and praise her taste, and join her scandal, and laugh when she laughs, and kiss her monkey!—And to whom?—Oh! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to the House of <hi>SIR PAUL PECKHAM.</hi></stage></head>
 <stage>MAC DERMOT, and LYDIA.</stage>
 <sp>
@@ -4508,10 +4507,10 @@ neighbouring tavern, where this business may be effectually settled, as quietly,
 <speaker>Count.</speaker>
 <p>Away, Sir! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to the <hi>COUNT</hi>'s Apartment.</stage></head>
-<stage>A considerable noise of hasty footsteps without, and voices at some distance calling—<hi>"Here! Here!—This way!—Up, up!—Follow!"</hi></stage>
+<stage>A considerable noise of hasty footsteps without, and voices at some distance calling—<said direct="true"><hi>"Here! Here!—This way!—Up, up!—Follow!"</hi></said></stage>
 <stage>Enter Mr. <hi>DORIMONT,</hi> abruptly.</stage>
 <sp>
 <speaker>Mr. <hi>Dor.</hi></speaker>
@@ -4528,7 +4527,7 @@ neighbouring tavern, where this business may be effectually settled, as quietly,
 </sp>
 <sp>
 <speaker>Mac D.</speaker>
-<p>Faith and that is more than I can tell. <stage>[Noise approaching—"Here, here, I tell you! This room!"]</stage> Why what the divle—!</p>
+<p>Faith and that is more than I can tell. <stage>[Noise approaching—<said direct="true">"Here, here, I tell you! This room!"</said>]</stage> Why what the divle—!</p>
 </sp>
 <sp>
 <speaker>Mr. <hi>Dor.</hi></speaker>
@@ -4604,18 +4603,18 @@ neighbouring tavern, where this business may be effectually settled, as quietly,
 <speaker>Mac D.</speaker>
 <p>Why what is all this now?—Poor ould gintleman!</p>
 </sp>
-<stage>[Noise without at a distance—<hi>"Rescue! Rescue! Help!"]</hi></stage>
+<stage>[Noise without at a distance—<said direct="true"><hi>"Rescue! Rescue! Help!"]</hi></said></stage>
 <sp>
 <speaker>Mac D.</speaker>
 <p>Where is my shillalee?—Oh, by St. Peter and his crook, but I will be one among you, scoundrels! <stage>[Exit running.</stage></p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="80" facs="96"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The House of</hi> SIR PAUL PECKHAM.</stage></head>
 <stage>Enter <hi>LYDIA</hi> agitated, <hi>EDMUND</hi> following.</stage>
 <sp>
@@ -5777,12 +5776,11 @@ with proud unkindness, at the very moment too, when I perceived she was sincerel
 Truth alone can make men wise and happy. Myself the sacrifice of falsehood and mistake, feebly have I striven to stem the torrent▪ and here my task, and here I hope my troubles end.</p>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="123"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. MATTOCKS.</byline>
@@ -5864,8 +5862,7 @@ Stung to the soul, a desp'rate sett she makes;</l>
 <l>Our pride is great—when we can please the town.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

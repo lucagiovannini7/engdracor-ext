@@ -7,14 +7,14 @@
 <extent>xii,54p. ; 4⁰.</extent><publicationStmt><publisher>printed by T. Harrison; for W. Johnston,</publisher><date>1764.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A lady = Elizabeth Griffith.</note><note>With a list of subscribers.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT21796.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>AMANA. A Dramatic Poem.</p>
 <quote>Libertas, et natale solum.</quote>
 <p>By a LADY.</p>
 <p>LONDON: Printed by T. HARRISON; For W. JOHNSTON in Ludgate-Street. MDCCLXIV.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>THE story of this piece is taken from the moral and ingenious writings, lately published, stiled THE ADVENTURER, Numbers 72 and 73. But the Drama, which was too much confined in the fable, has been inlarged here, by the addition of four persons, namely, NARDIC, ABDALLAH, FATIMA, and HAMET. For tho' NARDIC, and ABDALLAH (SANBAD, in the original) are mentioned in the story, they are not introduced into the scene.</p>
@@ -31,8 +31,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <p>But I confess that the reflections which occurred to my mind most strongly, on the perusal of this tale, were a tender and humane resentment of the miseries of those nations which are subject to despotic power, and an exulting sense of the peculiar blessings of liberty, that we enjoy in these thrice happy kingdoms.</p>
 <p>The contemplation of this contrast, both suggested and inspired the plan of the following writing; in which I have endeavoured to contribute my grateful mite of praise to those laws, and to that government, under which our superior advantages are established, defended, and preserved; and however the presumption of this attempt may be condemned, I hope that the faults of the performance may be pardoned, as the first essay of</p>
 <closer><signed>A Woman.</signed></closer>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="4"/>
 <head>To the RIGHT HONOURABLE The Countess of <hi>Northumberland.</hi></head>
 <opener><salute>MADAM,</salute></opener>
@@ -40,8 +40,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <p>BUT such an heroic subject is beyond my strength, and I shall content myself with praising and admiring the more social and amiable virtues of your ladyship, your humanity, benevolence and affability; which latter quality is the characteristic of true nobility, in opposition to that haughtiness which is frequently observable in those who have sprung from obscurity—Those who are placed on an eminence may <hi>descend,</hi> but those on a level would <hi>rise.</hi></p>
 <p><pb facs="5"/>IF this little work, the offspring of a female and unlettered pen, shall be so happy to amuse your ladyship for half an hour, it will afford the highest satisfaction to the author, who humbly presumes to hope, that your ladyship's candour will pardon whatever defects your judgment may find in this piece, for the sake of those sentiments it is intended to convey.</p>
 <closer><signed>I have the honour to be, With the profoundest respect, and humblest duty, MADAM, Your most humble and obedient servant, ELIZA GRIFFITH.</signed></closer>
-</div1>
-<div1 type="listofsubscribers">
+</div>
+<div type="listofsubscribers">
 <pb facs="6"/>
 <head>LIST OF SUBSCRIBERS.</head>
 <list>
@@ -399,12 +399,12 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <item>Mr. Samuel Yeates.</item>
 <item>Mrs. Yeates.</item>
 </list>
-</div1>
-<div1 type="halftitle">
+</div>
+<div type="halftitle">
 <pb facs="12"/>
 <p>AMANA. A Dramatic Poem.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="13"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -422,14 +422,14 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <item>FATIMA, <hi>Sultaness.</hi></item>
 </list>
 <p><hi>Attendants, Guards,</hi> &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, <hi>in and near</hi> Grand Cairo.</p></set>
 </front>
 <body>
 <head><pb n="3" facs="14"/>AMANA.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A Fountain.</stage></head>
 <stage><hi>Enter</hi> AMANA, <hi>with a Goblet in her Hand.</hi></stage>
 <sp>
@@ -632,8 +632,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>And in my talons grasp'd these doves shall bleed.</l>
 </sp>
 <stage>exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to a palace.</stage></head>
 <stage><hi>Enter</hi> OSMIN.</stage>
 <sp>
@@ -810,12 +810,12 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>Of them too, when we taste, we soon are cloyed,</l>
 <l>And only sigh for those not yet enjoyed.</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>NARDIC<hi>'s Apartment.</hi></stage></head>
 <stage>NARDIC <hi>Solus.</hi></stage>
 <sp>
@@ -912,8 +912,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>She'll answer to thy boast. Come in with me.</l>
 </sp>
 <stage>exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A Garden.</stage></head>
 <stage>NOURADIN <hi>and</hi> AMANA <hi>seated in a Bower.</hi></stage>
 <sp>
@@ -1191,12 +1191,12 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>Entreating heaven to bless the pious deed—</l>
 <l>And if we fail, I am prepared to bleed.</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>NARDIC<hi>'s Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> NARDIC.</stage>
 <sp>
@@ -1566,8 +1566,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>'Tis natural to fear, and thence, to hate.</l>
 </sp>
 <stage>exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>NOURADIN's <hi>apartment.</hi></stage></head>
 <stage>He lying on a couch.</stage>
 <sp>
@@ -1706,8 +1706,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>And all the business of my life is o'er.</l>
 </sp>
 <stage>exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>the seraglio.</stage></head>
 <stage><hi>Enter</hi> AMANA <hi>and</hi> FATIMA.</stage>
 <sp>
@@ -1813,12 +1813,12 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>Await his coming for a little space,</l>
 <l>Then live for ever in his chaste embrace.</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A Gothic building, representing the palace of Sakara.</stage></head>
 <stage><hi>Enter</hi> OSMIN <hi>and</hi> NARDIC.</stage>
 <sp>
@@ -1931,8 +1931,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>And leave the rest to chance, or destiny.</l>
 </sp>
 <stage>exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage><hi>NOURADIN's</hi> House.</stage></head>
 <stage><hi>Enter</hi> NOURADIN <hi>in the Sultan's Robes, with</hi> HAMET <hi>and</hi> ABDALLAH.</stage>
 <sp>
@@ -2087,8 +2087,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>And flowers to deck her bed will gladly rise.</l>
 </sp>
 <stage>exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>the Garden of the Seraglio.</stage></head>
 <stage><hi>Enter</hi> AMANA <hi>and</hi> FATIMA.</stage>
 <sp>
@@ -2195,12 +2195,12 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>In gentlest whispers let him breathe his love,</l>
 <l>Then sighing leave me like the widowed dove.</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>before the Palace.</stage></head>
 <stage><hi>Enter the</hi> SULTAN <hi>disguised.</hi></stage>
 <sp>
@@ -2283,8 +2283,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>And oh! Curse—</l>
 </sp>
 <stage>dies.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>An Apartment in the Seraglio.</stage></head>
 <stage><hi>Enter</hi> NOURADIN, <hi>in the Sultan's Robes.</hi></stage>
 <sp>
@@ -2328,8 +2328,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>I will retire, and wait the wished event.</l>
 </sp>
 <stage>enters the pavilion.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> draws, and discovers Amana in a Bower, rising from a Couch. The Attendant waiting.</stage></head>
 <sp>
 <speaker>Amana.</speaker>
@@ -2391,8 +2391,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>Lavinia come—Attend me to the Sultan.</l>
 </sp>
 <stage>exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>The Pavilion. The Stage darkened.</stage></head>
 <stage>NOURADIN <hi>alone.</hi></stage>
 <stage><hi>Enter</hi> AMANA, <hi>and</hi> Attendant, <hi>the latter retires.</hi></stage>
@@ -2649,8 +2649,8 @@ But modern wits are no more able to stride in Shakespear's buskin, than modern b
 <l>Whose olive bearing laurel peace restores,</l>
 <l>And calms the discord of contending powers.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

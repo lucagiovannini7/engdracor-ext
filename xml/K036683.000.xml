@@ -7,19 +7,19 @@
 <extent>[12],65,[3]p. : ill. ; 12⁰.</extent><publicationStmt><publisher>printed for E. Curl, and A. Bettesworth,</publisher><date>1717.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34448.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 <p>E. Kirkall fe.</p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE CRUEL GIFT: A TRAGEDY. As it is Acted At the THEATRE ROYAL in <hi>Drury-Lane,</hi> By His MAJESTY's Servants.</p>
 <p>By Mrs. CENT LIVRE.</p>
 <p><hi>LONDON,</hi> Printed for E. CURL in <hi>Fleet-street,</hi> and A. BETTESWORTH in <hi>Pater-Noster Row,</hi> 1717. Price 1 s.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO EUSTACE BUDGELL, <abbr>Esq</abbr></head>
 <opener><salute>SIR,</salute></opener>
@@ -38,8 +38,8 @@ like your Self, have rose up in Opposition to the two most implacable Powers tha
 if it has the good Fortune in the least to please, and divert one Hour of your Retirement. It comes to you with sincere Wishes for a happy <hi>New-Year,</hi> for a long and uninterrupted Health; and that you may remain, what now you are, an Ornament to the Post you fill, and Blessing to the Nation you are happily planted in, are the hearty Wishes and Prayers of,</p>
 <closer><salute>SIR,</salute>
 <signed>Your most oblig'd And most obedient Humble Servant, <hi>Susanna Cent Livre.</hi></signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="8"/>
 <head>PROLOGUE.</head>
 <head type="sub"><stage>Spoken by Mr. WILKS.</stage></head>
@@ -92,8 +92,8 @@ If she has touch'd these <hi>Scenes</hi> with artful Care,</l>
 <l>To <hi>Britain</hi>'s Ensigns then, as They decree,</l>
 <l>The World shall strike by <hi>Land,</hi> as well as <hi>Seae,</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -114,14 +114,14 @@ If she has touch'd these <hi>Scenes</hi> with artful Care,</l>
 <list>
 <item><label>Embassadors, Captain, Guards, Ladies, and other Attendants.</label></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, the City of VERONA in <hi>Lombardy.</hi></p></set>
 </front>
 <body>
 <head><pb facs="11"/>THE CRUEL GIFT: OR, THE Royal Resentment.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>the PALACE.</stage></head>
 <stage>Enter <hi>Antenor</hi> and <hi>Learchus.</hi></stage>
 <sp>
@@ -969,13 +969,13 @@ May cautiously discover what will please,</l>
 <l>Ling'ring, unheard of Torments you shall prove,</l>
 <l>And curse the fatal Sweets of guilty Love. <stage>[Exeunt.</stage></l>
 </sp>
-</div2>
+</div>
 <trailer><hi>The End of the</hi> First ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="26"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>a Room of State, the KING and <hi>Leonora</hi> seated on a Throne, attended by <hi>Antenor, Lorenzo, Learchus, Cardono, Agonistus,</hi> &amp;c.</stage></head>
 <stage><hi>Embassadors</hi> at a Distance.</stage>
 <sp>
@@ -1527,13 +1527,13 @@ Oh! were our House's Quarrel but compos'd,</l>
 <l>Should Fortune give me all thou hast to give,</l>
 <l>My Strength wou'd fail, and I want Power to live. <stage>[Exeunt.</stage></l>
 </sp>
-</div2>
+</div>
 <trailer><hi>The End of the</hi> Second ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="25" facs="35"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>the <hi>Princess's</hi> Apartment.</stage></head>
 <stage>Enter on one Side <hi>Leonora,</hi> on the other <hi>Lorenzo.</hi></stage>
 <sp>
@@ -1749,8 +1749,8 @@ Away; open the Cave, descend, and leave me;</l>
 <l>No pois'nous Damp below can blast my Love,</l>
 <l>Secure of just Protection from above. <stage>[Exit.</stage></l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>the Grove adjoining to the Bower.</stage></head>
 <stage>Enter <hi>Antenor</hi> and Guards.</stage>
 <sp>
@@ -1961,8 +1961,8 @@ And made us listen to each other's Vows.</l>
 <l>Of <hi>Antimora</hi>'s killing Grief. Away,</l>
 <l>And let me learn the Story of his Crimes. <stage>[Exeunt.</stage></l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>The SCENE changes to the <hi>Princess's</hi> Apartment. She is discover'd reading.</stage></head>
 <sp>
 <speaker>Leon.</speaker>
@@ -2332,8 +2332,8 @@ Love even wants Temptation to betray.</l>
 <l>Which to preserve, and which to sacrifice. <stage>[Exit.</stage></l>
 </lg>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to the <hi>Princess's</hi> Apartment.</stage></head>
 <stage>Enter <hi>Leonora</hi> and <hi>Cardono,</hi> discoursing.</stage>
 <sp>
@@ -2531,10 +2531,10 @@ Look down, I say, and bless us with Success,</l>
 <l>And none but such should Royal Favours wear. <stage>[Exit.</stage></l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer><hi>The End of the</hi> Third ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="42" facs="52"/>
 <head>ACT IV.</head>
 <stage>Enter <hi>King</hi> and <hi>Antenor.</hi></stage>
@@ -2822,7 +2822,7 @@ But let not him by Axe or Wheel expire;</l>
 <l>My Foes confounded, and <hi>Learchus</hi> freed,</l>
 <l>From guilty Love, to Empire shall succeed. <stage>[Exit.</stage></l>
 </sp>
-<div2 type="scene">
+<div type="scene">
 <head><stage>SCENE changes to a <hi>Prison.</hi></stage></head>
 <stage><hi>Lorenzo</hi> bound, meeting <hi>Cardono</hi> wounded.</stage>
 <sp>
@@ -3227,13 +3227,13 @@ Return these Papers back, I humbly pray thee,</l>
 <l>And leave to Heaven the Vengeance on our Foes. <stage>[Exeunt.</stage></l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer><hi>The End of the</hi> Fourth ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="54" facs="64"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head><stage>The SCENE draws, and discovers <hi>Leonora</hi> sitting on a Couch, her Women weeping round: her.</stage></head>
 <sp>
 <speaker>LEONORA.</speaker>
@@ -3994,12 +3994,12 @@ And my Rewards shall sound thy Praises forth,</l>
 <l>Hated he lives, and unlamented dies.</l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer><hi>The End of the</hi> Fifth ACT.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="76"/>
 <head>EPILOGUE.</head>
 <head type="sub"><stage>Spoken by Mrs. OLDFIELD.</stage></head>
@@ -4048,7 +4048,7 @@ So he make good the <hi>Jewels</hi> and the <hi>Jointure,</hi></l>
 <l>In his each Feature, Truth, and Candour trace,</l>
 <l>And read <hi>Plain Dealing</hi> written in his <hi>Face,</hi></l>
 </lg>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

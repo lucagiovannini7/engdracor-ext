@@ -7,7 +7,7 @@
 <extent>[4],88p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. and J. Robinson,</publisher><date>1796.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCN4462.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE MAN OF TEN THOUSAND A COMEDY.</p>
 <p>AS IT IS ACTED AT THE THEATRE-ROYAL, DRURY-LANE.</p>
@@ -15,13 +15,13 @@
 <p>BY THOMAS HOLCROFT.</p>
 <p>LONDON: PRINTED FOR G. G. AND J. ROBINSON, PATERNOSTER ROW.</p>
 <p>1796.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE character of Major Rampart was intended to represent one of those persons who imagine they have uttered volumes, without having said a word: whose eager looks inform us how important they suppose their own conceptions to be; but, being too mighty for utterance, language sinks under them, and they expect the assent and applause of their companions to their Humphs? Hays? and expletives. These expletives, as used by the Major, are omitted in representation; because they offended. They are here restored, and left to the consideration of the reader. It may be necessary to add, they should not be pronounced in an articulate and emphatical manner; but with a half-muttering rapidity: accompanied by equally rapid glances, looking round for, and demanding, admiration.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -46,15 +46,14 @@
 <item><label>Annabel</label> Mrs. GIBBS.</item>
 <item><label>Girl</label> Miss TIDSWELL.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE MAN OF TEN THOUSAND: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A superb hall, with a grand stair-case, illuminated by chandeliers. The Maître d' Hôtel on the top, at the drawing-room door. Footman, below, calls—</stage></head>
 <sp>
 <speaker>Foot.</speaker>
@@ -667,8 +666,8 @@ you ha' giv'n al away, you'll ha' nothink vor yourzel.</p>
 <speaker>Dor.</speaker>
 <p>Heyday!</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Enter</hi> HAIRBRAIN.</stage></head>
 <sp>
 <speaker>Hair.</speaker>
@@ -861,11 +860,11 @@ would have taken fire! Would have flown to assist such a fellow! But—Good nigh
 <p>Why, Ned! Ned!</p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The House of <hi>CURFEW.</hi></stage></head>
 <stage>OLIVIA <hi>and Lady</hi> TAUNTON.</stage>
 <sp>
@@ -974,8 +973,8 @@ would have taken fire! Would have flown to assist such a fellow! But—Good nigh
 <speaker>Oli.</speaker>
 <p>Why this is admirable! Can Dorington endure these manners? Can he countenance, can he esteem, or, what is worse, can he affect to esteem, nay, can he coquet with this fashionable Lady? If he can, his heart and mine have no affinity. I seem to have been most miserably mistaken.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Enter <hi>ANNABEL,</hi> hastily; with fear.</stage></head>
 <sp>
 <speaker>Ann.</speaker>
@@ -1042,8 +1041,8 @@ would have taken fire! Would have flown to assist such a fellow! But—Good nigh
 <speaker>Oli.</speaker>
 <p>No; we are not! I never can, never will be the wife of the friend of—depravity and vice.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Footman and Lord <hi>LAROON.</hi></stage></head>
 <sp>
 <speaker>Foot.</speaker>
@@ -1255,8 +1254,8 @@ should not be jealous. Oh, it is very bad! Very bad to be jealous!</p>
 <speaker>Her.</speaker>
 <p>"Well, well! I won't!" Come thy way. Come. <stage>[Exeunt: fondly.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>The Library of <hi>DORINGTON.</hi></stage></head>
 <stage>DORINGTON <hi>and</hi> CURFEW.</stage>
 <sp>
@@ -1295,8 +1294,8 @@ should not be jealous. Oh, it is very bad! Very bad to be jealous!</p>
 <speaker>Dor.</speaker>
 <p>Ha, ha, ha! Nay, nay, I mean no offence.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>Footman, introducing Major <hi>RAMPART.</hi></stage></head>
 <sp>
 <speaker>Maj.</speaker>
@@ -1402,8 +1401,8 @@ Humph? Hay? Lest you should be choaked in swallowing your teeth! Do you take me?
 <speaker>Maj.</speaker>
 <p>Last night the same! Damme! Humph?</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>CONSOL, <hi>Lord</hi> LAROON, <hi>Sir</hi> PERTINAX PITIFUL; <hi>introduced.</hi></stage></head>
 <sp>
 <speaker>Dor.</speaker>
@@ -1802,11 +1801,11 @@ upon my purse, and my passions so many false ones, that—But this is a question
 <p>Oh my heart! <stage>[Exeunt.</stage></p>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The House of <hi>CURFEW.</hi></stage></head>
 <stage>OLIVIA <hi>and Lord</hi> LAROON.</stage>
 <sp>
@@ -1891,8 +1890,8 @@ upon my purse, and my passions so many false ones, that—But this is a question
 <speaker>Lord <hi>L.</hi></speaker>
 <p>My dear Madam, what is it to me, if my friend be disposed to ruin himself? My time would be well employed, were I to preach maxims of wisdom to all who choose to play the fool. I must tell every man I meet he is a blockhead; and get my throat cut fifty times a day. Dorington is my dear friend; but, like many more of my dear friends, he is a damned—.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>DORINGTON <hi>introduced.</hi></stage></head>
 <sp>
 <speaker>Lord <hi>L.</hi></speaker>
@@ -2140,8 +2139,8 @@ never could have loved you as I do. I confess your coldness this morning a littl
 <speaker>Oli.</speaker>
 <p>This self confidence is insulting! Conscious as he is of a dissipated spirit, male coquetry, and depravity of manners, can he so familiarly talk of the unison of our hearts? When he is present, he fascinates! I have but one resource: I will avoid him! Former affection shall not subject me to future wretchedness. Let me be any thing rather than the wife of one whom passion prefers; but whom the understanding rejects. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="35" facs="38"/>
 <head>SCENE III. <stage>A drawing-room at Dorington's. A large company assembled. Lord <hi>LAROON,</hi> Lady <hi>TAUNTON,</hi> Sir <hi>PERTINAX PITIFUL,</hi> Major <hi>RAMPART,</hi> Mr. <hi>CURFEW,</hi> &amp;c.</stage></head>
 <stage><hi>Enter</hi> DORINGTON.</stage>
@@ -2203,8 +2202,8 @@ never could have loved you as I do. I confess your coldness this morning a littl
 <speaker>Lord <hi>L.</hi></speaker>
 <p>He will enable you to defy those mighty conquerors, Hazard, Piquet, ay and Faro himself.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>Enter</hi> HUDSON.</stage></head>
 <sp>
 <speaker>Dor.</speaker>
@@ -2290,8 +2289,8 @@ never could have loved you as I do. I confess your coldness this morning a littl
 <speaker>Lord <hi>L.</hi></speaker>
 <p>Very right, Mr.—Barbadoes: you come I think from Barbadoes?</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="37" facs="40"/>
 <head>SCENE V. <stage>CONSOL <hi>without.</hi></stage></head>
 <sp>
@@ -2932,12 +2931,12 @@ Or should they blur the mirror that reflects my face, shall I fancy it deformed?
 <p>I am coming. <stage>[Exit Servant.]</stage> He brings intelligence I have already heard. My honest Herbert, an oppressed orphan, has gained his cause. Why this dilates and fills my heart. I have lost an ample, a superfluous, fortune; he has gained a small one, but a competency. I shall make him happy! Him and his Annabel▪ Why what a misery-minded reptile should I be, were I not, this very moment, to rejoice in his good fortune! <stage>[Exeunt.</stage></p>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="48" facs="51"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>OLIVIA <hi>and</hi> ANNABEL.</stage></head>
 <sp>
 <speaker>Ann.</speaker>
@@ -2963,8 +2962,8 @@ Or should they blur the mirror that reflects my face, shall I fancy it deformed?
 <speaker>Oli.</speaker>
 <p>I grant, Annabel, as my love is immeasurable, so is my sensibility. A cold, an indifferent, a divided heart? Oh! it would give me torture inexpressible!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="49" facs="52"/>
 <head>SCENE II. <stage><hi>Enter</hi> CURFEW.</stage></head>
 <sp>
@@ -3047,8 +3046,8 @@ No! I will not yield! My understanding shall not be enslaved and insulted by my 
 <speaker>Cur.</speaker>
 <p>Robert, with submission, it is your Lady's order, to all the servants, not to admit Mr. Dorington. She is not at home to him. Be upon the watch yourself. Shut the door in his face. It is your Lady's strict injunction. Remember! Your Lady's. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>The house of <hi>DORINGTON.</hi></stage></head>
 <stage>DORINGTON <hi>and</hi> HUDSON.</stage>
 <sp>
@@ -3071,8 +3070,8 @@ No! I will not yield! My understanding shall not be enslaved and insulted by my 
 <speaker>Dor.</speaker>
 <p>Stay. I recollect another matter. Step this way. <stage>(They retire to the cabinet.)</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Footman and Major <hi>RAMPART.</hi></stage></head>
 <sp>
 <speaker>Foot.</speaker>
@@ -3165,8 +3164,8 @@ No! I will not yield! My understanding shall not be enslaved and insulted by my 
 <speaker>Maj.</speaker>
 <p><stage>(Catches his skirt)</stage> Humph? Hay? <stage>(Cries, laughs, and sings)</stage> "Rule Britan"—Colonel Rampart! Ha, ha, ha! "Britons nev"—General next year!—"never will"—You are a fine—Oh! Damme! Humph? Hay? Do you take—"Britons "never"—Oh you are a—"Britons"— <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>The front of <hi>CURFEW</hi>'s house.</stage></head>
 <stage>HERBERT, <hi>and afterward</hi> DORINGTON.</stage>
 <sp>
@@ -3277,8 +3276,8 @@ mortal thing, to give you a bit of heart's ease, why, just at this time, it woul
 <p>I do believe a's one of God a'mighty's angels! As zure as can be, a's not o' this arth! Go whoam? But I won't though. I won't go whoam, till I have been into that abomination house once more. I do hoape it won't fal, avore I do get out on't! I'll take Annabel away, I'm detarmint! I'll tell madam my mind, come on't what wul!</p>
 <stage>[Goes to the door.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>The house of <hi>CURFEW.</hi></stage></head>
 <stage>OLIVIA, <hi>and then</hi> ANNABEL.</stage>
 <sp>
@@ -3316,8 +3315,8 @@ an unworthy man? Why does my wilful heart regret one who would have fixed it in 
 <speaker>Ann.</speaker>
 <p>Herbert, you may come in.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>Enter</hi> HERBERT.</stage></head>
 <sp>
 <speaker>Her.</speaker>
@@ -3468,8 +3467,8 @@ wordle couldn't match! But I'll pray vor you! I can do no more! I'll pray that h
 <speaker>Oli.</speaker>
 <p>Heavens, and earth!</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>Mr.</hi> CURFEW.</stage>
 <sp>
@@ -3539,8 +3538,8 @@ wordle couldn't match! But I'll pray vor you! I can do no more! I'll pray that h
 <speaker>Cur.</speaker>
 <p><stage>(Following very angry)</stage> Why, Madam! Your pretended apathy is insolence, Madam! You are in a passion, Madam! You are in an abominable passion, Madam! You are in a damned passion, Madam. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>The house of <hi>DORINGTON.</hi></stage></head>
 <stage>HERBERT <hi>and</hi> HAIRBRAIN <hi>meeting.</hi></stage>
 <sp>
@@ -3764,8 +3763,8 @@ His house and lands and al blowed down! His zweetheart false to her vows! No zau
 <speaker>Her.</speaker>
 <p>Ay ay! He be too zurely crack-brained!</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage>Enter Mr. <hi>HUDSON.</hi></stage></head>
 <sp>
 <speaker>Hud.</speaker>
@@ -3821,8 +3820,8 @@ His house and lands and al blowed down! His zweetheart false to her vows! No zau
 <p>Leave that to me. I can do every thing. We'll settle our property upon him! He'll be very proud! I know him. Ha, ha, ha! What a damn'd booby you were to cry so! It will be a great day! A glorious day! Come along! Curse your crying! Come along! Hurrah! Away! Hurrah! Ha, ha, ha! Damn your crying!</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>The house of <hi>CONSOL.</hi></stage></head>
 <stage>Footman and <hi>CONSOL.</hi></stage>
 <sp>
@@ -4118,12 +4117,12 @@ ten, seven-eighths! Who'll buy? Who'll buy? <stage>(Laughs)</stage></p>
 <p>A lovely pair! <stage>[Exeunt.</stage></p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="70" facs="73"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The street.</stage></head>
 <stage><hi>HAIRBRIAN'S</hi> lodgings. A tumult without. Enter fellows neatly dressed, favours in their hats; butchers in white and blue; Drum-major and Drummers. They all sound. <hi>HAIRBRAIN</hi> looks out at the window.</stage>
 <sp>
@@ -4237,8 +4236,8 @@ ten, seven-eighths! Who'll buy? Who'll buy? <stage>(Laughs)</stage></p>
 <pb n="72" facs="75"/>
 might depend upon me. Away! Sing! Shout! Dance! Be mad, you villains! Away! I come, Dorington! I come! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>The house of <hi>DORINGTON.</hi></stage></head>
 <stage><hi>DORINGTON</hi> and <hi>HUDSON</hi> with letters.</stage>
 <sp>
@@ -4274,8 +4273,8 @@ might depend upon me. Away! Sing! Shout! Dance! Be mad, you villains! Away! I co
 <speaker>Dor.</speaker>
 <p>What does this mean?—Who is there?—How now?—Why John! Harry!</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="73" facs="76"/>
 <head>SCENE III. <stage><hi>Enter</hi> HAIRBRAIN.</stage></head>
 <sp>
@@ -4419,8 +4418,8 @@ might depend upon me. Away! Sing! Shout! Dance! Be mad, you villains! Away! I co
 <speaker>Hair.</speaker>
 <p>I can't stand it! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Changes to the hall.</stage></head>
 <stage><hi>OLIVIA</hi> and Mr. <hi>HUDSON</hi> entering.</stage>
 <sp>
@@ -4478,8 +4477,8 @@ might depend upon me. Away! Sing! Shout! Dance! Be mad, you villains! Away! I co
 <pb n="76" facs="79"/>
 Of revenge he is incapable. Yes! He is above me!</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>Enter <hi>HAIRBRAIN,</hi> half drunk.</stage></head>
 <sp>
 <speaker>Hair.</speaker>
@@ -4633,8 +4632,8 @@ way! I should say the ru udest bit itter—But, while I am sober, I only think�
 <speaker>Hair.</speaker>
 <p>Who is lost? I am not lost! Here am I!—Why don't you speak?—Think of some excuse—I'll plead for you—I am el el elo eloquent, I am eloquent, and he is noble! Nob oble—So be under no concern, Madam; I, I'll be your mess ess messmate—Pshaw! Messenger. I'll deliver—Liver? I have the liver hiccup, I believe!</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage><hi>Enter</hi> DORINGTON.</stage></head>
 <sp>
 <speaker>Dor.</speaker>
@@ -4676,8 +4675,8 @@ way! I should say the ru udest bit itter—But, while I am sober, I only think�
 OLIVIA.</p>
 </sp>
 <stage>(Dorington retires.)</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>Enter</hi> OLIVIA.</stage></head>
 <sp>
 <speaker>Oli.</speaker>
@@ -4772,8 +4771,8 @@ Knocking. Enter Footman.</stage>
 <p>I'll not forget the message, I warrant me.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage>Enter Colonel <hi>RAMPART.</hi></stage></head>
 <sp>
 <speaker>Oli.</speaker>
@@ -4807,8 +4806,8 @@ Knocking. Enter Footman.</stage>
 <speaker>Col.</speaker>
 <p>Why, yes—Blow me to—I am a Colonel, thanks to somebody. Do you take me, Madam? Oh, damme, I wish I was an Orator! Humph? Hay? Damme! Humph?</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage><hi>ANNABEL</hi> timidly at the door: <hi>HERBERT</hi> pulling her back.</stage></head>
 <sp>
 <speaker>Her.</speaker>
@@ -4932,13 +4931,12 @@ Knocking. Enter Footman.</stage>
 <speaker>Oli.</speaker>
 <p>Husband your raptures! Let us be sober, even in our joys. Let us emulate my nobleminded Dorington! Be full, yet tranquil, in felicity: active, yet smiling, in misfortune! Let us reflect on the past for improvement, and meet the present with equanimity. We shall then obtain approbation for our good deeds, and indulgence for our mistakes. <stage>[Exeunt Omnes.</stage></p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="prologue">
+<div type="prologue">
 <pb facs="87"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -4980,8 +4978,8 @@ Courage and skill in vain the storm oppose,</l>
 <l>The white sails swelling where the zephyrs sport,</l>
 <l>Sweet will the plaudits be that welcome him to port▪</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="89"/>
 <head>EPILOGUE.</head>
 <lg>
@@ -5053,8 +5051,7 @@ Thus Lady Candlewick, Sir John just knighted,</l>
 <l>Our cause is yours; to you that cause we trust:</l>
 <l>If merit you perceive, you'll be to merit just.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

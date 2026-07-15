@@ -7,20 +7,20 @@
 <extent>53,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. and J. Egerton,</publisher><date>[1789?]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Bickerstaff's translation was entitled 'Tis well it's no worse'.</note><note>With a half-title.</note><note>Reproduction of original from the Huntington Library.</note><note>English Short Title Catalog, ESTCN11949.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE PANNEL.</p>
 <p>[PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE PANNEL</p>
 <p>AS ALTERED BY J. P. KEMBLE.</p>
 <p>FROM BICKERSTAFF'S, Translation OF CALDERON's EL ESCONDIDO Y LA TRAPADA;</p>
 <p>AND FIRST ACTED AT THE THEATRE ROYAL IN DRURY LANE, NOVEMBER 28th, 1788.</p>
 <p>LONDON; PRINTED FOR T. AND J. EGERTON, WHITEHALL.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -47,16 +47,15 @@
 <item><label>BEATRICE</label> MRS. JORDAN.</item>
 <item><label>LEONARDA</label> MRS. LOVE.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, MADRID.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE PANNEL.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE</head>
 <stage><hi>A Room in</hi> Aurora's <hi>House. Enter</hi> AURORA <hi>and</hi> LEONARDA.</stage>
 <sp>
@@ -998,12 +997,12 @@ Come, give me both your hands—Nay, no struggling!</p>
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="23" facs="22"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>SCENE <hi>continues.</hi></stage>
 <stage><hi>LAZARILLO</hi> and <hi>BEATRICE</hi> discovered.</stage>
 <sp>
@@ -1937,11 +1936,11 @@ Come, give me both your hands—Nay, no struggling!</p>
 </sp>
 <stage>Exit.</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A street.</stage></head>
 <stage>Enter Don <hi>FERDINAND</hi> and Don <hi>PEDRO.</hi></stage>
 <sp>
@@ -2021,8 +2020,8 @@ Come, give me both your hands—Nay, no struggling!</p>
 <p>Do so. Lazarillo, follow me.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE II.</head>
 <stage>The former Chamber.</stage>
 <stage>Enter <hi>BEATRICE.</hi></stage>
@@ -2860,10 +2859,9 @@ Come, give me both your hands—Nay, no struggling!</p>
 <p>My dear master, I wish you joy, from the bottom of my heart, of being released from all your troubles, by the generosity of this good old gentleman: his behaviour has been that of a noble Spaniard; and I hope our friends will testify their satisfaction, by joining to applaud it.</p>
 </sp>
 <stage>Exeunt omnes.</stage>
-</div3>
-</div2>
+</div>
 <trailer>END OF THE ENTERTAINMENT.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

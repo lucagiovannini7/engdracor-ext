@@ -7,14 +7,14 @@
 <extent>[4],39,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for the Author, and sold by Staples Steare,</publisher><date>1768.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Paul Tell-Truth = George Saville Carey.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT90574.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>LIBERTY CHASTISED: OR PATRIOTISM in CHAINS. A TRAGI, COMI, POLITICAL FARCE, As it was performed by his M—'s S—ts, in the Year 1268; Which exhibits to the PUBLIC, a View of the OPPRESSIONS under which LIBERTY groaned, during a most flagitious A—n in that weak R—n; represented in the Characters of BOTCH, GRAPNEL, MANSUPPLE, CHATWELL, and ALMAGNIA, &amp;c.</p>
 <p>SCENES near the P— and in St. Gregoir's Fields.</p>
 <p>MODERNISED By PAUL TELL-TRUTH, <abbr>Esq</abbr></p>
 <p>LONDON: Printed for the AUTHOR, and Sold by STAPLES STEARE, No. 93, FLEET-STREET, 1768.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
@@ -49,13 +49,13 @@
 <item>ABIGAIL, A Waiting Woman.</item>
 <item>JENNY, A gay Lady.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>
 LIBERTY CHASTISED: OR PATRIOTISM in CHAINS.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head><hi>SCENE,</hi> <stage>a handsome house not far from <hi>St. J—s.</hi></stage></head>
 <stage>Enter <hi>Lord GRAPNEL</hi> in great haste, and servants in waiting.</stage>
@@ -82,8 +82,8 @@ LIBERTY CHASTISED: OR PATRIOTISM in CHAINS.</head>
 <speaker>ABIG.</speaker>
 <p>Be pleased my Lord to follow me—Lord <hi>Botch</hi> waits your G—ce.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> opens, discovers Lord <hi>BOTCH</hi> alone.</stage></head>
 <sp>
 <speaker>BOTCH.</speaker>
@@ -263,11 +263,11 @@ that the people seeing no chance of opposition may disperse quietly.—</p>
 <p>Enough said—my Lord.—</p>
 <stage>[Exeunt severally</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>the Fields.</stage></head>
 <stage>The curtain draws—discovers a confused multitude of Men, Women, and Children, as diverting themselves and laughing at some Soldiers—.</stage>
 <sp>
@@ -369,8 +369,8 @@ Justice reads—while he is reading, several people out of derision and indignat
 <p>Hadd your tung, mon, there's the Cornet, he's nae grit friend to Lord BOTCH—d—m he lykes the E— o'er weel.—</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="14" facs="17"/>
 <head><hi>SCENE,</hi> <stage>a Garden.</stage></head>
 <stage>Enter <hi>HONESTY</hi> and <hi>BLUNT.</hi></stage>
@@ -441,8 +441,8 @@ and the v—s of a j—, standing against him for sedition and impiety?</p>
 <p>Give me thy fist, <hi>Blunt!</hi>—for, by my soul, <hi>Honesty</hi> will go hand in hand with thee.—I'll tell thee <hi>Blunt</hi>—It is now no trifling question—I don't at present look upon it as a simple contention between <hi>Watcher</hi> and the m—y!—I consider it as war openly declared between <hi>Liberty</hi> and <hi>arbitrary Power!</hi>—At no juncture, have the people so unanimously and avowedly distinguished themselves in the cause of Freedom and Patriotism!—And if it should be in the power of prerogative and despotism to render their endeavours upon this occasion, ineffectual, then may every one of us be next employed to rivet his neighbour's chains!—Along then, friend <hi>Blunt,</hi> let's go to the Duke's Head, and quaff one sober bottle—to <hi>Liberty</hi>—to <hi>Watcher</hi>—and to every true friend of our good kind and free-constitution!—</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE,</hi> changes to Covent Garden.</stage></head>
 <stage>Enter <hi>BLUNT, JENNY</hi> following.</stage>
 <sp>
@@ -494,8 +494,8 @@ and starving, to industry, decency, and a comfortable living?</p>
 <p>Ha! he! he!—</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="21" facs="24"/>
 <head><hi>SCENE,</hi> <stage>Lord Shelter's House.</stage></head>
 <stage>Curtain draws and discovers Lord <hi>Wimple</hi> and Lord <hi>Shelter</hi> as very serious.</stage>
@@ -533,11 +533,11 @@ of any ravages, which must rather have created him enemies than friends.</p>
 <speaker>WIM.</speaker>
 <p>Well—my Lord—I hope we shall be able to cook it upto your lordship's satisfaction—Adieu!</p>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <pb n="23" facs="26"/>
 <head>ACT III. SCENE I.</head>
 <stage>The Street—divers parties of people are seen discontentedly moving to and fro.</stage>
@@ -651,8 +651,8 @@ science of politicks, would not belye himself, and suffer the whole honour of th
 <l>Reward, tho' late—will certainly succeed.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes and discovers Lord <hi>Botch</hi> and Lord <hi>Mansupple,</hi> extremely serious.</stage></head>
 <sp>
 <speaker>Botch.</speaker>
@@ -793,8 +793,8 @@ would have avoided a great deal of distress, and your Lordship a great deal of t
 <p>To that strange inconsistence can that same foolish passion lead a man? When neither decency, situation, nor age, are able to withstand its temptations!—There's that little sly minx, after assuming every inviting leer of dissembled wantonness, has at last walkt her ways unmov'd, that she may divert herself amongst her companions at the expence of my character—so much for the stupidity of a constable.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes, discovers a crowd of men and women—pulling and hawling a raw S—.</stage></head>
 <sp>
 <speaker>1st. WOM.</speaker>
@@ -889,15 +889,15 @@ Then peace shall smile on H—'s reign.</l>
 </lg>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="addendum">
+<div type="addendum">
 <pb n="37" facs="40"/>
 <head>The SCENE at page 33, and the last Scene, rendered into intelligible English, for the benefit of such readers who are unacquainted with the S—.</head>
-<div2 type="scene">
+<div type="scene">
 <sp>
 <speaker>MAS.</speaker>
 <p>D—n me, Donald—I have done for that young rebel!</p>
@@ -926,8 +926,8 @@ Then peace shall smile on H—'s reign.</l>
 <speaker>MACS.</speaker>
 <p>Hold your tongue—man—there comes the Colonel, he is no great friend to Lord <hi>Botch</hi>—d—n him, he likes the E— too well.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi> the last.</head>
 <sp>
 <speaker>DON.</speaker>
@@ -995,9 +995,9 @@ Then peace shall smile on H—'s reign.</l>
 <speaker>DON.</speaker>
 <p>Is it so? then I will be for <hi>Watcher</hi> as well as the best of ye! huzza—a—<hi>Watcher</hi> and <hi>Liberty</hi> for ever? huzza—a—a—</p>
 </sp>
-</div2>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="43"/>
 <head>New Publications printed for <hi>STAPLES STEARE.</hi></head>
 <list>
@@ -1017,7 +1017,7 @@ Then peace shall smile on H—'s reign.</l>
 <item>14 The Extraordinary North Briton, No. 1, 2, 3, Price 3d each.</item>
 <item>15 The Englishman, No. 1, 2, 3, 4, 5. &amp;c. Price 3d each.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

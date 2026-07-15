@@ -7,12 +7,12 @@
 <extent>[8],95,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for P. Vaillant,</publisher><date>1764.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Arthur Murphy.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT43118.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>No One's Enemy but His Own.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>No One's Enemy but His Own.</p>
 <p>A COMEDY In THREE ACTS.</p>
@@ -21,8 +21,8 @@
 <bibl>TER</bibl>
 <p>LONDON, Printed for P. VAILLANT, facing Southampton-street, in the Strand.</p>
 <p>MDCCLXIV.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. SMITH.</byline>
@@ -73,8 +73,8 @@
 <l>By easy dialogue would win your praise,</l>
 <l>And on fair decency graft all his bayes.</l>
 </sp>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="5"/>
 <head>Lately Published, <hi>By the Author of this Piece,</hi></head>
 <p><table>
@@ -126,8 +126,8 @@
 </table></p>
 <p>Also, just Published, As it was intended to be Acted at the Theatre Royal in Covent-Garden, What WE must ALL come to.</p>
 <p>A Comedy of Two Acts, Price 1 s.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -147,16 +147,15 @@
 <item><label>HORTENSIA,</label> Mrs. WARD.</item>
 <item><label>LUCINDA,</label> Miss ELLIOTT.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, WINDSOR.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="7"/>
 <head>No One's Enemy but his own.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> CARELESS <hi>and</hi> BLUNT.</stage>
 <sp>
 <speaker>BLUNT.</speaker>
@@ -807,8 +806,8 @@
 <p>Poor Blunt! he calls me the Marplot of my own schemes.—Ha! ha!—But you see I know who to confide in.—I know who are my friends.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="19" facs="25"/>SCENE <stage><hi>the Terras.</hi></stage></head>
 <stage><hi>Enter</hi> LUCINDA <hi>and</hi> BELLFIELD.</stage>
 <sp>
@@ -1318,12 +1317,12 @@
 <stage>Exit.</stage>
 </sp>
 <stage>END of the FIRST ACT.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="37" facs="43"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> WISELY <hi>and</hi> BRAZEN.</stage>
 <sp>
 <speaker>WISELY.</speaker>
@@ -2115,12 +2114,12 @@ Most women have no character at all.</p>
 <l>But if they rail, then with a rage they love.</l>
 </sp>
 <stage>END of the SECOND ACT.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="63" facs="69"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> BELLFIELD <hi>and</hi> WISELY.</stage>
 <sp>
 <speaker>BELLFIELD.</speaker>
@@ -2207,8 +2206,8 @@ Most women have no character at all.</p>
 <p>Poor Bellfield!—my joy overflow'd, and I could not help telling him—ha! ha!—and yet he pretends not to feel it.</p>
 <stage>Exit:</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="66" facs="72"/>SCENE <stage>Careles's <hi>Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> CARELESS <hi>and</hi> BLUNT.</stage>
 <sp>
@@ -2499,8 +2498,8 @@ Yours, Hortensia.</p>
 <p>The veriest self-tormentor that ever lived!</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="75" facs="81"/>SCENE <stage><hi>the Terras.</hi></stage></head>
 <stage><hi>Enter</hi> BELLFIELD <hi>and</hi> WISELY.</stage>
 <sp>
@@ -2934,8 +2933,8 @@ shocked; so I composed a dance to raise my spirits.</p>
 <speaker>CARELESS.</speaker>
 <p>Hell and the devil! I shall never be able to shew my face after this:—Blunt will rail at me, my enemies will rejoice, and every female tongue will clack, clack.—Confusion!—What's to be done?—I'll follow her to Sir Philip's mask; and from this moment not one unguarded word shall ever escape me. <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>a Room in Sir</hi> Philip's <hi>House.</hi></stage></head>
 <stage><hi>Enter Sir</hi> PHILIP, WISELY, <hi>and</hi> BELLFIELD.</stage>
 <sp>
@@ -3217,10 +3216,9 @@ shocked; so I composed a dance to raise my spirits.</p>
 <l>The careless indiscreet (this day has shewn)</l>
 <l>Is no One's Enemy except His Own.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

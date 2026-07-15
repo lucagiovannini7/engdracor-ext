@@ -7,20 +7,20 @@
 <extent>[4],viii,[4],84p. ; 8⁰.</extent><publicationStmt><publisher>printed by T. Spilsbury; for J. Dodsley; R. Faulder; L. Davis; T. Becket [and 7 others in London],</publisher><date>1779.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT54527.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>ALBINA, Countess <hi>RAIMOND;</hi> A TRAGEDY, By Mrs. COWLEY: As it is Performed at the THEATRE-ROYAL IN THE HAY-MARKET.</p>
 <p>LONDON: Printed by T. SPILSBURY; For J. DODSLEY, Pall-Mall; R FAULDER, New Bond-Street; L. DAVIS, Holborn; T. BECKET, in the Strand; W. OWEN, T. LOWNDES, and G. KEARSLY, Fleet-Street; W. DAVIS, Ludgate-Hill; S. CROWDER, and T. EVANS, Pater-noster-Row; and Messrs. RICHARDSON and URQUHART, Royal-Exchange. M,DCC,LXXIX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE RIGHT HONOURABLE LORD HARROWBY.</head>
 <opener><salute>MY LORD,</salute></opener>
 <p>ALBINA had the honour of being known to your Lordship, almost from her infancy. Her faults, and her graces, You are already acquainted with, as she grew up in some measure beneath your Lordship's eye. She is now arrived at maturity; and if in her present state, my Lord, you should find her more polished, than when she had last the honour of your attention, it is chiefly owing to the hints with which you then favoured me.</p>
 <closer>
 <signed>I have the honour to be, My LORD, Your Lordship's grateful, And obedient humble Servant, H. COWLEY.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="3"/>
 <head>PREFACE.</head>
 <p>THE very favourable reception with which the Pieces I have presented to the Stage, have been honoured by the Public, has given them the appearance of great success; and it is probable that those who were witnesses of their reception, will be surprised to find this Tragedy prefaced by complaints of hardship and injury, and to know that it has been productive of a train of mortifications and disappointments to its Author.</p>
@@ -60,8 +60,8 @@ manner. Ideas of rivalship, which is the natural and proper effect of two Houses
 <p>The morning succeeding my interview with Mr. <hi>Sheridan,</hi> Mr. <hi>Colman</hi> was asked to bring out a Tragedy for me, at the Haymarket, which both the Winter Managers had refused. His answer was—<hi>When an Author of reputation thinks proper to bring me a Piece, I don't think I have a right to deliberate. If Mrs.</hi> Cowley <hi>invites the Town to a Tragedy at the Haymarket, I am only the Midwife, to give it a safe delivery to the World; when one does not know a Writer, it is different.</hi></p>
 <p>This candid and liberal answer I have great pleasure in recording. The Tragedy, when read, drew an approbation not less warm from Mr. <hi>Colman,</hi> than from Mr. <hi>Sheridan:</hi> and it was not merely praise; Mr. <hi>Colman</hi> put it into immediate rehearsal, for which I think myself under the highest obligation, as Tragedy is inconsistent with the sportive Genius of the <hi>Haymarket;</hi> and there was little hope of advantage equal to the expensive preparation of a regular Tragedy. It was however presented, with no other alteration than the curtailments, which were necessary, on account of the length, where the time of representation is shorter than in the Winter Theatres—and with the disadvantage of having one of its principal <note n="*" place="foot"><hi>Editha;</hi> since given to Miss <hi>Sherry.</hi></note> Characters performed in a style which excited laughter; yet it was received with a degree of applause, for which I should be ungrateful, were I not vain of it.</p>
 <p>Had I taken up my pen merely in pursuit of applause, I should have been completely gratified; but this, though so ostentatiously held out as the motive for productions in the Poetic line, has seldom, in any age or country, produced works of any considerable reputation. Dramatic Writers, in particular, have always sought for support from their labour, which is too great to be undertaken for amusement. This may appear a vulgar topic; but to me it is a very serious subject of complaint, that, by the conduct of the Winter Managers, I have been deprived of a reasonable prospect of several hundred pounds, and have spent years of fruitless anxiety and trouble. My productions have been uniformly received by the Public with applause; yet I find the doors of the Winter Theatres shut against me.—To this severe fate I most reluctantly submit.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="11"/>
 <head>PROLOGUE. <note n="*" place="foot">The first part of this Prologue, which was intended for Mr. <hi>Parsons,</hi> was not spoken on the Stage.</note></head>
 <stage>[Prompter, speaking without.]</stage>
@@ -149,8 +149,8 @@ When glowing Sirius, from his fervid eye,</l>
 <l>Guiltless to <hi>You</hi> the storm within these doors;</l>
 <l>Do You then save <hi>us</hi> harmless, Sirs! from yours.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="14"/>
 <head>PERSONS OF THE DRAMA,</head>
 <p><list>
@@ -183,13 +183,13 @@ When glowing Sirius, from his fervid eye,</l>
 <item>Mrs. Le Fevre.</item>
 </list></p>
 <p><hi>Guards and Attendants.</hi></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="15"/>ALBINA, Countess RAIMOND, A TRAGEDY,</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A magnificent Hall in the</hi> Gothic <hi>style.</hi></stage></head>
 <stage><hi>Enter the Earl of</hi> Westmoreland, <hi>and a Gentleman.</hi></stage>
 <sp>
@@ -506,8 +506,8 @@ And would be any thing to please her phantasy—</l>
 <l>But Soldiers must be won by deeds!</l>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="8" facs="22"/>
 <head>SCENE, <stage><hi>A Garden belonging to</hi> Albina.</stage></head>
 <stage><hi>Enter</hi> Editha <hi>followed by</hi> Adela.</stage>
@@ -660,8 +660,8 @@ And would be any thing to please her phantasy—</l>
 <l>—This bow'r conceals me. </l>
 </sp>
 <stage>[Enters the Bower.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="11" facs="25"/>
 <stage>SCENE <hi>continues.</hi></stage>
 <stage><hi>Enter</hi> Westmoreland <hi>and</hi> Albina.</stage>
@@ -967,13 +967,13 @@ The heart untouch'd by love, is like a lute,</l>
 <l>With the soft voice of Friendship I will meet,</l>
 <l>And <hi>guide</hi> them to my purpose.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT I.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="32"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A</hi> Gothic <hi>Colonade.</hi></stage></head>
 <stage><hi>Enter</hi> Gondibert, <hi>followed by</hi> Egbert.</stage>
 <sp>
@@ -1138,8 +1138,8 @@ The heart untouch'd by love, is like a lute,</l>
 </lg>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>An Apartment.</hi></stage></head>
 <stage>Edward <hi>and</hi> Albina <hi>discovered sitting on a Couch.</hi></stage>
 <sp>
@@ -1688,13 +1688,13 @@ The precious sin, and think monastic rigours</l>
 <l>By which he grasps Creation's mighty scheme,</l>
 <l>And emulates Omniscience.—</l>
 </sp>
-</div2>
+</div>
 <trailer>END of ACT II.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="33" facs="47"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The Garden.</hi></stage></head>
 <stage>Editha <hi>seated.</hi></stage>
 <sp>
@@ -1886,8 +1886,8 @@ And holidays. Of his imprisonment</l>
 <l>Mean time he'll learn discretion.</l>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Another part of the Garden.</hi></stage></head>
 <stage><hi>Enter</hi> Egbert, <hi>and Servants.</hi></stage>
 <sp>
@@ -2435,8 +2435,8 @@ With such a being! Haply am I witness</l>
 <l>Thus Heaven doth punish with our own acts,</l>
 <l>And makes our crimes our woe.</l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>A Hall, with a Stair-case, and Gallery.</hi></stage></head>
 <stage><hi>Enter</hi> Edward <hi>and</hi> Editha <hi>from the Garden.</hi></stage>
 <sp>
@@ -2519,13 +2519,13 @@ With such a being! Haply am I witness</l>
 <l>The lion's caught, and struggles in his toils, in vain.</l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT III.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="50" facs="64"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An Apartment in</hi> Westmoreland<hi>'s Palace.</hi></stage></head>
 <stage>Enter a Steward, with Servants.</stage>
 <sp>
@@ -3096,8 +3096,8 @@ Oh, to some convent's dreary cell I'll fly,</l>
 <l>Restore its wonted lustre to thy fame;</l>
 <l>Then, if thou diest—sink with thee to the grave.</l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>An Apartment in</hi> Gondibert<hi>'s Palace.</hi></stage></head>
 <stage><hi>Enter</hi> Gondibert.</stage>
 <sp>
@@ -3371,13 +3371,13 @@ Who saw the only treasure of his soul</l>
 <l>And, hurried on, are whelm'd, ingulph'd, and—lost.</l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT IV.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="68" facs="82"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The Lists.</hi></stage></head>
 <stage><hi>On one side are ranged the King and Court; on the other, a Multitude, with Officers.</hi> Westmoreland <hi>and</hi> Edward <hi>appear, in Armour, attended by 'Squires, each under a Banner, on which are emblazoned their Arms, with Devices; their Lances and Helmets borne.</hi></stage>
 <stage>A Herald advances.</stage>
@@ -3698,8 +3698,8 @@ Lave our proud oars; and with Britannia's sword,</l>
 <l>And give my helmet, to the God of Love.</l>
 </sp>
 <stage>[Westmoreland <hi>and</hi> Edward <hi>kneel at the foot of the throne, and the Scene closes.]</hi></stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>An Apartment in</hi> Gondibert's <hi>Palace. Enter</hi> Gondibert, <hi>followed by</hi> Editha.</stage></head>
 <sp>
 <speaker>EDITHA.</speaker>
@@ -3814,8 +3814,8 @@ I should forget, and scatter thee in atoms</l>
 <l>Thy shroud shall fold thee, not Albina's arms!</l>
 </sp>
 <stage>[Exit▪</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> Albina<hi>'s Garden.</hi></stage></head>
 <stage><hi>Enter</hi> Adela.</stage>
 <sp>
@@ -3958,8 +3958,8 @@ That groan!—death's in that groan—Oh, it has pierc'd</l>
 </lg>
 </sp>
 <stage>[Runs wildly off.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> Albina<hi>'s Anti-chamber.</hi></stage></head>
 <stage><hi>Enter</hi> Albina <hi>with Attendants.</hi></stage>
 <sp>
@@ -4174,8 +4174,8 @@ To kill Albina—But in her stead—oh!—</l>
 <l>There her black empire fix'd; then dragg'd her slave▪</l>
 <l>Through infamy, to death.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 </text>

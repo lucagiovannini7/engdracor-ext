@@ -7,20 +7,20 @@
 <extent>[2],viii,[3],10-87,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. Riley, at the City Circulating Library,</publisher><date>1781.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Elizabeth, Margravine of Brandenburg-Anspach and Bayreuth.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT118509.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE MINIATURE PICTURE: A COMEDY.</p>
 <p>PRICE ONE SHILLING AND SIX-PENCE.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE MINIATURE PICTURE; A COMEDY, IN THREE ACTS: PERFORMED AT THE THEATRE-ROYAL, DRURY-LANE.</p>
 <p><figure>
 <figDesc>printer's device for G. Riley</figDesc>
 </figure></p>
 <p><hi>LONDON:</hi> Printed for G. RILEY, Bookseller, at the <hi>City Circulating Library,</hi> St. Paul's-Church-Yard. M.DCC.LXXXI.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3" ana="y"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -36,15 +36,15 @@
 <item>SUSAN, the Cookmaid.</item>
 <item>Two Servants.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>The</hi> SCENES <hi>are in Mr.</hi> Camply<hi>'s and Miss</hi> Loveless<hi>'s Houses in</hi> Oxford.</p></set>
-<div1 type="author'snote">
+<div type="author'snote">
 <pb facs="4"/>
 <head>ADVERTISEMENT.</head>
 <p>THIS Comedy of Three Acts was originally written as a Farce in Two Acts, and never intended for the Public Theatres, nor the Public Eye.</p>
 <p>The Author of it publishes it at the Request of several of her Friends, who saw it <hi>mis</hi>-represented on the Stage, at <hi>Drury-lane;</hi> as she chuses to submit Faults which are really her own, to the Judgment of the World, rather than be accused of those which she never committed.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE TO THE MINIATURE PICTURE,</head>
 <byline>WRITTEN BY RICHARD BRINSLEY SHERIDAN, <abbr>Esq</abbr></byline>
@@ -129,8 +129,8 @@
 <l><hi>Your Influence has encreas'd and is encreasing.</hi></l>
 <l>But there, I trust, the resolution's finish'd;</l>
 <l>Sure none will say—<hi>It ought to be diminish'd.</hi></l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="9"/>
 <head>EPILOGUE</head>
 <byline>Written by Mr. JEKYLL.</byline>
@@ -187,13 +187,13 @@
 <l>Besides, the house adjourns some day next week.</l>
 <l>This fair 'Committee' shall detail the rest.</l>
 <l>Then let the monsters, if they dare, 'Protest.'</l>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="11"/>THE MINIATURE PICTURE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Mr.</hi> Camply<hi>'s Study.</hi></stage></head>
 <stage><hi>Mr.</hi> Camply <hi>writing, Servant knocks at the Door.</hi></stage>
 <sp>
@@ -712,13 +712,13 @@ be sorry were I to give my name to any woman, that if she chose to play the devi
 <speaker>Lord MACGRINNON.</speaker>
 <p>And I shall follow you as fast as possible. I hope at least he will take my advice in trying to pique her pride, and make her so angry, that I may gain time to get her consent, and to make mine upon my own terms—for if once I have her fortune, she may go and hang herself for what I care.</p>
 </sp>
-</div2>
+</div>
 <trailer>End of the FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="30" facs="32"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>the Drawing-room in Miss</hi> Loveless<hi>'s House.</hi></stage></head>
 <stage><hi>Mrs.</hi> Arabella <hi>and Miss</hi> Loveless <hi>sitting on each side of a table, upon which Mr.</hi> Belvil <hi>is sitting with a book, which he shuts, and turning to Miss</hi> Loveless <hi>says</hi>—</stage>
 <sp>
@@ -1322,13 +1322,13 @@ would make any man serious but myself; but I never was serious in my life, nor e
 <speaker>ELIZA.</speaker>
 <p>Yes, yes. <stage>[<hi>Exit</hi> Belvil.</stage> Now I have sufficiently punished him, I shall give him satisfaction, but in a much pleasanter way than he expects. Here is then at last returned to me the copy of a very foolish original; and were the fate of it to be well described in a modern play, I fancy it would teach many giddy girls like myself not to part with the one till the other was secured as fast as a lawyer and parson could bind it.</p>
 </sp>
-</div2>
+</div>
 <trailer>End of the SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="53" facs="55"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Miss</hi> Loveless<hi>'s Garden.</hi></stage></head>
 <stage><hi>Miss</hi> Loveless <hi>crossing the stage meets Mr.</hi> Camply, <hi>and starts.</hi></stage>
 <sp>
@@ -1649,8 +1649,8 @@ Scotland; where we will live only to love all the rest of our lives.</p>
 <p>Now what in the name of Old Nick did she mean when she said she was to pass for a lady? oddsnigs but I'll watch her all day.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to</hi> Camply<hi>'s house.</hi> Eliza <hi>and her brother.</hi></stage></head>
 <sp>
 <speaker>ELIZA.</speaker>
@@ -1732,16 +1732,16 @@ Scotland; where we will live only to love all the rest of our lives.</p>
 <p>I dare say, my dear, it is there already. Come, I'll go with you into your own room.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Chesnut Tree Walk.</hi></stage></head>
 <sp>
 <speaker>BELVIL,</speaker>
 <stage>alone.</stage>
 <p>So, I may—perhaps—I may never—never see Eliza's face again. In an hour—I may be no more.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Walk.</hi></stage></head>
 <stage><hi>Enter</hi> Eliza.</stage>
 <sp>
@@ -1946,8 +1946,8 @@ afraid I should disturb it—for I know you have been living with Miss Loveless,
 <p>No, no, no! but if you will walk to the house with me, I will tell you all my plans.</p>
 <stage>[Exeunt both.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to Miss</hi> Loveless<hi>'s house.</hi></stage></head>
 <stage>Arabella <hi>and Miss</hi> Loveless.</stage>
 <sp>
@@ -2200,8 +2200,8 @@ have an uncle that will let me live as privately as I please. Pray, madam, make 
 <speaker>Miss LOVELESS.</speaker>
 <p>Enough of this! now we are all agreed, I will shew you a scene that may amuse you, if you will follow me into the garden.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the garden, lord</hi> Macgrinnon <hi>peeping out of the arbour.</hi></stage></head>
 <sp>
 <p>The de'el surely tempted me to feex upon this neeght—for I am wat to the skan— <stage><hi>(Enter</hi> Susan <hi>at one corner)</hi></stage> Sir, sir, sir, sir—</p>
@@ -2310,12 +2310,12 @@ have been, I shall not repent of the pains I have taken to please every one.</p>
 <l>Ladies, I trust you will adopt my plan,</l>
 <l>And only wear the dress to gain the man.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="90"/>
 <head>BOOKS printed for G. RILEY.</head>
 <list>
@@ -2324,7 +2324,7 @@ have been, I shall not repent of the pains I have taken to please every one.</p>
 <item>II. Inscribed by Permission to General Keppel, handsomely printed in Quarto, price 2s. 6d.
 <p>THE ART of WAR; a Poem, in Six Books; Translated from the <hi>French</hi> of the King of <hi>Prussia:</hi> with a Critique on the Poem, by the <hi>Comte Algarottì,</hi> translated from the <hi>Italian.</hi></p></item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

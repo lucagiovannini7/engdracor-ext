@@ -7,7 +7,7 @@
 <extent>[6],76,[2]p. ; 8⁰.</extent><publicationStmt><publisher>re-printed by Thomas Hume, for George Risk,</publisher><date>1718.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Based on Molière's 'Tartuffe'.</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCT176551.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE Non-Juror.</p>
 <p>A COMEDY.</p>
@@ -18,8 +18,8 @@
 <l>Da mihi fallere; da Justum, Sanctum{que} videri,</l>
 <l>Noctem Peccatis, &amp; Fraudibus objice Nubem.</l><bibl>HOR.</bibl>
 <p><hi>DUBLIN:</hi> Re-printed by THOMAS HUME, for GEORGE RISK, at the <hi>London</hi> in <hi>Dame's-Street</hi> near the Horse-Guard, 1718.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2" ana="y"/>
 <head>Dramatis Personae.</head>
 <p><table>
@@ -68,9 +68,9 @@
 <cell>Mrs. <hi>Vanderbank.</hi></cell>
 </row>
 </table></p>
-</div1>
+</div>
 <set><p>The SCENE, an Anti chamber of Sir <hi>JOHN'S</hi> House in <hi>LONDON.</hi></p></set>
-<div1 type="dedication">
+<div type="dedication">
 <pb facs="3"/>
 <head>TO THE KING.</head>
 <opener><salute>SIR,</salute></opener>
@@ -81,8 +81,8 @@
 good Effect on the Minds of Your MAJESTY'S People, were it not under the <hi>Misfortune</hi> of being written by a <hi>Comedian.</hi> I am therefore in some Terror, notwithstanding its Publick Applause, to reflect how far Your MAJESTY, in Your Wisdom, may think it proper to with-hold Your Pardon for the Unlicensed Boldness of my Undertaking. I am sensible it may be justly urg'd against me, That even <hi>Truth</hi> and <hi>Loyalty</hi> might have lost their Lustre, by appearing reduc'd to want the Defence of so inconsiderable a Champion: But as I never believ'd the best Play could be supported in an Ill Cause; so was I assur'd the worst might pass, with Favour, in a Good one. And though my Duty and Concern has made me more careful in the Conduct of this, than any of my former Endeavours; I am convinc'd, that what may have been extraordinary in the Success of it, is utterly owing to a happy Choice of the Subject: And as its meeting no Opposition from our Publick Malecontents, seems, in some Degree, an Argument of the Clear and Honest Truth of those Principles it vindicates; so may it of the equal Falshood of the Rebellious and Unchristian Tenets it exposes. Nay, I have yet a farther Hope, that it has even discovered the Strength and Number of the <hi>Misguided</hi> to be much less, than may have been artfully infinuated; there being no Assembly where People are so free, and apt to speak their Minds, as in a Crowded <hi>Theatre;</hi> Of which Your MAJESTY may have lately seen an Instance, in the Insuppressible Acclamations that were given on Your appearing to Honour this Play with Your Royal Presence.</p>
 <p>BUT were the Disaffected yet as Numerous, as some Few may wish them, What Honest <hi>Englishman</hi> can ever think them formidable, that considers his Security in the Wisdom of Your MAJESTY'S <hi>Counsels,</hi> and Your Heroick <hi>Resolution</hi> to Execute them? And as every Action of Your Regal Power has shewn the Nation, that Your greatest <hi>Glory</hi> and <hi>Delight</hi> is in being the <hi>Father</hi> of Your <hi>People;</hi> so may it Convince its Enemies, that <hi>they</hi> will always find You KING of Your <hi>Subjects.</hi>—But I am wandring into Thoughts that awe me into Silence; and humbly beg Leave to Subscribe my self,</p>
 <closer>May it please Your <hi>MAJESTY,</hi> <signed>Your <hi>MAJESTY'S</hi> Most Dutiful, and Most Obedient, Subject and Servant, COLLEY CIBBER.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Written by N. ROWE, <abbr>Esq</abbr></byline>
@@ -126,12 +126,12 @@ In close Back Rooms his Reuted Flocks he rallys,</l>
 <l>Turn your Possessions here to <hi>Ready-Rhino,</hi></l>
 <l>And buy ye Lands and Lordships at <hi>Urbino.</hi></l>
 </lg>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="1" facs="7"/>
 THE NON-JUROR.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT. I.</head>
 <head type="sub">Sir <hi>John Woodvil,</hi> and the Colonel.</head>
 <sp>
@@ -1168,8 +1168,8 @@ better so—'twill but confirm Sir <hi>John</hi> in his good Opinion of my Chari
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>The End of the First ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT II.</head>
 <head type="sub"><hi>Charles</hi> with a Writing in his Hand.</head>
@@ -2188,8 +2188,8 @@ of which my Uncle lost his Life, and I my only Friend, with all my long fed Hope
 <stage>[Ex.</stage>
 </sp>
 <trailer>The End of the Second ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="34" facs="40"/>
 <head>ACT. III.</head>
 <head type="sub"><hi>Maria,</hi> and <hi>Betty</hi> taking off her Scarf, &amp;c.</head>
@@ -3005,8 +3005,8 @@ Re-enter <hi>Charles</hi> with a Writing.</stage>
 <stage>(Exeunt</stage>
 </sp>
 <trailer>The End of the Third ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="47" facs="53"/>
 <head>ACT IV.</head>
 <stage>Maria <hi>and</hi> Charles.</stage>
@@ -3986,8 +3986,8 @@ give him an instant Opportunity to improve it into an Amity for Life.</p>
 <p>—If it cements our Friendship, I am overpaid.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="61" facs="67"/>
 <head>ACT. V.</head>
 <head type="sub">Heartly, <hi>and</hi> Maria.</head>
@@ -5026,10 +5026,10 @@ of <hi>Rome</hi> that he is actually a Priest in <hi>Popish</hi> Orders, and has
 <l>To Guard that Freedom, <hi>GEORGE</hi> must fill the Throne.</l>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="83"/>
 <head>Epilogue.</head>
 <stage>Spoken by Mrs. Oldfield.</stage>
@@ -5077,7 +5077,7 @@ of <hi>Rome</hi> that he is actually a Priest in <hi>Popish</hi> Orders, and has
 <l>If that seems hard▪ why Grant him your Reprive,</l>
 <l>And by an Act of Grace, let this <hi>NON-JUROR</hi> Live.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

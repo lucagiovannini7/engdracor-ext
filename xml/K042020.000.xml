@@ -7,18 +7,18 @@
 <extent>87,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by Robert and Andrew Foulis,</publisher><date>1760.</date><pubPlace>Glasgow :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>Gaskell, 386</note><note>English Short Title Catalog, ESTCT43462.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>OROONOKO. A TRAGEDY.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>OROONOKO: OR THE ROYAL SLAVE. A TRAGEDY.</p>
 <p>ALTERED FROM SOUTHERNE, BY FRANCIS GENTLEMAN.</p>
 <p>As it was Performed at the THEATRE in EDINBURGH, with universal Applause.</p>
 <p>GLASGOW: PRINTED BY ROBERT AND ANDREW FOULIS M.DCC.LX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO JAMES BOSWELL, ESQ.</head>
 <l>HOW can the muse with burthen'd pinions soar?</l>
@@ -66,8 +66,8 @@
 <closer><signed>FRANCIS GENTLEMAN.</signed>
 <dateline>GLASGOW,
 <date>February 1760.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -113,15 +113,15 @@
 <l>In you it lies to censure, or to save;</l>
 <l>To your protection take the ROYAL SLAVE.</l>
 </lg>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="7"/>
 <head>ADVERTISEMENT.</head>
 <p>THOUGH the Prologue shews the motive of this alteration, it may not be improper to mention, that it was first hinted to the Author by a Noble Personage, who has eminently distinguished himself in the literary world; and who recollected to have heard Mr. SOUTHERNE declare, in his latter days, that he most heartily regretted his complying with licentious taste, by writing any thing so offensive to modesty, as the comic part of his works; especially that which was so unnaturally joined to the tragedy of this play.</p>
 <p>The Author thinks himself obliged, in gratitude, to acknowledge the very candid reception <hi>his</hi> part of it met with from the polite and judicious audience of EDINBURGH, without one person to recommend it, as he chose to lie concealed; and this approbation is the more extraordinary, as the piece laboured under some lamentable deficiencies in the representation.</p>
 <p><hi>Such lines as have been added, to gratify curiosity, are marked thus</hi> (').</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -137,11 +137,11 @@
 <list>
 <item>IMOINDA.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="9"/>OROONOKO.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
 <stage>GOVERNOR and BLANDFORD.</stage>
 <sp>
@@ -705,8 +705,8 @@ on this I invited him; I could do no less, you know, as he had been a friend to 
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT THE SECOND.</head>
 <stage>OROONOKO and BLANDFORD.</stage>
 <sp>
@@ -1409,8 +1409,8 @@ on this I invited him; I could do no less, you know, as he had been a friend to 
 <l>Your love my empire, and your heart my throne.</l>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="42" facs="40"/>
 <head>ACT THE THIRD.</head>
 <stage>MASSINGANO solus.</stage>
@@ -2103,8 +2103,8 @@ on this I invited him; I could do no less, you know, as he had been a friend to 
 <l>' 'Tis better not to be, than be a slave.</l>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT THE FOURTH.</head>
 <stage>MASSINGANO and ZINZO.</stage>
 <sp>
@@ -2759,8 +2759,8 @@ on this I invited him; I could do no less, you know, as he had been a friend to 
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT THE FIFTH.</head>
 <stage>OROONOKO chain'd to the Floor.</stage>
 <stage>BLANDFORD and PLANTERS.</stage>
@@ -3496,7 +3496,7 @@ I had a living sense</l>
 <l>' Wherefore, let Christians Virtue's path pursue,</l>
 <l>' Nor leave to Pagans to be just and true.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

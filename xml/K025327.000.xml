@@ -7,14 +7,14 @@
 <extent>[4],75,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Dodsley; and T. Davies,</publisher><date>1769.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Prologue written by Mr. Colman.</note><note>Epilogue written by Dr. Goldsmith.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT10798.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE SISTER: A COMEDY.</p>
 <p>By Mrs. CHARLOTTE LENNOX.</p>
 <p>LONDON, Printed for J. DODSLEY, in Pall-Mall; and T. DAVIES, in Russel-Street, Covent-Garden. M DCC LXIX.</p>
 <p>[Price One Shilling and Six Pence.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Written by Mr. COLMAN.</byline>
@@ -75,8 +75,8 @@
 <l>And prove to-day an emblem of fair weather!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -90,16 +90,15 @@
 <item><label>Simple, Woman to Lady Autumn.</label> Miss PIERCE.</item>
 <item><label>Betty, Woman to Miss Autumn.</label> Mrs. GARDINER.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>Windsor.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE SISTER: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Windsor</hi> Park.</stage></head>
 <stage><hi>Lord</hi> Clairville <hi>and</hi> Courteney <hi>meeting.</hi></stage>
 <sp>
@@ -319,8 +318,8 @@ simplicity, has had art enough to ensnare your affections.</p>
 <p>Well, since it must be so, I will attend you.</p>
 </sp>
 <stage><hi>Exeunt</hi> Courteney <hi>and</hi> Clairville.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter Miss</hi> Autumn <hi>and Miss</hi> Courteney.</stage>
 <sp>
@@ -517,8 +516,8 @@ who pronounced the rebel had escaped me—mark that pensive air, those folded ar
 <speaker>MISS COURTENEY.</speaker>
 <p>Ha! ha! ha! I see your reformation is begun.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>Enter</hi> Lord Clairville <hi>and</hi> Courteney.</stage>
 <sp>
@@ -590,8 +589,8 @@ This resolution is very sudden, Sir. To be sure, Paris is a charming place; you 
 <p>Piqued by heaven! this is better than I expected.</p>
 </sp>
 <stage><hi>Exeunt</hi> Courteney, Clairville, <hi>Miss</hi> Autumn, <hi>and Miss</hi> Courteney.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Enter Lady</hi> Autumn, <hi>and her woman at the other side.</hi></stage>
 <sp>
@@ -837,13 +836,13 @@ give you an opportunity of talking to me upon this affair?</p>
 <p>What a piece of affectation! But if she has not entered heartily into the interest of this Miss D'Arcy, with whom my pupil is madly in love, I shall be able to discover her character and circumstances, and must take my measures accordingly.</p>
 </sp>
 <stage><hi>Exit</hi> Courteney.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="22" facs="25"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE, <stage><hi>a drawing-room, in Lady</hi> Autumn's <hi>house.</hi></stage></head>
 <stage><hi>Enter</hi> Courteney, <hi>as from dinner.</hi></stage>
 <sp>
@@ -1243,12 +1242,12 @@ Oh! dear Madam, I was only jesting.</p>
 </sp>
 <stage><hi>Exeunt</hi> Courteney <hi>and</hi> Lady Autumn.</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="33" facs="36"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The Drawing-Room.</hi></stage></head>
 <stage><hi>Miss</hi> Autumn <hi>and her Woman.</hi></stage>
 <sp>
@@ -1734,13 +1733,13 @@ gain your esteem, you will not refuse your hand to Clairville.</p>
 <stage>(<hi>Exeunt Lady</hi> Autumn <hi>and</hi> Simple).</stage>
 Perfidious Courtney! it is too plain he has supplanted me, basely supplanted me; and the story he has told me of his sister was invented to excuse his sudden absence. Is this the friend who possessed more than a brother's part of my affections? I have been his dupe, his bubble: I will find him instantly, acquaint him with my detection of his perfidy, and demand satisfaction.</p>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="46" facs="49"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>A garden.</hi></stage></head>
 <stage><hi>Enter</hi> Courteney <hi>and Miss</hi> Courteney <hi>talking.</hi></stage>
 <sp>
@@ -2173,13 +2172,13 @@ the Earl and you.—You will find me here in the garden.</p>
 <p>I'll come to you.—Adieu.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="59" facs="62"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The drawing-room.</hi></stage></head>
 <stage><hi>Enter Lady</hi> Autumn and <hi>Lord</hi> Belmont.</stage>
 <sp>
@@ -2716,12 +2715,11 @@ as a misfortune, remember you have yourself only to blame for it.</p>
 <pb n="75" facs="78"/>
 wishes, may appear self-interested; but, if my sister continues to maintain those sentiments she has this day manifested, the rectitude of her heart will, in some measure, atone for the inferiority of her rank and fortune. As for me, though perhaps I have proved myself rather too young to be your governor, I am yet old enough to be your friend, and shall ever be proud of that distinction, not from the consideration of your wealth and honour; but because I am convinced that you want neither example, nor precept to instruct you, that there are no characters so truly noble, as that of a woman of virtue, and a man of real honour.</p>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="79"/>
 <head>EPILOGUE.</head>
 <byline>Written by Dr. GOLDSMITH.</byline>
@@ -2776,8 +2774,7 @@ I've got my cue:</l>
 <l>Well then, a truce, since she requests it too;</l>
 <l>Do you spare her, and I'll for once spare you.</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

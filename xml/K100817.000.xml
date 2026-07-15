@@ -7,19 +7,19 @@
 <extent>[6],53,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Hatchard,</publisher><date>1799.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Edward Jerningham.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT126418.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE PECKHAM FROLIC: OR NELL GWYN.</p>
 <p><hi>A Comedy:</hi> IN THREE ACTS.</p>
 <p><hi>London:</hi> PRINTED FOR J. HATCHARD, OPPOSITE BURLINGTON HOUSE, PICCADILLY.</p>
 <p>1799.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>Advertisement.</head>
 <p>THE following dramatic <hi>whim</hi> having afforded some amusement to a small but polished and enlightened circle, the author is tempted to offer it to the candour of a more extensive tribunal.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Characters.</head>
 <list>
@@ -32,13 +32,12 @@
 <item>NELL GWYN,</item>
 <item><hi>Servants, &amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>THE Scene is laid at Peckham, (in Surry,) Where Charles the Second frequently resided With some select Companions.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage><hi>Enter</hi> NELL GWYN <hi>and</hi> KILLIGREW.</stage>
 <sp>
@@ -501,8 +500,8 @@
 <l>To make man's spirits apt for thoughts divine.</l>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="19" facs="22"/>
 <head>ACT II.</head>
 <stage><hi>Enter</hi> ANN KILLIGREW <hi>and</hi> NELL GWYN.</stage>
@@ -967,8 +966,8 @@
 <p>I assure you, Sir Oliver, you are going to be united with the most amiable woman in England. If I had not been unluckily yoked in marriage with a d—'d Portugal merchant's daughter, I should myself have proposed to her. Give me leave, Miss Killigrew, to have the honour of handing you to your carriage.</p>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="37" facs="40"/>
 <head>ACT III.</head>
 <stage><hi>Enter</hi> The KING, Sir CHARLES SEDLEY, <hi>and</hi> LORD ROCHESTER.</stage>
@@ -1486,15 +1485,14 @@
 <p>I will only add a few words more: as we both have gargled our mind with a little sputtering of the Latin tongue, I will disperse your apprehensions with a line from Martial's Epigrams:—<hi>Poete non dolet.</hi></p>
 </sp>
 <trailer>THE END OF THE THIRD AND LAST ACT.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="57"/>
 <p><hi>Lately published by J. Hatchard,</hi> THE FOURTH EDITION OF THE WELCH HEIRESS.</p>
 <p>A COMEDY, <hi>IN FIVE ACTS.</hi></p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

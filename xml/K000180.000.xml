@@ -7,18 +7,18 @@
 <extent>x,[2],63,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Griffin,</publisher><date>1772.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Advertisement signed: Rich'd Cumberland.</note><note>Letterpress titlepage.</note><note>Press figure 2 on p. 20.</note><note>With a half-title.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN326.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE FASHIONABLE LOVER: Price 1<hi>s.</hi> 6<hi>d.</hi></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE FASHIONABLE LOVER; A COMEDY: As it is acted at the
 THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>LONDON: Printed for W. GRIFFIN, at GARRICK's HEAD, in
 Catharine-Street, Strand. MDCCLXXII.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="3" ana="y"/>
 <pb facs="4"/>
 <head>ADVERTISEMENT.</head>
@@ -82,8 +82,8 @@ Writings of Shakespear.</bibl></note> who has defended them, would have made
 such display of their own genius in the celebration and protection of
 his.</p>
 <closer><signed>RICH<span rend="sup">D</span>. CUMBERLAND.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="8"/>
 <head>PROLOGUE.</head>
 <head> 
@@ -136,8 +136,8 @@ me,</l>
 <l>Faith, Sirs, you shou'd have some consideration,</l>
 <l>When ev'n the Devil pleads against Damnation.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="10"/>
 <head>EPILOGUE.</head>
 <head> 
@@ -193,8 +193,8 @@ round—</l>
 <l>Save me, just Heaven, from such a painful life,</l>
 <l>And make me an unfashionable wife!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>PERSONS.</head>
 <list>
@@ -234,13 +234,13 @@ round—</l>
 </list></item>
 <item>Servants, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, LONDON.</p></set>
 </front>
 <body>
 <head><pb facs="12"/> THE FASHIONABLE LOVER.</head>
-<div1 n="1" type="act">
-<div2 type="scene">
+<div n="1" type="act">
+<div type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>A hall in LORD ABBERVILLE's house, with a stair-case
 seen through an arch. Several domestics waiting in rich liveries.
@@ -768,8 +768,8 @@ scorpions, and bats, and toads—come let's be gone.</p>
 <p>Wou'd, they were in your pelly!</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>An apartment in BRIDGEMORE's house.</stage>
 <stage>MISS AUBREY and TYRREL, and a maid-servant with
 lights.</stage>
@@ -1108,13 +1108,13 @@ other in no way of being gained. Well, I'll return to my company; there is this
 merit however in gaming, that it makes all losses appear trivial but its
 own.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="13" facs="24"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>A Library in MORTIMER's House.</stage>
 <stage>MORTIMER alone.</stage>
 <sp>
@@ -1415,8 +1415,8 @@ Mortimer, in England, he that wants money, wants every thing; in Scotland now,
 few have it, but every one can do without it.</p>
 <stage>[Exit Colin.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>An Apartment in BRIDGEMORE's House.</stage>
 <stage>BRIDGEMORE and DR. DRUID.</stage>
 <sp>
@@ -1968,13 +1968,13 @@ Tyrrel.</p>
 <p>Ha, ha, ha! I must be less or more than woman, if I did not
 relish this retaliation.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="25" facs="38"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>The Street, with a distant View of a Square.</stage>
 <stage>COLIN alone.</stage>
 <sp>
@@ -2266,8 +2266,8 @@ ribband of his kinswoman; of such consequence is it to have a good name
 in this world.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>A room in LORD ABBERVILLE's house.</stage>
 <stage>LORD ABBERVILLE enters, followed by several
 servants.</stage>
@@ -2643,8 +2643,8 @@ Maister Mortimer; I'll tell him aw the case, and take his counsel on the
 whole.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to Mrs. MACINTOSH's House.</stage>
 <stage>Mrs. MACINTOSH and TYRREL.</stage>
 <sp>
@@ -2950,13 +2950,13 @@ that; I've got the pedigree of the Macintoshes at my fingers ends, and if
 there's e'er a flaw in her descent 'twixt this and Noah, gadzooks, I'll wager
 a hundred pounds I prove her an impostor.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="39" facs="52"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Fish-street Hill.</stage>
 <stage>AUBREY alone.</stage>
 <sp>
@@ -3158,8 +3158,8 @@ Bridgemore to an interview at Mr. Mortimer's. Come, my good benefactor, how
 fortunate was this meeting! I long to know to whom I owe this happiness.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>A Compting-House belonging to BRIDGEMORE.</stage>
 <stage>BRIDGEMORE and NAPTHALI.</stage>
 <sp>
@@ -3428,8 +3428,8 @@ Your father's frantic with impatience.</p>
 <p>I follow you—Now, Aubrey, 'tis my turn.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Changes to MORTIMER's Library.</stage>
 <stage>MORTIMER and TYRREL.</stage>
 <sp>
@@ -3919,13 +3919,13 @@ surprize: let others call this the weakness of our nature; to me it proves
 the unworthiness; for had we merits to entitle us to happiness, the means
 wou'd not be wanting to enjoy it.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="52" facs="65"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>The Hall in LORD ABBERVILLE's House.</stage>
 <stage>LORD ABBERVILLE followed by COLLIN.</stage>
 <sp>
@@ -4018,8 +4018,8 @@ welcome; the de'il a jest they made of you last war.</p>
 to be at peace.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>An Apartment in MORTIMER's House.</stage>
 <stage>MORTIMER, AUBREY, and NAPTHALI.</stage>
 <sp>
@@ -4743,8 +4743,8 @@ stops short at Berwick, and never circulates beyond the Tweed. By Heaven,
 I'd rather weed out one such unmanly prejudice from the hearts of my
 countrymen, than add another Indies to their empire.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>END OF THE PLAY.</trailer>
 </body>
 </text>

@@ -7,26 +7,26 @@
 <extent>[2],68p. ; 12⁰.</extent><publicationStmt><publisher>printed by J. and W. Porter; for S. Price, W. Sleator, W. and H. Whitestone, R. Moncrieffe, C. Jenkin, T. Walker, R. Burton, and P. Byrn,</publisher><date>1781.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: J. Delap.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT129479.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE ROYAL SUPPLIANTS. A TRAGEDY.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE ROYAL SUPPLIANTS. A TRAGEDY. AS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p><hi>DUBLIN:</hi> Printed by J. and W. PORTER; For S. PRICE, W. SLEATOR, W. and H. WHITESTONE, R. MONCRIEFFE, C. JENKIN, T. WALKER, R. BURTON, and P. BYRN. MDCCLXXXI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3" ana="y"/>
 <p>TO THE RIGHT HONOURABLE HENRY LORD VISCOUNT PALMERSTON, OF THE KINGDOM OF IRELAND; THE FOLLOWING TRAGEDY IS INSCRIBED BY HIS LORDSHIP'S OBLIGED AND MOST OBEDIENT HUMBLE SERVANT,</p>
 <closer><signed>J. DELAP.</signed></closer>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="4"/>
 <head>Advertisement.</head>
 <p>It may perhaps be necessary to acquaint the reader, that Euripides has written a tragedy upon the same subject. In his <hi>Heraclidae,</hi> Macaria is sacrificed in the second act, and never afterwards mentioned; and <hi>Acamas</hi> is a mute. Indeed the whole conduct of this play is so entirely different from that of the Greek poet, that the author is hardly conscious to himself of having borrowed any thing more from him, than the general idea of the <hi>Suppliants</hi> taking refuge in the temple, and Macaria's voluntary offer of her own life.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Written by a FRIEND.</byline>
@@ -63,8 +63,8 @@ Might the best strength of Hercules require,</l>
 <l>To weep the hero's wrongs, the daughter's woe,</l>
 <l>Like kind protectors grant the widow's suit,</l>
 <l>And crown your poet with the golden fruit.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -98,13 +98,13 @@ Might the best strength of Hercules require,</l>
 <list>
 <item>Officers, Priests, Virgins, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE. The Vestibules of the Temples of Jupiter and Juno, at Athens; and a Grove.</p></set>
 </front>
 <body>
 <head><pb facs="8"/>
 THE ROYAL SUPPLIANTS.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage>IOLAUS, and others, round an Altar near the Temple of <hi>Jupiter.</hi></stage>
 <sp>
@@ -685,8 +685,8 @@ Bright transient flashes; such as to the sun</l>
 <stage>Exit.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="19"/>
 <head>ACT II.</head>
 <stage>Flourish of Trumpets.</stage>
@@ -1404,8 +1404,8 @@ That done, ye sage interpreters of heaven!</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="33" facs="32"/>
 <head>ACT III.</head>
 <stage>DEIANIRA, and her Attendants, round an Altar in the Temple.</stage>
@@ -2158,8 +2158,8 @@ How much th' alacrity of my poor spirits</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="46" facs="45"/>
 <head>ACT IV.</head>
 <stage>A Grove. At the End of it the Temple of <hi>Juno.</hi></stage>
@@ -2651,8 +2651,8 @@ Tho' poor Macaria cannot. Without pause,</l>
 <l>They view this agonizing heart, that heaves</l>
 <gap resp="oxf" reason="missing" disp="〈pages missing〉"/>
 </sp>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="63" facs="54"/>
 <gap resp="oxf" reason="missing"/>
 <stage>Enter DEMOPHON. &amp;c.</stage>
@@ -2892,10 +2892,10 @@ Of conquest crowned, Alcides' godlike son</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE FIFTH ACT.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="58"/>
 <head>EPILOGUE.</head>
 <byline>Written by a FRIEND.</byline>
@@ -2956,7 +2956,7 @@ In these our days, when men their object miss,</l>
 <l>For nought,—as Shakespeare sings, "can make us rue</l>
 <l>"If Britain to herself will prove but true."</l>
 </lg>
-</div1>
+</div>
 <trailer>THE END.</trailer>
 </back>
 </text>

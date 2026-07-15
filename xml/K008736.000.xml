@@ -7,14 +7,14 @@
 <extent>60p. ; 12⁰.</extent><publicationStmt><publisher>sold by the booksellers,</publisher><date>1783.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Produced at Covent Garden under the title: 'The Irish fine lady'.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN14089.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE TRUE-BORN IRISHMAN; OR, IRISH FINE LADY. A COMEDY 0F TWO ACTS.</p>
 <p>By CHARLES MACKLIN.</p>
 <p>DUBLIN: SOLD BY THE BOOKSELLERS, M, DCC, LXXXIII.</p>
 <p>[Price, a British Sixpence.]</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2" ana="y"/>
 <pb facs="3"/>
 <head>Dramatis Personae</head>
@@ -38,15 +38,14 @@
 <item>Mrs. JOLLY,</item>
 <item>KATTY FARREL.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene, Dublin.—A Room in Mr. O'Dogherty's House.</p>
 <p>Time, from Noon to Evening.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE True-born Irishman.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage>Enter <hi>O'Dogherty</hi> and Servant.</stage>
 <sp>
@@ -900,8 +899,8 @@ verbal images with a touch of your Promethean pipe.</p>
 <p><hi>Coun.</hi> What a strange turn this woman's mind has taken—she is far gone I see, and must be pinched to the quick—and shall this very night.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="29" facs="28"/>
 <head>ACT II.</head>
 <stage>Enter Mr. and Mrs. <hi>O'Dogherty.</hi></stage>
@@ -2254,9 +2253,8 @@ on your shoulders to Lady High-Life's, with my compliments, and never stop till 
 <p>Now, gentlemen and ladies, you may go plunder one another at cards and dice as fast as you can—and, like the Count, make yourselves objects for a farce.—If every fine lady and coxcomb in this town were turned into a farce, faith we should be the merriest people in all Europe—but ours is over for to-night, and pretty well upon the whole.</p>
 <p>Indeed, I think 'tis very fairly ended: The coxcomb's punish'd; The fine Irish lady's mended.</p>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

@@ -8,7 +8,7 @@
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
 <head>VANITY PUNISHED.</head>
-<div1 type="dramatispersonae">
+<div type="dramatispersonae">
 <head>A DRAMA, IN ONE ACT, CHARACTERS.</head>
 <list>
 <item>Mr. Waller.</item>
@@ -18,11 +18,11 @@
 <item>Mr. Nash, <hi>Friends to Mr. Waller.</hi></item>
 <item>Michael, <hi>a Country Boy.</hi></item>
 <item>Martin, <hi>the Gardener.</hi></item>
-</list></div1></front>
+</list></div></front>
 <body>
-<div1 type="play">
+<div type="act">
 <pb n="121" facs="125"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>A Garden.</hi></stage></head>
 <stage>Mr. Waller, Mrs. Waller.</stage>
 <sp>
@@ -62,8 +62,8 @@
 <speaker>Mr. W.</speaker>
 <p>Heaven forbid! But while we are here in the country I shall have more opportunities of observing him; and I am resolved to take the advantage of the first that shall offer, to clear up my doubts. I see him coming towards us. Leave me alone with him a moment.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="123" facs="127"/>
 <head>SCENE II.</head>
 <stage>Mr. Waller, Valentine.</stage>
@@ -110,16 +110,16 @@
 <p>In every station, they consist in treating all persons as our duty prescribes to us. He does so, in shewing a particular attachment and complaisance to you. Do you do the same? do you make a return of mildness and good will? And yet he seems to merit them. He is active and intelligent. I believe him to be possest of good-nature, spirit, and good sense. You ought to think yourself very happy in having so amiable a companion, with whom you may at once amuse and improve yourself. His father is my foster-brother, and has always had a remarkable affection for me. I am pretty sure that Michael has the same for you. See how the poor little fellow hangs about the terrace-walk to meet you. Take care and use
 <pb n="125" facs="129"/>him with civility. There is more honour and integrity in his father's cottage than in many palaces. His family too has been our tenants for some generations, and I should be glad to see he connexion continued between our children. <stage>(He goes out.)</stage></p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>Valentine, </speaker>
 <stage>(alone.)</stage>
 <p>Yes, a fine connexion indeed! I think papa is joking. This little country boy teach me any thing! No; I will surprize him now so much with my learning, that he will not think of talking to me of his own, I'll warrant him.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Valentine, Michael.</stage>
 <sp>
@@ -185,16 +185,16 @@
 <speaker>Mich.</speaker>
 <p>It is not with idleness that they are grown so hard. You know how to talk very well, I dare say, and yet I would not change conditions with you. To work honestly, and offend nobody, is all that I know, and it would be no harm if you knew as much. Good bye, Sir.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>Valentine, </speaker>
 <stage>(alone.)</stage>
 <p>I think the little clown had a mind to make game of me. But I see company coming on the terrace-walk. I must put on a studious air before them. <stage>(He sits down, seeming to read in his book with great attention.)</stage></p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Mr. and Mrs. Waller, Mr. Ray, and Mr. Nash.</stage>
 <stage>Valentine, (seated on a bench on one side.)</stage>
@@ -231,8 +231,8 @@
 <speaker>Mr. Wal.</speaker>
 <p>If you speak truth, I pity you, and if you do not—Come, gentlemen, there is not a moment to lose. Let us continue our walk. <stage>(They walk forward up the hill.)</stage></p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>Valentine, </speaker>
@@ -240,8 +240,8 @@
 <p>There, they are almost out of sight: I need not be under any constraint now. <stage>(Puts the book into his pocket)</stage> What an opinion will these gentlemen have of my diligence! I should like to be a bird and fly after them, to hear the praises that they are giving me. <stage><hi>(Saunters about, yawning and listless, for near
 <pb n="129" facs="133"/>a quarter of an hour.)</hi></stage> I am tired, after all, of being here alone. I can do better! The sun is set now, and I hear the company returning. I will slip into the wood, and hide myself in it so, that they shall scarcely find me. Mama will send all the servants to look for me with lights. They will talk of nothing but me all the evening, and will compare me with those great philosophers that have been known to go astray in their learned meditations, and to lose themselves in woods. My adventure will make a fine noise! Now for it. <stage>(He goes into the wood.)</stage></p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Mr. and Mrs. Waller, Mr. Ray, Mr. Nash.</stage>
 <sp>
@@ -310,8 +310,8 @@
 <speaker>Mr. Nash.</speaker>
 <p>We will receive your reproaches at our return. <stage>(They walk towards the grove.)</stage></p>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Mr. and Mrs. Waller.</stage>
 <sp>
@@ -380,8 +380,8 @@
 <speaker>Mr. W.</speaker>
 <p>I am glad of it.</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Mr. and Mrs. Waller, Mr. Ray, and Mr. Nash.</stage>
 <sp>
@@ -392,8 +392,8 @@
 <speaker>Mr. W.</speaker>
 <p>No, gentlemen; you have complied with my wife's request, you will now listen to mine. I am a father, and know my duty as one. Let us go into the parlour, and I will give you an account of my design.</p>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="134" facs="138"/>
 <head>SCENE XI.</head>
 <stage>The Middle of the Wood.</stage>
@@ -401,8 +401,8 @@
 <speaker>Valentine.</speaker>
 <p>What have I done, fool that I was? It is dark night, and I don't know which way to turn. <stage>(Calls.)</stage> Papa! papa! Nobody answers. I am undone; what will become of me? <stage>(cries.)</stage> O mama! where are you? Answer your son this once. Heavens! what is that running through the wood? If it should be a robber! Help! help!</p>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Valentine, Michael.</stage>
 <sp>
@@ -522,16 +522,16 @@
 <speaker>Mich.</speaker>
 <p>Return? Pooh! when one does good, it pays itself. But stop a moment. While the potatoes are roasting I will fetch some hay for you. I saw a good deal lying in one part of the wood. You will sleep upon that like a prince. But take care of the roast while I am away. <stage>(Goes out singing.)</stage></p>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="138" facs="142"/>
 <head>SCENE XIII.</head>
 <sp>
 <speaker>Valentine.</speaker>
 <p>Fool that I was! how could I be so unjust as to despise this child. What am I, compared to him? how little I am in my own eyes, when I examine his behaviour and mine! but it shall never happen again. Henceforward I will not despise those of a lower condition than myself. I will not be so proud, nor so vain. <stage>(He walks about, and gathers up dry sticks for the fire.)</stage></p>
 </sp>
-</div2>
-<div2 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV.</head>
 <stage><hi>Valentine, Michael, (hauling in a large bundle of hay.</hi>)</stage>
 <sp>
@@ -606,8 +606,8 @@
 <speaker>Mich.</speaker>
 <p>Do not talk of thanks. I am as happy as you. Come, walk along with me. I'll guide you. <stage>(They go off.)</stage></p>
 </sp>
-</div2>
-<div2 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV.</head>
 <stage>A Room in Mr. Waller's House.</stage>
 <stage>Mr. and Mrs. Waller.</stage>
@@ -619,8 +619,8 @@
 <speaker>Mr. W.</speaker>
 <p>Make yourself easy, my love; I will go myself. But who knocks? <stage>(The door opens.)</stage> Look, here he is.</p>
 </sp>
-</div2>
-<div2 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <pb n="141" facs="145"/>
 <head>SCENE XVI.</head>
 <stage>Mr. and Mrs. Waller, Valentine, Michael.</stage>
@@ -676,9 +676,8 @@
 <p>My dear son, how happy you will make your mother and me by proving that your reformation is sincere, and will never suffer a relapse.</p>
 </sp>
 <stage>(Valentine takes Michael by the hand; Mr. Waller gives his to his Lady, and they all go into the next apartment.)</stage>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
-
 </TEI>

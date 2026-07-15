@@ -7,17 +7,17 @@
 <extent>4,86,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed by E. Grigg, and sold by G. Kearsley; P. Elmsley; G. Wilkie, London; and W. Grigg, Exeter,</publisher><date>1784.</date><pubPlace>Exeter :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT75033.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p><hi>EDITHA.</hi> A TRAGEDY.</p>
 <p>BY HUGH DOWN MAN, M.D.</p>
 <p>EXETER: Printed by E. GRIGG, and Sold by G. KEARSLEY, FLEET-STREET; P. ELMSLEY, STRAND; G. WILKIE, ST. PAUL'S CHURCH-YARD, LONDON; and W. GRIGG, EXETER. M,DCC,LXXXIV. Price ONE SHILLING and SIXPENCE.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>TO THE INHABITANTS OF EXETER NEIGHBOURHOOD, THIS TRAGEDY IS INSCRIBED, BY THEIR HUMBLE SERVANT, THE AUTHOR.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -88,8 +88,8 @@
 <l>Courageous now, as when they quell'd the Dane,</l>
 <l>Still faithful, loyal, generous, and humane.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <item>VOLNIR.</item>
@@ -104,14 +104,14 @@
 <item>GUNHILDA.</item>
 <item>EDITHA.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE. EXETER, and the adjacent Country.</p></set>
 </front>
 <body>
 <head><pb facs="5"/>EDITHA. A TRAGEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE I. <stage><hi>A</hi> CAMP. <hi>At some distance the</hi> CASTLE, <hi>and</hi> CITY <hi>of</hi> EXETER.</stage></head>
 <stage>VOLNIR. BRITHRIC.</stage>
 <sp>
@@ -237,8 +237,8 @@
 <l>The paths of baseness. Prisoner, to thee,</l>
 <l>Unransom'd never will I quit thy camp.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="5" facs="9"/>
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> RODOLPH, <hi>with</hi> EDITHA, <hi>and other</hi> PRISONERS.</stage>
@@ -312,8 +312,8 @@
 <l>And let this heart the bold designs fulfill.</l>
 <stage>(<hi>Exit.</hi></stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="7" facs="11"/>
 <head>SCENE III.</head>
 <stage>VOLNIR. BRITHRIC.</stage>
@@ -485,11 +485,11 @@
 <l>That Mercy is thy darling attribute,</l>
 <l>And thy arm bared to punish, not destroy!</l>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>VOLNIR's <hi>Tent.</hi> VOLNIR <hi>and his</hi> CAPTAINS.</stage></head>
 <sp>
 <speaker>VOLNIR.</speaker>
@@ -644,8 +644,8 @@
 <l>And you're already Conquerors.</l>
 <stage>(<hi>Exeunt.</hi>)</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>RODOLPH's <hi>Tent.</hi></stage></head>
 <sp>
 <speaker>EDITHA.</speaker>
@@ -1091,8 +1091,8 @@
 <l>Confound tyrannic force! Support the weak!</l>
 <l>And from afflictions soul remove despair!</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>The</hi> CITY.</stage></head>
 <stage>ALBERT <hi>and</hi> CITIZENS.</stage>
 <sp>
@@ -1274,12 +1274,12 @@
 <l>Till drench'd and satiated with Danish blood.</l>
 <stage>(<hi>Exeunt.</hi>)</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="34" facs="38"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The</hi> CAMP. VOLNIR's <hi>Tent.</hi></stage></head>
 <stage>VOLNIR, RODOLPH, <hi>and</hi> DANISH CAPTAINS.</stage>
 <sp>
@@ -1570,8 +1570,8 @@
 <l>The rich reward, and golden harvest mine.</l>
 <stage>(<hi>Exit.</hi>)</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The</hi> CITY.</stage></head>
 <stage>EDRED, OSWY, ALBERT.</stage>
 <sp>
@@ -1668,8 +1668,8 @@
 <l>To rescue thee, or gain a glorious death.</l>
 <stage>(<hi>Exit.</hi>)</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>The</hi> CAMP. VOLNIR's <hi>Tent.</hi></stage></head>
 <stage>VOLNIR <hi>and one of his</hi> CAPTAINS.</stage>
 <sp>
@@ -1908,11 +1908,11 @@
 <l>And rush to conquest thro' the paths of terror.</l>
 <stage>(<hi>Exit.</hi>)</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The Tent of</hi> EDITHA.</stage></head>
 <stage>EDITHA, GUNHILDA.</stage>
 <sp>
@@ -2458,8 +2458,8 @@
 <l>Heaven will support us.</l>
 <stage>(<hi>Exeunt. Forced off different ways.</hi></stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>RODOLPH's <hi>Tent.</hi></stage></head>
 <stage>RODOLPH <hi>and</hi> CAPTAIN.</stage>
 <sp>
@@ -2580,12 +2580,12 @@
 <l>And sell our lives as dearly as we can?</l>
 <stage>(<hi>Exeunt.</hi>)</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="70" facs="74"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Before the Tent of</hi> EDITHA.</stage></head>
 <sp>
 <speaker>RODOLPH.</speaker>
@@ -3168,12 +3168,12 @@
 <l>From foreign arms, and from domestic treason.</l>
 <l>Free, glorious, happy, to remotest ages.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="91"/>
 <head>EPILOGUE.</head>
 <lg>
@@ -3236,8 +3236,7 @@
 <l>This is th' unerring comment; this the test—</l>
 <l>And all remarks besides—like mine—a jest.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

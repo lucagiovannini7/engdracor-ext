@@ -7,12 +7,12 @@
 <extent>xiii,[4],10-62p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. and J. Dodsley; and sold by M. Cooper, and A. Brown,</publisher><date>1756.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Isaac Bickerstaffe.</note><note>With a half-title.</note><note>Page vii misnumbered vi; a variant has p.vii correctly numbered.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT154633.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>LEUCOTHOE. A DRAMATIC POEM.</p>
 <p>[Price One Shilling and Six-Pence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>LEUCOTHOE. A DRAMATIC POEM.</p>
 <l>In nova fert animus mutatas dicere formas</l><l>Corpora.</l>
@@ -20,8 +20,8 @@
 <l>Vulgo recitare timentis.</l>
 <bibl>HOR. lib. i. sat. 4.</bibl>
 <p>LONDON: Printed for R. and J. DODSLEY, in Pall-Mall; And Sold by M. COOPER in Pater-noster-Row, and A. BROWN in the Hay-Market. 1756.</p>
-</div1>
-<div1 type="tothereader">
+</div>
+<div type="tothereader">
 <pb facs="3"/>
 <head>TO THE READER.</head>
 <p>WE are not to do evil that good may come of it, else I might plead in favour of the following little poem, that, whatever its faults may be, it was undertaken and pursued with a laudable design. The ridiculousness, not to say barbarity, of turning SHAKESPEAR's plays into operas, and larding them with songs from quite different authors, as hath been lately practised upon our most justly approved theatre, is, I apprehend, of so glaring a nature, that every one, who is endued with the smallest spark of taste, must immediately be struck with it. It is indeed the same thing, as if any person should take it into
@@ -47,14 +47,14 @@ that their ears are nice, for there is neither writing nor judging on this subje
 teach another to perform, unless Nature in the first place has done her part, by enduing the poet with nicety of hearing, that the discord of sounds in words shall as much offend him as a seventh in music would a good composer. I have therefore no need to make excuses for meanness of thought in many places. The Italians, with all the advantages of their language, are continually forced on it, or rather they affect it. The chief secret is in the choice of words; and by this choice I do not mean elegancy of expression, but propriety of sound, to be varied according to the nature of the subject.—The same reasons which depress thought in an opera, have a stronger effect upon the words, especially in our language; for there is no maintaining the purity of English in short measures, where the rhime returns so quick, and is so often female or double rhime;
 <pb n="xiii" facs="11"/>
 which is not natural to our tongue, because it consists too much of monosyllables, and those too most commonly clogged with consonants; for which reason I am often forced to coin new words, revive some that are antiquated, and botch others.</p>
-</div1>
-<div1 type="argument">
+</div>
+<div type="argument">
 <pb facs="12"/>
 <head>ARGUMENT.</head>
 <p>LEUCOTHÖE, daughter of ORCHAMUS King of Persia, is beloved, and secretly enjoyed by the SUN; when CLYTIE, a former mistress of his, becomes acquainted with their amour, and, in the rage of jealousy, makes a full discovery of it to the Lady's father. ORCHAMUS, as a punishment for his daughter's crime, orders her to be buried alive; which is accordingly executed in her lover's absence; who, coming too late to give her any assistance, first changes her body into a tree of frankincense, and then CLYTIE, the cause of her misfortune, into a statue.</p>
 <p>This is the chief subject-matter of the following rhimes. In OVID we are told that CLYTIE was metamorphosed into a sun-flower: but the Author hopes he need not make any apology for deviating from his original in that particular, any more than for some other trifling circumstances which he has taken the liberty to vary, and others which he has entirely omitted as foreign to his purpose.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="13"/>
 <head>PERSONS.</head>
 <list>
@@ -65,15 +65,15 @@ which is not natural to our tongue, because it consists too much of monosyllable
 <item>A BLACK SLAVE <hi>attending</hi> Clytie.</item>
 <item><hi>Chorus's, Priests, Youths, Virgins, and other Attendants.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>PERSIA.</hi></p></set>
 </front>
 <body>
 <head><pb facs="14"/>
 LEUCOTHOE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The theatre represents a plain, bordered with wood; several mountains, which rise one above another, till the highest seem lost in the clouds, making the point of view at the farther end.</stage>
 <stage>CLYTIE <hi>is discovered in a melancholy posture.</hi></stage>
@@ -117,8 +117,8 @@ LEUCOTHOE.</head>
 </lg>
 <stage>She retires among the trees.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="11" facs="16"/>
 <head>SCENE II.</head>
 <stage>PHOEBUS <hi>descends the mountain, a symphony playing. The machine sinks.</hi></stage>
@@ -145,8 +145,8 @@ LEUCOTHOE.</head>
 <l>And, ere we dread the danger, we're undone.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="12" facs="17"/>
 <head>SCENE III.</head>
 <stage>PHOEBUS, CLYTIE.</stage>
@@ -328,8 +328,8 @@ LEUCOTHOE.</head>
 <l>The curse and scourge of human kind.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <sp>
 <speaker>PHOEBUS.</speaker>
@@ -342,8 +342,8 @@ LEUCOTHOE.</head>
 <l>She comes, like teeming Spring along the plain,</l>
 <l>Youth, Plenty, Health, and Pleasure, in her train.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>PHOEBUS, LEUCOTHOE.</stage>
 <sp>
@@ -499,13 +499,13 @@ LEUCOTHOE.</head>
 <l>Oh! the extasy, the pleasure;</l>
 <l>'Tis too much, too much to bear.</l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="23" facs="28"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A night-prospect of a garden; a pavilion in view, beyond which appears the back part of a palace; a terrace adorned with statues,</hi> &amp;c. &amp;c.</stage>
 <stage>PHOEBUS <hi>and</hi> LEUCOTHOE <hi>enter from the pavilion.</hi></stage>
@@ -604,8 +604,8 @@ LEUCOTHOE.</head>
 <speaker>PHOEBUS.</speaker>
 <l>My love, adieu!</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="26" facs="31"/>
 <head>SCENE II.</head>
 <stage><hi>During this scene</hi> Clytie <hi>attempts coming forward several times, but is with-held by her slave.</hi></stage>
@@ -632,8 +632,8 @@ LEUCOTHOE.</head>
 <l>And bring my lover in a dream.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="27" facs="32"/>
 <head>SCENE III.</head>
 <stage>CLYTIE <hi>comes forward with the</hi> BLACK SLAVE. <hi>A short silence.</hi></stage>
@@ -838,8 +838,8 @@ LEUCOTHOE.</head>
 <l>No matter—Injur'd Love, perform thy part,</l>
 <l>The consequence be what it may.—Retire.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <sp>
 <speaker>CLYTIE.</speaker>
@@ -854,8 +854,8 @@ LEUCOTHOE.</head>
 <l>Look down, while I revenge my smart,</l>
 <l>And thro' her bosom strike at your's.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>ORCHAMUS, CLYTIE.</stage>
 <sp>
@@ -1077,8 +1077,8 @@ LEUCOTHOE.</head>
 <l>What honour demands, 'tis our duty to give;</l>
 <l>Who merits to die, shall we suffer to live?</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>CLYTIE.</speaker>
@@ -1095,13 +1095,13 @@ LEUCOTHOE.</head>
 <l>Of ungrateful disdain,</l>
 <l>If I suffer in love, I triumph in hate.</l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="41" facs="46"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The theatre represents a rocky shore, with a distant prospect of the sea; beyond which is seen still more faintly a city.</stage>
 <stage><hi>Several</hi> MEN <hi>and</hi> WOMEN <hi>in affliction.</hi></stage>
@@ -1151,8 +1151,8 @@ LEUCOTHOE.</head>
 <l>At once the lover and the God assume,</l>
 <l>And snatch her trembling from th' untimely tomb.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="43" facs="48"/>
 <head>SCENE II.</head>
 <stage><hi>A procession appears at a considerable distance, consisting of priests, youths, virgins,</hi> &amp;c. &amp;c. Leucothöe <hi>in the centre, covered with a black veil; as it approaches the audience, the following semi-chorus is sung with frequent pauses.</hi></stage>
@@ -1302,8 +1302,8 @@ LEUCOTHOE.</head>
 <l>Rage and Death triumph to-day.</l>
 </sp>
 <stage>[The procession disperses, and the music strikes dead and solemn.]</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>ORCHAMUS, LEUCOTHOE, &amp;c. &amp;c.</stage>
 <sp>
@@ -1478,8 +1478,8 @@ LEUCOTHOE.</head>
 <l>Not one to cure my grief.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="53" facs="58"/>
 <head>SCENE IV.</head>
 <stage><hi>Enter</hi> CLYTIE <hi>in wild disorder, followed by her Slaves.</hi></stage>
@@ -1510,8 +1510,8 @@ LEUCOTHOE.</head>
 <l>For my part, I shall stay to meet the bolt.</l>
 <stage>[Orchamus <hi>and his people withdraw.</hi></stage>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>PHOEBUS <hi>with the</hi> HORAE, CLYTIE <hi>with her Slaves.</hi></stage>
 <sp>
@@ -1644,8 +1644,8 @@ LEUCOTHOE.</head>
 <l>Augment the water with my tears,</l>
 <l>And with my sighs increase the wind.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="58" facs="63"/>
 <head>SCENE VI.</head>
 <stage>PHOEBUS, CLYTIE, &amp;c. &amp;c.</stage>
@@ -1807,10 +1807,9 @@ LEUCOTHOE.</head>
 <l>Secure she rests, nor farther heeds</l>
 <l>The weak effects of earthly deeds.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>
-
 </TEI>

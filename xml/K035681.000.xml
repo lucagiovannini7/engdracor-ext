@@ -7,18 +7,18 @@
 <extent>28p. ; 8⁰.</extent><publicationStmt><publisher>printed for C. Dilly,</publisher><date>1787.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By James Cobb.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT32706.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>ENGLISH READINGS; A COMIC PIECE, IN ONE ACT.</p>
 <p>INSCRIBED TO GEORGE COLMAN, ESQ.</p>
 <p>LONDON: PRINTED FOR C. DILLY, IN THE POULTRY. M.DCC.LXXXVII.</p>
-</div1>
-<div1 type="prefatorynote">
+</div>
+<div type="prefatorynote">
 <pb facs="2"/>
 <p>AMONG the Performers to whom the Author of the following Dramatic Sketch esteems himself obliged for their endeavours to promote its success, MR. BANNISTER, Junior, MR. WEWITZER, MR. MOSS, and MRS. WEBB, are entitled to his particular thanks.</p>
 <p>Mr. COLMAN'S conduct respecting this little Piece is its own panegyric. The first scenes were sent to that gentleman anonymously: he deemed them not destitute of merit, and therefore encouraged the Author to compleat the rest. Mr. COLMAN has since devoted the utmost care and attention to prepare the Piece for representation; and, in short, has interested himself warmly in its success, though the Author remains unknown to him.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -43,15 +43,15 @@
 <label>KITTY</label>
 <item>Miss BRANGIN.</item>
 </list>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <p><hi>N.B.</hi> The passages marked with double inverted commas, thus " ", are omitted in the representation.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>
 ENGLISH READINGS; A COMIC PIECE.</head>
-<div1 type="scene">
+<div type="scene">
 <head>SCENE. <stage>A Room in BOOTEKIN'S House.</stage></head>
 <stage>KITTY and Capt. WILMOT.</stage>
 <sp>
@@ -600,8 +600,8 @@ from those who do understand me, and those who don't understand me!—</p>
 <p>Come along, uncle!—To the attack!—upon them!—charge!—the word St. George for England—huzza!</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a Room at the George Inn—Servants are setting up the Benches, and lighting the Candles.</stage></head>
 <stage>MRS. POPLIN, WILMOT, and SPATULA.</stage>
 <sp>
@@ -1002,7 +1002,7 @@ Enter SPATULA and STATELY.</stage>
 <speaker>Bob.</speaker>
 <p>Faith I'll take your advice, and strive to lose my disappointment in the sweet intoxicating draught of public approbation.—Those who, like me, have been honour'd with its genial influence, can alone judge of the feelings excited by the <hi>applause</hi> of an <hi>audience.</hi></p>
 </sp>
-</div1>
+</div>
 <trailer>THE END.</trailer>
 </body>
 </text>

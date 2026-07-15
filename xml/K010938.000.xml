@@ -7,12 +7,12 @@
 <extent>7,[1],72,[4]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Griffin,</publisher><date>1772.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Arthur Murphy.</note><note>With a half-title and a final advertisement leaf.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN17948.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE Grecian Daughter.</p>
 <p>[Price 1s. 6d.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE Grecian Daughter: A TRAGEDY: As it is acted at the THEATRE-ROYAL IN DRURY-LANE.</p>
 <quote>
@@ -28,8 +28,8 @@
 <bibl>SOPHOC. ELECT.</bibl>
 <p>LONDON: Printed for W. GRIFFIN, at GARRICK'S HEAD, in Catharine-Street, Strand.</p>
 <p>MDCCLXXII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. WESTON.</stage>
@@ -99,8 +99,8 @@
 <l>Yes;—I'll lie snug, till you have fix'd it's fate.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <head>EPILOGUE.</head>
 <byline>Written by a FRIEND,</byline>
 <stage>And Spoken by MISS YOUNGE.</stage>
@@ -165,8 +165,8 @@
 <l>Till Virtue triumph in despite of Fashion.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -183,16 +183,15 @@
 <item><label>EUPHRASIA,</label> Mrs. BARRY.</item>
 <item><label>ERIXENE</label> Miss PLATT.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene, SYRACUSE.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE GRECIAN DAUGHTER:</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> MELANTHON, <hi>and</hi> PHILOTAS.</stage>
 <sp>
 <speaker>Melan.</speaker>
@@ -772,12 +771,12 @@
 <l>This arm shall vindicate a father's cause.</l>
 </sp>
 <stage>END OF THE FIRST ACT.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="13" facs="19"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>A wild romantic Scene amidst overhanging Rocks; a Cavern on one Side.</stage></head>
 <sp>
 <stage>ARCAS, <hi>with a Spear in his Hand.</hi></stage>
@@ -1088,8 +1087,8 @@
 <l>When thus she gave the social gen'rous tear.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage>the Inside of the Cavern.</stage></head>
 <stage><hi>Enter</hi> ARCAS <hi>and</hi> EUPHRASIA.</stage>
 <sp>
@@ -1599,12 +1598,12 @@
 <l>The father finds a parent in his child.</l>
 </sp>
 <stage>END OF THE SECOND ACT.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="29" facs="35"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>a Rampart near the Harbour.</stage></head>
 <stage><hi>Enter</hi> MELANTHON <hi>and</hi> PHILOTAS.</stage>
 <sp>
@@ -2031,8 +2030,8 @@
 <l>With blow repeated in the tyrant's veins.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage>a Temple, with a Monument in the Middle.</stage></head>
 <stage><hi>Enter</hi> EUPHRASIA, ERIXENE, <hi>and other Female Attendants.</hi></stage>
 <sp>
@@ -2363,12 +2362,12 @@
 <l>And be your own just image here on earth.</l>
 </sp>
 <stage>END OF THE THIRD ACT.</stage>
-</div3>
-</div2>
+</div>
+</div>
 <pb n="45" facs="51"/>
-<div2 n="4" type="act">
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> MELANTHON <hi>and</hi> PHILANTAS.</stage>
 <sp>
 <speaker>Melan.</speaker>
@@ -2811,8 +2810,8 @@
 <l>And tremble there with anxious hope and fear.</l>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage>the Inside of the Temple.</stage></head>
 <stage><hi>Enter</hi> PHOCION <hi>and</hi> MELANTHON.</stage>
 <sp>
@@ -3147,12 +3146,12 @@
 <l>For all-the wond'rous goodness lavish'd on us.</l>
 </sp>
 <stage>END OF THE FOURTH ACT.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="60" facs="66"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> DIONYSIUS <hi>and</hi> CALIPPUS.</stage>
 <sp>
 <speaker>Dien.</speaker>
@@ -3383,8 +3382,8 @@
 <l>Ye pitying Gods, protect my father then!</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage>the Citadel</stage></head>
 <stage><hi>CALIPPUS</hi> and several Officers.</stage>
 <sp>
@@ -3499,8 +3498,8 @@
 <l>Still the wild uproar, and bid slaughter cease.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="67" facs="73"/>
 <head>Scene <stage>another Part of the City.</stage></head>
 <sp>
@@ -3526,8 +3525,8 @@
 <l>Our only safety lies in brave despair.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage>the Inside of the Temple.</stage></head>
 <stage>A Monument in the Middle.</stage>
 <stage>EUPHRASIA, ERIXENE, <hi>and Female Attendants.</hi></stage>
@@ -3817,13 +3816,12 @@
 <l>That men may hear her unexampled virtue,</l>
 <l>And learn to emulate THE GRECIAN DAUGHTER!</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="postscript">
+<div type="postscript">
 <pb facs="79"/>
 <head>POSTSCRIPT.</head>
 <p>THE Tragedy, here offered to the Public, is founded on a passage in VALERIUS MAXIMUS<note place="foot">Vide Valer. Max. lib. 5, c. 4, <hi>de Pictate in Parentes.</hi> 7.</note>. We are told by that Author, That a woman of ingenuous birth was convicted before the PRAETOR of a capital crime, and delivered over to the TRIUMVIR to be put to death in prison. The jailer received her into his custody, but, touched with compassion, did not proceed immediately to execute the sentence. His humanity went so far as to admit the daughter of the unhappy criminal into the goal; but not without a previous search, left any nourishment should be secretly conveyed. To starve the prisoner to death was his design. Several days passed, when it became a matter of wonder how the poor woman subsisted so long. The jailer's curiosity was excited: he watched the daughter narrowly, and saw her give her breast to the famished mother, and with her milk supply the cravings of nature. Touched by the novelty of so affecting a sight, he made his report to the TRIUMVIR, from whom it reached the PRAETOR, and, the whole matter being referred to the JUDICIAL MAGISTRATES, the mother received a free pardon. What will not filial piety undertake?—What place will it not penetrate?—What will it not devise, when in a dungeon it finds unheard of means to preserve a parent's life?—Is there in the course of human affairs, a scene so big with wonder, as a mother nourished at the daughter's breast?—The incident might, at the first view, be thought repugnant to the order of nature, if TO LOVE OUR PARENTS were not the FIRST LAW stamped by the hand of Nature on the human heart. Thus far VALERIUS MAXIMUS. He goes on in the same place, and tells a Greek tale, in which the heroine performs the fame act of piety to a father in the decline of life. For the purposes of the drama, the latter story has been preferred. The painters long since seized the subject,
@@ -3834,8 +3832,8 @@ and by them it has been called ROMAN CHARITY. The Author has taken the liberty t
 <p>The Author does not wish to conceal that the subject of his Tragedy has been touched in some foreign pieces: but he thinks it has been <hi>only</hi> touched. The ZELMIRE of Mons. BELLOY begins after the daughter has delivered her father out of prison. The play indeed has many beauties; and if the sentiments and business of that piece coincided with the design of THE GRECIAN DAUGHTER, the Author would not have blushed to tread in his steps. But a new fable was absolutely necessary: and, perhaps, in the present humour of the times, it is not unlucky that no more than three lines could be adopted from Mons. BELLOY. Every writer, who makes up a story with characters and incidents already hackneyed on the English stage, and invents nothing, cries out with an air of triumph, That he has not borrowed from the wits of FRANCE. In the Isle of Man, it is said, there is an epitaph in these words: <hi>"He who lies here interred, was never out of this island."</hi> The poor man was to be pitied: a similar inscription upon the tomb-stone of a modern poet would, perhaps, do as little honour to the memory of the deceased.</p>
 <p>The Author cannot dismiss his Play, without declaring, that, though in love with the subject, he has not satisfied even his own ideas of the drama: he laments that he had neither time nor ability to make it better. To heighten it with additional beauties was reserved for the decorations with which the zeal of Mr. GARRICK has embellished the representation; for the admirable performance of Mr. BARRY, and, above all, for the enchanting powers and the genius of Mrs. BARRY.</p>
 <closer><dateline>Lincoln's Inn, <date>Feb. 29, 1772.</date></dateline></closer>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="81"/>
 <p>This Day is Published, Price 1s. 6d.</p>
 <p>A <hi>New Edition,</hi> being the THIRD, of ZENOBIA;</p>
@@ -4050,13 +4048,13 @@ and by them it has been called ROMAN CHARITY. The Author has taken the liberty t
 <cell>0</cell>
 </row>
 </table></p>
-</div1>
-<div1 type="publisher'snote">
+</div>
+<div type="publisher'snote">
 <head>ADVERTISEMENT.</head>
 <p>Whereas several Booksellers and Printers, residing in EDINBURGH and the North Parts of ENGLAND, have presumed, in Violation of the Laws for the Preservation of Literary Property, to pirate large Editions of new Plays and other Publications, to the great Loss and Detriment of the Fair Trader; W. GRIFFIN, the sole Proprietor of the above List of Plays, Operas and Farces, hereby offers a Reward of TEN GUINEAS to any Person or Persons, that will give Information of any such pirated Editions of the above Plays, &amp;c. to be paid by him, immediately upon Conviction of the Offender or Offenders. And any Person giving Information of Printed Editions of the above Plays, &amp;c. being imported from IRELAND, shall be entitled to the same Reward, to be paid by</p>
 <closer><signed>WILLIAM GRIFFIN.</signed>
 <dateline>London, <date>March 6, 1772.</date></dateline></closer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

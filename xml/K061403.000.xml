@@ -7,14 +7,14 @@
 <extent>[4],75,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Debrett,</publisher><date>[1793]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT72417.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE WORLD IN A VILLAGE; <hi>A COMEDY,</hi> IN FIVE ACTS, AS PERFORMED WITH UNIVERSAL APPLAUSE AT THE THEATRE ROYAL, COVENT-GARDEN.</p>
 <p>WRITTEN BY JOHN O'KEEFE, ESQ.</p>
 <p>AUTHOR OF Tony Lumpkin in Town; The Son-in-Law; The Dead Alive; Agreeable Surprize; Castle of Andalusia; Fontainbleau, or Our Way in France; The Positive Man; The Poor Soldier; Love in a Camp, or Patrick in Prussia; The Farmer; The Young Quaker; Beggar on Horseback; Peeping Tom; The Prisoner at Large; The Toy, or Hampton-Court Frolicks; Wild Oats, or the Strolling Gentlemen; Little Hunchback; The Siege of Curzola; Modern Antiques, or the Merry Mourners; The Highland Reel; Birthday, or Prince of Arragon; Sprigs of Laurel; The London Hermit, or Rambles in Dorsetshire; &amp;c. &amp;c.</p>
 <p>LONDON: Printed for J. DEBRETT, opposite Burlington House, Piccadilly.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline><hi>Written by</hi> MR. TAYLOR. <hi>Spoken by</hi> MR. HOLMAN.</byline>
@@ -58,8 +58,8 @@
 <l>Her SWORD by MERCY check'd, as urg'd by MIGHT,</l>
 <l>Her CROWN the SANCTION of a PEOPLE'S RIGHT.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -82,16 +82,15 @@
 <item><label>Maria</label> Mrs. MOUNTAIN.</item>
 <item><label>Margery</label> Mrs. PLATT.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>a Village about fifteen Miles from</hi> London.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE WORLD IN A VILLAGE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>A neat Parlour.</hi> Margery <hi>discovered adjusting it and singing.</hi></stage></head>
 <stage><hi>Enter</hi> Jollyboy.</stage>
 <sp>
@@ -503,8 +502,8 @@
 <pb n="9" facs="12"/>and protection, the world shou'd be guardians to a lone and helpless woman.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A Chamber in</hi> Allbut's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Willows <hi>and</hi> Maria.</stage>
 <sp>
@@ -817,13 +816,13 @@
 <speaker>All.</speaker>
 <p>Now for a neat rhyme! <stage>(aside, and holding her.)</stage> Gone into the parlour, impudence—just like a—a— <stage>(Seems puzzled for a rhyme, and not hitting on it, holds down his head, puts his hands in his coat-pockets and runs into the house—Mrs. Allbut follows in a rage</stage>.</p>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT I.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="17"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>Allbut's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Maria <hi>and</hi> Mrs. Bellevue, <hi>with a Book.</hi></stage>
 <sp>
@@ -920,8 +919,8 @@
 <speaker>Maria.</speaker>
 <p>My dear Ma'am, be cheerful. <stage>(Takes her by the hand and exeunt.)</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A Green. Enter</hi> Charles <hi>in a Sailor's Dress.</hi></stage></head>
 <sp>
 <speaker>Charles.</speaker>
@@ -1340,8 +1339,8 @@
 <p>Then, master of a princely fortune, I'll sally through the village in my old trowsers—Is that a good shipwreck'd, rueful phiz? <stage>(looks dejected.)</stage> Come, Captain.</p>
 </sp>
 <stage>Exit singing, Captain follows.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Before an elegant Villa.</hi></stage></head>
 <stage><hi>Enter</hi> Grigsby.</stage>
 <sp>
@@ -1562,12 +1561,12 @@
 <p>True, my love <stage>(struggling with her tears.)</stage></p>
 </sp>
 <stage><hi>Exeunt</hi> Mrs. Bellevue, Edward, <hi>and</hi> Maria.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="27" facs="30"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Before</hi> Allbut's <hi>house (enter</hi> Maria, <hi>goes to a side door and pushes.)</hi></stage></head>
 <sp>
 <speaker>Maria.</speaker>
@@ -2051,8 +2050,8 @@
 <p><stage>(looking out.)</stage> You're right, Sir, there's the windmill, <stage>(points.)</stage></p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The outside of a windmill.</hi></stage></head>
 <stage><hi>Enter</hi> Charles <hi>and</hi> Margery, <hi>from the mill.</hi></stage>
 <sp>
@@ -2527,13 +2526,13 @@
 <p>Did my dear and I know, Charley'd bring home the rhino,</p>
 <p>We'd have squeak'd, Oh, be joyful, and scrap'd violino.</p>
 </sp>
-</div3>
+</div>
 <trailer>END OF ACT III.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="42" facs="45"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Before</hi> Allbut's <hi>House. Music and Shouting without.</hi></stage></head>
 <stage><hi>Enter</hi> Jollyboy.</stage>
 <sp>
@@ -3193,8 +3192,8 @@
 <p>What can he mean? <stage>(looking out.)</stage> Heavens! sure that's William—he return'd too!—Then 'twas my dear William that Charles meant—perhaps they met abroad— why at first conceal it? Could my love be unkind to him? oh, no, my William, the delight I receiv'd from even a thought that I might see you again, and now is it thus my wish is accomplish'd; my father loves us, he'll remonstrate with Charles; better his gold had stay'd in the mine than make him violate the dearest ties of duty, love, and friendship.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A Cottage, a Table with Books, Work, and Newspapers.</hi></stage></head>
 <stage><hi>Enter</hi> Mrs. Bellevue.</stage>
 <sp>
@@ -3404,8 +3403,8 @@
 <p>Her brother giving her to me—very handsome— but I must dress terrible smartish—with the <hi>ecclat</hi> of her fortune, I shall indeed be a physician—Doctor! Beautiful!— I <hi>will</hi> buy a deplomar—job-coach—pretend to be reading— own footman thump muffled knocker—door open'd by lady of the house—step slowly up stairs—shoes creak—chair plac'd—patient's bedside—all silent, reading my looks—pinch of snuff—stop-watch—squeeze pulse—touch guinea—beautiful! thrice beautiful! ha! hum!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>A Road. Enter</hi> William, <hi>agitated.</hi></stage></head>
 <sp>
 <speaker>Will.</speaker>
@@ -3471,13 +3470,13 @@
 <p>You are my Brother.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF ACT IV.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="57" facs="60"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>An elegant Drawing Room in</hi> Allbut's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Allbut, Peter, <hi>and</hi> Maid.</stage>
 <sp>
@@ -3925,8 +3924,8 @@
 <p>William taken pistols—ah, true—gone after Doctor Grigsby—then I know where to find my purse—Peter—my justice wig—musn't lose my money! I'm a magistrate, and authority begins at home.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Before</hi> Grigsby's <hi>House. Candles at a Window.</hi></stage></head>
 <stage><hi>Enter</hi> Grigsby and <hi>Shopman.</hi></stage>
 <sp>
@@ -4302,8 +4301,8 @@
 <p>At church I'll sit in my pew.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>The Village. Enter</hi> Charles, <hi>dress'd.</hi></stage></head>
 <sp>
 <speaker>Cha.</speaker>
@@ -4651,13 +4650,12 @@
 <speaker>Joll.</speaker>
 <p>Thank you, Madam. But as the wind sometimes diverts itself by playing in the sails of my mill, and people will obstinately persist in this odd whim of eating bread, I think I may do pretty well as I am. Ay, we may see the world in our village! But a fig for the world—Let industry secure independence; and if wealth or poverty will come, let the rich man be proud only of his power to be the poor man's friend.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="77"/>
 <head>EPILOGUE.</head>
 <byline>Written and spoken by Mrs. ESTEN.</byline>
@@ -4712,8 +4710,7 @@
 <l>Who, 'midst danger and death, will courageously sing,</l>
 <l>May our arms be victorious, and long live the King!</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

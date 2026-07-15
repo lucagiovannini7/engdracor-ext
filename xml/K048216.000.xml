@@ -7,15 +7,15 @@
 <editionStmt><edition>The second edition.</edition></editionStmt><extent>[8],86,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1792.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a final leaf containing "Instructions for the sopha" and advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53650.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>A DAY IN TURKEY; OR, THE RUSSIAN SLAVES.</p>
 <p>A COMEDY, AS ACTED AT THE THEATRE ROYAL, IN COVENT GARDEN.</p>
 <p>BY MRS. COWLEY.</p>
 <p>THE SECOND EDITION.</p>
 <p>LONDON: PRINTED FOR G. G. J. AND J. ROBINSON, IN PATER-NOSTER-ROW. MDCCXCII.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="2" ana="y"/>
 <head>ADVERTISEMENT.</head>
 <p>HINTS have been thrown out, and the idea industriously circulated, that the following comedy is tainted with POLITICS. I protest I know nothing about politics;—will Miss Wolstonecraft forgive me—whose book contains such a body of mind as I hardly ever met with—if I say that politics are <hi>unfeminine?</hi> I never in my life could attend to their discussion.</p>
@@ -26,8 +26,8 @@ the public at this day, and not make him hint at the events which had just passe
 <p><pb facs="4"/>SOME of the performers in this comedy have play'd so transcendently well, that their names deserve to be recorded; but to particularise any, when <hi>all</hi> have aim'd at perfection, would be invidious.</p>
 <closer><signed>H. COWLEY.</signed>
 <date>Feb. 17, 1792.</date></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <stage>SPOKEN BY MR. HARLEY.</stage>
@@ -60,8 +60,8 @@ the public at this day, and not make him hint at the events which had just passe
 <l>She dedicates to NATURE, and to YOU!</l>
 </lg>
 <note place="foot">Note.—The lines distinguished by italics are from the pen of DELLA CRUSCA.</note>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>PERSONS OF THE DRAMA.</head>
 <list>
@@ -105,13 +105,13 @@ the public at this day, and not make him hint at the events which had just passe
 <label>FEMALE SLAVES,</label>
 <item>MRS. <hi>FAWCET,</hi> MRS. <hi>ROCK,</hi> and others.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7"/>A DAY IN TURKEY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>A Forest.</hi></stage></head>
 <stage>IN THE BACK GROUND A TURKISH CAMP.</stage>
 <stage>Several Turks are seen at a Distance passing and repassing with Haste; some of them look out from amidst the Trees, and then retire.</stage>
@@ -291,8 +291,8 @@ Peace!</p>
 <p>Then I hope we shall catch him in a <hi>good</hi> humour, and what care I whether a Turk or a Ruffian has the honor to be my master? Now you see the misfortune of being born a Count! Had he lost no more than I have, he'd be as careless as I am—Come, brother slave—no ceremony, no ceremony, I beg.</p>
 </sp>
 <stage><hi>Exeunt</hi>—A LA GREQUE <hi>pulls back his master, and walks out before him.</hi></stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>ROCKS.</stage></head>
 <stage>[<hi>Enter</hi> PETER—<hi>runs across the Stage, is follow'd by</hi> PAULINA <hi>shrieking—they go off—Two Turks pursue them, and bring them back.</hi>]</stage>
 <sp>
@@ -356,8 +356,8 @@ Come, Honesty, cheer up! at the next village there is a waggon, into which you a
 <p>Our own! that's droll enough; so we are made slaves in order to ride in our own carriage.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE. <stage><hi>The Gardens of the Bassa, decorated with Palms, Fountains, &amp;c. in the Eastern style.</hi></stage></head>
 <stage><hi>Enter</hi> MUSTAPHA.</stage>
 <sp>
@@ -714,12 +714,12 @@ and don't be afraid of losing any thing by it, for you must look carefully to pi
 </lg>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>An Apartment in the</hi> BASSA<hi>'s Palace.</hi></stage></head>
 <stage>IBRAHIM <hi>discovered, seated under a Canopy, Officers and Slaves attending.</hi></stage>
 <stage><hi>Enter</hi> MULEY.</stage>
@@ -908,8 +908,8 @@ and to see for once, reserve sacrificed at the altar of tenderness; <hi>these,</
 Yes, I think, I think that may do—Muley, and the other four, with our little Mustapha—Yes, yes; with these half dozen, I'll weave a webb of amusement to crack the sides of a dozen gloomy harems with laughter—Mercy! what a sleepy life wou'd our valiant Bassa and his damsels lead, but for my talents at invention.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>The Garden.</hi></stage></head>
 <stage><hi>Enter</hi> MUSTAPHA, AZIM, <hi>and</hi> FATIMA.</stage>
 <sp>
@@ -1199,8 +1199,8 @@ Come hither, Selim.</p>
 <l>They'd ne'er see me dying.</l>
 </lg>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="28" facs="34"/>
 <head>SCENE <stage><hi>A wide Court with several unfinished Buildings.</hi></stage></head>
 <stage>[<hi>Slaves discover'd at work at a distance. Two slaves drive barrows across the stage, and go off, followed by</hi> A LA GREQUE.]</stage>
@@ -1429,13 +1429,13 @@ Now, where are the distinctions of thy birth? Do they prevent thy feeling like t
 <p>Thou shalt chide long, if thou wilt at length soften the anguish of my soul—Oh, hear me, hear me!
 <stage>Follows him out.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="34" facs="40"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The Garden.</hi></stage></head>
 <stage><hi>Enter</hi> MUSTAPHA.</stage>
 <sp>
@@ -1968,13 +1968,13 @@ My heart is full; my veins confess a warmer flow, and the brightest visions glid
 </lg>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="48" facs="54"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Quadrangle—On one Side of the Square is a very high Garden Wall; behind which are heard frequent Bursts of Laughter</hi>—A LA GREQUE <hi>is seen moving from Place to Place, trying to peep through.</hi></stage></head>
 <sp>
 <speaker>A LA GREQUE.</speaker>
@@ -2098,8 +2098,8 @@ was known, I should never squint on this side paradise again.</p>
 <p>You are an honest fellow, and 'tis pity you are a Turk—but it can't be help'd, and 'tis to be hoped a man may travel to heaven at last, though he never leaves the country in which he was swaddled.— Come along!
 <stage>[hurries him off]</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The Garden.</hi></stage></head>
 <stage>Enter female Slaves, singing and beckoning to their companions, who enter from opposite wings all the way up. During the song others enter, dancing to the music.</stage>
 <sp>
@@ -2269,8 +2269,8 @@ him, or hum a tune—thus—
 —Did you speak to me, Sir?—And when the charming man—O Lord! I shall never do it, as though I were us'd to it— When he attempts to kiss me, I must complain of his insolence, and walk away in this manner.
 <stage>[Walks off scornfully.]</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>The Buildings.</hi></stage></head>
 <stage><hi>Enter</hi> AZIM, <hi>with other</hi> SLAVES.</stage>
 <sp>
@@ -2418,8 +2418,8 @@ to raise and feed my hopes with such artful cruelty, and then—but why do I tal
 <p>So! what he is <hi>disappointed</hi> then! Why if he would but have had patience, I was just going to tell him that his wife—but hang patience! 'tis a scurvy virtue, and not fit for a gentleman. <hi>I</hi> have no patience to know there are so many fine girls caged up here for that <hi>greedy</hi> DOG the Bassa. I'll try to pick a bone with him, though;—and if I can once lay hold of one of his pullets, he shall find it as difficult to get her out of my fangs, as it would be to make a judge dance, or a bishop cut capers.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>The Prison.</hi></stage></head>
 <stage>[<hi>Voices are heard without,</hi> ALEXINA <hi>shrieks.</hi>]</stage>
 <sp>
@@ -2490,13 +2490,13 @@ There, she's safe, and that makes
 us safe.—Now, let us go and fix the rope-ladder, and then swear she has escaped. Comrades! They talk of countries, where, what we have done, might be punished by the law—but <hi>we</hi> fear no punishment while we can deceive our master.
 <stage>Exeunt, laughing.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="61" facs="67"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>A spacious Apartment in the Harem.</stage></head>
 <stage><hi>Enter</hi> PAULINA, <hi>running from the Top.</hi></stage>
 <sp>
@@ -2913,8 +2913,8 @@ Hang me if I don't try to change a word or two with that agreeable Frenchman—I
 can't happen above once in one's life—So, Monsieur Azim, ha, ha, ha! What a fool he is now.
 <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>The Garden.</hi></stage></head>
 <stage><hi>Enter</hi> IBRAHIM <hi>from towards the Top, thoughtfully, follow'd at a small Distance by</hi> MULEY.—<hi>He sighs deeply.</hi></stage>
 <sp>
@@ -3148,8 +3148,8 @@ Thy death shall expiate thy double crime.</p>
 <p>Tyrant, I know that I shall die; but the bitterness of death is past—To live after having seen my wife embrace thee, and embrac'd—Oh madness! speed your death, I rush to meet it.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>The Prison.</hi></stage></head>
 <stage><hi>Enter</hi> ALEXINA <hi>through the Flat.</hi></stage>
 <sp>
@@ -3337,8 +3337,8 @@ Good night—I'll give ye a friendly call once a month or so, for the next ten y
 Farewel—pleasant fancies hang about your dreams!
 <stage>[<hi>Exit, followed by the slaves with torches</hi>; AZIM <hi>rattling his chains within.</hi>]</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>The Bassa's Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> IBRAHIM <hi>at top, leading</hi> PAULINA.</stage>
 <sp>
@@ -3437,12 +3437,12 @@ slave, whose villainy had nearly brought about such disastrous events—Shall he
 <p><stage>[Stepping forward.]</stage>
 And may <hi>our</hi> errors have frank forgiveness too! Bestow on us your favour, and make the DAY IN TURKEY one of the happiest of this happy season!</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="85" facs="91"/>
 <head>EPILOGUE.</head>
 <byline>WRITTEN BY MRS. COWLEY.</byline>
@@ -3488,16 +3488,16 @@ And may <hi>our</hi> errors have frank forgiveness too! Bestow on us your favour
 <l>Still may your blessings to her name be given,</l>
 <l>While soft she fades into her native heaven!</l>
 </lg>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <p>THOSE who <hi>read</hi> will know, that in the above Epilogue all the passages distinguished by italics are taken from an effusion inspired by <hi>another</hi> royal lady; — agitating the lightning pen of a man who in his head is all REASON, in his heart all SENSATION. A man whom <hi>politics</hi> seized, and seems to have dragged reluctantly from LOVE. Let the women of future times weave to his memory the fairest garlands, and twine amidst laurels and roses the name of BURKE.</p>
-</div1>
-<div1 type="staginginstruction">
+</div>
+<div type="staginginstruction">
 <pb facs="93"/>
 <head>INSTRUCTIONS FOR THE SOPHA.</head>
 <p>THE canopy is composed of two umbrellas of white sattin, or stuff; the upper one very small, each trimmed with gold fringe, festoons of flowers, and tassels. The covering for the stool, of the same materials, is made in the form of a hammer cloth; a white sattin mattress is laid on it, trimmed with gold fringe.</p>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="94"/>
 <head>LIST OF MRS. COWLEY'S WORKS: TO BE HAD OF MESSRS. ROBINSONS, IN PATERNOSTER-ROW.</head>
 <list>
@@ -3517,12 +3517,11 @@ And may <hi>our</hi> errors have frank forgiveness too! Bestow on us your favour
 <item>MAID OF ARRAGON.</item>
 <item>SCOTTISH VILLAGE.</item>
 </list>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <p>POETRY OF ANNA MATILDA; To which is subjoined, the DIARY OF SIR WILLIAM WALLER; STILED RECOLLECTIONS; GENERAL IN THE PARLIAMENT ARMY.</p>
 <closer><signed>BELL.</signed></closer>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

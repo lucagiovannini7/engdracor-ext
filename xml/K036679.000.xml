@@ -7,18 +7,18 @@
 <extent>[4],52p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Davies; and sold by W. Goldsmith,</publisher><date>[1772]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By William O'Brien.</note><note>An adaptation of J. de Lafont's 'Les trois frères rivaux'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34439.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>CROSS PURPOSES: A FARCE OF TWO ACTS, As it is performed at the THEATRE-ROYAL IN COVENT-GARDEN.</p>
 <p>LONDON: Printed for T. DAVIES, in <hi>Russel-Street, Covent-Garden;</hi> and sold by W. GOLDSMITH, in <hi>Pater-noster-Row.</hi></p>
 <p>Price One Shilling.</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="2" ana="y"/>
 <p>The Candid will, I am sure, overlook the faults of this trifle, when they are informed, that it was not originally meant for the stage. The idea was adopted for private amusement, and if it has conduced to that of the Public, the author's end is more than answered.</p>
 <closer><dateline><date>15th <hi>December,</hi> 1772.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -35,15 +35,14 @@
 <item><label>A HOUSEMAID</label> Mrs. KNIVETON.</item>
 <item>MAID SERVANTS.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="4"/>
 <head>CROSS PURPOSES.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>A Hall in <hi>George Bevil's</hi> House.</stage>
 <stage><hi>Enter</hi> ROBIN.</stage>
 <sp>
@@ -301,8 +300,8 @@ Fifty guineas, Mr. Chapeau, why, that will
 <p>A foolish awkward toad— <stage>[Bell rings.]</stage> I hear you, Sir—What a damned situation after all a servant's is, <stage>[taking snuff]</stage> never at ease, always attending other people's motions—I begin to be monstrous sick of it. As my master is pretty near ruined, I take it he will soon either hang or marry himself; I shall then beg leave to retire and enjoy the fruits of my industry, purchase some genteel sine cure, take a snug box in the country, and kill my own mutton.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>Scene</hi>—<stage><hi>a</hi> DRAWING-ROOM—<hi>a</hi> COUCH—FRENCH CHAIRS—BOOKS—<hi>and</hi> DRESS CLOATHS, <hi>as if taken off the night before.</hi></stage></head>
 <stage><hi>Enter</hi> George Bevil <hi>in his night-gown, and</hi> Chapeau.</stage>
 <sp>
@@ -406,8 +405,8 @@ Fifty guineas, Mr. Chapeau, why, that will
 <p>Chapeau, get my things ready to dress.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Scene changes to</hi> GRUB'S <hi>House.</hi></stage>
 <stage><hi>Enter</hi> GRUB <hi>alone.</hi></stage>
 <sp>
@@ -578,12 +577,12 @@ Fifty guineas, Mr. Chapeau, why, that will
 <stage>Exit.</stage>
 </sp>
 <trailer>END of the FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="26" facs="29"/>
 <head>ACT II</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> GRUB.</stage>
 <sp>
 <p>NOW for this wife of mine—I suppose I shall have a fine piece of work with her to make her approve of this match—nay, ten to one, but as I have found out the man, she for that reason only will set herself against the business—but here she comes. Hum!—I must break it to her by degrees—bring it coolly, and cunningly about—by degrees—</p>
@@ -1426,10 +1425,9 @@ Fifty guineas, Mr. Chapeau, why, that will
 <speaker>G. BEVIL.</speaker>
 <p>Dear Sir, don't nourish such strange prejudices. The great have their follies, tis true, but they have also their virtues, as well as the rest of mankind; and there are among them many shining objects of inmitation: we should consider, Sir, that the Greatest Couple in the nation is the best and happiest in it.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

@@ -7,25 +7,25 @@
 <extent>[8],97,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Johnston; J. Dodsley; and T. Davies,</publisher><date>1765.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A lady = Elizabeth Griffith.</note><note>The final leaf contains the epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT1545.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE PLATONIC WIFE, A COMEDY▪</p>
 <p>As it is Performed at the THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>By a LADY.</p>
 <p>LONDON, Printed for W. JOHNSTON in Ludgate-street; J. DODSLEY in Pall-Mall; and T. DAVIES in Russel-street. MDCCLXV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>TO HER GRACE THE DUCHESS OF BEDFORD THIS PIECE IS MOST HUMBLY INSCRIBED, BY HER GRACE'S MUCH OBLIGED, MOST GRATEFUL, AND OBEDIENT SERVANT,</p>
 <closer><signed>The Author.</signed></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>THE hint of this Piece was taken from one of the <hi>Contes Moraux</hi> of <hi>Marmontel,</hi> stiled <hi>L'Hereux Divorce.</hi> The foible ridiculed in the tale is, perhaps, the only one imputed to our sex which has never yet been exposed by a theatrical representation. It is a simplicity, not a coquetry; it is the error of a delicate and elevated mind, unacquainted with the manners of real life, or the general frame of the human heart.</p>
 <p>The novel was too barren of incident to furnish out an entertainment for the stage, which obliged me to contrive an intire under-plot, and introduce several new characters into the Comedy, which I shall not take up the reader's time to point out here; and submit this performance to the candor and clemency of the public, after having, perhaps, too adventurously hazarded their criticism and censure.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <p>Sent by an unknown Hand.</p>
@@ -142,8 +142,8 @@ Our auth'ress too, perhaps, to aid her cause,</l>
 <l>Or honourably acquit her.</l>
 <stage>[They bow, and exeunt severally.</stage>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -167,16 +167,15 @@ Our auth'ress too, perhaps, to aid her cause,</l>
 <item>LUCY, maid to Emilia, Mrs. HIPPISLY.</item>
 <item>BETTY, maid to Clarinda, Mrs. LEE.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene, LONDON.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE PLATONIC WIFE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Drawing-Room. Lady</hi> FANSHAW <hi>and</hi> CLARINDA <hi>discovered.</hi></stage>
 <sp>
@@ -248,8 +247,8 @@ moaned and cooed away the remainder of her life, in true conjugal insipidity.</p
 <p>But come, my dear Clarinda, and let us attend the levee of this eccentric comet, which, like other blazing stars, perhaps glitters but to fall.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A dressing-room.</hi> Lord FRANKLAND <hi>gazing on a female picture.</hi></stage>
 <sp>
@@ -325,8 +324,8 @@ moaned and cooed away the remainder of her life, in true conjugal insipidity.</p
 fifteen hundred; but the same man, heir to lord Frankland's rank and fortune, sounds well enough. Therefore the case stands thus: my bird is almost caught, and shall I loose the string, and let it fly, to lure his to the nest again, where it may sit and breed, while I am whistled down the wind to prey at fortune?</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>An anti-chamber in</hi> Lady Frankland<hi>'s house.</hi></stage>
 <stage><hi>Enter</hi> FONTANGE.</stage>
@@ -404,8 +403,8 @@ mouths, and then prate to us in outlandish gibberish, of ruelly's, villy's, and 
 <p>Oh, de béte, de monster!</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Discovers</hi> Lady FRANKLAND <hi>at her toilet, reading.</hi></stage>
 <sp>
@@ -605,13 +604,13 @@ really the desire of pleasing an husband, is in general so very languid, that a 
 <p>I shall attend your ladyship. <stage><hi>[Exeunt all but</hi> Mr. Frankland.]</stage> An assignation so publicly made, I think I never saw: it almost wears the face of innocence, from indiscretion. This is a rare place to seek a wife in! I think I had better play Sir Harry's game, and look out for an intrigue. Ay, surely, were it the woman only that I sought: but, in that case, the fortune is as transferable as the lass, and I would not give six-pence for the latter, without the former▪</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
+</div>
 <trailer>End of the FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="25"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Lady Frankland<hi>'s house.</hi> Mr. FRANKLAND <hi>and</hi> EMILIA.</stage>
 <sp>
@@ -797,8 +796,8 @@ again. But tell me, how do you like your manner of living, since your removal to
 woman may be of use: She certainly knows her lady's secrets; and it will be very extraordinary, if an Englishman's gold, and an Irishman's kisses, may not be able to open the lock of that curious repository. She may assist in my design on Emilia too, whom I am determined to have, were it only to gratify my pique.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A drawing-room in</hi> Lady Frankland<hi>'s house.</hi></stage>
 <stage>Lady FRANKLAND, Lady FANSHAW, CLARINDA, <hi>and</hi> Sir WILLIAM BELVILLE, <hi>seated at a card-table.</hi></stage>
@@ -1039,8 +1038,8 @@ I dare say you may be safely trusted with the keeping of them yourself. But, as 
 <p>With all my heart.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Mr. Frankland<hi>'s chambers in the Temple.</hi></stage>
 <stage>Mr. FRANKLAND <hi>musing. Enter</hi> PATRICK <hi>with a letter.</hi></stage>
@@ -1083,13 +1082,13 @@ would come from the young concealor; but madam Emilia she said she would not pry
 <speaker>Mr. FRANKLAND.</speaker>
 <p>Leave the room. <stage><hi>[Exit</hi> Patrick.]</stage> The insolence of this proud girl, distracts me. I fear I am on the brink of ruin: my fortune mortgaged for more than it is worth; my honour pawned at play; and, what is worse, my credit sunk with her, who was to have redeemed them all! should she acquaint lord Frankland with what I have said of his wife, his foolish fondness for her honour may make him cast me off, both from his heart and fortune. Beggary, contempt, and infamy, stare in my face. I must find out some means to avoid their frowns, or else escape from them by the help of a pistol: but as that is at any time in my power, I'll make one effort more, before I draw the trigger, and deserve death, at least, before I fly to it.</p>
 </sp>
-</div3>
+</div>
 <trailer>End of the SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="33" facs="40"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Lord FRANKLAND<hi>'s dressing-room.</hi></stage>
 <stage><hi>Enter</hi> Lord FRANKLAND <hi>reading.</hi></stage>
@@ -1136,8 +1135,8 @@ would come from the young concealor; but madam Emilia she said she would not pry
 <p>You will find me in the library.</p>
 <stage><hi>[Exeunt</hi> severally.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Lady FRANKLAND<hi>'s dressing-room.</hi></stage>
 <stage>Lady Frankland <hi>just risen from dressing.</hi> Fontange <hi>settling the toilet.</hi></stage>
@@ -1290,8 +1289,8 @@ or at the puppet-show cascade at Vauxhall? ha! ha! ha!</p>
 <p>Where will my wonder end! Is this the man of gallantry, the irresistable Sir Harry Wilmot! Surely that woman must first be a dupe to her own passions, who could comply with his. Not such the lovers I have read of, who sighed whole years in silence, nor to the world revealed their bitter anguish, their consuming pain; the whispering woods alone were conscious of their woe, till echo caught the sound, and bore it on her dying voice to the beloved fair.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>The</hi> PARK.</stage>
 <sp>
@@ -1644,13 +1643,13 @@ to himself that self-applause which is more precious than any other gratificatio
 <p>Be gone.</p>
 <stage>[Exeunt. Patrick running.]</stage>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the</hi> THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="52" facs="59"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A drawing-room in</hi> Lady FRANKLAND<hi>'s house.</hi></stage>
 <stage>Lady FRANKLAND and EMILIA.</stage>
@@ -1833,8 +1832,8 @@ go, and I can't decently stalk in alone, like one that nobody knows.</p>
 <p>Lord Mount Fashion, and all the pretty fellows in town there! sure that could not be the motive for her going.—Yet she absolutely refused, till they were mentioned; nor once desired me to accompany her. This is strange! Oh! she is too dear to my fond heart! I cannot bear that other men should gaze upon her charms; for if they do, they'll love. I'll follow at a distance and observe her, she will attract all eyes, and I may pass unnotic'd.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Lord Frankland<hi>'s dressing-room.</hi></stage>
 <stage>Lord FRANKLAND and EMILIA.</stage>
@@ -1905,8 +1904,8 @@ than amend her only foible. But pray, Emilia, who are lady Franlkand's chief int
 pleasure, and the snares of seduction! should she sink under them. I surely am to blame, who have exposed her youth and inexperience to a trial, perhaps too hard. But should she pass this more than ordeal fire, unsullied and unhurt, she will be something more than woman; and adoration, late her claim, will then become her due. I'll hope the best.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Mr. Frankland<hi>'s chambers.</hi></stage>
 <stage>PATRICK solus.</stage>
@@ -1961,8 +1960,8 @@ pleasure, and the snares of seduction! should she sink under them. I surely am t
 <p>Myself was never so bothered what to do, in the course of my whole life. To be sure I would be glad my master was married to madam Emilia, because I believe he loves her. But this stealing her away by night has an ugly look with it.—And to have that wicked mademoiselle get a good thousand pound for helping to ruin the innocent creature; augh, that would vex me to the heart. I'll go directly, and consult with my old friend and gossip, <hi>Jimmy Kavanagh,</hi> that is in a good place here in town, and may be he would tell me what I would do; for I don't much care to betray my poor master, neither.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>A drawing room.</stage>
 <stage>Sir HARRY WILMOT <hi>in a night-gown;</hi></stage>
@@ -2032,8 +2031,8 @@ pleasure, and the snares of seduction! should she sink under them. I surely am t
 <p>Adieu, ma bizarre!</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>The street before Lady Frankland's house.</stage>
 <stage><hi>Enter Sir</hi> WILLIAM.</stage>
@@ -2064,8 +2063,8 @@ pleasure, and the snares of seduction! should she sink under them. I surely am t
 <p>You'se welcome. I'se swear you'se a person of quality, for they never know their own minds. <stage>(Aside).</stage> Do walk in, Sir, pray.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>A dressing-room.</stage>
 <stage>EMILIA <hi>painting. Enter Sir</hi> WILLIAM.</stage>
@@ -2190,13 +2189,13 @@ have nothing to reproach themselves with, yet for want of an early habit, dread 
 <l>But when self-love begins to warp the mind,</l>
 <l>We dread a rival in each passing wind.</l>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the Fourth</hi> ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="73" facs="80"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Lady</hi> FRANKLAND<hi>'s dressing room.</hi></stage>
 <stage><hi>Lady</hi> FRANKLAND <hi>and</hi> EMILIA.</stage>
@@ -2311,8 +2310,8 @@ and cold, dead to all tenderness for me; but let his generous foftness quicken m
 <p>You may rely upon my promise, indeed, good Ambrose— <stage>[Exit]</stage> <hi>Ambrose.</hi> To hymen's sacred power, though late, an ardent votary I bend—Oh! may he prosper, and assist my purpose!</p>
 <stage>[Exit.]</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>An apartment in</hi> Lady FANSHAW<hi>'s house.</hi></stage>
 <stage>Lady FANSHAW <hi>and</hi> CLARINDA.</stage>
@@ -2378,8 +2377,8 @@ hopes, and I cannot bear to think that she should taste the heart-felt joy of he
 <p>She'll marry Charles Frankland, and be a wretch.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Sir William BELVILLE<hi>'s house.</hi></stage>
 <stage>Sir WILLIAM <hi>and his servant.</hi></stage>
@@ -2396,8 +2395,8 @@ hopes, and I cannot bear to think that she should taste the heart-felt joy of he
 <p>Then sure his master is an horrid villain! bid your friend attend me in my study—I must have all the particulars from himself. <stage>[Exit servant.]</stage> Can it be possible there lives a wretch so vile, to form a scheme for violating helpless innocence, and spoiling blooming beauty! my fair, my sensible Emilia, I will protect thee, at the hazard of my life; surely she holds a place within my breast, its feelings are too strong for friendship's power; her danger has awakened all my tenderness, endeared her to my soul, and made me know esteem to be the surest base for love.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="81" facs="88"/>
 <head>SCENE IV.</head>
 <stage><hi>The street before</hi> Lady FRANKLAND<hi>'s house.</hi></stage>
@@ -2470,8 +2469,8 @@ hopes, and I cannot bear to think that she should taste the heart-felt joy of he
 <p>Another time may serve, good Mr Sly-boots.</p>
 </sp>
 <stage>[Exeunt severally]</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE <hi>draws, and discovers</hi> FONTANGE <hi>leading in Mr.</hi> FRANKLAND.</stage>
 <sp>
 <speaker>FONTANGE.</speaker>
@@ -2519,8 +2518,8 @@ hopes, and I cannot bear to think that she should taste the heart-felt joy of he
 <p>Doubt not my discretion.</p>
 <stage>[He goes into the closet, and exit mademoiselle.]</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>An apartment in</hi> Lady FANSHAW<hi>'s house.</hi></stage>
 <stage>Lady FANSHAW <hi>and</hi> CLARINDA <hi>discovered at cards.</hi></stage>
@@ -2604,8 +2603,8 @@ muffled up in a disguise, let in just now, to Lady Frankland's house, by her mad
 <p>Well, come my dear, do give vent to your refentment—or it may hurt you mightily.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>Lord</hi> FRANKLAND<hi>'s dressing-room.</hi></stage>
 <stage><hi>Lady</hi> FRANKLAND<hi>'s picture deprived of all its ornaments, the hair dishevelled, tears streaming from the eyes, and the hands in a supplicating posture.</hi></stage>
@@ -2641,8 +2640,8 @@ muffled up in a disguise, let in just now, to Lady Frankland's house, by her mad
 <p>May heaven be praised for this most blest event! I shall see my dearest lord and lady happy once more, and then I've lived enough.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE <hi>changes to Lady</hi> FRANKLAND<hi>'s dressing room, she sitting leaning on her arm, the ornaments of her head taken off.</hi></stage>
 <sp>
 <pb n="89" facs="96"/>
@@ -2911,13 +2910,12 @@ You see, my dear, I had sufficient cause to warn you against this dangerous woma
 <l>In full security we sail with ease,</l>
 <l>And fear nor driving winds, nor raging seas.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="105"/>
 <head>EPILOGUE.</head>
 <p>The Writer unknown.</p>
@@ -2995,7 +2993,7 @@ But let that pass—When borne on fancy's wing,</l>
 <l>Make't legal to import a quantity,</l>
 <l>Of <hi>Irish</hi> wit—like butter<hi>—duty-free.</hi></l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

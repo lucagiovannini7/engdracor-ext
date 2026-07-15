@@ -7,12 +7,12 @@
 <extent>[8],75,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket,</publisher><date>1774.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The advertisement gives the author's name as Colonel Dow.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT47972.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>SETHONA. A TRAGEDY. AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>LONDON: Printed for T. BECKET, the Corner of the Adelphi, in the Strand. MDCCLXXIV. [Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Written by Mr. CUMBERLAND.</byline>
@@ -74,8 +74,8 @@ The critic wasp, mean while upon the wing,</l>
 <l>Oh, snatch your Poet from impending death,</l>
 <l>And on his shrine we'll hang his votive wreath.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="4" ana="y"/>
 <head>EPILOGUE.</head>
 <byline>Written by Mr. GARRICK.</byline>
@@ -131,13 +131,13 @@ Some <hi>Cits</hi> I see look dull, and some look gay,</l>
 <l>As distant far as India from this place,</l>
 <l>Requires a keener sight than mine to view;</l>
 <l>His <hi>FORTUNE</hi> can be only told by <hi>YOU.</hi></l>
-</div1>
-<div1 type="publisher'snote">
+</div>
+<div type="publisher'snote">
 <pb facs="6"/>
 <head>ADVERTISEMENT.</head>
 <p>COLONEL DOW, when he sailed for India, left the following Tragedy in the possession of Mr. GARRICK. The event has shewn, that the reputation of an absent author could not have been trusted in safer hands. He spared no expence as a manager, no pains as a man of taste. The Scenery is strictly characteristical, and highly picturesque. The Dresses are magnificent and expensive, the Parts cast with great judgement; and the whole conducted with that regularity and ease, which can only be attained by a thorough knowledge of the Drama, and the business of the Stage. Mrs. BARRY, possessed of every power to touch, to penetrate, to dissolve the heart, exerted them in a degree that astonished while it pleased the audience. Mr. BARRY was judicious, chaste, and pathetic in Seraphis. Mr. REDDISH, spirited, and full of fire, in Menes. In their respective parts, the two AICKINS deserved and received great applause. Ample justice was done by Mr. PACKER, and others, to the rest of the characters. The public, and the author, are indebted to Mr. CUMBERLAND, for an elegant and classical Prologue: And to Mr. GARRICK, for one of the best Epilogues that ever was pronounced from the stage.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -159,12 +159,12 @@ Some <hi>Cits</hi> I see look dull, and some look gay,</l>
 <item>Mrs. BARRY,</item>
 </list>
 <p>GUARDS, &amp;c. &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="8"/>
 SETHONA. A TRAGEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <head>SCENE, <stage><hi>the Temple of</hi> OSIRIS, <hi>at</hi> MEMPHIS.</stage></head>
 <stage>ORUS, <hi>the High Priest, sacrificing at the altar.</hi> SETHONA <hi>kneeling before the statue of</hi> OSIRIS.</stage>
@@ -745,8 +745,8 @@ Shall lead thee to Sethona. In thy cell</l>
 <l>And strike, like lightning, 'ere the sound is heard.</l>
 </sp>
 <trailer>END of the FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="21"/>
 <head>ACT II.</head>
 <head>SCENE, <stage>SETHONA<hi>'s Apartment.</hi></stage></head>
@@ -1540,8 +1540,8 @@ Nay, let him join the foe, dispute the field.</l>
 <l>And whelm'd beneath the ruin, leave my woes.</l>
 </sp>
 <trailer>END of the SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="31" facs="40"/>
 <head>ACT III.</head>
 <stage>SETHONA<hi>'s Apartment.</hi></stage>
@@ -2312,8 +2312,8 @@ The scourge of years, thro' this detested world,</l>
 <l>But where thou art not, terror whelms my soul.</l>
 </sp>
 <trailer>END of the THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="47" facs="56"/>
 <head>ACT IV.</head>
 <head>SCENE, <stage><hi>the</hi> CATACOMBS.</stage></head>
@@ -3025,8 +3025,8 @@ My sword and try thy courage, with my youth;</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>END of the FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="62" facs="71"/>
 <head>ACT V.</head>
 <head>SCENE, <stage><hi>the court before a</hi> PRISON.</stage></head>
@@ -3660,11 +3660,11 @@ As the sun cherishes the subject world;</l>
 <l>Less worthy of our glory, than to spare.</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="85"/>
 <head>PRINTED FOR T. BECKET.</head>
 <list>
@@ -3681,7 +3681,7 @@ As the sun cherishes the subject world;</l>
 <item>7. An INTRODUCTION to the HISTORY of GREAT BRITAIN and IRELAND; or, An Inquiry into the Origin, Religion, future State, Character, Manners, Morality, Amusements, Persons, Manner of Life, Houses, Navigation, Commerce, Language, Government, Kings, General Assemblies, Courts of Justice, and Juries, of the Britons, Scots, Irish, and Anglo-Saxons. By JAMES MACKPHERSON, Esq. The 3d Edit. revised and greatly enlarged. In One Vol. 4to. 15s. in Boards.</item>
 <item>8. MEMOIRS of RUSSIA, from the Year 1727 to the Year 1744. Translated from the Original Manuscript of the Baron de MANSTEIN. Illustrated with Maps and Plans. The 2d Edit. carefully corrected throughout, and greatly improved. In One Vol. 4to. 18s. in Boards.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

@@ -7,20 +7,20 @@
 <extent>vi,[2],74,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Griffin,</publisher><date>1768.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Todd's '1a' impression.</note><note>The text of the play is in the second state; word on line 12 p.36: speak; the epilogue is printed on p.[75] only, there is no footnote and "Finis" appears on p.74.</note><note>Prologue by Dr. Johnson.</note><note>With an epilogue.</note><note>Reproduction of original from the Huntington Library.</note><note>Todd, William B. 'The first editions of The good natur'd man and She stoops to conquer'. Studies in Bibliography, 11: 133-142, 1958</note><note>English Short Title Catalog, ESTCN49119.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE GOOD NATUR'D MAN: A COMEDY. As Performed at the THEATRE-ROYAL IN COVENT-GARDEN.</p>
 <p>BY MR. GOLDSMITH.</p>
 <p>LONDON: Printed for W. GRIFFIN, in Catharine-Street, Strand. MDCCLXVIII.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>WHEN I undertook to write a comedy, I confess I was strongly prepossessed in favour of the poets of the last age, and strove to imitate them. The term, <hi>genteel comedy,</hi> was then unknown amongst us, and little more was desired by an audience, than nature and humour, in whatever walks of life they were most conspicuous. The author of the following scenes never imagined that more would be expected of him, and therefore to delineate character has been his principal aim. Those who know any thing of composition, are sensible, that in pursuing humour, it will sometimes lead us into the recesses of the mean; I was even tempted to look for it in the master of a spunging-house: but in deference to the public taste, grown of late, perhaps, too delicate; the scene of the bailiffs was retrenched in the representation. In deference also to the judgment of a few friends, who think in a particular way, the scene is here restored. The author submits it to the reader in his closet; and hopes that too much refinement will not banish humour and character from our's, as it has already done from the French theatre. Indeed the French comedy is now become so very elevated and sentimental, that it has not only banished humour and <hi>Moliere</hi> from the stage, but it has banished all spectators too.</p>
 <p><pb n="vi" facs="3"/>
 Upon the whole, the author returns his thanks to the public for the favourable reception which the Good Natur'd Man has met with; and to Mr. Colman in particular, for his kindness to it. It may not also be improper to assure any, who shall hereafter write for the theatre, that merit, or supposed merit, will ever be a sufficient passport to his protection.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY DR. JOHNSON: SPOKEN BY MR. BENSLEY.</byline>
@@ -54,8 +54,8 @@ Upon the whole, the author returns his thanks to the public for the favourable r
 <l>He feels no want of ill persuading gold;</l>
 <l>But confident of praise, if praise be due,</l>
 <l>Trusts without fear, to merit, and to you.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -94,13 +94,13 @@ Upon the whole, the author returns his thanks to the public for the favourable r
 <label>Landlady,</label>
 <item>Mrs. White.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene LONDON.</p></set>
 </front>
 <body>
 <head><pb facs="6"/>
 THE GOOD NATUR'D MAN.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
 <head>SCENE, <stage>An Apartment in YOUNG HONEYWOOD's House.</stage></head>
 <stage>Enter SIR WILLIAM HONEYWOOD, JARVIS.</stage>
@@ -704,8 +704,8 @@ half her fortune; and you have your choice—to marry her, or pack out of doors 
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="23"/>
 <head>ACT THE SECOND.</head>
 <head>SCENE, <stage>Croaker's House.</stage></head>
@@ -1316,8 +1316,8 @@ to a suppos'd child, will continue to a known deceiver?</p>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OE THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="31" facs="38"/>
 <head>ACT THE THIRD.</head>
 <head>SCENE, <stage>Young Honeywood's House.</stage></head>
@@ -1914,8 +1914,8 @@ seen abroad. I have also discover'd that Miss Richland is not indifferent to my 
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="45" facs="52" ana="y"/>
 <head>ACT THE FOURTH.</head>
 <head>SCENE <stage>Croaker's House.</stage></head>
@@ -2574,8 +2574,8 @@ my tears, or complaints, that I have something of the spirit of a man in me?</p>
 <p>Yes; and my universal benevolence will hang the dog, if he had as many necks as a hydra.</p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="59" facs="66" ana="y"/>
 <head>ACT THE FIFTH.</head>
 <head>SCENE, <stage>An Inn.</stage></head>
@@ -2725,7 +2725,7 @@ reason to dread his resentment. His repining temper, as it does no manner of inj
 </sp>
 <sp>
 <speaker>Croaker.</speaker>
-<p>I want no information from you, puppy: and you too, good Madam, what answer have you got. Eh <stage>(a cry without, stop him).</stage> I think I heard a noise. My friend, Honeywood, without—has he seized the incendiary? Ah, no, for now I heard no more on't.</p>
+<p>I want no information from you, puppy: and you too, good Madam, what answer have you got. Eh <stage>(a cry without, <said direct="true">stop him</said>).</stage> I think I heard a noise. My friend, Honeywood, without—has he seized the incendiary? Ah, no, for now I heard no more on't.</p>
 </sp>
 <sp>
 <speaker>Leont.</speaker>
@@ -2758,7 +2758,7 @@ reason to dread his resentment. His repining temper, as it does no manner of inj
 <sp>
 <pb n="63" facs="70"/>
 <speaker>Croaker.</speaker>
-<p>Ah, rogue, If you knew how earnestly he entered into my griefs, and pointed out the means to detect them, you would love him as I do. <stage>(A cry without stop him)</stage> Fire and fury! they have seized the incendiary: they have the villian, the incendiary in view. Stop him, stop an incendiary, a murderer; stop him.</p>
+<p>Ah, rogue, If you knew how earnestly he entered into my griefs, and pointed out the means to detect them, you would love him as I do. <stage>(A cry without <said direct="true">stop him</said>)</stage> Fire and fury! they have seized the incendiary: they have the villian, the incendiary in view. Stop him, stop an incendiary, a murderer; stop him.</p>
 <stage>[Exit.</stage>
 </sp>
 <sp>
@@ -3241,11 +3241,11 @@ the man who first invented the art of speaking truth was a much cunninger fellow
 <pb n="74" facs="81"/>
 folly, lest fools should disapprove. Henceforth, therefore, it shall be my study to reserve my pity for real distress; my friendship for true merit, and my love for her, who first taught me what it is to be happy.</p>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="82"/>
 <head>EPILOGUE,</head>
 <byline>SPOKEN BY MRS. BULKLEY.</byline>
@@ -3283,7 +3283,7 @@ folly, lest fools should disapprove. Henceforth, therefore, it shall be my study
 <l>To 'bide the pelting of this pittiless storm,</l>
 <l>Blame where you must, be candid where you can,</l>
 <l>And view with favour, the Good-natur'd Man.</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

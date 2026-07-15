@@ -7,20 +7,20 @@
 <extent>[8],96p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. Francklin; R. Dodsley; and J. Brotherton,</publisher><date>1746.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Charles Macklin.</note><note>On Perkin Warbeck.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN4667.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p><hi>King</hi> HENRY <hi>the</hi> VII. OR <hi>The</hi> POPISH IMPOSTOR.</p>
 <p>A TRAGEDY.</p>
 <p>As it is acted <hi>By his</hi> MAJESTY's <hi>Servants,</hi> AT THE THEATRE ROYAL, IN <hi>DRURY-LANE.</hi></p>
 <p><hi>LONDON.</hi> Printed for R. FRANCKLIN, in <hi>Covent-Garden</hi>; R. DODSLEY, in <hi>Pall-Mall</hi>▪ and J. BROTHERTON, in <hi>Cornhill.</hi> M.DCC.XLVI. (Price is 6<hi>d.</hi>)</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE</head>
 <p>THE following Piece was design'd as a Kind of Mirror to the present Rebellion; and the imagined: Advantage of having it acted before that unnatural Flame could be extinguish'd, was the Reason why it was so hurry'd in the writing; being begun and finish'd in less Time than is necessary tor the forming the Fable only of a correct Play. It was the six Weeks Labour of an Actor, who, even in that short Space, was often call'd from it by his Profession. The Players, for the Sake of Dispatch, had it to study, Act by Act, just as it was blotted; and the only Revisals it received, from the <hi>Brouillon</hi> to the <hi>Press,</hi> were at the Rehearsals of it. So that we must bespeak the Reader's Indulgence for numberless Incorrections thro' the Whole; but more particularly for the Measure and Diction; the Author having neglected them so much, that he cannot call the Manner, in which it is written, either Prose or Verse, but accidentally both. It is certain, Apologies for bad writing seldom procure Remission from the Rigid; yet the most flagrant Crimes when ingenuously confess'd, and follow'd by Repentance, admit of Extenuation from the Benevolent.</p>
 <p><hi>N. B.</hi> The Lines mark'd with Commas were omitted after the first Night's acting, the Play being too long in the Performance.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE,</head>
 <byline>Spoken by Mr. <hi>MACKLIN.</hi></byline>
@@ -55,8 +55,8 @@
 <l>Judge not by Critic, but by patriot Laws;</l>
 <l>Where Genius fails, support your fav'rite Cause.</l>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="4"/>
 <head>EPILOGUE,</head>
 <byline>Spoken by Mrs. <hi>WOFFINGTON.</hi></byline>
@@ -82,8 +82,8 @@
 <l>Know, from the Life her Principles he drew,</l>
 <l>And hopes the Piece shall live which copies you.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -109,15 +109,14 @@
 <item><label>JANE,</label> Miss <hi>Minors.</hi></item>
 </list>
 <p><hi>Guards, Attendants,</hi> &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="6"/>
 <head><hi>King</hi> HENRY <hi>the</hi> VII. OR <hi>The</hi> POPISH IMPOSTOR.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT .I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE <stage><hi>Holy-rood Palace.</hi></stage></head>
 <stage>SEVEZ <hi>and</hi> FRION.</stage>
@@ -316,8 +315,8 @@
 <l>But derived of Heaven!
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="6" facs="11"/>
 <head>SCENE II.</head>
 <stage><hi>King of</hi> SCOTLAND, PERKIN, <hi>Courtiers,</hi> &amp;c.</stage>
@@ -577,8 +576,8 @@
 <l>Till Penitence and Gold buy out their Pardon.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="12" facs="17"/>
 <head>SCENE III.</head>
 <stage>The Council-Chamber.</stage>
@@ -988,13 +987,13 @@
 <l>Then to <hi>England</hi>; where we'll affix his Right,</l>
 <l>Or in that hostile Land resign our Breath.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the first ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="26"/>
 <head><hi>ACT II.</hi></head><stage>The English Court.</stage>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <stage><hi>King</hi> HENRY, STANLEY, YORK.</stage>
 <sp>
 <speaker>K. Hen.</speaker>
@@ -1306,8 +1305,8 @@ this List you say's authentic.</l>
 <l>We'll attend.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="28" facs="33"/>
 <head>SCENE II.</head>
 <stage>An Apartment in the Tower.</stage>
@@ -1357,8 +1356,8 @@ this List you say's authentic.</l>
 <l>Expects us in his Closet.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi> <stage>The King's Apartment in the Tower. A Table, Chair, and Candles.</stage></head>
 <stage><hi>Enter the</hi> KING <hi>and</hi> DAWBNEY <hi>meeting.</hi></stage>
 <sp>
@@ -1742,12 +1741,12 @@ this List you say's authentic.</l>
 <l>With restor'd Confidence, and balmy Rest.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Second ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>An Apartment in the Tower.</stage>
 <stage><hi>Enter</hi> YORK, OXFORD, <hi>and several other Lords, all as from</hi> STANLEY's <hi>Tryal.</hi></stage>
@@ -1848,8 +1847,8 @@ this List you say's authentic.</l>
 <l>And soften into womanish Pity.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>An Apartment in the Tower.</stage>
 <stage><hi>Enter</hi> STANLEY, <hi>in black, Guards, &amp;c.</hi></stage>
@@ -2073,8 +2072,8 @@ this List you say's authentic.</l>
 <l>For <hi>English</hi> Liberty.</l>
 </sp>
 <stage><hi>Exeunt</hi> York <hi>one Way,</hi> King <hi>and</hi> Oxford <hi>t'other.</hi></stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Scotland.</hi></stage></head>
 <stage>(<hi>In Holy-rood Palace.</hi>)</stage>
 <stage><hi>Enter</hi> King of Scotland <hi>and</hi> Sevez.</stage>
@@ -2327,8 +2326,8 @@ how shall I speak it!—O some</l>
 <l>In Wretchedness to save a Father's Life.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>An Apartment in</hi> Edinborough <hi>Castle.</hi></stage>
 <stage><hi>Enter</hi> Huntley <hi>and Sir</hi> David Bruce, <hi>meeting.</hi></stage>
@@ -2617,11 +2616,11 @@ when you</l>
 <l>As does the Peace of our distracted State.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head><stage><hi>Holy-rood Palace.</hi></stage>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <stage><hi>Enter</hi> KING <hi>and</hi> SEVEZ.</stage>
 <sp>
 <speaker>Sevez.</speaker>
@@ -2730,8 +2729,8 @@ when you</l>
 <l>Attend your royal Will and Pleasure.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>An Apartment in the Castle of <hi>Edinburgh.</hi></stage></head>
 <stage><hi>Enter</hi> Huntley, <hi>follow'd by an Officer of the Castle.</hi></stage>
 <sp>
@@ -2989,8 +2988,8 @@ Katherine.</p>
 <l>'Till Time shall be no more.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Norham <hi>Castle.</hi></stage>
 <stage><hi>A March at a Distance, enter the Bishop of</hi> York <hi>and many Free-holders, Gentlemen,</hi> &amp;c.</stage>
@@ -3025,8 +3024,8 @@ Katherine.</p>
 <p>If it be <hi>Huntley,</hi> we may admit him; for cold Treachery and he are Strangers? Were <hi>Scotland's</hi> Subjects all of his Temper, intermeddling <hi>France</hi> would never dare to offer Laws or Kings to <hi>Britain.</hi> But let us to the Battlements! if it be he, perhaps his Business may bring general Good.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>An open Country. A March near</hi> Norham <hi>Castle.</hi></stage>
 <stage><hi>The</hi> Scotish <hi>Army.</hi></stage>
@@ -3102,8 +3101,8 @@ Katherine.</p>
 <l>The Milkiness of his coward Liver.
 <stage>Exit.</stage></l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>A Field near</hi> Norham <hi>Castle.</hi></stage>
 <stage><hi>Enter</hi> HUNTLEY, <hi>and all the</hi> SCOTCH <hi>Nobility.</hi></stage>
@@ -3166,8 +3165,8 @@ Katherine.</p>
 <l>Liberty, Liberty, <hi>Scotland,</hi> huzza!</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>A Royal Tent near</hi> Norham <hi>Castle.</hi></stage>
 <stage><hi>Enter</hi> King <hi>of</hi> Scotland, Perkin, Sevez, Frion, <hi>and all the King's Attendants.</hi></stage>
@@ -3615,12 +3614,12 @@ Katherine.</p>
 <l>The Sire will bless us for his Country freed;</l>
 <l>And from your Loins a patriot Race proceed.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Fourth ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>King</hi> Henry's <hi>Tent near</hi> Taunton.</stage>
 <stage><hi>Enter</hi> King, York, Oxford, <hi>Lords and Gentlemen.</hi></stage>
@@ -3818,8 +3817,8 @@ every now and then will break out into the Murrain of Rebellion. Then, my Liege,
 <l>And his Friends.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A Field near the Rebels Camp.</stage>
 <stage><hi>Enter</hi> Katherine <hi>dress'd like her Husband</hi> Perkin, <hi>followed by her Maid</hi> Jane.</stage>
@@ -3947,8 +3946,8 @@ Heark I am summon'd,—</l>
 <l>And Danger be my Guides.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="89" facs="94"/>
 <head>SCENE III.</head>
 <stage><hi>Field of Battle, Charge,</hi> &amp;c.</stage>
@@ -4066,8 +4065,8 @@ guardian Genius be ready to accept this Sacrifice. Inspire my Rage with one Blow
 <p>The Soldier's Blessings, Humanity, Courage, and Success attend him to his Death's Hour.—If you have Children, may the Father's Joy, the Extasy I now feel, for ever flow about your humane Heart. Come, my Mars, in Triumph lead your fair Prisoner, and thou shalt have Reward, not such as Monarchs, but doating Fathers give.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="92" facs="97"/>
 <head>SCENE IV.</head>
 <stage>A Field, a Retreat sounded.</stage>
@@ -4240,10 +4239,9 @@ guardian Genius be ready to accept this Sacrifice. Inspire my Rage with one Blow
 <l>Let Faction cease, Commerce and Freedom smile,</l>
 <l>The World can't conquer then, this War-Proof Isle.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

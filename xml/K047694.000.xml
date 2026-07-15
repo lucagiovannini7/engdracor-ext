@@ -7,7 +7,7 @@
 <extent>xv,[1],62p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. Manby and H.S. Cox,</publisher><date>1752.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>An alteration of the play by Ben Jonson.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52943.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>SEJANUS, A TRAGEDY. As it was intended for the STAGE.</p>
 <p>WITH A PREFACE, wherein the Manager's Reasons for refusing it are set forth.</p>
@@ -18,8 +18,8 @@
 <l>Casus, &amp; impulsae praeceps immane ruinae.</l>
 <bibl>JUVENAL.</bibl>
 <p><hi>LONDON:</hi> Printed for R. MANBY and H. S. Cox on <hi>Ludgate-Hill.</hi> MDCCLII. [Price 1s. 6d.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="iii" facs="2"/>
 <head>TO THE RIGHT HONOURABLE, <hi>JOHN</hi> EARL of <hi>ORRERY.</hi></head>
 <lg>
@@ -52,8 +52,8 @@ The subtlest Schemes of <hi>wily Statesmen</hi> trace,</l>
 <l>She flies for Refuge to <hi>illustrious</hi> BOYLE.</l>
 </lg>
 <closer><signed>FRANCIS GENTLEMAN.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="v" facs="4"/>
 <head>PREFACE.</head>
 <p>IT were an Imposition on the Town, and an Injustice to the Memory of the inimitable <hi>BEN JOHNSON;</hi> should I publish this Play, without acknowledging that most part of the Plot, some of the Scenes, and many of the Speeches, are almost literally copied from a dramatic Work of his, with the same Title. An Attempt at altering a Piece of his, is, I believe, unprecedented, and indeed bold, for one who never before, either burthen'd the Press with his Labours, or dar'd the Critic's Censure. I was allur'd to the Task, by a Number of very noble Sentiments, which are scattered through the Original in many Lines, neither harsh or unmusical; wherein there seems to breath the true inspir'd Spirit of Poetry; and fancy plays within her proper Sphere, under the Restraint of a well temper'd critical Judgment; but much more by the strong Contrast of virtuous and vicious Characters, with which I found it adorn'd; which is the most useful, laudable, and consequently the fundamental Part of the <hi>DRAMA.</hi></p>
@@ -93,8 +93,8 @@ to be performed either publicly or privately for <hi>ministerial Amusement,</hi>
 <p>Business detaining me in the Country, I requested my Friend Mr. <hi>DERRICK</hi> to present this Play to Mr. <hi>GARRICK,</hi> which he accordingly did, and was promised by him an Answer in four or five Days. Mr. <hi>DERRICK</hi> waited on him again about that Time, when with a <hi>Punctuality,</hi> which is not at all answerable to the Character generally given of <hi>theatrical Managers,</hi> he returned the Piece with some Compliments as to its Merits, alledging, that it had too much Declamation in it, to succeed on the <hi>Stage;</hi> and I am induced to believe, that though this <hi>Play</hi> was not introduced to Mr. <hi>GARRICK</hi> under any <hi>particular prevailing Influence,</hi> he took the Trouble to peruse it, and on that alone founded his Answer.</p>
 <p><pb n="xiii" facs="12"/>
 However I suppose you expect to find me severe on the Manager, for presuming to repulse my Offspring; but you are mistaken; I am ever ready to <hi>receive,</hi> and thankful <hi>for</hi> Instruction. It being an approved Maxim with me, that <hi>Approbation is very pleasing; but Correction more profitable;</hi> and therefore say with <hi>SHAKESPEARE</hi>'s <hi>BRUTUS,</hi> though more in earnest,<l>I shall be glad to learn of able Men.</l><bibl>SHAKESPEARE.</bibl></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="xiv" facs="13"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -145,8 +145,8 @@ However I suppose you expect to find me severe on the Manager, for presuming to 
 <l>Since honest BEN must e'en participate,</l>
 <l>And so ally'd he dares the Frowns of Fate.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="15"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -177,14 +177,14 @@ However I suppose you expect to find me severe on the Manager, for presuming to 
 <list>
 <item>Guards, Lictors, &amp;c. Priests and Choristers.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene ROME:</p></set>
 </front>
 <body>
 <head><pb n="1" facs="16" ana="y"/>
 SEJANUS.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>SILIUS meeting SABINUS.</stage>
 <sp>
@@ -422,8 +422,8 @@ SILIUS and SABINUS come forward.</stage>
 <l>And Virtue once again triumphant rise.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE changes. Enter SEJANUS solus.</stage>
 <sp>
 <speaker>Seja.</speaker>
@@ -630,8 +630,8 @@ The Way lies plain to circumvent my Foe.</l>
 <l>Nor slack thy Pace, till thou art Lord of all.</l>
 <stage>Exit SEJANUS.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE CHANGES. Enter TIBERIUS, DRUSUS, SILIUS SABINUS. LATIARIS meeting them, kneels to TIBERIUS.</stage>
 <sp>
 <speaker>Tib.</speaker>
@@ -878,11 +878,11 @@ Be taught by this, how I regard your Highness,</l>
 <l>Take him, when unprepar'd to stand the Blast,</l>
 <l>And make one fatal Stroke, the first and last.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>SEJANUS, LIVIA and EUDEMUS.</stage>
 <sp>
@@ -1317,8 +1317,8 @@ Strive to destroy, and triumph in our Fall?</l>
 <l>Or drag the galling Chain of Life no more.</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE CHANGES, enter TIBERIUS and SEJANUS.</stage>
 <sp>
 <speaker>Tib.</speaker>
@@ -1620,11 +1620,11 @@ And then it wounds beyond the Reach of Cure.</l>
 <l>And let SEJANUS Lord of Mankind reign.</l>
 <stage>(Exit SEJANUS.)</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <stage>Enter SEJANUS, VARRO, AFER.</stage>
 <sp>
@@ -2237,11 +2237,11 @@ Go forward in our main Design, and prosper.</l>
 <l>For when they see me Arbiter of all,</l>
 <l>They must observe, or else with CAESAR fall.</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <pb n="37" facs="52"/>
 <head>ACT IV. SCENE I.</head>
 <stage>SEJANUS SOLUS.</stage>
@@ -2879,11 +2879,11 @@ A Smoak, as from a Furnace black and dreadful.</l>
 <l>When Fortune smiling shall my Off'ring bless.</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <pb n="49" facs="64"/>
 <head>ACT V. SCENE I.</head>
 <head>SCENE <stage>A HALL, with the IMAGE of FORTUNE, SEJANUS, SATRIUS, NATTA, PRIESTS, &amp;c.</stage></head>
@@ -3088,8 +3088,8 @@ Why should you still interpret things the worst?</l>
 <l>We shall expect him on the Instant—Lead.</l>
 <stage>Exeunt.)</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE CHANGES, enter SEJANUS.</stage>
 <sp>
 <l>If in hereafter I could meet with Ease,</l>
@@ -3159,8 +3159,8 @@ Loaded with Guilt and circled round with Crimes,</l>
 The swiftest Haste is <hi>laggard</hi> to the Deed.</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE the last, <stage>TIBERIUS in the SENATE seated.]</stage></head>
 <sp>
 <speaker>Tib.</speaker>
@@ -3578,8 +3578,8 @@ Thus thro' Reflection's Mirror we may view</l>
 <l>The solid Bliss which never feels Decay,</l>
 <l>Can only flourish warm'd by <hi>Virtue's</hi> Ray.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

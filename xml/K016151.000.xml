@@ -7,15 +7,15 @@
 <extent>[16],16,33-44p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Jauncy,</publisher><date>[1721?]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Not in fact by Joseph Mitchell, but by Aaron Hill, written for the benefit of Mitchell.</note><note>Text continuous despite pagination.</note><note>Publication date from DFo.</note><note>Reproduction of original from the Cambridge University Library.</note><note>English Short Title Catalog, ESTCN31470.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <p><pb facs="1"/>
 THE Fatal Extravagance. A TRAGEDY. As it is Acted at the THEATRE, in <hi>Lincoln's-Inn-Fields.</hi></p>
 <p>Written by Mr. JOSEPH MITCHELL.</p>
 <p><figure>
 </figure></p>
 <p>LONDON: Printed for T. JAUNCY, at the <hi>Angel,</hi> without <hi>Temple-Bar.</hi> Price One Shilling.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE Most Noble PRINCE, JAMES, Duke HAMILTON, Duke of BRANDON, <hi>&amp;c.</hi></head>
 <opener><salute>May it please Your Grace,</salute></opener>
@@ -34,8 +34,8 @@ even by the Brave and Illustrious, long, Line, of your Predecessors.</p>
 <p>I am, with the profoundest Duty and Respect,</p>
 <closer><salute>May it please your Grace,</salute> 
 <signed>Your Grace's most Obedient, and most Devoted, Humble Servant, JOSEPH MITCHELL.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="6"/>
 <head>THE PREFACE.</head>
 <p><seg rend="decorInit">T</seg>HERE are few Men of Learning, (except some of my own Country, misled by a Zeal both indiscreet and unwarrantable) who do not readily acknowledge <hi>POETRY,</hi> to be the Daughter of Religion, and originally design'd, to tune Men's Minds to Devotion. This is evident from the many noble Poems, in the <hi>Old Testament;</hi> to say Nothing of other Writings. But the primitive Simplicity, becoming gradually lost, as the Art was apply'd to Ends, unworthy its Institution, the Reformers were obliged to take Advantage of Mens Passions, by giving it a new Turn, which, under the Temptation of Delight, disguis'd the Doctrine they recommended. <hi>TRAGEDY,</hi> in particular, was the Perfection of the <hi>Muse's</hi> Power. Till <hi>that</hi> became known, there was wanting a kind of Poetry, which, imitating the Actions of Mankind, might work a readier, and more sensible Effect, by a Corvection of the Passions. The Prevalence of Vice, 'tis true, and Men's natural Propensity to resist good Instruction, allow'd not a Success to <hi>TRAGIDY,</hi> so universal, as it merited. But since no better Help, than <hi>this,</hi> can be devis'd, the Friends, of Vertue and Genius, must use the means it affords them.</p>
@@ -56,8 +56,8 @@ and distract the Attention, and Apprehension, of an Audience.</p>
 <pb facs="11"/>
 on my Adversaries among the <hi>Scots</hi> Clergy; for who would not be contented under a Stroke, or two, of his Satyr, whose <hi>Praise,</hi> (as <hi>Juba</hi> says of <hi>Cato)</hi> I would rather have, than Worlds for my Admirers.</p>
 <p>Before I end this Preface, I must not forget to thank the Generosity of my Friends, of all Qualities, who, so nobly, grac'd the Action of my first Endeavour, in <hi>TRAGEDY.</hi> I should have very little Merit, not to improve on such Encouragement.—Before so select, and illustrious an Audience, the admirable Mrs. <hi>Seymour,</hi> and the Gentlemen, who so well performed the Parts, must have felt a Satisfaction, equal to that Applause, which their Action deserved, and met with.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="12"/>
 <head>PROLOGUE. Written by AARON HILL <abbr>Esq</abbr> Spoken by Mr. RYAN.</head>
 <lg>
@@ -104,8 +104,8 @@ on my Adversaries among the <hi>Scots</hi> Clergy; for who would not be contente
 <l>O! give Attention, to the moving Scene,</l>
 <l>And shun what yet may be, by what has been.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="13"/>
 <head>THE EPILOGUE. Written by AARON HILL <abbr>Esq</abbr> Spoke by Mrs. SEYMOUR.</head>
 <lg>
@@ -159,8 +159,8 @@ on my Adversaries among the <hi>Scots</hi> Clergy; for who would not be contente
 <l>For, should <hi>we</hi> catch 'em, in our wrong'd Dominion,</l>
 <l><hi>Stiff</hi> as they are, we'll make 'em <hi>change Opinion.</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="15"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -169,11 +169,11 @@ on my Adversaries among the <hi>Scots</hi> Clergy; for who would not be contente
 <item><label>Bargrave.</label> Mr. <hi>Ogden.</hi></item>
 <item><label>Louisa.</label> Mrs. <hi>Seymour.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="16"/>THE Fatal Extravagance.</head>
-<div1 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>Bellmour</hi>'s House.</stage></head>
 <stage><hi>Enter</hi> Louisa <hi>and</hi> Courtney.</stage>
 <sp>
@@ -921,8 +921,8 @@ In ceaseless Bitterness of Soul, afflict me,</l>
 <l>And spread smooth Heavens before the Sufferers Eyes.</l>
 <stage>[Exit Louisa.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to a Gallery.</hi></stage></head>
 <stage><hi>Enter</hi> Bellmour, <hi>alone, Pensive.</hi></stage>
 <sp>
@@ -1388,11 +1388,11 @@ From this sad Story let Observers know,</l>
 <l>'Till Heaven o'ertakes Us, with some dreadful Fate,</l>
 <l>And the touch'd Soul grows sensible, too late.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <head>Lately Published, <hi>by</hi> Mr. <hi>Mitchel.</hi></head>
 <p>THE Doleful <hi>Swains</hi> a Pastoral. Price <hi>6d. Jonab:</hi> a Divine Poem adorn'd with Curious Cuts, Pr. <hi>1s.</hi></p>
 <p>An Ode on the Power of Musick, Pr. 1 <hi>s</hi></p>
@@ -1400,7 +1400,7 @@ From this sad Story let Observers know,</l>
 <p>The Last Guinea a Poem, Price 6 <hi>d.</hi></p>
 <p>A Theorico Pract. Discourse on the Plague by Dr. <hi>Rose,</hi> Price 1 <hi>s.</hi></p>
 <p>All Printed for <hi>T. Jauncy,</hi> at the Angel without <hi>Templebar.</hi></p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

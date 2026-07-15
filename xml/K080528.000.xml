@@ -7,14 +7,14 @@
 <extent>[8],62,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for A. Millar,</publisher><date>1749.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final epilogue leaf.</note><note>Catchword on p.58: of.</note><note>The ornaments are those used by William Bowyer.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT100060.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1" ana="y"/>
 <p>CORIOLANUS.
 A
 TRAGEDY.</p>
 <p>[Price One Shilling and Six Pence.]</p>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="2"/>
 <head>BOOKS printed for A. MILLAR.</head>
 <p>THE Complete Works of <hi>James Thomson,</hi> in 3 vol.
@@ -45,8 +45,8 @@ Fielding</hi> Esq.
 <item>2. <hi>Ophiomaches,</hi> or Deism Revealed. In Eight Dialogues.
 In Two Volumes.</item>
 </list>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="4"/>
 <p>CORIOLANUS.
 A
@@ -59,8 +59,8 @@ IN
 <p><hi>LONDON,</hi>
 Printed for A. MILLAR at <hi>Buchanan's</hi> Head in
 the <hi>Strand.</hi> MDCCXLIX.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>The Persons Represented.</head>
 <list>
@@ -91,9 +91,9 @@ VETURIA and VOLUMNIA, of the second Deputation.</label>
 <label>Volscian OFFICERS, LICTORS, SOLDIERS, &amp;c.</label>
 <item> </item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, The <hi>Volscian</hi> Camp.</p></set>
-<div1 type="prologue">
+<div type="prologue">
 <pb facs="21"/>
 <head>PROLOGUE</head>
 <stage>Spoken by Mr. QUIN.</stage>
@@ -134,15 +134,15 @@ Yet if to those whom most on Earth he lov'd,</l>
 <l>What they no longer can from His receive,</l>
 <l>That, that, even now, above yon starry Pole,</l>
 <l>May touch with Pleasure his immortal Soul.</l>
-</div1>
+</div>
 </front>
 <body>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <pb facs="5"/>
 <head>CORIOLANUS.
 A
 TRAGEDY.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>The Volscian Camp.</stage>
 <stage>ATTIUS TULLUS, VOLUSIUS.</stage>
@@ -323,8 +323,8 @@ me,</l>
 <l>Of generous Freedom, and our native Rights,</l>
 <l>So long opprest by <hi>Rome's</hi> encroaching Power,</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>TULLUS alone.</stage>
 <sp>
@@ -336,8 +336,8 @@ me,</l>
 <l>Oh us alone, and prove by its Decision,</l>
 <l>Which of the two is worthiest to command—</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="6" facs="10"/>
 <head>SCENE III.</head>
 <stage>TULLUS, OFFICER.</stage>
@@ -366,8 +366,8 @@ me,</l>
 <speaker>TULLUS.</speaker>
 <l>Come, Dastard! let me find this Man of Terrors.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>The back Scene opens, and discovers CORIOLANUS
 as described above.</stage>
@@ -480,12 +480,12 @@ As if descended from avenging Heaven</l>
 <l>And, if I judge aright, the Fate of <hi>Rome.</hi></l>
 </sp>
 <trailer>The End of the First <hi>ACT.</hi></trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="10" facs="14"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>GALESUS, TITUS.</stage>
 <sp>
@@ -681,8 +681,8 @@ Thus in emphatic Silence, that made Words</l>
 <l>And bring him to the Council, there to hear</l>
 <l>The fatal Answer thou hast brought from <hi>Rome.</hi></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Changes to TULLUS'S Tent.</stage>
 <stage>CORIOLANUS, TULLUS.</stage>
@@ -725,8 +725,8 @@ O let that Justice now support my Cause,</l>
 <stage>[Exit Officer and <hi>CORIOLANUS.</hi></stage>
 <stage>Enter <hi>GALESUS.</hi></stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>TULLUS, GALESUS.</stage>
 <sp>
@@ -750,8 +750,8 @@ O let that Justice now support my Cause,</l>
 <l>It is enough—Come forth, my noble Guest!</l>
 <l>And shew GALESUS how the Gods assist us.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="16" facs="20"/>
 <head>SCENE IV.</head>
 <stage>CORIOLANUS, TULLUS, GALESUS.</stage>
@@ -771,8 +771,8 @@ O let that Justice now support my Cause,</l>
 <l>While to our Chiefs, and Fathers, I announce</l>
 <l>Their unexpected Guest.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>CORIOLANUS, GALESUS.</stage>
 <sp>
@@ -881,8 +881,8 @@ Vengeance?</l>
 <l>Conduct thee thither—Doubt not thy Reception</l>
 <l>Will be proportion'd to thy Fame and Merit.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="19" facs="25"/>
 <head>SCENE VI.</head>
 <stage>The back Scene opens, and discovers the Deputies of
@@ -1031,12 +1031,12 @@ But now 'tis doubly right. Here, <hi>Volscian</hi> Chiefs,</l>
 <l>My Soul on Fire anticipates the Dawn.</l>
 </sp>
 <trailer>End of the Second <hi>ACT.</hi></trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="23" facs="29"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>CORIOLANUS, TULLUS, VOLUSIUS, TITUS, <hi>with a
 Croud of</hi> Volscian <hi>Officers. Acclamations behind
@@ -1091,8 +1091,8 @@ the Scenes.</hi></stage>
 <l>If I betray the Honours you have done me.</l>
 <stage>[Goes out with a Train of <hi>Volscian</hi> Officers.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>TULLUS, VOLUSIUS, <hi>who remain.</hi></stage>
 <sp>
@@ -1323,8 +1323,8 @@ Of Passion talks, a Weakness for his Country</l>
 <l>I should detest, if not from Hope we thence</l>
 <l>May gather Matter to mature our Purpose.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>The back Scene opens, and discovers <hi>CORIOLANUS</hi>
 sitting on his Tribunal, attended by his Lictors,
@@ -1620,12 +1620,12 @@ I venerate their Servants. But there is,</l>
 <l>All further Treaty off. <hi>Romans,</hi> farewell.</l>
 </sp>
 <trailer>The End of the Third <hi>ACT.</hi></trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="36" facs="42"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>TULUS alone.</stage>
 <sp>
@@ -1641,8 +1641,8 @@ I venerate their Servants. But there is,</l>
 <l>And down I plunge, betray'd even by my Virtue,</l>
 <l>From Gulph to Gulph, from Shame to deeper Shame.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>TULLUS. GALESUS.</stage>
 <sp>
@@ -1806,8 +1806,8 @@ Must I now seek to hide them? O Misfortune!</l>
 <l>But see! my Rival comes, the happy MARCIUS.</l>
 <l>His haughty Mien, his very Looks, affront me.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>CORIOLANUS, TULLUS.</stage>
 <sp>
@@ -1978,8 +1978,8 @@ Of black Ingratitude. On what Foundations?</l>
 <speaker>TULLUS.</speaker>
 <l>What arrogant Presumption!</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="44" facs="50"/>
 <head>SCENE. IV.</head>
 <stage>To them VOLUSIUS, entering hastily.</stage>
@@ -2008,8 +2008,8 @@ Of black Ingratitude. On what Foundations?</l>
 <l>Trembling behind their Ramparts—Come! once more!</l>
 <l>And see me put an End to Prayers and Treaty!</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>TULLUS. VOLUSIUS.</stage>
 <sp>
@@ -2114,12 +2114,12 @@ Respite the <hi>Roman</hi> Doom—He seals his own:</l>
 <l>Without his Blood. If not—We will be free.</l>
 </sp>
 <trailer>The End of the Fourth <hi>ACT.</hi></trailer>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="47" facs="53"/>
 <head>ACT. V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Trumpets sounding.</stage>
 <stage>The Scene discovers the Camp, a Croud of
@@ -2543,8 +2543,8 @@ a low Tone of Voice.</stage>
 <l>Be it thy Care, <hi>Galesus,</hi> that a Safeguard</l>
 <l>Attend these noble Matrons back to <hi>Rome.</hi></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>CORIOLANUS. TULLUS.</stage>
 <sp>
@@ -2720,8 +2720,8 @@ Of well-weigh'd Resolution. Thou and I</l>
 <speaker>TULLUS.</speaker>
 <l><hi>Volusius!</hi> Hoa!</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>To them <hi>Volusius,</hi> and Conspirators, with their
 Swords drawn.</stage>
@@ -2752,8 +2752,8 @@ drawn his Sword.</stage>
 <l>Oh murdering Slaves ! Assassinating Cowards!</l>
 <stage>[Dies.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>[Upon the Noise of the Tumult, enter hastily
 to them <hi>Galesus,</hi> the other Deputies of the
@@ -2827,12 +2827,12 @@ Whatever private Views and Passions plead,</l>
 <l>Then be this Truth the Star by which we steer;</l>
 <l><hi>Above</hi> Ourselves <hi>our</hi> COUNTRY <hi>should be dear.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="69"/>
 <head>EPILOGUE.</head>
 <stage>SPOKEN BY
@@ -2872,7 +2872,7 @@ Or in my Tongue, or Wit, or Shape, or Eyes,</l>
 <l>To you without Reserve I will impart:</l>
 <l>It is my Sovereign Will,—Hear, and obey,—</l>
 <l>That you with Candour treat this <hi>Orphan Play.</hi></l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

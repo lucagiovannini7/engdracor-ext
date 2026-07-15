@@ -7,7 +7,7 @@
 <extent>[4],ii,[4],98,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket,</publisher><date>1781.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>"Now properly recognised as of the first or second impression"--W. B. Todd, 'The Book Collector', vol.5, no.2 (1956).</note><note>The titlepage is engraved.</note><note>Prologue by the Hon. Richard Fitzpatrick.</note><note>With a half-title and a final advertisement leaf.</note><note>P.9 catchword: sneer; no press figure on p.52; on p.84, in the middle of the page, "awkward" is correctly spelt.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT773.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE CRITIC
 OR
@@ -21,8 +21,8 @@ THEATRE ROYAL in DRURY LANE</p>
 LONDON.
 Printed for T. Becket, Adelphi, Strand,
 MDCCLXXXI.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO Mrs. GREVILLE.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -67,8 +67,8 @@ which</p>
 <signed>Your very sincere,
 And obedient humble servant,
 R. B. SHERIDAN.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>By the Honorable RICHARD FITZPATRICK.</byline>
@@ -122,8 +122,8 @@ Thalia, once so ill behav'd and rude,</l>
 <l>Whose troops are willing, and whose cause is just;</l>
 <l>To bid such hosts of angry foes defiance,</l>
 <l>His chief dependance must be, YOUR ALLIANCE.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -167,14 +167,14 @@ Thalia, once so ill behav'd and rude,</l>
 <item>Guards, Constables, Servants, Chorus, Rivers, Attendants, &amp;c. &amp;c.</item>
 </list></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7"/>THE
 CRITIC.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Mr. and Mrs. DANGLE at Breakfast, and
 reading Newspapers.</stage>
@@ -1265,8 +1265,8 @@ quarter nor pity.</p>
 <speaker>DANGLE.</speaker>
 <p>That's ture egad!—tho' he's my friend!</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A Drawing Room, Harpsichord, &amp;c. Italian Family,
 French Interpreter, Mrs. Dangle and Servants
@@ -1950,12 +1950,12 @@ egad, I ha'n't a moment to lose!</p>
 </sp>
 <stage>[Exeunt severally.</stage>
 <trailer>END OF ACT I.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="47" facs="53"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head type="sub">The THEATRE.</head>
 <stage><hi>Enter</hi> DANGLE, PUFF, and SNEER,
@@ -2110,8 +2110,8 @@ there will be a cry of down!—down!—hats off!
 silence!—Then up curtain,—and let us see
 what our painters have done for us.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>The Curtain rises and discovers <hi>TILBURY FORT.</hi>
 Two Centinels asleep.</stage>
@@ -3366,13 +3366,13 @@ myself.</p>
 <p>To cut out this scene!—but I'll print it—egad,
 I'll print it every word! <stage>[Exeunt.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT II.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="80" facs="86"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head type="sub">Before the Curtain.</head>
 <stage><hi>Enter</hi> PUFF, SNEER, and DANGLE.</stage>
@@ -4231,8 +4231,8 @@ this piece again to-morrow.</p>
 </sp>
 <stage>CURTAIN DROPS.</stage>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>
