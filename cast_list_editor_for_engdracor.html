@@ -388,6 +388,16 @@
       border: 1px solid #fcd34d; border-radius: 4px; cursor: pointer;
     }
     .merge-go:hover { background: #fde68a; }
+    .co-btn {
+      font-size: 11px; padding: 2px 6px; margin-left: 4px;
+      background: #dbeafe; color: #1e40af;
+      border: 1px solid #93c5fd; border-radius: 3px; cursor: pointer;
+    }
+    .co-btn:hover { background: #bfdbfe; }
+    .co-panel {
+      flex-basis: 100%; display: flex; align-items: center; gap: 5px;
+      margin-top: 3px; padding-top: 3px; border-top: 1px solid var(--border);
+    }
 
     /* undo banner */
     .undo-banner {
@@ -601,9 +611,9 @@ function renderSidebar() {
     e.title = f.name;
     e.onclick = () => selectFile(i);
 
-    const persons  = getPersons(f);
-    const unknowns = persons.filter(p => p.sex === 'UNKNOWN').length;
-    const dotCls   = f.modified ? (unknowns === 0 ? 'done' : 'modified') : 'clean';
+    const persons = getPersons(f);
+    const noSex   = persons.filter(p => !p.hasSexEl).length;
+    const dotCls  = f.modified ? (noSex === 0 ? 'done' : 'modified') : 'clean';
 
     e.innerHTML = `<div class="fdot ${dotCls}"></div><div class="fname">${esc(f.name)}</div>`;
     list.appendChild(e);
@@ -675,9 +685,10 @@ function getPersons(file) {
     const ln = el.localName;
     if (ln !== 'person' && ln !== 'personGrp') continue;
     result.push({
-      xid:  el.getAttributeNS(XML_NS, 'id') || '',
-      name: el.getElementsByTagNameNS(TEI, 'persName')[0]?.textContent?.trim() || '',
-      sex:  el.getElementsByTagNameNS(TEI, 'sex')[0]?.getAttribute('value') || 'UNKNOWN',
+      xid:     el.getAttributeNS(XML_NS, 'id') || '',
+      name:    el.getElementsByTagNameNS(TEI, 'persName')[0]?.textContent?.trim() || '',
+      sex:     el.getElementsByTagNameNS(TEI, 'sex')[0]?.getAttribute('value') || 'UNKNOWN',
+      hasSexEl: !!el.getElementsByTagNameNS(TEI, 'sex')[0],
       type: ln,
       el,
     });
@@ -1144,6 +1155,44 @@ function renderSpeakersColumn(file) {
       ok.className = 'sp-ok';
       ok.innerHTML = `✓ <span>${esc(nameMap.get(id))}</span>`;
       item.appendChild(ok);
+
+      // Co-speaker toggle button
+      const others = persons.filter(p => p.xid !== id);
+      if (others.length) {
+        const coBtn = document.createElement('button');
+        coBtn.className = 'co-btn';
+        coBtn.textContent = '⊕';
+        coBtn.title = 'Add a co-speaker to these speeches';
+
+        const coPanel = document.createElement('div');
+        coPanel.className = 'co-panel';
+        coPanel.style.display = 'none';
+
+        const coSel = document.createElement('select');
+        coSel.className = 'merge-sel';
+        coSel.innerHTML = `<option value="">— add co-speaker —</option>` +
+          others.map(p => `<option value="${esc(p.xid)}">${esc(p.name || p.xid)}</option>`).join('');
+
+        const coGo = document.createElement('button');
+        coGo.className = 'merge-go';
+        coGo.textContent = 'Add';
+        coGo.onclick = () => {
+          const newId = coSel.value;
+          if (!newId) return;
+          addCoSpeaker(file, id, newId);
+        };
+
+        coPanel.appendChild(coSel);
+        coPanel.appendChild(coGo);
+        item.appendChild(coBtn);
+        item.appendChild(coPanel);
+
+        coBtn.onclick = () => {
+          const open = coPanel.style.display !== 'none';
+          coPanel.style.display = open ? 'none' : 'flex';
+          coBtn.textContent = open ? '⊕' : '✕';
+        };
+      }
     } else {
       // best-guess merge target: person whose id starts with this id, or vice-versa
       const bestGuess = persons.find(p => p.xid.startsWith(id) || id.startsWith(p.xid));
@@ -1293,6 +1342,19 @@ function mergeSpeakerWho(file, fromId, toId) {
   deletePerson(file, fromId);
 
   file.mergeHistory.push(record);
+}
+
+function addCoSpeaker(file, existingId, newId) {
+  _invalidateSpeakers(file);
+  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
+    const who = sp.getAttribute('who') || '';
+    const ids = who.split(/\s+/).filter(Boolean);
+    if (!ids.some(w => w.replace(/^#/, '') === existingId)) continue;
+    if (ids.some(w => w.replace(/^#/, '') === newId)) continue;
+    sp.setAttribute('who', [...ids, '#' + newId].join(' '));
+  }
+  markModified(file);
+  renderSpeakersColumn(file);
 }
 
 function undoLastMerge(file) {
