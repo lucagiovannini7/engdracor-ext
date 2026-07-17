@@ -7,15 +7,15 @@
 <extent>54,[4]p. ; 12⁰.</extent><publicationStmt><publisher>printed by W. Spotswood, for the United Company of Booksellers,</publisher><date>1775.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>The sheets were also issued with a titlepage omitting the printer's name.</note><note>With an epilogue.</note><note>With a final leaf of advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT30840.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>CLEONICE, PRINCESS of BITHYNIA: A TRAGEDY.</p>
 <p>As it is performed at the THEATRE ROYAL IN COVENT-GARDEN.</p>
 <p>BY JOHN HOOLE.</p>
 <p>DUBLIN: PRINTED BY W. SPOTSWOOD, FOR THE UNITED COMPANY OF BOOKSELLERS.</p>
 <p>MDCCLXXV.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Written by THOMAS VAUGHAN, <abbr>Esq</abbr></byline>
@@ -63,8 +63,8 @@ No sun he fears—but courts its warmest ray</l>
 <l>Let <hi>Candour</hi> then proceed to try the cause,</l>
 <l>That <hi>Magna Charta</hi> of dramatic laws!</l>
 </lg>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <head>PROLOGUE.</head>
 <byline>Written by a Friend, to have been spoken in the character of the Tragic Muse.</byline>
 <p>Designed for Mrs. BARRY.</p>
@@ -133,8 +133,8 @@ No sun he fears—but courts its warmest ray</l>
 <l>The Palm I have deposited with you,</l>
 <l>And trust your hearts to give it where 'tis due.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -154,16 +154,15 @@ No sun he fears—but courts its warmest ray</l>
 <item><label>ARSINOE, <hi>Daughter to Teramenes,</hi></label> Miss DAYES.</item>
 </list>
 <p>Guards, Attendants, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, <hi>a city on the frontiers of</hi> Bithynia, <hi>and the country adjacent.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>CLEONICE: A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a gallery.</stage></head>
 <stage>TERAMENES, AGENOR.</stage>
 <sp>
@@ -687,11 +686,11 @@ Begun, shall not enrich a stranger's hand,</l>
 <l>But fall the harvest of Orontes' sword.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>A garden, with palm-trees, olives, and other Eastern plants.</stage></head>
 <sp>
 <speaker>CLEONICE,</speaker>
@@ -1071,8 +1070,8 @@ May to Orontes yield her plighted faith!</l>
 <l>And love with endless rapture crown Pharnaces!</l>
 </sp>
 <stage>[Exeunt severally.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a gallery.</stage></head>
 <stage><hi>Enter</hi> LYCOMEDES <hi>and</hi> TERAMENES.</stage>
 <sp>
@@ -1176,11 +1175,11 @@ I smother'd in my breast the flame of hatred;</l>
 <l>Of Lycomedes, when Polemon fell!</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a private apartment.</stage></head>
 <stage><hi>Enter</hi> CLEONICE <hi>and</hi> ARSINOE.</stage>
 <sp>
@@ -1284,8 +1283,8 @@ I smother'd in my breast the flame of hatred;</l>
 </sp>
 <stage>[Exit.</stage>
 <pb n="26" facs="25"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>a ball.</stage></head>
 <stage><hi>Enter</hi> Lycomedes, Teramenes, <hi>and</hi> Orontes.</stage>
 <sp>
@@ -1681,8 +1680,8 @@ Shall sttike the altar on the forest's edge</l>
 <l>Fly to redeem our fame, and save a father!</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>another apartment.</stage></head>
 <stage><hi>Enter</hi> Orontes <hi>and</hi> Zopyrus.</stage>
 <sp>
@@ -1778,12 +1777,12 @@ Shall sttike the altar on the forest's edge</l>
 <l>That leads the daring wind to fame and empire.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="34" facs="33"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>An open place in the city.</stage></head>
 <sp>
 <speaker>Orontes</speaker>
@@ -2132,8 +2131,8 @@ Fly not—behold, he bleeds!—see there the dread</l>
 <l>That blows the smother'd flame of deep revenge!</l>
 </sp>
 <stage>[Exeunt, the procession going off in order.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>a private apartment.</stage></head>
 <stage><hi>Enter</hi> Orontes <hi>and</hi> Zopyrus.</stage>
 <sp>
@@ -2210,8 +2209,8 @@ Found on the vestments of the slain unknown,</l>
 <l>Be hush'd for ever in Pharnaces' blood.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the camp of Artabasus.</stage></head>
 <stage><hi>Enter</hi> Artabasus <hi>and</hi> Pharnaces.</stage>
 <sp>
@@ -2366,11 +2365,11 @@ With all a father's feelings—every God</l>
 <l>Assert the common rights of all mankind.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>An apartment on the summit of a tower, commanding a prospect of the fields without the walls. Two urns on two pedestals.</stage></head>
 <sp>
 <speaker>Cleonice,</speaker>
@@ -2591,8 +2590,8 @@ They thunder'd thro' the gates, at which dire moment</l>
 <l>And end a father's and a daughter's woes!</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>an open place in the city.</stage></head>
 <stage><hi>Enter</hi> Artabasus, Barzanes, <hi>and Soldiers.</hi></stage>
 <sp>
@@ -2808,8 +2807,8 @@ Of base assassination, that the wiles</l>
 <l>Then close our eyes in peace, and rest for ever!</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>a grove of palm trees, with the temple of Mars discovered at a distance.</stage></head>
 <stage>(Clashing of swords.)</stage>
 <stage><hi>Enter</hi> Orontes <hi>retreating before</hi> Pharnaces, <hi>a party of</hi> Orontes <hi>driven off by the soldiers of</hi> Pharnaces.</stage>
@@ -3069,12 +3068,11 @@ The dazzling meteor that misled thy youth,</l>
 <l>Thy private hours, to watch thy people's weal,</l>
 <l>And share, like Heaven, thy happiness with all.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="54"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. BULKLEY.</byline>
@@ -3134,8 +3132,8 @@ The dazzling meteor that misled thy youth,</l>
 <l>And I'll be surety for his good behaviour.</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <head><pb facs="56"/>
 Just Published,</head>
 <list>
@@ -3146,7 +3144,7 @@ Just Published,</head>
 <item>THE RIVALS; A COMEDY.</item>
 <item>THE MAID OF THE OAKS; <hi>A New Dramatic Entertainment.</hi></item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

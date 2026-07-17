@@ -7,19 +7,19 @@
 <extent>[8],90,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1785.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and an epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT66837.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>Fashionable Levities, A COMEDY.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>Fashionable Levities, A COMEDY.</p>
 <p>IN FIVE ACTS.</p>
 <p>BY LEONARD MACNALLY, ESQ.</p>
 <p>LONDON: Printed for G. G. J. and J. ROBINSON, PATER-NOSTER-ROW. 1785.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO THE RIGHT HONOURABLE The Countess of SALISBURY.</head>
 <opener><salute>MY LADY,</salute></opener>
@@ -28,8 +28,8 @@
 <signed>With the greatest Respect, Your Ladyship's most obedient And most humble Servant, LEONARD MAC NALLY.</signed>
 <dateline><hi>Temple</hi>
 <date><hi>April</hi> 29, 1785.</date></dateline></closer>
-</div1>
-<div1 type="poem">
+</div>
+<div type="poem">
 <pb facs="4"/>
 <head>On seeing Miss YOUNGE in the Character of Lady FLIPPANT SAVAGE.</head>
 <l>THE two scenic Muses had long kept a distance,</l>
@@ -55,8 +55,8 @@
 <l>To YOUNGE who can each diff'rent passion impart,</l>
 <l>Who <hi>pleases</hi> the <hi>judgement,</hi> but <hi>conquers</hi> the <hi>heart,</hi></l>
 <l>And <hi>guided</hi> by NATURE, is <hi>followed</hi> by ART.</l>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE To FASHIONABLE LEVITIES.</head>
 <byline>Written by <hi>Mr. CHALMERS.</hi></byline>
@@ -105,8 +105,8 @@
 <l>And if to-night no merit we can claim,</l>
 <l>The want of <hi>power,</hi> not <hi>will,</hi> deserves the blame!</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -130,16 +130,15 @@
 <item><label>LADY FLIPPANT SAVAGE,</label> Miss Younge.</item>
 </list>
 <p>{inverted ⁂} <hi>Those lines which are within inverted commas, are omitted by the performers in the representation.</hi></p>
-</div1>
+</div>
 <set><p>SCENE, BATH: Time, One Day.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>Fashionable Levities.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>Lady Flippant Savage's Dressing-Room.</stage></head>
 <stage><hi>Enter</hi> GRACE <hi>and Mrs.</hi> MUSLIN.</stage>
 <sp>
@@ -910,12 +909,12 @@ to promotion-—so finding carpet soldiers like you promoted over his head, he w
 </sp>
 <stage>Exit.</stage>
 <trailer>End of the First Act.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="26"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>A Chamber.</hi></stage></head>
 <stage><hi>Lady</hi> FLIPPANT <hi>and</hi> WELFORD, <hi>seated.</hi></stage>
 <sp>
@@ -1185,8 +1184,8 @@ and kissing—am I in a habit of constitution for kissing?</p>
 <p>Now to deliver my poor distressed swain from confinement.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Another Apartment.</hi></stage></head>
 <stage>WELFORD <hi>and</hi> GRACE <hi>discovered.</hi></stage>
 <sp>
@@ -1306,8 +1305,8 @@ Dear ma'am you can't think how the gentleman has been praising your ladyship's c
 <p>Order chairs, and tell my sister I'll attend her to—Devil take the fellow, yet I admire him for his impudence.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Ordeal's Study.</stage>
 <stage><hi>Enter</hi> NICHOLAS <hi>and</hi> DOUGLAS, <hi>disguised in a shabby Highland Dress.</hi></stage>
@@ -1868,13 +1867,13 @@ but here, here, step out and get yourself new rigged—
 <p>But you, you sirrah, if ever you let those women enter my doors again, out you go—oh, what a fierce beast, and a perilous enemy to the commonwealth, is a wicked woman.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the</hi> SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="37" facs="43"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter Lady</hi> FLIPPANT SAVAGE <hi>and</hi> GRACE.</stage>
 <sp>
@@ -2324,8 +2323,8 @@ Silence, all is well.—Sir Buzzard you see found the cloaths I ordered Mrs. Mus
 <p>Well thought on,—my Lady's no fool, but she must be a great fool indeed, who could not make a fool of a husband.</p>
 </sp>
 <stage><hi>Exit</hi> Grace.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II,—<stage><hi>Ordeal's House.</hi></stage></head>
 <stage><hi>Enter</hi> NICHOLAS <hi>and</hi> CLARA.</stage>
 <sp>
@@ -2742,13 +2741,13 @@ I obey, Sir.
 <p>In the morning—I have had a special licence sometime—yes, she loves me—I know she loves me—and soon as we have dined, I will go to Sir Buzzard's, to engage him and his friends to attend the ceremony. In the mean time you must try the experiment—come-in to dinner, and I'll give you further instructions.</p>
 </sp>
 <stage><hi>Exeunt</hi> Ordeal <hi>and</hi> Douglas.</stage>
-</div3>
+</div>
 <trailer><hi>End of the</hi> THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="52" facs="58"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Sir Buzzard's.</hi></stage></head>
 <stage><hi>Enter Sir</hi> BUZZARD <hi>and</hi> CHEATERLY. <hi>Sir Buzzard in Welford's Cloaths.</hi></stage>
 <sp>
@@ -2930,8 +2929,8 @@ shall I have the honor of your hand, Madam?</p>
 <p>Carry her off any way and I will be satisfied.—
 <stage><hi>Exit</hi> Sir Buzzard.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>A Grotto: Constance discover'd sitting, sleeping, with a handkerchief overher face—a book near her.</hi></stage></head>
 <stage><hi>Enter</hi> CHEATERLY.</stage>
 <sp>
@@ -3449,8 +3448,8 @@ your situation—"Lord bless us!"—ejaculates Lady Toothless, "I wonder at her 
 <p>Yes, Muslin, all good actresses are not upon the stage.</p>
 </sp>
 <stage><hi>Exeunt</hi> Lady Flippant <hi>and</hi> Muslin.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="66" facs="72"/>
 <head>SCENE III. <stage><hi>Ordeal's House.</hi></stage></head>
 <stage><hi>Enter</hi> DOUGLAS, CLARA, <hi>and</hi> NICHOLAS.</stage>
@@ -3669,13 +3668,13 @@ you not been urging the temptations of pleasure to seduce her into your own desi
 <p>You are right;—take your bride by the hand;—the women will laugh at me for losing her, but I am above the laugh of the world, and I will laugh at the world in my turn,—that is my way.—
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the</hi> FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="71" facs="77"/>
 <head>ACT. V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>Lady Flippant's Dressing Room.</stage></head>
 <stage><hi>Enter</hi> LADY FLIPPANT.</stage>
 <sp>
@@ -4037,8 +4036,8 @@ but do you believe my repentance sincere?</p>
 <p>Yes, and am convinc'd you are no false prophet; for, as you foretold, Clara preferred the summer dimples of youth to the winter wrinkles of age,—I speak my mind, that is my way.</p>
 </sp>
 <stage><hi>Exeunt</hi> Ordeal <hi>and</hi> Lady Flippant.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Mrs. Muslin's.</hi></stage></head>
 <stage><hi>The</hi> WIDOW, <hi>Mrs.</hi> MUSLIN, <hi>and</hi> WELFORD, <hi>discovered at Tea.</hi></stage>
 <sp>
@@ -4634,13 +4633,12 @@ How, Sir, can I repay your generosity?</p>
 <p>Laugh at me as long as you please, but had I married Clara, the laugh would have been still stronger against me;—the Scot has done right, and the girl has done right,—the mutual inclination of two virtuous souls, cannot but render them more virtuous;—the inhabitants of countries united by nature and policy should take every opportunity of strengthening the connexion;—I see you all think as I do!—and here I hope we shall also meet approbation.</p>
 </sp>
 <stage>(<hi>Bowing to the audience.</hi>)</stage>
-</div3>
+</div>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="99"/>
 <head>EPILOGUE To FASHIONABLE LEVITIES.</head>
 <byline>(As spoken by Miss YOUNGE.)</byline>
@@ -4691,8 +4689,7 @@ How, Sir, can I repay your generosity?</p>
 <l>Who knows no Levities, but feels for yours.</l>
 </sp>
 <p><hi>Those lines which are not marked with inverted commas, were taken from an epilogue written by Mr. Norris, for the author of the comedy.</hi></p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

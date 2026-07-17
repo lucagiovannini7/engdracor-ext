@@ -7,7 +7,7 @@
 <extent>6,40p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Dodsley, L. Davis, W. Owen, S. Crowder, T. Longman [and 3 others in London, including Newbery],</publisher><date>1779.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the Huntington Library.</note><note>English Short Title Catalog, ESTCN36616.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>Who's the Dupe? A FARCE: As it is ACTED at the THEATRE-ROYAL IN
 DRURY-LANE.</p>
@@ -15,8 +15,8 @@ DRURY-LANE.</p>
 <p>LONDON: Printed for J. DODSLEY, L. DAVIS, W. OWEN, S. CROWDER, T.
 LONGMAN, T. CADELL, T. BECKET, and Messrs. CARNAN and NEWBERY.
 MDCCLXXIX.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE Reader will find Passages in the following Scenes, which
@@ -39,8 +39,8 @@ representation, yet she cannot omit expressing her particular
 obligations to Mr. King, for accepting, from the best motives, and in the
 most polite and candid manner, a part not perfectly agreeable to himself,
 but which owes its effect principally to his performance.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>CHARACTERS OF THE DRAMA.</head>
 <list>
 <head>MEN.</head>
@@ -60,8 +60,8 @@ but which owes its effect principally to his performance.</p>
 <label>CHARLOTTE</label>
 <item>Mrs. <hi>Wrighten</hi></item>
 </list>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <p>[The AUTHOR was disappointed of a promised
 <hi>Prologue</hi>—The following was sketched the evening previous to
@@ -134,13 +134,13 @@ explanation of the principal idea on which the plot was formed.]</p>
 <l>For Pleasure ever on the beat,</l>
 <l>And <hi>roasted</hi> SQUARE CAPS—think a treat.</l>
 </lg>
-</div1>
+</div>
 </front>
 <body>
 <head> <pb facs="6"/>WHO'S THE DUPE?</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>the Park.</stage></head>
 <stage>Flower Girls, and several persons passing.</stage>
 <sp>
@@ -331,8 +331,8 @@ explanation of the principal idea on which the plot was formed.]</p>
  means to address a Nymph of King's-Place.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="5" facs="10"/>
 <head><stage>An Apartment at Mr. DOILEY's.</stage></head>
 <stage>Mr. and Miss DOILEY at Breakfast.</stage>
@@ -515,8 +515,8 @@ explanation of the principal idea on which the plot was formed.]</p>
  'em all in building hospitals for lazy Lacquies, and decay'd Pimps.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>a Dressing-Room.</stage></head>
 <stage>Miss DOILEY and GRANGER.</stage>
 <sp>
@@ -1200,12 +1200,12 @@ explanation of the principal idea on which the plot was formed.]</p>
  <hi>raise</hi> him to the point, without turning <hi>over</hi> it.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>An Apartment.</stage></head>
 <stage>DOILEY asleep. A Table before him, with Bottles,
 <hi>&amp;c.</hi></stage>
@@ -1252,8 +1252,8 @@ explanation of the principal idea on which the plot was formed.]</p>
  Son-in-law as wise as a Chancellor, may bid defiance to wind and weather.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>a Drawing-Room.</stage></head>
 <stage>Enter GRADUS, led by CHARLOTTE, and followed by Mr.
 SANDFORD.</stage>
@@ -2294,10 +2294,9 @@ SANDFORD.</stage>
  a Tutor to teach me to read the World; and if I play my part there as well as I
  did at Brazen-Nose, your indulgence will grant me applause.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 </text>
-
 </TEI>

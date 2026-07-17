@@ -7,12 +7,12 @@
 <extent>36p. ; 12⁰.</extent><publicationStmt><publisher>printed for J. Exshaw, and M. Williamson,</publisher><date>1753.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT46678.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p><pb facs="2" ana="y"/>
 THE REHEARSAL: OR, BAYS in PETTICOATS. A COMEDY In Two ACTS.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE REHEARSAL: OR, BAYS in PETTICOATS.</p>
 <p>A COMEDY In Two ACTS.</p>
@@ -20,15 +20,15 @@ THE REHEARSAL: OR, BAYS in PETTICOATS. A COMEDY In Two ACTS.</p>
 <p>Written by Mrs. CLIVE.</p>
 <p>The MUSIC composed by Dr. BOYCE.</p>
 <p>DUBLIN: Printed for J. EXSHAW, and M. WILLIAMSON, M, DCC, LIII.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="4"/>
 <head>ADVERTISEMENT.</head>
 <p>THIS little Piece was written above three Years since, and acted for my Benefit.—The last Scene was an Addition the Year after. Whatever Faults are in it, I hope, will be pardoned, when I inform the Public, I had at first no Design of printing it; and do it now at the Request of my Friends, who (as it met with so much Indulgence from the Audience) thought it might give some Pleasure in the reading.—The Songs were written by a Gentleman.</p>
 <p>I take this Opportunity to assure the Public, I am, with great Gratitude and Respect,</p>
 <closer><signed>Their most Obliged, Humble Servant, C. CLIVE.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>PERSONS.</head>
 <list>
@@ -66,13 +66,13 @@ THE REHEARSAL: OR, BAYS in PETTICOATS. A COMEDY In Two ACTS.</p>
 <label>MARCELLA,</label>
 <item>Mrs. CLIVE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <pb facs="6"/>
 <head>THE REHEARSAL: OR, BAYS in PETTICOATS.</head>
-<div2 type="scene">
+<div type="scene">
 <head type="sub">SCENE I.</head>
 <stage>A Dressing-Room in Mrs. <hi>HAZARD'S</hi> House.</stage>
 <stage><hi>(GATTY</hi> preparing the Toylet.)</stage>
@@ -450,9 +450,9 @@ act best. I have been a great Sufferer already, by the Manager's not doing Justi
 <speaker>WITLING.</speaker>
 <p>Very well, Mame, and I shall be in the Pit the first Night; remember that.—Come, give me your Hand, however. <stage>(Exeunt.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="21" facs="20"/>
 <head>ACT II.</head>
 <head type="sub">SCENE, <stage>The Play-house.</stage></head>
@@ -957,7 +957,7 @@ the Trouble of doing it for her. Come, Ladies, will you go? I'll see you to your
 </sp>
 <stage>A DANCE.</stage>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

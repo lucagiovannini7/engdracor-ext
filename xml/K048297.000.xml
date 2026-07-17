@@ -7,13 +7,13 @@
 <extent>[4],35,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J and J. Robinson,</publisher><date>1788.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53738.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE PRISONER AT LARGE: A COMEDY. IN TWO ACTS. AS PERFORMED AT THE THEATRE ROYAL IN THE HAY-MARKET, WITH UNIVERSAL APPLAUSE.</p>
 <p>Written by JOHN O'KEEFFE, AUTHOR OF TONY LUMPKIN IN TOWN; THE SON-IN-LAW; THE DEAD ALIVE; THE AGREEABLE SURPRISE; THE POSITIVE MAN; THE CASTLE OF ANDALUSIA; THE YOUNG QUAKER; THE BIRTH-DAY, OR THE PRINCE OF ARRAGON; THE POOR SOLDIER; PEEPING TOM; FONTAINBLEAU, OR OUR WAY IN FRANCE; THE BEGGAR ON HORSEBACK; OMAI; LOVE IN A CAMP, OR PATRICK IN PRUSSIA; SIEGE OF CURZOLA; THE FARMER, &amp;c. &amp;c. &amp;c.</p>
 <p>LONDON: Printed for G. G. J. and J. ROBINSON, Paternoster-Row. M DCC LXXXVIII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO Mr. EDWIN.</head>
 <opener><salute>DEAR SIR,</salute></opener>
@@ -21,8 +21,8 @@
 <p>With the most sincere Wishes that you, in the successful Pursuit of your Profession, may long continue, as you are, the Delight of the Public, and the highest Respect for your Talents,</p>
 <closer><signed>I am, Dear SIR, Your much obliged and very humble Servant, JOHN O'KEEFFE.</signed>
 <dateline><date>August 11th, 1788.</date> Margaret Street, Westminster.</dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -46,16 +46,15 @@
 <item><label>MARY,</label> <hi>Miss COLLETT.</hi></item>
 </list>
 <p>Servants, Peasants, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE <hi>in the West of Ireland.</hi> Time—A Night and Morning.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE PRISONER AT LARGE: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I. <stage><hi>A Garden to Lord</hi> ESMOND<hi>'s House, a Gate in the Back leading to the Road.</hi></stage></head>
 <stage><hi>Enter</hi> FRILL <hi>and</hi> MUNS, <hi>quarrelling;</hi> MARY <hi>interposing.</hi></stage>
 <sp>
@@ -335,8 +334,8 @@ to night—the Count and I'll take a bed where we can—some of the tenants—</
 <p>Come, we must have no more thoughts of dead lovers:—you shall hear my living lover rattle, court, and sing at our little party; we'll be so jolly.—Come along.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a fine Country. Sun going down. Lord</hi> ESMOND<hi>'s House at a Distance; at the Side</hi> JACK CONNOR<hi>'s House.</hi></stage></head>
 <stage><hi>Enter Lord</hi> ESMOND <hi>(plainly dress'd),</hi> TRAP <hi>and</hi> SERVANT.</stage>
 <sp>
@@ -479,8 +478,8 @@ to night—the Count and I'll take a bed where we can—some of the tenants—</
 </sp>
 <stage>Exit.</stage>
 <pb n="9" facs="12"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in Lord</hi> ESMOND<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> FRILL.</stage>
 <sp>
@@ -523,9 +522,9 @@ to night—the Count and I'll take a bed where we can—some of the tenants—</
 <p>And I'll make Tooten the black, my pupil, prepare his horn.—Oh, how sweetly we play'd on the water yesterday!—They may talk of fine views, and vistos, and beauties of nature; but 'tis to hear the divine echos of my horn, that brings the gentlefolks all the way from Cork, and even Dublin, down here to the lake of Killarney. But now for supper.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
+</div>
 <pb n="10" facs="13"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a Hall.</hi></stage></head>
 <stage>MUNS <hi>and</hi> MARY <hi>placing tables and a screen between.</hi></stage>
 <sp>
@@ -938,8 +937,8 @@ and servants are so attentive to render it agreedable!—Muns! <stage>(calls)</s
 <p>Stop the fellow—thieves—</p>
 </sp>
 <stage>(runs out after him.)</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>another Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> MARY.</stage>
 <sp>
@@ -996,8 +995,8 @@ the haunted room; as he don't know on't he won't be afraid, and if the ghost wal
 <p>Ah! how loving these women are, when they stand in need of our protection. Hem! <stage>(swaggers)</stage> Eh! bless me! tol, lol, lol.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>an antique Apartment. A Lady's Picture hanging over the Chimney.</hi></stage></head>
 <stage><hi>Enter</hi> MUNS <hi>and</hi> MARY, <hi>with lights, introducing Lord</hi> Esmond.</stage>
 <sp>
@@ -1120,12 +1119,12 @@ The dead of night seems very awful in these antique mansions.—This room was, I
 </sp>
 <stage><hi>Exit Lord</hi> Esmond <hi>to the recess.</hi></stage>
 <trailer>END OF ACT I</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="23"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Open Country, before a publick Inn, sign of the Shoulder of Mutton.</hi></stage></head>
 <stage><hi>Enter</hi> MUNS, <hi>his horn round his neck, and box under his arm.</hi></stage>
 <sp>
@@ -1228,8 +1227,8 @@ The dead of night seems very awful in these antique mansions.—This room was, I
 <p>That I am, Sir, either bak'd or roasted.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a Room in the Inn.</hi></stage></head>
 <stage><hi>Enter Lord</hi> ESMOND <hi>and</hi> LANDLORD.</stage>
 <sp>
@@ -1476,8 +1475,8 @@ tutor'd my valet to play his part of my jailor.—Now Trap will help me without 
 <p>Make me steward! Oh, my Lord, I shall grow mad with joy!—Clear the way there for his lordship.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>JACK CONNER'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> JACK CONNER <hi>and</hi> PHELIM.</stage>
 <sp>
@@ -1865,8 +1864,8 @@ word of a bride, I had no notion of marriage,—but as you desired it, I complie
 <p>Ha, ha, ha! I'm so pleas'd. Jack, if you ev'n have my lamb, keep it, and let your lamb carve it for the wedding-day supper.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Lord <hi>ESMOND</hi>'s House.</stage></head>
 <stage>Enter <hi>MARY,</hi> and taps at the door.</stage>
 <sp>
@@ -2073,10 +2072,9 @@ at our last parting! If he should be still alive! Oh transport!</p>
 <speaker>Ld. <hi>Esm.</hi></speaker>
 <p>My ruin, I hope, will teach our nobility, instead of travelling to become the dupes of foreign sharpers, to stay at home and spend their fortunes amongst their honest tenants, who support their splendour—Trap, you have been long my gaoler, now I'll be yours;—but liberty shall be your punishment—hospitality the lock of my prison—and honest Muns my turnkey, to give a welcome to the kind friend, social neighbour, and, above all, the stranger in distress.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

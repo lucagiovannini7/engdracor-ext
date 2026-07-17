@@ -7,7 +7,7 @@
 <extent>[4],95,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by G. Woodfall, for T.N. Longman,</publisher><date>1795.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53737.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>LIFE'S VAGARIES, A COMEDY, IN FIVE ACTS. AS PERFORMED AT THE THEATRE-ROYAL, COVENT-GARDEN.</p>
 <p>WRITTEN BY <hi>JOHN O'KEFFE,</hi> Author of Tony Lumpkin in Town; The Son in Law; The Dead Alive; Agreeable Surprize; Fontainbleau, or Our Way in France: The Positive Man; The Poor Soldier; Love in a Camp, or Patrick in Prussia; The Farmer; The Castle of Andalusia; The Young Quaker; Beggar on Horseback; Peeping Tom; The Prisoner at Large; The Toy, or Hampton Court Frolicks; Wild Oats, or The Strolling Gentleman; Little Hunchback; The Siege of Curzola; Modern Antiques, or The Merry Mourners; The Highland Reel; Birth Day, or Prince of Arragon; Sprigs of Laurel; The World in a Village; The London Hermit, or Rambles in Dorsetshire; The Irish Mimick, or Blunders at Brighton, &amp;c. &amp;c. &amp;c.</p>
@@ -16,8 +16,8 @@
 <l>It's tenure sure; it's income is divine.</l>
 <bibl>YOUNG.</bibl>
 <p><hi>LONDON:</hi> PRINTED BY G. WOODFALL, FOR T. N. LONGMAN, PATERNOSTER-ROW. 1795.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE,</head>
 <byline>WRITTEN BY MR. TAYLOR,</byline>
@@ -62,8 +62,8 @@
 <l>Gave vice the deepest wounds when most she smil'd.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>PERSONS OF THE DRAMA.</head>
 <list>
@@ -89,16 +89,15 @@
 <item><label>LANDLADY</label> <hi>Mrs. Platt.</hi></item>
 </list>
 <p>TRADESMEN, and SERVANTS.</p>
-</div1>
+</div>
 <set><p>SCENE.—<hi>A Town, and adjacent Country near the Coast.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>LIFE'S VAGARIES, A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Parlour in</hi> DICKINS'S; <hi>Breakfast things laid.</hi></stage></head>
 <stage><hi>Enter</hi> SIR HANS BURGESS, <hi>and</hi> ROBIN.</stage>
 <sp>
@@ -275,8 +274,8 @@
 <p>Ay! that you and I may be hand and purse.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>A Chamber in</hi> LORD TORRENDEL'S <hi>Castle.</hi></stage></head>
 <stage><hi>Lnter</hi> LORD TORRENDEL, <hi>and</hi> L'OEILLET, <hi>adjusting his dress.</hi></stage>
 <sp>
@@ -534,8 +533,8 @@
 <p>Two guinea! very polite! he vant ma protection. In his Lordship's service I have been but four year, yet have sav'd two thousand guinea; the guinea flow to my coffer in many channel. My Lor fancy watch, trinket to present as decoy to Lady, I buy at ten guinea, charge him twenty. I wink at de tradesman's bill, ven paid he slip me de guinea:—if tenant want lease renewed, I speak to my Lor, tenant mé donne the guinea. De maitre tink we be dere servants, but when we have got into de love-secret, pardi! den de maitre become servant to de valet de chambre.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>A Room in an Inn.</hi></stage></head>
 <stage><hi>Enter Landlady, introducing</hi> AUGUSTA.</stage>
 <sp>
@@ -863,13 +862,13 @@
 <p>For—hem! only Sir—I'm afraid, our luggage will break down the landlady's stair-case. "And there was three travellers— travellers three."</p>
 </sp>
 <stage>Exeunt, Timolin, singing.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="19" facs="22"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Before the Castle.</hi></stage></head>
 <stage><hi>Enter</hi> LORD TORRENDEL.</stage>
 <sp>
@@ -1308,8 +1307,8 @@
 <p>Come, old hock's the word.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="28" facs="31"/>
 <head>SCENE II. <stage>LORD ARTHUR'S <hi>lodgings. New cloaths, linen, saddle, hat,</hi> &amp;c. <hi>lying on chairs.</hi></stage></head>
 <stage><hi>Enter</hi> TIMOLIN.</stage>
@@ -1568,8 +1567,8 @@
 <stage>(<hi>Arthur gives him a stroke.</hi>)</stage>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>A Gallery in Lord Torrendel's hung with whole length Pictures of Women.</hi></stage></head>
 <stage><hi>Enter</hi> LORD TORRENDEL, <hi>and</hi> L'OEILLET.</stage>
 <sp>
@@ -1824,13 +1823,13 @@ When the tongue gives you words unkind,</l>
 <stage>(<hi>bursts into tears</hi>)</stage>
 </sp>
 <stage>exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="39" facs="42"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Street.</hi></stage></head>
 <stage><hi>Enter</hi> SIR HANS BURGESS.</stage>
 <sp>
@@ -2263,8 +2262,8 @@ When the tongue gives you words unkind,</l>
 <p>A pity that Christians hav'n't a laughing and crying side to their faces; for, in a comfortabe fit of sorrow, up starts something to give us an he, he, he! and when the mouth's opened for a nice grin, up goes the finger in the eye with an ho, ho, ho!—but my face must take the humour and fortunes of my master; in the road of life the small must follow the great, and that's the reason the big coach-wheel runs after the little one.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="48" facs="51"/>
 <head>SCENE II.—<stage><hi>The Inn.</hi></stage></head>
 <stage><hi>Enter Landlady, introducing</hi> LADY TORRENDEL, <hi>and</hi> MISS CLARE.</stage>
@@ -2460,8 +2459,8 @@ When the tongue gives you words unkind,</l>
 <p>My good friend! a thousand thanks! I'm charm'd with your zeal. Yes, it is my wish; what! Martha will convey me privately into the Castle? delightful! I think none of his servants know me here, but his French Secretary. Write to me by a servant! not open my Letters! unkind! ungrateful! but then, to steal upon him, its a severe trial—I'm faint! but I must summon fortitude! they'll see I've been weeping; come—</p>
 </sp>
 <stage>Excunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi><stage> Dickins's parleur: large books lying on the table.</stage></head>
 <stage><hi>Enter</hi> JOHN, <hi>and</hi> TRADESMEN.</stage>
 <sp>
@@ -2704,13 +2703,13 @@ When the tongue gives you words unkind,</l>
 <p>Oh! what a bright model for my son George!</p>
 </sp>
 <stage>Exeunt all, Constable with Timolin.</stage>
-</div3>
+</div>
 <trailer>END OF ACT THE THIRD.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="58" facs="61"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>An antique Room in the Castle.</hi></stage></head>
 <stage><hi>Enter Constable, and</hi> L'OEILLET, <hi>pushing in</hi> TIMOLIN.</stage>
 <sp>
@@ -2874,8 +2873,8 @@ When the tongue gives you words unkind,</l>
 <p>B'y'r leave there for Mr. Felix Timolin.</p>
 <stage>(pushes him off, and exit.)</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A Street.</hi></stage></head>
 <stage><hi>Enter</hi> SIR HANS, <hi>and</hi> GEORGE.</stage>
 <sp>
@@ -3167,8 +3166,8 @@ When the tongue gives you words unkind,</l>
 <p>You're no Coachman, my friend you're a bailiff—they take all disguises.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi> <stage>A walk near Lord Torrendel's</stage></head>
 <stage><hi>Enter</hi> L'OEILLET.</stage>
 <sp>
@@ -3281,8 +3280,8 @@ When the tongue gives you words unkind,</l>
 <p>Pardi! dis is lucky—for now I vill do it myself. I vish tho' I cou'd meet vid dis maroufle, to hinder him meddle in de affair— dat malheureux Irish tief vill do me some mischief.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head><hi>SCENE IV.</hi>—<stage>A Road.</stage></head>
 <stage><hi>Enter</hi> TIMOLIN, and THOMAS, <hi>in Sir Hans's Livery.</hi></stage>
 <sp>
@@ -3506,13 +3505,13 @@ When the tongue gives you words unkind,</l>
 <p>Oh! if he discharges me, and comes once a day to give me a knock in my cheek, I'm to have a blessed life of it—tho' my honour wou'd not suffer me to take relief from this Miss Augusta, yet I'll try and get the reward from Mounseer. For, if I was to preach in a pulpit as high as Patrick's steeple, the ladies, and gentlemen, would be running after one another, and, till they give roast beef for nothing, to mere honesty, a guinea is convenient in an empty pocket.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="76" facs="79"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>Samphire hall: Sir Hans's, and other Houses:—A view of the Sea, bathing Machines, &amp;c.</hi></stage></head>
 <stage><hi>Enter Sir</hi> HANS, and ROBIN.</stage>
 <sp>
@@ -3851,8 +3850,8 @@ When the tongue gives you words unkind,</l>
 <p>Is this prudent, but no time for reflection, Arthur may be lost for ever.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>A parlour in Sir</hi> HANS'S.</stage></head>
 <stage><hi>Enter</hi> DICKINS.</stage>
 <sp>
@@ -4057,8 +4056,8 @@ When the tongue gives you words unkind,</l>
 <p>Yes, I heard Sir Hans brought her down here to marry George; a demure looking thing, she new better than to take the mad Lord, and I, myself to introduce her to my George; this is female friendship indeed, here's my friend's hat, and my friend's ribbands, oh that I had herself here.</p>
 </sp>
 <stage>Exit tearing the hat.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III; <hi>and last.—<stage>Sandgate Istland; one shattered house, and a few wretched cottages.</stage></hi></head>
 <stage><hi>Enter Lord</hi> ARTHUR.</stage>
 <sp>
@@ -4405,13 +4404,12 @@ When the tongue gives you words unkind,</l>
 <l>The outcast oh receive! your pardon give,</l>
 <l>And in your favour, let him happy live!</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>END.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="99"/>
 <list>
 <item>1. The DRAMATIST, a Comedy; by Mr. REYNOLDS. Price 1s. 6d.</item>
@@ -4434,8 +4432,7 @@ When the tongue gives you words unkind,</l>
 <item>18. CROTCHET LODGE, a Farce; by Mr. Hurlstone. Price 1s.</item>
 <item>19. The IRISHMAN IN LONDON, a Farce; by Mr. Mc. Cready. Price 1s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

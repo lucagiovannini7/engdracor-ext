@@ -7,21 +7,21 @@
 <extent>60p. ; 12⁰.</extent><publicationStmt><publisher>printed for J. Exshaw, H. Saunders, W. Sleater, D. Chamberlane, J. Potts [and 10 others in Dublin],</publisher><date>1772.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Altered by Richard Cumberland.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT50342.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>TIMON of ATHENS, Altered from SHAKESPEAR, A TRAGEDY. As it is ACTED at the Theatre-Royal in Drury-Lane.</p>
 <quote>Post hoc vehemens lupus.</quote>
 <p>DUBLIN: Printed for J. EXSHAW, H. SAUNDERS, W. SLEATER D. CHAMBERLANE, J. POTTS, J. HOEY, Jun. J. MITCHELL, J. WILLIAMS, W. COLLES. J. MILIKEN, J. A. HUSBAND, T. WALKER, R. MONCRIEFFE, W. WILSON. and C. JENKINS, M,DCC,LXXII.</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="2"/>
 <p><seg rend="decorInit">I</seg> Wish I could have brought this Play upon the Stage with less Violence to its Author, and not so much Responsibility on my own Part. New characters of necessity require some display. Many original passages of the first merit are still retained, and in the contemplation of them, my errors, I hope, will be overlooked or forgiven; In examining the Brilliancy of a Diamond, few people throw away any Remarks upon the dullness of the foil.</p>
 <closer><signed>Richard Cumberland.</signed></closer>
 <postscript>
 <p>N. B. The Lines within Commas are additional.</p>
 </postscript>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -83,13 +83,13 @@
 </list> </item>
 <item>Senators, Officers, Servants, Soldiers, &amp;c. &amp;c</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="5" facs="4"/>TIMON of ATHENS,</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT. I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE. I.</head>
 <stage>A HALL in TIMON's House.</stage>
 <stage>Enter <hi>Poet</hi> and <hi>Painter.</hi></stage>
@@ -265,8 +265,8 @@
 <l>To shew Lord <hi>Timon,</hi> that mean eyes have seen</l>
 <l>The foot above the head.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE. II.</head>
 <stage>Flourish of Trumpets. Timon attended by several Suitors Senators, Jeweller, Merchant, <hi>&amp;c. &amp;c.</hi> addressing himself courteously to every one.</stage>
 <sp>
@@ -581,8 +581,8 @@
 <l>And all the madness is he cheers them up too.</l>
 <l>I wonder, men dare trust themselves with men!</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE. III.</head>
 <stage>Enter <hi>Lucius</hi> and <hi>Lucullus.</hi></stage>
 <sp>
@@ -671,8 +671,8 @@
 <p>I'll keep you company.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>A magnificent assembly room, finely decorated and illuminated.</stage>
 <stage><hi>Timon, Alcibiades, Lucius, Lucullus,</hi> Senators and Suitors.</stage>
@@ -857,13 +857,13 @@
 <p>I scarce know how.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="14"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A publick place in the City.</stage>
 <stage>Enter a <hi>Senator.</hi></stage>
@@ -929,8 +929,8 @@
 <p>Go.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE, II.</head>
 <stage>An apartment in Timon's house.</stage>
 <stage><hi>Lucius</hi> and <hi>Evanthe,</hi></stage>
@@ -989,8 +989,8 @@
 <l>" To <hi>Timon</hi> bears, bear I to him. Farewel.</l>
 <stage>[Exit <hi>Evanthe.</hi>]</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE. III.</head>
 <stage><hi>Lucius</hi> and <hi>Lucullus.</hi></stage>
 <sp>
@@ -1060,8 +1060,8 @@
 <l>" But that I took up <hi>Jove's</hi> imperfect work,</l>
 <l>" Gave thee a shape, and made thee into man?</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Alcibiades</hi> to them.</stage>
 <sp>
@@ -1127,8 +1127,8 @@
 <l>" And free him from these harpies—Ha!
 <hi>Evanthe?</hi></l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>Alcibiades</hi> and <hi>Evanthe.</hi></stage>
 <sp>
@@ -1210,8 +1210,8 @@
 <l>" Frees you, and brings my father from the chace."</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V continues.</head>
 <stage>Enter <hi>Flavius</hi> with many bills in his hand.</stage>
 <sp>
@@ -1543,13 +1543,13 @@
 <l>Being free itself, it thinks all others so.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="26" facs="25"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Lucullus</hi>'s House in <hi>Athens.</hi></stage>
 <stage><hi>Flaminius</hi> waiting. Enter a servant to him.</stage>
@@ -1635,8 +1635,8 @@
 <l>To expel sickness, but prolong his hour!</l>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A Hall in <hi>Timon</hi>'s House.</stage>
 <stage>Evanthe, Flavius.</stage>
@@ -1715,8 +1715,8 @@
 <l>" Take it; get gold. Now I have nothing left.</l>
 <stage>[Exit <hi>Flaminius.</hi></stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>Evanthe</hi> and <hi>Lucius.</hi></stage>
 <sp>
@@ -1865,8 +1865,8 @@
 <l>" Oh! art thou fled? Thy infamy light on thee,</l>
 <l>" Unfeeling shameless villain.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Evanthe</hi> and <hi>Alcibiades.</hi></stage>
 <sp>
@@ -1932,8 +1932,8 @@
 <hi>Jove.</hi></l>
 <stage>[Exit <hi>Evanthe.</hi></stage>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Enter <hi>Varro, Titus, Hortensius, Lucius,</hi> and other servants of <hi>Timon</hi>'s creditors, who wait for his coming out</stage>
 <sp>
@@ -2265,8 +2265,8 @@
 <l>" And gall you, slaves, for this ingratitde."</l>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE returns to <hi>Timon</hi>'s house..</stage></head>
 <stage>Enter divers <hi>Senators,</hi> at several doors.</stage>
 <sp>
@@ -2454,11 +2454,11 @@
 <stage>Exit.</stage>
 </sp>
 <trailer>End of the THIRD ACT.</trailer>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT. IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE. I.</head>
 <stage><hi>TIMON</hi>'s House. <hi>Evanthe</hi> and
 <hi>Flavius.</hi></stage>
@@ -2649,8 +2649,8 @@
 <l>" And reconcile him to the world again.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the WOODS.</stage></head>
 <stage>Enter <hi>Timon.</hi></stage>
 <sp>
@@ -3047,12 +3047,12 @@
 <l>Thou'rt too bad to curse.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT. V.</head>
-<div2 type="scene">
+<div type="scene">
 <head><stage>SCENE changes to the Walls of<hi>Athens.</hi></stage></head>
 <stage>Enter two other Senators, with a Messenger.</stage>
 <sp>
@@ -3258,8 +3258,8 @@
 <hi>Athens.</hi></l>
 <stage>[<hi>Alcibiades</hi> enters the city with his army.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE, changes to a street in<hi>Athens.</hi></stage></head>
 <stage><hi>Lucullus</hi> enters.</stage>
 <sp>
@@ -3515,8 +3515,8 @@
 <l>" O nature, what a luckless piece of work was man!</l>
 <stage>[Exit</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE.</head>
 <stage>The prospect of a rude wild country, to a considerable extent, with the ruins of a temple to <hi>Faunus, Timon</hi> is discovered at the extremity of the stage led in by <hi>Flavius:</hi> At the same time
 <hi>Evanthe</hi> enters at the front, surveys him some time, and while he slowly advances, speaks.</stage>
@@ -3786,8 +3786,8 @@
 <l>" Strong in extreams, from love to hatred tost,</l>
 <l>In the fierce conflict he was whelm'd and lost."</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

@@ -7,15 +7,15 @@
 <extent>39,[1]p. ; 12⁰.</extent><publicationStmt><publisher>M,DCC,XCII. Printed for the booksellers,</publisher><date>1792.</date><pubPlace>[Dublin] :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By J. O'Keeffe.- In: 'A volume of farces' [Dublin], 1792.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT56758.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb n="1" facs="1"/>
 <p>THE FARCE OF THE MODERN ANTIQUES, OR THE MERRY MOURNERS.</p>
 <p>IN TWO ACTS.</p>
 <p>AS PERFORMED AT THE THEATRE-ROYAL, <hi>SMOKE-ALLEY.</hi></p>
 <p>M,DCC,XCII.</p>
 <p>PRINTED FOR THE BOOKSELLERS.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb n="2" facs="2" ana="y"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -36,15 +36,14 @@
 <item><label>Flounce,</label> Mrs ROCK,</item>
 <item><label>Betty,</label> Miss BRANGIN,</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="3" facs="3"/>
 <head>MODERN ANTIQUES, OR THE MERRY MOURNERS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE.—<stage>MRS CAMOMILE'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> MRS CAMOMILE <hi>and</hi> BETTY.</stage>
 <sp>
@@ -271,8 +270,8 @@ old port, to visit him here in London; he shall visit the Doctor at Winchester; 
 <stage>(<hi>Laying hold of the basket.</hi>)</stage>
 <p>Your London Ladies are so <hi>manified,</hi> with their Switch Rattans, and their coats and waistcoats, and their tip-top hats, and their cauliflower cravats; that ecod, I shall be in London a long time before I know a man from a woman.<stage>(<hi>Takes up the basket, and Exit.</hi>)</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE.—<stage>MRS COCKLETOP'S <hi>Dressing Room,</hi> MRS COCKLETOP <hi>discover'd dressing,</hi> FLOUNCE <hi>attending.</hi></stage></head>
 <sp>
 <speaker>Mrs C.</speaker>
@@ -637,8 +636,8 @@ reading, no taste, but has a plentiful stock of credulity. <stage>(wafers the le
 <p>Ha, ha, ha! yes, uncle, if you have cash to buy Antiquities, I'm a stupid fellow indeed, if I can't find some to sell you, and if I succeed; hey to Southampton with the triumphant news to Belinda.</p>
 <stage><hi>Exit</hi> Frank.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE.—<stage>COCKLETOP'S <hi>Study.</hi></stage></head>
 <stage><hi>Enter</hi> COCKLETOP <hi>with spectacles on, reading letter,</hi> JOEY <hi>following.</hi></stage>
 <sp>
@@ -978,12 +977,12 @@ for the venerable <hi>Bede.</hi> Travellers, come, and lay at my feet, the wonde
 <stage>Exeunt,</stage>
 </sp>
 <trailer>End of Act First.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="23" facs="23"/>
 <head>Act II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE.—<stage>MRS CAMOMILE's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> FRANK <hi>in high spirits, and</hi> JOEY.</stage>
 <sp>
@@ -1179,8 +1178,8 @@ children of your own, indeed you should think of some establishment for your nie
 <p>Ah friend, what should a poor woman do that has lost so good a husband, but try to—get a better.</p>
 <stage>(aside.) Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE.—<stage>COCKLETOP'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> FRANK, <hi>elevated with wine, and</hi> BELINDA, <hi>both in mourning—and</hi> NAN.</stage>
 <sp>
@@ -1255,8 +1254,8 @@ dead; this is your natal day, the birth of beauty; I'll give an entertainment up
 <p>Ha, ha, ha! a jovial bout the servants shall have. Fly, and every one bring in his hand something toward the good cheer of the night.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE.—<stage><hi>A Saloon illuminated, table and cloth laid. Enter</hi> COCKLETOP <hi>in a storm cap.</hi></stage></head>
 <sp>
 <speaker>Cock.</speaker>
@@ -1509,8 +1508,8 @@ that I don't care a farthing for <stage>(aside)</stage>—yet I left her so well
 <p>Parson! then my intentions to marry Frank is already known among the servants—but I'll see how Flounce dare to let my room be ransack'd in this manner.</p>
 <stage>Exit in a passion.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE.</hi>—<stage>Changes to a dark Apartment.—A table covered with green cloth on.</stage></head>
 <stage><hi>Enter</hi> JOEY <hi>with a candle.</hi></stage>
 <sp>
@@ -1604,10 +1603,9 @@ cried so fine, all alive and merry: but this stupid mister won't believe it, so 
 <l>Heirs that find cash in corners,</l>
 <l>Will at your Funeral, make Right Merry Mourners.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

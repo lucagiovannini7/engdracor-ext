@@ -7,20 +7,20 @@
 <extent>[4],80p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author; and sold by Cadell; Egerton; Harlow; Richardson; Bew; and Trueman and Son, Exeter,</publisher><date>1790.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>C. Melmonth = Samuel Jackson Pratt.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT124405.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE NEW COSMETIC, OR THE TRIUMPH OF BEAUTY, A COMEDY.</p>
 <p>BY C. MELMONTH, ESQ.</p>
 <p>INSCRIBED TO Mrs. HODGES.</p>
 <p>LONDON: Printed for the Author; and sold by Cadell in the Strand; Egerton, Charing-Cross; Harlow, St. James's-Street; Richardson, under the Royal Exchange; Bew, Paternoster-Row; and Trueman and Son, Exeter. M.DCC.XC.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>THE FOLLOWING COMEDY, IS HUMBLY INSCRIBED TO MRS. HODGES BY HER MOST OBEDIENT HUMBLE SERVANT C. MELMONTH.</p>
 <closer><dateline><hi>London,</hi>
 <date><hi>May</hi> 24, 1790.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -37,16 +37,15 @@
 <item><label>HANNAH Bananah,</label> Cousin to Louisa.</item>
 <item><label>QUACOU, QUASHY, and CESAR,</label> Slaves</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, an Island in the West Indies.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE NEW COSMETIC, OR The Triumph of Beauty.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>Scene.</hi> <stage>A Planter's Estate on the Island, near a Mill, and a Piece of Canes.</stage></head>
 <stage>Enter Whitmore and Lovemore.</stage>
 <sp>
@@ -286,8 +285,8 @@ Pray by what name do you chuse to be announced to her?</p>
 <p>Aye, I wish I don't break my neck.</p>
 </sp>
 <stage>Exeunt ambo.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="13" facs="14"/>
 <head><hi>Scene II.</hi> <stage>An Apartment in the House of Mr. Winstone.</stage></head>
 <stage>Enter Louisa and Hannah.</stage>
@@ -923,8 +922,8 @@ I loved the girl once, when she was white, but never thought of her after she be
 <p>We are half way there, for we are in the torrid-zone already.
 <stage>Exeunt ambo.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>Scene III.</head>
 <stage>Enter Louisa and Hannah.</stage>
 <sp>
@@ -1105,8 +1104,8 @@ Bury some cashoo nuts nine days under ground; take them up, and extract the oil,
 <p>Yes, cousin, you shall be burnt to some purpose.</p>
 </sp>
 <stage>Exeunt ambo.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>Scene IV.</head>
 <stage>Enter Captain Greville.</stage>
 <sp>
@@ -1287,12 +1286,12 @@ ha! ha! ha! Massah, try it yourself, he quite cool; sit down, Massah, and let me
 <p>Oh! my face, my face, my dear face.</p>
 </sp>
 <stage>exeunt omnes.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>Scene. I.</hi> <stage>A loud Laugh heard behind. An Apartment in the House of Mr. Whitmore.</stage></head>
 <stage>Enter Lovemore and Whitmore.</stage>
 <sp>
@@ -1382,8 +1381,8 @@ mask is only a hint to you to hide yours; they indeed put it to theirs, as we pu
 <p>Aye, I know I was pointed at. But I shall leave you to yourselves; I am beset on all sides: one questions me concerning the lady's beauty, another admires my taste, and a third exclaims in wonder at my gallantry; and in short I am a Don Quixote, Sancha Pancha, and every thing they think that is mad and ridiculous.
 <stage>Exeunt ambo.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>Scene II.</hi> <stage>An Apartment in the House of Mr. Winstone.</stage></head>
 <stage>Enter Miss Winstone, (totally changed from the Effects of the Cushoo Nut) and Miss Bananah.</stage>
 <sp>
@@ -1508,8 +1507,8 @@ your face, which indeed he could not have done had he not blinded you before.</p
 <p>In truth Hannah, I think it would be to the interest of us both to keep the secret as long as possible. However I must make haste to shew myself, and the astonishing transformation that has been wrought in me; so come along.</p>
 </sp>
 <stage>exeunt ambo.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>Scene II.</hi> <stage>An Apartment in the House of Mr. Whitmore.</stage></head>
 <stage>Enter Whitmore and Lovemore.</stage>
 <sp>
@@ -1708,8 +1707,8 @@ against the poor fellow. Women ugly and handsome insult him to his face; spinste
 <p>But come, let us proceed without delay. I am in hopes of seeing his beautiful daughter, and knowing whether her face is grown any browner than it was; indeed I am not sorry for it; for the sun which tanned her complexion has turned the best spirits of her disposition to vinegar.
 <stage>Exeunt omnes</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head><hi>Scene IV.</hi> <stage>An Apartment in the House of Mr. Winstone, in which are placed different Figures in Wax-work; a Pedestal standing among the Figures, intended for Miss Winstone.</stage></head>
 <stage>Enter old Winstone, his Daughter, and some Friends.</stage>
 <sp>
@@ -2507,10 +2506,9 @@ pearl upon the dunghill, and is now beginning to crow.
 <speaker>WINSTONE.</speaker>
 <p>I am happy, Mr. Lovemore, to find you join the two extremes, wildness and connubial love. May you be as happy as you deserve. Retire with me for the present; A marriage settlement shall be drawn agreeable to your wish, and every thing so disposed as to give you mutual and lasting satisfaction.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

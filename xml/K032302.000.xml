@@ -7,13 +7,13 @@
 <extent>[8],62,[2]p. ; 4⁰.</extent><publicationStmt><publisher>printed for Jacob Tonson,</publisher><date>1711.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26852.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>MAR-PLOT; Or The Second Part of <hi>The BUSIE-BODY.</hi> A COMEDY. As it is Acted at the THEATRE-ROYAL in <hi>Drury-Lane,</hi> BY Her MAJESTY's Servants.</p>
 <p>Written by Mrs. <hi>SUSANNA CENTLIVRE.</hi></p>
 <p><hi>LONDON:</hi> Printed for <hi>Jacob Tonson</hi> at <hi>Shakespear</hi>'s Head over-against <hi>Catherine-street</hi> in the <hi>Strand.</hi> 1711.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE RIGHT HONOURABLE <hi>HENRY BENTINCK,</hi> EARL of <hi>Portland, Viscount</hi> Woodstock, <hi>Baron of</hi> Cirencester, <hi>Captain of Her Majesty's First Troop of Guards,</hi> &amp;c.</head>
 <opener><salute>My LORD,</salute></opener>
@@ -24,8 +24,8 @@ Care the Distress'd, though they have no other Merit, than that they beseech the
 <p><pb facs="4"/>That Your LORDSHIP may long bless the World with the same Virtues which You have shown in the Entrance You have made on the busie Stage of it, and long enjoy the Advantages of an Affluent Fortune, Graceful Person, and Generous Mind, is the ardent Prayer of,</p>
 <closer><salute>My LORD,</salute>
 <signed>Your Lordship's most Devoted, most Obedient, Humble Servant, SUSANNA CENTLIVRE.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <l>THE Men of Wit do now their Brains fatigue</l>
@@ -54,8 +54,8 @@ Care the Distress'd, though they have no other Merit, than that they beseech the
 <l>The Fool may differ, on a different Shore—</l>
 <l>For once, then, break old Custom; be not o'er-nice,</l>
 <l>But let the <hi>self-same</hi> Woman please you <hi>Twice.</hi></l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -89,15 +89,15 @@ Care the Distress'd, though they have no other Merit, than that they beseech the
 <list>
 <item>Two Ladies, several Foot-men, <hi>&amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>The SCENE the <hi>Terriera de Passa</hi> in <hi>Lisbon.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="7"/>
 MAR-PLOT.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE I.</head>
 <head>SCENE, <stage><hi>The</hi> Terriera de Passa <hi>in</hi> Lisbon.</stage></head>
 <stage><hi>Enter</hi> Don Lopez, <hi>and</hi> Don Perriera.</stage>
@@ -279,7 +279,7 @@ Tongue enough for a Lawyer, but as hard to be understood as an Apothecary: She b
 <sp>
 <speaker>Cha.</speaker>
 <p>I think you ought to make Provision for the Recruits you raise, as much as for your Widows, they are far more Numerous.</p>
-<stage>[A noise of clashing of Swords, and Murder cry'd within.</stage>
+<stage>[A noise of clashing of Swords, and <said direct="true">Murder</said> cry'd within.</stage>
 </sp>
 <sp>
 <speaker>Rav.</speaker>
@@ -293,7 +293,7 @@ Tongue enough for a Lawyer, but as hard to be understood as an Apothecary: She b
 <sp>
 <speaker>Rav.</speaker>
 <p>The Devil's in that Fellow; what made you bring him with you?</p>
-<stage>[Murder cry'd again within.</stage>
+<stage>[<said direct="true">Murder</said> cry'd again within.</stage>
 </sp>
 <sp>
 <speaker>Mar.</speaker>
@@ -437,8 +437,8 @@ Tongue enough for a Lawyer, but as hard to be understood as an Apothecary: She b
 <p>Perhaps! but perhaps I won't believe you: He has a world of Manners to a Gentleman in a strange Place, I'll be sworn; ha! <hi>Charles</hi>'s gone, nay, then I have a rare opportunity, egad he has forgot his Snuff-Box, an excellent Excuse to follow him; the Devil take his Letter for me, it has given me the Cholick.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>A Chamber in</hi> Don Perriera's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Dona Perriera, <hi>and</hi> Margaritta.</stage>
 <sp>
@@ -697,8 +697,8 @@ Officer; so far I'm not forsworn. <stage>[Aside.]</stage> I thought, my Dear had
 <l><hi>And powerful Love can Reason's Force defy.</hi></l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to Colonel <hi>Ravelin</hi>'s Lodgings.</stage></head>
 <stage>The Colonel looking on his Watch.</stage>
 <sp>
@@ -805,12 +805,12 @@ Officer; so far I'm not forsworn. <stage>[Aside.]</stage> I thought, my Dear had
 <p>Egad he's not come out yet, what is he a doing? Ha! I don't see him—nor hear him neither—od, I'll venture in—upon my Soul here's no Body: Why sure he deals with the Devil—here's no Door but this that I can see—Is there any way out at Window?—No, faith, that's impossible, they have all Iron Bars.—What can be become of him? Oh! I have it now, before George he's gone up the Chimney, for there is no other Passage—it must be so, <stage>[Peeps up the Chimney]</stage> Egad the Chimney is large, and easy enough to mount, now have I a strong inclination to follow him—troth and I will too—sure the greatest pleasure in this World, lies in discovering what other People take such pains to conceal—now they may call me impertinent Block head—inquisitive Fool—and ill-bred Puppy—and what they please, but I'd not quit the pleasure of knowing this Secret, for the finest breeding in <hi>France.</hi>—I'm afraid I shall spoil my Coat—rot him, what a cursed, dirty Contrivance has he found out; hold, well thought on—I'll, I'll, turn the wrong side outwards—Ay, that will do, <stage>[Turns his Coat]</stage> so now for the Art of Chimney Sweeping; egad Colonel, in spight of all your caution, ten to one but I know your haunts; Lord how I shall laugh at Night, when we meet, how I will Joak upon him. Ha, ha, ha.</p>
 <stage>[Goes into the Chimney, and the Scene shuts.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="14" facs="20"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE, <stage>Dona Perriera<hi>'s Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> Margaritta <hi>and</hi> Charles.</stage>
@@ -1371,8 +1371,8 @@ Temper hurries him on to execute, before he knows the Nature of the Offence.</p>
 <p>Oh, it is to no purpose, there is nothing to be seen.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>[The Scene draws, and discovers them searching about.</stage></head>
 <sp>
 <speaker>Don Lop.</speaker>
@@ -1448,12 +1448,12 @@ Temper hurries him on to execute, before he knows the Nature of the Offence.</p>
 <l><hi>Woman, thy Constancy I go to try:</hi></l>
 <l><hi>Blest if thou'rt true—but if you're false you die.</hi></l>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="25" facs="31"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE <stage><hi>the</hi> Terriera de Passa.</stage></head>
 <stage><hi>Enter Colonel</hi> Ravelin <hi>and</hi> Charles.</stage>
@@ -1671,8 +1671,8 @@ discovery I can make. <stage>[Aside.]</stage> Well, Sir, if you'll promise to be
 <pb n="29" facs="35"/>
 within sight for their coming out, so when they are pass'd by, I may with more Security make my Enquiry.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>Changes to Mademoisel</hi> Joneton<hi>'s Lodgings.</hi></stage></head>
 <stage><hi>She drest Fantastically modish, with her Sister</hi> Marton, <hi>and two other Ladies.</hi></stage>
 <sp>
@@ -2038,8 +2038,8 @@ Humours at home, and not stamp Wife in the Forehead of every Woman he meets.</p>
 <p>That I am Mistress of any thing worth his Admiration, is no small pleasure to me; I dare be vain to say, I can recommend him to the best in <hi>Portugal.</hi> Along Messieurs. Fa, la, la, lera lal.</p>
 <stage>[Sings a Minuet, and Dances out.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>the</hi> Terriera de Passa.</stage></head>
 <stage><hi>Enter</hi> Mar-plot, <hi>solus.</hi></stage>
 <sp>
@@ -2214,12 +2214,12 @@ my place now? But hang it, I'm good-natur'd, she shall fall to one of your share
 <l>And having that, wou'd care for nought beside.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="37" facs="43"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE, <stage>Charles<hi>'s Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> Charles, <hi>Colonel</hi> Ravelin <hi>and</hi> Mar-plot.</stage>
@@ -2514,8 +2514,8 @@ of my Appetite, but methinks I see her not with half that desire I us'd to do, w
 <p>Farewel! Egad 'twou'd be faring very ill tho' if he shou'd be kill'd. I wish I knew where to find Colonel <hi>Ravelin</hi>—Oh Lord, oh Lord; I never thought to ask <hi>Charles</hi> where this Duel was to be fought, and then whither cou'd I send him? Well thought on, yonder he goes, I'll follow till I fix him, and then I'll soon call Company enough to part them—Egad I love my Friend, as I love my Life.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>the Street.</hi></stage></head>
 <stage><hi>Enter</hi> Charles <hi>with a Rope-ladder,</hi> Mar-plot <hi>at a distance.</hi></stage>
 <sp>
@@ -2568,8 +2568,8 @@ one of them is the Bloody-minded <hi>Spaniard,</hi> egad it is not safe to be se
 <p>My Fear hears double, I think, I can see no Body—Od I'll make use of this Ladder; he talk'd her Appartment was over the Door, so that perhaps I may give him warning at the Window, and he may come down the same way—Oh lord, which is the House, now? Is it this, or this, I wonder; choke me if I can tell what a blundering Sot was I not to take better notice, this must be it certainly, <stage>[Seems to throw up the Ladder between the Scenes, and Exit.]</stage> Heav'n send me good luck, for I tremble horridly.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>draws and discovers</hi> Marron<hi>'s Apartment.</hi></stage></head>
 <stage><hi>She and Colonel</hi> Ravelin.</stage>
 <sp>
@@ -2904,8 +2904,8 @@ he'd do if he caught him with his Wife; and then egad went into that very House.
 <l><hi>Who from a Look is capable of Fear.</hi></l>
 <l><hi>The Man of Courage lords it every where.</hi></l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="49" facs="55"/>
 <head>SCENE, <stage>The Inside of <hi>Dona Perriera</hi>'s House.</stage></head>
 <stage>Dona Perriera <hi>and</hi> Charles <hi>at Supper,</hi> Margaritta <hi>waiting.</hi></stage>
@@ -2966,8 +2966,8 @@ he'd do if he caught him with his Wife; and then egad went into that very House.
 <l><hi>Death shall join her unto the thing she loves.</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to the <hi>Terriera de Passa.</hi></stage></head>
 <stage><hi>Enter</hi> Isabinda <hi>sola.</hi></stage>
 <sp>
@@ -3028,11 +3028,11 @@ he'd do if he caught him with his Wife; and then egad went into that very House.
 <l><hi>I give the greatest Proof of Love that Mortal can.</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> Isabinda <hi>in a Ferriwig and Night-gown, and two Priests; a Sword lying upon the Table.</hi></stage>
 <sp>
@@ -3100,8 +3100,8 @@ Heav'n daily by your Prayer, to sell and canton out as you think fit, how wou'd 
 <l><hi>Be thou propitious, Heav'n, and bless the Scheme I lay.</hi></l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="53" facs="59"/>
 <head>SCENE, <stage>Don Perriera<hi>'s House.</hi></stage></head>
 <stage>Don Perriera <hi>solus.</hi></stage>
@@ -3138,8 +3138,8 @@ Heav'n daily by your Prayer, to sell and canton out as you think fit, how wou'd 
 <p>Make haste then, or I shall take your Work out of your Hands. Now let me consult my instruments of Death, for I'll have no bounds in my Revenge. I'll, I'll, I'll, flea 'em alive.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>Scene draws and discovers</hi> Dona Perriera <hi>and</hi> Charles.</stage></head>
 <sp>
 <speaker>Dona Per.</speaker>
@@ -3217,8 +3217,8 @@ Heav'n daily by your Prayer, to sell and canton out as you think fit, how wou'd 
 <p>Come Son, your Hand—Madam, I leave you one to comfort your Distress.</p>
 <stage>[<hi>Exeunt Priest and</hi> Charles.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>[<hi>Scene shuts, then draws and discovers</hi> Don Perreira <hi>Lissening.</hi></stage></head>
 <sp>
 <pb n="55" facs="61"/>
@@ -3237,8 +3237,8 @@ Heav'n daily by your Prayer, to sell and canton out as you think fit, how wou'd 
 <p>Women! I'm amaz'd! Women! Egad I'm ravish'd, transported, nay, translated methinks above the Stars; I'm, I'm, I'm, I'm, od I know not what I am, I'm so glad to find my self no Cuckold—Ah, but how shall I look my Wife in the Face tho', for having blam'd her wrongfully? Ay, there's the Devil now—Pox take her Brother for instilling these Jealousies into my Head, I fear she will never forgive me—and indeed 'tis more than I deserve—Oh, that ever I should suspect her Virtue.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>The Scene draws and discovers</hi> Dona Perriera <hi>on her Knees to</hi> Isabinda.</stage></head>
 <sp>
 <speaker>Dona.</speaker>
@@ -3426,8 +3426,8 @@ this day I hold you as a Bastard, and may Perdition seize you both.</p>
 <p>Madam, will you give me leave to wait on you down?</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>The</hi> SCENE <hi>draws and discovers</hi> Charles <hi>solus, in</hi> Isabinda<hi>'s Appartment looking about him.</hi></stage></head>
 <sp>
 <speaker>Cha.</speaker>
@@ -3726,11 +3726,11 @@ this day I hold you as a Bastard, and may Perdition seize you both.</p>
 <l>Our kind Indulgence wou'd their Vice o'ercome,</l>
 <l>And with our Meekness strike their Passions dumb.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="69"/>
 <head>EPILOGUE.</head>
 <l>THE Play concluded, I'm at last set free,</l>
@@ -3774,7 +3774,7 @@ this day I hold you as a Bastard, and may Perdition seize you both.</p>
 <l>I'll ev'n maintain my Post upon the Stage;</l>
 <l>Which (for at once I'd all Mens Hope prevent)</l>
 <l>I'll never leave, tho' tempted with a Settlement.</l>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

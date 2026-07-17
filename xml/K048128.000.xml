@@ -7,14 +7,14 @@
 <extent>36p. ; 12⁰.</extent><publicationStmt><publisher>printed for the booksellers,</publisher><date>1784.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John O'Keeffe.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53502.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE YOUNG QUAKER; A COMEDY.</p>
 <p>AS IT IS PERFORMED AT THE THEATRE ROYAL IN SMOKE ALLEY, WITH GREAT APPLAUSE.</p>
 <p>DUBLIN: PRINTED FOR THE BOOKSELLERS.</p>
 <p>MDCCLXXXIV.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -40,15 +40,14 @@
 <item><label>JUDITH,</label> Mrs. O'Reilly.</item>
 <item><label>ARAMINTA,</label> Mrs. Cornellys.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3"/>
 <head>THE YOUNG QUAKER.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A</hi> Room with a Couch, and LOUNGE, <hi>Young</hi> SADBOY'S Servant.</stage>
 <stage><hi>Enter</hi> PINK <hi>and</hi> SPATTERDASH.</stage>
@@ -187,8 +186,8 @@
 <speaker>PINK.</speaker>
 <p>I know poor Spatt. has nothing else to give: but the Captain might have given him something else.—Well, ply us home with that, and I'll ensure you success.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Lady</hi> ROUNCIFUL'S House.</stage>
 <stage><hi>Lady</hi> ROUNCIFUL <hi>and</hi> ARAMINTA.</stage>
@@ -361,11 +360,11 @@ Gang down the bourne, Davy love, and I'll follow thee.</p>
 <p>Indeed I will not.—Here, go with this card. <stage>(<hi>Reads.</hi>)</stage> "Lady Rounciful will wait on Mr. Chronicle this evening."—Chronicle will certainly hang himself to-morrow, <stage>(<hi>Aside.</hi>)</stage></p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> CHRONICLE'S Servants, TWIG, <hi>and</hi> CLOD.</stage>
 <sp>
@@ -557,8 +556,8 @@ Gang down the bourne, Davy love, and I'll follow thee.</p>
 <p>Well, Captain, you will pay it I am sure—Honour is the characteristic of a British soldier.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="14" facs="12"/>
 <head>SCENE II.</head>
 <stage>A Room in Mrs. MILLIFLEUR'S House.</stage>
@@ -651,12 +650,12 @@ Gang down the bourne, Davy love, and I'll follow thee.</p>
 <p>You know my way.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="16" facs="14"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An</hi> ENTERTAINMENT.</stage>
 <stage>Enter <hi>Young</hi> SADBOY <hi>and</hi> SPATTERDASH.</stage>
@@ -831,8 +830,8 @@ Gang down the bourne, Davy love, and I'll follow thee.</p>
 <p>You will thank me for this hereafter,—you will but expose yourself. Out you go, out you go. He is going to be amorous. <stage>(<hi>Carries him out.</hi>)</stage></p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Mrs. MILLIFLEUR'S House.</stage>
 <stage>Enter <hi>Young</hi> SADBOY.</stage>
@@ -1218,12 +1217,12 @@ Enter <hi>Young</hi> SADBOY in haste.</stage>
 <p>I will introduce you to Lord Belmore.</p>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="28" facs="26"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>CHRONICLE'S House.</stage>
 <stage><hi>Young</hi> SADBOY <hi>and</hi> Captain AMBUSH <hi>meet,</hi></stage>
@@ -1250,8 +1249,8 @@ BELMONT.</p>
 <speaker>AMBUSH.</speaker>
 <p>You are sure of your love.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="29" facs="27"/>
 <head>SCENE II.</head>
 <stage><hi>Lady</hi> ROUNCIFUL's House.</stage>
@@ -1595,11 +1594,9 @@ I am yours, BELMONT."</p>
 <l>Prove the guardian genius of my life!</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

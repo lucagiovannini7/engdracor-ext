@@ -7,17 +7,17 @@
 <extent>vi,[2],69,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed by T. Sherlock, for T. Cadell,</publisher><date>1778.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final advertisement leaf.</note><note>Also issued as part of: 'The dramatic works of Samuel Foote, Esq;', London, [1778?], [1779?], [1780?], [1785?], and 1788.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT18530.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE DEVIL UPON TWO STICKS; A COMEDY. WRITTEN by Mr. FOOTE, PUBLISHED by Mr. COLMAN.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE DEVIL UPON TWO STICKS; A COMEDY, IN THREE ACTS. AS IT IS PERFORMED AT THE THEATRE-ROYAL in the HAYMARKET. WRITTEN BY THE LATE SAMUEL FOOTE, <abbr>Esq</abbr> AND NOW PUBLISHED BY Mr. COLMAN.</p>
 <p>LONDON, Printed by T. Sherlock, For T. CADELL, in the Strand. MDCCLXXVIII.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>SOME copies of spurious impressions of the Cozeners and the Maid of Bath, having been printed and circulated before the application to the Court of Chancery for an Injunction, it has been thought advisable, in vindication of the property of the Editor, as well as in justice to the deceased Author, immediately to commit to the press genuine editions of the two dramatick pieces above-mentioned, together with THIS COMEDY, which had been also without authority advertised for publication.</p>
@@ -25,8 +25,8 @@
 <pb n="vi" facs="4"/>
 another, still more entertaining and popular, at the beginning of the Third; both which were wholly wanting in the spurious Impressions.</p>
 <p>Unauthorized publications are not only always detrimental to private property, but commonly prove injurious to the publick: For the copies, being obtained by clandestine and indirect means, are, for the most part, as has happened in the present instance, incorrect and imperfect.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -72,12 +72,12 @@ another, still more entertaining and popular, at the beginning of the Third; bot
 <item><hi>Mrs. Jewell.</hi></item>
 </list>
 <p>Servants, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="6"/>THE DEVIL UPON TWO STICKS.</head>
-<div1 n="1" type="act">
-<div2 type="scene">
+<div n="1" type="act">
+<div type="scene">
 <head>ACT I. <stage><hi>A Room.</hi></stage></head>
 <stage>Enter Sir Thomas Maxwell and Margaret.</stage>
 <sp>
@@ -548,8 +548,8 @@ out. Come, lads! let not a corner escape you!</p>
 <speaker>Marg.</speaker>
 <p>I shall wait on your motions, and bring up the rear. <stage>Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to the Chymist's.</stage>
 <stage>Enter Invoice and Harriet, through the sash.</stage>
 <sp>
@@ -1021,11 +1021,11 @@ lies in forming conjunctions absurd and preposterous: It is I that couple boys a
 <speaker>Devil.</speaker>
 <p>Without danger, and with great expedition. Come to this window, and lay hold of my cloak.—I have often resided in England: At present, indeed, there are but few of our family there; every seventh year, we have a general dispensation for residence; for at that time the inhabitants themselves can play <hi>the devil</hi> without our aid or assistance.—Off we go! stick fast to your hold!<stage>Thunder. Exeunt.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="25" facs="30"/>
-<div2 type="scene">
+<div type="scene">
 <head><hi>ACT II.</hi></head><stage>A Street in London.</stage>
 <stage>Enter Devil, Invoice, and Harriet.</stage>
 <sp>
@@ -1817,11 +1817,11 @@ Donaldson maister, and am lodged wi Sawney Sinclair, at the sign o'the Ceety of 
 <speaker>Inv.</speaker>
 <p>Adieu!<stage>Exeunt.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="46" facs="51"/>
-<div2 type="scene">
+<div type="scene">
 <head><hi>ACT III.</hi> <stage>Scene a Street.</stage></head>
 <stage>Fingerfee, Sligo, Osasafras, Broadbrim, other Doctors, and Macpherson, discovered.</stage>
 <sp>
@@ -2826,8 +2826,8 @@ trouble the lady: Come, Miss, I'll charm a band to accompany you. <stage>Waves h
 <speaker>Devil.</speaker>
 <p>By all means: And you may do it this instant; he opens to-night, and will be glad of your assistance. I'll drop you down at the door; and must then take my leave for some time. <hi>Allons!</hi> but don't tremble; you have nothing to fear: The public will treat you with kindness; at least, if they shew but half the indulgence to you, that they have upon all occasions shewn to that Manager.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

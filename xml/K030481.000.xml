@@ -7,7 +7,7 @@
 <extent>[8],70,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Lowndes,</publisher><date>1773.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The advertisement signed: Arthur Murphy.</note><note>The final leaf contains the epilogue and advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT21314.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>ALZUMA, A TRAGEDY. AS PERFORMED AT THE THEATRE ROYAL IN COVENT-GARDEN.</p>
 <l>Humana ante oculos faedè cum vita jaceret</l>
@@ -15,8 +15,8 @@
 <bibl>LUCRET.</bibl>
 <p>LONDON: Printed for T. LOWNDES, No. 77, in <hi>Fleet-Street.</hi></p>
 <p>MDCCLXXIII.</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="2"/>
 <head>Advertisement.</head>
 <p>THE precept, which directs a poet to keep his piece nine years, has been fully observed in regard to the following <hi>Tragedy;</hi> but the <hi>Author</hi> will not claim the merit of voluntary submission to critical authority. The delay, he acknowledges, did not arise from choice, but was rather the consequence of difficulties that stood in his way, and prevented an earlier access to the public.</p>
@@ -35,8 +35,8 @@
 <p>The Author cannot conclude without declaring, that (exclusive of his late transaction with Mr. COLMAN) he has every reason to be disgusted at the internal occurrences of a theatre. It is, therefore, probable that he shall never again be a candidate for Theatical Fame: From the farce of the APPRENTICE to the tragedy of ALZUMA his endeavours have at all times met with a most generous reception from the Town: He feels the obligation with the warmest sensibility, and remains with due respect to the PUBLIC,</p>
 <closer><signed>Their most obedient humble servant, ARTHUR MURPHY</signed>
 <dateline>Lincoln's-Inn, <date>Feb. 27, 1773.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. BENSLEY.</byline>
@@ -94,8 +94,8 @@ Will hear the INDIAN—tho' in error blind,</l>
 <l>Rome KILLS for error;—Be it yours to spare.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>Dramatis Personae.</head>
 <list>
 <item><label>ALZUMA,</label> Mr. SMITH.</item>
@@ -108,16 +108,15 @@ Will hear the INDIAN—tho' in error blind,</l>
 <item><label>ORELLANA,</label> Mrs. HARTLEY.</item>
 <item><label>Virgins of the Sun,</label> <hi>Miss</hi> PEIRCE, <hi>Mrs.</hi> WILLEMS, <hi>Miss</hi> WEWITZER, <hi>Miss</hi> BROWN, <hi>&amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>Scene at CUSCO the Capital of PERU.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>ALZUMA.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <sp>
 <stage><hi>Enter</hi> EMIRA.</stage>
 <l>WEARIED at length by their own raging toil,</l>
@@ -815,12 +814,12 @@ One, who while yet he lives, like frecdom's son</l>
 <l>The sacred charter of the free born mind.</l>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>at the Gate of the Church, or Temple of the Sun.</stage></head>
 <sp>
 <stage><hi>Enter</hi> ALZUMA.</stage>
@@ -1176,8 +1175,8 @@ The queen of night and ev'ry vivid planet</l>
 <l>Awful religion bear the sword of justice.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage>the Temple of the Sun.</stage></head>
 <stage><hi>Enter</hi> ALZUMA <hi>and</hi> OZMAR.</stage>
 <sp>
@@ -1607,12 +1606,12 @@ Shall lead thee to the grove where oft I walk</l>
 <l>You've made us virtuous, and have done enough!—</l>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="29" facs="36"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>the Temple.</stage></head>
 <stage><hi>Enter</hi> CARLOS <hi>and</hi> GONZALEZ.</stage>
 <sp>
@@ -2384,12 +2383,12 @@ To thee I've been ungentle; thou hast cause</l>
 <l>And never gains by carnage and destruction.—</l>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="43" facs="50"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>the Palace.</stage></head>
 <sp>
 <stage><hi>Enter</hi> ORAZIA.</stage>
@@ -3089,12 +3088,12 @@ I will protect thee—Now, inhuman men,</l>
 <l>And no pernicious Spaniard thirsts for gold.</l>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="56" facs="63"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>the Temple of the Sun.</stage></head>
 <stage><hi>Enter</hi> ORAZIA <hi>and</hi> ORELLANA.</stage>
 <sp>
@@ -3925,13 +3924,12 @@ Move at a maker's will his stated round,</l>
 <l>Not blast the work, which heav'n with pleasure owns,</l>
 <l>Hear, bigot kings! and tremble on your thrones.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="78"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. HARTLEY.</byline>
@@ -3967,8 +3965,8 @@ Move at a maker's will his stated round,</l>
 <l>To me is worth the treasures of PERU.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="79"/>
 <list>
 <head>The following DRAMATIC PIECES are written by ARTHUR MURPHY <abbr>Esq</abbr> and sold by T. LOWNDES.</head>
@@ -4058,7 +4056,7 @@ Move at a maker's will his stated round,</l>
 <item>Oroonoko, altered by Dr. Hawkesworth</item>
 <item>Quaker's Opera, with Music, by Mr, Walker</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

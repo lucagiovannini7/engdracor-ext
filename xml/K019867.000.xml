@@ -7,26 +7,26 @@
 <extent>[8],66,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Miller,</publisher><date>1792.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final epilogue leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT93.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>COLUMBUS: AN HISTORICAL PLAY.</p>
 <p>ENTERED AT STATIONER'S-HALL.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>COLUMBUS: OR, A WORLD DISCOVERED.</p>
 <p>AN HISTORICAL PLAY.</p>
 <p>AS IT IS PERFORMED AT THE THEATRE-ROYAL, COVENT-GARDEN.</p>
 <p><hi>BY THOMAS MORTON,</hi> OF THE HONOURABLE SOCIETY OF LINCOLN'S-INN.</p>
 <p>LONDON: PRINTED FOR W. MILLER, OLD BOND-STREET. 1792.</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="3"/>
 <p>THE spectator and reader of the following performance, will find the manners and customs of <hi>Mexico</hi> and <hi>Peru</hi> introduced, as appertaining to the <hi>first discovered natives</hi> of the western world.—This deviation afforded the author an opportunity of introducing manners and customs, more congenial to dramatic use, and more particularly of presenting from MARMONTEL'S INCAS, the pathetic tale of <hi>Cora</hi> and <hi>Alonzo.</hi></p>
 <p>To MR. HARRIS, the author offers his acknowledgments for the extreme attention he has paid to this performance, and the magnificent decorations he has bestowed on it.</p>
 <p>For the zeal and talent, manifested by the performers, the author's best thanks are due.—</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY W. T. FITZGERALD, ESQ. SPOKEN BY MR. HOLMAN.</byline>
@@ -86,8 +86,8 @@
 <l>A British laurel on a hero's bust!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -116,15 +116,14 @@
 </list>
 <p>Priests, Priestesses, Warriors, &amp;c.</p>
 <p>{inverted ⁂} Those Lines with inverted Comma's are omitted in the representation.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>COLUMBUS: AN HISTORICAL PLAY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—</head><stage><hi>On one side of the stage a flight of steps, with a Portico leading to the Temple of the Sun.—In the background the sea. Time, sun-rise.</hi></stage>
 <stage>Catalpo <hi>and Priests from the Temple, who range themselves—then enter</hi> Orozimbo—<hi>they bow to him as he passes.</hi></stage>
 <sp>
@@ -178,8 +177,8 @@
 <p>Be not dismay'd—summon our warriors. <stage>[<hi>to</hi> Cuto.]</stage> Catalpo, let the priests attend.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head><stage><hi>The Country.</hi></stage>
 <stage><hi>Enter</hi> Orozimbo <hi>meeting</hi> Cuto, <hi>Warriors, and Indians.</hi></stage>
 <sp>
@@ -187,13 +186,13 @@
 <p>My people, we'll to the shore— Should they prove mortal foes, we'll meet their thunders, or if the engines of infernal power, what can virtue fear?—Trust me, the Deity we serve, will re-assume his splendour, and protect his chosen people.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head><stage><hi>A View of an Indian Country.</hi></stage>
 <stage><hi>Enter in procession, Indian Officer—Warriors—Indian Music—Cuto—Archers—Standard of the Sun— Cora—Priests of the Sun—Indians bearing presents and Banners—Nelti—Indian Women bearing
 <pb n="4" facs="10"/>Presents—Warriors—Orozimbo in a Car, burnished with Gold, supported on the shoulders of Indians, and attended by Nobles with golden Staves —Warriors.</hi></stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head><stage><hi>The Sea Coast.</hi></stage>
 <stage>Three Ships are seen at anchor, and Boats come to Shore with martial Music and Colours flying.</stage>
 <stage><hi>Enter from the Boat,</hi> Columbus, Alonzo, Roldan, Valverdo, Harry Herbert, <hi>and the rest of the Spanish Adventurers.</hi>—Columbus <hi>lands first, with his Sword drawn—he falls and embraces the Earth, during which Time there are three Cheers, and a discharge of Artillery; then the rest follow and come forward.</hi></stage>
@@ -526,13 +525,13 @@
 <p>Come along—Oh, I wish I had the doctoring of you for a week, you English mastiff.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="13" facs="19"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—</head><stage><hi>The Spanish Camp.</hi></stage>
 <stage><hi>Enter</hi> Columbus, <hi>with a party of soldiers, guarding others, chained, meeting</hi> Roldan <hi>and</hi> Valverdo.</stage>
 <sp>
@@ -637,8 +636,8 @@
 <p>Perfidious, bloody villain! Oh, my friends, dangers I fear await you—I blush to say we have among us those whose vileness your pure nature cannot image. Let us prepare to meet the worst—summon your warriors, while I instruct them how best to guard each place of 'vantage—and should this Roldan attempt to execute his villainous intent, depend on the protection of Columbus.</p>
 </sp>
 <stage><hi>Exit</hi> Alonzo, <hi>with Indians.</hi></stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. </head><stage><hi>A Retired Place.</hi></stage>
 <stage><hi>Enter</hi> Columbus.</stage>
 <sp>
@@ -668,8 +667,8 @@
 <p>Oh, if I had that Roldan in England, I'd hang him up without judge or jury—tho', on recollection, I have fixed on the worst place in the world for hanging folks up, because a great man like me wills it—but now for vengeance— and yet I don't know how it happens, that altho' in some things I am a tolerably active, industrious fellow, yet when I have to seek revenge, I grow so infernally lazy I can scarce find in my heart to set about it.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="18" facs="24"/>
 <head>SCENE III.—</head><stage><hi>The Sea Coast—a boat stationed.</hi></stage>
 <stage><hi>Enter</hi> Roldan, <hi>with Troops, meeting</hi> Valverdo.</stage>
@@ -873,13 +872,13 @@
 <p>Trust me, brave people, these gods are vulnerable—soon shall you behold your javelins burnished with their blood—hunger and thirst is their's as well as our's, and the soul of a Spaniard takes its flight from a wound, as swiftly as an Indian's—Lead on.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="26" facs="32"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>—The Temple of the Sun.</stage>
 <stage>Catalpo <hi>and Priests assembled round the Altar. Enter</hi> Orozimbo <hi>and</hi> Alonzo.</stage>
 <sp>
@@ -911,7 +910,7 @@
 <speaker>Catalpo.</speaker>
 <p>Priestess, bear to our chief this consecrated weapon, it shall defend the Sun's insulted glory, our sovereign's, and his people's rights.</p>
 </sp>
-<stage>[Cora <hi>receives the weapon, and in bearing it to</hi> Orozimbo, <hi>sees</hi> Alonzo—<hi>exclaims,</hi> —"Oh, heavens!"—<hi>drops the weapon, and faints—</hi> Alonzo <hi>endeavours to assist her.]</hi></stage>
+<stage>[Cora <hi>receives the weapon, and in bearing it to</hi> Orozimbo, <hi>sees</hi> Alonzo—<hi>exclaims,</hi> —<said direct="true">"Oh, heavens!"</said>—<hi>drops the weapon, and faints—</hi> Alonzo <hi>endeavours to assist her.]</hi></stage>
 <sp>
 <speaker>Catalpo. </speaker>
 <stage>[to Alozo.]</stage>
@@ -942,8 +941,8 @@
 <p>Conclude your rites; and may the power supreme accept our fervent prayers, and be our humble offerings grateful to him.</p>
 <stage>[The Scene closes.]</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi></head><stage>An Indian Town.</stage>
 <stage><hi>Enter</hi> Dolores <hi>and</hi> Bribon.</stage>
 <sp>
@@ -1111,8 +1110,8 @@
 <p>I find I don't know how to use a man ill—I was a fool for trying it—I can't tell how English women manage—but I am very sure I was made to use men kindly.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.—</head><stage><hi>The Spanish Camp. [Night.]</hi></stage>
 <stage><hi>Enter</hi> Moscoso <hi>and Spaniards, with booty.</hi></stage>
 <sp>
@@ -1217,8 +1216,8 @@
 <p>The earth seems ready to open and swallow us up—let us find the priest and get absolution—Oh, mercy! mercy!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head><hi>SCENE V.</hi>—</head><stage>A view of the Temple of the Sun. In the back ground a mountain.</stage>
 <stage>[Thunder and lightning.]</stage>
 <stage><hi>Enter</hi> Alonzo.</stage>
@@ -1258,13 +1257,13 @@
 <p>My heaven of bliss, to die in thy embrace, death would have no power to inflict a pang, but thy dear life is all I have to hope of happiness on earth, and heaven direct me to preserve it.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="38" facs="44"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>—A rich country with an arbour.</stage>
 <stage>Alonzo <hi>and</hi> Cora <hi>discovered.</hi></stage>
 <sp>
@@ -1335,8 +1334,8 @@
 <p>Alonzo, if parting thus with thee, or instant death were left me to decide on, how should I spurn existence so dearly to be purchased. —But, oh, my father—my sisters—then let despairing love prey on my heart—the anguish of remorse shall never reach it.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—</head><stage><hi>The outside of the Temple.</hi></stage>
 <stage><hi>Enter</hi> Alonzo and Cora, <hi>with great caution.</hi></stage>
 <sp>
@@ -1357,8 +1356,8 @@
 <p>Oh! Alonzo, no more—</p>
 </sp>
 <stage>[Alonzo <hi>leads her to the temple—they embrace— she goes into the temple.—He exit on one side of the stage.]</hi></stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE VI. </head><stage><hi>The town.</hi></stage>
 <stage><hi>Enter</hi> Herbert <hi>and</hi> Nelti <hi>with a Quipos.</hi></stage>
 <sp>
@@ -1571,8 +1570,8 @@
 <p>Ha! ha! already I've perform'd a miracle—for there go a physician and a lawyer, wishing to sind among men health and sincerity— This partnership of liver is a whimsical kind of doctrine, and yet, absurd as it seems, I feel it not altogether untrue, for were my Nelti to die, I believe, Herbert, thy life wou'd not be worth many days.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="46" facs="52"/>
 <head>SCENE IV.—</head><stage><hi>The inside of an Indian house.</hi></stage>
 <stage><hi>Enter</hi> Dolores.</stage>
@@ -1834,13 +1833,13 @@
 </sp>
 <stage>[Dolores <hi>attempts to follow him, which</hi> Bribon <hi>prevents</hi>—Herbert <hi>returns, in apparent anger; then</hi> Bribon <hi>snatches up</hi> Dolores <hi>in his arms, and runs off with him.</hi></stage>
 <stage><hi>Exit</hi> Herbert, <hi>laughing.</hi></stage>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="51" facs="57"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE. I.—</head><stage><hi>Outside of the Temple of the Sun.</hi></stage>
 <stage><hi>Enter</hi> Alonzo.</stage>
 <sp>
@@ -2035,8 +2034,8 @@
 </sp>
 <stage>Orozimbo <hi>goes towards the temple,</hi> Alonzo <hi>heads the troops</hi>—</stage>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. </head><stage><hi>A Battle.</hi></stage>
 <stage><hi>Excursions</hi>—Alonzo <hi>is seen successfully to attack</hi> Roldan, <hi>who is relieved by a party of Spaniards</hi> —Alonzo <hi>retreats fighting—Indians driven across the stage.]</hi></stage>
 <stage><hi>Enter</hi> Orozimbo, <hi>attended, and</hi> Herbert.</stage>
@@ -2097,8 +2096,8 @@
 <p>Then act, my love, like a commander, and get out of the reach of danger as fast as you can—See how the Indians fly—Hah! we are surprized, and our retreat cut off—This way—this way—</p>
 </sp>
 <stage>Exeunt, [a troop of Spaniards pursuing.]</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE THE LAST.—</head><stage><hi>A garden of the Temple of the Sun—at the upper end an arch.</hi></stage>
 <stage><hi>Enter</hi> Catalpo <hi>and priests.</hi></stage>
 <sp>
@@ -2396,13 +2395,12 @@
 <l>To your support alone he trusts his cause,</l>
 <l>And rests his fame, on Englishmens applause.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="73"/>
 <head>EPILOGUE.</head>
 <byline>WRITTEN BY MILES P. ANDREWS, ESQ. SPOKEN BY MRS. POPE.</byline>
@@ -2472,8 +2470,7 @@
 <l>That bright reward—the triumph of your smiles.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

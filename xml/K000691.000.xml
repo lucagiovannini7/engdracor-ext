@@ -7,14 +7,14 @@
 <extent>[8],78p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Watts,</publisher><date>1730.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A reissue of the sheets of 'Rape upon rape', 1730, with a cancel titlepage.</note><note>In this issue, there is a single hyphen between "coffee" and "house" on the titlepage.</note><note>Reproduction of original from the Huntington Library.</note><note>Masengill, J.A. 'Variant forms of Fielding's Coffee-house politician', SB, 5: 178-183</note><note>English Short Title Catalog, ESTCN1125.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE <hi>Coffee-House</hi> Politician; OR, <hi>THE JUSTICE</hi> Caught in his own <hi>TRAP.</hi></p>
 <p>A COMEDY. As it is Acted at the Theatre-Royal in <hi>Lincoln's-Inn Fields.</hi></p>
 <p>Written by Mr. <hi>FIELDING.</hi></p>
 <p><hi>LONDON</hi>: Printed for J. WATTS, at the Printing-Office in <hi>Wild-Court</hi> near <hi>Lincoln's-Inn Fields.</hi> MDCCXXX.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. <hi>PAGET.</hi></stage>
@@ -61,8 +61,8 @@ But when the <hi>Champions,</hi> whom the <hi>Publick</hi> arm</l>
 <l>The <hi>Uncorrupt</hi> and <hi>Good</hi> must smile, to find</l>
 <l>No Mark for <hi>Satyr</hi> in his <hi>Generous Mind.</hi></l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="4"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by Mrs. <hi>MULLART.</hi></stage>
@@ -113,8 +113,8 @@ Heathenish Wretch! the Pious Christian Wife,</l>
 <l>Safe to your Husbands Arms may you escape,</l>
 <l>And never know that dreadful thing, a <hi>RAPE.</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -158,16 +158,16 @@ Heathenish Wretch! the Pious Christian Wife,</l>
 </list></item>
 <item>Evidences, Watch, <hi>&amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>LONDON.</hi></p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb facs="7"/>
 <head><hi>RAPE</hi> upon <hi>RAPE</hi>; OR, <hi>The JUSTICE</hi> caught in his own <hi>TRAP.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE <stage>A Parlour in <hi>Politick</hi>'s House. A Table spread with News-Papers. Chairs.</stage></head>
 <stage>Hilaret, Cloris.</stage>
@@ -221,8 +221,8 @@ stay out with his Friends at a Tavern, do you be merry with your Friends at home
 <speaker>Clo.</speaker>
 <p>If I have any Judgment in Mankind, and I am sure I have had some Experince in them, your Passion could have been no where better fixed: Capt. <hi>Constant</hi> hath all the Qualities any Woman can desire. He hath Youth, Beauty, Vigour, Gallantry, Constancy, and as Mr. <hi>Cowley</hi> says, a long <hi>&amp;c.</hi></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Politick, Hilaret, Cloris.</stage>
 <sp>
@@ -311,8 +311,8 @@ hey?—It is impossible that two Women should be together without producing Misc
 <p>I wish you Success, Sir: but I must take my leave of you, for it grows very late: so good-Night, Papa.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Politick <hi>Solus.</hi></stage>
 <sp>
@@ -320,8 +320,8 @@ hey?—It is impossible that two Women should be together without producing Misc
 <pb n="5" facs="11"/>
 effect from them—should the <hi>Turkish</hi> Gallies once find a Passage through the <hi>Straights,</hi> who can tell the Consequence. I hope I shall not live to see that Day</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Politick, Dabble.</stage>
 <sp>
@@ -406,8 +406,8 @@ effect from them—should the <hi>Turkish</hi> Gallies once find a Passage throu
 <speaker>Pol.</speaker>
 <p>Sir, I believe I know as much as you, or any one, of it.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Politick, Dabble, Faithful.</stage>
 <sp>
@@ -442,8 +442,8 @@ effect from them—should the <hi>Turkish</hi> Gallies once find a Passage throu
 <speaker>Dab.</speaker>
 <p>Nor I have compared it to <hi>France,</hi> to have been King of both.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="7" facs="13"/>
 <head>SCENE VI.</head>
 <stage>Politick, Dabble, Faithful, Porer.</stage>
@@ -488,8 +488,8 @@ effect from them—should the <hi>Turkish</hi> Gallies once find a Passage throu
 <p>Be not concerned at any thing, after what you have heard: let the Private give way to the Publick ever.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. </head>
 <stage>The Street.</stage>
 <stage>Sotmore, Ramble.</stage>
@@ -558,16 +558,16 @@ back to the Tavern to thee. <hi>Burgundy</hi> shall be the Word, and I will figh
 <stage>[Sings.</stage>
 <stage>[Exit <hi>Sotmore.</hi></stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Ramble <hi>solus.</hi></stage>
 <sp>
 <speaker>Ramb.</speaker>
 <p>Sure, this Fellow's whole Sensation lies in his Throat: for he is never pleased but when he is swallowing: And yet the Hogshead will be as soon drunk with the Liquor it contains, as he. I wish it had no other Effect upon me. Pox of my Paper Scull! I have no sooner buried the Wine in my Belly, than its Spirit rises in my Head—I am in a very proper Humour for a Frolick; If my good Genius, and her evil one would but send some lovely Female in my way—Ha! the Devil hath heard my Prayers.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Ramble, Hilaret.</stage>
 <sp>
@@ -773,8 +773,8 @@ my little <hi>Venus</hi>—If you don't consent, Ill ravish you.</p>
 <speaker>Hil.</speaker>
 <p>Help, a Rape!—</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Ramble, Hilaret, Staff, Watch.</stage>
 <sp>
@@ -861,11 +861,11 @@ my little <hi>Venus</hi>—If you don't consent, Ill ravish you.</p>
 <p>Confound all your modest Women, I say—a Man can have nothing to do with a modest Woman, but he must be married, or hanged for't.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE <stage>Justice <hi>Squeezum</hi>'s; a Table, Pen Ink, Paper, <hi>&amp;c.</hi></stage></head>
 <stage>Squeezum, Quill.</stage>
@@ -907,8 +907,8 @@ may remember to have the Pannel No 3. they are a Set of good Men and true, and h
 <speaker>Squeez.</speaker>
 <p>Ay, poor Fellows! We must all take our Chance, <hi>Quill.</hi> The Man who would live in this World, must not fear the next. The Chance of Peace is doubtful as that of War; and they who will make their Fortunes at Home, should entertain no more Dread of the Bench, than a Soldier should of the Field. We are all militant here, and a Halter hath been fatal to many a great Man, as well as a Bullet.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Squeezum, Quill, Staff.</stage>
 <sp>
@@ -1022,8 +1022,8 @@ Clerk; and the other two are young Gentlemen of the <hi>Temple.</hi></p>
 <speaker>Squeez.</speaker>
 <p>We'll try him till Noon, however.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Squeezum, <hi>Mrs.</hi> Squeezum.</stage>
 <sp>
@@ -1085,8 +1085,8 @@ me only beg the Favour of Dining a little sooner than ordinary.</p>
 <p>Well, my Dear, this Time you shall be indulged.—Trust a Thief or Lawyer with your Purse, a Whore or Physician with your Constitution, but never trust a dangerous Secret with your Wife; for when once you have put it into her Power to hang you, the sooner you are hang'd, the better.</p>
 <stage>[Aside▪</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="19" facs="25"/>
 <head>SCENE IV.</head>
 <stage>Squeezum, Quill, <hi>Mrs.</hi> Squeezum, Staff, Watch, Ramble, Hilaret.</stage>
@@ -1203,8 +1203,8 @@ me only beg the Favour of Dining a little sooner than ordinary.</p>
 <speaker>Ramb.</speaker>
 <p>This Kindness of yours, Madam, will be an Encouragement to Offenders.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Squeezum, Hilaret.</stage>
 <sp>
@@ -1328,8 +1328,8 @@ Pray answer me one Question—How long have you been upon the Town?</p>
 <speaker>Squeez.</speaker>
 <p>Adieu, my pretty Charmer. I shall burn with Impatience.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Squeezum <hi>solus.</hi></stage>
 <sp>
@@ -1337,8 +1337,8 @@ Pray answer me one Question—How long have you been upon the Town?</p>
 <pb n="24" facs="30"/>
 pay for my Sins, as well as their own. I fancy my Wife hath sufficiently frightned him by this, and that he will truckle to any Terms to be acquitted; for I must own she will pump a Man much better than I—Oh! here they come; I must deal with my Gentleman now, in another Style.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Squeezum, <hi>Mrs.</hi> Squeezum, Ramble.</stage>
 <sp>
@@ -1416,8 +1416,8 @@ pay for my Sins, as well as their own. I fancy my Wife hath sufficiently frightn
 <speaker>Squeez.</speaker>
 <p>Well Sir, if you cannot pay for your Transgressions like the Rich, you must suffer for them like the Poor.—Here, Constable.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Squeezum, <hi>Mrs.</hi> Squeezum, Ramble, Staff, Constables.</stage>
 <sp>
@@ -1444,8 +1444,8 @@ pay for my Sins, as well as their own. I fancy my Wife hath sufficiently frightn
 <speaker>Ramb.</speaker>
 <p>Come, honest Mr. Constable, Mr. nocturnal Justice, let me go any where from this Fellow—the Night hath chosen a better Justice than the Day.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Squeezum, <hi>Mrs.</hi> Squeezum.</stage>
 <sp>
@@ -1486,15 +1486,15 @@ I have no Hopes in the Woman's Swearing. She is discharged already.</p>
 <speaker>Squeez.</speaker>
 <p>Yes, yes, I shall remember them; they are not likely to be soon forgotten.—Follow me to my Escritore.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage><hi>Mrs.</hi> Squeezum <hi>sola.</hi></stage>
 <sp>
 <p>Since you are sure of going to the Devil, honest Spouse, I'll take Care to equip you with a Pair of Horns, that you may be as like one another as possible. This dear wild Fellow must be mine, and shall be mine: I like him so well, that if he had even ravished me, on my Conscience I should have forgiven him.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>Mr. <hi>Worthy</hi>'s.</stage>
 <stage>Worthy, Politick.</stage>
@@ -1601,8 +1601,8 @@ I have no Hopes in the Woman's Swearing. She is discharged already.</p>
 <speaker>Wor.</speaker>
 <p>Mr. <hi>Politick,</hi> your very humble Servant.</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Worthy <hi>solus.</hi></stage>
 <sp>
@@ -1611,11 +1611,11 @@ I have no Hopes in the Woman's Swearing. She is discharged already.</p>
 <l>Who, by no wild unruly Passion blind,</l>
 <l>To Reason gives the Conduct of his Mind.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE <stage>The Street.</stage></head>
 <stage>Hilaret, Cloris, <hi>meeting.</hi></stage>
@@ -1693,8 +1693,8 @@ I have no Hopes in the Woman's Swearing. She is discharged already.</p>
 <p>Poor Creature! She knows the way to her Destruction too well—but it would be Impertinence in a Servant to put her out of it.</p>
 <stage>[Aside.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>The Constable's House.</stage>
 <stage>Constant <hi>alone.</hi></stage>
@@ -1703,8 +1703,8 @@ I have no Hopes in the Woman's Swearing. She is discharged already.</p>
 <pb n="32" facs="38"/>
 hazard my own Happiness and Reputation on her Account?—But sure, to swear a Rape against me for having rescued her from a Ravisher, is an unparalelled Piece of Ingratitude.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Constant, <hi>and Mrs.</hi> Staff.</stage>
 <sp>
@@ -1735,8 +1735,8 @@ hazard my own Happiness and Reputation on her Account?—But sure, to swear a Ra
 <speaker>Mrs. Staff.</speaker>
 <p>I wish it had more; for we must stand and fall by one another; no business there, no Business here; and truly Captain, 'tis with Sorrow I say it, where we have one Felon now, we had ten, a Year or two ago—I have not seen one Prisoner brought in for a Rape this Fortnight, except your Honour. I hope your Handsel will be lucky.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="33" facs="39"/>
 <head>SCENE IV.</head>
 <stage>Constant, Staff, <hi>Mrs.</hi> Staff.</stage>
@@ -1772,8 +1772,8 @@ hazard my own Happiness and Reputation on her Account?—But sure, to swear a Ra
 <speaker>Staff.</speaker>
 <p>But here is the Gentleman.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Constant, Ramble, Staff, <hi>Mrs.</hi> Staff.</stage>
 <sp>
@@ -1826,8 +1826,8 @@ hazard my own Happiness and Reputation on her Account?—But sure, to swear a Ra
 <speaker>Ramb.</speaker>
 <p>Spoken like a true Philosopher.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Constant, Ramble.</stage>
 <sp>
@@ -1900,8 +1900,8 @@ came you to leave the <hi>Indies,</hi> where I thought you had been settled for 
 <speaker>Ramb.</speaker>
 <p>D'ye hear, we are in a fine Condition 'faith!</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Constant, Ramble, Sotmore, Staff.</stage>
 <sp>
@@ -1923,8 +1923,8 @@ if you do either—Here, you, let the Punch be gotten ready.</p>
 <p>It shall, an't please your Honour. (This Gentleman is a rare Customer to a House, I wish he would commit a Rape too.)</p>
 <stage>[Aside.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Constant, Ramble, Sotmore.</stage>
 <sp>
@@ -2092,8 +2092,8 @@ hanged for Ravishing her, I'll be hanged for Murdering her. Describe the little 
 <speaker>Ramb.</speaker>
 <p>To say the Truth of her, <hi>Sotmore</hi> must have allowed her handsome, and I must allow her to have been a damn'd, confounded, common—</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Constant, Ramble, Sotmore, Hilaret.</stage>
 <sp>
@@ -2219,8 +2219,8 @@ hanged for Ravishing her, I'll be hanged for Murdering her. Describe the little 
 <speaker>Ramb.</speaker>
 <p>May that be the only Prayer which it denies to <hi>Constant.</hi></p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="42" facs="48"/>
 <head>SCENE X.</head>
 <stage>Constant, Ramble, Sotmore, Hilaret, Staff.</stage>
@@ -2252,8 +2252,8 @@ hanged for Ravishing her, I'll be hanged for Murdering her. Describe the little 
 <speaker>Sotm.</speaker>
 <p>Let the Moments be very few. I'll lay Five Gallons to One, this Fellow hath another Whore in his Eye.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>Ramble, <hi>Mrs.</hi> Squeezum.</stage>
 <sp>
@@ -2367,8 +2367,8 @@ hanged for Ravishing her, I'll be hanged for Murdering her. Describe the little 
 <speaker>Ramb.</speaker>
 <p>Farewel, my Angel!</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Ramble <hi>Solus.</hi></stage>
 <sp>
@@ -2376,8 +2376,8 @@ hanged for Ravishing her, I'll be hanged for Murdering her. Describe the little 
 <pb n="45" facs="51"/>
 Cuckold—and the surest Hold you can take of a Man, as of a Bull, is by his Horns.</p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>Ramble, Constant, Sotmore, Hilaret.</stage>
 <sp>
@@ -2443,11 +2443,11 @@ Cuckold—and the surest Hold you can take of a Man, as of a Bull, is by his Hor
 <l>Which the dull scribling Water-drinkers write.</l></p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE <stage><hi>Squeezum</hi>'s.</stage></head>
 <stage>Squeezum, Quill.</stage>
@@ -2506,15 +2506,15 @@ a Confidence I put in thee.—In short, <hi>Quill,</hi> I suspect my Wife—</p>
 <p>And I as liberal on your Success.</p>
 <stage>[Exit <hi>Squeezum.</hi></stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Quill <hi>solus.</hi></stage>
 <sp>
 <p>Indeed, Justice, that Bait will not do. I know you too well to trust to your Liberality. Your Wife will reward Services better than you. Besides, I have too much Honour to take Fees on both Sides.—And since I am her Pimp in ordinary, I'll go like an honest and dutiful Servant, and discover this Conspiracy; for should she once be turn'd out of the Family, I should make but a slender Market of this closefinger'd Justice, whose Covetousness would suffer no Rogues to live but himself.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="48" facs="54"/>
 <head>SCENE III. </head>
 <stage>The Constable's House.</stage>
@@ -2574,8 +2574,8 @@ a Confidence I put in thee.—In short, <hi>Quill,</hi> I suspect my Wife—</p>
 <pb n="50" facs="56"/>
 Consequence hath caused me to reflect when it was too late. I never reasoned on what I should do, but what I had done; as if my Reason had her Eyes behind, and could only see backwards.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Ramble, Constant, Staff.</stage>
 <sp>
@@ -2620,8 +2620,8 @@ I Was no sooner recovered of the Fright which that unmannerly Friend of yours oc
 <p>Success attend you.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="51" facs="57"/>
 <head>SCENE V.</head>
 <stage>A Tavern.</stage>
@@ -2638,8 +2638,8 @@ I Was no sooner recovered of the Fright which that unmannerly Friend of yours oc
 <speaker>Squeez.</speaker>
 <p>Do—and leave Word if any such comes, to shew her up hither.—I have no Reason to doubt her Company, but I am impatient for it. I protest this Woman hath revived the Vigour of Youth in me; sure, I must have over-reckoned my Years!—I cannot be above Forty-Nine at the most.—I wish this dear Girl was come.—I am afraid I did wrong in giving her those Five Shillings, in a Purse worth above Two Shillings more, which who knows but she may be spending on some Bully, who will perhaps send another Present to me in return?</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Squeezum, Hilaret.</stage>
 <sp>
@@ -2769,8 +2769,8 @@ I Was no sooner recovered of the Fright which that unmannerly Friend of yours oc
 <speaker>Hil.</speaker>
 <p>Help there! a Rape, a Rape!</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Squeezum, Hilaret, Sotmore.</stage>
 <sp>
@@ -3067,8 +3067,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 </lg>
 </lg>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Squeezum, Hilaret, Sotmore Constant, Staff.</stage>
 <sp>
@@ -3115,8 +3115,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Staff.</speaker>
 <p>Come in there.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="61" facs="67"/>
 <head>SCENE IX.</head>
 <stage>Squeezum, Hilaret, Sotmore, Constant, Staff, <hi>Assistants.</hi></stage>
@@ -3178,12 +3178,12 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <l>One Blessing only may Heav'n leave thy Life,</l>
 <l>May it take all things from thee—but thy Wife.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="62" facs="68"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <head>SCENE <stage><hi>Politick</hi>'s House.</stage></head>
 <stage>Politick <hi>solus.</hi></stage>
@@ -3191,8 +3191,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Pol.</speaker>
 <p>SURE, never Child inherited less of a Father's Disposition than mine; her Mother certainly played me foul in the begetting her: I, who have been my whole Life noted for Sobriety, could never have given Being to so wild a Creature: I begin to recollect having seen a tall Half-pay Officer at my House formerly: Nor do I think the Girl unlike him. I am sure she hath been ever wild enough, to have had any Officer in the Kingdom for her Father. Nature hath been kind to the Male of all Creatures but Man: The Bull, the Horse, the Dog are not encumbered even with their own Off-spring; that Care falls only to the Females: But Man, when once a gabling Priest hath chattered a few mischievous Words over him, is bound to have and to hold from that Day forward all the Brats his Wife is pleased to bestow on him. Yet I must own the Girl hath been ever dutiful to me, till she became acquainted with this cursed Fellow in a Red Coat. Why should Red have such Charms in the Eyes of a Woman? The <hi>Roman</hi> Senate kept their Armies abroad to prevent their sharing in their Lands at home, we should do the same to prevent their sharing in our Wives. A tall lusty Fellow shall make more work for a Midwife in one Winter at home, than he can for a Surgeon in ten Summers abroad.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="63" facs="69"/>
 <head>SCENE II.</head>
 <stage>Politick, Faithful.</stage>
@@ -3208,8 +3208,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Pol.</speaker>
 <p>Very well! I must be patient. I think we have three Mails together now: I am not satisfied at all with the Affairs in the North: The Northern Winds have not blown us any Good lately; the Clouds are a little darker in the East too than I could wish them.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Politick, Dabble.</stage>
 <sp>
@@ -3330,8 +3330,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Pol.</speaker>
 <p>Shall I beg to hear that over again?</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Politick, Dabble, Faithful.</stage>
 <sp>
@@ -3400,8 +3400,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Pol.</speaker>
 <p>Nay, if you have seen it in a News-Paper, it may probably have some Truth in it; so Neighbour <hi>Dabble</hi> you will excuse me, I will meet you within an Hour at the Coffee-house, and there we will confer farther.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="67" facs="73"/>
 <head>SCENE V.</head>
 <stage><hi>Worthy</hi>'s House. </stage>
@@ -3434,8 +3434,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Wor.</speaker>
 <p>Forget! By Heaven it shocks me, that we who boast as wholsome Laws as any Kingdom upon Earth, should by the Roguery of some of their Executors lose all their Benefit. I long to see the time when here, as in <hi>Holland,</hi> the Traveller may walk unmolested, and carry his Riches openly with him.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="68" facs="74"/>
 <head>SCENE VI.</head>
 <stage>Worthy, Isabella, Squeezum.</stage>
@@ -3504,8 +3504,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Isa.</speaker>
 <p>Brother, your Servant; my Presence will be very little necessary at this Tryal.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Worthy, Squeezum, Constant, Hilaret, Staff, Sotmore, Brazencourt, Fireball, <hi>three Assistants.</hi></stage>
 <sp>
@@ -3630,8 +3630,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Sot.</speaker>
 <p>Heark'e, Justice, I believe thou art honester than thy Brother; I am sure thou canst not be a greater Rogue: If thou wilt act the right Part, acquit us, and send that Villain to Prison.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Worthy, Squeezum, Constant, Hilaret, Sotmore, Staff, <hi>Constable, Assistants,</hi> Politick, Faithful, Cloris.</stage>
 <sp>
@@ -3675,8 +3675,8 @@ like the Game, was intended for Gentlemen—and no one should get drunk, who can
 <speaker>Pol.</speaker>
 <p>Yes, Sir, it is as possible, as that the <hi>Turks</hi> may come into our Part of <hi>Europe</hi>; and I wish this may not be as sure as that.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Worthy, Squeezum, Constant, Hilaret, Staff, <hi>Constables, Assistants,</hi> Politick, Faithful, Sotmore, Cloris, Ramble, <hi>Mrs.</hi> Squeezum, Quill.</stage>
 <sp>
@@ -3779,8 +3779,8 @@ for all this Trouble; tho' Mr. Constable may claim some Share, in not suffering 
 <speaker>Squeez.</speaker>
 <p>Come, Sir, this is only losing Time—I want the <hi>Mittimus.</hi></p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Worthy, Squeezum, Ramble, Constant, Sotmore, Hilaret, Politick, <hi>Mrs.</hi> Squeezum, Quill, Staff, Faithful, <hi>&amp;c.</hi> Isabella.</stage>
 <sp>
@@ -3845,8 +3845,8 @@ for all this Trouble; tho' Mr. Constable may claim some Share, in not suffering 
 <speaker>Mrs. Squeez.</speaker>
 <p>I'll follow thee, like thy evil Genius, till I have brought thee to that Justice thou deservest.</p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <hi>the Last.</hi></head>
 <stage>Worthy, Ramble, Conant, Sotmore, Hilaret, Isabella, Politick.</stage>
 <sp>
@@ -3976,11 +3976,10 @@ all possible Measures to your receiving Satisfaction for your Injuries, and maki
 <l>No Reverence that Church or State attends,</l>
 <l>Whose Laws the Priest or Magistrate offends.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

@@ -7,7 +7,7 @@
 <extent>vi,[4],62p. ; 12⁰.</extent><publicationStmt><publisher>printed by Byrn and Son, for the Company of Booksellers,</publisher><date>1777.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Home.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT21216.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>ALFRED.</p>
 <p>A TRAGEDY.</p>
@@ -15,8 +15,8 @@
 <quote>—LECTORI CREDERE MAVULT.</quote> <bibl>HOR.</bibl>
 <p>DUBLIN: PRINTED BY BYRN AND SON, SYCAMORE-ALLEY, FOR THE COMPANY OF BOOKSELLERS.</p>
 <p>M.DCC.LXXVII.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>THE success of a Dramatic piece on the Stage, depends, says Voltaire, upon accidental circumstances, but the day of publication decides its fate.</p>
@@ -33,8 +33,8 @@ agitated, and prone both by temper and habit, to the most daring and romantic en
 records of a remote and barbarous age, a hero of great renown, but from the defect of his historians, involved in clouds and darkness:
 Qui caput inter nubila condit.
 he was tempted to seize his name, and display his character in new situations, connected with the old and well known events of his life and fortune. The play is printed as it was performed. An alteration has been made, in one scene, and sent to the Theatre, which, if the Tragedy should be resumed or revived, may perhaps contribute to heighten its effect.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <l>To furnish a new Prologue for each Play,</l>
@@ -69,8 +69,8 @@ he was tempted to seize his name, and display his character in new situations, c
 <l>Nor should <hi>he</hi> find in <hi>Alfred</hi>'s kingdom foes:</l>
 <l>He, who by temper led, not love of fame,</l>
 <l>Is the fond echo of your hero's name.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="7"/>
 <head>EPILOGUE.</head>
 <byline>BY Mr. GARRICK.</byline>
@@ -109,8 +109,8 @@ Tho' from his eyes the drop of pity falls,</l>
 <l>O let <hi>your</hi> feelings with his party side,</l>
 <l>For once forgive me that I have not dy'd;</l>
 <l>Too hard that fate, which kills a <hi>virgin bride.</hi></l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="9"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -131,13 +131,12 @@ Tho' from his eyes the drop of pity falls,</l>
 <item>ELISA,</item>
 </list>Attendants on Ethelswida.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="10"/>
 <head>ALFRED. A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <head>SCENE I. <stage>A Camp.</stage></head>
 <stage><hi>Earl of</hi> DEVONSHIRE, <hi>and</hi> OFFICER.</stage>
@@ -761,8 +760,8 @@ In darkness lie; so may their eyes be dark,</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>End of the FIRST Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="23"/>
 <head>ACT II.</head>
 <head>SCENE, <stage>The Danish Camp.</stage></head>
@@ -1379,8 +1378,8 @@ Without permission of thy Lord, the place</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>End of the SECOND Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="26" facs="35"/>
 <head>ACT III.</head>
 <stage>HINGUAR <hi>and</hi> EDDA.</stage>
@@ -2170,8 +2169,8 @@ The path of Hinguar lies. When he is dead,</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>End of the THIRD Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="40" facs="49"/>
 <head>ACT IV.</head>
 <stage>ALFRED <hi>and</hi> SURREY</stage>
@@ -2777,8 +2776,8 @@ Induce thy soul to do an act humane,</l>
 <l>And lead her safe to Hinguar's longing arms.</l>
 </sp>
 <trailer>End of the FOURTH Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="51" facs="60"/>
 <head>ACT V.</head>
 <head>SCENE, <stage>The Tents—At a distance mountains and trees; the moon in crescent, and the stage darkened.</stage></head>
@@ -3402,9 +3401,8 @@ Of death. The wearer of my garment died,</l>
 <l>Fearless to stem the torrent of disaster,</l>
 <l>And ne'er of England, or themselves, despair.</l>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

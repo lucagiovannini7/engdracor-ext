@@ -7,18 +7,18 @@
 <extent>[10],77,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by R. Cruttwell,</publisher><date>1777.</date><pubPlace>Bath :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Robert Hitchcock.</note><note>Based on Eliza Haywood's 'The history of Miss Betsy Thoughtless'.</note><note>With a half-title and a list of subscribers.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT69031.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE COQUETTE; OR, THE MISTAKES of the HEART.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE COQUETTE; OR, THE MISTAKES of the HEART: A COMEDY. As performed at the THEATRES-ROYAL IN <hi>YORK</hi> and <hi>HULL.</hi></p>
 <p><hi>BATH:</hi> PRINTED BY R. CRUTTWELL.</p>
 <p>MDCCLXXVII.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <list>
 <head>Dramatis Personae.</head>
@@ -39,10 +39,10 @@
 <item><label>Fontange,</label> Mrs. Payne.</item>
 <item>Constable, Servants, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, LONDON.</p>
 <p>TIME, that of Representation.</p></set>
-<div1 type="dedication">
+<div type="dedication">
 <pb facs="4"/>
 <head>TO Mrs. NEWTON, OF KING's-BROMLEY, <hi>STAFFORDSHIRE.</hi></head>
 <opener><salute>MADAM,</salute></opener>
@@ -51,8 +51,8 @@
 <p>WHERE <hi>Youth, Beauty,</hi> and <hi>Virtue</hi> unite to—Your delicacy has snatched the pen from my unwilling hand—I must obey—Suffer me only to add, that I am, MADAM,</p>
 <closer><signed>With the greatest truth, Your most obedient Very humble servant, The AUTHOR.</signed>
 <dateline>BATH, <date>May 26, 1777.</date></dateline></closer>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="5"/>
 <p>THE moment that a Reader takes up a Book with a Design to peruse it, he naturally wishes for all the Information possible, relative to the Writer and Writing of it—</p>
 <p>WILLING, in every <hi>reasonable</hi> Degree, to satisfy the Curiosity of my good Friends and Purchasers, I shall candidly answer their following Questions:</p>
@@ -68,8 +68,8 @@
 <p><hi>Necessity, not Inclination.</hi></p>
 <p>Is it worth purchasing?</p>
 <p><hi>An odd Question—He is afraid not—But, good bye, Read on and judge for yourself.</hi></p>
-</div1>
-<div1 type="listofsubscribers">
+</div>
+<div type="listofsubscribers">
 <pb facs="6"/>
 <head>SUBSCRIBERS.</head>
 <list>
@@ -420,15 +420,14 @@ Miss Tyler, Bath</item>
 <item>Mr. Connor, ditto</item>
 <item>Mr. Sadler, ditto &amp;c. &amp;c.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="10"/>
 <head>THE COQUETTE; OR, THE MISTAKES of the HEART.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>the PARK.</stage></head>
 <stage><hi>Enter</hi> SEDLEY <hi>and</hi> WOODFORD,</stage>
 <sp>
@@ -715,8 +714,8 @@ Miss Tyler, Bath</item>
 <p>To serve you, but in what manner I have not yet determined.—Come, let's home to my house and consider farther.—Nay, nay, no excuses.—I see you are unfit to be left to yourself.—And the heart which does not feel the distress of a friend, is not worthy of existence.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>Miss BLOOMER'S.</stage></head>
 <stage><hi>Enter</hi> FONTANGE <hi>and</hi> FINESSE.</stage>
 <sp>
@@ -1281,12 +1280,12 @@ Miss Tyler, Bath</item>
 <l>Look on her face, and you'll forget them all.</l>
 </sp>
 <trailer>End of the First Act.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="26"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>CAPTAIN HELM'S.</stage></head>
 <stage>CAPTAIN HELM <hi>discover'd lying on a Couch,</hi> SWAB <hi>waiting.</hi></stage>
 <sp>
@@ -1456,8 +1455,8 @@ Miss Tyler, Bath</item>
 <p>Ay, ay, I shall lie by 'till then—But, harkye, Sedley! may I never strike an enemy's flag again, if I would not rather be rak'd fore and aft by a whole French squadron, than stand one broadside from such a Turkish pirate.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Miss</hi> BLOOMER'S.</stage></head>
 <stage><hi>Enter</hi> FONTANGE <hi>and</hi> FINESSE.</stage>
 <sp>
@@ -1718,8 +1717,8 @@ Miss Tyler, Bath</item>
 <p>Ha! ha! ha! well said, Old Antiquity—Begar, I believe I shall put de little sheat upon him too—Now, to find Sedley again—I have business enough upon my hand—So much de better——Frenchmen have no occasion to be idle, when Englishmen have so many follies and vices to work upon.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Lady</hi> YOUNGLOVE'S.</stage></head>
 <stage>(<hi>Lady</hi> YOUNGLOVE <hi>discovered dressing.</hi>)</stage>
 <sp>
@@ -2198,12 +2197,12 @@ Where have you been, Frippery?</p>
 <stage>[Exit.</stage>
 </sp>
 <trailer>End of the Second Act.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="35" facs="44"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Mrs.</hi> FASHION'S.</stage></head>
 <stage><hi>Enter</hi> FLAMWELL, <hi>and Mrs.</hi> FASHION.</stage>
 <sp>
@@ -2703,8 +2702,8 @@ Where have you been, Frippery?</p>
 <p>A wife, by all means—Of Two Evils, I always chuse the least.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>LADY YOUNGLOVE'S.</stage></head>
 <stage><hi>Enter Lady</hi> YOUNGLOVE, <hi>drest, and</hi> FLORA,</stage>
 <sp>
@@ -3028,12 +3027,12 @@ F. BELGROVE.</p>
 <stage>[Exit.</stage>
 </sp>
 <trailer>End of the Third Act.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="51" facs="60"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Miss</hi> BELGROVE'S.</stage></head>
 <stage><hi>Enter Miss</hi> BELGROVE <hi>and</hi> SEDLEY.</stage>
 <sp>
@@ -3087,8 +3086,8 @@ F. BELGROVE.</p>
 <p>Poor Gentleman!—Oh, Lud! what fools this Love makes of the wisest of us—I swear, if the whimsical, inconsistent urchin, dare have the assurance to attack me, I'd muster up all my courage, and—and—run away from him, as fast as I could.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Miss</hi> BLOOMER'S.</stage></head>
 <stage><hi>Enter Miss</hi> BLOOMER, <hi>and Mrs.</hi> FASHION.</stage>
 <sp>
@@ -3248,8 +3247,8 @@ F. BELGROVE.</p>
 <p>So! so!—These eyes of mine will be brought in guilty of murder!—Well! I am certainly an unaccountable mortal—Though my heart feels the most delicate touches of sensibility, yet, this love of admiration hurries me, unthinkingly, into a thousand errors—Positively, I will reform—Ay, but how?—Why, marry—Oh, lud, the cure would be worse than the disease—And yet, was Sedley my doctor, I think he cou'd qualify the bitter portion—In short, I'm absolutely determined—on—what? To be as good as I can.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Lady</hi> YOUNGLOVE'S.</stage></head>
 <stage><hi>Enter</hi> FLORA, WOODFORD, <hi>and</hi> FRIPPERY.</stage>
 <sp>
@@ -3449,8 +3448,8 @@ F. BELGROVE.</p>
 <p>Oui, Monsieur, I shall take de great care not to go first.</p>
 <stage>[Exeunt, crying help! murder! help!</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>Mrs.</hi> FASHION'S.</stage></head>
 <stage><hi>Enter Miss</hi> BLOOMER, <hi>and Mrs.</hi> FASHION.</stage>
 <sp>
@@ -3483,8 +3482,8 @@ F. BELGROVE.</p>
 <p>Certainly—Nay, don't hesitate but let me lead you to him.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes, discovers a room darkened.</hi> FLAMWELL <hi>lying on a couch.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> FASHION, <hi>and Miss</hi> BLOOMER.</stage>
 <sp>
@@ -3813,12 +3812,12 @@ F. BELGROVE.</p>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>End of the Fourth Act.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="67" facs="76"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Lady</hi> YOUNGLOVE'S.</stage></head>
 <stage><hi>Enter</hi> FLORA, <hi>and</hi> FRIPPERY.</stage>
 <sp>
@@ -4314,10 +4313,9 @@ F. BELGROVE.</p>
 <speaker>Sedley.</speaker>
 <p>We accept your offer, Captain, happy in having our adventures brought to so agreeable a conclusion—I only beg leave to remark—That though our follies and vices justly deserve the comic lash—Yet, when, instead of persevering, we nobly acknowledge our errors, and amend—Satire then loses her sting, our foibles turn to virtues, and, the most permanent felicity arises from THE MISTAKES OF THE HEART.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

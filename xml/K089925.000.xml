@@ -7,19 +7,19 @@
 <extent>6,[2],104p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. Wilkie,</publisher><date>1781.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A number of press variants have been noted.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT112299.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>A TRIP TO SCARBOROUGH A COMEDY.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>A TRIP TO SCARBOROUGH. A COMEDY. AS PERFORMED AT THE THEATRE ROYAL IN DRURY LANE.</p>
 <p>ALTERED FROM <hi>Vanbrugh's Relapse; or, Virtue in Danger.</hi></p>
 <p>By RICHARD BRINSLEY SHERIDAN, Esq.</p>
 <p>LONDON. Printed for G. WILKIE, No. 71, St. Paul's Church-yard. MDCCLXXXI.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <byline>Written by DAVID GARRICK, Esq.</byline>
@@ -75,8 +75,8 @@ No head of old, too high in feather'd state,</l>
 <l>And howsoever wicked wits revile 'em,</l>
 <l>We hope to find in you, their Stage Asylum.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -119,14 +119,14 @@ No head of old, too high in feather'd state,</l>
 <label>Miss HOYDEN,</label>
 <item>Mrs. Abington.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="6"/>
 A TRIP TO SCARBOROUGH, A COMEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>the Hall of an Inn.</stage></head>
 <stage><hi>Enter</hi> YOUNG FASHION <hi>and</hi> LORY—Postillion <hi>following with a Portmanteau.</hi></stage>
 <sp>
@@ -430,8 +430,8 @@ your pursuing the other too far—but my coxcomb of a brother is an admirer of A
 <speaker>Y. FASHION.</speaker>
 <p>'Sdeath and furies! why was that coxcomb thrust into the world before me? O Fortune! Fortune! thou art a jilt, by Gad. <stage>[Exit</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II, <stage>a Dressing Room.</stage></head>
 <stage><hi>Lord</hi> FOPPINGTON, <hi>in his Night Gown, and</hi> LA VAROLE.</stage>
 <sp>
@@ -817,13 +817,13 @@ and have play'd many a rogueish trick, this is so full-grown a cheat, I find I m
 <l>I will subdue my conscience to my plot.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="25"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> LOVELESS and AMANDA</stage>
 <sp>
@@ -1613,13 +1613,13 @@ Amanda, it's a delicious thing to be a young widow.</p>
 <p>Well, make haste, and we'll finish this subject as we go. <stage>[<hi>Exit</hi> Amanda.</stage></p>
 <p>Ah! poor Amanda, you have led a country life! Well, this discovery is lucky!—base Townly!—at once false to me, and treacherous to his friend! and my innocent, demure, cousin, too!—I have it in my power to be revenged on her, however. Her husband, if I have any skill in countenance, would be as happy in my smiles, as Townly can hope to be in her's.—I'll make the experiment, come what will on't.—The woman who can forgive the being robb'd of a favour'd lover, must be either an ideot or a wanton.</p>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT THE SECOND.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="42" facs="47"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> LORD FOPPINGTON <hi>and</hi> LA VAROLE.</stage>
 <sp>
@@ -1851,8 +1851,8 @@ thou then think thou hast any advantage over me but what fortune has given thee?
 <p>The happiest day I ever saw. I'm upon the wing already.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>A GARDEN.</stage></head>
 <stage><hi>Enter</hi> LOVELESS <hi>and</hi> SERVANT.</stage>
 <sp>
@@ -2139,8 +2139,8 @@ Look you, Amanda, you may build castles in the air, and fume, and fret, and grow
 <pb n="56" facs="61"/>
 If it prove so, and her agreeable husband perseveres—Heav'n send me resolution!—well—how this business will end I know not—but I seem to be in as fair a way to lose my gallant Colonel, as a boy is to be a rogue, when he's put clerk to an attorney. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>a Country House.</stage></head>
 <stage><hi>Enter</hi> Young FASHION <hi>and</hi> LORY.</stage>
 <sp>
@@ -2336,13 +2336,13 @@ O my dear nurse, forgive me this once, and I'll never misuse you again; no, if I
 <speaker>MISS.</speaker>
 <p>O Lord! I'll go and put on my laced tucker, tho' I'm lock'd up a month for't. <stage>[Exit running.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="62" facs="67"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> MISS HOYDEN <hi>and</hi> NURSE.</stage>
 <sp>
@@ -2624,8 +2624,8 @@ your interest with him, you may let him know, I have several fat livings in my g
 <speaker>MISS.</speaker>
 <p>O dear, yes, Sir, I don't think you'll do any thing to me I need be afraid on. <stage>[Exeunt.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> AMANDA, <hi>her</hi> WOMAN <hi>following.</hi></stage>
 <sp>
@@ -2759,8 +2759,8 @@ to complain that your husband is engaged elsewhere. But here comes the person we
 so without any more ceremony, let us go into the next room and call for cards and candles.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>BERINTHIA's <hi>Dressing-Room.</hi></stage></head>
 <stage><hi>Enter</hi> LOVELESS.</stage>
 <sp>
@@ -2939,13 +2939,13 @@ enquire into this—and, by Heav'n, if I find that Amanda has in the smallest de
 <l>It suits the woman to be doubly true.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="80" facs="85"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A Garden—Moon-Light.</stage></head>
 <stage><hi>Enter</hi> LOVELESS.</stage>
 <sp>
@@ -3183,8 +3183,8 @@ Could women but our secret counsels scan—</l>
 <l>They live together, and together die!</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Sir TUNBELLY'S HOUSE.</stage></head>
 <stage><hi>Enter</hi> MISS HOYDEN, NURSE, <hi>and</hi> Y. FASHION.</stage>
 <sp>
@@ -3854,10 +3854,9 @@ only tricked into a son-in-law you may be proud of; my friend, Tom Fashion, is a
 <speaker>BERINTHIA.</speaker>
 <p>Never fear, we will assist you, if the tale is judged worth being repeated; but of this you may be assured, that while the intention is evidently to please, British auditors will ever be indulgent to the errors of the performance.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>
-
 </TEI>

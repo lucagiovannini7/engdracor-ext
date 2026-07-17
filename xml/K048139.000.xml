@@ -7,15 +7,15 @@
 <extent>76p. ; 12⁰.</extent><publicationStmt><publisher>printed for the booksellers,</publisher><date>1791.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT53513.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>WILD OATS; OR, THE STROLLING GENTLEMEN.</p>
 <p>A COMEDY, IN FIVE ACTS, AS PERFORMED AT THE THEATRE ROYAL, COVENT-GARDEN.</p>
 <p>By JOHN O'KEEFE, ESQ.</p>
 <p>DUBLIN: PRINTED FOR THE BOOKSELLERS.</p>
 <p>1791</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>DRAMATIS PERSONAE</head>
 <list>
@@ -42,15 +42,14 @@
 <item><label>Jane,</label> <hi>Mrs. Wells.</hi></item>
 <item><label>Amelia,</label> <hi>Miss Chapman.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3"/>
 <head>WILD OATS: OR THE STROLLING GENTLEMEN</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>a Parlour in <hi>LADY ARAMANTH'S.</hi></stage></head>
 <stage><hi>Enter</hi> SIR GEORGE THUNDER <hi>and</hi> JOHN DORY.</stage>
 <sp>
@@ -336,8 +335,8 @@ years, shall be welcome to my dwelling. Where now abideth you?</p>
 <p>And meat and drink too, friend Ephraim, in the fulness of plenty—they shall join in thanksgiving for those gifts of which I'm unworthy.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>A ROAD.</stage></head>
 <stage><hi>Enter</hi> HARRY <hi>and</hi> MIDG.</stage>
 <sp>
@@ -561,12 +560,12 @@ years, shall be welcome to my dwelling. Where now abideth you?</p>
 </sp>
 <stage>Exit Rover and Harry.</stage>
 <trailer>END OF ACT THE FIRST.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="15"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a</hi> VILLAGE, <hi>with a</hi> COTTAGE <hi>and</hi> GARDEN.</stage></head>
 <stage><hi>Enter</hi> GAMMON <hi>and</hi> EPHRAIM.</stage>
 <sp>
@@ -1045,8 +1044,8 @@ ringleader of the shew-folks, come from Andover, to act in our villages—he wan
 <p>Friend, be cheerful, thine and thy sister's sorrows shall be but as an April shower.</p>
 </sp>
 <stage>Exit Banks into his house, Lady A. and Jane.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>INSIDE OF AN INN.</stage></head>
 <stage><hi>Enter</hi> WAITER.</stage>
 <sp>
@@ -1308,8 +1307,8 @@ home to your place, and mind your business. <stage>(to Jane).</stage></p>
 <speaker>JOHN.</speaker>
 <p>True, Sam said 'twas some of the players people forced him from Portsmouth school—it must be the 'Squire—shew me where he's moor'd, my old purser. <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>A ROOM.</stage></head>
 <stage>LAMP <hi>and</hi> TRAP <hi>discovered.</hi></stage>
 <sp>
@@ -1512,12 +1511,12 @@ home to your place, and mind your business. <stage>(to Jane).</stage></p>
 <p>Aye, to the chariot bear me—Bucephalus among the billows. <stage>Exeunt.</stage></p>
 </sp>
 <trailer>END OF ACT II.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="35" facs="33"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>LADY AMARANTH's HOUSE.</stage></head>
 <stage><hi>Enter</hi> LADY AMARANTH <hi>and</hi> EPHRAIM.</stage>
 <sp>
@@ -1828,8 +1827,8 @@ round the country—the bills are posted, the candles bought, the stage built, t
 <speaker>ROV.</speaker>
 <p>My kind, my charming Lady!—Hey!—brighten up bully Lamp, Carpenters, Taylors, Managers, distribute your box tickets for my Lady's gallery—come, gentle cousin, the actors are at hand, and by their shew you shall know all that you are like to know. <stage>Exit Lamp. Exeunt Lady and Rover.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>AN APARTMENT IN AN INN.</stage></head>
 <stage><hi>Enter</hi> HARRY <hi>and</hi> MIDG.</stage>
 <sp>
@@ -2157,12 +2156,12 @@ among the players, or he'd never forgive him <stage>(aside).</stage>—Oh, such 
 <p>Damn your assurance, you ungrateful, disobedient—but I'll not part with you till I confront you with Lady Amaranth herself, face to face; and if I prove you have been deceiving me, I'll launch you into the wide ocean of life, without a rudder, compass, grog, or tobacco. <stage>Exeunt.</stage></p>
 </sp>
 <trailer>END of ACT III.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="46" facs="44"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>LADY AMARANTH's HOUSE.</stage></head>
 <stage><hi>Enter</hi> LADY AMARANTH, <hi>reading.</hi></stage>
 <sp>
@@ -2772,8 +2771,8 @@ himself as an imposter, in hopes you'll banish him from your heart and house.</p
 <p>A blow, Essex, a blow, an old rascally imposter; stigmatize me with a blow—I must not put up with it.—Zounds! I shall be tweak'd by the nose all round the country. If I can get the country lad to steal me a pair of pistols, strike me, so may this arm dash him to the earth like a dead dog, despise, pride, shame, and the name of villain light on me, if I don't bring you Mr. Abrawang,</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE CHANGES TO ANOTHER ROOM.</stage></head>
 <stage><hi>Enter</hi> LADY AMARANTH <hi>and</hi> BANKS.</stage>
 <sp>
@@ -2861,12 +2860,12 @@ himself as an imposter, in hopes you'll banish him from your heart and house.</p
 <p>Come, uncle, though a quaker, thou see'st I'm merry—the sweetest joy of wealth and power is to cheer one another's drooping heart, and wipe from the pallid cheek the tear of sorrow.</p>
 </sp>
 <trailer>END OF ACT THE IVth.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="60" facs="58"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>A ROAD.</stage></head>
 <stage>Enter three Men, dressed as Sailors.</stage>
 <sp>
@@ -2962,8 +2961,8 @@ himself as an imposter, in hopes you'll banish him from your heart and house.</p
 <speaker>SIR GEO.</speaker>
 <p>Since these idle rogues are inclined to return to their duty, they shan't want sea stores; take this money—but I'll meet them myself, and advise them as I would my own children. <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage> WOOD.</stage></head>
 <stage><hi>Entrer</hi> ROVER, <hi>with pistols.</hi></stage>
 <sp>
@@ -3124,8 +3123,8 @@ a decoy to throw us into his power—the pistol! <stage>(aside)</stage></p>
 <p>I'll save your life— <stage>(whips him up)</stage>—hawl up, my noble little jolly-boat.</p>
 <stage>Exit, carrying Sir Geo. off.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="64" facs="62"/>SCENE, <stage>BANKS's HOUSE.</stage></head>
 <stage><hi>Enter</hi> GAMMON, BANKS, <hi>and</hi> SIM.</stage>
 <sp>
@@ -3334,8 +3333,8 @@ damme, but I'll make thee an example.</p>
 <p>How! he did enter in confusion as if pursued, but I'll stake my life on his innocence. I'll speak to her Ladyship, and in spite of calumny he shall have justice; he wou'd'n't let me be insulted, because he saw me an unprotected woman, without a husband or a son, and shall he want an advocate brother? come—</p>
 </sp>
 <stage>[Exit.]</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>LADY AMARANTH'S.</stage></head>
 <stage><hi>Enter</hi> JANE.</stage>
 <sp>
@@ -3898,10 +3897,9 @@ shall not no, no. Madam, never mind what the fellow says, he's as poor as myself
 <l>My Wild Oats sown, let candid Thespian laws</l>
 <l>Decree that glorious harvest—your applause.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

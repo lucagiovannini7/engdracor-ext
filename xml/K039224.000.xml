@@ -7,12 +7,12 @@
 <extent>34,[2]p. ; 12⁰.</extent><publicationStmt><publisher>Dublin printed: London reprinted for W. Reeve,</publisher><date>1747.</date><pubPlace>[London] :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Cunningham.</note><note>With a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT38638.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>LOVE IN A MIST. A FARCE Now Acting at the CITY-THEATRE IN <hi>DUBLIN,</hi> With great Applause.</p>
 <p><hi>DUBLIN</hi> Printed: <hi>LONDON</hi> Reprinted for W. REEVE, at <hi>Shakespear's Head, Serjeants-Inn Gate,</hi> in <hi>Fleet-Street.</hi> MDCCXLVII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <stage><hi>Spoke by Mr.</hi> WRIGHT.</stage>
@@ -48,8 +48,8 @@
 <l>He'll Mend upon the Sun-shine of your Favour.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -63,13 +63,12 @@
 <item><label>Charlotte Lovely,</label> Mrs. <hi>Mynitt.</hi></item>
 <item><label>Kitty, a kept Mistress,</label> Mrs. <hi>Farrel.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>LOVE IN A MIST.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE</head><stage><hi>the Street.</hi></stage>
 <stage><hi>Enter</hi> WILLMORE <hi>and</hi> JERRY.</stage>
 <sp>
@@ -390,8 +389,8 @@
 <p>S'Death, a young Dog, I wonder what Devil possesses these young Fellows! Nothing but cutting of Throats, Blood-shed and Battery upon every fiddle faddle Occasion: But let me see, I must away to my Banker for a fresh Supply, no Reception from my <hi>Danaë,</hi> but when I descend in a golden Shower.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE</head><stage><hi>Kitty</hi>'s <hi>Lodgings.</hi></stage>
 <stage>KITTY and WILLMORE.</stage>
 <sp>
@@ -719,11 +718,10 @@
 <l>But every Youth be fix'd, beyond the Power of changing.</l>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="36"/>
 <head>EPILOGUE,</head>
 <stage>Spoke by Mrs. <hi>MYNITT,</hi> In the Character of CHARLOTTE.</stage>
@@ -759,8 +757,8 @@
 <l>With one Consent Applaud his Lass of Spirit.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="37"/>
 <p><hi>Just published,</hi> (Price Five Shillings,) <hi>With a curious Frontispiece, and a Copper-Plate Cut of the chief Scene in every Act,</hi> SCANDERBEG; or <hi>Love</hi> and <hi>Liberty.</hi> A TRAGEDY.</p>
 <p><hi>Wrote by the late</hi> THOMAS WHINCOP, <abbr><hi>Esq</hi></abbr> With some Account of the Life of SCANDERBEG.</p>
@@ -773,8 +771,7 @@
 <p>KING HENRY the Fifth, or the Conquest of <hi>France</hi> by the <hi>English,</hi> a Tragedy. By <hi>Aaron Hill,</hi><abbr>Esq</abbr> The Second Edition.</p>
 <p>ATHALIAH, a Tragedy. Translated from the <hi>French</hi> of Monsieur <hi>Racine.</hi> By Mr.<hi>Duncombe.</hi> The Third Edition Revised and Corrected.</p>
 <p>Printed for <hi>W. Reeve,</hi> at <hi>Shakespear</hi>'s <hi>Head, Serjeants Inn Gate, Fleet-street</hi></p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

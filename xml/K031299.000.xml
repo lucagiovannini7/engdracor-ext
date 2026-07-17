@@ -7,13 +7,13 @@
 <extent>[4],66,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. and J. Dodsley; and M. Cooper,</publisher><date>1753.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The final leaf contains the epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT22929.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p><hi>BOADICIA.</hi> A TRAGEDY. As it is acted at the THEATRE-ROYAL IN <hi>DRURY-LANE.</hi> By Mr. GLOVER.</p>
 <p>LONDON: Printed for R. and J. DODSLEY in Pall-mall; and M. COOPER in Pater-noster-row. 1753.</p>
 <p>(Price One Shilling and Six-pence.)</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. MOSSOP.</stage>
@@ -65,8 +65,8 @@ Calm bours of learned leisure they have giv'n,</l>
 <l>Ye friendly hands, restrain your fruitless aid,</l>
 <l>And with just censure let her labours fade.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>Dramatis personae.</head>
 <p><list>
 <label>DUMNORIX <hi>by</hi></label>
@@ -85,14 +85,14 @@ Calm bours of learned leisure they have giv'n,</l>
 <item>Mrs. CIBBER.</item>
 </list></p>
 <p>ROMAN AMBASSADOR, ICENIANS, and TRINOBANTIANS.</p>
-</div1>
+</div>
 <set><p>SCENE, <hi>the</hi> British <hi>camp before the tent of</hi> Dumnorix.</p></set>
 </front>
 <body>
 <head><pb facs="4"/>BOADICIA.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE <hi>the First.</hi></head>
 <stage>BOADICIA, DUMNORIX, ICENIANS, TRINOBANTIANS <hi>and</hi> ROMAN <hi>Ambassadors.</hi></stage>
 <sp>
@@ -240,8 +240,8 @@ No pillager, like Catus, but a soldier,</l>
 <l>These Masters of the World. Produce the pris'ners.</l>
 <stage><hi>[To an</hi> Icenian.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE <hi>the Second.</hi></head>
 <stage>BOADICIA, DUMNORIX, ICENIANS, TRINOBANTIANS, ROMAN AMBASSADORS, AENOBARBUS, <hi>and</hi> FLAMINIUS <hi>in Chains.</hi></stage>
 <sp>
@@ -284,8 +284,8 @@ And these vile limbs, by galling chains dishonour'd,</l>
 <l>Each weapon's point, and strengthen ev'ry nerve,</l>
 <l>Till humbled Britain have appeas'd their shades.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE <hi>the Third.</hi></head>
 <stage>BOADICIA, DUMNORIX, ICENIANS, TRINOBANTIANS, AENOBARBUS <hi>and</hi> FLAMINIUS.</stage>
 <sp>
@@ -372,8 +372,8 @@ And these vile limbs, by galling chains dishonour'd,</l>
 <l>Fall back with rev'rence, Trinobantian soldiers.</l>
 <l>See, who advances from your gen'ral's tent.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="7" facs="10"/>
 <head>SCENE <hi>the Fourth.</hi></head>
 <stage>BOADICIA, DUMNORIX, ICENIANS, TRINOBANTIANS, AENOBARBUS, FLAMINIUS, <hi>and</hi> VENUSIA.</stage>
@@ -653,8 +653,8 @@ From yonder hill.</l>
 <l>Thou, Dumnorix, be sure, shall't rue this day,</l>
 <l>For thou henceforward art to me a Roman.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE <hi>the Fifth.</hi></head>
 <stage>DUMNORIX, VENUSIA, TENANTIUS, EBRANCUS, TRINOBANTIANS, AENOBARBUS, <hi>and</hi> FLAMINIUS.</stage>
 <sp>
@@ -667,8 +667,8 @@ From yonder hill.</l>
 <l>Grieve thy mild nature—Romans, cease to fear.</l>
 <l>These are my tents; retire in safety thither.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE <hi>the sixth.</hi></head>
 <stage>DUMNORIX, VENUSIA, TENANTIUS, EBRANCUS <hi>and</hi> TRINOBANTIANS.</stage>
 <sp>
@@ -684,8 +684,8 @@ His car let ev'ry charioteer prepare,</l>
 <l>That ev'ry banner may in battle wave,</l>
 <l>Ere the sun reaches his meridian height.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE <hi>the seventh.</hi></head>
 <stage>DUMNORIX, VENUSIA, EBRANCUS, <hi>and</hi> TRINOBANTIANS.</stage>
 <sp>
@@ -776,8 +776,8 @@ As terrible? or falls the Roman sword</l>
 <l>My soul, exerted to perform thy pleasure,</l>
 <l>Could give persuasion all my force of duty.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE <hi>the eighth.</hi></head>
 <stage>DUMNORIX, EBRANCUS, TRINOBANTIANS, <hi>and</hi> TENANTIUS.</stage>
 <sp>
@@ -810,13 +810,13 @@ As terrible? or falls the Roman sword</l>
 <l>You see the spoilers; there the ruffians stand:</l>
 <l>Your hands are arm'd; then follow, and revenge.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the first Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="19"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE <hi>the First.</hi></head>
 <stage>FLAMINIUS <hi>and</hi> AENOBARBUS.</stage>
 <sp>
@@ -1007,8 +1007,8 @@ See, where th'unnumber'd Trinobantians spread</l>
 <l>My friend, my benefactor, and preserver—</l>
 <l>Stand from before this tempest, while it passes.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="20" facs="23"/>
 <head>SCENE <hi>the second.</hi></head>
 <stage>BOADICIA, ICENIANS, AENOBAREUS <hi>and</hi> FLAMINIUS <hi>at a distance.</hi></stage>
@@ -1040,8 +1040,8 @@ See, where th'unnumber'd Trinobantians spread</l>
 <l>Crown my revenge with glory.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE <hi>the third.</hi></head>
 <stage>BOADICIA, ICENIANS, AENOBARBUS <hi>and</hi> FLAMINIUS <hi>at a distance, and</hi> VENUSIA.</stage>
 <sp>
@@ -1177,8 +1177,8 @@ That we by mutual interests are but one,</l>
 <l>From just reproach thy unrelenting scorn,</l>
 <l>While none deplore thee, but the wrong'd Venusia.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE <hi>the fourth.</hi></head>
 <stage>BOADICIA, ICENIANS, AENOBARBUS <hi>and</hi> FLAMINIUS <hi>at a distance.</hi></stage>
 <sp>
@@ -1193,8 +1193,8 @@ To thee each captive Roman I devote.</l>
 <l>To me, thy martial votaress, confine,</l>
 <l>In sex, like thee, and glowing with thy fires.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE <hi>the fifth.</hi></head>
 <stage>AENOBARBUS <hi>and</hi> FLAMINIUS.</stage>
 <sp>
@@ -1301,8 +1301,8 @@ Their dazzling helmets, and their crimson plumes:</l>
 <speaker>AENOBARBUS.</speaker>
 <l>Our time is short, remember; do not dally.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE <hi>the sixth.</hi></head>
 <sp>
 <speaker>AENOBARBUS.</speaker>
@@ -1317,13 +1317,13 @@ Their dazzling helmets, and their crimson plumes:</l>
 <l>Shall strike cold terrour through thy boldest guards,</l>
 <l>And from its lofty crest destruction shake.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="27" facs="30"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE <hi>the first.</hi></head>
 <stage>FLAMINIUS <hi>and</hi> AENOBARBUS.</stage>
 <sp>
@@ -1437,8 +1437,8 @@ To cheer a Roman in the gasp of death.</l>
 <l>Avoid him—Trust me, I am well instructed,</l>
 <l>And will conduct thee to a safe retreat</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE <hi>the second.</hi></head>
 <sp>
 <speaker>DUMNORIX</speaker>
@@ -1450,8 +1450,8 @@ To cheer a Roman in the gasp of death.</l>
 <l>Presumptuous frenzy! Why is heav'n reproach'd?</l>
 <l>O Boadicia, thou perfidious mischief!</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="30" facs="33"/>
 <head>SCENE <hi>the third.</hi></head>
 <stage>DUMNORIX <hi>and</hi> VENUSIA.</stage>
@@ -1493,8 +1493,8 @@ To cheer a Roman in the gasp of death.</l>
 <l>Were driv'n among th' Icenians: in a moment</l>
 <l>All was confusion, slaughter and defeat.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE <hi>the fourth.</hi></head>
 <stage>DUMNORIX, VENUSIA, <hi>and</hi> BOADICIA-</stage>
 <sp>
@@ -1702,8 +1702,8 @@ Might have receiv'd their sons and husbands home,</l>
 <l>Which heretofore have thunder'd at thy heels,</l>
 <l>Start at the new-born horrours of this night.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="35" facs="38"/>
 <head>SCENE <hi>the fifth.</hi></head>
 <stage>DUMNORIX <hi>and</hi> VENUSIA.</stage>
@@ -1727,8 +1727,8 @@ Might have receiv'd their sons and husbands home,</l>
 <l>Peace a benign companion would attend,</l>
 <l>And moderate thy cares, while I depart.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE <hi>the sixth.</hi></head>
 <sp>
 <speaker>DUMNORIX.</speaker>
@@ -1756,13 +1756,13 @@ You were not idle in that dreadful hour:</l>
 <l>To graft thy firmness, which can welcome death,</l>
 <l>And hold it gain, when liberty is lost.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="37" facs="40"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE <hi>the First.</hi></head>
 <sp>
 <speaker>DUMNORIX.</speaker>
@@ -1787,8 +1787,8 @@ You were not idle in that dreadful hour:</l>
 Now prompts the hard, but necessary duty—</l>
 <l>Yet how to name thee, death, without thy terrours!</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE <hi>the second.</hi></head>
 <stage>DUMNORIX <hi>and</hi> VENUSIA.</stage>
 <sp>
@@ -2102,8 +2102,8 @@ But to provide against delusive fortune,</l>
 <l>Mean time retire. Our anxious chiefs, return'd,</l>
 <l>Wait my commands, and midnight is advancing,</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE <hi>the third.</hi></head>
 <sp>
 <speaker>DUMNORIX.</speaker>
@@ -2118,8 +2118,8 @@ This hideous Task—O morning bright in hope,</l>
 <l>Might sort with valour, nor debase a soldier,</l>
 <l>It would be now—Ha! whither do I plunge?</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE <hi>the Fourth.</hi></head>
 <stage>DUMNORIX, EBRANCUS, TENANTIUS <hi>and</hi> TRINOBANTIANS.</stage>
 <sp>
@@ -2189,8 +2189,8 @@ This hideous Task—O morning bright in hope,</l>
 <l>The secret passage, and with winged haste</l>
 <l>Bring back your tidings. Thou, Tenantius, wait.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE <hi>the fifth.</hi></head>
 <stage>DUMNORIX <hi>and</hi> TENANTIUS.</stage>
 <sp>
@@ -2252,13 +2252,13 @@ This hideous Task—O morning bright in hope,</l>
 <l>A new born structure may hereafter stand,</l>
 <l>Rais'd by my virtue, living in my sons.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="47" facs="50"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE <hi>the First.</hi></head>
 <sp>
 <speaker>VENUSIA.</speaker>
@@ -2279,8 +2279,8 @@ This hideous Task—O morning bright in hope,</l>
 <l>Send back th' exploring messenger with joy,</l>
 <l>And let me hail thee from that friendly grove.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="48" facs="51"/>
 <head>SCENE <hi>the second.</hi></head>
 <stage>VENUSIA <hi>and</hi> DUMNORIX.</stage>
@@ -2299,8 +2299,8 @@ This hideous Task—O morning bright in hope,</l>
 <l>As near the op'ning pass I stood to watch</l>
 <l>Our messenger's return.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE <hi>the third.</hi></head>
 <stage>VENUSIA, DUMNORIX, <hi>and</hi> EBRANCUS.</stage>
 <sp>
@@ -2326,8 +2326,8 @@ This hideous Task—O morning bright in hope,</l>
 <l>To wait her pleasure, which should soon be known;</l>
 <l>Mean time to rest immoveable and mute.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="49" facs="52"/>
 <head>SCENE <hi>the fourth.</hi></head>
 <stage>VENUSIA, DUMNORIX, EBRANCUS, <hi>and an</hi> ICENIAN <hi>carrying a bowl.</hi></stage>
@@ -2427,8 +2427,8 @@ Before she march'd, to me this secret charge</l>
 <l>Perform thy orders; bear it to my tent—</l>
 <l>Thou mayst not want it yet—take comfort, love.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="51" facs="54"/>
 <head>SCENE <hi>the fifth.</hi></head>
 <stage>VENUSIA, DUMNORIX, EBRANCUS, <hi>and a second</hi> ICENIAN.</stage>
@@ -2459,8 +2459,8 @@ Before she march'd, to me this secret charge</l>
 <stage> <hi>to</hi> EBRANCUS.</stage>
 <l>Conduct him hence, and learn the whole event.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE <hi>the sixth.</hi></head>
 <stage>VENUSIA <hi>and</hi> DUMNORIX.</stage>
 <sp>
@@ -2503,8 +2503,8 @@ Before she march'd, to me this secret charge</l>
 <l>Rejoicing, grieving, dying, must possess</l>
 <l>Th'exalted pleasure to exert that virtue.</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE <hi>the seventh.</hi></head>
 <stage>VENUSIA, DUMNORIX, <hi>and</hi> TENANTIUS.</stage>
 <sp>
@@ -2585,8 +2585,8 @@ Before she march'd, to me this secret charge</l>
 <speaker>DUMNORIX.</speaker>
 <l>Let him approach.</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="54" facs="57"/>
 <head>SCENE <hi>the eighth.</hi></head>
 <stage>VENUSIA, DUMNORIX, <hi>and</hi> EBRANCUS.</stage>
@@ -2613,8 +2613,8 @@ Before she march'd, to me this secret charge</l>
 <l>And so is fall'n a victim to her folly.</l>
 <l>Retire.</l>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE <hi>the ninth.</hi></head>
 <stage>VENUSIA, DUMNORIX, TENANTIUS, <hi>and</hi> FLAMINIUS.</stage>
 <sp>
@@ -2810,8 +2810,8 @@ No more in thraldom, but a Roman leader?</l>
 <l>Thy obligations will be then discharg'd.</l>
 <l>Farewell. Fulfill thy gen'ral's commands.</l>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE <hi>the tenth.</hi></head>
 <stage>VENUSIA, DUMNORIX, <hi>and</hi> TENANTIUS.</stage>
 <sp>
@@ -2837,8 +2837,8 @@ No more in thraldom, but a Roman leader?</l>
 <l>Stops, and once more conjures thee to retain</l>
 <l>This his last charge in memory—his children.</l>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE <hi>the eleventh.</hi></head>
 <stage>VENUSIA <hi>and</hi> DUMNORIX.</stage>
 <sp>
@@ -2953,8 +2953,8 @@ We only ask thee to be free and die.</l>
 <l>Stop there, and reach the potion; nor to drink</l>
 <l>The cure of troubles will I longer pause.</l>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <pb n="61" facs="66"/>
 <head>SCENE <hi>the twelfth.</hi></head>
 <sp>
@@ -2968,8 +2968,8 @@ We only ask thee to be free and die.</l>
 <l>Through my resigning soul that promise breathe,</l>
 <l>And my last moments comfort thus with peace!</l>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE <hi>the thirteenth.</hi></head>
 <stage>VENUSIA <hi>and</hi> DUMNORIX <hi>with a bowl.</hi></stage>
 <sp>
@@ -3112,8 +3112,8 @@ Be heard no longer; join thy lip to mine,</l>
 <l>Support my drowsy burthen to that couch—</l>
 <l>Where death—serenely smiles.</l>
 </sp>
-</div2>
-<div2 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <pb n="64" facs="69"/>
 <head>SCENE <hi>the fourteenth.</hi></head>
 <sp>
@@ -3124,8 +3124,8 @@ Be heard no longer; join thy lip to mine,</l>
 <l>I cannot long controll them. Yet I tremble</l>
 <l>To enter there—By heav'n he lives, and sees me.</l>
 </sp>
-</div2>
-<div2 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE <hi>the fifteenth.</hi></head>
 <stage>FLAMINIUS <hi>and</hi> DUMNORIX <hi>with his sword drawn.</hi></stage>
 <sp>
@@ -3166,8 +3166,8 @@ Be heard no longer; join thy lip to mine,</l>
 <l>I will urge</l>
 <l>No more—farewel—our legions hover nigh.</l>
 </sp>
-</div2>
-<div2 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <head>SCENE <hi>the sixteenth.</hi></head>
 <sp>
 <speaker>DUMNORIX.</speaker>
@@ -3180,8 +3180,8 @@ Be heard no longer; join thy lip to mine,</l>
 <l>Near that dear clay extended, best becomes</l>
 <l>A soldier's courage, and a husband's love.</l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <hi>the last.</hi></head>
 <stage>AENOBARBUS, FLAMINIUS, <hi>and</hi> ROMANS.</stage>
 <sp>
@@ -3227,12 +3227,12 @@ Death is his triumph, which a captive life</l>
 <l>The well-wrought stone adorning, shall proclaim</l>
 <l>His gen'rous valour, and thy faithful love.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the last act.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="72"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by Mr. HAVARD.</stage>
@@ -3262,7 +3262,7 @@ Death is his triumph, which a captive life</l>
 <l>Shew struggling virtue, dress'd in tears, or smiles;</l>
 <l>Perhaps his grateful labours would requite</l>
 <l>With frequent off'rings one propitious night.</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

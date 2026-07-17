@@ -7,17 +7,17 @@
 <extent>[12],67,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for A. Millar,</publisher><date>1754.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Philip Francis.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT31626.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>CONSTANTINE: A TRAGEDY.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>CONSTANTINE: A TRAGEDY. As it is ACTED at the THEATRE-ROYAL, IN <hi>COVENT-GARDEN.</hi></p>
 <p><hi>LONDON:</hi> Printed for A. MILLAR, over-against <hi>Catherine-street,</hi> in the <hi>Strand.</hi> MDCCLIV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>To the RIGHT HONOURABLE The Earl of CHESTERFIELD.</head>
 <opener><salute>My Lord,</salute></opener>
@@ -34,8 +34,8 @@ refused a Vote of Credit, and an Offer of raising a Body of Forces, which you wi
 <p>YOUR Lordship now seems determined (and surely the gallant Veteran deserves his Dismission) to retire from all public Business. Permit, my Lord, this honest Dedication, for well you know that Flattery would not desire it, to attend you to your Retreat, and with it be pleased to accept the sincerest Respect of</p>
 <closer><salute>My LORD,</salute>
 <signed>Your Lordship's most obliged and most obedient Servant, PHILIP FRANCIS.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>THE PROLOGUE.</head>
 <lg>
@@ -72,8 +72,8 @@ refused a Vote of Credit, and an Offer of raising a Body of Forces, which you wi
 <l>To Beauty, Virtue, and to You he sues,</l>
 <l>As you inspir'd—Oh! patronize his Muse.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="8"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by Miss BELLAMY.</stage>
@@ -110,8 +110,8 @@ refused a Vote of Credit, and an Offer of raising a Body of Forces, which you wi
 <l>Then for my Sake—but I'm in such a Fright—</l>
 <l>Well—I'll give out the Play—for Monday Night.</l>
 </lg>
-</div1>
-<div1 type="newepilogue">
+</div>
+<div type="newepilogue">
 <pb facs="9"/>
 <head>A New EPILOGUE.</head>
 <byline>Written by a Person of DISTINCTION.</byline>
@@ -148,8 +148,8 @@ refused a Vote of Credit, and an Offer of raising a Body of Forces, which you wi
 <l>By them he will be try'd; if they acquit,</l>
 <l>He's safe; if they condemn, he must submit.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -171,17 +171,17 @@ refused a Vote of Credit, and an Offer of raising a Body of Forces, which you wi
 <item>Mrs. <hi>Barrington.</hi></item>
 </list>
 <p><hi>Officers, Lictors, Guards,</hi> &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE CONSTANTINE's <hi>Palace in</hi> Constantinople.</p></set>
-<div1 type="author'snote">
+<div type="author'snote">
 <head>Advertisement.</head>
 <p>IT is almost ridiculous, after the ill Success of this Play upon the Stage, to tell the Reader, I took Part of the Fable, and the Translation, if I remember rightly, of ONE only Line, from a French Tragedy, called MAXIMIAN. But all Concealments of this Kind are disingenuous.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="11"/>
 CONSTANTINE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage><hi>The</hi> EMPEROR<hi>'s Palace.</hi></stage>
 <stage>AURELIAN <hi>and</hi> MARCELLUS <hi>meeting.</hi></stage>
@@ -857,8 +857,8 @@ Your Purpose—should it prosper—</l>
 <l>Then if I fall—let the Gods answer for it.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="16" facs="26"/>
 <head>ACT II.</head>
 <stage>TRIUMPHAL PROCESSION.</stage>
@@ -1273,8 +1273,8 @@ While the Nations,</l>
 <l>They strike the Blow; they bid the Victim bleed.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="26" facs="36"/>
 <head>ACT III.</head>
 <sp>
@@ -1918,8 +1918,8 @@ While the Nations,</l>
 <l>Vengeance and Blood! O Woman! Woman! Vengeance!</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="41" facs="51"/>
 <head>ACT IV.</head>
 <stage>MAXIMIAN. ALBINUS.</stage>
@@ -2544,8 +2544,8 @@ While the Nations,</l>
 <l>Nor let thy wandering Fires mislead my Reason.</l>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="55" facs="65"/>
 <head>FIFTH ACT.</head>
 <stage>MAXIMIAN, <hi>and</hi> ALBINUS.</stage>
@@ -3059,10 +3059,10 @@ While the Nations,</l>
 <l>Less rapid is the Storm's destructive Sway,</l>
 <l>While Guilt, Remorse, Despair, and Ruin mark their Way.</l>
 </sp>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="78"/>
 <head>BOOKS Printed for and Sold by <hi>A MILLAR,</hi> over-against <hi>Catharine-Street,</hi> in the <hi>Strand, London.</hi></head>
 <list>
@@ -3083,7 +3083,7 @@ While the Nations,</l>
 <item>The same Book in a neat Pocket Volume, 12mo.</item>
 <item>Another Edition in a smaller Size, printed on a fine Writing Paper.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

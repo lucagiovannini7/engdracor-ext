@@ -7,23 +7,23 @@
 <extent>[2],21,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed and sold by S. Keimer,</publisher><date>1715.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Susanna Centlivre.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26874.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="illustration">
+<div type="illustration">
 <pb facs="1" ana="y"/>
 <pb facs="2"/>
 <p><figure>
 <head>M<span rend="sup">RS</span>. CENTLIVRE.</head>
 <byline>D. Fermin pinx. J. Taylor sculp.</byline>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>A WIFE WELL MANAG'D. A FARCE.</p>
 <l>—Mulier saevissima tunc est,</l>
 <l>Cum stimulos odio pudor admovet.</l>
 <bibl>Juv. Sat. 10.</bibl>
 <p>LONDON: <hi>Printed and Sold by</hi> S. Keimer, <hi>at the</hi> Printing-Press <hi>in</hi> Pater-Noster-Row. <hi>1715</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4" ana="y"/>
 <head>Dramatis Personae</head>
 <list>
@@ -42,12 +42,12 @@
 <label>Inis.</label>
 <item>Miss Younger.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>Lisbon.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="5"/>A WIFE WELL MANAG'D.</head>
-<div1 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage><hi>Lady</hi> Pisalto, <hi>and</hi> Inis.</stage>
 <sp>
@@ -98,7 +98,7 @@ more than Venial; and for Discovery, whilst there's Pen, Ink, and Paper in the W
 <p>I'll do it this Minute.</p>
 </sp>
 <stage>(Exit Lady.)</stage>
-<stage>(Inis <hi>goes to the Door and calls,</hi> Teague▪</stage>
+<stage>(Inis <hi>goes to the Door and calls,</hi> <said direct="true">Teague!</said></stage>
 <stage><hi>Enter</hi> Teague.</stage>
 <sp>
 <speaker>Teague.</speaker>
@@ -220,7 +220,7 @@ Jest, first reads the Direction, and then asks me whither it goes.</p>
 <sp>
 <pb n="6" facs="10"/>
 <speaker>Don Pis.</speaker>
-<p>Monstrous! What do I see? Yes here is a Sin with a Witness— <stage>(Reads)</stage> Dear Father, you'll forgive me when I tell you, that the more I see you, the more I hate my Husband, <stage>(very fine)</stage> and the more I pray against Temptation, the more powerfully my Inclinations plead in your Behalf, <stage>(Furies and Distraction,)</stage>—I implore your charitable Assistance to conquer this unruly Sin— <stage>(Yes I'll help you with a Vengance to you)</stage>—Nothing but your Company can prolong the Life of <hi>Flora.</hi> <stage>(Say you so Mistress?</stage> Very well. <hi>Inis</hi> gave you this Letter you say!</p>
+<p>Monstrous! What do I see? Yes here is a Sin with a Witness— <stage>(Reads)</stage> Dear Father, you'll forgive me when I tell you, that the more I see you, the more I hate my Husband, <stage>(very fine)</stage> and the more I pray against Temptation, the more powerfully my Inclinations plead in your Behalf, <stage>(Furies and Distraction,)</stage>—I implore your charitable Assistance to conquer this unruly Sin— <hi>(Yes I'll help you with a Vengance to you)</hi>—Nothing but your Company can prolong the Life of <hi>Flora.</hi> <hi>(Say you so Mistress?</hi> Very well. <hi>Inis</hi> gave you this Letter you say!</p>
 </sp>
 <sp>
 <speaker>Tea.</speaker>
@@ -301,8 +301,8 @@ had not flung me in the Way to prevent it.</p>
 <l>The most acurst, and veriest Plague is—Wife.</l>
 </sp>
 <stage>(Exit.</stage>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes.</hi></stage></head>
 <stage><hi>Enter</hi> Lady <hi>reading a Letter;</hi> Inis <hi>following.</hi></stage>
 <sp>
@@ -407,8 +407,8 @@ Take that in Earnest of my future Kindness, he says he will come in the Twilight
 <p>I fly, I fly Girl.</p>
 </sp>
 <stage>(Exeunt severally.</stage>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes, and discovers Lady</hi> Pisalto <hi>leaning on a Couch.</hi></stage></head>
 <sp>
 <speaker>Lady.</speaker>
@@ -602,8 +602,8 @@ misgives me, this Priest is no Man, this feels like an occasional Correction.</p
 <p>Let me cover you up upon the Bed, Madam, a little Sleep will Settle your Head agen.</p>
 </sp>
 <stage>(Exit.</stage>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <pb n="16" facs="24"/>
 <head><stage>SCENE <hi>changes</hi></stage></head>
 <stage><hi>Enter Don</hi> Pisalto <hi>and Priest.</hi></stage>
@@ -632,8 +632,8 @@ misgives me, this Priest is no Man, this feels like an occasional Correction.</p
 <p>I can help you to some, please to walk this Way, Father.</p>
 </sp>
 <stage>(Exeunt.</stage>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes, and discovers Lady</hi> Pisalto <hi>on a Couch, asleep.</hi></stage></head>
 <stage><hi>Enter Priest, sets a Bason of Water on the Table,—Don</hi> Pisalto listning.</stage>
 <sp>
@@ -852,9 +852,8 @@ wou'd have ravish'd my Lady,—thou Monster of Iniquity.</p>
 <l>When Wives like mine gives Inclination Scope,</l>
 <l>No Cure for Cuckoldom like Oyl of Rope.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>
-
 </TEI>

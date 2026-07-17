@@ -7,14 +7,14 @@
 <extent>87,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed in the year,</publisher><date>1710.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>In: 'The life of Mr. Thomas Betterton' by Charles Gildon, London, 1710.</note><note>An adaptation of Moliere's 'George Dandin'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT96816.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE Amorous Widow: OR, THE <hi>WANTON WIFE.</hi> A COMEDY. As it is Perform'd by Her MAJESTY'S Servants.</p>
 <p>Written by the late Famous Mr. <hi>THOMAS BETTERTON.</hi></p>
 <p>Now first Printed from the Original Copy.</p>
 <p>LONDON: Printed in the Year 1710.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <list>
 <label>SIR <hi>Peter Pride.</hi> A great Boaster of his Honour, his Valour, what a noble Family he is deriv'd from, and of their mighty Courage.</label>
@@ -44,13 +44,13 @@
 <label><hi>Damaris.</hi> Maid to Mrs. <hi>Brittle,</hi> that assists her in her Intriegues.</label>
 <item>Mrs. <hi>Prince.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="3" facs="3"/>THE Amorous Widow: OR, THE WANTON WIFE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>a Room.</hi></stage></head>
 <stage>Enter <hi>Philadelphia</hi> with a Letter, follow'd by <hi>Jeffrey.</hi></stage>
 <sp>
@@ -939,11 +939,11 @@ same Tune still. She's almost Sixty, and yet pretends to Beauty, and loves Court
 <speaker>Jeff.</speaker>
 <p>Adieu. <stage>(Exeunt severally.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> Cuningham <hi>and</hi> Philadelphia.</stage>
 <sp>
 <speaker>Cun.</speaker>
@@ -1547,12 +1547,12 @@ In spight of all your Threats and boasted Power! I'll not be us'd at this Rate!<
 <speaker>Britt.</speaker>
 <p>This 'tis for a Tradesman to marry a Gentlewoman. A Curse on such Gentility! What shall I do? I shall be damnably plagu'd with her Father and Mother. Well, next Month I must take up in <hi>Bedlam;</hi> a Judgment, which every Citizen deserves, that marries above his Quality. <stage>(Exit.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="32" facs="32"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>A Street before a Glass-Shop.</stage></head>
 <stage>Enter <hi>Brittle</hi> Solus.</stage>
 <sp>
@@ -2540,11 +2540,11 @@ Enter a Servant.</stage>
 <speaker>Visc.</speaker>
 <p>Madam, if I deserve it not, may you always keep a Whip and a Bell, to scourge me from you like a Cur.</p>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter <hi>Clodpole</hi> and <hi>Damaris:</hi> He gives her a Letter.</stage>
 <sp>
 <speaker>Dam.</speaker>
@@ -2845,8 +2845,8 @@ Oh Sadness! 'tis but too true. Here's fine Doings. But I'll send for her Parents
 <p>If they are not there now, I am a very Villain.</p>
 <p>Come along—Softly— <stage>(They all go in.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>SCENE</hi> Changes to a Chamber, and discovers <hi>Lovemore,</hi> Mrs. <hi>Brittle,</hi> and <hi>Damaris.</hi></stage>
 <sp>
 <speaker>Love.</speaker>
@@ -3570,12 +3570,12 @@ After the Dance, Enter <hi>Barnaby Brittle,</hi> who runs after his Wife; they g
 <p>Hold there, I will not part with you; I have two Hands, Madam, and can lead you both.</p>
 <stage>(Exeunt Omnes.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="69" facs="69"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> Cuningham, Philadelphia <hi>and</hi> Jeffrey.</stage>
 <sp>
 <speaker>Jeff.</speaker>
@@ -4595,8 +4595,8 @@ never trouble 'em again as long as I live; beg 'em by all means to come.</p>
 <stage>(Exeunt Omnes.</stage>
 </sp>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

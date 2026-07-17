@@ -7,20 +7,20 @@
 <extent>[14],79,[1]p. : ill. ; 12⁰.</extent><publicationStmt><publisher>printed for E. Curll, and A. Bettesworth,</publisher><date>1714.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Susanna Cent Livre.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26870.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 <figDesc>tableau</figDesc>
 <p>F. La Vergne del. M. V.<span rend="sup">ar</span> Gucht sc.</p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE WONDER: A Woman keeps a SECRET. A COMEDY. As it is Acted at the <hi>Theatre Royal in Drury-Lane.</hi> By Her MAJESTY's Servants.</p>
 <p>Written by the AUTHOR of the GAMESTER.</p>
 <p><hi>LONDON:</hi> Printed for E. CURLL, at the <hi>Dial</hi> and <hi>Bible,</hi> against St. <hi>Dunstan</hi>'s Church in <hi>Fleet-street,</hi> and A. BETTESWORTH at the <hi>Red Lyon,</hi> on <hi>London-Bridge.</hi> 1714.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3" ana="y"/>
 <head>TO His Serene HIGHNESS <hi>George Augustus,</hi> Electoral Prince of HANOVER, Duke and Marquess of <hi>Cambridge,</hi> Earl of <hi>Milford-Haven,</hi> Viscount <hi>North-Allerton,</hi> Baron of <hi>Tewksbury,</hi> and Knight of the most Noble Order of the Garter.</head>
 <opener><salute>May it please your <hi>Highness,</hi></salute></opener>
@@ -45,14 +45,14 @@ forget the Court of your Illustrious Father.</p>
 <pb facs="9"/>
 from the greatest Authors of our Nation: In the mean Time, tho' I am, perhaps, the most unworthy, I have at least one Advantage, that I am the first who have shewn my Respect in this Manner, and sued for your Protection.</p>
 <closer><signed>I am your HIGHNESS's Most Obedient, Most Devoted, Most Humble Servant SUSANNA CENT LIVRE.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="10"/>
 <head>PREFACE.</head>
 <p>I Don't pretend to write a Preface, either to point out the Beauties, or to excuse the Errors, a judicious Reader may possibly discover in the following Scenes, but to give those excellent Comedians their Due, to whom, in some Measure the best Dramatick Writers are oblig'd. The Poet and the Player are like Soul and Body, indispensibly necessary to one another; the correct Author makes the Player shine, whilst the judicious Player makes the Poet's Fame immortal. I freely acknowledge my self oblig'd to the Actors in general, and to Mr. <hi>Wilks,</hi> and Mrs. <hi>Oldfield</hi> in particular; and I owe them this Justice to say, That their inimitable Action cou'd only support a Play at such a Season, and among so many Benefits. Let this encourage our <hi>English</hi> Bards to Write, furnish but the artful Player with Materials, and his Skill will lay the Foundation for your Fame.</p>
 <p>I must again repeat that which I meet with every where, I mean the just Admiration of the Performance of Mr. <hi>Wilks,</hi> and Mrs. <hi>Oldfield,</hi> and own that they much out-did in Action the strongest of my Conceptions; for tho' Nature was my Aim in the last Act of this Comedy, yet Nature herself were she to paint a Love Quarrel, wou'd only Copy them.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="11"/>
 <head>PROLOGUE.</head>
 <head type="sub"><stage>Spoken by <hi>Mr.</hi> MILLS.</stage></head>
@@ -86,8 +86,8 @@ from the greatest Authors of our Nation: In the mean Time, tho' I am, perhaps, t
 <l>Those stubborn Hearts, which first you taught to Love:</l>
 <l>The Men must all Applaud this Play of ours,</l>
 <l>For who dares See with other Eyes, than Yours?</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="12"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -121,14 +121,14 @@ from the greatest Authors of our Nation: In the mean Time, tho' I am, perhaps, t
 <list>
 <item><hi>Alguzil,</hi> Attendants, Servants, <hi>&amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>Scene <hi>LISBON.</hi></p></set>
 </front>
 <body>
 <head><pb facs="13"/>THE WONDER: A Woman keeps a SECRET.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> Don Lopez <hi>meeting</hi> Frederick.</stage>
 <sp>
@@ -587,12 +587,12 @@ neither—Ad'slife Madam, you are the First Woman that e'er dispair'd in a Chris
 <l><hi>And see who'll get the better, you or I.</hi></l>
 <stage>(<hi>pushes her in, and locks the Door.</hi></stage>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="12" facs="24"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a Room in</hi> Don Pedro's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Donna Violante <hi>reading a Letter, and</hi> Flora <hi>following.</hi></stage>
 <sp>
@@ -1432,9 +1432,9 @@ my Face—No he shall not live to meet your wishes.</p>
 <l><hi>And trust to Love, my Love to reconcile.</hi></l>
 <stage>(<hi>Exit.</hi></stage>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="27" facs="39"/>
 <head>ACT III.</head>
 <stage><hi>Enter</hi> Don Lopez.</stage>
@@ -1443,7 +1443,7 @@ my Face—No he shall not live to meet your wishes.</p>
 <p>WAS ever Man thus plagu'd! Odsheart, I cou'd swallow my Dagger for Madness; I know not what to think, sure <hi>Frederick</hi> had no Hand in her Escape—She must get out of the Window; and she could not do that without a Ladder; and who cou'd bring it her, but him? Ay, it must be so. The dislike he shew'd to <hi>Don Guzman</hi> in our Discourse to Day, confirms my Suspicion, and I will charge him home with it; sure Children were given me for a Curse! Why, what innumerable Misfortunes attend us Parents, when we have employ'd our whole Care to educate, and bring our Children up to Years of Maturity? Just when we expect to reap the Fruits of our Labour; a Man shall in the tinkling of a Bell, see one hang'd, and t'other whor'd—This Graceless Baggage—But I'll to <hi>Frederick</hi> immediately, I'll take the Alguzil with me, and search his House; and if I find her, I'll use her—by St. <hi>Anthony,</hi> I don't know how I'll use her.</p>
 <stage>(<hi>Exit.</hi></stage>
 </sp>
-<div2 type="scene">
+<div type="scene">
 <head><stage>The Scene changes to the Street.</stage></head>
 <stage><hi>Enter</hi> Colonel <hi>with</hi> Isabella<hi>'s Letter in his Hand, and</hi> Gibby <hi>following.</hi></stage>
 <sp>
@@ -1495,8 +1495,8 @@ the Stool of Repentance?—This Letter I receiv'd from a Lady in a Vail—Some <
 <l><hi>Whilst tasteless Mortals sleep their Time away.</hi></l>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="29" facs="41"/>
 <head><stage><hi>Scene changes to</hi> Frederick<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> Inis <hi>and</hi> Lissardo.</stage>
@@ -2160,8 +2160,8 @@ Liberty, and now my Father's Will shall be obey'd without the least Reluctance.<
 <l><pb n="41" facs="53"/><hi>Till some experienc'd Master found the Way,</hi></l>
 <l><hi>With Spur and Rein to make his Pride obey.</hi></l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>Scene, <stage>the Terreiro de passa.</stage></head>
 <stage><hi>Enter</hi> Colonel, <hi>and</hi> Isabella <hi>vail'd.</hi> Gibby <hi>at a Distance.</hi></stage>
 <sp>
@@ -2415,12 +2415,12 @@ after a pack of Gyrcarlings here, that shame to show their Faces, and peer Men, 
 <l><hi>Gin he rewards it not, Deel Pimp for me.</hi></l>
 <stage>(Exit.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="46" facs="58"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Violante<hi>'s Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> Isabella <hi>in a gay Temper, and</hi> Violante <hi>out of Humour.</hi></stage>
 <sp>
@@ -3162,12 +3162,12 @@ for what you suffer'd for my Sake, my grateful Acknowlegements shall ever wait y
 <l><hi>Whilst they who boldly all Delays remove,</hi></l>
 <l><hi>Find every Hour a fresh supply of Love.</hi></l>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="60" facs="74"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Frederick's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Felix <hi>and</hi> Frederick.</stage>
 <sp>
@@ -3587,8 +3587,8 @@ is an only Son, which perhaps may be one Reason for indulging his Passion.</p>
 Huse—Gin he will no gang of himsel, Ise gar him gang by the Lug Sir; Godswarbit <hi>Gibby</hi> hates a Lear.</p>
 <stage>(<hi>Exit.</hi></stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>Scene changes to</hi> Violante<hi>'s Lodgings.</hi></stage></head>
 <stage><hi>Enter</hi> Violante <hi>and</hi> Isabella.</stage>
 <sp>
@@ -4003,8 +4003,8 @@ nor I won't stay neither, and how will you help your self?</p>
 <speaker>Lop.</speaker>
 <p>My Heart misgives me plaguely—Call me a Alguzile, I'll persue them strait.</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Street before</hi> Don Pedro<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> Lissardo.</stage>
 <sp>
@@ -4280,11 +4280,11 @@ nor I won't stay neither, and how will you help your self?</p>
 <l><hi>Since thou'rt a Proof to their eternal Fame,</hi></l>
 <l><hi>That</hi> Man <hi>has no Advantage but the Name.</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="94"/>
 <head>EPILOGUE.</head>
 <head type="sub"><stage>Spoken by Mrs. <hi>SANTLOW.</hi></stage></head>
@@ -4323,7 +4323,7 @@ nor I won't stay neither, and how will you help your self?</p>
 <l>A <hi>Lady</hi> ventures for a <hi>Friend,</hi>—a <hi>Lover.</hi></l>
 <l>Prodigious! For my part I frankly own,</l>
 <l>I'd spoil'd the <hi>Wonder,</hi> and the <hi>Woman</hi> shown.</l>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

@@ -7,18 +7,18 @@
 <extent>[8],35,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1786.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Elizabeth Inchbald.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52491.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <pb facs="2"/>
 <p>THE WIDOW's VOW.</p>
 <p>Price ONE SHILLING.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE WIDOW's VOW. A FARCE, IN TWO ACTS, AS IT IS ACTED AT THE THEATRE ROYAL, <hi>HAY-MARKET.</hi></p>
 <p>LONDON: <gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>INTED FOR G. G. J. AND J. ROBINSON, PATER-NOSTER-ROW. 1786.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE,</head>
 <byline>Written by Mr. HOLCROFT,</byline>
@@ -93,13 +93,13 @@
 <l>Sure not on us, alone, you'll be severe!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="6"/>
 <head>ADVERTISEMENT.</head>
 <p><gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>he AUTHOR of the WIDOW's VOW is indebted for the Plot of her Piece, and for the Plot only, to <hi>L' He<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/>s<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Erreur,</hi> a French Comedy of one Act, by M. PATRAT, but to the Excellence of the English <hi>Performers</hi> alone is she indebted for its very flattering Success.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -114,16 +114,15 @@
 <item><label>Ursula</label> Mrs. EDWIN.</item>
 <item><label>Flora</label> Mrs. WELLS.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>Scene a Village in Spain.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE WIDOW's VOW.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A Hall in a Castle.</stage></head>
 <stage><hi>Enter</hi> JEROME <hi>and</hi> FLORA.</stage>
 <sp>
@@ -309,8 +308,8 @@
 <speaker>ANTONIO.</speaker>
 <p>Yes—Yes—she may go— <stage><hi>Exi<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> Flora and Jerome</hi></stage> A young woman at the gate, now do I want to bid <hi>her</hi> welcome to the cast<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/>e—<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> a maid of Donna Isabella, our neighbour—by the bye I must bring about an acquaintance with Donna Isabella and the Countess my niece, if I can, for I am told Isabella is a very beautiful lady—and I should like to bid <hi>her</hi> welcome to the castle—but, notwithstanding all the pains I have takes, ever since she has arrived, to procure a sight of her, I have not been able—I would, however, fo<gap resp="pdcc" extent="3 letters" disp="•••" reason="illegible"/> myself into the house, but it seems she has a young brother, the Marquis, come down on a vi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/>t to her within these three days, and he might take upon him to resent my gallantry—and I can't say I am fond of resentments, rage and hatred—no, no, the <hi>soster</hi> passions possess me wholly. <stage><hi>Exi<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/></hi></stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A Chamber at</hi> DONNA ISABELLA's.</stage></head>
 <stage><hi>Enter</hi> ISABELLA <hi>followed by the</hi> MARQUIS.</stage>
 <sp>
@@ -543,8 +542,8 @@
 <p>Oh, my Lord, you may depend upon <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> she will, because of my dream.</p>
 </sp>
 <stage><hi>Exit Marquis on one side and Isabella and Inis <gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> the other.</hi></stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="13" facs="20"/>
 <head><hi>SCENE III.</hi> <stage>The Hall in the Castle.</stage></head>
 <stage><hi>Enter</hi> FLORA <hi>and</hi> JEROME.</stage>
@@ -856,13 +855,13 @@ Will your Lordship take a turn in the <gap resp="pdcc" extent="1 letter" disp="�
 <p>And be sure you don't laugh Think on me, and keep your countenance—you can.</p>
 </sp>
 <stage><hi>Exit Countess and Flora on one side and Jerom<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> the other.</hi></stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="28"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>The Hall in the Castle.</stage></head>
 <stage><hi>Enter</hi> FLORA.</stage>
 <sp>
@@ -1020,8 +1019,8 @@ Will your Lordship take a turn in the <gap resp="pdcc" extent="1 letter" disp="�
 <p>No, Ursula—I will go after all—<gap resp="pdcc" extent="1 word" disp="〈◊〉" reason="illegible"/> if it <hi>should</hi> prove a man, and he should behav<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> rude to you, oh! my dear Ursula, I should nev<gap resp="pdcc" extent="2 letters" disp="••" reason="illegible"/> be happy, that I did not take it all upon myself.</p>
 </sp>
 <stage>Exeunt separate</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi> <stage>A Parlour in the Castle.</stage></head>
 <stage><hi>The</hi> COUNTESS, <hi>the</hi> MARQUIS, <hi>and</hi> DO<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> ANTONIO <hi>discovered sitting.</hi></stage>
 <sp>
@@ -1469,21 +1468,19 @@ Will your Lordship take a turn in the <gap resp="pdcc" extent="1 letter" disp="�
 <p>A vow to LOVE, HONOUR and OBEY.</p>
 </sp>
 <stage>Exeunt omnes.</stage>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>THE END.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="43"/>
 <head>Just published, by G. G. J. and J. ROBINSON</head>
 <p>I'LL TELL YOU WHAT▪ A COMEDY, in FIVE ACTS, As performed at the Theatre-Royal in the Hay-Mar<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> By Mrs. INCHBALD. Price One Shilling and Sixpence,</p>
 <p>APPEARANCE IS AGAINST▪ THEM A FARCE, Price One Shilling, By the same AUTHOR.</p>
 <p>ALSO, DUPLICITY, AND THE FOLLIES OF A DAY COMEDIES; THE NOBLE PEASAN<gap resp="pdcc" extent="1 letter" disp="•" reason="illegible"/> AND THE CHOLERIC FATHERS OPERAS, By THOMAS HOLCROFT; Price One Shilling and Sixpence each.</p>
 <p>LIKEWISE, THE SCOTTISH VILLAGE; PITCAIRN-GREEN, A POEM, By Mrs. COWLEY, Price Two Shillings.</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

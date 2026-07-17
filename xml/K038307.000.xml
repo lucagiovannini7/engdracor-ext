@@ -7,7 +7,7 @@
 <extent>[8],51,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed for J. Williams,</publisher><date>1775.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT37172.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE INFLEXIBLE CAPTIVE.</p>
 <p>A TRAGEDY.</p>
@@ -16,8 +16,8 @@
 <l>In flexible to ill, and obstinately just.</l>
 <bibl>HORACE, Book III. Ode 3.</bibl>
 <p>DUBLIN: Printed for J. WILLIAMS, No. 21, SKINNER-ROW, MDCCLXXV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE Honourable Mrs. BOSCAWEN.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -25,8 +25,8 @@
 <closer><signed><hi>I am,</hi> Madam, <hi>with great Respect, Your most obedient, And most humble Servant,</hi>
 H. MORE.</signed>
 <dateline>BRISTOL, <date>March 1, 1774.</date></dateline></closer>
-</div1>
-<div1 type="argument">
+</div>
+<div type="argument">
 <pb facs="3"/>
 <head>THE ARGUMENT.</head>
 <p>AMONG the great names, which have done honor to antiquity in general, and to the Roman Republic in particular, that of <hi>Marcus Attilius Regulus</hi> has, by the general consent of all ages, been considered as one of the most respectable, since he not only sacrificed his labours, his liberty, and his life for the good of his country; But by a greatness of soul, almost peculiar to himself, contrived to make his very misfortunes contribute to that glorious end.</p>
@@ -36,8 +36,8 @@ H. MORE.</signed>
 but, Regulus so far from availing himself of his influence with the Senate to obtain any personal advantages, employed it to induce them to reject proposals so evidently tending to dishonour their country, declaring his fixed resolution to return to bondage, and death, rather than violate his cath.</p>
 <p>He at Last extorted from them their consent; and departed amidst the tears of his family, the importunities of his friends, the applauses of the Senate, and the tumultuous opposition of the people; and as a great poet of his own nation beautifully observes, he embarked for Carthage as calm and unconcerned, as if, on finishing the tedious law-suits of his clients, he was retiring to Venafrian fields, or the sweet country of <hi>Tarentum.</hi><note place="foot">HOR. Book III. Ode 5.</note></p>
 <p>In the above, and many other important particulars, the Author has paid the strictest regard to historical truth: In some less essential points, where she thought it would rather obstruct than advance her purpose, she has ventured to deviate from it; particularly, in fixing the return of Regulus to Rome, posterior to the death of his wife Martia. In <hi>this,</hi> and in the <hi>general</hi> conduct of the story, she has followed the Italian poet Metastasio in his Opera of <hi>three</hi> acts: of which she has given a free translation, and made such <hi>additions,</hi> as were necessary to form it into a tragedy of <hi>five</hi> acts.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE</head>
 <byline>BY THE REV. DR. LANGHORNE.</byline>
@@ -73,8 +73,8 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>Gleam from the press, nor triumph on the stage</l>
 <l>Forbid it, Britons! and, as Romans brave,</l>
 <l>Like Romans boast one citizen to save.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6" ana="y"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -91,17 +91,16 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <item>BARCE, a Carthaginian Captive.</item>
 </list>
 <p>Guards, Lictors, People, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, near the Gates of <hi>ROME.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE INFLEXIBLE CAPTIVE.</head>
 <head type="sub">A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a Hall in the Consul's Palace.</stage></head>
 <stage><hi>Enter</hi> LICINIUS, ATTILIA, <hi>Lictors and People.</hi></stage>
 <sp>
@@ -609,11 +608,11 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>And woes remember'd turn to present joy.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>the Inside of the Temple of Bellona, Seats for the Senators and Ambassadors, Lictors guarding the Entrance.</stage></head>
 <stage>MANLIUS, PUBLIUS, <hi>and</hi> Senators.</stage>
 <sp>
@@ -1082,11 +1081,11 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>Tear the fond wretch from all his hopes away,</l>
 <l>And drive his shatter'd bark again to sea.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>a Portico of a Palace without the Gates of Rome, the Abode of the Carthaginian Ambassador.</stage></head>
 <stage><hi>Enter</hi> REGULUS, <hi>and</hi> PUBLIUS <hi>meeting.</hi></stage>
 <sp>
@@ -1673,11 +1672,11 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>Contented to resign, or pleas'd receive,</l>
 <l>What wisdom may with-hold, or mercy give.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>Scene, <stage>a Gallery in the Ambassador's Palace.</stage></head>
 <sp>
 <speaker>Reg.</speaker>
@@ -2218,8 +2217,8 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>And brighter suns reflect propitious rays.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>Scene, <stage>a Hall looking towards the Garden.</stage></head>
 <stage><hi>Enter</hi> Regulus <hi>speaking to one of Hamilcar's Attendants.</hi></stage>
 <sp>
@@ -2731,11 +2730,11 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>And to reward our virtue crown our love.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>An Apartment in the Ambassador's Palace. Guards and other Attendants seen at a Distance.</stage>
 <sp>
 <speaker>Ham.</speaker>
@@ -3311,8 +3310,8 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>The soul of Barce's not a Roman soul.</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene within sight of the Tiber, ships ready for the embarkation of Regulus and the Ambassador, Tribune and People stopping up the passage, Consul and Lictors endeavouring to clear it.</stage></head>
 <stage>MANLIUS <hi>and</hi> LICINIUS <hi>advance.</hi></stage>
 <sp>
@@ -3602,13 +3601,12 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>Farewel! thou pride of this immortal coast!</l>
 <l>'Tis Rome alone a Regulus can boast.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="58" ana="y"/>
 <head>EPILOGUE</head>
 <byline><hi>by</hi> DAVID GARRICK, <hi><abbr>Esq</abbr></hi></byline>
@@ -3659,7 +3657,7 @@ but, Regulus so far from availing himself of his influence with the Senate to ob
 <l>Silence, the proverb tells us, gives consent.</l>
 <l>Critics, will you allow our honest claim?</l>
 <l>Are you dumb too? This night has fix'd our fame.</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

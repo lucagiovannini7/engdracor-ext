@@ -7,7 +7,7 @@
 <extent>iv,[4],76p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Evans; and T. Davies,</publisher><date>1775.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Press figure 1 on p.50 - Variant; press, figure 3 on p.50.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT29583.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>BRAGANZA.</p>
 <p>A TRAGEDY.</p>
@@ -15,8 +15,8 @@
 <p>WRITTEN BY ROBERT JEPHSON, ESQ.</p>
 <p>LONDON: Printed for T. EVANS, near York-Buildings in the Strand; AND T. DAVIES, in Russel-Street, Covent-Garden. M DCC LXXV.</p>
 <p>[Price One Shilling and Six-Pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO LADY VISCOUNTESS NUNEHAM.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -28,8 +28,8 @@
 <signed>Your Ladyship's Much obliged and Most obedient Humble Servant, ROBERT JEPHSON.</signed>
 <dateline>Dublin Castle,
 <date>Febr. 1775.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written by ARTHUR MURPHY, Esq.</byline>
@@ -102,8 +102,8 @@
 <l>You'll praise the hand that trac'd the just design.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="6"/>
 <head>EPILOGUE.</head>
 <byline>By a FRIEND.</byline>
@@ -148,8 +148,8 @@
 <l>And many a bright Louisa is our own.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>PERSONS.</head>
 <list>
@@ -175,16 +175,15 @@
 <item><label>Louisa, Dutchess of Braganza</label> Mrs. Yates.</item>
 </list>
 <p>Gentlemen, Attendants, Soldiers, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, LISBON.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>BRAGANZA; A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>A Piazza.</hi></stage>
 <stage>RIBIRO <hi>meeting a Spanish Officer conducting two Citizens bound.</hi> LEMOS <hi>and</hi> COREA <hi>following</hi> RIBIRO <hi>at a little Distance.</hi></stage>
 <sp>
@@ -741,13 +740,13 @@
 <l>Marshal'd by death, in comfortless array,</l>
 <l>Wait his cold relics to their sepulchre.</l>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the First</hi> ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="13" facs="20"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An Antichamber in the Duke of</hi> BRAGANZA<hi>'s Palace.</hi></stage>
 <stage>RIBIRO, MENDOZA.</stage>
@@ -852,8 +851,8 @@
 <l>Our greeting will be seasonable now.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>A magnificent Chamber in the Duke of</hi> BRAGANZA'<hi>s Palace. —The Duke speaking to</hi> LEMOS <hi>and</hi> COREA—<hi>Other Citizens at a little Distance.</hi></stage>
 <sp>
@@ -1292,13 +1291,13 @@
 <l>And in their bosoms breathe resistless ardour!
 <stage>Exit.</stage></l>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the Second</hi> ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="26" facs="33"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The Apartments of</hi> VELASQUEZ, <hi>in the Palace of the Vice-Queen.</hi></stage>
 <stage>VELASQUEZ, PIZARRO.</stage>
@@ -1995,13 +1994,13 @@ thou this—It holds a wafer</l>
 <l>And stretch'd on heaps of slaughter'd enemies.</l>
 </sp>
 <stage>Exeunt severally.</stage>
-</div3>
+</div>
 <trailer><hi>End of the Third</hi> ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="43" facs="50"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Chamber in the Duke of</hi> BRAGANZA'<hi>s Palace.</hi></stage>
 <sp>
@@ -2635,13 +2634,13 @@ This shall thank you,</l>
 <l>But if we meet, in stronger clasps renew'd,</l>
 <l>Will double all the joys of victory.</l>
 </sp>
-</div3>
+</div>
 <trailer><hi>End of the Fourth</hi> ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="59" facs="66"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>The Apartments of</hi> VELASQUEZ <hi>in the royal Palace.</hi></stage>
 <sp>
@@ -3410,11 +3409,9 @@ dost thou brave me</l>
 <l>Strike terror to the souls of impious men,</l>
 <l>Who own no God, but from his pow'r to punish.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

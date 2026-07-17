@@ -7,7 +7,7 @@
 <editionStmt><edition>Second edition.</edition></editionStmt><extent>[4],87,[5] ; 8⁰.</extent><publicationStmt><publisher>printed for T.N. Longman and O. Rees,</publisher><date>1799.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With an epilogue and three final pages of advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT127633.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE VOTARY OF WEALTH; <hi>A</hi> COMEDY, IN FIVE ACTS.</p>
 <p>AS PERFORMED AT THE <hi>THEATRE-ROYAL, COVENT-GARDEN.</hi></p>
@@ -18,8 +18,8 @@
 <p><hi>LONDON:</hi> PRINTED FOR T. N. LONGMAN AND O. REES, NO. 39, PATERNOSTER▪ ROW.</p>
 <p>1799.</p>
 <p>[PRICE TWO SHILLINGS.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY WILLIAM THOMAS FITZGERALD, ESQ.</byline>
@@ -64,8 +64,8 @@
 <l>And, if deserving, all might reap the bays</l>
 <l>From the rich harvest of the Public praise.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>CHARACTERS.</head>
 <list>
@@ -89,16 +89,15 @@
 <item><label>GANGICA, a Gentoo</label> Mrs. H. JOHNSTON</item>
 </list>
 <p>The lines marked with single inverted commas are omitted in representation.</p>
-</div1>
+</div>
 <set><p>SCENE—LONDON.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE VOTARY OF WEALTH.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE I.</hi>—<stage>An Apartment in <hi>OLD VISORLY'S</hi> House. <hi>OLD VISORLY</hi> and Lady <hi>JEMIMA</hi> at breakfast. <hi>OLD VISORLY</hi> reading Newspapers.</stage></head>
 <sp>
 <speaker>LADY JEMIMA.</speaker>
@@ -929,12 +928,12 @@ to two thousand a year! you would never have enjoyed the luxury of polishing a s
 <speaker>Dro.</speaker>
 <p>If they don't wake at that call, you may take your oath their slumber is everlasting. But tho' I am master of this poor tenement, I really am so ignorant of the state of the <hi>upper story,</hi> as not to know whether the inhabitants have perished by neglect, or are only dozing from want of employment; but this I do know, there is a lively fellow in the <hi>first floor</hi> <stage>(pointing to his heart)</stage> who would dance with joy to do you the slightest service, and lose every drop of blood to prove his friendship and gratitude. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="18" facs="21"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE I.</hi>—<stage>An Apartment in <hi>Visorly's</hi> House.</stage></head>
 <stage><hi>Enter</hi> LEONARD, <hi>and</hi> CAROLINE.</stage>
 <sp>
@@ -1866,12 +1865,12 @@ of him for whole ship-full of money. <stage>(returns the purse.)</stage></p>
 <p>Ha, ha, ha!</p>
 <stage>[Exeunt on different sides▪</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="36" facs="39"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.—<stage>OLD VISORLY'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> JULIA <hi>and</hi> CAROLINE.</stage>
 <sp>
@@ -2253,9 +2252,9 @@ you must excuse me. I defy a man to laugh at a joke when he has lost all his mon
 <p>Hey! What! No, it can't be. Let me think—Um! Faith, it begins to dawn—now it glares! Oh what a blind dolt have I been! Ha! ha! Huzza, I hear myself laugh again, and think I could cut a caper—Tol lol de rol! Whew! A fine girl loves me, and so. Fortune, go hang.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
+</div>
 <pb n="43" facs="46"/>
-<div3 type="scene">
+<div type="scene">
 <head><stage>Scene changes to another Apartment in <hi>Visorly's</hi> house.</stage></head>
 <stage>Enter <hi>LEONARD</hi> with a letter in his hand, followed by a Servant.</stage>
 <sp>
@@ -2325,8 +2324,8 @@ daughter;—and, perhaps, he might have had in his mind a different alliance for
 <speaker>Old Vis.</speaker>
 <p>Yes, we will go and prepare her to make the melancholy discovery. You have the way, my dear Leonard, of placing things in a right point of view. It is really quite a weakness my being so tender hearted. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>Another Apartment.</stage></head>
 <stage><hi>Mrs.</hi> CLEVELAND <hi>and</hi> JULIA.</stage>
 <sp>
@@ -2609,9 +2608,9 @@ heart have passed the perils of the ocean, and tread secure on English ground, t
 <speaker>Shar.</speaker>
 <p>And I grasp yours with affection—for my father's sake. <stage>[Exeunt severally▪</stage></p>
 </sp>
-</div3>
+</div>
 <pb n="50" facs="53"/>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>The Street.</stage></head>
 <stage><hi>Enter</hi> HENRY MELVILLE.</stage>
 <sp>
@@ -2619,8 +2618,8 @@ heart have passed the perils of the ocean, and tread secure on English ground, t
 <p>That, I find, is the house of Mr. Visorly. There I shall learn my Julia's residence. This is but a sorry garb for a lover to seek his mistress in; but if I know my Julia's heart, her joy at finding me preserved from death, will make her little heed, or scarcely see the poorness of my raiment. Her father's safety, though I little doubt it, I long to be assured of. Now then, to be resolved on that important point, and meet my Julia.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>An Apartment in <hi>VISORLY'S</hi> House.</stage></head>
 <stage><hi>Enter</hi> HENRY.</stage>
 <sp>
@@ -2680,12 +2679,12 @@ out, and in a moment throng'd. In one, least crowded, was your father; he called
 <p>My Julia's grief distracts me—Still let me hope 'tis without cause; but as no moment should be lost to prove it groundless, I will this instant fly to know the truth▪ Farewell, my Julia! When next we meet, I trust all grief will vanish.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="52" facs="55"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.—<stage>VISORLY'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> LEONARD <hi>and</hi> SHARPSET.</stage>
 <sp>
@@ -3043,8 +3042,8 @@ and seek Caroline; but how to tell her of her brother's villainy? I hope I may n
 <speaker>Leon.</speaker>
 <p>Um! all is not as it should be! Can that villain, Sharpset, have dared reveal to him—I fear it—and if he have betrayed me to him, he will not stop there. His malice then, must have a check—he shall instantly be taken care of. I have the power to secure <hi>him.</hi> The old rustic, whom he calls his father, I have been forced to entrap somewhat illegally; but he will be safe till my scheme is executed, and then the fellow that I have bribed to swear a debt against him, may, by flight, secure himself from the vengeance of the violated law. All is well arranged, and this very night shall put me securely in possession of my Eastern beauty, and her Eastern riches. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>A House of Confinement.</stage></head>
 <stage>OAKWORTH <hi>and</hi> Bailiff.</stage>
 <sp>
@@ -3231,8 +3230,8 @@ me where to find you—On which you may conclude I lost no time in hastening to 
 <p>Lose not a moment in questioning, or all is lost—Though the debt alledged, be a false one, give your draft for it, and take him with you. Haste, madam, haste; and heaven prosper you.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>The Garden belonging to Old <hi>VISORLY'S</hi> House.</stage></head>
 <stage><hi>Enter</hi> LEONARD.</stage>
 <sp>
@@ -3258,8 +3257,8 @@ me where to find you—On which you may conclude I lost no time in hastening to 
 <p>Very well. Wait hereabout, or be at the garden gate. <stage><hi>[Exit</hi> SIMPSON.</stage></p>
 <p>Now, then, to my young lady. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to an Apartment in <hi>VISORLY'S</hi> House.</stage></head>
 <sp>
 <stage>JULIA <hi>alone.</hi></stage>
@@ -3316,8 +3315,8 @@ venture the confession. I indulged the gay dream, that by my tender assiduity yo
 <speaker>Leon.</speaker>
 <p>She is mine! <stage>[Exit, bearing her off.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>The Garden.</stage></head>
 <stage><hi>Enter</hi> DROOPLY.</stage>
 <sp>
@@ -3556,12 +3555,12 @@ Enter <hi>OAKWORTH,</hi> Mrs. <hi>CLEVELAND</hi> and <hi>GANGICA.</hi> The momen
 <speaker>Mrs. Clev.</speaker>
 <p>And where, would to heaven, we had remained. Come, dearest Julia. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="69" facs="72"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.—<stage>VISORLY'S <hi>House.</hi></stage></head>
 <stage>Enter old <hi>VISORLY</hi> and <hi>LEONARD.</hi></stage>
 <sp>
@@ -3694,8 +3693,8 @@ on his son's abruptly dismissing—a wife? No, no, sir—depend on it, the fathe
 <stage>[Exeunt severally.</stage>
 </sp>
 <pb n="72" facs="75"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>The Hotel.</stage></head>
 <stage><hi>Mrs.</hi> CLEVELAND <hi>and</hi> JULIA.</stage>
 <sp>
@@ -4065,8 +4064,8 @@ here an instant; therefore assure your friends—But why not debar myself a few 
 <p>My wife! my child! Oh, heavenly powers!</p>
 <stage>[The Scene closes upon them</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE</hi>—<stage>Another Apartment in the Hotel.</stage></head>
 <stage>Enter <hi>DROOPLY</hi> and <hi>CAROLINE,</hi> a Waiter following with a Portmanteau, and a small iron box.</stage>
 <sp>
@@ -4116,8 +4115,8 @@ to be satisfied with less than a third of your demand, and to take charge of me 
 <speaker>Gan.</speaker>
 <p><stage>(pointing to her heart.)</stage> Dis too full of joy to let me talk. I can't tell you—but come—come wid me—you know all—den you be too happy to talk—Come, come. <stage>[Exeunt▪</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>Changes.</hi></stage></head>
 <stage>CLEVELAND, <hi>Mrs.</hi> CLEVELAND, JULIA, <hi>and</hi> HENRY.</stage>
 <sp>
@@ -4589,13 +4588,12 @@ While all that is truly amiable or great in genius or in virtue, when linked wit
 <speaker>Clev.</speaker>
 <p>The gratitude I owe to all who have befriended these dear objects of my love, I hope to shew by something more than words. What a prospect of happiness opens to our view! Blest with friends, proved such in the trying moments of affliction—with fortune to command profusely every luxury, and I trust, with minds to employ it only in pursuit of one—the luxury of doing good.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="91"/>
 <head>EPILOGUE.</head>
 <byline>WRITTEN BY JOHN TAYLOR, ESQ. AND SPOKEN BY MRS. POPE.</byline>
@@ -4640,8 +4638,8 @@ That lends deformity resistless grace,</l>
 <l>In hopes one error more will pardon find,</l>
 <l>Since to his others you've so long been kind.</l>
 </lg>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="93"/>
 <head>NEW PUBLICATIONS PRINTED FOR T. N. LONGMAN and O. REES, No. 39, Paternoster-Row.</head>
 <p n="1">1. THE LIFE of CATHARINE II. EMPRESS of RUSSIA. The Third Edition, with considerable Improvements. In Three Volumes, 8vo. Price 1l. 4s. in Boards. Embellished with Seven elegant Portraits, and a correct Map of Russia.</p>
@@ -4653,8 +4651,7 @@ That lends deformity resistless grace,</l>
 <p>We cannot dismiss this article without acknowledging, that it throws a great and new light upon the occurrences and events of more than half a century of our history.</p>
 <bibl>Gent. Mag. Aug. <hi>1793.</hi></bibl>
 <p n="3">3. BIOGRAPHICAL, LITERARY, and POLITICAL ANECDOTES, of several of the most EMINENT PERSONS of the PRESENT AGE; particularly the Dukes of Grafton, Leeds, Dorset, and Rutland; Lords Townshend, Orford, Marchmont, Mansfield, Camden, Temple, Nugent, and Sackville; Bishops of Hereford and Ossory; Right Hon. George Grenville, Charles Townshend; Sir James Caldwell, Sir Grey Cooper, Sir John Dalrymple, Serjeant Adair, Dr. Franklin, and many others; never before printed. In Three Volumes. Price 18s.</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

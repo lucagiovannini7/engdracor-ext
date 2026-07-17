@@ -7,12 +7,12 @@
 <extent>[8],40p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Lowndes, and J. Bell, successor to Mr. Bathoe,</publisher><date>1769.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Francis Gentleman.</note><note>'Scrub's trip to the jubilee' is a prologue by George Colman the Elder.</note><note>A variant has a note "To the public" printed on the verso of the dramatis personæ (A4).</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT48731.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE STRATFORD JUBILEE. A NEW COMEDY OF TWO ACTS, AS IT HAS BEEN LATELY EXHIBITED AT STRATFORD UPON AVON, WITH GREAT APPLAUSE. To which is prefixed SCRUB'S TRIP TO THE JUBILEE.</p>
 <p>LONDON. Printed for T. LOWNDES, No. 77. in <hi>Fleet-Street,</hi> and J. BELL, Successor to Mr. BATHOE, near <hi>Exeter Exchange</hi> in the <hi>Strand.</hi> M.DCC.LXIX. [PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO SAMUEL FOOTE, Esq.</head>
 <l>THE comic muse in consultation,</l>
@@ -28,8 +28,8 @@
 <l>Your smiles much credit must reflect,</l>
 <l>On him who signs, with just respect,</l>
 <closer><signed>The AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>SCRUB'S TRIP TO THE JUBILEE. SPOKEN BY MR. WESTON.</head>
 <l>FROM Stratford arriv'd—piping hot—gentle folks,</l>
@@ -81,13 +81,13 @@
 <l>With granting such kindness bound gratitude more.</l>
 <l>I love but to own with a diligent spirit</l>
 <l>Your favours have ever out-run my slight merit.<note n="{inverted ⁂}" place="foot">The reader will easily perceive that this Prologue is merely occasional</note></l>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="5"/>
 <head>To the PUBLIC.</head>
 <p>THE Author thinks it incumbent upon him to observe, that the following Occasional Piece was imagined, and put into its present State within the Space of a very few Days; and has some Reason to believe, that it would have been presented at the Theatre Royal in the Hay-Market, if the Thought had been suggested in Time for Mr. FOOTE's Season. Some kind, and perhaps partial Friends, having urged the Publication, it thus steps into Life with <hi>many Imperfections on its Head</hi>; yet not, the Author flatters himself, without some degree of Merit, to Apologize for submitting it to Public Perusal.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -109,16 +109,16 @@
 <item>Emmeline.</item>
 <item>Jackonet.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Stratford upon Avon. Time, the same as in Representation.</p></set>
 </front>
 <body>
-<div1>
+<div>
 <pb facs="7"/>
 <head>THE STRATFORD JUBILEE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter Sir</hi> John Hearty <hi>and</hi> Scrapeall.</stage>
 <sp>
@@ -688,12 +688,12 @@ good heart and pleasing hopes bear me up.—I would have a dress odd and whimsic
 <p>Come then, dear Jackonet—do make me look very killingly, and every silk sack and petticoat I have at present, shall be your's when we return from Scotland. <stage>Exeunt.</stage></p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT THE SECOND.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE THE FIRST.</head>
 <stage><hi>Sir</hi> JOHN HEART <hi>and</hi> SCRAPEALL.</stage>
 <sp>
@@ -747,8 +747,8 @@ regale yourself with a little of it before you are shipped off for the other wor
 <speaker>SCRAPEALL.</speaker>
 <p>I follow, Sir John—I wish I knew how East-India stock was done to-day; and what news there is from the Nabobs. <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="20" facs="26"/>
 <head><hi>SCENE II.</hi> <stage>A Masquerade Shop.</stage></head>
 <stage>PASQUIN <hi>and</hi> SLEEKEM.</stage>
@@ -1340,11 +1340,10 @@ understanding. I wear a title myself, and I'm no rogue for all that. We'll see w
 <l>Titled or plain, still judge upon this plan,</l>
 <l>That the heart only manifests the man.</l></p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

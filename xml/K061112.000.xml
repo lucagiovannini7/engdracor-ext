@@ -7,17 +7,17 @@
 <extent>[8],103,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Debrett,</publisher><date>1793.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT72077.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE LONDON HERMIT, OR <hi>RAMBLES in DORSETSHIRE.</hi></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE LONDON HERMIT, OR RAMBLES IN DORSETSHIRE, A <hi>COMEDY,</hi> IN THREE ACTS, AS PERFORMED WITH UNIVERSAL APPLAUSE AT THE THEATRE ROYAL, HAYMARKET, WRITTEN BY <hi>JOHN O'KEEFFE, Esq.</hi></p>
 <p>AUTHOR OF Tony Lumpkin in Town, The Son-in-law, The Dead Alive, Agreeable Surprize, Castle of Andalusia, Fontainbleau, or Our Way in France, The Positive Man, The Poor Soldier, Love in a Camp, or Patrick in Prussia, The Farmer, The Young Quaker, Beggar on Horseback, Peeping Tom, The Prisoner at large, The Toy, or Hampton Court Frolics, Wild Oats, or the Strolling Gentlemen, Little Hunchback, The Siege of Curzola, Modern Antiques, or the Merry Mourners, The Highland Reel, Birth-day, or Prince of Arragon, Sprigs of Laurel, &amp;c.</p>
 <p>LONDON: Printed for J. DEBRETT, opposite BURLINGTON-HOUSE, PICCADILLY. 1793.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3" ana="y"/>
 <head>DEDICATION.</head>
 <head>TO THE REV. — BALL, OF WINFRITH, NEAR WEYMOUTH.</head>
@@ -27,8 +27,8 @@
 <closer><salute>DEAR SIR,</salute>
 <signed>Your highly honoured, and much obliged servant, J. O'KEEFFE.</signed>
 <dateline>BROMPTON, <date>July 13, 1793.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline><hi>Written by</hi> GEORGE COLMAN, <hi>Jun. Esq. Spoken by Mr.</hi> BARRYMORE.</byline>
@@ -67,8 +67,8 @@
 <l>And smile on him, on whom you smil'd before!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -101,16 +101,15 @@
 <item><label>LADIES,</label> Mrs. CUYLER.</item>
 <item><label>LADIES,</label> Mrs. HALE.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, DORSETSHIRE.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE LONDON HERMIT, OR <hi>RAMBLES in DORSETSHIRE.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Before a Country Inn and great Gates leading to</hi> Whimmy's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> BARLEYCORN, <hi>(from the Inn.)</hi></stage>
 <sp>
@@ -760,8 +759,8 @@
 </sp>
 <stage>Exeunt.</stage>
 <stage>Young Pranks goes into the house.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="21" facs="27"/>
 <head>SCENE II. <stage><hi>A Room in the Inn.</hi></stage></head>
 <stage><hi>Enter</hi> BARLEYCORN.</stage>
@@ -982,13 +981,13 @@
 <l>"A pilgrim blythe and jolly."</l>
 </sp>
 <stage>Exit singing.</stage>
-</div3>
+</div>
 <trailer>END OF ACT I.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb facs="34"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Before the Inn.</hi></stage></head>
 <stage><hi>Enter from it</hi> TOBY <hi>and</hi> POZ.</stage>
 <sp>
@@ -1085,8 +1084,8 @@
 <p>Ha! ha! sanctified muns and rogue's heart.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A magnificent Garden, with Statues, Fountains, &amp;c.</hi></stage></head>
 <stage><hi>Enter</hi> WHIMMY, (<hi>repeating with great exultation</hi>)</stage>
 <sp>
@@ -1555,8 +1554,8 @@
 <p>Oh! the devil!—If what o'clock hasn't pull'd up a sluice. Half the garden will be overflowed; and we shall have the carp and tench dancing among the daises.</p>
 </sp>
 <stage>Exeunt hastily several ways.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Another part of the Gardens, with the view of the Outside of an Hermitage.</hi></stage></head>
 <stage><hi>Enter</hi> KITTY BARLEYCORN.</stage>
 <sp>
@@ -1679,8 +1678,8 @@
 <p>My friend, Peregrine's intended sposa; I had hopes, that if he got this lady and her fortune, he might tip me a thousand pounds, without a seven year's imprisonment in the old gentleman's hermitage; but borrowing money is throwing water upon the warm heart of friendship. <stage>(Laughing without.)</stage> 'Sdeath, the company!—I must now earn my annuity.—Heh! is that Kitty gliding through the bushes?—a most dear dangerous little Barleycorn this. Marriage is all out of sight, and, without it, to take all a simple young girl's innocence may bestow, would be, indeed, giving life in my breast to the worm that never dies.</p>
 <stage>Goes into the Hermitage.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="50" facs="56"/>
 <head>SCENE III. <stage><hi>The Hermitage.</hi></stage></head>
 <stage><hi>Enter</hi> KITTY, <hi>with meat and drink for</hi> YOUNG PRANKS, <hi>and knocks at the door.</hi></stage>
@@ -1800,8 +1799,8 @@
 <p>Oh!</p>
 <stage>Steals off.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>Inside of an Hermitage.</hi> Young Pranks <hi>discovered in his Hermit's Dress at a Table, with lamp, skull, bones, large book, and jockey whip.</hi></stage></head>
 <sp>
 <speaker>YOUNG PRANKS.</speaker>
@@ -2056,13 +2055,13 @@
 <p>But, Sir!</p>
 </sp>
 <stage>Exit following.</stage>
-</div3>
+</div>
 <trailer>END OF ACT THE SECOND.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="61" facs="67"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The Gardens.</hi></stage></head>
 <stage><hi>Enter</hi> OLD PRANKS.</stage>
 <sp>
@@ -2232,8 +2231,8 @@
 <l>"A pilgrim blythe and jolly."</l>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="67" facs="73"/>
 <head>SCENE II. <stage><hi>Before</hi> BARLEYCORN'S.</stage></head>
 <stage><hi>Enter</hi> KITTY <hi>(in high spirits) and</hi> BARLEYCORN.</stage>
@@ -2884,8 +2883,8 @@
 <p>Why, you horrid villains, you shall not!—my child!</p>
 </sp>
 <stage>Exit after them.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>The Gardens. Statues thrown down, and broken fragments lying about; shrubs and plants, as pulled up.</hi></stage></head>
 <stage><hi>Enter</hi> BAREBONES, (<hi>with a broken statue.</hi>)</stage>
 <sp>
@@ -3080,8 +3079,8 @@
 <p>He likes reason, and the fellow's mad; there he runs after my hermit. Certainly 'twas this savage old Goth committed these barbarisms—I hope he'll not find his nephew; however, I must prepare my daughter for the marriage.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Inside of Hermitage.</hi> YOUNG PRANKS <hi>sitting in his Hermit's Dress, as if put on hastily.</hi></stage></head>
 <stage><hi>Enter</hi> OLD PRANKS.</stage>
 <sp>
@@ -3183,8 +3182,8 @@
 <p>Tol lol lol, <stage>(sings.)</stage> The heart of an amiable woman is the true touchstone of manly merit. This good and delicate creature loves my nephew, and he must be a worthy lad. The girl, no matter for
 <pb n="93" facs="99"/>her situation, is come of a good stock, and should be transplanted. I didn't, till now, know my nephew—I'll forgive, I'll give him all—Go to the King's Bench again! that he shan't, while I've a guinea to keep him out of it, tol lol lol. <stage>Sings and exit.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>A Gallery in Whimmy's House.</hi></stage></head>
 <stage><hi>Enter</hi> YOUNG PRANKS <hi>(hastily crossing) and</hi> PEREGRINE <hi>meeting, (much agitated.)</hi></stage>
 <sp>
@@ -3512,13 +3511,12 @@
 <speaker>YOUNG PRANKS.</speaker>
 <p>Then, Sir, shall we be merry. Here ends my seven years hermitage, and, instead of my annuity, I shall think myself nobly rewarded, if my extravagant tricks and fancies can, by an indulgent smile, receive the forgiveness of my generous friends.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="110"/>
 <head>NEW PUBLICATIONS, <hi>Printed for J. DEBRETT.</hi></head>
 <list>
@@ -3540,8 +3538,7 @@
 <item>The ENCHANTED WOOD, a Legendary Drama, in three Acts. Price 1s. 6d.</item>
 <item>SHAKESPEARE's All's Well that ends Well, with Alterations by J. P. KEMBLE, as performed at the Theatre Royal, Drury Lane. Price 1s. 6d.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

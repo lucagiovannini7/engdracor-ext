@@ -7,12 +7,12 @@
 <extent>[4],54,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for C. Dilly,</publisher><date>1783.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a final leaf of advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52415.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>WHICH IS THE MAN? A COMEDY, AS ACTED AT THE THEATRE-ROYAL IN COVENT-GARDEN. By Mrs. COWLEY.</p>
 <p><hi>LONDON:</hi> Printed for C. DILLY, in the Poultry. 1783. [Price One Shilling and Sixpence]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head><hi>It having been reported, that the Comedy was written by a Military Character; a Gentleman of acknowledged genius favoured the Author with the following</hi> PROLOGUE,</head>
 <stage><hi>Spoken by</hi> MR. LEE LEWES, <hi>dressed as an Officer.</hi></stage>
@@ -49,8 +49,8 @@
 <l>Their powder fails for want of true salt-petre!</l>
 <l>Our plan's avow'd; it is from this firm station,</l>
 <l>To gain the heights of public approbation!</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <p><list>
@@ -87,13 +87,13 @@
 <item>Mr. <hi>Booth,</hi> Mr. <hi>Robson,</hi> &amp;c.</item>
 </list></p>
 <p>Servants to Lord Sparkle, Belville, Lady Bell, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>WHICH IS THE MAN?</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A DRAWING-ROOM.</stage>
 <stage><hi>(Mrs.</hi> JOHNSON <hi>crosses the Stage, a Boy following.)</hi></stage>
@@ -411,8 +411,8 @@ never can I submit to be quartered on a Wife's fortune; whilst I have a sword to
 <p>'Faith, 'tis impossible to tell! I commit myself to Chance for the remainder of the day, and shall finish it as she directs.</p>
 </sp>
 <stage>[Exeunt at opposite sides.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Scene changes to an Apartment at</hi> CLARINDA'S.</stage>
 <stage><hi>Enter</hi> CLARINDA, <hi>reading a Catalogue, followed by</hi> TIFFANY.</stage>
 <sp>
@@ -452,13 +452,13 @@ of taste; but a new French chamber-maid enabled her Ladyship at one stroke to tu
 <p>Mercy on us! To be a chamber-maid to a <hi>Miss</hi> on the brink of Thirty requires as good politics, as being Prime Minister! Now, if she should not rise from her toilette quite in looks to-day, or if the desertion of a lover, or the victory of a rival, should happen, ten to one but I shall be forced to resign, without even a Pension to retire on.</p>
 </sp>
 <stage><hi>[Exit</hi> Tiffany.</stage>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="10" facs="13"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An elegant Apartment at</hi> LADY BELL BLOOMER'S.</stage>
 <stage><hi>Enter</hi> JULIA, <hi>with Papers in her Hand.</hi></stage>
@@ -684,8 +684,8 @@ Mr. <hi>Beauchamp,</hi> whose name is never mentioned but her cheeks tell such b
 <p>The moment I so much dreaded is arrived! How shall I reveal to my Guardian, and to Lady <hi>Bell,</hi> that I <hi>am</hi> married? that I have already dared to take on me those important duties? I must not reveal it—my solemn promise to my husband—But where is he?—Oh! I must write to him this moment, that I may not be left defenceless to brave the storm of offended authority, and love.</p>
 </sp>
 <stage><hi>[Exit</hi> Julia.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="15" facs="18"/>
 <head>SCENE II.</head>
 <stage>BELVILLE's <hi>Lodgings.</hi></stage>
@@ -965,13 +965,13 @@ for Paris, to conduct to England the woman who must give the point to all my fel
 <p>Spite of my displeasure, I can hardly conceal from him his happiness!—Yet I <hi>will.—Julia</hi> must be punished. To vice and folly I am content to appear severe; but <hi>she</hi> ought not to have thought me so. I have not deserved this want of confidence, and must correct it. If I don't mistake, <hi>Pendragon</hi> is a fit instrument.—I'll take him home with me.—Yes, yes, my young Lady, you shall have a lover!—Oh these headstrong girls!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="21" facs="24"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE 1.</head>
 <stage>LORD SPARKLE'S.</stage>
 <stage>LORD SPARKLE <hi>and</hi> BEAUCHAMP <hi>discover'd at a Table, on which are Pens, Paper, &amp;c.</hi> SPARKLE <hi>superbly drest.</hi></stage>
@@ -1261,8 +1261,8 @@ but the sweeter charms of a beloved, though absent fair-one.</p>
 <p><hi>Fitzherbert</hi>'s ward! and this creature her servant! and Lord <hi>Sparkle</hi> plotting to get her for a mistress!—I am astonish'd!—the <hi>very</hi> Lady he this morning offered for my bride!—Well,—I must find <hi>Fitzherbert</hi> immediately.—Lord <hi>Sparkle</hi> will perhaps think me guilty of a breach of honour—The <hi>imputation</hi> I must incur, that I may not be really guilty of a breach of humanity, and of gratitude.</p>
 </sp>
 <stage><hi>[Exit</hi> Belville.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Lady</hi> BELL BLOOMER'S.</stage>
 <stage><hi>Enter</hi> FITZHERBERT, <hi>followed by a Servant.</hi></stage>
@@ -1452,8 +1452,8 @@ country, since I came to London I have fined a hackneycoachman for abuse.</p>
 <p>I know not what she means, but there is some mystery, I find. So there shou'd be!—If ladies had not mysteries, a chambermaid's place would be hardly worth keeping.—I have mysteries too, and she shall have their explanation from Lord <hi>Sparkle.</hi></p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>CLARINDA'S <hi>House.</hi></stage>
 <stage><hi>Enter Lady</hi> BELL <hi>meeting</hi> CLARINDA.</stage>
@@ -1559,13 +1559,13 @@ with infinite dexterity entangled the traces. It happen'd near your door; so I h
 <p><hi>Shine</hi> upon you at night!—That I know you are insolent enough to believe impossible.—What can I think of her sentiments for Lord <hi>Sparkle!</hi> Sometimes I believe 'tis a mere attachment of vanity on both sides.—That reserv'd creature <hi>Beauchamp</hi> is in his confidence; but he leaves town this very day, and I shall have no opportunity of conversing with him. <stage>(muses)</stage> There is but one chance—going to visit him.—But how can I possibly do that? Deuce take him! If he had a library, one might go to look at his books. Well, I don't care, go I will; and if I can't invent an excuse, I'll put a good face upon the matter, and go without one. <stage>(going)</stage> I should expire if my visit shou'd be discover'd. Poh! I must risque every thing!—To be bold, is sometimes to be right.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="33" facs="36"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An Apartment at</hi> LADY BELL's.</stage>
 <stage><hi>Enter</hi> LADY BELL, <hi>followed by her</hi> Maid.</stage>
@@ -1691,8 +1691,8 @@ with infinite dexterity entangled the traces. It happen'd near your door; so I h
 <p>Heavens! what necessity have lovers for words? What persuasion in that bashful irresolution! Now, shall I let him quit England, or not!—What! give up a coronet and Lord <hi>Sparkle</hi> for a cockade and <hi>Beauchamp!</hi> Preposterous! says Vanity.—But what says Love? I don't exactly know; but I'll examine their separate claims, and settle them with all the casuistry of four-and-twenty.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>LORD SPARKLE's <hi>House.</hi></stage>
 <stage><hi>Enter</hi> JULIA <hi>and</hi> KITTY.</stage>
@@ -2023,8 +2023,8 @@ that sort of thing; and whether <hi>for</hi> ye or <hi>against</hi> ye, 'twill b
 <p>Oh, never fear! I'll do all that sort of thing. Come along! I'll go home directly, and practise at the hen-coop in the yard. I'll fire thro' one end, and you shall hold your calash against the other; and if I don't hit it, say I'm no marksman.</p>
 </sp>
 <stage><hi>[Exit</hi> Pendragon, <hi>with</hi> Sophy <hi>under his arm.</hi></stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>BEAUCHAMP's <hi>Lodgings.</hi></stage>
 <stage><hi>Enter</hi> Beauchamp <hi>and</hi> Julia.</stage>
@@ -2294,13 +2294,13 @@ am convinced you are mistaken. But your reasons, Sir, your reasons?</p>
 <p>Yes, I will come.—Oh vanity! I had dared to explain—Yes, I construed the sweet confusion—Oh, I blush at my own arrogance! Lord <hi>Sparkle</hi> must be right.—Well, this night decides it.—Narrowly will I watch each tone and look, to discover—Oh!—ever-blest!<hi>—he</hi> whom her heart prefers!</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="45" facs="48"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>An Apartment at</hi> LADY BELL's. <hi>A Table, with Candles.</hi></stage>
 <stage><hi>Enter</hi> LADY BELL <hi>and</hi> SERVANT.</stage>
@@ -2827,8 +2827,8 @@ care how they trust to a Lord's promises at an Election again.</p>
 <speaker>Beauch.</speaker>
 <p>Love and my Country! Yes, ye shall divide my heart!—Animated by such passions, our forefathers were invincible; and if we wou'd preserve the freedom and independence they obtain'd for us, we must imitate their virtues.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

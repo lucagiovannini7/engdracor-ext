@@ -7,13 +7,13 @@
 <extent>[2],20p. ; 12⁰.</extent><publicationStmt><publisher>Printed for the booksellers,</publisher><date>1788.</date><pubPlace>[Dublin] :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Elizabeth Inchbald.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT118164.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE MOGUL TALE; OR, The Descent of the Balloon. A FARCE. AS IT IS ACTED AT THE <hi>THEATRE-ROYAL,</hi> SMOKE-ALLEY.</p>
 <p>PRINTED FOR THE BOOKSELLERS.</p>
 <p>M, DCC, LXXXVIII.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -31,15 +31,14 @@
 <item>THIRD LADY.</item>
 <item>FANNY (THE COBLER'S WIFE)</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3"/>
 <head>THE MOGUL TALE; OR, THE DESCENT OF THE BALLOON.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>The Gardens of the MOGUL, adjoining to the SERAGLIO.</stage></head>
 <stage><hi>Enter First and Second</hi> LADIES.</stage>
 <sp>
@@ -378,8 +377,8 @@
 </sp>
 <stage>[Exeunt.</stage>
 <pb n="7" facs="9"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to Gardens.</stage></head>
 <stage><hi>Enter</hi> MOGUL.</stage>
 <sp>
@@ -669,11 +668,11 @@
 <p>Fan only seem to comply with the Mogul at present—and put on your fine dress, and I'll try if I can get you away—and if not Fan, I wish I may never sole a pair of shoes again, if I don't stay with you, rather than leave you here—Oh Doctor—Doctor! this comes of your fine Air Balloon, Oh Lord, Oh Lord, we shall be put to death in the end.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>A Front Apartment in the Seraglio.</stage></head>
 <stage><hi>Enter</hi> MOGUL <hi>and</hi> EUNUCH <hi>with a letter.</hi></stage>
 <sp>
@@ -690,8 +689,8 @@
 <speaker>Mo.</speaker>
 <p>A most noble stratagem! this is a conspiracy in our government, let a strong guard instantly seize this Doctor Ambassador and drag him immediately to the place of execution, this requires attention. Let this Cobler holiness already half drown'd in liquor, be supplied with the richest of my wines, and then in the high tide of his joys tempted with the finest of my women—then also let him be convey'd to the place of execution, and let the woman array'd in oriental splendour be made to accompany him thither—there will I appear to watch the motion of the culprits, and then dismiss them to their own country, in a manner worthy the doctrines of our great Prophet, and not unsuitable to my own honour and dignity.</p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to the Seraglio Garden.</stage></head>
 <stage><hi>Enter</hi> JOHNNY <hi>Drunk.</hi></stage>
 <sp>
@@ -931,8 +930,8 @@
 <p>You are not to lay violent hands upon her, for look'ye master blacky, if you was in a certain corner of the world called Old England, you would know you dog you—that if the first. Prince of the Blood was to attempt the wife of a poor Cobler, against her will and good liking—He had better take up the whole island by main force, and dash it into the sea again.</p>
 <stage>[<hi>Exit</hi> Eunuch, Fanny <hi>and</hi> Johnny <hi>following</hi> Ladies <hi>Exeunt.</hi></stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Draws and discovers the MOGUL on his Throne.</stage></head>
 <stage><hi>The Apparatus for Execution ready,</hi> Executioners <hi>and</hi> Guards <hi>attending</hi>—Doctor <hi>discovered by the wheel handcuffed,</hi> &amp;c.</stage>
 <sp>
@@ -1120,10 +1119,9 @@
 <speaker>Doc.</speaker>
 <p>And present my compliments to him, and let him know that I will explain the generosity of his conduct in a Mogul Tale, that I intend to publish, giving an account of our adventures in our grand Air Balloon.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

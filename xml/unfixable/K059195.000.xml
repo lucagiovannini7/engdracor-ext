@@ -7,20 +7,20 @@
 <extent>[4],30,[2],80p. ; 8⁰.</extent><publicationStmt><publisher>sold by T. Evans; and J. Bell,</publisher><date>[1775]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Francis Gentleman.</note><note>The dedication is dated: Jan. 1775.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT69418.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>THE MODISH WIFE, A COMEDY.</p>
 <p>[PRICE TWO SHILLINGS.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE MODISH WIFE, A COMEDY, PERFORMED WITH UNINFLUENCED APPLAUSE AT THE THEATRE-ROYAL, HAYMARKET.</p>
 <quote>Laudatur et Alget.</quote>
 <p>TO WHICH IS PREFIXED A SUMMARY VIEW OF THE STAGE, As it has been, is, and ought to be.</p>
 <p>With biographical Anecdotes of Messrs. MOSSOP, DEXTER, DERRICK, and the AUTHOR, <hi>School-fellows,</hi> and public Cotemporaries.</p>
 <p>LONDON: Sold by T. EVANS, Paternoster-Row; and J. BELL, near Exeter-Change, in the Strand.</p>
-</div1>
-<div1 n="stage" type="discourse">
+</div>
+<div n="stage" type="discourse">
 <pb facs="3"/>
 <head>A SUMMARY VIEW OF THE ENGLISH, SCOTS, and IRISH STAGES.</head>
 <p>THE utility and dignity of the Stage, when properly conducted, has never been disputed in any age or nation, by men of liberal sentiments in church or state; some exclamatory blasts of enthusiasm have indeed, at different times, made virulent, yet feeble attacks, some faint remains of these now and then issue <hi>officially</hi> from Tottenham-court-road and Moorfields instructors; but even they only utter invectives to preserve custom and affected sanctity, while their hearers, as well as themselves, laugh at the unnecessary frivolous delusion: the stage should not complain of this abuse, as every institution may be, and certainly is, misconducted as well as misrepresented; indeed as to the scandalous, irrational, and most illiberal Roman act, adopted ridiculously by our legislature, which stigmatizes performers, while not only the matter and manner of their performances have been, and are legally authorized and universally encouraged, it deserves general reprobation and theatrical contempt.</p>
@@ -199,15 +199,15 @@ hospitality, and friendship in this city, but too much affectation in their crit
 <p>Thus much for the stage—My school fellows <hi>Deuter</hi> and <hi>Derrick</hi> paid the debt of nature under the age of thirty; the former was placid in public and private life, gave no particular offence or pleasure on or off the stage; he was liberal, a gentleman, and a scholar; an unhappy matrimonal connection breaking his temper broke his heart.</p>
 <p>Mr. <hi>Derrick,</hi> when astonishingly chosen master of the ceremonies at <hi>Bath,</hi> without a single requisite for the place, promised a grateful return, and actually began to make it; but being involved amongst ladies of easy virtue, he soon forgot his friend, and sacrificed his unhappy life to the shrine of <hi>Venus.</hi></p>
 <p>As to myself I am still scrambling on the surface of existence, "with more offences at my beck, &amp;c." as to them let some future commemorator set them down, and, <hi>if</hi> I have any good qualities, join them; from my heart I wish to be treated with the same honest veritable freedom with which I have treated others; if anatomizing my mind, even while living, and anatomizing my body when dead, can render any public use, I freely subscribe to both; one favourable circumstance only, I shall advance, and venture to maintain, that I would in no case, nor upon any view, flatter a monarch, or insult a beggar.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="33"/>
 <p>TO THE RIGHT HONOURABLE THE COUNTESS OF MEXBOROUGH, AS A DISTINGUISHED CONTRASTE TO THE MODISH WIFE: AS A LIBERAL AND JUDICIOUS ENCOURAGER OF THE DRAMA; AND AS AN ORNAMENT, NOT ONLY OF NOBILITY, BUT OF DOMESTIC LIFE; THE FOLLOWING COMEDY, IS MOST RESPECTFULLY INSCRIBED, BY HER LADYSHIP'S VERY OBEDIENT SERVANT,</p>
 <closer><signed>The AUTHOR.</signed>
 <dateline>LONDON,
 <date>JAN. 1775.</date></dateline></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="34"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -238,16 +238,15 @@ hospitality, and friendship in this city, but too much affectation in their crit
 <label>RUELLE,</label>
 <item>Miss ATKINSON.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE LONDON.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="35"/>
 <head>THE MODISH WIFE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>ENTER COLONEL PARAPET meeting FUSEE.</stage>
 <sp>
@@ -470,8 +469,8 @@ secure the outworks I should have no doubt of the town.</p>
 <p>Allons.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>LADY CHARLOTTE meeting EMMELINE.</stage>
 <sp>
@@ -851,13 +850,13 @@ How did I study to procure a curse,—</p>
 <speaker>Tim.</speaker>
 <p>The day you said, for better and for worse.</p>
 </sp>
-</div3>
+</div>
 <trailer>END of the FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="51"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>SIR SCRAPEALL and TIMOTHY.</stage>
 <sp>
@@ -1478,12 +1477,12 @@ oh ladies—
 <l>Unpractis'd girls, indeed, with bliss may dally,</l>
 <l>But sprightly widows ne'er stand shilly, shally.</l>
 </sp>
-</div3>
+</div>
 <trailer>END of the SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>FUSEE dress'd as CAPTAIN SPONTOON.</stage>
 <sp>
@@ -1492,8 +1491,8 @@ oh ladies—
 I shall be still the more like a fine gentleman, and at worst may make a brazen front stand for the unfurnished inside, that's some comfort, however; and has been the road to preferment of many an enterprising blade,—Soft, let me recollect my instructions, for what is a military man without his plan of operations.—Fusee, says my master, I know women, and he that courts a widow must throw aside modesty—I know that too, Sir, says I, for I have courted, ah, and married, several of your honours oceasional widows.—Well, no matter for that, Fusee, this mother Busy must be taken off at all events; she has received a letter to prepare her for your reception; praise her beauty, be very fond, and the business is done—ay, and when it is done, a hopeful bargain I shall have; there will be no need of any death's head but her face; I shall never see it in a morning but it will put me in mind of the other world; and, to say the truth, I have not much inclination to think that way yet; but, damn it, the hopes of plunder have made many a man run his head against cannon balls; then why should I be afraid of a witch? so most engaging, glib-tongued ancient Lady—have at you.</p>
 </sp>
 <stage>Exit Fusee.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>COLONEL PARAPET meeting SIR CHARLES.</stage>
 <sp>
@@ -2273,13 +2272,13 @@ if this last tift had been in Greenland, we should have had nothing to swallow b
 <speaker>Sir Scr.</speaker>
 <p>I shall have no head, hand, heart, or any thing else to bear soon, at this rate—ay, I have it of all sides—my precious wife is fashion mad, my doating sister courting mad, my sea brother punch mad, my ward husband mad, and I myself horn mad—sure as pretty a set as ever met in one family; and for our comforts, I believe all incurable: lackaday what a miserable wretch am I!—I want nothing to compleat me but poverty and the tooth-ach.</p>
 </sp>
-</div3>
+</div>
 <trailer>END of the THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="47" facs="81"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>SIR CHARLES and the COLONEL.</stage>
 <sp>
@@ -3083,12 +3082,12 @@ So, so, bring the land marks to bear Dick Starboard, and double the head-lands, 
 in Slumber-bay in less than half a glass.—Yo, ho, mess-mate, bear a hand, and don't forget the flip, d'ye hear.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>END of the FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>SIR CHARLES and the COLONEL.</stage>
 <sp>
@@ -3933,10 +3932,9 @@ read grace, spliced our hands, and launched us off to swing in a hammock togethe
 <l>That human kind no equal bliss can prove,</l>
 <l>To the chaste raptures of connubial love.</l></p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

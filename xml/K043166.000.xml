@@ -7,12 +7,12 @@
 <extent>[8],98,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket,</publisher><date>1778.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Arthur Murphy.</note><note>With a half-title and a final epilogue leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT45411.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>Know your own Mind: A COMEDY, PERFORMED AT THE THEATRE-ROYAL, IN COVENT-GARDEN.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>Know your own Mind: A COMEDY, PERFORMED AT THE THEATRE-ROYAL, IN COVENT-GARDEN.</p>
 <l>—Pugnat sententia secum;</l>
@@ -23,8 +23,8 @@
 <bibl>TACIT.</bibl>
 <p>LONDON: Printed for T. BECKET, Adelphi, in the Strand.</p>
 <p>M DCC LXXVIII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. LEWIS.</byline>
@@ -92,8 +92,8 @@ For them our Author lov'd the tale to weave;</l>
 <l>To you once more he boldly dares to trust;</l>
 <l><hi>HEAR,</hi> and pronounce;—he <hi>KNOWS</hi> you will be just.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -116,15 +116,14 @@ For them our Author lov'd the tale to weave;</l>
 <item><label>Miss NEVILLE,</label> Mrs. HARTLEY.</item>
 <item><label>Madam LA ROUGE</label> Miss AMBROSE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>Know your own Mind:</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT the FIRST.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>Scene,</hi> <stage><hi>the House of</hi> Sir JOHN MILLAMOUR.</stage></head>
 <stage><hi>Enter</hi> Sir JOHN, <hi>and</hi> BYGROVE.</stage>
 <sp>
@@ -973,11 +972,11 @@ For them our Author lov'd the tale to weave;</l>
 <l>A fool to laugh at, is the height of joy.</l>
 </sp>
 <stage>Exeunt</stage>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT the SECOND.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage><hi>Scene at</hi> Mrs. BROMLEY'S.</stage></head>
 <stage><hi>Enter</hi> Mrs. BROMLEY, <hi>and</hi> Miss NEVILLE.</stage>
 <sp>
@@ -1648,8 +1647,8 @@ For them our Author lov'd the tale to weave;</l>
 <p>Oh! Madam La Rouge, you say such polite things; but you rob me of all my money.
 <pb n="34" facs="42"/>My sister is rich: you had better deal with her. Sister, you'll be married before me.</p>
 <stage>(sings)</stage>
+<stage><hi><said direct="true">"No, no, he is true, and I believe,</said> &amp;c."</hi></stage>
 </sp>
-<stage>"<hi>No, no, he is true, and I believe, &amp;c.</hi></stage>
 <stage>Exit.</stage>
 <sp>
 <speaker><hi>Lady</hi> JANE.</speaker>
@@ -1916,10 +1915,10 @@ For them our Author lov'd the tale to weave;</l>
 <l>She flies disdainful from her lover's view,</l>
 <l>Yet looks and bids him, as she flies, pursue.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
-<div3 type="scene">
+</div>
+</div>
+<div n="3" type="act">
+<div type="scene">
 <head>ACT the THIRD.</head>
 <stage><hi>Enter Lady</hi> JANE, <hi>and Capt.</hi> BYGROVE.</stage>
 <sp>
@@ -3271,10 +3270,10 @@ For them our Author lov'd the tale to weave;</l>
 <l>Blest madman, who can every hour employ,</l>
 <l>With something new to wish, or to enjoy.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
-<div3 type="scene">
+</div>
+</div>
+<div n="4" type="act">
+<div type="scene">
 <head>ACT the FOURTH.</head>
 <stage><hi>Enter</hi> DASHWOULD <hi>and</hi> Sir HARRY.</stage>
 <sp>
@@ -4329,10 +4328,10 @@ For them our Author lov'd the tale to weave;</l>
 <l><hi>In quick variety for ever new.</hi></l>
 </sp>
 <trailer>End of the FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
-<div3 type="scene">
+</div>
+</div>
+<div n="5" type="act">
+<div type="scene">
 <pb n="83" facs="93"/>
 <head>ACT the FIFTH.</head>
 <stage><hi>Enter</hi> MILLAMOUR <hi>and</hi> DASHWOULD.</stage>
@@ -4632,8 +4631,8 @@ For them our Author lov'd the tale to weave;</l>
 <p>But what does it say? Let us go and hear it directly.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>Scene, </hi><stage><hi>an Apartment at</hi> Madam LA ROUGE'S.</stage></head>
 <stage><hi>Enter</hi> MILLAMOUR, <hi>and</hi> LA ROUGE.</stage>
 <sp>
@@ -5303,12 +5302,11 @@ Martin Malvil.</p>
 <l>And even my constancy shall spring from love.</l>
 </sp>
 <trailer>End of the FIFTH ACT.</trailer>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="109"/>
 <head>EPILOGUE.</head>
 <byline>Written by Mr. GARRICK. Spoken by Mrs. MATTOCKS.</byline>
@@ -5389,7 +5387,7 @@ He'll quit this house, not knowing what to do;</l>
 </lg>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

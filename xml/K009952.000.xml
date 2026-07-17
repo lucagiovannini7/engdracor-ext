@@ -7,15 +7,15 @@
 <extent>[4],71,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for A. Millar,</publisher><date>1758.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Home.</note><note>In this edition the second line on the recto of the second leaf reads: "written by -".</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN15838.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="2"/>
 <p>AGIS: A TRAGEDY.</p>
 <p>As it is acted at the THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>LONDON: Printed for A. MILLAR, in the Strand.</p>
 <p>MDCCLVIII.</p>
 <p>[Price One Shilling and Sixpence.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE,</head>
 <byline>Written by —</byline>
@@ -69,8 +69,8 @@ Her Pow'r congenial with her Virtue grew,</l>
 <l>Prompt him with Sparta's noblest sons to vie;</l>
 <l>To live in glory; and in freedom die!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <item><label>AGIS, King of Sparta,</label> Mr. MOSSOP.</item>
@@ -92,13 +92,12 @@ Her Pow'r congenial with her Virtue grew,</l>
 <item><label>EUANTHE, an Athenian Lady,</label> Mrs. CIBBER.</item>
 </list>
 <p>Senators, Ephori, Messengers.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="5"/>
 <head>AGIS: A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage><hi>A court and hall, common to the palaces of the kings of</hi> SPARTA.</stage>
 <sp>
@@ -668,8 +667,8 @@ I go the willing messenger of joy.</l>
 <stage><hi>[Exit</hi> EUANTHE.</stage>
 </sp>
 <trailer>End of the first Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="18"/>
 <head>ACT II. SCENE I.</head>
 <sp>
@@ -1346,8 +1345,8 @@ If he falls a sacrifice,</l>
 <stage><hi>[Exit</hi> AMPHARES.</stage>
 </sp>
 <trailer>End of the second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="29" facs="33"/>
 <head>ACT III. SCENE I.</head>
 <sp>
@@ -2019,8 +2018,8 @@ In Terror's temple; they have charg'd a herald</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>End of the third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="44" facs="48"/>
 <head>ACT IV. SCENE I.</head>
 <stage>LYSANDER <hi>as a Prisoner, the</hi> Thracian <hi>Guards at a distance.</hi></stage>
@@ -2636,8 +2635,8 @@ Who are not yet condemn'd.</l>
 <stage><hi>[Exeunt</hi> LYSANDER <hi>and</hi> EUXUS.</stage>
 </sp>
 <trailer>End of the fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="58" facs="62"/>
 <head>ACT V. SCENE I.</head>
 <stage>AMPHARES <hi>and the Ephori with the Officers,</hi> &amp;c.</stage>
@@ -3292,12 +3291,11 @@ Great-hearted Virtue, in its swelling hour,</l>
 <l>Agis for his people won.</l>
 </lg>
 </sp>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="76"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. PRITCHARD.</byline>
@@ -3329,7 +3327,7 @@ Great-hearted Virtue, in its swelling hour,</l>
 <l>In glory's field, by Heroes—not our own.</l>
 <l>France yet shall tremble at the British sword,</l>
 <l>And dread the Vengeance of her antient Lord.</l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

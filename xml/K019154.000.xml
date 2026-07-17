@@ -7,15 +7,15 @@
 <extent>iv,[4],64p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author; and sold by A. Millar,</publisher><date>1739.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Dedication signed: James Thomson.</note><note>The ornaments are those used by Henry Woodfall.</note><note>Price below imprint: One shilling and six-pence.</note><note>A variant on fine paper lacks the price below the imprint.</note><note>In this setting, pp. 39 and 52 end: ACT. and p. 27 has "GLOSTE.R" four lines from the foot.</note><note>Reproduction of original from the Cambridge University Library.</note><note>English Short Title Catalog, ESTCN60643.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p><hi>Edward</hi> and <hi>Eleonora.</hi> A TRAGEDY. As it was to have been Acted at the THEATRE-ROYAL IN <hi>COVENT-GARDEN.</hi></p>
 <p>By Mr. <hi>THOMSON.</hi></p>
 <l>Suspicione si quis errabit suâ,</l><l>Et rapiet ad se quod erit commune omnium,</l><l>Stulte nudabit Animi Conscientiam.</l>
 <bibl>PHAEDRUS.</bibl>
 <p><hi>LONDON:</hi> Printed for the AUTHOR; and sold by A. MILLAR, over-against St. <hi>Clement's</hi> Church in the <hi>Strand.</hi> M.DCC.XXXIX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO HER ROYAL HIGHNESS THE Princess of <hi>Wales.</hi></head>
 <opener><salute>MADAM,</salute></opener>
@@ -25,8 +25,8 @@ amiable. I have aimed, particularly, to do justice to her inviolable Affection a
 <p>Their Descendants, even now, will own, with Pleasure, how properly this Address is made to your ROYAL HIGHNESS. I am, with the profoundest Respect,</p>
 <closer><salute>MADAM,</salute> 
 <signed>Your <hi>ROYAL HIGHNESS'S</hi> most humble, and most devoted Servant, <hi>JAMES THOMSON.</hi></signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>By a FRIEND.</byline>
@@ -65,8 +65,8 @@ amiable. I have aimed, particularly, to do justice to her inviolable Affection a
 <l>In candid part his honest Meaning take,</l>
 <l>And spare the Poet for the Hero's sake.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="5"/>
 <head>EPILOGUE.</head>
 <byline>By a FRIEND.</byline>
@@ -98,13 +98,13 @@ amiable. I have aimed, particularly, to do justice to her inviolable Affection a
 <l>Who thinks that there <hi>are</hi> Charms in generous Love,</l>
 <l>And would to <hi>Edward Eleonora</hi> prove.</l>
 </lg>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="6"/>
 <head>ADVERTISEMENT.</head>
 <p>THE Representation of this Tragedy, on the Stage, was prohibited in the Year <hi>One Thousand Seven Hundred and Thirty-Nine.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>The PERSONS.</head>
 <list>
@@ -123,16 +123,16 @@ amiable. I have aimed, particularly, to do justice to her inviolable Affection a
 <label>Assassin, Officers, &amp;c.</label>
 <item> </item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>EDWARD</hi>'S Tent in the Camp before <hi>Jaffa,</hi> a City on the Coast of <hi>Palestine.</hi></p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb facs="8"/>
 <head><hi>Edward</hi> and <hi>Eleonora.</hi></head>
 <head>A TRAGEDY.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>Prince <hi>EDWARD, THEALD</hi> Archdeacon of <hi>Liege,</hi> Earl of <hi>GLOSTER.</hi></stage>
 <sp>
@@ -276,8 +276,8 @@ To you, my Prince, this Task, of right, belongs.</l>
 <l>Whose Bride she is—We wage not war with Women.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="5" facs="12"/>
 <head>SCENE II.</head>
 <stage><hi>EDWARD, THEALD, GLOSTER,</hi> An Officer belonging to the Prince.</stage>
@@ -294,8 +294,8 @@ To you, my Prince, this Task, of right, belongs.</l>
 <l>The Sultan's last Instructions for this Peace.</l>
 <l>Here wait: I may your faithful Counsel want.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>THEALD, GLOSTER.</stage>
 <sp>
@@ -418,8 +418,8 @@ Require us to repress their wild Ambition,</l>
 <stage>[Moving towards the Noise.</stage>
 <l>'Tis so!</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>THEALD, GLOSTER</hi>; to them Prince <hi>EDWARD</hi> wounded in the Arm, and dragging in the Assassin.</stage>
 <sp>
@@ -467,8 +467,8 @@ Then is at once my Prince and Country lost!</l>
 <l>The Princess comes!</l>
 <l>O save me from her Tenderness!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>EDWARD, THEALD, GLOSTER</hi>; to them the Princess <hi>ELEONORA.</hi></stage>
 <sp>
@@ -522,8 +522,8 @@ Tainting the Blood—What! was the Dagger poison'd?—</l>
 <speaker>THEALD.</speaker>
 <l>Behold DARAXA, the false Sultan's Bride.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>ELEONORA, THEALD, DARAXA.</stage>
 <sp>
@@ -694,13 +694,13 @@ And with him break this matter to the Prince.</l>
 <l>I with DARAXA will your Call attend;</l>
 <l>O all ye Powers of Love, your Influence lend.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the First ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>GLOSTER, THEALD.</stage>
 <sp>
@@ -727,8 +727,8 @@ And with him break this matter to the Prince.</l>
 <l>How weak the Head contending with the Heart!</l>
 <l>Yet be the Trial made—Behold he comes.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>EDWARD, GLOSTER, THEALD.</stage>
 <sp>
@@ -984,8 +984,8 @@ Wilt thou not live for Her? for Her subdue</l>
 <l>To those he holds much dearer than himself.</l>
 <l>Conduct him hither, THEALD.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>EDWARD, GLOSTER.</stage>
 <sp>
@@ -1010,8 +1010,8 @@ And every gentle Virtue mix their Lustre,</l>
 <l>There is no Misery to be fear'd like That</l>
 <l>Which from our greatest Happiness proceeds!</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>EDWARD, GLOSTER, THEALD</hi> presenting the Princess <hi>ELEONORA</hi> as the Person he went to bring, <hi>DARAXA.</hi></stage>
 <sp>
@@ -1209,8 +1209,8 @@ Death, or his Image Sleep, weighs down my Soul—</l>
 <speaker>ELEONORA.</speaker>
 <l>I will not, cannot quit thee!—</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE .V.</head>
 <stage>ELEONORA, DARAXA.</stage>
 <sp>
@@ -1227,13 +1227,13 @@ Death, or his Image Sleep, weighs down my Soul—</l>
 <l>But come, and ere the Poison sink too deep,</l>
 <l>Swift let me seize the favouring Hour of Sleep.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Second ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="27" facs="34"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <sp>
 <speaker>GLOSTER.</speaker>
@@ -1261,8 +1261,8 @@ Death, or his Image Sleep, weighs down my Soul—</l>
 <l>In Health—Ah short deceitful Gleam of Ease!</l>
 </lg>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>EDWARD, GLOSTER</stage>
 <sp>
@@ -1363,8 +1363,8 @@ But where is she? the Glory of her Sex!</l>
 <l>My Peace, my Honour is betray'd for ever!</l>
 <l>O Love! O Shame! O murder'd ELEONORA!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>GLOSTER.</speaker>
@@ -1376,8 +1376,8 @@ But where is she? the Glory of her Sex!</l>
 Th' <hi>Arabian</hi> Princess. From her Tears I learn</l>
 <l>The moving Scene within.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>GLOSTER, DARAXA,</hi> a Messenger from <hi>SELIM,</hi> attending at some distance.</stage>
 <sp>
@@ -1511,8 +1511,8 @@ Should e'er to SELIM send so fell a Message—</l>
 <l>Once more to taste the Sweetness of the Sun,</l>
 <l>Ere yet to mortal Light she bid farewel.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>GLOSTER, DARAXA, THEALD, EDWARD, ELEONORA</hi> born in by her Attendants on a Couch.</stage>
 <sp>
@@ -1778,8 +1778,8 @@ The quivering Flame of Life leaps up a little.</l>
 <l>O Word of Horror!—Can I?—No! I cannot!</l>
 <l>There, take me, lead me, hurl me to Perdition!—</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>ELEONORA, DARAXA, THEALD,</hi> Attendants.</stage>
 <sp>
@@ -1819,13 +1819,13 @@ Humanity, the Soul of all Religion,</l>
 <l>Come, aid my mounting Soul to spring away,</l>
 <l>From the lov'd Fetters of this kindred Clay.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="40" facs="47"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>THEALD,</hi> and a Gentleman belonging to him.</stage>
 <sp>
@@ -1856,8 +1856,8 @@ Humanity, the Soul of all Religion,</l>
 <speaker>THEALD.</speaker>
 <l>Go, bid this Dervise enter.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>THEALD:</speaker>
@@ -1877,8 +1877,8 @@ Since thou hast rais'd me to conduct thy Church,</l>
 <l>Of healing Peace and Christian Moderation.—</l>
 <l>The <hi>Dervise</hi> comes.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>THEALD, SELIM</hi> disguis'd as a Dervise.</stage>
 <sp>
@@ -1987,8 +1987,8 @@ Twelve hundred Moons compleat their pale Career;</l>
 <l>Enforc'd by EDWARD'S Joy, may strike more deep,</l>
 <l>With strong Conviction—But of this hereafter—</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>THEALD, SELIM</hi> disguised, <hi>DARAXA.</hi></stage>
 <sp>
@@ -2002,8 +2002,8 @@ Twelve hundred Moons compleat their pale Career;</l>
 <l>Dervise, come.</l>
 <l>Forbid it Heaven this Aid should be too late!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="44" facs="51"/>
 <head>SCENE V.</head>
 <sp>
@@ -2028,8 +2028,8 @@ Twelve hundred Moons compleat their pale Career;</l>
 <l>Severe Misfortune!—If there was a Cure,</l>
 <l>That it should come too late!</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>DARAXA,</hi> an <hi>OFFICER.</hi></stage>
 <sp>
@@ -2050,8 +2050,8 @@ That she this fatal Moment breath'd her laft,</l>
 <l>I must find out this Dervise, must discover</l>
 <l>If he indeed be SELIM—EDWARD comes.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>EDWARD.</speaker>
@@ -2109,8 +2109,8 @@ Will hunt me to the Grave—I see Her Suffering,</l>
 <l>And weakly weeps his Fortune like a Coward.</l>
 <l>Such, such am I! undone!—</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="47" facs="54"/>
 <head>SCENE VIII.</head>
 <stage>EDWARD, GLOSTER.</stage>
@@ -2344,13 +2344,13 @@ And just Revenge—Hence, let us to the Camp,</l>
 <l>And, as they see her Turrets sunk in Dust,</l>
 <l>Shall learn to dread the Terrors of the Just.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="53" facs="60"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <sp>
 <speaker>SELIM.</speaker>
@@ -2362,8 +2362,8 @@ And just Revenge—Hence, let us to the Camp,</l>
 <l>And shakes her blooming Sweets from <hi>Carmel</hi>'s Brow—</l>
 <l>It only now remains to see the Prince.—</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>SELIM, THEALD.</stage>
 <sp>
@@ -2419,8 +2419,8 @@ To ly beneath the burning Imputation</l>
 <l>Ha!</l>
 <l>Then let us quickly find him—But he comes.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="55" facs="62"/>
 <head>SCENE III.</head>
 <stage>SELIM, THEALD, EDWARD, GLOSTER.</stage>
@@ -2727,8 +2727,8 @@ With thee, vile Dervise, what have I to do?</l>
 <l>How deeply wretched thy dire Gift of Life</l>
 <l>Would make me!</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="62" facs="69"/>
 <head>SCENE IV.</head>
 <stage><hi>EDWARD, GLOSTER, THEALD</hi>;</stage>
@@ -2846,10 +2846,10 @@ What Love e'er equall'd thine? O dearest! best!</l>
 <l>Let all Mankind in Love of what is right,</l>
 <l>In Virtue and Humanity unite.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>The END.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

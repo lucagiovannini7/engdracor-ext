@@ -7,7 +7,7 @@
 <extent>56p.,plate : port. ; 8⁰.</extent><publicationStmt><publisher>printed for Alex. Hogg; and sold by T. Lewis and by all other booksellers and stationers in every city, borough, town, and village in Great Britain and Ireland,</publisher><date>1792.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Pp.52-56 contain 'A new catalogue of publications just printed for Alex. Hogg, .. '.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT146901.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1" ana="y"/>
 <p><figure>
 <p>FRONTISPIECE to THE DUPES OF FANCY, <hi>Dedicated to M<span rend="sup">rs</span>. Jordan. By G. S. Carey Esq.</hi></p>
@@ -15,16 +15,16 @@
 <head>M<span rend="sup">RS</span>. JORDAN.</head>
 <p><hi>Published by Alex. Hogg, July 13. 1792</hi></p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE DUPES OF FANCY, OR EVERY MAN HIS HOBBY; <hi>A NEW FARCE:</hi> IN TWO ACTS. AS PERFORMED AT THE <hi>KING's THEATRE-ROYAL</hi> IN THE HAY-MARKET, WITH GREAT APPLAUSE.</p>
 <p><hi>Suus cuique est mos.</hi></p>
 <p><hi>By GEORGE SAVILLE CAREY,</hi> Esq.</p>
 <p>DEDICATED to Mrs. JORDAN, AND Embellished with a Portrait of that Celebrated Performer.</p>
 <p>LONDON: PRINTED FOR ALEX. HOGG, AT THE KING'S ARMS, NO. 16, PATERNOSTER-ROW; AND SOLD BY T. LEWIS. GREAT RUSSEL STREET, COVENT GARDEN, AND BY ALL OTHER BOOKSELLERS AND STATIONERS IN EVERY CITY, BOROUGH, TOWN, AND VILLAGE IN GREAT BRITAIN AND IRELAND. Of Whom may be had, GRATIS (just Published) HOGG's NEW CATALOGUE of PUBLICATIONS for the present Year. 1792. [PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>DEDICATION.</head>
 <head>To Mrs. JORDAN.</head>
@@ -34,8 +34,8 @@
 bewitching archness of the other. This perhaps may look like flattery, but those who know me, know <hi>that flattery is a talent which I never yet possessed,</hi> and, for the want of which, perhaps I may have hatched some Snakes and Scorpions who have endeavoured to breathe their venom upon the blossoms of my reputation. In the present instance certain malevolant Competiters attempted to sting my rising hopes and disconcert the eminent and arduous exertions of the Performers, to whom I am so much indebted on this Piece's first assay;—yet I had the satisfaction to see it baffle all their Spleen, and now, Madam, I submit it to the APPROBATION of the PUBLIC, and hope it will receive your PROTECTION.</p>
 <closer><signed>I have the Honor to Subscribe myself, MADAM, your most Humble and Obedient Servant, <hi>GEORGE SAVILLE CAREY.</hi></signed>
 <dateline>Store Street, Bedford Square,</dateline></closer>
-</div1>
-<div1 type="printer'snote">
+</div>
+<div type="printer'snote">
 <pb facs="5"/>
 <head>ADVERTISEMENT.</head>
 <p>THE PRINTER begs leave to observe that the Reviewers of Theatricals in the MORNING HERALD and other respectable PRINTS, who saw the Representation as well as the Editors of the LONDON, EUROPEAN, NEW LADY'S, and other MAGAZINES, have spoken of this New Piece in very Respectful Terms. "That it is replete with wit, whim, and good humour, and exhibits a well timed satire on the bent of fanciful individuals, demonstrating that <hi>Every Man</hi> has his <hi>Hobby,</hi> and that all mankind, are, at some period of Life or other, the <hi>Dupes of Fancy.</hi> Upon the whole they pronounce this Farce to surpass mediocrity, and that its merits justly deserve that kind reception from the Public which it has experienced." The Author is well known to the world by his Lectures on Mimicry, Imitations, and other humourous writings;
@@ -43,8 +43,8 @@ bewitching archness of the other. This perhaps may look like flattery, but those
 and all lovers of dramatic productions and the Public in general will be highly gratified by a sight and perusal of this Comic Piece.</p>
 <p>On it's first appearance at the Hay Market, some objections were made to it's <hi>length,</hi> particularly in the Dinner Scene, but by the Author's Judicious curtailment for future Representation, every objection of this kind will be obviated. It is however printed as originally written, and such parts of it marked as were omitted in the representation. It is presumed it will be performed this Summer, at many of the Watering Places throughout the Kingdom, and that it will be brought forward with some amendment and alteration next Season at the King's Theatre.</p>
 <closer><signed>THE PRINTER.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE,</head>
 <byline>Written by a Friend of the Author.</byline>
@@ -68,8 +68,8 @@ WITH THE PROMPTER.)</stage>
 <l>Hoping, that while you listen, you will judge</l>
 <l>With Mercy—nor make absolute the <hi>Case,</hi></l>
 <l>Lest the poor Author fall into disgrace.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -91,14 +91,14 @@ WITH THE PROMPTER.)</stage>
 <item>MISS POPE.</item>
 </list>
 <p>N. B, The Parts of this Entertainment marked with Inverted Commas thus " " were omitted in the Representation.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="9"/>
 THE DUPES OF FANCY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>Scene I. <stage>The Kitchen.</stage></head>
 <stage>GABY discovered tying on his neckcloth, and seemingly to be admiring himself in the Looking-glass, when DOLLY comes in and taps him on the shoulder.</stage>
 <sp>
@@ -240,8 +240,8 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p>Aye, and if he catches you here with your gunpowder stories, he will be for blowing us both up.</p>
 <stage>[Exit GABY and DOLLY.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>(Mr. TINTEM is discovered in his morning gown and velvet cap, surrounded with garden pots, flower-sticks, and a pen stuck in his cap, with which he marks some of the labels.)</stage>
 <sp>
@@ -394,8 +394,8 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p> Mean while I'll go and take a peep into the garden; and, like a good and prudent Minister, see that my affairs be properly arrang'd fit for the eye of public inspection.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="16" facs="16"/>
 <head>SCENE III. <stage>The House.</stage></head>
 <stage>Enter Mr. WILLINGFORD disguised as a Ballad Singer with Songs.</stage>
@@ -561,8 +561,8 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p>Aye, away with you, Sir, away with you for your own sake, for Dolly's sake, and for my sake; we'll take care of you—tho' hide and seek is no bad game by the bye—I know one that will be glad to find you.</p>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Miss TINTEM in her dressing-room, reading.</stage>
 <sp>
@@ -730,8 +730,8 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p>Tell him that I am coming <stage>[Exit DOLLY.</stage> he will find me in as strange a mood as himself;—I have just as little inclination to set down to dinner, as I have to hear the conversation that I am likely to be pestered with while I am at the table.</p>
 <stage>[Exit MISS TINTEM.</stage>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="22" facs="22"/>
 <head>SCENE V.</head>
 <stage>(Changes to a dressing-room and discovers Mr. TINTEM buckling on his shoes, still in his cap with his hat over it, he rings the bell.)</stage>
@@ -873,8 +873,8 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p>Why her train seems always to be in your way—this is the second time to day that you have got yourself entangled in her skirts.—One would think that you were blind—Come you blunder-skull, you, put it on as it is; I must make the best of it now, and see if you can find the way to shew Mr. Grub into the parlour; Dolly, run and call your Mistress down, away with you both.</p>
 <stage>[Exit TINTEM, DOLLY, and GABY at different doors.</stage>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>(Changes to a Dining Parlour,—enter MR. TINTEM and his Niece to MR. GRUB. GABY brings in the Dinner and waits.)</stage>
 <stage>(MR. TINTEM Gives GRUB a hearty shake by the hand.)</stage>
@@ -1220,12 +1220,12 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p>What a sweet bewitching, wicked little devil it is.</p>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="31" facs="31"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The Garden.</stage></head>
 <stage>Enter TINTEM, GRUB, and GABY.</stage>
 <sp>
@@ -1442,8 +1442,8 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p>Cousin Germins I assure you.</p>
 <stage>[Exit TINTEM and GRUB.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>(The Drawing-Room in TINTEM's House)</stage>
 <stage>Enter MR. WILLINGFORD, MISS TINTEM. and DOLLY.</stage>
@@ -1720,8 +1720,8 @@ know that I had got a whole pound of powder, and was making of squibs.</p>
 <p>"With all my heart."</p>
 </sp>
 <stage>Exeunt Omnes.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="40" facs="40"/>
 <head>SCENE III.</head>
 <stage>(The Garden, with a view of the Amphitheatre)</stage>
@@ -2129,12 +2129,12 @@ you stinking root of a Daffy down-dilly; I would not have lost my King of Bohemi
 <speaker>MR. TINTEM.</speaker>
 <p>Well said—You have honestly and fairly express'd yourself, and confirm'd me also, that I have done right in this Act;—you have help'd to take away a load, which hung heavily about my Heart; and it shall be my Hobby-horse in future, to make you both as happy as I can.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb n="52" facs="52"/>
 <head>A New Catalogue of Publications just Printed for ALEX. HOGG, At the King's-Arms, No. 16, Paternoster-Row, London; and Sold by all other Booksellers and Newscarriers in England, Scotland, and Ireland.</head>
 <list>
@@ -2247,8 +2247,7 @@ and Entertainment, Price only Six-Pence. Embellished with Plates.</hi></item>
 <item>Stanhope's New Polite Tutoress, 1s.</item>
 </list></p>
 <p>†{inverted †}†A very liberal Allowance made to all Merchants, Captains, &amp;c. who purchase an Assortment of the above Variety of Articles for America, the East and West Indies, &amp;c.—all Country and Town Booksellers, Stationers, Dealers, &amp;c. supplied with an Assortment of the above Books for Sale, by ordering the Payment of Read Money, on delivery of the above Parcels in London.</p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

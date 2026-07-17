@@ -7,15 +7,15 @@
 <extent>[8],78,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Griffin; and G. Kearsly,</publisher><date>1767.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Thomas Hull.</note><note>Founded on 'The adventures of five hours.' by Sir Samuel Tuke.</note><note>The final leaf contains the epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT43878.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE PERPLEXITIES: A COMEDY.</p>
 <p>As it is performed at the THEATRE ROYAL IN <hi>COVENT-GARDEN.</hi></p>
 <p><hi>Conamur tenues grandia.</hi> HORAT.</p>
 <p>LONDON: Printed for W. GRIFFIN, in Catharine-Street in the Strand; and G. KEARSLY, in Ludgate-Street. 1767.</p>
 <p>[Price 1s. 6d.]</p>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE editor of this Comedy thinks it his duty to declare that, in point of fable, he is entirely indebted to an old play, wrote by <hi>Sir Samuel Tuke,</hi> called the <hi>Adventures of Five Hours;</hi> of which piece <hi>Echard,</hi> in the preface to his translation of <hi>Terence,</hi> after noticing some particular excellencies, gives this general character; viz.</p>
@@ -25,8 +25,8 @@
 same disposition of scenery, and preserved as many of the sentiments as could be introduced, without clogging, or interrupting the action. What <hi>particular</hi> alterations he has presumed to make, are, with great deference, submitted to the Candour of the Public.</p>
 <p>Since the copy was delivered to the press, some few passages have been shortened in representation, which are easily distinguishable by the attentive reader.</p>
 <p>⁂ This Comedy having been treated with very distinguished marks of candour and encouragement, in the representation, the Editor thinks it his duty to return his most grateful thanks to the Public.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <stage>Mr. BEARD enters hastily.</stage>
@@ -118,8 +118,8 @@ Oh! then I bounc'd and swore—</l>
 <l>Let a poor humble Comedy please you to-night;</l>
 <l>Which surely you will not deny.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>CHARACTERS.</head>
 <list>
@@ -143,15 +143,14 @@ Oh! then I bounc'd and swore—</l>
 <item><label>Felicia,</label> Miss Wilford.</item>
 <item><label>Rosa,</label> Mrs. Green.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="7"/>
 <head>THE PERPLEXITIES.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Don</hi> HENRIQUEZ, <hi>and Don</hi> JUAN.</stage></head>
 <sp>
 <speaker>HENRIQUEZ.</speaker>
@@ -247,8 +246,8 @@ her? For when I offer'd, in consequence of your assertion, that he had dishonour
 weighty care is remov'd, but a far heavier remains.—Ungrateful, blind <hi>Felicia!—</hi>what sufferings am I doom'd to undergo, yet know not how to utter or relieve them! to love, adore, doubt, fear, suspect, despair, yet still persist to love! I blush at my own weakness—to apply, and be refus'd, were a perpetual thorn to me! and that, from her blind prepossession to another, and <hi>Juan</hi>'s passive acquiescence to her choice, is almost certain! rivall'd too in her affections by a man, who, but a short time before, had ask'd my sister of me; my pride, my honour is insulted; revenge is my only remedy; in that I will persist, and experience its utmost efficacy.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>HONORIA<hi>'s Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> HONORIA.</stage>
 <sp>
@@ -728,12 +727,12 @@ advantages of your friendly assistance, and the private door to your portion of 
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="17" facs="23"/>
 <head>ACT II. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a Market-place.</stage></head>
 <stage><hi>Enter</hi> ANTONIO, <hi>and</hi> SANCHO, <hi>in Riding-Suits.</hi></stage>
 <sp>
@@ -786,8 +785,8 @@ advantages of your friendly assistance, and the private door to your portion of 
 <p>I like your counsel well—follow me.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a Street representing the House where</hi> FLORIO <hi>dwells.</hi></stage></head>
 <stage><hi>Enter, from his House,</hi> FLORIO, <hi>with</hi> GUZMAN, <hi>both cloaked.</hi></stage>
 <sp>
@@ -1131,8 +1130,8 @@ to that sense of honour, from which no claim should alienate a soldier, I tore m
 <p>Well, such as it is, I'll venture it, without endangering your well-known valour.</p>
 <stage><hi>[Exit</hi> Rosa—Guzman <hi>returns to the house.</hi></stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>Scene changes to the inside of</hi> FLORIO's <hi>house.</hi></stage></head>
 <stage><hi>Enter</hi> FLORIO, <hi>followed by</hi> ANTONIO.</stage>
 <sp>
@@ -1204,12 +1203,12 @@ can but be postpon'd, not destroyed. And think you I could enjoy it, could relis
 <l>He basely injures friendship's sacred name,</l>
 <l>Who reckons not himself and friend the same.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="29" facs="35"/>
 <head>ACT III. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>the Garden, and Summer-house, of</hi> HENRIQUEZ.</stage></head>
 <stage>HONORIA, FELICIA, <hi>and</hi> ROSA, <hi>discover'd up in the Summer-house.</hi></stage>
 <sp>
@@ -1475,9 +1474,9 @@ can but be postpon'd, not destroyed. And think you I could enjoy it, could relis
 <p>Well, well—I'll try—oh! this ungrateful girl!</p>
 <stage>[Exit at the garden-gate.</stage>
 </sp>
-</div3>
+</div>
 <pb n="33" facs="39"/>
-<div3 type="scene">
+<div type="scene">
 <head>Scene <stage>changes to the City.</stage></head>
 <stage><hi>Enter</hi> FLORIO, <hi>and</hi> ANTONIO, <hi>with</hi> HONORIA<hi>—At a little Distance,</hi> GUZMAN, <hi>and, after him,</hi> JUAN.</stage>
 <sp>
@@ -1495,8 +1494,8 @@ can but be postpon'd, not destroyed. And think you I could enjoy it, could relis
 <p>He takes me for one of his own party; his mistake will enable me to harbour them.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Apartments in</hi> HENRIQUEZ'<hi>s House.</hi></stage></head>
 <stage><hi>Enter</hi> FELICIA, <hi>and</hi> ROSA.</stage>
 <sp>
@@ -1699,8 +1698,8 @@ ridicule, and contempt; much less, can I bear the sight of him, who will expect 
 <p>Plague, and the devil!—why tell him—tell him—say you can't find me. <stage><hi>[Exit</hi> Ger.]</stage> I will avoid him; I'll hide myself, 'till he's gone—I cannot bear to see him—when he finds no one here to entertain him, he may leave the house offended: let him, with my whole heart; I will undergo any censure, rather than be the reporter of my own disgrace.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the Antechamber to</hi> HONORIA<hi>'s Apartments.</hi></stage></head>
 <stage><hi>Enter</hi> ANTONIO <hi>and</hi> ERNESTO.</stage>
 <sp>
@@ -1981,12 +1980,12 @@ easier, and his penetrating Donship has not interrupted us.</p>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="44" facs="50"/>
 <head>ACT IV. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>FLORIO<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> HONORIA, FLORIO, <hi>and</hi> GUZMAN.</stage>
 <sp>
@@ -2448,8 +2447,8 @@ safer will <hi>Honoria</hi>'s reputation be. Cousin, good night.</p>
 <p>You may go about your business, friends; I require none but these. Take up the chair, and follow these your guides.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>Scene changes to</hi> Honoria<hi>'s Anti-chamber, in</hi> Henriquez<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> ANTONIO, <hi>and</hi> HONORIA.</stage>
 <sp>
@@ -2758,12 +2757,12 @@ events?—against the affront done to his honour? Oh! no—He is not what he was
 <p>While unrequited love corrodes the breast.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="60" facs="66"/>
 <head>ACT V. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>JUAN<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> JAQUES, <hi>with</hi> GUZMAN, ROSA, <hi>and</hi> FLORIO <hi>in the Chair.</hi></stage>
 <sp>
@@ -2843,8 +2842,8 @@ events?—against the affront done to his honour? Oh! no—He is not what he was
 <p>Lead on, guide.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>HENRIQUEZ<hi>'s House.</hi></stage></head>
 <stage>HONORIA' <hi>Antichamber.</hi></stage>
 <stage>HENRIQUEZ <hi>discover'd.</hi></stage>
@@ -3076,9 +3075,9 @@ me ease!—their marriage—'tis one comfort however, that I have her safe now; 
 <p>Sir, suffer him not to quit your sight, I beg: and use all means to calm his rage; I'll follow instantly. <stage><hi>[Exit</hi> Ant.]</stage> Let me reflect a moment;—if <hi>Honoria</hi> be there (as sure she must) heaven knows to what extremes <hi>Henriquez</hi> may be driven!<hi>—Florio,</hi> at least, is there, and I have ignorantly been the means of throwing him into his enemy's power; 'tis therefore incumbent on me, while he has the sanction of my house, to endeavour to preserve his life, tho' at the hazard of my own.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
+</div>
 <pb n="52" facs="72"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>the Chamber in Don</hi> JUAN<hi>'s House.</hi></stage></head>
 <stage>FLORIO, ROSA, <hi>and</hi> GUZMAN <hi>discover'd: Chairs, Table, and the Candle.</hi></stage>
 <sp>
@@ -3404,8 +3403,8 @@ and honour; that man, whom you protect from my resentment, has seconded his inso
 <p>There will be mischief soon.—Therefore, as my master has rudely left the ladies, the least I can do is to keep with 'em, and take care of 'em.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>Scene changes to the Hall of Don</hi> JUAN<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> FLORIO, <hi>and</hi> ANTONIO.</stage>
 <sp>
@@ -3481,7 +3480,7 @@ and honour; that man, whom you protect from my resentment, has seconded his inso
 <sp>
 <speaker>Hen.</speaker>
 <p>With my sword alone I'll search it out, tho' multitudes oppos'd me.</p>
-<stage><hi>[He attacks again,</hi> Rosa <hi>peeping at the door, cries out Ladies! Ladies!</hi></stage>
+<stage><hi>[He attacks again,</hi> Rosa <hi>peeping at the door, cries out <said direct="true">Ladies! Ladies!</said></hi></stage>
 <stage><hi>Enter</hi> HONORIA, FELICIA, <hi>and</hi> ROSA <hi>running.</hi></stage>
 </sp>
 <sp>
@@ -3691,12 +3690,11 @@ by severity; and that easy, frank, and confiding tempers bid fairest for a gener
 <l>Since such, and such alone, deserve to share</l>
 <l>The confidence, and favour of the fair.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="85"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. MATTOCKS.</byline>
@@ -3752,7 +3750,7 @@ With whatsoever whims or freaks you meet,</l>
 <l>And, always humour'd,—we are always pleas'd.</l>
 </lg>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

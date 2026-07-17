@@ -7,13 +7,13 @@
 <extent>60p. ; 8⁰.</extent><publicationStmt><publisher>printed for John Gray,</publisher><date>1738.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Adapted from the play by Shakespeare.</note><note>Also issued as part of: 'The works of the late Mr. George Lillo' London, 1740.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT38978.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>MARINA: A PLAY OF THREE ACTS. As it is Acted at the THEATRE ROYAL IN <hi>CONVENT-GARDEN.</hi> Taken from <hi>PERICLES</hi> PRINCE of <hi>TYRE.</hi></p>
 <p>By Mr. LILLO.</p>
 <p><hi>LONDON:</hi> Printed for JOHN GRAY, at the <hi>Cross-Keys</hi> in the <hi>Poultry,</hi> near <hi>Cheapside.</hi> M.DCC.XXXVIII. [Price <hi>One Shilling.</hi>]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="iii" facs="2" ana="y"/>
 <head><hi>TO THE RIGHT HONOURABLE the</hi> Countess of <hi>Hertford.</hi></head>
 <opener><salute>MADAM,</salute></opener>
@@ -29,8 +29,8 @@ most exalted stations, and capable of living above the world, even in the posses
 Dedicator, but from a mind fully convinc'd of its truth in every circumstance, and a heart touch'd with a character so very amiable.</p>
 <p>That you may long live an ornament and a support of those excellent principles which you profess and practice, and that your influence and example may do all the good that you your self can wish, is the earnest desire of,</p>
 <closer><signed><hi>Your</hi> LADYSHIP<hi>'s Most obedient Humble Servant,</hi> GEO. LILLO:</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -73,8 +73,8 @@ Dedicator, but from a mind fully convinc'd of its truth in every circumstance, a
 <l>Whose pleasures, so exalted in their kind,</l>
 <l>Do, as they charm the sense, improve the mind.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -104,13 +104,13 @@ Dedicator, but from a mind fully convinc'd of its truth in every circumstance, a
 <item>Mr. <hi>W. Hallam.</hi></item>
 </list>
 <p><hi>Gentlemen, Two Priestesses, Ladies, Officers, Guards, Pirates,</hi> and <hi>Attendants.</hi></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="9" facs="8"/>MARINA.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>A <hi>Grove,</hi> with a Prospect of a calm Sea, near the City of <hi>Tharsus.</hi></stage>
 <stage><hi>Enter</hi> Philoten <hi>and</hi> Leonine.</stage>
 <sp>
@@ -458,8 +458,8 @@ Dedicator, but from a mind fully convinc'd of its truth in every circumstance, a
 <l>These rogues have sav'd me from a hellish deed,</l>
 <l>And a fair wind attend them. <stage><hi>Exit</hi> Leonine.</stage></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head><stage><hi>A House in</hi> Ephesus.</stage>
 <stage><hi>Enter</hi> Bawd <hi>and</hi> Bolt.</stage>
 <sp>
@@ -857,12 +857,12 @@ with you, that I won't have any such thing mention'd in my house.</p>
 </sp>
 <stage>Exeunt.</stage>
 <trailer><hi>The End of the First</hi> ACT.</trailer>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="23" facs="22"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>An Apartment adjoining to a Temple at the Court of <hi>Tharsus.</hi></stage>
 <stage><hi>Enter</hi> Queen <hi>and</hi> Leonine.</stage>
 <sp>
@@ -1257,8 +1257,8 @@ with you, that I won't have any such thing mention'd in my house.</p>
 <l>And none who scorn their laws, e'er prosper long.</l>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="32" facs="31"/>
 <head><hi>SCENE II.</hi></head><stage>A House in <hi>Ephesus.</hi></stage>
 <stage><hi>Enter</hi> Bawd <hi>and</hi> Bolt.</stage>
@@ -1812,12 +1812,12 @@ house for her: we shall have her forc'd away. Why <hi>Bolt</hi>—O the Devil! t
 </sp>
 <stage>Exeunt.</stage>
 <trailer><hi>The End of the Second</hi> ACT.</trailer>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="42" facs="41"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>A Street in</hi> Ephesus.</stage>
 <stage><hi>Enter</hi> Bawd.</stage>
 <sp>
@@ -1952,8 +1952,8 @@ house for her: we shall have her forc'd away. Why <hi>Bolt</hi>—O the Devil! t
 <p>Or the pleasure of deserving it.</p>
 </sp>
 <stage>Exeunt different ways.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi></head><stage>The Temple of <hi>Diana,</hi> with her statue and altar. Near them <hi>Thaisa</hi> is discover'd, sleeping; two Priestesses attending, who come forward.</stage>
 <sp>
 <speaker>1 <hi>Priest.</hi></speaker>
@@ -2800,11 +2800,11 @@ house for her: we shall have her forc'd away. Why <hi>Bolt</hi>—O the Devil! t
 <l>Led on by Heav'n, and crown'd with joy at last.</l>
 </sp>
 <trailer>The END.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <head>EPILOGUE.</head>
 <lg>
 <l>WHEN to a future race the present days</l>
@@ -2844,16 +2844,15 @@ house for her: we shall have her forc'd away. Why <hi>Bolt</hi>—O the Devil! t
 <l>Unquestion'd let 'em rob us of our shame—</l>
 <l>We need but ask our treasure and our fame.</l>
 </lg>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <head>Printed for <hi>J. GRAY,</hi> at the <hi>Cross Keys</hi> in the <hi>Poultry,</hi> near <hi>Cheapside.</hi></head>
 <p n="1">I. GEORGE BARNWELL. A Tragedy. Sixth Edition.</p>
 <p n="2">II. The Christian Hero. A Tragedy. Second Edition.</p>
 <p n="3">III. Fatal Curiosity. A true Tragedy of Three Acts. All three by Mr. <hi>Lillo.</hi></p>
 <p n="4">IV. The Life and Character of <hi>Scanderbeg.</hi> Inscrib'd to the Spectators of the <hi>Christian Hero.</hi></p>
 <p n="5">V. A Journey to <hi>Bristol:</hi> Or, the Honest <hi>Welchman.</hi> A Farce. By <hi>John Hippesly.</hi></p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

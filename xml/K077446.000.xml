@@ -7,18 +7,18 @@
 <extent>vii,[1],95,[1]p. ; 4⁰.</extent><publicationStmt><publisher>printed for J. Knapton; and R. and J. Dodsley,</publisher><date>1759.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The author of Elfrida = William Mason, who signs the dedicatory poem.</note><note>Titlepage in red and black.</note><note>With a half-title.</note><note>Press figure on p. 84 (sig. M2v): 1; variant: no press figure on p. 84.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT96176.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>CARACTACUS, A Dramatic Poem.</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>CARACTACUS, A Dramatic Poem: Written on the MODEL of The Ancient GREEK Tragedy.</p>
 <p>By the Author of ELFRIDA.</p>
 <quote>Misimus &amp; lectas Druidum de gente Chorëas.</quote>
 <p>LONDON: Printed for J. KNAPTON in Ludgate-Street; and R. and J. DODSLEY in Pall-Mall. MDCCLIX.</p>
-</div1>
-<div1 type="dedicatorypoem">
+</div>
+<div type="dedicatorypoem">
 <pb facs="3"/>
 <head>TO The Rev<span rend="sup">d</span> Mr HURD.</head>
 <lg type="elegy">
@@ -94,8 +94,8 @@ Perchance the candour of some nobler age</l>
 <closer><dateline><date>20 March 1759.</date></dateline>
 <signed>W. MASON.</signed></closer>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Persons of the DRAMA.</head>
 <list>
@@ -106,11 +106,11 @@ Perchance the candour of some nobler age</l>
 <item>EVILINA, Daughter to Caractacus.</item>
 <item>ARVIRAGUS, Son to Caractacus.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene, MONA.</p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="act">
 <pb n="1" facs="7"/>
 <head>CARACTACUS, A Dramatic Poem.</head>
 <stage>AULUS DIDIUS, with Romans.</stage>
@@ -3452,20 +3452,20 @@ Come hither, youth: Be thou to me a son,</l>
 <l>Yet one look more—Now lead us hence for ever.</l>
 </sp>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="commentary">
+<div type="commentary">
 <pb n="89" facs="98"/>
 <head>ILLUSTRATIONS.</head>
 <p>THE few following quotations, from ancient authors, are here thrown together, in order to support and explain some passages in the Drama, that respect the manners of the Druids; and which, the general account of their customs, to be found in our histories of Britain, does not include.</p>
-<div2 type="note">
+<div type="note">
 <head>Page 2. ℣. 15.</head>
 <l>On the left.</l>
 <l>Beside the *sages skill'd in nature's lore:</l>
 <p>*<hi>i.e.</hi> The Euvates; one of the three classes of the Druids, according to Am. Marcellinus. Studia liberalium doctrinarum inchoata per Bardos, Euvates, &amp; Druidas. This class, Strabo tells us, had the care of the sacrifices, and studied natural philosophy; which here, by <hi>the changeful universe,</hi> is shewn to be on Pythagorean principles. Whenever the <hi>Priests</hi> are mentioned in the subsequent parts of the Drama, this order of men is intended to be meant, as distinguished from the Druids and Bards.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 7. ℣. 7.</head>
 <l>Thou shalt live;</l>
 <l>Yet shalt thou live an interdicted wretch,</l>
@@ -3473,8 +3473,8 @@ Come hither, youth: Be thou to me a son,</l>
 <p>Alluding to the Druidical power of excommunication, mentioned by Caesar. Si quis aut privatus, aut publicus, eorum decreto non stetit, sacrificiis interdicunt. Haec poena apud eos est gravissirra.
 <pb n="90" facs="99"/>
 Quibus ita est interdictum, ii numero impiorum ac sceleratorum habentur—neque iis petentibus jus redditur, neque honos ullus communicatur. C. Comment. Lib. vi.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>P. 10. ℣. 2.</head>
 <l>Are the milk-white steers prepar'd?</l>
 <p>In the minute description which Pliny gives us of the ceremony of gathering the misletoe, he tells us, they sacrificed two white bulls. See Pliny's Natural History, L. 16. c. 44. which Drayton, in his Polyolbion, thus versifies.<l>Sometimes within my shades, in many an ancient wood,</l>
@@ -3493,73 +3493,73 @@ Quibus ita est interdictum, ii numero impiorum ac sceleratorum habentur—neque 
 <l>To other bodies still how it should transmigrate,</l>
 <l>That to contempt of death them strongly did excite.</l>
 <bibl>Ninth Song.</bibl></p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 10. ℣. 19.</head>
 <l>Where our matron sister dwells.</l>
 <p>The existence of female Druids seems ascertained by Taeitus, in his description of the final destruction of Mona by Paulinus Suetonius. Stabat pro litore diversa acies densa armis virisque <hi>intercursantibus</hi>
 <pb n="91" facs="100"/>
 <hi>faeminis,</hi> &amp;c. Also by the known story of Dioclesian, on which Fletcher formed a play, called the Prophetess.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 10. ℣. 21.</head>
 <l>And the potent adder-stone.</l>
 <p>The ovum anguinum, or serpent's egg; a famous Druidical amulet, thus circumstantially described by Pliny.—Praeterea est ovorum genus in magna Galliarum fama, omissum Graecis. Angues innumeri aestate convoluti, salivis faucium corporumque spumis artifici complexu glomerantur; anguinum appellatur. Druidae sibilis id dicunt in sublime jactari, sagoque oportere intercipi, ne tellurem attingat. Profugere raptorem equo, serpentes enim insequi, donec arceantur amnis alicujus interventu, &amp;c. Nat. Hist. Lib. xxix. c. 3.</p>
 <p>There are remains of this superstition still, both in the north and west parts of our island. For Lhwyd, the author of the Archeologia, writes thus to Rowland; see Mona Antiqua, p. 338. "The Druid doctrine about the <hi>Glain Neidr,</hi> obtains very much thro' all Scotland, as well lowlands as highlands; but there is not a word of it in this kingdom (Ireland); where, as there are no snakes, they could not propagate it. Besides snake-stones, the highlanders have their snail-stones, paddock-stones, &amp;c. to all which they attribute their several virtues, and wear them as amulets." And in another letter he writes, "The Cornish retain variety of charms, and have still, towards the land's-end, the amulet of Maen Magal, and Glain Neidr, which latter they call a Milpreu, or Melpreu, and have a charm for the snake to make it, when they have found one asleep, and struck a hazel wand in the centre of her spires."</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 25. ℣. 5.</head>
 <l>Have the milk white steeds</l>
 <l>Unrein'd, and, neighing, pranc'd with fav'ring steps.</l>
 <p><pb n="92" facs="101"/>
 The few and imperfect accounts antiquity gives us of ceremonies, &amp;c. which are unquestionably Druidical, makes it necessary in this, and in other places of the Drama, to have recourse to Tacitus's account of the Germans, amongst whom, if there were really no established Druids, there was certainly a great correspondency, in religious opinions, with the Gauls and Britons. The passage here alluded to is taken from his 10th chapter. Proprium gentis, equorumque quoque praesagia ac monitus experiri. Publice aluntur iisdem nemoribus ac lucis, candidi &amp; nullo mortali opere contacti, quos pressos sacro curru, sacerdos ac rex, vel princeps civitatis comitantur, hinnitus &amp; fremitus observant, nec ulli auspicio major sides non solum apud plebem, sed apud proceres, apud sacerdotes.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 26. ℣. 2.</head>
 <l>Thou art a king, a sov'reign o'er frail man:</l>
 <l>I am a Druid, servant of the gods.</l>
 <l>Such service is above such sovereignty.</l>
 <p>The supreme authority of the Druids over their kings, is thus ascertained by Dion. Chrysostom. <gap resp="oxf" extent="1 span" reason="foreign"/>. Helmodus also de Slavis, l. ii. c. 12. asserts, Rex apud eos modicae est aestimationis in comparatione flaminis.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 26. ℣. 17.</head>
 <l>The time shall come, when destiny and death,</l>
 <l>Thron'd in a burning car.</l>
 <p>Strabo, and other writers, tell us, the Druids taught, that the world was finally to be destroyed by fire; upon which this allegory is founded.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <pb n="93" facs="102"/>
 <head>Page 34. ℣. 1.</head>
 <l>The gods, my brethren,</l>
 <l>Have wak'd these doubts in the untained breast</l>
 <l>Of this mild maiden.</l>
 <p>Inesse enim sanctum quid &amp; providum foeminis putant. Nec aut consilia ipsorum aspernantur, aut responsa negant. Tac. de morib. Germ. and Strabo to the like purpose, l. vii. <gap resp="oxf" extent="1 span" reason="foreign"/>.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 38. ℣. 13.</head>
 <l>Behold yon huge</l>
 <l>And unhewn sphere of living adamant.</l>
 <p>This is meant to describe the rocking-stone, of which there are several still to be seen in Wales, Cornwall, and Derbyshire. They are universally thought, by antiquarians, to be Druid monuments; and Mr. Toland thinks, "that the Druids made the people believe that they only could move them, and that by a miracle, by which they condemned or acquitted the accused, and often brought criminals to confess what could in no other way be extorted from them." 'Twas this conjecture which gave the hint for this piece of machinery. The reader may find a description of one of these rocking-stones in Camden's Britannia, in his account of Pembrokeshire; and also several in Borlase's history of Cornwall.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 63. ℣. 19.</head>
 <l>—And its name</l>
 <l>TRIFINGUS.</l>
 <p>The name of the inchanted sword in the Hervarer Saga.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 63. ℣. 25.</head>
 <l>By the bright circle of the golden sun.</l>
 <p><pb n="94" facs="103"/>
 This adjuration is taken from the literal form of the old Druidical oath, which they administered to their disciples; and which the learned Selden, in Prolog. de Diis Syr. gives us from Vettius Valens Antiochenus, l. vii. It is as follows: <gap resp="oxf" extent="1 span" reason="foreign"/>, &amp;c.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 71. ℣. 20.</head>
 <l>Near each a white-rob'd Druid, whose stern voice</l>
 <l>Thunder'd deep execrations on the foe.</l>
 <p>This account is taken from what history tells us did really happen some years after, when the groves of Mona were destroyed by Suetonius Paulinus. Igitur Monam insulam incolis validam, &amp; receptaculum perfugarum aggredi parat, navesque fabricatur plano alveo, adversus breve litus &amp; incertum. Sic Pedes; equites vado secuti, aut altiores inter undas, adnantes equis transmisere. Stabat pro litore diversa acies densa armis virisque, intercursantibus foeminis: in modum Furiarum, veste ferali crinibus dejectis <hi>faces</hi> praeferebant. Druidae circum, preces diras sublatis ad coelum manibus fundentes, novitate aspectus perculere milites ut quasi haerentibus membris, immobile corpus vulneribus praeberent. Dein cohortationibus ducis, &amp; se ipsi stimulantes ne muliebre &amp; fanaticum agmen pavescerent, inferunt signa, sternuntque obvios &amp; igni suo involvunt. Tac. Ann. l. xiv. c. 29.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 81. ℣. 19.</head>
 <l>These shapeless symbols of your barbarous gods.</l>
 <p>The Druids did not really worship the divinity under any symbol. But this is put intentionally into the mouth of the Roman, as
@@ -3568,13 +3568,13 @@ mistaking the rude stones placed round the grove, for idols. Thus Lucan in his b
 <l>Arte carent caesisque extant informia truncis.</l>
 <bibl>Phar. Lib. iii.</bibl></p>
 <p>Some imagery from the same description is also borrowed in the opening of the Drama.</p>
-</div2>
-<div2 type="note">
+</div>
+<div type="note">
 <head>Page 86. ℣. 3.</head>
 <l>—Soldier I had arms.</l>
 <p>This passage, and some others in this scene, are taken from Caractacus's famous speech in Tacitus, before the throne of Claudius; but here adapted to his dramatic character.</p>
-</div2>
-</div1>
+</div>
+</div>
 </back>
 </text>
 </TEI>

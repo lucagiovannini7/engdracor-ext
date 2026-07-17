@@ -7,7 +7,7 @@
 <extent>23,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed by R. Butters ; and sold by all the booksellers in town and country,</publisher><date>[1780?]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>In fact written by James Townley.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT121065.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>High Life Below Stairs.
 A FARCE.
@@ -20,8 +20,8 @@ Theatre Royal Drury-Lane.</p>
 <p><hi>LONDON:</hi>
 Printed by R. BUTTERS, No. 79, Fleet-street; and sold by all the
 Booksellers in Town and Country.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2" ana="y"/>
 <head>DRAMATIS PERSONAE.
 DRURY-LANE.</head>
@@ -40,14 +40,14 @@ DRURY-LANE.</head>
 <item>Lady Bab's maid, Miss Collins.</item>
 <item>Lady Charlotte's maid, Mrs. Kemble.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, LONDON.</p></set>
 </front>
 <body>
 <head><pb facs="3"/>High Life Below Stairs.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>An apartment in Freeman's house.</stage></head>
 <stage>Freeman and Lovel entering.</stage>
 <sp>
@@ -485,8 +485,8 @@ Come along.</p>
 <p>Ha, ha, ha!—Bravo—Jemmy—Bravo, ha, ha!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>The Park. Duke's Servant.</stage></head>
 <sp>
 <p>What wretches are ordinary servants, that go on in the
@@ -1081,8 +1081,8 @@ he is mighty generous in giving me five guineas at Christmas.
 Damn all such sheaking scoundrels, I say.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>The Servants Hall in Lovell's House.</stage></head>
 <stage>Kingston and Coachman drunk and sleepy.</stage>
 <stage>[A knocking at the door.</stage>
@@ -1613,11 +1613,11 @@ smart.</p>
 <p>Soh! soh! It works well.</p>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>Scene, <stage>The Servants Hall, with the supper and side-board set out,
 Philip, Kitty and Lovel.</stage></head>
 <sp>
@@ -2996,8 +2996,8 @@ when they affect every thing that is ridiculous, it will be in the
 power of any low creature to follow their example.</p>
 </sp>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

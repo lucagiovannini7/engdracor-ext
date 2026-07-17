@@ -7,12 +7,12 @@
 <extent>[2],22p. ; 8⁰.</extent><publicationStmt><publisher>Printed in the year,</publisher><date>1709.</date><pubPlace>[London] :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Aaron Hill.</note><note>"comedy" in title is a paste-over covering the words: "farce of one act.".</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCN24813.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <p><pb facs="1" ana="y"/>
 THE Walking Statue: OR, THE DEVIL IN THE Wine-Cellar. A COMEDY, As it was Acted at the THEATRE ROYAL IN <hi>DRURY-LANE.</hi></p>
 <p>Printed in the Year 1709. <hi>(Price 6 d.)</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Persons Represented. </head>
 <p><list>
@@ -29,14 +29,14 @@ THE Walking Statue: OR, THE DEVIL IN THE Wine-Cellar. A COMEDY, As it was Acted 
 <label>Servants and Bearers.</label>
 <item> </item>
 </list></p>
-</div1>
+</div>
 <set><p>The SCENE <hi>London.</hi></p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb n="1" facs="3"/>
 <head>THE Walking Statue: OR, THE DEVIL IN THE Wine-Cellar.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>The Street before Sir <hi>Timothy</hi>'s House. Enter<hi>Toby</hi>disguis'd like an <hi>Exchange</hi>Girl with a Band box.</stage></head>
 <sp>
 <speaker>TOBY.</speaker>
@@ -221,8 +221,8 @@ you should have more Rogues in Ambush, I issue arm'd, to defend the Honour of my
 <p>I'll rummage you, you careless Rascals; I'll teach you to plunder before you have secur'd the Enemy, you Dogs you.</p>
 <stage>He beats 'em with the Blunderbuss off the stage.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to <hi>Sprightly</hi>'s House. Sprightly and <hi>Toby.</hi></stage></head>
 <sp>
 <speaker>Spright.</speaker>
@@ -327,8 +327,8 @@ ready I'll instruct you what to say to the Lady, for the ill Success of my last 
 <p>Well! o'my Conscience, my Master is the first that ever went about to send a Message by a Stone Porter!—</p>
 </sp>
 <stage>They go in.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Sir <hi>Timothy's</hi> House; Sir <hi>Tim,</hi> and <hi>Leonora.</hi></stage></head>
 <sp>
 <speaker>Sir <hi>Tim.</hi></speaker>
@@ -519,8 +519,8 @@ pardon for alarming you; being in a melancholy Humour, I had forgot the Statue s
 <p>What a wretched Condition has my Folly brought me to? if I slip this Opportunity of escaping while the House is in so great a Confusion, I shall be miserable for ever. I'll get out the back-way, and trust fortune for the Event of my Undertaking.</p>
 <stage>She goes out.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to a Court-yard, with a Well in it. Enter</hi> Toby <hi>Frighted.</hi></stage></head>
 <sp>
 <speaker>Toby.</speaker>
@@ -536,8 +536,8 @@ the Rogues will take me for the Devil that they say walks in this Neighbourhood,
 <stage>He goet out.</stage>
 <pb n="18" facs="20"/>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a Cellar, with a Wicket in the front Scene, and discovereth the Servants sitting round a black Jack, drinking and merry.</stage></head>
 <sp>
 <speaker>1 Ser.</speaker>
@@ -614,8 +614,8 @@ the Rogues will take me for the Devil that they say walks in this Neighbourhood,
 <p>Help, help! the Devil, the Devil, the Devil!</p>
 <stage>They beat one another down, and hurry out headlong, and <hi>Toby</hi> after 'em.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>The <hi>SCENE</hi> changes to the Hall. Enter Sir <hi>Timothy</hi> with his Blunderbuss.</stage></head>
 <sp>
 <speaker><hi>Sir</hi> Tim.</speaker>
@@ -723,8 +723,8 @@ my Family, for the wonderful Deliverance. <stage>Loud knocking at the Door.</sta
 <l><hi>And, like</hi> Antaeus, <hi>gathers strength from Blows.</hi></l>
 </sp>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

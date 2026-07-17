@@ -7,13 +7,13 @@
 <extent>[12],70,[2]p. : ill. ; 12⁰.</extent><publicationStmt><publisher>printed for Jacob Tonson,</publisher><date>1714.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT138554.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 <p>Lud. Du Guernier inv. et sculp</p>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE FAIR PENITENT. A TRAGEDY.</p>
 <p>Written by <hi>N. ROWE,</hi> <abbr>Esq</abbr></p>
@@ -22,8 +22,8 @@
 <p><figure>
 </figure></p>
 <p><hi>LONDON:</hi> Printed for <hi>Jacob Tonson</hi> at <hi>Shakespear</hi>'s <hi>Head</hi> over-against <hi>Catherine-street</hi> in the <hi>Strand.</hi> MDCCXIV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO HER GRACE the DUTCHESS OF <hi>ORMOND.</hi></head>
 <opener><salute>MADAM,</salute></opener>
@@ -39,8 +39,8 @@ add, the Loss we shall suffer by your Grace's Journey to <hi>Ireland;</hi> the Q
 <pb facs="8"/>
 upon You as the Noblest and Best Pattern Her Majesty cou'd send 'em, of her own Royal Goodness, and Personal Virtues? They shall behold Your Grace with the same Pleasure the <hi>English</hi> shall take when ever it shall be their good Fortune to see You return again to Your Native Country. In <hi>England</hi> Your Grace is become a Publick Concern, and as Your going away will be attended with a general Sorrow, so Your Return shall give as general a Joy; and to none of those many, more than to,</p>
 <closer><salute>MADAM,</salute> <signed>Your GRACE's most Obedient, and most Humble Servant <hi>N. Rowe.</hi></signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE,</head>
 <stage>Spoken by Mr. <hi>Betterton.</hi></stage>
@@ -84,8 +84,8 @@ upon You as the Noblest and Best Pattern Her Majesty cou'd send 'em, of her own 
 <l>This Age, 'tis true has one great Instance seen,</l>
 <l>And Heav'n in Justice made that One a Queen.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -112,13 +112,13 @@ upon You as the Noblest and Best Pattern Her Majesty cou'd send 'em, of her own 
 <label>Servants to <hi>Sciolto.</hi></label>
 <item> </item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>Sciolto</hi>'s Palace and Garden, with some part of the Street near it, in GENOA.</p></set>
 </front>
 <body>
 <head><pb facs="11"/>THE <hi>FAIR PENITENT.</hi></head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head>SCENE <stage>a Garden belonging to <hi>Sciolto's</hi> Palace.</stage></head>
 <stage>Enter <hi>Altamont</hi> and <hi>Horatio.</hi></stage>
@@ -759,10 +759,10 @@ Have they in all the Series of their changing</l>
 <l>And Marriage be no more the Jest of Fools.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <pb n="16" facs="26"/>
 <head>ACT II. SCENE I.</head>
 <head>SCENE, <stage>a Hall.</stage></head>
@@ -1028,8 +1028,8 @@ Our boasted Pow'r? when they oppose their Arts,</l>
 <l>Had bargain'd with the Devil, to damn her wretched Race.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <head>SCENE, <stage>the Street near <hi>Sciolto</hi>'s Palace.</stage></head>
 <stage>Enter <hi>Lothario</hi> and <hi>Rossano.</hi></stage>
@@ -1351,10 +1351,10 @@ Yet as she shares the Honour of my <hi>Altamont,</hi></l>
 <l>And conscious of your Worth, can never love you less.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <pb n="29" facs="41"/>
 <head>ACT III. SCENE I.</head>
 <head>SCENE <stage>an Apartment in <hi>Sciolto</hi>'s Palace.</stage></head>
@@ -2070,10 +2070,10 @@ Nor will I be beholding to my Country,</l>
 <l>Cleaves to one faithful Plank, and leaves the rest behind.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <pb n="44" facs="56"/>
 <head>ACT IV. SCENE I.</head>
 <head>SCENE, <stage>a Garden.</stage></head>
@@ -2798,10 +2798,10 @@ And thou shalt trample o'er my faithful Bosom,</l>
 <l>And mourn the Youth that was like thee undone.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
-<div2 n="1" type="scene">
+</div>
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <pb n="60" facs="74"/>
 <head>ACT V. SCENE I.</head>
 <head><stage>SCENE is a Room hung with Black; on one side, <hi>Lothario</hi>'s Body on a Bier; on the other, a Table with a Skull and other Bones, a Book, and a Lamp on it.</stage></head>
@@ -3290,11 +3290,11 @@ Charm thee with Sweetness, Beauty, and with Truth,</l>
 <l>Let Virtue be the Bond that ties it fast.</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="85"/>
 <head>EPILOGUE,</head>
 <stage>Spoken by Mrs. BRACEGIRDLE, who play'd <hi>Lavinia.</hi></stage>
@@ -3337,7 +3337,7 @@ Well may the Cuckold-making Tribe find Grace,</l>
 <l>Lampoons shall cease, and envious Scandal die,</l>
 <l>And all shall live in Peace like my good Man and I.</l>
 </lg>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

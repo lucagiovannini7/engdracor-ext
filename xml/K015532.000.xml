@@ -7,7 +7,7 @@
 <extent>[6],58,[2]p. ; 4⁰.</extent><publicationStmt><publisher>printed for Jacob Tonson,</publisher><date>1715.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Joseph Addison.</note><note>Reproduction of original from the Huntington Library.</note><note>English Short Title Catalog, ESTCN28466.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <pb facs="2" ana="y"/>
 <p>THE DRUMMER; OR, THE HAUNTED HOUSE. A COMEDY. As it is Acted at the <hi>Theatre-Royal</hi> in <hi>Drury-Lane,</hi> BY His MAJESTY's Servants.</p>
@@ -15,13 +15,13 @@
 <l>Ut Magus—</l>
 <bibl>Hor.</bibl>
 <p><hi>LONDON:</hi> Printed for <hi>Jacob Tonson</hi> at <hi>Shakespear</hi>'s-<hi>Head,</hi> over-against <hi>Katharine-Street</hi> in the <hi>Strand.</hi> MDCCXV</p>
-</div1>
-<div1 type="frontispiece">
+</div>
+<div type="frontispiece">
 <pb facs="3"/>
 <p><figure>
 </figure></p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="4"/>
 <head>THE PREFACE.</head>
 <p>HAving recommended this Play to the Town, and delivered the Copy of it to the Bookseller, I think my self oblig'd to give some Account of it.</p>
@@ -31,8 +31,8 @@
 being too delicate for every Taste in a Popular Assembly. My Brother-Sharers were of Opinion, at the first reading of it, that it was like a Picture in which the Strokes were not strong enough to appear with Advantage at a Distance. As it is not in the common way of Writing, the Approbation was at first Doubtful, but has risen every time it has been Acted, and has given an Opportunity in several of its Parts for as just and good Action as I ever saw on the Stage.</p>
 <p>The Reader will consider that I speak here as the Patentee, for which Reason I forbear being more particular in the Character of this Play, least I should appear like one, who cries up the Wares of his own Shop to draw in Customers.</p>
 <closer><signed>Richard Steele.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6" ana="y"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. <hi>Wilks.</hi></stage>
@@ -82,8 +82,8 @@ being too delicate for every Taste in a Popular Assembly. My Brother-Sharers wer
 <l>We never think this House is too much Haunted.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7" ana="y"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -106,12 +106,12 @@ being too delicate for every Taste in a Popular Assembly. My Brother-Sharers wer
 <label>Abigal,</label>
 <item>Mrs. <hi>Saunders.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb n="1" facs="8"/>
 THE DRUMMER; OR, THE HAUNTED-HOUSE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage>A Great Hall.</stage>
 <stage>Enter the <hi>Butler, Coachman,</hi> and <hi>Gardiner.</hi></stage>
@@ -884,8 +884,8 @@ after his Bones are laid? Pray, Widow, remember the Words of your Contract, you 
 <l>Clasp'd in the Folds of Love, I'd meet my Doom,</l>
 <l>And act my Joys, tho' Thunder shook the Room.</l>
 </sp>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="21"/>
 <head>ACT II. SCENE I.</head>
 <stage>SCENE opens, and discovers <hi>Vellum</hi> in his Office, and a Letter in his Hand.</stage>
@@ -1488,8 +1488,8 @@ this Drum. <hi>Item,</hi> Bread, ten Peck-Loaves—They cannot eat Beef without 
 <l>For to a Man like me that's Stout and Bold,</l>
 <l>A Ghost is not so dreadful as a Scold.</l>
 </sp>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="24" facs="31"/>
 <head>ACT III. SCENE I.</head>
 <stage>SCENE opens, and discovers Sir <hi>George</hi> in <hi>Vellum</hi>'s Office.</stage>
@@ -2207,8 +2207,8 @@ You and I shou'd be discarded before the Honey Moon was at an End.</p>
 <p>We shall have much Issue.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="34" facs="41"/>
 <head>ACT IV. SCENE I.</head>
 <stage>Enter <hi>Vellum</hi> and <hi>Butler.</hi></stage>
@@ -2990,8 +2990,8 @@ waves me off—ay with all my Heart—What a Devil had I to do with a white Shee
 <l>I'll clap my Hand upon my Purse, and tell 'em,</l>
 <l>'Twas for a thousand Pound and Mr. Vellum.</l>
 </sp>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="45" facs="52"/>
 <head>ACT V. SCENE I.</head>
 <stage>Enter Sir <hi>George,</hi> in his Conjurer's Habit, the <hi>Butler</hi> marching before him with two large Candles, and the two Servants coming after him, one bringing a little Table, and another a Chair.</stage>
@@ -3949,10 +3949,10 @@ robb'd my Life of some Hours of Happiness that ought to have been in it.</p>
 <l>For which, in humble wise, I thank the Donors:</l>
 <l>And so we bid Good-night to both your Ho—nours.</l>
 </sp>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="66"/>
 <head>THE EPILOGUE.</head>
 <stage>Spoken by Mrs. <hi>Oldfield.</hi></stage>
@@ -3990,8 +3990,7 @@ robb'd my Life of some Hours of Happiness that ought to have been in it.</p>
 <l>True to her Jointure, hates a second Marriage;</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

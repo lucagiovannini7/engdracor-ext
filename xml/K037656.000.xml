@@ -7,14 +7,14 @@
 <extent>viii,80p. ; 8⁰.</extent><publicationStmt><publisher>printed for G.G.J. and J. Robinson,</publisher><date>1786.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT36051.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>HE WOULD BE A SOLDIER. A COMEDY IN FIVE ACTS. AS PERFORMED AT THE THEATRE ROYAL, COVENT GARDEN.</p>
 <p>WRITTEN BY FREDERICK PILON. DEDICATED TO MRS. MONTAGUE.</p>
 <p>LONDON: Printed for G. G. J. and J. ROBINSON, Pater-noster Row. M.DCC.LXXXVI.</p>
 <p>[Price One Shilling and Six Pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="iii" facs="2"/>
 <head>DEDICATION. TO MRS. MONTAGUE.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -22,16 +22,16 @@
 <pb n="iv" facs="3"/>
 around him, and unveil the full glory of his mind. The small tribute of respect I have presumed to pay your talents in the course of my comedy, Madam, was, believe me, the spontaneous incense of my heart; and I have the satisfaction to reflect, that no reader will suspect me of flattery in this declaration, but one who is a stranger to your same, and to your virtues.</p>
 <closer><signed>I have the honour to be, MADAM, Your devoted, and obedient servant, FREDERICK PILON.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="v" facs="4"/>
 <head>PREFACE.</head>
 <p>THE very great success which has attended the performance of the following Comedy, induces the author to state a circumstance which, on the first blush of the business, must appear rather singular. <hi>He would be a Soldier</hi> was presented to Mr. Colman in the course of last Summer, and returned—because <hi>that gentleman did not like a line of it;</hi> and left this comfortable intelligence were not sufficient to wound the feelings of the writer, Mr. Colman added, he did not know <hi>what could be done with it, or in what shape it could be produced, so as to contribute to the entertainment of the public.</hi></p>
 <p>The Author declares, that he then entertained such notions of Mr. Colman's <hi>judgement, taste,</hi> and high <hi>sense of honour,</hi> that his opinion was final with him; he laid by his performance in despair of ever acquiring profit or same by it:—fortunately an intimate friend one day advised him to show the piece to Mr. Harris; imagining even <hi>Mr. Colman might be mistaken,</hi> or influenced by <hi>motives, the</hi>
 <pb n="vi" facs="5"/>
 <hi>writer of this address</hi> never-suspected any man harboured, till bitter experience convinced him of the contrary. Mr. Harris, to the very great surprise, and, no doubt, very <hi>great pleasure</hi> of the author, happened to be totally of a different way of thinking from Mr. Colman; and what is more, he heard the latter gentleman's opinion of the Comedy, but <hi>had too strong, and too good a mind to be biassed by it.</hi> The success which has attended the piece makes all farther comment on this short history of it unnecessary; and with the liveliest sense of gratitude for the marked attention, kindness, and liberality of Mr. Harris, the author submits his production to the perusal of the world.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="vii" facs="6"/>
 <head>PROLOGUE.</head>
 <byline>WRITTEN BY THE AUTHOR OF THE COMEDY, AND SPOKEN BY MR. FARREN.</byline>
@@ -69,8 +69,8 @@ around him, and unveil the full glory of his mind. The small tribute of respect 
 <l>The praise that's worth ambition, you bestow.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb n="viii" facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -93,15 +93,14 @@ around him, and unveil the full glory of his mind. The small tribute of respect 
 <item><label>Betty,</label>—Miss. STUART.</item>
 <item><label>Nancy,</label>—Miss ROWSON.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>HE WOULD BE A SOLDIER.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>A Street.</hi></stage>
 <stage><hi>Enter Mrs.</hi> Wilkins, <hi>followed by</hi> Johnson.</stage>
 <sp>
@@ -245,8 +244,8 @@ Take a turn down this next street, and let me go home alone. Follow me in about 
 <p>My dear Mrs. Wilkins, what do you take me for? Do you suppose I never paid a visit to a married woman in my life?</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head><stage><hi>The Bar of the</hi> George <hi>Inn.</hi></stage>
 <stage><hi>Enter</hi> Caleb, <hi>followed by</hi> Wilkins, <hi>who appears greatly agitated.</hi></stage>
 <sp>
@@ -603,8 +602,8 @@ was ordered to bring you up as his son; it being necessary for family reasons, w
 have found out this of my own accord!—But it's a wise child knows it own father.</p>
 </sp>
 <stage>[<hi>Exeunt. Mrs.</hi> Wilkins <hi>ridiculing him.</hi></stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a drawing Room at the House of Sir</hi> Oliver Oldstock.</stage></head>
 <stage><hi>Enter</hi> Charlotte <hi>and</hi> Harriet.</stage>
 <sp>
@@ -783,13 +782,13 @@ union, as knights-errant of old prepar'd themselves for the toils of chivalry; I
 <p>They are, my friend; Hope sits smiling at my heart, and once more chears it with a prospect of happiness.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment at Sir</hi> Oliver Oldstock's.</stage></head>
 <stage><hi>Enter Sir</hi> Oliver <hi>(alone.)</hi></stage>
 <sp>
@@ -1035,8 +1034,8 @@ litigation, the parties should be tried by their peers.</p>
 <p>He's so great a lyar, I wou'd not believe him.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment at</hi> Mandeville's.</stage></head>
 <stage><hi>Enter</hi> Johnson <hi>and Colonel</hi> Talbot.</stage>
 <sp>
@@ -1375,13 +1374,13 @@ The Count, Mandeville, is an officer of infinite merit; he was my prisoner durin
 <p>Let us go and receive him; my heart burns with impatience to call such a man my friend.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="30" facs="37"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Mandeville's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> Mandeville, Crevelt, <hi>and Colonel</hi> Talbot.</stage>
 <sp>
@@ -2077,13 +2076,13 @@ about, perhaps, to hurry himself, or a fellowcreature into eternity?</p>
 <p>I will be guided by you in every thing—There is a fascinating power, Harriet, in your looks and accents, when you wou'd persuade, that cannot be resisted; a melting softness clings about my heart as I listen and behold you; there is sure a divinity in angel-beauty! You caused the tempest in my soul, and have calm'd it.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="49" facs="56"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An Apartment at</hi> Mandeville's.</stage></head>
 <stage>Caleb <hi>and</hi> Johnson <hi>discovered over a Bottle.</hi></stage>
 <sp>
@@ -2258,8 +2257,8 @@ he's not here, ecod, I'll fill my glass—a good bottle of wine is excellent com
 <p>There, <stage>(looking at it)</stage>, I have set it down, and am ready to go with you; we must be good friends again now we have crack'd a bottle together.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <hi>A Library.</hi></head>
 <stage>Crevelt, <hi>seated, with a Book.</hi></stage>
 <sp>
@@ -2778,13 +2777,13 @@ slightest foundations—if it shou'd creep into the public prints—</p>
 <p>Objection! he shou'd marry for that very reason, and get more sons, if it was only to convince the world that he has mended his hand in the business.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="63" facs="70"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>continues at</hi> Mandeville's.</stage></head>
 <stage><hi>Enter</hi> Harriet <hi>and</hi> Charlotte.</stage>
 <sp>
@@ -3071,8 +3070,8 @@ your fears in regard to Harriet, know, I have made your peace with her uncle—w
 <p>What is there wealth can purchase I cannot possess? my feelings are at once a satire, and a lesson to avarice.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a Room at</hi> Jacob Wilkins's.</stage></head>
 <stage>Johnson <hi>and Mrs.</hi> Wilkins <hi>discovered at Tea.</hi></stage>
 <sp>
@@ -3540,13 +3539,12 @@ be, there is not that man living whose alliance I so much desire as colonel Talb
 <speaker>Col. Tal.</speaker>
 <p>That assurance, Sir Oliver, seals, and completes my happiness—you, Mandeville, shall share a portion of my fortune as a son, and may happiness still wait on you and your lovely Harriot—and now <stage>(Addressing the audience.)</stage> if this court-martial, to whom we appeal, acquit us with honour, I shall bless the hour my boy said, "He would be a Soldier."</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="87"/>
 <head>EPILOGUE.</head>
 <byline>WRITTEN BY THE AUTHOR OF THE COMEDY, AND SPOKEN BY MRS. POPE.</byline>
@@ -3590,8 +3588,7 @@ be, there is not that man living whose alliance I so much desire as colonel Talb
 <l>That must be final both to bard and me.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

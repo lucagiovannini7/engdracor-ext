@@ -7,15 +7,15 @@
 <extent>[4],82[i.e.90],[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Davies; T. Beckett, and P.A. De Hondt; G. Kearsley; J. Fletcher; and W. Flexney,</publisher><date>1767.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The final leaf contains the epilogue.</note><note>P. 90 misnumbered 82; press figure 3 on p. 50. Variant 1: p. 90 correctly numbered; without the press figure on p.50; variant 2: p. 90 correctly numbered; with press figure 3 on p. 50.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52489.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE WIDOW'D WIFE. A COMEDY: AS IT IS ACTED AT THE THEATRE ROYAL IN DRURY LANE. BY HIS MAJESTY'S SERVANTS.</p>
 <p>BY W. KENRICK.</p>
 <p>LONDON: Printed for T. DAVIES, in Russel-Street, Covent-Garden; T. BECKETT, and P.A. DE HONDT, in the Strand; G. KEARSLEY, in Ludgate-Street; J. FLETCHER, in St. Paul's Church-Yard; and W. FLEXNEY, in Holborn.</p>
 <p>M DCC LXVII.</p>
 <p>Price One Shilling and Six-Pence.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE,</head>
 <byline>Spoken by Mr. HOLLAND.</byline>
@@ -73,8 +73,8 @@
 <l>And frankly own himself <hi>NOT QUALIFIED.</hi></l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -95,15 +95,14 @@
 <item><label>Susan,</label> <hi>Mrs.</hi> BRADSHAW.</item>
 </list>
 <p>SERVANTS, CHAIRMEN, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="4"/>
 <head>THE WIDOW'D WIFE.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT. I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE. I. <stage>The North Parade at <hi>Bath.</hi></stage></head>
 <stage>Enter <hi>Mineral,</hi> and <hi>Furnival</hi> with a news-paper in his hand.</stage>
 <sp>
@@ -405,8 +404,8 @@ man of public spirit, one whose motto is Dulce et decorum—</p>
 <p>With all my heart.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Mrs. Mildmay's lodgings.</stage></head>
 <stage>Enter <hi>Narcissa</hi> and <hi>Sophia.</hi></stage>
 <sp>
@@ -706,13 +705,13 @@ importance to the future happiness of your life. But I shou'd but ill discharge 
 <p>I have done, my dear, —lead the way.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="18" facs="21"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>Young <hi>Melmoth's</hi> lodgings.</stage></head>
 <stage>Enter <hi>Lombard,</hi> followed by a servant in livery.</stage>
 <sp>
@@ -1088,8 +1087,8 @@ Mammon else so readily trust a disinherited spendthrist with an hundred pounds, 
 <p>Inhuman father! — Attend me, I say, in the dressing-room.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="28" facs="31"/>
 <head>SCENE II. <stage>Colonel <hi>Camply's</hi> Lodgings.</stage></head>
 <stage>Enter General <hi>Melmoth</hi> and Colonel <hi>Camply.</hi></stage>
@@ -1166,8 +1165,8 @@ the widow hath greatly imposed, by means of the former will.</p>
 <p>I know it, colonel: but I now must leave you. Some letters, that arrived at Bath before me, require immediate attention: those dispatch'd, I'll call on you again. Nay, no ceremony.</p>
 <stage>[Exeunt,</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Mrs. <hi>Mildmay's</hi> lodgings.</stage></head>
 <stage>Enter <hi>Narcissa</hi> and <hi>Sophia,</hi> preparing to go out.</stage>
 <sp>
@@ -1320,13 +1319,13 @@ us, as he was passing to his coach, out of colonel Camply's; upon which my mistr
 and forgotten stranger!—It is, it must be so; anothes wife has robb'd me of his heart;—even now, perhaps, he fondly dotes upon her, tells her the story of his former love, and teaches her to triumph in my ruin.—Distracting thought! I cannot, will not bear it.— <stage>[Bursting into tears.]</stage>—No—they must, they shall be parted.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="35" facs="38"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>Furnival'<hi>s Lodgings.</hi></stage></head>
 <stage>Enter <hi>Furnival</hi> and <hi>Lombard.</hi></stage>
 <sp>
@@ -1584,8 +1583,8 @@ who has a marriageable daughter, with whom he seems disposed to give, at least, 
 <p>Assuredly, my lord, I can do nothing without you.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Mrs. <hi>Mildmay's</hi> Lodgings.</stage></head>
 <stage>Enter Mrs. <hi>Mildmay.</hi></stage>
 <sp>
@@ -1927,8 +1926,8 @@ of some future day might entitle me to aspire to the heighth from which I am fal
 <p>O yes, I intend you shall, if we should live to the end of the world.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Young <hi>Melmoth</hi>'s Lodgings.</stage></head>
 <stage>Enter <hi>Syllogism.</hi></stage>
 <sp>
@@ -2012,8 +2011,8 @@ favour of the town, and he may levy contributions on it, whenever his affairs re
 <p>Of leave, I suppose, ah! poor girl! she'll be disappointed too! Oh! 'tis a bitter business.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Colonel <hi>Camply's</hi> Lodgings.</stage></head>
 <stage>Enter General <hi>Melmoth</hi> and Colonel <hi>Camply.</hi></stage>
 <sp>
@@ -2245,13 +2244,13 @@ transferred that heart to anothet which I so unjustly suspected, so cruelly slig
 <p>I know not that. No, let them a while enjoy the satisfaction they feel in their mutual love and gratitude. There is more pleasure in the display of true generosity, than in the possession of mines of wealth. Let them proceed, therefore, on their journey. —I warrant it will be a pleasant one.—In the mean time, however, if it be necessary, I'll endeavour to reconcile the young lady's relations to the consequences of it.—But come, I called to take you home to dinner with me; we will there toast the young couple, and drink success to their spirited enterprize.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="58" facs="61"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>Mrs. <hi>Mildmay</hi>'s Lodgings.</stage></head>
 <stage>Enter <hi>Syllogism</hi> and <hi>Sift,</hi> meeting.</stage>
 <sp>
@@ -2470,8 +2469,8 @@ cruel to distrust you — <stage>[Aside as he goes out.]</stage> If I had my let
 <stage>Sophia <hi>solus.</hi></stage>
 <p>Was ever any thing so determinedly inconsiderate? —and yet Narcissa does not want for prudence, when the vivacity of her temper will suffer her to make use of it.—I wish I cou'd any how prevent this rash expedition, without betraying the confidence she has placed in me. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>The Parade.</stage></head>
 <stage>Enter Lord <hi>Courtly</hi> and <hi>Furnival.</hi></stage>
 <sp>
@@ -2556,8 +2555,8 @@ downright disobedience to act directly against her positive commands.</p>
 <p>So, so, so—Here's an affair broke out!— What will his scrupulous lordship say to this?— Egad, we just nicked the time. The bird is feathered, and just on the wing. But the lime and twigs shall be ready, my dear. No, no, my pretty flutterer, you must not take flight, and leave us yet, neither.—What if I worked by stratagem, and entrapped my little lapwing in her own snare!— Her chairmen may possibly be prevailed on to mistake the place of rendezvous.—If I can but decoy her to his lordship's apartments, he may set her at liberty himself, if he chuses it. It is a pretty Canary-bird, and would become a gilt cage mightily.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Mrs. <hi>Mildmay</hi>'s Lodgings.</stage></head>
 <stage>Enter Mrs. <hi>Mildmay,</hi> (with an open letter in her hand) followed by <hi>Sift</hi> and <hi>Susan.</hi></stage>
 <sp>
@@ -2690,8 +2689,8 @@ given a sufficient proof on whom she has freely bestowed hers. I cannot therefor
 overtaken. Inconsiderate indeed! but alas, had it been otherwise, how innocent had been their crime! Yet happy is it, that, through all the various accidents of life, there is an over-ruling providence, which often preserves us from the ill consequences even of our own indiscretions.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>A Street near Lord <hi>Courtly's</hi> House.</stage></head>
 <stage>Enter <hi>Furnival,</hi> disguised in a Cloak, followed by a chair, with the curtains drawn.</stage>
 <sp>
@@ -3025,13 +3024,13 @@ her?—Expect to be called to a severe account for this piece of treachery.</p>
 <p>So! the enemy hath made his retreat, and the day's my own. Egad I think I have displayed my prowiss pretty well here.—I hope by this time my general hath carried off the spoils of the field, and then I shall have nothing to do but make an end of my supper, and sing Te deum for the victory— with a health to the King.—Tol de rol, tol de rol.—</p>
 </sp>
 <stage>[Shoulders his blunderbuss and struts off, singing the tune of the Belleisle march.</stage>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="76" facs="79"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>the</hi> Parade.</stage></head>
 <stage>Enter general <hi>Melmoth</hi> and colonel <hi>Camply.</hi></stage>
 <sp>
@@ -3149,8 +3148,8 @@ Good-morrow, Mr. Alderman.—</p>
 <p>My daughter or the borough, Sir, —take your choice—Sophy or Gluttonbury—mind, I stick to that.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="79" facs="82"/>
 <head>SCENE II. <stage>Mrs. <hi>Mildmay's.</hi></stage></head>
 <stage>Enter Mrs. <hi>Mildmay</hi> and <hi>Sift.</hi></stage>
@@ -3274,7 +3273,9 @@ Good-morrow, Mr. Alderman.—</p>
 <p>Then let my duty teach me to dissemble.</p>
 </sp>
 <stage>Enter young <hi>Melmoth.</hi></stage>
-<stage>(As he enters) Narcissa! and alone! I feared this happiness had been denied me.—My dear, Narcissa! I am glad to see you look so charmingly to-day.—I was afraid, the ill success of our last night's adventure, might have had an effect upon your spirits.</stage>
+<sp>
+<p><stage>(As he enters)</stage> Narcissa! and alone! I feared this happiness had been denied me.—My dear, Narcissa! I am glad to see you look so charmingly to-day.—I was afraid, the ill success of our last night's adventure, might have had an effect upon your spirits.</p>
+</sp>
 <sp>
 <speaker>Narc.</speaker>
 <stage>[In a trembling voice, being greatly disturbed.]</stage>
@@ -3355,8 +3356,8 @@ must own it has been very exceptionable. How could you tell me, Sir, that your f
 <p>Do I live? Am I awake?— <stage>[looking after her with astonishment.]</stage>—Was that Narcissa? or am I Frederic Melmoth? What can be the meaning of all this?—If she be lost, I know at least who to thank for it.—Lord Courtly shall pay dear for this officiousness. —I must and will have this behaviour explained.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Another apartment in the same house.</stage></head>
 <stage>Enter General <hi>Melmoth,</hi> shewn in by a servant,</stage>
 <sp>
@@ -3697,13 +3698,12 @@ form'd, and yours alone, these have been widow'd arms e'er since you lest me.</p
 <speaker>G. Mel.</speaker>
 <p>Such a disposition, my lord, cannot go long unrewarded. Your lordship will do me honour in permitting me to cultivate a farther acquaintance with it. But, from the events of to-day, we may see how ineffectual are all attempts to separate those whom love hath united, and heaven preserv'd for each other.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="94"/>
 <head>EPILOGUE,</head>
 <byline>By a FRIEND.</byline>
@@ -3755,7 +3755,7 @@ form'd, and yours alone, these have been widow'd arms e'er since you lest me.</p
 <l>'Tis by <hi>our</hi> nostrums you are kept alive:</l>
 <l>Pursue the regimen of doctor <hi>CLIVE.</hi></l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

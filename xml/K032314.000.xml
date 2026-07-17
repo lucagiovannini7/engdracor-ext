@@ -7,13 +7,13 @@
 <extent>[8], 72 p. ; 4⁰.</extent><publicationStmt><publisher>printed for James Knapton at the Crown in St. Paul's Church-Yard, and Egbert Sanger, at the Post-House at the Middle-Temple-Gate in Fleetstreet,</publisher><date>1707.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Author of 'The gamester' = Susanna Centlivre.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26865.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage><textClass><keywords><term>Comedies -- 18th century. -- England</term></keywords></textClass></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE PLATONICK LADY. A Comedy. As it is Acted at the QUEENS THEATRE IN THE <hi>HAY-MARKET.</hi></p>
 <p>By the Author of the <hi>Gamester,</hi> and <hi>Love's Contrivance.</hi></p>
 <p><hi>LONDON,</hi> Printed for <hi>James Knapton,</hi> at the <hi>Crown</hi> in St. <hi>Paul</hi>'s Church-Yard, and <hi>Egbert Sanger,</hi> at the <hi>Post-House</hi> at the <hi>Middle-Temple-Gate</hi> in <hi>Fleetstreet.</hi> 1707. Price 1<hi>s.</hi> 6<hi>d.</hi> Where may be had all Sorts of PLAYS.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>To all the Generous Encouragers of <hi>Female Ingenuity,</hi> this <hi>Play</hi> is Humbly Dedicated.</head>
 <opener><salute>Gentlemen and Ladies;</salute></opener>
@@ -26,8 +26,8 @@
 <p>Wou'd these profest Enemies but consider what Examples we have had of Women that excell'd in all Arts; in Musick, Painting, Poetry; also in War: Nay, to our immortal Praise, what Empresses and Queens have fill'd the World? What cannot <hi>England</hi> boast from Women? The mighty <hi>Romans</hi> felt the Power of <hi>Boadicea</hi>'s Arm; <hi>Eliza</hi> made <hi>Spain</hi> tremble; but <hi>ANN,</hi> the greatest of the Three, has shook the Man that aim'd at Universal Sway. After naming this Miracle, the Glory of our Sex, sure none will spitefully cavil at the following Scenes, purely because a Woman writ'em. This I dare venture to say in their behalf, there is a Plot and Story in them, I hope will entertain the Reader; which is the utmost Ambition of,</p>
 <closer><salute>Gentlemen and Ladies,</salute>
 <signed>Your most obedient humble Servant,</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>By Captain <hi>Farqubar.</hi></byline>
@@ -57,8 +57,8 @@
 <l>Your Courage There, but Here your Mercy show;</l>
 <l>The Brave scorn to insult a Prostrate Poe.</l>
 <stage>[Exit.</stage>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="5"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by Mr. <hi>Wilks.</hi></stage>
@@ -76,8 +76,8 @@
 <l>And court you now to lay your Thunder by.</l>
 <l>Of Slaughter'd Wits, let the Effusion cease,</l>
 <l>We, like the Humble <hi>Lewis,</hi> sue for Peace.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <head>EPILOGUE.</head>
 <byline>Design'd to be Spoken by Mrs. <hi>Bracegirdle,</hi> but came too late.</byline>
 <byline>Wittten by the Author of <hi>Tunbridge-Walks.</hi></byline>
@@ -123,8 +123,8 @@ One Lady proves so fond, or rather mad,</l>
 <l>Excuse the Errors, which to Night you find,</l>
 <l>And to this Play be Gen'rous, Just, and Kind.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -146,15 +146,15 @@ One Lady proves so fond, or rather mad,</l>
 <item><label>Mrs. <hi>Brazen</hi> </label> Mr. <hi>Bullock.</hi></item>
 <item>Manto-Women, Milliners, Match-makers, Tire-Women, Singing-Masters, Dancing-Masters, Porters, <hi>&amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>LONDON.</hi></p></set>
 </front>
 <body>
 <head><pb n="1" facs="8"/>
 THE Platonick Lady.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter Mr. <hi>Sharper,</hi> and <hi>Equipage</hi> his Man.</stage>
 <sp>
 <speaker>Equi.</speaker>
@@ -295,8 +295,8 @@ Crowns a Year, which in plain <hi>English</hi> is forty-two Pounds Sterling; of 
 <p>The Devil! did not I know him well enough not to trust him with the Receipt till I had the Money? But, egad, I'll be even with him one way, I'll have his cowardly Bones well beaten, if my Project takes.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to <hi>Isabella's</hi> Lodgings.</stage></head>
 <stage>Enter <hi>Isabella</hi> and <hi>Toylet.</hi></stage>
 <sp>
@@ -392,8 +392,8 @@ that paid a Compliment to a young Lady of the same Convent: Our Acquaintance hel
 <p>No, I have a Stratagem to try his Temper, and fathom his Inclinations, I do not intend to discover my self to him, till I have him within my Power, beyond a possibility of retreat. Come in with me, and I'll give thee a full Relation, and prepare our selves for my design.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>The SCENE Changes to <hi>Belvil</hi>'s Lodgings, <hi>Belvil</hi> in a Night-Gown playing on a Flute; he lays it down and looks upon his Watch.</stage></head>
 <sp>
 <speaker>Bel.</speaker>
@@ -828,12 +828,12 @@ Bed; a Lawyer, brib'd by his Spouse to urge the Will: That made, the Sorrow is f
 <l><hi>The Petty Tyrants by my Plots dethrone,</hi></l>
 <l><hi>And there erect an Empire of my own.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the First ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage>the <hi>Park.</hi></stage></head>
 <stage>Enter <hi>Lucinda</hi> and <hi>Betty.</hi></stage>
 <sp>
@@ -1196,8 +1196,8 @@ stretch my Conscience when I am setting out one of you young Rogues!</p>
 <p>Along then. A hey for <hi>Little Equipage.</hi></p>
 <stage>[Exeunt.]</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to <hi>Belvill</hi>'s Lodgings.</stage></head>
 <stage>Enter <hi>Isabella</hi> and <hi>Toylet.</hi></stage>
 <sp>
@@ -1494,13 +1494,13 @@ Woman be? She is either set on, or else Egad she's another Platonick, that has t
 <l><hi>And is the Sovereign Mistress of his Mind.</hi></l>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Second ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="29" facs="36"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter Mrs. <hi>Dowdy,</hi> Mrs. <hi>Brazon</hi> the Match-maker, Mrs. <hi>Wheedle</hi> the Milliner, Mrs. <hi>Turnup</hi> the Manto-Maker, Mrs. <hi>Crispit</hi> the Tire-Woman, and <hi>Peeper</hi> her Maid—They all seem Talking to her.</stage>
 <sp>
 <speaker>Mrs. Dowdy,</speaker>
@@ -1939,8 +1939,8 @@ Woman be? She is either set on, or else Egad she's another Platonick, that has t
 <p>As much as ever—</p>
 <stage>[Exit.]</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>the outside of <hi>Lucinda</hi>'s House.</stage></head>
 <stage>Enter <hi>Isabella</hi> Drest like a Country-Maid with <hi>Toylet.</hi></stage>
 <sp>
@@ -2275,12 +2275,12 @@ Woman be? She is either set on, or else Egad she's another Platonick, that has t
 <speaker>Bel.</speaker>
 <p>Egad this is a strange unaccountable old Gentleman.</p>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter Mrs. <hi>Dowdy</hi> drest extravagantly in French Night-Cloaths and Furbelows, with <hi>Peeper.</hi></stage>
 <sp>
 <speaker>Mrs. Dow.</speaker>
@@ -2517,8 +2517,8 @@ Zhour I shall ne'er like thik Head-Gear, one must always louk vore-right, vor th
 <p>Pretty well for the first Time; now to try how Generous he'll be to me—If you don't disburse Sir <hi>John,</hi> for all your Go between, I'll sooner match my Mistress to your Valet, I promise you that.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>Belvill</hi>'s Lodgings.</stage></head>
 <stage>Enter <hi>Belvill,</hi> Sir <hi>Thomas, Lucinda, Isabella</hi> and <hi>Robin.</hi></stage>
 <sp>
@@ -2968,8 +2968,8 @@ came in hopes to meet you alone, being caught, I was forc'd to say any thing, le
 <l>And she shall sue to Conquer me again—</l>
 <stage>Ex.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="54" facs="61"/>
 <head><stage>SCENE Changes to <hi>Lucinda</hi>'s House.</stage></head>
 <stage>Enter <hi>Lucinda</hi> and <hi>Betty.</hi></stage>
@@ -3140,8 +3140,8 @@ hope I shou'd yield to loose Desires? And durst he make his Friend his Confidant
 <l>Deceiving none, thou art by none deceiv'd.</l>
 <stage>[Exit leaning upon her Arm.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE Changes to Mrs. <hi>Dowdy</hi>'s Lodgings.</stage></head>
 <stage>Enter Mrs. <hi>Dowdy, Sharper,</hi> Mrs. <hi>Brazen, Peeper,</hi> and <hi>Equipage.</hi></stage>
 <sp>
@@ -3317,12 +3317,12 @@ hope I shou'd yield to loose Desires? And durst he make his Friend his Confidant
 <l>Thus by our Art are Women bought and Sold,</l>
 <l>They run the Hazard, but we share the Gold—</l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>Isabella</hi>'s New House.</stage></head>
 <stage>Enter <hi>Isabella</hi> in a rich Night-Dress, with <hi>Toylet.</hi></stage>
 <sp>
@@ -4069,8 +4069,8 @@ force him to release me, on that pretence I'll fix the Reason of my Frolick, if 
 <l>'Twas that which kept me from a Sister's Arms,</l>
 <l>And gave me back to <hi>Isabella</hi>'s Charms.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

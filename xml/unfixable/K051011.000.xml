@@ -7,20 +7,20 @@
 <extent>30,[2]p. : ill.,engr.music ; 8⁰.</extent><publicationStmt><publisher>printed for J. Shuckburgh, and L. Gilliver, J. Jackson; and sold by A. Dodd, and E. Nutt,</publisher><date>[1734]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Benjamin Bounce = Henry Carey.</note><note>With a final leaf of epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT57992.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1" ana="y"/>
 <pb facs="2"/>
 <p><figure>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE TRAGEDY OF Chrononhotonthologos: BEING The most Tragical Tragedy, that ever was Tragediz'd by any Company of TRAGEDIANS.</p>
 <p>Written by BENJAMIN BOUNCE, <abbr>Esq</abbr></p>
 <quote>Qui capit ille facit.</quote>
 <p>LONDON: Printed for <hi>J. Shuckburgh,</hi> and <hi>L. Gilliver,</hi> in <hi>Fleet-Street, J. Jackson,</hi> in <hi>Pall-Mall</hi>; and sold by <hi>A. Dodd,</hi> without <hi>Temple-Bar,</hi> and <hi>F. Nutt,</hi> at the <hi>Royal-Exchange.</hi> [Price Six Pence.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. W. MILLS.</stage>
@@ -44,8 +44,8 @@
 <l>And sets herself so whimsical a Task:</l>
 <l>'Tis meant to please, but if it should offend,</l>
 <l>It's very short, and soon will have an End.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -89,9 +89,9 @@
 <label>Cupid,</label>
 <item>Master. <hi>Arne.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE Queerumania.</p></set>
-<div1 type="tunesofthesongs">
+<div type="tunesofthesongs">
 <pb facs="6"/>
 <head>The Tunes of y<span rend="sup">e</span> Songs.</head>
 <l>See Venus does attend thee.</l>
@@ -106,12 +106,12 @@
 <l>Marriage may become a Curse.</l>
 <l>(Swedes March.)</l>
 <notatedMusic/>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7"/>
 THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
-<div1 type="scene">
+<div type="scene">
 <head>SCENE, <stage>An Antichamber in the Palace.</stage></head>
 <stage>Enter RIGDUM-FUNNIDOS, and <hi>Aldiborontiphoscophornio.</hi></stage>
 <sp>
@@ -190,8 +190,8 @@ THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
 <l>Ev'n Sound itself; So be it as we have order'd.</l>
 <stage>Exeunt.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a magnificent Apartment.</stage></head>
 <stage>Enter Queen <hi>Fadladinida, Tatlanthe,</hi> and two <hi>Ladies.</hi></stage>
 <sp>
@@ -290,8 +290,8 @@ THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
 <l>Mean time, my Friend, play t'other little Tune.</l>
 <stage>Musick plays, they all Dance off.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <pb n="16" facs="12"/>
 <head>SCENE <stage>Another Apartment.</stage></head>
 <stage>Enter <hi>Rigdum Funnidos</hi> and <hi>Aldiboronti,</hi> &amp;c.</stage>
@@ -381,8 +381,8 @@ THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
 <l>The Man that cures our Queen shall have our Empire.</l>
 <stage>(Exeunt Omnes.)</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <stage>Enter <hi>Talanthe,</hi> and Queen.</stage>
 <sp>
 <speaker>Queen.</speaker>
@@ -542,8 +542,8 @@ THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
 <l>To Prison, and his Charming Arms I sly.</l>
 <stage>(Exeunt.)</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a Prison.</stage></head>
 <stage>The King of the <hi>Antipodes</hi> discover'd sleeping on a Couch.</stage>
 <stage>Enter <hi>Queen.</hi></stage>
@@ -632,8 +632,8 @@ THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
 </lg>
 <stage><hi>Venus</hi> and <hi>Cupid</hi> re-ascend.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <pb n="25" facs="21"/>
 <head>SCENE <stage>Bombardinions Tent.</stage></head>
 <stage>King, <hi>and Bombardinion</hi> at a Banquet.</stage>
@@ -835,11 +835,11 @@ THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
 <l>As you both behave to Night,</l>
 <l>You shall be paid to Morrow.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="27"/>
 <head>EPILOGUE,</head>
 <stage>Spoken by Mrs SHIREBURNE.</stage>
@@ -853,8 +853,7 @@ THE TRAGEDY OF Chrononhotonthologos, <hi>&amp;c.</hi></head>
 <l>We shall amend with Pleasure and Respect:</l>
 <l>But to our Failings, some Indulgence give,</l>
 <l>And with one gen'rous Plaudit, bid us live.</l>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

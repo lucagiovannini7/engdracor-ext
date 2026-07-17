@@ -7,12 +7,12 @@
 <extent>iv,[4],70,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for W. Griffin,</publisher><date>1769.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>An adaptation of Molière's 'Le malade imaginaire' by Isaac Bickerstaffe.</note><note>Act 1, scene 12 was written by Samuel Foote.</note><note>Variant: the date in the imprint is misprinted MDCCXVIX.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT63743.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>DOCTOR LAST IN HIS CHARIOT: A COMEDY: As it is performed at the THEATRE ROYAL IN THE HAY-MARKET.</p>
 <p>LONDON: Printed for W. GRIFFIN, at GARRICK's HEAD, in CATHARINE-STREET, STRAND. MDCCLXIX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO SAMUEL FOOTE, Esq.</head>
 <opener><salute>SIR,</salute></opener>
@@ -23,14 +23,14 @@
 <p>However, Sir, while I return you those thanks which, justice and gratitude oblige me to; I am extremely doubtful whether the public will consider the favours I confess, as any capital exertion of benevolence on your part; for they will naturally say, that, as to your acting, the play could not possibly have done without it, which, after you had received it, must have been to your loss; and, for giving me your wit and humour, all the world is sensible, that there is scarcely a man living who has so much to spare. I am,</p>
 <closer><salute>SIR,</salute>
 <signed>Your most obliged humble servant, THE EDITOR.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="4" ana="y"/>
 <head>PREFACE.</head>
 <p>THE following piece is a translation of Le MALADE IMAGINAIRE, one of MOLIERE's most celebrated productions in the farcical kind. Some scenes which could not possibly succeed upon the English stage, have been removed, and those substituted, in which the character of DOCTOR LAST is introduced; and, for that character only, the editor has to answer; nothing else in the subsequent scenes, being intirely his.</p>
 <p>How it has hitherto appeared upon the stage, or how it may appear hereafter, is at present of little consequence. It is submitted to the candour of intelligent readers, who will consider a farce as such, and decide upon it's merit accordingly. To add more is needless, except thanks to the performers, particularly to Mr. Sowdon, for his kindness to the editor, when he stood in great need of assistance; and to that admirable comedian, Mr. Weston, by whose excellent performance, Dr. Last is still render'd a laughable object.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE,</head>
 <byline>Written by D. GARRICK, Esq. and spoken by Mr. FOOTE.</byline>
@@ -82,8 +82,8 @@
 <l>That you'll not stop his wheels, or his chariot tip over:</l>
 <l>Fix him well, I beseech you, the worst on't would be,</l>
 <l>Should you overturn <hi>him,</hi> you may <hi>overset me.</hi></l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -113,13 +113,13 @@
 </list></item>
 <item>Physicians, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, AILWOU'D's House, in LONDON.</p></set>
 </front>
 <body>
 <head><pb facs="8"/> DR. LAST IN HIS CHARIOT.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>A Parlour in AILWOU'D's House, with a Table and Chairs. PRUDENCE enters followed by WAG.</stage>
 <sp>
@@ -232,8 +232,8 @@
 <speaker>Wag.</speaker>
 <p><stage>[As he's going off.]</stage> Hey, what a ringing's here! one wou'd think the house was on fire.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>AILWOU'D, who comes thro' the Back Scene in a Night-Gown and Flannel Cap, his Crutch in one Hand, and a small Bell in the other.</stage>
 <sp>
@@ -241,8 +241,8 @@
 <p>O lord, O lord, here's usage for a poor helpless sick man! There's nobody in the house sure; there can be nobody; they've all deserted me, and left me alone to expire without assistance. I made shift to muster up sufficient strength to crawl thus far; and now, I can die here.
 <stage>[Drops into the arm chair with a piteous groan; then, after a short pause, starting and staring]</stage> Mercy on me, what's the matter with me! I'm suddenly seiz'd with a shivering fit!—And now I burn like a red-hot coal of fire!—And now again—shiver, shiver, shiver, as if my blood was turn'd into snow water!—Prudence, Nancy, Mrs. Ailwood, love, wife! they're all deaf! and my bell is not loud enough neither. Prudence,</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="4" facs="11"/>
 <head>SCENE III.</head>
 <stage>AILWOOD, PRUDENCE.</stage>
@@ -355,8 +355,8 @@
 <speaker>Pru.</speaker>
 <p>She's here, Sir.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="6" facs="13"/>
 <head>SCENE IV.</head>
 <stage>AILWOU'D, PRUDENCE, NANCY.</stage>
@@ -380,8 +380,8 @@
 <speaker>Ail.</speaker>
 <p>I should, indeed, for it does me a prodigious deal of good; though I must take a little cooling physick too, in order to correct the juices.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>NANCY, PRUDENCE.</stage>
 <sp>
@@ -510,8 +510,8 @@
 <speaker>Nan.</speaker>
 <p>Hush! here's my father.</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>PRUDENCE, NANCY, AILWOU'D.</stage>
 <sp>
@@ -722,8 +722,8 @@
 <speaker>Ail.</speaker>
 <p>Love! Wife! Mrs. Ailwou'd!</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>AILWOU'D, Mrs. AILWOU'D.</stage>
 <sp>
@@ -803,8 +803,8 @@
 <speaker>Mrs. Ail.</speaker>
 <p>My child, there are no servants but have their faults, and we must endure their bad qualities, that we may have the use of their good ones. However, I will give Mrs. Prudence a lecture for her impertinence, I assure you—Who's there? Prue, Prudence, I say.</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>AILWOU'd, Mrs. AILWOU'd, PRUDENCE.</stage>
 <sp>
@@ -847,8 +847,8 @@
 <p>You cursed jade, do you want to stifle me?
 <stage>[Gets up in a passion, throws the pillows at her, and drives her out.</stage></p>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>AILWOU'D, Mrs. AILWOU'D.</stage>
 <sp>
@@ -941,8 +941,8 @@
 <speaker>Ail.</speaker>
 <p>About the same sum, sweet—but don't take on so Biddy, pray now don't, you'll throw yourself into some illness; and to have us both sick—</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>AILWOU'D, Mrs. AILWOU'D, PRUDENCE.</stage>
 <sp>
@@ -969,8 +969,8 @@
 <speaker>Ail.</speaker>
 <p>Very well, then shew the physician's up.—Do you, my love, go and entertain Dr. Last till I can come to you.—I will dispatch these as soon as I can, but one must keep up the forms of civility.</p>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="17" facs="24"/>
 <head>SCENE XI.</head>
 <stage>AILWOU'D, Dr. COFFIN, Dr. SKELETON, Dr. BULRUDDERY.</stage>
@@ -1024,8 +1024,8 @@
 <p>But two!—Oh! hoh!
 <stage>(gives him another.)</stage></p>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Dr. COFFIN, Dr. SKELETON, Dr. BULRUDDERY, sitting down with great ceremony; then, after a short silence,</stage>
 <sp>
@@ -1109,8 +1109,8 @@
 <speaker>Skel.</speaker>
 <p>We estimated the whole profit to physicians, surgeons, apothecaries, chymists, druggists, and nurses, at eleven thousand six hundred seventy-three pounds fourteen shillings and three-pence three farthings.</p>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="21" facs="28"/>
 <head>SCENE XIII.</head>
 <stage>Dr. COFFIN, Dr. SKELETON, Dr. BULRUDDERY, and AILWOU'D.</stage>
@@ -1154,8 +1154,8 @@
 <speaker>Ail.</speaker>
 <p>Well, this is all I want to be acquainted with; because, if you have not been able to form any opinion, I have been happy enough to meet with a physician that has.—Pray, Sir, do me the favour to walk in here.</p>
 </sp>
-</div2>
-<div2 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <pb n="22" facs="29"/>
 <head>SCENE XIV.</head>
 <stage>Dr. COFFIN, Dr. SKELETON, Dr. BULRUDDERY, AILWOU'D, Dr. LAST.</stage>
@@ -1303,8 +1303,8 @@
 <speaker>Skel.</speaker>
 <p>Sir, it is a thing entirely out of the course of practice. We wish you a good morning.</p>
 </sp>
-</div2>
-<div2 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV.</head>
 <stage>AILWOU'D, LAST.</stage>
 <sp>
@@ -1389,12 +1389,12 @@
 <speaker>D. Last.</speaker>
 <p>Well, I'll consider of it;—but, remember, Mr. Ailwou'd, I have taken you in hand now, and if you go to be purged, or puked, or buy a sup of physic from any one else;—but, I suppose, you knows better what belongs to the charakter of a gentleman?</p>
 </sp>
-</div2>
+</div>
 <trailer>End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="27" facs="34"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>Another Room in AILWOU'D's House. PRUDENCE enters followed by HARGRAVE.</stage>
 <sp>
@@ -1441,8 +1441,8 @@
 <speaker>Pru.</speaker>
 <p>Hush! here's my master; step into the next room a little, while I prepare him for your reception.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>PRUDENCE and AILWOU'D.</stage>
 <sp>
@@ -1499,8 +1499,8 @@
 <speaker>Ail.</speaker>
 <p>Oh, my head, my head!</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>AILWOU'D, PRUDENCE, HARGRAVE.</stage>
 <sp>
@@ -1579,8 +1579,8 @@
 <speaker>Ail.</speaker>
 <p>Leave that to me—Here is my daughter.—Rot you, get out of my sight, and let me know when Dr. Last comes.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>AILWOU'D, HARGRAVE, NANCY.</stage>
 <sp>
@@ -1684,8 +1684,8 @@
 <speaker>Ail.</speaker>
 <p>I won't have her pronounce it any more; I don't know what words you'll have the impudence to teach her presently.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>AILWOU'D, HARGRAVE, NANCY, PRUDENCE.</stage>
 <sp>
@@ -1742,8 +1742,8 @@
 <speaker>Har.</speaker>
 <p><stage>[Aside]</stage> Well, my good old gentleman, you shall hear from me again sooner than you imagine; for, since the way has been pointed out to me, I will make a bold push to drive this quack out of the house.</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>AILWOU'D, PRUDENCE, and DOCTOR LAST, drest in a tawdry manner, follow'd by a black boy.</stage>
 <sp>
@@ -1780,8 +1780,8 @@
 <speaker>Ail.</speaker>
 <p>You impudent, saucy—</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>AILWOU'D and LAST.</stage>
 <sp>
@@ -1832,8 +1832,8 @@
 <speaker>Ail.</speaker>
 <p>Here she is.</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>AILWOU'D, LAST, NANCY, PRUDENCE.</stage>
 <sp>
@@ -1922,8 +1922,8 @@
 <speaker>Pru.</speaker>
 <p>Here's my lady.</p>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Dr. LAST, Mrs. AILWOU'D, AILWOU'D, PRUDENCE, NANCY.</stage>
 <sp>
@@ -2049,8 +2049,8 @@
 <speaker>Ail.</speaker>
 <p>Heark'e, Nancy, no more words; resolve to marry this gentleman within three days, or I'll turn you out to starve in the streets.</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Mrs. AILWOU'D, AILWOU'D, Dr. LAST.</stage>
 <sp>
@@ -2105,8 +2105,8 @@
 <speaker>D. Last.</speaker>
 <p>And, do you hear, madam, take a dram as I bids you, a little rum and sugar, if<pb n="40" facs="47"/> you have any in the house; that's what I generally swallows, and I always finds the good effects of it.</p>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>AILWOU'D, Dr. LAST, PRUDENCE.</stage>
 <sp>
@@ -2129,8 +2129,8 @@
 <speaker>Ail.</speaker>
 <p>Get out of the room.</p>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>AILWOU'D, Dr. LAST, WAG, in disguise.</stage>
 <sp>
@@ -2541,8 +2541,8 @@
 <speaker>D. Last.</speaker>
 <p>Do you keep the wig, we can swear to the wig, while I follow, and find out who he is—I'm almost sure he's the soldier in the Old Bailey, for he has a spite against me, and employs old women to tear down my advertisements.</p>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>AILWOU'D, FRIENDLY, PRUDENCE.</stage>
 <sp>
@@ -2712,12 +2712,12 @@
 <speaker>Ail.</speaker>
 <p>That's true; give it me.</p>
 </sp>
-</div2>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="50" facs="57"/>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <stage>A Room in AILWOU'D's House, with a Door in the Back Scene.</stage>
 <stage>AILWOU'D, Mrs. AILWOU'D.</stage>
@@ -2774,8 +2774,8 @@
 <speaker>Ail.</speaker>
 <p>Bye, Biddy—</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>AILWOU'D, POLLY.</stage>
 <sp>
@@ -2992,8 +2992,8 @@
 <speaker>Pol.</speaker>
 <p>Yes, papa, yes, I'll remember.—I'm glad he didn't whip me; I was afraid he would have whip'd me.</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>FRIENDLY, AILWOU'D.</stage>
 <sp>
@@ -3078,8 +3078,8 @@
 <speaker>Ail.</speaker>
 <p>Here's Dr. Last: he is so good as to come on purpose, to administer his medicine to me himself. Pray now, brother, behave yourself properly.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>AILWOU'D, FRIENDLY, and Dr. LAST, with a Vial in one Hand, and a Glass of Water in the other.</stage>
 <sp>
@@ -3191,8 +3191,8 @@
 <speaker>D. Last.</speaker>
 <p>O! with all my heart.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>AILWOU'D, FRIENDLY.</stage>
 <sp>
@@ -3215,8 +3215,8 @@
 <speaker>Ail.</speaker>
 <p>Don't talk to me, you want to send me to my grave—Dr. Last, pray come back.</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="59" facs="66"/>
 <head>SCENE VI.</head>
 <stage>AILWOU'D, FRIENDLY, Dr. LAST.</stage>
@@ -3305,8 +3305,8 @@
 <speaker>D Last.</speaker>
 <p>Now, I'm satisfied; and, I'll call upon you again in an hour.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>AILWOU'D, FRIENDLY, PRUDENCE.</stage>
 <sp>
@@ -3406,8 +3406,8 @@
 <stage>[To Friendly.]</stage> Now, Sir, we shall shew you your error, and convince yow how much you have injur'd the best of wives.
 <stage>[To Ailwou'd.]</stage> 'Twill be pleasant enough afterwards, to see how blank he will look—Here's my lady; quick, quick, both of you away.</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>PRUDENCE, Mrs. AILWOU'D.</stage>
 <sp>
@@ -3476,8 +3476,8 @@
 <speaker>Mrs. Ail.</speaker>
 <p>In the mean time, I'll go and secure his keys, for I know he has a considerable sum of money in his scrutore, which he receiv'd yesterday.</p>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="64" facs="71"/>
 <head>SCENE IX.</head>
 <stage>AILWOU'D, FRIENDLY, PRUDENCE, and Mrs. AILWOU'D, who, going to the Door, meets her husband, and screams.</stage>
@@ -3522,8 +3522,8 @@
 <speaker>Mrs. Ail.</speaker>
 <p>Nay, Sir, if you bear yourself so haughtily, you'll find me a match for you. It is not to-day, my dear I am to learn, that your brain is full of maggots; however, you shall call me more than once, before I come back to you, I assure you.</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="65" facs="72"/>
 <head>SCENE X.</head>
 <stage>AILWOU'D, FRIENDLY, PRUDENCE; and then NANCY and HARGRAVE.</stage>
@@ -3589,8 +3589,8 @@
 <speaker>Ail.</speaker>
 <p>Eh!—It's very true, indeed, brother.—However, let it suffice, I give the young man my daughter without any conditions at all; and now, I'll go and get effectually rid of that other plague my wife; for I shall not be easy while we areunder the same roof.</p>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>FRIENDLY, HARGRAVE, PRUDENCE, NANCY.</stage>
 <sp>
@@ -3609,8 +3609,8 @@
 <speaker>Pru.</speaker>
 <p>I know what you'd be at, Sir, and I'll second you.</p>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>FRIENDLY, HARGRAVE, PRUDENCE, NANCY, Dr. LAST, and afterwards AILWOU'D.</stage>
 <sp>
@@ -3773,8 +3773,8 @@
 <speaker>D. Last.</speaker>
 <p><stage>(As they are taking him away.)</stage> I'll swear to the assault—and, if I don't get redemnification—</p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE LAST.</head>
 <stage>AILWOU'D, FRIENDLY, HARGRAVE, NANCY, PRUDENCE, POLLY.</stage>
 <sp>
@@ -3818,12 +3818,12 @@
 <speaker>Ail.</speaker>
 <p>Ay, my dear, I dare swear you'll lose no time—But, come, brother, let us now go in.—I have got rid of my wife; I have forsworn quacks and physic—and, I hope, I shall have the satisfaction to see our friends contented.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="78"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by a LITTLE GIRL of Five Years old.</byline>
@@ -3875,7 +3875,7 @@
 <l>And if you want me louder, taller, bolder,</l>
 <l>Have patience—I shall mend, as I grow older.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

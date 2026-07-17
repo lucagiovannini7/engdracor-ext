@@ -7,20 +7,20 @@
 <extent>[2],iv,[2],40p. ; 8⁰.</extent><publicationStmt><publisher>sold by F. Stamper,</publisher><date>1752.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By William Kenrick.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT40324.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>FUN: A Parodi-tragi-comical SATIRE.</p>
 <p>As it was to have been perform'd at the <hi>Castle-Tavern, Pater-noster-Row,</hi> ON THURSDAY, FEBRUARY 13, 1752, BUT <hi>Suppressed,</hi> BY A Special ORDER from the LORD-MAYOR and COURT of ALDERMEN.</p>
 <p>LONDON: <hi>Sold by F. STAMPER in</hi> Pope's-head Alley, Cornhill; and by all other Booksellers.</p>
 <p>MDCCLII.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE Publication of this Piece would not have been so long delay'd, but for the Expectation of performing it, as at first intended; which however, by the same indefatigable Opposition, was still frustrated.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="3"/>
 <head>PREFACE.</head>
 <p><seg rend="decorInit">T</seg>HE Father of the following little Offspring, being very well convinc'd of the natural Weakness of this his puny Child, did never intend to trust it abroad without the <hi>LEADING STRINGS</hi> of <hi>Action;</hi> had not the Fear of those, who, like Cowards, are afraid of their own Shadows, assiduously oppos'd the Representation; being terribly apprehensive that the Strength of a poor Baby <hi>Monosyllable</hi> might affect the Magnanimity of a <hi>Drawcansir.</hi>—Such is the Force of Self-Conviction!—But as this Infant is oblig'd to walk alone, by many who are resolv'd on it's Appearance, it's Father most humbly desires the good-natur'd Town will not tumble the little Creature into the Dirt; but that they will help it forward over the Kennels of Detraction; and, in Compassion to the Tenderness of it's Age, keep the barking Curs, the Critics, at a Distance.— And to excite them to this Benevolence, here
@@ -34,8 +34,8 @@ follow the Memoirs of the cruel and affecting Period of its Birth, &amp;c.</p>
 <p><pb n="iii" facs="5"/>Notwithstanding, however, all such malignant Measures were taken, the full Time of Pregnancy advanc'd, and the Child was hourly expected; when a <hi>positive Order</hi> came down, that <hi>Mrs. FUN,</hi> who then lay at the <hi>Castle-Tavern, Pater-noster-Row,</hi> must not be brought to-bed within the Walls, lest the Child, which was suspected to be a Bastard, should bring a Scandal on the <hi>Dignity</hi> and <hi>Chastity</hi> of the City. Upon this, even while the Lady lay crying out, the Father waited on the chief Personage of the <hi>Liberties,</hi> with Remonstrances, that the Child was very honestly got, and that none but very creditable People were at the Labour; complaining, at the same Time, that the same Privilege had been permitted an <hi>old Woman</hi> of <hi>a very bad Character,</hi> one <hi>Mother Midnight,</hi> who had often practis'd her Profession there, tho' it was now denied others. —'Twas all in vain: The Gentleman, though he behav'd with a great deal of Politeness and Good-manners, was so prepossess'd against the whole Family of <hi>FUN,</hi> which had been falsely represented to him as of no Character or Reputation, that he not only forbid the Men Midwives doing their Duty, but sent others to see his Orders duly executed.—What could now be done?—<hi>Mrs. FUN</hi> was, in the midst of her Travail, remov'd; and, nobody daring to give her Assistance, her poor Offspring almost perished in the Birth. But
 <pb n="iv" facs="6"/>
 Nature had been liberal, the <hi>Stamina</hi> were sound, and branched out for Life. 'Tis true, indeed, its Features were so defac'd, that the strong <hi>Likeness</hi> in them was almost lost; and a Weakness, which will be lasting as it's Life, is the Consequence of the Usage it then met with.—If, after all, then, it should fail of answering those Expectations the Town had of it, in Embrio; it will undoubtedly be thought, there is Reason enough to excuse all the Imperfections and Failings it is unhappily afflicted with; since these are so far from being its Faults, that they are Misfortunes which must infallibly engage the Protection of every candid, tender-hearted, <hi>christian</hi> Reader!</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE.</head>
 <l>AS dying Sinners hope to get to Heav'n,</l>
@@ -80,8 +80,8 @@ Nature had been liberal, the <hi>Stamina</hi> were sound, and branched out for L
 <l>Of Learning, Genius, Taste or Common Sense.</l>
 <l>Who then will censure what may here be done?</l>
 <l>What <hi>WIT</hi> will criticise a <hi>PIECE OF FUN?</hi></l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>Persons of the DRAMA.</head>
 <list>
@@ -101,13 +101,12 @@ Nature had been liberal, the <hi>Stamina</hi> were sound, and branched out for L
 <item>Four Witches.</item>
 <item>Drawer, Ghost, <hi>THIEF, JUSTICE,</hi> Mob and Attendants.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="9"/>
 <head>FUN.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>Discovers Three Witches.</stage></head>
 <stage>Enter <hi>HECATE.</hi></stage>
 <sp>
@@ -513,8 +512,8 @@ Nature had been liberal, the <hi>Stamina</hi> were sound, and branched out for L
 <l>My BACCO BOX, and onward to the Field.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="9" facs="17"/>
 <head>SCENE II. <stage>A Coffee-House, Covent-Garden.</stage></head>
 <stage><hi>Sir</hi> Nackadil Trunnion, <hi>Squire</hi> Antony.</stage>
@@ -919,8 +918,8 @@ JACK RIOT.</p>
 <p>Have among you, my Boys.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="19" facs="27"/>
 <head>SCENE III. <stage>Doctor <hi>Mountain,</hi> reading a Paper.</stage></head>
 <sp>
@@ -1057,8 +1056,8 @@ And <hi>bam</hi> the Town—you own your Pow'r subdued,</l>
 <l>And I—</l>
 </sp>
 <stage>[They go out fighting.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>The <hi>Brazen Heap.</hi></stage></head>
 <head type="sub">A Specimen of <hi>TRUE ORATORY.</hi></head>
 <sp>
@@ -1075,8 +1074,8 @@ then I am five times as good as she—Solo on a Broom-stick—did you ever hear 
 <stage>Dog sings again.</stage>
 <p>—Conviction! now who's Conqueror? <hi>Epaminondas</hi> a great Man—I much like him —have been up long enough since I go down unconquer'd.—</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="25" facs="33"/>
 <head>SCENE V.</head>
 <stage>Justice <hi>Bobadil,</hi> Dr. <hi>Mountain, Riot,</hi> Sir <hi>Nackadil Trunnion, File,</hi> Mrs. <hi>Brindle.</hi></stage>
@@ -1313,8 +1312,8 @@ of Things, I will hear what you have to say to't.</p>
 <speaker>Riot.</speaker>
 <p>A dry troublesome old Bitch, this!— I believe I had better make it up with him, damn my Blood!—</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Enter <hi>Roxana Termagant.</hi></stage>
 <sp>
@@ -1389,8 +1388,8 @@ Fool!—I'll make him loath her Name—</l>
 <l>That never more he shall for her awake.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Enter 'Squire <hi>Antony,</hi> whistling.</stage>
 <sp>
@@ -1470,8 +1469,8 @@ all?—Where did the Fire begin? What part of the House?—Is your Mother safe? 
 <p>Mighty pretty! a fine Fellow, that!— I had intrusted my Son with a fine Rascal—he would give me a good Account of him—a very good Account indeed, and this was the Way you was to become a great Man—Come along, Sir, and if ever I see you conversing with that Cousin of your's again, I shall wring your Nose off for you—Come, Sir, I shall take another Course with you—I am now going to <hi>Gresham College</hi> —Come along, Sir—let me see if you can learn nothing better there.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="37" facs="45"/>
 <head>SCENE VIII. <stage>Drawcansir <hi>soulus—reading at a Table.</hi></stage></head>
 <sp>
@@ -1626,9 +1625,8 @@ I bear a charmed Life, and cannot die</l>
 <l>And now in Death I'm <hi>punish'd</hi> with a <hi>Pun.</hi></l>
 </sp>
 <stage>[Exit dying.</stage>
-</div2>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

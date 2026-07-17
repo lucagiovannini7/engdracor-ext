@@ -7,11 +7,11 @@
 <extent>xv,[1],430p. ; 4⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1784.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Cancels E4,Ii3,Rr3,Uu3 and Aa3 are known.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT90106.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="106"/>
 <p>MARCELLA; A TRAGEDY, OF THREE ACTS.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="107"/>
 <head>PREFACE.</head>
 <p>THE following Tragedy may perhaps attract the notice of the curious reader, more by a literary anecdote relating to its subject, than by any intrinsic merit as a dramatic composition.</p>
@@ -21,7 +21,7 @@
 <pb n="96" facs="108"/>
 of his friendship, had an undisputed title to influence my studies.—Other works had engaged me, and this dramatic story lay for some years neglected: but in looking over the letters of my still-valued, though lost correspondent, it struck me with new force. As the distress, with which it abounds, is of a private nature, it appeared to me singularly calculated for my purpose of forming a drama for a domestic theatre. I have therefore, with some considerable alterations in the principal incident, raised from it a tragedy of three acts; with what success, it is now the privilege of my readers to pronounce.</p>
 <p>I will not attempt to influence their decision by any arguments in its behalf; but let me be allowed to close this short preface with a little poetical acknowledgment to the two literary illustrious friends, who first marked the story for the tragic Muse, and from whom it has accidentally descended to me.</p>
-<div2 type="sonnet">
+<div type="sonnet">
 <head>SONNET.</head>
 <l>BLEST Authors! with whole same the world has rung,</l>
 <l>Immortal minds, of philanthropic mold!</l>
@@ -37,9 +37,9 @@ of his friendship, had an undisputed title to influence my studies.—Other work
 <l>Yet in the reach of emulation's flight</l>
 <l>One eminence ye share:—be that my end!</l>
 <l>Teach me to rank with you, as Virtue's friend!</l>
-</div2>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+</div>
+<div type="dramatispersonae">
 <pb facs="110"/>
 <head>Persons of the Drama.</head>
 <list>
@@ -51,14 +51,13 @@ of his friendship, had an undisputed title to influence my studies.—Other work
 <item>MARCELLA.</item>
 </list>
 <p>Servants, <hi>&amp;c.</hi></p>
-</div1>
+</div>
 <set><p>SCENE <hi>the Governor's Castle in</hi> BARCELONA.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="111"/>
 <head>MARCELLA.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head><stage><hi>The Governor's Castle.</hi></stage>
 <stage>Lupercio <hi>and</hi> Marcella.</stage>
 <sp>
@@ -770,8 +769,8 @@ Curse his happy stars!</l>
 <l>And guide my thirsty poniard to thy heart.</l>
 </sp>
 <trailer><hi>End of</hi> ACT I.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II. SCENE. I.</head>
 <sp>
 <speaker>MARCELLA</speaker>
@@ -1459,8 +1458,8 @@ Curse his happy stars!</l>
 <l>And sate insulted love with sweet revenge.</l>
 </sp>
 <trailer><hi>End of</hi> ACT II.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III. SCENE I.</head>
 <sp>
 <speaker>HERNANDEZ</speaker>
@@ -2173,8 +2172,7 @@ Curse his happy stars!</l>
 <l>His arms are riveted!—Aid me to raise,</l>
 <l>And bear him gently from this scene of death!</l>
 </sp>
-</div2>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

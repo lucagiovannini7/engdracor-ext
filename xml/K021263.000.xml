@@ -7,15 +7,15 @@
 <extent>[2],ii,[6],92,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket and P. A. De Hondt,</publisher><date>1769.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Elizabeth Griffith.</note><note>Based on P. A. Caron de Beaumarchais', 'Eugenie.' - With an epilogue written by Henry James Pye, Esq.</note><note>Final leaf contains epilogues.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT2095.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE SCHOOL FOR RAKES: A COMEDY.</p>
 <p>As it is Performed at the THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>LONDON.</p>
 <p>Printed for T. BECKET and P. A. DE HONDT, in the Strand. MDCCLXIX.</p>
 <p>[Price ONE SHILLING and SIX PENCE.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO DAVID GARRICK, <abbr>Esq</abbr></head>
 <p>DEDICATIONS are generally meant to to do honour to the Patron, by revealing their private virtues, or recording their public merits. But neither of these subjects occasioned the present address; for while the undivided applause of a nation, proclaims the latter, my small plaudit must be lost, in the general voice; and while the friendship and esteem, of so many of the first personages of the age, are, at once, the strongest testimony, and most pleasing reward, of the former, my simple concurrence must be deemed superfluous.</p>
@@ -25,8 +25,8 @@ your patronage; but to a desire of acknowledging my gratitude, for the great tro
 <closer><salute>Sir,</salute>
 <signed>Your much obliged, and most humble servant,
 The AUTHOR.</signed></closer>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="4"/>
 <head>ADVERTISEMENT.</head>
 <p>THE hint of this comedy was taken from a much admired performance of Monsieur <hi>Beaumarchais,</hi> stiled <hi>Eugenie,</hi> which Mr. Garrick was so kind to put into my hands, some time ago. I was immediately struck with the elegant simplicity of language, and sentiment, which characterizes that work, and which, indeed, should do the same, in all dramatic writings, where neither the persons, or situations of the drama, are elevated above the common degrees of life.</p>
@@ -39,8 +39,8 @@ which the public have honoured this piece; and I think myself extremely happy, a
 <p>I acknowledge myself also much obliged to the rest of the performers in my play, for having acquitted themselves so much to the advantage of the piece, and the approbation of the public; to whom I have the honour to be,</p>
 <closer><signed>A much obliged, and Most obedient Servant,
 The AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE, Written by a FRIEND.</head>
 <p>Spoken by Mr. KING.</p>
@@ -89,14 +89,14 @@ Could I please <note n="*" place="marg">Pit.</note> <hi>You,</hi> and <note n="�
 <l>Here ends my task—and for our last expedient—</l>
 <l>The auth'ress makes you this <stage>(Curtseys)</stage>—and this <stage>(Bows)</stage></l>
 <closer><signed>Your most obedient.</signed></closer>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="8"/>
 <p><hi>Speedily will be published,</hi> (In FOUR VOLUMES Twelves) TWO NOVELS: <hi>The first intituled,</hi> THE DELICATE DISTRESS; and the other, The GORDIAN KNOT.</p>
 <p>By HENRY and FRANCES.</p>
 <p>Printed for BECKET and Co. in the Strand.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="9"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -115,15 +115,14 @@ Could I please <note n="*" place="marg">Pit.</note> <hi>You,</hi> and <note n="�
 <item>Harriet, Mrs. BADDELEY.</item>
 <item>Betty, Servant to Harriet, Mrs. SMITH.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="10"/>
 <head>THE SCHOOL FOR RAKES.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in Lord</hi> EUSTACE<hi>'s House.</hi></stage></head>
 <stage><hi>Enter Mr.</hi> FRAMPTON <hi>and</hi> WILLIS.</stage>
 <sp>
@@ -211,8 +210,8 @@ but I fancy he never stood more in need of your assistance, and mine, too, than 
 to proceed no farther, than is consistent with my honour, and my peace.—I have consented to see the lady, and excuse his absence.—I must wait for Sir William's going out, and then hasten to fulfil my promise.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to another Apartment.</hi></stage></head>
 <stage><hi>Discovers Sir</hi> WILLIAM, <hi>Mrs.</hi> WINIFRED, and HARRIET, <hi>in travelling dresses—trunks, cloak bags, &amp;c.</hi> BETTY <hi>attending.</hi></stage>
 <sp>
@@ -524,8 +523,8 @@ child? Have I not, with the greatest address, imaginable, managed matters, with 
 <p>He must certainly be a friend, or relation, of your lord's—I think we had better step into the parlour, to receive him, lest your father's return should interrupt us. We will see the gentleman, below, Robert, and wait on him, directly.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to a Garden Parlour.</hi></stage></head>
 <stage><hi>Enter Mr.</hi> FRAMPTON.</stage>
 <sp>
@@ -812,12 +811,12 @@ by telling her you were in Berkshire, with your father; and the inconsistency of
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="29"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a Drawing-Room in Lord</hi> EUSTACE<hi>'s House.</hi></stage></head>
 <stage><hi>Enter Lord</hi> EUSTACE.</stage>
 <sp>
@@ -1240,9 +1239,9 @@ him.—But 'tis hard to say, which is good, or bad, amongst them.</p>
 <p>And I'll go, and write the good news, to my friends in Wales.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <pb n="31" facs="40"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Mr. Frampton's Apartment.</hi></stage></head>
 <stage><hi>Enter Mr.</hi> FRAMPTON <hi>and</hi> WILLIS.</stage>
 <sp>
@@ -1318,8 +1317,8 @@ him.—But 'tis hard to say, which is good, or bad, amongst them.</p>
 <p>A fit one, for such an office! It is such wretches, as these, that corrupt us all; that clear the thorny paths of vice, and strew them o'er with roses.—These agents for perdition, can remove mountains that obstruct our passage, till we are sunk in the abyss of guilt, and then their weight falls on us! I would willingly persuade myself, that lord Eustace is not so far gone, in baseness, as to conclude his marriage with lady Anne, and desert this amiable unfortunate. Yet can I not, at present, foresee, how it may be possible for him, to avoid it. There is some time, however, to think about it. I'll seek him out, directly, and try how his heart beats, after his interview with Harriet.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Sir William's Apartment.</hi></stage></head>
 <stage><hi>Sir</hi> WILLIAM <hi>and</hi> HARRIET <hi>discover'd.</hi></stage>
 <sp>
@@ -1622,12 +1621,12 @@ shou'd not be able to inform us where my nephew lodges, as that is the only thin
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="41" facs="50"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Frampton's Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> FRAMPTON.</stage>
 <sp>
@@ -1944,8 +1943,8 @@ rather, by the means we use, to save them from distress—But let us, at present
 wishes—My lord, I am sure, would be glad to know the contents; egad, and so should I, too—but how shall I come at 'em?—This cursed seal <stage>(flirts it with his finger.)</stage> Zounds! what have I done?—what an accident! why, the letter's open?—why, if it is, one may read it, without offence—So, by your leave, good Mrs. Winifred— <stage>(reads)</stage> Madam, as I am sensible the dreadful moment now approaches, when I must render an account of all my actions—A steward's account will be tolerably long, I suppose. <stage>(Continues reading.)</stage> I wish, even by this late confession, to atone for the crime I have been guilty of, in aiding lord Eustace to impose upon your niece, by a feigned marriage.—The devil! This is a confession, indeed! for which, like all other mean-spirited, whimpering rascals, he deserves to be hanged. My lord was in the right, to look sharp, after this business—We must have been blown up, if it had come to light. But as I hope to be well paid, for the contents of this, I may let the others go free.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to Sir William Evans's Apartment,</hi> HARRIET, <hi>seated on a Couch, leaning on her Arm.</hi></stage></head>
 <sp>
 <speaker>Har.</speaker>
@@ -2505,12 +2504,12 @@ think I shou'd know a clergyman, in any dress. I am not quite so easily impos'd 
 <p>Then, positively, I will—I am determin'd to know the truth, from him. I own I begin to be a little doubtful, about this matter, myself. This letter may be forg'd—but those eternal reports confound me—'Tis impossible he should dare to deceive me—but if he has, he shall find that the Ap Evans's are not to be injured, with impunity.</p>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="61" facs="70"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The Park.</hi></stage></head>
 <stage><hi>Enter Capt.</hi> LOYD, <hi>and Col.</hi> EVANS.</stage>
 <sp>
@@ -2614,8 +2613,8 @@ boy, and left them, and you on the dry land, Harry.</p>
 <p>My meeting with this blundering sailor, was unlucky, as my father may, perhaps, be displeas'd at my not waiting on him, the moment I knew of his being in London.—But I cannot break my engagement, with lady Anne—every thing must give way, to that charming woman—I will fly to her, directly, and, if possible, find time to pay my duty to my father, before I sleep.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE, <hi>Sir William's Apartment.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> WINIFRED, <hi>and</hi> ROBERT.</stage>
 <sp>
@@ -2787,8 +2786,8 @@ undone, by it—Suppose you were to meet lord Eustace, and he shou'd kill you.</
 <p>Vanish! <stage>(Exit Rob.)</stage> I must not let my brother and lord Eustace meet, 'till every thing is settled.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Garden Parlour.</hi></stage></head>
 <stage><hi>Enter Lord</hi> EUSTACE <hi>and Col.</hi> EVANS, <hi>with their Swords in their Hands, Lord</hi> EUSTACE <hi>lays his on a Chair.</hi></stage>
 <sp>
@@ -2890,8 +2889,8 @@ prepare my father for her reception—But here comes my new friend.</p>
 <p>Your lordship's inclination does me honor.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Another Apartment.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> WINIFRED, <hi>leading</hi> HARRIET.</stage>
 <sp>
@@ -3193,12 +3192,12 @@ only man, on earth, that I shou'd fear to meet, upon such terms▪</p>
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="78" facs="89"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Mr. Frampton's Apartment.</hi></stage></head>
 <stage><hi>Ld</hi> EUSTACE <hi>and Mr.</hi> FRAMPTON <hi>discovered.</hi></stage>
 <stage>Lord Eustace rises from a Table, as if writing.</stage>
@@ -3290,8 +3289,8 @@ infamous affair; and, I say, again, you must not raise your arm, against Sir Wil
 <p>Your lordship will scarcely ever find a sincerer. <stage>(Exit lord Eustace.)</stage> Of what opposite qualities, is this young man compounded? What a mixture, of good, and evil! But are we not all made of the same materials? The devil himself cannot always mislead a man, that has principles; they will recur, in spite of him, and make their owner act rightly, upon trying occasions.—This letter to his father, shews him to be a man of honor.—Something must be done, to preserve him.—I cannot give him up.—An experiment, tho' a hazardous one, must be made, directly.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE, <hi>Sir William's Apartment.</hi></stage></head>
 <stage><hi>Enter</hi> HARRIET, <hi>and Mrs.</hi> WINIFRED.</stage>
 <sp>
@@ -3838,13 +3837,12 @@ and so I wish your lordship, your ladyship, and all your ships, a prosperous voy
 <l>Some power divine conducts her swelling sails,</l>
 <l>And, of her due reward, she seldom fails.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="104"/>
 <head>EPILOGUE, Written by the Author of the PROLOGUE, And Spoken by Mrs. CLIVE.</head>
 <l>I LONG to know, dread Sirs, with due submission,</l>
@@ -3882,8 +3880,8 @@ and so I wish your lordship, your ladyship, and all your ships, a prosperous voy
 <l>'Till she escapes this dreadful <hi>pack of wits;</hi></l>
 <l>She hopes you will not hunt her, she's so small,</l>
 <l>But <hi>hark</hi> to mercy, as the noblest call.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="105"/>
 <head>AN EPILOGUE, Written by HENRY JAMES PYE, <abbr>Esq</abbr></head>
 <lg>
@@ -3920,7 +3918,7 @@ and so I wish your lordship, your ladyship, and all your ships, a prosperous voy
 <l>Rests, on your candor, all her hopes and fears,</l>
 <l>And only claims<hi>—a Trial by her Peers.</hi></l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

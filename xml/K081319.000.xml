@@ -7,12 +7,12 @@
 <extent>63,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed [by Joseph Cooper] in the year,</publisher><date>1785.</date><pubPlace>Calcutta :</pubPlace></publicationStmt><notesStmt><note>With a printers device on the titlepage containing the initials J.C., i.e. Joseph Cooper.</note><note>Reproduction of original from the British Library.</note><note>Shaw, 58</note><note>English Short Title Catalog, ESTCT101049.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE TWO CONNOISSEURS; A COMEDY, IN RHYME. WRITTEN FOR A PRIVATE THEATRE, BY WILLIAM HAYLEY, ESQ.</p>
 <p>CALCUTTA: PRINTED IN THE YEAR M.DCC.LXXXV.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>PERSONS OF THE DRAMA.</head>
 <list>
@@ -30,15 +30,14 @@
 <item>MRS. BIJOU,</item>
 <item>JOAN.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3"/>
 <head>THE TWO CONNOISSEURS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT THE FIRST.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.<stage>— Chambers in the Temple.</stage></head>
 <stage>Tom Careless <hi>and</hi> Mr. Cycle.</stage>
 <sp>
@@ -300,8 +299,8 @@
 <l>You don't rank his heart in the petrified class.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><hi>SCENE changes to a Drawing Room at</hi> Mrs. Bijou'<hi>s, with a Door open into an interior Cabinet of Curiosities. — Several stuff'd Creatures and other Rarities discovered in the Apartment.</hi></stage>
 <sp>
 <speaker>JOAN,</speaker>
@@ -848,12 +847,12 @@
 <l>May I turn in her arms to a cold petrifaction!</l>
 </sp>
 <trailer>End of ACT I.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="25" facs="23"/>
 <head>ACT THE SECOND.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE I.</hi><stage>— An elegant Apartment, ornamented with a few Busts and Books, a large Statue covered up, and a Door open into a more extensive Library.</stage></head>
 <stage>Mr. Beril <hi>and</hi> Harry.</stage>
 <sp>
@@ -1853,11 +1852,11 @@
 <l>My dear Cycle, adieu!</l>
 </sp>
 <trailer>End of ACT II.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT THE THIRD.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I.</head>
 <stage>Lord Seewell <hi>and</hi> Lady Harriot.</stage>
 <sp>
@@ -2166,8 +2165,8 @@ Ah, Harriot, 'tis so;</l>
 <l>We will all, my dear Harriot, attend on your lover.
 <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the Apartments of</hi> Mrs. Bijou.</stage></head>
 <sp>
 <speaker>MR. BIJOU.</speaker>
@@ -2494,9 +2493,8 @@ Ah, Harriot, 'tis so;</l>
 <l>To Friendship and Want all we can we will give,</l>
 <l>And buy no more baubles as long as we live.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

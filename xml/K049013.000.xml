@@ -7,12 +7,12 @@
 <extent>xiv,[2],88p. ; 8⁰.</extent><publicationStmt><publisher>printed by Luke Hansard, for Lackington, Allen, &amp; Co.,</publisher><date>1800.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Based on Kotzebue's 'Johanna von Montfaucon'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT54929.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>JOANNA OF MONTFAUCON; A DRAMATIC ROMANCE OF THE FOURTEENTH CENTURY: AS PERFORMED AT THE Theatre-Royal, Covent-Garden. FORMED UPON THE PLAN OF THE GERMAN DRAMA OF KOTZEBUE: AND ADAPTED TO THE ENGLISH STAGE BY RICHARD CUMBERLAND.</p>
 <p>London: Printed by Luke Hansard, Great Turnstile, Lincoln's-Inn Fields, FOR LACKINGTON, ALLEN, <hi>&amp;</hi> CO. TEMPLE OF THE MUSES, FINSBURY SQUARE. 1800.</p>
-</div1>
-<div1 type="tothereader">
+</div>
+<div type="tothereader">
 <pb facs="2"/>
 <pb n="iii" facs="3"/>
 <head>TO THE READER.</head>
@@ -59,8 +59,8 @@ but that I am given to understand an opinion was in circulation, that I had vani
 <pb n="xiv" facs="14"/>
 revenge. But the task of adapting this German Drama to our stage was no work of my seeking, and though I expended more pains upon it than I ever did upon any play in my life, the hopes I formed of its success were chiefly grounded on the brilliancy of the spectacle, and the excellence of the music: As for Pizarro, I envy not his success; I do not aspire to rival it, I cannot wish to lessen it; and if any man doubts my sincerity, let him put himself in the predicament of an author, for years held off from receiving the fair and moderate earnings of his productive services; and looking to that very fund for indemnification, then let him ask his conscience what he would say to such an idle imputation, and his answer shall be mine.</p>
 <closer><signed>R. C.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="15"/>
 <head>PROLOGUE.</head>
 <l>THE Scenes that soon will open to your view,</l>
@@ -99,8 +99,8 @@ revenge. But the task of adapting this German Drama to our stage was no work of 
 <l>Her better prologue to more moving airs—</l>
 <l>If knotted oaks will bend to her appeal,</l>
 <l>Need she despair that hearts of oak will feel?</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="16"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -154,14 +154,14 @@ revenge. But the task of adapting this German Drama to our stage was no work of 
 <item>Miss Cox.</item>
 </list>
 <p>CHORUSSES <hi>by the Vocal Performers.</hi></p>
-</div1>
+</div>
 <set><p><hi>Scene</hi> SWISSERLAND.</p></set>
 </front>
 <body>
 <head><pb facs="17"/>JOANNA.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head><stage>SCENE discovers a number of Peasants assembled on a Terrace belonging to the magnificent Castle of <hi>THURN. LAZARRA,</hi> in the habit of a Pilgrim, stands apart from the group, observing their proceedings.</stage></head>
 <sp>
 <speaker>FIRST PEASANT.</speaker>
@@ -626,8 +626,8 @@ you have too much of the good thing called Mercy.</p>
 <p>Thank you, Madam; you have said it just in time, or I must else have said it for myself; and of all the praise, that can be given me, I am least flatter'd by my own, and much the most by your's.</p>
 </sp>
 <stage>(Exeunt severally).</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a Grove. <hi>ELOISA</hi> alone.</stage></head>
 <sp>
 <speaker>ELOISA.</speaker>
@@ -728,8 +728,8 @@ you have too much of the good thing called Mercy.</p>
 them. Yes, yes; there waves his feather'd hat— I see him. Heaven be with you! Heaven and the angel of our love protect you!</p>
 </sp>
 <stage>(Exit.)</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a mountainous and romantic country, peculiar to Swisserland, with practicable passes, and a rude bridge thrown over a torrent.</stage></head>
 <stage>GUNTRAM, DARBONY, <hi>and armed Soldiers.</hi></stage>
 <sp>
@@ -828,13 +828,13 @@ need no other torch but that which rage supplies. —Why don't they rouse?—Why
 </lg>
 </sp>
 <stage>(Exeunt, marching.)</stage>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="36"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>the interior of a rocky cavern; <hi>LAZARRA, DARBONY,</hi> and armed soldiers, posted at the avenues of the cave.</stage></head>
 <sp>
 <speaker>LAZARRA.</speaker>
@@ -888,8 +888,8 @@ need no other torch but that which rage supplies. —Why don't they rouse?—Why
 <l>"Huzza! we conquer or we die!"</l>
 </sp>
 <stage>(Exeunt, marching.)</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="22" facs="38"/>
 <head><stage>SCENE changes to the castle of Thurn, moated, and the draw-bridge down, over which <hi>WOLF</hi> passes.</stage></head>
 <sp>
@@ -973,8 +973,8 @@ ago. Send off these fellows, and you shall have all the ransom to yourself.</p>
 You've got it, my fine fellow! drink your fill; make yourself welcome! Farewell, honest Reinhard! —May all the foes of Albert so be treated.</p>
 </sp>
 <stage><hi>(Exit</hi> WOLF.)</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="25" facs="41"/>
 <head><stage>SCENE changes. A grand hall of Saxon architecture, in which there are trophies of armour, banners, &amp;c.</stage></head>
 <stage>LAZARRA, DARBONY.</stage>
@@ -1131,8 +1131,8 @@ And here I chuse. Come forth, thou trenchant blade! blush not to prove thyself t
 <p>My son! my son!—I live for thee, my son!</p>
 </sp>
 <stage>(runs and catches him in her arms, and exit.)</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a wild and broken view of forest and cliffs; on the summit of which, in a romantic situation, the watch-tower of Belmont Castle is seen.</stage></head>
 <sp>
 <speaker>ALBERT</speaker>
@@ -1323,13 +1323,13 @@ with half a score of rapiers at my throat, expecting every moment my quietus; bu
 <p>I know what sort of tenements your's are, and how you live scot-free, under the wind, and pay no rent except to Providence, on whose account you garnish out your lodgings with mementoes, that mark the tenure under which you hold: But all your skulls and bones won't break my rest; Death is to me no stranger; I've seen him in all shapes; in all his terrors; and know his face too well to fear his picture.</p>
 </sp>
 <stage>(Exeunt.)</stage>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="36" facs="52"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>(A Chamber in the Castle of Thurn. <hi>LAZARRA.</hi> An Attendant.)</stage>
 <sp>
 <speaker>ATTENDANT.</speaker>
@@ -1393,8 +1393,8 @@ with half a score of rapiers at my throat, expecting every moment my quietus; bu
 <p>And if you keep it not, you kiss your death.</p>
 </sp>
 <stage>(Exeunt severally.)</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>(Scene the same as at the conclusion of the first Act.)</stage>
 <stage>(HERMIT <hi>and</hi> WOLF.)</stage>
 <sp>
@@ -1915,13 +1915,13 @@ than father. Here in my hand is liberty for Albert; a secret passage, which thes
 </sp>
 <stage>(The <hi>HERMIT</hi> wrings his hands, and with a sorrowful expression looks up to Heaven.)</stage>
 <stage>(Scene drops.)</stage>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="54" facs="70"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>A View of <hi>GUNTRAM</hi>'s House, with the adjacent Country.</stage>
 <sp>
 <speaker>HERMIT</speaker>
@@ -2089,8 +2089,8 @@ than father. Here in my hand is liberty for Albert; a secret passage, which thes
 <p>Now, Fortune speed us! Avarice, for once thou hast befriended virtue—and I thank thee.</p>
 </sp>
 <stage>(Follows <hi>GUNTRAM</hi> into the house.)</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><pb n="58" facs="74"/>SCENE changes to the Saxon Hall in the Castle of Thurn.</stage>
 <stage>(EUGENE <hi>enters.</hi>)</stage>
 <sp>
@@ -2226,8 +2226,8 @@ Take hence that brat! He shall not enter here.</p>
 <p>No, you may not. Because you tauntingly pronounce my sight so hateful, that the blast of death wou'd be more welcome, I'll henceforth provide, that if you ever let the light of Heaven visit your eyes, you shall behold Lazarra. I'll have a score of painters set to work, and hang my portrait up in every chamber through which you pass, 'till the detested image of him whose presence taints the genial air shall be so everlastingly impress'd on your mind's eye, in darkness you shall see it; in solitude, in sleep, I still will haunt you, nor shall the grave itself conceal me from you.—Now follow me, proud dame! Do you rebel?—Move, or my guards shall drag you—Hah! 'tis well! I will not quit you. Tho' my passing shadow, where it fell on you, blister'd your fair flesh, I will not bait one atom of your penance.</p>
 </sp>
 <stage>(Exeunt.)</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="62" facs="78"/>
 <stage>(SCENE changes to a romantic View, where the Hermit's Cave is discovered.—<hi>WOLF</hi> marches in with a party of Mountaineers rudely armed. A quick March is play'd.)</stage>
 <sp>
@@ -2566,13 +2566,13 @@ done you more than wrong enough already: besides, you are unarm'd.</p>
 <p>Yes, a rough tear; not one of your soft drops, that whimpering pity sheds: I never weep, except for joy that honest men are happy. Come, signor Darbony, enter the cell: you are not overburden'd with humanity; a few more lessons of this sort won't hurt you.</p>
 </sp>
 <stage>(enter the cell.)</stage>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="73" facs="89"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>SCENE, a Defile in the Neighbourhood of Thurn Castle; <hi>ALBERT, PHILIP, HERMIT, ELOISA, WOLF,</hi> and <hi>SOLDIERS.</hi></stage>
 <sp>
 <speaker>ALBERT.</speaker>
@@ -2640,8 +2640,8 @@ This, and the darkness of the night, will guard us, therefore, go forth, and con
 <p>Escort them to the place! We, the mean while, will martial our brave band, and for our wives, our children, and our altars, assur'd of conquest, we rush upon the foe!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE changes to an Apartment in the Castle of Thurn.</stage>
 <stage><hi>(JOANNA</hi> enters.)</stage>
 <sp>
@@ -2687,8 +2687,8 @@ This, and the darkness of the night, will guard us, therefore, go forth, and con
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE changes to the Saxon Hall.</stage>
 <stage><hi>(LAZARRA,</hi> with armed followers.)</stage>
 <sp>
@@ -2806,8 +2806,8 @@ off! Sound, sound a charge! and follow to the bridge!</p>
 <p>And I will conquer, or expire with Albert!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="81" facs="97"/><head>SCENE, <stage>a broken and picturesque Country.—On the Flank, the Bower where the <hi>HERMIT</hi> and <hi>ELOISA</hi> are concealed.</stage></head>
 <stage>(HERMIT <hi>leads forth</hi> ELOISA.)</stage>
 <sp>
@@ -3030,14 +3030,14 @@ time must shew what my full heart conceives, for language cannot. Philip, behold
 </lg>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="colophon">
+<div type="colophon">
 <p>Printed by Luke Hansard, Great Turnstile, Lincoln's-Inn Fields.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

@@ -7,12 +7,12 @@
 <extent>xv,[1],55,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for Samuel Chapman,</publisher><date>1724.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT125844.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE TRAGEDY OF <hi>Sir</hi> THOMAS OVERBURY.</p>
 <p>(Price 1<hi>s.</hi> 6<hi>d.</hi>)</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>THE TRAGEDY OF Sir <hi>Thomas Overbury:</hi> As it is Acted at the THEATRE-ROYAL in <hi>Drury-Lane,</hi> BY HIS Majesty's Company of Comedians.</p>
 <p><hi>Written by</hi> RICHARD SAVAGE, Son of the Late Earl <hi>Rivers.</hi></p>
@@ -22,8 +22,8 @@
 <l>Si vestros Animos Amor,</l>
 <l>Quo Coelum regitur, regat.</l>
 <p><hi>LONDON;</hi> Printed for SAMUEL CHAPMAN, at the <hi>Angel</hi> in <hi>Pallmall.</hi> M.DCC.XXIV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="5" facs="3"/>
 <head>TO <hi>HERBERT TRYST</hi> <abbr>Esq</abbr> OF THE City of <hi>Hereford.</hi></head>
 <opener><salute>SIR,</salute></opener>
@@ -36,8 +36,8 @@ very mean in this Civility, to ask your Pardon for neglecting it, were to deserv
 of your Virtues that I have, I should find many Rivals, when I beg leave to subscribe myself,</p>
 <closer><salute>SIR,</salute>
 <signed>Your Devoted, Humble Servant, Richard Savage.</signed></closer>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb n="8" facs="6"/>
 <head>ADVERTISEMENT.</head>
 <p><seg rend="decorInit">T</seg>HE Importunity of the Publisher being very pressing, I omit the <hi>Preface</hi> which I intended, wherein I propos'd (by way of <hi>Essay</hi>) a Discourse on <hi>TRAGEDY:</hi> The Subject being too copious to treat of, in this short Time, I defer it, either to publish it single, or to join it with some other Work.</p>
@@ -49,8 +49,8 @@ Mr. <hi>Aaron Hill,</hi> for his many judicious Corrections in this Tragedy. On 
 <pb n="10" facs="8"/>
 Mr. <hi>Theophilus Cibber,</hi> who was very careful in the Management of the Rehearsals, and endeavour'd to instruct every one concern'd in the Play; a Mechanism, which my Inexperience, as an <hi>Actor,</hi> made me incapable of.</p>
 <p>Tho' an <hi>Author</hi> knows the Meaning of his Scenes, he may be unacquainted with a <hi>Theatrical</hi> Method, of setting 'em in the most advantageous Appearance. <hi>Example enforces Precept:</hi> and therefore Mr. <hi>Cibber junior,</hi> took the noblest Method, to improve others, by doing Justice to his own Character; and, tho' he labours under the present Disadvantage of small Stature, I can't help concurring with the Opinion of many others, that, in <hi>Action,</hi> and <hi>Elocution,</hi> he is certainly a <hi>Prodigy.</hi></p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb n="11" facs="9"/>
 <head>PROLOGUE,</head>
 <byline>Written by <hi>AARON HILL</hi> <abbr>Esq</abbr></byline>
@@ -104,8 +104,8 @@ In a <hi>full World,</hi> our Author lives, <hi>Alone!</hi></l>
 <l>Safe, let 'em <hi>meet,</hi> by no false Fears oppress'd;</l>
 <l>Form'd to be <hi>one,</hi> and, till rejoin'd, unbless'd!</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb n="13" facs="11"/>
 <head>EPILOGUE,</head>
 <byline>Written by <hi>AARON HILL,</hi> <abbr>Esq</abbr></byline>
@@ -168,8 +168,8 @@ There, with Cold <hi>Rules,</hi> he damps the Glow of Beauty:</l>
 <l>Care shall <hi>corrode</hi> your Thoughts—Despair invade ye!</l>
 <l>Dangers <hi>rise round!—</hi>And <hi>Horns</hi> want Power to <hi>shade</hi> ye!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb n="16" facs="14"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -195,21 +195,21 @@ There, with Cold <hi>Rules,</hi> he damps the Glow of Beauty:</l>
 </list></item>
 <item>Officer, Guards, and Attendants.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>LONDON.</hi></p></set>
-<div1 type="errata">
+<div type="errata">
 <head>The Reader is desired to correct the following Errors.</head>
 <p> 
  P. 16. l. 27. for <hi>Men,</hi> r. <hi>They.</hi> 
  The last three Lines of that Speech should be omitted, 
  being printed before in the first Scene. 
  P. 41. l. 8. after <hi>me,</hi> add <hi>to.</hi>
-</p></div1>
+</p></div>
 </front>
 <body>
 <head><pb n="1" facs="15"/>
 THE TRAGEDY OF <hi>Sir</hi> THOMAS OVERBURY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage>Earl of <hi>Northampton</hi> and Sir <hi>J. Elloways,</hi></stage>
 <sp>
@@ -714,8 +714,8 @@ Life is a Dream, disturb'd by constant Cares,</l>
 </lg>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II. SCENE I.<stage><hi>continues.</hi></stage></head>
 <stage>Isabella, Cleora.</stage>
 <sp>
@@ -1306,8 +1306,8 @@ Now my rouz'd Rage cou'd hunt him in full Scent,</l>
 </lg>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
 <stage><hi>Northampton</hi> and Countess of <hi>Somerset.</hi></stage>
 <sp>
@@ -1934,8 +1934,8 @@ Let me not stay—O Wretch! Death hovers o'er thee!</l>
 </lg>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
 <head>SCENE <stage><hi>The Tower.</hi></stage></head>
 <stage><hi>Northampton</hi> and <hi>Elloways</hi> meet.</stage>
@@ -2581,8 +2581,8 @@ Each Step, methinks, I hear my Husband's Voice!</l>
 <l><hi>Thy Loss—yet never must behold thee more.</hi></l>
 </lg>
 </sp>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
 <stage><hi>Somerset</hi> solus.</stage>
 <sp>
@@ -3175,11 +3175,11 @@ Lest her Distraction shou'd commit Self-Violence.</l>
 <l><hi>Chuse glitt'ring Toys, and throw rich Pearls away.</hi></l>
 </lg>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="74"/>
 <head>Just Publish'd,</head>
 <list>
@@ -3196,8 +3196,7 @@ Lest her Distraction shou'd commit Self-Violence.</l>
 <item>The Pastoral Amours of <hi>Daphnis</hi> and <hi>Chloe,</hi> a Novel, with nine curious Cuts. Price 1<hi>s.</hi> 6<hi>d.</hi></item>
 </list>
 <p>All printed for <hi>Samuel Chapman,</hi> at the <hi>Angel</hi> in <hi>Pall-Mall.</hi></p>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

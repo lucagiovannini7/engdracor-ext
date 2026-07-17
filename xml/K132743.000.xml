@@ -7,13 +7,13 @@
 <extent>[8],75,[5]p. ; 8⁰.</extent><publicationStmt><publisher>printed for A. Millar,</publisher><date>1730.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The ornaments are those used by William Bowyer.</note><note>In this issue the press figures are as follows: pp. [6], 61 and 66 have the press figure 7; pp. 2, 15, 23, 33 and 68 have the press figure 2; and pp. 16 and 31 have the press figure 1.</note><note>Reproduction of original from the Cambridge University Library.</note><note>English Short Title Catalog, ESTCT230316.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE TRAGEDY OF <hi>SOPHONISBA.</hi> Acted at the THEATRE-ROYAL IN <hi>DRURY-LANE.</hi> By His MAJESTY'S Servants.</p>
 <p>By Mr. <hi>THOMSON.</hi></p>
 <p><hi>LONDON:</hi> Printed for A. MILLAR, at <hi>Buchanan</hi>'s Head, over-against St. <hi>Clement</hi>'s Church in the <hi>Strand.</hi> M DCC XXX.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THE QUEEN.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -23,8 +23,8 @@
 <p>I dare not, nor indeed need I, here attempt a character, where both the great and the amiable Qualities shine forth in full perfection. All words are faint to speak what is universally felt, and acknowledged, by a happy people. Permit me therefore only to subscribe my self, with the truest zeal and veneration,</p>
 <closer><salute><hi>MADAM,</hi> </salute>
 <signed>Your <hi>MAJESTY'S</hi> Most humble, Most dutiful, And most devoted Servant, <hi>JAMES THOMSON.</hi></signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="4"/>
 <head>PREFACE.</head>
 <p><seg rend="decorInit">I</seg>T is not my intention, in this preface, to defend any faults that may be found in the following piece. I am afraid there are too many: But those who are best able to discover, will be most ready to pardon them. They alone know how difficult an undertaking the writing of a tragedy is: and this is a first attempt.</p>
@@ -35,8 +35,8 @@
 contrary, invention consists in making something out of nothing: and that this huddle of incidents has always been the refuge of poets, who did not find in their genius either richness or force enough to engage their spectators, for five acts together, by a simple action, supported by the violence of passions, the beauty of sentiments, and the nobleness of expression.—I would not be understood to mean that all these things are to be found in my performance: I only shew the reader what I aimed at, and how I would have pleased him, had it been in my power.</p>
 <p>As to the character of <hi>Sophonisba</hi>; in drawing it, I have confined myself to the truth of history. It were an affront to the age, to suppose such a character out of nature; especially in a country which has produced so many great examples of public spirit and heroic virtues, even in the softer sex: and I had destroyed her character intirely, had I not marked it with that strong love to her country, disdain of servitude, and inborn aversion to the <hi>Romans,</hi> by which all historians have distinguished her. Nor ought her marrying <hi>Masinissa,</hi> while her former husband was still alive, to be reckoned a blemish in her character. For, by the laws both of <hi>Rome</hi> and <hi>Carthage,</hi> the captivity of the husband dissolved the marriage of course; as among us impotence, or adultery: not to mention the reasons of a moral and public nature, which I have put into her own mouth in the scene betwixt her and <hi>Syphax.</hi></p>
 <p>This is all I have to say of the play itself. But I cannot conclude without owning my obligations to those concerned in the representation. They have indeed done me more than justice. Whatever was designed as amiable and engaging in <hi>Masinissa</hi> shines out in Mr. <hi>Wilks</hi>'s action. Mrs. <hi>Oldfield,</hi> in the character of <hi>Sophonisba,</hi> has excelled what, even in the fondness of an author, I could either wish or imagine. The grace, dignity, and happy variety of her action have been universally applauded, and are truly admirable.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <byline>By a FRIEND.</byline>
@@ -81,8 +81,8 @@ contrary, invention consists in making something out of nothing: and that this h
 <l>Be thou his judge: in every candid breast,</l>
 <l>Thy silent whisper is the sacred test.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>The Persons represented.</head>
 <p><list>
@@ -103,15 +103,15 @@ contrary, invention consists in making something out of nothing: and that this h
 <label>Messenger, Slave, Guards, and Attendants.</label>
 <item> </item>
 </list></p>
-</div1>
+</div>
 <set><p>SCENE The Palace of <hi>CIRTHA.</hi></p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb n="1" facs="8"/>
 <head>SOPHONISBA. A TRAGEDY.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>SOPHONISBA, PHOENISSA.</stage>
 <sp>
@@ -274,8 +274,8 @@ And jealous <hi>Carthage</hi> driven, he with a few</l>
 <l>My dying country bleeds in every vein,</l>
 <l>And the warm victor thunders at our gate.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="5" facs="12"/>
 <head>SCENE II.</head>
 <stage><hi>SOPHONISBA, PHOENISSA,</hi> and to them a <hi>MESSENGER</hi> from the Battle.</stage>
@@ -343,8 +343,8 @@ A time, a righteous time, reserv'd in fate,</l>
 <l>Would <hi>Sophonisba</hi> were as near the verge</l>
 <l>Of boundless, and immortal liberty!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>SOPHONISBA, PHOENISSA.</stage>
 <stage>[After a Pause.]</stage>
@@ -448,8 +448,8 @@ A native, restless, unrelenting foe,</l>
 <l>This way the trumpet sounds; let us retire.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="9" facs="16"/>
 <head>SCENE IV.</head>
 <stage><hi>MASINISSA, SYPHAX</hi> in Chains, <hi>NARVA,</hi> Guards, <hi>&amp;c.</hi></stage>
@@ -679,8 +679,8 @@ And for no reason all. Brute violence</l>
 <l>Across the gloom—From thee deliver'd!—Ease</l>
 <l>Breathes in that thought—Lead on—My heart grows lighter!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <stage><hi>MASINISSA</hi> alone.</stage>
@@ -704,12 +704,12 @@ And for no reason all. Brute violence</l>
 <l>Are gentle to the tempest of the mind.</l>
 </lg>
 </sp>
-</div3>
+</div>
 <trailer>The End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>MASINISSA, NARVA,</stage>
 <sp>
@@ -939,8 +939,8 @@ Great actions raise the mind. But when a friend,</l>
 <l>But see, she comes! mark her majestic port.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="20" facs="27"/>
 <head>SCENE II.</head>
 <stage>MASINISSA, SOPHONISBA, NARVA, PHOENISSA.</stage>
@@ -1121,8 +1121,8 @@ By which I hold you mine, and vow to treat you,</l>
 <l>May <hi>Masinissa</hi></l>
 <l>Ne'er want the goodness he has shewn to me.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="24" facs="31"/>
 <head>SCENE III.</head>
 <stage>MASINISSA, NARVA.</stage>
@@ -1252,8 +1252,8 @@ By which I hold you mine, and vow to treat you,</l>
 <l>The sigh of peace, something, I know not what,</l>
 <l>That whispers transport to my heart.—Farewel.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="27" facs="34"/>
 <head>SCENE IV.</head>
 <sp>
@@ -1263,12 +1263,12 @@ By which I hold you mine, and vow to treat you,</l>
 <l>The streaming blood can scarce convince his eyes;</l>
 <l>Nor will he feel the wound by which he dies.</l>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="28" facs="35"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <sp>
 <stage><hi>MASINISSA</hi> alone.</stage>
@@ -1295,8 +1295,8 @@ By which I hold you mine, and vow to treat you,</l>
 <l>Even friendship's self, the vanity of fame,</l>
 <l>And all but love, for love is more than all!</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="29" facs="36"/>
 <head>SCENE II.</head>
 <stage>MASINISSA, NARVA.</stage>
@@ -1505,8 +1505,8 @@ With all the sweetness of exulting love.</l>
 <l>That I will never, never see her more!</l>
 <l>Ha! there she comes.—Pernicious fair one!—Leave me.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>SOPHONISBA, MASINISSA.</stage>
 <sp>
@@ -1928,12 +1928,12 @@ Here take me, take me, to thy wishes.</l>
 <l>And one bright calm sat trembling on the main.</l>
 </lg>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="42" facs="49"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <stage>SOPHONISBA, PHOENISSA.</stage>
 <sp>
@@ -2002,8 +2002,8 @@ Here take me, take me, to thy wishes.</l>
 <l>But this one tryal more—Heroic truth,</l>
 <l>Support me now!</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>SYPHAX, SOPHONISBA, PHOENISSA.</stage>
 <sp>
@@ -2307,8 +2307,8 @@ Be wrong. Nay since my native city wants</l>
 <l>Inhuman! that,</l>
 <l>If there is death in <hi>Afric,</hi> shall not be.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>LAELIUS, SYPHAX.</stage>
 <sp>
@@ -2411,8 +2411,8 @@ On the same couch: for personal distaste</l>
 <speaker>LAELIUS.</speaker>
 <l>What is man?</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>MASINISSA, LAELIUS.</stage>
 <sp>
@@ -2568,8 +2568,8 @@ The dread of kings!</l>
 <l><hi>Scipio</hi> is mild, but steady.—Ha! the queen.</l>
 <l>I think she hates a <hi>Roman.</hi>—and will leave thee.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="55" facs="62"/>
 <head>SCENE V.</head>
 <stage>SOPHONISBA, MASINISSA.</stage>
@@ -2675,12 +2675,12 @@ You bore his threats, and tamely-silent heard him,</l>
 <l>Thou the high passions, I the tender prove,</l>
 <l>Thy heart was form'd for glory, mine for love.</l>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="57" facs="64"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <stage>MASINISSA, NARVA.</stage>
 <sp>
@@ -2705,8 +2705,8 @@ You bore his threats, and tamely-silent heard him,</l>
 <speaker>MASINISSA.</speaker>
 <l>I want his secret audience—Leave us, <hi>Narva.</hi></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>SCIPIO, MASINISSA.</stage>
 <sp>
@@ -3116,8 +3116,8 @@ And without that the conqueror is nought</l>
 <speaker>MASINISSA.</speaker>
 <l>Well! well! no more.—It is but dying too!</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <stage><hi>SCIPIO</hi> alone.</stage>
@@ -3125,8 +3125,8 @@ And without that the conqueror is nought</l>
 <l>There is a time when virtue grows severe,</l>
 <l>Too much for nature, and even almost cruel.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>SCIPIO, LAELIUS.</stage>
 <sp>
@@ -3184,8 +3184,8 @@ Bound up in friendship from our infant years.</l>
 <speaker>LAELIUS.</speaker>
 <l>It shall be done.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <stage><hi>SCIPIO</hi> alone.</stage>
@@ -3193,8 +3193,8 @@ Bound up in friendship from our infant years.</l>
 <l>When love pours in his added violence,</l>
 <l>What are the pangs which <hi>Masinissa</hi> feels!</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="68" facs="75"/>
 <head>SCENE VI.</head>
 <stage>SOPHONISBA, PHOENISSA.</stage>
@@ -3259,8 +3259,8 @@ Bound up in friendship from our infant years.</l>
 <l>Whence this pale slave? he trembles with his message.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>SOPHONISBA, PHOENISSA</hi>; and to them a <hi>SLAVE,</hi> with a letter and poison from <hi>MASINISSA.</hi></stage>
 <sp>
@@ -3343,8 +3343,8 @@ An easier face before I trusted him.</l>
 <l>With an unalter'd smile—Away. <stage>(Drinks.)</stage></l>
 </lg>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>SOPHONISBA, PHOENISSA.</stage>
 <sp>
@@ -3398,8 +3398,8 @@ Hateful to me, polluted by the <hi>Romans,</hi></l>
 <l>The king too here.—Nay then my death is full!</l>
 </lg>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>SOPHONISBA, PHOENISSA, MASINISSA, LAELIUS, NARVA.</stage>
 <sp>
@@ -3561,13 +3561,13 @@ Hateful to me, polluted by the <hi>Romans,</hi></l>
 <l>And, warm with freedom, under frozen skies,</l>
 <l>In farthest <hi>Britain Romans</hi> yet may rise.</l>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Fifth Act.</trailer>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="83"/>
 <head>EPILOGUE.</head>
 <byline>By a FRIEND.</byline>
@@ -3624,8 +3624,8 @@ How much more cheaply might you gain applause?</l>
 <l>And other <hi>Otways</hi> melt another age.</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
-<div1 type="song">
+</div>
+<div type="song">
 <pb facs="85"/>
 <head>A <hi>NUPTIAL SONG,</hi> intended to have been inserted in the <hi>Fourth Act.</hi></head>
 <lg>
@@ -3683,8 +3683,8 @@ Now let him feel thy wonted charms;</l>
 <l>With gentler anguish make us sigh,</l>
 <l>And teach us sweeter deaths to die.</l>
 </lg>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="87"/>
 <head>Just published the following BOOKS, printed for <hi>A. MILLAR.</hi></head>
 <p n="1">1. COllections relating to the History of <hi>Mary</hi> Queen of <hi>Scotland</hi>; containing a great Number of original Papers never before printed: Also a few scarce Pieces reprinted, taken from the best Copies, by the learned and judicious <hi>James Anderson,</hi> <abbr>Esq</abbr> late Post-Master-General, and Antiquary of <hi>Scotland:</hi> With an explanatory Index of the obsolete Words; and Prefaces shewing the Importance of these Collections, in 4 Vols. on a fine imperial Paper, and a most beautiful Letter, 4<hi>to.</hi></p>
@@ -3693,7 +3693,7 @@ Now let him feel thy wonted charms;</l>
 <p n="4">4. A System of Heraldry, Speculative and Practical: With the true Art of <hi>Blazon,</hi> according to the most approved Heralds in <hi>Europe.</hi> Illustrated with suitable Examples of armorial Figures at Atchievements of the most considerable Surnames and Families in <hi>Scotland,</hi> &amp;c. Together with Historical and Genealogical Memorials relating thereto. By <hi>Alex. Nisbett,</hi> <abbr>Esq</abbr> <hi>Folio.</hi></p>
 <p>Soon will be publish'd</p>
 <p n="6">6. The History of the Church under the Old Testament from the Creation of the World; with a particular Account of the State of the <hi>Jews</hi> before and after the <hi>Babylonish</hi> Captivity, and down to the present Time: Wherein the Affairs and Learning of <hi>Heathen</hi>-Nations before the Birth of <hi>Christ,</hi> are also illustrated; to which is adjoyned a Discourse to promote the Conversion of the <hi>Jews</hi> to <hi>Christianity,</hi> by <hi>Robert Millar,</hi> M. A.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

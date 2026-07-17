@@ -7,7 +7,7 @@
 <extent>[2],17,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed by and for O. Adams and T. Ryder; and sold by P. Wilson, J. Exshaw; H. Saunders; and E. Watts,</publisher><date>1766.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Altered, by Thomas King, from Vanbrugh's 'The mistake'.</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCT180177.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>LIKE MASTER, LIKE MAN. A COMEDY OF TWO ACTS.</p>
 <p>Alter'd from Sir JOHN VANBRUGH.</p>
@@ -15,8 +15,8 @@
 <p>DUBLIN:</p>
 <p>Printed by and for O. ADAMS and T. RYDER, in Cope Street; and Sold by P. WILSON, J. EXSHAW, in Dame Street; H. SAUNDERS, in Castle-Street; and E. WATTS, in Skinner-Row, 1766.</p>
 <p>[Price THREE-PENCE.]</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <p><table>
@@ -51,15 +51,14 @@
 <cell>Miss AMBROSS.</cell>
 </row>
 </table></p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3"/>
 <head>LIKE MASTER, LIKE MAN, <hi>&amp;c.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I. <stage><hi>The Street.</hi></stage></head>
 <stage><hi>Enter</hi> Carlos <hi>and</hi> Sancho.</stage>
 <sp>
@@ -460,11 +459,11 @@ LEONORA.</p>
 <stage>sola.</stage>
 <p>Am I awake!—I fancy not; a very idle Dream this. Well; I'll go talk in my Sleep to my Lady about it; and when I awake, we'll try what Interpretation we can make on't.</p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> Leonora <hi>and</hi> Jacinta.</stage>
 <sp>
 <speaker>Jancin.</speaker>
@@ -929,10 +928,9 @@ LEONORA.</p>
 <p>And I my Sancho with Jacinta's Charms.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

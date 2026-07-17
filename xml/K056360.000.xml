@@ -7,19 +7,19 @@
 <extent>[4],71,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Davies; R. Baldwin; and W. Griffin,</publisher><date>1766.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Altered from 'Le comte de Warwick' by Jean François de La Harpe by Thomas Francklin.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT65526.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE Earl of Warwick, A TRAGEDY, As it is perform'd at the THEATRE ROYAL IN DRURY-LANE.</p>
 <p>LONDON: Printed for T. DAVIES, Russel-Street, Covent-Garden; R. BALDWIN, Pater-Noster-Row; and W. GRIFFIN, Catharine-Street, in the Strand. M.DCC.LXVI. [Price ONE SHILLING and SIXPENCE.]</p>
-</div1>
-<div1 type="tothereader">
+</div>
+<div type="tothereader">
 <pb facs="2"/>
 <head>Advertisement. To the PUBLIC,</head>
 <p>THE author takes this opportunity to acknowledge his obligation to the public, for their favourable reception of THE EARL OF WARWICK. He flatters himself, that the license so necessary to his plan, which he has taken in common with other writers, in deviating from historical truth, especially in a period so distant and obscure, will meet with indulgence.</p>
 <p>For the many faults and imperfections of this piece, he can only plead that title to pardon, which is generally extended in favour of a first essay, and shall hope, that the same candour which approv'd on the stage, will accompany it to the closet.</p>
 <p>He cannot, without the most manifest injustice, forbear to add, that the more than ordinary exertion of dramatic powers, display'd by the principal actors concerned in it, contributed in a great measure to the success of the performance.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE,</head>
 <byline>Written by GEORGE COLMAN, <abbr>Esq</abbr> Spoken by Mr. BENSLEY.</byline>
@@ -67,8 +67,8 @@
 <l>Applause may nerve his verse, and chear his heart,</l>
 <l>And teach the practice of this dangerous art.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -92,15 +92,15 @@
 <list>
 <item>OFFICERS GUARDS, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, The PALACE.</p></set>
 </front>
 <body>
 <head><pb n="1" facs="5"/>
 THE EARL of WARWICK.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>MARGARET of ANJOU, Lady CLIFFORD.</stage>
 <sp>
@@ -323,8 +323,8 @@ The arrow's in his side—he cannot 'scape:</l>
 <l>And join the man I hate, vindictive Warwick;</l>
 <l>But soft, he comes—</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>KING EDWARD, MARGARET, CLIFFORD, OFFICER.</stage>
 <sp>
@@ -423,8 +423,8 @@ But that is past, great Warwick's arm prevail'd,</l>
 <l>Hear this and tremble—give me back my son—</l>
 <l>Or dread the vengeance of a desp'rate mother.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>EDWARD.</stage>
 <sp>
@@ -443,8 +443,8 @@ But that is past, great Warwick's arm prevail'd,</l>
 <l>Th' ambassador of love.</l>
 </lg>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>EDWARD, EARL of SUFFOLK.</stage>
 <sp>
@@ -636,8 +636,8 @@ A kind propitious omen?</l>
 <l>Grant heav'n some friendly storm may yet retard him!</l>
 <l>I dread his presence here.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>MESSENGER, EDWARD, SUFFOLK.</stage>
 <sp>
@@ -657,8 +657,8 @@ A kind propitious omen?</l>
 <l>But that the shouting multitudes press hard</l>
 <l>On ev'ry side, and seem to worship him.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>SUFFOLK, EDWARD.</stage>
 <sp>
@@ -697,8 +697,8 @@ A kind propitious omen?</l>
 <l>Her father; that may bring her to the court;</l>
 <l>You understand me, Suffolk—fare thee well.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>EDWARD.</stage>
 <sp>
@@ -711,13 +711,13 @@ A kind propitious omen?</l>
 <l>I'll think no more—if I must sacrifice</l>
 <l>My friendship or my love—the choice is made.</l>
 </sp>
-</div2>
+</div>
 <trailer>END of the FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="19"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>WARWICK (Speaking to an officer.)</stage>
 <sp>
@@ -737,8 +737,8 @@ A kind propitious omen?</l>
 <l>And duty to my king: that task perform'd,</l>
 <l>I haste, my love, to happiness and thee.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>the COUNCIL CHAMBER.</stage></head>
 <stage>King EDWARD, Dukes of CLARENCE, and BUCKINGHAM, Earls of SUFFOLK, PEMBROKE, &amp;c.</stage>
 <sp>
@@ -783,8 +783,8 @@ It is the birth-right of an Englishman,</l>
 <l>Will usher in their great deliverer</l>
 <l>As he deserves.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="17" facs="21"/>
 <head>SCENE III.</head>
 <stage>KING EDWARD, CLARENCE, SUFFOLK, BUCKINGHAM, PEMBROKE, WARWICK.</stage>
@@ -1032,8 +1032,8 @@ Bankrupt in honour gives the royal sanction</l>
 <l>Mean-while—if you have friendship, love, or duty,</l>
 <l>No more of Bona—I'm determin'd.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>WARWICK.</stage>
 <sp>
@@ -1050,8 +1050,8 @@ Bankrupt in honour gives the royal sanction</l>
 <l>Of me, she comes in luckless hour, for I</l>
 <l>Am pow'rless now.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="23" facs="27"/>
 <head>SCENE V.</head>
 <stage>MARGARET of ANJOU, WARWICK.</stage>
@@ -1354,8 +1354,8 @@ Be quick, good Marg'ret, haste e'er I repent,</l>
 <l>Our common foe: remember, from this hour,</l>
 <l>Warwick's thy friend—be secret and be happy.</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>MARGARET.</stage>
 <sp>
@@ -1376,13 +1376,13 @@ Be quick, good Marg'ret, haste e'er I repent,</l>
 <l>And make amends for all my sorrows past.</l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer>END of the SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="30" facs="34"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>MARGARET, CLIFFORD, Attendants.</stage>
 <sp>
@@ -1516,8 +1516,8 @@ Like the keen mastiff, lose not soon the track</l>
 <l>Of his escape, then fly this hated palace,</l>
 <l>Nor will return till I can call it mine.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>EDWARD, SUFFOLK.</stage>
 <sp>
@@ -1640,8 +1640,8 @@ She ever shou'd revere her king: and if</l>
 <l>Keep Warwick from my sight—</l>
 </lg>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>WARWICK, EDWARD.</stage>
 <sp>
@@ -1896,8 +1896,8 @@ With English blood in grateful Edward's cause.</l>
 <speaker>EDWARD.</speaker>
 <l>Presumptuous rebel—ha! who's here?</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>MESSENGER, EDWARD,</stage>
 <sp>
@@ -1918,8 +1918,8 @@ With English blood in grateful Edward's cause.</l>
 <l>Where is my brother Clarence, Buckingham</l>
 <l>And Pembroke? we must check this foul rebellion—</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="42" facs="46"/>
 <head>SCENE V.</head>
 <stage>EDWARD SUFFOLK,.</stage>
@@ -1956,13 +1956,13 @@ With English blood in grateful Edward's cause.</l>
 <l>Without his boasted aid, I cou'd have gain'd</l>
 <l>The crown, without him now I will preserve it.</l>
 </sp>
-</div2>
+</div>
 <trailer>END of the THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="43" facs="47"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>THE TOWER.</stage></head>
 <stage>WARWICK.</stage>
 <sp>
@@ -1997,8 +1997,8 @@ With English blood in grateful Edward's cause.</l>
 <l>O no; he comes—</l>
 </lg>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="44" facs="48"/>
 <head>SCENE II.</head>
 <stage>PEMBROKE, WARWICK.</stage>
@@ -2205,8 +2205,8 @@ For Warwick's aid, she must release him now,</l>
 <l>She's lost: she's gone: that base seducer Edward,</l>
 <l>Hath wrought on her weak mind, it must be so.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>MESSENGER, WARWICK.</stage>
 <sp>
@@ -2223,8 +2223,8 @@ For Warwick's aid, she must release him now,</l>
 <l>To see if I will crouch to him for pardon;</l>
 <l>Be still, my jealous heart.—</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>ELIZABETH, WARWICK.</stage>
 <sp>
@@ -2496,8 +2496,8 @@ Alas! such triumphs make the conqu'ror weep.</l>
 <l>Alarming thought! It staggers my firm purpose,</l>
 <l>And makes me half a villain.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>WARWICK, ELIZABETH, an OFFICER.</stage>
 <sp>
@@ -2532,8 +2532,8 @@ Alas! such triumphs make the conqu'ror weep.</l>
 <speaker>WARWICK.</speaker>
 <l>Farewel!</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>WARWICK.</stage>
 <sp>
@@ -2547,8 +2547,8 @@ Alas! such triumphs make the conqu'ror weep.</l>
 <l>Methought I heard a noise—this way they come,</l>
 <l>Perhaps it is the messenger of death—</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>PEMBROKE, WARWICK.</stage>
 <sp>
@@ -2646,13 +2646,13 @@ The best of men, from infamy, and death,</l>
 <l>And subtle Marg'ret too—Elizabeth!</l>
 <l>I must not lose thee—O! direct me heav'n!</l>
 </sp>
-</div2>
+</div>
 <trailer>END of the FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="58" facs="62"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>ELIZABETH.</stage>
 <sp>
@@ -2676,8 +2676,8 @@ The best of men, from infamy, and death,</l>
 <l>And once more knit them in the bonds of peace!</l>
 </lg>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>ELIZABETH, SUFFOLK.</stage>
 <sp>
@@ -2809,8 +2809,8 @@ He is the care of heav'n: all good men love,</l>
 <l>And I am now a convert to his virtues;</l>
 <l>But see, the king approaches.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>EDWARD, ELIZABETH.</stage>
 <sp>
@@ -2890,8 +2890,8 @@ He is the care of heav'n: all good men love,</l>
 <l>Of a divided heart, the noble Edward</l>
 <l>Wou'd share it with his friend.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>MESSENGER, EDWARD.</stage>
 <sp>
@@ -2918,8 +2918,8 @@ He is the care of heav'n: all good men love,</l>
 <speaker>MESSENGER.</speaker>
 <l>Sir—the queen—</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>MARGARET Prisoner.</stage>
 <sp>
@@ -3100,8 +3100,8 @@ All that ingenious malice can suggest,</l>
 <l>Despair, and horror visit thee—farewell—</l>
 <l>He comes, my triumph is complete—look there!</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>WARWICK, leaning on two soldiers.</stage>
 <sp>
@@ -3187,8 +3187,8 @@ Ne'er meet forgiveness from offended heav'n,</l>
 <l>Ha! that voice—</l>
 <l>Sure 'tis Elizabeth's!</l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="69" facs="73"/>
 <head>SCENE the last.</head>
 <stage>ELIZABETH, WARWICK, EDWARD.</stage>
@@ -3326,12 +3326,12 @@ O! I will guard her with a parent's care,</l>
 <l>The happy king of an united people.</l>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="76"/>
 <head>EPILOGUE,</head>
 <byline>Written by DAVID GARRICK, <abbr>Esq</abbr> Spoken by Mrs. YATES.</byline>
@@ -3379,7 +3379,7 @@ O! I will guard her with a parent's care,</l>
 <l>And soft degrees, must bring the <hi>trout</hi> to land;</l>
 <l>A more specific nostrum cannot be—</l>
 <l><hi>Probatum est</hi>—and never falls with <hi>Me.</hi></l>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

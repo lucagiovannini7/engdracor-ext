@@ -7,7 +7,7 @@
 <extent>[3],vi-xxix,[1],91,[1],9,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed by and for Barker and Son,</publisher><date>[1798]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Publication date from Nicoll, A. History of English drama.</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCN29953.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p><hi>ARMINIUS:</hi> OR THE CHAMPION OF LIBERTY, <hi>A TRAGEDY.</hi> WITH AN HISTORICAL PREFACE.</p>
 <p>BY ARTHUR MURPHY, ESQ.</p>
@@ -16,8 +16,8 @@
 <p><hi>LONDON:</hi> PRINTED BY AND FOR BARKER AND SON,</p>
 <p><hi>Dramatic Repository,</hi> GREAT RUSSELL STREET, COVENT GARDEN: [Price 2s 6d</p>
 <p>Where may be had, THE AUTHOR's OTHER WORKS.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>THE following Poem was written in the course of the last summer. Why it was not offered to the Stage, it is unnecessary to mention. If it could in any degree answer the purpose, for which it was originally designed, it would not be, as perhaps now is the case, a mere trifle offered to the Public. The Author is conscious that his powers are neither equal to the subject, nor to the zeal with which he undertook it. Removed though he is from the political world, he could not, in his private retreat, be altogether inattentive to the various events, which in the last seven years have changed the face of Europe, and, under the savage conduct of a Nation of professed Atheists, counteracted the order of Providence in the formation of
@@ -69,8 +69,8 @@ It is well known, that an inundation of French Jacobins, whom their <hi>o'ercloy
 <p>It is, however, to be hoped that a veneration for the antiquity of so glorious a Constitution, and a due sense of the blessings,
 <pb n="xxix" facs="26"/>which mankind have enjoyed under it, will animate all true Englishmen against their enemies, whether foreign or domestic.</p>
 <p>The Author of Arminius has had the pleasure of working under a great master, and in the Notes annexed to the Tragedy, he has cited the passages which he has imitated, because he knows that the sentiments will come with weight and authority from the great writer of political history. That he has not been able to execute up to his own ideas and wishes, he is too conscious; but for a well-meant endeavour no apology can be required.</p>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="27"/>
 <p><hi>Published by BARKER and SON, Great Russell-Street, Covent-Garden.</hi></p>
 <list>
@@ -125,12 +125,12 @@ It is well known, that an inundation of French Jacobins, whom their <hi>o'ercloy
 <item>Variety of Editions of Shakespeare, with the greatest Collection of EARLY AND MODERN PLAYS <hi>extant.</hi></item>
 </list>
 <p>Printed by Barker and Son, Gt. Russell Str. Covent Garden.</p>
-</div1>
-<div1 type="halftitle">
+</div>
+<div type="halftitle">
 <pb facs="28"/>
 <p><hi>ARMINIUS;</hi> A TRAGEDY.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="29"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -155,16 +155,15 @@ It is well known, that an inundation of French Jacobins, whom their <hi>o'ercloy
 <item><label>FLAVIUS,</label><hi>Brother to Arminius.</hi></item>
 <item><hi>Officers, Soldiers, &amp;c.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>on the Banks of the Visurgis, now the</hi> Weser.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="30"/>
 <head>ARMINIUS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A wild Heath; a strong Castle in View Colours flying on the Ramparts, with <hi>S. P. Q. R.</hi> in large Letters; German Tents; Officers and Soldiers on the Heath.</stage></head>
 <stage>GOTHMUND, <hi>on Guard; to him</hi> EGBERT.</stage>
 <sp>
@@ -231,8 +230,8 @@ It is well known, that an inundation of French Jacobins, whom their <hi>o'ercloy
 <l>And then, my friend, then we may storm the works:</l>
 <l>One bold assault shall end this tedious siege.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi></head><stage>Enter a Soldier.</stage>
 <sp>
 <speaker>EGBERT.</speaker>
@@ -283,8 +282,8 @@ And crouch in bondage. Proud of being stil'd</l>
 <speaker>GOTHMUND.</speaker>
 <l>My friend, no more: Lo! where he comes this way.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head><stage><hi>Enter</hi> INGUIOMER, <hi>with Officers and Soldiers.</hi></stage>
 <sp>
 <speaker>EGBERT.</speaker>
@@ -330,8 +329,8 @@ Caecina with his legions! He advances</l>
 <l>To storm the works; a feeble garrison</l>
 <l>Will not resift a general assault.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head><hi>SCENE IV.</hi></head><stage>Enter another Soldier.</stage>
 <sp>
 <speaker>INGUIOMER.</speaker>
@@ -401,8 +400,8 @@ Caecina with his legions! He advances</l>
 <l>In one prodigious ruin.</l>
 </sp>
 <stage>[Exit, followed by soldiers; Warlike music.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="9" facs="36"/>
 <head>SCENE V.</head><stage>EGBERT, GOTHMUND, <hi>Soldiers, &amp;c.</hi></stage>
 <sp>
@@ -424,8 +423,8 @@ Caecina with his legions! He advances</l>
 <l>If ought of moment happen, you shall hear it.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <sp>
 <speaker>EGBERT.</speaker>
@@ -509,8 +508,8 @@ Caecina with his legions! He advances</l>
 <l>You have my answer.</l>
 </sp>
 <stage>[Exit from the walls.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>EGBERT.</speaker>
@@ -522,8 +521,8 @@ Caecina with his legions! He advances</l>
 <l>Gothmund, what news? Your looks denote your fear—</l>
 <l>Have the two armies met?</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head><stage><hi>To him</hi> GOTHMUND.</stage>
 <sp>
 <speaker>GOTHMUND.</speaker>
@@ -550,8 +549,8 @@ Caecina with his legions! He advances</l>
 <l>Our men pursued them. There our enterprize</l>
 <l>Has met a check, and ruin may insue.</l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head><stage><hi>Enter</hi> SEGESTES <hi>on the Rampart.</hi></stage>
 <sp>
 <speaker>SEGESTES.</speaker>
@@ -568,8 +567,8 @@ Caecina with his legions! He advances</l>
 <l>Fly from the fury of a conqu'ring foe.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head><stage><hi>Enter a German Officer.</hi></stage>
 <sp>
 <speaker>OFFICER.</speaker>
@@ -598,8 +597,8 @@ Caecina with his legions! He advances</l>
 <l>Withdraw, my friends; flight is our only safety.</l>
 </sp>
 <stage>[Exit with the rest.</stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head><stage><hi>A Shout within; a triumphant March is sounded: Enter</hi> CAECINA, <hi>followed by Officers, the Eagles, and Colours, with</hi> S. P. Q. R. <hi>in large Letters.</hi></stage>
 <sp>
 <speaker>CAECINA.</speaker>
@@ -701,8 +700,8 @@ Caecina with his legions! He advances</l>
 <l>Has join'd Arminius. Lo! our train of women</l>
 <l>Comes forth in slow procession.</l>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <pb n="16" facs="43"/>
 <head><hi>SCENE XII.</hi></head><stage>A Number of Women from the Castle, and after them <hi>VELEDA,</hi> in pensive Silence; her Hands strained to her Bosom, and her Eyes fixed on her Womb (e).</stage>
 <sp>
@@ -835,8 +834,8 @@ Caecina with his legions! He advances</l>
 <l>In safety shall conduct you to your friends.</l>
 </sp>
 <stage>[Exit with Officers, &amp;c.</stage>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="19" facs="46"/>
 <head>SCENE XIII.</head><stage>SEGESTES, VELEDA.</stage>
 <sp>
@@ -897,13 +896,13 @@ Die by the hands of friends; remember still,</l>
 <l>May all the Gods of Germany direct him.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
+</div>
 <trailer>End of the First Act</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="48"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE .I.</hi></head><stage>An open Plain, with the German Camp at the further end; German Soldiers in different Groupes.</stage>
 <stage>EGBERT, GOTHMUND.</stage>
 <sp>
@@ -948,8 +947,8 @@ Die by the hands of friends; remember still,</l>
 <l>Check'd their career of slaughter. Lo! this way</l>
 <l>The valiant Inguiomer.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi></head><stage>Enter <hi>INGUIOMER,</hi> followed by Officers and Soldiers.</stage>
 <sp>
 <speaker>INGUIOMER.</speaker>
@@ -1029,8 +1028,8 @@ And roam'd from place to place, from state to state,</l>
 <speaker>INGUIOMER.</speaker>
 <l>Yonder I see him; Lo! he comes this way.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head><hi>SCENE III.</hi></head><stage>Enter <hi>ARMINIUS,</hi> Officers and Soldiers.</stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -1171,8 +1170,8 @@ Vast in circumference, tempestous, deep</l>
 <l>Caecina can expect. In yonder camp</l>
 <l>We hold another <hi>(c)</hi> Varus and his legions.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head><stage><hi>Enter</hi> SEGIMUND.</stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -1201,8 +1200,8 @@ Vast in circumference, tempestous, deep</l>
 <l>Lo! they are near at hand: might I advise,</l>
 <l>Admit them to a calm, a patient hearing.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head><hi>SCENE V.</hi></head><stage>Enter <hi>MARCUS,</hi> with Roman Soldiers and Standards.</stage>
 <sp>
 <speaker>MARCUS.</speaker>
@@ -1376,8 +1375,8 @@ By his ambassador he then may send</l>
 <l>To my pavillion. You my friends retire.</l>
 <stage>[They go out.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="32" facs="59"/>
 <head>SCENE VI.</head>
 <sp>
@@ -1389,8 +1388,8 @@ By his ambassador he then may send</l>
 <l>With words of pow'r, to wake each tender feeling,</l>
 <l>And melt into his heart. But lo! he comes.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head><stage>ARMINIUS, FLAVIUS, <hi>(e).</hi></stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -1589,13 +1588,13 @@ Hither I came disarm'd, or my good falchion</l>
 <l>Sons against fathers, brothers against brothers.</l>
 <l>'Tis horror all, and worse than civil war.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="37" facs="64"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>The German Camp.</hi></stage>
 <stage>VELEDA, SEGIMUND.</stage>
 <sp>
@@ -1676,8 +1675,8 @@ And in their bosoms own'd the sacred flame</l>
 <l>Dispel your fears, nor thus anticipate</l>
 <l>Imaginary ills.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head><stage><hi>To them</hi> ARMINIUS.</stage>
 <sp>
 <speaker>VELEDA.</speaker>
@@ -1724,8 +1723,8 @@ And in their bosoms own'd the sacred flame</l>
 <l>To plan our measures; he will tell you all.</l>
 </sp>
 <stage>[<hi>Exit</hi> SEGIMUND.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>ARMINIUS, VELEDA.</stage>
 <sp>
@@ -1813,8 +1812,8 @@ Of ev'ry gallant action, gives an edge</l>
 <l>Their sacred minstrelsy, by your example</l>
 <l>Inflame posterity to brave exploit.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head><stage><hi>To them</hi> INGUIOMER.</stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -1877,8 +1876,8 @@ A chosen band already stand prepar'd</l>
 <l>Trust to my care; you still shall live in freedom.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head><stage>VELEDA, INGUIOMER.</stage>
 <sp>
 <speaker>VELEDA.</speaker>
@@ -1942,8 +1941,8 @@ I paus'd, and listen'd to him; then I heard</l>
 <l>He gives an earnest</l>
 <l>Of matchless worth, the rival of Arminius.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head><hi>SCENE VI.</hi></head><stage>To them GOTHMUND.</stage>
 <sp>
 <speaker>GOTHMUND.</speaker>
@@ -1987,8 +1986,8 @@ As may conciliate peace between the nations,</l>
 <l>On the broad base of justice, and the laws</l>
 <l>That bind consenting nations.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head><hi>SCENE VII.</hi></head><stage>The back Scene draws: In the middle a Throne raised with Turf: A warlike March: Soldiers walk forward, and line the Stage on both sides: <hi>ARMINIUS</hi> following, and takes his Seat.</stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -2005,8 +2004,8 @@ As may conciliate peace between the nations,</l>
 <l>To varnish o'er the slavery he loves.</l>
 <l>Conduct him hither; let the traitor enter.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="47" facs="74"/>
 <head><hi>SCENE VIII.</hi></head><stage>Enter Soldiers bearing Ensigns and Eagles, and after them <hi>SEGESTES.</hi></stage>
 <sp>
@@ -2209,13 +2208,13 @@ Happy and thriving (<hi>i</hi>)? Roman avarice</l>
 <l>And ere the dawn, by one collected blow</l>
 <l>To wreak our vengeance on the Roman race.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="52" facs="79"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi></head><stage>The German Camp still continues.</stage>
 <stage>ARMINIUS, INGUIOMER,</stage>
 <sp>
@@ -2263,8 +2262,8 @@ Happy and thriving (<hi>i</hi>)? Roman avarice</l>
 <l>Their mangled bodies in one purple heap</l>
 <l>Cov'ring the plain, to feed the region kites.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <hi>Enter</hi></head><stage>SEGIMUND.</stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -2288,8 +2287,8 @@ Happy and thriving (<hi>i</hi>)? Roman avarice</l>
 <l>To issue forth, and on the open plain</l>
 <l>Form their battalions.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="54" facs="81"/>
 <head>SCENE III.</head><stage><hi>Enter</hi> GOTHMUND <hi>and</hi> EGBERT.</stage>
 <sp>
@@ -2370,8 +2369,8 @@ All turns and all vicissitudes of war;</l>
 <l>Veleda comes; my valiant friends farewell.</l>
 </sp>
 <stage>[<hi>Exeunt</hi> INGUIOMEP, SECIMUND, EGDERT, <hi>and</hi> GOTHMUND.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="56" facs="83"/>
 <head>SCENE IV.</head><stage>ARMINIUS, VELEDA,</stage>
 <sp>
@@ -2470,8 +2469,8 @@ All moral rectitude, all virtue lost,</l>
 <l>To join the matrons, and their virgin train.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head><stage>ARMINIUS <hi>and</hi> INGUIOMER.</stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -2505,8 +2504,8 @@ All moral rectitude, all virtue lost,</l>
 <l>Wait my return: A moment brings me to you.</l>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="59" facs="86"/>
 <head>SCENE VI.</head><stage>INGUIOMER, SEGIMUND.</stage>
 <sp>
@@ -2534,8 +2533,8 @@ All moral rectitude, all virtue lost,</l>
 <speaker>SEGIMUND.</speaker>
 <l>As such we'll cherish it: The warriors come.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head><stage><hi>Enter German Officers and Soldiers: They Line one side of the Stage; the</hi> BARDS <hi>at the top, and the Women behind them, with</hi> VELEDA <hi>in the Centre.</hi></stage>
 <sp>
 <speaker>INGUIOMER.</speaker>
@@ -2547,8 +2546,8 @@ All moral rectitude, all virtue lost,</l>
 <speaker>SEGIMUND.</speaker>
 <l>Lo! the hero comes.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="60" facs="87"/>
 <head>SCENE VIII.</head><stage><hi>Enter</hi> ARMINIUS.</stage>
 <sp>
@@ -2645,8 +2644,8 @@ Behold your fellow-soldier: follow me,</l>
 </lg>
 </sp>
 <stage>[<hi>Exeunt;</hi> VELEDA <hi>following them.</hi></stage>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head><stage><hi>The Roman Camp.</hi></stage>
 <stage>MARCUS, VALERIUS.</stage>
 <sp>
@@ -2664,8 +2663,8 @@ Behold your fellow-soldier: follow me,</l>
 <l>Still at ev'ry post</l>
 <l>We must keep careful watch.</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head><stage><hi>Enter</hi> CAECINA.</stage>
 <sp>
 <speaker>CAECINA.</speaker>
@@ -2708,8 +2707,8 @@ Behold your fellow-soldier: follow me,</l>
 <l>Marcus, let all be ready for our march.</l>
 </sp>
 <stage>[Exit Marcus.</stage>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE II.</head><stage>CAECINA, <hi>and</hi> DUMNORIX, <hi>one of the</hi> GAULS.</stage>
 <sp>
 <speaker>CAECINA.</speaker>
@@ -2800,8 +2799,8 @@ And caution'd Pyrrhus to protect his life.</l>
 <l>What ho! to arms;</l>
 <l>Muster our forces; sound there, sound th' alarm.</l>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head><stage>CAECINA, MARCUS.</stage>
 <sp>
 <speaker>CAECINA.</speaker>
@@ -2849,8 +2848,8 @@ And caution'd Pyrrhus to protect his life.</l>
 </sp>
 <stage>[A sound of trumpets, Exeunt</stage>
 <stage>VALERIUS, MARCUS, <hi>and Soldiers.</hi></stage>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head><stage><hi>Enter</hi> SEGESTES, <hi>on one side;</hi> SEGIMUND <hi>on the other.</hi></stage>
 <sp>
 <speaker>SEGESTES.</speaker>
@@ -3069,13 +3068,13 @@ That flow from party-rage.—This day may give</l>
 <l>And fathers, sons, and families unite</l>
 <l>One voice, one heart, to guard their native land.</l>
 </sp>
-</div3>
+</div>
 <trailer>End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="72" facs="99"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head><stage><hi>The German Camp.</hi></stage>
 <stage>CHELDERIC, TREBANTES; <hi>Both of them Gauls.</hi></stage>
 <sp>
@@ -3105,8 +3104,8 @@ That flow from party-rage.—This day may give</l>
 <speaker>CHELDERIC.</speaker>
 <l>And lo! our hero comes.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="73" facs="100"/>
 <head>SCENE II.</head><stage><hi>To them</hi> DUMNORIX.</stage>
 <sp>
@@ -3149,8 +3148,8 @@ That flow from party-rage.—This day may give</l>
 <l>I hear the sound of steps this way advancing.</l>
 <l>We will confer in private—</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="74" facs="101"/>
 <head>SCENE III.</head><stage><hi>To them</hi> GOTHMUND.</stage>
 <sp>
@@ -3173,8 +3172,8 @@ That flow from party-rage.—This day may give</l>
 <l>They meditate some dark design; perhaps</l>
 <l>To be deserters to the Roman camp.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head><stage>INGUIOMER, GOTHMUND.</stage>
 <sp>
 <speaker>GOTHMUND.</speaker>
@@ -3202,8 +3201,8 @@ That flow from party-rage.—This day may give</l>
 <l>We'll see him, with determin'd vigour</l>
 <l>Rush to the field, and thunder through the war.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head><stage><hi>To them</hi> EGBERT.</stage>
 <sp>
 <speaker>EGBERT.</speaker>
@@ -3219,8 +3218,8 @@ That flow from party-rage.—This day may give</l>
 <l>Besieg'd, and sore beset, perhaps the Roman</l>
 <l>Means to capitulate.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head><stage><hi>Enter</hi> MARCUS.</stage>
 <sp>
 <speaker>MARCUS.</speaker>
@@ -3269,8 +3268,8 @@ Your Chief may think hostilities should cease,</l>
 <l>Give him safe conduct to the Roman camp.</l>
 </sp>
 <stage>[<hi>Exeunt</hi> MARCUS <hi>and</hi> EGBERT.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head><stage>INGUIOMER, GOTHMUND.</stage>
 <sp>
 <speaker>GOTHMUND.</speaker>
@@ -3293,8 +3292,8 @@ Your Chief may think hostilities should cease,</l>
 <l>In good time he comes.</l>
 <l>That trumpet's clangour speaks the Chief's arriv'd.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="77" facs="104"/>
 <head>SCENE VIII.</head><stage><hi>Enter</hi> ARMINIUS, <hi>attended by guards.</hi></stage>
 <sp>
@@ -3460,8 +3459,8 @@ Your Chief may think hostilities should cease,</l>
 <l>She pours the heartfelt tribute of her tears,</l>
 <l>Her filial piety demands our praise.</l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="81" facs="108"/>
 <head>SCENE IX.</head><stage><hi>To them</hi> GOTHMUND.</stage>
 <sp>
@@ -3482,8 +3481,8 @@ Your Chief may think hostilities should cease,</l>
 <l>Upon the rack the slave shall die in torment,</l>
 <l>And his accomplices shall share his fate.</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head><stage><hi>To him</hi> VELEDA.</stage>
 <sp>
 <speaker>VELEDA.</speaker>
@@ -3626,8 +3625,8 @@ Your Chief may think hostilities should cease,</l>
 <l>This way they lead him; what a sight is there?</l>
 <l>Pale, pale, and wan! ye gods protect his life.</l>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE THE LAST.</head><stage>ARMINIUS <hi>is led forward;</hi> INGUIOMER, <hi>Officers, Women, and Soldiers round him.</hi></stage>
 <sp>
 <speaker>ARMINIUS.</speaker>
@@ -3942,16 +3941,15 @@ Ev'n by the mother's hand!—unbidden tears,</l>
 <l>At length Arminius rests from toil and danger,</l>
 <l>With all his country's blessings on his head.</l>
 </sp>
-</div3>
+</div>
 <trailer>FINIS.</trailer>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="notes">
+<div type="notes">
 <pb facs="119"/>
 <head>NOTES ON THE TRAGEDY OF ARMINIUS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <p><hi>(a)</hi> CUNCTA pariter Romanis adversa: Locus uligine profundâ, idem ad gradum instabilis, procedentibus Lubricus; Corpora gravia Loricis, neque Librare pila inter undas poterant. Contra Cheruscis sueta apud paludes praelia, procera membra, hastae ingentes ad vulnera faciunda; quamvis procul. <hi>Annal. i S. 64.</hi> Arminius cum delectis Scindit agmen, Equisque maxime vulnera ingerit: illi Sanguine suo, et Lubrico paludum Lapsantes, Excussis Rectoribus disjicere obvios, proterere jacentes. <hi>Annal. i. S. 54, 55.</hi></p>
 <p><hi>(b)</hi> Neque multo post Legati a Segeste venerunt, auxilium orantes adversus vim popularium, a quêis Circumsidebatur; Validiore apud Eos Arminio, quando Bellum suadebat. Germanico pretium fuit, Convertere Agmen; pugnatumque in obsidentes, et Ereptus Segestes magnâ cum propinquorum et Clientium Manu. <hi>Annal. Lib. i. S. 57.</hi></p>
@@ -3960,8 +3958,8 @@ Ev'n by the mother's hand!—unbidden tears,</l>
 <p><hi>(d)</hi> Addiderat Segestes Legatis filium, nomine Segimundum: sed Juvenis Conscientiâ cunctabatur; quippe anno, quo Germaniae descivêre, Sacerdos apud Aram Ubiorum Creatus ruperat vittas, profugus ad Rebelles. <hi>Annal. i. S. 57.</hi></p>
 <p><hi>(c)</hi> Inerant faeminae nobiles, inter quas Uxor Arminii, eademque filia Segestis, mariti magis quàm parentis animo, neque victa in Lacrymas, neque voce supplex, compressis intra sinum manibus, gravidam Uterum intuenas. <hi>Annal. i. S. 57.</hi></p>
 <p><hi>(f)</hi> Filiam necessitate huc Adductam fateor: tuum erit consultare, utrum praevaleat, quod ex Arminio concepit, an quod ex me Genita est. <hi>Annal. Lib. i. S. 58.</hi></p>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
 <p><hi>(a)</hi> See as above, <hi>Annal. i. S. 57.</hi></p>
 <p><hi>(b)</hi> Plures Caesar classi impositas per flumen Amisiam Oceano invexit. Ac primo placidum AEquor mille navium remis strepere, aut Velis impelli: mox atro nubium globo Effusa Grando: simul variis undique procellis incerti fluctus prospectum Adimere, regimen impedire; Milesque
@@ -3973,8 +3971,8 @@ Ev'n by the mother's hand!—unbidden tears,</l>
 <p><hi>(f)</hi> See the last Note.</p>
 <p><hi>(g)</hi> Irridenti Arminio vilia servitii praemia. <hi>Annal. Lib. xi. S. 9.</hi></p>
 <p><hi>(h)</hi> Arminius fas patriae, Libertatem avitam, penetrales Germaniae Deos, Matrum precum sociam, ne propinquorum et adfinium, denique generis sui desertor et Proditor quam Imperator esse mallet. <hi>Annal. Lib. ii. S. 10.</hi></p>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
 <p><hi>(a)</hi> Exigunt enim principis sui liberalitate illum Bellatorem equum, illam cruentam victricemque <hi>frameam.— De Morib. Germ. S. 14.</hi></p>
 <p><hi>(b)</hi> CIVILIS matrem suam sororesque, simul omnium conjuges, parvosque Liberos consistere a tergo jubet;
@@ -3989,8 +3987,8 @@ Ev'n by the mother's hand!—unbidden tears,</l>
 <pb n="6" facs="124"/>AVARI: Si pauper, AMBITIOSI: Soli omnium opes atque inopiam pari affectu concupiscunt: auserre, trucidare, rapere, falsis nominibus IMPERIUM, atque ubi solitudinem faciunt, PACEM appellant. <hi>Tacit. Agricola, S. 30.</hi></p>
 <p><hi>(k)</hi> Non cauponantes Bellum, sed Belligerantes. <hi>Ennius.</hi></p>
 <p><hi>(l)</hi> Avitus ipsi Boiocalo ob memoriam Amicitiae, daturum agros pollicitus; quod ille, ut proditionis pretium, aspernatus, addidit, "DEESSE NODIS TERRA, IN QUA VIVAMUS, IN QUA MORIAMUR, NON POTEST." <hi>Annal. Lib. xiii. S. 56.</hi></p>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
 <p><hi>(a)</hi> Nec minor cum Uxoribus Eorum pugna, quam cum ipsis fuit; quum objectis undique plaustris atque carpentis, altae desuper, quasi e turribus, Lanceis contisquè pugnarent. <hi>Florus, Lib. iii. Cap. 3.</hi>
 <l>Vos quoque, qui fortes animas Belloque peremptas</l>
@@ -4046,8 +4044,8 @@ Du heros expirant la jeune et tendre amante,</l>
 <l>Arracher à leurs yeux des larmes salutaires,</l>
 <l>Et qu'ils n'imitent point les crimes de leurs pères.</l>
 <bibl>HENRIADE, <hi>Chant viii, V. 255.</hi></bibl></p>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
 <p><hi>(a)</hi> <l>Mutemus Clypeos, Danaûmque insignia nobis</l>
 <l>Aptemus; dolus, an virtus, quis in hoste requirat?</l>
@@ -4057,9 +4055,9 @@ Du heros expirant la jeune et tendre amante,</l>
 <l>ANGLOIS ont tiré l'idée de leur Gouvernement Politique.</l>
 <l>Ce beau Systême a été trouvé dans les bois.</l>
 <bibl><hi>L'Esprit des Loix, Lib. xi, Cap. 6.</hi></bibl></p>
-</div2>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="128"/>
 <head>BOOKS, <hi>SOLD BY BARKER AND SON,</hi> GREAT RUSSELL STREET, COVENT GARDEN.</head>
 <list>
@@ -4083,7 +4081,7 @@ Du heros expirant la jeune et tendre amante,</l>
 <item>WALKER's MEMOIRS OF ITALIAN TRAGEDY, plates, neatly printed in quarto, 14s</item>
 </list>
 <p>Printed by Barker and Son, Great Russell Street, Covent Garden.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

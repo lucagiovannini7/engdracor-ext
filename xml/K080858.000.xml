@@ -7,7 +7,7 @@
 <extent>59,[1]p. ; 12⁰.</extent><publicationStmt><publisher>printed for G. and A. Ewing,</publisher><date>1760.</date><pubPlace>Dublin :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Home.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT100471.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE Siege of AQUILEIA.</p>
 <p>A TRAGEDY.</p>
@@ -18,8 +18,8 @@
 <bibl>LUCAN.</bibl>
 <p>DUBLIN: Printed for G. and A. EWING in <hi>Dame-street.</hi></p>
 <p>M.DCC.LX.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. GARRICK.</byline>
@@ -45,8 +45,8 @@
 <l>And from a fonder source your sorrows flow:</l>
 <l>Whilst warm remembrance aids the poet's strain,</l>
 <l>And England weeps for English heroes slain.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -71,14 +71,13 @@
 <head>WOMEN.</head>
 <item>CORNELIA, Wife to the Consul. Mrs. CIBBER.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE Siege of AQUILEIA.</head>
 <head>A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT. I. SCENE I.</head>
 <stage>The Palace Court.</stage>
 <stage><hi>Enter</hi> PAULUS <hi>and</hi> TITUS.</stage>
@@ -622,8 +621,8 @@ My generous PAULUS will not leave his brother.</l>
 <stage>Exeunt.</stage>
 </sp>
 <trailer>End of the first Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="16"/>
 <head>ACT II. SCENE I.</head>
 <stage><hi>Enter</hi> PRIEST.</stage>
@@ -1084,8 +1083,8 @@ As once I thought them, was less terrible</l>
 <stage>Exeunt.</stage>
 </sp>
 <trailer>End of the second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="27" facs="26"/>
 <head>ACT III. SCENE I.</head>
 <stage><hi>Enter</hi> AEMILIUS; <hi>and from the other side of the stage</hi> LUCIUS.</stage>
@@ -1720,8 +1719,8 @@ Have mercy upon me, your sons, yourself,</l>
 <stage><hi>[Exit</hi> CORNELIA.</stage>
 </sp>
 <trailer><hi>End of the third</hi> ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="38" facs="37"/>
 <head>ACT IV. SCENE I.</head>
 <sp>
@@ -2311,8 +2310,8 @@ Ne'er to survive the ignominious ransom.</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>End of the fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="50" facs="49"/>
 <head>ACT V. SCENE I.</head>
 <stage>The Trumpets sound.</stage>
@@ -2912,11 +2911,10 @@ O let me not disturb his parting soul.</l>
 <l>Our mingled state of triumph, and of sorrow.</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="59"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. CIBBER.</byline>
@@ -2951,8 +2949,7 @@ O let me not disturb his parting soul.</l>
 <l>And at a distance wails his doom from you.</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

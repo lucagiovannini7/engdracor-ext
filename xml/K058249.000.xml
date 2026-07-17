@@ -7,12 +7,12 @@
 <extent>[2],21,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Williams,</publisher><date>1767.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By George A. Stevens.</note><note>A variant has "flogg'd" instead of "flogged" in the title.</note><note>Reproduction of original from the British Library.</note><note>Sabin, 25884</note><note>English Short Title Catalog, ESTCT68024.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE FRENCH FLOGGED, OR, THE BRITISH Sailors in America, A Farce of Two Acts, As it was performed AT THE Theatre Royal, <hi>Covent-Garden.</hi></p>
 <p>LONDON: Printed for J. WILLIAMS, at No. 38, Fleet-street, 1767.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -32,13 +32,12 @@ Two Sailors.</item>
 <item><label>WHITE LADY,</label> Miss DAWSON.</item>
 <item><label>BLACK WOMAN</label> Miss SMITH.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="3"/>
 <head>THE French Flogged, &amp;c.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi> <stage>A sea prospect. Two sailors are discovered tumbling down the rocks; they roll into the middle of the stage; and as they meet upon the ground they stare at each other.</stage></head>
 <sp>
 <speaker>BEN.</speaker>
@@ -144,8 +143,8 @@ Two Sailors.</item>
 <p>Bring him with you, and follow us up the savannah.</p>
 </sp>
 <stage>(<hi>Ex.</hi> Lady <hi>and</hi> Captain. <hi>Opposite them</hi> Exit <hi>the sailors.</hi></stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>A Wood.</hi></stage></head>
 <stage><hi>Enter</hi> Macfinin <hi>wringing his cloaths.</hi></stage>
 <sp>
@@ -186,8 +185,8 @@ Two Sailors.</item>
 <p>Ah, my jewel, and remember what plunder we got, we'll all three go halves in it.</p>
 </sp>
 <stage>Exit all together.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>A Palace.</hi></stage></head>
 <sp>
 <speaker>TRUMPETS.</speaker>
@@ -297,8 +296,8 @@ Two Sailors.</item>
 </lg>
 <stage>(<hi>Open country,</hi> End of scene the third.)</stage>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>A Wood.</hi></stage></head>
 <stage><hi>Enter</hi> Mac <hi>meeting the</hi> Black Woman.</stage>
 <sp>
@@ -516,8 +515,8 @@ Two Sailors.</item>
 <p>As to that, my jewel, whether good luck goes with me, or is after following me, never heed that; but, madam, I hope you'll be after putting yourself in mind, after I have cut off this old witch's head, that this lady shall be man and wife to me; no, I don't mean so neither, that I shall be man and wife to this lady. Devil burn me, that's not it neither; I mean that as we are, one flesh; so when the parson joins us we shall be two together.</p>
 </sp>
 <stage><hi>Ex.</hi> Lady <hi>one way, and</hi> Mac <hi>and</hi> Black Woman <hi>another.</hi></stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage><hi>A Cave.</hi></stage></head>
 <stage><hi>Enter</hi> Black Woman <hi>and</hi> Mac.</stage>
 <sp>
@@ -599,8 +598,8 @@ Two Sailors.</item>
 <p>Give me my head.</p>
 </sp>
 <stage><hi>Exit</hi> Mac. Black Woman, Image <hi>follows them.</hi></stage>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="19" facs="21"/>
 <head>SCENE VI.</head>
 <stage>A shout behind the Scenes. Enter two sailors with a large bundle.</stage>
@@ -647,8 +646,8 @@ Two Sailors.</item>
 <speaker>MAC.</speaker>
 <p>Ah, and take me along with you, because you know as I carry her head in my fist, I can put in a word for her, as she can't speak for herself.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head><hi>SCENE VII.</hi> <stage>The Court discovered.</stage></head>
 <stage><hi>Enter</hi> Indian <hi>king, capain, lady, and attendants; the king joins the captain's hands and his daughter's.</hi></stage>
 <sp>
@@ -706,10 +705,8 @@ Two Sailors.</item>
 <l>Such abject minds bend to the tyrant's scourge,</l>
 <l>But let us boldly say, God bless King George.</l>
 </sp>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
-
 </TEI>

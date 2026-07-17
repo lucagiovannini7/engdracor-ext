@@ -7,12 +7,12 @@
 <extent>34p. ; 12⁰.</extent><publicationStmt><publisher>printed for W. Mears, and J. Brown,</publisher><date>1715.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Henry Carey.</note><note>Also issued as part of: 'A collection of plays by eminent hands', London, 1719.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34046.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE <hi>CONTRIVANCES</hi>; OR, More Ways than One. As it is Acted at the THEATRE-ROYAL IN <hi>DRURY-LANE.</hi></p>
 <p><hi>LONDON:</hi> Printed for <hi>W. Mears</hi> at the <hi>Lamb,</hi> and <hi>J. Brown</hi> at the <hi>Black Swan,</hi> both without <hi>Temple-Bar.</hi> MDCCXV. [Price 6<hi>d.</hi>]</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -47,11 +47,11 @@
 <label>Betty,</label>
 <item>Mrs. <hi>Baker.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, London.</p></set>
 </front>
 <body>
-<div1 type="scene">
+<div type="scene">
 <pb facs="3" ana="y"/>
 <head>THE Contrivances, <hi>&amp;c.</hi></head>
 <head>SCENE <stage>the Street.</stage></head>
@@ -101,8 +101,8 @@ to burn the old Drone out of his Hive, and carry the Hony-comb away in Triumph.<
 <l>The <hi>Frenchmen</hi> and the Ladies quickly yield.</l>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a Chamber.</stage></head>
 <stage>Enter <hi>Argus</hi> and <hi>Arethusa.</hi></stage>
 <sp>
@@ -326,8 +326,8 @@ Word but her Prayers, and thosen so softly that no Body can hear her.</p>
 <p>These Country Fellows are very blunt, but very honest—I wou'd fain hear his Mistress talk—he said she'd find her Tongue when she was amongst those of her own Sex—I'll go listen for once, and hear what the young Tits have to say to one another.</p>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <pb n="15" facs="15"/>
 <head>SCENE <stage>a Chamber.</stage></head>
 <stage>Enter <hi>Rovewell, Arethusa,</hi> and <hi>Betty.</hi></stage>
@@ -508,8 +508,8 @@ you understand me, Gentlemen, you understand me.</p>
 Red-Coat without any Money—Had he but Money, if he wanted Sense, Manners, or even Manhood itself, it matter'd not a Pin—but to want Mony is the Devil—Well, I'll secure her under Lock and Key 'till to Morrow; and if her Husband can't keep her from Captainhunting, e'en let her bring him home a fresh Pair of Horns every time she goes out upon the Chase.</p>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a Chamber.</stage></head>
 <stage><hi>Arethusa</hi> sitting melancholly on a Couch, enter to her <hi>Argus.</hi></stage>
 <sp>
@@ -552,8 +552,8 @@ but me you never shall against my Inclinations.</p>
 <l>I'll brave 'em, tho' I fall a Sacrifice.</l>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <pb n="23" facs="23"/>
 <head>SCENE <stage>the Street.</stage></head>
 <stage>Enter <hi>Hearty.</hi></stage>
@@ -954,7 +954,7 @@ not have us'd you so roughly—but now you have won my Girl so bravely, take her
 <l>In vain we strive to force a Woman's Will:</l>
 <l>Do what we can, they'll get the better still.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

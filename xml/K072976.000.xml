@@ -7,7 +7,7 @@
 <extent>[16],64p. : music ; 8⁰.</extent><publicationStmt><publisher>printed for J. Watts,</publisher><date>1734.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT89867.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>DON QUIXOTE
 IN
@@ -24,8 +24,8 @@ NEW THEATRE in the <hi>Hay-Market.</hi></p>
 Printed for J. WATTS at the Printing-Office in
 <hi>Wild-Court</hi> near <hi>Lincoln's-Inn Fields.</hi>
 <abbr>MDCCXXXIV.</abbr> [Price One Shilling and Six Pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>To the RIGHT HONOURABLE
 PHILIP
@@ -125,8 +125,8 @@ Respect,</p>
 <closer><salute>My LORD,</salute> <signed>Your <hi>LORDSHIP</hi>'S most obedient
 and most humble Servant,
 <hi>HENRY FIELDING.</hi></signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="8"/>
 <head>PREFACE.</head>
 <p>THIS Comedy was begun at <hi>Leyden</hi>
@@ -187,8 +187,8 @@ of this Season from those which were
 written in my more juvenile Years, and before
 most of the Pieces with which I have
 endeavoured to entertain the Publick.</p>
-</div1>
-<div1 type="tableofsongs">
+</div>
+<div type="tableofsongs">
 <pb facs="11"/>
 <head>A
 TABLE of the SONGS.</head>
@@ -209,8 +209,8 @@ TABLE of the SONGS.</head>
 <item>AIR 14. Thus the Merchant, who with Pleasure. <hi>p.</hi> 60</item>
 <item>AIR 15. All Mankind are mad, 'tis plain. <hi>p.</hi> 64</item>
 </list>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="12"/>
 <list>
 <head>Dramatis Personae.</head>
@@ -256,9 +256,9 @@ TABLE of the SONGS.</head>
 </list></item>
 <item>Stage-Coachman and Mob.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>An Inn in a Country Borough.</hi></p></set>
-<div1 type="introduction">
+<div type="introduction">
 <pb facs="13"/>
 <head>INTRODUCTION.</head>
 <stage>MANAGER, AUTHOR.</stage>
@@ -402,16 +402,15 @@ assure you, Sir, if the Audience are but half as well
 entertain'd with this Play, as I shall be my self, it will
 go off with universal Applause.</p>
 </sp>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="16"/>
 <head>DON QUIXOTE
 IN
 ENGLAND.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head>SCENE, <stage><hi>An Inn.</hi></stage></head>
 <stage>GUZZLE, SANCHO.</stage>
@@ -476,8 +475,8 @@ than foreign ones.</p>
 <l>One Doctor for a Churchyard.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Don Quixote, Sancho.</stage>
 <sp>
@@ -633,8 +632,8 @@ in the Castle prepares an Entertainment for my Ears.</p>
 </lg>
 </lg>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="7" facs="22"/>
 <head>SCENE III.</head>
 <stage>Don Quixote, Guzzle, Sancho.</stage>
@@ -832,8 +831,8 @@ of my Attack. You shall find, Caitifs, that one single Knight
 is too many for you all.</p>
 </sp>
 <stage>[He attacks the Walls, and breaks the Windows.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Don Quixote, Guzzle, and Mob.</stage>
 <sp>
@@ -903,8 +902,8 @@ Now, thou most incomparable <hi>Dulcinea del Toboso,</hi> assist thy
 valiant Knight.</p>
 </sp>
 <stage>[He drives them off, and Exit.</stage>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>A Chamber.</stage>
 <stage>Dorothea, Jezebel.</stage>
@@ -957,8 +956,8 @@ mine, that is to be, will have a delightful Task to tame me?</p>
 <p>By what I can see, he's in a pretty fair way to be tamed
 himself.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="13" facs="28"/>
 <head>SCENE VI.</head>
 <stage>Sancho, Dorothea, Jezebel.</stage>
@@ -1126,8 +1125,8 @@ Gander; the Bear may well dance when the Ass plays on the
 Fiddle.</p>
 <stage>[<hi>Exit</hi> Sancho.</stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="16" facs="31"/>
 <head>SCENE VII.</head>
 <stage>Dorothea, Jezebel.</stage>
@@ -1164,8 +1163,8 @@ my Grief.</p>
 </lg>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="17" facs="32"/>
 <head>SCENE VIII.</head>
 <stage>The Street.</stage>
@@ -1254,8 +1253,8 @@ all he owes us.</p>
 <p>Nor I neither, Neighbour, by any but myself. I think
 that is the Privilege of a free <hi>Briton.</hi></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE X.</head>
 <stage>Guzzle, Mayor, Retail.</stage>
 <sp>
@@ -1356,12 +1355,12 @@ Success to the Corporation: These Times come but seldom,
 therefore we ought to make the best of them. Come along.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <trailer>The End of the First Act.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="35"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <head>SCENE, <stage><hi>A Chamber in the Inn.</hi></stage></head>
 <stage>Don Quixote, Sancho.</stage>
@@ -1455,8 +1454,8 @@ to court their Approbation.</p>
 <p>Oh! good your Worship, proceed: I could fast an
 Hour longer to hear your Discourse.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="22" facs="37"/>
 <head>SCENE II.</head>
 <stage>Guzzle, Don Quixote, Sancho.</stage>
@@ -1479,8 +1478,8 @@ thy Embassy.</p>
 <p>Prosperity may travel with me, without tiring itself.</p>
 </sp>
 <stage>[Aside.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Mayor, Don Quixote.</stage>
 <sp>
@@ -1666,8 +1665,8 @@ Mankind degenerate! where not only the vile Necessaries of
 Life; but even Honours, which should be the Reward of Virtue
 only, are to be bought with Money.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Another Chamber.</stage>
 <stage><hi>Squire</hi> Badger, Scut <hi>his Huntsman, and</hi> Guzzle.</stage>
@@ -1780,8 +1779,8 @@ By cunning Directors, if trick'd of your Pelf,</l>
 <l>'Twill soou cure the Fever that burns up your Mind.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Don Quixote, Guzzle, Scut, <hi>and</hi> Badger.</stage>
 <sp>
@@ -1964,8 +1963,8 @@ most incomparable Lady, that hast not suffered thy Knight to
 pollute his Hands with the base Blood of that Impostor
 Squire.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="31" facs="46"/>
 <head>SCENE VI.</head>
 <stage>Don Quixote, Sancho, <hi>Squire</hi> Badger.</stage>
@@ -2020,8 +2019,8 @@ safer to dance after a Fiddle than a Drum, tho' not so honourable;
 a wise Man would be a Soldier in time of Peace, and a
 Parson in time of War.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>Mrs.</hi> Guzzle, <hi>Squire</hi> Badger, Sancho.</stage>
 <sp>
@@ -2048,8 +2047,8 @@ Play, and I don't fear you—I don't fear you.</p>
 the Death of you; I'll teach you to fight with your Betters,
 you Villain, you; I'll curry you, Sirrah.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Fairlove, <hi>Squire</hi> Badger.</stage>
 <sp>
@@ -2172,8 +2171,8 @@ her having more Sense than himself.</p>
 <l>A Horn's but a Pimple scarce seen on your Head.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="34" facs="49"/>
 <head>SCENE IX.</head>
 <stage>Fairlove, <hi>Squire</hi> Badger, John.</stage>
@@ -2214,8 +2213,8 @@ no more.—Dear <hi>Dorothea,</hi> ten thousand Raptures are in the
 dear Name.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>John, <hi>Squire</hi> Badger, Don Quixote.</stage>
 <sp>
@@ -2317,8 +2316,8 @@ at your Peril.</p>
 <p>One might think, by this Noise, that we were at the
 Outside of the Opera-House, at a <hi>Ridotto.</hi></p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage><hi>Mrs.</hi> Guzzle, John, <hi>Squire</hi> Badger.</stage>
 <sp>
@@ -2343,8 +2342,8 @@ Distress.—Come, Sir.</p>
 <speaker>John.</speaker>
 <p>O dear, Sir.</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>A Yard.</stage>
 <stage>Don Quixote <hi>arm'd Cap-a-pee, his Lance in his Hand</hi>; Sancho,
@@ -2398,8 +2397,8 @@ Thing in his Hand, may I have it in my Guts that Moment.</p>
 <p>Gee, Gee, Boys, Hup!</p>
 </sp>
 <stage>[<hi>Exeunt</hi> Sancho, <hi>&amp;c.</hi></stage>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage><hi>Mrs.</hi> Guzzle, <hi>Mr.</hi> Brief, <hi>Dr.</hi> Drench, <hi>Mr.</hi> Sneak, <hi>Mrs.</hi> Sneak,
 <hi>Miss</hi> Sneak; <hi>Maid with Candles.</hi></stage>
@@ -2466,8 +2465,8 @@ Child.</p>
 <p>This way, Ladies.</p>
 </sp>
 <stage>[Exeunt Women.</stage>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV.</head>
 <stage><hi>Mr.</hi> Brief, <hi>Dr.</hi> Drench, Don Quixote, Sancho,
 <hi>Squire</hi> Badger, John.</stage>
@@ -2602,12 +2601,12 @@ The Miser and the Man will trick,</l>
 <l>Nor Woman true in Twenty-four.</l>
 </lg>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="42" facs="57"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <head>SCENE, <stage><hi>A Room.</hi></stage></head>
 <stage>Fairlove, Dorothea, <hi>Mrs.</hi> Guzzle.</stage>
@@ -2652,8 +2651,8 @@ whole again; would your Ladyship think it, Madam? Beside
 other Articles, she ran in tick Twenty Shillings for Thunder
 and Lighting.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Jezebel, Sancho, Fairlove, Dorothea, <hi>Mrs.</hi> Guzzle.</stage>
 <sp>
@@ -2735,8 +2734,8 @@ him a little more for your Arrival.</p>
 <p>I'll go see this Show, I'm resolv'd; and, faith, I
 begin to doubt which of my Guests is the maddest.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Fairlove, Dorothea.</stage>
 <sp>
@@ -2817,8 +2816,8 @@ Occasion then for Fear?</p>
 <l>With thee, <hi>&amp;c.</hi></l>
 </lg>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="46" facs="61"/>
 <head>SCENE IV.</head>
 <stage><hi>Servants with Lights before Sir</hi> Thomas <hi>and</hi> Guzzle.</stage>
@@ -2875,8 +2874,8 @@ Estate makes him a very advantageous Match for my Daughter,
 if she can but like his Person; and if he be describ'd right to
 me, I don't see how she can fail of doing that.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>Sir</hi> Thomas, <hi>Squire</hi> Badger, Guzzle, John.</stage>
 <sp>
@@ -2996,8 +2995,8 @@ Manners.</p>
 and I have no Notion of refusing an Estate, let the Man be
 what he will.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>The Yard.</stage>
 <stage>Don Quixote, Sancho.</stage>
@@ -3086,8 +3085,8 @@ e'en just like—</p>
 <p>To all the World, like a new half Crown Piece, amongst
 a heap of old Brass Farthings.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Drawer <hi>with a Light,</hi> Brief, <hi>Don</hi> Quixote, Sancho.</stage>
 <sp>
@@ -3128,8 +3127,8 @@ wou'd lie on that Act—</p>
 <p>Light on, Boy, the next Justice ought to be indicted
 for not putting the Laws in Execution against such Fellows.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>Don</hi> Quixote, Sancho, Jezebel.</stage>
 <sp>
@@ -3216,8 +3215,8 @@ sweeter than the Nightingale: Oh, charm my Ears no more
 with such transporting Melody, lest I find my Joy too exquisite
 for Sense to bear.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage><hi>Don</hi> Quixote, Sancho, Fairlove, Dorothea, Jezebel.</stage>
 <sp>
@@ -3257,8 +3256,8 @@ Beside, Sir, every Man in his Way. I am the worst Man in
 the World at the beginning of the Battle, but a very Devil at
 the end of it.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>John, Fairlove, <hi>Don</hi> Quixote, Dorothea, Jezebel.</stage>
 <sp>
@@ -3310,8 +3309,8 @@ end to the Fray.</p>
 put an end to a small Bottle I have there; I protest I am horribly
 frighten'd my self.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <sp>
 <speaker>Sancho </speaker>
@@ -3339,8 +3338,8 @@ Man's Jack. I'll e'en take this Opportunity, and while all
 the rest are knocking one another on the Head, I'll into the
 Pantry and stuff both Guts and Wallet as long as they'll hold.</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage><hi>Sir</hi> Thomas, Dorothea.</stage>
 <sp>
@@ -3385,8 +3384,8 @@ his Sufferings; were he in a Palace, you might keep me wretched
 alone; but were he in a Prison, not all the Powers on Earth
 should keep me from him.</p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>Guzzle, <hi>Mrs.</hi> Guzzle, Constable, <hi>Don</hi> Quixote, Fairlove, John.</stage>
 <sp>
@@ -3463,8 +3462,8 @@ you shall answer for it.</p>
 <speaker>Sir Tho.</speaker>
 <p>Ay, ay, Sir, we are not afraid of that.</p>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <pb n="57" facs="72"/>
 <head>SCENE XIV.</head>
 <stage><hi>Squire</hi> Badger, <hi>Sir</hi> Thomas, Dorothea, Fairlove, Don
@@ -3730,8 +3729,8 @@ Atchievements in <hi>Spain</hi>; what brought you to <hi>England,</hi> noble
 with them. I was told there was a plenteous Stock of Monsters;
 nor have I found one less than I expected.</p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV.</head>
 <stage>Don Quixote, <hi>Sir</hi> Thomas, Fairlove, Dorothea, Guzzle,
 <hi>Mrs.</hi> Guzzle, Brief, <hi>Dr.</hi> Drench.</stage>
@@ -3794,8 +3793,8 @@ plead, <hi>Non compos mentis,</hi> and he's acquitted of course; so
 there's an end of all Actions of Assaults and Battery at
 once.</p>
 </sp>
-</div3>
-<div3 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <head>SCENE XVI.</head>
 <stage><hi>Sir</hi> Thomas, Cook, Don Quixote, Sancho, Fairlove,
 <hi>Dr.</hi> Drench, <hi>Servants haling in</hi> Sancho.</stage>
@@ -3936,10 +3935,9 @@ by and by, may not prove us all to be more mad than himself.</p>
 </lg>
 </lg>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

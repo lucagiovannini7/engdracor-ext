@@ -7,20 +7,20 @@
 <extent>[9],6-80p. ; 8⁰.</extent><publicationStmt><publisher>printed for Richard White,</publisher><date>1795.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Edward Jerningham.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN25358.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE WELCH HEIRESS, A <hi>COMEDY.</hi></p>
 <p><hi>London:</hi> PRINTED FOR RICHARD WHITE, NO. 173, PICCADILLY.</p>
 <p>1795.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2" ana="y"/>
 <pb facs="3"/>
 <head>TO THE EARL OF HARCOURT.</head>
 <p>As I have attempted to write a Comedy at the flattering instigation of your Lordship, the following scenes have a natural claim to your protection. If, when you prompted and encouraged me to court the Comic Muse, you had imparted to me at the same time some share of your instinctive penetration into character— of your elegant, but impressive ridicule of fashionable levities—had you consigned to my hand the clue that guides you in the chace and detection of folly through the intricate windings of her labyrinth, I should have presented to you a Comedy more worthy of your attention. Such as it is, it offers me an opportunity of publickly acknowledging the high value I set upon a friendship, which I have had the happiness of enjoying so many years.</p>
 <closer><signed>I have the honor to be, Your most obedient Humble Servant, EDWARD JERNINGHAM.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head><hi>PROLOGUE</hi> TO THE WELCH HEIRESS.</head>
 <byline>WRITTEN BY JOHN TAYLOR, ESQ.</byline>
@@ -73,8 +73,8 @@
 <l>Our simple Poet may deride himself.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>The following Lines, written by the Rev. Mr. PRITCHARD, Jun. before he knew the Author was in possession of another Prologue, contain too much Merit to be suppressed.</head>
 <lg>
@@ -119,8 +119,8 @@
 <l>Should the mild off'ring kind acceptance share,</l>
 <l>Tis your's to weave the crown, and his to wear.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>CHARACTERS.</head>
 <list>
@@ -135,16 +135,15 @@
 <item><label>LADY PLINLIMMON</label> MISS POPE.</item>
 <item><label>MISS PLINLIMMON</label> MRS. JORDAN.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE—MELCOURT-HALL, near Town.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="9"/>
 <head>THE WELCH HEIRESS, <hi>A COMEDY.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter Lady</hi> BELLAIR—<hi>Mr.</hi> FASHION.</stage>
 <sp>
 <speaker><hi>Mr.</hi> FASHION.</speaker>
@@ -869,12 +868,12 @@
 <p>My valet de chambre, who has my instructions, and who is in our confidence will assist and furnish you with whatever is necessary for the purpose, I must now join the company.</p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="22" facs="26"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Lord</hi> MELCOURT—<hi>Mr.</hi> FANCY, <hi>with a pallet in his hand—a couch at some distance, on which Mr.</hi> PHRENSY <hi>lies, disguised as dead.</hi></stage>
 <sp>
 <speaker>Lord Mel.</speaker>
@@ -1027,8 +1026,8 @@
 <p>I will not detain you.</p>
 </sp>
 <stage>Exeunt</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="26" facs="30"/>
 SCENE—<stage><hi>The Saloon. Lady Plinlimmon, Miss Plinlimmon.</hi></stage></head>
 <sp>
@@ -1174,8 +1173,8 @@ SCENE—<stage><hi>The Saloon. Lady Plinlimmon, Miss Plinlimmon.</hi></stage></h
 <p>Heaven and earth! What a family am I going to be connected with! But I must not pause upon that thought, it would almost lead me to distraction.</p>
 </sp>
 <stage><hi>Exit Lord</hi> MELCOURT.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>Lady</hi> BELLAIR'S <hi>Apartment.</hi></stage></head>
 <stage><hi>Lady</hi> BELLAIR—<hi>Lady</hi> PLINLIMMON.</stage>
 <sp>
@@ -1268,8 +1267,8 @@ SCENE—<stage><hi>The Saloon. Lady Plinlimmon, Miss Plinlimmon.</hi></stage></h
 <p>I will wait upon you immediately. With your permission, I will send to the company to assemble in your book-room, where we will fix upon the plan of this evening's amusement.</p>
 </sp>
 <stage><hi>Exit Lady</hi> PLINLIMMON.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE.—<stage><hi>Book-Room.</hi></stage></head>
 <stage><hi>Enter Lord</hi> MELCOURT—<hi>Mr.</hi> PHRENSY.</stage>
 <sp>
@@ -1507,12 +1506,12 @@ SCENE—<stage><hi>The Saloon. Lady Plinlimmon, Miss Plinlimmon.</hi></stage></h
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="38" facs="42"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE—<stage><hi>The Temple of Hymen. The Company eating Ice-Creams.</hi></stage></head>
 <stage><hi>Sir</hi> PEPPER PLINLIMMON, <hi>Miss</hi> PLINLIMMON, <hi>Lord</hi> MELCOURT, <hi>Mr.</hi> FASHION <hi>and Lady</hi> BELLAIR.</stage>
 <sp>
@@ -1678,8 +1677,8 @@ SCENE—<stage><hi>The Saloon. Lady Plinlimmon, Miss Plinlimmon.</hi></stage></h
 <p>We will accompany you to the house.</p>
 </sp>
 <stage>Exeunt omnes</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="42" facs="46"/>
 SCENE—<stage><hi>Book-Room.</hi></stage></head>
 <stage><hi>Lady</hi> PLINLIMMON <hi>and Mr.</hi> PHRENSY, <hi>at a table covered with plants and flowers.</hi></stage>
@@ -2141,12 +2140,12 @@ SCENE—<stage><hi>Book-Room.</hi></stage></head>
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF THE THIRD ACT</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="53" facs="57"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <sp>
 <speaker>Miss Plin. </speaker>
 <stage>(Reading aloud)</stage>
@@ -2339,8 +2338,8 @@ But what makes you look so grave, when you are so near being a bridegroom? A lit
 <p>We shall see.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="57" facs="61"/>SCENE—<stage><hi>Lady</hi> BELLAIR'S <hi>Apartment.</hi></stage></head>
 <stage><hi>Lady</hi> BELLAIR—<hi>Miss</hi> PLINLIMMON.</stage>
 <sp>
@@ -2693,12 +2692,12 @@ Is it nothing, Sir Pepper, to have all the opera glasses levelled at one? To sit
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="66" facs="70"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <sp>
 <speaker><hi>Miss</hi> PLINLIMMON</speaker>
 <stage>, sitting at a Table, writing.</stage>
@@ -2973,8 +2972,8 @@ Aurora, yesterday, put on her best saffron robe, to assist at our wedding: we ar
 <p>Let us fly to the parson.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE—<stage><hi>Another Apartment.</hi></stage></head>
 <stage><hi>Enter Sir</hi> PEPPER PLINLIMMON.</stage>
 <sp>
@@ -3204,13 +3203,12 @@ Aurora, yesterday, put on her best saffron robe, to assist at our wedding: we ar
 <speaker>Lord Mel.</speaker>
 <p>Depend upon my discretion—come, let us all pass some chearful days under this roof; let reproaches and complainings cease, let good humour, social intercourse, pleasantry and content succeed.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>END OF THE COMEDY.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb n="78" facs="82"/>
 <head>EPILOGUE</head>
 <byline>BY THE RIGHT HON. FIELD MARSHAL CONWAY.</byline>
@@ -3284,7 +3282,7 @@ Aurora, yesterday, put on her best saffron robe, to assist at our wedding: we ar
 </lg>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

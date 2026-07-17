@@ -7,13 +7,13 @@
 <extent>46p. ; 12⁰.</extent><publicationStmt><publisher>printed for Anthony Edwards,</publisher><date>1783.</date><pubPlace>Cork :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Robert Jephson.</note><note>Variant: last page of text identical, but missing page number.</note><note>Reproduction of original from the Harvard University Houghton Library.</note><note>English Short Title Catalog, ESTCN2120.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE HOTEL: OR, THE SERVANT WITH TWO MASTERS. AS IT WAS PERFORMED <hi>At the</hi> THEATRE-ROYAL, <hi>Smock-Alley,</hi> WITH DISTINGUISHED APPLAUSE.</p>
 <p>CORK: PRINTED FOR ANTHONY EDWARDS, BOOKSELLER. <hi>No.</hi> 3, CASTLE-STREET.</p>
 <p>M.DCC.LXXXIII.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2" ana="y"/>
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
@@ -33,17 +33,16 @@
 <item><label>Leonora, <hi>Mistress of Ferdinand,</hi></label> Mrs. HITCHCOCK</item>
 <item><label>A Maid,</label> Mrs. GEMEA.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>GRANADA.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4" ana="y"/>
 <pb facs="5"/>
 <head><hi>The</hi> HOTEL, <hi>&amp;c.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>DON PEDRO's <hi>House.</hi></stage>
 <stage><hi>Enter</hi> Don Sancho, Don Pedro, <hi>and</hi> Borachio.</stage>
 <sp>
@@ -500,8 +499,8 @@
 </sp>
 <stage>[Exeunt.</stage>
 <pb n="14" facs="14"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Hotel.</hi></stage></head>
 <stage><hi>Enter</hi> Borachio.</stage>
 <sp>
@@ -540,8 +539,8 @@
 </sp>
 <stage>[Exeunt.</stage>
 <pb n="16" facs="16"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE. <stage><hi>A Hall in the Hotel.</hi></stage></head>
 <stage>Lazarillo, <hi>alone.</hi></stage>
 <sp>
@@ -1068,12 +1067,12 @@ MANUEL.</p>
 </sp>
 <stage>[Exit.</stage>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="27" facs="27"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE I. <stage><hi>Don Pedro's House.</hi></stage></head>
 <stage><hi>Enter</hi> Clara <hi>and</hi> Leonora.</stage>
 <sp>
@@ -1333,8 +1332,8 @@ MANUEL.</p>
 </sp>
 <stage>[Exit.</stage>
 <pb n="32" facs="32"/>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to the Hotel.</hi></stage></head>
 <stage>Two Doors are placed obliquely at opposite sides of the Stage, as entrances to different Chambers.</stage>
 <stage><hi>Enter</hi> Lazarillo.</stage>
@@ -2055,8 +2054,8 @@ MANUEL.</p>
 <sp>
 <speaker>Lazar.</speaker>
 <p>O yes, Sir, very surreptible. A certain Duke, a particular friend of my master's, came to condole with him (for poor Grandee, he was quite uncomfortable) and spying me wiping my eyes in an
-<pb facs="46"/>outward room, with a Barcelona handkerchief, as he was taking leave of my master, says he, Don Dumpos, I am sorry for your misfortune, but be of good heart, pray be comforted, if you had lost your wife as well as your daughter, I should hardly know how to pity you, while you possess such a treasure in a servant as the incomparable Lazarillo.</p>
-<stage>(<hi>Meaning me, Sir.</hi>)</stage>
+<pb facs="46"/>outward room, with a Barcelona handkerchief, as he was taking leave of my master, says he, Don Dumpos, I am sorry for your misfortune, but be of good heart, pray be comforted, if you had lost your wife as well as your daughter, I should hardly know how to pity you, while you possess such a treasure in a servant as the incomparable Lazarillo.
+<lb/>(<hi>Meaning me, Sir.</hi>)</p>
 </sp>
 <sp>
 <speaker>Octa.</speaker>
@@ -2092,10 +2091,9 @@ MANUEL.</p>
 <l>But their displeasure now no more can move,</l>
 <l>If you <stage>(to the audience)</stage> my kinder masters but approve.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

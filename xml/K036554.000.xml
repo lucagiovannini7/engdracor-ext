@@ -7,7 +7,7 @@
 <extent>iv,[4],72p. ; 8⁰.</extent><publicationStmt><publisher>sold by W. Griffin,</publisher><date>1767.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT34218.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE Countess of Salisbury.</p>
 <p>A TRAGEDY.</p>
@@ -15,8 +15,8 @@
 <p>BY HALL HARTSON, ESQR.</p>
 <p>LONDON: Sold by W. GRIFFIN, in Catharine-Street. 1767.</p>
 <p>[Pr. 1s. 6d.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO ELIZABETH, COUNTESS OF MOIRA.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -27,13 +27,13 @@ character. And yet there are many virtues, many delicacies, which it would have 
 <closer><salute>MADAM,</salute> <signed>Your LADYSHIP's
 Most respectful, Most obliged, Humble Servant,
 H. HARTSON.</signed></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="4"/>
 <head>ADVERTISEMENT.</head>
 <p>THE COUNTESS OF SALISBURY made her appearance about two years ago in Ireland, where she was received with very singular marks of favour; the Author there had many friends, and with all the partiality they might be supposed to have for him, those friends did not hesitate to declare, that the excellent performance of Mrs. Dancer and Mr. Barry, contributed largely to the success of the Piece: written in his early youth, without having much knowledge of the stage, or dramatic performances, the Author is sensible what his Tragedy must be, notwithstanding the smiles with which it has been indulged. England, agreeable to the character of good nature and generosity which it has established through all the world, has kindly followed the example of its sister nation, and received with an indulgence the attempt of a young Writer, who is indeed ambitious of pleasing, but dare not aspire to excellence. He attributes, in great measure, his good fortune now, to what his friends attributed it before, the animated performance of Mrs. Dancer and Mr. Barry: it is theirs to endeavour to support a reputation already gained, his to aim at improvement, in order to acquire one.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE, SPOKEN BY Mr. WESTON, in the CHARACTER of a TEAGUE.</head>
 <l>MY jewels, I'm come to spake in the behalf—</l>
@@ -74,8 +74,8 @@ H. HARTSON.</signed></closer>
 <l>And yours, my sowls t' encourage and protect;</l>
 <l>No critic custom then exacted be,</l>
 <l>Pass it like Irish linen, duty free.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="6"/>
 <head>EPILOGUE, Spoken by Mrs. DANCER.</head>
 <lg>
@@ -116,8 +116,8 @@ H. HARTSON.</signed></closer>
 <l>The thing may mend, and learn to please you better—</l>
 <l>Do then—nay, pray you shew him some good nature.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>Persons of the Drama.</head>
 <list>
@@ -132,16 +132,15 @@ H. HARTSON.</signed></closer>
 <item>Countess of Salisbury, Mrs. Dancer.</item>
 <item>Knights, Peasant, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>Scene Salisbury Castle, and the Country about it.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE Countess of Salisbury.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>An Avenue leading to a Gothic Castle.</stage>
 <stage>Enter GREY, and FIRST KNIGHT.</stage>
 <sp>
@@ -694,12 +693,12 @@ If beauty sway thy fond regards, if wealth,</l>
 <stage>[Exeunt ambo.]</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="14" facs="21"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>within the Castle.</stage></head>
 <stage>Enter RAYMOND and GREY.</stage>
 <sp>
@@ -974,8 +973,8 @@ If beauty sway thy fond regards, if wealth,</l>
 <l>That wounds, yet wounding heals the lover.</l>
 <stage>[Ex. amb.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Scene changes—Lady SALISBURY reclining on a couch.</stage></head>
 <stage>Enter ELEANOR.</stage>
 <sp>
@@ -1263,12 +1262,12 @@ Look! look! behold him, Eleanor! behold</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="27" facs="34"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>within the Castle.</stage></head>
 <stage>Enter RAYMOND and GREY.</stage>
 <sp>
@@ -1894,12 +1893,12 @@ How base they have been; they are gone abroad,</l>
 <stage>[Exeunt omnes.]</stage>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
+</div>
+</div>
 <pb n="41" facs="48"/>
-<div2 n="4" type="act">
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>Enter RAYMOND and GREY.</stage>
 <sp>
 <speaker>GREY.</speaker>
@@ -2099,8 +2098,8 @@ Anon in frantic mood tears from her head</l>
 <l>Farewel remorse; then dies the injur'd husband.</l>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage>Scene opening, discovers lord SALISBURY on the ground, in chains.</stage>
 <stage>Enter LEROCHES.</stage>
 <sp>
@@ -2727,12 +2726,12 @@ The slaves and agents of destruction, black</l>
 <stage>[Ex. omnes.</stage>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="59" facs="66"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>a Forest, and Cottage.</stage></head>
 <stage>Enter ARDOLF and a KNIGHT.</stage>
 <sp>
@@ -2851,8 +2850,8 @@ Enter LEROCHES.</stage>
 <l>Divided thus, we wage an easier war.</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>within the Castle.</stage></head>
 <stage>Enter GREY and MORTON.</stage>
 <sp>
@@ -3343,10 +3342,9 @@ Had never seen thy wife!—It may not be—</l>
 <l>To Heav'n; taught by his mother's bright example,</l>
 <l>That, to be truly good, is to be bless'd.</l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

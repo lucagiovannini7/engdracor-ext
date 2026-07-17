@@ -7,12 +7,12 @@
 <extent>v,[3],85,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1788.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT35438.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE FATE OF SPARTA; OR, THE RIVAL KINGS. A TRAGEDY. AS IT IS ACTED AT THE THEATRE-ROYAL, IN DRURY-LANE. BY MRS. COWLEY.</p>
 <p>LONDON: PRINTED FOR G. G. J. AND J. ROBINSON, PATER-NOSTER-ROW. MDCCLXXXVIII. [Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO JOHN COWLEY, ESQ.</head>
 <p>WHEN letters were in their infancy, and when knowledge and the arts were groping their way through seemingly impervious mists, some splendid name was necessary to give an author celebrity—hence the custom of DEDICATIONS; hence those floods of adulation, which poured from the press, and outraged the feelings of the addresser and the addressed.</p>
@@ -27,8 +27,8 @@ had destroyed Agis, continues his system. Cleombrotus, ambitious and tolerably o
 <p>Struck with admiration at the slight yet powerful touches, with which that biographist had sketched the character of CHELONIS <note n="*" place="foot">In his Life of Agis.</note>, I wondered such a character had never been brought on the Stage, to do honour to her sex;—yet I had joy in reflecting, that this was precisely the age in which it ought to be done, for this age boasted a Mrs. SIDDONS.</p>
 <p>How much the FATE OF SPARTA has been indebted to that lady, and to some of the other performers, the public prints bear testimony—and I gratefully record it: because it is a circumstance highly flattering to myself, and because I wish the present I thus offer you, to be surrounded with every appendage that can make you feel it inestimable.</p>
 <closer><signed>With the best wishes and affection, I have the honour to be, Your devoted humble servant, H. COWLEY.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE;</head>
 <byline><hi>WRITTEN BY</hi> MRS. COWLEY.</byline>
@@ -92,8 +92,8 @@ had destroyed Agis, continues his system. Cleombrotus, ambitious and tolerably o
 <l>Oh pardon where you can, and if YOU please,</l>
 <l>This anxious hour precedes a night of ease.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <p><list>
@@ -122,13 +122,13 @@ had destroyed Agis, continues his system. Cleombrotus, ambitious and tolerably o
 <label>Chelonice, <note n="*" place="foot">This name, on the stage, is pronounced as four syllables. It was thought necessary to observe this, as the measure hardly any where fixes it.</note></label>
 <item>Mrs. SIDDONS.</item>
 </list></p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="8"/>THE FATE OF SPARTA; OR, THE RIVAL KINGS. A TRAGEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>A Forest.</stage>
 <stage><hi>In the back ground a Camp, before the Walls of Sparta, Enter</hi> MEZENTIUS <hi>and</hi> COREX.</stage>
 <sp>
@@ -328,8 +328,8 @@ Than her, from him, who gave the charmer life.</l>
 <l>Goddess! I come!</l>
 </sp>
 <stage>[Exit drawing his sword.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to the Palace of Leonidas.</stage>
 <stage><hi>Enter</hi> AMPHARES <hi>and</hi> NICRATES, <hi>meeting.</hi></stage>
 <sp>
@@ -650,13 +650,13 @@ For ere its circling minutes have been number'd,</l>
 <l>'Tis ye who guide us in the way unknown,</l>
 <l>The motive ours, th' events are all your own!</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
 <head>ACT II. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>The Tent of</hi> Cleombrotus. Cleombrotus <hi>surrounded by Generals,</hi> &amp;c.</stage>
 <sp>
 <speaker>CLEOMBROTUS.</speaker>
@@ -1043,8 +1043,8 @@ Then, whilst my Spartans bow their necks beneath thee,</l>
 <l>But struck by genius, from a <hi>bolder</hi> dye!</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to the Palace.</stage>
 <stage><hi>Enter</hi> LEONIDAS <hi>and</hi> AMPHARES.</stage>
 <sp>
@@ -1254,13 +1254,13 @@ Thy gentle breath might hope as well, good brother,</l>
 <l>Thou talk'st of virtue—I behold a THRONE!</l>
 <l>Thou bidst me fear—I think on CHELONICE!</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="32" facs="39"/>
 <head>ACT III. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>The Tribunal.</stage>
 <stage><hi>Enter</hi> LEONIDAS, AMPHARES, SARPEDON, ATTALUS, <hi>and others.</hi></stage>
 <sp>
@@ -1578,8 +1578,8 @@ But a few hours, for acts, whose fame shall live</l>
 <l>And whilst I seem but to obey, I rule.</l>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to the Tent of Cleombrotus.</stage>
 <stage><hi>Enter</hi> CLEOMBROTUS <hi>followed by</hi> MEZENTIUS.</stage>
 <sp>
@@ -1950,13 +1950,13 @@ Since Chelonice at the altar vow'd,</l>
 <l>That quick on my dishonour, my revenge</l>
 <l>May dart with light'ning's certainty, and blast them!</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="50" facs="57"/>
 <head>ACT IV. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>The Palace.</stage>
 <stage><hi>Enter</hi> Amphares <hi>hastily, followed by</hi> Nicrates.</stage>
 <sp>
@@ -2115,8 +2115,8 @@ Shall spread his gorgeous mantle o'er the skies,</l>
 <l>I rest me there! farewell! remember Chelonice!</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to the Prison.</stage>
 <stage>CHELONICE <hi>enters from the Flat. The child asleep on a Pallet. She goes to him.</hi></stage>
 <sp>
@@ -2297,8 +2297,8 @@ Here tortured, I must stay! But where's my father?</l>
 <l>And scant our measure of encreasing woes!</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="59" facs="66"/>
 <stage>Scene changes to the Grove.</stage>
 <stage><hi>Enter</hi> CLEOMBROTUS.</stage>
@@ -2320,8 +2320,8 @@ Here tortured, I must stay! But where's my father?</l>
 <l>Again! be faithful then my ear, and guide me!</l>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Enter</hi> AMPHARES.</stage>
 <sp>
 <speaker>AMPHARES.</speaker>
@@ -2433,13 +2433,13 @@ In which embower'd recess, doth fate ordain</l>
 <l>Where e'er your impulse leads.—Guide me to vengeance,</l>
 <l>Or to Chelonice!</l>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="63" facs="70"/>
 <head>ACT V. SCENE I.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>The Prison.</stage>
 <stage><hi>Enter</hi> Leonidas <hi>and</hi> Amphares, <hi>followed by an an Officer.</hi></stage>
 <sp>
@@ -2631,8 +2631,8 @@ And Chelonice now no more shall know</l>
 <l>A short one perhaps; yet shall its aim be glorious!</l>
 </sp>
 <stage>[Exit.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="68" facs="75"/>
 <head>Scene, <stage>a Colonade in the Palace.</stage></head>
 <stage><hi>Enter</hi> SARPEDON, <hi>followed by others.</hi></stage>
@@ -2931,8 +2931,8 @@ The spirit of morality, sublimed;</l>
 <l>When <hi>he's</hi> no more, Leonidas will be immortal!</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage>the Temple.</stage></head>
 <stage>Present, the High Priest and others.</stage>
 <sp>
@@ -3319,12 +3319,12 @@ Hath work'd a double vengeance.—This alone,</l>
 <l>Which thus thro' darkness works our brightest days,</l>
 <l>And darts his glory, o'er our thorny ways.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>THE END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="93"/>
 <head>EPILOGUE</head>
 <byline><hi>WRITTEN BY</hi> MRS. COWLEY.</byline>
@@ -3374,8 +3374,8 @@ Hath work'd a double vengeance.—This alone,</l>
 <l>Your hands they ask<hi>—such</hi> thunders do not fright;</l>
 <l>Repeat the peal once more, and then good night.</l>
 </lg>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="95"/>
 <head><hi>The following</hi> NEW PIECES, <hi>writte by Mrs.</hi> COWLEY, <hi>may be had of Messrs.</hi> ROBINSON, <hi>Pater-noster-Row.</hi></head>
 <list>
@@ -3390,8 +3390,7 @@ Hath work'd a double vengeance.—This alone,</l>
 <item>9. First Part of THE MAID OF ARRAGON, a Poem, 4to. 2s. 6d.</item>
 <item>10. The SCOTTISH VILLAGE, a Poem, 4to. 2s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

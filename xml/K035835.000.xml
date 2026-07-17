@@ -7,7 +7,7 @@
 <extent>[8],86,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket,</publisher><date>1773.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Home.</note><note>With a final leaf of epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT32933.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <pb facs="2" ana="y"/>
 <p>ALONZO.</p>
@@ -15,16 +15,16 @@
 <quote>Et mentem strinxit patriae pietatis imago.</quote> <bibl>VIRGIL.</bibl>
 <p>LONDON: Printed for T. BECKET, in the Strand. MDCCLXXIII.</p>
 <p>(Prince One Shilling and Sixpence.)</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>THE author of the following Tragedy, has, in his former attempts of the same kind, avoided to trouble the reader with either dedication or preface. His chief reason for declining this common mode of appearing before the public, was the necessity, which it would lay him under, of speaking concerning himself and his works. The success of Alonzo calls upon him to depart from his former plan; and to break that silence, which might now be reckoned arrogant, and even ungrateful, to those, from whom he in a great measure derives his success.</p>
 <p>He embraces with pleasure, this occasion, to acknowledge his obligations to THE MANAGERS of the theatre, whose friendly, anxious, and active zeal he hath so often experienced: TO THE PERFORMERS, who have so strenuously contended with each other, in their very generous endeavours to embellish the representation of the piece: To MRS. BARRY—but the public voice has exalted HER above his praise: Yet he claims the merit of
 <pb facs="4"/>having, before others, observed her now allowed and unrivalled excellency. From the colour of the dawn, he foretold the brightness of the day.</p>
 <p>For MRS. BARRY he wrote the part of Ormisinda, and the most flattering circumstance to him, in the success of his play, is the universal opinion, (vouched, not only by the loudest applause that ever shook the stage, but by the greatest effusion of tears) that the ACTRESS so much exalted THE CHARACTER, that she exceeded all imagination, and reached the summit of perfection.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. PALMER.</byline>
@@ -73,8 +73,8 @@ If as Rinaldo stout each Man should prove,</l>
 <l>Even now with anxious Hearts they watch your Eyes,</l>
 <l>Should you but frown, even brave <hi>ALONZO</hi> flies.</l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -94,13 +94,13 @@ If as Rinaldo stout each Man should prove,</l>
 <item><label>TERESA,</label> Miss MANSELL.</item>
 </list>
 <p>Officers and Attendants, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="tragedy">
+<div type="tragedy">
 <pb facs="8"/>
 <head>ALONZO. A TRAGEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <head>SCENE I. <stage><hi>A hall in the palace of the kings of</hi> Spain.</stage></head>
 <stage>ORMISINDA. TERESA.</stage>
@@ -532,8 +532,8 @@ If as Rinaldo stout each Man should prove,</l>
 <l>At once the rival of his father's fame.</l>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="22"/>
 <head>ACT II.</head>
 <head>SCENE I.</head>
@@ -1242,8 +1242,8 @@ If as Rinaldo stout each Man should prove,</l>
 </sp>
 <stage>[Exeunt.]</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="35" facs="42"/>
 <head>ACT III.</head>
 <head>SCENE I. <stage><hi>A view of the country near the city.</hi></stage></head>
@@ -1875,8 +1875,8 @@ If as Rinaldo stout each Man should prove,</l>
 </sp>
 <stage>[Exeunt.]</stage>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="53" facs="60"/>
 <head>ACT IV.</head>
 <head>SCENE I. <stage><hi>The City.</hi></stage></head>
@@ -2556,8 +2556,8 @@ If as Rinaldo stout each Man should prove,</l>
 </sp>
 <stage>[Exeunt.</stage>
 <trailer>END F THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="72" facs="79"/>
 <head>ACT V.</head>
 <head>SCENE I.</head>
@@ -3149,12 +3149,12 @@ If as Rinaldo stout each Man should prove,</l>
 <l>Dwell not on this sight,</l>
 <l>Prince of Asturia! leave the scene of sorrow.</l>
 </sp>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="94"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. BARRY.</byline>
@@ -3220,7 +3220,7 @@ Madams, you false—de tout mon Coeur—Adieu;</l>
 <l>Whate'er you do—let not the Flame go out.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

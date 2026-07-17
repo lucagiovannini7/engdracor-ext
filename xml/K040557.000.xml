@@ -7,18 +7,18 @@
 <extent>[16],68p. ; 4⁰.</extent><publicationStmt><publisher>printed for George Strahan; and Bernard Lintott,</publisher><date>1704.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT40872.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>Liberty Asserted. A TRAGEDY. As it is Acted at the NEW THEATRE IN <hi>Little Lincoln's-Inn-Fields.</hi></p>
 <p>Written by Mr. DENNIS.</p>
 <p><hi>LONDON:</hi> Printed for <hi>George Strahan</hi> at the <hi>Golden Ball,</hi> against the <hi>Royal Exchange,</hi> in <hi>Cornhill</hi>; and <hi>Bernard Lintott</hi> at the <hi>Middle-Temple-Gate</hi> in <hi>Fleetstreet.</hi> 1704. Price 1<hi>s.</hi> 6<hi>d.</hi></p>
-</div1>
-<div1 type="halftitle">
+</div>
+<div type="halftitle">
 <pb facs="2"/>
 <p>Liberty Asserted.</p>
 <p>A TRAGEDY.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="5"/>
 <head>TO ANTHONY HENLEY, <abbr>Esq</abbr></head>
 <opener><salute>SIR,</salute></opener>
@@ -28,8 +28,8 @@
 Play had many more Beauties than Faults, You should be the very last Person to whom I would chuse to address it. If You appear to be of the same Opinion, I have gain'd the chief Ends which I propose to my self in Writing, and that is to do a little Good, to distinguish my self by what I write, and by those to whom I address my self. I shall look upon Your Approbation as a glorious Earnest of Fame, for Truth will be sure at last to prevail; and that which we call Taste in Writing, is nothing but a fine Discernment of Truth. But as Truth must be always one, and always the same to all who have Eyes to discern it; he who pleases one of a true Taste at first, is sure of pleasing all the World at last. But I who have sometimes had the Honour to hear You talk of Criticism, have been a long time throughly convinc'd that from an Intimacy with the Ancients, and a just Knowledge of the Moderns, You have form'd that fine and admirable Taste, which is so rarely found among us. But I ought to consider that while I commend it, I may perhaps displease it, and ought in Discretion to say no more. I am,</p>
 <closer><salute>SIR,</salute> 
 <signed>Your most humble, and most obedient Servant, JOHN DENNIS.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="3"/>
 <head>PREFACE.</head>
 <p>AS the Entertainments of our Theatres are publick, and supported by publick Authority, it is but just that the Instruction, which is the ultimate end of them, should tend to the publick Advantage. 'Tis true, indeed, the Stage, by correcting particular Persons, has a natural tendency to the improving the Publick. But when, I say, that the Publick ought to receive Advantage from the Entertainments of our Theatres, I mean, that it ought to do so immediately, and that the Instructions which we receive from the Stage ought to be for the Benefit of the lawful establish'd Government.</p>
@@ -61,8 +61,8 @@ from his Zeal for their present Government.</p>
 of a Stage by <hi>Entrances</hi> and <hi>Exits,</hi> which are nothing but Direrections that are given to a Play House Prompter.</p>
 <p>The Design of this Play was much improv'd by the Remonstrances which I receiv'd from my valued Friend Mr. <hi>Southern,</hi> who besides his Zeal to do good to his Friends, and a noble Sincerity, uncommon among the Writers of this Age, by the <hi>ex tempore</hi> Remarks which he made upon my reading this Play to him in a very hasty manner, shew'd at once so much penetrating Quickness, as well as so much Solidity, and so much sureness, as could belong to no Man but one who has a thorough Understanding of Nature, and who has that admirable Talent for touching the Passions which he has shewn in his Tragedies. I must own the Obligation too which I have to Mr. <hi>Betterton</hi> for the Hints I received from him, as well as for his excellent Action.</p>
 <p>This Play indeed receiv'd all the Grace and Ornament of Action in most of the principal Parts, and in all the Womens. But that of <hi>Sakia</hi> by Mrs. <hi>Barry</hi> was acted so admirably and inimitably, as that no Stage in <hi>Europe</hi> can boast of any thing that comes near to her Performance; or if the Foreign Stages can shew any thing like it, they are at least prodigiously improv'd since I was upon the Continent. That incomparable Actress changing like Nature which she represents, from Passion to Passion, from Extream to Extream, with piercing Force, and with easie Grace, changes the Hearts of all who see her with irresistible Pleasure.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="12"/>
 <head>PROLOGUE.</head>
 <stage>Spoke by Mr. <hi>Betterton.</hi></stage>
@@ -107,8 +107,8 @@ of a Stage by <hi>Entrances</hi> and <hi>Exits,</hi> which are nothing but Direr
 <l>With silent care to the first Act attend,</l>
 <l>Then you with Pleasure may perhaps unbend.</l>
 </lg>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="13"/>
 <head>EPILOGUE.</head>
 <lg>
@@ -145,8 +145,8 @@ of a Stage by <hi>Entrances</hi> and <hi>Exits,</hi> which are nothing but Direr
 <l>But with Prophaness acted every Day</l>
 <l>They force Celestial Beauty to obey.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="14"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -178,15 +178,15 @@ of a Stage by <hi>Entrances</hi> and <hi>Exits,</hi> which are nothing but Direr
 <label><hi>Okima,</hi> Confident to <hi>Sakia.</hi></label>
 <item>By Mrs. <hi>Porter.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE <hi>Angie</hi> in <hi>Canada.</hi></p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb facs="15"/>
 <head>Liberty Asserted.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head>SCENE, <stage><hi>Angie</hi> in <hi>Canada.</hi></stage></head>
 <head type="sub">SCENE I.</head>
@@ -566,8 +566,8 @@ Joy lighten'd on a sudden from her Eyes, </l>
 <speaker>Okim.</speaker>
 <l>But see, the noble <hi>Beaufort</hi> comes to attend you.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Sakia, Okima, Beaufort.</stage>
 <sp>
@@ -835,8 +835,8 @@ Were all thy Countrymen like thee, brave <hi>Beaufort,</hi> </l>
 <l>But still my Soul from this disastrous Love </l>
 <l>Forebodes much Mischief.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Sak. Okim. Beauf. <hi>Messengers, Shouts.</hi></stage>
 <sp>
@@ -871,8 +871,8 @@ Were all thy Countrymen like thee, brave <hi>Beaufort,</hi> </l>
 <speaker>Beauf.</speaker>
 <l>Tell him I come.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Sak. Okim. Beaufort.</stage>
 <sp>
@@ -912,8 +912,8 @@ Were all thy Countrymen like thee, brave <hi>Beaufort,</hi> </l>
 <speaker>Beauf.</speaker>
 <l>That, Madam, shall be my immediate Care,</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Sakia, Okima.</stage>
 <sp>
@@ -1157,10 +1157,10 @@ Their Priests offended would incense their King.</l>
 <l>And here remind me e'er it be too late, </l>
 <l>To run and tear him from impending Fate.</l>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>Sakia, Beaufort.</stage>
 <sp>
@@ -1193,8 +1193,8 @@ And in an hour here we expect <hi>Zephario,</hi> </l>
 <speaker>Beauf.</speaker>
 <l>See, where he comes to attend you.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Sakia, Ulamar.</stage>
 <sp>
@@ -1473,8 +1473,8 @@ Thy impious Head against his sacred Life, </l>
 <l>And be not seen in this extreme Disorder.
 <stage>[Leads her out, and returns.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Ulamar, Beaufort.</stage>
 <sp>
@@ -1587,8 +1587,8 @@ Thy impious Head against his sacred Life, </l>
 <speaker>Beauf.</speaker>
 <l>But our Fate comes, and I must disappear.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Ulamar, Irene.</stage>
 <sp>
@@ -1751,8 +1751,8 @@ Thy impious Head against his sacred Life, </l>
 <l>Oh too accomplish'd <hi>Beaufort!</hi> Oh my Friend! </l>
 <l>What have I lost by thy transcendent Virtue?</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Zephario, Irene, Ulamar, Beaufort.</stage>
 <sp>
@@ -1959,11 +1959,11 @@ The accents dye upon her Charming Tongue, </l>
 <speaker>Ul.</speaker>
 <l>And Immortality will then be mine.</l>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div2>
-<div2 n="3" type="act">
-<div3 n="1" type="scene">
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <stage>Sakia, Ulamar.</stage>
 <sp>
@@ -2382,8 +2382,8 @@ Then to th' Eternal mind, and his Protection </l>
 <l>Well then! Since thou wilt have it so, I'll wait, </l>
 <l>But know on that result depends my Fate.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>Scene Second.</head>
 <stage>Ulamar.</stage>
 <sp>
@@ -2412,8 +2412,8 @@ Then to th' Eternal mind, and his Protection </l>
 <l>But see the French appear.</l>
 </sp>
 <stage>Flat Scene draws.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="33" facs="47"/>
 <head>Scene the Third,</head>
 <stage>Zephario, Ulamar, Beaufort. 1 <hi>Emb.</hi> 2 <hi>Emb.</hi></stage>
@@ -2531,8 +2531,8 @@ Those pleasing manners, which the World admires, </l>
 <l>But first you enslave them to their own base Passions; </l>
 <l>And afterwards to yours.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>Scene the Fourth.</head>
 <stage>Zeph. Ula. Beaufort, 2 <hi>Emb. Slave.</hi></stage>
 <sp>
@@ -2558,8 +2558,8 @@ Those pleasing manners, which the World admires, </l>
 <l>My fancy cannot bear the murdring thought. </l>
 <l>Tell her, her harsh command shall be obey'd.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>Scene the Fifth.</head>
 <stage>Zeph. Ula. Beauf. 2 <hi>Emb.</hi></stage>
 <sp>
@@ -2662,8 +2662,8 @@ The only Treaty to which we descend.</l>
 <speaker>Ul.</speaker>
 <l>We follow you.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>Scene the Sixth,</head>
 <stage>Ulamar, Beaufort.</stage>
 <sp>
@@ -2864,11 +2864,11 @@ And thou hast a long League to March alone, </l>
 <l>Oh I have lost all that I held most Dear; </l>
 <l>Th' entirely Wretched, need no danger Fear.</l>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div2>
-<div2 n="4" type="act">
-<div3 n="1" type="scene">
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <stage>Ulamar.</stage>
 <sp>
@@ -2885,8 +2885,8 @@ And thou hast a long League to March alone, </l>
 <l>Hast then, my Fairest, my espous'd, O hast! </l>
 <l>And cheer thy Languishing Impatient <hi>Ulamar.</hi></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>Scene Second.</head>
 <stage>Sakia, Irene, Ulamar.</stage>
 <sp>
@@ -2941,8 +2941,8 @@ And I the best of Loveas in a Husband.</l>
 <l>Which his rich Fancy form'd for thee: </l>
 <l>Once more, ten Thousand Blessings on you both.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>Scene Third.</head>
 <stage>Ulamar, Irene.</stage>
 <sp>
@@ -3038,8 +3038,8 @@ And I the best of Loveas in a Husband.</l>
 <l>Now shouts of Joy Succeed. </l>
 <l>And now a Noise of Murder and of Fire.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>Scene Fourth.</head>
 <stage>Ulamar, Irene, Arimat <hi>Wounded.</hi></stage>
 <sp>
@@ -3159,8 +3159,8 @@ The French possess the Gates; no, Flight for me, </l>
 <l>No, I must Die; but will not tamely Fall; </l>
 <l>Nor unreveng'd, to Arms, to arms.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>Scene 5.</head>
 <stage>Ulamar, Irene, Zephario <hi>Wounded.</hi></stage>
 <sp>
@@ -3190,8 +3190,8 @@ The French possess the Gates; no, Flight for me, </l>
 <l>Hark! hark! they come, Retire my Love retire, </l>
 <l>Now for the welcome that such guests deserve.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>Scene 6.</head>
 <stage>Ula. Ire. Front. Mir. <hi>Officers and Souldiers. Fight.</hi></stage>
 <sp>
@@ -3759,8 +3759,8 @@ If he refuses, bring him strait to me </l>
 <l>And under us Rule all th' <hi>Jroquian</hi> Tribes: </l>
 <l>If thou Refusest thou shalt surely Die.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>Scene the 6.</head>
 <stage>Ulamar, Irene.</stage>
 <sp>
@@ -4064,8 +4064,8 @@ If he refuses, bring him strait to me </l>
 <l>Think what the <hi>French</hi> when thou art gone▪ Come death▪</l>
 <l>And free my Breast from this distracting thought.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>Scene 7.</head>
 <stage>Ulamar, Irene, <hi>Officer, and Guards.</hi></stage>
 <sp>
@@ -4086,12 +4086,12 @@ If he refuses, bring him strait to me </l>
 <speaker>Ire.</speaker>
 <l>Oh Gods! What dreadful Fate's reserv'd for me!</l>
 </sp>
-</div3>
+</div>
 <trailer>The End of the Fourth Act.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="53" facs="67"/>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT V. SCENE I.</head>
 <stage>Ulamar, Frontenac, Miramont.</stage>
 <sp>
@@ -4377,8 +4377,8 @@ Who were to them Superiour Creatures form'd: </l>
 <speaker>Front.</speaker>
 <l>I've heard too much.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>Scene 2.</head>
 <stage>Ulamar, Frontenac, Miramont, <hi>Souldier.</hi></stage>
 <sp>
@@ -4422,8 +4422,8 @@ And now both Hill and Vale appear on Fire: </l>
 <l>Be Planted at the entrance to this place; </l>
 <l>They shall receive my pleasure as I pass.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>Scene 3.</head>
 <stage>Ulamar, Frontenac, Miramont.</stage>
 <sp>
@@ -4437,8 +4437,8 @@ And now both Hill and Vale appear on Fire: </l>
 <l>If before they expire, thou wilt be ours, </l>
 <l>Thou may'st be happy, else thou know'st thy doom.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>Scene 4.</head>
 <stage>Ulamar, Miramont.</stage>
 <sp>
@@ -4604,8 +4604,8 @@ And now both Hill and Vale appear on Fire: </l>
 <speaker>Mir.</speaker>
 <l>'Tis past; How vain 'tis to contend with Fate.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>Scene 5.</head>
 <stage>Ulamar, Miramont, <hi>Officer and Guards.</hi></stage>
 <sp>
@@ -4675,8 +4675,8 @@ And now both Hill and Vale appear on Fire: </l>
 <l>And makes me Bleed, as if thou wert a part of me, </l>
 <l>Dear hapless Youth, eternally Farewel!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>Scene 5.</head>
 <stage>Ulamar, Miramont, Sakia, <hi>Officer, and Guards.</hi></stage>
 <sp>
@@ -4713,8 +4713,8 @@ And now both Hill and Vale appear on Fire: </l>
 <l>With this I shall acquaint our Governour. </l>
 <l>Do you remain, and Guard your Prisoner well.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>Scene 6.</head>
 <stage>Ulamar, Miramont, Sakia, <hi>and Guards.</hi></stage>
 <sp>
@@ -4850,8 +4850,8 @@ And now both Hill and Vale appear on Fire: </l>
 Flatter'd and cheated by false hope, </l>
 <l>Mistook the mortal Summons.</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>Scene 7.</head>
 <stage>Frontenac, Ulamar, Miramont, Sakia, <hi>Officer and Guards.</hi></stage>
 <sp>
@@ -5043,8 +5043,8 @@ I am a God, if nothing intervenes, </l>
 <l>We esteem this a World distinct from ours. </l>
 <l><stage>[Apart.]</stage> I must be gone, th' appointed minutes come.</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>Scene 8.</head>
 <stage>Frontenac, Ulamar, Sakia, <hi>Guards.</hi></stage>
 <sp>
@@ -5113,8 +5113,8 @@ That the Caelestial sound might rouze Mankind to Liberty! </l>
 <l>And th' Angry Gods remand me to my Griefs. </l>
 <l>Where's my <hi>Irene?</hi></l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>Scene 9.</head>
 <stage>Frontenac, Ulamar, Sakia, Irene.</stage>
 <sp>
@@ -5163,8 +5163,8 @@ That the Caelestial sound might rouze Mankind to Liberty! </l>
 <speaker>Ire.</speaker>
 <l>No, 'twas no God, but 'twas a Godlike Man.</l>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>Scene 10.</head>
 <stage>Frontenac, Ulamar, Sakia, Irene, Miramont, Beaufort.</stage>
 <sp>
@@ -5281,10 +5281,10 @@ Resolve that Heav'n alone shall o're you Rule, </l>
 <l>Then grow like you, Impatient to be Free, </l>
 <l>With us Asserting Godlike Liberty.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

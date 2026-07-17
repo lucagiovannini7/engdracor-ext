@@ -7,23 +7,23 @@
 <extent>[8],69,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. and J. Dodsley,</publisher><date>1762.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Delap.</note><note>Press figure on p.29: 4.</note><note>A variant has no press figure on p.29.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT36072.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>HECUBA, A TRAGEDY. As it is Acted at the THEATRE ROYAL IN DRURY-LANE.</p>
 <l>Rectius <hi>Iliacum</hi> carmen deducis in Actus</l>
 <l>Quam si proferres ignota indictaque primus.</l>
 <p>LONDON: Printed for R. and J. DODSLEY, in Pall-mall. MDCCLXII. [Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>TO THOMAS BARRETT, <abbr>Esq</abbr> THE FOLLOWING TRAGEDY IS INSCRIBED, BY HIS OBLIGED, AND VERY AFFECTIONATE, HUMBLE SERVANT, The AUTHOR.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="3"/>
 <head>Advertisement.</head>
 <p>IT may perhaps be necessary to acquaint the reader, that the author has ventured to make Polydore a person of the Drama, on the authority of Hyginus, a Greek grammarian, who tells us in one of his fables, that Ilione, by a feigned murder, deceived Polymestor, and preserved her brother's life.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written by Mr. LLOYD.</byline>
@@ -75,8 +75,8 @@
 <l>They differ only, in the point of view,</l>
 <l>For Shakespear's nature, was their nature too.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>Dramatis Personae.</head>
 <list>
 <head>MEN.</head>
@@ -107,12 +107,12 @@
 <item>Miss HIPPISLY.</item>
 </list>
 <p>VIRGINS, GUARDS, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE, CHERSONESUS.</p></set>
 </front>
 <body>
 <head><pb n="1" facs="6"/>HECUBA A TRAGEDY</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage>ULYSSES, TALTHYBIUS.</stage>
 <sp>
@@ -1077,8 +1077,8 @@
 </sp>
 <stage>Exeunt.</stage>
 <trailer>End of the First <hi>ACT.</hi></trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="25" facs="30"/>
 <head>ACT II.</head>
 <stage>HECUBA, VIRGINS.</stage>
@@ -2033,8 +2033,8 @@
 </sp>
 <stage>Exit.</stage>
 <trailer>End of the Second ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="50" facs="55"/>
 <head>ACT III.</head><stage>A Tower.</stage>
 <stage>Enter GREEK OFFICER and Guard.</stage>
@@ -2850,10 +2850,10 @@
 <l>This monument of ruin'd royalty!</l>
 </sp>
 <stage>Exeunt.</stage>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="75"/>
 <head>EPILOGUE. </head>
 <byline>Written by Mr. GARRICK.</byline>
@@ -2898,7 +2898,7 @@
 <l>Nor snarl that our faint copies glad their eyes,</l>
 <l>When from the thing itself, such blessings rise.</l>
 </lg>
-</div1>
+</div>
 <trailer>The END.</trailer>
 </back>
 </text>

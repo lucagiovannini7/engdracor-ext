@@ -7,15 +7,15 @@
 <extent>xii,81,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G.G.J. and J. Robinson,</publisher><date>1787.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT47416.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>SEDUCTION: A COMEDY.</p>
 <p>AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>BY THOMAS HOLCROFT.</p>
 <p>LONDON: PRINTED FOR G. G. J. AND J. ROBINSON▪ PATERNOSTER-ROW.</p>
 <p>M. DCC. LXXXVII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. BARRYMORE.</byline>
@@ -74,8 +74,8 @@ No change of scene denotes a chang'd abode,</l>
 <l>The half-blown bud must droop, the plant expire.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <item><label>Sir Frederic Fashion,</label> Mr. PALMER.</item>
@@ -92,9 +92,9 @@ No change of scene denotes a chang'd abode,</l>
 <item><label>Mrs. Pinup,</label> Miss TIDSWELL.</item>
 <item><label>Mrs. Modely,</label> Miss POPE.</item>
 </list>
-</div1>
+</div>
 <set><p>The time within twelve hours. The scene is the house of Lord Morden, and does not change; and the stage is never vacant, but at the end of an act. The action is single.</p></set>
-<div1 type="preface">
+<div type="preface">
 <pb facs="4"/>
 <head>PREFACE.</head>
 <p>THE immortal Author of Hudibras affirms, the hardest task in the world is to write a play; it is, therefore, no wonder that writers of plays are prone to regard their labours with fondness, even to partiality; or that they should perceive with regret the light esteem in which a part of the literary world have lately affected to hold them. Works of rudiment, of disquisition, nay, even, of mere compilation, are often treated by criticism with a respect which a comedy, or tragedy, where wit, invention, genius, and all the highest faculties of the mind have, or ought to have, been employed, seldom meets. The theatre, however it may be debased by the nightly intrusion of unhappy and improper persons, has a most powerful and good influence on morals, which increases with industry, and as the means of gaining admission among the lower class increase. Much time is there spent to the best, the noblest, of purposes; the body's fatigues are forgotten, the mind is beguiled of its cares, the sad heart is made merry, fictitious sorrow obliterates real, and the soul, imbibing virtuous and heroic principles, is roused and impelled to actions that honour not only individuals but nations, and give a dignity to human nature. Those who can doubt this are to be pitied. And it is piteous, most piteous, that, not only the learned, but, the political world should treat the stage with neglect; nay, with contempt:
@@ -127,23 +127,22 @@ kindness which never can, nor ever ought to be forgotten.</p>
 <p>The Town have beheld, with delight and surprise, the increasing excellence of Miss Farren; and, thinking she had attained perfection, have been astonished, when they saw her next, at their own mistake. In the present instance, her exertions, and even the very manner of them, have been as pleasing to me, as they were beneficial to the Comedy. I can only add, she has excelled herself; and, though that thought be old, it never was more properly applied.</p>
 <p>Having mentioned these, it were injustice to the rest of the performers not to thank them; both for the display of talents, the merits of which are well known, and the ardour, I may say the anxiety, they testified for my success. Yes, I most sincerely thank them all; and only forbear to name them, individually, because I cannot find expressions, various and warm enough, to convey my thoughts, without making true and well deserved praise assume the form of laboured panegyric.</p>
 <closer><dateline>Upper Mary-le-bone Street, <date>March, 1787.</date></dateline></closer>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="12"/>
 <head>SEDUCTION: A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>[A superb Drawing-room in the House of Lord <hi>MORDEN,</hi> with several Doors-leading to other Apartments.]</stage>
 <stage><hi>LAPELLE,</hi> from Lord Morden's dressing-room, looking at his watch.</stage>
 <sp>
 <p>TWENTY minutes past ten!—a shameful time of the morning for a gentleman's gentleman to be disturbed.—My Lord has lost his money, can't sleep himself, and won't suffer others to take their natural rest.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>LAPELLE, Mrs. PINUP,</hi> from Lady Morden's dressing-room.</stage></head>
 <sp>
 <speaker>Mrs. <hi>Pinup.</hi></speaker>
@@ -216,15 +215,15 @@ gentlewoman to be kept up; dozing over a dull novel, or nodding in an antichambe
 <speaker>Mrs. <hi>Pinup.</hi></speaker>
 <p>Yes—but don't ask me any questions; it's impossible I should say ten words more: I am talking in my sleep now.—When I get up, in the morning, that is, about three o'clock in the afternoon, I'll tell you all; so good night.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>Lapelle.</speaker>
 <p>A wonderful change in a short time!—Lady Morden, young, handsome, and full of spirits, was, not a month ago, reserved in her conduct, fond of her husband, contented with home, and, indeed, a miraculous kind of exception among wives of quality. Whereas, now, she has suddenly turned fantastical in dress, capricious in temper, free of speech, and, what we half-bred folks should call, light of carriage. She games with the women, coquettes with the men, and seems, in every respect, ambitious to become—a woman of fashion. As for my Lord—why—he is a man of fashion.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>GENERAL BURLAND, LAPELLE.</stage></head>
 <sp>
 <speaker>Gen. <hi>Burland.</hi></speaker>
@@ -295,8 +294,8 @@ gentlewoman to be kept up; dozing over a dull novel, or nodding in an antichambe
 <speaker>Gen. <hi>Burland.</hi></speaker>
 <p><stage>[after a pause of great anxiety]</stage> Go—go—pray, go, and do as I bid you.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>Gen. <hi>Burland.</hi></speaker>
@@ -304,8 +303,8 @@ gentlewoman to be kept up; dozing over a dull novel, or nodding in an antichambe
 <pb n="5" facs="16"/>
 commanded her to observe, to study, to imitate, in all things!</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>GENERAL BURLAND, LAPELLE.</stage></head>
 <sp>
 <speaker>Gen. <hi>Burland.</hi></speaker>
@@ -319,8 +318,8 @@ commanded her to observe, to study, to imitate, in all things!</p>
 <speaker>Gen. <hi>Burland.</hi></speaker>
 <p>I'll call her myself—and it shall be the most ungentle call she has long heard from me.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>LAPELLE, HARRIET,</hi> in the dress of a Croat.</stage></head>
 <sp>
 <speaker>Lapelle.</speaker>
@@ -420,8 +419,8 @@ fashions, that poor Roast Beef is transported alive to Paris.</p>
 <speaker>Harriet.</speaker>
 <p>Will, then, give him this litter, and inform his Lordship I will take the liberty of calling, this afternoon, to bid him a good-morrow.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="7" facs="18"/>
 <head>SCENE VIII. <stage>LAPELLE, LORD MORDEN.</stage></head>
 <sp>
@@ -448,15 +447,15 @@ fashions, that poor Roast Beef is transported alive to Paris.</p>
 <speaker>Lapelle.</speaker>
 <p>I'll go and see, my Lord.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>LORD MORDEN.</stage></head>
 <sp>
 <stage>[Throws himself on the sofa]</stage>
 <p>This head ache!—No rest!—Oh for half an hour's sleep!—A cursed silly course of life, mine!—But there is no accounting in the morning for the conduct of over-night.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage>LORD MORDEN, LAPELLE <hi>with coffee.</hi></stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -466,16 +465,16 @@ fashions, that poor Roast Beef is transported alive to Paris.</p>
 <speaker>Lapelle.</speaker>
 <p>This letter, my Lord.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>LORD MORDEN.</stage></head>
 <sp>
 <p>From Lady Westbrook, I see. <stage>[reads]</stage>—Um—A young lady in disguise!—um—Will relate her own story!—um—um—Rely on your honour to keep her secret, and serve her cause!
 <pb n="8" facs="19"/>
 —Would have addressed myself to Lady Morden, but for reasons which you shall know hereafter!—</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <stage>LORD MORDEN, LAPELLE, <hi>with more coffee.</hi></stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -513,14 +512,14 @@ fashions, that poor Roast Beef is transported alive to Paris.</p>
 <speaker>Lord <hi>Morden.</hi></speaker>
 <p>Tell him I am come down.</p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII. <stage>LORD MORDEN.</stage></head>
 <sp>
 <p>Must not let him see the present temper of my mind—My guardian once, he is determined never to think me of age—I need not his reproof to increase my present chagrin; my own follies, and Lady Morden's unexpected, unaccountable reverse of conduct, are sufficient—He will lay it all to me; and, perhaps, with reason!—Heigho!—Here he comes—Really, one of these very prudent, plain-spoken friends is a very disagreeable person, in these our moments of folly.—Well, I must assume a cheerfulness I don't feel, and ward off his wisdom with raillery.</p>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <pb n="9" facs="20"/>
 <head>SCENE XIV. <stage>LORD MORDEN, GENERAL BURLAND.</stage></head>
 <sp>
@@ -721,15 +720,15 @@ Demi-Angel, tho' my wife—but, then, her—her goodness seemed to throw one at 
 <pb n="14" facs="25"/>
 with apathy; because you wilfully have plunged to perdition: but, for your Lady, if I cannot retrieve, if I cannot save her, I shall mourn indeed!</p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV.</head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
 <p>Faith, this good general is, like a cuckoo, always in a tune. <stage>[sighs]</stage> He has reason!—I have laboured to laugh at my own follies; but the farce is over, the forced jest forgotten, and the sorceress Recollection conjures up the ugly phantom Disgust!—Why, what a child am I!—Oh! Lady Morden—pshaw!—absurd!—I will not make myself the butt, and by-word, of my acquaintance—I—I—I will laugh—ha, ha, ha!—laugh at my Lady's gallantries.—I jealous!—I!—that have daily made jealousy a standing jest; the criterion of an ill-bred, vulgar, mind!—No, no, no. <stage>[Sees Lady Morden, and Sir Frederic Fashion, coming; and is seized with a suspicious anxiety, which he endeavours to conceal.]</stage></p>
 </sp>
-</div3>
-<div3 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <head>SCENE XVI. <stage>LORD MORDEN, LADY MORDEN, <hi>in an undress,</hi> SIR FREDERIC FASHION.</stage></head>
 <sp>
 <speaker>Lady <hi>Morden.</hi></speaker>
@@ -924,26 +923,26 @@ his eye-brows, fix his eyes, half open his mouth, and stand like an automaton, w
 <speaker>Lady <hi>Morden.</hi></speaker>
 <p>Ay, poor Actaeon!—Adieu, my Lord.</p>
 </sp>
-</div3>
-<div3 n="17" type="scene">
+</div>
+<div n="17" type="scene">
 <head>SCENE XVII.</head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
 <p>Madam! <stage>[following, stops short]</stage> 'Sdeath! what am I about? Shall I, at last, sink into one of the vulgar; and become jealous?—Wretched about a—oh, no! Actaeon! <stage>[striking his forehead]</stage> Sure all men are ideots, and never know the value of that most inestimable jewel, a lovely and a loyal wife, till in danger of having it purloined. <stage>[Lord Morden retires into his dressing-room].</stage></p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="19" facs="30"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>LAPELLE</hi> (coming from the door of the antichamber, as if he had been listening).</stage></head>
 <sp>
 <p>SO, Mr. Irishman, by accident! A lady, in disguise! That's the riddle, is it?—But, hush!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>LORD MORDEN,</hi> dressed, <hi>HARRIET,</hi> (from the antichamber.)</stage></head>
 <sp>
 <speaker>Lord <hi>Morden</hi></speaker>
@@ -1005,8 +1004,8 @@ wherein he bound himself, in a penalty of ten thousand pounds, to marry me withi
 </sp>
 <pb n="21" facs="32"/>
 <stage>(Lord Morden and Harriet return to the antichamber just as Mrs. Modely and Sir Frederic appear.)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>MRS. MODELY <hi>and</hi> SIR FREDERIC.</stage></head>
 <sp>
 <speaker>Mrs. <hi>Modely.</hi></speaker>
@@ -1331,8 +1330,8 @@ cause for jealousy, I should, for Lady Morden's ake, be the—the—the—the—
 <speaker>Sir <hi>Frederic.</hi></speaker>
 <p>A new footman—an odd kind of—Oh! here the very fellow comes.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>MRS. MODELY, SIR FREDERIC, GABRIEL, <hi>loitering and leering.</hi></stage></head>
 <sp>
 <speaker>Mrs. <hi>Modely.</hi></speaker>
@@ -1484,8 +1483,8 @@ cause for jealousy, I should, for Lady Morden's ake, be the—the—the—the—
 <speaker>Mrs. <hi>Modely.</hi></speaker>
 <p>Nay, I do not; I know my sex, and I know you.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>SIR FREDERIC, GABRIEL.</stage></head>
 <sp>
 <speaker>Sir <hi>Frederic.</hi></speaker>
@@ -1599,8 +1598,8 @@ enough, that's nought, here—I ha' learned a little o' what's what—</p>
 <p>Never fear.</p>
 </sp>
 <stage>[Gabriel goes into Lady Morden's dressing Room.]</stage>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>SIR FREDERIC, EMILY.</stage></head>
 <sp>
 <speaker>Sir <hi>Frederic.</hi></speaker>
@@ -1618,8 +1617,8 @@ enough, that's nought, here—I ha' learned a little o' what's what—</p>
 <speaker>Emily.</speaker>
 <p>Yes—hush—take no notice.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage>GENERAL BURLAND, SIR FREDERIC, EMILY.</stage></head>
 <sp>
 <speaker>Gen. <hi>Burland.</hi></speaker>
@@ -1704,14 +1703,14 @@ the approach of such fine, such accomplished, gentlemen as Sir Frederic Fashion.
 <speaker>Gen. <hi>Burland.</hi></speaker>
 <p>Then I am what you, I am afraid, will never be.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage>SIR FREDERIC.</stage></head>
 <sp>
 <p>Ha, ha, ha! He does not suspect we are so soon to be so nearly related—Ha, ha, ha! I should like to be present when he first hears the news—He—he will foam and bounce like a cork from a bottle of champaigne.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>SIR FREDERIC, LORD MORDEN, <hi>from the Anti-chamber.</hi></stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -1813,12 +1812,12 @@ vagaries of a jealous husband: no creature suffers so much, or is pitied so litt
 <p>Well! I am yours for a few minutes; but I must attend Lady Morden at her toilette, presently.</p>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="36" facs="47"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>GENERAL BURLAND, LORD MORDEN, <hi>meeting:</hi> GABRIEL <hi>introduces</hi> GENERAL BURLAND.</stage></head>
 <sp>
 <speaker>Gen. <hi>Burl.</hi></speaker>
@@ -1852,8 +1851,8 @@ vagaries of a jealous husband: no creature suffers so much, or is pitied so litt
 <speaker>Gabriel.</speaker>
 <p>Ecod, here they all come, your honour; and rare and merry they be. But your Londoneers do lead a rare, ranting, life!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="37" facs="48"/>
 <head>SCENE II. <stage>GENERAL BURLAND, LORD MORDEN, SIR FREDERIC, LADY MORDEN, MRS. MODELY. <hi>The three last from Lady Morden's Dressing-Room, laughing.</hi></stage></head>
 <sp>
@@ -2236,8 +2235,8 @@ all so merry—Tho'—upon my honour—I can't find out the jest.</p>
 <speaker>Gen. <hi>Burland.</hi></speaker>
 <p><stage>[deeply affected]</stage> Well, madam▪ I did not use to be thought an intruder, by your Ladyship, and will not begin now—But, since I cannot have the honour to tell you privately, I still think myself bound to do my duty, and inform you, publicly, you are in the hands of sharpers, "who will filch from you your good name"— <stage>[with great anxiety]</stage> Nay, perhaps, you are on the very eve of destruction!—Oh guile!—Can it be!—My heart is full!—I— <stage>[goes up to her, and most affectionately takes and presses her hand]</stage> Lady Morden—I have no utterance—But, if there be such a thing as sympathy, some small portion of the horror I now feel will communicate itself to you.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="44" facs="55"/>
 <head>SCENE III. <stage>LORD MORDEN, SIR FREDERIC, LADY MORDEN, MRS. MODELY.</stage></head>
 <stage>(Lady Morden seems affected, Lord Morden deeply so, Sir Frederic and Mrs. Modely disconcerted.)</stage>
@@ -2286,8 +2285,8 @@ all so merry—Tho'—upon my honour—I can't find out the jest.</p>
 <speaker>Lady <hi>Morden.</hi></speaker>
 <p>Oh, delightful!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="45" facs="56"/>
 <head>SCENE IV. <stage>HARRIET, <hi>from the Anti-chamber,</hi> SIR FREDERIC.</stage></head>
 <sp>
@@ -2448,8 +2447,8 @@ all so merry—Tho'—upon my honour—I can't find out the jest.</p>
 <speaker>Harriet.</speaker>
 <p>Promising? Oh, faidth, and I hope to surprise even you, yoursilf. You shall prisently hear of the succiss of your schaimes.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="48" facs="59"/>
 <head>SCENE V. <stage>SIR FREDERIC, GABRIEL.</stage></head>
 <sp>
@@ -2541,19 +2540,19 @@ all so merry—Tho'—upon my honour—I can't find out the jest.</p>
 <speaker>Sir <hi>Frederic.</hi></speaker>
 <p>Away—be watchful and be rewarded.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>SIR FREDERIC.</stage></head>
 <sp>
 <p>This is a thunder stroke!—Lord Morden in the plot, too!—It will come to Lady Morden's ears, I shall be blown, all my plans disconcerted, myself laughed at, and my reputation eternally ruined!— <stage>[walks about]</stage> Ha!—There is one way to prevent the mischief, yet—By heavens, it cannot fail!—I will go to Lady Morden, and, with feigned penitence, tell her every circumstance, myself; only making her believe I knew Harriet, when I returned the contract. She wist admire my candour, think my contrition real▪ and thus will I turn this seeming disaster to excellent account, by making it an additional proof of sincerity, and affection for her Ladyship!—Dear Wit, I thank thee; thou never forsakest me at a crisis!—Indeed!—My Lord! And my young Lady!—Ah, ha!—But you shall find one, perhaps, who can plot, as deeply as yourselves.</p>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="50" facs="61"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>LORD MORDEN, LAPELLE.</stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -2583,15 +2582,15 @@ all so merry—Tho'—upon my honour—I can't find out the jest.</p>
 <speaker>Lord <hi>Morden.</hi></speaker>
 <p>Stay— <stage>[to himself]</stage> What if I were to inform Lady Morden of this affair?—Surely, she could not shut her eyes against such a palpable, such an unprincipled, attempt at seduction!— <stage>[aloud]</stage> Go, and tell your Lady, I beg to speak with her, a moment.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="51" facs="62"/>
 <head>SCENE II. <stage>LORD MORDEN.</stage></head>
 <sp>
 <p>What an absurd being is man!—Not a fortnight ago, Lady Morden was totally indifferent to me; and, now I am in danger of losing her, I find I love her—To distraction love her!—Yet to sink into a civil, sober, domestic, man—To become the standing jest of all those highspirited companions whose society I have courted, whose maxims I have pretended to admire!—</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>LORD MORDEN, LADY MORDEN.</stage></head>
 <sp>
 <speaker>Lady <hi>Morden.</hi></speaker>
@@ -2769,8 +2768,8 @@ I declare, I never saw you look so grave before!—This must be some very import
 <speaker>Lady <hi>Morden.</hi></speaker>
 <p>Ha, ha, ha!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>LORD MORDEN, LADY MORDEN, SIR FREDERIC.</stage></head>
 <sp>
 <speaker>Sir <hi>Frederic.</hi></speaker>
@@ -2797,8 +2796,8 @@ I declare, I never saw you look so grave before!—This must be some very import
 <speaker>Lord <hi>Morden.</hi></speaker>
 <p>Rejected! Ridiculed! Despised! Their sport! Their scorn!—Their subject for open sarcasm, laughter, and contempt! Oh! Insupportable. <stage>[Lord Morden retires into his own room.]</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>LADY MORDEN, SIR FREDERIC.</stage></head>
 <sp>
 <speaker>Lady <hi>Morden.</hi></speaker>
@@ -2834,8 +2833,8 @@ marriage of the mind, superior infinitely to all human institutions; did I not t
 <speaker>Sir <hi>Frederic.</hi></speaker>
 <p>False, madam!—Oh! Let me conjure you to inflict any punishment on me, rather than that of suspecting my sincerity!—Thus, kneeling, on this angelic hand, I vow—</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>LADY MORDEN, SIR FREDERIC, LORD MORDEN.</stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -2877,8 +2876,8 @@ marriage of the mind, superior infinitely to all human institutions; did I not t
 <speaker>Lady <hi>Morden.</hi></speaker>
 <p>Nay, I will, upon my honour.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="57" facs="68"/>
 <head>SCENE VII. <stage>LORD MORDEN, SIR FREDERIC.</stage></head>
 <sp>
@@ -2963,8 +2962,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Sir <hi>Frederic.</hi></speaker>
 <p>Ah, now, your Lordship is perfectly explicit. <stage>[draw and fight.]</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage><hi>LORD MORDEN, SIR FREDERIC, GABRIEL,</hi> who runs fearless between them, and looks first at one, then at the other.</stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -2994,8 +2993,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Sir <hi>Frederic.</hi></speaker>
 <p>This is no place, my Lord: we'll settle this business to-morrow—To-morrow, my Lord—To-morrow—</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="59" facs="70"/>
 <head>SCENE IX. <stage>LORD MORDEN, GABRIEL.</stage></head>
 <sp>
@@ -3095,8 +3094,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Gabriel.</speaker>
 <p>Thank your worship's Lordship.— <stage>[Gabriel puts up the purse, and walks leisurely into Lady Morden's Dressing-Room.]</stage></p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage>LORD MORDEN, HARRIET.</stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -3139,8 +3138,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Harriet.</speaker>
 <p>We may be overheard; step with me into the antichamber, and I'll inform you.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage>GABRIEL, SIR FREDERIC.</stage></head>
 <sp>
 <speaker>Gabriel.</speaker>
@@ -3215,8 +3214,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Sir <hi>Frederic.</hi></speaker>
 <p>Ha! Exquisite fellow! I conceive—Away, send her instantly!</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII. <stage>SIR FREDERIC, TWO BAILIFFS.</stage></head>
 <sp>
 <speaker>Bailiff.</speaker>
@@ -3242,8 +3241,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Sir <hi>Frederic.</hi></speaker>
 <p><stage>[aside]</stage> Gad! well remember'd.— <stage>[to the bailiffs]</stage> Dressed, oh! he is dressed for—for the masquerade—Here he comes. <stage>[the Bailiffs retire a little upon the watch.]</stage></p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="63" facs="74"/>
 <head>SCENE XIII. <stage>SIR FREDERIC, BAILIFFS, HARRIET.</stage></head>
 <sp>
@@ -3282,8 +3281,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Harriet.</speaker>
 <p><stage>[alarmed and forgetting the brogue]</stage> I tell you, friend, you mistake the person.</p>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV. <stage>SIR FREDERIC, HARRIET, BAILIFFS, GABRIEL.</stage></head>
 <sp>
 <speaker>Gabriel.</speaker>
@@ -3306,8 +3305,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Harriet.</speaker>
 <p>This is a concerted trick—Here— <stage>[as soon as Harriet begins to call, the bailiffs clap the handkerchief over her mouth, and hurry off with her.]</stage></p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV. <stage>GABRIEL, SIR FREDERIC.</stage></head>
 <sp>
 <speaker>Gabriel.</speaker>
@@ -3345,8 +3344,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Gabriel.</speaker>
 <p>Ees—I'll be Emperor of Excise-men.</p>
 </sp>
-</div3>
-<div3 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <head>SCENE XVI. <stage>SIR FREDERIC, MRS. MODELY, EMILY.</stage></head>
 <sp>
 <speaker>Sir <hi>Frederic.</hi></speaker>
@@ -3506,8 +3505,8 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <speaker>Emily.</speaker>
 <p>Will you! I am sure you don't love me then—However, I'll go.—You will be sure to be ready, the moment the clock strikes ten.</p>
 </sp>
-</div3>
-<div3 n="17" type="scene">
+</div>
+<div n="17" type="scene">
 <pb n="67" facs="78"/>
 <head>SCENE XVII. <stage>SIR FREDERIC, MRS. MODELY.</stage></head>
 <sp>
@@ -3620,19 +3619,19 @@ Lordship, on the keenness, and delicacy, of your feelings; they give me great pl
 <p>Fear me not; that prescience, which, they say, is the forerunner of all great events, gives me a happy assurance of success: a confidence, that makes success certain.</p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="69" facs="80"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <sp>
 <speaker>General Burland.</speaker>
 <p>I Cannot keep from this house!—There is a foreboding of mischief, which haunts, and perturbs, my imagination!—And, I fear, with reason!—The malignant joy, the smothered exult, the obscure, ironical, satire, which ran through the discourse of that Sir Frederic, were not without a meaning.—I wish I had not consented to let Emily stay—He sneered, I remember, at the moment: nay, it seemed the sneer of triumph!—I wish she were safe, at my own house.—Poor Lady Morden!—And, is it possible?—Such rectitude of heart!—Such purity of sentiment!—I wish Emily were at home—Should my child, my darling fall, I were a wretch indeed!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>GENERAL, LORD MORDEN.</stage></head>
 <sp>
 <speaker>Lord <hi>Morden.</hi></speaker>
@@ -3701,8 +3700,8 @@ should pretend to repeat, or respect, the word virtue!</p>
 <speaker>Gen. <hi>Burland.</hi></speaker>
 <p>It is what every husband, every father of a family, must expect! His smallest foibles will stand as precedents for a swarm of follies; and, if he has any vices, they will propagate a hideous brood, that shall extirpate his name from the earth, or overwhelm it with obloquy!</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>GABRIEL, SIR FREDERIC.</stage></head>
 <sp>
 <speaker>Gabriel.</speaker>
@@ -3935,8 +3934,8 @@ should pretend to repeat, or respect, the word virtue!</p>
 <p>Oh! never do you fear me!</p>
 <stage>[Goes into the antichamber.]</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="74" facs="85"/>
 <head>SCENE IV. <stage>SIR FREDERIC, LADY MORDEN.</stage></head>
 <sp>
@@ -3986,8 +3985,8 @@ should pretend to repeat, or respect, the word virtue!</p>
 <pb n="76" facs="87"/>
 rapturous hope! <stage>[clasps her round the waist.]</stage> Oh, gently suffer me to conduct you, where love lies, in panting, breathless, ecstasy—</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>To them <hi>GABRIEL,</hi> abruptly, in a Great-coat, stands fixed, staring.</stage>
 <sp>
@@ -4109,8 +4108,8 @@ Though you are taken somewhat unawares, you cannot want invention!</p>
 <p>I'll be revenged, however.</p>
 <stage>[attacks Mr. Wilmot again.]</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To them</hi> LORD MORDEN <hi>and</hi> GENERAL</stage>
 <sp>
@@ -4130,8 +4129,8 @@ Though you are taken somewhat unawares, you cannot want invention!</p>
 <speaker>Lord <hi>Morden.</hi></speaker>
 <p>My life! My ecstasy! My saviour!</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>To them</hi> MRS. MODELY <hi>and</hi> EMILY.</stage>
 <sp>
@@ -4227,8 +4226,8 @@ Though you are taken somewhat unawares, you cannot want invention!</p>
 <speaker>Lady <hi>Morden.</hi></speaker>
 <p part="I">Besides, Sir Frederic, before you go, you must give me leave to introduce you to—</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <pb n="80" facs="91"/>
 <head>SCENE THE LAST.</head>
 <stage>To them <hi>HARRIET</hi> in woman's clothes presented by Lady Morden.</stage>
@@ -4295,12 +4294,11 @@ been better effected, by different means. <stage>[curtsying to Lady Morden and M
 <p>And now, Sir Frederic, if, after this lesson, you should still retain your former principles, and practices, and, hereafter, receive a still severer punishment, I hope you will acknowledge—we are not to blame.</p>
 <stage>Exeunt Omnes.</stage>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="95" ana="y"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Miss FARREN.</byline>
@@ -4386,8 +4384,7 @@ been better effected, by different means. <stage>[curtsying to Lady Morden and M
 </lg></note></l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

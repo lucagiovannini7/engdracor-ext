@@ -7,19 +7,19 @@
 <extent>[8],74,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. G. J. and J. Robinson,</publisher><date>1788.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The prologue written by Thomas Vaughan, Esq.; the epilogue by Miles-Peter Andrews, Esq.</note><note>The final leaf contains the epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT48811.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>SUCH THINGS ARE; A PLAY, IN FIVE ACTS. AS PERFORMED AT THE THEATRE ROYAL, COVENT GARDEN. BY MRS. INCHBALD.</p>
 <p>LONDON: Printed for G. G. J. and J. ROBINSON, Pater-noster Row.</p>
 <p>M.DCC.LXXXVIII.</p>
-</div1>
-<div1 type="noticeaboutthesetting">
+</div>
+<div type="noticeaboutthesetting">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE travels of an Englishman throughout Europe, and even in some parts of Asia, to soften the sorrows of the Prisoner, excited in the mind of the Author the subject of the following pages, which, formed into a dramatic story, have produced from the Theatre a profit far exeeeding the usual pecuniary advantages arising from a successful Comedy.</p>
 <p>The uncertainty in what part of the East the hero of the present piece was (at the time it was written) dispensing his benevolence, caused the Writer, after many researches and objections, to fix the scene on the island of Sumatra, where the English settlement, the system of government, and every description of the manners of the people, reconcile the incidents of the Play to the strictest degree of probability.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE,</head>
 <byline>Written by THOMAS VAUGHAN, Esq.</byline>
@@ -79,9 +79,9 @@
 <l>Will cheer our wand'rer with a gleam of light.</l>
 </lg>
 </sp>
-</div1>
+</div>
 <set><p>ACT I. SCENE, <hi>The Island of Sumatra, in the East Indies.</hi></p></set>
-<div1 type="dramatispersonae">
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>CHARACTERS.</head>
 <list>
@@ -107,16 +107,15 @@
 <item><label>Aurelia,</label> Miss Wilkinson,</item>
 <item><label>Female Prisoner,</label> Mrs. Pope.</item>
 </list>
-</div1>
+</div>
 <set><p><hi>Time of Representation, Twelve Hours.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>SUCH THINGS ARE. A PLAY. IN FIVE ACTS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>A Parlour at Sir</hi> Luke Tremor's.</stage></head>
 <stage><hi>Enter Sir</hi> Luke, <hi>followed by Lady</hi> Tremor.</stage>
 <sp>
@@ -769,13 +768,13 @@
 <p>Certainly, my Lord, if you please—come, Mr. Twineall, and I'll conduct you.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="15" facs="20"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>An Apartment at Sir</hi> Luke <hi>Tremor's.</hi></stage></head>
 <stage><hi>Enter</hi> Twineall <hi>and</hi> Meanright.</stage>
 <sp>
@@ -998,8 +997,8 @@
 <pb n="20" facs="25"/>of his own, has yet more potently the blessing given, of tenderness for ours.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The inside of a Prison.</hi></stage></head>
 <stage>Several Prisoners dispersed in different situations.</stage>
 <stage><hi>Enter</hi> Keeper <hi>and</hi> Haswell <hi>with lights.</hi></stage>
@@ -1114,8 +1113,8 @@
 <p>Will be in vain—our keeper will conclude the bribe must come to him, at laft—and therefore make no great search for it—here, in the corner of my belt <stage>[Puts up the pocket-book]</stage> twill be secure—Come this way, and let us indulge our pleasant prospect.</p>
 </sp>
 <stage>[They retire, and the scene closes.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>Another part of the Prison.</hi></stage></head>
 <stage><hi>A kind of sopha with an old man sleeping upon it</hi>—Elvirus <hi>sitting attentively by him.</hi></stage>
 <stage><hi>Enter</hi> Keeper <hi>and</hi> Haswell.</stage>
@@ -1411,8 +1410,8 @@
 <p>No—take me away—I have enough to do—I dare not see more at present.—</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>The former Prison Scene.</hi></stage></head>
 <stage><hi>Enter</hi> Zedan.</stage>
 <sp>
@@ -1482,13 +1481,13 @@
 <p>Farewell—we will meet again.</p>
 </sp>
 <stage>[Zedan <hi>exit on one side,</hi> Haswell <hi>and</hi> Keeper <hi>exeunt on the other.</hi></stage>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="29" facs="34"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>An Apartment at Sir</hi> Luke <hi>Tremor's.</hi></stage></head>
 <stage><hi>Enter Sir</hi> Luke <hi>and</hi> Aurelia.</stage>
 <sp>
@@ -1903,8 +1902,8 @@
 <pb n="38" facs="43"/>obligation to him—it is devilish inconvenient for a gentleman to be under an obligation.</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The Place. The Sultan discovered with guards and officers attending.</hi></stage></head>
 <stage>Haswell <hi>is conducted in by an officer.</hi></stage>
 <sp>
@@ -2063,13 +2062,13 @@
 <p>Thus far advanced, what changes may not be hoped for?</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="43" facs="50"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>An Apartment at Sir</hi> Luke's:</stage></head>
 <stage><hi>Enter</hi> Elvirus <hi>and</hi> Aurelia.</stage>
 <sp>
@@ -2864,8 +2863,8 @@
 <p>Nay, supplicate for that too—and you need not blush, or feel yourself degraded, to <hi>kneel</hi> to HIM, for he wou'd scorn the pride that triumphs over the humbled.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The Garden.</hi></stage></head>
 <stage><hi>Enter Sir</hi> Luke, Twineall, <hi>and Lady</hi> Tremor.</stage>
 <sp>
@@ -2968,12 +2967,12 @@
 </sp>
 <stage>[<hi>Exit Sir</hi> Luke <hi>and Lady</hi>—Twineall, <hi>and Guards—separately.</hi></stage>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="59" facs="66"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The Prison.</hi></stage></head>
 <stage>Haswell <hi>and the female Prisoner discovered.</hi></stage>
 <sp>
@@ -3113,8 +3112,8 @@
 <p>And what is that?—Confusion!—and yet, he says, I am to see him again—speak with him.—Oh! there's a blessing to the most abandoned, a divine propenfity (they know not why) to commune with the virtuous!</p>
 </sp>
 <stage>[Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>The first Prison Scene.</hi></stage></head>
 <stage><hi>Enter second</hi> Keeper, Haswell <hi>following.</hi></stage>
 <sp>
@@ -3272,8 +3271,8 @@
 <p>O!</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>The Council Chamber.</hi></stage></head>
 <stage><hi>Enter</hi> Sultan, Haswell, <hi>and</hi> Guards.</stage>
 <sp>
@@ -3454,8 +3453,8 @@
 <p>O! 'tis of consequence, is it, Sir?—if that is the case——</p>
 </sp>
 <stage><hi>[Exit</hi> Keeper, <hi>followed by</hi> Haswell.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>An arch-way at the top of the stage, through which several Guards enter</hi>—Twineall <hi>in the middle, dressed for execution, with a large book in his hand.</hi></stage></head>
 <sp>
 <speaker>Twi.</speaker>
@@ -3708,13 +3707,12 @@
 <speaker>Elv.</speaker>
 <p>He <hi>must</hi> suffer them—there are virtues, which praise cannot taint—such are Mr. Haswell's—for they are the offspring of a mind, superior even to the love of fame—neither can they, through malice, suffer by applause, since they are too sacred to incite envy, and must conciliate the respect, the love, and the admiration of all.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="82"/>
 <head>EPILOGUE,</head>
 <byline>Written by MILES-PETER ANDREWS, Esq.</byline>
@@ -3797,8 +3795,7 @@
 <l>Is the glad relative of all mankind.</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

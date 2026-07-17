@@ -7,7 +7,7 @@
 <extent>[4],40p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. Kearsly,</publisher><date>1763.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT30776.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE CITIZEN.</p>
 <p>A FARCE.</p>
@@ -17,13 +17,13 @@
 <p>LONDON: Printed for G. KEARSLY, in Ludgate Street.</p>
 <p>MDCCLXIII.</p>
 <p>[Price ONE SHILLING.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <opener><dateline><hi>Lincoln's-inn,</hi> <date>25th <hi>Jan.</hi> 1763.</date></dateline></opener>
 <p>THE Author's compliments to Miss ELLIOT, and he desires to inscribe to her the following scenes. She need not be alarmed at a dedication, the propriety of which will strike every reader, who remembers that Miss ELLIOT and the CITIZEN made their first appearance on the stage together, and that her uncommon talents gave the piece the best and most effectual protection. Elegance of figure, a voice of pleasing variety, a strong expression of humour, not impaired, but rendered exquisite, by delicacy; these were circumstances that secured the farce at first, and have since brought it into favour. No author ever met with a better patronage; and though the CITIZEN, like other <hi>things of this kind,</hi> has many faults, yet it has this peculiar merit, that it produced, in the character of MARIA, a genuine comic genius. The CITIZEN claims another praise. When all the little arts of theatrical malice were conspiring against her, it recommended Miss ELLIOT to the notice of Mr. BEARD, and obtained for her that generous treatment, which <hi>that manager</hi> seems determined to extend to real merit. The Author therefore desires Miss ELLIOT'S acceptance of this farce, for the defects of which he makes no apology, because, should the most severe judge in this kind resolve to arm himself with criticisms, let him but look at the acting of MARIA, <hi>and he will forget them all.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -42,15 +42,14 @@
 <item><label>CORINNA,</label> Miss DAVIES.</item>
 </list>
 <p>SERVANTS, &amp;c.</p>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>THE CITIZEN.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>YOUNG WILDING, BEAUFORT, <hi>and</hi> WILL <hi>following.</hi></stage></head>
 <sp>
 <speaker>Wilding.</speaker>
@@ -370,7 +369,7 @@
 <sp>
 <speaker>Maria.</speaker>
 <p>There, there, there he is frighten'd again—</p>
-<stage>[<hi>Sings,</hi> Dearest creature, &amp;c.]</stage>
+<stage>[<hi>Sings,</hi> <said direct="true">Dearest creature</said>, &amp;c.]</stage>
 </sp>
 <sp>
 <speaker>Wild.</speaker>
@@ -433,8 +432,8 @@
 <speaker>Wild.</speaker>
 <p>Pshaw, folllow me; don't be apprehensive—I'll give her farther instructions, and she will execute them I warrant you; the old fellow's daughter shall be mine, and the son may go shift for himself elsewhere.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Old</hi> Philpot<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> OLD PHILPOT, DAPPER, <hi>and</hi> QUILLDRIVE.</stage>
 <sp>
@@ -1507,12 +1506,12 @@
 <speaker>Maria.</speaker>
 <p>How can you be so cruel, Mr. Philpot? how can you—oh— <stage><hi>cries, and struggles with him. Exit</hi> G. Phil.</stage> ha! ha! I have carried my brother's scheme into execution charmingly; ha! ha! He will break off the match now of his own accord—Ha! ha! This is charming; this is fine; this is like a girl of spirit.</p>
 </sp>
-</div3>
+</div>
 <trailer>End of the FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>Enter</hi> CORINNA, TOM <hi>following her.</hi></stage>
 <sp>
@@ -2756,12 +2755,11 @@
 <l><hi>Your hearts to win is now my aim alone;</hi></l>
 <l><hi>"There if I grow, the harvest is your own."</hi></l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="42"/>
 <head>EPILOGUE,</head>
 <stage><hi>By</hi> Old PHILPOT <hi>and</hi> GEORGE PHILPOT.</stage>
@@ -2934,7 +2932,7 @@
 <l>And London prove the market of the World!</l>
 </sp>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

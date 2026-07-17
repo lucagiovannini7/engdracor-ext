@@ -7,12 +7,12 @@
 <extent>[4],92p. ; 8⁰.</extent><publicationStmt><publisher>printed for Edward and Charles Dilly,</publisher><date>1778.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT21419.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE BATTLE of HASTINGS, A TRAGEDY. By RICHARD CUMBERLAND, <abbr>Esq</abbr> AS IT IS ACTED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>LONDON. PRINTED FOR EDWARD AND CHARLES DILLY, IN THE POULTRY. MDCCLXXVIII. [PRICE ONE SHILLING AND SIXPENCE.]</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -48,8 +48,8 @@
 <item>Mrs. COLLES.</item>
 </list>
 <p>Attendants on MATILDA, Guards, Foresters, Wardens, and various Attendants.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by MR. HENDERSON.</stage>
@@ -93,8 +93,8 @@
 <l>With this demure old tabby Tragic cat;</l>
 <l>No charge lies here of conversation crim</l>
 <l>He hopes you'll think her fame, no worse for him.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="4"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by MISS YOUNGE.</stage>
@@ -138,11 +138,11 @@
 <l>England is conquer'd—fate can reach no further,</l>
 <l>Bid then the weeping <hi>Pleiads</hi> dry their eyes,</l>
 <l>And turn to happier scenes and brighter skies.</l>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="5"/>THE BATTLE of HASTINGS, A TRAGEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage>The Outside of a stately antient Castle. The Gate closed, and the Bugle in the Slings.</stage>
 <stage>Time before Break of Day.</stage>
@@ -894,8 +894,8 @@
 <l>Watch round thee hourly!—England and Edwina!</l>
 </sp>
 <trailer>End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="21" facs="25"/>
 <head>ACT II. SCENE I.</head>
 <stage>The English Camp. The royal Tent with the Banners of Harold unfurl'd.</stage>
@@ -1503,8 +1503,8 @@
 <l>With songs of victory hail the rising morn.</l>
 </sp>
 <trailer>End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="37" facs="41"/>
 <head>ACT III. SCENE I.</head>
 <stage>Scene as before.</stage>
@@ -2253,8 +2253,8 @@
 </sp>
 <stage>Exeunt,</stage>
 <trailer>End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="56" facs="60"/>
 <head>ACT IV. SCENE I.</head>
 <stage><hi>EDWIN</hi> and <hi>WALTHEOF.</hi></stage>
@@ -2904,8 +2904,8 @@
 </sp>
 <stage>Exeunt severally.</stage>
 <trailer>End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="73" facs="77"/>
 <head>ACT V.</head>
 <stage>Harold is discover'd in his Tent before break of Day; the Guards in various Attitudes resting on their Arms: He rises from his Couch and advances.</stage>
@@ -3744,7 +3744,7 @@
 <l>Hurl bold defiance to the foe beneath.</l>
 </sp>
 <stage>Drums, &amp;c.</stage>
-</div1>
+</div>
 <trailer>THE END.</trailer>
 </body>
 </text>

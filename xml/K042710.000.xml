@@ -7,7 +7,7 @@
 <extent>6,30p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Arrowsmith; and sold by B. Crosby,</publisher><date>1794.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Dedication signed: Francis Godolphin Waldron.</note><note>Altered from 'The fatal extravagance,' a play written by Aaron Hill for the benefit of Joseph Mitchell under whose name it was first published.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT44546.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE PRODIGAL. <hi>A DRAMATIC PIECE.</hi> AS PERFORMED AT THE THEATRE-ROYAL, <hi>IN THE HAY-MARKET,</hi> DECEMBER 2, 1793.</p>
 <l>"To wake the soul by tender strokes of art,</l>
@@ -20,8 +20,8 @@
 <p><hi>LONDON:</hi> PRINTED FOR T. ARROWSMITH, MIDDLE-ROW, HOLBORN; AND SOLD BY B. CROSBY, STATIONERS COURT.</p>
 <p>1794.</p>
 <p>[PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
@@ -32,8 +32,8 @@
 <p>The piece, as altered and called <hi>The Prodigal,</hi> has been excellently performed twelve times at Mr. Colman's Theatre, with distinguished approbation; some of the passages, now printed, were omitted in the reprefentation: but, what would have been thought tedious and heavy on the stage, it is hoped will not be found so in the closet.</p>
 <closer><dateline><date>October, 1. 1794.</date></dateline>
 <signed>F. G. WALDRON.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb n="6" facs="5"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -42,15 +42,14 @@
 <item>BARGRAVE, Mr. Benson.</item>
 <item>LOUISA, Mrs. Powell.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Bellmour's House.</p>
 <p>TIME, that of the Representation.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="6"/>
 <head>THE PRODIGAL. <hi>A DRAMATIC PIECE.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE. <stage><hi>A Saloon.</hi></stage></head>
 <stage><hi>Enter</hi> LOUISA <hi>and</hi> COURTNEY.</stage>
 <sp>
@@ -750,8 +749,8 @@
 </sp>
 <stage>Exit.</stage>
 <trailer>End of Act the First.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="25"/>
 <head>ACT II. SCENE.</head>
 <stage>A Gallery.</stage>
@@ -1189,9 +1188,8 @@
 <l>To check one Gamester in his mad Career.</l>
 </lg>
 </sp>
-</div2>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

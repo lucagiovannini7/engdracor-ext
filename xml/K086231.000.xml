@@ -7,14 +7,14 @@
 <extent>70,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed and sold by W. Reeve,</publisher><date>1758.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT107409.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE INSOLVENT: OR, FILIAL PIETY. A TRAGEDY.</p>
 <p>ACTED AT THE THEATRE in the HAY-MARKET, (By AUTHORITY) Under the DIRECTION of Mr. CIBBER.</p>
 <p>WRITTEN BY THE LATE AARON HILL, <abbr><hi>Esq</hi></abbr> AUTHOR OF MEROPE; Partly on a Plan of Sir WILLIAM D'AVENANT's and Mr. MASSENGER's.</p>
 <p><hi>LONDON:</hi> Printed and sold by W. REEVE, opposite <hi>Crane-Court,</hi> in <hi>Fleet-Street.</hi> MDCCLVIII. Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>ABOVE thirty years ago, Mr. WILKS (then one of the patentees of the theatre royal) gave an old manuscript play, call'd, <hi>The Guiltless Adultress; or, Judge in his own Cause,</hi> to Mr. THEOPHILUS CIBBER, who was then manager of what us'd to be call'd, <hi>the summer company.</hi> This company consisted, in general, of the junior part of the performers; who, during the vacation time, commonly acted twice, or thrice, a week. As they play'd on shares (divided in proportion according to their several salaries stipulated in the winter) their endeavours to please the town generally produc'd 'em double pay, on those nights; sometimes more.</p>
@@ -30,8 +30,8 @@ It was brought on the stage at the theatre in the Hay-Market early this year, 17
 <p>But what mighty matters could be hop'd, from a young, raw, unexperienced company, hastily collected, and as hastily to be employ'd (but sinking men catch at reeds) while establish'd theatres were open to entertain the town, with the united force of tragedy, comedy, opera, pantomime, song, dance, and a long train of <hi>et ceteras—</hi>Some rational, and some other exhibitions, which are so frequently follow'd in a winter season?</p>
 <p>Mr. CIBBER was out of pocket by his undertaking; yet this does not prevent his having a grateful sense of the favours he received, from those noble personages, and other friends, who have frequently pratonis'd his undertakings.—To acknowledge a favour, is but gratitude—To name the persons, might appear vanity.</p>
 <p>It may not be improper, on this occasion to signify, as Mr. CIBBER has not had the wish'd success at the theatre in the Hay-Market—That Mr. RICH has, with great good-nature, granted the use of his theatre in Covent-Garden to Mr. CIBBER, for his benefit, the beginning of next month—When a <hi>new mock-tragedy,</hi> (which many persons of taste have approv'd of, and which the author has kindly allow'd Mr. CIBBER to make use of on this occasion) will be acted, with all the variety of scenes, machines, songs, dirges, processions, &amp;c. &amp;c.—requisite to embellish (<hi>a-la-moderne</hi>) this extraordinary heroick piece.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE.</head>
 <stage>Spoke by Mr. CIBBER. (Then in mourning for his father)</stage>
@@ -86,8 +86,8 @@ It was brought on the stage at the theatre in the Hay-Market early this year, 17
 <l>And, 'tis a maxim with the truly brave,</l>
 <l>They triumph most, who generously save.</l>
 </lg>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <byline>By the Late AARON HILL, <abbr><hi>Esq</hi></abbr></byline>
@@ -152,8 +152,8 @@ Points, to his trembling view, that wise man's school—</l>
 <l>Teach the dry rock to melt, in pain-touch'd flow;</l>
 <l>And ease th' unhoping crouds, that sigh, in woe!</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <head>MEN.</head>
@@ -171,14 +171,14 @@ Points, to his trembling view, that wise man's school—</l>
 <item>FLORELLA, her maid.</item>
 <item>PRESIDENTS, ADVOCATES, CLIENTS, GOALER, &amp;c.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, the capital of Burgundy.</p></set>
 </front>
 <body>
 <head><pb facs="8"/>THE INSOLVENT: OR, FILIAL PIETY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A court sitting. Judges on the bench. Lawyers with clients at the bar.</stage>
 <sp>
@@ -738,13 +738,13 @@ In me they're sure, at least of present vengeance,</l>
 </lg>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the first Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="19"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A PRISON.</stage>
 <stage>GOALER and LE FER.</stage>
@@ -899,8 +899,8 @@ The plaintiff crocodiles themselves shed tears!</l>
 <stage>[Goes in.</stage>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A CHAMBER in VALDORE's House.</stage>
 <stage>Enter AMELIA and FLORELLA.</stage>
@@ -1480,13 +1480,13 @@ Whene'er I think of the vile injuries,</l>
 <l>He that wou'd well possess, must wide bestow.</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="35" facs="34"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A GARDEN, belonging to VALDORE's House.</stage>
 <stage>On one side, FLORELLA and AUMELE discover'd, talking earnestly: On the other, enter BELGARD.</stage>
@@ -2231,13 +2231,13 @@ But, as 'twas folly taught him to believe it,</l>
 <l>Were but its joys as permanent as great!</l>
 <stage>[Exeunt omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="49" facs="48"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>An ANTI-CHAMBER, in VALDORE's House.</stage>
 <stage>Enter FLORELLA and Young AUMELE.</stage>
@@ -2828,13 +2828,13 @@ That, trembling, scarce sustain'd me. At the door,</l>
 <l>In death alone, from pain we rest secure.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="60" facs="59"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The ANTI-CHAMBER.</stage>
 <stage>CHALONS on the floor, half rais'd, and weeping.</stage>
@@ -3404,12 +3404,12 @@ As (my dear, angry lord) you found, and heard him.</l>
 <l>Pity shall smile, to see th' unpitier fall;</l>
 <l>And he who aids no want, shall suffer all.</l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="70"/>
 <head>EPILOGUE.</head>
 <byline>(By AARON HILL, <abbr><hi>Esq</hi></abbr>)</byline>
@@ -3467,7 +3467,7 @@ As (my dear, angry lord) you found, and heard him.</l>
 <l>Is mine the court's decree?—I humbly move it;</l>
 <l>That, if your hearts affirm—your hands approve it.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

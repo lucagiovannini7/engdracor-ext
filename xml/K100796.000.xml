@@ -7,13 +7,13 @@
 <extent>[24],89,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for the author, and sold by Mess. E. and C. Dilly, J. Robson, and J. Walter,</publisher><date>1772.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>With a list of subscribers and an epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT126392.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>A WIFE IN THE RIGHT: A COMEDY.</p>
 <p>BY MRS. GRIFFITH.</p>
 <p>LONDON: PRINTED FOR THE AUTHOR, And sold by Mess. E. and C. DILLY, in the Poultry, J. ROBSON, New Bond-street, and J. WALTER, at Charing Cross. M.DCC.LXXII.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>THE Author of this Address is so perfectly sensible of how little consequence such writings are to the public, that she would most willingly have declined troubling them on this occasion, were she not impelled to it by two very strong motives; a desire of vindicating herself from some of the charges brought against the following comedy, from the interpolations thrown into one of the principal parts, on the night of performance; and the earnest wish of expressing the sincere gratitude she is sensible of to the public in general, and to her friends in particular, for the generous patronage they have shewn towards the publication of this little piece, which with true humility and diffidence she now submits to their candor and indulgence.</p>
@@ -51,8 +51,8 @@ the point against any opposition that might be attempted.</p>
 <p>This kind proposal she has most gratefully accepted of; and after repeating here her acknowledgments to the public, and her friends, for the liberal encouragement they have shewn her, upon this, and every occasion, she takes this opportunity also of returning her thanks to the other performers in her comedy, who took the pains to be perfect in their several parts, and so well endeavoured to support the spirit of their respective characters, amidst the hurry and confusion which so unhappily interrupted the course of the performance.</p>
 <p>She now begs leave to make an apology for having presumed to claim so much of the public attention, on a subject relative merely to herself; and with the sincerest gratitude has the honour to subscribe herself their much obliged, and most obedient servant,</p>
 <closer><signed>THE AUTHOR.</signed></closer>
-</div1>
-<div1 type="listofsubscribers">
+</div>
+<div type="listofsubscribers">
 <pb facs="9"/>
 <head>THE LIST OF SUBSCRIBERS.</head>
 <list>
@@ -655,8 +655,8 @@ the point against any opposition that might be attempted.</p>
 <item>Mr. Henry S. Woodfall</item>
 </list>
 <p>☞ The Printer begs Leave to make an Apology to a considerable Number of the Subscribers, whose Names were sent too late to be inserted in the List.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="18"/>
 <head>PROLOGUE,</head>
 <head>WRITTEN BY MR. COLMAN, And spoken by Mrs. BULKLEY.</head>
@@ -711,8 +711,8 @@ the point against any opposition that might be attempted.</p>
 <l>New <hi>Busy Bodies</hi> form, new <hi>Wonders</hi> raise?</l>
 <l>Thus Frances spoke, and bid her dear good night—</l>
 <l>And Henry own'd <hi>his Wife was in the Right.</hi></l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="20"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -734,16 +734,15 @@ the point against any opposition that might be attempted.</p>
 <item>Mrs. MARKAM, Woman to Lady Seaton, Mrs. Greeen.</item>
 <item>LUCY, Maid to Mrs. Frankly. Mrs. Gardner.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, London.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="21"/>
 <head>A WIFE IN THE RIGHT.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>A DRESSING ROOM.</stage></head>
 <stage><hi>Lady</hi> SEATON <hi>and Mrs.</hi> MARKAM.</stage>
 <sp>
@@ -1408,12 +1407,12 @@ that will do the thing handsomely, I suppose.—The girl shan't lose her cause, 
 <stage>Exit.</stage></p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="18" facs="38"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <stage>A table with a deed, pen and ink.</stage>
 <stage><hi>The</hi> GOVERNOR, <hi>Mr.</hi> SQUEEZEM, <hi>and</hi> NICHOLAS <hi>discovered.</hi></stage>
 <sp>
@@ -1545,8 +1544,8 @@ you shall have a good account of the borough, by the very next post.</p>
 <p>It would be a bad thing for us practitioners in the law, if such customs were to obtain in Europe. But 'tis our certain maxim that any man's money is as good as his bond, whatever his word may be.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>Second Scene changes to Mrs. FRANKLY's house.</stage></head>
 <stage>A dressing-room and toilette.</stage>
 <stage><hi>Mrs.</hi> FRANKLY <hi>and</hi> LUCY.</stage>
@@ -2056,12 +2055,12 @@ situation! yet let me hope that indiscretions rather than vice, have misled her 
 <stage>Exit.</stage></p>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="38" facs="58"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Lord SEATON's house.</stage></head>
 <stage><hi>Lord</hi> SEATON <hi>and Colonel</hi> RAMSAY <hi>at table, with bottles, glasses,</hi> &amp;c.</stage>
 <sp>
@@ -2195,8 +2194,8 @@ Will you accompany me, Colonel, or shall I set you down any where else?</p>
 <p>I most sincerely wish that he may be able to discover Miss Melville's retreat, which I have so much in vain attempted. But then should she reveal the cause of her quitting this house, will not Ramsay think I have acted unworthily? But of what consequence are his thoughts, to the secret upbraidings of my own! Could I but recal a few short weeks, I should be happy, because I should be blameless. But that indissoluble knot, which has rendered an amiable woman as wretched as myself, can never be untied. Then hang reflection, success to dissipation, and now for a little flirt with my lively widow, for the rest of the evening.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="42" facs="62"/>
 <head>SCENE, <stage>Mrs. FRANKLY's house.</stage></head>
 <stage><hi>Enter Mrs.</hi> FRANKLY <hi>and Miss</hi> MELVILLE.</stage>
@@ -2588,12 +2587,12 @@ there are people who think me handsomer than my mistress; and if he has but half
 <stage>Exit.</stage></p>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="53" facs="73"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>Lord SEATON's house.</stage></head>
 <stage><hi>Enter Colonel</hi> RAMSAY.</stage>
 <sp>
@@ -3111,12 +3110,12 @@ hears, every day, here, of such pranks as would taint the very air of India, and
 <stage>Exit.</stage></p>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="69" facs="89"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>The</hi> GOVERNOR <hi>and</hi> NICHOLAS.</stage>
 <sp>
 <speaker>GOVERNOR.</speaker>
@@ -3198,8 +3197,8 @@ And were you not to set out with the sun, this morning?</p>
 <p>You and your disservices may go to the vengeance together. I have got enough of electioning, and of courting too, for life, I think. I'll see Mrs. Frankly, this instant, and have justice on that villain Bull, if 'tis to be had in the land. Was there ever so unfortunate a man as I am! disappointed in every thing—plundered by every body! What a pack of troubles have I brought upon myself, without designing the least manner of mischief to any one alive!
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Mrs.</hi> FRANKLY<hi>'s House.</hi></stage>
 <sp>
 <stage><hi>Mrs.</hi> FRANKLY, <hi>alone.</hi></stage>
@@ -3418,8 +3417,8 @@ than of hate—I soon perceived he had gained Lucy over to his interest, which w
 <p>Why that's very good-natured, and very true, too. Yes, indeed, I do love her monstrously, or I should not have been so jealous. But for all this I shall discourse my Lord Seaton a little, before I am married; for I neither can, nor will be satisfied, till I have made him recant his calumny.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>Mrs. FREEMAN's House.</stage></head>
 <stage><hi>Enter Miss</hi> MELVILLE.</stage>
 <sp>
@@ -3839,12 +3838,11 @@ I shall burst with rage.— There never was such a villainous proceeding. A rasc
 <l>And rivet beauty's chains upon the mind.</l>
 </sp>
 <trailer>END OF THE FIFTH ACT.</trailer>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="110"/>
 <head>EPILOGUE,</head>
 <head>BY A FRIEND. Spoken by Mrs. MATTOCKS.</head>
@@ -3896,7 +3894,7 @@ I shall burst with rage.— There never was such a villainous proceeding. A rasc
 <l>The author for your passport trembling stands,</l>
 <l>And hopes you'll grant it <hi>under all your hands.</hi></l>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

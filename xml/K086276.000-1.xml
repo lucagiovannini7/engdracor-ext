@@ -7,14 +7,14 @@
 <editionStmt><edition>A new edition.</edition></editionStmt><extent>[4],176p. : ill. ; 12⁰.</extent><publicationStmt><publisher>printed for John Stockdale,</publisher><date>1798.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT107461.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1" ana="y"/>
 <pb facs="2" ana="y"/>
 <p><figure>
 <head>ACT IV. SCENE XIII.</head>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="3" ana="y"/>
 <p>THE HONEST FARMER. A DRAMA, IN FIVE ACTS, <hi>To which are added,</hi> VANITY PUNISHED, AND BLIND-MAN'S BUFF.</p>
 <p>BY <hi>M. BERQUIN,</hi> AUTHOR OF THE CHILDRENS' FRIEND.</p>
@@ -27,8 +27,8 @@
 <p>1798.</p>
 <p>[<hi>Price</hi> 1<hi>s.</hi> 6<hi>d.</hi>]</p>
 <p><hi>Entered at Stationers-Hall.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>CHARACTERS.</head>
 <list>
@@ -50,14 +50,13 @@
 </list>
 <hi>Neighbours of Thorowgood.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="5"/>
 <head>THE HONEST FARMER.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>The Farmer's House.</hi></stage></head>
 <head>SCENE I.</head>
 <sp>
@@ -65,8 +64,8 @@
 <p>AFTER having laboured so hard during the best part of our lives, thus at last to fall into poverty! To what purpose is it, that we have never ceased our cares and pains for a single moment, in order to breed up our children with credit? If they were but of an age to earn their own bread, it would be something! My dear children, it is not for myself, it is for you that I shed tears; in losing our cattle we have lost our all. What remains is far from being sufficient to pay our landlord. What is to become of us? If my good husband did not support my sinking courage, I should
 <pb n="2" facs="6"/>die with grief. But how worthy a character he is! What a man! How tranquil in the midst of our misfortunes! Were I not sure that affection makes him conceal the greatest part of his troubles from the fear of afflicting me, I should believe he were insensible to them. "Why dost thou weep, Martha?" he often says, when I can no longer restrain my tears: "We have had a loss, it is true; but who knows what Providence has in store for us? I, for my part, make that my dependence." Alas! though never rich himself, he was always a friend to the unfortunate! How many families in this village has he saved from misery by his advice and assistance! There is not a better man on earth; and I still possess what many women want in the midst of riches, a worthy husband, and children whose good dispositions fill our hearts with joy. Whilst I think on these blessings, I feel that Providence watches over us, and my griefs become lighter. Take courage then, Martha, enough is left to console thee in thy affliction. <stage>(She advances to the door and calls)</stage> Jenny, Jenny!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="3" facs="7"/>
 <head>SCENE II.</head>
 <stage>Martha, Jenny.</stage>
@@ -199,16 +198,16 @@
 <speaker>Jenny.</speaker>
 <p>And I do not know which of us is the best pleased when I deserve them; and I will do my best to do so.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <stage>Martha alone.</stage>
 <p>My dear children, Heaven is my witness, it is chiefly on your account that I dread poverty, and yet it is from you that I receive the greatest comfort. How much more ought I to love you, since you are the only blessing that is left me. Had I never been unfortunate, I should never have had those proofs of your affection. Perhaps also you will assist me in conquering my grief, whilst I am only striving to hide it from you. No, I will not interrupt, by my murmurings,
 <pb n="8" facs="12"/>the innocent gaity of your tender age. <stage>(She runs to the cradle, takes out the infant, and presses it in her arms, looking at it with tenderness.)</stage> It is to thee alone that I will utter my complaints; to thee who art as yet insensible to the sorrows of thy parents. I may shed tears in thy presence without fearing to afflict thee. Happy infant, I weep for thy lot, whilst thou answerest me with a smile.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Martha, Jenny.</stage>
 <sp>
@@ -255,8 +254,8 @@
 <speaker>Mar.</speaker>
 <p>Alas, could we have known at the time that we were providing masters for him, that he would one day have wanted necessaries! He has cost us something, it is true, in his education, but I do not regret it; the money has been well laid out: Valentine is grateful, and does his best to give us proofs of it.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Martha, Jenny, Lucy.</stage>
 <sp>
@@ -272,8 +271,8 @@
 <speaker>Lucy.</speaker>
 <p>My father: he is just come.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="11" facs="15"/>
 <head>SCENE VI.</head>
 <stage>Thorowgood, Martha, Jenny, Lucy.</stage>
@@ -457,8 +456,8 @@
 <speaker>Mar.</speaker>
 <p>Since you insist upon it, I must obey. <stage>(<hi>She retires, taking Jenny and Lucy in her hand. The steward meets them by the way and bows; the little girls appear frightened, and cling to their mother as she goes out</hi>)</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Steward, Thorowgood.</stage>
 <sp>
@@ -612,20 +611,20 @@
 <speaker>Tho.</speaker>
 <p>Be gone for a poltroon as you are: I am as incapable of using my advantage over you, as of taking your advice. <stage>(Steward retires in confusion.)</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <speaker>Thorowgood.</speaker>
 <p>These are the men who ought to promote peace in the country, and they often seek to sow divisions. It is such as these who are the ruin of the peasants, by plunging them into law-suits: instead of acting as a mediator between the rich and poor, their only aim is to estrange them from each other.
 <pb n="23" facs="27"/>Where is the gentleman who would not have a pleasure in treating his tenants with humanity, if he did but know, that in return he was regarded as a friend and father? Oh, Mr. Parks, be you such to me! it is more than my own destiny that I give into your hands, it is that of my wife and children also.</p>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Thorowgood, Martha.</stage>
 <sp>
@@ -666,8 +665,8 @@
 <speaker>Tho.</speaker>
 <p>No, but I just now sent our son George through the garden gate after him. See, he is come back already.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Thorowgood, Martha, George.</stage>
 <sp>
@@ -712,8 +711,8 @@
 <speaker>Geo.</speaker>
 <p>Very well, father.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Thorowgood, Martha, Humphries.</stage>
 <sp>
@@ -784,8 +783,8 @@
 <stage>(in a despairing accent.)</stage>
 <p>Ah, Thorowgood, you stab me to the heart!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Thorowgood, Martha.</stage>
 <sp>
@@ -806,8 +805,8 @@
 <speaker>Mar.</speaker>
 <p>Be comforted, we shall find friends, I will answer for it, more to be depended on. See, here comes Robert, our rich neighbour: perhaps he has something to propose for our good.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Thorowgood, Martha, Meadows.</stage>
 <sp>
@@ -973,8 +972,8 @@
 <speaker>Tho.</speaker>
 <p>And that is what you will never hear said of yourself. Thou wretch! thou hast more money than thou knowest what to do with; and yet, in your eagerness to amass more, you want to cheat others, and to make me a knave like yourself. <stage>(He takes him by the shoulders.)</stage> Get out of my house this instant, before I knock you down. <stage>(Turns him out.)</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Martha, Thorowgood.</stage>
 <sp>
@@ -990,8 +989,8 @@
 <p>This is my comfort in the midst of my troubles. Let us not attend, Martha, to
 <pb n="35" facs="39"/>what others say, we have occasion only for ourselves. <stage>(A noise at the door.)</stage> Who knocks? Cannot I have a moment's peace?</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Thorowgood, Martha, Hearty.</stage>
 <sp>
@@ -1088,8 +1087,8 @@
 <speaker>Hear.</speaker>
 <p>I will press you no more; I feel that I am not worthy to put an end to your troubles; Providence, no doubt, reserves that for itself. All I ask, is, that you will depend on me next to Providence; and my hands, and my little fortune, you shall always find at your service. Farewell. <stage>(He goes out; Thorowgood conducts him to the door, pressing his hand.)</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Thorowgood, Martha.</stage>
 <sp>
@@ -1097,13 +1096,13 @@
 <p>I have a friend then, my dear Martha; I rejoice, however, that he has left me. I might, perhaps, have yielded to his entreaties
 <pb n="39" facs="43"/>from the fear of afflicting him. We are delivered then from a great temptation, but we must prevent his return. Come, my wife, we must act with spirit, let us assemble together all our effects against Squire Parks's coming. I would not have him think that we had deliberated for a moment in doing our duty.</p>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
 <stage>(Household furniture appears dispersed in different parts of the room, and a heap of clothes and linen on a large table.)</stage>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Thorowgood, Martha.</stage>
 <sp>
@@ -1213,8 +1212,8 @@
 <p>I have no fear of that; he is just
 <pb n="43" facs="47"/>and sensible; and when I relate the circumstance, to him, he will be of our opinion.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Thorowgood, Martha, Lucy.</stage>
 <sp>
@@ -1268,8 +1267,8 @@
 <speaker>Lucy.</speaker>
 <p>I will go and see, father, if I have forgotten nothing. When Jenny has done, we shall have something else to bring you.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Thorowgood, Martha.</stage>
 <sp>
@@ -1318,8 +1317,8 @@
 <speaker>Tho.</speaker>
 <p>Here he comes; you shall hear them in his presence.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Thorowgood, Martha, Valentine.</stage>
 <sp>
@@ -1455,8 +1454,8 @@
 <speaker>Valen.</speaker>
 <p>Never, never, my father! without relations, without friends, on whom could my heart repose? I have no one on earth but you to love. I feel that you are a thousand times more dear to me since you have lost your all. I have hitherto only given you the sweat of my brow, but my blood is ready to be shed for you. O my father! since you no longer urge me to quit you, you must press me the more closely in your arms.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Thorowgood, Martha, Humphries.</stage>
 <sp>
@@ -1511,13 +1510,13 @@
 <speaker>Tho.</speaker>
 <p>You have recovered my good opinion. <stage>(He takes his hand.)</stage> Come, Martha, whatever misfortunes may happen to me in the course of this day, I shall always find cause for consolation, since I have preserved a son, and found a lost friend.</p>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="54" facs="58"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Jenny.</stage>
 <sp>
@@ -1525,8 +1524,8 @@
 <stage>(runs across the room to the door of the next apartment.)</stage>
 <p>O Father! O Mother! Come, come quickly.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Jenny, Martha, Thorowgood.</stage>
 <sp>
@@ -1543,8 +1542,8 @@
 <stage>(hastily.)</stage>
 <p>Odd so, I'll lay my life it is our landlord! I must run to receive him. <stage>(He hurries out.)</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="55" facs="59"/>
 <head>SCENE III.</head>
 <stage>Martha, Jenny.</stage>
@@ -1578,8 +1577,8 @@
 <p>It is a sad thing, however—let me take a last look at my holiday clothes. Could
 <pb n="56" facs="60"/>you have thought, mother, last spring, when you gave me this jacket and petticoat, that I should wear them only two or three times? It was but last Sunday that I felt such pleasure at being so smartly dressed! and you yourself, mother, were so happy to see it! <stage>(She takes her mother's hand on perceiving her concern.)</stage> Come, don't grieve, I do not mind my fine clothes; we worked to get them, and we will work to have others. But here is the gentleman coming; I will go look for my sister in the garden.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>(Martha in the front—in the back part Mr. Parks, who is coming in with Thorowgood, whilst Jenny is going out.)</stage>
 <stage>(When Jenny gets to the door, she meets Mr. Parks: she curtsies slightly, making way at the same time, and then proceeds.)</stage>
@@ -1592,8 +1591,8 @@
 <stage>(half turned towards him.)</stage>
 <p>Oh no, Sir, no one can be afraid of you that looks in your face: excuse me a moment, I shall be back directly.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="57" facs="61"/>
 <head>SCENE V.</head>
 <stage>(Martha in the fore-part, Mr. Parks and Thorowgood behind.)</stage>
@@ -1633,8 +1632,8 @@
 <speaker>Tho.</speaker>
 <p>It is rightly said, what is the custom in town is not so in the country. <stage>(Aside.)</stage> But it is odd enough to use hats that will not go on one's head.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Mr. Parks, Thorowgood, Martha, and two Servants.</stage>
 <sp>
@@ -1658,8 +1657,8 @@
 <speaker>Second Serv.</speaker>
 <p>Very well, Sir.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Mr. Parks, Thorowgood, Martha.</stage>
 <sp>
@@ -1717,8 +1716,8 @@
 <speaker>Mr. Parks.</speaker>
 <p>How seldom also does it happen, my friend Thorowgood, that a creditor can with truth say, that the debtor, by whom he has suffered, is worthy of that appellation?</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Mr. Parks, Thorowgood, Martha.</stage>
 <stage>(Jenny, carrying with both hands a large cage with chickens, and Lucy with a basket of eggs in one hand, and holding up with her other the corners of her apron, in which are some handfuls of halfpence.)</stage>
@@ -1805,8 +1804,8 @@
 <speaker>Lucy.</speaker>
 <p>I will not even listen to you. Come, Jenny. <stage>(Both go off skipping and dancing.)</stage></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Mr. Parks, Thorowgood, Martha.</stage>
 <sp>
@@ -1890,8 +1889,8 @@
 <speaker>Tho.</speaker>
 <p>Yes, Sir, I would do so.—Gracious heaven! can we honor with the name of children those unnatural beings, who, rather than deprive themselves of some few comforts of life, would suffer their fathers to be treated like knaves? Without being one of their unfortunate creditors, I could curse such monsters of children.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Mr. Parks, Thorowgood, Martha, Lucy.</stage>
 <sp>
@@ -1904,8 +1903,8 @@
 <p>Do you consider what you say? I'll
 <pb n="68" facs="72"/>go and look at them: excuse me for a moment, Sir. This matter concerns you; they are like wise your property. I will tell you presently how I came by them, <stage>(as he retires.)</stage> Thanks be to Heaven, blessings are flowing in on all sides to-day! <stage>(Goes out with Lucy, who would not venture in for fear Mr. Parks should press her to take back her money.)</stage></p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>Mr. Parks, Martha.</stage>
 <sp>
@@ -1933,8 +1932,8 @@
 <speaker>Mar.</speaker>
 <p>Love him! Ah, Sir, can you doubt it? What would have become of me but for the comfort that he affords me? I am always happy, when I see him with a cheerful countenance. I cannot imagine I have any wants as long as Heaven vouchsafes to preserve him to me. He is indeed my all upon earth.</p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Mr. Parks, Thorowgood, Martha.</stage>
 <sp>
@@ -2141,8 +2140,8 @@
 <stage>(from without.)</stage>
 <p>Here, here we are, mother.</p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>Mr. Parks, Thorowgood, Martha, Jenny, Lucy.</stage>
 <sp>
@@ -2231,14 +2230,14 @@
 <stage>(with a smile.)</stage>
 <p>Make yourself easy, Martha, <stage>(pointing to the baskets which the servants had brought.)</stage> you will find in that enough to regale us; but let us go together, and take a walk in your garden; we all have occasion for a little fresh air to recruit our spirits. <stage>(He goes out, leading Jenny and Lucy by the hand, while Thorowgood and Martha follow him, lifting up their eyes to heaven.)</stage></p>
 </sp>
-</div3>
+</div>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="82" facs="86"/>
 <head>ACT V.</head>
 <stage>(A room in Thorowgood's cottage: in the middle of which is seen a large table, very decently laid with a clean cloth, plates, knives, &amp;c. On one side is the basket which Mr. Parks's servants brought; Martha has just opened it.)</stage>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Martha, Lucy, Jenny.</stage>
 <sp>
@@ -2276,16 +2275,16 @@
 <speaker>Mar.</speaker>
 <p>That is right; and you, Jenny, you must help to set things to-rights in the house. Go and cut some slices of bread; do it properly; and when you have done, bring it in; I want our landlord to see that you know something of the management of a house.</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>Mar. </speaker>
 <stage>(shuts the basket, pushes it into a corner, and approaches the table.)</stage>
 <p>Let me see; nothing, I think, is wanting; the napkins and plates—now I must set the chairs. <stage>(She places chairs round the table.)</stage> Now every thing is ready, he may come as soon as he pleases.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Mr. Parks, Thorowgood, Martha.</stage>
 <sp>
@@ -2340,8 +2339,8 @@
 <speaker>Mar.</speaker>
 <p>You will find presently that they have not been trifling. See, here comes Jenny.</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="86" facs="90"/>
 <head>SCENE IV.</head>
 <stage>Mr. Parks, Thorowgood, Martha, Jenny.</stage>
@@ -2397,8 +2396,8 @@
 <speaker>Tho.</speaker>
 <p>Ah, Sir, your kindness is sufficient to make it delicious.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Mr. Parks, Thorowgood, Martha, Jenny, and Lucy.</stage>
 <sp>
@@ -2484,8 +2483,8 @@
 <speaker>Mar.</speaker>
 <p>Here is George, however.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>Mr. Parks, Thorowgood, Martha, Jenny, Lucy, George.</stage>
 <stage>(George takes off his hat and bows, on seeing Mr. Parks.</stage>
@@ -2582,8 +2581,8 @@
 <speaker>Tho.</speaker>
 <p>Go then, but do not loiter by the way.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Mr. Parks, Thorowgood, Martha.</stage>
 <sp>
@@ -2704,15 +2703,15 @@
 <stage>(stopping him.)</stage>
 <p>No, Sir, that would be of no service to either of you; and this time you must let me have my way. <stage>(He puts Mr. Parks into the next room, who follows him reluctantly, his eyes still turned to the window.)</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <stage>Martha, alone.</stage>
 <p>This event will, perhaps, make me an object of pity. Valentine is now become a great man. Who knows if he will have any farther regard for us; or whether he will not blush to look on us? <stage>(shedding some tears.)</stage> Oh, if such a thing were to happen, I should never feel comfort more! I have brought him up with such care and tenderness! I love him so dearly; he was like one of my own children.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Thorowgood, Martha.</stage>
 <sp>
@@ -2737,8 +2736,8 @@
 <speaker>Tho.</speaker>
 <p>What an abominable notion you have gotten in your head! Forget us, wife! no more than we can forget him. I see, plainly, you know but little of him yet.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Thorowgood, Martha, Valentine, George, Jenny, Lucy.</stage>
 <sp>
@@ -2746,8 +2745,8 @@
 <stage>(with eagerness.)</stage>
 <p>O my dear father and mother, what transports of joy I feel. <stage>(He lays down his spade, and runs to embrace them.)</stage> Jenny and Lucy have been telling me what the landlord has done for us. Where is the worthy gentleman? let me kiss his hand, and thank him for all his goodness.</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="103" facs="107"/>
 <head>SCENE XI.</head>
 <stage>Mr. Parks, Thorowgood, Martha, Valentine, George, Jenny, Lucy.</stage>
@@ -3028,8 +3027,8 @@
 <speaker>Tho.</speaker>
 <p>I guessed that you would still be so unkind as to oppose me. Hear me, Sir; we shall be more expeditious in our work; and besides, the best time for working in your garden is precisely the season when there is scarcely any thing to be done in the fields. Though Valentine be now a person of consequence, still I hope that he will not refuse his assistance: his hands are used to the management of the spade; and to work for you will be the greatest pleasure to him. Only let us have our own way: every one will work cheerfully, and the whole will be finished before you have time to think about it. But here comes the worthy Humphries. What does he want? <stage>(He gets up, runs and takes him by the hand.)</stage></p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <pb n="117" facs="121"/>
 <head>SCENE XII.</head>
 <stage>Mr. Parks, Thorowgood, Martha, Humphries, Valentine, George, Jenny, Lucy.</stage>
@@ -3116,9 +3115,8 @@
 <speaker>Tho.</speaker>
 <p>Nor I, truly. This has been a wonderful day, Humphries. My wife and I are obliged to go this moment to town; but tomorrow shall tell you wonders that will delight and surprize you; and that will shew you more clearly, that the virtue which remains unshaken in adversity always receives its reward.</p>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

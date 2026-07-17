@@ -7,7 +7,7 @@
 <extent>[4],60[i.e.62],[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Walthoe, Jun.; W. Chetwood; and J. Stagg: and sold by J. Roberts,</publisher><date>[1723?]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Numbering of pp.55,56 is duplicated, but text and register are continuous.</note><note>With a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT36329.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>AN HISTORICAL TRAGEDY OF THE CIVIL WARS In the REIGN of King <hi>HENRY</hi> VI.</p>
 <p>(Being a Sequel to the TRAGEDY of HUMFREY Duke of GLOUCESTER: And an Introduction to the TRAGICAL HISTORY of King <hi>RICHARD</hi> III.)</p>
@@ -17,8 +17,8 @@
 <l>Hoc quem <hi>Civiles</hi> fuderunt sanguine dextrae!</l>
 <bibl>LUCAN.</bibl>
 <p><hi>LONDON:</hi> Printed for J. WALTHOE, <hi>jun.</hi> in <hi>Cornhill;</hi> W. CHETWOOD, in <hi>Russel-Street, Covent-Garden;</hi> and J. STAGG, in <hi>Westminster-Hall:</hi> And Sold by J. ROBERTS, in <hi>Warwick-Lane.</hi> Price 1<hi>s.</hi> 6<hi>d.</hi></p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p><seg rend="decorInit">T</seg>HIS Piece was finish'd above Two Years ago, and put into my Hands, to make what Use of it I thought fit. And tho' it cost our Author but the Labour of a single Month, or less, yet, upon this Occasion, I can't but think the publishing it will oblige the World, since it is a Sequel to Mr. <hi>Philips </hi>'s Play of Duke <hi>Humfrey,</hi> and an Introduction to Mr. <hi>Cibber</hi>'s Alteration of <hi>Richard</hi> the Third. Never Child had a more regardless Father, than the Parent of this; and therefore rather than have it smother'd, I thought it a more Human Act to let it come upon the Parish. And, in my poor Opinion, I have seen a less promising Appearance than this Brat carries about him, rise in the State.</p>
@@ -26,8 +26,8 @@
 <l>Th' unequal Muse unhappily should Err,</l>
 <l>At least you'll own from glorious Heights he fell,</l>
 <l>And there's some Merit in attempting well.</l><bibl>Prol. to XIMENA.</bibl>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>The PERSONS.</head>
 <list>
@@ -50,11 +50,11 @@
 <list>
 <item><hi>Messengers, Attendants,</hi> &amp;c.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>The Historical Tragedy of King HENRY VI.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. SCENE I.</head>
 <stage>Enter King <hi>Henry.</hi></stage>
 <sp>
@@ -764,8 +764,8 @@ Shall be eterniz'd in all Age to come:</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>End of the First ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="12" facs="15"/>
 <head>ACT II.</head>
 <stage><hi>York, Edward, George, Richard, Warwick,</hi> and other Lords, <hi>&amp;c.</hi> discover'd as in Parliament.</stage>
@@ -1600,8 +1600,8 @@ My Sons, Heav'n knows what hath bechanced them,</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>The End of the Second ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="24" facs="27"/>
 <head>ACT III. SCENE I.</head>
 <stage>Enter <hi>Edward, Richard,</hi> and Soldiers.</stage>
@@ -2636,8 +2636,8 @@ To take their Rooms, e'er I can place my self.</l>
 </lg>
 </sp>
 <trailer>The End of the Third ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="40" facs="43"/>
 <head>ACT IV. SCENE I.</head>
 <stage>Enter <hi>Warwick</hi> with a Letter.</stage>
@@ -3236,8 +3236,8 @@ And bear with Mildness my Misfortune cross.</l>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>The End of the Fourth ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="49" facs="52"/>
 <head>ACT V. SCENE I.</head>
 <stage>Enter King <hi>Henry,</hi> Prince <hi>Edward, Warwick, George,</hi> Queen, Lady <hi>Elizabeth,</hi> Lady <hi>Anne,</hi> and Attendants.</stage>
@@ -4104,11 +4104,11 @@ Thus have we swept Suspicion from our Seat,</l>
 <l><hi>Ever to dread th' Event of Civil Wars.</hi></l>
 </lg>
 </sp>
-</div1>
+</div>
 <trailer>END.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="66"/>
 <head>BOOKS lately printed, for J. WALTHOE, jun. W. CHETWOOD, and J. STAGG.</head>
 <list>
@@ -4138,7 +4138,7 @@ V. The Laws of Poetry; being a Critical Commentary on the Duke of BUCKINGHAM'S <
 <item>VII. An impartial History of the LIFE and ACTIONS of <hi>Peter Alexowitz,</hi> the present CZAR of <hi>Muscovy,</hi> from his Birth, down to this present Time. Giving an Account of his Travels, and Transactions, in the several Courts of <hi>Europe.</hi> With his Attempts and Successes, in the Northern and Eastern Parts of the World. In which is intermix'd, The History of <hi>Muscovy. Price</hi> 5<hi>s.</hi></item>
 <item>VIII. The Travels and Adventures of the Three Princes of <hi>Sarendip,</hi> interspers'd with Novels. Illustrated with Eight Copper Plates.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

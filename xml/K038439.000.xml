@@ -7,13 +7,13 @@
 <extent>vi,50p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket,</publisher><date>1772.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By David Garrick.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT37396.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE IRISH WIDOW.</p>
 <p>IN TWO ACTS. AS IT IS PERFORMED AT THE THEATRE ROYAL IN DRURY-LANE.</p>
 <p>LONDON: Printed for T. BECKET in the Strand. MDCCLXXII. [Price One Shilling.]</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -36,8 +36,8 @@
 <label>WIDOW BRADY,</label>
 <item>Mrs. BARRY.</item>
 </list>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO Mrs. BARRY.</head>
 <opener><salute>MADAM,</salute></opener>
@@ -48,13 +48,13 @@ the IRISH WIDOW, that is, of sinking <hi>to the lowest note, from the top of the
 <p>Permit me, Madam, like other Coxcombs, to boast some favours I have received—You perform the principal character, some news-papers have criticis'd the Farce, and the audiences have laugh'd heartily at it. Were not I as sensible as the severest Critick of them all, that it is a triffle not worth the owning, I should subscribe my real name, instead of,</p>
 <closer><salute>MADAM,</salute>
 <signed>Your great admirer, And humble servant, The AUTHOR.</signed></closer>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="5"/>THE IRISH WIDOW.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>Whittle's House.</stage></head>
 <stage>Enter <hi>BATES</hi> and Servant.</stage>
 <sp>
@@ -429,8 +429,8 @@ Hugh! hugh! hugh!</p>
 <p>With all my heart—I'll raise her spirits, and your's too—courage, TOM—come along—who's afraid?</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the <hi>WIDOW</hi>'s Lodgings.</stage></head>
 <stage>Enter <hi>WIDOW, NEPHEW,</hi> and <hi>BATES.</hi></stage>
 <sp>
@@ -537,8 +537,8 @@ do then? I never wish'd for a fortune till this moment.</p>
 <speaker>BATES.</speaker>
 <p>Huzza! huzza!<stage>[Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>the Park.</stage></head>
 <stage>Enter <hi>WHITTLE</hi> and <hi>KECKSY.</hi></stage>
 <sp>
@@ -804,10 +804,10 @@ WITTOL, your obadient, 'till we meet at the Pantaon. Follow me Pompey; and Skips
 <speaker>WHITTLE.</speaker>
 <p><hi>Most tinderly your's!</hi> <stage>(mimicks her.)</stage> 'Ecod I believe you are, and any body's else; O what an escape have I had! But how shall I clear myself of this business? I'll serve her as I would bad money, put her off into other hands: My NEPHEW is fool enough to be in love with her, and if I give him a fortune he'll take the good and the bad together—he shall do so or starve. I'll send for BATES directly, confess my folly, ask his pardon, send him to my NEPHEW, write and declare off with the WIDOW, and so get rid of her <hi>tinderness</hi> as fast as I can. <stage>[Exit.</stage></p>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="27" facs="31"/>
 <head>ACT II.</head><stage>A Room in <hi>WHITTLE</hi>'s House.</stage>
 <stage>Enter <hi>BATES,</hi> and <hi>NEPHEW.</hi></stage>
@@ -1660,7 +1660,7 @@ two purses. I did not come to England, nor keep good company, till it was too la
 </lg>
 </lg>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

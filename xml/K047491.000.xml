@@ -7,24 +7,24 @@
 <editionStmt><edition>The second edition.</edition></editionStmt><extent>[4],30p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket and P. A. De Hondt,</publisher><date>1769.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Dedication signed: Thomas King.</note><note>Based on Jean François Regnard's 'Le légataire universel'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52618.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>WIT's LAST STAKE, A FARCE.</p>
 <p>As it is performed At the THEATRE ROYAL, DRURYLANE.</p>
 <p>THE SECOND EDITION.</p>
 <p>LONDON: Printed for T. BECKET and P. A. DE HONDT, in the Strand MDCCLXIX.</p>
 <p>[Price One Shilling.]</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <p>LE LEGATAIRE UNIVERSEL, A French Comedy, which furnished many Materials for this little Piece, may be found among the Works of <hi>Monsieur Regnard.</hi></p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <p>THIS DRAMATIC TRIFLE IS MOST HUMBLY AND GRATEFULLY PRESENTED TO THE INDULGENT PUBLIC, AS A SMALL TRIBUTE FOR THE MANY UNDESERVED FAVORS CONFERRED ON</p>
 <closer><signed>THEIR MOST OBEDIENT, RESPECTFUL AND EVER OBLIGED SERVANT, THOMAS KING.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -38,10 +38,10 @@
 <item><label>Myra,</label> Miss PLATT.</item>
 <item><label>Lucetta,</label> Miss POPE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
+<div type="act">
 <pb facs="5"/>
 <head>WIT's LAST STAKE.</head>
 <head>ACT I. SCENE I.</head>
@@ -1337,8 +1337,7 @@
 <l>The proverb says—who covet all—all lose.</l>
 </sp>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

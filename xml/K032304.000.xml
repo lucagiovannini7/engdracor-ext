@@ -7,7 +7,7 @@
 <extent>[18],25-72p. ; 12⁰.</extent><publicationStmt><publisher>printed and sold by S. Keimer,</publisher><date>1715.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT26854.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE <hi>GOTHAM</hi> ELECTION, A FARCE.</p>
 <p>By Mrs. <hi>CENTLIVRE,</hi></p>
@@ -15,8 +15,8 @@
 <l>Defossa in Loculis quos sportula fecit Amicos.</l>
 <bibl>[Juv. Sat. 10.</bibl>
 <p><hi>LONDON:</hi> Printed and Sold by S. KEIMER, at the <hi>Printing-Press</hi> in <hi>Pater-Noster-Row.</hi> 1715.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO JAMES CRAGGS, Jun. <abbr>Esq</abbr> Cofferer to His Royal Highness the Prince of <hi>Wales,</hi> and Member of the Honourable House of Commons.</head>
 <opener><salute>SIR,</salute></opener>
@@ -41,8 +41,8 @@ Publick Honour to all <hi>Europe,</hi> and the Extricating us out of such Diffic
 <pb facs="9"/>
 it needless at high Noon, to tell the World that it is light, since all that have Eyes, must see the Day; and all that have the Honour to know Mr. <hi>Craggs,</hi> knows his Character is above my Reach, consequently, would suffer from the Attempt of any Pen so weak as mine: Therefore shall only beg Leave to subscribe with the profoundest Respect, <hi>Sir,</hi></p>
 <closer><signed>Your most Oblig'd, most Obedient, and most Devoted humble Servant, Susanna Centlivre.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="10"/>
 <head>THE PREFACE.</head>
 <p>WHEN I writ this little <hi>Farce,</hi> I was not without Hopes of having it represented on the Stage; what I propos'd to my self, was, the Honour to show their Royal Highnesses the Manner of our Elections, and entertain the Town with a Subject entirely new: It has had the good Fortune to please several Persons of Distinction, and Taste, in the Reading, and some of our best Judges assur'd me, it cou'd not fail to entertain from the Stage; but the Subject being upon Elections, the Master of the Revels did not care to meddle with it, and the Players act nothing without his Licence, so that I
@@ -61,8 +61,8 @@ it, I am glad they had not an Opportunity of making use of it, in the Triumph th
 enough to endure the <hi>Bastile,</hi> and yet the Papists and their Abettors dare to do it here. It is with the utmost Indignation, that I see those wholsome Laws neglected, which ought to be put in Execution against such profess'd Enemies of our Church and State; for to the Indolence of our People in Power, are all our present Divisions and Distractions owing; tho' for the Author of that excellently writ Poem above-mention'd, I dare answer for him, is under no Concern for any Thing that Faction can either say or write, since 'tis very evident their Malice is not levell'd against him but against our Religion and Liberties, which he has in that Piece vindicated so well, and set the Cruelties of <hi>Rome</hi> in so true a Light, that a great Part of our Clergy may blush to see the Stage become a better Advocate for <hi>Protestantism</hi> than the Pulpit; and as oft as that Tragedy shall be represented the Author's Memory shall be honoured to Posterity, whilst those Pretenders to the Church, the <hi>High-Flying</hi> and <hi>Nonjuring-Party</hi>
 <pb facs="16"/>
 shall be remembred. with the utmost Detestation.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="17" ana="y"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -90,13 +90,13 @@ shall be remembred. with the utmost Detestation.</p>
 <item>Gooddy <hi>Sly.</hi></item>
 <item>Midwife, and other Women.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Gotham.</p></set>
 </front>
 <body>
 <head><pb n="25" facs="18"/>
 THE <hi>GOTHAM</hi> ELECTION,</head>
-<div1 n="1" type="scene">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>Enter on one Side Mr. <hi>Friendly,</hi> On the other, <hi>Scoredouble,</hi> an Inn-keeper.</stage>
 <sp>
@@ -357,8 +357,8 @@ zo she veasts the Good Wives, d'ye mind, and so secures all those Husbands Votes
 <p>Sir <hi>Roger</hi>! I shall be glad to zee him with all my Heart Blood and Gutts, as they zay.</p>
 <stage>(Exeunt.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE changes to a Room in a Tavern.</stage>
 <stage>Enter Lady <hi>Worthy,</hi> Mr. <hi>Tickup,</hi> Gooddy <hi>Gabble,</hi> and Gooddy <hi>Shallow.</hi></stage>
 <sp>
@@ -899,8 +899,8 @@ Word, what a prodigious Company this Fellow has provided for!—but thanks to Po
 <l>Neither more nor less, than pure good Breeding.</l>
 <stage>(Exit.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <stage>Scene chages to the Mayor's House.</stage>
 <stage>Enter <hi>Mayor</hi> with a Letter in his Hand.</stage>
 <stage><hi>Friendly</hi> dress'd like a <hi>Frenchman.</hi></stage>
@@ -1024,8 +1024,8 @@ Nunnery,—and the other four would make my Son a Lord.</p>
 <p>Begar dose be de very sweet Votes.</p>
 <stage>(Exit.</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <stage>Scene changes to the Street.</stage>
 <stage>A Cobler at work in his Stall under an Ale-House.</stage>
 <stage>Enter Mr. <hi>Tickup.</hi></stage>
@@ -1444,8 +1444,8 @@ Votes, Sir <hi>Roger;</hi> egad I'll over-reach the Rogues, I warrant 'em: This 
 <l>In this at last we have the Advantage got,</l>
 <l>We give the Treat, but they shall pay the Shot.</l>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage><hi>Mallets</hi> Son's House.</stage></head>
 <stage><hi>Mallet,</hi> his Son, Lady <hi>Worthy,</hi> Gooddy <hi>Gabble,</hi> Gooddy <hi>Shallow, Sly</hi> and his Wife, and Midwife with the Child; several Men and Women drinking, as at a Christening, a Quaker filling Wine, and a Fidler playing.</stage>
 <stage>Enter <hi>Tickup.</hi></stage>
@@ -1752,8 +1752,8 @@ where we will meditate on Revenge to come.</p>
 <p>Ay, ay, to the Hall, and act as Conscience, or cut Interest, leads.</p>
 <stage>(Exeunt</stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE changes to the Street.</stage>
 <stage><pb n="69" facs="62"/>Enter <hi>Friendly</hi> and <hi>Lucy.</hi></stage>
 <sp>
@@ -1793,7 +1793,7 @@ Defence of Liberty and Property against <hi>Perkin</hi> and the Pope, I'll sign,
 <sp>
 <speaker>Friend.</speaker>
 <p>If I do not this, may I meet the Fate which every Traytor to his Land deserves, my charming Heroine!</p>
-<stage>(A Noise of Mob without, crying, A <hi>Tickup,</hi> a <hi>Tickup,</hi> A <hi>Worthy,</hi> a <hi>Worthy,</hi> A <hi>Trusty,</hi> a <hi>Trusty.</hi></stage>
+<stage>(A Noise of Mob without, crying, <said direct="true">A <hi>Tickup,</hi> a <hi>Tickup,</hi> A <hi>Worthy,</hi> a <hi>Worthy,</hi> A <hi>Trusty,</hi> a <hi>Trusty.</hi></said></stage>
 </sp>
 <sp>
 <speaker>Lucy.</speaker>
@@ -1885,7 +1885,7 @@ Defence of Liberty and Property against <hi>Perkin</hi> and the Pope, I'll sign,
 <l>This is my Maxim in a married Life,</l>
 <l>Who hates his Country, ne'er can love his Wife.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

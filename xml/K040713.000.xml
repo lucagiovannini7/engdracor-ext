@@ -7,7 +7,7 @@
 <extent>x,[2],67,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Gray; and sold by J. Roberts,</publisher><date>1731.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT41160.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE <hi>London</hi> Merchant: OR, THE HISTORY OF <hi>GEORGE BARNWELL.</hi> As it is Acted at the THEATRE-ROYAL IN <hi>DRURY-LANE.</hi> By HIS MAJESTY's Servants.</p>
 <p>By Mr. <hi>LILLO.</hi></p>
@@ -15,8 +15,8 @@
 <l><hi>And you shall do full well.</hi></l>
 <bibl>Old Ballad of the Lady's Fall.</bibl>
 <p>LONDON: Printed for J. GRAY, at the <hi>Cross-Keys</hi> in the <hi>Poultry</hi>; and sold by J. ROBERTS, in <hi>Warwick-Lane.</hi> MDCCXXXI. [Price One-Shilling and Six-pence.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb n="iii" facs="2"/>
 <head>TO Sir <hi>John Eyles,</hi> Bar. Member of Parliament for, and Alderman of the City of <hi>London,</hi> and Sub-Governor of the <hi>South-Sea</hi> Company.</head>
 <opener><salute>SIR,</salute></opener>
@@ -48,8 +48,8 @@ Such Plays are the best Answers to them who deny the Lawfulness of the Stage.</p
 strictly true, must place you in a Light, much inferior to that in which you have long been fix'd, by the Love and Esteem of your Fellow Citizens; whose Choice of you for one of their Representatives in Parliament, has sufficiently declared their Sense of your Merit. Nor hath the Knowledge of your Worth been confined to the City. The Proprietors in the <hi>South-Sea</hi> Company, in which are included Numbers of Persons; as considerable for their Rank, Fortune, and Understanding, as any in the Kingdom, gave the greatest Proof of their Confidence, in your Capacity and Probity, when they chose you Sub-Governor of their Company, at a Time when their Affairs were in the utmost Confusion, and their Properties in the greatest Danger. Nor is the Court insensible of your Importance. I shall not therefore attempt your Character, nor pretend to add any Thing to a Reputation so well established.</p>
 <p><pb n="x" facs="9"/>Whatever others may think of a Dedication, wherein there is so much said of other Things, and so little of the Person to whom it is address'd, I have Reason to believe that you will the more easily pardon it on that very Account.</p>
 <closer><signed>I am, SIR, Your most obedient humble Servant, GEORGE LILLO.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="10"/>
 <head>PROLOGUE.</head>
 <byline>Spoke by Mr. CIBBER, <hi>Jun.</hi></byline>
@@ -91,8 +91,8 @@ strictly true, must place you in a Light, much inferior to that in which you hav
 <l>Tho' Art be wanting, and our Numbers fail,</l>
 <l>Indulge th' Attempt in Justice to the Tale.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="11"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -120,14 +120,14 @@ strictly true, must place you in a Light, much inferior to that in which you hav
 <list>
 <item><hi>Officers with their Attendants, Keeper, and Footmen.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE London, <hi>and an adjacent Village.</hi></p></set>
 </front>
 <body>
 <head><pb facs="12"/>THE <hi>London</hi> Merchant: OR, THE HISTORY OF <hi>GEORGE BARNWELL.</hi></head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room in</hi> Thorowgood<hi>'s House.</hi></stage>
 <stage>Thorowgood <hi>and</hi> Trueman.</stage>
@@ -178,8 +178,8 @@ Princes, who made the Danger of foreign Enemies a Pretence to oppress their Subj
 <speaker>Thor.</speaker>
 <p>Only to look carefully over the Files to see whether there are any Trades-mens Bills unpaid; and if there are, to send and discharge 'em. We must not let Artificers lose their Time, so useful to the Publick and their Families, in unnecessary Attendance.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Thorowgood <hi>and</hi> Maria.</stage>
 <sp>
@@ -253,8 +253,8 @@ yet had you been less indulgent, I had been most wretched. That I look on the Cr
 <speaker>Thor.</speaker>
 <p>I'll see you to your Chamber.</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>A Room in</hi> Millwood<hi>'s House.</hi></stage>
 <stage>Millwood. Lucy <hi>Waiting.</hi></stage>
@@ -345,8 +345,8 @@ only of the young and innocent Part of the Sex, who having never injured Women, 
 <speaker>Mill.</speaker>
 <p>If I manage well, I shall have done with him much sooner, having long had a Design on him; and meeting him Yesterday, I made a full Stop, and gazing wishfully on his Face, ask'd him his Name: He blush'd, and bowing very low, answer'd, <hi>George Barnwell.</hi> I beg'd his Pardon for the Freedom I had taken, and told him, that he was the Person I had long wish'd to see, and to whom I had an Affair of Importance to communicate, at a proper Time and Place. He named a Tavern; I talk'd of Honour and Reputation, and invited him to my House: He swallow'd the Bait, promis'd to come, and this is the Time I expect him, <stage>[knocking at the Door.]</stage> Some Body knocks,—d'ye hear; I am at Home to no Body to Day, but him.—</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Millwood.</stage>
 <sp>
@@ -355,8 +355,8 @@ only of the young and innocent Part of the Sex, who having never injured Women, 
 <pb n="8" facs="19"/>
 this does not prove of great Importance to me and him too, before I have done with him.—Now, after what Manner shall I receive him? Let me consider—what manner of Person am I to receive?—He is young, innocent, and bashful; therefore I must take Care not to shock him at first.—But then, if I have any Skill in Phisiognomy, he is amorous, and, with a little Assistance, will soon get the better of his Modesty,—I'll trust to Nature, who does Wonders in these Matters.—If to seem what one is not, in order to be the better liked for what one really is; if to speak one thing, and mean the direct contrary, be Art in a Woman, I know nothing of Nature.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>To her,</hi> Barnwell <hi>bowing very low,</hi> Lucy <hi>at a Distance.</hi></stage>
 <sp>
@@ -517,8 +517,8 @@ and declare—what Woman's Modesty should hide.</p>
 <speaker>Lucy.</speaker>
 <p>Serve him still!—Aye, or he'll have no Opportunity of fingering his Cash, and then he'll not serve your End, I'll be sworn. <stage>[Aside.</stage></p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>(<hi>To them.</hi>) Blunt.</stage>
 <sp>
@@ -529,8 +529,8 @@ and declare—what Woman's Modesty should hide.</p>
 <speaker>Mill.</speaker>
 <p>Come, Sir, You'll excuse all Defects.—My Thoughts were too much employ'd on my Guest to observe the Entertainment.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Lucy <hi>and</hi> Blunt.</stage>
 <sp>
@@ -590,8 +590,8 @@ and declare—what Woman's Modesty should hide.</p>
 <speaker>Lucy.</speaker>
 <p>The most promising that can be.—'Tis true, the Youth has his Scruples; but she'll soon teach him to answer them, by stifling his Conscience.—O, the Lad is in a hopeful Way, depend upon't.</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Barnwell <hi>and</hi> Millwood <hi>at an Entertainment.</hi></stage>
 <sp>
@@ -638,13 +638,13 @@ and declare—what Woman's Modesty should hide.</p>
 <l><hi>Commits himself, tho' doubtful, to the Wind,</hi></l>
 <l><hi>Longs much for Joys to come, yet mourns those left behind.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="25"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A Room in</hi> Thorowgood<hi>'s House.</hi></stage>
 <stage>Barnwell.</stage>
@@ -652,8 +652,8 @@ and declare—what Woman's Modesty should hide.</p>
 <speaker>Barn.</speaker>
 <p>HOW strange are all Things round me? Like some Thief, who treads forbidden Ground, fearful I enter each Apartment of this well known House. To guilty Love, as if that was too little, already have I added Breach of Trust.—A Thief!—Can I know my self that wretched Thing, and look my honest Friend and injured Master in the Face?—Tho' Hypocrisy may a while conceal my Guilt, at length it will be known, and publick Shame and Ruin must ensue. In the mean time, what must be my Life? ever to speak a Language foreign to my Heart; hourly to add to the Number of my Crimes in order to conceal 'em.—Sure such was the Condition of the grand Apostate, when first he lost his Purity; like me disconsolate he wander'd, and while yet in Heaven, bore all his future Hell about him.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Barnwell <hi>and</hi> Trueman.</stage>
 <sp>
@@ -795,8 +795,8 @@ and declare—what Woman's Modesty should hide.</p>
 <speaker>Barn.</speaker>
 <p>I'll take a little Time to reflect on what has past, and follow you.</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Barnwell.</stage>
 <sp>
@@ -804,8 +804,8 @@ and declare—what Woman's Modesty should hide.</p>
 <pb n="18" facs="29"/>
 my Master; but what of <hi>Millwood</hi>? must I expose her too? ungenerous and base! then Heav'n requires it not.—But Heaven requires that I forsake her. What! never see her more! Does Heaven require that,—I hope I may see her, and Heav'n not be offended. Presumptuous Hope,—dearly already have I prov'd my Frailty; should I once more tempt Heav'n, I may be left to fall never to rise again. Yet shall I leave her, for ever leave her, and not let her know the Cause? She who loves me with such a boundless Passion; can Cruelty be Duty? I judge of what she then must feel, by what I now indure. The love of Life and fear of Shame, oppos'd by Inclination strong as Death or Shame, like Wind and Tide in raging Conflict met, when neither can prevail, keep me in doubt.—How then can I determines.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Thorowgood <hi>and</hi> Barnwell.</stage>
 <sp>
@@ -846,8 +846,8 @@ How painful is the Sense of Guilt to an ingenuous Mind;—some youthful Folly, w
 <speaker>Thor.</speaker>
 <p>This Remorse makes thee dearer to me than if thou hadst never offended; whatever is your Fault, of this I'm certain, 'twas harder for you to offend than me to pardon.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Barnwell.</stage>
 <sp>
@@ -856,8 +856,8 @@ How painful is the Sense of Guilt to an ingenuous Mind;—some youthful Folly, w
 <pb n="20" facs="31"/>
 <hi>Millwood</hi> then?—Why, I renounce her;—I give her up;—the Struggle's over, and Virtue has prevail'd. Reason may convince, but Gratitude compels. This unlook'd for Generosity has sav'd me from Destruction. <stage>[Going.</stage></p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>To him a Footman.</stage>
 <sp>
@@ -868,16 +868,16 @@ How painful is the Sense of Guilt to an ingenuous Mind;—some youthful Folly, w
 <speaker>Barn.</speaker>
 <p>Who shou'd they be? <stage>[Aside.]</stage> Tell them I'll wait upon 'em.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Barnwell.</stage>
 <sp>
 <speaker>Barn.</speaker>
 <p>Methinks I dread to see 'em.—Guilt, what a Coward hast thou made me?—Now every Thing alarms me.</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>Another Room in</hi> Thorowgood's <hi>House.</hi></stage>
 <stage>Millwood <hi>and</hi> Lucy, <hi>and to them a Footman.</hi></stage>
@@ -889,8 +889,8 @@ How painful is the Sense of Guilt to an ingenuous Mind;—some youthful Folly, w
 <speaker>Mill.</speaker>
 <p>'Tis very well.—I thank you.</p>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Barnwell, Millwood, <hi>and</hi> Lucy.</stage>
 <sp>
@@ -1023,16 +1023,16 @@ How painful is the Sense of Guilt to an ingenuous Mind;—some youthful Folly, w
 <speaker>Mill.</speaker>
 <p>You may judge an Embrace at parting too great a Favour, though it would be the last? <stage>[He draws back.]</stage> A Look shall then suffice,—farewell for ever.</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X.</head>
 <stage>Barnwell.</stage>
 <sp>
 <speaker>Barn.</speaker>
 <p>If to resolve to suffer be to conquer, I have conquer'd. Painful Victory!</p>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="23" facs="34"/>
 <head>SCENE XI.</head>
 <stage>Barnwell, Millwood <hi>and</hi> Lucy.</stage>
@@ -1175,8 +1175,8 @@ in her own Family) that you were entertain'd at her House, and stay'd with her a
 <speaker>Barn.</speaker>
 <p>Tormenting Fiend, away.—I had rather perish, nay, see her perish, than have her sav'd by him; I will my self prevent her Ruin, tho' with my own. A Moment's Patience, I'll return immediately.—</p>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE. XII.</head>
 <stage>Millwood <hi>and</hi> Lucy.</stage>
 <sp>
@@ -1192,8 +1192,8 @@ in her own Family) that you were entertain'd at her House, and stay'd with her a
 <speaker>Lucy.</speaker>
 <p>That's very true; but then you shou'd be reasonable in your Demands; 'tis pity to discourage a young Man.</p>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>Barnwell, Millwood, <hi>and</hi> Lucy.</stage>
 <sp>
@@ -1224,8 +1224,8 @@ in her own Family) that you were entertain'd at her House, and stay'd with her a
 <speaker>Barn.</speaker>
 <p>You are my Fate, my Heaven, or my Hell; only leave me now, dispose of me hereafter as you please.</p>
 </sp>
-</div2>
-<div2 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <pb n="27" facs="38"/>
 <head>SCENE XIV.</head>
 <stage>Barnwell.</stage>
@@ -1234,13 +1234,13 @@ in her own Family) that you were entertain'd at her House, and stay'd with her a
 <l><hi>Such undistinguish'd Horrors make my Brain,</hi></l>
 <l><hi>Like Hell, the Seat of Darkness, and of Pain.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="28" facs="39"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Thorowgood <hi>and</hi> Trueman.</stage>
 <sp>
@@ -1265,16 +1265,16 @@ has bestowed some good peculiar to it self.—It is the industrious Merchant's B
 <speaker>Thor.</speaker>
 <p>I'm now going to the <hi>Exchange</hi>; let him know, at my Return, I expect to find him ready.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Maria <hi>with a Book sits and reads.</hi></stage>
 <sp>
 <speaker>Ma.</speaker>
 <p>How forcible is Truth? The weakest Mind, inspir'd with Love of that,—fix'd and collected in it self,—with Indifference beholds—the united Force of Earth and Hell opposing: Such Souls are rais'd above the Sense of Pain, or so supported, that they regard it not. The Martyr cheaply purchases his Heaven.—Small are his Sufferings, great is his Reward;—not so the Wretch, who combats Love with Duty; when the Mind, weaken'd and dissolved by the soft Passion, feeble and hopeless opposes its own Desires.—What is an Hour, a Day, a Year of Pain, to a whole Life of Tortures, such as these?</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="30" facs="41"/>
 <head>SCENE III.</head>
 <stage>Trueman <hi>and</hi> Maria.</stage>
@@ -1378,8 +1378,8 @@ George Barnwell.</p>
 <speaker>Ma.</speaker>
 <p>If Heaven succeed it, I am well rewarded. A Virgin's Fame is sullied by Suspicion's slightest Breath; and therefore as this must be a Secret from my Father, and the World, for <hi>Barnwell</hi>'s sake, for mine let it be so to him.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>Milwood<hi>'s House.</hi></stage>
 <stage>Lucy <hi>and</hi> Blunt.</stage>
@@ -1529,8 +1529,8 @@ but affected a most passionate Fit of Grief;—rail'd at her Fate, and curs'd he
 <speaker>Lucy.</speaker>
 <p>Let us lose no Time;—I'll acquaint you with the Particulars as we go.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>A Walk at some Distance from a Country Seat.</stage>
 <stage>Barnwell.</stage>
@@ -1542,8 +1542,8 @@ Stream, whose hoary Fall has made a natural Cascade, as I pass'd by, in doleful 
 <l><hi>The Storm that Lust began, must end in Blood.</hi></l>
 <stage>[Puts on the Vizor, and draws a Pistol.</stage>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="38" facs="49"/>
 <head>SCENE VI.</head>
 <stage>A close Walk in a Wood.</stage>
@@ -1551,8 +1551,8 @@ Stream, whose hoary Fall has made a natural Cascade, as I pass'd by, in doleful 
 <sp>
 <p>If I was superstitious, I shou'd fear some Danger lurk'd unseen, or Death were nigh:—A heavy Melancholy clouds my Spirits; my Imagination is fill'd with gashly Forms of dreary Graves, and Bodies chang'd by Death,—when the pale lengthen'd Visage attracks each weeping Eye,—and fills the musing Soul, at once, with Grief and Horror, Pity and Aversion.—I will indulge the Thought. The wise Man prepares himself for Death, by making it familiar to his Mind.—When strong Reflections hold the Mirror near,—and the Living in the Dead behold their future selves, how does each inordinate Passion and Desire cease or sicken at the View?—The Mind scarce moves;—The Blood, curdling, and chill'd, creeps slowly thro' the Veins,—fix'd, still, and motionless, like the solemn Object of our Thoughts.—We are almost at present—what we must be hereafter, 'till Curiosity awakes the Soul, and sets it on Inquiry.—</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Uncle, George Barnwell <hi>at a Distance.</hi></stage>
 <sp>
@@ -1600,13 +1600,13 @@ that dear murder'd Saint, and me the Murderer.—And, if his Vengeance spares,�
 <l><hi>By Laws and Means well known we stand or fall,</hi></l>
 <l><hi>And one eternal Rule remains for all.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="41" facs="52"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>Maria.</stage>
 <sp>
@@ -1617,8 +1617,8 @@ that dear murder'd Saint, and me the Murderer.—And, if his Vengeance spares,�
 <l><hi>Tho' to the Grave in secret Love I pine,</hi></l>
 <l><hi>So Life, and Fame, and Happiness were thine.</hi></l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>Trueman <hi>and</hi> Maria.</stage>
 <sp>
@@ -1642,8 +1642,8 @@ that dear murder'd Saint, and me the Murderer.—And, if his Vengeance spares,�
 <speaker>Ma.</speaker>
 <p>How does the unhappy Youth defeat all our Designs to serve him, yet I can never repent what we have done. Shou'd he return, 'twill make his Reconciliation with my Father easier, and preserve him from future Reproach from a malicious unforgiving World.</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>(<hi>To them.</hi>) Thorowgood <hi>and</hi> Lucy.</stage>
 <sp>
@@ -1662,8 +1662,8 @@ that dear murder'd Saint, and me the Murderer.—And, if his Vengeance spares,�
 <speaker>Ma.</speaker>
 <p>Sir, your Pardon; I find my self on a sudden so indispos'd, that I must retire.—Providence opposes all Attempts to save him.—Poor ruin'd <hi>Barnwell!</hi>—Wretched lost <hi>Maria!</hi>— <stage>[Aside.</stage></p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="43" facs="54"/>
 <head>SCENE IV.</head>
 <stage>Thorowgood, Trueman <hi>and</hi> Lucy.</stage>
@@ -1691,16 +1691,16 @@ that dear murder'd Saint, and me the Murderer.—And, if his Vengeance spares,�
 <speaker>Thor.</speaker>
 <p>This Earnestness convinces me that he knows more than he has yet discover'd. What ho! without there! who waits?</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>(<hi>To them.</hi>) <hi>A Servant.</hi></stage>
 <sp>
 <speaker>Thor.</speaker>
 <p>Order the Groom to saddle the swiftest Horse, and prepare himself to set out with Speed.—An Affair of Life and Death demands his Diligence.</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="44" facs="55"/>
 <head>SCENE VI.</head>
 <stage>Thorowgood, Trueman <hi>and</hi> Lucy.</stage>
@@ -1708,31 +1708,31 @@ that dear murder'd Saint, and me the Murderer.—And, if his Vengeance spares,�
 <speaker>Thor.</speaker>
 <p>For you, whose Behaviour on this Occasion I have no Time to commend as it deserves, I most ingage your farther Assistance.—Return and observe this <hi>Millwood</hi> till I come. I have your Directions, and will follow you as soon as possible.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>Thorowgood <hi>and</hi> Trueman.</stage>
 <sp>
 <speaker>Thor.</speaker>
 <p><hi>Trueman,</hi> you I am sure wou'd not be idle on this Occasion.</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Trueman.</stage>
 <sp>
 <p>He only who is a Friend can judge of my Distress.</p>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>Millwood<hi>'s House.</hi></stage>
 <stage>Millwood.</stage>
 <sp>
 <p>I wish I knew the Event of his Design;—the Attempt without Success would ruin him.—Well! what have I to apprehend from that? I fear too much. The Mischief being only intended, his Friends, in pity of his Youth, turn all their Rage on me. I should have thought of that before.—Suppose the Deed done, then, and then only I shall be secure; or what if he returns without attempting it at all?</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="45" facs="56"/>
 <head>SCENE X.</head>
 <stage>Millwood, <hi>and</hi> Barnwell <hi>bloody.</hi></stage>
@@ -1782,8 +1782,8 @@ about him?—what Gold, what Jewels, or what else of Value have you brought me?<
 <speaker>Mill.</speaker>
 <p>In his Madness he will discover all, and involve me in his Ruin;—we are on a Precipice from whence there's no Retreat for both,—then to preserve my self.— <stage>[Pauses.]</stage> There is no other Way,—'tis dreadful,—but Reflection comes too late when Danger's pressing,—and there's no room for Choice.—It must be done. <stage>[Stamps.</stage></p>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="47" facs="58"/>
 <head>SCENE XI.</head>
 <stage>(<hi>To them</hi>) <hi>A Servant.</hi></stage>
@@ -1791,8 +1791,8 @@ about him?—what Gold, what Jewels, or what else of Value have you brought me?<
 <speaker>Mill.</speaker>
 <p>Fetch me an Officer and seize this Villain, he has confess'd himself a Murderer, shou'd I let him escape, I justly might be thought as bad as he.</p>
 </sp>
-</div2>
-<div2 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <stage>Millwood <hi>and</hi> Barnwell.</stage>
 <sp>
@@ -1807,8 +1807,8 @@ about him?—what Gold, what Jewels, or what else of Value have you brought me?<
 <speaker>Barn.</speaker>
 <p>If there be a Pitch of Wickedness that seats the Author beyond the reach of Vengeance, you must be secure. But what remains for me, but a dismal Dungeon, hard-galling Fetters, an awful Tryal, and ignominious Death, justly to fall unpitied and abhorr'd?—After Death to be suspended between Heaven and Earth, a dreadful Spectacle, the warning and horror of a gaping Croud. This I cou'd bear, nay wish not to avoid, had it but come from any Hand but thine.—</p>
 </sp>
-</div2>
-<div2 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <head>SCENE XIII.</head>
 <stage>Millwood, Barnwell, Blunt, <hi>Officer and Attendants.</hi></stage>
 <sp>
@@ -1830,8 +1830,8 @@ him of Murder; and will appear to make good my Charge. <stage>[They seize him.</
 <l><hi>E'er Innocence, and Fame, and Life be lost,</hi></l>
 <l><hi>Here purchase Wisdom, cheaply, at my Cost.</hi></l>
 </sp>
-</div2>
-<div2 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV.</head>
 <stage>Millwood <hi>and</hi> Blunt.</stage>
 <sp>
@@ -1850,8 +1850,8 @@ him of Murder; and will appear to make good my Charge. <stage>[They seize him.</
 <speaker>Blunt.</speaker>
 <p>The worst that we know of the Devil is, that he first seduces to Sin, and then betrays to Punishment.</p>
 </sp>
-</div2>
-<div2 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV.</head>
 <stage>Millwood.</stage>
 <sp>
@@ -1859,8 +1859,8 @@ him of Murder; and will appear to make good my Charge. <stage>[They seize him.</
 <pb n="49" facs="60"/>
 but scorn both it and them.—I was not born to fall by such weak Instruments.— <stage>[Going.</stage></p>
 </sp>
-</div2>
-<div2 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <head>SCENE XVI.</head>
 <stage>Thorowgood <hi>and</hi> Millwood.</stage>
 <sp>
@@ -1963,8 +1963,8 @@ Pleasures. Now who can tell but she may have influenced the amorous Youth to com
 <speaker>Mill.</speaker>
 <p>Sir, you are very hard to be convinc'd; but I have such a Proof, which, when produced, will silence all Objections.</p>
 </sp>
-</div2>
-<div2 n="17" type="scene">
+</div>
+<div n="17" type="scene">
 <pb n="52" facs="63"/>
 <head>SCENE XVII.</head>
 <stage>Thorowgood, Lucy, Trueman, Blunt, Officers, <hi>&amp;c.</hi></stage>
@@ -1972,8 +1972,8 @@ Pleasures. Now who can tell but she may have influenced the amorous Youth to com
 <speaker>Lucy.</speaker>
 <p>Gentlemen, pray place your selves, some on one Side of that Door, and some on the other; watch her Entrance, and act as your Prudence shall direct you.—This Way— <stage>[<hi>to</hi> Thorowgood]</stage> and note her Behaviour; I have observ'd her, she's driven to the last Extremity, and is forming some desperate Resolution.—I guess at her Design.—</p>
 </sp>
-</div2>
-<div2 n="18" type="scene">
+</div>
+<div n="18" type="scene">
 <head>SCENE XVIII.</head>
 <stage><hi>To them,</hi> Millwood <hi>with a Pistol,</hi>—Trueman <hi>secures her.</hi></stage>
 <sp>
@@ -2045,13 +2045,13 @@ obtain'd, I saw secur'd the worst of Men from both; I found it therefore necessa
 <l><hi>To right their Sex's Wrongs devote their Mind,</hi></l>
 <l><hi>And future</hi> Millwoods <hi>prove to plague Mankind.</hi></l>
 </sp>
-</div2>
+</div>
 <trailer>The End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="55" facs="66"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A Room in a Prison.</stage>
 <stage>Thorowgood, Blunt <hi>and</hi> Lucy.</stage>
@@ -2093,8 +2093,8 @@ Mankind; but what cou'd that avail? she was condemn'd, and is this Day to suffer
 <speaker>Thor.</speaker>
 <p>With Gratitude to impute your Deliverance to Heaven is just. Many, less virtuously dispos'd than <hi>Barnwell</hi> was, have never fallen in the Manner he has done,—may not such owe their Safety rather to Providence than to themselves. With Pity and Compassion let us judge him. Great were his Faults, but strong was the Temptation. Let his Ruin learn us Diffidence, Humanity and Circumspection;—for we,—who wonder at his Fate,—perhaps had we like him, been tryed,—like him, we had fallen too.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="57" facs="68"/>
 <head>SCENE II.</head>
 <stage>A Dungeon, a Table and Lamp.</stage>
@@ -2163,23 +2163,23 @@ I find impossible to overcome. <stage>[Aside.]</stage> —Much lov'd—and much 
 <speaker>Thor.</speaker>
 <p>Thou shalt not;—thy Peace being made with Heaven, Death's already vanquish'd;—bear a little longer the Pains that attend this transitory Life, and cease from Pain for ever.</p>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>Barnwell.</stage>
 <sp>
 <p>I find a Power within that bears my Soul above the Fears of Death, and, spight of conscious Shame and Guilt, gives me a Taste of Pleasure more than Mortal.</p>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>(<hi>To him.</hi>) Trueman <hi>and Keeper.</hi></stage>
 <sp>
 <speaker>Keep.</speaker>
 <p>Sir, there's the Prisoner.</p>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Barnwell <hi>and</hi> Trueman.</stage>
 <sp>
@@ -2249,8 +2249,8 @@ and to support a Murderer.—These Iron Fetters only shall clasp, and flinty Pav
 <speaker>Tr.</speaker>
 <p>I do, I do. Almighty Power, how have you made us capable to bear, at once, the Extreams of Pleasure and of Pain?</p>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>To them, Keeper.</stage>
 <sp>
@@ -2261,8 +2261,8 @@ and to support a Murderer.—These Iron Fetters only shall clasp, and flinty Pav
 <speaker>Tr.</speaker>
 <p>I come.</p>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="62" facs="73"/>
 <head>SCENE VII.</head>
 <stage>Barnwell <hi>and</hi> Trueman.</stage>
@@ -2315,16 +2315,16 @@ and to support a Murderer.—These Iron Fetters only shall clasp, and flinty Pav
 <speaker>Tr.</speaker>
 <p>It was impossible;—she makes no Secret of her Passion for you, and is determin'd to see you e'er you die;—she waits for me to introduce her.—</p>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>Barnwell.</stage>
 <sp>
 <speaker>Barn.</speaker>
 <p>Vain busy Thoughts be still!—What avails it to think on what I might have been,—I now am,—What I've made my self.</p>
 </sp>
-</div2>
-<div2 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage><hi>To him,</hi> Trueman <hi>and</hi> Maria.</stage>
 <sp>
@@ -2394,8 +2394,8 @@ of the most happy, and make the greatest proud.—Yet here 'tis lavish'd in vain
 <speaker>Barn.</speaker>
 <p>Preserve her, Heaven, and restore her Peace,—nor let her Death be added to my Crimes,— <stage>[Bell tolls.]</stage> I am summon'd to my Fate.</p>
 </sp>
-</div2>
-<div2 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="66" facs="77"/>
 <head>SCENE X.</head>
 <stage>(<hi>To them.</hi>) <hi>Keeper.</hi></stage>
@@ -2416,8 +2416,8 @@ of the most happy, and make the greatest proud.—Yet here 'tis lavish'd in vain
 <l><hi>Then must you own, you ought not to complain;</hi></l>
 <l><hi>Since you nor weep,—nor shall I die in vain.</hi></l>
 </sp>
-</div2>
-<div2 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <pb n="67" facs="78"/>
 <head>SCENE XI.</head>
 <stage>Trueman, Blunt, <hi>and</hi> Lucy.</stage>
@@ -2453,12 +2453,12 @@ of the most happy, and make the greatest proud.—Yet here 'tis lavish'd in vain
 <l><hi>Unless we mark what drew their Ruin on,</hi></l>
 <l><hi>And by avoiding that, prevent our own.</hi></l>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="79"/>
 <head>EPILOGUE.</head>
 <byline>Written by COLLEY CIBBER, <abbr><hi>Esq</hi></abbr> and spoke by Mrs. CIBBER.</byline>
@@ -2501,7 +2501,7 @@ of the most happy, and make the greatest proud.—Yet here 'tis lavish'd in vain
 <l>In short, my Heart to this Conclusion draws,</l>
 <l>A yield it to the Hand, that's loudest in Applause.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

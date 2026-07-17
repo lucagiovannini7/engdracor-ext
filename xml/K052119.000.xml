@@ -7,7 +7,7 @@
 <extent>[4],36p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Lowndes, and J. Williams,</publisher><date>1767.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John O'Keeffe.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT59600.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE SHE GALLANT: OR, SQUARE-TOES <hi>Outwitted.</hi></p>
 <p>A NEW COMEDY OF TWO ACTS.</p>
@@ -15,8 +15,8 @@
 <p>LONDON, Printed for T. LOWNDES, and J. WILLIAMS, both in Fleet-street.</p>
 <p>MDCCLXVII.</p>
 <p>(Price One Shilling.)</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -35,16 +35,15 @@
 <item><label>Emily,</label> Miss VANDERMERE.</item>
 <item><label>Betty,</label> Miss EATON.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>LONDON.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="3"/>
 <head>THE SHE GALLANT: OR, SQUARE-TOES <hi>Outwitted.</hi></head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>A street.</stage>
 <stage><hi>Enter</hi> Delamour <hi>and</hi> Thady <hi>in travelling dresses, meeting Young</hi> Woodville.</stage>
@@ -216,8 +215,8 @@ oblige poor <hi>Emily</hi> to name the day, and, till then, to look upon Sir <hi
 <p>Sur, I'm your most humble and obsquese.</p>
 <stage>Exeunt at several doors.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="8" facs="10"/>
 <head>SCENE II.</head>
 <stage>A Chamber in Sir <hi>Anthony</hi>'s, House, <hi>Emily</hi> is discovered sitting melancholy.</stage>
@@ -492,8 +491,8 @@ dread the effects of his rage.—In his first transports of fury, he'll turn me 
 <p>With all my heart. Come, <hi>Betty.</hi></p>
 <stage>[Exeunt omnes.]</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a Street.</hi></stage></head>
 <sp>
 <speaker>Sir <hi>Geofry</hi></speaker>
@@ -514,12 +513,12 @@ this night, wait disguised at her father's door, and you'll see this gentleman l
 <p>I'm your most obedient humble servant, my good friend, ANONYMOUS—Very fine, this—What a noose have I escap'd? Oh, lord!—No, it's all a damn'd lie, and I don't believe a word of it—But zounds, am I not told the time, the place, each circumstance!—An't it at my own election to prove it—ha! ha! I believe I'll catch 'em; they thought I would not get out of my warm bed at midnight—There they reckoned without their host—Zounds! I wish the hour was come—Well, till then, I'll suspend my judgment—But, hold—for a disguise—let me see—a livery; no—that would be too remarkable—A great coat like a watchman, and a pale in my hand—ay, that's good—my real person would spoil sport.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="22"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>the Street before Sir</hi> Anthony'<hi>s House.</hi></stage></head>
 <stage><hi>Enter Sir</hi> Geofry <hi>in his disguise.</hi></stage>
 <sp>
@@ -677,8 +676,8 @@ he be about. Well, well, leave me alone for a good guess—Upon my word, I think
 <p>Come, bring him away to the Roundhouse; there we'll search him—Take care of his hands; to be sure he has pistols—If he comes down handsomely, I'll let him go—Bring him away.</p>
 <stage>Exeunt omnes.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>A Chamber.</hi></stage></head>
 <stage><hi>Enter</hi> Emily <hi>and</hi> Betty.</stage>
 <sp>
@@ -794,8 +793,8 @@ fellows of this age use the bare word as an instrument of deception on the weake
 <p>Do. Well, my friend Sir <hi>Anthony,</hi> I can't say but you're rightly serv'd, for preferring the love of your pelf, to the future peace and happiness of your child. Zounds! what an old, blind fool I must be, to think of marrying a girl of eighteen, as if I did not know the sex perfectly—I, that am now—let me see, how old am I now?—eh—adod, I'm upwards of threescore; aye, I shall be sixty-two the eighteenth of next—aye, <hi>September</hi>—I'm greatly afraid that young dog <hi>Delamour</hi> will not marry the girl—I wish he wou'd—I pity her, from my soul—Well, well, I'll send to <hi>Cornwall</hi> for my poor nephew and my pretty niece, and reinstate him in my favour—Poor <hi>Ned</hi> was always a good lad, and how can I blame him for doing a thing I was upon the point of doing myself; more excusable in him, because of his youth—Farewel matrimony—Well, if ever I marry, may this foolish sconce of mine be adorn'd with a pair of horns, each as long as a barber's pole.</p>
 <stage>Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <pb n="31" facs="33"/>
 <head>SCENE, <stage>Delamour's <hi>apartments.</hi></stage></head>
 <stage><hi>Enter</hi> Delamour, <hi>and Young</hi> Woodville.</stage>
@@ -820,8 +819,8 @@ fellows of this age use the bare word as an instrument of deception on the weake
 <p>I will, if 'twas no more than to get a sight of my <hi>Emily.</hi> I'll go dress myself, and be with him immediately.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the street before Sir</hi> Anthony's <hi>house.</hi></stage></head>
 <stage><hi>Enter</hi> Delamour <hi>and</hi> Thady, Delamour <hi>with the same suit of cloaths which</hi> Florimel <hi>wore.</hi></stage>
 <sp>
@@ -868,8 +867,8 @@ fellows of this age use the bare word as an instrument of deception on the weake
 <p>Yes, sir.</p>
 <stage>They both go in.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>a chamber.</hi></stage></head>
 <stage><hi>Enter</hi> Delamour.</stage>
 <sp>
@@ -1022,10 +1021,9 @@ fellows of this age use the bare word as an instrument of deception on the weake
 <p><hi>And you, wise father, when you wou'd compel your child to wed against her will, 'twere well To thwart your schemes, you meet a</hi> Florimel.</p>
 </sp>
 <stage>Exeunt omnes.</stage>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

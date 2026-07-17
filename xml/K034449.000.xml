@@ -7,12 +7,12 @@
 <extent>[8],90,[6]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket and P.A. De Hondt; R. Baldwin; R. Davis; and T. Davies,</publisher><date>1766.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title and a final advertisement leaf.</note><note>In this edition the title reads: "Theatre-Royal".</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT30807.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE Clandestine Marriage, A COMEDY.</p>
 <p>(Price One Shilling and Six-pence.)</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE Clandestine Marriage, A COMEDY.</p>
 <p>As it is ACTED at the Theatre-Royal in <hi>Drury-Lane.</hi></p>
@@ -21,15 +21,15 @@
 <l>Vivat, et ejusdem simus uterque parens!</l>
 <bibl>OVID.</bibl>
 <p>LONDON: Printed for T. BECKET and P. A. DE HONDT, in the Strand; R. BALDWIN, in Pater-noster-Row; R. DAVIS, in Piccadilly; and T. DAVIES, in Russel-Street, Covent-Garden. M.DCC.LXVI.</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="3"/>
 <head>Advertisement.</head>
 <p>HOGARTH's MARRIAGE-A-LA-MODE has before furnished Materials to the Author of a Novel, published some Years ago, under the Title of <hi>The Marriage-Act:</hi> But as that Writer persued a very different Story, and as his Work was chiefly designed for a Political Satire, very little Use could be made of it for the Service of this Comedy.</p>
 <p>In Justice to the Person, who has been considered as the sole Author, the Party, who has hitherto lain concealed, thinks it incumbent on him to declare, that the Disclosure of his Name was, by his own Desire, reserved till the Publication of the Piece.</p>
 <p>Both the Authors, however, who have before been separately honoured with the indulgence of the Publick, now beg Leave to make their joint Acknowledgements for the very favourable Reception of the CLANDESTINE MARRIAGE.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written by Mr. GARRICK.</byline>
@@ -70,8 +70,8 @@
 <l>The greatest Glory of our happy few,</l>
 <l>Is to be felt, and be approv'd by YOU.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -108,13 +108,13 @@
 <label>Trusty,</label>
 <item>Miss MILLS.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="6"/>THE Clandestine Marriage, A COMEDY.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE <stage>A room in <hi>Sterling</hi>'s house.</stage></head>
 <stage>Miss <hi>Fanny</hi> and <hi>Betty</hi> meeting.</stage>
 <sp>
@@ -534,8 +534,8 @@ match for the daughter of a Nabob.—Where are all my rascals? Here, William!<st
 <sp>
 <p>So!—As I suspected.—Quite averse to the match, and likely to receive the news of it with great displeasure.—What's best to be done?—Let me see!—Suppose I get Sir John Melvil to interest himself in this affair. He may mention it to Lord Ogleby with a better grace than I can, and more probably prevail on him to interfere in it. I can open my mind also more freely to Sir John. He told me, when I left him in town, that he had something of consequence to communicate, and that I could be of use to him. I am glad of it: for the confidence he reposes in me, and the service I may do him, will ensure me his good offices.—Poor Fanny! It hurts me to see her so uneasy, and her making a mystery of the cause adds to my anxiety.—Something must be done upon her account; for at all events, her sollicitude shall be removed. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><stage>Scene changes to another chamber.</stage></head>
 <stage>Enter <hi>Miss Sterling,</hi> and <hi>Miss Fanny.</hi></stage>
 <sp>
@@ -839,11 +839,11 @@ smiles, and grins, and leers, and ogles, and fills every wrinkle in his old wize
 <speaker>Sterl.</speaker>
 <p>Pox on't, it's almost dark—It will be too late to go round the garden this evening.—However, I will carry them to take a peep at my fine canal at least, I am determined. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE <stage>an anti-chamber to Lord <hi>Ogleby</hi>'s bed-chamber—Table with chocolate, and small case for medicines.</stage></head>
 <stage>Enter <hi>Brush,</hi> my Lord's valet-de-chambre, and <hi>Sterling</hi>'s chamber-maid.</stage>
 <sp>
@@ -1275,8 +1275,8 @@ and my bridge, and my flow'ring trees, and my bed of Dutch tulips—Matters look
 <p>He is a vulgar dog, and if there was not so much money in the family, which I can't do without, I would leave him and his hot rolls and butter directly—Come along, Monsieur!</p>
 <stage>[Exeunt Lord <hi>Ogleby</hi> and <hi>Canton.</hi></stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><stage>Scene changes to the Garden.</stage></head>
 <stage>Enter Sir <hi>John Melvil,</hi> and <hi>Lovewell.</hi></stage>
 <sp>
@@ -1855,12 +1855,12 @@ idle sollicitations, which are an affront to my character, and an injury to your
 <sp>
 <p>How unhappy I am! my distresses multiply upon me.—Mr. Lovewell must now become acquainted with Sir John's behaviour to me—and in a manner that may add to his uneasiness.—My father, instead of being disposed by fortunate circumstances to forgive any transgression, will be previously incensed against me.—My sister and my aunt will become irreconcilably my enemies, and rejoice in my disgrace.—Yet, at all events, I am determined on a discovery. I dread it, and am resolved to hasten it. It is surrounded with more horrors every instant, as it appears every instant more necessary. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="39" facs="44"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A hall.</stage></head>
 <stage>Enter a servant leading in Serjeant <hi>Flower,</hi> and Counsellors <hi>Traverse</hi> and <hi>Trueman</hi>—all booted.</stage>
 <sp>
@@ -2245,8 +2245,8 @@ Grand Signior, and throw the handkerchief first to one, and then to t'other, jus
 <hi>Sterling</hi> alone.</stage>
 <p>I should have thought of more conditions—he's in a humour to give me every thing—Why, what mere children are your fellows of quality; that cry for a plaything one minute, and throw it by the next! as changeable as the weather, and as uncertain as the stocks.—Special fellows to drive a bargain! and yet they are to take care of the interest of the nation truly!—Here does this whirligig man of fashion offer to give up thirty thousand pounds in hard money, with as much indifference as if it was a china orange.—By this mortgage, I shall have a hold on his <hi>Terrafirma,</hi> and if he wants more money, as he certainly will,—let him have children by my daughter or no, I shall have his whole estate in a net for the benefit of my family.—Well; thus it is, that the children of citizens, who have acquired fortunes, prove persons of fashion; and thus it is, that persons of fashion, who have ruined their fortunes, reduce the next generation to cits. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><stage>SCENE changes to another apartment.</stage></head>
 <stage>Enter Mrs. <hi>Heidelberg,</hi> and Miss <hi>Sterling.</hi></stage>
 <sp>
@@ -2545,11 +2545,11 @@ greatest part of all this she means to leave to our family.</p>
 <pb n="56" facs="61"/>
 over the aunt to our party, her influence will overcome the scruples and delicacy of my dear Fanny, and I shall be the happiest of mankind. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-</div1>
-<div1 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>A room.</stage></head>
 <stage>Enter <hi>Sterling,</hi> Mrs. <hi>Heidelberg,</hi> and Miss <hi>Sterling.</hi></stage>
 <sp>
@@ -2607,8 +2607,8 @@ over the aunt to our party, her influence will overcome the scruples and delicac
 <sp>
 <p>The devil's in the woman for tyranny—mothers, wives, mistresses, or sisters, they always will govern us.—As to my sister Heidelberg, she knows the strength of her purse, and domineers upon the credit of it.—"I will do this"—and "you shall do that"—and "you must do t'other, or else the fammaly shan't have a farden of"— <stage>[mimicking.]</stage>—So absolute with her money!—but to say the truth, nothing but money <hi>can</hi> make us absolute, and so we must e'en make the best of her.</p>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><stage>SCENE changes to the garden.</stage></head>
 <stage>Enter Lord <hi>Ogleby</hi> and <hi>Canton.</hi></stage>
 <sp>
@@ -3435,11 +3435,11 @@ up resolution to declare, what my duty to you and to myself have demanded from m
 <p>And I am superlatively so—<hi>allons donc</hi>—to horse and away, boys!—you to your affairs, and I to mine—suivons l'amour!<stage>[sings.</stage></p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-</div1>
-<div1 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>Fanny</hi>'s apartment.</stage></head>
 <stage>Enter <hi>Lovewell</hi> and <hi>Fanny</hi>—followed by <hi>Betty.</hi></stage>
 <sp>
@@ -3652,8 +3652,8 @@ the outward door after her; we can fasten this; and when she thinks all safe, sh
 <p>But love, Fanny, makes amends for all.</p>
 <stage>[Exeunt all softly.</stage>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><stage>SCENE changes to a gallery, which leads to several bed-chambers.</stage></head>
 <stage>Enter Miss <hi>Sterling,</hi> leading Mrs. <hi>Heidelberg</hi> in a night-cap.</stage>
 <sp>
@@ -4398,16 +4398,16 @@ for you, Mr. Sterling, if every moment of my life, spent gratefully in your serv
 <speaker>Lovew.</speaker>
 <p>And now, my dearest Fanny, though we are seemingly the happiest of beings, yet all our joys will be dampt, if his Lordship's generosity and Mr. Sterling's forgiveness should not be succeeded by the indulgence, approbation, and consent of these our best benefactors. <stage>[To the audience.</stage></p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="96"/>
 <head>EPILOGUE.</head>
 <byline>Written by Mr. GARRICK.</byline>
-<div2 type="dramatispersonae">
+<div type="dramatispersonae">
 <head>CHARACTERS of the EPILOGUE.</head>
 <list>
 <label><hi>Lord</hi> Minum</label>
@@ -4427,8 +4427,8 @@ for you, Mr. Sterling, if every moment of my life, spent gratefully in your serv
 <label>Third Lady</label>
 <item>Mrs. DORMAN.</item>
 </list>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>an Assembly.</stage></head>
 <stage>Several Persons at Cards, at different Tables; among the rest Col. <hi>Trill,</hi> Lord <hi>Minum,</hi> Mrs. <hi>Quaver,</hi> Sir <hi>Patrick Mahony.</hi></stage>
 <stage>At the Quadrille Table.</stage>
@@ -4815,9 +4815,9 @@ Such is the Play—Your Judgment! never sham it.</l>
 <sp>
 <l>Would you ever go to see, &amp;<hi>c.</hi></l>
 </sp>
-</div2>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="100"/>
 <head>Books printed for <hi>T. Becket</hi> and <hi>P. A. De Hondt,</hi> in the <hi>Strand</hi>; and <hi>R. Baldwin,</hi> in <hi>Pater-noster-Row.</hi></head>
 <list>
@@ -4828,8 +4828,7 @@ Such is the Play—Your Judgment! never sham it.</l>
 <item>5. The MUSICAL LADY, a Farce. Price 1s.</item>
 <item>6. The DEUCE IS IN HIM, a Farce. Price 1s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

@@ -7,21 +7,21 @@
 <extent>[6], v, [5], 77, [3] p. ; 8⁰.</extent><publicationStmt><publisher>printed by A. Ward, in Coney-street,</publisher><date>M.DCC.LXXIII. [1773]</date><pubPlace>York :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Robert Hitchcock.</note><note>With a list of subscribers.</note><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT67997.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage><textClass><keywords><term>English drama (Comedy)</term><term>English wit and humor</term><term>English fiction</term><term>Comedies -- 18th century. -- England</term><term>Plays -- 18th century. -- England</term></keywords></textClass></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>THE MACARONI. A COMEDY. As it is performed at the THEATRE-ROYAL IN <hi>YORK.</hi></p>
 <p><hi>YORK</hi>: Printed by A. WARD, in CONEY-STREET. M.DCC.LXXIII.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <p>WITH THE GREATEST RESPECT THIS TRIFLE IS HUMBLY INSCRIBED TO JEREMIAH NORRIS, ESQ. OF THE CITY OF NORWICH, BY THE AUTHOR.</p>
 <closer><dateline>YORK, <date>April 12, 1773.</date></dateline></closer>
-</div1>
-<div1 type="author'snote">
+</div>
+<div type="author'snote">
 <pb facs="3"/>
 <p>THE Author thinks he should be deficient in duty, if he did not thus warmly express his gratitude to his friends for their kind patronage, and to the public, for the very favourable reception the piece met with in representation. Relying upon a continuation of their good-nature, he now ventures to submit it to their perusal; humbly hoping they will consider it as the <hi>first</hi> essay of one whose utmost ambition was to amuse without offending.</p>
-</div1>
-<div1 type="listofsubscribers">
+</div>
+<div type="listofsubscribers">
 <pb facs="4"/>
 <head>THE NAMES of the SUBSCRIBERS.</head>
 <list>
@@ -474,8 +474,8 @@ Mr Hamilton, Comedian</item>
 <item>Mr Younger, Covent-Garden</item>
 <item>Mr Young, Norwich</item>
 </list>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE.</head>
 <byline>Written and spoken by Mr. CRESSWICK.</byline>
@@ -513,11 +513,11 @@ Mr Hamilton, Comedian</item>
 <l>But shew yourselves pleas'd both with hands and with eyes,</l>
 </lg>
 </sp>
-</div1>
-<div1 type="prologues">
+</div>
+<div type="prologues">
 <pb facs="10"/>
 <p><hi>The Writers of the two following PROLOGUES, it is hoped, will excuse their not being spoken, as the foregoing one was written, for that purpose, prior to their being received.</hi></p>
-<div2 n="1" type="prologue">
+<div n="1" type="prologue">
 <head>PROLOGUE I.</head>
 <sp>
 <lg>
@@ -581,8 +581,8 @@ Mr Hamilton, Comedian</item>
 </lg>
 </sp>
 <closer><signed>W. P.</signed></closer>
-</div2>
-<div2 n="2" type="prologue">
+</div>
+<div n="2" type="prologue">
 <head>PROLOGUE II.</head>
 <stage>Enters drunk, and speaking to the Author.</stage>
 <sp>
@@ -639,9 +639,9 @@ Mr Hamilton, Comedian</item>
 </lg>
 </sp>
 <p>M—m. T—</p>
-</div2>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+</div>
+<div type="dramatispersonae">
 <pb facs="13"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -663,17 +663,16 @@ Mr Hamilton, Comedian</item>
 <item><label>Miss Standfield,</label>Mrs. Child.</item>
 <item><label>A Child, Servants, &amp;c.</label></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, LONDON.</p>
 <p>TIME, that of Representation.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="14"/>
 <head>THE MACARON I.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a</hi> DRESSING-ROOM <hi>in</hi> EPICENE'S <hi>House.</hi></stage></head>
 <stage>EPICENE <hi>discovered sitting before a Glass,</hi> FOURBE <hi>attending.</hi></stage>
 <sp>
@@ -1132,8 +1131,8 @@ Mr Hamilton, Comedian</item>
 <p>How these foolish passions transport the man! What are his raptures of love and beauty to the superior delights of a grand <hi>coup d'eclat</hi> at the dear, dear masquerade!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Varnish's House.</hi></stage></head>
 <stage><hi>Mr.</hi> LAMBTON, <hi>Miss</hi> LAMBTON, MARIA.</stage>
 <sp>
@@ -1376,12 +1375,12 @@ Mr Hamilton, Comedian</item>
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="18" facs="31"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>LADY FANNY PROMISE'S <hi>House.</hi></stage></head>
 <stage><hi>Enter Lady</hi> FANNY <hi>and Miss</hi> CLEMENT.</stage>
 <sp>
@@ -1699,8 +1698,8 @@ Mr Hamilton, Comedian</item>
 <p>Poor Man! his story has raised a powerful advocate in my breast—What a libertine is my brother!—I am shock'd at his wickedness, and tremble for the consequences—Yet, how to reform him?—A task, I am afraid, beyond my abilities, tho' still, I think, nature's seeds, however ill the cultivation, were designed to raise the noblest fruits—I will attempt it, and may some power benignant inspire me with the means to reclaim a brother, and relieve a friend!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Chamber in Varnish's House.</hi></stage></head>
 <stage><hi>Enter</hi> MISS LAMBTON <hi>and</hi> RALPH CLUMSEY.</stage>
 <sp>
@@ -1851,9 +1850,9 @@ Mr Hamilton, Comedian</item>
 <p>No, fool; come along.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <pb n="27" facs="40"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Another Apartment in Varnish's House.</hi></stage></head>
 <stage><hi>Enter Mr.</hi> LAMBTON <hi>and</hi> WARNISH.</stage>
 <sp>
@@ -2076,12 +2075,12 @@ Mr Hamilton, Comedian</item>
 </sp>
 <stage>Exit.</stage>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="31" facs="44"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>An Inn.</hi></stage></head>
 <stage><hi>Sir</hi> HARRY TEMPLE <hi>and</hi> WILVILLE <hi>meeting.</hi></stage>
 <sp>
@@ -2196,9 +2195,9 @@ Mr Hamilton, Comedian</item>
 <p>With all my heart—Let's about it immediately, for never shall I have a moment's ease while the girl I adore is in danger.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <pb n="34" facs="47"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Epicene's House.</hi></stage></head>
 <stage><hi>Lord</hi> PROMISE, <hi>and Miss</hi> SPENCE <hi>as Lady</hi> FANNY.</stage>
 <sp>
@@ -2248,8 +2247,8 @@ Mr Hamilton, Comedian</item>
 <p>Away to the drawing-room to receive them—I'll retire for a few moments—On my entrance, remember to call Miss Lambton out, and take care that we are not interrupted.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>A Hall in the same House.</hi></stage></head>
 <stage><hi>Servants introducing Miss</hi> LAMBTONS <hi>and</hi> RALPH.</stage>
 <sp>
@@ -2288,8 +2287,8 @@ Mr Hamilton, Comedian</item>
 <p>Mercy be praised! there are some honest people in this town.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>MARIA <hi>and Lord</hi> PROMISE <hi>discover'd.</hi></stage></head>
 <sp>
 <speaker>L. Pro.</speaker>
@@ -2451,8 +2450,8 @@ Mr Hamilton, Comedian</item>
 <p>What a precipice am I on!—'Tis dreadful to look around—yet I trust that power which hitherto has saved, will still preserve me!—My father! where are now thy silver locks!—destitute of succour, thy hapless child cannot comfort thee!—Oh, Wilville! thou once rescued me—now indeed I want thy relieving hand—My sister too!—perhaps at this instant struggling in the toils of infamy!—Dreadful thought!—I will seek her out, offer my feeble aid, and either escape or perish together!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>another Apartment in the same House.</hi></stage></head>
 <stage><hi>Miss</hi> LAMBTON, <hi>Miss</hi> SPENCE, <hi>and</hi> EPICENE.</stage>
 <sp>
@@ -2683,12 +2682,12 @@ Mr Hamilton, Comedian</item>
 </sp>
 <stage>Exeunt.</stage>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="44" facs="57"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Epicene's House.</hi></stage></head>
 <stage>EPICENE, WILVILLE, <hi>and Sir</hi> HARRY TEMPLE.</stage>
 <sp>
@@ -3331,8 +3330,8 @@ Mr Hamilton, Comedian</item>
 <p>Adieu, my future torment!—Married!—no, I'll hang myself out of the way, and at once prevent my troubles!—And yet I have not the heart to deprive the world of such a pattern of elegance and dress—What, if I dispute this consent at law, as forc'd and illegal?—yes, and perhaps have myself run thro' the body before its determin'd—No, I must be married—devilish hard luck!—Oh, my unfortunate stars!—to what a dilemma am I reduced—either to fight or marry.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>another Apartment in Epicene's House.</hi></stage></head>
 <stage><hi>Enter Lord</hi> PROMISE, <hi>and Miss</hi> SPENCE.</stage>
 <sp>
@@ -3373,8 +3372,8 @@ Mr Hamilton, Comedian</item>
 <p>Ask me no questions, Varnish—I am almost distracted—Sure never was so strange a compound of love, libertinism, generosity, and honour!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Another Apartment in the same House.</hi></stage></head>
 <stage><hi>Enter Miss</hi> LAMBTON <hi>and</hi> MARIA.</stage>
 <sp>
@@ -3514,8 +3513,8 @@ Mr Hamilton, Comedian</item>
 <p>Come, sister, let us endeavour to compose ourselves, and call to mind that from adversity oft spring our choicest blessings.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Varnish's House.</hi></stage></head>
 <stage><hi>Enter Mr.</hi> LAMBTON.</stage>
 <sp>
@@ -3667,12 +3666,12 @@ Mr Hamilton, Comedian</item>
 </sp>
 <stage>Exit</stage>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="62" facs="75"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage>LADY FANNY PROMISE'S.</stage></head>
 <stage><hi>Enter Lady</hi> FANNY <hi>and Miss</hi> CLEMENT.</stage>
 <sp>
@@ -3752,8 +3751,8 @@ Mr Hamilton, Comedian</item>
 <p>Lead on, Madam, and may our success exceed our wishes.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>Epicene's House.</hi></stage></head>
 <stage><hi>Enter</hi> EPICENE <hi>and Lord</hi> PROMISE.</stage>
 <sp>
@@ -4576,13 +4575,12 @@ Mr Hamilton, Comedian</item>
 <speaker>Mr. Lamb.</speaker>
 <p>Now, Lady Fanny, with your leave, we'll retire and celebrate the surprizing events of this happy day, events which must fully manifest to every boholder, that however virtue may for a time be opprest and held in durance, yet is it always the peculiar, and never-deserted favourite, of rewarding Providence.</p>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="91"/>
 <head>EPILOGUE.</head>
 <byline>Written by a FRIEND,</byline>
@@ -4637,7 +4635,7 @@ Still lower let us fall for once, and pop</l>
 <l>With hospitable smiles old british truth</l>
 <l>Wou'd warm your beauty, and adorn our youth.</l>
 </sp>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

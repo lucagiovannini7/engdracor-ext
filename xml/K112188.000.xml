@@ -7,13 +7,13 @@
 <extent>25,[7]p. ; 8⁰.</extent><publicationStmt><publisher>printed for and sold by T. Bickerton,</publisher><date>[1721]</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Isaac Bickerstaff, jun. is a pseudonym.</note><note>'A copy of verses' dated 1720.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT144057.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE <hi>Modern Poetasters:</hi> OR, DIRECTORS no Conjurers. A FARCE. ON THE Famous Ode Writers, Satyrists, Panegyrists, <hi>&amp;c.</hi> of the present Times; and their Patrons, <hi>&amp;c.</hi> WITH The Character, and True Picture, of a late Director, and some Others. AND An Entertaining Original Scene of Mother <hi>W—yb—n</hi>'s Theatre, as Acted in the Hundreds of <hi>Drury,</hi> by several Poets, Directors, <hi>&amp;c.</hi> Also an EPILOGUE on the Times.</p>
 <p>Written by <hi>Isaac Bickerstaff, jun.</hi> <abbr>Esq</abbr></p>
 <p><hi>LONDON:</hi> Printed for and Sold by <hi>T. Bickerton,</hi> at the <hi>Crown</hi> in <hi>Pater-Noster-Row.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>PERSONS.</head>
 <list>
@@ -26,12 +26,12 @@
 <item><hi>Scentwell,</hi> a Woman of the Town.</item>
 <item><hi>Mother</hi> W—yb—n, <hi>Whores, Bawds, Bullies,</hi> &amp;c.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="3"/>
 The Modern Poetasters.</head>
-<div1 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>The</hi> Piazza <hi>in</hi> Covent-Garden.</stage></head>
 <stage><hi>Enter</hi> Goose-cap <hi>and</hi> Sauney, <hi>embracing each other:</hi> Sauney <hi>in a Scotch Dress, and</hi> Goose-cap <hi>in Black, his Coat daub'd all o'er with Snuff, a Dirty Neckcloth round his Neck, and his Peruke hanging to one side.</hi></stage>
 <sp>
@@ -314,8 +314,8 @@ blaming that which you cannot mend, for no other Reason than because you've had 
 <p>Nor I neither.</p>
 <stage>(<hi>Exeunt.</hi></stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <pb n="13" facs="13"/>
 <head>Scene, <stage><hi>Mother</hi> W—yb—n<hi>'s in</hi> Drury-lane.</stage></head>
 <stage><hi>Enter Mother</hi> W—yb—n, Goosecap <hi>and</hi> Sauny.</stage>
@@ -605,8 +605,8 @@ blaming that which you cannot mend, for no other Reason than because you've had 
 <p>A most damnable Pleasure—I'll set Fire to the House, and make way to my Lodgings by the Light of the Conflagration.</p>
 <stage>(<hi>Exeunt.</hi></stage>
 </sp>
-</div1>
-<div1 type="scene">
+</div>
+<div type="scene">
 <pb n="20" facs="20"/>
 <head><stage>Scene <hi>changes to an Anti-Hall, in</hi> Wealthy<hi>'s House.</hi></stage></head>
 <stage><hi>Enter</hi> Wealthy <hi>and</hi> Upstart.</stage>
@@ -790,10 +790,10 @@ blaming that which you cannot mend, for no other Reason than because you've had 
 <l><hi>For Gain, are Prostitutes in Life we find;</hi></l>
 <l><hi>One yields her Heav'nly Form, the other lets his Mind.</hi></l>
 </sp>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="26"/>
 <head>EPILOGUE, Comical, and Serious; to the <hi>Play,</hi> and on the <hi>Times.</hi></head>
 <lg>
@@ -830,8 +830,8 @@ He boldly challenges the World's Applause,</l>
 <l>(And all great <hi>W-yb--n</hi>'s Plagues their Aid will lend)</l>
 <l>To give to Villains, Traitors, a Deserved End.</l>
 </lg>
-</div1>
-<div1 type="poem">
+</div>
+<div type="poem">
 <pb facs="28"/>
 <head>A <hi>Copy of VERSES, Sent to the Author of</hi> EXCHANGE-ALLEY, <hi>a Farce, in</hi> Apr. 1720.</head>
 <l>IF <hi>Truth-Prophetick</hi> will procure a Name,</l>
@@ -859,8 +859,8 @@ Like Forest Animals, their Coaches grace,</l>
 <l>And when this fails, the great Dependents fall:</l>
 <l>To Ashes Paper may be burnt at Will,</l>
 <l>But Coin, tho' melted, is of Value still.</l>
-</div1>
-<div1 type="epigram">
+</div>
+<div type="epigram">
 <pb facs="30"/>
 <head>EPIGRAM ON THE <hi>South-Sea</hi> Game.</head>
 <l>WHEN Men against themselves combine,</l>
@@ -869,7 +869,7 @@ Like Forest Animals, their Coaches grace,</l>
 <l>Our Money fled, and Credit gone;</l>
 <l>We, Poets, then may well conclude,</l>
 <l>This is the <hi>Devil</hi>'s <hi>Interlude.</hi></l>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </back>
 </text>

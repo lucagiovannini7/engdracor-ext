@@ -7,7 +7,7 @@
 <extent>[4],69,[7]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. N. Longman,</publisher><date>1798.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With an epilogue beginning on the recto of F4, and four final pages of advertisements.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT100458.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1"/>
 <p>SECRETS WORTH KNOWING; A COMEDY, IN FIVE ACTS.</p>
 <p>AS PERFORMED AT THE <hi>THEATRE ROYAL, COVENT GARDEN.</hi></p>
@@ -16,8 +16,8 @@
 <p>LONDON: PRINTED FOR T.N. LONGMAN, PATERNOSTER ROW.</p>
 <p>1798.</p>
 <p>[PRICE TWO SHILLINGS.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2" ana="y"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -60,8 +60,8 @@
 <l>To your decree submissively he bends,</l>
 <l>Trusting his judges will be found his friends.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -82,15 +82,14 @@
 <item><label>ROSE SYDNEY</label> MRS. MOUNTAIN.</item>
 <item><label>SALLY</label> MRS. MATTOCKS.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb n="1" facs="4"/>
 <head>SECRETS WORTH KNOWING.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>An Apartment in Greville House; Servants talking without.</hi></stage></head>
 <stage><hi>Enter</hi> Valet, Butler, Coachman, Cook, <hi>and</hi> Footmen.</stage>
 <sp>
@@ -333,8 +332,8 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <p>Peace, foolish girl! Yet I will take comfort, for he has the protecting arm of heaven.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>A Room in</hi> UNDERMINE'S <hi>House,</hi></stage></head>
 <stage><hi>Enter</hi> NICHOLAS.</stage>
 <sp>
@@ -801,19 +800,19 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <sp>
 <pb n="15" facs="18"/>
 <speaker>Und.</speaker>
-<p>And even there he will be disappointed. Formerly, indeed, the ruin of an innocent woman was thought wickedness enough to entitle you to a seat in the cotorie of fashion; but now, unless that woman be the wife of your friend, or the daughter of your benefactor, your gusto is scouted, and you are black-balled for want of a due qualification.</p>
+<p>And even there he will be disappointed. Formerly, indeed, the ruin of an innocent woman was thought wickedness enough to en you to a seat in the cotorie of fashion; but now, unless that woman be the wife of your friend, or the daughter of your benefactor, your gusto is scouted, and you are black-balled for want of a due qualification.</p>
 </sp>
 <sp>
 <speaker>April.</speaker>
 <p>Oh, rare London, ha, ha! Should not laugh tho'.—Sad doings. I'll go to him; if what you say be true, he wont dare to look even me in the face—but it can't be.—Oh! he was the bravest, noblest lad. I'll tell you stories of him, will make you so laugh, ha, ha! And I'll tell you stories will make you so cry.</p>
 <stage>Exeunt.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="16" facs="19"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. —<stage><hi>An Apartment in</hi> UNDERMINE'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> APRIL <hi>and</hi> UNDERMINE.</stage>
 <sp>
@@ -1085,8 +1084,8 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <speaker>April.</speaker>
 <p>So, all my property gone to make a farrier. I say, did you ever see such a bit of blood, ha, ha! But I must away to Greville's. Good bye, my girl! Horse-shoeing!—Egad, doctor, you shall have a bellyful of it; for into the country you go, and farrier you are for life. <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. —<stage><hi>A Library at</hi> GREVILLL'S.</stage></head>
 <stage><hi>Mrs.</hi> GREVILLE <hi>discovered, dejectedly leaning her cheek on her hand</hi>—SALLY <hi>looking out of the window.</hi></stage>
 <sp>
@@ -1543,12 +1542,12 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <p>What, he likes greyhounds—then I dare say he is a fine fellow. I'll think no more of Greville— And so, your love was platonic, eh? —Ha! ha! —nay, if I can't laugh, 'tis all over with me. yes, I will leave your house. Lend me your arm, my good girl; for to say the truth, Sally, this quarter of an hour has shook me worse than the last twenty years wear.</p>
 </sp>
 <stage>[Exeunt.</stage>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="28" facs="31"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>An Apartment in</hi> UNDERMINE'S <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> UNDERMINE <hi>and</hi> NICHOLAS.</stage>
 <sp>
@@ -1579,9 +1578,7 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 </sp>
 <sp>
 <speaker>Nich.</speaker>
-<p>Every thing—riches, title, sense, elegance; because</p>
-<stage>(to express myself in one grand, energetic word),</stage>
-<p>he wants the <hi>cash.</hi></p>
+<p>Every thing—riches, title, sense, elegance; because (to express myself in one grand, energetic word), he wants the <hi>cash.</hi></p>
 </sp>
 <sp>
 <speaker>Und.</speaker>
@@ -1852,8 +1849,8 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <p>Hypocrisy! I am sure I ought to nod now, for thank heaven that, is a subject I am completely ignorant of.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="33" facs="36"/>
 <head>SCENE II.—<stage><hi>Bond Street.</hi></stage></head>
 <stage><hi>Enter</hi> EGERTON <hi>in a military greatcoat and cross belt, with every appearance of distress, and dejection of mind and body.</hi></stage>
@@ -1977,8 +1974,8 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <pb n="36" facs="39"/>I charge thee, speak. Is she a wife?—yet silent— oh! while strength and reason hold—'lead me to her.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>An Apartment in</hi> GREVILLE'S <hi>house.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> GREVILLE.</stage>
 <sp>
@@ -2075,8 +2072,8 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <p>Oh stay!—my brother—hear me!</p>
 <stage>[Exit, following.</stage>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="38" facs="41"/>
 <head>SCENE IV.—<stage><hi>An Apartment at</hi> UNDERMINE'S.</stage></head>
 <stage><hi>Enter</hi> ROSE.</stage>
@@ -2386,12 +2383,12 @@ As executor to my dear, departed friend, Mr. Greville, I have to inform you, his
 <p>This will never do for me. Oh! I foresee a dissolution of partnership here—but he is a relation —what then—am I therefore to sacrifice principle to duty—no—I remember our school adage was <hi>"Amicus Plato sed majis amica veritas;"</hi> which I thus interpret—Undermine is my uncle, but integrity is my father.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="43" facs="46"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Library in</hi> Greville's <hi>House.</hi></stage></head>
 <stage><hi>Servant introduces</hi> UNDERMINE <hi>and</hi> ROSTRUM.</stage>
 <sp>
@@ -2857,8 +2854,8 @@ honored wife!</p>
 <p><pb n="50" facs="53"/>possess the Greville estate—no, no! Tho' his majesty has not a more peaceable subject in his dominions than myself, yet, rather than that, I would throttle him to a certainty. Come, come, cheer up. That's right—don't droop; for while the left side is the stoutest, I warrant it will some how contrive to prop up the other.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>An Apartment in</hi> UNDERMINE'S <hi>house.</hi></stage></head>
 <stage><hi>Enter</hi> UNDERMINE <hi>meeting</hi> ROSTRUM.</stage>
 <sp>
@@ -3400,12 +3397,12 @@ honored wife!</p>
 <p>By hell, you are a villain.</p>
 </sp>
 <stage>[Exeunt, severally.</stage>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="58" facs="61"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>Outside of</hi> UNDERMINE'S <hi>house.</hi></stage></head>
 <stage><hi>Enter</hi> ROSTRUM <hi>and</hi> EGERTON <hi>with caution.</hi></stage>
 <sp>
@@ -3537,8 +3534,8 @@ honored wife!</p>
 <p>Zounds! go. <stage>(<hi>exit</hi> Rostrum.)</stage> So that's settled—and now to Greville's in triumph. I'll walk in with erected crest, and—ugh! confound the fellow, how he has bruised me!</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="60" facs="63"/>
 <head>SCENE II.—<stage><hi>An Apartment at Mr.</hi> UNDERMINE'S.</stage></head>
 <stage>NICHOLAS <hi>discovered on a couch.</hi> APRIL <hi>sitting by him with a book.</hi></stage>
@@ -3716,10 +3713,10 @@ income of sixteen pounds of flesh, the advantage is immense.</p>
 <p>I beg your pardon, old one. Here take my arm—let your grandfather assist you. Upon my soul, I quite forget you.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>An elegant Drawing room in</hi> GREVILLE'S <hi>house, illuminated.—A band of music playing.—A number of</hi> Servants <hi>dressed in splendid liveries.</hi></stage></head>
-<stage><hi>Enter</hi> UNDERMINE <hi>in great elation, joining the music in,</hi> "See the conquering hero," &amp;c.</stage>
+<stage><hi>Enter</hi> UNDERMINE <hi>in great elation, joining the music in,</hi> <title>"See the conquering hero,"</title> &amp;c.</stage>
 <sp>
 <speaker>Und.</speaker>
 <p>Approach! is Greville gone?</p>
@@ -3750,7 +3747,7 @@ income of sixteen pounds of flesh, the advantage is immense.</p>
 <p>Let music usher in the guests.</p>
 <stage>(music plays.)</stage>
 </sp>
-<stage><hi>Enter</hi> APRIL <hi>singing</hi>—"See the conquering hero," <hi>&amp;. flourishing the will in his hand; seeing</hi> Undermine, <hi>he conceals it.</hi></stage>
+<stage><hi>Enter</hi> APRIL <hi>singing</hi>—<title>"See the conquering hero,"</title> <hi>&amp;. flourishing the will in his hand; seeing</hi> Undermine, <hi>he conceals it.</hi></stage>
 <sp>
 <speaker>Und.</speaker>
 <p>Zounds! he here.— <stage>(<hi>to the</hi> Servant.)</stage>— Don't go away, sir.</p>
@@ -3786,7 +3783,7 @@ income of sixteen pounds of flesh, the advantage is immense.</p>
 <speaker>April.</speaker>
 <p>Oh yes; it would have been quite out of character.</p>
 </sp>
-<stage><hi>Music plays.</hi> Rostrum, <hi>singing</hi>—"See the conquering hero," <hi>&amp;c. enters leading in</hi> EGERTON <hi>and</hi> ROSE SYDNEY.</stage>
+<stage><hi>Music plays.</hi> Rostrum, <hi>singing</hi>—<title>"See the conquering hero,"</title> <hi>&amp;c. enters leading in</hi> EGERTON <hi>and</hi> ROSE SYDNEY.</stage>
 <sp>
 <speaker>April.</speaker>
 <p>Heyday! my ward here! why, girl—?</p>
@@ -4170,13 +4167,12 @@ the drawing-room. Let there be degrees in every thing but happiness; and 'fore G
 <l>Then your poor Auctioneer would prize his station,</l>
 <l>While you vouchsafed one nod of approbation.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>END OF THE COMEDY.</trailer>
-</div1>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="73"/>
 <head>EPILOGUE.</head>
 <lg>
@@ -4249,8 +4245,8 @@ the drawing-room. Let there be degrees in every thing but happiness; and 'fore G
 <l>Shall I, in future, then, this helmet wear?</l>
 <l>Decree, and I'll obey you to a <hi>Hair.</hi></l>
 </lg>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="75"/>
 <head>NEW PUBLICATIONS PRINTED FOR <hi>T. N. LONGMAN,</hi> No. 39, <hi>Paternoster-Row.</hi></head>
 <p n="1">1. WALSINGHAM; or, the PUPIL of NATURE; a Domestic Story, interspersed with Poetry. By MARY ROBINSON, Author of Angelina, Poems, &amp;c. &amp;c. In Four large Volumes, 12mo. Price 16s. sewed.</p>
@@ -4323,8 +4319,7 @@ the drawing-room. Let there be degrees in every thing but happiness; and 'fore G
 <item>24. LOCK AND KEY, a Farce; by Mr. HOARE. 1s.</item>
 <item>25. BANNIAN DAY, a Farce. 1s.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

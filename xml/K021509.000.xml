@@ -7,23 +7,23 @@
 <extent>[4],89,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed by W. Woodfall. For T. N. Longman,</publisher><date>1795.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>With a half-title.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT2448.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1"/>
 <p>THE MYSTERIES OF THE CASTLE: A <hi>DRAMATIC TALE,</hi> IN THREE ACTS.</p>
 <p>(PRICE TWO SHILLINGS.)</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p>THE MYSTERIES OF THE CASTLE: A <hi>DRAMATIC TALE,</hi> IN THREE ACTS: AS PERFORMED AT THE <hi>THEATRE-ROYAL,</hi> COVENT-GARDEN. WRITTEN BY MILES PETER ANDREWS, ESQ.</p>
 <p><hi>LONDON:</hi> PRINTED BY W. WOODFALL. FOR T. N. LONGMAN, PATERNOSTER-ROW. 1795.</p>
-</div1>
-<div1 type="acknowledgements">
+</div>
+<div type="acknowledgements">
 <pb facs="3"/>
 <head>ADVERTISEMENT.</head>
 <p>FOR the PROLOGUE, and the SONG in praise of HAWKING, the AUTHOR is indebted to his friend Capt. TOPHAM. And he gladly takes this opportunity of acknowledging his obligation for the liberal attention of the MANAGER, and the spirited exertions of all the PERFORMERS.</p>
 <closer><dateline><date>February 24, 1795.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <stage>Spoken by Mr. HARLEY.</stage>
@@ -55,8 +55,8 @@
 <l>That the domestic ties may have their grace,</l>
 <l>The rights of sweet humanity be known,</l>
 <l>And freedom fixed by law, reign like your own?</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="5"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -92,14 +92,14 @@
 <item>Mrs. Mattocks.</item>
 </list>
 <p>SAILORS, PEASANTS, GUARDS, ATTENDANTS, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE—MESSINA AND PARTS ADJACENT, AFTERWARDS ON THE COAST OF CALABRIA.</p></set>
 </front>
 <body>
 <head><pb facs="6"/>The Mysteries of the Castle: <hi>A DRAMATIC TALE.</hi></head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>—A View of the City of <hi>MESSINA,</hi> the <hi>BAY, MOUNT AETNA,</hi> &amp;c, &amp;c.</stage>
 <stage><hi>SICILIAN GIRLS</hi> coming from the Hills, going to Market with Eggs, Garden Herbs, Fruits, &amp;c. &amp;c.</stage>
@@ -488,8 +488,8 @@ we have hitherto proceeded with discretion; but caution still is necessary.</p>
 <p>My trusty Bernardo, take this casket, it contains jewels that belonged to—what shall I term her? They now are yours—I am resolved—Oh love! what art thou to revenge!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage> A Room in <hi>FRACTIOSO's</hi> House—Large door in back Scene—Large window likewise, with dressing table, <hi>&amp;c. &amp;c.</hi> under it.</stage>
 <stage>Enter <hi>FRACTIOSO</hi> and <hi>ANNETTE.</hi></stage>
@@ -1020,8 +1020,8 @@ other's sentiments, would enable one party to give better advice, and induce the
 </lg>
 </sp>
 
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>The outside of an old Castle with large gates closed, a turret door is visible in the interior of the Castle—a hole in the wall, that appears to lead to a subterraneous passage—The whole wears an appearance of great antiquity and ruins.</stage>
 <stage>Enter <hi>CLODDY</hi> with a quantity of hares, patridges, &amp;c.</stage>
@@ -1353,13 +1353,13 @@ the devils are at work—I think we had better leave them to themselves.</p>
 <l>Now sends us all content away.</l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer>END OF ACT I.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="34" facs="35"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage> An old room, hung with antique, tattered tapestry—two doors exactly alike in the back scene, covered with the same tapestry—A window over them, the stage to be a little darken'd.</stage>
 <stage>Enter the <hi>COUNT,</hi> muffled in a cloak, and <hi>BERNARDO.</hi></stage>
@@ -1663,8 +1663,8 @@ Wheugh! I'm dead and buried! a Coffin! <stage>shuts door</stage> and I dare say 
 <p>Faithless coward! aye so it seems, else shou'd I leave poor Carlos to battle with these two butchers alone? No by heaven! <stage>Thunder</stage> aye, growl on, I'll extricate my friend or perish with him <stage>opens door where Carlos went out</stage> bless me, how dark! would I had half a dozen lacqueys at my back with a flambeau in each hand. If a man must be executed, I think the more parade the better.</p>
 </sp>
 <stage>Exit thro' door.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>A large antique hall, with black marble pillars on each side, distant from the wings—an open arch at the back, discovering a stone stair-case, leading from an upper appartment.</stage>
 <stage>Enter <hi>COUNT,</hi> with dagger.</stage>
@@ -1948,8 +1948,8 @@ see who will dare to come within arm's length of us.</p>
 <p>Certainly—for the most dauntless spirit may be sometimes seized with a cold perspiration—but never mind—move on—I'll lead the way <stage>brandishing his sword</stage> follow close, if you please tho', and we shall sooner be out of this cursed old den of Philistines.</p>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>A <hi>ROOM</hi> in <hi>FRACTIOSO's HOUSE.</hi></stage>
 <stage>Enter <hi>ANNETTE</hi> hastily.</stage>
@@ -2112,8 +2112,8 @@ see who will dare to come within arm's length of us.</p>
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="52" facs="53"/>
 <head>SCENE V.</head>
 <stage>A Sea prospect in the vicinity of <hi>MESSINA,</hi> with a view of <hi>SCYLLA</hi> and <hi>CHARIBDIS—SCYLLA</hi> is a rock, with a light-house upon it—<hi>CHARIBDIS,</hi> a whirlpool below, on which the light is to shine.</stage>
@@ -2682,13 +2682,13 @@ may find employment upon it—lead on, torchbearers!</p>
 <l>Comrades, farewell, &amp;c.</l>
 </lg>
 </sp>
-</div2>
+</div>
 <trailer>END <hi>of</hi> ACT II.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="65" facs="66"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I</head>
 <stage>—The ramparts of <hi>MESSINA,</hi> with a view of the quay and harbour, where a vessel is seen at anchor, with sails bent—on one side near the front, the gates of the city, with a centry box.</stage>
 <stage>The <hi>CENTINEL</hi> discovered on duty—A porter passes towards the quay, with a large chest.</stage>
@@ -3149,8 +3149,8 @@ your master <stage>to Bernardo</stage> Husbands indeed! I should never think of 
 </lg>
 </lg>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>A rocky dell on the coast of Calabria, a Fisherman's hut in view.</stage>
 <stage>Enter a Fisherman.</stage>
@@ -3282,8 +3282,8 @@ near to have died for it—this duelling is a sad thing amongst gentlefolks, tho
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. </head>
 <stage>A picturesque view of ruins of ancient magnificence, some standing in tolerable preservation,—some quite decayed and overgrown with ivy—the remains of a beautiful arch is seen in the middle, thro' which the sea is disernible.</stage>
 <stage><hi>CARLOS</hi> discovered writing on a stone, part of the ruins— his arm bound up.</stage>
@@ -3605,12 +3605,12 @@ he has saved her life, and now let him preserve it. <stage>Julia and Carlos adva
 </lg>
 </lg>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="91"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by Mrs. MATTOCKS.</stage>
@@ -3662,8 +3662,8 @@ he has saved her life, and now let him preserve it. <stage>Julia and Carlos adva
 <l>And shame the satire of our Epilogue,</l>
 <l>Long may they live, with fond delight to prove,</l>
 <l>Life's sweetest joys, flow from connubial love.</l>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="93"/>
 <head>PLAYS, &amp;c. PRINTED FOR T.N. LONGMAN.</head>
 <list>
@@ -3682,7 +3682,7 @@ he has saved her life, and now let him preserve it. <stage>Julia and Carlos adva
 <item>13. The MAID OF NORMANDY; or, The DEATH of the QUEEN of ERANCE: A Tragedy; by Mr. EYRE, late of Pembroke College, Cambridge. Price 1s. 6d.</item>
 <item>14. CONSEQUENCES; or THE SCHOOL FOR PREJUDICE, a Comedy, by Mr. EYRE. Price 1s. 6d.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

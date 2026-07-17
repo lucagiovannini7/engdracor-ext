@@ -7,14 +7,14 @@
 <extent>[16],70p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. Brindley. And sold by A. Dodd; J. Roberts; J. Wilford; and E. Nutt,</publisher><date>1734.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Dedication signed: W. Popple.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT37490.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE LADY's REVENGE: OR, The ROVER Reclaim'd. A COMEDY. As it is Acted at the THEATRE ROYAL in <hi>Covent-Garden.</hi></p>
 <l>Interdum tamen, &amp; vocem <hi>Comaedia</hi> tollit.</l>
 <bibl>HOR. de Art. Poet.</bibl>
 <p><hi>LONDON:</hi> Printed for J. BRINDLEY at the <hi>King's-Arms, New Bond-Street,</hi> Bookbinder to her Majesty, and his Royal Highness the Prince of <hi>Wales.</hi> And Sold by A. DODD, without <hi>Temple-Bar</hi>; J. ROBERTS, in <hi>Warwick-Lane</hi>; J. WILFORD, behind the <hi>Chapter-House,</hi> St. <hi>Paul</hi>'s <hi>Church-Yard</hi>; and E. NUTT, at the <hi>Royal-Exchange.</hi> M.DCC.XXXIV.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO His ROYAL HIGHNESS The PRINCE.</head>
 <opener><salute>SIR,</salute></opener>
@@ -28,8 +28,8 @@ the least <hi>unuseful;</hi> and it is sufficient if there is a Tendency towards
 <p>This being the only Merit I pretend to, I beg Leave, as the most grateful Heart always <hi>feels</hi> more than it can <hi>express,</hi> to be allow'd to return my most dutiful Acknowledgments by an <hi>inward Consciousness</hi> of that profound Truth, Respect, and Gratitude, with which I am,</p>
 <closer><salute>SIR,</salute>
 <signed>Your Royal Highness's Most Obliged, Most Dutiful, and Most Devoted humble Servant, W. POPPLE.</signed></closer>
-</div1>
-<div1 type="prefacetothereader">
+</div>
+<div type="prefacetothereader">
 <pb facs="5"/>
 <head>PREFACE TO THE READER.</head>
 <p>THE discontinuing the acting of a Play, that has been well received by the Town in general, at a Time when it might have gone on, makes it necessary to give some Account of what has past since the first Night of its Representation, and of the Motives that made the Author put a Stop to its Run.</p>
@@ -49,8 +49,8 @@ Friends (but unknown to them) to the Author.</p>
 <pb facs="8"/>
 from the House, who have no great Relish for Noise, chose rather to discontinue the further acting of the Play, and to refer himself to the Judgment of every impartial Reader, to whom he freely commits it, being determin'd as frankly to acknowledge any real Fault found with it, as to justify it, if censur'd without Reason.</p>
 <p>The Author cannot conclude, without declaring how much he thinks himself obliged to every Actor for the Care taken in the acting it, and more particularly to those who having the principal Parts to perform, had an Opportunity to exert themselves, as they did, in the most satisfactory Manner.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE.</head>
 <byline>By AARON HILL, <abbr>Esq</abbr></byline>
@@ -109,8 +109,8 @@ Him, in our Glass of Life, to Night, we show:</l>
 <l>Oft MERRY here,—let us be, sometimes—WISE!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="11"/>
 <head>EPILOGUE.</head>
 <byline>By AARON HILL, <abbr>Esq</abbr></byline>
@@ -169,8 +169,8 @@ So, take one Word of Council, in your Calling:</l>
 <l>And He, and I, may, then, go, hang, together!</l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="13"/>
 <head>EPILOGUE</head>
 <byline>Sent by an unknown Hand, the Third and Fourth Night.</byline>
@@ -220,8 +220,8 @@ So, take one Word of Council, in your Calling:</l>
 <l>Myself below—and a clear Stage above.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="15"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -246,13 +246,13 @@ So, take one Word of Council, in your Calling:</l>
 <label>Jenny.</label>
 <item>Miss <hi>Norsa.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>Scene, <hi>London.</hi> Time, <hi>from Morning to Evening.</hi></p></set>
 </front>
 <body>
 <head><pb facs="16"/>
 THE LADY's REVENGE: OR, The ROVER Reclaim'd.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage>Sir <hi>Harry</hi> discover'd, drinking Tea.</stage>
 <sp>
@@ -731,11 +731,11 @@ there are not three prettier Fellows in <hi>England.</hi> Pr'ythee let's from a 
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END of the FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="14" facs="29"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Angelina</hi>'s House.</stage>
 <stage><hi>Angelina</hi> rising from her Toilet, <hi>Betty</hi> standing by.</stage>
 <sp>
@@ -1003,8 +1003,8 @@ This Girl is grown so confident, there's no enduring her. Well, my Dear, and how
 <p>Mrs. <hi>Betty,</hi> your Lady wants to speak with you. She's waiting in her Chair, at the Door.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Lady <hi>Traffick</hi>'s Lodgings.</stage>
 <stage>Lady <hi>Traffick</hi> sola.</stage>
 <sp>
@@ -1182,13 +1182,13 @@ Ha, <hi>Lucia!—</hi>You see, Child, I was talking to your Maid. I love to see 
 <l>In vain we'd call the little Wanderer back,</l>
 <l>Like Stars once shot, it leaves no certain Track.</l>
 </sp>
-</div2>
+</div>
 <trailer>END of the SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="26" facs="41"/>
 <head>ACT III.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Sir <hi>Harry</hi> and Lady <hi>Traffick</hi> rising from Table.</stage>
 <sp>
 <speaker>Sir Har.</speaker>
@@ -1307,8 +1307,8 @@ I fear so too. But hold, I may prevent her Ruin yet. I'll after him, and my by P
 <p>Get me my Things ready, and order my Chair immediately.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Scene</hi> Mrs. <hi>Darnwell</hi>'s.</stage>
 <stage>Enter Sir <hi>Harry</hi> and <hi>Tom.</hi></stage>
 <sp>
@@ -1327,8 +1327,8 @@ for itself; the present Time must be pass'd away. The Scene of Life must shift, 
 <p>I come. Well, these are the most convenient Houses, a Man cou'd wish to have. The Thoughts of a private House has brought more young Girls to their Ruin, than the Fear of being seen in a publick one has kept from it.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>Scene <stage><hi>Angelina</hi>'s House.</stage></head>
 <stage>Enter <hi>Angelina</hi> and Sir <hi>Lively.</hi></stage>
 <sp>
@@ -1488,8 +1488,8 @@ if possible. I can't tell you now my Reasons: But be assur'd, Sir <hi>Harry</hi>
 <p>Nay, then we'll all go.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Scene</hi> Mrs. <hi>Darnwell</hi>'s.</stage>
 <stage>Enter <hi>Tom</hi> and <hi>Betty.</hi></stage>
 <sp>
@@ -1558,8 +1558,8 @@ Oh, my Master rings. If you'll step in here, I'll tell him you're below.</p>
 <p>I follow you. I can but take up with this Fellow at last. I'll try first what I can do with the Master. For to own a Truth, I have Ambition in me, and that is as difficult to be laid.—O lud, what am I going to say.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>An upper Room in Mrs. <hi>Darnwell</hi>'s House.</stage>
 <stage>Enter Sir <hi>Harry,</hi> speaking as he comes on.</stage>
 <sp>
@@ -1961,13 +1961,13 @@ Lodgings, and carry a Letter to your Lady for me? you wou'd do a Piece of Servic
 <l>Forgetting Love, while our Resentment's high.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END of the THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="45" facs="60"/>
 <head>ACT IV.</head>
-<div2 type="scene">
+<div type="scene">
 <stage><hi>Angelina</hi>'s House.</stage>
 <stage><hi>Betty</hi> with a Letter.</stage>
 <sp>
@@ -2178,8 +2178,8 @@ Repartee from him, and that another from me; so that <hi>Heartly,</hi> I suppose
 <p>Psha.</p>
 <stage>[Exeunt.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <stage>Lady <hi>Traffick</hi>'s Lodging.</stage>
 <stage>Lady <hi>Traffick</hi> and <hi>Betty.</hi></stage>
 <sp>
@@ -2253,8 +2253,8 @@ What can the Meaning of this be? The Doors us'd to fly open at his Approach. Wel
 <p>The Moment before you enter'd. <hi>Sir Har.</hi> 'Tis well. I yet may overtake them.</p>
 <stage>[Exeunt severally.]</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="51" facs="66"/>
 <stage><hi>Angelina</hi>'s House.</stage>
 <stage>Enter <hi>Angelina,</hi> Sir <hi>Lively, Laetitia</hi> and <hi>Heartly.</hi></stage>
@@ -2659,13 +2659,13 @@ No matter for that.</p>
 <l>Love pleads my Cause in Angelina's Breast.</l>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END of the FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="60" facs="75"/>
 <head>ACT V.</head>
-<div2 type="scene">
+<div type="scene">
 <stage>Enter <hi>Heartly</hi> and <hi>Laetitia.</hi></stage>
 <sp>
 <speaker>Laet.</speaker>
@@ -2782,8 +2782,8 @@ you thus before. You seem too concern'd not to command our utmost. Speak!</p>
 <p>Nay, I will be Master now.</p>
 <stage>[Forces him out.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="63" facs="78"/>
 <stage>Another Apartment of <hi>Angelina</hi>'s.</stage>
 <stage>Enter <hi>Angelina</hi> and Lady <hi>Traffick.</hi></stage>
@@ -3104,10 +3104,9 @@ Matter.—I'll venture to take a Lease for Life. But hark'ee, my Dear, no Husban
 <l>And safe to Port the sinking Vessel runs.</l>
 <stage>[Exeunt Omnes.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END of the FIFTH ACT.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

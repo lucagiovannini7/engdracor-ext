@@ -7,17 +7,17 @@
 <extent>v,[3],77,[3]p. ; 8⁰.</extent><publicationStmt><publisher>printed for Lockyer Davis and Charles Reymers, Holbourn; and at Lord Bacon's Head in Fleet-Street,</publisher><date>1756.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By John Brown.</note><note>The epilogue is by David Garrick.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT792.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>ATHELSTAN. A TRAGEDY. As it is ACTED at the THEATRE ROYAL in <hi>Drury-Lane.</hi></p>
 <p>LONDON, Printed for LOCKYER DAVIS and CHARLES REYMERS, against <hi>Grays-Inn-Gate, Holbourn;</hi> And at <hi>Lord Bacon's Head</hi> in <hi>Fleet-Street.</hi> MDCCLVI. [Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 xml:lang="fr" type="notice">
+</div>
+<div xml:lang="fr" type="notice">
 <pb facs="2"/>
 <p>IL ne faut pourtant pas croire que les Grecs manquent de Feu. Tout s'anime au contraire, tout parle, tout agit dans leurs Ecrits. Mais c'est plus l'Action &amp; le Spectacle que les Paroles, &amp; plus la Passion &amp; le Sentiment que le Discours; au lieu que les François ont souvent donné dans le Discours &amp; les Paroles pour suppleer au Spectacle ou à la Passion. Combien de Portraits, de Sentences, &amp; de Lieux communs bien frappés, ont arraché des Applaudissemens qui devoient être réservés à l'emotion Theatrale qu'on ne sentoit pas? ce n'est que le sang froid qui applaudit à la Beauté des Vers dans un Spectacle.</p>
 <closer><signed>BRUMOY, <hi>Theat. des Grecs.</hi></signed></closer>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO HIS GRACE The Duke of DEVONSHIRE, Lord Lieutenant of <hi>Ireland.</hi></head>
 <opener><salute>My LORD,</salute></opener>
@@ -29,8 +29,8 @@
 <pb n="v" facs="5"/>
 drawn from ancient Days, <hi>opposes</hi> a <hi>Character</hi> from modern Life, who in the highest Station, and most perilous Times, hath been the <hi>Restorer</hi> of <hi>Unity</hi> and <hi>Concord.</hi></p>
 <closer><signed>I am, My LORD, with the highest Esteem, your GRACE's most obedient Servant, The AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE;</head>
 <byline>Written by the AUTHOR of the TRAGEDY.</byline>
@@ -86,8 +86,8 @@ Or when more bright (hear, <hi>Envy!</hi> hear, and own!)</l>
 <l>See Blood and Horror end what Guilt began;</l>
 <l>And tremble at <hi>thy</hi> Woes, in <hi>Athelstan.</hi></l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>The PERSONS.</head>
 <list>
@@ -113,14 +113,14 @@ Or when more bright (hear, <hi>Envy!</hi> hear, and own!)</l>
 <label>DUNELM,</label>
 <item>Mr. JEFFERSON.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, the <hi>Danish</hi> Camp near <hi>London.</hi> Time, from the Evening, till Midnight.</p></set>
 </front>
 <body>
 <head><pb facs="9"/>ATHELSTAN.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT 1.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE 1.</head>
 <stage>The open Camp.</stage>
 <sp>
@@ -226,8 +226,8 @@ On an obscure and ignominious Charge.</l>
 <l>His Eye speaks Victory: and his glad Step</l>
 <l>Prevents the welcome Tidings of his Tongue.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To them</hi> GOODWIN.</stage>
 <sp>
@@ -355,8 +355,8 @@ His Troops come laden with the precious Spoil</l>
 <l>And Infants, doom'd to drink the bitter Draught</l>
 <l>Of endless Slavery in a foreign Clime.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To them,</hi> GOTHMUND <hi>in Triumph. A Train of Prisoners. And</hi> EGBERT <hi>in Chains, as a Prisoner.</hi></stage>
 <sp>
@@ -460,8 +460,8 @@ Friendship to Enmity!—Should he revolt?—</l>
 <l>And sound, in Honour of our firm Ally,</l>
 <l>The Instruments of War.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>To them,</hi> ATHELSTAN; <hi>with his Train.</hi></stage>
 <sp>
@@ -713,8 +713,8 @@ To gaze at awful Distance.—Tow'rd her Tent,</l>
 <l>This Way she moves with her attendant Train.</l>
 <l>Behold her here.</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>To them,</hi> THYRA, EDWINA, SIWARD, <hi>and female Attendants.</hi></stage>
 <sp>
@@ -916,13 +916,13 @@ Ere yet Dishonour blot my Innocence.</l>
 <l>Of my despairing Foes.—But oh, for whom!</l>
 <l>I'll think no more.—Come, THYRA, to thy Tent.</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="25"/>
 <head>ACT II.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The open Camp.</stage>
 <stage>GOTHMUND, HAROLD, DUNELM.</stage>
@@ -1039,8 +1039,8 @@ To Death or endless Slav'ry doom'd; yet sooth'd</l>
 <l>I'll wait thee in my Tent.—</l>
 </sp>
 <stage><hi>[Exit</hi> GOTHMUND.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>HAROLD.</speaker>
@@ -1072,8 +1072,8 @@ And strengthen THYRA's Virtue into Scorn,</l>
 <l>Their sierce conflicting Wrath shall meet in Thunder,</l>
 <l>And Ruin close the Fray!—</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To him,</hi> EGBERT.</stage>
 <sp>
@@ -1205,8 +1205,8 @@ Think'st thou, because I drag the Chain of War,</l>
 <l>Shall guide thee to her Tent.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>Changes to</hi> THYRA's <hi>Tent.</hi></stage>
 <sp>
@@ -1242,8 +1242,8 @@ Friend of my Life, dear Partner of my Woes!</l>
 <l>That watches o'er the just and brave, protect him,</l>
 <l>And crown his Days with Honour!</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>To them,</hi> DUNELM.</stage>
 <sp>
@@ -1285,8 +1285,8 @@ Friend of my Life, dear Partner of my Woes!</l>
 <l>If e'er thy Care regarded Innocence,</l>
 <l>Restore me to my Lord!</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>To her,</hi> EGBERT.</stage>
 <sp>
@@ -1466,8 +1466,8 @@ Hath brought Destruction on us.—May his Treason</l>
 <l>For thee, and for my bleeding Country's Sake,</l>
 <l>I'll choak the Pang I groan with.—</l>
 </sp>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>To them,</hi> ATHELSTAN, SIWARD.</stage>
 <sp>
@@ -1809,13 +1809,13 @@ Prepar'd for Flight.—Now SIWARD, to my <hi>Mercians.—</hi></l>
 <l>We slew in Fight, a Host of <hi>Danes</hi> may die.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
+</div>
 <trailer><hi>End of the</hi> SECOND ACT.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="35" facs="43"/>
 <head>ACT III.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>THYRA's <hi>Tent.</hi></stage>
 <stage>GOTHMUND, GOODWIN.</stage>
@@ -1869,8 +1869,8 @@ That glitters in the Moon-beam.</l>
 <l>Wait within Call.—</l>
 </sp>
 <stage><hi>[Exit</hi> GOODWIN.</stage>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To him,</hi> EGBERT.</stage>
 <sp>
@@ -1960,8 +1960,8 @@ To rescue Innocence from Lust and Rapine.</l>
 <l>To dark Imprisonment, and seven-fold Chains,</l>
 <l>Till the Fleet sail for <hi>Denmark.</hi></l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To them,</hi> THYRA, EDWINA.</stage>
 <sp>
@@ -2231,8 +2231,8 @@ To rescue Innocence from Lust and Rapine.</l>
 <l>In the drear Depth of dark Imprisonment;</l>
 <l>Far from his helpless THYRA.</l>
 </sp>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="43" facs="51"/>
 <head>SCENE IV.</head>
 <stage><hi>To them,</hi> ATHELSTAN.</stage>
@@ -2291,8 +2291,8 @@ To rescue Innocence from Lust and Rapine.</l>
 Brave Discontent, and kindled all my War.—</l>
 <l>Come, let us quit the Camp.—</l>
 </sp>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>To them,</hi> GOODWIN.</stage>
 <sp>
@@ -2497,8 +2497,8 @@ On that lamented Time,</l>
 <l>Yet merciful:—Let me but rescue <hi>England,</hi></l>
 <l>And I shall yet be blest!—</l>
 </sp>
-</div2>
-<div2 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="48" facs="56"/>
 <head>SCENE VI.</head>
 <stage><hi>To them,</hi> GOODWIN.</stage>
@@ -2579,13 +2579,13 @@ And frown him into Stone!—Loud in his Ear</l>
 <l>Rage thro' their Tents, like fierce consuming Fire;</l>
 <l>And among Heaps of slaughter'd Foes expire!</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> THIRD ACT.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="50" facs="58"/>
 <head>ACT IV.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>GOTHMUND'S <hi>Tent.</hi></stage>
 <stage>GOODWIN, DUNELM.</stage>
@@ -2635,8 +2635,8 @@ And frown him into Stone!—Loud in his Ear</l>
 <speaker>GOODWIN.</speaker>
 <l>My Charge is here.</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To him,</hi> ATHELSTAN.</stage>
 <sp>
@@ -2671,8 +2671,8 @@ And frown him into Stone!—Loud in his Ear</l>
 <l>Eclipse with Horror at th' infernal Deed</l>
 <l>Which his fell Heart conceives.</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage><hi>To them,</hi> GOTHMUND.</stage>
 <sp>
@@ -2910,8 +2910,8 @@ Come with thy Blood-shot Eyes, and mad'ning Foam!</l>
 <l>But, barbarous <hi>Dane!—</hi>Take heed of my Return!</l>
 </sp>
 <stage><hi>[Exit</hi> ATHELSTAN.]</stage>
-</div2>
-<div2 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>To him,</hi> DUNELM.</stage>
 <sp>
@@ -3051,8 +3051,8 @@ When Time hath heal'd her Woes?—On that, I told him,</l>
 <l>And give me deep Revenge.</l>
 </sp>
 <stage><hi>[Exit</hi> HAROLD.</stage>
-</div2>
-<div2 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>Changes to the open Camp.</stage>
 <stage>DUNELM. ATHELSTAN, <hi>following.</hi></stage>
@@ -3124,8 +3124,8 @@ When Time hath heal'd her Woes?—On that, I told him,</l>
 <l>Like the fierce Mountain-Wolf in Madness foaming,</l>
 <l>Howl to the midnight Moon!—</l>
 </sp>
-</div2>
-<div2 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage><hi>To him,</hi> HAROLD.</stage>
 <sp>
@@ -3327,13 +3327,13 @@ Thy honest Hand, which gave it: And thou, HAROLD,</l>
 <l>Of midnight Darkness, wrapt in clouded Wrath,</l>
 <l>Comes like avenging Heav'n!</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> FOURTH ACT.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="65" facs="75"/>
 <head>ACT V.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>A grove, by</hi> THYRA's <hi>Tent.</hi></stage>
 <stage>EGBERT, GOODWIN.</stage>
@@ -3385,8 +3385,8 @@ Thy honest Hand, which gave it: And thou, HAROLD,</l>
 <l>That warns thee from thy Foe?—THYRA—dear THYRA!—</l>
 <l>It is thy EGBERT calls!—</l>
 </sp>
-</div2>
-<div2 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>To him,</hi> THYRA, EDWINA.</stage>
 <sp>
@@ -3644,8 +3644,8 @@ Bleed for its Crimes. Then take this honest Dagger:</l>
 <l>Hark!—didst not hear</l>
 <l>The Tread of Feet, as rustling thro' the Grove?—</l>
 </sp>
-</div2>
-<div2 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="71" facs="81"/>
 <head>SCENE III.</head>
 <stage><hi>To them</hi> HAROLD, ATHELSTAN, <hi>on the opposite Side of the Stage.</hi></stage>
@@ -3864,8 +3864,8 @@ On my accursed Head! Exhaust the Stores</l>
 <l>That Rages here—</l>
 </sp>
 <stage>[Strikes his Breast, and throws himself on the Body.</stage>
-</div2>
-<div2 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage><hi>To him</hi> SIWARD <hi>and Officers.</hi></stage>
 <sp>
@@ -3998,12 +3998,12 @@ Oh tell him, SIWARD, hapless ATHELSTAN</l>
 <l>That by the Father's Crime the Child shall bleed,</l>
 <l>And private Woe to publick Guilt succeed.</l>
 </sp>
-</div2>
+</div>
 <trailer><hi>End of the</hi> FIFTH ACT.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="88"/>
 <head>EPILOGUE,</head>
 <byline>Written by Mr. GARRICK, </byline>
@@ -4063,13 +4063,13 @@ A <hi>third,</hi> whose Heart defies all Perturbations,</l>
 <l>No Tastes, no Modes become you, but your own.</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="90"/>
 <p><hi>Lately published,</hi> By the same AUTHOR, BARBAROSSA.</p>
 <p>A TRAGEDY.</p>
 <p>The SECOND EDITION.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

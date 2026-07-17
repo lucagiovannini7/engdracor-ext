@@ -7,7 +7,7 @@
 <extent>[4],35,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for J. and R. Tonson,</publisher><date>1747.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Adapted from Florent Carton Dancourt's 'La Parisienne' by David Garrick.</note><note>Reproduction of original from the Bodleian Library (Oxford).</note><note>English Short Title Catalog, ESTCT172668.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>MISS in her TEENS:
 OR, THE
@@ -20,8 +20,8 @@ THEATRE-ROYAL in <hi>Covent-Garden.</hi></p>
 <p><hi>LONDON:</hi>
 Printed for J. and R. TONSON in the <hi>Strand.</hi>
 M.DCC.XLVII.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE.</head>
 <byline>Written by a FRIEND.</byline>
@@ -55,8 +55,8 @@ M.DCC.XLVII.</p>
 <l>To sleep whole Ages under Dulness' Wing;</l>
 <l>To your known Candour we will always trust,</l>
 <l>You never were, nor can you be unjust.</l>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -83,12 +83,12 @@ M.DCC.XLVII.</p>
 <label>Tag. </label>
 <item>Mrs. <hi>Pritchard.</hi></item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4" ana="y"/>MISS in her TEENS.</head>
-<div1 n="1" type="act">
-<div2 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head>SCENE, <stage>A STREET.</stage></head>
 <stage>Enter Captain <hi>LOVEIT</hi> and <hi>PUFF.</hi></stage>
@@ -619,8 +619,8 @@ to your Master, and I'll prepare his Reception within.</p>
 <p>Go, you graceless Rogue, you richly deserve it.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE changes to a Chamber.</stage></head>
 <stage>Enter <hi>Aunt</hi> and <hi>Tag.</hi></stage>
 <sp>
@@ -1027,11 +1027,11 @@ beats, my Face flushes, and I tremble every Joint of me—I must run in and look
 <l>Not Art, but Nature now performs her Part,</l>
 <l>And every Word's the Language of the Heart.</l>
 </sp>
-</div2>
+</div>
 <trailer>End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
-<div2 n="1" type="scene">
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <pb n="14" facs="17"/>
 <head>ACT II. SCENE I.</head>
 <head><stage>SCENE continues.</stage></head>
@@ -2247,11 +2247,11 @@ be excus'd diverting myself with Pretenders.</p>
 <l>Who fails in Honour, will be false in Love.</l>
 </sp>
 <stage>[Exeunt.</stage>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="36"/>
 <head>EPILOGUE, by the same Hand as the PROLOGUE.</head>
 <head>Spoke by Mrs. <hi>PRITCHARD.</hi></head>
@@ -2295,7 +2295,7 @@ be excus'd diverting myself with Pretenders.</p>
 <l>Down kneels the Bard, and leaves you when he's dead,</l>
 <l>The empty Tribute of an Author's Head.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

@@ -7,13 +7,13 @@
 <extent>viii,44p. ; 8⁰.</extent><publicationStmt><publisher>printed for G. Kearsley,</publisher><date>1778.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT32924.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE INVASION: OR A TRIP to BRIGHTHELMSTONE. A FARCE OF TWO ACTS, As it is performed, with UNIVERSAL APPLAUSE▪ AT THE THEATRE-ROYAL, IN COVENT-GARDEN. WRITTEN BY F. PILON.</p>
 <p><hi>LONDON:</hi> PRINTED FOR G. KEARSLEY, NO. 46, FLEET-STREET. MDCCLXVIII.</p>
 <p><hi>Entered at Stationers-Hall.</hi></p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>DEDICATION. TO THOMAS HARRIS, ESQ.</head>
 <opener><salute>SIR,</salute></opener>
@@ -21,8 +21,8 @@
 <pb n="iv" facs="3"/>
 mind, when Thalia comes arrayed by the hand of Genius with resistless graces, or her weeping sister, in native fables with all the conflicting passions in her train. The encouragement you give to every dawn of talents, whilst it wins you the respect and esteem of the public, must prove of the most essential service to the cause of letters. Patronage and success often lend a degree of force and brilliancy to moderate abilities; but ripen a truly fine genius into immediate perfection. I have the honour to remain,</p>
 <closer><salute>SIR,</salute> <signed>Your much obliged, And faithful humble servant, FREDERICK PILON.</signed></closer>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="4"/>
 <head>PREFACE.</head>
 <p>PUBLIC taste has run so much of late on the French <hi>petite comedie</hi> of two <hi>acts,</hi> that it seems necessary to say something in justification of <hi>farce,</hi> to prevent its being tried by the too rigid rules of criticism. In this refined age, <hi>low</hi> and <hi>absurd,</hi> are terms of reproach heard to echo from the benches of the upper gallery; so that whoever attempts to raise a laugh by downright <hi>farce,</hi> must expect critics in all quarters of the house ready to damn him for attempting to put them in good humour.</p>
@@ -31,8 +31,8 @@ mind, when Thalia comes arrayed by the hand of Genius with resistless graces, or
 The humour and characters of <hi>the Invasion</hi> in some places have been censured as low, but surely the same charge holds good against the the most celebrated writers. Smollett, Fielding, Gay, Cervantes, all descended to the humble walk of life in search of Humour, and never rejected her for the homeliness of her garb. It is true, that if painting low life be a fault, those distinguished wits were possessed of beauties sufficient to eclipse little spots in their reputation. The writer of <hi>the Invasion</hi> feels but too sensibly the humiliating distance he is thrown from them, and, that whatever his faults are, he has nothing to depend upon for hiding them except the candour of his readers. The following little entertainment he meant merely as a <hi>farce,</hi> and as such <hi>only</hi> he hopes it will be considered and judged of.</p>
 <p>He cannot conclude without returning his warmest acknowledgments to Mr. Garrick for assistances in the Invasion, which have contributed more than the merit of the author to its success with the public.</p>
 <p>The performers in general acquitted themselves with the greatest spirit and propriety; particularly Mr. Lee Lewes, who, by his speaking the prologue and his acting Cameleon, proved that he was possessed of all those various and versatile powers which constitute the truly capital comedian.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="6"/>
 <head>PROLOGUE.</head>
 <byline>Written by the AUTHOR,</byline>
@@ -89,8 +89,8 @@ Perfidious Gaul now feels this country's might;</l>
 <l>Honour and conquest never will forsake.</l>
 </lg>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <head>MEN.</head>
@@ -110,16 +110,15 @@ Perfidious Gaul now feels this country's might;</l>
 <item><label>Emily</label> — Mrs. Morton.</item>
 <item><label>Maid</label> — Mrs. Willems.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>BRIGHTHELMSTONE.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE INVASION.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>a Room in an Inn at</hi> Brighthelmstone.</stage></head>
 <stage>Charles Evergreen, <hi>in a Riding-dress, discovered sitting at a Table with Mr.</hi> Beaufort; <hi>Wine before them.</hi> Cameleon <hi>in waiting.</hi></stage>
 <sp>
@@ -346,8 +345,8 @@ my cheek, played with my ringlets, and called me her little Adonis.</p>
 <p>Then give it to me, Sir—I will send it to her Ladyship, piping hot, by an old fellow servant, whose livery and face, I am sure, she knows nothing of—Away, my masters—victory attend us, and laurels shall crown us!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><pb n="7" facs="16"/>
 SCENE, <stage><hi>a Dressing-Room.</hi></stage></head>
 <stage><hi>Lady</hi> Catherine Rouge <hi>at her Toilette,</hi> Sally <hi>in waiting.</hi></stage>
@@ -615,8 +614,8 @@ GEORGE NARCISSUS."</p>
 </lg>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><pb n="14" facs="25"/>
 SCENE <hi>changes to a Spacious Hall.</hi></stage></head>
 <stage><hi>Enter Sir</hi> John Evergreen, Drill, <hi>and</hi> Tattoo.</stage>
@@ -1045,12 +1044,12 @@ lips with—one hearty laugh would destroy you—I would not venture to fit the 
 </sp>
 <stage>Exit.</stage>
 <trailer>End of the FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="25" facs="37"/>
 <head>ACT the SECOND.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage>the SEA COAST.</stage></head>
 <stage><hi>Enter</hi> CAMELEON, BEAUFORT, <hi>and</hi> CHARLES EVERGREEN.</stage>
 <sp>
@@ -1413,8 +1412,8 @@ who is that I see yonder—Sir John Evergreen, as I live!</p>
 <p>And now come on, gentlemen,—march to your several stations: and as you love Old England, roast beef, and liberty; and hate slavery, frogs, and Frenchmen, behave nobly—Huzza!—Old England for ever.</p>
 </sp>
 <stage><hi>Exit</hi> SIR JOHN, DRILL, <hi>&amp;c.</hi></stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage><hi>Scene changes to</hi> SIR JOHN EVERGREEN'S <hi>house. The outside barrocaded with ploughs, harrows, wheelbarrows, &amp;c—the windows all shut except one, at which</hi> EMILY <hi>appears.</hi></stage>
 <sp>
 <speaker>EMILY.</speaker>
@@ -1887,11 +1886,9 @@ pounds in good India bonds, my poor girl's fortune.</p>
 <speaker>CAM.</speaker>
 <p>The French invade us, Sir! Lord how could such a thought ever enter your head? Sir, if instead of reviewing your household troops, you were to take a view of our different encampments, where the most noble and gallant spirits of the land have assembled volunteers in the service of their country, you would be convinced, should France be daring enough to attempt an Invasion, she would find it a more serious piece of business than the innocent laugh of this night.</p>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
-
 </TEI>

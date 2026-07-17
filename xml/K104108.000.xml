@@ -7,7 +7,7 @@
 <editionStmt><edition>The second edition.</edition></editionStmt><extent>94,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed by A. Strahan; for T. N. Longman and O. Rees,</publisher><date>1800.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A reissue of the first edition with the titlepage partially reset.</note><note>With a final advertisement leaf.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT131173.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>SPEED THE PLOUGH: <hi>A COMEDY,</hi> IN FIVE ACTS.</p>
 <p>AS PERFORMED WITH UNIVERSAL APPLAUSE AT THE <hi>THEATRE-ROYAL, COVENT-GARDEN.</hi></p>
@@ -16,8 +16,8 @@
 <p><hi>LONDON;</hi> PRINTED BY A. STRAHAN, PRINTERS-STREET; FOR T. N. LONGMAN AND O. REES, PATERNOSTER-ROW.</p>
 <p>1800.</p>
 <p>[Price Two Shillings.]</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="2"/>
 <head>PROLOGUE,</head>
 <byline><hi>Written by</hi> W. T. FITZGERALD, Esq SPOKEN BY MR. BETTERTON.</byline>
@@ -67,8 +67,8 @@
 </lg>
 </sp>
 <p>The lines marked with inverted commas were omitted.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -90,15 +90,14 @@
 <item><label>Susan Ashfield</label> Miss MURRAY.</item>
 <item><label>Dame Ashfield</label> Mrs. DAVENPORT.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="4"/>
 <head>SPEED THE PLOUGH.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>In the fore-ground a Farm House— A view of a Castle at a distance.</hi></stage></head>
 <stage>Farmer ASHFIELD <hi>discovered with his jug and pipe.</hi></stage>
 <stage><hi>Enter</hi> Dame ASHFIELD <hi>in a riding dress, and a basket under her arm.</hi></stage>
@@ -277,8 +276,8 @@
 <p>Now Tummas is gone, I'll tell you such a story about Mrs. Grundy—But come, step in, you must needs be weary; and I am sure a mug of harvest beer, sweetened with a hearty welcome, will refresh you.</p>
 </sp>
 <stage>Exeunt into the house.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>Outside and Gate of the Castle.— Servants cross the Stage, laden with different Packages.</hi></stage></head>
 <stage><hi>Enter</hi> ASHFIELD.</stage>
 <sp>
@@ -798,8 +797,8 @@
 <p>Consider, Sir, you come here to marry the beautiful and accomplished Miss Blandford— and consider on the other hand, you have already got a slight memorandum of the Farmer's agreeable way.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>A Grove.</hi></stage></head>
 <stage>(MORRINGTON <hi>comes down the stage, wrapt in a great coat—He looks about—then at his watch, and whistles—which is answered.</hi>)</stage>
 <stage><hi>Enter</hi> GERALD.</stage>
@@ -942,13 +941,13 @@
 <p>That's right—that's right, Henry—Be but thou resigned and virtuous, and he who cloaths the lily of the field, will be a parent to thee.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE FIRST ACT.</trailer>
-</div2>
-<div2 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="22" facs="21"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A Lodge belonging to the Castle.</hi></stage></head>
 <stage>(Dame ASHFIELD <hi>discovered making Lace.</hi>)</stage>
 <stage><hi>Enter</hi> HANDY, jun.</stage>
@@ -1154,8 +1153,8 @@
 <p>How condescending! Oh, you are a pretty behaved fellow!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Farmer ASHFIELD'S <hi>Kitchen.</hi></stage></head>
 <stage><hi>Enter</hi> Lady HANDY <hi>and</hi> SUSAN.</stage>
 <sp>
@@ -1562,8 +1561,8 @@
 <p>Ha, ha, ha!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>A Parlour in <hi>ASHFIELD's</hi> House.</hi></stage></head>
 <stage><hi>Enter</hi> ASHFIELD <hi>and</hi> WIFE.</stage>
 <sp>
@@ -1811,8 +1810,8 @@
 <p>Well, Sue, I won't—I'll behave as pratty as I always do—but it be time to go to the green, and zee the fine zights—How I do hate the noise of thic dom'd bunch of keys—But bless thee, my child—dan't forget that vartue to ayoung woman be vor all the world like—like—Dang it, I ha' gotten it all in my head; but zomehow—I can't talk it— but vartue be to a young woman what corn be to a blade o'wheat, do ye zee; for while the corn be there it be glorious to the eye, and it be call'd the staff of life; but take that treasure away, and what do remain? why naught but this worthless straw, that man and beast do tread upon.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.—<stage><hi>An extensive View of a cultivated Country—A ploughed Field in the centre, in which are seen six different Ploughs and Horses—At one side a bandsome Tent—a number of country People assembled.</hi></stage></head>
 <stage><hi>Enter</hi> ASHFIELD <hi>and</hi> DAME.</stage>
 <sp>
@@ -2031,13 +2030,13 @@
 <stage>A dance.</stage>
 </sp>
 <stage>(HANDY, jun. <hi>looks on a little, and then begins to move his legs—then dashes into the midst of the dance, and endeavours to imitate every one opposite to him; then being exhausted, he leaves the dance, seizes the fiddle, and plays till the curtain drops).</hi></stage>
-</div3>
+</div>
 <trailer>THE END OF THE SECOND ACT.</trailer>
-</div2>
-<div2 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="43" facs="42"/>
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>An Apartment in the Castle.</hi></stage></head>
 <stage>Sir PHILIP BLANDFORD <hi>discovered on a couch, reading,</hi> SERVANTS <hi>attending.</hi></stage>
 <sp>
@@ -2314,8 +2313,8 @@
 <p>Indeed! that was much. Well, I will see your rustic here. This infant passion must be crushed. Poor wench! some artless boy has caught thy infant fancy!—Thy arm, my child!</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>A Lawn before the Castle.</hi></stage></head>
 <stage><hi>Enter</hi> HENRY <hi>and</hi> ASHFIELD.</stage>
 <sp>
@@ -2505,8 +2504,8 @@
 <p>I will not ask it—Be composed—Let me wipe away those drops of anguish from your brow.—How cold your check is! My father, the evening damps will harm you—Come in—I will be all you wish—indeed I will.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>An Apartment in the Castle.</hi></stage></head>
 <stage><hi>Enter</hi> EVERGREEN.</stage>
 <sp>
@@ -2880,13 +2879,13 @@
 <p>Thank ye, Zur—Good morning to you— I do hope I have made myzel agreeable—and so I'll go whoam.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE THIRD ACT</trailer>
-</div2>
-<div2 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="59" facs="58"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A room in</hi> ASHFIELD'<hi>s house.</hi></stage></head>
 <stage><hi>Dame</hi> ASHFIELD <hi>discovered at work with her needle.</hi> HENRY <hi>sitting by her.</hi></stage>
 <sp>
@@ -3175,8 +3174,8 @@
 <p>Young man, proceed to the castle and demand an audience of Sir Philip Blandford. In your way thither I'll instruct you further.—Give me your hand.</p>
 </sp>
 <stage><hi>Exeunt.</hi> MORRINGTON, <hi>looking stedfastly on</hi> HENRY, GERALD <hi>following.</hi>]</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE. II.—<stage><hi>An apartment in the castle.</hi></stage></head>
 <stage><hi>Sir</hi> PHILIP BLANDFORD <hi>discovered</hi>—<hi>Miss</hi> BLAND FORD <hi>reading.</hi></stage>
 <sp>
@@ -3529,8 +3528,8 @@
 <p>And the pledge I give for its security is what alone gives value to life, my honour.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="71" facs="70"/>
 <head>SCENE III.—<stage><hi>A gloomy Gallery in the Castle—in the Centre a strongly barred Door.—The Gallery hung with Portraits.</hi></stage></head>
 <stage>HENRY <hi>discovered examining a particular Portrait, which occupies a conspicuous Situation in the Gallery.</hi></stage>
@@ -3680,13 +3679,13 @@
 <p>Sir Philip, let men without faults condemn; I must pity you.</p>
 </sp>
 <stage><hi>Exeunt</hi> HANDY, <hi>jun. leading</hi> Sir PHILIP.</stage>
-</div3>
+</div>
 <trailer>THE END OF THE FOURTH ACT.</trailer>
-</div2>
-<div2 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="75" facs="74"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.—<stage><hi>A wooded view of the country.</hi></stage></head>
 <stage><hi>Enter</hi> SUSAN ASHFIELD, <hi>who looks about with anxiety, and then comes forward.</hi></stage>
 <sp>
@@ -4212,8 +4211,8 @@
 <p>What an wold fool thee bees't, Dame— Come along, and behave pratty, do'e.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.—<stage><hi>The same as Act fourth, Scene third,</hi></stage></head>
 <stage><hi>Enter</hi> HANDY, <hi>jun. with Caution, bearing a Light and a large Key.</hi></stage>
 <sp>
@@ -4316,8 +4315,8 @@
 <p>Here, John! Thomas! some villain has set fire to the Castle. If you catch the rascal, throw him into the flames.</p>
 </sp>
 <stage>(Sir ABEL <hi>runs off and the alarm bell rings.</hi>)</stage>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.—<stage><hi>The Garden of the Castle.—The effects of the Fire shewn on the Foliage and Scenery.</hi></stage></head>
 <stage><hi>Enter</hi> HENRY <hi>meeting</hi> EVERGREEN.</stage>
 <sp>
@@ -4649,12 +4648,11 @@
 <p>If forgiveness be an attribute which ennobles our nature, may we not hope to find pardon for our errors—here?</p>
 </sp>
 <stage>The curtain falls.</stage>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="92"/>
 <head>EPILOGUE,</head>
 <byline><hi>Written by</hi> MILES PETIT ANDREWS, Esq SPOKEN BY MR. FAWGETT.</byline>
@@ -4731,8 +4729,7 @@ None know, so none to blame can find pretext,</l>
 <l>With heart and hand unite to—Speed the Plough!</l>
 </lg>
 </sp>
-</div1>
+</div>
 </back>
 </text>
-
 </TEI>

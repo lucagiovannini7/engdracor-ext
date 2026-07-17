@@ -7,19 +7,19 @@
 <extent>96p. ; 8⁰.</extent><publicationStmt><publisher>printed for G.G. and J. Robinson,</publisher><date>1798.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Thomas Holcroft. Also attributed to John Fenwick.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT36173.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>HE'S MUCH TO BLAME, A COMEDY: IN FIVE ACTS.</p>
 <p>AS PERFORMED AT THE THEATRE ROYAL, COVENT GARDEN.</p>
 <p>LONDON: PRINTED FOR G. G. AND J. ROBINSON, PATERNOSTER ROW.</p>
 <p>MDCCXCVIII.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE author of HE'S MUCH TO BLAME is in some small degree indebted to Le Complaisant, a comedy attributed to Monsieur De Ferriol Pont-de-Veyle, and to the tragedy of Clavigo by Goethe.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="3"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -58,8 +58,8 @@
 <l>But, should it be your pleasure not to quarrel,</l>
 <l>He'll very kindly bear his load of laurel.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="4"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -82,15 +82,14 @@
 <item><label>Lucy,</label> Mrs. Gibbs.</item>
 <item><label>Lady Jane's woman,</label> Mrs. Norton.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="5"/>
 <head>HE'S MUCH TO BLAME, A COMEDY.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.— <stage>Ringing heard. The hall of a hotel, with a spacious stair-case.</stage></head>
 <stage>Enter the <hi>MASTER</hi> and <hi>HEAD WAITER</hi> meeting.</stage>
 <sp>
@@ -152,8 +151,8 @@ stirring. People of quality must never be neglected.</p>
 <p>Oh, no, sir—Here is Dr. Gosterman.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage>Enter the <hi>DOCTOR.</hi></stage></head>
 <sp>
 <speaker>MAS.</speaker>
@@ -310,8 +309,8 @@ von. Dat is my vay. I shall af de essence, und de cream, und de balsam, und de s
 <speaker>DR.</speaker>
 <p>Ah ah! Let me do: I shall talk to her. I shall begin by make acquaintance mit her.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Enter <hi>LUCY</hi> down the staircase.</stage></head>
 <sp>
 <speaker>LU.</speaker>
@@ -514,8 +513,8 @@ von. Dat is my vay. I shall af de essence, und de cream, und de balsam, und de s
 <speaker>DR.</speaker>
 <p>Tank you, my tear. You are fery pretty girl, my tear: fery vitty pretty—Ah! You are so sly cunning little yipsey, my tear. Ah ah! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>A chamber. <hi>MARIA</hi> in man's clothes with a letter in her hand and walking with anxiety. The Waiter enters and leaves the breakfast. She then reads.</stage>
 <sp>
@@ -523,8 +522,8 @@ von. Dat is my vay. I shall af de essence, und de cream, und de balsam, und de s
 <p>"Dear sister, The letter I now write is almost needless, for I shall leave Italy and follow it immediately; having at last obtained intelligence of your faithless lover. I am sorry to inform you that, in addition to your unpardonable wrongs, I have my own to vindicate. But I have threatened too long. You have heard of the Earl of Vibrate. He and his family are by this arrived in England; your betrayer accompanies them, and I am in close pursuit. PAUL DELAVAL."</p>
 <p>In what will this end? Must they meet? Must they fight? Must one or both of them fall? Oh horror! Shall I be the cause of murder? And whose blood is to be spilled? That of the most generous of brothers, or of the man on whom my first and last affections have been fixed! Is there no safety; no means?</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <pb n="12" facs="12"/>
 <head>SCENE V. <stage><hi>Enter</hi> LUCY.</stage></head>
 <sp>
@@ -609,8 +608,8 @@ von. Dat is my vay. I shall af de essence, und de cream, und de balsam, und de s
 <speaker>MAR.</speaker>
 <p><stage>(In revery.)</stage> If they should meet! Heavens! They must not.</p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage><hi>Re-enter</hi> LUCY <hi>and</hi> DOCTOR.</stage></head>
 <sp>
 <speaker>LU.</speaker>
@@ -708,8 +707,8 @@ his relation und his friend vas sent him to make de Gran tour.</p>
 <speaker>LU.</speaker>
 <p>Faint, indeed! <stage>(Aside)</stage> Bear up, madam. <stage>(Aloud)</stage> My master is too much of a man to faint. <stage>(Aside)</stage> I'll run for a glass of water. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>MAR.</speaker>
@@ -776,8 +775,8 @@ his relation und his friend vas sent him to make de Gran tour.</p>
 <speaker>DR.</speaker>
 <p>Ya, sair. I shall do all as vat shall make agréable. Dat is my vay.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage>Re-enter <hi>LUCY</hi> hastily.</stage></head>
 <sp>
 <speaker>LU.</speaker>
@@ -849,8 +848,8 @@ his relation und his friend vas sent him to make de Gran tour.</p>
 <speaker>DR.</speaker>
 <p>You shall make remembrance of Dr. Von Gostermans. I am practice mit all de piggest family in de uniferse. Sair, I vas your mosh oblishe fery omple sairfant, sair. <stage>(The Doctor goes off talking, and Lucy locks the door while the scene changes.)</stage></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage>The hall of the hotel.</stage></head>
 <stage>DELAVAL, WILLIAMS, MASTER <hi>and</hi> JENKINS.</stage>
 <sp>
@@ -925,8 +924,8 @@ his relation und his friend vas sent him to make de Gran tour.</p>
 <speaker>WILL.</speaker>
 <p>Look! Here comes Lord Vibrate's secretary!</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <pb n="19" facs="19"/>
 <head>SCENE X. <stage><hi>Enter</hi> THOMPSON.</stage></head>
 <sp>
@@ -999,11 +998,11 @@ may then perhaps enquire whether I have acted rightly? But I must first see Lady
 <speaker>DEL.</speaker>
 <p>Those that you know are heavy; yet, severe as the struggle would be, 'tis possible they might be hushed to rest: but there are others▪ which blood only can obliterate! which can only sleep in death! Such is the road I must travel. Not long since nature was jocund, the azure heavens were bright, and pleasure was in every path; but now darkness, fathomless gulphs, guilty terrors, and all the dreadful phantoms of meditated desolation, lie before me. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage><hi>LORD VIBRATE</hi> at a table with a quarto volume reading.</stage>
 <sp>
@@ -1012,8 +1011,8 @@ may then perhaps enquire whether I have acted rightly? But I must first see Lady
 <pb n="21" facs="21"/>
 a perfect calm. <stage>(Rises with important wisdom in his looks)</stage> Such were the maxims of Pyrrho, and his disciples; those renowned sages of antiquity! Well! And such too have been my maxims, practically. All my life have I been wavering, uncertain, and indeterminate! A sagacious sceptic without knowing it; and as it were by instinct! It was but lately I discovered what a wise man I am! And yet it seems to me as if I were scarcely half wise enough, for I am told that I am to doubt of every thing which I find rather difficult. For example: that my wife Lady Vibrate is an extravagant rackety rantipole woman of fashion, can I doubt that? No. That she squanders my money, disturbs my peace, and contradicts for contradiction's sake, can I doubt that? No. Then have I not a daughter to marry, a law suit to begin, and a thousand perplexing affairs so that I do not know which way to turn? Why all this appears true to me: but the sceptics teach that appearances deceive, and that nothing is certain. I may be Lord Vibrate, or I may be the Grand Turk. These doctrines are prodigiously deep. <stage>(Considers)</stage> But I must think of something else just now. I have a thousand things to do, and know as little where to begin as where they will end. Ay! All is uncertainty! <stage>(Rings)</stage> Harry! Edward!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Enter</hi> JENKINS.</stage></head>
 <sp>
 <speaker>JENK.</speaker>
@@ -1027,8 +1026,8 @@ a perfect calm. <stage>(Rises with important wisdom in his looks)</stage> Such w
 <speaker>JENK.</speaker>
 <p>They are ready at hand, my lord. Here is your lordship's secretary.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="22" facs="22"/>
 <head>SCENE III.</head>
 <stage><hi>Enter</hi> MR. THOMPSON, <hi>and exit</hi> JENKINS.</stage>
@@ -1068,8 +1067,8 @@ a perfect calm. <stage>(Rises with important wisdom in his looks)</stage> Such w
 <speaker>LORD V.</speaker>
 <p>I am distracted with doubts. Harry!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage>Enter Footman.</stage></head>
 <sp>
 <speaker>HAR.</speaker>
@@ -1196,8 +1195,8 @@ a perfect calm. <stage>(Rises with important wisdom in his looks)</stage> Such w
 <p>Admit him. Stay. I cannot see him yet. In half an hour. In ten minutes. By and by.</p>
 <stage>[Exit Footman.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>LORD V.</speaker>
@@ -1324,8 +1323,8 @@ a perfect calm. <stage>(Rises with important wisdom in his looks)</stage> Such w
 <speaker>LORD V.</speaker>
 <p>Tell Harry to admit the Doctor—No. Not just yet. Yes. In five minutes. I don't know when. <stage>[Exit Thompson.</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="26" facs="26"/>
 <head>SCENE VI. <stage><hi>Enter</hi> LADY VIBRATE.</stage></head>
 <sp>
@@ -1463,8 +1462,8 @@ wherever I find it: you take your lantern to look for misery, which the sun itse
 <speaker>LADY V.</speaker>
 <p>But it won't, my lord.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>Enter</hi> DR. GOSTERMAN.</stage></head>
 <sp>
 <speaker>LORD V.</speaker>
@@ -1626,8 +1625,8 @@ und all as vat my coot laty say. Mit my laty, he vas merry: mit my lordt, he vas
 <p>I am very sorry he is here. He is a dun of the most disagreeable kind, and shall not see me; and I hope, my lord, you will no longer permit his addresses to Lady Jane. My word is given to Sir George. Come with me, Doctor.</p>
 <stage>[Exeunt Lady Vibrate and Doctor.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage><hi>Enter</hi> MR. DELAVAL.</stage></head>
 <sp>
 <speaker>DEL.</speaker>
@@ -1700,16 +1699,16 @@ myself ages of happiness; and had cherished a passion, impatient perhaps, but, a
 <speaker>DEL.</speaker>
 <p>Not expressly, my lord. She referred me to time and you. 'Tis true I flattered myself her affections were wholly mine. Should she prefer Sir George, or any other man, be my feelings what they will, I then am silenced. My heart could not be satisfied with cold compliance. Oh no! 'Tis of a different stamp. I am told she is not at home. I hope however she will not have the cruelty to deny me a last interview: till when I take my leave. Only suffer me to remark that, had you discovered in me any secret vice, any defects dangerous to the happiness of the woman I adore, you then were justified in your present conduct. But, if you have no such accusation to prefer, I must do my feelings the violence to declare I cannot but think it highly unworthy of a man of honor. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="33" facs="33"/>
 <head>SCENE IX.</head>
 <sp>
 <speaker>LORD V.</speaker>
 <p>Mr. Delaval—Insolent!—Highly unworthy of a man of honor?—I will challenge him.—He shall find whether I am a man of honor, or no. I will challenge him. Harry!</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage>Enter Footman.</stage></head>
 <sp>
 <speaker>HAR.</speaker>
@@ -1731,8 +1730,8 @@ myself ages of happiness; and had cherished a passion, impatient perhaps, but, a
 <speaker>HAR.</speaker>
 <p>She is here, my lord. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI. <stage><hi>Enter</hi> LADY VIBRATE <hi>and the</hi> DOCTOR.</stage></head>
 <sp>
 <speaker>LADY V.</speaker>
@@ -1772,8 +1771,8 @@ happen again! I hope, my lord, you are now determined in favor of Sir George?</p
 <speaker>LORD V.</speaker>
 <p>I say, I pledge my honor. I authorise you, my lady, to deliver that message to the baronet: and, that I may not have time to begin to doubt, I will instantly be gone. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <sp>
 <speaker>LADY V.</speaker>
@@ -1833,11 +1832,11 @@ happen again! I hope, my lord, you are now determined in favor of Sir George?</p
 <p>I shall do efery ting as vat shall make agréable, my coot laty. Dat is my vay. My laty, I vas your mosh oblishe fery omple sairfant, my laty. <stage>[Exeunt.</stage></p>
 </sp>
 <trailer>END OF ACT II.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The hall of the hotel. <hi>WILLIAMS</hi> and <hi>HARRY. LUCY</hi> speaking to the master of the hotel.</stage></head>
 <sp>
 <speaker>WILL.</speaker>
@@ -1892,8 +1891,8 @@ happen again! I hope, my lord, you are now determined in favor of Sir George?</p
 <speaker>WILL.</speaker>
 <p><stage>(Aside)</stage> I am glad of it—By all means, Mr. Harry. Good-day— <stage>[Exit Harry.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <sp>
 <speaker>WILL.</speaker>
@@ -2030,8 +2029,8 @@ you are minded to make this an excuse for being as treacherous as the rest of yo
 <speaker>WILL.</speaker>
 <p>No! You are ashamed to answer them.</p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage><hi>MARIA</hi> from the staircase.</stage></head>
 <sp>
 <speaker>MAR.</speaker>
@@ -2061,8 +2060,8 @@ you are minded to make this an excuse for being as treacherous as the rest of yo
 <speaker>WILL.</speaker>
 <p>I will see, I am determined!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>DELAVAL</hi> from a room door.</stage></head>
 <sp>
 <speaker>DEL.</speaker>
@@ -2114,8 +2113,8 @@ you are minded to make this an excuse for being as treacherous as the rest of yo
 <p>Don't say you know us. Mind! Not for the world!</p>
 <stage>[Exeunt Maria and Lucy up the staircase.</stage>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>DEL.</speaker>
@@ -2169,8 +2168,8 @@ I have no right to complain: But for his injuries to my sister he shall render m
 <p>Is it you?—Oh! now I shall know.</p>
 <stage>[Exit up the staircase.</stage>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>LADY VIBRATE <hi>and</hi> LADY JANE.</stage>
 <sp>
@@ -2281,8 +2280,8 @@ a man because of his assiduous endeavours to please! As if that were a husband's
 <p>Pardon me, madam. I will not condescend to feel it, in the least. It shall not affect me; no not for a moment. I had indeed conceived a very different opinion of Mr. Delaval. I am glad I have discovered my error, before it is too late. I could not have believed it possible! But it shall not disturb me. It shall give me no uneasiness. I will keep myself perfectly cool, and unconcerned, and—ungenerous, unfeeling man!</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>LADY V.</speaker>
@@ -2729,8 +2728,8 @@ should be able to fall in with my lord's absurdities so!</p>
 <pb n="48" facs="48"/>
 pleasure. He will give you a full dose of the dismals. But you must stay and speak to him. Remember, his honor is pledged: insist upon that. I pity but cannot relieve you. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage><hi>Enter</hi> LORD VIBRATE.</stage></head>
 <sp>
 <speaker>LORD V.</speaker>
@@ -2976,8 +2975,8 @@ grows old. I grant you that formerly there used to be old women: but there are n
 <speaker>SIR G.</speaker>
 <p>And then we shall be sure the house will hold them.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <pb n="52" facs="52"/>
 <head>SCENE IX. <stage><hi>Enter</hi> HARRY.</stage></head>
 <sp>
@@ -3032,8 +3031,8 @@ grows old. I grant you that formerly there used to be old women: but there are n
 <speaker>SIR G.</speaker>
 <p>Oh shocking! Your tradespeople are a sad unreasonable set. You cannot convince them that, if we were to keep our appointments, be punctual in our payments, and know what we do want and what we do not, we should no longer be persons of fashion.</p>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage><hi>Enter</hi> THOMPSON.</stage></head>
 <sp>
 <speaker>THOM.</speaker>
@@ -3063,12 +3062,12 @@ and, if your lordship do not go immediately, they will be gone.</p>
 <stage>[Exeunt.</stage>
 </sp>
 <trailer>END OF ACT III.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="54" facs="54"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>The apartments of <hi>LORD VIBRATE.</hi></stage></head>
 <stage>LADY JANE, <hi>her</hi> WOMAN, <hi>the</hi> DOCTOR, <hi>and</hi> FOOTMAN.</stage>
 <sp>
@@ -3112,8 +3111,8 @@ and, if your lordship do not go immediately, they will be gone.</p>
 <speaker>WOM.</speaker>
 <p>Yes, my lady. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <pb n="55" facs="55"/>
 <head>SCENE II. <stage>Footman returns introducing <hi>MARIA.</hi> Salute.</stage></head>
 <sp>
@@ -3206,8 +3205,8 @@ and, if your lordship do not go immediately, they will be gone.</p>
 <speaker>DR.</speaker>
 <p>Ya, ya, my Laty Shane, I vas unterstandt; und I vas do efery ting as vat shall make agréable. Dat is my vay—Sair, I vas your mosh oblishe fery omple sairfant, sair. I vas unterstandt. My Laty Shane, I vas your mosh oblishe fery omple sairfant, my Laty Shane— <stage>(Aside)</stage> Ah ha! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>LADY J.</speaker>
@@ -3275,8 +3274,8 @@ conceal myself; and excuse conduct which I cannot now explain.</p>
 <speaker>LADY J.</speaker>
 <p>Depend upon me, madam. <stage>(Aside)</stage> This is as unaccountable as it is alarming!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV. <stage><hi>MARIA</hi> in the back ground. <hi>SIR GEORGE</hi> introduced by a Footman.</stage></head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -3544,8 +3543,8 @@ day, the history of where I dined last, the names and titles of the company, the
 <speaker>MAR.</speaker>
 <p>He is coming! They do not personally know each other. If they should, there would be murder! I dare not stay. For the love of God beware! <stage>[Exit masked as Delaval enters.</stage></p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -3739,8 +3738,8 @@ Her terror is contagious! Is their hatred so deadly? I shall certainly betray th
 <speaker>SIR G.</speaker>
 <p>I fly! I fly! <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage><hi>Enter</hi> LADY JANE'S <hi>woman.</hi></stage></head>
 <sp>
 <speaker>WOM.</speaker>
@@ -3775,8 +3774,8 @@ Her terror is contagious! Is their hatred so deadly? I shall certainly betray th
 <p>Come, come.</p>
 <stage>[Exeunt Delaval and Lady Jane.</stage>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <sp>
 <speaker>WOM.</speaker>
@@ -3866,15 +3865,15 @@ Her terror is contagious! Is their hatred so deadly? I shall certainly betray th
 <pb n="65" facs="65"/>
 und de air, und de earse, und de sea, und all, &amp;c. <stage>[Exit; gabbling.</stage></p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <sp>
 <speaker>SIR G.</speaker>
 <p>I should never have suspected a woman! A stout, tall, robust figure! And for what purpose disguise herself? That may be worth enquiry. I will wait and if possible have another look at the lady.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage><hi>Enter</hi> LORD VIBRATE, <hi>and</hi> MR. THOMPSON.</stage></head>
 <sp>
 <speaker>LORD V.</speaker>
@@ -4009,8 +4008,8 @@ of duns! He first encourages them to be extravagant, and then makes it incumbent
 <p>But there is the difficulty!—Mr. Thompson! He is gone. How foolish this is now! <stage>(As he is going off)</stage> Harry! Run after Mr. Thompson, and call him back. One would think a man going to prison would like me be wise enough to doubt, and take time to consider of it.</p>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 n="10" type="scene">
+</div>
+<div n="10" type="scene">
 <head>SCENE X. <stage><hi>Enter</hi> LADY VIBRATE.</stage></head>
 <sp>
 <speaker>LADY V.</speaker>
@@ -4032,8 +4031,8 @@ of duns! He first encourages them to be extravagant, and then makes it incumbent
 <speaker>LADY V.</speaker>
 <p>So I would have you. Were you like the sober punctual Mr. Delaval, I should hate you. But then—</p>
 </sp>
-</div3>
-<div3 n="11" type="scene">
+</div>
+<div n="11" type="scene">
 <head>SCENE XI.</head>
 <stage>DELAVAL <hi>returning from</hi> LADY JANE'S <hi>apartment.</hi></stage>
 <sp>
@@ -4070,8 +4069,8 @@ me: but I shall not give him an opportunity—Are you coming, Sir George?</p>
 <speaker>LADY V.</speaker>
 <p>I shall just call in upon you: or, if not, we shall meet afterward. I expect you to be very whimsical and satiric upon all my friends; so pray put on your best humour. Grave airs, you know, are my aversion. <stage>[Exit.</stage></p>
 </sp>
-</div3>
-<div3 n="12" type="scene">
+</div>
+<div n="12" type="scene">
 <head>SCENE XII.</head>
 <sp>
 <speaker>DEL.</speaker>
@@ -4244,8 +4243,8 @@ perhaps, from that error, I may have unconsciously provoked you to behaviour whi
 <speaker>SIR G.</speaker>
 <p>So be it.— <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="13" type="scene">
+</div>
+<div n="13" type="scene">
 <pb n="72" facs="72"/>
 <head>SCENE XIII. <stage>Changes to the house of <hi>SIR GEORGE.</hi> A suite of apartments richly decorated and numerous masks: some dancing; others passing and repassing.</stage></head>
 <stage>SIR GEORGE <hi>and</hi> LADY VIBRATE <hi>advance, unmasked.</hi></stage>
@@ -4319,8 +4318,8 @@ utensil; and may be worn with a naked face.</p>
 <speaker>LADY V.</speaker>
 <p><stage>(Joins the masks)</stage> Yonder is Lady Jane.</p>
 </sp>
-</div3>
-<div3 n="14" type="scene">
+</div>
+<div n="14" type="scene">
 <head>SCENE XIV.</head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -4483,8 +4482,8 @@ a heart— <stage>(Struggling with her feelings sinks into Sir George's arms, an
 <speaker>SIR G.</speaker>
 <p>Heavens and earth! 'Tis she! Help! 'Tis Maria! Who waits?</p>
 </sp>
-</div3>
-<div3 n="15" type="scene">
+</div>
+<div n="15" type="scene">
 <head>SCENE XV. <stage><hi>Enter</hi> LADY JANE.</stage></head>
 <sp>
 <speaker>LADY J.</speaker>
@@ -4542,8 +4541,8 @@ a heart— <stage>(Struggling with her feelings sinks into Sir George's arms, an
 <speaker>SIR G.</speaker>
 <p>Past! Oh Maria!—I—have no utterance—Lady Jane, you will presently know of me what to know of myself is—Oh!—No matter. Not then for my sake but for pity, for the love of suffering virtue, be careful of this lady; whom when you know, as soon you must, you will despise and abhor the lunatic, the wretch, that could—Maria—I—I— <stage>[Exit abruptly.</stage></p>
 </sp>
-</div3>
-<div3 n="16" type="scene">
+</div>
+<div n="16" type="scene">
 <pb n="77" facs="77"/>
 <head>SCENE XVI. <stage><hi>Enter</hi> DELAVAL.</stage></head>
 <sp>
@@ -4591,12 +4590,12 @@ a heart— <stage>(Struggling with her feelings sinks into Sir George's arms, an
 <p>Indeed, indeed, you wrong me! <stage>[Exeunt.</stage></p>
 </sp>
 <trailer>END OF ACT IV.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="78" facs="78"/>
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage><hi>MARIA</hi> in her proper dress, <hi>LADY JANE</hi> and <hi>LUCY, FOOTMEN</hi> waiting. Breakfast equipage on the table.</stage></head>
 <sp>
 <speaker>LADY JANE.</speaker>
@@ -4676,8 +4675,8 @@ a heart— <stage>(Struggling with her feelings sinks into Sir George's arms, an
 <speaker>LU.</speaker>
 <p><stage>(After opening the door)</stage> Law, ma'am! I declare it is Mr. Williams!</p>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II. <stage><hi>Enter</hi> WILLIAMS.</stage></head>
 <sp>
 <speaker>LU.</speaker>
@@ -4806,8 +4805,8 @@ daylight in the morning; and then called I don't know how often to warn the serv
 <speaker>LU.</speaker>
 <p>That I am sure he will. <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III. <stage>Changes to the house of <hi>SIR GEORGE.—SIR GEORGE</hi> walking in perturbation of mind. After some time he looks at his watch.</stage></head>
 <sp>
 <speaker>SIR G.</speaker>
@@ -4830,8 +4829,8 @@ daylight in the morning; and then called I don't know how often to warn the serv
 <speaker>SIR G.</speaker>
 <p>Now let the thunder strike!</p>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="82" facs="82"/>
 <head>SCENE IV. <stage><hi>DELAVAL</hi> introduced. They salute.</stage></head>
 <sp>
@@ -5119,8 +5118,8 @@ Maria? Kind forgiving angel, and hateful to myself as her affection makes me, I 
 <speaker>DEL.</speaker>
 <p>Yes; brothers.</p>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V. <stage>Enter <hi>WILLIAMS</hi> in great haste.</stage></head>
 <sp>
 <speaker>WILL.</speaker>
@@ -5138,8 +5137,8 @@ Maria? Kind forgiving angel, and hateful to myself as her affection makes me, I 
 <speaker>SIR G.</speaker>
 <p>Maria! Let us fly! <stage>[Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI. <stage>The apartments of <hi>LORD VIBRATE.</hi></stage></head>
 <stage>LADY VIBRATE <hi>and the</hi> DOCTOR.</stage>
 <sp>
@@ -5166,8 +5165,8 @@ Maria? Kind forgiving angel, and hateful to myself as her affection makes me, I 
 <speaker>LADY V.</speaker>
 <p>Sir George has behaved very improperly.</p>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII. <stage><hi>Enter</hi> LORD VIBRATE.</stage></head>
 <sp>
 <speaker>LORD V.</speaker>
@@ -5207,8 +5206,8 @@ here, and every possibility of recovering the estate is gone!</p>
 <speaker>LADY V.</speaker>
 <p>Ay, think: ask advice. Ha, ha, ha! Now that you can do nothing, the enquiry will be very amusing.</p>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII. <stage><hi>Enter</hi> THOMPSON.</stage></head>
 <sp>
 <speaker>LORD V.</speaker>
@@ -5405,8 +5404,8 @@ here, and every possibility of recovering the estate is gone!</p>
 <speaker>LADY V.</speaker>
 <p>I own, however, I am still more surprised at the unexampled generosity of Mr. Delaval.</p>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX. <stage><hi>Enter</hi> WILLIAMS.</stage></head>
 <sp>
 <speaker>LADY V.</speaker>
@@ -5424,8 +5423,8 @@ here, and every possibility of recovering the estate is gone!</p>
 <speaker>WILL.</speaker>
 <p>Mr. Delaval, Lady Jane, Miss Delaval, and Sir George. There has been sad work! But it is all over, and they are now so happy! Here they are!</p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE THE LAST. <stage><hi>Enter Mr.</hi> DELAVAL <hi>leading</hi> LADY JANE, <hi>and</hi> SIR GEORGE <hi>with</hi> MARIA, <hi>followed by</hi> LUCY.</stage></head>
 <sp>
 <speaker>LORD V.</speaker>
@@ -5485,12 +5484,11 @@ here, and every possibility of recovering the estate is gone!</p>
 <p>Which my impetuous indignation threatened▪ for ever to destroy. <stage>(Comes forward)</stage> How dangerous are extremes! Sometimes we doubt, and indecision is our bane: at others, hurried away by the sudden impulse of passion, our course is marked with misery. One man is too compliant: another too intractable. Yet happiness is the aim of all. Since then all are so liable to be misled, let gentle forbearance, indulgent thoughts, and a mild forgiving spirit, be ever held as the sacred duties of man to man.</p>
 <stage>[EXEUNT OMNES.</stage>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="95"/>
 <head>EPILOGUE.</head>
 <byline>SPOKEN BY MR. QUICK, AND MRS. MATTOCKS.</byline>
@@ -5575,7 +5573,7 @@ here, and every possibility of recovering the estate is gone!</p>
 <l>Make him repeat his follies every night.</l>
 </sp>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

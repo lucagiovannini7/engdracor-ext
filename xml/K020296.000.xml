@@ -7,12 +7,12 @@
 <extent>[4],iv,[4],76,[8]p. ; 8⁰.</extent><publicationStmt><publisher>printed for John Bell,</publisher><date>1774.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The epilogue is by George Colman.</note><note>With a half-title and four final advertisement leaves.</note><note>Sig.A3 contains a dedication to the memory of William Shenstone, dated January 19, 1774.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT780.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="halftitle">
+<div type="halftitle">
 <pb facs="1" ana="y"/>
 <p>HENRY the SECOND; OR, THE FALL OF ROSAMOND.</p>
 <p>[Price One Shilling and Six-Pence.]</p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2"/>
 <p>HENRY the SECOND; OR, THE FALL of ROSAMOND: A TRAGEDY; AS IT IS PERFORMED AT THE THEATRE-ROYAL, COVENT-GARDEN.</p>
 <p><hi>Written by THOMAS HULL.</hi></p>
@@ -23,8 +23,8 @@
 <bibl>SHENSTONE's ELEGIES.</bibl>
 <p>LONDON: Printed for JOHN BELL, near Exeter-Exchange, Strand.</p>
 <p>M.DCC.LXXIV.</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb n="i" facs="3"/>
 <head>PREFACE.</head>
 <p>I Hold it an indispensible Duty to mention some Circumstances, which gave Birth to the following Scenes, wherein I shall not only indulge my Pride, but, perhaps, in some Degree, palliate the Boldness, and (as it may be thought by many) Presumption of my Understanding.</p>
@@ -48,18 +48,18 @@ adopted the Idea (not the Matter) of an Interview between the <hi>King</hi> and 
 <p>I have little further to add, but my Intreaties that the Reader will be pleased to judge with Lenity, what was undertaken with Diffidence.</p>
 <p>Advised, assisted, and encouraged as I was originally, to this Undertaking, by the Possessor of such eminent Abilities, and such Benignity of Disposition, I seek no <hi>living</hi> Patron, but pride myself in having this Opportunity to dedicate my humble Production,</p>
 <p>With the warmest Affection and Gratitude,</p>
-<div2 type="dedication">
+<div type="dedication">
 <pb facs="7"/>
 <p>TO THE MEMORY OF WILLIAM SHENSTONE, ESQ.</p>
 <p><hi>Westminster, January</hi> 19, 1774.</p>
-</div2>
-</div1>
-<div1 type="author'snote">
+</div>
+</div>
+<div type="author'snote">
 <pb facs="8"/>
 <head>Advertisement.</head>
 <p>THE Author would justly incur the Charge of Ingratitude were he not to return his warmest Acknowledgments to the <hi>Public</hi> for their very indulgent Reception of this Play; to Mr. <hi>Colman</hi> for his spirited and deservedly admired Epilogue; and to the <hi>Performers</hi> for their Zeal and Assiduity in the Study and Support of their respective Characters.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE,</head>
 <byline>Written and Spoken by the AUTHOR.</byline>
@@ -101,8 +101,8 @@ adopted the Idea (not the Matter) of an Interview between the <hi>King</hi> and 
 <l>This sole Indulgence let my Fault procure,</l>
 <l>Mildly inflict, submissive I endure.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="10"/>
 <head>CHARACTERS.</head>
 <list>
@@ -119,16 +119,15 @@ adopted the Idea (not the Matter) of an Interview between the <hi>King</hi> and 
 <item><label>ROSAMOND,</label> Mrs. HARTLEY.</item>
 <item><label>ETHELINDA,</label> Miss PEARCE.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, Oxford, <hi>and Places adjacent.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="11"/>
 <head>HENRY the SECOND; OR, THE FALL of ROSAMOND.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in</hi> Salisbury's <hi>House.</hi></stage></head>
 <stage><hi>Enter</hi> CLIFFORD <hi>and</hi> SALISBURY.</stage>
 <sp>
@@ -292,9 +291,9 @@ Stain'd and dishonour'd as the Mourner is,</l>
 <l>Of Heaven's Indulgence, and its promis'd Grace.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div3>
+</div>
 <pb n="6" facs="16"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE II. <stage>A retir'd Grove belonging to the Palace.</stage></head>
 <stage><hi>Enter Prince of</hi> WALES <hi>and</hi> LEICESTER.</stage>
 <sp>
@@ -621,12 +620,12 @@ Foil Art with Art, and practise every Means</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="14" facs="24"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in the Palace.</hi></stage></head>
 <stage><hi>Enter the</hi> KING <hi>and</hi> VERULAM.</stage>
 <sp>
@@ -1197,8 +1196,8 @@ Thou canst not wish him so to slight the Claims</l>
 <l>Rule the King, and I rule all, by ruling her.</l>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>changes to a Cloister.</hi></stage></head>
 <stage><hi>Enter</hi> CLIFFORD, <hi>dressed as an Abbot.</hi></stage>
 <sp>
@@ -1402,12 +1401,12 @@ Which, by their servid Impulse, waft the Soul</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="32" facs="42"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in the Bower.</hi></stage></head>
 <stage>ROSAMOND <hi>discovered writing.</hi> ETHELINDA <hi>attending.</hi></stage>
 <sp>
@@ -2036,12 +2035,12 @@ Thy further Speech—Have I not Crimes enough?</l>
 <stage>[Exit.</stage>
 </sp>
 <trailer>END OF THE THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="47" facs="57"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE <stage><hi>the Palace.</hi></stage></head>
 <stage><hi>The</hi> ABBOT <hi>alone.</hi></stage>
 <sp>
@@ -2305,8 +2304,8 @@ Proudly exult in his severest Pangs,</l>
 <l>Behold the Victim of Despair and Love.</l>
 <stage>[Exit.</stage>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>an Apartment in the Bower.</hi></stage></head>
 <stage><hi>Enter</hi> ROSAMOND <hi>with a Letter, and</hi> ETHELINDA.</stage>
 <sp>
@@ -2647,12 +2646,12 @@ My lonely Intervals to ceaseless Prayer,</l>
 <l>To that Asylum my Offences claim.</l>
 </sp>
 <trailer>END OF THE FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="61" facs="71"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>the Bower.</hi></stage></head>
 <stage><hi>Enter</hi> ROSAMOND <hi>and</hi> ETHELINDA.</stage>
 <sp>
@@ -3255,12 +3254,11 @@ Let that Reflection win one pitying Tear</l>
 <l>But oft, a Prey to one licentious Deed,</l>
 <l>The Friend, the Lover, and the Parent bleed.</l>
 </sp>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="85"/>
 <head>EPILOGUE,</head>
 <byline>Written by G. COLMAN, Esq.</byline>
@@ -3328,8 +3326,8 @@ Let that Reflection win one pitying Tear</l>
 <l><hi>And save</hi> fair Rosamond <hi>a second</hi> Fall!</l>
 </lg>
 <trailer>FINIS.</trailer>
-</div1>
-<div1 type="bythesameauthor">
+</div>
+<div type="bythesameauthor">
 <pb facs="87"/>
 <p>IN THE PRESS, And on the Fifth of <hi>February,</hi> 1774, will be published, By the AUTHOR of this PLAY, RICHARD PLANTAGENET; A LEGENDARY TALE: Embellished with a beautiful Vignette, representing a very pathetic Interview between two distinguished Personages, From the Design of a Capital Master, And engraved by Mr. SHERWIN, Pupil to Mr. BARTOLOZZI. Price 2s. beautifully printed in Quarto.</p>
 <list>
@@ -3340,8 +3338,8 @@ Let that Reflection win one pitying Tear</l>
 <item>The FRIENDS; or Original Letters of a person deceased; now first published from the manuscript in his correspondent's hands. In two volumes, price 6s. bound.</item>
 <item>The ADVANTAGES of REPENTANCE: a Moral Tale, attempted in Blank Verse, and founded on the Anecdotes of a private family. By THOMAS HULL. The second Edition. Price 1s.</item>
 </list>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <pb facs="88"/>
 <p><hi>This Day is published, BELL</hi>'s EDITION OF Shakespeare's Acting Plays.</p>
 <p>With twenty-four engravings, done from original drawings made on purpose for this work, by Mr. Edwards of the Royal Academy, and executed at a very great expence, by a select number of the most eminent English engravers; together with two speaking portraits of SHAKESPEARE and GARRICK, Both which are executed by Mr. Hall, and deservedly looked upon as the best productions of this country.</p>
@@ -3361,8 +3359,8 @@ after in foreign countries, are rarely to be met with in our own; the causes hav
 </body>
 </floatingText>
 <p>J. Bell's <hi>respectful acknowledgements to the writer of the above, and as it, together with the following, contains such flattering testimonies of candid approbation, he hopes he shall stand excused by the Writer, and justified by the Public, for communicating both in this manner, without trespassing on the confidence of either.</hi></p>
-</div1>
-<div1 type="critique">
+</div>
+<div type="critique">
 <head>CRITIQUE on Part of the PLATES in BELL's Edition of SHAKESPEARE.</head>
 <p>Excellent engraving is a beauty of itself, and will always to the generality of people appear an ornament, independent of the design, or other qualities, of a good print. The French seem to have understood this better than any other nation.</p>
 <p>In imitation of the magnificent editions of the Louvre, they have bedecked their ordinary books with cuts, signets, medalions, head and tail pieces; in the execution of which lies all their merit. Neatness and propriety strike at once a superficial eye, and therefore aiding their language with <hi>the bagatelles</hi> I have mentioned, the Parifians are thought to have sold more books than any three cities in Europe.</p>
@@ -3383,8 +3381,8 @@ upon the present subject, and cannot, without injustice, pass this new edition i
 <p>The feelings of old <hi>Lear,</hi> are finely marked; the figure, though small, is dignified; and poor <hi>Tom</hi> almost shivers upon the paper.</p>
 <p>I could with pleasure review the others, but have already exceeded the short sketch intended. The subject of prints is fertile and entertaining. I could wish to see it treated by those who have more leisure and abilities than I am master of. Their merits might thence become more generally understood, and the art rendered of solid use and ornament to the works of the learned.</p>
 <p>The present publication I consider as a considerable advance to this improvement, and the public will likely view it in the same light.</p>
-</div1>
-<div1>
+</div>
+<div>
 <list>
 <head>BOOKS published for JOHN BELL.</head>
 <item><p>FENCING FAMILIARIZ'D; or a new treatise on the ART of SWORD-PLAY. Illustrated by elegant engravings, representing all the different attitudes on which the principles and grace of the art depend; painted from life, and executed in a most elegant and masterly manner. By Mr. OLIVIER, educated at the Royal Academy at Paris, and professor of fencing, in London. Price 7s. bound.</p>
@@ -3424,7 +3422,7 @@ Mr. Baker, the author of these remarks, has pointed out a great number of improp
 <item>The TOBACCONIST, a Farce, as it is acted at the Theatre-Royal, in the Hay-Market. Price 1s.</item>
 <item>The MACARONI, a new Play, as it is acted at the Theatres-Royal. Price 1s. 6d.</item>
 </list>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

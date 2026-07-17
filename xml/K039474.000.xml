@@ -7,21 +7,21 @@
 <extent>[8],79,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Cadell,</publisher><date>1775.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Author of The Earl of Warwick = Thomas Francklin.</note><note>Verse.</note><note>Dedication with some stop-press corrections, i.e. roman type replaced with italic (not differentiated).</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT39044.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>MATILDA: A TRAGEDY. AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>By the AUTHOR of the EARL of WARWICK.</p>
 <p><hi>LONDON:</hi> Printed for T. CADELL, opposite Catherine-Street, in the Strand. 1775. [PRICE ONE SHILLING AND SIX-PENCE.]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>DEDICATION.</head>
 <head type="sub">TO THE PUBLIC.</head>
 <opener><salute>SIR,</salute></opener>
 <p>PERMIT me to return you my unfeigned thanks for your kind reception of this <hi>Tragedy</hi> on the stage, and to request the continuance of your favour to it in the closet. It would be the highest ingratitude in me to forget the only patron I ever had the good fortune to meet with, by whose powerful assistance I have been enabled to defeat the combined forces of envy, malice and detraction. I must at the same time fairly confess, my victory over the enemy was owing, I believe, as many other victories have been, more to the art and prowess of my <hi>Officers</hi> than to any extraordinary merit of my own. To the first in command, Miss YOUNGE, I have infinite obligations, which I shall always gratefully acknowledge, tho' I may never have it in my power to repay them; nor can the skill and conduct of my generals, REDDISH, SMITH and PALMER, be sufficiently admired. To your patronage and protection I most heartily and sincerely recommend them: If I have been the happy instrument of giving them a favourable opportunity of rising in <hi>your</hi> esteem, it will give me the greatest satisfaction. <hi>You</hi> can best distinguish their merit, and <hi>you</hi> alone are able to reward it.</p>
 <closer><signed>I am, Sir, your much obliged, And devoted humble Servant, The Author.</signed></closer>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -42,9 +42,9 @@
 <label>BERTHA, <hi>Her friend,</hi></label>
 <item>Miss PLATT.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, MORCAR's Camp, and the Environs near NOTTINGHAM.</p></set>
-<div1 type="prologue">
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written by a FRIEND.</byline>
@@ -90,8 +90,8 @@ With crimson Hands, pale Cheeks, and blood-shot Eyes,</l>
 <l>If Light'ning-struck, lies blasted on the Ground;</l>
 <l>In vain will Merits past Indulgence claim,</l>
 <l>One Moment's Rashness blasts whole Years of Fame.</l>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="6"/>
 <head>EPILOGUE.</head>
 <byline>By the AUTHOR of the TRAGEDY.</byline>
@@ -158,12 +158,12 @@ As Rogues, just 'scap'd the Gallows, join the Shrieves,</l>
 <l>Your Verdict, Sirs, <hi>Not Guilty</hi>—if you please—</l>
 <l>You smile—<hi>Acquitted</hi>—hope you'll pay his Fees.</l>
 </lg>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="8"/>
 MATILDA: A TRAGEDY.<note n="*" place="foot">The reader will meet with some lines which, to shorten the scenes, were omitted in the representation.</note></head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <head>SCENE, <stage>MATILDA'S Tent, with a view of the distant country.</stage></head>
 <stage>MATILDA, BERTHA.</stage>
@@ -961,8 +961,8 @@ Bend to the tyrant's yoke, whilst I alone</l>
 <l>Or leap the gulph, and perish with my friend.</l>
 </sp>
 <trailer>The End of the First Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="20" facs="27"/>
 <head>ACT II.</head>
 <head>SCENE, <stage>a Fortress belonging to MORCAR.</stage></head>
@@ -1653,8 +1653,8 @@ My brother. Here, let us once more unite</l>
 </lg>
 </sp>
 <trailer>The End of the Second Act.</trailer>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="36" facs="43"/>
 <head>ACT III.</head>
 <head>SCENE, <stage>MATILDA's Tent, with a distant view of the Camp.</stage></head>
@@ -2340,8 +2340,8 @@ Into his friendly bosom! O, Siward!</l>
 <l>I am still more the friend—of truth and virtue.</l>
 </sp>
 <trailer>The End of the Third Act.</trailer>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="52" facs="61"/>
 <head>ACT IV.</head>
 <head>[SCENE, <stage>An Apartment belonging to SIWARD, opening to a wood.</stage></head>
@@ -2990,8 +2990,8 @@ My other self, my best, my dear-lov'd Siward—</l>
 <l>And own that Siward was indeed thy friend.</l>
 </sp>
 <trailer>The End of the Fourth Act.</trailer>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="66" facs="75"/>
 <head>ACT V.</head>
 <head>SCENE, <stage>A Gothic Hall.</stage></head>
@@ -3620,16 +3620,16 @@ By <hi>my</hi> example teach a future age,</l>
 <l>Lest they experience worse than Morcar's woe,</l>
 <l>Nor find a Siward—to prevent the blow.</l>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 <back>
-<div1 type="publisher'sadvertisement">
+<div type="publisher'sadvertisement">
 <pb facs="89"/>
 <p><hi>PREPARING FOR THE PRESS,</hi> A COMPLETE TRANSLATION OF THE WORKS OF LUCIAN, From the GREEK.</p>
 <p>By THOMAS FRANCKLIN, The TRANSLATOR of SOPHOCLES.</p>
 <p>SUBSCRIPTIONS to this Work are taken in by T. CADELL, Bookseller, in the Strand.</p>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

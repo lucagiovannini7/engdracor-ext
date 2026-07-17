@@ -7,7 +7,7 @@
 <extent>[8],86,[2]p. ; 8⁰.</extent><publicationStmt><publisher>printed for R. and J. Dodsley; and sold by J. Hinxman,</publisher><date>1762.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Based on Fontenelle's 'Le testament'.</note><note>The final leaf contains the epilogue.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT47169.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE School for LOVERS, A COMEDY.</p>
 <p>As it is Acted at the THEATRE ROYAL in <hi>Drury-Lane.</hi></p>
@@ -15,20 +15,20 @@
 <p>LONDON: Printed for R. and J. DODSLEY in <hi>Pall-mall;</hi> and Sold by J. HINXMAN, in <hi>Pater-noster-row.</hi></p>
 <p>MDCCLXII.</p>
 <p>[Price One Shilling and Six-pence.]</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE following Comedy is formed on a plan of Monsieur de Fontenelle's, never intended for the stage, and printed in the eighth volume of his works, under the title of Le Testament.</p>
 <p>The scene of that piece is laid in Greece, and the embarrassing circumstances depend on some peculiarities in the customs of that country. Slaves likewise, as is usual in the Grecian Comedy, act as confidantes to the principal personages. The Author, therefore, hopes he may be excused for having made the story English, and his own; for having introduced a new character, and endeavoured to heighten those he found already sketched out. The delicacy of the sentiments in Philonoe and Eudamidas, he has inviolably adhered to, wherever he could insert them properly, in his Caelia and Sir John Dorilant; and would willingly flatter himself, that he has made great and not contemptible additions to their characters, as well as to the others.</p>
 <p>Those who will give themselves the trouble to read both pieces, will see where the Author is, or is not indebted to that elegant French Writer.</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <p>TO THE MEMORY OF MONSIEUR DE FONTENELLE, THIS COMEDY IS INSCRIBED BY A LOVER OF SIMPLICITY,</p>
 <closer><signed>THE AUTHOR.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE. As it was intended to have been SPOKEN.</head>
 <lg>
@@ -63,8 +63,8 @@
 <l>And in due time will each transaction pass,</l>
 <l>— Unless some hasty critic shakes the glass.</l>
 </lg>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="5"/>
 <head>PROLOGUE. As it is spoken by Mr. GARRICK.</head>
 <lg>
@@ -115,8 +115,8 @@
 <l>Change you shall have; so set your hearts at ease:</l>
 <l>Write as <hi>he</hi> will, we'll act it as <hi>you</hi> please.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="7"/>
 <head>PERSONS Represented.</head>
 <list>
@@ -131,16 +131,15 @@
 <item>CAELIA, Daughter to Lady Beverley, and Ward to Sir John, Mrs. CIBBER.</item>
 <item>ARAMINTA, Sister to Sir John Dorilant, Mrs. YATES.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE a Garden belonging to Sir John Dorilant's House in the Country, with an Arbour, Garden Chairs, &amp;c.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="8"/>
 <head>THE School for LOVERS.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>the Garden.</stage></head>
 <stage><hi>Enter</hi> ARAMINTA <hi>with an affected Carelessness, and knotting,</hi> MODELY <hi>following.</hi></stage>
 <sp>
@@ -808,12 +807,12 @@ A pretty kind of fellow really.—Now Caelia, come nearer, child: I have somethi
 <p>It does indeed. A nearer friend? I hardly know whether I should wish her success or not — Sir John is so affectionate. Would I had never seen Mr. Modely! —Araminta too! what will she say? — O I see a thousand bad consequences. I must follow her, and prevent them.</p>
 </sp>
 <trailer>END of the FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="27"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>continues.</hi></stage></head>
 <stage>LADY BEVERLEY <hi>and</hi> MODELY.</stage>
 <sp>
@@ -1450,12 +1449,12 @@ the honourableness of one's intentions. Have you not heard me this moment apply 
 <p>Upon my soul she is a fine woman; and loves me to distraction; and what is still more, I most undoubtedly love her.—I have a good mind to take her.—Yet not to have it in my power to succeed in the other place, would call my parts in question.—No, no; — I must not disparage my parts neither.—In order to be a great character, one should go as near being a rogue as possible. I have a philosopher's opinion on my side in that, and the practice of half the heroes and politicians in Europe.</p>
 </sp>
 <trailer>END of the SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="37" facs="44"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>continues.</hi></stage></head>
 <sp>
 <speaker>BELMOUR</speaker>
@@ -2034,12 +2033,12 @@ machinations are as vain and empty in their effect, as in their contrivance.</p>
 <p>Poor creature!—Come along, child.</p>
 </sp>
 <trailer>END of the THIRD ACT.</trailer>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="54" facs="61"/>
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>continues.</hi></stage></head>
 <sp>
 <speaker>SIR JOHN DORILANT,</speaker>
@@ -2569,12 +2568,12 @@ turned into the walk already.—That abominable old fashioned cradle work makes 
 <p>What a miserable dog am I? —I would give an arm to know what they are talking about.— We talk of female coquettes! By my soul we beat them at their own weapons!—Stay—one stratagem I may yet put in practice, and it is an honest one.—The thought was lucky.—I will about it instantly. Poor Modely!—How has thy vanity reduced thee?</p>
 </sp>
 <trailer>END of the FOURTH ACT.</trailer>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <pb n="71" facs="78"/>
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><stage>SCENE <hi>continues.</hi></stage></head>
 <stage>ARAMINTA <hi>and</hi> BELMOUR.</stage>
 <sp>
@@ -3062,12 +3061,11 @@ that we must call in the butler and the ladies maids even to help out the figure
 <l>For, if it errs, it errs from too much love.</l>
 </sp>
 <stage>A DANCE.</stage>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="94"/>
 <head>EPILOGUE. Spoken before the DANCE, By Mrs. YATES and Mr. PALMER, in the Characters of ARAMINTA and MODELY.</head>
 <sp>
@@ -3110,7 +3108,7 @@ that we must call in the butler and the ladies maids even to help out the figure
 <l>And my refusal warns them to refuse.</l>
 </sp>
 <trailer>THE END.</trailer>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

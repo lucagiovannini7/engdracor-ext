@@ -8,17 +8,17 @@
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader>
 <text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="143"/>
 <p>THE SIEGE OF ALEPPO.</p>
 <p>A TRAGEDY.</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="144"/>
 <head>ADVERTISEMENT.</head>
 <p>THE Reader will probably expect some Account of a Play which makes it's first Appearance in the World in this Manner.—He is to know then, that <hi>The Siege of ALEPPO</hi> having been refused by the Managers of both Theatres, to one of which, <hi>viz.</hi> Mr. <hi>Garrick,</hi> it was strongly recommended by Lady <hi>Caroline Burdet</hi> (who is thereby intitled to my present grateful Acknowlegements), would not have been offered to the Publick, had it not been honoured with the Approbation of several Persons of the first Note in the Republick of polite Literature, whom I am not at Liberty to mention.—I am obliged to declare this, in order to do common Justice to myself, and to obviate the Prejudices which might be conceived against a Performance that has not had the <hi>Credit</hi> and <hi>Advantage</hi> of a <hi>Theatrical Representation.</hi>—But the <hi>Play</hi> must now speak for itself; of which I shall say no more than just to premise, that the <hi>Fable,</hi> and whole <hi>Construction</hi> of it, excepting the <hi>Reality</hi> of the <hi>Siege,</hi> is purely <hi>fictitious:</hi> That the <hi>Incidents</hi> were <hi>designed</hi> to be <hi>natural,</hi> tho' <hi>unexpected,</hi> not arising from <hi>common-place</hi> Exigencies, or <hi>forced</hi> Expedients, (which is too frequently the Case) but from the <hi>predominant Principles</hi> of the <hi>Characters</hi> themselves: And that for this Purpose I have endeavoured to give a <hi>new,</hi> and something of an <hi>original</hi> Cast to the principal <hi>Characters,</hi> particularly to those of <hi>Theodore, Sophronius,</hi> and <hi>Ormelia.</hi></p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="145"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -38,15 +38,14 @@
 <item>EUSEBIA, <hi>Daughter to</hi> Manuel.</item>
 </list>
 <p>Officers, Soldiers, Attendants, &amp;c.</p>
-</div1>
+</div>
 <set><p>SCENE ALEPPO.</p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="146"/>
 <head>THE SIEGE OF ALEPPO.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <head><hi>SCENE</hi> <stage>a Piazza. After several Shouts of To Arms, To Arms, &amp;c. Enter <hi>SOPHRONIUS</hi> and <hi>LEON</hi> meeting.</stage></head>
 <sp>
@@ -347,8 +346,8 @@ May crush the Hope that yet supports my Being:</l>
 There is no longer Merit in those Eyes!</l>
 <l>But soft, who comes this Way? Let me conduct thee. <stage>Exeunt.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> Romanus.</stage>
 <sp>
@@ -513,8 +512,8 @@ You think so <stage>[Aside]</stage>—Yet, believe me, my Resentments</l>
 <l>Then let us hence—this Morning may afford</l>
 <l>Some kind Event, to bless our utmost Wishes. <stage>[Ex.</stage></l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>The back Scene opens and discovers the Council sitting. <hi>Manuel, Theodore, Sophronius, Izrail, Leon,</hi> and other Officers in Council.</stage>
 <sp>
@@ -741,10 +740,10 @@ Relenting, O! behold this wretched Land,</l>
 <l>Thy injur'd Truth to Infidels make known,</l>
 <l>And vindicate a Cause so much thy own. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="2" type="act">
+<div n="1" type="scene">
 <head>ACT II. SCENE I.</head>
 <stage>A Gallery in <hi>Theodore</hi>'s House. Enter <hi>Romanus.</hi></stage>
 <sp>
@@ -1444,10 +1443,10 @@ The Din of Arms shall drown the Voice of Love.</l>
 <l>He snuffs the dusty Tumult from afar,</l>
 <l>Collects his mighty Rage, and rushes to the War. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="3" type="act">
+<div n="1" type="scene">
 <head>ACT III. SCENE I.</head>
 <head><hi>SCENE</hi> <stage>the Piazza. Enter <hi>Manuel</hi> and <hi>Mervan.</hi></stage></head>
 <sp>
@@ -1755,8 +1754,8 @@ And yet I could have hop'd the hapless Youth</l>
 <l>Support me, Friends, and with your kindest Counsels,</l>
 <l>Oh! save a wretched Maid from double Ruin. <stage>[Ex.</stage></l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>Enter</hi> Romanus.</stage>
 <sp>
@@ -2089,10 +2088,10 @@ I rob thee of thy Glory; and, proud Nymph,—</l>
 <l>She last by wily Stratagem prevail'd,</l>
 <l>And <hi>Sinon</hi> conquer'd where <hi>Achilles</hi> fail'd. <stage>[Exit.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="4" type="act">
+<div n="1" type="scene">
 <head>ACT IV. SCENE I.</head>
 <head><hi>SCENE</hi> <stage>The Gallery.</stage></head>
 <stage><hi>Enter</hi> THEODORE.</stage>
@@ -2891,10 +2890,10 @@ I come for thee: For oh! without thy Presence—</l>
 <l>But the prime Gift that bounteous Heav'n can send,</l>
 <l>Is the sure Blessing of a faithful Friend. <stage>[Exeunt.</stage></l>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
-<div3 n="1" type="scene">
+</div>
+</div>
+<div n="5" type="act">
+<div n="1" type="scene">
 <pb n="206" facs="207"/>
 <head>ACT V. SCENE I.</head>
 <head><hi>SCENE</hi> <stage>a magnificent Apartment in the Governour's Palace. <hi>Manuel, Sophronius, Izrail, Leon,</hi> and others sitting at a Table, with Wine, &amp;c.</stage></head>
@@ -3642,10 +3641,9 @@ Who knows but we may yet avenge our Cause,</l>
 <l>Though brave by Nature, and in Action great,</l>
 <l>Work'd his own Ruin, and <hi>Aleppo</hi>'s Fate. <stage>[Ex. om.</stage></l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>THE END.</trailer>
-</div1>
 </body>
 </text>
 </TEI>

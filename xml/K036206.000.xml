@@ -7,12 +7,12 @@
 <extent>[6],73,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for A. Millar,</publisher><date>1752.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: Philip Francis.</note><note>Based largely on 'Cénie' by Françoise Paula Huguet de Grafigny.</note><note>The verso of the second leaf, containing the dedication, is numbered "vi".</note><note>At foot of the titlepage is the price; a variant does not have the price.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT33535.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>EUGENIA: A TRAGEDY. As it is ACTED at the THEATRE-ROYAL, IN <hi>DRURY-LANE.</hi> By His MAJESTY's Servants.</p>
 <p><hi>LONDON:</hi> Printed for A. MILLAR, over-against <hi>Catharine-street,</hi> in the <hi>Strand.</hi> MDCCLII. (Price 1<hi>s.</hi> 6<hi>d.</hi>)</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>To the Right Honourable The COUNTESS of <hi>Lincoln.</hi></head>
 <opener><salute>MADAM,</salute></opener>
@@ -21,8 +21,8 @@
 Whether I have succeeded, your Ladyship, in your own Feelings and Experience, can best determine. If I have, let me be bold to expect your Patronage. It is for the Interest of that Virtue, which you love; for it is not sufficient, Madam, to practise her Precepts in your own private Life; you must come forth and do her Honour by a public Appearance in her Favour. In her Name, I expect your Protection; in her Name, let me dare to promise, my future Life, and its best Gratitude shall deserve it.—I am,</p>
 <closer><salute>MADAM,</salute>
 <signed>Your LADYSHIP's Most obedient humble Servant, PHILIP FRANCIS.</signed></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written and spoken by Mr. <hi>GARRICK.</hi></byline>
@@ -70,15 +70,15 @@ Whether I have succeeded, your Ladyship, in your own Feelings and Experience, ca
 <l>Let him write on, acquire some little Fame,</l>
 <l>Then hunt him, Critics, he'll be noble Game.</l>
 </lg>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="5"/>
 <head>ADVERTISEMENT.</head>
 <p>IT may not be improper to tell an <hi>English</hi> Reader some Circumstances of this Play. The Character of <hi>AEMILIA,</hi> consequently her Scenes with <hi>MERCOUR,</hi> is wholly new. The Fable, excepting some Alterations, which seemed necessary, with regard to the Difference of the <hi>French</hi> and <hi>English</hi> Stage, is taken from a Comedy published last Year by Madame <hi>Grafigny.</hi></p>
 <p>Let me be permitted to take this Opportunity of returning my best Thanks to the several Performers, for the Chearfulness, with which they went through the Fatigue of Rehearsing and Acting. The Public is the best Judge of their Merit, and its Favour the best Proof of it.</p>
 <p>Mr. <hi>Garrick</hi> is intitled to my sincerest Gratitude, for his Performance as an Actor, and for his Punctuality, as a Manager; but his Assistance in a thousand Alterations, his strong good Sense, with that Spirit of Theatrical Criticism, which is his peculiar natural Genius, give him a Right to a great Share of that Applause, with which this Play was received. The rest is Friendship and Esteem.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <head>DRAMATIS PERSONAE.</head>
 <list>
 <head>MEN.</head>
@@ -100,12 +100,12 @@ Whether I have succeeded, your Ladyship, in your own Feelings and Experience, ca
 <label>ORPHISA</label>
 <item>Mrs. <hi>Pritchard.</hi></item>
 </list>
-</div1>
+</div>
 <set><p>SCENE a Gallery in DORIMOND's House in Paris.</p></set>
 </front>
 <body>
 <head><pb facs="6"/>EUGENIA.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
 <stage>MERCOUR crosses the Stage; sees AEMILIA; endeavours to avoid her. She looks at Him some Time; then speaks.</stage>
 <sp>
@@ -879,8 +879,8 @@ He means to give you his beloved Daughter,</l>
 <l>Inspire my Heart, with Honour how to gain her,</l>
 <l>Or teach it—Oh!—without a Crime to lose her.</l>
 </sp>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="17" facs="22"/>
 <head>ACT II.</head>
 <stage>DORIMOND and EUGENIA meeting.</stage>
@@ -1641,8 +1641,8 @@ Feebly I listen'd to the Voice of Virtue,</l>
 <l>And Dread of Infamy—She must be mine.</l>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 n="3" type="act">
+</div>
+<div n="3" type="act">
 <pb n="33" facs="38"/>
 <head>ACT III.</head>
 <stage>DORIMOND. MERCOUR.</stage>
@@ -2285,8 +2285,8 @@ Canst thou do Things, impossible to Fate?</l>
 <l>Ambition, Fortune, Power, is your's and Friendship's.</l>
 <stage>[Exeunt.</stage>
 </sp>
-</div1>
-<div1 n="4" type="act">
+</div>
+<div n="4" type="act">
 <pb n="46" facs="51"/>
 <head>ACT IV.</head>
 <stage>Enter ORPHISA. EUGENIA meeting.</stage>
@@ -3030,8 +3030,8 @@ By Honour form'd to Greatness, and by Nature</l>
 <l>In Youth's unguarded Paths. Oh! Save her, Heaven.</l>
 <stage>[Exit.</stage>
 </sp>
-</div1>
-<div1 n="5" type="act">
+</div>
+<div n="5" type="act">
 <pb n="62" facs="67"/>
 <head>ACT V.</head>
 <stage>CLERVAL. MERCOUR.</stage>
@@ -3644,11 +3644,11 @@ In your own Likeness form'd, in perfect Goodness;</l>
 <l>To our own Honour, Happiness and Virtue;</l>
 <l>For Happiness and Virtue are the same.</l>
 </sp>
-</div1>
+</div>
 <trailer>The END.</trailer>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="79"/>
 <head>EPILOGUE.</head>
 <byline>Written by <hi>Colley Cibber,</hi> <abbr>Esq</abbr></byline>
@@ -3695,7 +3695,7 @@ In your own Likeness form'd, in perfect Goodness;</l>
 <l>All feign'd, or forc'd Applause he dares disclaim,</l>
 <l>Your Candour—no—Your Judgment be his Fame.</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>

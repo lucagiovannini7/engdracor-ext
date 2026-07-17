@@ -7,18 +7,18 @@
 <extent>32p. ; 8⁰.</extent><publicationStmt><publisher>printed by W. Woodfall. For T. Cadell, and W. Davies,</publisher><date>1795.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT4686.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text>
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>New Hay at the Old Market; AN OCCASIONAL DRAMA, IN ONE ACT: WRITTEN BY GEORGE COLMAN, (THE YOUNGER,) ON OPENING THE Hay-Market Theatre. On the 9th of <hi>JUNE,</hi> 1795.</p>
 <p>LONDON: PRINTED BY W. WOODFALL. FOR T. CADELL, AND W. DAVIES, STRAND. 1795. [PRICE ONE SHILLING.]</p>
-</div1>
-<div1 type="notice">
+</div>
+<div type="notice">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>IT may be necessary to inform the Reader, who has not seen the following Sketch represented on the Stage, that the character of <hi>Apewell</hi> is meant merely as a vehicle for Mr. Caulfield's <hi>Imitations:</hi> with which both the Mimick, and the Author of the Piece, are convinced, the respectable persons imitated, have too much good sense to be offended. They are given as <hi>Portraits,</hi> not as <hi>Caricatures;</hi> and the Publick has pronounced them to be strong, but unexaggerated likenesses of originals, whom its discernment has long patronised and admired.</p>
 <p>Although the Author has been a litte free with his good friends the Winter Managers, (who are a little free with his Season) he thinks it needless to offer any apology to them. He is upon too good a footing with them to suppose that they expect it. Friends and neighbours may joke with each other. Tap for tap, and so part fair.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -43,11 +43,11 @@
 <label>MOLLY BEEZOM,</label>
 <item>Mrs. GIBBS.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>New Hay at the Old Market.</head>
-<div1 n="1" type="scene">
+<div n="1" type="scene">
 <head><hi>SCENE I.</hi>—</head><stage>An Antichamber in the Manager's House; <hi>Fustian</hi> and <hi>Daggerwood</hi> discovered.— <hi>Fustian</hi> sitting in one chair, <hi>Daggerwood,</hi> asleep, in another.</stage>
 <stage>The Clock strikes Eleven.</stage>
 <sp>
@@ -426,8 +426,8 @@ to Dunstable the day after, for a week, to finish my engagement. Wish for an int
 <l>"Would'st thou not stir in this."—Open the street door. "Go on! I'll follow thee."</l>
 </sp>
 <stage>Exit after Servant▪</stage>
-</div1>
-<div1 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head><hi>SCENE II.</hi>—</head><stage>The inside of the Theatre. Two women, discovered sweeping the Stage. A pail and mop in the corner.</stage>
 <sp>
 <speaker>1st <hi>Woman.</hi></speaker>
@@ -963,7 +963,7 @@ ample reward to those who embark with zeal in their service, and rely with confi
 </lg>
 </lg>
 </sp>
-</div1>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

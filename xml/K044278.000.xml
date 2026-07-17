@@ -7,15 +7,15 @@
 <extent>[2],vi,[8],88p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket,</publisher><date>1774.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Anonymous. By Hugh Kelly.</note><note>Reproduction of original from the British Library.</note><note>Sabin, 77818</note><note>English Short Title Catalog, ESTCT47176.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE School for Wives.</p>
 <p>A COMEDY.</p>
 <p>AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
 <p>LONDON: PRINTED FOR T. BECKET, IN THE STRAND. 1774.</p>
 <p>[PRICE ONE SHILLING AND SIX-PENCE.]</p>
-</div1>
-<div1 type="preface">
+</div>
+<div type="preface">
 <pb facs="2"/>
 <head>PREFACE.</head>
 <p>THE Author of the following performance cannot commit it to the press, without acknowledging the deepest sense of gratitude, for the uncommon marks of approbation with which he has been honoured by the Public.</p>
@@ -37,13 +37,13 @@ them universally obnoxious to society. The author of the School for Wives theref
 <pb n="vi" facs="7"/>
 favourite of the town, was every thing the author could possibly wish in General Savage. Mr. Reddish acquired a very considerable share of merited reputation in Belville. Mr. Moody is unequalled in his Irishmen. Mr. Palmer, from his manner of supporting Leeson, was entitled to a much better part: And Mr. Weston in Torington was admirable. Miss Younge, in Mrs. Belville, extorted applause from the coldest auditor. Her tenderness—her force—her pathos, were the true effusions of genius, and proved that she has no superior where the feelings are to be interested. With respect to Mrs. Abington, enough can never be said. The elegance, the vivacity, the critical nicety with which she went through Miss Walsingham, is only to be guessed at, by those who are familiar with the performance of that exquisite actress. Her Epilogue was delivered with an animation not to be conceived, and manifested the strict propriety, with which she is called the first priestess of the Comic Muse in this country.</p>
 <closer><dateline><date><hi>Jan.</hi> 1, 1774.</date></dateline></closer>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="8"/>
 <p>THE SCHOOL FOR WIVES, BEING A COMEDY IN WHICH THE LADIES ARE PARTICULARLY INTERESTED, IT SHOULD BE ADDRESS'D TO THE FIRST ORNAMENT OF THE SEX; AND IS THEREFORE INSCRIBED WITH THE HIGHEST ADMIRATION AND THE MOST PROFOUND REVERENCE, TO HER MAJESTY; NOT BECAUSE SHE IS THE GREATEST OF QUEENS, BUT BECAUSE IN THE MILDER, AND MORE ENDEARING RELATIONS OF LIFE, SHE IS THE BRIGHTEST PATTERN OF ALL THE FEMALE VIRTUES.</p>
 <closer><dateline><date><hi>January</hi> 1, 1774.</date></dateline></closer>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="9"/>
 <head>PROLOGUE.</head>
 <byline>Spoken by Mr. KING</byline>
@@ -124,8 +124,8 @@ favourite of the town, was every thing the author could possibly wish in General
 <l>And <hi>vice</hi> receive a stab from every <hi>smile.</hi></l>
 </lg>
 </sp>
-</div1>
-<div1 type="epilogue">
+</div>
+<div type="epilogue">
 <pb facs="11"/>
 <head>EPILOGUE.</head>
 <byline>Spoken by Mrs. ABINGTON.</byline>
@@ -174,8 +174,8 @@ favourite of the town, was every thing the author could possibly wish in General
 <l>The risks I run, the partial hard upbraids;</l>
 <l>Wives won't be taught,—be it the <hi>School for Maids.</hi></l>
 </sp>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="13"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -198,15 +198,14 @@ favourite of the town, was every thing the author could possibly wish in General
 <item><label>Miss LEESON,</label> Miss JARRATT,</item>
 <item><label>MAID,</label> Mrs. MILLIDGE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
-<div1 type="play">
 <pb facs="14"/>
 <head>THE School for Wives.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>an Apartment at <hi>BELVILLE</hi>'s.</stage></head>
 <stage><hi>Enter Captain</hi> SAVAGE, <hi>and Miss</hi> WALSINGHAM.</stage>
 <sp>
@@ -420,8 +419,8 @@ Rachel's idolatary, and that in her passion for poetry she had taken leave of al
 <p>Nay, that was not so bad, as the Hamlet's Ghost that box'd with Henry the Eighth, and afterwards danc'd a hornpipe to the tune of Nancy Dawson. Ha! ha! ha!—We follow you, Mrs. Belville.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>Scene changes to</hi> LEESON<hi>'s Chambers in the Temple:</hi></stage></head>
 <stage><hi>Enter</hi> LEESON.</stage>
 <sp>
@@ -617,8 +616,8 @@ I put the twenty guineas in your pocket, before you were up, Sir; and I don't be
 Some people may think me very conceited now; but as the dirtiest black legs in town can wear one without being stared at, I don't think it can suffer any disgrace by the side of an honest man.</p>
 </sp>
 <stage>Exit.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to an Apartment at <hi>BELVILLE'S.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> BELVILLE.</stage>
 <sp>
@@ -834,12 +833,12 @@ of your wife, yet for ever endangering it by your passion for variety.</p>
 </sp>
 <stage>Exit.</stage>
 <trailer><hi>The</hi> END <hi>of the</hi> FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="16" facs="29"/>
 <head>ACT II.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>an Apartment in General <hi>SAVAGE's</hi> House.</stage></head>
 <stage><hi>Enter General</hi> SAVAGE, <hi>and</hi> TORRINGTON.</stage>
 <sp>
@@ -1105,8 +1104,8 @@ stairs;—and now, dear Torrington, you must be as silent as a sentinel on an ou
 <p>I thought you were determin'd to drum her out immediately.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>The <hi>SCENE</hi> changes to <hi>BELVILLE's.</hi></stage></head>
 <stage><hi>Enter Miss</hi> WALSINGHAM, <hi>followed by</hi> BELVILLE.</stage>
 <sp>
@@ -1698,12 +1697,12 @@ Britons, strike home! strike home! Revenge, &amp;c.
 <stage>Exit singing.</stage></p>
 </sp>
 <trailer>END <hi>of the</hi> SECOND ACT.</trailer>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <pb n="33" facs="46"/>
 <head>ACT III.</head>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>Miss</hi> LEESON's <hi>Lodgings.</hi></stage></head>
 <stage><hi>Enter Lady</hi> RACHEL MILDEW, <hi>Mrs.</hi> BELVILLE, <hi>and Miss</hi> LEESON.</stage>
 <sp>
@@ -1861,8 +1860,8 @@ And pray, my dear, who is your company? You know we must be very cautious for fe
 <p><pb n="36" facs="49"/>Now let's see what fortune has sent us above stairs.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to a Dining-room at Miss <hi>LEESON's.</hi></stage></head>
 <stage><hi>Mrs.</hi> BELVILLE <hi>and Lady</hi> RACHEL <hi>discover'd.</hi></stage>
 <sp>
@@ -2009,8 +2008,8 @@ You shan't go renegade—You laugh'd at my credulity this morning, and I must no
 <stage>(<hi>writing.</hi>)</stage>
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to General <hi>SAVAGE's.</hi></stage></head>
 <stage>Enter General and Captain.</stage>
 <sp>
@@ -2129,8 +2128,8 @@ Zounds, Horace! here's the disgrace and punishment of my life: Let's avoid her a
 <p>I am eternally indebted to you, Sir.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>BELVILLE's <hi>House.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> Belville <hi>and Lady</hi> Rachel.</stage>
 <sp>
@@ -2228,8 +2227,8 @@ Zounds, Horace! here's the disgrace and punishment of my life: Let's avoid her a
 <p>I'll attend you, but I am really sorry, my dear, for the love of propriety, to see you so calm under the perfidy of your husband; you should be quite wretched—indeed you should.
 <stage>Ex.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><hi>SCENE,</hi> t<stage>he Temple.</stage></head>
 <stage><hi>Enter</hi> Leeson.</stage>
 <sp>
@@ -2296,8 +2295,8 @@ Zounds, Horace! here's the disgrace and punishment of my life: Let's avoid her a
 bound over to the pace! No, that will never do—it would be a shameful thing for a gintleman to keep the pace! Besides, I must appear in the business, and people may think, from my connexion with him, that he has not honour enough to throw away his life: Suppose I go another way to work, and send an anonymous letter about the affair to Mrs. Belville: They say, though she is a woman of fashion, that no creter upon earth can be fonder of her husband. Surely the good genius of Ireland put this scheme into my head—I'll about it this minute; and if there's only one of them kept from the field, I don't think that the other can be much hurt, when there will be no body to fight with him.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE,</hi> changes to Capt. <hi>SAVAGE's</hi> Lodgings.</stage></head>
 <stage><hi>Enter Captain</hi> SAVAGE <hi>and</hi> BELVILLE.</stage>
 <sp>
@@ -2540,8 +2539,8 @@ So then this diamond of mine proves a counterfeit after all, and I am really the
 <p><hi>Ha let me fly to her assistance</hi>—O, are you thereabouts.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE</hi> changes to Mr. <hi>BELVILLE's.</hi></stage></head>
 <stage><hi>Enter Mrs.</hi> Belville, <hi>Miss</hi> Walsingham <hi>and Lady</hi> Rachel Mildew.</stage>
 <sp>
@@ -2872,11 +2871,11 @@ more proper time; I must beg leave to decline the lady whose hand you kindly int
 So, now indeed, we're in a hopeful situation.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <head>ACT IV.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE,</hi> <stage>an Apartment at <hi>BELVILLE</hi>'s.</stage></head>
 <stage><hi>Enter Mrs.</hi> Belville, <hi>and Captain</hi> Savage.</stage>
 <sp>
@@ -2981,8 +2980,8 @@ So, now indeed, we're in a hopeful situation.
 <p>And, if I thought I cou'd keep my resolution, I'd determine this moment on living single all the days of my life. Pray don't spare my arm, my dear.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>SCENE,</hi> Hyde Park.</stage></head>
 <stage><hi>Enter</hi> BELVILLE.</stage>
 <sp>
@@ -3175,8 +3174,8 @@ uneasy; consider that you have done every thing which honour required at yous ha
 <p>Ah, Sir, is this your opinion of my friendship? Do you think that any thing can ever give me half so much pleasure in serving you, as seeing you surrounded by misfortunes.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>The Scene changes to an Apartment at</hi> Belville's.</stage></head>
 <stage><hi>Enter General</hi> Savage, Torrington, <hi>and</hi> Spruce.</stage>
 <sp>
@@ -3446,8 +3445,8 @@ that I had a previous friend in the fort, and didn't so much as hint at a single
 <p>I thought when you made a presentment of your sweet person to Miss Walsingham, that the bill wou'd be return'd ignoramus.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage>BELVILLE's.</stage></head>
 <stage><hi>Mrs.</hi> BELVILLE <hi>and Lady</hi> RACHEL MILDEW, <hi>discovered on a Sopha.</hi></stage>
 <sp>
@@ -3578,8 +3577,8 @@ go with the servant that brought the message; for he observing the young lady's 
 <p>Zounds! we shall be paid home, for the tricks we have play'd in other families.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>Scene changes to Capt.</hi> SAVAGE's <hi>Lodgings.</hi></stage></head>
 <stage><hi>Enter Captain</hi> SAVAGE.</stage>
 <sp>
@@ -3713,8 +3712,8 @@ go with the servant that brought the message; for he observing the young lady's 
 <p>Perhaps it would be more to the honour of your honourable courts if it was.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>The Scene changes to an Apartment at Mrs.</hi> Crayon'<hi>s,</hi></stage></head>
 <sp>
 <speaker>BEL.</speaker>
@@ -3943,11 +3942,11 @@ mentioned her brother, she never once told me that his name was Belville.</p>
 <p>What's the reason now that I can't skip, and laugh, and rejoice, at this affair? Upon my soul my heart's as full as if I had met with some great misfortune. Well, pleasure in the extreme is certainly a very painful thing: I am really asham'd of these womans drops, and yet I don't know but that I ought to blush for being asham'd of them, for I am sure nobody's eye ever looks half so well, as when it is disfigured by a tear of humanity.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 type="scene">
+<div type="scene">
 <head><hi>SCENE</hi> <stage>a Drawing-Room.</stage></head>
 <stage><hi>Enter</hi> BELVILLE.</stage>
 <sp>
@@ -4020,8 +4019,8 @@ enough to abuse the goodness of that angel your wife; and wicked enough, not onl
 <p>You are a most unaccountable woman; so away with you.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage>SCENE <hi>continued.</hi></stage></head>
 <stage><hi>Enter</hi> Spruce <hi>and</hi> Ghastly.</stage>
 <sp>
@@ -4106,8 +4105,8 @@ specially if I can learn to eat my meat quite raw like a cannibal.</p>
 <p>Well, I don't believe there's a gentleman's gentleman within the weekly bills, who joins a prudent solicitude for the main-chance, to a strict care of his constitution, better than myself. I have a little girl who stands me in about three guineas a week; I never bet more than a pound upon a rubber of whist; I always sleep with my head very warm; and swallow a new laid egg every morning with my chocolate.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>The Scene changes to the Street, two Chairs cross the Stage, knock at a Door, and set down</hi> BELVILLE <hi>and a Lady.</hi></stage></head>
 <sp>
 <speaker>BEL.</speaker>
@@ -4163,8 +4162,8 @@ sollicitors, if you'd venture an oath upon the identity of the party under it.</
 <p>By all means, or the poor fellow's generous anxiety on my account may be productive of very fatal consequences.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <head><stage><hi>The Scene changes to an aparment,</hi> Belville <hi>unmasked, and a lady in a blue domino mask'd.</hi></stage></head>
 <sp>
 <speaker>BEL.</speaker>
@@ -4422,9 +4421,9 @@ So, Sir, you have led us upon a blessed expedition here.</p>
 <p>Come along my old boy; and remember the song, "<hi>Servile spirits,</hi> &amp;c."
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
+</div>
 <pb n="82" facs="95"/>
-<div3 type="scene">
+<div type="scene">
 <head><stage><hi>The Scene changes to</hi> Belville's.</stage></head>
 <stage><hi>Enter Captain</hi> Savage <hi>and Miss</hi> Walsingham.</stage>
 <sp>
@@ -4863,9 +4862,8 @@ And so is the General's, I believe.</p>
 <p>Very true; and unless we learn something while we chuckle, the carpenter who nails a Pantomime together, will be entitled to more applause, than the best comic poet in the kingdom.</p>
 </sp>
 <stage>Exeunt omnes.</stage>
-</div3>
-</div2>
-</div1>
+</div>
+</div>
 </body>
 </text>
 </TEI>

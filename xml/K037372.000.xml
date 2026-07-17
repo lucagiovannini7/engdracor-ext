@@ -7,22 +7,22 @@
 <extent>[8],54p. ; 8⁰.</extent><publicationStmt><publisher>printed for C. Dilly,</publisher><date>1787.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>The dedication signed: James Cobb.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT35551.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>THE FIRST FLOOR; A FARCE. IN TWO ACTS. AS IT IS NOW ACTING At the Theatre Royal in DRURY LANE.</p>
 <p>LONDON: PRINTED FOR C. DILLY, IN THE POULTRY. M.DCC.LXXXVII. [Price 1 <hi>s.</hi>]</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="2"/>
 <head>TO THOMAS KING, <abbr>Esq</abbr></head>
 <p>THE FOLLOWING FARCE IS INSCRIBED, AS A SINCERE ACKNOWLEDGMENT OF THE MATERIAL ADVANTAGES DERIVED FROM HIS EXTENSIVE KNOWLEDGE OF DRAMATIC EFFECT,</p>
 <closer><signed>BY HIS MOST OBEDIENT AND FAITHFUL HUMBLE SERVANT, JAMES COBB.</signed> <dateline><hi>East India</hi> House, <date>22d <hi>January</hi> 1787.</date></dateline></closer>
-</div1>
-<div1 type="acknowledgements">
+</div>
+<div type="acknowledgements">
 <pb facs="3"/>
 <p>THE Publication of THE FIRST FLOOR affords the Author an Opportunity, of which he gladly avails himself, to express his Acknowledgments to the Performers, for the able Manner in which they exerted their Talents in Support of the Piece.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="4"/>
 <head>PROLOGUE.</head>
 <byline>Written by the AUTHOR of the FARCE. And Spoken by Mr. BANNISTER, Jun.</byline>
@@ -81,8 +81,8 @@
 <l>Our Floor thus lett—the graver critics scorning,</l>
 <l>We hope our Lodgers will not give us warning.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="6"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -116,17 +116,17 @@
 <label>NANCY</label>
 <item>Mrs. WILSON.</item>
 </list>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <p><hi>Memorandum:</hi>—Such parts as are marked with inverted commas are omitted in the representation.</p>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="7"/>
 THE FIRST FLOOR.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I. <stage>An Inn in London.</stage></head>
 <stage>Enter LANDLORD and MONFORD.</stage>
 <sp>
@@ -335,8 +335,8 @@ don't tell me of having lost your heart—a young girl's heart is like a tame pi
 <p>Certainly, Sir, if it is but a yard of rope—I think I should know how to apply it properly.</p>
 <stage>[Exeunt severally.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>Mrs. PATTYPAN's Shop.</stage></head>
 <stage>Mrs. PATTYPAN and YOUNG WHIMSEY.</stage>
 <sp>
@@ -529,8 +529,8 @@ Enter MONFORD.</stage>
 <p>I'cod you'll make a pretty penny of him before you have done with him, I warrant.</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE <stage>a Room in Mrs. Pattypan's House.</stage></head>
 <stage>Mrs. PATTYPAN discovered.</stage>
 <sp>
@@ -944,7 +944,7 @@ hands, and have given you half his fortune, for making a fool of him."</p>
 </sp>
 <sp>
 <speaker>"Whim.</speaker>
-<p><stage>[Aside]</stage> Why—why—why—you are a bold man, that's all— <stage>[Aloud.]"</stage> Come, as it is a bargain, take hands on it—take hands—nay, salute her—come, kiss her, my boy.</p>
+<p><stage>[Aside]</stage> Why—why—why—you are a bold man, that's all— <stage>[Aloud.]</stage> Come, as it is a bargain, take hands on it—take hands—nay, salute her—come, kiss her, my boy.</p>
 </sp>
 <sp>
 <speaker>"Mrs. Patt.</speaker>
@@ -1213,13 +1213,13 @@ hands, and have given you half his fortune, for making a fool of him."</p>
 <p><stage>[Coming forward.]</stage> Old Mother Pattypan! Old!—I shall run mad! What a plot!—'Tis lucky, however, I have discover'd it—I'll take care there shall be no elopement.—Old, indeed!—and too loving!—I don't know what the deuce the fellows wou'd have; when we are young, we are not half loving enough, forsooth!—and when a few years have taught us how to remedy the defect, they treat our improvement with contempt!</p>
 <stage>[Exit.</stage>
 </sp>
-</div2>
+</div>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="28" facs="34"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a room in Mrs. PATTYPAN's house, with two windows in the back scene.</stage></head>
 <stage>Enter YOUNG WHIMSEY and NANCY.</stage>
 <sp>
@@ -1792,10 +1792,10 @@ he is tipsey he does not care what he does—"I know old mistress will find out 
 <speaker>Tim.</speaker>
 <p>Don't be in a hurry, my love—you see I am going—going—going— <stage>[falls asleep]</stage></p>
 </sp>
-<stage>"Enter MONFORD.</stage>
+<stage>Enter MONFORD.</stage>
 <sp>
 <speaker>"Monf.</speaker>
-<p>I can't conceive where Charlotte can be—she ought to have been punctual at this time, when the crisis of our fate approaches—when— <stage>[Tim snores]</stage> Hey-day! what have we here? my friend Timothy stopt short on his journey to bed, and fallen asleep by the way—Hush! I hear a noise on the stairs—let me listen. <stage>[Retires."]</stage></p>
+<p>I can't conceive where Charlotte can be—she ought to have been punctual at this time, when the crisis of our fate approaches—when— <stage>[Tim snores]</stage> Hey-day! what have we here? my friend Timothy stopt short on his journey to bed, and fallen asleep by the way—Hush! I hear a noise on the stairs—let me listen. <stage>[Retires.]</stage></p>
 </sp>
 <stage><pb n="42" facs="48"/>
 Enter YOUNG WHIMSEY, on the other Side.</stage>
@@ -1845,7 +1845,7 @@ opposite sides of the stage, towards the curtain; and do not perceive each other
 </sp>
 <sp>
 <speaker>"Monf.</speaker>
-<p><stage>[Aside]</stage> A strange fellow!— <stage>[to him]"</stage> I expect a person here presently, from whom I must be conceal'd.</p>
+<p><stage>[Aside]</stage> A strange fellow!— <stage>[to him]</stage> I expect a person here presently, from whom I must be conceal'd.</p>
 </sp>
 <sp>
 <speaker>Y. Whim.</speaker>
@@ -2067,14 +2067,14 @@ Enter CHARLOTTE and MONFORD, with his arm round her waist, as if talking to her�
 </sp>
 <sp>
 <speaker>Mrs. Patt.</speaker>
-<p><stage>"[aside]</stage> Oh you did! yes, yes, they are going off to-night; but I'll watch them."—Yes, ma'am, I thought it was Mr. Timothy too.—The old gentleman cou'd never suppose I meant to make love to <hi>him</hi>—ha! ha! ha!</p>
+<p><stage>[aside]</stage> Oh you did! yes, yes, they are going off to-night; but I'll watch them."—Yes, ma'am, I thought it was Mr. Timothy too.—The old gentleman cou'd never suppose I meant to make love to <hi>him</hi>—ha! ha! ha!</p>
 </sp>
 <sp>
 <speaker>Whim.</speaker>
 <p>Faith I don't know, Mrs. Pattypan—the love of some ladies is a kind of universal philanthropy—it extends to all mankind— <stage>[Exit Mrs. Patt.]</stage> And pray, Sir, did you think it was Mr. Timothy too?—In short, Monford, we have all passed a mighty agreeable evening, and it is now time to go to bed.—One word at parting—if you marry Mrs. Pattyman—you had better continue to keep a sharp look out after Mr. Timothy.—"Depend upon it, you'll often meet with him where you don't expect to find him."—So good-night t' ye. <stage>[Exeunt Whimsey and Charlotte; and Monford on the opposite side.]</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="49" facs="55"/>
 <head><stage>SCENE changes, and discovers the doors of four Rooms.</stage></head>
 <stage>Enter YOUNG WHIMSEY and SIMON.</stage>
@@ -2242,8 +2242,8 @@ a Lord Mayor's show—But how the devil we came here in couples, seems as yet to
 <speaker>Whim.</speaker>
 <p>Ah! rot your two fires!—the dog has me fast—I dare not refuse my consent; and so, Monford, take my daughter; but curse me, if I intended you shou'd have had her.—As for you, Mrs. Pattypan—may you find marriage like one of your own tarts, with no more acid in in, than is just enough to render the sweets more poignant.—To crown your satisfaction, may your lodgings never remain empty; and may every friend who takes a peep at the First Floor, honour it with their <hi>approbation.</hi></p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

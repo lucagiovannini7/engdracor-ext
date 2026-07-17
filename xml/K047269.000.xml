@@ -7,14 +7,14 @@
 <extent>48p. ; 8⁰.</extent><publicationStmt><publisher>printed for C. and G. Kearsley,</publisher><date>1791.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT52152.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p><hi>Two Strings to your Bow,</hi> A FARCE, <hi>IN TWO ACTS,</hi> AS NOW PERFORMED AT THE THEATRE-ROYAL, COVENT-GARDEN, WITH DISTINGUISHED APPLAUSE.</p>
 <p><hi>BY ROBERT JEPHSON, ESQ.</hi></p>
 <p><hi>London:</hi> PRINTED FOR C. AND G. KEARSLEY, NO. 46, FLEET-STREET. 1791.</p>
 <p>PRICE ONE SHILLING.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="2"/>
 <head>DRAMATIS PERSONAE.</head>
 <list>
@@ -33,16 +33,15 @@
 <item><label><hi>Leonora,</hi> Mistress of Ferdinand,</label> Miss STEWART.</item>
 <item><label>A Maid Servant,</label> Miss BRANGIN.</item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, <hi>GRENADA.</hi></p></set>
 </front>
 <body>
-<div1 type="play">
 <pb facs="3" ana="y"/>
 <head>TWO STRINGS TO YOUR BOW.</head>
-<div2 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I. <stage>DON PEDRO's <hi>House.</hi></stage></head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> Don Sancho, Don Pedro, <hi>and</hi> Borachio.</stage>
 <sp>
 <speaker><hi>Don</hi> SANCHO.</speaker>
@@ -521,8 +520,8 @@ are upon you, I must trouble you for 200 pistoles.</p>
 <p>I am much obliged to you, and will take the liberty to send my servant. I can depend upon his honesty.
 <stage>Exeunt.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE <hi>changes to the Hotel.</hi></stage>
 <stage><hi>Enter</hi> Borachio.</stage>
 <sp>
@@ -560,9 +559,9 @@ are upon you, I must trouble you for 200 pistoles.</p>
 <p>I found him in my journey. He's an odd mixture of simplicity and cunning; but I have no reason to suspect his honesty, and that's the quality for which at present I have most occasion.</p>
 </sp>
 <stage>Exeunt.</stage>
-</div3>
+</div>
 <pb n="17" facs="15"/>
-<div3 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>A Hall in the Hotel.</hi></stage></head>
 <stage>Lazarillo, <hi>alone.</hi></stage>
 <sp>
@@ -1094,12 +1093,12 @@ fortunate fellow was I not to make any mistake about the money!—If a man takes
 <stage>Exit.</stage></p>
 </sp>
 <trailer>END OF THE FIRST ACT.</trailer>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="29" facs="27"/>
 <head>ACT II. SCENE I.—<stage>DON PEDRO's <hi>House.</hi></stage></head>
-<div3 type="scene">
+<div type="scene">
 <stage><hi>Enter</hi> Clara <hi>and</hi> Leonora.</stage>
 <sp>
 <speaker>CLARA.</speaker>
@@ -1354,8 +1353,8 @@ By Heaven, you injure me.</p>
 which honour must prevent me, without her permission.
 <stage>Exit.</stage></p>
 </sp>
-</div3>
-<div3 type="scene">
+</div>
+<div type="scene">
 <stage>SCENE <hi>changes to the Hotel.</hi></stage>
 <stage>Two Doors are placed obliquely at opposite Sides of the Stage, as Entrances to different Chambers. Table and Chairs.</stage>
 <stage><hi>Enter</hi> Lazarillo.</stage>
@@ -2051,7 +2050,7 @@ was Major Domo to the first Grandee of Arragon, he was called Don Guzman Poderos
 <sp>
 <speaker>Lazar.</speaker>
 <p>O yes, Sir, very surreptible. A certain Duke, a particular friend of my master's, came to condole with him (for poor Grandee, he was quite uncomfortable) and spying me wiping my eyes in an outward room, with a Barcelona handkerchief, as he was taking leave of my master, says he, Don Dumpos, I am sorry for your misfortune; but be of good heart, pray be comforted. If you had lost your wife as well as your daughter, I should hardly know how to pity you, while you possess such a treasure in a servant as the incomparable Lazarillo.
-<stage>(Meaning me, Sir.)</stage></p>
+<hi>(Meaning me, Sir.)</hi></p>
 </sp>
 <sp>
 <speaker>Octa.</speaker>
@@ -2091,10 +2090,9 @@ Madam, your ingenuity has had already such ample revenge for the rude language I
 <stage>(to the Audience),</stage>
 <hi>my kinder masters, but approve.</hi></l>
 </sp>
-</div3>
-</div2>
+</div>
 <trailer>FINIS.</trailer>
-</div1>
+</div>
 </body>
 </text>
 </TEI>

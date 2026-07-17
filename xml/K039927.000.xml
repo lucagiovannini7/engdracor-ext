@@ -7,17 +7,17 @@
 <extent>[4],38p. ; 8⁰.</extent><publicationStmt><publisher>printed for T. Becket and Co.,</publisher><date>1766.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>A translation and adaptation by David Garrick of A. R. Le Sage's 'Crispin, rival de son maı̂tre'.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT39738.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="titlepage">
+<div type="titlepage">
 <pb facs="1" ana="y"/>
 <p>NECK OR NOTHING A FARCE. IN TWO ACTS. AS IT IS PERFORMED AT THE THEATRE ROYAL IN DRURY-LANE.</p>
 <p>LONDON: Printed for T. BECKET and Co. near Surry-Street, in the Strand. MDCCLXVI. [Price One Shilling.]</p>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="2"/>
 <head>ADVERTISEMENT.</head>
 <p>THE Author of the following Piece will claim no Merit that does not belong to him.—He therefore takes this opportunity of acknowleging his obligation to the celebrated Author of <hi>Gil Blas.</hi>—Trifling as it is, the following Farce is an imitation of the <hi>Crispin Rival de Son Maitre</hi> of LE SAGE.</p>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="3"/>
 <head>Dramatis Personae.</head>
 <list>
@@ -42,13 +42,13 @@
 <label>Jenny, (her Maid)</label>
 <item>Miss POPE.</item>
 </list>
-</div1>
+</div>
 </front>
 <body>
 <head><pb facs="4"/>NECK OR NOTHING, A FARCE.</head>
-<div1 n="1" type="act">
+<div n="1" type="act">
 <head>ACT I.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage>a street.</stage></head>
 <stage><hi>Enter</hi> Martin.</stage>
 <sp>
@@ -362,8 +362,8 @@ her fortune, and now, by my help, hopes to be in possession of both in a few day
 <l>If impudence will do our business, 'tis done,</l>
 <l>And the twenty thousand are our own. <stage>[<hi>Exit</hi> Slip.</stage></l>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <pb n="7" facs="10"/>
 <head>SCENE, <stage><hi>an apartment in Mr.</hi> Stockwell<hi>'s house.</hi></stage></head>
 <stage><hi>Enter Miss</hi> Nancy <hi>and</hi> Jenny.</stage>
@@ -1073,13 +1073,13 @@ and don't forget my compliments to the marchioness. <stage>[aloud.</stage></p>
 <p>O, yes, to follow your own inclinations; that's a good young lady.—Well, I am at present much given to mischief.—So, if you'll go into your chamber, lock the door, and let us lay our little heads together for half an hour, if we don't counterplot your wise papa, and his intended son-in-law—we deserve never to be married, or if we are, to be govern'd by our husbands.</p>
 <stage>[exeunt.</stage>
 </sp>
-</div2>
+</div>
 <trailer>End of the first Act.</trailer>
-</div1>
-<div1 n="2" type="act">
+</div>
+<div n="2" type="act">
 <pb n="19" facs="22"/>
 <head>ACT II.</head>
-<div2 type="scene">
+<div type="scene">
 <head>SCENE, <stage><hi>a hall in</hi> Stockwell<hi>'s house.</hi></stage></head>
 <stage><hi>Enter</hi> Belford.</stage>
 <sp>
@@ -1797,8 +1797,8 @@ there is a pretty estate to be sold in Dorsetshire, near my father's, and I have
 <speaker>Slip.</speaker>
 <p>And I'll be upon the watch, for fear of mischief. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>an apartment in</hi> Stockwell<hi>'s house.</hi></stage></head>
 <stage><hi>Enter</hi> Stockwell <hi>and</hi> Jenny.</stage>
 <sp>
@@ -1839,8 +1839,8 @@ there is a pretty estate to be sold in Dorsetshire, near my father's, and I have
 <pb n="31" facs="36"/>
 at the bottom of this, I cannot yet fathom:—but I will fathom it.—I never was out of a secret yet, that I had a mind to find out; and that's all that have come a-cross me,—and my pride won't let me be long out of this.—I will go directly to Mr. Belford's, where we'll lay our heads together, and beget such a piece of mischief, that shall be hard for the devil himself, if he has the impudence to try confusions with me. <stage>[Exit.</stage></p>
 </sp>
-</div2>
-<div2 type="scene">
+</div>
+<div type="scene">
 <head>SCENE, <stage><hi>the street before</hi> Stockwell<hi>'s house.</hi></stage></head>
 <stage>Stockwell, Martin, <hi>and</hi> Slip.</stage>
 <sp>
@@ -2218,8 +2218,8 @@ you do? or what am I to do?—I'm all in the dark—pitch-dark.—</p>
 <speaker>Sir <hi>Har.</hi></speaker>
 <p>Right, Mr. Stockwell. 'Tis a good thing to punish villainy; but 'tis a better to make virtue happy:—and so let us about it.</p>
 </sp>
-</div2>
-</div1>
+</div>
+</div>
 <trailer>FINIS.</trailer>
 </body>
 </text>

@@ -7,7 +7,7 @@
 <extent>v,[3],83,[1]p. ; 8⁰.</extent><publicationStmt><publisher>printed for A. Millar,</publisher><date>1745.</date><pubPlace>London :</pubPlace></publicationStmt><notesStmt><note>Line 1 on p. iv ends: by; without the price on the titlepage.</note><note>Variant 1: line 1 on p. iv ends: by; with the price on the titlepage.</note><note>Variant 2: a different setting of pp. [iii], iv; line 1 on p. iv ends: ex-; with the price on the titlepage.</note><note>The ornaments are those used by Henry Woodfall.</note><note>Reproduction of original from the British Library.</note><note>English Short Title Catalog, ESTCT49863.</note><note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note></notesStmt>
 </biblFull></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Subset of the ECCO project. Included were all dramatic texts excluding operas, primarily musical forms, ballets, pantomimes, entertainments, etc. All files have been proofread systematically to produce highly improved though not yet critical versions of the plays.</p></projectDesc><editorialDecl><p>This electronic text is based on the ECCO Text Creation Partnership, which originally keyed the file from page images and partially proofread for accuracy. To improve upon the raw ECCO TCP file, the file was transformed into valid TEI P5, <gi>gap</gi>s were filled following the original edition, and the text systematically proofread for frequent OCR mistakes. Furthermore, the attribution of dialog to speakers, the distinction between stage directions and dialog, stage directions and speech prefixes, stage directions and headings as well as the segmentation of the play into acts and scenes was checked systematically and corrected whenever deemed necessary.</p></editorialDecl></encodingDesc><profileDesc><langUsage><language ident="en">eng</language></langUsage></profileDesc></teiHeader><text xml:lang="en">
 <front>
-<div1 type="frontispiece">
+<div type="frontispiece">
 <pb facs="1"/>
 <p><figure>
 <p>Act IV. <hi>TANCRED</hi> and <hi>SIGISMUNDA,</hi> Sce. II.</p>
@@ -15,14 +15,14 @@
 <l>Heavens! did I hear thee right? what! marry'd? marry'd!</l>
 <l>Lost to thy faithful Tancred! lost for ever!</l>
 </figure></p>
-</div1>
-<div1 type="titlepage">
+</div>
+<div type="titlepage">
 <pb facs="2" ana="y"/>
 <p><hi>Tancred</hi> and <hi>Sigismunda.</hi> A TRAGEDY. As it is Acted at the THEATRE-ROYAL IN <hi>DRURY-LANE,</hi> By His MAJESTY'S Servants.</p>
 <p>By <hi>JAMES THOMSON.</hi></p>
 <p><hi>LONDON:</hi> Printed for A. MILLAR, opposite <hi>Katharine-street</hi> in the <hi>Strand.</hi> M.DCC.XLV. (Price One Shilling and Six-pence.)</p>
-</div1>
-<div1 type="dedication">
+</div>
+<div type="dedication">
 <pb facs="3"/>
 <head>TO HIS ROYAL HIGHNESS FREDERICK, PRINCE of WALES.</head>
 <opener><salute>SIR,</salute></opener>
@@ -33,18 +33,18 @@ the Influence of such a Protection, by exciting good Writers to labour with more
 ROYAL HIGHNESS may be judged not unworthy of your Protection, at least in the <hi>Sentiments</hi> which it inculcates. A warm and grateful Sense of your Goodness to me makes me desirous to seize every Occasion of declaring in Publick, with what profound Respect and dutiful Attachment, I am,</p>
 <closer><salute><hi>SIR,</hi> </salute>
 <signed>Your ROYAL HIGHNESS'S Most obliged, Most obedient, and Most devoted Servant, <hi>James Thomson.</hi></signed></closer>
-</div1>
-<div1 type="note">
+</div>
+<div type="note">
 <pb facs="6"/>
 <head>ADVERTISEMENT.</head>
 <p>THIS Play is considerably shortened in the Performance; but I hope it will not be disagreeable to the Reader to see it as it was at first written; there being a great Difference betwixt a Play in the Closet, and upon the Stage.</p>
-</div1>
-<div1 type="publisher'sadvertisement">
+</div>
+<div type="publisher'sadvertisement">
 <head>Printed for <hi>A. MILLAR,</hi> in the <hi>Strand.</hi></head>
 <p n="1">I. A NEW Edition of all Mr. THOMSON'S Works, carefully corrected; with the Addition of above One Thousand New Lines. In Two Volumes, Octavo, on good Paper, and a large Letter; containing his SEASONS, all his other Poems, and his Three Tragedies. Price bound Ten Shillings.</p>
 <p n="2">II. His SEASONS, printed in a Pocket Volume. Price bound Three Shillings.</p>
-</div1>
-<div1 type="prologue">
+</div>
+<div type="prologue">
 <pb facs="7"/>
 <head>PROLOGUE.</head>
 <lg>
@@ -83,8 +83,8 @@ ROYAL HIGHNESS may be judged not unworthy of your Protection, at least in the <h
 <l>If warm'd they listen, 'tis our noblest Praise;</l>
 <l>If cold, they wither all the Muse's Bays.</l>
 </lg>
-</div1>
-<div1 type="dramatispersonae">
+</div>
+<div type="dramatispersonae">
 <pb facs="8"/>
 <head>The Persons Represented.</head>
 <list>
@@ -103,16 +103,16 @@ ROYAL HIGHNESS may be judged not unworthy of your Protection, at least in the <h
 <label>BARONS, OFFICERS, GUARDS, &amp;c.</label>
 <item> </item>
 </list>
-</div1>
+</div>
 <set><p>SCENE, The City of <hi>Palermo</hi> in <hi>Sicily.</hi></p></set>
 </front>
 <body>
-<div1 type="text">
+<div type="text">
 <pb facs="9"/>
 <head><hi>Tancred</hi> and <hi>Sigismunda.</hi></head>
 <head type="sub">A TRAGEDY.</head>
-<div2 n="1" type="act">
-<div3 n="1" type="scene">
+<div n="1" type="act">
+<div n="1" type="scene">
 <head>ACT I. SCENE I.</head>
 <stage>SIGISMUNDA, LAURA.</stage>
 <sp>
@@ -299,8 +299,8 @@ With Gentleness of Heart, and manly Reason!</l>
 <speaker>LAURA.</speaker>
 <l>Madam, your Father comes.</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>SIFFREDI, SIGISMUNDA, LAURA.</stage>
 <sp>
@@ -372,8 +372,8 @@ With Gentleness of Heart, and manly Reason!</l>
 <l>And he has done it largely—Leave me now—</l>
 <l>I want some private Conference with Lord TANCRED.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="7" facs="15"/>
 <head>SCENE III.</head>
 <sp>
@@ -393,8 +393,8 @@ With Gentleness of Heart, and manly Reason!</l>
 <l>Which our own Good prefers to that of Millions!—</l>
 <l>He comes—my King—unconscious of his Fortune.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>TANCRED. SIFFREDI.</stage>
 <sp>
@@ -744,8 +744,8 @@ Let me not be exalted into Shame,</l>
 <l>Invigorate, cherish, and reward each other.</l>
 <l>The kind all-ruling WISDOM is no Tyrant.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>TANCRED</speaker>
@@ -761,8 +761,8 @@ Let me not be exalted into Shame,</l>
 <l>Th' exalted Heart can know, the mixt Effusion</l>
 <l>Of Gratitude and Love!—Behold, She comes!</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage>TANCRED. SIGISMUNDA.</stage>
 <sp>
@@ -968,12 +968,12 @@ And Pomp of Courts! Such is the Wish of Love;</l>
 <l>Is all the Bliss which sovereign Power can give.</l>
 </lg>
 </sp>
-</div3>
-</div2>
-<div2 n="2" type="act">
+</div>
+</div>
+<div n="2" type="act">
 <pb n="20" facs="28"/>
 <head>ACT II.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <sp>
 <speaker>SIFFREDI</speaker>
@@ -1055,8 +1055,8 @@ He must submit, his Dream of Love must vanish—</l>
 <l>My Schemes are all in vain.</l>
 </lg>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>OSMOND. SIFFREDI.</stage>
 <sp>
@@ -1159,8 +1159,8 @@ I here embrace Earl OSMOND as my Friend,</l>
 <l>We will compleat this salutary Work,</l>
 <l>Will there begin a new auspicious Era.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <sp>
 <speaker>OSMOND</speaker>
@@ -1182,8 +1182,8 @@ Resigns his Daughter to a Husband's Power,</l>
 <l>And manly Tenderness, will ever love her;</l>
 <l>Not first a kneeling Slave, and then a Tyrant.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage>OSMOND. BARONS.</stage>
 <sp>
@@ -1239,8 +1239,8 @@ Gives Safety, Strength, and Glory to a People</l>
 <l>The brave unhappy MANFRED—Come, my Lords;</l>
 <l>We tarry here too long.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage><hi>TWO OFFICERS,</hi> keeping off the Croud.</stage>
 <sp>
@@ -1310,8 +1310,8 @@ Gives Safety, Strength, and Glory to a People</l>
 <speaker>2<span rend="sup">d</span> OFFICER.</speaker>
 <l>My Lord RODOLPHO comes.</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="28" facs="36"/>
 <head>SCENE VI.</head>
 <stage><hi>RODOLPHO,</hi> from the Senate.</stage>
@@ -1348,8 +1348,8 @@ Gives Safety, Strength, and Glory to a People</l>
 <l>Passes along—</l>
 </sp>
 <stage>[<hi>SIGISMUNDA</hi> and Attendants pass thro' the Back Scene. <hi>LAURA</hi> advances.</stage>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <pb n="29" facs="37"/>
 <head>SCENE VII.</head>
 <stage>RODOLPHO, LAURA.</stage>
@@ -1395,8 +1395,8 @@ He left the poor unhappy SIGISMUNDA,</l>
 <l>His faithless Vows will render hateful to her—</l>
 <l>He comes—Farewel—I cannot bear his Presence!</l>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>TANCRED, SIFFREDI, RODOLPHO.</stage>
 <sp>
@@ -1679,8 +1679,8 @@ Alas! what meant thy Wantonness of Prudence?</l>
 <l>The Vengeance thou deservest—No Reply!</l>
 <l>Away!</l>
 </sp>
-</div3>
-<div3 n="9" type="scene">
+</div>
+<div n="9" type="scene">
 <head>SCENE IX.</head>
 <stage>TANCRED. RODOLPHO.</stage>
 <sp>
@@ -1839,11 +1839,11 @@ Secure an Interview—I would not bear</l>
 <l>Her Smiles alone can calm my raging Soul.</l>
 </lg>
 </sp>
-</div3>
-</div2>
-<div2 n="3" type="act">
+</div>
+</div>
+<div n="3" type="act">
 <head>ACT III.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <sp>
 <speaker>SIGISMUNDA</speaker>
@@ -1912,8 +1912,8 @@ The Groves are worse, the soft Retreat of <hi>Belmont,</hi></l>
 <l>Shall I sustain his Presence?</l>
 </lg>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>SIFFREDI, SIGISMUNDA.</stage>
 <sp>
@@ -2166,8 +2166,8 @@ Who can, and will protect Thee; one to awe</l>
 <l>Combate her Weakness; dissipate her Tears;</l>
 <l>Cherish, and reconcile Her to her Duty.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>SIGISMUNDA. LAURA.</stage>
 <sp>
@@ -2352,8 +2352,8 @@ Begins to fail me—Ah, my Vaunts how vain!</l>
 <speaker>LAURA.</speaker>
 <l>Madam!—</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="52" facs="60"/>
 <head>SCENE IV.</head>
 <stage>SIFFREDI. OSMOND. SIGISMUNDA. LAURA.</stage>
@@ -2397,8 +2397,8 @@ Begins to fail me—Ah, my Vaunts how vain!</l>
 <l>If by this sudden Accident alarm'd,</l>
 <l>I leave you for a Moment.</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>OSMOND</speaker>
@@ -2441,12 +2441,12 @@ What can this mean?—Is it to me Aversion?</l>
 <l>Not flattering steals, but forms himself the Heart.</l>
 </lg>
 </sp>
-</div3>
-</div2>
-<div2 n="4" type="act">
+</div>
+</div>
+<div n="4" type="act">
 <pb n="54" facs="62"/>
 <head>ACT IV.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <stage>The Garden belonging to <hi>SIFFREDI</hi>'s House.</stage>
 <stage>SIGISMUNDA, LAURA.</stage>
@@ -2596,8 +2596,8 @@ TANCRED.</p>
 <l>Heavens! how escape?</l>
 <l>No—I will stay—This one last Meeting—Leave me</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage>TANCRED, SIGISMUNDA.</stage>
 <sp>
@@ -2726,8 +2726,8 @@ Has plac'd an everlasting Bar betwixt Us—</l>
 <l>But—Madness!—Sure, Thou knowst it cannot be!</l>
 <l>This Hand is mine! a thousand thousand Vows—</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <head>SCENE III.</head>
 <stage>TANCRED. OSMOND. SIGISMUNDA.</stage>
 <sp>
@@ -2793,8 +2793,8 @@ Has plac'd an everlasting Bar betwixt Us—</l>
 <l>Dare not to touch it, Traitor! lest my Rage</l>
 <l>Break loose, and do a Deed that misbecomes me.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <pb n="62" facs="70"/>
 <head>SCENE IV.</head>
 <stage>TANCRED. SIFFREDI. OSMOND.</stage>
@@ -2840,8 +2840,8 @@ Who dost presume to lift thy surly Eye</l>
 <l>Yes—chew thy Rage—but mark me—on thy Life,</l>
 <l>No further urge thy arrogant Pretensions!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <stage>SIFFREDI. OSMOND.</stage>
 <sp>
@@ -2924,8 +2924,8 @@ Of wide-establish'd Order out of Joint,</l>
 <l>Oft has the Lustre of avenging Steel</l>
 <l>Unseal'd her stupid Eyes—The Sword is Reason!</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <head>SCENE VI.</head>
 <stage><hi>SIFFREDI. OSMOND. RODOLPHO,</hi> (with Guards.</stage>
 <sp>
@@ -2977,11 +2977,11 @@ Farewel, my Lord—More than my Life and Fortune,</l>
 <l>Till nobler Patience sanctifies its Flame.</l>
 </lg>
 </sp>
-</div3>
-</div2>
-<div2 n="5" type="act">
+</div>
+</div>
+<div n="5" type="act">
 <head>ACT V.</head>
-<div3 n="1" type="scene">
+<div n="1" type="scene">
 <head>SCENE I.</head>
 <sp>
 <speaker>SIFFREDI,</speaker>
@@ -3030,8 +3030,8 @@ But how proceed?—I only faster rush</l>
 <l>When o'er the World tremendous Midnight reigns,</l>
 <l>By the dire Gloom of raging Tempest doubled—</l>
 </sp>
-</div3>
-<div3 n="2" type="scene">
+</div>
+<div n="2" type="scene">
 <head>SCENE II.</head>
 <stage><hi>SIFFREDI. OSMOND,</hi> discovering himself.</stage>
 <sp>
@@ -3223,8 +3223,8 @@ Risque the dire Means of War—The King, Tomorrow,</l>
 <speaker>OSMOND.</speaker>
 <l>My Lord, good-night.</l>
 </sp>
-</div3>
-<div3 n="3" type="scene">
+</div>
+<div n="3" type="scene">
 <pb n="72" facs="80"/>
 <head>SCENE III.</head>
 <sp>
@@ -3278,8 +3278,8 @@ But to a Man, whom greater Dangers press,</l>
 <l>With brave Impatience wait. The Mine is laid,</l>
 <l>And only wants my kindling Touch to spring.</l>
 </sp>
-</div3>
-<div3 n="4" type="scene">
+</div>
+<div n="4" type="scene">
 <head>SCENE IV.</head>
 <stage><hi>SIGISMUNDA'S</hi> Apartment.</stage>
 <stage>SIGISMUNDA. LAURA.</stage>
@@ -3319,8 +3319,8 @@ But to a Man, whom greater Dangers press,</l>
 <l>With Tears, I can persuade myself to leave you—</l>
 <l>Well then—Goodnight, my dearest SIGISMUNDA!</l>
 </sp>
-</div3>
-<div3 n="5" type="scene">
+</div>
+<div n="5" type="scene">
 <head>SCENE V.</head>
 <sp>
 <speaker>SIGISMUNDA.</speaker>
@@ -3347,8 +3347,8 @@ But to a Man, whom greater Dangers press,</l>
 <l>And awful Midnight round—Again!—O Heavens!</l>
 <l>My Lord the King!</l>
 </sp>
-</div3>
-<div3 n="6" type="scene">
+</div>
+<div n="6" type="scene">
 <pb n="75" facs="83"/>
 <head>SCENE VI.</head>
 <stage>TANCRED. SIGISMUNDA.</stage>
@@ -3541,8 +3541,8 @@ O leave me! fly me! were it but in Pity!—</l>
 <l>They tear it so, they pierce it with such Anguish—</l>
 <l>Oh 'tis too much!—I cannot bear the Conflict!</l>
 </sp>
-</div3>
-<div3 n="7" type="scene">
+</div>
+<div n="7" type="scene">
 <head>SCENE VII.</head>
 <stage>TANCRED. OSMOND. SIGISMUNDA.</stage>
 <sp>
@@ -3585,8 +3585,8 @@ O leave me! fly me! were it but in Pity!—</l>
 <l>Exult—'Tis well—'Tis great!—I die content.—</l>
 <stage>[dies.</stage>
 </sp>
-</div3>
-<div3 n="8" type="scene">
+</div>
+<div n="8" type="scene">
 <head>SCENE VIII.</head>
 <stage>TANCRED. SIFFREDI. RODOLPHO. SIGISMUNDA. LAURA.</stage>
 <sp>
@@ -3749,13 +3749,13 @@ And mocks my feeble Tears!—Hence! quickly, hence!</l>
 <l>Keep Virtue's simple Path before your Eyes,</l>
 <l>Nor think from Evil Good can ever rise.</l>
 </sp>
-</div3>
-</div2>
+</div>
+</div>
 <trailer>The END.</trailer>
-</div1>
+</div>
 </body>
 <back>
-<div1 type="epilogue">
+<div type="epilogue">
 <pb facs="92"/>
 <head>EPILOGUE.</head>
 <stage>Spoken by MISS BUDGELL.</stage>
@@ -3804,7 +3804,7 @@ And mocks my feeble Tears!—Hence! quickly, hence!</l>
 <l>O keep the dear Impression on your Breast,</l>
 <l>Nor idly lose it for a wretched Jest!</l>
 </lg>
-</div1>
+</div>
 </back>
 </text>
 </TEI>
