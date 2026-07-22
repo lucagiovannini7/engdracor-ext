@@ -388,16 +388,6 @@
       border: 1px solid #fcd34d; border-radius: 4px; cursor: pointer;
     }
     .merge-go:hover { background: #fde68a; }
-    .co-btn {
-      font-size: 11px; padding: 2px 6px; margin-left: 4px;
-      background: #dbeafe; color: #1e40af;
-      border: 1px solid #93c5fd; border-radius: 3px; cursor: pointer;
-    }
-    .co-btn:hover { background: #bfdbfe; }
-    .co-panel {
-      flex-basis: 100%; display: flex; align-items: center; gap: 5px;
-      margin-top: 3px; padding-top: 3px; border-top: 1px solid var(--border);
-    }
 
     /* undo banner */
     .undo-banner {
@@ -1133,7 +1123,7 @@ function renderSpeakersColumn(file) {
     banner.innerHTML =
       `<span class="undo-from">${esc(lastMerge.fromId)}</span>` +
       `<span class="undo-arrow">→</span>` +
-      `<span class="undo-to">${esc(lastMerge.toId)}</span>`;
+      `<span class="undo-to">${esc((lastMerge.toIds || [lastMerge.toId]).join(' + '))}</span>`;
     const undoBtn = document.createElement('button');
     undoBtn.className = 'undo-btn';
     undoBtn.textContent = '↩ Undo';
@@ -1155,47 +1145,15 @@ function renderSpeakersColumn(file) {
       ok.className = 'sp-ok';
       ok.innerHTML = `✓ <span>${esc(nameMap.get(id))}</span>`;
       item.appendChild(ok);
-
-      // Co-speaker toggle button
-      const others = persons.filter(p => p.xid !== id);
-      if (others.length) {
-        const coBtn = document.createElement('button');
-        coBtn.className = 'co-btn';
-        coBtn.textContent = '⊕';
-        coBtn.title = 'Add a co-speaker to these speeches';
-
-        const coPanel = document.createElement('div');
-        coPanel.className = 'co-panel';
-        coPanel.style.display = 'none';
-
-        const coSel = document.createElement('select');
-        coSel.className = 'merge-sel';
-        coSel.innerHTML = `<option value="">— add co-speaker —</option>` +
-          others.map(p => `<option value="${esc(p.xid)}">${esc(p.name || p.xid)}</option>`).join('');
-
-        const coGo = document.createElement('button');
-        coGo.className = 'merge-go';
-        coGo.textContent = 'Add';
-        coGo.onclick = () => {
-          const newId = coSel.value;
-          if (!newId) return;
-          addCoSpeaker(file, id, newId);
-        };
-
-        coPanel.appendChild(coSel);
-        coPanel.appendChild(coGo);
-        item.appendChild(coBtn);
-        item.appendChild(coPanel);
-
-        coBtn.onclick = () => {
-          const open = coPanel.style.display !== 'none';
-          coPanel.style.display = open ? 'none' : 'flex';
-          coBtn.textContent = open ? '⊕' : '✕';
-        };
-      }
     } else {
-      // best-guess merge target: person whose id starts with this id, or vice-versa
-      const bestGuess = persons.find(p => p.xid.startsWith(id) || id.startsWith(p.xid));
+      // best-guess merge target. Prefer a normalized-exact match (hyphen/underscore/
+      // case variants, e.g. "mrs-britt" ↔ "mrs_britt"), then fall back to prefix overlap.
+      const norm = s => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+      const nid  = norm(id);
+      const bestGuess =
+        persons.find(p => norm(p.xid) === nid) ||
+        persons.find(p => norm(p.name) === nid) ||
+        persons.find(p => p.xid.startsWith(id) || id.startsWith(p.xid));
 
       const warn = document.createElement('span');
       warn.className = 'sp-warn';
@@ -1203,25 +1161,32 @@ function renderSpeakersColumn(file) {
 
       const sel = document.createElement('select');
       sel.className = 'merge-sel';
-      sel.innerHTML = `<option value="">— merge into —</option>` +
-        persons.map(p =>
-          `<option value="${esc(p.xid)}" ${p === bestGuess ? 'selected' : ''}>${esc(p.name || p.xid)}</option>`
-        ).join('');
-      if (bestGuess) sel.value = bestGuess.xid; // ensure pre-selection
+      sel.multiple = true;
+      sel.size = Math.min(persons.length, 5);
+      sel.innerHTML = persons.map(p =>
+        `<option value="${esc(p.xid)}" ${p === bestGuess ? 'selected' : ''}>${esc(p.name || p.xid)} · ${esc(p.xid)}</option>`
+      ).join('');
+      sel.title = 'Ctrl+click (Cmd on Mac) to select multiple characters';
+
+      const hint = document.createElement('span');
+      hint.className = 'sp-warn-lbl';
+      hint.style.cssText = 'font-size:10px; font-style:italic; font-weight:400;';
+      hint.textContent = 'Ctrl+click for multiple';
 
       const go = document.createElement('button');
       go.className = 'merge-go';
-      go.textContent = 'Merge';
+      go.textContent = 'Assign';
       go.onclick = () => {
-        const targetId = sel.value;
-        if (!targetId) return;
-        mergeSpeakerWho(file, id, targetId);
+        const targets = [...sel.selectedOptions].map(o => o.value).filter(Boolean);
+        if (!targets.length) return;
+        mergeIntoMultiple(file, id, targets);
         renderPersonsColumn(file);
         renderSpeakersColumn(file);
         markModified(file);
       };
 
       warn.appendChild(sel);
+      warn.appendChild(hint);
       warn.appendChild(go);
       item.appendChild(warn);
     }
@@ -1320,6 +1285,27 @@ function deletePerson(file, xid) {
   if (el) el.parentNode.removeChild(el);
 }
 
+function mergeIntoMultiple(file, fromId, toIds) {
+  _invalidateSpeakers(file);
+  const record = { fromId, toId: toIds[0], toIds, personElClone: null, spoils: [] };
+  const personEl = findPersonEl(file, fromId);
+  if (personEl) record.personElClone = personEl.cloneNode(true);
+
+  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
+    const who = sp.getAttribute('who');
+    if (!who) continue;
+    const ids = who.split(/\s+/);
+    if (!ids.some(w => w.replace(/^#/, '') === fromId)) continue;
+    record.spoils.push({ spEl: sp, oldWho: who });
+    const kept    = ids.filter(w => w.replace(/^#/, '') !== fromId);
+    const updated = [...new Set([...kept, ...toIds.map(id => '#' + id)])];
+    sp.setAttribute('who', updated.join(' '));
+  }
+
+  deletePerson(file, fromId);
+  file.mergeHistory.push(record);
+}
+
 function mergeSpeakerWho(file, fromId, toId) {
   _invalidateSpeakers(file);
   // Snapshot state for undo
@@ -1344,18 +1330,6 @@ function mergeSpeakerWho(file, fromId, toId) {
   file.mergeHistory.push(record);
 }
 
-function addCoSpeaker(file, existingId, newId) {
-  _invalidateSpeakers(file);
-  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
-    const who = sp.getAttribute('who') || '';
-    const ids = who.split(/\s+/).filter(Boolean);
-    if (!ids.some(w => w.replace(/^#/, '') === existingId)) continue;
-    if (ids.some(w => w.replace(/^#/, '') === newId)) continue;
-    sp.setAttribute('who', [...ids, '#' + newId].join(' '));
-  }
-  markModified(file);
-  renderSpeakersColumn(file);
-}
 
 function undoLastMerge(file) {
   const record = file.mergeHistory.pop();
