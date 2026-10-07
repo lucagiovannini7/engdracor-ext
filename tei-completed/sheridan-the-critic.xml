@@ -141,7 +141,7 @@
       <persName>MOTHER</persName>
       <sex value="FEMALE"/>
      </person>
-     <person xml:id="mr_sneer">
+     <person xml:id="sneer">
       <persName>Mr. SNEER</persName>
       <sex value="MALE"/>
      </person>
@@ -759,7 +759,7 @@ make the Stage a court of ease to the Old Bailey.</p>
       <speaker>DANGLE.</speaker>
       <p>It is truly moral.</p>
      </sp>
-     <sp who="servant">
+     <sp who="#servant">
       <stage>Enter SERVANT.</stage>
       <p>Sir Fretful Plagiary, Sir.</p>
      </sp>
@@ -2828,7 +2828,7 @@ stage?</p>
       <speaker>SNEER.</speaker>
       <p>Not exactly.</p>
 	 </sp>
-	 <sp who="earl_of_leicester">
+	 <sp who="#earl_of_leicester">
       <stage>(Earl of Leicester to Puff.)</stage>
       <p>But, Sir, you hav'nt settled how we are to get
 off here.</p>
@@ -2838,7 +2838,7 @@ off here.</p>
       <speaker>PUFF.</speaker>
       <p>You could not go off kneeling, could you?</p>
 	 </sp>
-	 <sp who="sir_walter_raleigh">
+	 <sp who="#sir_walter_raleigh">
       <stage>(Sir Walter to Puff.)</stage>
       <p>O no, Sir! impossible!</p>
      </sp>
@@ -3297,7 +3297,7 @@ hence;</l>
       <speaker>TILBURINA.</speaker>
       <l>Ha!</l>
      </sp>
-     <sp who="whiskerandos">
+     <sp who="#whiskerandos">
       <stage>WISKERANDOS <hi>entering.</hi>
       </stage>
       <l>My beauteous enemy—</l>
