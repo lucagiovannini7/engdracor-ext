@@ -51,6 +51,70 @@ def slugify(s: str) -> str:
     return re.sub(r"-+", "-", s).strip("-")
 
 
+YEAR_RE = re.compile(r"\b(1[4-9]\d{2}|20\d{2})\b")
+
+
+def strip_edition_year(title: str) -> str:
+    """'Brutus Ultor [1886]' / 'The family legend (1851)' -> plain title."""
+    t = re.sub(r"\s+", " ", title or "").strip()
+    t = re.sub(r"[\s,]*[\(\[]\s*(?:1[4-9]\d{2}|20\d{2})[^)\]]*[\)\]]\s*$", "", t)
+    t = re.sub(r"[\s,]+(?:1[4-9]\d{2}|20\d{2})\.?$", "", t)
+    return t.strip(" .,;:")
+
+
+def parse_citation(raw: str) -> dict:
+    """Parse a LION/ProQuest citation string into its parts.
+
+    'Field, Michael: Brutus Ultor [1886]. In: Brutus Ultor.
+     J. Baker & Son--George Bell & Sons: Clifton 1886'
+    """
+    out = {"author": "", "title": "", "container": "",
+           "publisher": "", "pubplace": "", "date": "", "raw": ""}
+    s = re.sub(r"\s+", " ", raw or "").strip()
+    if not s:
+        return out
+    out["raw"] = s
+
+    # author, up to the first colon
+    head, sep, rest = s.partition(":")
+    if sep and len(head) <= 80 and " In" not in head:
+        out["author"] = head.strip(" .,")
+    else:
+        rest = s
+
+    # title, up to ". In:"
+    m = re.split(r"\.?\s+In:\s*", rest, maxsplit=1)
+    out["title"] = strip_edition_year(m[0])
+    if len(m) < 2:
+        return out
+
+    tail = m[1].strip()
+    # the place follows the last colon: "… Longmans: London 1851"
+    left, sep2, place = tail.rpartition(":")
+    if sep2:
+        out["pubplace"] = re.sub(r"[\s,]*(?:1[4-9]\d{2}|20\d{2})\.?$", "", place).strip(" .,")
+    else:
+        left = tail
+    # the container title runs to the first sentence break, the publisher follows
+    cont, sep3, publ = left.partition(". ")
+    if sep3:
+        out["container"], out["publisher"] = cont.strip(" .,"), publ.strip(" .,")
+    else:
+        out["container"] = left.strip(" .,")
+    return out
+
+
+def parse_person_name(raw: str) -> tuple:
+    """'Baillie, Joanna' -> ('Joanna', 'Baillie'); returns ('', '') if unclear."""
+    s = re.sub(r"\s+", " ", raw or "").strip().strip(".,")
+    s = re.sub(r"\s*[\(\[][^)\]]*[\)\]]\s*$", "", s)        # drop life dates
+    s = re.sub(r",\s*(?:1[4-9]\d{2}|20\d{2})\s*-.*$", "", s)
+    if "," in s:
+        sur, _, fore = s.partition(",")
+        return fore.strip(" .,"), sur.strip(" .,")
+    return "", s
+
+
 def get_text(el) -> str:
     """Return all text content of an element (including children), stripped."""
     if el is None:
@@ -88,8 +152,12 @@ def speaker_to_persname(raw: str) -> str:
 
 
 def speaker_to_who(raw: str) -> str:
-    """'Colin.' → '#colin.'"""
-    return "#" + raw.strip().lower()
+    """'Colin.' → '#colin';  '1st. Foot.' → '#foot-1st'.
+
+    Must use exactly the same normalisation as speaker_to_xml_id, otherwise the
+    @who values do not match the @xml:id values generated for <listPerson>.
+    """
+    return "#" + speaker_to_xml_id(raw)
 
 
 def collect_speakers(tree) -> list:
@@ -110,15 +178,79 @@ def collect_speakers(tree) -> list:
 
 # ── Publication year ───────────────────────────────────────────────────────────
 
-def extract_pub_year(tree) -> str:
-    """Extract the original publication year from sourceDesc/biblFull/publicationStmt/date."""
-    el = tree.find(
-        f".//{Q('sourceDesc')}/{Q('biblFull')}/{Q('publicationStmt')}/{Q('date')}"
-    )
-    if el is None:
-        el = tree.find(f".//{Q('sourceDesc')}//{Q('date')}")
-    text = get_text(el)
-    m = re.search(r"\b(\d{4})\b", text)
+def extract_source_desc(tree) -> dict:
+    """Read the source <sourceDesc>, whichever of the two shapes it has.
+
+    ECCO files carry a structured <biblFull>; LION/ProQuest files carry a single
+    <bibl source="..."> whose text is a citation string.  Both are turned into
+    the same dictionary, and the verbatim citation is always kept so that
+    nothing from the original is lost.
+    """
+    info = {"digital_name": "", "digital_url": "", "digital_idno": "",
+            "author": "", "title": "", "container": "", "publisher": "",
+            "pubplace": "", "date": "", "raw": "", "notes": []}
+
+    src_desc = tree.find(f".//{Q('sourceDesc')}")
+    if src_desc is None:
+        return info
+
+    # the file-level publicationStmt of the source holds the digital provenance
+    dist = tree.find(f".//{Q('fileDesc')}/{Q('publicationStmt')}/{Q('distributor')}")
+    info["digital_name"] = get_text(dist)
+    idno = tree.find(f".//{Q('fileDesc')}/{Q('publicationStmt')}/{Q('idno')}")
+    info["digital_idno"] = get_text(idno)
+
+    bib_full = src_desc.find(Q("biblFull"))
+    if bib_full is not None:
+        t245 = bib_full.find(f".//{Q('title')}[@type='245']")
+        if t245 is None:
+            t245 = bib_full.find(f".//{Q('title')}")
+        info["title"] = strip_edition_year(get_text(t245))
+
+        auth_el = bib_full.find(f"{Q('titleStmt')}/{Q('author')}")
+        if auth_el is None:
+            auth_el = bib_full.find(f".//{Q('author')}")
+        info["author"] = get_text(auth_el)
+
+        bpub = bib_full.find(Q("publicationStmt"))
+        if bpub is not None:
+            info["publisher"] = get_text(bpub.find(Q("publisher")))
+            info["date"]      = get_text(bpub.find(Q("date")))
+            info["pubplace"]  = get_text(bpub.find(Q("pubPlace")))
+
+        ns_el = bib_full.find(Q("notesStmt"))
+        if ns_el is not None:
+            info["notes"] = [get_text(n) for n in ns_el.findall(Q("note")) if get_text(n)]
+        info["raw"] = get_text(bib_full)
+
+    # a plain <bibl>, with or without a biblFull beside it
+    bibl = src_desc.find(Q("bibl"))
+    if bibl is not None:
+        info["digital_url"] = bibl.get("source", "") or info["digital_url"]
+        parsed = parse_citation(get_text(bibl))
+        for key in ("author", "title", "container", "publisher", "pubplace"):
+            if not info[key]:
+                info[key] = parsed[key]
+        if not info["raw"]:
+            info["raw"] = parsed["raw"]
+        d = bibl.find(f".//{Q('date')}")
+        if get_text(d):
+            info["date"] = get_text(d)
+
+    if not info["date"]:
+        hits = YEAR_RE.findall(info["raw"])
+        info["date"] = hits[-1] if hits else ""
+    if not info["digital_name"] and info["digital_url"]:
+        info["digital_name"] = "ProQuest"
+    return info
+
+
+def source_year(info: dict) -> str:
+    """Four-digit year of the original print, or 'unknown'."""
+    m = YEAR_RE.search(info.get("date", "") or "")
+    if m:
+        return m.group(1)
+    m = YEAR_RE.search(info.get("raw", "") or "")
     return m.group(1) if m else "unknown"
 
 
@@ -129,68 +261,58 @@ def extract_header_data(tree) -> dict:
     file_desc  = tree.find(f"{Q('teiHeader')}/{Q('fileDesc')}")
     title_stmt = file_desc.find(Q("titleStmt"))
 
+    source = extract_source_desc(tree)
+
+    # ── titles ────────────────────────────────────────────────────────────────
+    # Source files often carry a single untyped <title>; DraCor needs an explicit
+    # type, so the first untyped title becomes "main" and any further ones "sub".
     titles = []
     for t in title_stmt.findall(Q("title")):
-        ttype = t.get("type", "")
-        ttext = get_text(t)
-        if ttype and ttext:
-            titles.append({"type": ttype, "text": ttext})
-
-    author_els = title_stmt.findall(Q("author"))
-
-    surname = ""
-    if author_els:
-        sn_el = author_els[0].find(f".//{Q('surname')}")
-        if sn_el is not None:
-            surname = get_text(sn_el)
-        if not surname:
-            surname = get_text(author_els[0]).split(",")[0].strip()
+        ttext = strip_edition_year(get_text(t))
+        if ttext:
+            titles.append({"type": t.get("type", ""), "text": ttext})
+    if not any(t["type"] == "main" for t in titles):
+        for t in titles:
+            if not t["type"]:
+                t["type"] = "main"
+                break
+    for t in titles:
+        if not t["type"]:
+            t["type"] = "sub"
 
     title_main = next((t["text"] for t in titles if t["type"] == "main"), "")
 
-    ecco_pub = file_desc.find(Q("publicationStmt"))
+    # fall back to the title recorded in the source description
+    if not title_main and source["title"]:
+        title_main = source["title"]
+        titles.insert(0, {"type": "main", "text": title_main})
 
-    src_desc = file_desc.find(Q("sourceDesc"))
-    bib_full = src_desc.find(Q("biblFull")) if src_desc is not None else None
+    # ── authors ───────────────────────────────────────────────────────────────
+    authors = []
+    for a in title_stmt.findall(Q("author")):
+        raw = get_text(a)
+        if not raw:
+            continue
+        fore, sur = parse_person_name(raw)
+        authors.append({"raw": raw, "forename": fore, "surname": sur,
+                        "element": copy.deepcopy(a)})
+    if not authors and source["author"]:
+        fore, sur = parse_person_name(source["author"])
+        authors.append({"raw": source["author"], "forename": fore,
+                        "surname": sur, "element": None})
 
-    bib_name = bib_author = bib_publisher = bib_date = bib_pubplace = ""
-    bib_notes: list = []
-
-    if bib_full is not None:
-        t245 = bib_full.find(f".//{Q('title')}[@type='245']")
-        if t245 is None:
-            t245 = bib_full.find(f".//{Q('title')}")
-        bib_name = get_text(t245)
-
-        auth_el = bib_full.find(f"{Q('titleStmt')}/{Q('author')}")
-        if auth_el is None:
-            auth_el = bib_full.find(f".//{Q('author')}")
-        bib_author = get_text(auth_el)
-
-        bpub = bib_full.find(Q("publicationStmt"))
-        if bpub is not None:
-            bib_publisher = get_text(bpub.find(Q("publisher")))
-            bib_date      = get_text(bpub.find(Q("date")))
-            bib_pubplace  = get_text(bpub.find(Q("pubPlace")))
-
-        ns_el = bib_full.find(Q("notesStmt"))
-        if ns_el is not None:
-            bib_notes = [
-                get_text(n) for n in ns_el.findall(Q("note")) if get_text(n)
-            ]
+    surname = ""
+    if authors:
+        sn_el = title_stmt.find(f".//{Q('author')}//{Q('surname')}")
+        surname = get_text(sn_el) or authors[0]["surname"] or authors[0]["raw"]
 
     return {
-        "titles":        titles,
-        "author_els":    author_els,
-        "surname":       surname,
-        "title_main":    title_main,
-        "ecco_pub":      ecco_pub,
-        "bib_name":      bib_name,
-        "bib_author":    bib_author,
-        "bib_publisher": bib_publisher,
-        "bib_date":      bib_date,
-        "bib_pubplace":  bib_pubplace,
-        "bib_notes":     bib_notes,
+        "titles":     titles,
+        "title_main": title_main,
+        "authors":    authors,
+        "surname":    surname,
+        "source":     source,
+        "pub_year":   source_year(source),
     }
 
 
@@ -329,8 +451,19 @@ def build_new_header(data: dict, speakers: list, sex_map: dict):
         tel = etree.SubElement(ts, Q("title"))
         tel.set("type", t["type"])
         tel.text = t["text"]
-    for auel in data["author_els"]:
-        ts.append(copy.deepcopy(auel))
+    for a in data["authors"]:
+        ael = etree.SubElement(ts, Q("author"))
+        if a["surname"]:
+            pn = etree.SubElement(ael, Q("persName"))
+            if a["forename"]:
+                fe = etree.SubElement(pn, Q("forename"))
+                fe.text = a["forename"]
+            se = etree.SubElement(pn, Q("surname"))
+            se.text = a["surname"]
+        elif a["element"] is not None:
+            ael.getparent().replace(ael, copy.deepcopy(a["element"]))
+        else:
+            ael.text = a["raw"]
 
     # publicationStmt — static DraCor block
     ps  = etree.SubElement(fd, Q("publicationStmt"))
@@ -348,31 +481,60 @@ def build_new_header(data: dict, speakers: list, sex_map: dict):
     ref.set("target", "https://creativecommons.org/licenses/by/4.0/deed.en")
     ref.text = "Licence"
 
-    # sourceDesc
-    sd = etree.SubElement(fd, Q("sourceDesc"))
+    # sourceDesc — two bibls, as DraCor expects
+    sd  = etree.SubElement(fd, Q("sourceDesc"))
+    src = data["source"]
 
-    # bibl[@type="digitalSource"]
-    bibl = etree.SubElement(sd, Q("bibl"))
-    bibl.set("type", "digitalSource")
-    for tag, val in [
-        ("name",      data["bib_name"]),
-        ("author",    data["bib_author"]),
-        ("publisher", data["bib_publisher"]),
-        ("date",      data["bib_date"]),
-        ("pubPlace",  data["bib_pubplace"]),
-    ]:
-        if val:
-            el = etree.SubElement(bibl, Q(tag))
-            el.text = val
-    for note_text in data["bib_notes"]:
-        nel = etree.SubElement(bibl, Q("note"))
-        nel.text = note_text
+    # bibl[@type="digitalSource"] — where the electronic text came from
+    dig = etree.SubElement(sd, Q("bibl"))
+    dig.set("type", "digitalSource")
+    if src["digital_name"]:
+        el = etree.SubElement(dig, Q("name"))
+        el.text = src["digital_name"]
+    if src["digital_url"]:
+        el = etree.SubElement(dig, Q("idno"))
+        el.set("type", "URL")
+        el.text = src["digital_url"]
+    if src["digital_idno"]:
+        el = etree.SubElement(dig, Q("idno"))
+        el.set("type", "proquest")
+        el.text = src["digital_idno"]
 
-    # biblFull[@n="printed source"] — wraps the original ECCO publicationStmt
-    bf = etree.SubElement(sd, Q("biblFull"))
-    bf.set("n", "printed source")
-    if data["ecco_pub"] is not None:
-        bf.append(copy.deepcopy(data["ecco_pub"]))
+    # bibl[@type="originalSource"] — the print the text goes back to.
+    # The verbatim citation of the source file is kept in a <note> so that
+    # nothing of the original sourceDesc is lost in the conversion.
+    orig = etree.SubElement(sd, Q("bibl"))
+    orig.set("type", "originalSource")
+    if src["author"]:
+        el = etree.SubElement(orig, Q("author"))
+        el.text = src["author"]
+    if src["title"] or data["title_main"]:
+        el = etree.SubElement(orig, Q("title"))
+        el.set("type", "main")
+        el.text = src["title"] or data["title_main"]
+    if src["container"] and src["container"] != src["title"]:
+        el = etree.SubElement(orig, Q("title"))
+        el.set("type", "volume")
+        el.text = src["container"]
+    if src["publisher"]:
+        el = etree.SubElement(orig, Q("publisher"))
+        el.text = src["publisher"]
+    if src["pubplace"]:
+        el = etree.SubElement(orig, Q("pubPlace"))
+        el.text = src["pubplace"]
+    year = data["pub_year"]
+    if year != "unknown":
+        el = etree.SubElement(orig, Q("date"))
+        el.set("type", "print")
+        el.set("when", year)
+        el.text = year
+    for note_text in src["notes"]:
+        el = etree.SubElement(orig, Q("note"))
+        el.text = note_text
+    if src["raw"]:
+        el = etree.SubElement(orig, Q("note"))
+        el.set("type", "citation")
+        el.text = src["raw"]
 
     # ── profileDesc ───────────────────────────────────────────────────────────
     pd   = etree.SubElement(hdr, Q("profileDesc"))
@@ -596,7 +758,7 @@ def process_file(src_path: str) -> tuple:
     data     = extract_header_data(tree)
     speakers = collect_speakers(tree)
     sex_map  = build_dp_sex_map(tree)   # must run before rename_divs
-    pub_year = extract_pub_year(tree)
+    pub_year = data["pub_year"]
 
     # 2. Body transformations
     rename_divs(root)
@@ -610,8 +772,13 @@ def process_file(src_path: str) -> tuple:
     root.remove(old_hdr)
     root.insert(idx, new_hdr)
 
-    # 4. Set xml:id on root <TEI>
+    # 4. Set xml:id and xml:lang on root <TEI>
     root.set(QX("id"), "placeholder-id")
+    lang = ""
+    lang_el = tree.find(f".//{Q('langUsage')}/{Q('language')}")
+    if lang_el is not None:
+        lang = (lang_el.get("ident") or "").strip()
+    root.set(QX("lang"), lang or "eng")
 
     # 5. Insert <standOff> immediately after <teiHeader>
     hdr_idx = list(root).index(new_hdr)

@@ -515,6 +515,8 @@
             listPerson
             <span class="col-badge" id="persons-n">0</span>
             <button class="btn col-action" onclick="addPerson()">+ Add</button>
+            <button class="btn col-action" onclick="clearPersons()" id="clear-persons-btn"
+                    title="Delete every person and personGrp in listPerson">Clear all</button>
           </div>
           <div class="col-body" id="persons-body"></div>
         </div>
@@ -1375,6 +1377,40 @@ function addPerson() {
   el.appendChild(sexEl);
   lp.appendChild(el);
 
+  markModified(file);
+  renderPersonsColumn(file);
+  renderSpeakersColumn(file);
+}
+
+// ── Clear the whole listPerson ────────────────────────────────────────────────
+// The entries are generated automatically by the conversion script, from the
+// speaker labels in the text.  When they are wrong wholesale it is quicker to
+// drop them all and rebuild the list from the castList than to delete them
+// one by one.  @who attributes in the text are left untouched, so validation
+// will list every speaker that now needs a character again.
+function clearPersons() {
+  if (currentIdx < 0) return;
+  const file = allFiles[currentIdx];
+  const lp = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
+  if (!lp) { alert('This file has no listPerson.'); return; }
+
+  const victims = [];
+  for (const el of Array.from(lp.children)) {
+    const ln = el.localName;
+    if (ln === 'person' || ln === 'personGrp') victims.push(el);
+  }
+  if (!victims.length) { alert('listPerson is already empty.'); return; }
+
+  const ok = confirm(
+    `Delete all ${victims.length} entries from listPerson?\n\n` +
+    `The @who attributes in the text are kept, so every speaker will be ` +
+    `reported as unmatched until you add the characters again.\n\n` +
+    `This cannot be undone — reload the file to get them back.`
+  );
+  if (!ok) return;
+
+  victims.forEach(el => el.parentNode.removeChild(el));
+  if (typeof _invalidateSpeakers === 'function') _invalidateSpeakers(file);
   markModified(file);
   renderPersonsColumn(file);
   renderSpeakersColumn(file);
