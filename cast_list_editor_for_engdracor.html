@@ -325,6 +325,34 @@
       transition: filter .12s; flex-shrink: 0;
     }
     .type-pill:hover { filter: brightness(.92); }
+    /* duplicate warning on a person card */
+    .pcard.is-dup { border-color: #f59e0b; background: #fffbeb; }
+    .dup-pill {
+      font-size: 10px; font-weight: 600; padding: 1px 7px; border-radius: 10px;
+      border: 1px solid #f59e0b; color: #92400e; background: #fef3c7;
+      cursor: pointer; white-space: nowrap;
+    }
+    .dup-note {
+      font-size: 11px; color: #92400e; margin-top: 4px; display: flex;
+      align-items: center; gap: 6px; flex-wrap: wrap;
+    }
+    .dup-note button {
+      font: inherit; font-size: 11px; border: 1px solid #f59e0b; background: #fff;
+      color: #92400e; border-radius: 4px; padding: 1px 7px; cursor: pointer;
+    }
+    .dup-note button:hover { background: #fef3c7; }
+    .pcard.flash { animation: flash 1.1s ease-out; }
+    @keyframes flash { 0%,40% { background: #fde68a; } 100% { background: transparent; } }
+
+    /* type-to-filter box above an assign list */
+    .sel-filter {
+      font: inherit; font-size: 11px; width: 100%; box-sizing: border-box;
+      padding: 3px 7px; margin-bottom: 3px;
+      border: 1px solid var(--border); border-radius: 4px;
+    }
+    .sel-filter:focus { outline: none; border-color: #2563eb; }
+    .sel-count { font-size: 10px; color: var(--dim); font-style: italic; }
+
     .type-pill.person    { color: #1e40af; border-color: #93c5fd; background: #dbeafe; }
     .type-pill.personGrp { color: #92400e; border-color: #fcd34d; background: #fef3c7; }
 
@@ -668,6 +696,46 @@ function renderCastColumn(file) {
 }
 
 // ── listPerson ────────────────────────────────────────────────────────────────
+// ── Duplicate detection ───────────────────────────────────────────────────────
+// Plays with 40+ characters make it easy to add the same person twice.  Two
+// entries count as the same character when their names, or their ids, are equal
+// once case, spaces and punctuation are ignored.
+function normKey(s) {
+  return (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+}
+
+/** Map of normalised key -> array of persons sharing it (length > 1 only). */
+function duplicateGroups(persons) {
+  const byKey = new Map();
+  for (const p of persons) {
+    const key = normKey(p.name) || normKey(p.xid);
+    if (!key) continue;
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push(p);
+  }
+  const dups = new Map();
+  for (const [k, list] of byKey) if (list.length > 1) dups.set(k, list);
+  return dups;
+}
+
+/** The existing person that `name`/`xid` would duplicate, or null. */
+function findExistingPerson(persons, name, xid, excludeXid) {
+  const nk = normKey(name), ik = normKey(xid);
+  return persons.find(p =>
+    p.xid !== excludeXid && ((nk && normKey(p.name) === nk) || (ik && normKey(p.xid) === ik))
+  ) || null;
+}
+
+/** Scroll a person card into view and flash it. */
+function highlightPerson(xid) {
+  const card = document.getElementById(`pc-${xid}`);
+  if (!card) return;
+  try { card.scrollIntoView({ block: 'center', behavior: 'smooth' }); } catch (e) { }
+  card.classList.remove('flash');
+  void card.offsetWidth;
+  card.classList.add('flash');
+}
+
 function getPersons(file) {
   const lp = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
   if (!lp) return [];
@@ -694,15 +762,20 @@ function renderPersonsColumn(file) {
   document.getElementById('persons-n').textContent = persons.length;
   body.innerHTML = '';
   if (!persons.length) { body.innerHTML = '<p class="empty">No listPerson found</p>'; return; }
-  for (const p of persons) body.appendChild(buildPersonCard(file, p));
+  const dups = duplicateGroups(persons);
+  for (const p of persons) {
+    const key   = normKey(p.name) || normKey(p.xid);
+    const group = dups.get(key) || null;
+    body.appendChild(buildPersonCard(file, p, group));
+  }
 }
 
-function buildPersonCard(file, { xid, name, sex, type }) {
+function buildPersonCard(file, { xid, name, sex, type }, dupGroup) {
   let currentSex  = sex;
   let currentType = type;
 
   const card = document.createElement('div');
-  card.className = 'pcard';
+  card.className = 'pcard' + (dupGroup ? ' is-dup' : '');
   card.id = `pc-${xid}`;
 
   // ── top row: [name editable] [sex] [type] [×] ──
@@ -711,6 +784,11 @@ function buildPersonCard(file, { xid, name, sex, type }) {
 
   // name (editable) — auto-syncs xml:id to nameToId(newName) on commit
   const nameEdit = makeEditable(name, newName => {
+    const clash = findExistingPerson(getPersons(file), newName, nameToId(newName), xid);
+    if (clash && !confirm(
+      `"${clash.name || clash.xid}" (id: ${clash.xid}) is already in the list.\n\n` +
+      `Rename this entry anyway?  You will then have two entries for the same character.`
+    )) { renderPersonsColumn(file); return; }
     updatePersonName(file, xid, newName);
     const derived = nameToId(newName);
     if (derived && derived !== xid && isValidId(derived)) {
@@ -758,13 +836,27 @@ function buildPersonCard(file, { xid, name, sex, type }) {
   };
   top.appendChild(typePill);
 
+  // duplicate badge — appears when another entry has the same name or id
+  if (dupGroup) {
+    const dupPill = document.createElement('span');
+    dupPill.className = 'dup-pill';
+    dupPill.textContent = `⚠ ${dupGroup.length}×`;
+    dupPill.title = 'This character appears more than once in listPerson';
+    top.appendChild(dupPill);
+  }
+
   // delete
   const delBtn = document.createElement('button');
   delBtn.className = 'ibtn del';
   delBtn.textContent = '×';
   delBtn.title = 'Remove from listPerson';
   delBtn.onclick = () => {
-    if (confirm(`Remove "${name}" (${xid})?`)) {
+    const uses = whoBearers(file).filter(n =>
+      n.getAttribute('who').split(/\s+/).some(w => w.replace(/^#/, '') === xid)).length;
+    const warn = uses
+      ? `\n\n${uses} speech${uses === 1 ? '' : 'es'} point at #${xid} and will be left unmatched.`
+      : '';
+    if (confirm(`Remove "${name}" (${xid})?${warn}`)) {
       deletePerson(file, xid);
       renderPersonsColumn(file);
       renderSpeakersColumn(file);
@@ -806,6 +898,34 @@ function buildPersonCard(file, { xid, name, sex, type }) {
   };
   idRow.appendChild(syncBtn);
   card.appendChild(idRow);
+
+  // duplicate note: jump to the other entries, or merge this one into the first
+  if (dupGroup) {
+    const others = dupGroup.filter(p => p.xid !== xid);
+    const note = document.createElement('div');
+    note.className = 'dup-note';
+    note.appendChild(Object.assign(document.createElement('span'),
+      { textContent: 'Also listed as:' }));
+    others.forEach(o => {
+      const b = document.createElement('button');
+      b.textContent = o.xid;
+      b.title = 'Show that entry';
+      b.onclick = () => highlightPerson(o.xid);
+      note.appendChild(b);
+    });
+    const mergeBtn = document.createElement('button');
+    mergeBtn.textContent = '⇢ merge into ' + others[0].xid;
+    mergeBtn.title = 'Move every @who of this entry to ' + others[0].xid + ' and delete this one';
+    mergeBtn.onclick = () => {
+      if (!confirm(`Merge "${xid}" into "${others[0].xid}"?\n\nEvery @who pointing at ${xid} will point at ${others[0].xid} instead, and this entry is removed.`)) return;
+      mergeIntoMultiple(file, xid, [others[0].xid]);
+      renderPersonsColumn(file);
+      renderSpeakersColumn(file);
+      markModified(file);
+    };
+    note.appendChild(mergeBtn);
+    card.appendChild(note);
+  }
 
   return card;
 }
@@ -1164,22 +1284,67 @@ function renderSpeakersColumn(file) {
       const sel = document.createElement('select');
       sel.className = 'merge-sel';
       sel.multiple = true;
-      sel.size = Math.min(persons.length, 5);
-      sel.innerHTML = persons.map(p =>
-        `<option value="${esc(p.xid)}" ${p === bestGuess ? 'selected' : ''}>${esc(p.name || p.xid)} · ${esc(p.xid)}</option>`
-      ).join('');
+      sel.size = Math.min(Math.max(persons.length, 2), 6);
       sel.title = 'Ctrl+click (Cmd on Mac) to select multiple characters';
+
+      // Long cast lists are tedious to scroll, so the list can be narrowed by
+      // typing.  Characters already chosen stay selected while filtering.
+      const chosen = new Set(bestGuess ? [bestGuess.xid] : []);
+
+      const countLbl = document.createElement('span');
+      countLbl.className = 'sel-count';
+
+      const paint = term => {
+        const t = normKey(term);
+        const shown = t
+          ? persons.filter(p => normKey(p.name).includes(t) || normKey(p.xid).includes(t))
+          : persons;
+        sel.innerHTML = shown.map(p =>
+          `<option value="${esc(p.xid)}"${chosen.has(p.xid) ? ' selected' : ''}>` +
+          `${esc(p.name || p.xid)} · ${esc(p.xid)}</option>`
+        ).join('');
+        if (!shown.length) {
+          sel.innerHTML = '<option disabled>no character matches</option>';
+        }
+        countLbl.textContent = t
+          ? `${shown.length} of ${persons.length}` + (chosen.size ? ` · ${chosen.size} selected` : '')
+          : (chosen.size ? `${chosen.size} selected` : '');
+      };
+
+      const filter = document.createElement('input');
+      filter.className = 'sel-filter';
+      filter.type = 'search';
+      filter.placeholder = persons.length > 8
+        ? `type to search ${persons.length} characters…` : 'type to search…';
+      filter.oninput = () => paint(filter.value);
+      // Enter assigns straight away when the filter leaves exactly one match
+      filter.onkeydown = e => {
+        if (e.key !== 'Enter') return;
+        e.preventDefault();
+        const opts = [...sel.options].filter(o => !o.disabled);
+        if (opts.length === 1) { chosen.add(opts[0].value); paint(filter.value); go.click(); }
+        else if (opts.length) { opts[0].selected = true; chosen.add(opts[0].value); paint(filter.value); }
+      };
+      // keep the chosen set in step with what the user clicks
+      sel.onchange = () => {
+        [...sel.options].forEach(o => {
+          if (o.disabled) return;
+          if (o.selected) chosen.add(o.value); else chosen.delete(o.value);
+        });
+        paint(filter.value);
+      };
+      paint('');
 
       const hint = document.createElement('span');
       hint.className = 'sp-warn-lbl';
       hint.style.cssText = 'font-size:10px; font-style:italic; font-weight:400;';
-      hint.textContent = 'Ctrl+click for multiple';
+      hint.textContent = 'type to search · Ctrl+click for multiple';
 
       const go = document.createElement('button');
       go.className = 'merge-go';
       go.textContent = 'Assign';
       go.onclick = () => {
-        const targets = [...sel.selectedOptions].map(o => o.value).filter(Boolean);
+        const targets = [...chosen].filter(Boolean);
         if (!targets.length) return;
         mergeIntoMultiple(file, id, targets);
         renderPersonsColumn(file);
@@ -1187,7 +1352,9 @@ function renderSpeakersColumn(file) {
         markModified(file);
       };
 
+      warn.appendChild(filter);
       warn.appendChild(sel);
+      warn.appendChild(countLbl);
       warn.appendChild(hint);
       warn.appendChild(go);
       item.appendChild(warn);
@@ -1267,18 +1434,26 @@ function togglePersonType(file, xid, newType) {
   el.parentNode.replaceChild(newEl, el);
 }
 
+/** Every element carrying @who — <sp>, but also <stage>, <said>, <move>. */
+function whoBearers(file) {
+  const out = [];
+  for (const el of file.doc.getElementsByTagNameNS(TEI, '*')) {
+    if (el.hasAttribute('who')) out.push(el);
+  }
+  return out;
+}
+
 function renamePersonId(file, oldId, newId) {
   _invalidateSpeakers(file);
   const el = findPersonEl(file, oldId);
   if (!el) return;
   el.setAttributeNS(XML_NS, 'xml:id', newId);
-  // Rewrite all @who references
-  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
-    const who = sp.getAttribute('who');
-    if (!who) continue;
-    const ids = who.split(/\s+/);
+  // Rewrite @who everywhere, not only on <sp>: a stage direction pointing at
+  // the old id would otherwise be left dangling.
+  for (const node of whoBearers(file)) {
+    const ids = node.getAttribute('who').split(/\s+/);
     if (!ids.some(w => w.replace(/^#/, '') === oldId)) continue;
-    sp.setAttribute('who', ids.map(w => w.replace(/^#/, '') === oldId ? '#' + newId : w).join(' '));
+    node.setAttribute('who', ids.map(w => w.replace(/^#/, '') === oldId ? '#' + newId : w).join(' '));
   }
 }
 
@@ -1293,50 +1468,24 @@ function mergeIntoMultiple(file, fromId, toIds) {
   const personEl = findPersonEl(file, fromId);
   if (personEl) record.personElClone = personEl.cloneNode(true);
 
-  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
-    const who = sp.getAttribute('who');
-    if (!who) continue;
+  for (const node of whoBearers(file)) {
+    const who = node.getAttribute('who');
     const ids = who.split(/\s+/);
     if (!ids.some(w => w.replace(/^#/, '') === fromId)) continue;
-    record.spoils.push({ spEl: sp, oldWho: who });
+    record.spoils.push({ spEl: node, oldWho: who });
     const kept    = ids.filter(w => w.replace(/^#/, '') !== fromId);
     const updated = [...new Set([...kept, ...toIds.map(id => '#' + id)])];
-    sp.setAttribute('who', updated.join(' '));
+    node.setAttribute('who', updated.join(' '));
   }
 
   deletePerson(file, fromId);
   file.mergeHistory.push(record);
 }
-
-function mergeSpeakerWho(file, fromId, toId) {
-  _invalidateSpeakers(file);
-  // Snapshot state for undo
-  const record = { fromId, toId, personElClone: null, spoils: [] };
-  const personEl = findPersonEl(file, fromId);
-  if (personEl) record.personElClone = personEl.cloneNode(true);
-
-  // Rewrite all @who: replace fromId → toId, deduplicate
-  for (const sp of file.doc.getElementsByTagNameNS(TEI, 'sp')) {
-    const who = sp.getAttribute('who');
-    if (!who) continue;
-    const ids = who.split(/\s+/);
-    if (!ids.some(w => w.replace(/^#/, '') === fromId)) continue;
-    record.spoils.push({ spEl: sp, oldWho: who });
-    const updated = [...new Set(ids.map(w => w.replace(/^#/, '') === fromId ? '#' + toId : w))];
-    sp.setAttribute('who', updated.join(' '));
-  }
-
-  // Remove orphaned person entry (if fromId was in listPerson)
-  deletePerson(file, fromId);
-
-  file.mergeHistory.push(record);
-}
-
 
 function undoLastMerge(file) {
+  if (!file.mergeHistory?.length) return;
   const record = file.mergeHistory.pop();
   _invalidateSpeakers(file);
-  if (!record) return;
 
   // Restore all @who values
   for (const { spEl, oldWho } of record.spoils) {
@@ -1361,16 +1510,36 @@ function undoLastMerge(file) {
 function addPerson() {
   if (currentIdx < 0) return;
   const file = allFiles[currentIdx];
-  const name = prompt('New character name:');
-  if (!name?.trim()) return;
-  const xid  = nameToId(name.trim());
-  const lp   = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
+  const raw  = prompt('New character name:');
+  if (!raw?.trim()) return;
+  const name = raw.trim();
+  let   xid  = nameToId(name);
+
+  const persons = getPersons(file);
+
+  // Already there?  Say so and offer to show it instead of adding a second one.
+  const existing = findExistingPerson(persons, name, xid);
+  if (existing) {
+    const again = confirm(
+      `"${existing.name || existing.xid}" is already in the character list ` +
+      `(id: ${existing.xid}).\n\n` +
+      `OK — show me that entry\n` +
+      `Cancel — add "${name}" as a separate character anyway`
+    );
+    if (again) { highlightPerson(existing.xid); return; }
+    // keep going, but never reuse the id: a duplicate @xml:id breaks ingestion
+    let n = 2;
+    while (persons.some(p => p.xid === `${xid}-${n}`)) n++;
+    xid = `${xid}-${n}`;
+  }
+
+  const lp = file.doc.getElementsByTagNameNS(TEI, 'listPerson')[0];
   if (!lp) return;
 
   const el     = file.doc.createElementNS(TEI, 'person');
   el.setAttributeNS(XML_NS, 'xml:id', xid);
   const nameEl = file.doc.createElementNS(TEI, 'persName');
-  nameEl.textContent = name.trim();
+  nameEl.textContent = name;
   el.appendChild(nameEl);
   const sexEl = file.doc.createElementNS(TEI, 'sex');
   sexEl.setAttribute('value', 'UNKNOWN');
@@ -1380,6 +1549,7 @@ function addPerson() {
   markModified(file);
   renderPersonsColumn(file);
   renderSpeakersColumn(file);
+  highlightPerson(xid);
 }
 
 // ── Clear the whole listPerson ────────────────────────────────────────────────
@@ -1466,14 +1636,22 @@ function makeEditable(initialText, onSave, { mono = false, validate = null } = {
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function nameToId(name) {
-  return name.trim().toLowerCase()
+  let id = (name || '').trim().toLowerCase()
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_+|_+$/g, '');
+  // An XML name cannot begin with a digit, so a leading ordinal moves to the
+  // end — "1st Foot" becomes "foot-1st", matching the conversion script.
+  if (/^\d/.test(id)) {
+    const m = id.match(/^(\d+(?:st|nd|rd|th|d)?)_?(.*)$/);
+    if (m) id = m[2] ? `${m[2]}-${m[1]}` : `sp-${m[1]}`;
+    else id = 'x-' + id;
+  }
+  return id;
 }
 function isValidId(id) {
-  return /^[a-z0-9][a-z0-9_-]*$/.test(id);
+  return /^[a-z][a-z0-9_-]*$/.test(id);
 }
-const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
 // ── Toolbar ───────────────────────────────────────────────────────────────────
 function updateToolbar() {
@@ -1577,7 +1755,9 @@ async function doDownload(files) {
   const ser = new XMLSerializer();
   const serialize = doc => {
     let xml = ser.serializeToString(doc);
-    return xml.startsWith('<?xml') ? xml : '<?xml version="1.0" encoding="UTF-8"?>\n' + xml;
+    // NB: a DraCor file starts with <?xml-model …?>, which also begins with
+    // "<?xml" — testing for that prefix dropped the declaration entirely.
+    return /^<\?xml\s+version/.test(xml) ? xml : '<?xml version="1.0" encoding="UTF-8"?>\n' + xml;
   };
   if (typeof JSZip !== 'undefined') {
     const zip = new JSZip();
